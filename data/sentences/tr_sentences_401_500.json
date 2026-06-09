@@ -1,0 +1,602 @@
+[
+  {
+    "id": 401,
+    "tr": "Bu tehlikeli.",
+    "en": "It is dangerous.",
+    "category": "Uyarı"
+  },
+  {
+    "id": 402,
+    "tr": "Cesur ol.",
+    "en": "Be brave.",
+    "category": "Motivasyon"
+  },
+  {
+    "id": 403,
+    "tr": "Korkma.",
+    "en": "Don't be afraid.",
+    "category": "Rahatlatma"
+  },
+  {
+    "id": 404,
+    "tr": "Korkuyorum.",
+    "en": "I am scared.",
+    "category": "Duygu"
+  },
+  {
+    "id": 405,
+    "tr": "Burası güvenli.",
+    "en": "It is safe here.",
+    "category": "Durum"
+  },
+  {
+    "id": 406,
+    "tr": "Kimin umurunda?",
+    "en": "Who cares?",
+    "category": "Tutum"
+  },
+  {
+    "id": 407,
+    "tr": "Ciddiyim.",
+    "en": "I am serious.",
+    "category": "Tutum"
+  },
+  {
+    "id": 408,
+    "tr": "Şaka mı yapıyorsun?",
+    "en": "Are you kidding?",
+    "category": "Soru"
+  },
+  {
+    "id": 409,
+    "tr": "Kendi işine bak.",
+    "en": "Mind your own business.",
+    "category": "İletişim"
+  },
+  {
+    "id": 410,
+    "tr": "Onu bana bırak.",
+    "en": "Leave it to me.",
+    "category": "Eylem"
+  },
+  {
+    "id": 411,
+    "tr": "Söz veriyorum.",
+    "en": "I promise.",
+    "category": "Güven"
+  },
+  {
+    "id": 412,
+    "tr": "İyi şanslar / Başarılar.",
+    "en": "Break a leg.",
+    "category": "Dilek"
+  },
+  {
+    "id": 413,
+    "tr": "Adım adım.",
+    "en": "Step by step.",
+    "category": "Süreç"
+  },
+  {
+    "id": 414,
+    "tr": "Kurallara uy.",
+    "en": "Follow the rules.",
+    "category": "Uyarı"
+  },
+  {
+    "id": 415,
+    "tr": "Bu yasa dışı.",
+    "en": "It is illegal.",
+    "category": "Durum"
+  },
+  {
+    "id": 416,
+    "tr": "Dikkat et.",
+    "en": "Pay attention.",
+    "category": "Eylem"
+  },
+  {
+    "id": 417,
+    "tr": "Buna odaklan.",
+    "en": "Focus on this.",
+    "category": "Eylem"
+  },
+  {
+    "id": 418,
+    "tr": "Onları görmezden gel.",
+    "en": "Ignore them.",
+    "category": "Tutum"
+  },
+  {
+    "id": 419,
+    "tr": "Fikrini değiştir.",
+    "en": "Change your mind.",
+    "category": "Düşünce"
+  },
+  {
+    "id": 420,
+    "tr": "Bir karar ver.",
+    "en": "Make a decision.",
+    "category": "Eylem"
+  },
+  {
+    "id": 421,
+    "tr": "Birini seç.",
+    "en": "Choose one.",
+    "category": "Eylem"
+  },
+  {
+    "id": 422,
+    "tr": "Bunu seçiyorum.",
+    "en": "I choose this.",
+    "category": "Tercih"
+  },
+  {
+    "id": 423,
+    "tr": "Senin sıran.",
+    "en": "It is your turn.",
+    "category": "Oyun / Sıra"
+  },
+  {
+    "id": 424,
+    "tr": "Zarları at.",
+    "en": "Roll the dice.",
+    "category": "Oyun"
+  },
+  {
+    "id": 425,
+    "tr": "Ben kazandım.",
+    "en": "I win.",
+    "category": "Oyun / Sonuç"
+  },
+  {
+    "id": 426,
+    "tr": "Sen kaybettin.",
+    "en": "You lose.",
+    "category": "Oyun / Sonuç"
+  },
+  {
+    "id": 427,
+    "tr": "Şansını dene.",
+    "en": "Try your luck.",
+    "category": "Oyun"
+  },
+  {
+    "id": 428,
+    "tr": "Oyun bitti.",
+    "en": "Game over.",
+    "category": "Oyun / Sonuç"
+  },
+  {
+    "id": 429,
+    "tr": "Adil oyna.",
+    "en": "Play fair.",
+    "category": "Oyun"
+  },
+  {
+    "id": 430,
+    "tr": "Berabere.",
+    "en": "It is a tie.",
+    "category": "Oyun / Sonuç"
+  },
+  {
+    "id": 431,
+    "tr": "Kağıdı kes.",
+    "en": "Cut the paper.",
+    "category": "Eylem"
+  },
+  {
+    "id": 432,
+    "tr": "Bir çizgi çiz.",
+    "en": "Draw a line.",
+    "category": "Eylem"
+  },
+  {
+    "id": 433,
+    "tr": "Duvarı boya.",
+    "en": "Paint the wall.",
+    "category": "Eylem"
+  },
+  {
+    "id": 434,
+    "tr": "Renkleri karıştır.",
+    "en": "Mix the colors.",
+    "category": "Eylem"
+  },
+  {
+    "id": 435,
+    "tr": "Bir ev inşa et.",
+    "en": "Build a house.",
+    "category": "Eylem"
+  },
+  {
+    "id": 436,
+    "tr": "Köprüyü yık.",
+    "en": "Destroy the bridge.",
+    "category": "Eylem"
+  },
+  {
+    "id": 437,
+    "tr": "Odunu yak.",
+    "en": "Burn the wood.",
+    "category": "Eylem"
+  },
+  {
+    "id": 438,
+    "tr": "Ateşi söndür.",
+    "en": "Put out the fire.",
+    "category": "Eylem"
+  },
+  {
+    "id": 439,
+    "tr": "Bir ağaç dik.",
+    "en": "Plant a tree.",
+    "category": "Eylem"
+  },
+  {
+    "id": 440,
+    "tr": "Bitkileri sula.",
+    "en": "Water the plants.",
+    "category": "Ev İşleri"
+  },
+  {
+    "id": 441,
+    "tr": "Köpeği besle.",
+    "en": "Feed the dog.",
+    "category": "Ev İşleri"
+  },
+  {
+    "id": 442,
+    "tr": "Topu yakala.",
+    "en": "Catch the ball.",
+    "category": "Eylem"
+  },
+  {
+    "id": 443,
+    "tr": "Onu çöpe at.",
+    "en": "Throw it away.",
+    "category": "Eylem"
+  },
+  {
+    "id": 444,
+    "tr": "Onu güvende tut.",
+    "en": "Keep it safe.",
+    "category": "Eylem"
+  },
+  {
+    "id": 445,
+    "tr": "Bunu sakla.",
+    "en": "Hide this.",
+    "category": "Eylem"
+  },
+  {
+    "id": 446,
+    "tr": "Anahtarı bul.",
+    "en": "Find the key.",
+    "category": "Eylem"
+  },
+  {
+    "id": 447,
+    "tr": "Onu buldum.",
+    "en": "I found it.",
+    "category": "Sonuç"
+  },
+  {
+    "id": 448,
+    "tr": "Onu ara.",
+    "en": "Look for it.",
+    "category": "Eylem"
+  },
+  {
+    "id": 449,
+    "tr": "Arıyorum.",
+    "en": "I am searching.",
+    "category": "Eylem"
+  },
+  {
+    "id": 450,
+    "tr": "İnternette ara.",
+    "en": "Search the internet.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 451,
+    "tr": "Şifreyi yaz.",
+    "en": "Type the password.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 452,
+    "tr": "Enter'a bas.",
+    "en": "Press enter.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 453,
+    "tr": "Sistemi yeniden başlat.",
+    "en": "Restart the system.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 454,
+    "tr": "Yazılımı güncelle.",
+    "en": "Update the software.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 455,
+    "tr": "Dosyayı sil.",
+    "en": "Delete the file.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 456,
+    "tr": "Çalışmanı kaydet.",
+    "en": "Save your work.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 457,
+    "tr": "Kopyala ve yapıştır.",
+    "en": "Copy and paste.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 458,
+    "tr": "Bağlantıyı paylaş.",
+    "en": "Share the link.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 459,
+    "tr": "Sesi aç.",
+    "en": "Turn up the volume.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 460,
+    "tr": "Sesi kıs.",
+    "en": "Turn down the volume.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 461,
+    "tr": "Çok gürültülü.",
+    "en": "It is too loud.",
+    "category": "Duyum"
+  },
+  {
+    "id": 462,
+    "tr": "Çok sessiz.",
+    "en": "It is too quiet.",
+    "category": "Duyum"
+  },
+  {
+    "id": 463,
+    "tr": "Bunu kokla.",
+    "en": "Smell this.",
+    "category": "Duyum"
+  },
+  {
+    "id": 464,
+    "tr": "Kötü kokuyor.",
+    "en": "It smells bad.",
+    "category": "Duyum"
+  },
+  {
+    "id": 465,
+    "tr": "Güzel kokuyor.",
+    "en": "It smells good.",
+    "category": "Duyum"
+  },
+  {
+    "id": 466,
+    "tr": "Ona dokun.",
+    "en": "Touch it.",
+    "category": "Duyum"
+  },
+  {
+    "id": 467,
+    "tr": "Bu yumuşak.",
+    "en": "It is soft.",
+    "category": "His"
+  },
+  {
+    "id": 468,
+    "tr": "Bu sert.",
+    "en": "It is hard.",
+    "category": "His"
+  },
+  {
+    "id": 469,
+    "tr": "Bu ağır.",
+    "en": "It is heavy.",
+    "category": "Fiziksel Özellik"
+  },
+  {
+    "id": 470,
+    "tr": "Bu hafif.",
+    "en": "It is light.",
+    "category": "Fiziksel Özellik"
+  },
+  {
+    "id": 471,
+    "tr": "Hareket etme.",
+    "en": "Don't move.",
+    "category": "Uyarı"
+  },
+  {
+    "id": 472,
+    "tr": "Geri çekil.",
+    "en": "Step back.",
+    "category": "Yönlendirme"
+  },
+  {
+    "id": 473,
+    "tr": "Yaklaş.",
+    "en": "Come closer.",
+    "category": "Yönlendirme"
+  },
+  {
+    "id": 474,
+    "tr": "Yukarı bak.",
+    "en": "Look up.",
+    "category": "Yönlendirme"
+  },
+  {
+    "id": 475,
+    "tr": "Aşağı bak.",
+    "en": "Look down.",
+    "category": "Yönlendirme"
+  },
+  {
+    "id": 476,
+    "tr": "Yükseğe zıpla.",
+    "en": "Jump high.",
+    "category": "Eylem"
+  },
+  {
+    "id": 477,
+    "tr": "Hızlı koş.",
+    "en": "Run fast.",
+    "category": "Eylem"
+  },
+  {
+    "id": 478,
+    "tr": "Yavaş yürü.",
+    "en": "Walk slowly.",
+    "category": "Eylem"
+  },
+  {
+    "id": 479,
+    "tr": "Emekliyorum.",
+    "en": "I am crawling.",
+    "category": "Eylem"
+  },
+  {
+    "id": 480,
+    "tr": "Uçuyorum.",
+    "en": "I am flying.",
+    "category": "Eylem"
+  },
+  {
+    "id": 481,
+    "tr": "Gözlerini aç.",
+    "en": "Open your eyes.",
+    "category": "Eylem"
+  },
+  {
+    "id": 482,
+    "tr": "Gözlerini kapat.",
+    "en": "Close your eyes.",
+    "category": "Eylem"
+  },
+  {
+    "id": 483,
+    "tr": "Uyan.",
+    "en": "Wake up.",
+    "category": "Rutin"
+  },
+  {
+    "id": 484,
+    "tr": "Uyu.",
+    "en": "Go to sleep.",
+    "category": "Rutin"
+  },
+  {
+    "id": 485,
+    "tr": "Büyük hayaller kur.",
+    "en": "Dream big.",
+    "category": "Motivasyon"
+  },
+  {
+    "id": 486,
+    "tr": "Korkularınla yüzleş.",
+    "en": "Face your fears.",
+    "category": "Motivasyon"
+  },
+  {
+    "id": 487,
+    "tr": "Hayat kısa.",
+    "en": "Life is short.",
+    "category": "Felsefe"
+  },
+  {
+    "id": 488,
+    "tr": "Zaman uçup gidiyor.",
+    "en": "Time flies.",
+    "category": "Zaman"
+  },
+  {
+    "id": 489,
+    "tr": "Anın tadını çıkar.",
+    "en": "Enjoy the moment.",
+    "category": "Tavsiye"
+  },
+  {
+    "id": 490,
+    "tr": "Pozitif ol.",
+    "en": "Be positive.",
+    "category": "Tutum"
+  },
+  {
+    "id": 491,
+    "tr": "Negatif olma.",
+    "en": "Be negative.",
+    "category": "Tutum"
+  },
+  {
+    "id": 492,
+    "tr": "Bu imkansız.",
+    "en": "That is impossible.",
+    "category": "Olasılık"
+  },
+  {
+    "id": 493,
+    "tr": "Her şey mümkün.",
+    "en": "Everything is possible.",
+    "category": "Olasılık"
+  },
+  {
+    "id": 494,
+    "tr": "Sana inanıyorum.",
+    "en": "I believe you.",
+    "category": "Güven"
+  },
+  {
+    "id": 495,
+    "tr": "Bundan şüpheliyim.",
+    "en": "I doubt it.",
+    "category": "Şüphe"
+  },
+  {
+    "id": 496,
+    "tr": "Bir fıkra anlat.",
+    "en": "Tell a joke.",
+    "category": "Eğlence"
+  },
+  {
+    "id": 497,
+    "tr": "Haberleri oku.",
+    "en": "Read the news.",
+    "category": "Günlük Rutin"
+  },
+  {
+    "id": 498,
+    "tr": "Bir mektup yaz.",
+    "en": "Write a letter.",
+    "category": "İletişim"
+  },
+  {
+    "id": 499,
+    "tr": "Sözleşmeyi imzala.",
+    "en": "Sign the contract.",
+    "category": "İş"
+  },
+  {
+    "id": 500,
+    "tr": "Hikayenin sonu / Konu kapandı.",
+    "en": "End of story.",
+    "category": "Bitiş"
+  }
+]
