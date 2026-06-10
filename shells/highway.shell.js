@@ -289,9 +289,9 @@ class HighwayGame {
     // Stats
     this.state = 'start';
     this.score = 0;
-    this.highScore = parseInt(localStorage.getItem('memorade_high_score')) || 0;
+    this.highScore = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
     this.shields = 3;
-    this.collectedGems = parseInt(localStorage.getItem('memorade_collected_gems')) || 0;
+    this.collectedGems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
     this.wordsLearnedThisRun = [];
     this.gemsCollectedThisLevel = 0;
 
@@ -506,9 +506,9 @@ class HighwayGame {
     this.damageTimer = 0;
     this.processedCount = 0;
 
-    localStorage.setItem('memorade_saved_stage', this.jsonFileName);
-    localStorage.setItem('memorade_saved_level', this.chunkIndex + 1);
-    localStorage.setItem('memorade_saved_score', this.score);
+    localStorage.setItem('memolandum_saved_stage', this.jsonFileName);
+    localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
+    localStorage.setItem('memolandum_saved_score', this.score);
     updateMainMenuResumeUI();
 
     this.trafficCars = [];
@@ -829,7 +829,7 @@ class HighwayGame {
     this.isLevelTransitioning = true;
     this.levelCompleteTimer = 3.0;
     this.collectedGems += 10;
-    localStorage.setItem('memorade_collected_gems', this.collectedGems);
+    localStorage.setItem('memolandum_collected_gems', this.collectedGems);
     this.soundManager.playStageClear();
     this.updateHUD();
   }
@@ -863,9 +863,9 @@ class HighwayGame {
     }
 
     victoryScreen.classList.remove('hidden');
-    localStorage.removeItem('memorade_saved_stage');
-    localStorage.removeItem('memorade_saved_level');
-    localStorage.removeItem('memorade_saved_score');
+    localStorage.removeItem('memolandum_saved_stage');
+    localStorage.removeItem('memolandum_saved_level');
+    localStorage.removeItem('memolandum_saved_score');
 
     const victoryRestartBtn = document.getElementById('victory-restart-btn');
     if (victoryRestartBtn) {
@@ -885,9 +885,9 @@ class HighwayGame {
       this.selectNextWord();
       this.updateHUD();
       
-      localStorage.setItem('memorade_saved_stage', this.jsonFileName);
-      localStorage.setItem('memorade_saved_level', this.chunkIndex + 1);
-      localStorage.setItem('memorade_saved_score', this.score);
+      localStorage.setItem('memolandum_saved_stage', this.jsonFileName);
+      localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
+      localStorage.setItem('memolandum_saved_score', this.score);
       updateMainMenuResumeUI();
     } else {
       this.triggerFinalVictory();
@@ -1136,7 +1136,7 @@ class HighwayGame {
         this.score += 20;
         this.collectedGems += 1;
         this.gemsCollectedThisLevel++;
-        localStorage.setItem('memorade_collected_gems', this.collectedGems);
+        localStorage.setItem('memolandum_collected_gems', this.collectedGems);
         
         this.soundManager.playGemTick();
         

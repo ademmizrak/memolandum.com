@@ -195,9 +195,9 @@ class WordDropGame {
     // Game stats
     this.state = 'start';
     this.score = 0;
-    this.highScore = parseInt(localStorage.getItem('memorade_high_score')) || 0;
+    this.highScore = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
     this.shields = 3;
-    this.collectedGems = parseInt(localStorage.getItem('memorade_collected_gems')) || 0;
+    this.collectedGems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
     this.wordsLearnedThisRun = [];
     this.gemsCollectedThisLevel = 0;
 
@@ -447,9 +447,9 @@ class WordDropGame {
     this.clearingRowIndex = -1;
     this.floatingFx = { active: false };
 
-    localStorage.setItem('memorade_saved_stage', this.jsonFileName);
-    localStorage.setItem('memorade_saved_level', this.chunkIndex + 1);
-    localStorage.setItem('memorade_saved_score', this.score);
+    localStorage.setItem('memolandum_saved_stage', this.jsonFileName);
+    localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
+    localStorage.setItem('memolandum_saved_score', this.score);
     updateMainMenuResumeUI();
 
     // Clear grid matrix
@@ -601,7 +601,7 @@ class WordDropGame {
     this.riserPlayed = false;
 
     this.collectedGems += 10;
-    localStorage.setItem('memorade_collected_gems', this.collectedGems);
+    localStorage.setItem('memolandum_collected_gems', this.collectedGems);
     this.soundManager.playStageClear();
     this.updateHUD();
   }
@@ -638,9 +638,9 @@ class WordDropGame {
 
     victoryScreen.classList.remove('hidden');
 
-    localStorage.removeItem('memorade_saved_stage');
-    localStorage.removeItem('memorade_saved_level');
-    localStorage.removeItem('memorade_saved_score');
+    localStorage.removeItem('memolandum_saved_stage');
+    localStorage.removeItem('memolandum_saved_level');
+    localStorage.removeItem('memolandum_saved_score');
     updateMainMenuResumeUI();
   }
 
@@ -1149,7 +1149,7 @@ class WordDropGame {
 
       this.score += 200 * vocabWords.length;
       this.collectedGems += 10 * vocabWords.length;
-      localStorage.setItem('memorade_collected_gems', this.collectedGems);
+      localStorage.setItem('memolandum_collected_gems', this.collectedGems);
       
       this.processedCount += vocabWords.length;
       this.updateHUD();
@@ -1261,8 +1261,8 @@ class WordDropGame {
           this.spawnBlock();
           this.updateHUD();
 
-          localStorage.setItem('memorade_saved_level', this.chunkIndex + 1);
-          localStorage.setItem('memorade_saved_score', this.score);
+          localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
+          localStorage.setItem('memolandum_saved_score', this.score);
           updateMainMenuResumeUI();
         } else {
           this.triggerFinalVictory();

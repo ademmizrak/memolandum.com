@@ -381,9 +381,9 @@ class InvadersGame {
     // Game states
     this.state = 'start';
     this.score = 0;
-    this.highScore = parseInt(localStorage.getItem('memorade_high_score')) || 0;
+    this.highScore = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
     this.shields = 3;
-    this.collectedGems = parseInt(localStorage.getItem('memorade_collected_gems')) || 0;
+    this.collectedGems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
     this.wordsLearnedThisRun = [];
 
     this.currentLevel = 1;
@@ -513,9 +513,9 @@ class InvadersGame {
     this.damageTimer = 0;
     this.processedCount = 0;
 
-    localStorage.setItem('memorade_saved_stage', this.jsonFileName);
-    localStorage.setItem('memorade_saved_level', this.chunkIndex + 1);
-    localStorage.setItem('memorade_saved_score', this.score);
+    localStorage.setItem('memolandum_saved_stage', this.jsonFileName);
+    localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
+    localStorage.setItem('memolandum_saved_score', this.score);
     updateMainMenuResumeUI();
 
     // Reset player
@@ -897,7 +897,7 @@ class InvadersGame {
     this.isLevelTransitioning = true;
     this.levelCompleteTimer = 3.0;
     this.collectedGems += 10;
-    localStorage.setItem('memorade_collected_gems', this.collectedGems);
+    localStorage.setItem('memolandum_collected_gems', this.collectedGems);
     this.soundManager.playStageClear();
     this.updateHUD();
   }
@@ -931,9 +931,9 @@ class InvadersGame {
     }
 
     victoryScreen.classList.remove('hidden');
-    localStorage.removeItem('memorade_saved_stage');
-    localStorage.removeItem('memorade_saved_level');
-    localStorage.removeItem('memorade_saved_score');
+    localStorage.removeItem('memolandum_saved_stage');
+    localStorage.removeItem('memolandum_saved_level');
+    localStorage.removeItem('memolandum_saved_score');
   }
 
   nextLevel() {
@@ -961,9 +961,9 @@ class InvadersGame {
       this.spawnInvaders();
       this.updateHUD();
 
-      localStorage.setItem('memorade_saved_stage', this.jsonFileName);
-      localStorage.setItem('memorade_saved_level', this.chunkIndex + 1);
-      localStorage.setItem('memorade_saved_score', this.score);
+      localStorage.setItem('memolandum_saved_stage', this.jsonFileName);
+      localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
+      localStorage.setItem('memolandum_saved_score', this.score);
       updateMainMenuResumeUI();
     } else {
       this.triggerFinalVictory();
@@ -1202,7 +1202,7 @@ class InvadersGame {
         
         this.score += 50;
         this.collectedGems++;
-        localStorage.setItem('memorade_collected_gems', this.collectedGems);
+        localStorage.setItem('memolandum_collected_gems', this.collectedGems);
         this.soundManager.playGemTick();
         this.updateHUD();
 
@@ -1284,7 +1284,7 @@ class InvadersGame {
 
     this.score += 500;
     this.collectedGems += 10;
-    localStorage.setItem('memorade_collected_gems', this.collectedGems);
+    localStorage.setItem('memolandum_collected_gems', this.collectedGems);
     this.processedCount++;
     this.updateHUD();
 

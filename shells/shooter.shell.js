@@ -733,8 +733,8 @@ function getStageDisplayName(jsonFileName) {
 }
 
 function updateMainMenuResumeUI() {
-  const savedStage = localStorage.getItem('memorade_saved_stage');
-  const savedLevel = parseInt(localStorage.getItem('memorade_saved_level')) || 1;
+  const savedStage = localStorage.getItem('memolandum_saved_stage');
+  const savedLevel = parseInt(localStorage.getItem('memolandum_saved_level')) || 1;
   
   const resumeContainer = document.getElementById('resume-container');
   const resumeStageText = document.getElementById('resume-stage-text');
@@ -884,10 +884,10 @@ class Game {
     // Gameplay state values
     this.state = 'start'; // States: 'start', 'playing', 'gameover', 'victory'
     this.score = 0;
-    this.highScore = parseInt(localStorage.getItem('memorade_high_score')) || 0;
+    this.highScore = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
     this.shields = 3;
     this.wordsLearnedThisRun = [];
-    this.collectedGems = parseInt(localStorage.getItem('memorade_collected_gems')) || 0;
+    this.collectedGems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
     this.gemsCollectedThisLevel = 0;
 
     // Level and spaced repetition properties
@@ -1225,9 +1225,9 @@ class Game {
     this.updateHUD();
 
     // Save current progress to local storage so F5/refresh persists the start level
-    localStorage.setItem('memorade_saved_stage', this.jsonFileName);
-    localStorage.setItem('memorade_saved_level', this.chunkIndex + 1);
-    localStorage.setItem('memorade_saved_score', this.score);
+    localStorage.setItem('memolandum_saved_stage', this.jsonFileName);
+    localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
+    localStorage.setItem('memolandum_saved_score', this.score);
     updateMainMenuResumeUI();
 
     // Release all active entities back to their respective pools
@@ -1368,7 +1368,7 @@ class Game {
       if (gem.checkPlayerCollision(this.player)) {
         this.soundManager.playGemTick();
         this.collectedGems++;
-        localStorage.setItem('memorade_collected_gems', this.collectedGems);
+        localStorage.setItem('memolandum_collected_gems', this.collectedGems);
         
         if (gem.isLevelCompletionGem) {
           this.gemsCollectedThisLevel++;
@@ -1617,9 +1617,9 @@ class Game {
     prefetchStageData(nextStage);
 
     // Save progress immediately to localStorage
-    localStorage.setItem('memorade_saved_stage', nextStage);
-    localStorage.setItem('memorade_saved_level', 1);
-    localStorage.setItem('memorade_saved_score', this.score);
+    localStorage.setItem('memolandum_saved_stage', nextStage);
+    localStorage.setItem('memolandum_saved_level', 1);
+    localStorage.setItem('memolandum_saved_score', this.score);
     updateMainMenuResumeUI();
 
     // Show the celebration DOM Overlay
@@ -1750,9 +1750,9 @@ class Game {
     }
 
     // Clear saved campaign progress in localStorage since they completed it
-    localStorage.removeItem('memorade_saved_stage');
-    localStorage.removeItem('memorade_saved_level');
-    localStorage.removeItem('memorade_saved_score');
+    localStorage.removeItem('memolandum_saved_stage');
+    localStorage.removeItem('memolandum_saved_level');
+    localStorage.removeItem('memolandum_saved_score');
     updateMainMenuResumeUI();
   }
 
@@ -1820,9 +1820,9 @@ class Game {
           this.updateHUD();
           this.spawnTimer = 0;
           // Save progress to localStorage
-          localStorage.setItem('memorade_saved_stage', this.jsonFileName);
-          localStorage.setItem('memorade_saved_level', this.chunkIndex + 1);
-          localStorage.setItem('memorade_saved_score', this.score);
+          localStorage.setItem('memolandum_saved_stage', this.jsonFileName);
+          localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
+          localStorage.setItem('memolandum_saved_score', this.score);
           updateMainMenuResumeUI();
         } else {
           this.triggerVictory();
@@ -1977,7 +1977,7 @@ class Game {
             window.sessionScore = this.score; // Sync to session stats
             if (this.score > this.highScore) {
               this.highScore = this.score;
-              localStorage.setItem('memorade_high_score', this.highScore);
+              localStorage.setItem('memolandum_high_score', this.highScore);
             }
 
             // Release meteor
@@ -2398,7 +2398,7 @@ function showMainMenu() {
 // ----------------------------------------------------
 function switchGameShell(shellName) {
   window.activeShell = shellName;
-  localStorage.setItem('memorade_active_shell', shellName);
+  localStorage.setItem('memolandum_active_shell', shellName);
 
   const btnShooter = document.getElementById('shell-shooter');
   const btnBreakout = document.getElementById('shell-breakout');
@@ -2663,9 +2663,9 @@ window.addEventListener('load', () => {
   const resumeBtnMain = document.getElementById('resume-btn-main');
   if (resumeBtnMain) {
     resumeBtnMain.addEventListener('click', () => {
-      const savedStage = localStorage.getItem('memorade_saved_stage');
-      const savedLevel = parseInt(localStorage.getItem('memorade_saved_level')) || 1;
-      const savedScore = parseInt(localStorage.getItem('memorade_saved_score')) || 0;
+      const savedStage = localStorage.getItem('memolandum_saved_stage');
+      const savedLevel = parseInt(localStorage.getItem('memolandum_saved_level')) || 1;
+      const savedScore = parseInt(localStorage.getItem('memolandum_saved_score')) || 0;
       
       if (savedStage) {
         window.resumeLevelIndex = savedLevel - 1;
@@ -2685,11 +2685,11 @@ window.addEventListener('load', () => {
   }
 
   // Restore saved active shell selection on page load
-  const savedShell = localStorage.getItem('memorade_active_shell') || 'shooter';
+  const savedShell = localStorage.getItem('memolandum_active_shell') || 'shooter';
   switchGameShell(savedShell);
 
   // Restore saved stage selection on page load
-  const savedStage = localStorage.getItem('memorade_saved_stage');
+  const savedStage = localStorage.getItem('memolandum_saved_stage');
   if (savedStage) {
     window.selectedCategory = savedStage;
   }

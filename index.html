@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Memorade - Learn English Vocabulary through Retro Space Shooting</title>
+  <title>Memolandum - Learn English Vocabulary through Retro Space Shooting</title>
   <meta name="description" content="A mobile-first retro space shooter designed to help you memorize high-yield English vocabulary with instant translation feedback. Built with HTML5 Canvas.">
   
   <!-- SEO & Accessibility -->
-  <meta name="author" content="Memorade Team">
+  <meta name="author" content="Memolandum Team">
   <meta name="robots" content="index, follow">
   
   <!-- Fonts -->
@@ -73,7 +73,7 @@
 
     <!-- Start Game UI Overlay -->
     <div id="start-screen" class="screen-overlay hidden">
-      <h1 class="game-title">MEMORADE</h1>
+      <h1 class="game-title">MEMOLANDUM</h1>
       <div class="game-subtitle">CYBER VOCABULARY RETRO SHOTTER</div>
       
       <div class="instructions-box">
@@ -243,7 +243,7 @@
     // ----------------------------------------------------
     const TRANSLATIONS = {
       TR: {
-        title: "🕹️ MEMORADE 🕹️",
+        title: "🕹️ MEMOLANDUM 🕹️",
         subtitle: "SİBER KELİME ARCADE",
         resumeTitle: "AKTİF OTURUM ALGILANDI",
         resumeBtn: "GÖREVE DEVAM ET: ",
@@ -307,7 +307,7 @@
         resetSuccess: "Veritabanı sıfırlandı."
       },
       ENG: {
-        title: "🕹️ MEMORADE 🕹️",
+        title: "🕹️ MEMOLANDUM 🕹️",
         subtitle: "CYBER VOCABULARY ARCADE",
         resumeTitle: "ACTIVE SESSION DETECTED",
         resumeBtn: "RESUME MISSION: ",
@@ -465,7 +465,7 @@
       }
     };
 
-    function MemoradeHome() {
+    function MemolandumHome() {
       const [language, setLanguage] = useState('ENG');
       const [activeTab, setActiveTab] = useState('home');
       const [activeShell, setActiveShell] = useState('shooter');
@@ -508,12 +508,12 @@
       }, [activeTab]);
 
       const syncLegacyData = () => {
-        const stage = localStorage.getItem('memorade_saved_stage');
-        const level = parseInt(localStorage.getItem('memorade_saved_level')) || 1;
-        const score = parseInt(localStorage.getItem('memorade_saved_score')) || 0;
-        const gems = parseInt(localStorage.getItem('memorade_collected_gems')) || 0;
-        const high = parseInt(localStorage.getItem('memorade_high_score')) || 0;
-        const activeSh = localStorage.getItem('memorade_active_shell') || 'shooter';
+        const stage = localStorage.getItem('memolandum_saved_stage');
+        const level = parseInt(localStorage.getItem('memolandum_saved_level')) || 1;
+        const score = parseInt(localStorage.getItem('memolandum_saved_score')) || 0;
+        const gems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
+        const high = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
+        const activeSh = localStorage.getItem('memolandum_active_shell') || 'shooter';
 
         if (stage) {
           setSavedStage(stage);
@@ -526,7 +526,7 @@
         setHighScore(high);
         setActiveShell(activeSh);
         
-        const lang = localStorage.getItem('memorade_lang');
+        const lang = localStorage.getItem('memolandum_lang');
         if (lang) setLanguage(lang);
 
         computeCategoryProgress(stage || activeCategory);
@@ -534,7 +534,7 @@
 
       const computeCategoryProgress = (categoryName) => {
         try {
-          const dbStr = localStorage.getItem('memorade_mastery_db');
+          const dbStr = localStorage.getItem('memolandum_mastery_db');
           const db = dbStr ? JSON.parse(dbStr) : {};
           
           let words = [];
@@ -573,7 +573,7 @@
 
       const toggleLanguage = (lang) => {
         setLanguage(lang);
-        localStorage.setItem('memorade_lang', lang);
+        localStorage.setItem('memolandum_lang', lang);
       };
 
       const handleSelectShell = (shellName) => {
@@ -582,7 +582,7 @@
           window.switchGameShell(shellName);
         } else {
           window.activeShell = shellName;
-          localStorage.setItem('memorade_active_shell', shellName);
+          localStorage.setItem('memolandum_active_shell', shellName);
         }
       };
 
@@ -596,7 +596,7 @@
           window.selectCategory(jsonFileName, dummyCard);
         } else {
           window.selectedCategory = jsonFileName;
-          localStorage.setItem('memorade_saved_stage', jsonFileName);
+          localStorage.setItem('memolandum_saved_stage', jsonFileName);
         }
       };
 
@@ -652,7 +652,7 @@
           window.switchGameShell(randomShell);
         } else {
           window.activeShell = randomShell;
-          localStorage.setItem('memorade_active_shell', randomShell);
+          localStorage.setItem('memolandum_active_shell', randomShell);
         }
 
         const dummyCard = document.querySelector(`#legacy-menu-triggers .level-card[data-category="${randomCategory}"]`);
@@ -667,12 +667,12 @@
 
       const handleResetDatabase = () => {
         if (confirm(t.resetWarning)) {
-          localStorage.removeItem('memorade_mastery_db');
-          localStorage.removeItem('memorade_saved_stage');
-          localStorage.removeItem('memorade_saved_level');
-          localStorage.removeItem('memorade_saved_score');
-          localStorage.removeItem('memorade_collected_gems');
-          localStorage.removeItem('memorade_high_score');
+          localStorage.removeItem('memolandum_mastery_db');
+          localStorage.removeItem('memolandum_saved_stage');
+          localStorage.removeItem('memolandum_saved_level');
+          localStorage.removeItem('memolandum_saved_score');
+          localStorage.removeItem('memolandum_collected_gems');
+          localStorage.removeItem('memolandum_high_score');
           
           setSavedStage(null);
           setSavedLevel(1);
@@ -686,7 +686,7 @@
 
       const getCategoryProgressInline = (categoryName) => {
         try {
-          const dbStr = localStorage.getItem('memorade_mastery_db');
+          const dbStr = localStorage.getItem('memolandum_mastery_db');
           const db = dbStr ? JSON.parse(dbStr) : {};
           
           let words = [];
@@ -722,7 +722,7 @@
               <div className="flex items-center gap-1.5">
                 <span className="text-xl animate-bounce">🕹️</span>
                 <h1 className="text-2xl font-black tracking-widest text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.45)]">
-                  MEMORADE
+                  MEMOLANDUM
                 </h1>
               </div>
               
@@ -1299,7 +1299,7 @@
     }
 
     // Mount React dashboard directly to the main menu div container
-    ReactDOM.createRoot(document.getElementById('main-menu')).render(<MemoradeHome />);
+    ReactDOM.createRoot(document.getElementById('main-menu')).render(<MemolandumHome />);
   </script>
 
   <!-- Fallback Embedded Data (for local execution/offline fallback) -->

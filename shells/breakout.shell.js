@@ -270,10 +270,10 @@ class BreakoutGame {
     // State properties
     this.state = 'start'; // 'start', 'playing', 'gameover', 'victory', 'exam'
     this.score = 0;
-    this.highScore = parseInt(localStorage.getItem('memorade_high_score')) || 0;
+    this.highScore = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
     this.shields = 3;
     this.wordsLearnedThisRun = [];
-    this.collectedGems = parseInt(localStorage.getItem('memorade_collected_gems')) || 0;
+    this.collectedGems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
     this.gemsCollectedThisLevel = 0;
 
     this.currentLevel = 1;
@@ -411,9 +411,9 @@ class BreakoutGame {
     this.isLevelTransitioning = false;
     this.levelCompleteTimer = 0;
 
-    localStorage.setItem('memorade_saved_stage', this.jsonFileName);
-    localStorage.setItem('memorade_saved_level', this.chunkIndex + 1);
-    localStorage.setItem('memorade_saved_score', this.score);
+    localStorage.setItem('memolandum_saved_stage', this.jsonFileName);
+    localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
+    localStorage.setItem('memolandum_saved_score', this.score);
     updateMainMenuResumeUI();
 
     // Release all active entities back to their respective pools
@@ -618,9 +618,9 @@ class BreakoutGame {
 
     victoryScreen.classList.remove('hidden');
 
-    localStorage.removeItem('memorade_saved_stage');
-    localStorage.removeItem('memorade_saved_level');
-    localStorage.removeItem('memorade_saved_score');
+    localStorage.removeItem('memolandum_saved_stage');
+    localStorage.removeItem('memolandum_saved_level');
+    localStorage.removeItem('memolandum_saved_score');
     updateMainMenuResumeUI();
 
     const nextBtn = document.getElementById('victory-next-btn');
@@ -702,7 +702,7 @@ class BreakoutGame {
 
   collectGem() {
     this.collectedGems++;
-    localStorage.setItem('memorade_collected_gems', this.collectedGems);
+    localStorage.setItem('memolandum_collected_gems', this.collectedGems);
     this.soundManager.playGemTick();
     this.updateHUD();
   }
@@ -972,8 +972,8 @@ class BreakoutGame {
           this.spawnBallOnPaddle();
           this.updateHUD();
           
-          localStorage.setItem('memorade_saved_level', this.chunkIndex + 1);
-          localStorage.setItem('memorade_saved_score', this.score);
+          localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
+          localStorage.setItem('memolandum_saved_score', this.score);
           updateMainMenuResumeUI();
         } else {
           this.triggerFinalVictory();

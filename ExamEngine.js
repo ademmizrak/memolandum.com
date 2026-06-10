@@ -1,5 +1,5 @@
 // ----------------------------------------------------
-// Memorade - Unified Exam Engine (Nihai Sınav Modülü)
+// Memolandum - Unified Exam Engine (Nihai Sınav Modülü)
 // ----------------------------------------------------
 class ExamEngine {
   constructor() {
@@ -21,7 +21,7 @@ class ExamEngine {
 
   loadDatabase() {
     try {
-      const dbStr = localStorage.getItem('memorade_mastery_db');
+      const dbStr = localStorage.getItem('memolandum_mastery_db');
       this.db = dbStr ? JSON.parse(dbStr) : {};
     } catch (e) {
       console.error("Failed to load mastery database:", e);
@@ -33,7 +33,7 @@ class ExamEngine {
     // Zero-lag async local storage write
     setTimeout(() => {
       try {
-        localStorage.setItem('memorade_mastery_db', JSON.stringify(this.db));
+        localStorage.setItem('memolandum_mastery_db', JSON.stringify(this.db));
       } catch (e) {
         console.error("Failed to save mastery database:", e);
       }
@@ -704,7 +704,7 @@ class ExamEngine {
 
     // 5. Gem counter
     if (gemsValEl) {
-      const collectedGems = parseInt(localStorage.getItem('memorade_collected_gems')) || 0;
+      const collectedGems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
       gemsValEl.textContent = `💎 ${collectedGems}`;
     }
   }

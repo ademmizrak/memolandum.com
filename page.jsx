@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 // ----------------------------------------------------
 const TRANSLATIONS = {
   TR: {
-    title: "🕹️ MEMORADE 🕹️",
+    title: "🕹️ MEMOLANDUM 🕹️",
     subtitle: "SİBER KELİME ARCADE",
     resumeTitle: "AKTİF OTURUM ALGILANDI",
     resumeBtn: "GÖREVE DEVAM ET: ",
@@ -68,7 +68,7 @@ const TRANSLATIONS = {
     resetSuccess: "Veritabanı sıfırlandı."
   },
   ENG: {
-    title: "🕹️ MEMORADE 🕹️",
+    title: "🕹️ MEMOLANDUM 🕹️",
     subtitle: "CYBER VOCABULARY ARCADE",
     resumeTitle: "ACTIVE SESSION DETECTED",
     resumeBtn: "RESUME MISSION: ",
@@ -177,7 +177,7 @@ const CATEGORIES = {
 // ----------------------------------------------------
 // Home Main Component
 // ----------------------------------------------------
-export default function MemoradeHome() {
+export default function MemolandumHome() {
   const [language, setLanguage] = useState('ENG');
   const [activeTab, setActiveTab] = useState('home'); // 'home', 'progress', 'leaderboard', 'profile'
   const [activeShell, setActiveShell] = useState('shooter');
@@ -201,12 +201,12 @@ export default function MemoradeHome() {
   // ----------------------------------------------------
   useEffect(() => {
     // Read state from localStorage on mount
-    const stage = localStorage.getItem('memorade_saved_stage');
-    const level = parseInt(localStorage.getItem('memorade_saved_level')) || 1;
-    const score = parseInt(localStorage.getItem('memorade_saved_score')) || 0;
-    const gems = parseInt(localStorage.getItem('memorade_collected_gems')) || 0;
-    const high = parseInt(localStorage.getItem('memorade_high_score')) || 0;
-    const activeSh = localStorage.getItem('memorade_active_shell') || 'shooter';
+    const stage = localStorage.getItem('memolandum_saved_stage');
+    const level = parseInt(localStorage.getItem('memolandum_saved_level')) || 1;
+    const score = parseInt(localStorage.getItem('memolandum_saved_score')) || 0;
+    const gems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
+    const high = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
+    const activeSh = localStorage.getItem('memolandum_active_shell') || 'shooter';
 
     if (stage) {
       setSavedStage(stage);
@@ -219,7 +219,7 @@ export default function MemoradeHome() {
     setActiveShell(activeSh);
     
     // Read active language if set
-    const lang = localStorage.getItem('memorade_lang');
+    const lang = localStorage.getItem('memolandum_lang');
     if (lang) setLanguage(lang);
 
     // Initial progress computation
@@ -227,8 +227,8 @@ export default function MemoradeHome() {
 
     // Attach click listener to the document and check state overrides
     const handleStorageUpdate = () => {
-      const g = parseInt(localStorage.getItem('memorade_collected_gems')) || 0;
-      const h = parseInt(localStorage.getItem('memorade_high_score')) || 0;
+      const g = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
+      const h = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
       setCollectedGems(g);
       setHighScore(h);
     };
@@ -239,7 +239,7 @@ export default function MemoradeHome() {
 
   const computeCategoryProgress = (categoryName) => {
     try {
-      const dbStr = localStorage.getItem('memorade_mastery_db');
+      const dbStr = localStorage.getItem('memolandum_mastery_db');
       const db = dbStr ? JSON.parse(dbStr) : {};
       
       let words = [];
@@ -281,7 +281,7 @@ export default function MemoradeHome() {
   // ----------------------------------------------------
   const toggleLanguage = (lang) => {
     setLanguage(lang);
-    localStorage.setItem('memorade_lang', lang);
+    localStorage.setItem('memolandum_lang', lang);
   };
 
   const handleSelectShell = (shellName) => {
@@ -295,7 +295,7 @@ export default function MemoradeHome() {
     setActiveCategory(jsonFileName);
     computeCategoryProgress(jsonFileName);
     window.selectedCategory = jsonFileName;
-    localStorage.setItem('memorade_saved_stage', jsonFileName);
+    localStorage.setItem('memolandum_saved_stage', jsonFileName);
     
     // Bind styling changes to legacy menu elements so they don't break
     const card = document.querySelector(`.level-card[data-category="${jsonFileName}"]`);
@@ -359,12 +359,12 @@ export default function MemoradeHome() {
 
   const handleResetDatabase = () => {
     if (confirm(t.resetWarning)) {
-      localStorage.removeItem('memorade_mastery_db');
-      localStorage.removeItem('memorade_saved_stage');
-      localStorage.removeItem('memorade_saved_level');
-      localStorage.removeItem('memorade_saved_score');
-      localStorage.removeItem('memorade_collected_gems');
-      localStorage.removeItem('memorade_high_score');
+      localStorage.removeItem('memolandum_mastery_db');
+      localStorage.removeItem('memolandum_saved_stage');
+      localStorage.removeItem('memolandum_saved_level');
+      localStorage.removeItem('memolandum_saved_score');
+      localStorage.removeItem('memolandum_collected_gems');
+      localStorage.removeItem('memolandum_high_score');
       
       setSavedStage(null);
       setSavedLevel(1);
@@ -391,7 +391,7 @@ export default function MemoradeHome() {
             <div className="flex items-center gap-1.5">
               <span className="text-xl animate-bounce">🕹️</span>
               <h1 className="text-2xl font-black tracking-widest text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.45)]">
-                MEMORADE
+                MEMOLANDUM
               </h1>
             </div>
             
@@ -999,7 +999,7 @@ export default function MemoradeHome() {
 
         {/* Start Game UI Overlay */}
         <div id="start-screen" className="screen-overlay hidden">
-          <h1 className="game-title">MEMORADE</h1>
+          <h1 className="game-title">MEMOLANDUM</h1>
           <div className="game-subtitle">CYBER VOCABULARY RETRO SHOTTER</div>
           
           <div className="instructions-box">
@@ -1146,7 +1146,7 @@ export default function MemoradeHome() {
 // ----------------------------------------------------
 function getCategoryProgressInline(categoryName) {
   try {
-    const dbStr = localStorage.getItem('memorade_mastery_db');
+    const dbStr = localStorage.getItem('memolandum_mastery_db');
     const db = dbStr ? JSON.parse(dbStr) : {};
     
     let words = [];
