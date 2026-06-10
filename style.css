@@ -438,10 +438,7 @@ canvas {
   background: rgba(5, 2, 10, 0.95);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  display: block !important;
   padding: 30px 20px;
   z-index: 20;
   overflow-y: auto;
@@ -877,8 +874,11 @@ canvas {
 
 /* Safari & Mobile Platform Touch Scrolling Fixes */
 #main-menu,
+#main-menu *,
 .words-learned-container,
-.screen-overlay {
+.words-learned-container *,
+.screen-overlay,
+.screen-overlay * {
   touch-action: pan-y !important;
   -webkit-overflow-scrolling: touch !important;
 }
