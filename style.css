@@ -882,13 +882,17 @@ canvas {
 }
 
 /* Safari & Mobile Platform Touch Scrolling Fixes */
-#main-menu,
-#main-menu *,
+.scrollable-y,
+.scrollable-y *,
 .words-learned-container,
-.words-learned-container *,
-.screen-overlay,
-.screen-overlay * {
+.words-learned-container * {
   touch-action: pan-y !important;
   -webkit-overflow-scrolling: touch !important;
+}
+
+#main-menu,
+.screen-overlay {
+  overflow: hidden !important;
+  touch-action: none !important;
 }
 
