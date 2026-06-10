@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /*?*
+Disallow: /admin
+Disallow: /api
 
 Sitemap: https://memolandum.com/sitemap.xml
