@@ -16,7 +16,6 @@
   padding: 0;
   user-select: none;
   -webkit-user-select: none;
-  touch-action: none; /* Disables pinch-zoom and scroll-gestures */
 }
 
 body {
@@ -31,6 +30,16 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  touch-action: none;
+}
+
+#game-container,
+#gameCanvas,
+.controls-container,
+.control-btn,
+.fire-btn,
+#hud {
+  touch-action: none;
 }
 
 /* Main Container for Aspect-Ratio Constraining */

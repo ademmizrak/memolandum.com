@@ -24,16 +24,7 @@ document.addEventListener('touchend', function(e) {
   lastTarget = e.target;
 }, { passive: false });
 
-document.addEventListener('touchmove', function(e) {
-  if (
-    e.target.closest('#main-menu') ||
-    e.target.closest('.words-learned-container') ||
-    e.target.closest('.screen-overlay')
-  ) {
-    return; // Allow scrolling inside scrollable menus and screen overlays
-  }
-  e.preventDefault();
-}, { passive: false });
+
 
 // ----------------------------------------------------
 // Memory Efficient Object Pool Pattern
