@@ -874,3 +874,12 @@ canvas {
 *::-webkit-scrollbar {
   display: none !important;
 }
+
+/* Safari & Mobile Platform Touch Scrolling Fixes */
+#main-menu,
+.words-learned-container,
+.screen-overlay {
+  touch-action: pan-y !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+

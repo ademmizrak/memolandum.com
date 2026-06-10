@@ -500,6 +500,13 @@
         return () => observer.disconnect();
       }, [activeCategory]);
 
+      useEffect(() => {
+        const menuEl = document.getElementById('main-menu');
+        if (menuEl) {
+          menuEl.scrollTop = 0;
+        }
+      }, [activeTab]);
+
       const syncLegacyData = () => {
         const stage = localStorage.getItem('memorade_saved_stage');
         const level = parseInt(localStorage.getItem('memorade_saved_level')) || 1;
@@ -706,7 +713,7 @@
       };
 
       return (
-        <div className="w-full h-full flex flex-col items-center justify-start overflow-y-auto">
+        <div className="w-full flex flex-col items-center justify-start">
           
           {/* Header */}
           <header className="w-full max-w-md flex flex-col items-center mb-6 shrink-0">
