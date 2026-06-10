@@ -450,7 +450,7 @@ canvas {
   display: block !important;
   padding: 30px 20px;
   z-index: 20;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .menu-instructions {
