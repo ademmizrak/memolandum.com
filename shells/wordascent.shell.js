@@ -1559,3 +1559,5 @@ class WordAscentGame {
     ctx.restore();
   }
 }
+
+window.WordAscentGame = WordAscentGame;

@@ -1598,3 +1598,5 @@ class WordDropGame {
     this.soundManager = null;
   }
 }
+
+window.WordDropGame = WordDropGame;

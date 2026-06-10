@@ -1657,3 +1657,5 @@ class BreakoutGame {
     this.activeParticles.forEach(p => p.draw(ctx));
   }
 }
+
+window.BreakoutGame = BreakoutGame;

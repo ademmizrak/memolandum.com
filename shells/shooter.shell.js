@@ -64,9 +64,14 @@ class SoundManager {
 
   init() {
     if (!this.audioCtx) {
-      this.audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      try {
+        this.audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      } catch (e) {
+        console.warn("Web Audio API not supported or blocked in this browser:", e);
+        this.audioCtx = null;
+      }
     }
-    if (this.audioCtx.state === 'suspended') {
+    if (this.audioCtx && this.audioCtx.state === 'suspended') {
       this.audioCtx.resume();
     }
   }
@@ -2721,3 +2726,9 @@ window.addEventListener('load', () => {
     showMainMenu();
   });
 });
+
+window.Game = Game;
+window.switchGameShell = switchGameShell;
+window.loadLevel = loadLevel;
+window.restartExam = restartExam;
+window.setGameSpeed = setGameSpeed;

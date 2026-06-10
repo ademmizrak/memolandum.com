@@ -1581,3 +1581,5 @@ class InvadersGame {
     ctx.restore();
   }
 }
+
+window.InvadersGame = InvadersGame;

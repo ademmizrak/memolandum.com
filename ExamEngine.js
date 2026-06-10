@@ -809,3 +809,5 @@ class ExamEngine {
     };
   }
 }
+
+window.ExamEngine = ExamEngine;

@@ -179,6 +179,44 @@
   
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Universal Mobile & Legacy Browser Polyfills (Canvas roundRect support) -->
+  <script>
+    if (typeof CanvasRenderingContext2D !== 'undefined' && !CanvasRenderingContext2D.prototype.roundRect) {
+      CanvasRenderingContext2D.prototype.roundRect = function (x, y, width, height, radii) {
+        if (radii === undefined) radii = 0;
+        if (typeof radii === 'number') {
+          radii = [radii, radii, radii, radii];
+        } else if (Array.isArray(radii)) {
+          if (radii.length === 1) radii = [radii[0], radii[0], radii[0], radii[0]];
+          else if (radii.length === 2) radii = [radii[0], radii[1], radii[0], radii[1]];
+          else if (radii.length === 3) radii = [radii[0], radii[1], radii[2], radii[1]];
+          else if (radii.length >= 4) radii = [radii[0], radii[1], radii[2], radii[3]];
+        } else {
+          radii = [0, 0, 0, 0];
+        }
+
+        var r = {
+          tl: Math.min(radii[0], width / 2, height / 2),
+          tr: Math.min(radii[1], width / 2, height / 2),
+          br: Math.min(radii[2], width / 2, height / 2),
+          bl: Math.min(radii[3], width / 2, height / 2)
+        };
+
+        this.moveTo(x + r.tl, y);
+        this.lineTo(x + width - r.tr, y);
+        this.arcTo(x + width, y, x + width, y + height, r.tr);
+        this.lineTo(x + width, y + height - r.br);
+        this.arcTo(x + width, y + height, x, y + height, r.br);
+        this.lineTo(x + r.bl, y + height);
+        this.arcTo(x, y + height, x, y, r.bl);
+        this.lineTo(x, y + r.tl);
+        this.arcTo(x, y, x + width, y, r.tl);
+        this.closePath();
+        return this;
+      };
+    }
+  </script>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -1583,14 +1621,14 @@
   <script src="fallback_data.js"></script>
 
   <!-- Unified Exam Engine -->
-  <script src="ExamEngine.js"></script>
+  <script type="text/babel" src="ExamEngine.js"></script>
 
   <!-- JavaScript Gameplay Logic -->
-  <script src="shells/shooter.shell.js"></script>
-  <script src="shells/breakout.shell.js"></script>
-  <script src="shells/worddrop.shell.js"></script>
-  <script src="shells/highway.shell.js"></script>
-  <script src="shells/wordascent.shell.js"></script>
-  <script src="shells/invaders.shell.js"></script>
+  <script type="text/babel" src="shells/shooter.shell.js"></script>
+  <script type="text/babel" src="shells/breakout.shell.js"></script>
+  <script type="text/babel" src="shells/worddrop.shell.js"></script>
+  <script type="text/babel" src="shells/highway.shell.js"></script>
+  <script type="text/babel" src="shells/wordascent.shell.js"></script>
+  <script type="text/babel" src="shells/invaders.shell.js"></script>
 </body>
 </html>

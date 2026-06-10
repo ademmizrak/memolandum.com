@@ -1598,3 +1598,5 @@ class HighwayGame {
     ctx.restore();
   }
 }
+
+window.HighwayGame = HighwayGame;
