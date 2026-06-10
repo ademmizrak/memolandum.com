@@ -25,8 +25,12 @@ document.addEventListener('touchend', function(e) {
 }, { passive: false });
 
 document.addEventListener('touchmove', function(e) {
-  if (e.target.closest('.words-learned-container')) {
-    return; // Allow scrolling inside the scrollable word badges list
+  if (
+    e.target.closest('#main-menu') ||
+    e.target.closest('.words-learned-container') ||
+    e.target.closest('.screen-overlay')
+  ) {
+    return; // Allow scrolling inside scrollable menus and screen overlays
   }
   e.preventDefault();
 }, { passive: false });
