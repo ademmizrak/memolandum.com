@@ -491,6 +491,11 @@ class WordDropGame {
     const randomShape = SHAPES[Math.floor(Math.random() * SHAPES.length)];
     this.activePiece = new TetrisPiece(randomShape);
     
+    // Make new piece spawn fast without awkward delay
+    const speed = this.isGridCritical() ? 1.6 : 1.0;
+    const interval = (0.8 / this.speedMultiplier) / speed;
+    this.fallTimer = interval * 0.8; // Give it an 80% head start to fall quickly
+    
     // Check if spawn blocked -> Game Over
     if (!this.activePiece.isValid(this.activePiece.blocks, this.grid)) {
       this.gameOver();
@@ -1136,10 +1141,14 @@ class WordDropGame {
 
         // Construct display texts
         // ONLY show vocabulary (non-filler) words in the Star Wars crawl!
-        const vocabWords = words.filter(w => !w.isFiller);
+        let vocabWords = words.filter(w => !w.isFiller);
 
         let englishDisplay = "";
         let turkishDisplay = "";
+
+        if (vocabWords.length === 0) {
+          vocabWords = words; // If no vocab words exist, fallback to showing filler meanings!
+        }
 
         if (vocabWords.length > 0) {
           const englishParts = vocabWords.map(w => w.english);
