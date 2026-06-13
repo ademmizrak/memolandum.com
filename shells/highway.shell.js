@@ -1026,14 +1026,12 @@ class HighwayGame {
       }
     }
 
-    // Determine road speed based on inputs & states (starts slow, speeds up smoothly by choice - extra slow for maximum reading comfort)
-    let targetRoadSpeed = 1.2;
-    if (this.turboActive) {
-      targetRoadSpeed = 40.0;
-    } else if (this.nitroActive) {
-      targetRoadSpeed = 25.0;
+    // Determine road speed based on inputs (simulating real driving acceleration)
+    let targetRoadSpeed = 1.2; // Cruising speed
+    if (this.nitroActive) {
+      targetRoadSpeed = 3.5; // Gas pedal down (smooth realistic acceleration)
     } else if (this.brakeActive) {
-      targetRoadSpeed = 0.5;
+      targetRoadSpeed = 0.5; // Braking
     }
 
     // Apply difficulty speed multiplier
