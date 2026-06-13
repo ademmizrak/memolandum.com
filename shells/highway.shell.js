@@ -1132,33 +1132,12 @@ class HighwayGame {
       this.draftingTimer = Math.max(0, this.draftingTimer - 2);
     }
 
-    // Handle Turbo Nitro timer & speed boost fading
-    if (this.turboActive) {
-      this.turboTimer--;
-      
-      // Spawn engine fire boost particles
-      if (Math.random() < 0.6) {
-        const px = this.player.x + (Math.random() - 0.5) * 20;
-        const py = this.player.y + 60;
-        this.activeParticles.push(this.particlePool.acquire(px, py, 'rgba(0, 240, 255, 0.8)', 'spark'));
-      }
-
-      if (this.turboTimer <= 0) {
-        this.turboActive = false;
-        
-        // Commit word progression at the end of the turbo boost
-        this.activeWord.processed = true;
-        this.processedCount++;
-        this.updateHUD();
-        
-        this.selectNextWord();
-      }
-    }
+    // Turbo timer logic removed for continuous flow
 
     // Update Gems
     for (let i = this.activeGems.length - 1; i >= 0; i--) {
       const gem = this.activeGems[i];
-      gem.update(this.player.x, this.player.y, this.roadSpeed, this.turboActive);
+      gem.update(this.player.x, this.player.y, this.roadSpeed, this.nitroActive);
       
       // Magnet collection threshold check
       const dist = Math.hypot(this.player.x - gem.x, this.player.y - gem.y);
@@ -1216,27 +1195,16 @@ class HighwayGame {
   }
 
   triggerTurboBlast(car) {
-    this.soundManager.playExplosion();
+    this.soundManager.playGemTick();
     
-    // Spawn massive cyan neon particles at the explosion point
-    for (let i = 0; i < 40; i++) {
-      const px = car.x + (Math.random() - 0.5) * 60;
-      const py = car.y + (Math.random() - 0.5) * 60;
+    // Spawn cyan neon particles
+    for (let i = 0; i < 20; i++) {
+      const px = car.x + (Math.random() - 0.5) * 40;
+      const py = car.y + (Math.random() - 0.5) * 40;
       this.activeParticles.push(this.particlePool.acquire(px, py, '#00f0ff', 'spark'));
     }
 
-    // Set Turbo active
-    this.turboActive = true;
-    this.turboTimer = 180; // 3 seconds at 60fps
     this.score += 200;
-
-    // Trigger freeze frames (10 frames)
-    this.state = 'freeze';
-    setTimeout(() => {
-      if (window.game === this) {
-        this.state = 'playing';
-      }
-    }, 166); // 10 frames of 16.6ms freeze
 
     // Spawn 5 scrolling road gems ahead of the player to absorb
     for (let i = 0; i < 5; i++) {
@@ -1264,8 +1232,14 @@ class HighwayGame {
       this.wordsLearnedThisRun.push(foundWord);
     }
 
-    // Remove exploded correct car
+    // Remove the correct car
     this.trafficCars = this.trafficCars.filter(c => c !== car);
+    
+    // Smooth transition to next word immediately
+    this.activeWord.processed = true;
+    this.processedCount++;
+    this.updateHUD();
+    this.selectNextWord();
   }
 
   triggerCrash(car) {
