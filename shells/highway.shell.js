@@ -1073,11 +1073,11 @@ class HighwayGame {
 
       if (dx < overlapX && dy < overlapY) {
         // Direct Collision!
-        if (car.isCorrect && this.draftingTimer >= 120) {
-          // If Turbo is full and we slam into correct car, explode it (Perfect Blast)
+        if (car.isCorrect) {
+          // Doğru araca çarpmak her zaman doğru kabul edilecek (Turbo patlaması)
           this.triggerTurboBlast(car);
         } else {
-          // Normal Crash!
+          // Yanlış araca çarpmak hasar verir!
           this.triggerCrash(car);
         }
       }
