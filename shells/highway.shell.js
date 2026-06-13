@@ -619,20 +619,19 @@ class HighwayGame {
       });
     }
 
-    // Touch controls on canvas
-    this.canvas.addEventListener('touchstart', (e) => {
+    // Pointer controls on canvas (unified touch and mouse)
+    this.canvas.addEventListener('pointerdown', (e) => {
       if (this.state !== 'playing' || this.isPaused) return;
-      if (e.touches.length > 0) {
-        const touchX = e.touches[0].clientX;
-        const rect = this.canvas.getBoundingClientRect();
-        const canvasX = (touchX - rect.left) / this.scaleX;
-        
-        // Horizontal lane division based touch inputs
-        const targetLane = Math.floor(canvasX / 150);
-        if (targetLane >= 0 && targetLane <= 3) {
-          this.player.lane = targetLane;
-          this.soundManager.playGemTick();
-        }
+      if (e.cancelable) e.preventDefault();
+      const touchX = e.clientX;
+      const rect = this.canvas.getBoundingClientRect();
+      const canvasX = (touchX - rect.left) / this.scaleX;
+      
+      // Horizontal lane division based touch inputs
+      const targetLane = Math.floor(canvasX / 150);
+      if (targetLane >= 0 && targetLane <= 3) {
+        this.player.lane = targetLane;
+        this.soundManager.playGemTick();
       }
     });
 
@@ -641,28 +640,50 @@ class HighwayGame {
     const btnRight = document.getElementById('btn-right');
     const btnFire = document.getElementById('btn-fire'); // Used for Nitro on mobile
 
-    if (btnLeft) {
-      btnLeft.onclick = () => {
-        if (this.state === 'playing' && this.player.lane > 0) {
-          this.player.lane--;
-          this.soundManager.playGemTick();
-        }
+    const bindButton = (btn, onDown, onUp) => {
+      if (!btn) return;
+      
+      btn.onclick = null;
+      btn.ontouchstart = null;
+      btn.ontouchend = null;
+      btn.onmousedown = null;
+      btn.onmouseup = null;
+
+      const downHandler = (e) => {
+        if (e.cancelable) e.preventDefault();
+        onDown();
       };
-    }
-    if (btnRight) {
-      btnRight.onclick = () => {
-        if (this.state === 'playing' && this.player.lane < 3) {
-          this.player.lane++;
-          this.soundManager.playGemTick();
-        }
+      const upHandler = (e) => {
+        if (e.cancelable) e.preventDefault();
+        if (onUp) onUp();
       };
-    }
-    if (btnFire) {
-      btnFire.ontouchstart = () => { this.nitroActive = true; };
-      btnFire.ontouchend = () => { this.nitroActive = false; };
-      btnFire.onmousedown = () => { this.nitroActive = true; };
-      btnFire.onmouseup = () => { this.nitroActive = false; };
-    }
+      
+      btn.addEventListener('touchstart', downHandler, { passive: false });
+      btn.addEventListener('touchend', upHandler, { passive: false });
+      btn.addEventListener('touchcancel', upHandler, { passive: false });
+      btn.addEventListener('mousedown', downHandler);
+      btn.addEventListener('mouseup', upHandler);
+      btn.addEventListener('mouseleave', upHandler);
+    };
+
+    bindButton(btnLeft, () => {
+      if (this.state === 'playing' && this.player.lane > 0) {
+        this.player.lane--;
+        this.soundManager.playGemTick();
+      }
+    });
+
+    bindButton(btnRight, () => {
+      if (this.state === 'playing' && this.player.lane < 3) {
+        this.player.lane++;
+        this.soundManager.playGemTick();
+      }
+    });
+
+    bindButton(btnFire, 
+      () => { this.nitroActive = true; },
+      () => { this.nitroActive = false; }
+    );
 
     // Pause UI hooks
     const btnPause = document.getElementById('btn-pause');
@@ -997,13 +1018,13 @@ class HighwayGame {
     }
 
     // Determine road speed based on inputs & states (starts slow, speeds up smoothly by choice - extra slow for maximum reading comfort)
-    let targetRoadSpeed = 1.0;
+    let targetRoadSpeed = 4.0;
     if (this.turboActive) {
-      targetRoadSpeed = 4.5;
+      targetRoadSpeed = 18.0;
     } else if (this.nitroActive) {
-      targetRoadSpeed = 2.5;
+      targetRoadSpeed = 10.0;
     } else if (this.brakeActive) {
-      targetRoadSpeed = 0.5;
+      targetRoadSpeed = 1.5;
     }
 
     // Apply difficulty speed multiplier
@@ -1015,7 +1036,7 @@ class HighwayGame {
 
     // Stars background scrolling speed matching road
     this.stars.forEach(star => {
-      star.y += this.roadSpeed * 0.1;
+      star.y += this.roadSpeed * 0.3;
       if (star.y > this.virtualHeight) {
         star.reset(this.virtualWidth, this.virtualHeight);
         star.y = 0;
@@ -1027,7 +1048,7 @@ class HighwayGame {
     this.player.x += (this.player.targetX - this.player.x) * 0.2;
 
     // Update Traffic Cars
-    const relativeSpeed = this.roadSpeed * 0.45; // simulate traffic moving slightly slower
+    const relativeSpeed = this.roadSpeed * 0.85; // simulate traffic moving slightly slower
     let correctCarFound = null;
 
     for (let i = this.trafficCars.length - 1; i >= 0; i--) {
