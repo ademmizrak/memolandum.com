@@ -491,6 +491,7 @@ class HighwayGame {
     this.soundManager.init();
     this.score = window.sessionScore || 0;
     this.shields = 3;
+    this.speedKmh = 40; // Default cruising speed
     this.wordsLearnedThisRun = [];
     this.currentLevel = window.sessionLevel || 1;
 
@@ -1027,18 +1028,28 @@ class HighwayGame {
     }
 
     // Determine road speed based on inputs (simulating real driving acceleration)
-    let targetRoadSpeed = 1.2; // Cruising speed
     if (this.nitroActive) {
-      targetRoadSpeed = 3.5; // Gas pedal down (smooth realistic acceleration)
+      this.speedKmh += 0.166; // 10 seconds 0-100 is ~10 km/h per sec, so 0.166 per frame
+      if (this.speedKmh > 120) this.speedKmh = 120;
     } else if (this.brakeActive) {
-      targetRoadSpeed = 0.5; // Braking
+      this.speedKmh -= 0.5; // braking
+      if (this.speedKmh < 10) this.speedKmh = 10;
+    } else {
+      // coasting returns to cruising speed gradually
+      if (this.speedKmh > 40) {
+        this.speedKmh -= 0.08;
+      } else if (this.speedKmh < 40) {
+        this.speedKmh += 0.05;
+      }
     }
+    
+    let targetRoadSpeed = this.speedKmh * 0.035;
 
     // Apply difficulty speed multiplier
     targetRoadSpeed *= this.speedMultiplier;
 
     // Lerp road speed for smoothness (0.05 creates a smooth automatic gear transition feel)
-    this.roadSpeed += (targetRoadSpeed - this.roadSpeed) * 0.05;
+    this.roadSpeed += (targetRoadSpeed - this.roadSpeed) * 0.1;
     this.roadOffset += this.roadSpeed;
 
     // Stars background scrolling speed matching road
@@ -1371,6 +1382,60 @@ class HighwayGame {
     if (this.isLevelTransitioning) {
       this.drawLevelTransition(this.ctx);
     }
+
+    // 12. Draw Speedometer
+    this.drawSpeedometer(this.ctx);
+  }
+
+  drawSpeedometer(ctx) {
+    const cx = this.virtualWidth - 80;
+    const cy = this.virtualHeight - 80;
+    const radius = 55;
+
+    ctx.save();
+    
+    // Background dial
+    ctx.beginPath();
+    ctx.arc(cx, cy, radius, Math.PI * 0.75, Math.PI * 2.25);
+    ctx.lineWidth = 8;
+    ctx.strokeStyle = 'rgba(10, 10, 15, 0.8)';
+    ctx.stroke();
+
+    // Fill semi-transparent
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.6)';
+    ctx.fill();
+
+    // Speed dependent color
+    let neonColor = '#00f0ff';
+    if (this.speedKmh > 80) neonColor = '#ffaa00';
+    if (this.speedKmh > 100) neonColor = '#ff0055';
+
+    // Active speed arc
+    const maxSpeed = 120;
+    const speedRatio = Math.max(0, Math.min(1, this.speedKmh / maxSpeed));
+    const endAngle = Math.PI * 0.75 + (speedRatio * (Math.PI * 1.5));
+    
+    ctx.beginPath();
+    ctx.arc(cx, cy, radius, Math.PI * 0.75, endAngle);
+    ctx.lineWidth = 6;
+    ctx.strokeStyle = neonColor;
+    ctx.shadowColor = neonColor;
+    ctx.shadowBlur = 12;
+    ctx.stroke();
+
+    // Text KM/H
+    ctx.shadowBlur = 0;
+    ctx.fillStyle = '#ffffff';
+    ctx.font = '900 24px "Orbitron", Arial, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(Math.floor(this.speedKmh).toString(), cx, cy - 5);
+
+    ctx.font = '12px "Orbitron", Arial, sans-serif';
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+    ctx.fillText('KM/H', cx, cy + 18);
+
+    ctx.restore();
   }
 
   drawBillboardTruck(ctx) {
