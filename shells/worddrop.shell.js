@@ -157,7 +157,7 @@ class TetrisPiece {
 
   isValid(blocks, grid) {
     for (const b of blocks) {
-      if (b.x < 0 || b.x >= 16) return false;
+      if (b.x < 0 || b.x >= 12) return false;
       if (b.y < 0) return false;
       if (grid[b.x] && grid[b.x][b.y] !== null) return false;
     }
@@ -190,7 +190,7 @@ class WordDropGame {
     }
 
     // Grid states: 16 columns of tracks, up to 20 height
-    this.grid = Array.from({ length: 16 }, () => Array(20).fill(null));
+    this.grid = Array.from({ length: 12 }, () => Array(20).fill(null));
 
     // Game stats
     this.state = 'start';
@@ -453,7 +453,7 @@ class WordDropGame {
     updateMainMenuResumeUI();
 
     // Clear grid matrix
-    this.grid = Array.from({ length: 16 }, () => Array(20).fill(null));
+    this.grid = Array.from({ length: 12 }, () => Array(20).fill(null));
 
     this.activeParticles.forEach(p => this.particlePool.release(p));
     this.activeFloatingTexts.forEach(ft => this.floatingTextPool.release(ft));
@@ -553,7 +553,7 @@ class WordDropGame {
 
     // Central Database Sync: un-erased words on screen process failure stamp
     const unErasedWords = new Set();
-    for (let c = 0; c < 16; c++) {
+    for (let c = 0; c < 12; c++) {
       for (let r = 0; r < 20; r++) {
         if (this.grid[c][r] && this.grid[c][r].wordText) {
           unErasedWords.add(this.grid[c][r].wordText);
@@ -645,7 +645,7 @@ class WordDropGame {
   }
 
   isGridCritical() {
-    for (let c = 0; c < 16; c++) {
+    for (let c = 0; c < 12; c++) {
       if (this.grid[c][18] !== null) {
         return true;
       }
@@ -815,51 +815,54 @@ class WordDropGame {
       };
     }
 
-    // Touch controls on canvas
-    this.canvas.addEventListener('touchstart', (e) => {
+    // Pointer controls on canvas
+    this.canvas.addEventListener('pointerdown', (e) => {
       if (this.state !== 'playing' || this.isPaused || this.freezeTimer > 0) return;
-      if (e.touches.length > 0) {
-        this.touchStartX = e.touches[0].clientX;
-        this.touchStartY = e.touches[0].clientY;
-      }
+      this.touchStartX = e.clientX;
+      this.touchStartY = e.clientY;
+      try {
+        this.canvas.setPointerCapture(e.pointerId);
+      } catch (err) {}
     });
 
-    this.canvas.addEventListener('touchend', (e) => {
+    this.canvas.addEventListener('pointerup', (e) => {
       if (this.state !== 'playing' || this.isPaused || this.freezeTimer > 0) return;
-      if (e.changedTouches.length > 0) {
-        const diffX = e.changedTouches[0].clientX - this.touchStartX;
-        const diffY = e.changedTouches[0].clientY - this.touchStartY;
-        
-        if (Math.abs(diffX) > 40) {
-          // Swipe left/right slides the active piece
-          if (diffX > 0) {
-            if (this.activePiece) this.activePiece.move(1, 0, this.grid);
-          } else {
-            if (this.activePiece) this.activePiece.move(-1, 0, this.grid);
-          }
-          this.soundManager.playGemTick();
-        } else if (Math.abs(diffY) > 40 && diffY > 0) {
-          // Swipe down is Soft Drop
-          if (this.activePiece) this.activePiece.move(0, -1, this.grid);
-        } else {
-          // Tap on canvas controls
-          const rect = this.canvas.getBoundingClientRect();
-          const canvasX = (e.changedTouches[0].clientX - rect.left) / this.scaleX;
-          const canvasY = (e.changedTouches[0].clientY - rect.top) / this.scaleY;
+      try {
+        this.canvas.releasePointerCapture(e.pointerId);
+      } catch (err) {}
 
-          if (canvasY < 400) {
-            // Tap top rotates piece
-            this.rotateActivePiece();
-          } else {
-            // Tap bottom moves piece directly to column
-            const targetCol = Math.floor(canvasX / 37.5);
-            if (this.activePiece) {
-              const dx = targetCol - this.activePiece.x;
-              const step = Math.sign(dx);
-              const limit = Math.abs(dx);
-              for (let i = 0; i < limit; i++) {
-                if (!this.activePiece.move(step, 0, this.grid)) break;
-              }
+      const diffX = e.clientX - this.touchStartX;
+      const diffY = e.clientY - this.touchStartY;
+      
+      if (Math.abs(diffX) > 40) {
+        // Swipe left/right slides the active piece
+        if (diffX > 0) {
+          if (this.activePiece) this.activePiece.move(1, 0, this.grid);
+        } else {
+          if (this.activePiece) this.activePiece.move(-1, 0, this.grid);
+        }
+        this.soundManager.playGemTick();
+      } else if (Math.abs(diffY) > 40 && diffY > 0) {
+        // Swipe down is Soft Drop
+        if (this.activePiece) this.activePiece.move(0, -1, this.grid);
+      } else {
+        // Tap on canvas controls
+        const rect = this.canvas.getBoundingClientRect();
+        const canvasX = (e.clientX - rect.left) / this.scaleX;
+        const canvasY = (e.clientY - rect.top) / this.scaleY;
+
+        if (canvasY < 400) {
+          // Tap top rotates piece
+          this.rotateActivePiece();
+        } else {
+          // Tap bottom moves piece directly to column
+          const targetCol = Math.floor(canvasX / 50);
+          if (this.activePiece) {
+            const dx = targetCol - this.activePiece.x;
+            const step = Math.sign(dx);
+            const limit = Math.abs(dx);
+            for (let i = 0; i < limit; i++) {
+              if (!this.activePiece.move(step, 0, this.grid)) break;
             }
           }
         }
@@ -966,8 +969,8 @@ class WordDropGame {
     this.activePiece.blocks.forEach(b => {
       if (b.y >= 0 && b.y < 20) {
         this.grid[b.x][b.y] = {
-          x: b.x * 37.5,
-          y: 820 - (b.y + 1) * 37.5,
+          x: b.x * 50,
+          y: 820 - (b.y + 1) * 50,
           letter: null,
           wordText: null,
           wordTranslation: null,
@@ -981,7 +984,7 @@ class WordDropGame {
     // Scan horizontal rows for contiguous block transmutations (No Word Splitting)
     this.debrisScan();
 
-    // Check for 100% full rows (16/16 blocks)
+    // Check for 100% full rows (12/12 blocks)
     this.checkRowClears();
 
     if (this.state === 'playing') {
@@ -995,7 +998,7 @@ class WordDropGame {
       let occupiedCount = 0;
       let emptyCount = 0;
 
-      for (let c = 0; c < 16; c++) {
+      for (let c = 0; c < 12; c++) {
         if (this.grid[c][r] !== null) {
           occupiedCount++;
         } else {
@@ -1003,13 +1006,13 @@ class WordDropGame {
         }
       }
 
-      // Scan Metric: Wait for at least 70% of the row to be filled (16 * 0.7 = 11.2 -> at least 12 blocks)
-      if (occupiedCount >= 12 && emptyCount > 0) {
+      // Scan Metric: Wait for at least 70% of the row to be filled (12 * 0.75 = 9 -> at least 9 blocks)
+      if (occupiedCount >= 9 && emptyCount > 0) {
         // Find contiguous segments of occupied cells in this row
         const segments = [];
         let currentSeg = null;
 
-        for (let c = 0; c < 16; c++) {
+        for (let c = 0; c < 12; c++) {
           if (this.grid[c][r] !== null) {
             if (currentSeg === null) {
               currentSeg = { start: c, end: c, hasLetters: (this.grid[c][r].letter !== null) };
@@ -1065,7 +1068,7 @@ class WordDropGame {
 
     for (let r = 0; r < 19; r++) {
       let isFull = true;
-      for (let c = 0; c < 16; c++) {
+      for (let c = 0; c < 12; c++) {
         if (this.grid[c][r] === null) {
           isFull = false;
           break;
@@ -1076,7 +1079,7 @@ class WordDropGame {
         // Collect words from the row
         let words = [];
         let currentWordText = null;
-        for (let c = 0; c < 16; c++) {
+        for (let c = 0; c < 12; c++) {
           const cell = this.grid[c][r];
           if (cell && cell.letter !== null && cell.wordText) {
             if (cell.wordText !== currentWordText) {
@@ -1119,8 +1122,8 @@ class WordDropGame {
     this.soundManager.playExplosion();
 
     // Spawn green explosion particles across the row
-    for (let c = 0; c < 16; c++) {
-      this.spawnExplosion(c * 37.5 + 18.75, 820 - (r + 0.5) * 37.5, 'var(--glow-green)');
+    for (let c = 0; c < 12; c++) {
+      this.spawnExplosion(c * 50 + 25, 820 - (r + 0.5) * 50, 'var(--glow-green)');
     }
 
     const vocabWords = words.filter(w => !w.isFiller);
@@ -1129,7 +1132,7 @@ class WordDropGame {
       // Star Wars Crawl FX
       this.floatingFx = {
         active: true,
-        y: 820 - (r + 0.5) * 37.5,
+        y: 820 - (r + 0.5) * 50,
         english: englishWord,
         turkish: turkishWord,
         duration: 3.0
@@ -1165,11 +1168,11 @@ class WordDropGame {
   }
 
   clearRow(R) {
-    for (let c = 0; c < 16; c++) {
+    for (let c = 0; c < 12; c++) {
       for (let r = R; r < 19; r++) {
         this.grid[c][r] = this.grid[c][r + 1] || null;
         if (this.grid[c][r] !== null) {
-          this.grid[c][r].y = 820 - (r + 1) * 37.5;
+          this.grid[c][r].y = 820 - (r + 1) * 50;
         }
       }
       this.grid[c][19] = null;
@@ -1254,7 +1257,7 @@ class WordDropGame {
         this.chunkIndex++;
         const hasNext = this.loadLevelChunk();
         if (hasNext) {
-          this.grid = Array.from({ length: 16 }, () => Array(20).fill(null));
+          this.grid = Array.from({ length: 12 }, () => Array(20).fill(null));
           this.activeWordRowIndex = -1;
           this.activeWord = null;
           this.processedCount = 0;
@@ -1331,10 +1334,10 @@ class WordDropGame {
     this.ctx.save();
     this.ctx.strokeStyle = 'rgba(0, 240, 255, 0.05)';
     this.ctx.lineWidth = 1.0;
-    for (let i = 1; i < 16; i++) {
+    for (let i = 1; i < 12; i++) {
       this.ctx.beginPath();
-      this.ctx.moveTo(i * 37.5, 100);
-      this.ctx.lineTo(i * 37.5, 820);
+      this.ctx.moveTo(i * 50, 100);
+      this.ctx.lineTo(i * 50, 820);
       this.ctx.stroke();
     }
     this.ctx.restore();
@@ -1374,12 +1377,12 @@ class WordDropGame {
 
     // Draw Static Debris Grid blocks
     this.ctx.save();
-    for (let c = 0; c < 16; c++) {
+    for (let c = 0; c < 12; c++) {
       for (let r = 0; r < 20; r++) {
         const cell = this.grid[c][r];
         if (cell !== null) {
-          const rx = c * 37.5;
-          const ry = 820 - (r + 1) * 37.5;
+          const rx = c * 50;
+          const ry = 820 - (r + 1) * 50;
 
           this.ctx.save();
           if (cell.letter !== null) {
@@ -1395,7 +1398,7 @@ class WordDropGame {
           }
 
           this.ctx.beginPath();
-          this.ctx.roundRect(rx + 1, ry + 1, 35.5, 35.5, 4);
+          this.ctx.roundRect(rx + 1, ry + 1, 48, 48, 4);
           this.ctx.fill();
           this.ctx.stroke();
 
@@ -1414,7 +1417,7 @@ class WordDropGame {
             this.ctx.font = 'bold 15px "Orbitron", Arial, sans-serif';
             this.ctx.textAlign = 'center';
             this.ctx.textBaseline = 'middle';
-            this.ctx.fillText(cell.letter, rx + 18.75, ry + 18.75);
+            this.ctx.fillText(cell.letter, rx + 25, ry + 25);
           }
           this.ctx.restore();
         }
@@ -1433,10 +1436,10 @@ class WordDropGame {
       
       this.activePiece.blocks.forEach(b => {
         if (b.y >= 0 && b.y < 20) {
-          const rx = b.x * 37.5;
-          const ry = 820 - (b.y + 1) * 37.5;
+          const rx = b.x * 50;
+          const ry = 820 - (b.y + 1) * 50;
           this.ctx.beginPath();
-          this.ctx.roundRect(rx + 1, ry + 1, 35.5, 35.5, 4);
+          this.ctx.roundRect(rx + 1, ry + 1, 48, 48, 4);
           this.ctx.fill();
           this.ctx.stroke();
         }
@@ -1588,7 +1591,7 @@ class WordDropGame {
 
   cleanup() {
     this.activePiece = null;
-    this.grid = Array.from({ length: 16 }, () => Array(20).fill(null));
+    this.grid = Array.from({ length: 12 }, () => Array(20).fill(null));
 
     this.activeParticles.forEach(p => this.particlePool.release(p));
     this.activeFloatingTexts.forEach(ft => this.floatingTextPool.release(ft));
@@ -1600,3 +1603,4 @@ class WordDropGame {
 }
 
 window.WordDropGame = WordDropGame;
+
