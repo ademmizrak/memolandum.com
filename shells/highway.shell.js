@@ -1027,13 +1027,13 @@ class HighwayGame {
     }
 
     // Determine road speed based on inputs & states (starts slow, speeds up smoothly by choice - extra slow for maximum reading comfort)
-    let targetRoadSpeed = 4.0;
+    let targetRoadSpeed = 1.2;
     if (this.turboActive) {
       targetRoadSpeed = 40.0;
     } else if (this.nitroActive) {
       targetRoadSpeed = 25.0;
     } else if (this.brakeActive) {
-      targetRoadSpeed = 1.5;
+      targetRoadSpeed = 0.5;
     }
 
     // Apply difficulty speed multiplier
@@ -1057,7 +1057,7 @@ class HighwayGame {
     this.player.x += (this.player.targetX - this.player.x) * 0.2;
 
     // Update Traffic Cars
-    const relativeSpeed = this.roadSpeed * 1.0; // simulate traffic moving slightly slower
+    const relativeSpeed = this.roadSpeed * 0.85; // simulate traffic moving slightly slower
     let correctCarFound = null;
 
     for (let i = this.trafficCars.length - 1; i >= 0; i--) {
