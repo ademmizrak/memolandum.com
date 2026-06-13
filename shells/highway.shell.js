@@ -527,6 +527,15 @@ class HighwayGame {
     document.getElementById('start-screen').classList.add('hidden');
     document.getElementById('game-over-screen').classList.add('hidden');
     document.getElementById('victory-screen').classList.add('hidden');
+
+    const hud = document.getElementById('hud');
+    if (hud) hud.classList.remove('hidden');
+    
+    const canvas = document.getElementById('gameCanvas');
+    if (canvas) canvas.classList.remove('hidden');
+    
+    const controls = document.querySelector('.controls-container');
+    if (controls) controls.classList.remove('hidden');
   }
 
   loadLevelChunk() {
