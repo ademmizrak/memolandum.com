@@ -1020,9 +1020,9 @@ class HighwayGame {
     // Determine road speed based on inputs & states (starts slow, speeds up smoothly by choice - extra slow for maximum reading comfort)
     let targetRoadSpeed = 4.0;
     if (this.turboActive) {
-      targetRoadSpeed = 18.0;
+      targetRoadSpeed = 40.0;
     } else if (this.nitroActive) {
-      targetRoadSpeed = 10.0;
+      targetRoadSpeed = 25.0;
     } else if (this.brakeActive) {
       targetRoadSpeed = 1.5;
     }
@@ -1036,7 +1036,7 @@ class HighwayGame {
 
     // Stars background scrolling speed matching road
     this.stars.forEach(star => {
-      star.y += this.roadSpeed * 0.3;
+      star.y += this.roadSpeed * 0.5;
       if (star.y > this.virtualHeight) {
         star.reset(this.virtualWidth, this.virtualHeight);
         star.y = 0;
@@ -1048,7 +1048,7 @@ class HighwayGame {
     this.player.x += (this.player.targetX - this.player.x) * 0.2;
 
     // Update Traffic Cars
-    const relativeSpeed = this.roadSpeed * 0.85; // simulate traffic moving slightly slower
+    const relativeSpeed = this.roadSpeed * 1.0; // simulate traffic moving slightly slower
     let correctCarFound = null;
 
     for (let i = this.trafficCars.length - 1; i >= 0; i--) {
