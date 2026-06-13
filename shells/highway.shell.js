@@ -659,21 +659,29 @@ class HighwayGame {
       btn.onmousedown = null;
       btn.onmouseup = null;
 
+      // Pointer events for robust multi-touch support across all modern mobile browsers (including Safari)
+      btn.style.touchAction = 'none'; // Prevent browser gestures like double-tap zoom or scroll
+
       const downHandler = (e) => {
         if (e.cancelable) e.preventDefault();
+        try { if (btn.setPointerCapture) btn.setPointerCapture(e.pointerId); } catch(err) {}
         onDown();
       };
+      
       const upHandler = (e) => {
         if (e.cancelable) e.preventDefault();
+        try { if (btn.releasePointerCapture) btn.releasePointerCapture(e.pointerId); } catch(err) {}
         if (onUp) onUp();
       };
       
-      btn.addEventListener('touchstart', downHandler, { passive: false });
-      btn.addEventListener('touchend', upHandler, { passive: false });
-      btn.addEventListener('touchcancel', upHandler, { passive: false });
-      btn.addEventListener('mousedown', downHandler);
-      btn.addEventListener('mouseup', upHandler);
-      btn.addEventListener('mouseleave', upHandler);
+      btn.addEventListener('pointerdown', downHandler, { passive: false });
+      btn.addEventListener('pointerup', upHandler, { passive: false });
+      btn.addEventListener('pointercancel', upHandler, { passive: false });
+      
+      // Prevent context menu (long press issue)
+      btn.addEventListener('contextmenu', (e) => {
+        if (e.cancelable) e.preventDefault();
+      });
     };
 
     bindButton(btnLeft, () => {
