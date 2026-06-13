@@ -1,0 +1,56 @@
+{
+  "name": "000memorade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ExamEngine.js",
+  "dependencies": {
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/core": "^8.4.0",
+    "@capacitor/ios": "^8.4.0",
+    "bidi-js": "^1.0.3",
+    "css-tree": "^3.2.1",
+    "data-urls": "^7.0.0",
+    "decimal.js": "^10.6.0",
+    "entities": "^8.0.0",
+    "html-encoding-sniffer": "^6.0.0",
+    "is-potential-custom-element-name": "^1.0.1",
+    "jsdom": "^29.1.1",
+    "lru-cache": "^11.5.1",
+    "mdn-data": "^2.27.1",
+    "parse5": "^8.0.1",
+    "punycode": "^2.3.1",
+    "require-from-string": "^2.0.2",
+    "saxes": "^6.0.0",
+    "source-map-js": "^1.2.1",
+    "symbol-tree": "^3.2.4",
+    "tldts": "^7.4.2",
+    "tldts-core": "^7.4.2",
+    "tough-cookie": "^6.0.1",
+    "tr46": "^6.0.0",
+    "undici": "^7.27.2",
+    "w3c-xmlserializer": "^5.0.0",
+    "webidl-conversions": "^8.0.1",
+    "whatwg-mimetype": "^5.0.0",
+    "whatwg-url": "^16.0.1",
+    "xml-name-validator": "^5.0.0",
+    "xmlchars": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ademmizrak/memolandum.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ademmizrak/memolandum.com/issues"
+  },
+  "homepage": "https://github.com/ademmizrak/memolandum.com#readme",
+  "devDependencies": {
+    "@capacitor/cli": "^8.4.0"
+  }
+}
