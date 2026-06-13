@@ -1,8 +1,8 @@
-const CACHE_NAME = 'memolandum-v1';
+const CACHE_NAME = 'memolandum-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
-  './styles.css',
+  './style.css',
   './manifest.json',
   './favicon.ico',
   './memolandum_preview.png',
