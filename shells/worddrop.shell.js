@@ -500,12 +500,22 @@ class WordDropGame {
   getWordOfLength(L) {
     let candidates = [];
     
+    const padWord = (wordStr, targetLen) => {
+      let padded = wordStr.toUpperCase();
+      const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      while (padded.length < targetLen) {
+        padded += chars.charAt(Math.floor(Math.random() * chars.length));
+      }
+      return padded;
+    };
+
     // Priority 1: Use words from the user's selected level vocabulary (.json file) first
     if (this.vocabulary && this.vocabulary.length > 0) {
       candidates = this.vocabulary.filter(w => w.english.length === L);
       if (candidates.length > 0) {
         const selected = candidates[Math.floor(Math.random() * candidates.length)];
         return {
+          letters: selected.english.toUpperCase(),
           english: selected.english.toUpperCase(),
           turkish: selected.turkish.toUpperCase(),
           isFiller: false
@@ -519,6 +529,35 @@ class WordDropGame {
       if (candidates.length > 0) {
         const selected = candidates[Math.floor(Math.random() * candidates.length)];
         return {
+          letters: selected.english.toUpperCase(),
+          english: selected.english.toUpperCase(),
+          turkish: selected.turkish.toUpperCase(),
+          isFiller: true
+        };
+      }
+    }
+
+    // Priority 3: Try vocabulary with shorter words and pad them
+    if (this.vocabulary && this.vocabulary.length > 0) {
+      candidates = this.vocabulary.filter(w => w.english.length < L);
+      if (candidates.length > 0) {
+        const selected = candidates[Math.floor(Math.random() * candidates.length)];
+        return {
+          letters: padWord(selected.english, L),
+          english: selected.english.toUpperCase(),
+          turkish: selected.turkish.toUpperCase(),
+          isFiller: false
+        };
+      }
+    }
+
+    // Priority 4: Try fillers with shorter words and pad them
+    if (this.fillers && this.fillers.length > 0) {
+      candidates = this.fillers.filter(w => w.english.length < L);
+      if (candidates.length > 0) {
+        const selected = candidates[Math.floor(Math.random() * candidates.length)];
+        return {
+          letters: padWord(selected.english, L),
           english: selected.english.toUpperCase(),
           turkish: selected.turkish.toUpperCase(),
           isFiller: true
@@ -527,7 +566,7 @@ class WordDropGame {
     }
 
     // Absolutely ultimate fallback just in case
-    return { english: "A".repeat(L), turkish: "—", isFiller: true };
+    return { letters: padWord("X", L), english: "SYSTEM", turkish: "SİSTEM", isFiller: true };
   }
 
   spawnExplosion(x, y, color) {
@@ -1042,8 +1081,8 @@ class WordDropGame {
             for (let i = 0; i < len; i++) {
               const col = seg.start + i;
               const cellBlock = this.grid[col][r];
-              if (cellBlock) {
-                cellBlock.letter = word.english[i];
+                if (cellBlock) {
+                  cellBlock.letter = word.letters ? word.letters[i] : word.english[i];
                 cellBlock.wordText = word.english;
                 cellBlock.wordTranslation = word.turkish;
                 cellBlock.isFiller = word.isFiller;
