@@ -655,6 +655,15 @@ export default function MemolandumHome() {
                 <h4 className="text-xs font-black tracking-wider text-white">{t.starTitle}</h4>
                 <p className="text-[8px] text-gray-500 mt-1 leading-tight font-medium">{t.starDesc}</p>
               </button>
+
+              {/* Card 7: About Us (Cyan/Purple) */}
+              <a 
+                href="about.html"
+                className="col-span-2 flex items-center justify-center p-4 mt-2 bg-gradient-to-r from-[#111625]/90 to-purple-900/20 border-2 border-cyan-500/30 rounded-xl text-center active:scale-95 duration-100 hover:border-cyan-400/70 shadow-[0_0_10px_rgba(6,182,212,0.15)] transition-all gap-2"
+              >
+                <svg className="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <h4 className="text-xs font-black tracking-wider text-white uppercase">{t.aboutBtn}</h4>
+              </a>
             </div>
 
             {/* Fixed Action Button (Random Play) */}
