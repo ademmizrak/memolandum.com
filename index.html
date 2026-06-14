@@ -1114,6 +1114,7 @@
           } else {
             await window.FirebaseCore.functions.register(authEmail, authPassword);
           }
+          setActiveTab('profile');
         } catch (err) {
           setAuthError(err.message);
         }
@@ -1125,6 +1126,7 @@
         setAuthLoading(true);
         try {
           await window.FirebaseCore.functions.loginWithGoogle();
+          setActiveTab('profile');
         } catch (err) {
           setAuthError(err.message);
         }
@@ -1578,21 +1580,12 @@
                     {user.email}
                   </p>
                   
-                  <div className="flex flex-col gap-3">
-                    <button 
-                      onClick={() => window.SyncManager.syncOnLogin(user.uid).then(() => syncLegacyData())}
-                      className="w-full py-3 bg-purple-600 hover:bg-purple-500 text-white font-bold rounded-lg uppercase tracking-wider text-sm transition-colors"
-                    >
-                      {language === 'TR' ? 'Bulut Senkronizasyonunu Zorla' : 'Force Cloud Sync'}
-                    </button>
-                    
-                    <button 
-                      onClick={handleLogout}
-                      className="w-full py-3 bg-transparent border border-red-500/50 hover:bg-red-500/20 text-red-400 font-bold rounded-lg uppercase tracking-wider text-sm transition-colors"
-                    >
-                      {language === 'TR' ? 'Çıkış Yap' : 'Logout'}
-                    </button>
-                  </div>
+                  <button 
+                    onClick={() => setActiveTab('profile')}
+                    className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-lg uppercase tracking-wider text-sm transition-colors"
+                  >
+                    {language === 'TR' ? 'Profile Git' : 'Go to Profile'}
+                  </button>
                 </div>
               ) : (
                 <div className="w-full bg-[#111625]/90 border border-gray-800 rounded-xl p-6 shadow-md relative overflow-hidden">
@@ -1974,15 +1967,25 @@
               </div>
 
               <div className="w-full bg-[#111625]/95 border border-gray-800 rounded-2xl p-6 flex flex-col items-center shadow-lg mb-6">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-tr from-purple-600 to-cyan-500 p-1 shadow-[0_0_20px_rgba(168,85,247,0.4)] mb-4">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-tr from-purple-600 to-cyan-500 p-1 shadow-[0_0_20px_rgba(168,85,247,0.4)] mb-4 relative">
                   <div className="w-full h-full rounded-full bg-black flex items-center justify-center text-4xl">
-                    👨‍🚀
+                    {user ? '🚀' : '👨‍🚀'}
                   </div>
+                  {user && (
+                    <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-emerald-500 rounded-full border-2 border-[#111625] animate-pulse"></div>
+                  )}
                 </div>
-                <h3 className="text-lg font-black tracking-widest text-white mb-0.5">CADET_ADEM</h3>
-                <span className="text-xs font-black text-cyan-400 uppercase tracking-widest bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/25">
+                <h3 className="text-lg font-black tracking-widest text-white mb-0.5 truncate max-w-[250px]">
+                  {user ? (user.displayName || user.email.split('@')[0].toUpperCase()) : 'CADET_GUEST'}
+                </h3>
+                {user && (
+                  <span className="text-[10px] text-cyan-500 mb-2 truncate max-w-[250px]">{user.email}</span>
+                )}
+                
+                <span className="text-xs font-black text-cyan-400 uppercase tracking-widest bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/25 mt-2">
                   LEVEL {savedLevel} PILOT
                 </span>
+
                 <div className="w-full grid grid-cols-2 gap-4 mt-6 pt-6 border-t border-gray-850 text-sm font-bold font-body">
                   <div className="flex justify-between items-center bg-gray-900/50 p-2.5 rounded-xl border border-gray-855">
                     <span className="text-gray-500">GEMS</span>
@@ -1995,9 +1998,37 @@
                 </div>
               </div>
 
+              {user ? (
+                <div className="w-full flex flex-col gap-3 mb-6">
+                  <button 
+                    onClick={() => window.SyncManager.syncOnLogin(user.uid).then(() => syncLegacyData())}
+                    className="w-full py-3.5 bg-gradient-to-r from-purple-600/30 to-purple-800/30 border border-purple-500/50 hover:bg-purple-500/40 active:scale-[0.98] transition-all text-purple-300 rounded-xl font-bold tracking-widest text-sm uppercase flex items-center justify-center gap-2"
+                  >
+                    <span>☁️</span>
+                    {language === 'TR' ? 'Bulut Senk. (Zorla)' : 'Force Cloud Sync'}
+                  </button>
+                  <button 
+                    onClick={handleLogout}
+                    className="w-full py-3.5 bg-red-950/20 border border-red-500/35 hover:bg-red-500/15 active:scale-[0.98] transition-all text-red-500 rounded-xl font-bold tracking-widest text-sm uppercase"
+                  >
+                    {language === 'TR' ? 'Çıkış Yap' : 'Logout'}
+                  </button>
+                </div>
+              ) : (
+                <div className="w-full flex flex-col gap-3 mb-6">
+                  <button 
+                    onClick={() => setActiveTab('auth')}
+                    className="w-full py-3.5 bg-gradient-to-r from-cyan-600/30 to-cyan-800/30 border border-cyan-500/50 hover:bg-cyan-500/40 active:scale-[0.98] transition-all text-cyan-300 rounded-xl font-bold tracking-widest text-sm uppercase flex items-center justify-center gap-2"
+                  >
+                    <span>☁️</span>
+                    {language === 'TR' ? 'Buluta Kaydol / Giriş' : 'Register / Login (Cloud)'}
+                  </button>
+                </div>
+              )}
+
               <button 
                 onClick={handleResetDatabase}
-                className="w-full py-3.5 bg-red-950/20 border border-red-500/35 hover:bg-red-500/15 active:scale-[0.98] transition-all text-red-500 rounded-xl font-bold tracking-widest text-sm uppercase"
+                className="w-full py-3.5 bg-gray-950/40 border border-gray-800 hover:bg-gray-800/60 active:scale-[0.98] transition-all text-gray-500 hover:text-red-400 rounded-xl font-bold tracking-widest text-xs uppercase"
               >
                 {t.resetData}
               </button>
