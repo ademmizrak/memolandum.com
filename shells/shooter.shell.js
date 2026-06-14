@@ -911,7 +911,7 @@ class Game {
 
     // Game loop control values
     this.lastTime = 0;
-    this.spawnTimer = 0;
+    this.spawnTimer = 999; // Spawn immediately on first frame
     this.spawnInterval = 3.2; // Seconds between spawns (longer for readability)
     this.hitPauseUntil = 0; // Epoch timestamp (ms) for hit-stop freeze effect
     this.screenShake = 0; // Camera shake intensity (decaying over time)
@@ -1248,7 +1248,7 @@ class Game {
     this.gemsCollectedThisLevel = 0;
 
     this.player.reset();
-    this.spawnTimer = 0;
+    this.spawnTimer = 999; // Spawn immediately on first frame
     this.spawnInterval = 3.2;
     this.flashMessage = null;
     this.flashTimeRemaining = 0;
