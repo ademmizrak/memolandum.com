@@ -1130,6 +1130,7 @@ export default function MemolandumHome() {
           
           <button id="resume-btn" className="glow-btn btn-yellow" style={{marginBottom: '12px', width: '100%', maxWidth: '200px'}}>RESUME SYSTEM</button>
           <button id="pause-exam-btn" className="glow-btn btn-green" style={{marginBottom: '12px', width: '100%', maxWidth: '200px'}}>START EXAM</button>
+          <button id="pause-restart-btn" className="glow-btn btn-magenta" style={{marginBottom: '12px', width: '100%', maxWidth: '200px'}}>RESTART SYSTEM</button>
           <button id="pause-menu-btn" className="glow-btn btn-cyan" style={{width: '100%', maxWidth: '200px'}}>MAIN MENU</button>
         </div>
 

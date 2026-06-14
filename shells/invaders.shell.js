@@ -739,6 +739,15 @@ class InvadersGame {
       };
     }
 
+    const btnPauseRestart = document.getElementById('pause-restart-btn');
+    if (btnPauseRestart) {
+      btnPauseRestart.onclick = () => {
+        this.isPaused = false;
+        document.getElementById('pause-screen').classList.add('hidden');
+        this.startGame();
+      };
+    }
+
     const btnPauseMenu = document.getElementById('pause-menu-btn');
     if (btnPauseMenu) {
       btnPauseMenu.onclick = () => {

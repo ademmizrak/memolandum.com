@@ -1075,6 +1075,16 @@ class Game {
         window.examEngine.startSession(this.vocabulary, this);
       };
     }
+
+    const pauseRestartBtn = document.getElementById('pause-restart-btn');
+    if (pauseRestartBtn) {
+      pauseRestartBtn.onclick = () => {
+        this.isPaused = false;
+        document.getElementById('pause-screen').classList.add('hidden');
+        this.startGame();
+      };
+    }
+
     document.getElementById('pause-menu-btn').onclick = () => {
       const pauseMenuBtn = document.getElementById('pause-menu-btn');
       if (!this.confirmQuitActive) {

@@ -262,7 +262,7 @@ class BreakoutGame {
     // Paddle settings
     this.paddle = {
       x: this.virtualWidth / 2,
-      y: 700,
+      y: 800,
       width: 120,
       height: 18
     };
@@ -471,7 +471,7 @@ class BreakoutGame {
     items.sort(() => 0.5 - Math.random());
 
     const cols = 4;
-    const rows = 5;
+    const rows = Math.ceil(items.length / cols);
     const brickWidth = 120;
     const brickHeight = 36;
     
@@ -793,6 +793,15 @@ class BreakoutGame {
           window.examEngine = new ExamEngine();
         }
         window.examEngine.startSession(vocabulary, window.game);
+      };
+    }
+
+    const btnPauseRestart = document.getElementById('pause-restart-btn');
+    if (btnPauseRestart) {
+      btnPauseRestart.onclick = () => {
+        this.isPaused = false;
+        document.getElementById('pause-screen').classList.add('hidden');
+        this.startGame();
       };
     }
 
