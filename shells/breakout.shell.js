@@ -262,7 +262,7 @@ class BreakoutGame {
     // Paddle settings
     this.paddle = {
       x: this.virtualWidth / 2,
-      y: 900,
+      y: 700,
       width: 120,
       height: 18
     };
