@@ -62,6 +62,7 @@ const TRANSLATIONS = {
     // Profile Tab
     profileTitle: "KULLANICI PROFİLİ",
     profileSubtitle: "Pilot istatistikleri ve siber donanım",
+    aboutBtn: "Hakkımızda & Bilim",
     resetData: "Verileri Sıfırla",
     resetWarning: "Tüm kelime gelişiminiz ve puanlarınız silinecektir!",
     resetConfirm: "Evet, Sıfırla",
@@ -125,6 +126,7 @@ const TRANSLATIONS = {
     // Profile Tab
     profileTitle: "CADET PROFILE",
     profileSubtitle: "Pilot metadata and system registers",
+    aboutBtn: "About Us & Science",
     resetData: "Wipe System Registers",
     resetWarning: "This will permanently delete your database progress!",
     resetConfirm: "Yes, Format Database",
@@ -824,6 +826,15 @@ export default function MemolandumHome() {
                 </div>
               </div>
             </div>
+
+            {/* About Us Button */}
+            <a 
+              href="about.html"
+              className="w-full py-3.5 mb-4 bg-gradient-to-r from-purple-600/20 to-cyan-600/20 border border-purple-500/30 hover:border-cyan-400/50 active:scale-[0.98] transition-all text-white rounded-xl font-bold tracking-widest text-xs uppercase flex items-center justify-center gap-2"
+            >
+              <svg className="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              {t.aboutBtn}
+            </a>
 
             {/* Reset Button */}
             <button 
