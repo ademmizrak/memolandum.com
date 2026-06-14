@@ -1018,8 +1018,17 @@
                 />
               </div>
             </div>
-            <div className="text-xs text-cyan-400 font-bold uppercase tracking-[3px] mt-1.5 drop-shadow-[0_0_8px_rgba(6,182,212,0.4)]">
-              {t.subtitle}
+            <div className="w-full flex items-center justify-between px-2 mt-2">
+              <button 
+                onClick={() => setActiveTab('science')}
+                className="text-[10px] text-emerald-400 font-black uppercase tracking-widest hover:text-white transition-colors flex items-center gap-1 drop-shadow-[0_0_5px_rgba(16,185,129,0.5)] bg-emerald-500/10 px-2 py-1 rounded-sm border border-emerald-500/30 active:scale-95 shadow-[0_0_8px_rgba(16,185,129,0.15)]"
+              >
+                <span>🧠</span>
+                {language === 'TR' ? 'BİLİMSEL GERÇEKLER' : 'SCIENTIFIC FACTS'}
+              </button>
+              <div className="text-[11px] text-cyan-400 font-bold uppercase tracking-[3px] drop-shadow-[0_0_8px_rgba(6,182,212,0.4)] text-right">
+                {t.subtitle}
+              </div>
             </div>
           </header>
 
@@ -1388,17 +1397,6 @@
                 </div>
               </div>
 
-              {/* SECTION 4.5: ABOUT US LINK */}
-              <div className="w-full mb-8">
-                <a 
-                  href="about.html"
-                  className="w-full flex items-center justify-center p-4 bg-gradient-to-r from-[#111625]/90 to-purple-900/20 border-2 border-cyan-500/30 rounded-xl text-center active:scale-95 duration-100 hover:border-cyan-400/70 shadow-[0_0_15px_rgba(6,182,212,0.15)] transition-all gap-3"
-                >
-                  <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                  <h4 className="text-sm font-black tracking-widest text-white uppercase">{t.aboutBtn}</h4>
-                </a>
-              </div>
-
               {/* SECTION 5: CONVERSATIONAL FAQ (Direct) */}
               <div className="w-full pb-36">
                 <div className="px-1 mb-4 text-left">
@@ -1443,6 +1441,92 @@
                 </div>
               </div>
 
+            </div>
+          )}
+
+          {/* SCIENCE TAB */}
+          {activeTab === 'science' && (
+            <div className="w-full max-w-md flex flex-col items-center flex-grow px-2 pb-32 text-left">
+              <div className="w-full mb-6">
+                <button 
+                  onClick={() => setActiveTab('home')}
+                  className="mb-4 text-cyan-400 text-[10px] font-bold uppercase flex items-center gap-1 hover:text-white transition-colors"
+                >
+                  ◀ {language === 'TR' ? 'Ana Ekrana Dön' : 'Back to Home'}
+                </button>
+                <h2 className="text-xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 tracking-widest uppercase mb-4 drop-shadow-[0_0_8px_rgba(16,185,129,0.3)]">
+                  {language === 'TR' ? 'BİLİMSEL TEMELLERİMİZ' : 'SCIENTIFIC FOUNDATIONS'}
+                </h2>
+                
+                <div className="space-y-4 text-[11px] text-gray-300 leading-relaxed font-body">
+                  <div className="bg-[#111625]/90 border border-gray-800 rounded-xl p-4 shadow-md">
+                    <p className="mb-3">
+                      <strong className="text-cyan-400">memolandum.com</strong>, {language === 'TR' ? 'geleneksel ve sıkıcı öğrenme metotlarını geride bırakarak, kalıcı hafıza yönetimini küresel bir oyun ekosistemine dönüştüren yeni nesil bir platformdur.' : 'is a next-generation platform that transforms permanent memory management into a global gaming ecosystem, leaving traditional and boring learning methods behind.'}
+                    </p>
+                    <p>
+                      {language === 'TR' ? 'Peki, bunu nasıl yapıyoruz? Sadece eğlenceli oyun tasarımlarıyla değil; insan beyninin çalışma prensiplerini çözen nörobilim, bilişsel psikoloji ve dijital oyun teknolojilerinin evrimsel disipliniyle hareket ediyoruz.' : 'How do we do this? Not just with fun game designs, but by operating within the evolutionary discipline of neuroscience, cognitive psychology, and digital game technologies that decode the working principles of the human brain.'}
+                    </p>
+                  </div>
+
+                  <h3 className="text-sm font-black text-yellow-400 uppercase tracking-widest mt-6 mb-2 border-b border-gray-800 pb-2">
+                    {language === 'TR' ? 'Gücümüzü Bilimden Alıyoruz' : 'Powered by Science'}
+                  </h3>
+
+                  <div className="bg-[#111625]/90 border-l-2 border-emerald-500 rounded-r-xl p-4 shadow-md">
+                    <h4 className="text-xs font-black text-white uppercase tracking-wider mb-1 flex gap-2">
+                      <span className="text-emerald-400">01.</span> Subliminal & Implicit Learning
+                    </h4>
+                    <p className="text-gray-400">
+                      {language === 'TR' ? 'İnsan beyni, bilincin aktif olarak algılayamadığı "eşik altı" uyaranları işleme yeteneğine sahiptir. Oyunlarımızda siz hedefe odaklanmışken arka planda kelime kalıpları bilinçaltınıza işlenir.' : 'The human brain has the ability to process "subliminal" stimuli. While you focus on the game objective, vocabulary patterns are processed into your subconscious in the background.'}
+                    </p>
+                  </div>
+
+                  <div className="bg-[#111625]/90 border-l-2 border-yellow-500 rounded-r-xl p-4 shadow-md">
+                    <h4 className="text-xs font-black text-white uppercase tracking-wider mb-1 flex gap-2">
+                      <span className="text-yellow-400">02.</span> Arcade Philosophy
+                    </h4>
+                    <p className="text-gray-400">
+                      {language === 'TR' ? '70\'lerin atari salonlarındaki o yüksek odaklanma (hyper-focus) mekaniklerini kullanarak öğrenmeyi bir yük olmaktan çıkarıp, sürdürülebilir bir oyun döngüsüne çeviriyoruz.' : 'By utilizing the hyper-focus mechanics from 70s arcade games, we transform learning from a burden into a sustainable gaming loop.'}
+                    </p>
+                  </div>
+
+                  <div className="bg-[#111625]/90 border-l-2 border-purple-500 rounded-r-xl p-4 shadow-md">
+                    <h4 className="text-xs font-black text-white uppercase tracking-wider mb-1 flex gap-2">
+                      <span className="text-purple-400">03.</span> Spaced Repetition (Unutma Eğrisi)
+                    </h4>
+                    <p className="text-gray-400">
+                      {language === 'TR' ? 'Algoritmalarımız bir kelimeyi unutmak üzere olduğunuz kritik kırılma anını hesaplar ve kelimeyi tam zamanında karşınıza çıkararak kalıcı hafızaya transfer eder.' : 'Our algorithms calculate the critical moment you are about to forget a word and present it to you just in time, transferring it to long-term memory.'}
+                    </p>
+                  </div>
+
+                  <div className="bg-[#111625]/90 border-l-2 border-cyan-500 rounded-r-xl p-4 shadow-md">
+                    <h4 className="text-xs font-black text-white uppercase tracking-wider mb-1 flex gap-2">
+                      <span className="text-cyan-400">04.</span> Dual-Coding Theory
+                    </h4>
+                    <p className="text-gray-400">
+                      {language === 'TR' ? 'Bilgiyi hem metinsel hem görsel uyaranlarla birleştiririz. Sistemimizde okumanın yanı sıra tepki verir ve mekansal hafızanızı (spatial memory) tetiklersiniz.' : 'We combine information with both textual and visual stimuli. You react to the game, triggering your spatial memory along with reading.'}
+                    </p>
+                  </div>
+
+                  <div className="bg-[#111625]/90 border-l-2 border-red-500 rounded-r-xl p-4 shadow-md">
+                    <h4 className="text-xs font-black text-white uppercase tracking-wider mb-1 flex gap-2">
+                      <span className="text-red-400">05.</span> Active Recall
+                    </h4>
+                    <p className="text-gray-400">
+                      {language === 'TR' ? 'Memolandum size ezberletmez; arcade mekanikleriyle bilgiyi refleksif olarak "geri çağırmaya" (Active Recall) zorlar. Zamana karşı yarışırken nöral bağlarınız güçlenir.' : 'Memolandum doesn\'t force you to memorize; it forces you to reflexively "recall" information via arcade mechanics. Racing against time strengthens your neural pathways.'}
+                    </p>
+                  </div>
+
+                  <div className="bg-gray-900/80 border border-gray-700 rounded-xl p-4 mt-8 text-center">
+                    <h3 className="text-xs font-black text-cyan-400 tracking-widest uppercase mb-2">
+                      {language === 'TR' ? 'Küresel Vizyon' : 'Global Vision'}
+                    </h3>
+                    <p className="text-[10px] text-gray-400 italic">
+                      {language === 'TR' ? '"Geleceğin öğrenme teknolojisini, bilişimin sıfır noktası olan retro ruhuyla inşa ediyoruz."' : '"We build the learning technology of the future with the retro spirit, the ground zero of computing."'}
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           )}
 
