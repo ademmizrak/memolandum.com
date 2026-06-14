@@ -13,8 +13,12 @@
   <meta name="author" content="Memolandum Team">
   <meta name="robots" content="index, follow">
   
-  <!-- Canonical URL -->
+  <!-- Canonical URL & Hreflang for SEO -->
   <link rel="canonical" href="https://memolandum.com">
+  <link rel="alternate" hreflang="tr" href="https://memolandum.com/">
+  <link rel="alternate" hreflang="pt" href="https://memolandum.com/pt-en">
+  <link rel="alternate" hreflang="en" href="https://memolandum.com/en-pt">
+  <link rel="alternate" hreflang="x-default" href="https://memolandum.com/">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -275,6 +279,21 @@
   </style>
 </head>
 <body class="bg-[#0a0f1d] overflow-hidden">
+
+  <!-- Static SEO Content for Web Crawlers (Hidden from Users) -->
+  <div id="seo-content" class="hidden" aria-hidden="true">
+    <h1>Memolandum - A1, A2, B1, B2 İngilizce Kelime Ezberleme Oyunu</h1>
+    <p>Memolandum, siber uzay (cyberpunk) temasına sahip, oyunlaştırma ile İngilizce kelime ezberlemenizi sağlayan ücretsiz bir uygulamadır. TR-ENG, PT-BR-ENG dillerini destekler.</p>
+    <ul>
+      <li>A1 Beginner Seviye İngilizce Kelimeler</li>
+      <li>A2 Elementary Seviye İngilizce Kelimeler</li>
+      <li>B1 Intermediate Seviye İngilizce Kelimeler</li>
+      <li>B2 Upper Intermediate Seviye İngilizce Kelimeler</li>
+      <li>İngilizce Phrasal Verbs (Deyimsel Fiiller)</li>
+      <li>İngilizce Bağlaçlar (Conjunctions) ve Edatlar (Prepositions)</li>
+    </ul>
+    <p>Uygulamamızı hemen kullanmaya başlayarak kelime haznenizi (vocabulary) oyun oynayarak, farkında olmadan kalıcı bir şekilde genişletebilirsiniz.</p>
+  </div>
 
   <!-- PWA Install Banner -->
   <div id="pwa-install-banner" class="hidden fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:w-96 z-[9999] bg-[#0a0814]/95 backdrop-blur-md border border-[#00f0ff]/40 rounded-xl p-4 shadow-[0_0_25px_rgba(0,240,255,0.2)] flex flex-col gap-3 transform transition-all duration-300 translate-y-20 opacity-0">

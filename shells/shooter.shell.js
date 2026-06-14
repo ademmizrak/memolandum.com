@@ -703,9 +703,19 @@ let prefetchedData = null;
 
 function prefetchStageData(jsonFileName) {
   prefetchedData = null;
-  prefetchPromise = fetch(`./data/${jsonFileName}`)
+  
+  let dataPath = `./data/${jsonFileName}`;
+  if (window.languagePair && window.languagePair !== 'en_tr') {
+    const match = jsonFileName.match(/^([a-z0-9]+)_words\.json$/i);
+    if (match) {
+      const level = match[1].toLowerCase();
+      dataPath = `./data/portugal/${window.languagePair}_${level}.json`;
+    }
+  }
+
+  prefetchPromise = fetch(dataPath)
     .then(response => {
-      if (!response.ok) throw new Error(`File not found: ./data/${jsonFileName}`);
+      if (!response.ok) throw new Error(`File not found: ${dataPath}`);
       return response.json();
     })
     .then(data => {
@@ -2473,10 +2483,19 @@ function loadLevel(jsonFileName, isTransition = false) {
     window.sessionScore = 0;
   }
 
-  fetch(`./data/${jsonFileName}`)
+  let dataPath = `./data/${jsonFileName}`;
+  if (window.languagePair && window.languagePair !== 'en_tr') {
+    const match = jsonFileName.match(/^([a-z0-9]+)_words\.json$/i);
+    if (match) {
+      const level = match[1].toLowerCase();
+      dataPath = `./data/portugal/${window.languagePair}_${level}.json`;
+    }
+  }
+
+  fetch(dataPath)
     .then(response => {
       if (!response.ok) {
-        throw new Error(`File not found: ./data/${jsonFileName}`);
+        throw new Error(`File not found: ${dataPath}`);
       }
       return response.json();
     })
@@ -2569,9 +2588,18 @@ function launchExam() {
     loadingScreen.classList.remove('hidden');
   }
 
-  fetch(`./data/${category}`)
+  let dataPath = `./data/${category}`;
+  if (window.languagePair && window.languagePair !== 'en_tr') {
+    const match = category.match(/^([a-z0-9]+)_words\.json$/i);
+    if (match) {
+      const level = match[1].toLowerCase();
+      dataPath = `./data/portugal/${window.languagePair}_${level}.json`;
+    }
+  }
+
+  fetch(dataPath)
     .then(response => {
-      if (!response.ok) throw new Error(`File not found: ./data/${category}`);
+      if (!response.ok) throw new Error(`File not found: ${dataPath}`);
       return response.json();
     })
     .then(data => {
