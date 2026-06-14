@@ -2545,16 +2545,20 @@ function initializeGameWithData(data, jsonFileName) {
     rawWords = data;
   } else if (data && Array.isArray(data.words)) {
     rawWords = data.words;
+  } else if (data && Array.isArray(data.vocabulary_vault)) {
+    rawWords = data.vocabulary_vault;
+  } else if (data && Array.isArray(data.phrase_vault)) {
+    rawWords = data.phrase_vault;
   } else {
-    throw new Error("Invalid vocabulary file format. Expected a list or a 'words' array.");
+    throw new Error("Invalid vocabulary file format. Expected a list, a 'words' array, or a vault array.");
   }
   
-  // Map JSON schema { en, tr } or { word, translation } -> internal schema { english, turkish }
+  // Map JSON schema { en, tr }, { word, translation }, or { mission_word, target_translation } -> internal schema { english, turkish }
   const vocabulary = rawWords.map(w => {
     if (!w) return { english: "", turkish: "" };
     return {
-      english: (w.word || w.en || "").toString().toUpperCase(),
-      turkish: (w.translation || w.tr || "").toString().toUpperCase()
+      english: (w.word || w.en || w.mission_word || w.mission_phrase || "").toString().toUpperCase(),
+      turkish: (w.translation || w.tr || w.target_translation || "").toString().toUpperCase()
     };
   }).filter(w => w.english && w.turkish);
 
@@ -2646,6 +2650,10 @@ function initializeExamWithData(data, jsonFileName) {
     rawWords = data;
   } else if (data && Array.isArray(data.words)) {
     rawWords = data.words;
+  } else if (data && Array.isArray(data.vocabulary_vault)) {
+    rawWords = data.vocabulary_vault;
+  } else if (data && Array.isArray(data.phrase_vault)) {
+    rawWords = data.phrase_vault;
   } else {
     throw new Error("Invalid vocabulary file format.");
   }
@@ -2653,8 +2661,8 @@ function initializeExamWithData(data, jsonFileName) {
   const vocabulary = rawWords.map(w => {
     if (!w) return { english: "", turkish: "" };
     return {
-      english: (w.word || w.en || "").toString().toUpperCase(),
-      turkish: (w.translation || w.tr || "").toString().toUpperCase()
+      english: (w.word || w.en || w.mission_word || w.mission_phrase || "").toString().toUpperCase(),
+      turkish: (w.translation || w.tr || w.target_translation || "").toString().toUpperCase()
     };
   }).filter(w => w.english && w.turkish);
 
