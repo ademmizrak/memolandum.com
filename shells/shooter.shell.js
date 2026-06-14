@@ -705,7 +705,12 @@ function prefetchStageData(jsonFileName) {
   prefetchedData = null;
   
   let dataPath = `./data/${jsonFileName}`;
-  if (window.languagePair && window.languagePair !== 'en_tr') {
+  
+  if (jsonFileName.startsWith('summer_')) {
+    const lang = localStorage.getItem('memolandum_lang') || 'ENG';
+    const prefix = lang === 'TR' ? 'tr_en' : 'en_tr';
+    dataPath = `./data/summer/${prefix}_${jsonFileName}`;
+  } else if (window.languagePair && window.languagePair !== 'en_tr') {
     const match = jsonFileName.match(/^([a-z0-9]+)_words\.json$/i);
     if (match) {
       const level = match[1].toLowerCase();
@@ -2484,7 +2489,12 @@ function loadLevel(jsonFileName, isTransition = false) {
   }
 
   let dataPath = `./data/${jsonFileName}`;
-  if (window.languagePair && window.languagePair !== 'en_tr') {
+  
+  if (jsonFileName.startsWith('summer_')) {
+    const lang = localStorage.getItem('memolandum_lang') || 'ENG';
+    const prefix = lang === 'TR' ? 'tr_en' : 'en_tr';
+    dataPath = `./data/summer/${prefix}_${jsonFileName}`;
+  } else if (window.languagePair && window.languagePair !== 'en_tr') {
     const match = jsonFileName.match(/^([a-z0-9]+)_words\.json$/i);
     if (match) {
       const level = match[1].toLowerCase();
@@ -2589,7 +2599,12 @@ function launchExam() {
   }
 
   let dataPath = `./data/${category}`;
-  if (window.languagePair && window.languagePair !== 'en_tr') {
+  
+  if (category.startsWith('summer_')) {
+    const lang = localStorage.getItem('memolandum_lang') || 'ENG';
+    const prefix = lang === 'TR' ? 'tr_en' : 'en_tr';
+    dataPath = `./data/summer/${prefix}_${category}`;
+  } else if (window.languagePair && window.languagePair !== 'en_tr') {
     const match = category.match(/^([a-z0-9]+)_words\.json$/i);
     if (match) {
       const level = match[1].toLowerCase();
