@@ -992,7 +992,11 @@
           {/* Header */}
           <header className="w-full max-w-md flex flex-col items-center mb-6 shrink-0">
             <div className="w-full flex justify-between items-center px-2">
-              <div className="flex items-center gap-1.5">
+              <div 
+                className="flex items-center gap-1.5 cursor-pointer hover:opacity-80 active:scale-95 transition-all"
+                onClick={() => setActiveTab('home')}
+                title={language === 'TR' ? 'Ana Ekrana Dön' : 'Back to Home'}
+              >
                 <span className="text-xl animate-bounce">🕹️</span>
                 <h1 className="text-2xl font-black tracking-widest text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.45)]">
                   MEMOLANDUM
@@ -1386,7 +1390,7 @@
                   {language === 'TR' ? 'Hakkımızda & Bilimsel Temellerimiz' : 'About Us & Scientific Foundations'}
                 </h2>
                 
-                <div className="space-y-4 text-[11px] text-gray-300 leading-relaxed font-body">
+                <div className="space-y-4 text-sm text-gray-300 leading-relaxed font-body">
                   <div className="bg-[#111625]/90 border border-gray-800 rounded-xl p-4 shadow-md">
                     <h3 className="text-sm font-black text-white uppercase tracking-widest mb-2 border-b border-gray-800 pb-2">
                       {language === 'TR' ? 'Biz Kimiz?' : 'Who Are We?'}
@@ -1402,7 +1406,7 @@
                   <h3 className="text-sm font-black text-yellow-400 uppercase tracking-widest mt-6 mb-2 border-b border-gray-800 pb-2">
                     {language === 'TR' ? 'Gücümüzü Bilim, Disiplin ve Teknolojiden Alıyoruz' : 'Powered by Science, Discipline, and Technology'}
                   </h3>
-                  <p className="text-[10px] text-gray-400 mb-4">
+                  <p className="text-xs text-gray-400 mb-4">
                     {language === 'TR' ? 'Geliştirdiğimiz oyun modülleri ve kelime edinim algoritmaları, doğrudan aşağıdaki akademik teoriler ve teknolojik vizyon üzerine inşa edilmiştir:' : 'The game modules and vocabulary acquisition algorithms we developed are directly built upon the following academic theories and technological vision:'}
                   </p>
 
