@@ -1076,6 +1076,10 @@
 
     function MemolandumHome() {
       const [language, setLanguage] = useState('ENG');
+      const [langPair, setLangPair] = useState('en_tr');
+      const [showLanguageMenu, setShowLanguageMenu] = useState(false);
+      const [loadingSector, setLoadingSector] = useState(false);
+      
       const [activeTab, setActiveTab] = useState('home');
       const [activeShell, setActiveShell] = useState('shooter');
       const [activeCategory, setActiveCategory] = useState('a1_words.json');
@@ -1210,7 +1214,25 @@
         setActiveShell(activeSh);
         
         const lang = localStorage.getItem('memolandum_lang');
-        if (lang) setLanguage(lang);
+        
+        // Parse URL for routing logic (/pt-en or /en-pt)
+        const path = window.location.pathname;
+        let initialLangPair = localStorage.getItem('memolandum_lang_pair') || 'en_tr';
+        let initialLang = lang || 'ENG';
+
+        if (path.includes('/pt-en')) {
+          initialLangPair = 'pt_br_eng';
+          initialLang = 'PT-BR';
+        } else if (path.includes('/en-pt')) {
+          initialLangPair = 'eng_pt_br';
+          initialLang = 'ENG';
+        } else if (path === '/' || path === '') {
+          initialLangPair = 'en_tr';
+        }
+
+        setLangPair(initialLangPair);
+        setLanguage(initialLang);
+        window.languagePair = initialLangPair;
 
         computeCategoryProgress(stage || activeCategory);
       };
@@ -1257,6 +1279,36 @@
       const toggleLanguage = (lang) => {
         setLanguage(lang);
         localStorage.setItem('memolandum_lang', lang);
+      };
+
+      const toggleLanguagePair = (newPair) => {
+        setLoadingSector(true);
+        setShowLanguageMenu(false);
+        
+        setTimeout(() => {
+          setLangPair(newPair);
+          window.languagePair = newPair;
+          localStorage.setItem('memolandum_lang_pair', newPair);
+          
+          let newPath = '/';
+          let newLang = 'ENG';
+          if (newPair === 'pt_br_eng') {
+            newPath = '/pt-en';
+            newLang = 'PT-BR';
+          } else if (newPair === 'eng_pt_br') {
+            newPath = '/en-pt';
+            newLang = 'ENG';
+          } else if (newPair === 'en_tr') {
+            newPath = '/';
+            newLang = 'TR'; // Default to TR when going back to EN-TR
+          }
+          
+          setLanguage(newLang);
+          localStorage.setItem('memolandum_lang', newLang);
+          window.history.pushState({}, '', newPath);
+          
+          setLoadingSector(false);
+        }, 1500); // Simulated cyberpunk load time
       };
 
       const handleSelectShell = (shellName) => {
@@ -1466,23 +1518,60 @@
                 </h1>
               </div>
               
-              {/* Language Switcher */}
-              <div className="flex items-center bg-[#181d2e] border border-gray-800 rounded-full p-0.5 w-24 h-8 relative cursor-pointer shadow-inner">
-                <button 
-                  onClick={() => toggleLanguage('TR')} 
-                  className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${language === 'TR' ? 'text-white' : 'text-gray-500'}`}
-                >
-                  TR
-                </button>
-                <button 
-                  onClick={() => toggleLanguage('ENG')} 
-                  className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${language === 'ENG' ? 'text-white' : 'text-gray-500'}`}
-                >
-                  ENG
-                </button>
-                <div 
-                  className={`absolute top-0.5 bottom-0.5 w-[44px] bg-cyan-500 rounded-full transition-all duration-300 shadow-[0_0_10px_rgba(6,182,212,0.8)] ${language === 'ENG' ? 'left-[46px]' : 'left-0.5'}`} 
-                />
+              {loadingSector && (
+                <div className="absolute inset-0 z-[100] flex flex-col items-center justify-center bg-[#0a0f1d]/90 backdrop-blur-sm">
+                  <div className="w-12 h-12 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin mb-4 shadow-[0_0_15px_rgba(6,182,212,0.8)]"></div>
+                  <div className="text-cyan-400 font-black tracking-[4px] text-xs uppercase animate-pulse text-center px-4">
+                    CONNECTING TO SECTOR: <br/>{langPair === 'pt_br_eng' ? 'PT-BR' : langPair === 'eng_pt_br' ? 'ENG' : 'TR'}...
+                  </div>
+                  <div className="text-gray-500 font-bold tracking-[2px] text-[9px] uppercase mt-4">
+                    INITIALIZING {langPair.includes('pt') ? 'PORTUGUESE' : 'TURKISH'} LEXICAL SHELL...
+                  </div>
+                </div>
+              )}
+
+              {/* Language Switcher & Globe */}
+              <div className="flex items-center gap-2">
+                <div className="flex items-center bg-[#181d2e] border border-gray-800 rounded-full p-0.5 w-24 h-8 relative cursor-pointer shadow-inner">
+                  <button 
+                    onClick={() => { if (langPair==='en_tr') toggleLanguage('TR'); }} 
+                    className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${language === 'TR' ? 'text-white' : 'text-gray-500'}`}
+                  >
+                    {langPair === 'en_tr' ? 'TR' : langPair === 'pt_br_eng' ? 'PT-BR' : 'ENG'}
+                  </button>
+                  <button 
+                    onClick={() => { if (langPair==='en_tr') toggleLanguage('ENG'); }} 
+                    className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${language === 'ENG' ? 'text-white' : 'text-gray-500'}`}
+                  >
+                    {langPair === 'en_tr' ? 'ENG' : langPair === 'pt_br_eng' ? 'ENG' : 'PT-BR'}
+                  </button>
+                  <div 
+                    className={`absolute top-0.5 bottom-0.5 w-[44px] bg-cyan-500 rounded-full transition-all duration-300 shadow-[0_0_10px_rgba(6,182,212,0.8)] ${language === 'ENG' || language === 'PT-BR' && langPair === 'eng_pt_br' ? 'left-[46px]' : 'left-0.5'}`} 
+                  />
+                </div>
+
+                <div className="relative">
+                  <button 
+                    onClick={() => setShowLanguageMenu(!showLanguageMenu)}
+                    className="w-8 h-8 flex items-center justify-center rounded-full bg-[#181d2e] border border-gray-800 text-cyan-400 hover:text-cyan-300 hover:border-cyan-500 transition-all shadow-[0_0_8px_rgba(6,182,212,0.2)]"
+                  >
+                    🌐
+                  </button>
+
+                  {showLanguageMenu && (
+                    <div className="absolute right-0 top-10 w-48 bg-[#0f1629] border border-cyan-500/50 rounded-xl shadow-[0_0_15px_rgba(6,182,212,0.3)] z-50 overflow-hidden flex flex-col">
+                      <button onClick={() => toggleLanguagePair('en_tr')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors ${langPair === 'en_tr' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🇹🇷 TR ➔ 🇬🇧 ENG
+                      </button>
+                      <button onClick={() => toggleLanguagePair('pt_br_eng')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'pt_br_eng' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🇧🇷 PT-BR ➔ 🇬🇧 ENG
+                      </button>
+                      <button onClick={() => toggleLanguagePair('eng_pt_br')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'eng_pt_br' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🇬🇧 ENG ➔ 🇧🇷 PT-BR
+                      </button>
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
             <div className="w-full flex items-center justify-between px-2 mt-2">
