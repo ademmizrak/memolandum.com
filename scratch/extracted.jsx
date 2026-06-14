@@ -1,728 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>Memolandum - İngilizce Kelime Ezberleme Oyunu</title>
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#0d0d1a">
-  <meta name="description" content="Siber uzay arcade temasıyla eğlenirken İngilizce kelime ezberleyin! Memolandum, retro oynanış eşliğinde A1-B2 seviyelerinde kelime dağarcığınızı hızla geliştirir.">
-  <meta name="keywords" content="ingilizce kelime ezberleme, kelime ezberleme oyunu, ingilizce öğrenme, siber arcade, space shooter kelime oyunu, memolandum, ingilizce pratik cümleler, a1 ingilizce kelimeler">
-  
-  <!-- SEO & Accessibility -->
-  <meta name="author" content="Memolandum Team">
-  <meta name="robots" content="index, follow">
-  
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://memolandum.com">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://memolandum.com">
-  <meta property="og:title" content="Memolandum - Siber İngilizce Kelime Ezberleme Oyunu">
-  <meta property="og:description" content="Siber uzay arcade temasıyla eğlenirken İngilizce kelime ezberleyin! A1-B2 seviyeleri ve siber kelime protokolü ile kelime bilginizi saniyeler içinde kalıcı hale getirin.">
-  <meta property="og:image" content="https://memolandum.com/memolandum_preview.png">
-  <meta property="og:site_name" content="Memolandum">
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://memolandum.com">
-  <meta property="twitter:title" content="Memolandum - Siber İngilizce Kelime Ezberleme Oyunu">
-  <meta property="twitter:description" content="Siber uzay arcade temasıyla eğlenirken İngilizce kelime ezberleyin! A1-B2 seviyeleri ve siber kelime protokolü ile kelime bilginizi saniyeler içinde kalıcı hale getirin.">
-  <meta property="twitter:image" content="https://memolandum.com/memolandum_preview.png">
-
-  <!-- JSON-LD Structured Data for VideoGame Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "VideoGame",
-    "name": "Memolandum",
-    "genre": "Educational Game",
-    "playMode": "SinglePlayer",
-    "applicationCategory": "Game, Educational",
-    "operatingSystem": "Web, iOS, Android",
-    "description": "Siber uzay arcade temasıyla eğlenirken İngilizce kelime ezberleyin! Memolandum, retro oynanış eşliğinde A1-B2 seviyelerinde İngilizce kelimeleri ve pratik cümleleri kalıcı hale getiren eğitici bir web oyunudur.",
-    "url": "https://memolandum.com",
-    "author": {
-      "@type": "Organization",
-      "name": "Memolandum Team"
-    },
-    "image": "https://memolandum.com/memolandum_preview.png",
-    "offers": {
-      "@type": "Offer",
-      "price": "0.00",
-      "priceCurrency": "USD"
-    }
-  }
-  </script>
-
-  <!-- JSON-LD Structured Data for WebSite Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Memolandum",
-    "alternateName": "Memolandum İngilizce Kelime Oyunu",
-    "url": "https://memolandum.com"
-  }
-  </script>
-
-  <!-- JSON-LD Structured Data for SoftwareApplication Schema (GEO 2.2) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Memolandum",
-    "operatingSystem": "All",
-    "applicationCategory": "EducationalApplication",
-    "description": "Arcade tarzı oyunlarla İngilizce kelime ezberleme platformu.",
-    "browserRequirements": "Requires HTML5 Canvas and JavaScript",
-    "offers": {
-      "@type": "Offer",
-      "price": "0.00",
-      "priceCurrency": "USD"
-    }
-  }
-  </script>
-
-  <!-- JSON-LD Structured Data for LearningResource List (GEO 2.2) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Memolandum İngilizce Seviye Listeleri",
-    "description": "Oyun oynayarak ezberleyebileceğiniz İngilizce kelime grupları ve pratik cümleler.",
-    "itemListElement": [
-      {
-        "@type": "LearningResource",
-        "position": 1,
-        "name": "A1 İngilizce Kelime Listesi",
-        "description": "Temel başlangıç seviyesi İngilizce kelimeler ve anlamları.",
-        "learningResourceType": "Vocabulary List"
-      },
-      {
-        "@type": "LearningResource",
-        "position": 2,
-        "name": "A2 İngilizce Kelime Listesi",
-        "description": "Günlük konuşmada en çok kullanılan temel kelimeler.",
-        "learningResourceType": "Vocabulary List"
-      },
-      {
-        "@type": "LearningResource",
-        "position": 3,
-        "name": "B1 İngilizce Kelime Listesi",
-        "description": "Orta düzey kelime dağarcığı ve siber kelime protokolü.",
-        "learningResourceType": "Vocabulary List"
-      },
-      {
-        "@type": "LearningResource",
-        "position": 4,
-        "name": "B2 İngilizce Kelime Listesi",
-        "description": "İleri orta düzey İngilizce kelimeler ve pratikler.",
-        "learningResourceType": "Vocabulary List"
-      },
-      {
-        "@type": "LearningResource",
-        "position": 5,
-        "name": "Academic Verbs (Akademik Fiiller)",
-        "description": "Sınavlar ve akademik makaleler için en çok tercih edilen fiiller.",
-        "learningResourceType": "Vocabulary List"
-      },
-      {
-        "@type": "LearningResource",
-        "position": 6,
-        "name": "Phrasal Verbs (Deyimsel Fiiller)",
-        "description": "Günlük dilde ve sınavlarda sıkça çıkan öbeksi fiiller.",
-        "learningResourceType": "Vocabulary List"
-      }
-    ]
-  }
-  </script>
-
-  <!-- JSON-LD Structured Data for FAQPage Schema (GEO 4.0) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Memolandum nedir ve nasıl çalışır?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Memolandum, İngilizce kelime öğrenimini retro arcade oyunları ve siber uzay temasıyla birleştiren oyunlaştırılmış bir eğitim platformudur. Kullanıcılar oyun içinde meteorları vurarak veya yarışarak kelime eşleştirmeleri yapar ve siber kelime protokolü ile kalıcı öğrenme sağlarlar."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "İngilizce kelimeleri oyunla ezberlemek bilimsel olarak ne kadar etkilidir?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Oyun tabanlı öğrenme, aktif geri çağırma (active recall) ve Ebbinghaus unutma eğrisi üzerindeki aralıklı tekrarlama (spaced repetition) metotlarını birleştirir. Memolandum, kullanıcının yanlış yaptığı kelimeleri uyarlanabilir sınav blitz modülüyle tekrar önüne getirerek kelimeleri kısa sürede uzun süreli hafızaya aktarır. Günde 10 dakika oyunla ayda 300 kelimeye kadar kalıcı ezberleme hedeflenir."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Memolandum hangi İngilizce kelime düzeylerini ve eğitimlerini kapsar?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Memolandum, başlangıçtan orta-ileri seviyeye kadar A1, A2, B1 ve B2 İngilizce kelime setlerini, günlük konuşma kalıplarını barındıran pratik cümleleri, akademik fiilleri, edatları (prepositions), deyimsel fiilleri (phrasal verbs) ve bağlaçları kapsar."
-        }
-      }
-    ]
-  }
-  </script>
-
-  
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
-  
-  <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Universal Mobile & Legacy Browser Polyfills (Canvas roundRect support) -->
-  <script>
-    if (typeof CanvasRenderingContext2D !== 'undefined' && !CanvasRenderingContext2D.prototype.roundRect) {
-      CanvasRenderingContext2D.prototype.roundRect = function (x, y, width, height, radii) {
-        if (radii === undefined) radii = 0;
-        if (typeof radii === 'number') {
-          radii = [radii, radii, radii, radii];
-        } else if (Array.isArray(radii)) {
-          if (radii.length === 1) radii = [radii[0], radii[0], radii[0], radii[0]];
-          else if (radii.length === 2) radii = [radii[0], radii[1], radii[0], radii[1]];
-          else if (radii.length === 3) radii = [radii[0], radii[1], radii[2], radii[1]];
-          else if (radii.length >= 4) radii = [radii[0], radii[1], radii[2], radii[3]];
-        } else {
-          radii = [0, 0, 0, 0];
-        }
-
-        var r = {
-          tl: Math.min(radii[0], width / 2, height / 2),
-          tr: Math.min(radii[1], width / 2, height / 2),
-          br: Math.min(radii[2], width / 2, height / 2),
-          bl: Math.min(radii[3], width / 2, height / 2)
-        };
-
-        this.moveTo(x + r.tl, y);
-        this.lineTo(x + width - r.tr, y);
-        this.arcTo(x + width, y, x + width, y + height, r.tr);
-        this.lineTo(x + width, y + height - r.br);
-        this.arcTo(x + width, y + height, x, y + height, r.br);
-        this.lineTo(x + r.bl, y + height);
-        this.arcTo(x, y + height, x, y, r.bl);
-        this.lineTo(x, y + r.tl);
-        this.arcTo(x, y, x + width, y, r.tl);
-        this.closePath();
-        return this;
-      };
-    }
-  </script>
-  
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            header: ['Orbitron', 'sans-serif'],
-            body: ['Space Grotesk', 'sans-serif'],
-          }
-        }
-      }
-    }
-  </script>
-  <style>
-    .cyber-grid-bg {
-      background-size: 40px 40px;
-      background-image:
-        linear-gradient(to right, rgba(16, 185, 129, 0.05) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(16, 185, 129, 0.05) 1px, transparent 1px);
-      animation: grid-scroll 20s linear infinite;
-    }
-    @keyframes grid-scroll {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(40px); }
-    }
-    .scanline {
-      width: 100%;
-      height: 100px;
-      background: linear-gradient(to bottom, transparent, rgba(16, 185, 129, 0.1), transparent);
-      position: absolute;
-      top: -100px;
-      animation: scanline 8s linear infinite;
-      pointer-events: none;
-    }
-    @keyframes scanline {
-      0% { top: -100px; }
-      100% { top: 100%; }
-    }
-    .custom-scrollbar::-webkit-scrollbar {
-      width: 4px;
-    }
-    .custom-scrollbar::-webkit-scrollbar-track {
-      background: rgba(0, 0, 0, 0.2); 
-    }
-    .custom-scrollbar::-webkit-scrollbar-thumb {
-      background: rgba(16, 185, 129, 0.3); 
-      border-radius: 4px;
-    }
-    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-      background: rgba(16, 185, 129, 0.5); 
-    }
-  </style>
-</head>
-<body class="bg-[#0a0f1d] overflow-hidden">
-
-  <!-- PWA Install Banner -->
-  <div id="pwa-install-banner" class="hidden fixed bottom-4 left-4 right-4 md:left-auto md:right-4 md:w-96 z-[9999] bg-[#0a0814]/95 backdrop-blur-md border border-[#00f0ff]/40 rounded-xl p-4 shadow-[0_0_25px_rgba(0,240,255,0.2)] flex flex-col gap-3 transform transition-all duration-300 translate-y-20 opacity-0">
-    <div class="flex items-start justify-between">
-      <div class="flex items-center gap-3">
-        <img src="icons/icon-72.webp" class="w-12 h-12 rounded-lg border border-[#00f0ff]/50 shadow-[0_0_10px_rgba(0,240,255,0.3)]" alt="Memolandum Icon" onerror="this.src='memolandum_preview.png'">
-        <div>
-          <h3 class="text-[#00f0ff] font-['Orbitron'] font-bold text-sm tracking-wide">Memolandum'u Kur</h3>
-          <p class="text-gray-300 text-xs font-['Space_Grotesk'] mt-0.5">Ana ekrana ekle, internetsiz oyna!</p>
-        </div>
-      </div>
-      <button id="pwa-close-btn" class="text-gray-400 hover:text-white transition-colors p-1" aria-label="Kapat">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-      </button>
-    </div>
-    
-    <!-- iOS Instruction (Hidden by default) -->
-    <div id="pwa-ios-instruction" class="hidden text-[11px] text-[#ffea00] font-['Space_Grotesk'] bg-[#ffea00]/10 p-2 rounded border border-[#ffea00]/20 leading-relaxed">
-      Cihazınıza kurmak için <svg class="inline w-4 h-4 mx-0.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg> <b>Paylaş</b> ikonuna dokunun ve menüden <b>Ana Ekrana Ekle</b>'yi seçin.
-    </div>
-    
-    <button id="pwa-install-btn" class="w-full bg-transparent border-2 border-[#00f0ff] text-[#00f0ff] hover:bg-[#00f0ff] hover:text-black font-['Orbitron'] font-bold text-xs py-2 px-4 rounded transition-all duration-300 uppercase tracking-widest shadow-[0_0_10px_rgba(0,240,255,0.2)] hover:shadow-[0_0_20px_rgba(0,240,255,0.6)] cursor-pointer active:scale-95">
-      SİSTEME YÜKLE
-    </button>
-  </div>
-
-  <!-- No-JS Fallback for Crawler & Accessibility (PRD 7) -->
-  <noscript>
-    <div style="padding: 20px; color: #ffffff; background-color: #0a0f1d; font-family: sans-serif; max-width: 800px; margin: 0 auto; line-height: 1.6;">
-      <h1>Memolandum - İngilizce Kelime Ezberleme Oyunu</h1>
-      <p>Siber uzay arcade temasıyla eğlenirken İngilizce kelime ezberleyin! Memolandum, retro oynanış eşliğinde A1-B2 seviyelerinde kelime dağarcığınızı hızla geliştirir. Tarayıcınızda JavaScript etkinleştirilmediği için oyun deneyimine erişemiyorsunuz. Oyunu oynamak ve İngilizce kelime dağarcığınızı geliştirmek için lütfen tarayıcınızın JavaScript ayarını açın.</p>
-      
-      <h2>Eğitim Seviyeleri ve Sektörleri</h2>
-      <ul>
-        <li><strong>A1 Seviye İngilizce:</strong> Temel düzey kelime protokolü ile başlangıç seviyesi kelime ezberleme.</li>
-        <li><strong>A2 Seviye İngilizce:</strong> Günlük yaşamda en çok kullanılan temel İngilizce kelimeler.</li>
-        <li><strong>B1 Seviye İngilizce:</strong> Orta düzey kelime ve cümle yapıları.</li>
-        <li><strong>B2 Seviye İngilizce:</strong> İleri orta düzey akademik ve günlük kelime haznesi.</li>
-        <li><strong>Phrasal Verbs (Deyimsel Fiiller):</strong> İngilizce'de sıkça karşılaşılan öbeksi fiiller.</li>
-        <li><strong>Conjunctions (Bağlaçlar):</strong> Cümleleri bağlamak için kullanılan kritik edatlar.</li>
-        <li><strong>Academic Verbs (Akademik Fiiller):</strong> Sınavlarda ve akademik makalelerde çıkan kelimeler.</li>
-        <li><strong>Prepositions (Edatlar):</strong> Doğru yer, yön ve zaman edatları pratikleri.</li>
-        <li><strong>Abstract Adjectives (Soyut Sıfatlar):</strong> Niteleme sıfatları ve soyut kelime grupları.</li>
-        <li><strong>Pratik Cümleler:</strong> Günlük konuşma kalıpları, soru cümleleri ve pratik ifadeler.</li>
-      </ul>
-
-      <h2>Siber Oyun Modları</h2>
-      <ul>
-        <li><strong>Ateşleyici (Shooter):</strong> Uzay savaşı yaparak kelimeleri vurun ve Türkçe anlamlarını görün.</li>
-        <li><strong>Tuğla Kırıcı (Breakout):</strong> Retro tarzda tuğla kırarak doğru kelimeleri eşleştirin.</li>
-        <li><strong>Otoban Yarışı (Racer):</strong> Hızlı yarış simülasyonunda doğru kelimelere yönelin.</li>
-        <li><strong>Kart Eşleme (Card Flip):</strong> Hafıza kartlarını çevirerek kelimeleri eşleştirin.</li>
-        <li><strong>Atari Arenası (Word Drop):</strong> Düşen kelime bloklarını doğru anlamlarıyla birleştirin.</li>
-        <li><strong>Sınav Blitz (Adaptive Exam):</strong> Yapay zeka destekli dinamik kelime sınavı modülü.</li>
-      </ul>
-
-      <h2>Oyunlaştırılmış Dil Öğreniminin Bilimsel Temeli</h2>
-      <p><strong>Spaced Repetition (Aralıklı Tekrarlama) ve Mnemonic (Hafıza Çivileri) Metodu:</strong> Memolandum, İngilizce kelimeleri görsel ve işitsel oyun mekanikleri ile eşleştirerek akılda kalıcılığı en üst seviyeye çıkarmayı hedefleyen modern bir dil öğrenme sistemidir. Uygulama içerisindeki siber uzay oyunları, aktif geri çağırma (active recall) mekanizmalarını tetikler. Hatalı eşleştirmeler, Ebbinghaus Unutma Eğrisi göz önüne alınarak uyarlanabilir sınav blitz modülü aracılığıyla sıklaştırılır ve uzun süreli hafızaya aktarılır. Günde 10 dakika oyun oynayarak ayda 300 kelimeye kadar kalıcı olarak ezberleyebilirsiniz.</p>
-
-      <h2>Sıkça Sorulan Sorular (FAQ)</h2>
-      <ul>
-        <li><strong>Memolandum nedir ve nasıl çalışır?</strong> Memolandum, İngilizce kelime öğrenimini retro arcade oyunları ve siber uzay temasıyla birleştiren oyunlaştırılmış bir eğitim platformudur. Kullanıcılar oyun içinde meteorları vurarak veya yarışarak kelime eşleştirmeleri yapar ve siber kelime protokolü ile kalıcı öğrenme sağlarlar.</li>
-        <li><strong>Kelime ezberlemek için ne kadar etkilidir?</strong> Oyun tabanlı öğrenme, aktif geri çağırma ve Ebbinghaus unutma eğrisi üzerindeki aralıklı tekrarlama metotlarını birleştirir. Memolandum, kullanıcının yanlış yaptığı kelimeleri uyarlanabilir sınav blitz modülüyle tekrar önüne getirerek kelimeleri kısa sürede uzun süreli hafızaya aktarır.</li>
-        <li><strong>Hangi İngilizce kelime düzeylerini ve eğitimlerini kapsar?</strong> Memolandum, başlangıçtan orta-ileri seviyeye kadar A1, A2, B1 ve B2 İngilizce kelime setlerini, günlük konuşma kalıplarını barındıran pratik cümleleri, akademik fiilleri, edatları (prepositions), deyimsel fiilleri (phrasal verbs) ve bağlaçları kapsar.</li>
-      </ul>
-      
-      <p><a href="https://memolandum.com" style="color: #06b6d4; text-decoration: underline;">Memolandum Ana Sayfasına Git</a></p>
-    </div>
-  </noscript>
-
-  <div id="game-container">
-    <!-- Retro Filter Overlay -->
-    <div class="scanlines"></div>
-
-    <!-- HUD Overlay -->
-    <div id="hud" class="hidden">
-      <div class="hud-item">
-        <span class="hud-label">SHIELDS</span>
-        <span id="hud-shields">🛡️ 🛡️ 🛡️</span>
-      </div>
-      <div class="hud-item">
-        <span id="level-label" class="hud-label">LEVEL</span>
-        <span id="level-val" class="hud-value">1</span>
-      </div>
-      <div class="hud-item">
-        <span id="mastered-label" class="hud-label">MASTERED</span>
-        <span id="mastered-val" class="hud-value">0/10</span>
-      </div>
-      <div class="hud-item">
-        <span class="hud-label">GEMS</span>
-        <span id="gems-val" class="hud-value">💎 0</span>
-      </div>
-      <div class="hud-item">
-        <span id="score-label" class="hud-label">SCORE</span>
-        <span id="score-val" class="hud-value">0</span>
-      </div>
-      <div class="hud-item">
-        <span class="hud-label">HIGH SCORE</span>
-        <span id="high-val" class="hud-value">0</span>
-      </div>
-      <button id="btn-pause" class="hud-pause-btn" aria-label="Pause Game">⏸</button>
-    </div>
-
-    <!-- HTML5 Canvas -->
-    <canvas id="gameCanvas" class="hidden"></canvas>
-
-    <!-- Start Game UI Overlay -->
-    <div id="start-screen" class="screen-overlay hidden">
-      <h2 class="game-title">MEMOLANDUM</h2>
-      <div class="game-subtitle">CYBER VOCABULARY RETRO SHOTTER</div>
-      
-      <div class="instructions-box">
-        <p>🛸 Move left/right with <strong>Arrow Keys / A & D</strong> or virtual arrows.</p>
-        <p>⚡ Fire lasers with <strong>Spacebar</strong> or the virtual <strong>FIRE</strong> button.</p>
-        <p>👾 Blast falling meteors displaying English words.</p>
-        <p>💡 Memorize the <strong>neon green Turkish meaning</strong> flashed upon destruction!</p>
-        <p>🛡️ Do not let meteors pass! Protect your shields.</p>
-      </div>
-
-      <button id="start-btn" class="glow-btn btn-cyan">START SYSTEM</button>
-    </div>
-
-    <!-- Game Over UI Overlay -->
-    <div id="game-over-screen" class="screen-overlay hidden">
-      <h2 class="game-title" style="color: var(--glow-magenta); text-shadow: 0 0 15px rgba(255, 0, 85, 0.6); animation: none;">SYSTEM FAULT</h2>
-      <div class="game-subtitle" style="color: #ffffff; text-shadow: none; font-size: 12px; margin-bottom: 20px;">SHIELDS DEPRECIATED</div>
-
-      <div class="score-summary">
-        Your Score: <span id="final-score">0</span>
-      </div>
-
-      <!-- Educational Feedback Module -->
-      <div class="words-learned-container">
-        <div class="words-learned-title">Vocabulary Encountered This Run</div>
-        <ul id="learned-list" class="word-list">
-          <!-- Populated by JavaScript -->
-        </ul>
-      </div>
-
-      <button id="restart-btn" class="glow-btn btn-magenta">RESTART SYSTEM</button>
-      <button id="menu-btn" class="glow-btn btn-cyan" style="margin-top: 12px; width: 100%; max-width: 200px;">MAIN MENU</button>
-    </div>
-
-    <!-- Victory UI Overlay -->
-    <div id="victory-screen" class="screen-overlay hidden">
-      <h2 class="game-title" style="color: var(--glow-green); text-shadow: 0 0 15px rgba(57, 255, 20, 0.6); animation: none;">SECTOR CLEARED</h2>
-      <div class="game-subtitle" style="color: #ffffff; text-shadow: none; font-size: 12px; margin-bottom: 20px;">ALL VOCABULARY MASTERED</div>
-
-      <div class="score-summary">
-        Final Score: <span id="victory-score">0</span>
-      </div>
-
-      <!-- Educational Feedback Module -->
-      <div class="words-learned-container">
-        <div class="words-learned-title">Mastered Vocabulary</div>
-        <ul id="victory-learned-list" class="word-list">
-          <!-- Populated by JavaScript -->
-        </ul>
-      </div>
-
-      <button id="victory-next-btn" class="glow-btn btn-yellow hidden" style="margin-bottom: 12px; width: 100%; max-width: 200px;">NEXT SECTOR</button>
-      <button id="victory-restart-btn" class="glow-btn btn-green" style="width: 100%; max-width: 200px;">RESTART SYSTEM</button>
-      <button id="victory-menu-btn" class="glow-btn btn-cyan" style="margin-top: 12px; width: 100%; max-width: 200px;">MAIN MENU</button>
-    </div>
-
-    <!-- Stage Celebration UI Overlay -->
-    <div id="celebration-screen" class="screen-overlay hidden">
-      <div style="font-size: 50px; margin-bottom: 20px;">🏆</div>
-      <h2 class="game-title" style="color: var(--glow-green); text-shadow: 0 0 15px rgba(57, 255, 20, 0.6); font-size: 28px; line-height: 1.3; margin-bottom: 10px;">SECTOR FULLY DECRYPTED</h2>
-      <div id="celebration-text" class="game-subtitle" style="color: #ffffff; text-shadow: none; font-size: 15px; margin-bottom: 30px; line-height: 1.6; max-width: 360px;">
-        Tebrikler! A1 Seviyesini Tamamladın.<br>A2 Seviyesi Başlıyor...
-      </div>
-      <div style="font-family: var(--font-header); font-size: 12px; color: var(--glow-yellow); margin-bottom: 25px; letter-spacing: 2px;">
-        NEXT SECTOR LOADING IN <span id="celebration-countdown">4</span>s
-      </div>
-      <button id="celebration-skip-btn" class="glow-btn btn-yellow" style="width: 100%; max-width: 220px;">START NOW</button>
-    </div>
-
-    <!-- Exam Results UI Overlay -->
-    <div id="exam-results-screen" class="screen-overlay hidden">
-      <h2 class="game-title" style="color: var(--glow-yellow); text-shadow: 0 0 15px rgba(255, 234, 0, 0.6); animation: none;">EXAM COMPLETED</h2>
-      <div class="game-subtitle" style="color: #ffffff; text-shadow: none; font-size: 12px; margin-bottom: 20px;">ADAPTIVE LEARNING EVALUATION</div>
-
-      <div class="score-summary" style="font-size: 18px; margin-bottom: 20px;">
-        Result Score: <span id="exam-score">0/10</span>
-      </div>
-
-      <div class="words-learned-container" style="max-height: 250px; width: 100%; max-width: 380px; text-align: left;">
-        <div class="words-learned-title" style="text-align: center;">Tested Vocabulary Details</div>
-        <ul id="exam-details-list" class="word-list" style="flex-direction: column; align-items: stretch; gap: 6px; padding: 0 5px;">
-          <!-- Populated by JavaScript -->
-        </ul>
-      </div>
-
-      <div style="display: flex; gap: 10px; width: 100%; max-width: 380px; margin-top: 15px; justify-content: center;">
-        <button id="exam-retry-btn" class="glow-btn btn-yellow" style="flex: 1; padding: 10px; font-size: 11px; font-family: var(--font-header); font-weight: 700; letter-spacing: 1px;">RETRY SAME WORDS</button>
-        <button id="exam-new-btn" class="glow-btn btn-green" style="flex: 1; padding: 10px; font-size: 11px; font-family: var(--font-header); font-weight: 700; letter-spacing: 1px;">NEW WORDS</button>
-      </div>
-      <button id="exam-close-btn" class="glow-btn btn-cyan" style="width: 100%; max-width: 380px; margin-top: 12px;">RETURN TO MENU</button>
-    </div>
-
-    <!-- Mobile Virtual Controls -->
-    <div class="controls-container hidden">
-      <div class="d-pad">
-        <button id="btn-left" class="control-btn" aria-label="Move Left">◀</button>
-        <button id="btn-right" class="control-btn" aria-label="Move Right">▶</button>
-      </div>
-      <div class="fire-pad">
-        <button id="btn-fire" class="fire-btn">FIRE</button>
-      </div>
-    </div>
-
-    <!-- Pause UI Overlay -->
-    <div id="pause-screen" class="screen-overlay hidden">
-      <h2 class="game-title" style="color: var(--glow-yellow); text-shadow: 0 0 15px rgba(255, 234, 0, 0.6); animation: none;">SYSTEM PAUSED</h2>
-      <div class="game-subtitle" style="color: #ffffff; text-shadow: none; font-size: 11px; margin-bottom: 30px; letter-spacing: 1px;">TRAINING TEMPORARILY SUSPENDED</div>
-      
-      <button id="resume-btn" class="glow-btn btn-yellow" style="margin-bottom: 12px; width: 100%; max-width: 200px;">RESUME SYSTEM</button>
-      <button id="pause-exam-btn" class="glow-btn btn-green" style="margin-bottom: 12px; width: 100%; max-width: 200px;">START EXAM</button>
-      <button id="pause-menu-btn" class="glow-btn btn-cyan" style="width: 100%; max-width: 200px;">MAIN MENU</button>
-    </div>
-
-    <!-- Main Menu UI Overlay (React mounts directly here) -->
-    <div id="main-menu" class="screen-overlay">
-      <!-- React Dashboard will mount and replace this static fallback -->
-      <div class="spinner"></div>
-    </div>
-  </div>
-
-  <!-- Hidden Static Legacy Elements to satisfy legacy DOM queries & event listeners -->
-  <div id="legacy-menu-triggers" class="hidden" style="display: none !important;" aria-hidden="true">
-    <div id="resume-container" class="hidden">
-      <span id="resume-stage-text"></span>
-      <span id="resume-level-text"></span>
-      <button id="resume-btn-main"></button>
-    </div>
-    
-    <button id="shell-shooter" class="shell-btn active" onclick="if (typeof switchGameShell === 'function') switchGameShell('shooter')"></button>
-    <button id="shell-breakout" class="shell-btn" onclick="if (typeof switchGameShell === 'function') switchGameShell('breakout')"></button>
-    <button id="shell-worddrop" class="shell-btn" onclick="if (typeof switchGameShell === 'function') switchGameShell('worddrop')"></button>
-    <button id="shell-highway" class="shell-btn" onclick="if (typeof switchGameShell === 'function') switchGameShell('highway')"></button>
-    <button id="shell-wordascent" class="shell-btn" onclick="if (typeof switchGameShell === 'function') switchGameShell('wordascent')"></button>
-    <button id="shell-invaders" class="shell-btn" onclick="if (typeof switchGameShell === 'function') switchGameShell('invaders')"></button>
-
-    <button id="speed-slow" class="speed-btn" onclick="if (typeof setGameSpeed === 'function') setGameSpeed('slow')"></button>
-    <button id="speed-normal" class="speed-btn active" onclick="if (typeof setGameSpeed === 'function') setGameSpeed('normal')"></button>
-    <button id="speed-fast" class="speed-btn" onclick="if (typeof setGameSpeed === 'function') setGameSpeed('fast')"></button>
-
-    <div class="level-card" data-category="a1_words.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="a2_words.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="b1_words.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="b2_words.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="phrasal_verbs.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="conjunctions.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="academic_verbs.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="prepositions.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="abstract_adjectives.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="sentences/tr_sentences_01_100.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="sentences/tr_sentences_101_200.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="sentences/tr_sentences_201_300.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="sentences/tr_sentences_301_400.json"><span class="level-action"></span></div>
-    <div class="level-card" data-category="sentences/tr_sentences_401_500.json"><span class="level-action"></span></div>
-  </div>
-
-  <!-- React & Babel CDNs -->
-  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-  <!-- React Dashboard Component & Logic -->
-  <!-- Firebase Authentication & Firestore (Modular SDK) -->
-  <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-    import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-    import { getFirestore, doc, setDoc, getDoc, collection, query, orderBy, limit, getDocs } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
-    import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-functions.js";
-
-    const firebaseConfig = {
-      projectId: "memolandum-33dc4",
-      appId: "1:539033091302:web:1e4c4763aff1da0c2bcf27",
-      storageBucket: "memolandum-33dc4.firebasestorage.app",
-      apiKey: "AIzaSyC0DInTuffWT5x6DcbUqk7jlOP_kmM5fkw",
-      authDomain: "memolandum.com",
-      messagingSenderId: "539033091302",
-      measurementId: "G-0YNLGTPW3R"
-    };
-
-    const app = initializeApp(firebaseConfig);
-    const auth = getAuth(app);
-    const db = getFirestore(app);
-    const cloudFuncs = getFunctions(app, 'us-central1');
-    const syncProgressCall = httpsCallable(cloudFuncs, 'syncProgress');
-    const googleProvider = new GoogleAuthProvider();
-
-    window.FirebaseCore = {
-      auth,
-      db,
-      functions: {
-        login: (email, password) => signInWithEmailAndPassword(auth, email, password),
-        register: (email, password) => createUserWithEmailAndPassword(auth, email, password),
-        logout: () => signOut(auth),
-        loginWithGoogle: () => signInWithPopup(auth, googleProvider),
-        onAuthChange: (callback) => onAuthStateChanged(auth, callback),
-        saveUserData: (uid, data) => setDoc(doc(db, "users", uid), data, { merge: true }),
-        getUserData: (uid) => getDoc(doc(db, "users", uid)),
-        syncProgress: async (payload) => {
-            return await syncProgressCall(payload);
-        },
-        getLeaderboard: async () => {
-          const q = query(collection(db, "users"), orderBy("scores", "desc"), limit(100));
-          const querySnapshot = await getDocs(q);
-          const results = [];
-          querySnapshot.forEach((doc) => {
-            results.push({ uid: doc.id, ...doc.data() });
-          });
-          return results;
-        }
-      }
-    };
-
-    window.SyncManager = {
-      getLocalData: () => ({
-        gems: parseInt(localStorage.getItem('memolandum_collected_gems')) || 0,
-        scores: parseInt(localStorage.getItem('memolandum_high_score')) || 0,
-        learnedWords: (() => {
-          try {
-             return JSON.parse(localStorage.getItem('memolandum_mastery_db')) || [];
-          } catch(e) {
-             return [];
-          }
-        })(),
-        unlockedLevels: parseInt(localStorage.getItem('memolandum_saved_level')) || 1,
-        playTime: parseInt(localStorage.getItem('memolandum_play_time')) || 0,
-        lastUpdated: Date.now()
-      }),
-      setLocalData: (data) => {
-        if (!data) return;
-        if (data.gems !== undefined) localStorage.setItem('memolandum_collected_gems', data.gems);
-        if (data.scores !== undefined) localStorage.setItem('memolandum_high_score', data.scores);
-        if (data.learnedWords) localStorage.setItem('memolandum_mastery_db', JSON.stringify(data.learnedWords));
-        if (data.unlockedLevels !== undefined) localStorage.setItem('memolandum_saved_level', data.unlockedLevels);
-        if (data.playTime !== undefined) localStorage.setItem('memolandum_play_time', data.playTime);
-      },
-      syncOnLogin: async (uid) => {
-        const { functions } = window.FirebaseCore;
-        try {
-          const docSnap = await functions.getUserData(uid);
-          
-          if (docSnap.exists()) {
-            const cloudData = docSnap.data();
-            
-            // Sync ONLY FROM CLOUD (Read-Only approach)
-            const syncedData = {
-              gems: cloudData.gems || 0,
-              scores: cloudData.scores || 0,
-              learnedWords: cloudData.learnedWords || [],
-              unlockedLevels: cloudData.unlockedLevels || 1,
-              playTime: cloudData.playTime || 0,
-              lastUpdated: Date.now()
-            };
-            
-            // Overwrite local storage to match cloud truth
-            window.SyncManager.setLocalData(syncedData);
-            return syncedData;
-          } else {
-            // Profile doesn't exist yet on cloud (no games played).
-            // Do not write to cloud here, wait for first game to submit progress via Cloud Function.
-            return window.SyncManager.getLocalData();
-          }
-        } catch (error) {
-          console.error("Sync error:", error);
-          return window.SyncManager.getLocalData(); // Fallback to local on error
-        }
-      },
-      submitProgress: async (earnedGems, earnedScore, newWords) => {
-        if (!window.FirebaseCore.auth.currentUser) return false;
-        try {
-          // Send only the DELTA (earned in this session) to the secure backend
-          await window.FirebaseCore.functions.syncProgress({
-              earnedGems: earnedGems || 0,
-              earnedScore: earnedScore || 0,
-              newWords: newWords || []
-          });
-          
-          // Re-sync authentic state from backend after submission
-          await window.SyncManager.syncOnLogin(window.FirebaseCore.auth.currentUser.uid);
-          return true;
-        } catch (err) {
-          console.error("Failed to submit progress securely:", err);
-          return false;
-        }
-      }
-    };
-
-    // --- ZERO-TRUST SESSION TRACKER ---
-    // Tracks delta changes during gameplay and submits them securely to the backend
-    window.SessionTracker = {
-      baseline: { gems: 0, scores: 0, words: [] },
-      captureBaseline: function() {
-        this.baseline.gems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
-        this.baseline.scores = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
-        try {
-            this.baseline.words = JSON.parse(localStorage.getItem('memolandum_mastery_db')) || [];
-        } catch(e) { this.baseline.words = []; }
-      },
-      commitProgress: async function() {
-        const currentGems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
-        const currentScores = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
-        let currentWords = [];
-        try { currentWords = JSON.parse(localStorage.getItem('memolandum_mastery_db')) || []; } catch(e){}
-        
-        const earnedGems = Math.max(0, currentGems - this.baseline.gems);
-        const earnedScore = Math.max(0, currentScores - this.baseline.scores);
-        
-        const baseWordIds = this.baseline.words.map(w => typeof w === 'string' ? w : (w.word || w.id));
-        const newWords = currentWords.filter(w => !baseWordIds.includes(typeof w === 'string' ? w : (w.word || w.id)));
-        
-        if (earnedGems > 0 || earnedScore > 0 || newWords.length > 0) {
-            console.log("Committing session progress to secure backend:", {earnedGems, earnedScore, newWords});
-            await window.SyncManager.submitProgress(earnedGems, earnedScore, newWords);
-        }
-      }
-    };
-
-    window.addEventListener('DOMContentLoaded', () => {
-      const observer = new MutationObserver((mutations) => {
-        mutations.forEach((mutation) => {
-          if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-            const el = mutation.target;
-            const isHidden = el.classList.contains('hidden');
-            if (isHidden) {
-                // Game Started (Main Menu is hidden)
-                window.SessionTracker.captureBaseline();
-            } else {
-                // Game Ended (Main Menu is shown)
-                window.SessionTracker.commitProgress();
-            }
-          }
-        });
-      });
-      const mainMenuEl = document.getElementById('main-menu');
-      if (mainMenuEl) {
-        observer.observe(mainMenuEl, { attributes: true });
-      }
-    });
-  </script>
-
-  <script type="text/babel">
     const { useState, useEffect } = React;
 
     // ----------------------------------------------------
@@ -954,106 +230,6 @@
       }
     };
 
-    function DesktopSidePanel({ language }) {
-      const [leaderboardData, setLeaderboardData] = useState([]);
-      const [isLoading, setIsLoading] = useState(true);
-
-      useEffect(() => {
-        if (window.FirebaseCore && window.FirebaseCore.functions.getLeaderboard) {
-          window.FirebaseCore.functions.getLeaderboard().then(data => {
-            setLeaderboardData(data.slice(0, 10)); // Sadece Top 10
-            setIsLoading(false);
-          }).catch(err => {
-            console.error("Leaderboard fetch error", err);
-            setIsLoading(false);
-          });
-        }
-      }, []);
-
-      return (
-        <div className="hidden lg:flex w-[400px] xl:w-[450px] h-full flex-col shrink-0 border-r border-emerald-500/20 bg-[#0a0e17]/90 relative overflow-hidden shadow-[10px_0_30px_rgba(0,0,0,0.5)]">
-          
-
-          
-          <div className="relative z-10 w-full h-full p-8 flex flex-col gap-8 overflow-y-auto custom-scrollbar">
-            {/* Header */}
-            <div className="flex flex-col items-start gap-2">
-              <h1 className="text-4xl font-black font-header tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 drop-shadow-[0_0_15px_rgba(16,185,129,0.3)]">
-                MEMOLANDUM
-              </h1>
-              <p className="text-xs text-emerald-500/80 uppercase tracking-[0.2em] font-bold">
-                {language === 'TR' ? 'Siber Dil Öğrenim Protokolü' : 'Cyber Language Protocol'}
-              </p>
-            </div>
-
-            {/* How to Play / Quick Stats */}
-            <div className="bg-[#111625]/80 border border-emerald-500/20 rounded-xl p-5 shadow-[0_0_15px_rgba(16,185,129,0.05)] backdrop-blur-sm">
-              <h3 className="text-xs font-black tracking-widest text-emerald-400 mb-4 uppercase flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                {language === 'TR' ? 'Sistem Döngüsü' : 'System Loop'}
-              </h3>
-              <div className="flex items-center gap-3 text-sm text-gray-300 font-body">
-                <div className="flex flex-col items-center justify-center p-2 bg-gray-900 rounded-lg border border-gray-800">
-                  <span className="text-xl">📚</span>
-                  <span className="text-[9px] uppercase font-bold mt-1 text-gray-500">Learn</span>
-                </div>
-                <span className="text-emerald-500 text-lg">→</span>
-                <div className="flex flex-col items-center justify-center p-2 bg-gray-900 rounded-lg border border-gray-800">
-                  <span className="text-xl">👾</span>
-                  <span className="text-[9px] uppercase font-bold mt-1 text-gray-500">Play</span>
-                </div>
-                <span className="text-cyan-500 text-lg">→</span>
-                <div className="flex flex-col items-center justify-center p-2 bg-gray-900 rounded-lg border border-gray-800">
-                  <span className="text-xl">💎</span>
-                  <span className="text-[9px] uppercase font-bold mt-1 text-gray-500">Earn</span>
-                </div>
-              </div>
-              <p className="mt-4 text-[11px] leading-relaxed text-gray-400">
-                {language === 'TR' 
-                  ? "Kelimeleri öğrenin, simülasyona girin, düşmanları yok ederek zümrüt toplayın ve global sıralamada yükselin!" 
-                  : "Learn words, enter the simulation, destroy enemies to collect shards, and climb the global ranking!"}
-              </p>
-            </div>
-
-            {/* Live Leaderboard Feed */}
-            <div className="flex-grow bg-[#111625]/80 border border-yellow-500/20 rounded-xl p-5 shadow-[0_0_15px_rgba(234,179,8,0.05)] backdrop-blur-sm flex flex-col">
-              <h3 className="text-xs font-black tracking-widest text-yellow-400 mb-4 uppercase flex items-center gap-2 shrink-0">
-                <span className="w-2 h-2 rounded-full bg-yellow-400 animate-pulse"></span>
-                {language === 'TR' ? 'Canlı Skor Akışı' : 'Live Global Feed'}
-              </h3>
-              <div className="flex bg-gray-900/80 px-3 py-2 text-[9px] font-black tracking-widest text-gray-500 uppercase border-b border-gray-850 shrink-0">
-                <span className="w-10 text-center">RANK</span>
-                <span className="flex-grow text-left pl-2">SUBJECT ID</span>
-                <span className="w-16 text-right">SCORE</span>
-              </div>
-              <div className="flex-grow overflow-y-auto custom-scrollbar pr-1 mt-1 divide-y divide-gray-850">
-                {isLoading ? (
-                  <div className="w-full h-32 flex items-center justify-center">
-                    <span className="text-[10px] text-yellow-500/50 animate-pulse uppercase tracking-widest">Syncing...</span>
-                  </div>
-                ) : leaderboardData.map((row, idx) => {
-                  let rankMedal = `#${idx + 1}`;
-                  if (idx === 0) rankMedal = '🥇';
-                  if (idx === 1) rankMedal = '🥈';
-                  if (idx === 2) rankMedal = '🥉';
-
-                  return (
-                    <div key={row.uid || idx} className="flex items-center px-3 py-2.5 text-xs font-bold text-gray-300 hover:bg-gray-800/30 transition-colors">
-                      <span className="w-10 text-center font-mono text-gray-500">{rankMedal}</span>
-                      <span className="flex-grow truncate tracking-wider pl-2">{row.displayName || 'CADET_UNKNOWN'}</span>
-                      <span className="w-16 text-right font-mono text-cyan-400">
-                        {(row.scores || 0).toLocaleString()}
-                      </span>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        </div>
-      );
-    }
-
     function MemolandumHome() {
       const [language, setLanguage] = useState('ENG');
       const [activeTab, setActiveTab] = useState('home');
@@ -1067,78 +243,17 @@
       const [collectedGems, setCollectedGems] = useState(0);
       const [highScore, setHighScore] = useState(0);
       const [vocabProgress, setVocabProgress] = useState({ mastered: 0, total: 100, pct: 0 });
-      const [playTime, setPlayTime] = useState(0);
-      const [leaderboardData, setLeaderboardData] = useState([]);
-      const [isLoadingLeaderboard, setIsLoadingLeaderboard] = useState(false);
-      const playStartTimeRef = React.useRef(null);
-
-      // Auth State
-      const [user, setUser] = useState(null);
-      const [authEmail, setAuthEmail] = useState('');
-      const [authPassword, setAuthPassword] = useState('');
-      const [authMode, setAuthMode] = useState('login');
-      const [authError, setAuthError] = useState('');
-      const [authLoading, setAuthLoading] = useState(false);
 
       const t = TRANSLATIONS[language];
 
       useEffect(() => {
         syncLegacyData();
 
-        // Listen for Firebase Auth state changes
-        if (window.FirebaseCore && window.FirebaseCore.functions) {
-          const unsubscribe = window.FirebaseCore.functions.onAuthChange(async (currentUser) => {
-            setUser(currentUser);
-            if (currentUser) {
-              setAuthLoading(true);
-              try {
-                await window.SyncManager.syncOnLogin(currentUser.uid);
-                syncLegacyData(); // Refresh UI values from newly synced local storage
-              } catch (e) {
-                console.error("Auth sync error:", e);
-              }
-              setAuthLoading(false);
-            }
-          });
-          
-          // Cleanup
-          return () => {
-            if (unsubscribe) unsubscribe();
-          };
-        }
-      }, []);
-
-      useEffect(() => {
-        // Original menu observer
-
         // Listen for standard menu overlay show/hide updates to resync progress
-        // Listen for standard menu overlay show/hide updates to resync progress and track playtime
         const observer = new MutationObserver(() => {
           const menu = document.getElementById('main-menu');
-          if (menu) {
-            if (!menu.classList.contains('hidden')) {
-              syncLegacyData();
-              
-              // End Play Session
-              if (playStartTimeRef.current) {
-                const duration = Math.floor((Date.now() - playStartTimeRef.current) / 1000);
-                if (duration > 0 && duration < 36000) { // Max 10 hours sanity check
-                  const currentTotal = parseInt(localStorage.getItem('memolandum_play_time')) || 0;
-                  const newTotal = currentTotal + duration;
-                  localStorage.setItem('memolandum_play_time', newTotal);
-                  setPlayTime(newTotal);
-                  if (user && window.FirebaseCore && window.FirebaseCore.functions) {
-                     window.SyncManager.syncOnLogin(user.uid);
-                  }
-                }
-                playStartTimeRef.current = null;
-              }
-            } else {
-              // Start Play Session
-              if (!playStartTimeRef.current) {
-                playStartTimeRef.current = Date.now();
-              }
-            }
+          if (menu && !menu.classList.contains('hidden')) {
+            syncLegacyData();
           }
         });
 
@@ -1154,19 +269,6 @@
         const menuEl = document.getElementById('main-menu');
         if (menuEl) {
           menuEl.scrollTop = 0;
-        }
-
-        if (activeTab === 'leaderboard') {
-          setIsLoadingLeaderboard(true);
-          if (window.FirebaseCore && window.FirebaseCore.functions.getLeaderboard) {
-            window.FirebaseCore.functions.getLeaderboard().then(data => {
-              setLeaderboardData(data);
-              setIsLoadingLeaderboard(false);
-            }).catch(err => {
-              console.error("Leaderboard fetch error", err);
-              setIsLoadingLeaderboard(false);
-            });
-          }
         }
       }, [activeTab]);
 
@@ -1375,71 +477,14 @@
         }
       };
 
-      const handleAuthSubmit = async (e) => {
-        e.preventDefault();
-        setAuthError('');
-        setAuthLoading(true);
-        try {
-          if (authMode === 'login') {
-            await window.FirebaseCore.functions.login(authEmail, authPassword);
-          } else {
-            await window.FirebaseCore.functions.register(authEmail, authPassword);
-          }
-          setActiveTab('profile');
-        } catch (err) {
-          setAuthError(err.message);
-        }
-        setAuthLoading(false);
-      };
-
-      const handleGoogleAuth = async () => {
-        setAuthError('');
-        setAuthLoading(true);
-        try {
-          await window.FirebaseCore.functions.loginWithGoogle();
-          setActiveTab('profile');
-        } catch (err) {
-          setAuthError(err.message);
-        }
-        setAuthLoading(false);
-      };
-
-      const handleLogout = async () => {
-        setAuthLoading(true);
-        try {
-          await window.FirebaseCore.functions.logout();
-          setActiveTab('home');
-        } catch(err) {
-          console.error(err);
-        }
-        setAuthLoading(false);
-      };
-
       return (
-        <div className="w-full h-full flex justify-center items-start overflow-hidden bg-[#0a0f1d] relative">
-          
-          {/* GLOBAL DESKTOP BACKGROUND */}
-          <div className="hidden lg:block absolute inset-0 cyber-grid-bg opacity-40 pointer-events-none z-0"></div>
-          <div className="hidden lg:block absolute inset-0 pointer-events-none z-0 overflow-hidden">
-            <div className="scanline"></div>
-          </div>
-
-          
-          {/* DESKTOP SIDE PANEL */}
-          <DesktopSidePanel language={language} />
-
-          {/* MAIN MOBILE APP CONTAINER */}
-          <div className="w-full max-w-md h-full flex flex-col items-center justify-start overflow-hidden relative shrink-0 lg:border-x lg:border-gray-800 bg-[#0d1222] lg:shadow-[0_0_50px_rgba(0,0,0,0.5)] z-10">
-            <div className="w-full flex-grow overflow-y-auto pb-44 px-1 scrollable-y custom-scrollbar" style={{ touchAction: 'pan-y' }}>
+        <div className="w-full h-full flex flex-col items-center justify-start overflow-hidden">
+          <div className="w-full flex-grow overflow-y-auto pb-44 px-1 scrollable-y" style={{ touchAction: 'pan-y' }}>
           
           {/* Header */}
           <header className="w-full max-w-md flex flex-col items-center mb-6 shrink-0">
             <div className="w-full flex justify-between items-center px-2">
-              <div 
-                className="flex items-center gap-1.5 cursor-pointer hover:opacity-80 active:scale-95 transition-all"
-                onClick={() => setActiveTab('home')}
-                title={language === 'TR' ? 'Ana Ekrana Dön' : 'Back to Home'}
-              >
+              <div className="flex items-center gap-1.5">
                 <span className="text-xl animate-bounce">🕹️</span>
                 <h1 className="text-2xl font-black tracking-widest text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.45)]">
                   MEMOLANDUM
@@ -1527,29 +572,6 @@
                 </div>
               </div>
 
-              {/* AUTH CTA */}
-              {!user && (
-                <div 
-                  onClick={() => setActiveTab('auth')}
-                  className="w-full mb-6 p-3 bg-gradient-to-r from-[#111625] to-[#1a2235] border border-cyan-500/30 rounded-xl cursor-pointer hover:border-cyan-400 transition-colors shadow-[0_0_10px_rgba(34,211,238,0.1)] flex items-center justify-between"
-                >
-                  <div className="flex items-center gap-3">
-                    <span className="text-xl animate-pulse">☁️</span>
-                    <div className="flex flex-col text-left">
-                      <span className="text-xs font-bold text-white uppercase tracking-wider">
-                        {language === 'TR' ? '[!] Bulut Senkronizasyonu' : '[!] Cloud Sync'}
-                      </span>
-                      <span className="text-[10px] text-gray-400 mt-0.5">
-                        {language === 'TR' ? 'İlerlemenizi ağa kaydedin' : 'Sync your terminal progress to the cloud grid'}
-                      </span>
-                    </div>
-                  </div>
-                  <span className="text-cyan-400 font-bold text-xs uppercase">
-                    {language === 'TR' ? 'Kayıt Ol / Giriş' : 'Register / Login'}
-                  </span>
-                </div>
-              )}
-
               {/* Active Session Resume Card */}
               {savedStage && (
                 <div className="w-full mb-6 animate-pulse shrink-0">
@@ -1613,7 +635,7 @@
                         {isSelected && <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-cyan-400" />}
                         <div className="mb-2">
                           <div className="flex justify-between items-center">
-                            <span className={`text-[9px] font-mono font-black ${isSelected ? 'text-cyan-400' : 'text-gray-400'}`}>
+                            <span className={`text-[9px] font-mono font-black ${isSelected ? 'text-cyan-400' : 'text-gray-500'}`}>
                               {cat.id.includes('sentences') ? 'SENTENCE' : 'VOCAB'}
                             </span>
                             {isSelected ? (
@@ -1621,12 +643,12 @@
                                 ● LINKED
                               </span>
                             ) : (
-                              <span className="text-[9px] font-black text-gray-500 uppercase tracking-widest">
+                              <span className="text-[9px] font-black text-gray-600 uppercase tracking-widest">
                                 CONNECT
                               </span>
                             )}
                           </div>
-                          <h4 className={`text-xs font-black tracking-wide mt-1 truncate ${isSelected ? 'text-white' : 'text-gray-300'}`}>
+                          <h4 className={`text-xs font-black tracking-wide mt-1 truncate ${isSelected ? 'text-white' : 'text-gray-400'}`}>
                             {getCategoryDisplayName(cat.id, language)}
                           </h4>
                         </div>
@@ -1636,7 +658,7 @@
                           <div className="w-full bg-gray-950 rounded-full h-1 overflow-hidden">
                             <div className="bg-cyan-400 h-full" style={{ width: `${p.pct || 0}%` }} />
                           </div>
-                          <div className="flex justify-between items-center mt-1 text-[9px] font-bold text-gray-400 font-mono">
+                          <div className="flex justify-between items-center mt-1 text-[9px] font-bold text-gray-500 font-mono">
                             <span>{p.pct || 0}% Mastery</span>
                           </div>
                         </div>
@@ -1840,135 +862,9 @@
                 </div>
               </div>
 
-              {/* Random Play Action Button (Moved to scrollable flow) */}
-              <div className="w-full flex justify-center mt-2 mb-10">
-                <button 
-                  onClick={handleRandomPlay}
-                  className="flex items-center gap-3 px-8 py-3 bg-gradient-to-tr from-purple-600 via-fuchsia-500 to-pink-500 rounded-full text-white text-sm font-black tracking-widest shadow-[0_0_20px_rgba(217,70,239,0.55)] active:shadow-[0_0_25px_rgba(217,70,239,0.8)] hover:brightness-110 active:scale-[0.97] transition-all border border-pink-400/25"
-                >
-                  <span className="text-2xl">🎲</span>
-                  <span className="uppercase">{t.randomPlayBtn}</span>
-                </button>
-              </div>
-
-            </div>
           )}
 
-          {/* AUTH TAB */}
-          {activeTab === 'auth' && (
-            <div className="w-full max-w-md flex flex-col items-center flex-grow px-2 pb-32">
-              <div className="w-full mb-6">
-                <button 
-                  onClick={() => setActiveTab('home')}
-                  className="mb-4 text-cyan-400 text-xs font-bold uppercase flex items-center gap-1 hover:text-white transition-colors"
-                >
-                  <span className="text-lg leading-none">«</span> {language === 'TR' ? 'GERİ' : 'BACK'}
-                </button>
-              </div>
-
-              {user ? (
-                <div className="w-full bg-[#111625]/90 border border-cyan-500/30 rounded-xl p-6 text-center shadow-[0_0_15px_rgba(34,211,238,0.15)] relative overflow-hidden">
-                  <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-purple-500"></div>
-                  <h2 className="text-xl font-black text-white mb-2 font-display tracking-widest uppercase">
-                    {language === 'TR' ? 'Hoş Geldiniz' : 'Welcome'}
-                  </h2>
-                  <p className="text-sm text-cyan-400 mb-6 break-all">
-                    {user.email}
-                  </p>
-                  
-                  <button 
-                    onClick={() => setActiveTab('profile')}
-                    className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-lg uppercase tracking-wider text-sm transition-colors"
-                  >
-                    {language === 'TR' ? 'Profile Git' : 'Go to Profile'}
-                  </button>
-                </div>
-              ) : (
-                <div className="w-full bg-[#111625]/90 border border-gray-800 rounded-xl p-6 shadow-md relative overflow-hidden">
-                  <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-gray-700 to-gray-500"></div>
-                  <h2 className="text-xl font-black text-white mb-6 font-display tracking-widest uppercase text-center">
-                    {authMode === 'login' 
-                      ? (language === 'TR' ? 'Sisteme Giriş' : 'System Login')
-                      : (language === 'TR' ? 'Kayıt Ol' : 'Register')}
-                  </h2>
-
-                  {authError && (
-                    <div className="mb-4 p-3 bg-red-900/40 border border-red-500 rounded text-red-200 text-xs text-center">
-                      {authError}
-                    </div>
-                  )}
-
-                  <form onSubmit={handleAuthSubmit} className="flex flex-col gap-4 mb-6">
-                    <div>
-                      <label className="block text-gray-400 text-xs font-bold mb-1 uppercase tracking-wider">Email</label>
-                      <input 
-                        type="email" 
-                        required
-                        value={authEmail}
-                        onChange={(e) => setAuthEmail(e.target.value)}
-                        className="w-full bg-black border border-gray-700 rounded p-3 text-white focus:outline-none focus:border-cyan-500 transition-colors"
-                        placeholder="hacker@matrix.com"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-gray-400 text-xs font-bold mb-1 uppercase tracking-wider">
-                        {language === 'TR' ? 'Şifre' : 'Password'}
-                      </label>
-                      <input 
-                        type="password" 
-                        required
-                        value={authPassword}
-                        onChange={(e) => setAuthPassword(e.target.value)}
-                        className="w-full bg-black border border-gray-700 rounded p-3 text-white focus:outline-none focus:border-cyan-500 transition-colors"
-                        placeholder="••••••••"
-                      />
-                    </div>
-                    <button 
-                      type="submit"
-                      disabled={authLoading}
-                      className="w-full py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded uppercase tracking-wider text-sm transition-colors mt-2 disabled:opacity-50"
-                    >
-                      {authLoading 
-                        ? (language === 'TR' ? 'Bekleyin...' : 'Wait...') 
-                        : (authMode === 'login' ? (language === 'TR' ? 'Giriş' : 'Login') : (language === 'TR' ? 'Kayıt Ol' : 'Register'))}
-                    </button>
-                  </form>
-
-                  <div className="relative flex py-4 items-center mb-6">
-                    <div className="flex-grow border-t border-gray-800"></div>
-                    <span className="flex-shrink-0 mx-4 text-gray-500 text-xs uppercase font-bold">OR</span>
-                    <div className="flex-grow border-t border-gray-800"></div>
-                  </div>
-
-                  <button 
-                    onClick={handleGoogleAuth}
-                    disabled={authLoading}
-                    type="button"
-                    className="w-full py-3 bg-white hover:bg-gray-200 text-black font-bold rounded flex justify-center items-center gap-2 uppercase tracking-wider text-sm transition-colors disabled:opacity-50"
-                  >
-                    <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/><path d="M1 1h22v22H1z" fill="none"/></svg>
-                    Google {language === 'TR' ? 'ile Giriş' : 'Login'}
-                  </button>
-
-                  <div className="mt-6 text-center">
-                    <button 
-                      onClick={() => {
-                        setAuthMode(authMode === 'login' ? 'register' : 'login');
-                        setAuthError('');
-                      }}
-                      className="text-gray-400 hover:text-white text-xs underline transition-colors"
-                    >
-                      {authMode === 'login' 
-                        ? (language === 'TR' ? 'Hesabınız yok mu? Kayıt Olun' : "Don't have an account? Register")
-                        : (language === 'TR' ? 'Zaten hesabınız var mı? Giriş Yapın' : 'Already have an account? Login')}
-                    </button>
-                  </div>
-                </div>
-              )}
-            </div>
-          )}
-
-          {/* SCIENCE TAB */}
+                    {/* SCIENCE TAB */}
           {activeTab === 'science' && (
             <div className="w-full max-w-md flex flex-col items-center flex-grow px-2 pb-32 text-left">
               <div className="w-full mb-6">
@@ -1982,7 +878,7 @@
                   {language === 'TR' ? 'Hakkımızda & Bilimsel Temellerimiz' : 'About Us & Scientific Foundations'}
                 </h2>
                 
-                <div className="space-y-4 text-sm text-gray-300 leading-relaxed font-body">
+                <div className="space-y-4 text-[11px] text-gray-300 leading-relaxed font-body">
                   <div className="bg-[#111625]/90 border border-gray-800 rounded-xl p-4 shadow-md">
                     <h3 className="text-sm font-black text-white uppercase tracking-widest mb-2 border-b border-gray-800 pb-2">
                       {language === 'TR' ? 'Biz Kimiz?' : 'Who Are We?'}
@@ -1998,7 +894,7 @@
                   <h3 className="text-sm font-black text-yellow-400 uppercase tracking-widest mt-6 mb-2 border-b border-gray-800 pb-2">
                     {language === 'TR' ? 'Gücümüzü Bilim, Disiplin ve Teknolojiden Alıyoruz' : 'Powered by Science, Discipline, and Technology'}
                   </h3>
-                  <p className="text-xs text-gray-400 mb-4">
+                  <p className="text-[10px] text-gray-400 mb-4">
                     {language === 'TR' ? 'Geliştirdiğimiz oyun modülleri ve kelime edinim algoritmaları, doğrudan aşağıdaki akademik teoriler ve teknolojik vizyon üzerine inşa edilmiştir:' : 'The game modules and vocabulary acquisition algorithms we developed are directly built upon the following academic theories and technological vision:'}
                   </p>
 
@@ -2145,51 +1041,60 @@
 
           {/* PROGRESS TAB */}
           {activeTab === 'progress' && (
-            <div className="w-full max-w-md flex flex-col items-center flex-grow relative pb-24">
-              
-              <div className="w-full bg-[#111625]/95 border border-emerald-500/20 rounded-2xl p-6 flex flex-col shadow-[0_0_15px_rgba(16,185,129,0.1)] mb-6 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 via-cyan-500 to-emerald-500 opacity-50"></div>
-                <div className="absolute top-0 right-0 p-2 opacity-30">
-                  <span className="text-2xl">📊</span>
-                </div>
-                
-                <h3 className="text-xs font-black tracking-widest text-emerald-400 mb-6 uppercase flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                  SECTOR DIAGNOSTICS
-                </h3>
+            <div className="w-full max-w-md flex flex-col items-center flex-grow">
+              <div className="w-full text-left px-2 mb-6">
+                <h2 className="text-lg font-black text-emerald-400 tracking-wider uppercase drop-shadow-[0_0_8px_rgba(16,185,129,0.3)]">
+                  {t.statsTitle}
+                </h2>
+                <p className="text-xs text-gray-500 mt-0.5">
+                  {t.statsSubtitle}
+                </p>
+              </div>
 
-                <div className="grid grid-cols-2 gap-4 w-full mb-6">
-                  <div className="bg-gray-950/50 border border-gray-800 rounded-xl p-3 flex flex-col">
-                    <span className="text-[10px] text-gray-500 font-bold uppercase mb-1">TOTAL MASTERED</span>
-                    <span className="text-2xl font-black text-white">{vocabProgress.mastered}</span>
-                  </div>
-                  <div className="bg-gray-950/50 border border-gray-800 rounded-xl p-3 flex flex-col">
-                    <span className="text-[10px] text-gray-500 font-bold uppercase mb-1">COGNITIVE LEVEL</span>
-                    <span className="text-lg font-black text-emerald-400">LVL {savedLevel}</span>
-                  </div>
-                  <div className="bg-gray-950/50 border border-gray-800 rounded-xl p-3 flex flex-col">
-                    <span className="text-[10px] text-gray-500 font-bold uppercase mb-1">COLLECTED SHARDS</span>
-                    <span className="text-2xl font-black text-cyan-400">{collectedGems}</span>
-                  </div>
-                  <div className="bg-gray-950/50 border border-gray-800 rounded-xl p-3 flex flex-col">
-                    <span className="text-[10px] text-gray-500 font-bold uppercase mb-1">PERFORMANCE</span>
-                    <span className="text-2xl font-black text-purple-400">{vocabProgress.pct}%</span>
-                  </div>
+              <div className="grid grid-cols-2 gap-4 w-full mb-6">
+                <div className="bg-[#111625]/90 border border-gray-800 rounded-2xl p-4 flex flex-col items-center text-center shadow-md">
+                  <span className="text-2xl mb-1">🎓</span>
+                  <span className="text-xs text-gray-500 font-bold uppercase">{t.totalMastered}</span>
+                  <span className="text-2xl font-black text-white mt-1 drop-shadow-[0_0_8px_rgba(255,255,255,0.2)]">
+                    {vocabProgress.mastered}
+                  </span>
                 </div>
+                <div className="bg-[#111625]/90 border border-gray-800 rounded-2xl p-4 flex flex-col items-center text-center shadow-md">
+                  <span className="text-2xl mb-1">🌌</span>
+                  <span className="text-xs text-gray-500 font-bold uppercase">{t.masteryLevel}</span>
+                  <span className="text-lg font-black text-emerald-400 mt-1 uppercase drop-shadow-[0_0_8px_rgba(16,185,129,0.3)]">
+                    CADET III
+                  </span>
+                </div>
+                <div className="bg-[#111625]/90 border border-gray-800 rounded-2xl p-4 flex flex-col items-center text-center shadow-md">
+                  <span className="text-2xl mb-1">💎</span>
+                  <span className="text-xs text-gray-500 font-bold uppercase">{t.gemsCollected}</span>
+                  <span className="text-2xl font-black text-cyan-400 mt-1 drop-shadow-[0_0_8px_rgba(34,211,238,0.3)]">
+                    {collectedGems}
+                  </span>
+                </div>
+                <div className="bg-[#111625]/90 border border-gray-800 rounded-2xl p-4 flex flex-col items-center text-center shadow-md">
+                  <span className="text-2xl mb-1">📈</span>
+                  <span className="text-xs text-gray-500 font-bold uppercase">{t.examAvg}</span>
+                  <span className="text-2xl font-black text-purple-400 mt-1 drop-shadow-[0_0_8px_rgba(168,85,247,0.3)]">
+                    88%
+                  </span>
+                </div>
+              </div>
 
-                <h3 className="text-[10px] font-black tracking-widest text-gray-500 mb-4 uppercase">DATA NODE PENETRATION</h3>
-                
+              <div className="w-full bg-[#111625]/95 border border-gray-800 rounded-2xl p-4 shadow-md">
+                <h3 className="text-sm font-black tracking-wider text-cyan-400 mb-4 uppercase">{language === 'TR' ? 'SEKTÖR BAZLI GELİŞİM' : 'SECTOR PROGRESS DETAILED'}</h3>
                 <div className="space-y-4 font-body">
                   {CATEGORIES.core.map(cat => {
                     const p = getCategoryProgressInline(cat.id);
                     return (
                       <div key={cat.id} className="w-full">
-                        <div className="flex justify-between items-center text-xs font-bold mb-1">
-                          <span className="text-gray-300 truncate tracking-wider">{getCategoryDisplayName(cat.id, language)}</span>
-                          <span className="text-gray-500 shrink-0 font-mono">{p.mastered} / 100</span>
+                        <div className="flex justify-between items-center text-sm font-bold mb-1">
+                          <span className="text-white truncate">{getCategoryDisplayName(cat.id, language)}</span>
+                          <span className="text-gray-400 shrink-0">{p.mastered} / 100</span>
                         </div>
-                        <div className="w-full bg-gray-950 rounded-sm h-1.5 overflow-hidden border border-gray-800">
-                          <div className="bg-gradient-to-r from-emerald-600 to-emerald-400 h-full shadow-[0_0_8px_rgba(16,185,129,0.5)]" style={{ width: `${p.pct}%` }} />
+                        <div className="w-full bg-gray-950 rounded-full h-2 overflow-hidden border border-gray-800">
+                          <div className="bg-emerald-500 h-full rounded-full" style={{ width: `${p.pct}%` }} />
                         </div>
                       </div>
                     );
@@ -2201,59 +1106,41 @@
 
           {/* LEADERBOARD TAB */}
           {activeTab === 'leaderboard' && (
-            <div className="w-full max-w-md flex flex-col items-center flex-grow relative pb-24">
-              
-              <div className="w-full bg-[#111625]/95 border border-yellow-500/20 rounded-2xl overflow-hidden shadow-[0_0_15px_rgba(234,179,8,0.1)] relative">
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 via-orange-500 to-yellow-500 opacity-50"></div>
-                <div className="p-4 border-b border-gray-800 flex justify-between items-center bg-gray-900/30">
-                  <h3 className="text-xs font-black tracking-widest text-yellow-400 uppercase flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-yellow-400 animate-pulse"></span>
-                    GLOBAL RANKING
-                  </h3>
-                  <span className="text-2xl opacity-30">🏆</span>
+            <div className="w-full max-w-md flex flex-col items-center flex-grow">
+              <div className="w-full text-left px-2 mb-6">
+                <h2 className="text-lg font-black text-yellow-400 tracking-wider uppercase drop-shadow-[0_0_8px_rgba(234,179,8,0.3)]">
+                  {t.leaderboardTitle}
+                </h2>
+                <p className="text-xs text-gray-500 mt-0.5">
+                  {t.leaderboardSubtitle}
+                </p>
+              </div>
+
+              <div className="w-full bg-[#111625]/95 border border-gray-800 rounded-2xl overflow-hidden shadow-lg">
+                <div className="flex bg-gray-900/80 px-4 py-3 text-xs font-black tracking-widest text-cyan-400 uppercase border-b border-gray-850">
+                  <span className="w-16 text-center">{t.rank}</span>
+                  <span className="flex-grow text-left">{t.pilot}</span>
+                  <span className="w-20 text-right">{t.score}</span>
                 </div>
-
-                <div className="flex bg-gray-900/80 px-4 py-3 text-[10px] font-black tracking-widest text-gray-500 uppercase border-b border-gray-850">
-                  <span className="w-12 text-center">RANK</span>
-                  <span className="flex-grow text-left pl-2">SUBJECT ID</span>
-                  <span className="w-20 text-right">SCORE</span>
-                </div>
-
-                <div className="divide-y divide-gray-850 font-body min-h-[300px]">
-                  {isLoadingLeaderboard ? (
-                    <div className="w-full h-64 flex flex-col items-center justify-center text-yellow-500/50">
-                      <svg className="animate-spin h-8 w-8 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                      </svg>
-                      <span className="text-xs font-bold tracking-widest uppercase animate-pulse">SYNCING WITH MAINFRAME...</span>
+                <div className="divide-y divide-gray-850 font-body">
+                  {[
+                    { rank: '🥇 01', pilot: 'VORTEX_HUNTER', score: 25400, isSelf: false },
+                    { rank: '🥈 02', pilot: 'NEON_CHASER', score: 21850, isSelf: false },
+                    { rank: '🥉 03', pilot: 'VOID_RUNNER', score: 18900, isSelf: false },
+                    { rank: '⚔️ 04', pilot: 'YOU (CADET)', score: Math.max(highScore, 8500), isSelf: true },
+                    { rank: '👾 05', pilot: 'ASTRO_BLASTER', score: 7200, isSelf: false }
+                  ].map((row, idx) => (
+                    <div 
+                      key={idx} 
+                      className={`flex items-center px-4 py-3.5 text-sm font-bold ${row.isSelf ? 'bg-cyan-500/10 text-cyan-400' : 'text-gray-300'}`}
+                    >
+                      <span className="w-16 text-center font-mono">{row.rank}</span>
+                      <span className="flex-grow truncate tracking-wider">{row.pilot}</span>
+                      <span className={`w-20 text-right font-mono ${row.isSelf ? 'text-cyan-400 font-extrabold' : 'text-yellow-400'}`}>
+                        {row.score.toLocaleString()}
+                      </span>
                     </div>
-                  ) : leaderboardData.length > 0 ? (
-                    leaderboardData.map((row, idx) => {
-                      const isSelf = user && row.uid === user.uid;
-                      let rankMedal = `#${idx + 1}`;
-                      if (idx === 0) rankMedal = '🥇';
-                      if (idx === 1) rankMedal = '🥈';
-                      if (idx === 2) rankMedal = '🥉';
-
-                      return (
-                        <div 
-                          key={row.uid || idx} 
-                          className={`flex items-center px-4 py-3 text-sm font-bold transition-colors ${isSelf ? 'bg-yellow-500/10 text-yellow-400' : 'text-gray-300 hover:bg-gray-800/30'}`}
-                        >
-                          <span className="w-12 text-center font-mono text-gray-500">{rankMedal}</span>
-                          <span className="flex-grow truncate tracking-wider pl-2">{row.displayName || 'CADET_UNKNOWN'}</span>
-                          <span className={`w-20 text-right font-mono ${isSelf ? 'text-yellow-400 font-extrabold drop-shadow-[0_0_5px_rgba(234,179,8,0.5)]' : 'text-cyan-400'}`}>
-                            {(row.scores || 0).toLocaleString()}
-                          </span>
-                        </div>
-                      );
-                    })
-                  ) : (
-                    <div className="w-full py-10 text-center text-gray-500 text-xs font-bold tracking-wider">
-                      NO DATA FOUND IN MAINFRAME
-                    </div>
-                  )}
+                  ))}
                 </div>
               </div>
             </div>
@@ -2272,25 +1159,15 @@
               </div>
 
               <div className="w-full bg-[#111625]/95 border border-gray-800 rounded-2xl p-6 flex flex-col items-center shadow-lg mb-6">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-tr from-purple-600 to-cyan-500 p-1 shadow-[0_0_20px_rgba(168,85,247,0.4)] mb-4 relative">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-tr from-purple-600 to-cyan-500 p-1 shadow-[0_0_20px_rgba(168,85,247,0.4)] mb-4">
                   <div className="w-full h-full rounded-full bg-black flex items-center justify-center text-4xl">
-                    {user ? '🚀' : '👨‍🚀'}
+                    👨‍🚀
                   </div>
-                  {user && (
-                    <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-emerald-500 rounded-full border-2 border-[#111625] animate-pulse"></div>
-                  )}
                 </div>
-                <h3 className="text-lg font-black tracking-widest text-white mb-0.5 truncate max-w-[250px]">
-                  {user ? (user.displayName || user.email.split('@')[0].toUpperCase()) : 'CADET_GUEST'}
-                </h3>
-                {user && (
-                  <span className="text-[10px] text-cyan-500 mb-2 truncate max-w-[250px]">{user.email}</span>
-                )}
-                
-                <span className="text-xs font-black text-cyan-400 uppercase tracking-widest bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/25 mt-2">
+                <h3 className="text-lg font-black tracking-widest text-white mb-0.5">CADET_ADEM</h3>
+                <span className="text-xs font-black text-cyan-400 uppercase tracking-widest bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/25">
                   LEVEL {savedLevel} PILOT
                 </span>
-
                 <div className="w-full grid grid-cols-2 gap-4 mt-6 pt-6 border-t border-gray-850 text-sm font-bold font-body">
                   <div className="flex justify-between items-center bg-gray-900/50 p-2.5 rounded-xl border border-gray-855">
                     <span className="text-gray-500">GEMS</span>
@@ -2303,87 +1180,9 @@
                 </div>
               </div>
 
-              {/* SCIENTIFIC TELEMETRY DASHBOARD */}
-              <div className="w-full bg-[#111625]/95 border border-cyan-500/20 rounded-2xl p-6 flex flex-col shadow-[0_0_15px_rgba(34,211,238,0.1)] mb-6 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 via-purple-500 to-cyan-500 opacity-50"></div>
-                <div className="absolute top-0 right-0 p-2 opacity-30">
-                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="text-cyan-500">
-                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                  </svg>
-                </div>
-                
-                <h3 className="text-xs font-black tracking-widest text-cyan-400 mb-6 uppercase flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-                  SUBJECT TELEMETRY DATA
-                </h3>
-
-                {/* Metric 1: Play Time */}
-                <div className="mb-5">
-                  <div className="flex justify-between items-end mb-2">
-                    <span className="text-[10px] font-bold text-gray-500 tracking-widest uppercase">NEURAL SYNC TIME</span>
-                    <span className="text-sm font-black text-white">{Math.floor(playTime / 3600)}h {Math.floor((playTime % 3600) / 60)}m</span>
-                  </div>
-                  <div className="w-full h-2 bg-gray-900 rounded-full overflow-hidden border border-gray-800">
-                    <div className="h-full bg-gradient-to-r from-blue-600 to-cyan-400 rounded-full shadow-[0_0_10px_rgba(34,211,238,0.5)]" style={{ width: `${Math.min(100, (playTime / 36000) * 100)}%` }}></div>
-                  </div>
-                </div>
-
-                {/* Metric 2: Mastery */}
-                <div className="mb-5">
-                  <div className="flex justify-between items-end mb-2">
-                    <span className="text-[10px] font-bold text-gray-500 tracking-widest uppercase">SYNAPTIC RETENTION</span>
-                    <span className="text-sm font-black text-white">{vocabProgress.pct}%</span>
-                  </div>
-                  <div className="w-full h-2 bg-gray-900 rounded-full overflow-hidden border border-gray-800 flex">
-                    <div className="h-full bg-gradient-to-r from-purple-600 to-pink-500 rounded-full shadow-[0_0_10px_rgba(236,72,153,0.5)] transition-all duration-1000" style={{ width: `${vocabProgress.pct}%` }}></div>
-                  </div>
-                </div>
-                
-                {/* Metric 3: Neuroplasticity */}
-                <div className="mb-2">
-                  <div className="flex justify-between items-end mb-2">
-                    <span className="text-[10px] font-bold text-gray-500 tracking-widest uppercase">NEUROPLASTICITY INDEX</span>
-                    <span className="text-sm font-black text-white">LVL {savedLevel}</span>
-                  </div>
-                  <div className="w-full flex gap-1 h-3">
-                    {[...Array(10)].map((_, i) => (
-                      <div key={i} className={`flex-1 rounded-sm border border-gray-800/50 ${i < Math.min(10, savedLevel) ? 'bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.4)]' : 'bg-gray-900'}`}></div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              {user ? (
-                <div className="w-full flex flex-col gap-3 mb-6">
-                  <button 
-                    onClick={() => window.SyncManager.syncOnLogin(user.uid).then(() => syncLegacyData())}
-                    className="w-full py-3.5 bg-gradient-to-r from-purple-600/30 to-purple-800/30 border border-purple-500/50 hover:bg-purple-500/40 active:scale-[0.98] transition-all text-purple-300 rounded-xl font-bold tracking-widest text-sm uppercase flex items-center justify-center gap-2"
-                  >
-                    <span>☁️</span>
-                    {language === 'TR' ? 'Bulut Senk. (Zorla)' : 'Force Cloud Sync'}
-                  </button>
-                  <button 
-                    onClick={handleLogout}
-                    className="w-full py-3.5 bg-red-950/20 border border-red-500/35 hover:bg-red-500/15 active:scale-[0.98] transition-all text-red-500 rounded-xl font-bold tracking-widest text-sm uppercase"
-                  >
-                    {language === 'TR' ? 'Çıkış Yap' : 'Logout'}
-                  </button>
-                </div>
-              ) : (
-                <div className="w-full flex flex-col gap-3 mb-6">
-                  <button 
-                    onClick={() => setActiveTab('auth')}
-                    className="w-full py-3.5 bg-gradient-to-r from-cyan-600/30 to-cyan-800/30 border border-cyan-500/50 hover:bg-cyan-500/40 active:scale-[0.98] transition-all text-cyan-300 rounded-xl font-bold tracking-widest text-sm uppercase flex items-center justify-center gap-2"
-                  >
-                    <span>☁️</span>
-                    {language === 'TR' ? 'Buluta Kaydol / Giriş' : 'Register / Login (Cloud)'}
-                  </button>
-                </div>
-              )}
-
               <button 
                 onClick={handleResetDatabase}
-                className="w-full py-3.5 bg-gray-950/40 border border-gray-800 hover:bg-gray-800/60 active:scale-[0.98] transition-all text-gray-500 hover:text-red-400 rounded-xl font-bold tracking-widest text-xs uppercase"
+                className="w-full py-3.5 bg-red-950/20 border border-red-500/35 hover:bg-red-500/15 active:scale-[0.98] transition-all text-red-500 rounded-xl font-bold tracking-widest text-sm uppercase"
               >
                 {t.resetData}
               </button>
@@ -2392,6 +1191,17 @@
 
           </div> {/* Closing scrollable-y */}
 
+          {/* Fixed Action Button (Random Play) */}
+          {activeTab === 'home' && (
+            <div className="fixed bottom-20 left-0 w-full px-4 z-40 max-w-md left-1/2 -translate-x-1/2 shrink-0">
+              <button 
+                onClick={handleRandomPlay}
+                className="w-full py-3.5 bg-gradient-to-r from-purple-600 via-fuchsia-500 to-pink-500 rounded-2xl font-black tracking-widest text-white text-sm shadow-[0_0_20px_rgba(217,70,239,0.55)] active:shadow-[0_0_25px_rgba(217,70,239,0.8)] hover:brightness-110 active:scale-[0.97] transition-all uppercase flex items-center justify-center gap-2.5 border border-pink-400/25"
+              >
+                <span>{t.randomPlayBtn}</span>
+              </button>
+            </div>
+          )}
 
           {/* Bottom Nav Bar */}
           <nav className="fixed bottom-0 left-0 w-full z-50 bg-[#0d1222]/95 border-t border-gray-850 backdrop-blur-md pt-3 pb-5 px-6 max-w-md mx-auto left-1/2 -translate-x-1/2 flex justify-between items-center text-center shrink-0">
@@ -2413,20 +1223,6 @@
               </svg>
               <span className="text-[11px] font-black uppercase tracking-wider">{t.navProgress}</span>
             </button>
-            
-            {/* KREOSUS DONATE BUTTON - FLOATING CENTER */}
-            <a 
-              href="https://kreosus.com/httpsmemolandumcom"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative -top-5 flex flex-col items-center justify-center w-14 h-14 shrink-0 rounded-full bg-gradient-to-tr from-pink-600 to-purple-600 border-4 border-[#0d1222] shadow-[0_0_15px_rgba(236,72,153,0.6)] transform hover:scale-105 transition-all z-50 animate-pulse"
-              aria-label="Support via Kreosus"
-            >
-              <svg className="w-6 h-6 text-white drop-shadow-md" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-              </svg>
-            </a>
-
             <button 
               onClick={() => setActiveTab('leaderboard')}
               className={`flex flex-col items-center gap-1 flex-1 ${activeTab === 'leaderboard' ? 'text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.6)]' : 'text-gray-500 hover:text-gray-300 transition-colors'}`}
@@ -2447,8 +1243,7 @@
             </button>
           </nav>
         </div>
-      </div>
-    );
+      );
     }
 
     // Mount React dashboard directly to the main menu div container
@@ -2525,32 +1320,4 @@
     closeBtn.addEventListener('click', () => {
       hideBanner();
     });
-  </script>
-
-  <!-- Fallback Embedded Data (for local execution/offline fallback) -->
-  <script src="fallback_data.js"></script>
-
-  <!-- Unified Exam Engine -->
-  <script type="text/babel" src="ExamEngine.js"></script>
-
-  <!-- JavaScript Gameplay Logic -->
-  <script type="text/babel" src="shells/shooter.shell.js"></script>
-  <script type="text/babel" src="shells/breakout.shell.js"></script>
-  <script type="text/babel" src="shells/worddrop.shell.js"></script>
-  <script type="text/babel" src="shells/highway.shell.js"></script>
-  <script type="text/babel" src="shells/wordascent.shell.js"></script>
-  <script type="text/babel" src="shells/invaders.shell.js"></script>
-  <script>
-    // Register Service Worker for PWA / Offline Support
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js').then(registration => {
-          console.log('SW registered: ', registration);
-        }).catch(registrationError => {
-          console.log('SW registration failed: ', registrationError);
-        });
-      });
-    }
-  </script>
-</body>
-</html>
+  
