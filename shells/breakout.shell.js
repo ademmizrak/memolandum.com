@@ -460,10 +460,9 @@ class BreakoutGame {
   }
 
   setupBrickGrid() {
-    // 10 words duplicated exactly 2 times = 20 bricks
+    // 12 words without duplication = 12 bricks
     const items = [];
     this.activeChunk.forEach(word => {
-      items.push({ ...word });
       items.push({ ...word });
     });
 
