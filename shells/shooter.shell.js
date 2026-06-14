@@ -898,7 +898,7 @@ class Game {
     // Level and spaced repetition properties
     this.currentLevel = 1;
     this.chunkIndex = 0; // Index of the unmastered 10-word chunk in the current file
-    this.wordsPerLevel = 10;
+    this.wordsPerLevel = 12;
     this.activeChunk = [];
     this.isLevelTransitioning = false;
     this.levelCompleteTimer = 0;

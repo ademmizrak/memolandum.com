@@ -229,7 +229,7 @@ class WordAscentGame {
 
     this.currentLevel = 1;
     this.chunkIndex = 0;
-    this.wordsPerLevel = 10;
+    this.wordsPerLevel = 12;
     this.activeChunk = [];
 
     // Entity lists
