@@ -1949,6 +1949,15 @@ function DesktopSidePanel({ language }) {
                 </div>
               )}
 
+              
+              {/* Desktop Mode Toggle Button */}
+              <button
+                onClick={() => setIsDesktopMode(true)}
+                className="w-8 h-8 flex items-center justify-center rounded-full bg-cyan-900/50 border border-cyan-500/30 text-cyan-400 hover:bg-cyan-800 transition-colors"
+                title={language === 'TR' ? 'Masaüstü Görünüme Geç' : 'Switch to Desktop View'}
+              >
+                💻
+              </button>
               {/* Language Switcher & Globe */}
               <div className="flex items-center gap-2">
                 <div className="flex items-center bg-[#181d2e] border border-gray-800 rounded-full p-0.5 w-24 h-8 relative cursor-pointer shadow-inner">

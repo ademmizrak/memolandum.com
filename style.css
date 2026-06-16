@@ -35,6 +35,35 @@ body {
 
 
 
+body.desktop-portal-mode {
+  display: block;
+  height: auto;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  touch-action: auto;
+  background-color: #05020a; /* Same dark theme as about page */
+}
+
+/* Force main-menu to act as fixed full-screen overlay in desktop mode */
+body.desktop-portal-mode #main-menu {
+  display: block !important; /* Prevent game from hiding the desktop portal */
+  position: fixed !important;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 1000;
+  pointer-events: none;
+  background: transparent !important;
+}
+
+body.desktop-portal-mode #game-container {
+  /* Keep game-container centered and sized correctly */
+  margin: 0 auto;
+  height: 100vh; /* Fill vertical space to align with middle column */
+  box-shadow: none; /* Remove shadow to blend in */
+}
+
 #game-container,
 #gameCanvas,
 .controls-container,
