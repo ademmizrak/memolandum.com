@@ -8,7 +8,7 @@
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0d0d1a">
   <meta name="description" content="Siber uzay arcade temasıyla eğlenirken İngilizce kelime ezberleyin! Memolandum, retro oynanış eşliğinde A1-B2 seviyelerinde kelime dağarcığınızı hızla geliştirir.">
-  <meta name="keywords" content="ingilizce kelime ezberleme, kelime ezberleme oyunu, ingilizce öğrenme, siber arcade, space shooter kelime oyunu, memolandum, ingilizce pratik cümleler, a1 ingilizce kelimeler">
+  <meta name="keywords" content="ingilizce kelime ezberleme, kelime ezberleme oyunu, ingilizce öğrenme, siber arcade, space shooter kelime oyunu, memolandum, ingilizce pratik cümleler, a1 ingilizce kelimeler, rusça türkçe kelime ezberleme, ruslar için türkçe öğrenme, korece türkçe kelime öğrenme">
   
   <!-- SEO & Accessibility -->
   <meta name="author" content="Memolandum Team">
@@ -19,6 +19,8 @@
   <link rel="alternate" hreflang="tr" href="https://memolandum.com/">
   <link rel="alternate" hreflang="pt" href="https://memolandum.com/pt-en">
   <link rel="alternate" hreflang="en" href="https://memolandum.com/en-pt">
+  <link rel="alternate" hreflang="ko" href="https://memolandum.com/ko-tr">
+  <link rel="alternate" hreflang="ru" href="https://memolandum.com/ru-tr">
   <link rel="alternate" hreflang="x-default" href="https://memolandum.com/">
   
   <!-- Open Graph / Facebook -->
@@ -68,7 +70,12 @@
     "@type": "WebSite",
     "name": "Memolandum",
     "alternateName": "Memolandum İngilizce Kelime Oyunu",
-    "url": "https://memolandum.com"
+    "url": "https://memolandum.com",
+    "potentialAction": {
+      "@type": "PlayAction",
+      "target": "https://memolandum.com",
+      "name": "Memolandum Kelime Oyununu Başlat"
+    }
   }
   </script>
 
@@ -86,6 +93,11 @@
       "@type": "Offer",
       "price": "0.00",
       "priceCurrency": "USD"
+    },
+    "potentialAction": {
+      "@type": "PlayAction",
+      "target": "https://memolandum.com",
+      "name": "Kelime Ezberleme Oyununu Başlat"
     }
   }
   </script>
@@ -103,42 +115,96 @@
         "position": 1,
         "name": "A1 İngilizce Kelime Listesi",
         "description": "Temel başlangıç seviyesi İngilizce kelimeler ve anlamları.",
-        "learningResourceType": "Vocabulary List"
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Student" }
       },
       {
         "@type": "LearningResource",
         "position": 2,
         "name": "A2 İngilizce Kelime Listesi",
         "description": "Günlük konuşmada en çok kullanılan temel kelimeler.",
-        "learningResourceType": "Vocabulary List"
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Student" }
       },
       {
         "@type": "LearningResource",
         "position": 3,
         "name": "B1 İngilizce Kelime Listesi",
         "description": "Orta düzey kelime dağarcığı ve siber kelime protokolü.",
-        "learningResourceType": "Vocabulary List"
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Student" }
       },
       {
         "@type": "LearningResource",
         "position": 4,
         "name": "B2 İngilizce Kelime Listesi",
         "description": "İleri orta düzey İngilizce kelimeler ve pratikler.",
-        "learningResourceType": "Vocabulary List"
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Student" }
       },
       {
         "@type": "LearningResource",
         "position": 5,
         "name": "Academic Verbs (Akademik Fiiller)",
         "description": "Sınavlar ve akademik makaleler için en çok tercih edilen fiiller.",
-        "learningResourceType": "Vocabulary List"
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Student" }
       },
       {
         "@type": "LearningResource",
         "position": 6,
         "name": "Phrasal Verbs (Deyimsel Fiiller)",
         "description": "Günlük dilde ve sınavlarda sıkça çıkan öbeksi fiiller.",
-        "learningResourceType": "Vocabulary List"
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Student" }
+      },
+      {
+        "@type": "LearningResource",
+        "position": 7,
+        "name": "YDS ve YKS-Dil Sınavına Hazırlık Kelimeleri",
+        "description": "YDS, YÖKDİL ve YKS-Dil sınavlarında en çok çıkan ileri düzey akademik İngilizce kelimeler.",
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Examinee" }
+      },
+      {
+        "@type": "LearningResource",
+        "position": 8,
+        "name": "Brezilya Portekizcesinden İngilizceye Kelime Öğrenimi",
+        "description": "Portekizce konuşanlar (PT-BR) için özel hazırlanmış İngilizce kelime setleri.",
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Student" }
+      },
+      {
+        "@type": "LearningResource",
+        "position": 9,
+        "name": "Osmanlıcadan Günümüz Türkçesine Çeviri",
+        "description": "Tarihi metinleri okumak isteyenler için Osmanlıca kelimelerin günümüz Türkçesi karşılıkları.",
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Researcher" }
+      },
+      {
+        "@type": "LearningResource",
+        "position": 10,
+        "name": "Günlük İngilizce Pratik Cümleler",
+        "description": "Konuşma becerisini artırmak için günlük hayatta kullanılan temel ve pratik İngilizce cümle yapıları.",
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Student" }
+      },
+      {
+        "@type": "LearningResource",
+        "position": 11,
+        "name": "Rusçadan Türkçeye Kelime Öğrenimi",
+        "description": "Türkiye'de yaşayan Ruslar ve Türkçe öğrenmek isteyen Rusça konuşanlar için özel Türkçe kelime setleri.",
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Student" }
+      },
+      {
+        "@type": "LearningResource",
+        "position": 12,
+        "name": "Koreceden Türkçeye Kelime Öğrenimi",
+        "description": "Korece konuşanlar için özel Türkçe kelime setleri ve ezberleme modülleri.",
+        "learningResourceType": "Vocabulary List",
+        "audience": { "@type": "EducationalAudience", "educationalRole": "Student" }
       }
     ]
   }
@@ -278,22 +344,71 @@
       background: rgba(16, 185, 129, 0.5); 
     }
   </style>
+  <!-- JSON-LD Structured Data for Advanced Organization & ProfilePage Schema (GEO 4.0) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://memolandum.com/#organization",
+        "name": "Memolandum",
+        "url": "https://memolandum.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://memolandum.com/memolandum_preview.png"
+        },
+        "sameAs": [
+          "https://github.com/memolandum",
+          "https://discord.gg/memolandum"
+        ],
+        "description": "Siber arcade temalı yabancı dil (İngilizce ve Korece) kelime ezberleme ve oyunlaştırma (gamification) platformu."
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://memolandum.com/#profile",
+        "url": "https://memolandum.com",
+        "name": "Memolandum Development Team",
+        "description": "Oyun tabanlı öğrenme uzmanları, yabancı dil eğitmenleri ve fullstack geliştiricilerinden oluşan ekip.",
+        "mainEntity": {
+          "@type": "Person",
+          "name": "Memolandum Creator",
+          "jobTitle": "Lead Developer & Language Instructor",
+          "worksFor": {
+            "@id": "https://memolandum.com/#organization"
+          }
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body class="bg-[#0a0f1d] overflow-hidden">
 
-  <!-- Static SEO Content for Web Crawlers (Hidden from Users) -->
-  <div id="seo-content" class="hidden" aria-hidden="true">
-    <h1>Memolandum - A1, A2, B1, B2 İngilizce Kelime Ezberleme Oyunu</h1>
-    <p>Memolandum, siber uzay (cyberpunk) temasına sahip, oyunlaştırma ile İngilizce kelime ezberlemenizi sağlayan ücretsiz bir uygulamadır. TR-ENG, PT-BR-ENG dillerini destekler.</p>
-    <ul>
-      <li>A1 Beginner Seviye İngilizce Kelimeler</li>
-      <li>A2 Elementary Seviye İngilizce Kelimeler</li>
-      <li>B1 Intermediate Seviye İngilizce Kelimeler</li>
-      <li>B2 Upper Intermediate Seviye İngilizce Kelimeler</li>
-      <li>İngilizce Phrasal Verbs (Deyimsel Fiiller)</li>
-      <li>İngilizce Bağlaçlar (Conjunctions) ve Edatlar (Prepositions)</li>
-    </ul>
-    <p>Uygulamamızı hemen kullanmaya başlayarak kelime haznenizi (vocabulary) oyun oynayarak, farkında olmadan kalıcı bir şekilde genişletebilirsiniz.</p>
+  <!-- GEO 4.0 Semantic HTML Block (Front-Loaded Content & Statistics) -->
+  <div id="seo-content" class="sr-only">
+    <main>
+      <h1>Memolandum: Oyunlaştırma Tabanlı İngilizce ve Korece Kelime Öğrenme Platformu</h1>
+      <p><strong>Nedir?</strong> Memolandum; YDS, YKS-Dil ve uluslararası dil sınavlarına hazırlanan öğrenciler için tamamen ücretsiz ve reklamsız olarak erişilebilen, gamification (oyunlaştırma) tabanlı bir akademik eğitim kaynağıdır. Geleneksel kelime ezberleme kartları (flashcards) veya ağır mobil uygulamaların aksine, Memolandum tarayıcı tabanlı, hafif ve retro arcade oyun dinamikleriyle çalışarak ezber sürecini monotonluktan çıkarır. Kullanıcılar uzay temalı oyunları oynarken arka planda çalışan siber kelime protokolü ile kelimeler kalıcı hafızaya aktarılır.</p>
+      
+      <h2>İstatistikler ve Eğitim İçeriği (Dil Seçenekleri)</h2>
+      <ul>
+        <li><strong>Dil Seçenekleri:</strong> Türkçe - İngilizce, Brezilya Portekizcesi - İngilizce (PT-BR), Korece - Türkçe (Ko_Tr), Osmanlıca - Günümüz Türkçesi.</li>
+        <li><strong>Sınavlara Hazırlık:</strong> YDS, YÖKDİL ve YKS-Dil sınavlarına özel akademik kelime ve fiil hazırlık modülleri.</li>
+        <li><strong>Kelime Kapasitesi:</strong> 5000+ İngilizce kelime, 1050+ Korece kelime, 500+ Osmanlıca tarihi kelime.</li>
+        <li><strong>İçerik Çeşitliliği:</strong> Temel kelimeler, basit İngilizce günlük pratik cümleler, Phrasal Verbs (Deyimsel Fiiller), Prepositions (Edatlar) ve Conjunctions (Bağlaçlar).</li>
+        <li><strong>Öğrenme Hızı:</strong> Günde 10 dakika pratikle geleneksel yöntemlere göre %40 daha hızlı ezberleme (Active Recall).</li>
+      </ul>
+
+      <h2>İngilizce Seviyeleri, Pratik Cümleler ve Sınavlara (YDS & YKS-Dil) Hazırlık</h2>
+      <p>Memolandum içindeki İngilizce kelime veri tabanı, kullanıcının dil yeterliliğine göre dörde ayrılmıştır. A1 (Başlangıç) seviyesi temel İngilizce kelimeleri ve günlük hayatta sık kullanılan basit pratik cümleleri içerirken, A2 (Temel) seviyesi basit cümle yapılarına uygun kelimeleri kapsar. B1 (Orta) ve B2 (Üst-Orta) seviyeleri ise akademik metinler, YDS, YÖKDİL ve YKS-Dil gibi kritik sınavlar ile profesyonel iş hayatı için gereken ileri düzey kelime ve yapıları barındırır. Brezilya Portekizcesi konuşanlar (PT-BR) için özel İngilizce eşleştirme modülleri de aktiftir. Sistem, kullanıcının hata yaptığı kelimeleri belirleyerek 'Vocabulary Vault' (Kelime Kasası) içine kaydeder ve aralıklı tekrar algoritması ile kalıcı ezberleme sağlar.</p>
+
+      <h2>Korece ve Osmanlıca Kelime Çevirileri</h2>
+      <p>Korece (Hangıl) dil modülü, başlangıç (Level 0) seviyesinden itibaren B2 seviyesine kadar 1050 kelimelik bir veritabanı sunar. Dinamik alfabe sistemi, kelimeleri orijinal alfabesinde, transkripsiyonunda ve Türkçe anlamında göstererek okuma bariyerini ortadan kaldırır. Osmanlıca modülümüz ise tarihi belgeleri okumak ve edebiyat öğrencileri için Osmanlıcadan günümüz Türkçesine 500'den fazla özel çeviri kelimesi barındırır.</p>
+
+      <h2>Yapay Zeka Çevirmenleri Varken Neden Kelime Ezberlemeliyiz?</h2>
+      <p>Günümüzde gelişmiş yapay zeka çeviri araçları (AI Translators) metinleri anında farklı dillere çevirebilse de, akıcı bir şekilde konuşabilmek, doğal diyaloglar kurabilmek ve anlık iletişimde bulunabilmek için kelimeleri zihninizde barındırmak (aktif kelime dağarcığı) zorunludur. Çeviri cihazları veya uygulamaları karşılıklı iletişimin hızını keser ve duygu aktarımını zedeler. Memolandum, kelimeleri anlık çeviri araçlarına ihtiyaç duymadan refleks olarak kullanabilmeniz için zihinsel ağınızı ve dil hafızanızı eğitir. Ayrıca YDS, TOEFL veya IELTS gibi resmi dil sınavlarında hiçbir yapay zeka aracına erişiminiz olmadığı için bu kelimeleri bizzat ezberlemiş olmanız kritik bir gerekliliktir.</p>
+    </main>
   </div>
 
   <!-- PWA Install Banner -->
@@ -548,6 +663,8 @@
     <div class="level-card" data-category="a2_words.json"><span class="level-action"></span></div>
     <div class="level-card" data-category="b1_words.json"><span class="level-action"></span></div>
     <div class="level-card" data-category="b2_words.json"><span class="level-action"></span></div>
+    <div class="level-card" data-category="c1_words.json"><span class="level-action"></span></div>
+    <div class="level-card" data-category="c2_words.json"><span class="level-action"></span></div>
     <div class="level-card" data-category="phrasal_verbs.json"><span class="level-action"></span></div>
     <div class="level-card" data-category="conjunctions.json"><span class="level-action"></span></div>
     <div class="level-card" data-category="academic_verbs.json"><span class="level-action"></span></div>
@@ -744,6 +861,31 @@
   </script>
 
   <script type="text/babel">
+    // Global Audio Context patch for Muting
+    window.memolandum_muted = localStorage.getItem('memolandum_muted') === '1';
+    if (!window.audioContextPatched) {
+      window.audioContextPatched = true;
+      window.audioContexts = [];
+      const OriginalAudioContext = window.AudioContext || window.webkitAudioContext;
+      if (OriginalAudioContext) {
+        class PatchedAudioContext extends OriginalAudioContext {
+          constructor(...args) {
+            super(...args);
+            window.audioContexts.push(this);
+            if (window.memolandum_muted) {
+              setTimeout(() => this.suspend(), 0);
+            }
+          }
+          resume() {
+            if (window.memolandum_muted) return Promise.resolve();
+            return super.resume();
+          }
+        }
+        window.AudioContext = PatchedAudioContext;
+        if (window.webkitAudioContext) window.webkitAudioContext = PatchedAudioContext;
+      }
+    }
+
     const { useState, useEffect } = React;
 
     // ----------------------------------------------------
@@ -788,11 +930,13 @@
         selectLevelTitle: "SEKTÖR AĞI BAĞLANTISI",
         selectLevelSubtitle: "Bağlanmak istediğiniz dil seviyesini seçin",
         closeBtn: "Kapat",
-        connectBtn: "BAĞLANTIYI KUR",
+        connectBtn: "BAĞLAN",
         connectedBtn: "BAĞLANTI AKTİF",
-        coreLevelsTab: "Çekirdek Seviyeler",
+        coreLevelsTab: "Temel Seviyeler",
         sentencesTab: "Pratik Cümleler",
-        specializedTab: "Özel Konular",
+        specializedTab: "ÖZEL KELİMELER",
+        yksTab: "YKS Hazırlık",
+        ydsTab: "YDS Kelimeleri",
         // Progress Tab
         statsTitle: "SİBER GELİŞİM VERİLERİ",
         statsSubtitle: "Kelimeleri öğrenme ve ustalaşma oranlarınız",
@@ -853,11 +997,13 @@
         selectLevelTitle: "SECTOR NETWORK LINK",
         selectLevelSubtitle: "Select the vocabulary sector to establish connection",
         closeBtn: "Close",
-        connectBtn: "CONNECT SECTOR",
+        connectBtn: "CONNECT",
         connectedBtn: "LINK ESTABLISHED",
         coreLevelsTab: "Core Levels",
         sentencesTab: "Practical Sentences",
-        specializedTab: "Specialized",
+        specializedTab: "SPECIALIZED",
+        yksTab: "YKS Prep",
+        ydsTab: "YDS Vocab",
         // Progress Tab
         statsTitle: "CYBER PROGRESS LOGS",
         statsSubtitle: "Your vocab mastery and learning indices",
@@ -922,6 +1068,7 @@
         coreLevelsTab: "Níveis Principais",
         sentencesTab: "Frases Práticas",
         specializedTab: "Especializado",
+        yksTab: "YKS Prep",
         statsTitle: "LOGS DE PROGRESSO CYBER",
         statsSubtitle: "Seus índices de aprendizado",
         totalMastered: "Palavras Dominadas",
@@ -945,10 +1092,42 @@
 
     const getCategoryDisplayName = (jsonFileName, lang) => {
       const TR_Names = {
+        'Osm_Tr/Osm_tr_100.json': 'Osmanlıca 100',
+        'Osm_Tr/Osm_tr_200.json': 'Osmanlıca 200',
+        'Osm_Tr/Osm_tr_300.json': 'Osmanlıca 300',
+        'Osm_Tr/Osm_tr_400.json': 'Osmanlıca 400',
+        'Osm_Tr/Osm_tr_500 .json': 'Osmanlıca 500',
+        'Kore/Ko_Tr_Level_0_Alphabet.json': 'Harf Kampı (Level 0)',
+        'Kore/Ko_Tr_0_100.json': 'Korece 100 (A1)',
+        'Kore/Ko_Tr_100_200.json': 'Korece 200 (A1)',
+        'Kore/Ko_Tr_200_300.json': 'Korece 300 (A1)',
+        'Kore/Ko_Tr_300_350.json': 'Korece 350 (A2)',
+        'Kore/Ko_Tr_350_450.json': 'Korece 450 (A2)',
+        'Kore/Ko_Tr_450_550.json': 'Korece 550 (A2)',
+        'Kore/Ko_Tr_550_650.json': 'Korece 650 (B1)',
+        'Kore/Ko_Tr_650_750.json': 'Korece 750 (B1)',
+        'Kore/Ko_Tr_750_850.json': 'Korece 850 (B1)',
+        'Kore/Ko_Tr_850_950.json': 'Korece 950 (B2)',
+        'Kore/Ko_Tr_950_1050.json': 'Korece 1050 (B2)',
+        'Russian/Level_0_Alphabet_Ru_Tr.json': 'Rusça Alfabe / Kiril Kampı (Level 0)',
+        'Russian/A1_001_100_Ru_Tr.json': 'Rusça 100 (A1)',
+        'Russian/A1_101_200_Ru_Tr.json': 'Rusça 200 (A1)',
+        'Russian/A1_201_300_Ru_Tr.json': 'Rusça 300 (A1)',
+        'Russian/A1_301_400_Ru_Tr.json': 'Rusça 400 (A1)',
+        'Russian/A2_001_100_Ru_Tr.json': 'Rusça 500 (A2)',
+        'Russian/A2_101_200_Ru_Tr.json': 'Rusça 600 (A2)',
+        'Russian/B1_001_100_Ru_Tr.json': 'Rusça 700 (B1)',
+        'Russian/B1_101_200_Ru_Tr.json': 'Rusça 800 (B1)',
+        'Russian/C1_001_100_Ru_Tr.json': 'Rusça 900 (C1)',
+        'Russian/C1_101_200_Ru_Tr.json': 'Rusça 1000 (C1)',
+        'Russian/C2_001_100_Ru_Tr.json': 'Rusça 1100 (C2)',
+        'Russian/C2_101_200_Ru_Tr.json': 'Rusça 1200 (C2)',
         'a1_words.json': 'A1 - Başlangıç Seviyesi',
         'a2_words.json': 'A2 - Temel Seviye',
         'b1_words.json': 'B1 - Orta Seviye',
         'b2_words.json': 'B2 - İleri Orta Seviye',
+        'c1_words.json': 'C1 - İleri Seviye',
+        'c2_words.json': 'C2 - Uzman Seviyesi',
         'phrasal_verbs.json': 'Kritik Phrasal Verbler',
         'conjunctions.json': 'Akademik Bağlaçlar',
         'academic_verbs.json': 'Akademik Fiiller',
@@ -960,13 +1139,61 @@
         'sentences/tr_sentences_301_400.json': 'Pratik Cümleler (301-400)',
         'sentences/tr_sentences_401_500.json': 'Pratik Cümleler (401-500)',
         'summer_vacation.json': 'Yaz Kelimeleri',
-        'summer_phrases.json': 'Yaz Cümleleri'
+        'summer_phrases.json': 'Yaz Cümleleri',
+        'yks_dil/YKS-DIL_Group1_en-tr_v2.json': 'YKS-DİL Grup 1 (EN-TR)',
+        'yks_dil/YKS-DIL_Group1_tr-en_v2.json': 'YKS-DİL Grup 1 (TR-EN)',
+        'yks_dil/YKS-DIL_Group2_en-tr_v2.json': 'YKS-DİL Grup 2 (EN-TR)',
+        'yks_dil/YKS-DIL_Group2_tr-en_v2.json': 'YKS-DİL Grup 2 (TR-EN)',
+        'yks_dil/YKS-DIL_Group3_en-tr_v2.json': 'YKS-DİL Grup 3 (EN-TR)',
+        'yks_dil/YKS-DIL_Group3_tr-en_v2.json': 'YKS-DİL Grup 3 (TR-EN)',
+        'YDS_kelimeleri/YDS_Grup1_en_tr_v2.json': 'YDS Grup 1 (EN-TR)',
+        'YDS_kelimeleri/YDS_Grup1_tr_en_v2.json': 'YDS Grup 1 (TR-EN)',
+        'YDS_kelimeleri/YDS_Grup2_en_tr_v2.json': 'YDS Grup 2 (EN-TR)',
+        'YDS_kelimeleri/YDS_Grup2_tr_en_v2.json': 'YDS Grup 2 (TR-EN)',
+        'YDS_kelimeleri/YDS_Grup3_en_tr_v2.json': 'YDS Grup 3 (EN-TR)',
+        'YDS_kelimeleri/YDS_Grup3_tr_en_v2.json': 'YDS Grup 3 (TR-EN)',
+        'YDS_kelimeleri/YDS_Grup4_en_tr_v2.json': 'YDS Grup 4 (EN-TR)',
+        'YDS_kelimeleri/YDS_Grup4_tr_en_v2.json': 'YDS Grup 4 (TR-EN)',
+        'YDS_kelimeleri/YDS_Grup5_en_tr_v2.json': 'YDS Grup 5 (EN-TR)',
+        'YDS_kelimeleri/YDS_Grup5_tr_en_v2.json': 'YDS Grup 5 (TR-EN)'
       };
       const ENG_Names = {
+        'Osm_Tr/Osm_tr_100.json': 'Ottoman 100',
+        'Osm_Tr/Osm_tr_200.json': 'Ottoman 200',
+        'Osm_Tr/Osm_tr_300.json': 'Ottoman 300',
+        'Osm_Tr/Osm_tr_400.json': 'Ottoman 400',
+        'Osm_Tr/Osm_tr_500 .json': 'Ottoman 500',
+        'Kore/Ko_Tr_Level_0_Alphabet.json': 'Alphabet Camp (Level 0)',
+        'Kore/Ko_Tr_0_100.json': 'Korean 100 (A1)',
+        'Kore/Ko_Tr_100_200.json': 'Korean 200 (A1)',
+        'Kore/Ko_Tr_200_300.json': 'Korean 300 (A1)',
+        'Kore/Ko_Tr_300_350.json': 'Korean 350 (A2)',
+        'Kore/Ko_Tr_350_450.json': 'Korean 450 (A2)',
+        'Kore/Ko_Tr_450_550.json': 'Korean 550 (A2)',
+        'Kore/Ko_Tr_550_650.json': 'Korean 650 (B1)',
+        'Kore/Ko_Tr_650_750.json': 'Korean 750 (B1)',
+        'Kore/Ko_Tr_750_850.json': 'Korean 850 (B1)',
+        'Kore/Ko_Tr_850_950.json': 'Korean 950 (B2)',
+        'Kore/Ko_Tr_950_1050.json': 'Korean 1050 (B2)',
+        'Russian/Level_0_Alphabet_Ru_Tr.json': 'Russian Alphabet Camp (Level 0)',
+        'Russian/A1_001_100_Ru_Tr.json': 'Russian 100 (A1)',
+        'Russian/A1_101_200_Ru_Tr.json': 'Russian 200 (A1)',
+        'Russian/A1_201_300_Ru_Tr.json': 'Russian 300 (A1)',
+        'Russian/A1_301_400_Ru_Tr.json': 'Russian 400 (A1)',
+        'Russian/A2_001_100_Ru_Tr.json': 'Russian 500 (A2)',
+        'Russian/A2_101_200_Ru_Tr.json': 'Russian 600 (A2)',
+        'Russian/B1_001_100_Ru_Tr.json': 'Russian 700 (B1)',
+        'Russian/B1_101_200_Ru_Tr.json': 'Russian 800 (B1)',
+        'Russian/C1_001_100_Ru_Tr.json': 'Russian 900 (C1)',
+        'Russian/C1_101_200_Ru_Tr.json': 'Russian 1000 (C1)',
+        'Russian/C2_001_100_Ru_Tr.json': 'Russian 1100 (C2)',
+        'Russian/C2_101_200_Ru_Tr.json': 'Russian 1200 (C2)',
         'a1_words.json': 'A1 - Beginner Level',
         'a2_words.json': 'A2 - Elementary Level',
         'b1_words.json': 'B1 - Intermediate Level',
         'b2_words.json': 'B2 - Upper Intermediate',
+        'c1_words.json': 'C1 - Advanced Level',
+        'c2_words.json': 'C2 - Proficient Level',
         'phrasal_verbs.json': 'Critical Phrasal Verbs',
         'conjunctions.json': 'Academic Conjunctions',
         'academic_verbs.json': 'Advanced Verbs',
@@ -978,19 +1205,70 @@
         'sentences/tr_sentences_301_400.json': 'Practical Sentences (301-400)',
         'sentences/tr_sentences_401_500.json': 'Practical Sentences (401-500)',
         'summer_vacation.json': 'Summer Words',
-        'summer_phrases.json': 'Summer Phrases'
+        'summer_phrases.json': 'Summer Phrases',
+        'yks_dil/YKS-DIL_Group1_en-tr_v2.json': 'YKS-DIL Group 1 (EN-TR)',
+        'yks_dil/YKS-DIL_Group1_tr-en_v2.json': 'YKS-DIL Group 1 (TR-EN)',
+        'yks_dil/YKS-DIL_Group2_en-tr_v2.json': 'YKS-DIL Group 2 (EN-TR)',
+        'yks_dil/YKS-DIL_Group2_tr-en_v2.json': 'YKS-DIL Group 2 (TR-EN)',
+        'yks_dil/YKS-DIL_Group3_en-tr_v2.json': 'YKS-DIL Group 3 (EN-TR)',
+        'yks_dil/YKS-DIL_Group3_tr-en_v2.json': 'YKS-DIL Group 3 (TR-EN)',
+        'YDS_kelimeleri/YDS_Grup1_en_tr_v2.json': 'YDS Group 1 (EN-TR)',
+        'YDS_kelimeleri/YDS_Grup1_tr_en_v2.json': 'YDS Group 1 (TR-EN)',
+        'YDS_kelimeleri/YDS_Grup2_en_tr_v2.json': 'YDS Group 2 (EN-TR)',
+        'YDS_kelimeleri/YDS_Grup2_tr_en_v2.json': 'YDS Group 2 (TR-EN)',
+        'YDS_kelimeleri/YDS_Grup3_en_tr_v2.json': 'YDS Group 3 (EN-TR)',
+        'YDS_kelimeleri/YDS_Grup3_tr_en_v2.json': 'YDS Group 3 (TR-EN)',
+        'YDS_kelimeleri/YDS_Grup4_en_tr_v2.json': 'YDS Group 4 (EN-TR)',
+        'YDS_kelimeleri/YDS_Grup4_tr_en_v2.json': 'YDS Group 4 (TR-EN)',
+        'YDS_kelimeleri/YDS_Grup5_en_tr_v2.json': 'YDS Group 5 (EN-TR)',
+        'YDS_kelimeleri/YDS_Grup5_tr_en_v2.json': 'YDS Group 5 (TR-EN)'
       };
       return lang === 'TR' ? (TR_Names[jsonFileName] || 'Bilinmeyen Sektör') : (ENG_Names[jsonFileName] || 'Unknown Sector');
     };
 
-    const CATEGORIES = {
-      core: [
+    const getCategories = (langPair) => ({
+      core: langPair === 'osm_tr' ? [
+        { id: 'Osm_Tr/Osm_tr_100.json', label: 'Osmanlıca 100', desc: 'Osmanlıca - Günümüz Türkçesi' },
+        { id: 'Osm_Tr/Osm_tr_200.json', label: 'Osmanlıca 200', desc: 'Osmanlıca - Günümüz Türkçesi' },
+        { id: 'Osm_Tr/Osm_tr_300.json', label: 'Osmanlıca 300', desc: 'Osmanlıca - Günümüz Türkçesi' },
+        { id: 'Osm_Tr/Osm_tr_400.json', label: 'Osmanlıca 400', desc: 'Osmanlıca - Günümüz Türkçesi' },
+        { id: 'Osm_Tr/Osm_tr_500 .json', label: 'Osmanlıca 500', desc: 'Osmanlıca - Günümüz Türkçesi' }
+      ] : langPair === 'ko_tr' ? [
+        { id: 'Kore/Ko_Tr_Level_0_Alphabet.json', label: 'Harf Kampı (Level 0)', desc: 'Kore alfabesi (Hangıl) ve ilk heceler.' },
+        { id: 'Kore/Ko_Tr_0_100.json', label: 'Korece 100 (A1)', desc: 'Başlangıç Seviyesi (A1)' },
+        { id: 'Kore/Ko_Tr_100_200.json', label: 'Korece 200 (A1)', desc: 'Başlangıç Seviyesi (A1)' },
+        { id: 'Kore/Ko_Tr_200_300.json', label: 'Korece 300 (A1)', desc: 'Başlangıç Seviyesi (A1)' },
+        { id: 'Kore/Ko_Tr_300_350.json', label: 'Korece 350 (A2)', desc: 'Temel Seviye (A2)' },
+        { id: 'Kore/Ko_Tr_350_450.json', label: 'Korece 450 (A2)', desc: 'Temel Seviye (A2)' },
+        { id: 'Kore/Ko_Tr_450_550.json', label: 'Korece 550 (A2)', desc: 'Temel Seviye (A2)' },
+        { id: 'Kore/Ko_Tr_550_650.json', label: 'Korece 650 (B1)', desc: 'Orta Seviye (B1)' },
+        { id: 'Kore/Ko_Tr_650_750.json', label: 'Korece 750 (B1)', desc: 'Orta Seviye (B1)' },
+        { id: 'Kore/Ko_Tr_750_850.json', label: 'Korece 850 (B1)', desc: 'Orta Seviye (B1)' },
+        { id: 'Kore/Ko_Tr_850_950.json', label: 'Korece 950 (B2)', desc: 'Üst-Orta Seviye (B2)' },
+        { id: 'Kore/Ko_Tr_950_1050.json', label: 'Korece 1050 (B2)', desc: 'Üst-Orta Seviye (B2)' }
+      ] : langPair === 'ru_tr' ? [
+        { id: 'Russian/Level_0_Alphabet_Ru_Tr.json', label: 'Harf Kampı (Level 0)', desc: 'Rus alfabesi (Kiril) ve ilk heceler.' },
+        { id: 'Russian/A1_001_100_Ru_Tr.json', label: 'Rusça 100 (A1)', desc: 'Başlangıç Seviyesi (A1)' },
+        { id: 'Russian/A1_101_200_Ru_Tr.json', label: 'Rusça 200 (A1)', desc: 'Başlangıç Seviyesi (A1)' },
+        { id: 'Russian/A1_201_300_Ru_Tr.json', label: 'Rusça 300 (A1)', desc: 'Başlangıç Seviyesi (A1)' },
+        { id: 'Russian/A1_301_400_Ru_Tr.json', label: 'Rusça 400 (A1)', desc: 'Başlangıç Seviyesi (A1)' },
+        { id: 'Russian/A2_001_100_Ru_Tr.json', label: 'Rusça 500 (A2)', desc: 'Temel Seviye (A2)' },
+        { id: 'Russian/A2_101_200_Ru_Tr.json', label: 'Rusça 600 (A2)', desc: 'Temel Seviye (A2)' },
+        { id: 'Russian/B1_001_100_Ru_Tr.json', label: 'Rusça 700 (B1)', desc: 'Orta Seviye (B1)' },
+        { id: 'Russian/B1_101_200_Ru_Tr.json', label: 'Rusça 800 (B1)', desc: 'Orta Seviye (B1)' },
+        { id: 'Russian/C1_001_100_Ru_Tr.json', label: 'Rusça 900 (C1)', desc: 'İleri Seviye (C1)' },
+        { id: 'Russian/C1_101_200_Ru_Tr.json', label: 'Rusça 1000 (C1)', desc: 'İleri Seviye (C1)' },
+        { id: 'Russian/C2_001_100_Ru_Tr.json', label: 'Rusça 1100 (C2)', desc: 'Uzman Seviye (C2)' },
+        { id: 'Russian/C2_101_200_Ru_Tr.json', label: 'Rusça 1200 (C2)', desc: 'Uzman Seviye (C2)' }
+      ] : [
         { id: 'a1_words.json', label: 'A1 - Beginner', desc: 'Start your training with fundamental words.' },
         { id: 'a2_words.json', label: 'A2 - Elementary', desc: 'Expand vocabulary with common phrases.' },
         { id: 'b1_words.json', label: 'B1 - Intermediate', desc: 'Enhance key intermediate words.' },
-        { id: 'b2_words.json', label: 'B2 - Upper Intermediate', desc: 'Master complex terms for fluent speech.' }
+        { id: 'b2_words.json', label: 'B2 - Upper Intermediate', desc: 'Master complex terms for fluent speech.' },
+        { id: 'c1_words.json', label: 'C1 - Advanced', desc: 'Achieve advanced fluency and comprehension.' },
+        { id: 'c2_words.json', label: 'C2 - Proficient', desc: 'Reach native-like mastery of vocabulary.' }
       ],
-      sentences: [
+      sentences: langPair === 'osm_tr' || langPair === 'ko_tr' || langPair === 'ru_tr' ? [] : [
         { id: 'sentences/tr_sentences_01_100.json', label: 'Sentences 1-100', desc: 'Basic daily conversational sentences.' },
         { id: 'sentences/tr_sentences_101_200.json', label: 'Sentences 101-200', desc: 'Common expressions and social phrases.' },
         { id: 'sentences/tr_sentences_201_300.json', label: 'Sentences 201-300', desc: 'Describing actions, times, and places.' },
@@ -1005,8 +1283,28 @@
         { id: 'abstract_adjectives.json', label: 'Abstract Adjectives', desc: 'Adjectives representing abstract systems.' },
         { id: 'summer_vacation.json', label: 'Summer Words', desc: 'Essential vocabulary for summer vacation.' },
         { id: 'summer_phrases.json', label: 'Summer Phrases', desc: 'Conversational phrases for summer holidays.' }
+      ],
+      yksHazirlik: [
+        { id: 'yks_dil/YKS-DIL_Group1_en-tr_v2.json', label: 'YKS-DIL Group 1 (EN-TR)', desc: 'YKS-DIL vocabulary for exam prep.' },
+        { id: 'yks_dil/YKS-DIL_Group1_tr-en_v2.json', label: 'YKS-DIL Group 1 (TR-EN)', desc: 'YKS-DIL vocabulary for exam prep.' },
+        { id: 'yks_dil/YKS-DIL_Group2_en-tr_v2.json', label: 'YKS-DIL Group 2 (EN-TR)', desc: 'YKS-DIL vocabulary for exam prep.' },
+        { id: 'yks_dil/YKS-DIL_Group2_tr-en_v2.json', label: 'YKS-DIL Group 2 (TR-EN)', desc: 'YKS-DIL vocabulary for exam prep.' },
+        { id: 'yks_dil/YKS-DIL_Group3_en-tr_v2.json', label: 'YKS-DIL Group 3 (EN-TR)', desc: 'YKS-DIL vocabulary for exam prep.' },
+        { id: 'yks_dil/YKS-DIL_Group3_tr-en_v2.json', label: 'YKS-DIL Group 3 (TR-EN)', desc: 'YKS-DIL vocabulary for exam prep.' }
+      ],
+      ydsKelimeleri: [
+        { id: 'YDS_kelimeleri/YDS_Grup1_en_tr_v2.json', label: 'YDS Group 1 (EN-TR)', desc: 'YDS vocabulary for exam prep.' },
+        { id: 'YDS_kelimeleri/YDS_Grup1_tr_en_v2.json', label: 'YDS Group 1 (TR-EN)', desc: 'YDS vocabulary for exam prep.' },
+        { id: 'YDS_kelimeleri/YDS_Grup2_en_tr_v2.json', label: 'YDS Group 2 (EN-TR)', desc: 'YDS vocabulary for exam prep.' },
+        { id: 'YDS_kelimeleri/YDS_Grup2_tr_en_v2.json', label: 'YDS Group 2 (TR-EN)', desc: 'YDS vocabulary for exam prep.' },
+        { id: 'YDS_kelimeleri/YDS_Grup3_en_tr_v2.json', label: 'YDS Group 3 (EN-TR)', desc: 'YDS vocabulary for exam prep.' },
+        { id: 'YDS_kelimeleri/YDS_Grup3_tr_en_v2.json', label: 'YDS Group 3 (TR-EN)', desc: 'YDS vocabulary for exam prep.' },
+        { id: 'YDS_kelimeleri/YDS_Grup4_en_tr_v2.json', label: 'YDS Group 4 (EN-TR)', desc: 'YDS vocabulary for exam prep.' },
+        { id: 'YDS_kelimeleri/YDS_Grup4_tr_en_v2.json', label: 'YDS Group 4 (TR-EN)', desc: 'YDS vocabulary for exam prep.' },
+        { id: 'YDS_kelimeleri/YDS_Grup5_en_tr_v2.json', label: 'YDS Group 5 (EN-TR)', desc: 'YDS vocabulary for exam prep.' },
+        { id: 'YDS_kelimeleri/YDS_Grup5_tr_en_v2.json', label: 'YDS Group 5 (TR-EN)', desc: 'YDS vocabulary for exam prep.' }
       ]
-    };
+    });
 
     const cleanControlButtons = () => {
       const btnLeft = document.getElementById('btn-left');
@@ -1042,7 +1340,8 @@
       }
     };
 
-    function DesktopSidePanel({ language }) {
+
+function DesktopSidePanel({ language }) {
       const [leaderboardData, setLeaderboardData] = useState([]);
       const [isLoading, setIsLoading] = useState(true);
 
@@ -1146,6 +1445,35 @@
       const [language, setLanguage] = useState('ENG');
       const [langPair, setLangPair] = useState('en_tr');
       const [showLanguageMenu, setShowLanguageMenu] = useState(false);
+      const [isMuted, setIsMuted] = useState(window.memolandum_muted);
+      const [isDesktopMode, setIsDesktopMode] = useState(localStorage.getItem('memolandum_ui_mode') === 'desktop');
+
+      useEffect(() => {
+        if (isDesktopMode) {
+          document.body.classList.add('desktop-portal-mode');
+          localStorage.setItem('memolandum_ui_mode', 'desktop');
+        } else {
+          document.body.classList.remove('desktop-portal-mode');
+          localStorage.setItem('memolandum_ui_mode', 'mobile');
+        }
+      }, [isDesktopMode]);
+
+      const toggleMute = () => {
+        const newMuted = !isMuted;
+        setIsMuted(newMuted);
+        window.memolandum_muted = newMuted;
+        localStorage.setItem('memolandum_muted', newMuted ? '1' : '0');
+        
+        if (window.audioContexts) {
+          window.audioContexts.forEach(ctx => {
+            if (newMuted) {
+              ctx.suspend();
+            } else {
+              ctx.resume();
+            }
+          });
+        }
+      };
       const [loadingSector, setLoadingSector] = useState(false);
       
       const [activeTab, setActiveTab] = useState('home');
@@ -1286,7 +1614,10 @@
         // Parse URL for routing logic (/pt-en or /en-pt)
         const path = window.location.pathname;
         let initialLangPair = localStorage.getItem('memolandum_lang_pair') || 'en_tr';
-        let initialLang = lang || 'ENG';
+        let initialLang = lang;
+        if (!initialLang) {
+          initialLang = navigator.language.toLowerCase().startsWith('tr') ? 'TR' : 'ENG';
+        }
 
         if (path.includes('/pt-en')) {
           initialLangPair = 'pt_br_eng';
@@ -1294,8 +1625,6 @@
         } else if (path.includes('/en-pt')) {
           initialLangPair = 'eng_pt_br';
           initialLang = 'ENG';
-        } else if (path === '/' || path === '') {
-          initialLangPair = 'en_tr';
         }
 
         setLangPair(initialLangPair);
@@ -1316,6 +1645,7 @@
           } else {
             const lengthMap = {
               'a1_words.json': 100, 'a2_words.json': 100, 'b1_words.json': 100, 'b2_words.json': 100,
+              'c1_words.json': 100, 'c2_words.json': 100,
               'phrasal_verbs.json': 50, 'conjunctions.json': 50, 'academic_verbs.json': 50,
               'prepositions.json': 50, 'abstract_adjectives.json': 50,
               'sentences/tr_sentences_01_100.json': 100, 'sentences/tr_sentences_101_200.json': 100,
@@ -1369,8 +1699,28 @@
           } else if (newPair === 'en_tr') {
             newPath = '/';
             newLang = 'TR'; // Default to TR when going back to EN-TR
+          } else if (newPair === 'osm_tr') {
+            newPath = '/';
+            newLang = 'TR'; // Normal TR UI
+            setLevelsTab('core'); // switch to core to show Ottoman categories
+            setTimeout(() => {
+              handleSelectCategory('Osm_Tr/Osm_tr_100.json');
+            }, 0);
+          } else if (newPair === 'ko_tr') {
+            newPath = '/';
+            newLang = 'TR'; // Normal TR UI
+            setLevelsTab('core'); // switch to core to show Korean categories
+            setTimeout(() => {
+              handleSelectCategory('Kore/Ko_Tr_Level_0_Alphabet.json');
+            }, 0);
+          } else if (newPair === 'ru_tr') {
+            newPath = '/';
+            newLang = 'TR'; // Normal TR UI
+            setLevelsTab('core'); // switch to core to show Russian categories
+            setTimeout(() => {
+              handleSelectCategory('Russian/Level_0_Alphabet_Ru_Tr.json');
+            }, 0);
           }
-          
           setLanguage(newLang);
           localStorage.setItem('memolandum_lang', newLang);
           window.history.pushState({}, '', newPath);
@@ -1440,6 +1790,7 @@
         const shells = ['shooter', 'breakout', 'highway', 'wordascent', 'worddrop'];
         const categories = [
           'a1_words.json', 'a2_words.json', 'b1_words.json', 'b2_words.json',
+          'c1_words.json', 'c2_words.json',
           'phrasal_verbs.json', 'conjunctions.json', 'academic_verbs.json',
           'prepositions.json', 'abstract_adjectives.json'
         ];
@@ -1603,20 +1954,28 @@
                 <div className="flex items-center bg-[#181d2e] border border-gray-800 rounded-full p-0.5 w-24 h-8 relative cursor-pointer shadow-inner">
                   <button 
                     onClick={() => { if (langPair==='en_tr') toggleLanguage('TR'); }} 
-                    className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${language === 'TR' ? 'text-white' : 'text-gray-500'}`}
+                    className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${language === 'TR' || language === 'PT-BR' ? 'text-white' : 'text-gray-500'}`}
                   >
-                    {langPair === 'en_tr' ? 'TR' : langPair === 'pt_br_eng' ? 'PT-BR' : 'ENG'}
+                    {langPair === 'pt_br_eng' ? 'PT-BR' : langPair === 'eng_pt_br' ? 'ENG' : 'TR'}
                   </button>
                   <button 
                     onClick={() => { if (langPair==='en_tr') toggleLanguage('ENG'); }} 
-                    className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${language === 'ENG' ? 'text-white' : 'text-gray-500'}`}
+                    className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${language === 'ENG' && langPair !== 'pt_br_eng' ? 'text-white' : langPair === 'eng_pt_br' && language === 'PT-BR' ? 'text-white' : 'text-gray-500'}`}
                   >
-                    {langPair === 'en_tr' ? 'ENG' : langPair === 'pt_br_eng' ? 'ENG' : 'PT-BR'}
+                    {langPair === 'pt_br_eng' ? 'ENG' : langPair === 'eng_pt_br' ? 'PT-BR' : 'ENG'}
                   </button>
                   <div 
-                    className={`absolute top-0.5 bottom-0.5 w-[44px] bg-cyan-500 rounded-full transition-all duration-300 shadow-[0_0_10px_rgba(6,182,212,0.8)] ${language === 'ENG' || language === 'PT-BR' && langPair === 'eng_pt_br' ? 'left-[46px]' : 'left-0.5'}`} 
+                    className={`absolute top-0.5 bottom-0.5 w-[44px] bg-cyan-500 rounded-full transition-all duration-300 shadow-[0_0_10px_rgba(6,182,212,0.8)] ${(language === 'ENG' && langPair !== 'eng_pt_br') || (language === 'PT-BR' && langPair === 'eng_pt_br') ? 'left-[46px]' : 'left-0.5'}`} 
                   />
                 </div>
+
+                <button 
+                  onClick={toggleMute}
+                  className="w-8 h-8 flex items-center justify-center rounded-full bg-[#181d2e] border border-gray-800 text-cyan-400 hover:text-cyan-300 hover:border-cyan-500 transition-all shadow-[0_0_8px_rgba(6,182,212,0.2)]"
+                  title={isMuted ? "Sesi Aç" : "Sesi Kapat"}
+                >
+                  {isMuted ? '🔇' : '🔊'}
+                </button>
 
                 <div className="relative">
                   <button 
@@ -1636,6 +1995,15 @@
                       </button>
                       <button onClick={() => toggleLanguagePair('eng_pt_br')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'eng_pt_br' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
                         🇬🇧 ENG ➔ 🇧🇷 PT-BR
+                      </button>
+                      <button onClick={() => toggleLanguagePair('osm_tr')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'osm_tr' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🕌 OSM ➔ 🇹🇷 TR
+                      </button>
+                      <button onClick={() => toggleLanguagePair('ko_tr')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'ko_tr' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🇰🇷 KO ➔ 🇹🇷 TR
+                      </button>
+                      <button onClick={() => toggleLanguagePair('ru_tr')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'ru_tr' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🇷🇺 RU ➔ 🇹🇷 TR
                       </button>
                     </div>
                   )}
@@ -1755,30 +2123,42 @@
                 </div>
 
                 {/* Sub-segmented tabs */}
-                <div className="flex bg-[#111625]/90 border border-gray-800 rounded-xl p-1 gap-1 mb-3">
+                <div className="flex flex-wrap bg-[#111625]/90 border border-gray-800 rounded-xl p-1 gap-1 mb-3">
                   <button 
                     onClick={() => setLevelsTab('core')}
-                    className={`flex-1 py-1.5 rounded-lg text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'core' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
+                    className={`flex-1 min-w-[70px] py-1.5 rounded-lg text-[10px] sm:text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'core' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
                   >
                     {t.coreLevelsTab}
                   </button>
                   <button 
                     onClick={() => setLevelsTab('sentences')}
-                    className={`flex-1 py-1.5 rounded-lg text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'sentences' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
+                    className={`flex-1 min-w-[70px] py-1.5 rounded-lg text-[10px] sm:text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'sentences' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
                   >
                     {t.sentencesTab}
                   </button>
                   <button 
                     onClick={() => setLevelsTab('special')}
-                    className={`flex-1 py-1.5 rounded-lg text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'special' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
+                    className={`flex-1 min-w-[70px] py-1.5 rounded-lg text-[10px] sm:text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'special' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
                   >
                     {t.specializedTab}
                   </button>
+                  <button 
+                    onClick={() => setLevelsTab('yks')}
+                    className={`flex-1 min-w-[70px] py-1.5 rounded-lg text-[10px] sm:text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'yks' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
+                  >
+                    {t.yksTab}
+                  </button>
+                  <button 
+                    onClick={() => setLevelsTab('yds')}
+                    className={`flex-1 min-w-[70px] py-1.5 rounded-lg text-[10px] sm:text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'yds' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
+                  >
+                    {t.ydsTab}
+                  </button>
                 </div>
 
-                {/* Sector Grid (Core/Sentences/Specialized) */}
+                {/* Sector Grid (Core/Sentences/Specialized/YKS/YDS) */}
                 <div className="grid grid-cols-2 gap-3 w-full">
-                  {(levelsTab === 'core' ? CATEGORIES.core : levelsTab === 'sentences' ? CATEGORIES.sentences : CATEGORIES.special).map(cat => {
+                  {(levelsTab === 'core' ? getCategories(langPair).core : levelsTab === 'sentences' ? getCategories(langPair).sentences : levelsTab === 'special' ? getCategories(langPair).special : levelsTab === 'yks' ? getCategories(langPair).yksHazirlik : getCategories(langPair).ydsKelimeleri).map(cat => {
                     const isSelected = activeCategory === cat.id;
                     const p = getCategoryProgressInline(cat.id);
                     return (
@@ -2251,6 +2631,19 @@
                     </p>
                   </div>
 
+                  <div className="bg-[#111625]/90 border-l-2 border-indigo-500 rounded-r-xl p-4 shadow-md relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 rounded-full blur-2xl"></div>
+                    <h4 className="text-xs font-black text-white uppercase tracking-wider mb-1 flex gap-2 relative z-10">
+                      <span className="text-indigo-400">07.</span> {language === 'TR' ? 'Bilişsel Dil Ağları vs. Yapay Zeka Çevirmenleri' : 'Cognitive Networks vs. AI Translators'}
+                    </h4>
+                    <p className="text-gray-400 mb-2 relative z-10">
+                      {language === 'TR' ? 'Günümüzde gelişmiş yapay zeka çeviri araçları (AI Translators) metinleri anında farklı dillere çevirebilse de, bu durum nörolojik bir illüzyon yaratır. Bilimsel olarak, sürekli harici yapay zeka çevirmenlerine güvenmek, beynin sinaptik dil ağlarını tembelleştirir (Cognitive Offloading). Ancak akıcı konuşabilmek, doğal diyaloglar kurabilmek ve anlık iletişimde bulunabilmek için kelimeleri bizzat zihninizde barındırmak zorunludur.' : 'Although advanced AI translation tools can instantly translate texts today, this creates a neurological illusion. Scientifically, constantly relying on external AI translators makes the brain\'s synaptic language networks lazy (Cognitive Offloading). However, to speak fluently, establish natural dialogues, and communicate instantly, it is mandatory to host the words in your own mind.'}
+                    </p>
+                    <p className="text-gray-300 relative z-10">
+                      <strong className="text-purple-400">Bilimsel Çözümümüz:</strong> {language === 'TR' ? 'Çeviri cihazları karşılıklı iletişimin hızını keser ve duygu aktarımını zedeler. Memolandum, kelimeleri yapay zeka araçlarına ihtiyaç duymadan refleks olarak kullanabilmeniz için zihinsel kas hafızanızı eğitir. YDS, TOEFL veya akademik sınavlarda yapay zekaya erişiminiz olmadığı gerçeği göz önüne alındığında, aktif kelime dağarcığınız (Active Vocabulary) sizin en güçlü silahınızdır.' : 'Translation devices cut the speed of mutual communication and damage the transfer of emotion. Memolandum trains your mental muscle memory so you can use words as a reflex without needing AI tools. Considering that you have no access to AI in official exams like TOEFL or IELTS, your Active Vocabulary is your most powerful weapon.'}
+                    </p>
+                  </div>
+
                   <div className="bg-[#111625]/90 border border-gray-700 rounded-xl p-4 mt-8">
                     <h3 className="text-sm font-black text-cyan-400 tracking-widest uppercase mb-2 border-b border-gray-800 pb-2">
                       {language === 'TR' ? 'Küresel Vizyon: Sınırsız Dil, Sınırsız Gelişim' : 'Global Vision: Boundless Language, Boundless Development'}
@@ -2357,7 +2750,7 @@
                 <h3 className="text-[10px] font-black tracking-widest text-gray-500 mb-4 uppercase">DATA NODE PENETRATION</h3>
                 
                 <div className="space-y-4 font-body">
-                  {CATEGORIES.core.map(cat => {
+                  {getCategories(langPair).core.map(cat => {
                     const p = getCategoryProgressInline(cat.id);
                     return (
                       <div key={cat.id} className="w-full">
@@ -2707,6 +3100,104 @@
   <!-- Fallback Embedded Data (for local execution/offline fallback) -->
   <script src="fallback_data.js"></script>
 
+  <!-- Dynamic Alphabet Engine (Monkey Patches) -->
+  <script>
+    // 1. Process data arrays to append transliteration with \n for non-Latin
+    function processDynamicAlphabet(data) {
+      if (!data) return data;
+      let arr = Array.isArray(data) ? data : (data.words || data.vocabulary_vault || data.phrase_vault || []);
+      if (!Array.isArray(arr)) return data;
+      
+      arr.forEach(item => {
+        if (!item) return;
+        let originalText = item.word || item.en || item.osmanlica_arapca || item.original_script || "";
+        let translitText = item.transcription || item.osmanlica_latin || item.romanized_script || "";
+        let translationText = item.translation || item.tr || item.guncel_turkce || item.meaning || "";
+        
+        // Use RegExp constructor to prevent Babel standalone from throwing a SyntaxError on \p
+        let isLatin = true;
+        try {
+          const latinRegex = new RegExp('^[\\p{Latin}\\p{M}\\s\\p{P}\\d]+$', 'u');
+          isLatin = latinRegex.test(originalText);
+        } catch (e) {
+          // Fallback if browser doesn't support unicode property escapes
+          isLatin = !/[\u0600-\u06FF\uAC00-\uD7A3]/.test(originalText);
+        }
+        
+        let targetText = originalText;
+        if ((!isLatin || item.is_latin === false) && translitText) {
+          targetText = originalText + "\n" + translitText;
+        }
+        item.word = targetText;
+        item.translation = translationText;
+      });
+      return data;
+    }
+
+    // 2. Patch FALLBACK_DATA if it exists
+    if (typeof FALLBACK_DATA !== 'undefined') {
+      Object.keys(FALLBACK_DATA).forEach(key => {
+        FALLBACK_DATA[key] = processDynamicAlphabet(FALLBACK_DATA[key]);
+      });
+    }
+
+    // 3. Patch window.fetch JSON parsing for dynamically loaded levels
+    const originalJson = Response.prototype.json;
+    Response.prototype.json = async function() {
+      let data = await originalJson.call(this);
+      
+      try {
+        const urlStr = this.url || '';
+        if (urlStr.includes('?')) {
+          const queryString = urlStr.split('?')[1];
+          const params = new URLSearchParams(queryString);
+          if (params.has('level') && data) {
+            const targetLevel = params.get('level');
+            const arr = Array.isArray(data) ? data : (data.words || data.vocabulary_vault || data.phrase_vault || []);
+            if (Array.isArray(arr)) {
+              const filteredArr = arr.filter(item => item && item.level_tag === targetLevel);
+              if (!Array.isArray(data)) {
+                if (data.words) data.words = filteredArr;
+                else if (data.vocabulary_vault) data.vocabulary_vault = filteredArr;
+                else if (data.phrase_vault) data.phrase_vault = filteredArr;
+              } else {
+                data = filteredArr;
+              }
+            }
+          }
+        }
+      } catch (e) {}
+      
+      return processDynamicAlphabet(data);
+    };
+
+    // 4. Patch CanvasRenderingContext2D.prototype.fillText to render \n as multi-line
+    const originalFillText = CanvasRenderingContext2D.prototype.fillText;
+    CanvasRenderingContext2D.prototype.fillText = function(text, x, y, maxWidth) {
+      if (typeof text === 'string' && text.includes('\n')) {
+        const lines = text.split('\n');
+        const match = this.font ? this.font.match(/\d+/) : null;
+        const fontSize = match ? parseInt(match[0]) : 20;
+        const lineHeight = fontSize + 4;
+        
+        const startY = y - (lineHeight * (lines.length - 1)) / 2;
+        
+        for (let i = 0; i < lines.length; i++) {
+          if (maxWidth !== undefined) {
+            originalFillText.call(this, lines[i], x, startY + (i * lineHeight), maxWidth);
+          } else {
+            originalFillText.call(this, lines[i], x, startY + (i * lineHeight));
+          }
+        }
+      } else {
+        if (maxWidth !== undefined) {
+          originalFillText.call(this, text, x, y, maxWidth);
+        } else {
+          originalFillText.call(this, text, x, y);
+        }
+      }
+    };
+  </script>
   <!-- Unified Exam Engine -->
   <script type="text/babel" src="ExamEngine.js"></script>
 

@@ -1505,16 +1505,36 @@ class InvadersGame {
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
       
-      // Dynamic target text fit check
-      let fontSize = 24;
-      let textWidth = ctx.measureText(this.activeWord.english).width;
-      while (textWidth > 300 && fontSize > 14) {
-        fontSize--;
-        ctx.font = `900 ${fontSize}px "Orbitron", sans-serif`;
-        textWidth = ctx.measureText(this.activeWord.english).width;
+      let lines = [];
+      const text = this.activeWord.english;
+      if (text.includes('\n')) {
+        lines = text.split('\n');
+      } else if (text.includes(' ')) {
+        const words = text.split(' ');
+        const mid = Math.ceil(words.length / 2);
+        lines = [words.slice(0, mid).join(' '), words.slice(mid).join(' ')];
+      } else {
+        lines = [text];
       }
 
-      ctx.fillText(this.activeWord.english, tx, ty);
+      let fontSize = lines.length > 1 ? 24 : 28;
+      ctx.font = `900 ${fontSize}px "Orbitron", sans-serif`;
+      
+      let maxLineWidth = Math.max(...lines.map(line => ctx.measureText(line).width));
+      while (maxLineWidth > 300 && fontSize > 14) {
+        fontSize--;
+        ctx.font = `900 ${fontSize}px "Orbitron", sans-serif`;
+        maxLineWidth = Math.max(...lines.map(line => ctx.measureText(line).width));
+      }
+
+      if (lines.length > 1) {
+        ctx.font = `900 ${fontSize + 6}px "Orbitron", sans-serif`;
+        ctx.fillText(lines[0], tx, ty - 14);
+        ctx.font = `900 ${fontSize}px "Orbitron", sans-serif`;
+        ctx.fillText(lines[1], tx, ty + 12);
+      } else {
+        ctx.fillText(lines[0], tx, ty);
+      }
     }
 
     ctx.restore();
@@ -1544,9 +1564,16 @@ class InvadersGame {
       ctx.fillStyle = '#ffea00'; // Star Wars Gold
       ctx.font = 'bold 32px "Orbitron", Arial, sans-serif';
       ctx.textAlign = 'center';
-      ctx.shadowColor = '#ffea00';
-      ctx.shadowBlur = 10;
-      ctx.fillText(floatingFx.english, 0, -18);
+      ctx.shadowBlur = 12;
+      const lines = floatingFx.english.split('\n');
+      lines.forEach((line, i) => {
+        if (lines.length > 1 && i === 0) {
+          ctx.font = 'bold 34px "Orbitron", Arial, sans-serif'; // 32 + 2
+        } else {
+          ctx.font = 'bold 32px "Orbitron", Arial, sans-serif';
+        }
+        ctx.fillText(line, 0, -18 + i * 28);
+      });
 
       ctx.fillStyle = '#00f0ff'; // Cyan meaning
       ctx.shadowColor = '#00f0ff';

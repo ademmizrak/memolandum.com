@@ -1,0 +1,431 @@
+[
+  {
+    "id": "rus_lvl0_001",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "А",
+    "romanized_script": "A",
+    "meaning": "A Harfi (Türkçedeki A sesiyle aynıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "rus_lvl0_002",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Б",
+    "romanized_script": "B",
+    "meaning": "B Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_003",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "В",
+    "romanized_script": "V",
+    "meaning": "V Harfi (Latin alfabesindeki B ile karıştırılmamalıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_004",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Г",
+    "romanized_script": "G",
+    "meaning": "G Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_005",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Д",
+    "romanized_script": "D",
+    "meaning": "D Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_006",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Е",
+    "romanized_script": "Ye",
+    "meaning": "Ye Harfi (Kelime başında veya sesliden sonra 'Ye' okunur)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "rus_lvl0_007",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ж",
+    "romanized_script": "J",
+    "meaning": "J Harfi (Kalın ve vurgulu J sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_008",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "З",
+    "romanized_script": "Z",
+    "meaning": "Z Harfi (Rakam olan 3 ile karıştırılmamalıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_009",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "И",
+    "romanized_script": "İ",
+    "meaning": "İ Harfi (Ters N harfi görünümündedir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "rus_lvl0_010",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Й",
+    "romanized_script": "Y",
+    "meaning": "Kısa İ / Y Harfi (Yarım ses veren Y fonetiğidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_011",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "К",
+    "romanized_script": "K",
+    "meaning": "K Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_012",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Л",
+    "romanized_script": "L",
+    "meaning": "L Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_013",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "М",
+    "romanized_script": "M",
+    "meaning": "M Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_014",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Н",
+    "romanized_script": "N",
+    "meaning": "N Harfi (Latin alfabesindeki H ile karıştırılmamalıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_015",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "О",
+    "romanized_script": "O",
+    "meaning": "O Harfi (Vurgusuz hecelerde A sesine yaklaşır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "rus_lvl0_016",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "П",
+    "romanized_script": "P",
+    "meaning": "P Harfi (Yunan Pi karakterine benzer)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_017",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Р",
+    "romanized_script": "R",
+    "meaning": "R Harfi (Latin alfabesindeki P ile karıştırılmamalıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_018",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "С",
+    "romanized_script": "S",
+    "meaning": "S Harfi (Latin alfabesindeki C ile karıştırılmamalıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_019",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Т",
+    "romanized_script": "T",
+    "meaning": "T Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_020",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "У",
+    "romanized_script": "U",
+    "meaning": "U Harfi (Latin alfabesindeki Y ile karıştırılmamalıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "rus_lvl0_021",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ф",
+    "romanized_script": "F",
+    "meaning": "F Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_022",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Х",
+    "romanized_script": "H",
+    "meaning": "H Harfi (Gırtlaktan gelen sert H sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_023",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ц",
+    "romanized_script": "Ts",
+    "meaning": "Ts Sesi (Türkçede olmayan birleşik çırpmalı sesti)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_024",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ч",
+    "romanized_script": "Ç",
+    "meaning": "Ç Harfi (4 rakamına benzer görünümde)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_025",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ш",
+    "romanized_script": "Ş",
+    "meaning": "Ş Harfi (Kalın ve sert Ş sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_026",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Щ",
+    "romanized_script": "Şç",
+    "meaning": "Şç Sesi (Yumuşak ve uzun Ş sesine benzer)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "rus_lvl0_027",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ы",
+    "romanized_script": "I",
+    "meaning": "I Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "rus_lvl0_028",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Э",
+    "romanized_script": "E",
+    "meaning": "E Harfi (Kelime başlarında açık E sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "rus_lvl0_029",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ю",
+    "romanized_script": "Yu",
+    "meaning": "Yu Sesi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "rus_lvl0_030",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Я",
+    "romanized_script": "Ya",
+    "meaning": "Ya Sesi (Aynı zamanda Rusçada 'Ben' demektir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "rus_lvl0_031",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Да",
+    "romanized_script": "Da",
+    "meaning": "Evet (Д + А birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    }
+  },
+  {
+    "id": "rus_lvl0_032",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Нет",
+    "romanized_script": "Net",
+    "meaning": "Hayır (Н + Е + Т birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    }
+  },
+  {
+    "id": "rus_lvl0_033",
+    "language_code": "ru",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Дом",
+    "romanized_script": "Dom",
+    "meaning": "Ev (Д + О + М birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    }
+  }
+]

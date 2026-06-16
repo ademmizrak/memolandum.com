@@ -1,0 +1,366 @@
+[
+  {
+    "id": "kor_lvl0_001",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㄱ",
+    "romanized_script": "G / K",
+    "meaning": "G/K Harfi (Kelime başında K, ortasında G okunur)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_002",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㄴ",
+    "romanized_script": "N",
+    "meaning": "N Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_003",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㄷ",
+    "romanized_script": "D / T",
+    "meaning": "D/T Harfi (Kelime başında T, ortasında D okunur)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_004",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㄹ",
+    "romanized_script": "R / L",
+    "meaning": "R/L Harfi (Hece başında R, sonunda L okunur)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_005",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅁ",
+    "romanized_script": "M",
+    "meaning": "M Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_006",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅂ",
+    "romanized_script": "B / P",
+    "meaning": "B/P Harfi (Kelime başında P, ortasında B okunur)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_007",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅅ",
+    "romanized_script": "S / Ş",
+    "meaning": "S Harfi ('i' harfinden önce Ş okunur)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_008",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅇ",
+    "romanized_script": "Yutulan / NG",
+    "meaning": "Hece başında okunmaz, hece sonunda 'NG' sesidir",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_009",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅈ",
+    "romanized_script": "C / Ç",
+    "meaning": "C/Ç Harfi (Kelime başında Ç, ortasında C okunur)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_010",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅊ",
+    "romanized_script": "Ç",
+    "meaning": "Ç Harfi (Güçlü ve nefesli)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_011",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅋ",
+    "romanized_script": "K",
+    "meaning": "K Harfi (Nefesli ve baskın)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_012",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅌ",
+    "romanized_script": "T",
+    "meaning": "T Harfi (Nefesli ve baskın)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_013",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅍ",
+    "romanized_script": "P",
+    "meaning": "P Harfi (Nefesli ve baskın)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_014",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅎ",
+    "romanized_script": "H",
+    "meaning": "H Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    }
+  },
+  {
+    "id": "kor_lvl0_015",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅏ",
+    "romanized_script": "A",
+    "meaning": "A Harfi (Sesli)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "kor_lvl0_016",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅓ",
+    "romanized_script": "O",
+    "meaning": "Açık O Harfi (Derinden gelen O sesi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "kor_lvl0_017",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅗ",
+    "romanized_script": "O",
+    "meaning": "Kapalı O Harfi (Dudaklar ileri uzatılır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "kor_lvl0_018",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅜ",
+    "romanized_script": "U",
+    "meaning": "U Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "kor_lvl0_019",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅡ",
+    "romanized_script": "I",
+    "meaning": "I Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "kor_lvl0_020",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅣ",
+    "romanized_script": "İ",
+    "meaning": "İ Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "kor_lvl0_021",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅐ",
+    "romanized_script": "E",
+    "meaning": "E Harfi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "kor_lvl0_022",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅔ",
+    "romanized_script": "E",
+    "meaning": "E Harfi (ㅐ ile sesteştir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    }
+  },
+  {
+    "id": "kor_lvl0_023",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "나",
+    "romanized_script": "Na",
+    "meaning": "Ben (ㄴ + ㅏ birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    }
+  },
+  {
+    "id": "kor_lvl0_024",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "너",
+    "romanized_script": "Neo",
+    "meaning": "Sen (ㄴ + ㅓ birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    }
+  },
+  {
+    "id": "kor_lvl0_025",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "가",
+    "romanized_script": "Ga",
+    "meaning": "Git (ㄱ + ㅏ birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    }
+  },
+  {
+    "id": "kor_lvl0_026",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "오",
+    "romanized_script": "O",
+    "meaning": "Gel (ㅇ + ㅗ birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    }
+  },
+  {
+    "id": "kor_lvl0_027",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "아이",
+    "romanized_script": "Ai",
+    "meaning": "Çocuk (아 + 이 birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    }
+  },
+  {
+    "id": "kor_lvl0_028",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "우유",
+    "romanized_script": "Uyu",
+    "meaning": "Süt (우 + 유 birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    }
+  }
+]

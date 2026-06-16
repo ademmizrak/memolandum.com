@@ -558,17 +558,25 @@ class Meteor {
       ctx.textBaseline = 'middle';
       ctx.letterSpacing = '1px';
       
-      // Wrap text if it contains spaces (for phrasal verbs, compound words)
-      const words = this.word.english.split(' ');
-      if (words.length > 1) {
-        ctx.font = isPlayZone ? 'bold 13px Arial, sans-serif' : '12px Arial, sans-serif';
+      let lines = [];
+      if (this.word.english.includes('\n')) {
+        lines = this.word.english.split('\n');
+      } else if (this.word.english.includes(' ')) {
+        const words = this.word.english.split(' ');
         const mid = Math.ceil(words.length / 2);
-        const line1 = words.slice(0, mid).join(' ');
-        const line2 = words.slice(mid).join(' ');
-        ctx.fillText(line1, roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 - 8);
-        ctx.fillText(line2, roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 + 8);
+        lines = [words.slice(0, mid).join(' '), words.slice(mid).join(' ')];
       } else {
-        ctx.fillText(this.word.english, roundedX + roundedWidth / 2, roundedY + roundedHeight / 2);
+        lines = [this.word.english];
+      }
+
+      if (lines.length > 1) {
+        ctx.font = isPlayZone ? `bold ${18 + 6}px Arial, sans-serif` : `bold ${16 + 6}px Arial, sans-serif`;
+        ctx.fillText(lines[0], roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 - 12);
+        ctx.font = isPlayZone ? 'bold 18px Arial, sans-serif' : '16px Arial, sans-serif';
+        ctx.fillText(lines[1], roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 + 10);
+      } else {
+        ctx.font = isPlayZone ? 'bold 18px Arial, sans-serif' : '16px Arial, sans-serif';
+        ctx.fillText(lines[0], roundedX + roundedWidth / 2, roundedY + roundedHeight / 2);
       }
     }
     
@@ -1884,10 +1892,9 @@ class Game {
     // Handle weapon firing rate checks
     if (this.input.fire && this.player.canFire()) {
       this.soundManager.playLaser();
-      // Fire dual lasers from left & right wings
-      const laserLeft = this.laserPool.acquire(this.player.x - 18, this.player.y - 10);
-      const laserRight = this.laserPool.acquire(this.player.x + 18, this.player.y - 10);
-      this.activeLasers.push(laserLeft, laserRight);
+      // Fire single laser from center
+      const laserCenter = this.laserPool.acquire(this.player.x, this.player.y - 20);
+      this.activeLasers.push(laserCenter);
       this.player.resetCooldown();
     }
 
@@ -2556,9 +2563,20 @@ function initializeGameWithData(data, jsonFileName) {
   // Map JSON schema { en, tr }, { word, translation }, or { mission_word, target_translation } -> internal schema { english, turkish }
   const vocabulary = rawWords.map(w => {
     if (!w) return { english: "", turkish: "" };
+    
+    let en = (w.word || w.en || w.mission_word || w.mission_phrase || "").toString();
+    if (!en && w.osmanlica_arapca) {
+      en = w.osmanlica_arapca + (w.osmanlica_latin ? "\n" + w.osmanlica_latin : "");
+    }
+    
+    let tr = (w.translation || w.tr || w.target_translation || "").toString();
+    if (!tr && w.guncel_turkce) {
+      tr = w.guncel_turkce;
+    }
+
     return {
-      english: (w.word || w.en || w.mission_word || w.mission_phrase || "").toString().toUpperCase(),
-      turkish: (w.translation || w.tr || w.target_translation || "").toString().toUpperCase()
+      english: en.toUpperCase(),
+      turkish: tr.toUpperCase()
     };
   }).filter(w => w.english && w.turkish);
 
@@ -2660,9 +2678,17 @@ function initializeExamWithData(data, jsonFileName) {
   
   const vocabulary = rawWords.map(w => {
     if (!w) return { english: "", turkish: "" };
-    return {
-      english: (w.word || w.en || w.mission_word || w.mission_phrase || "").toString().toUpperCase(),
-      turkish: (w.translation || w.tr || w.target_translation || "").toString().toUpperCase()
+      let en = (w.word || w.en || w.mission_word || w.mission_phrase || "").toString();
+      if (!en && w.osmanlica_arapca) {
+        en = w.osmanlica_arapca + (w.osmanlica_latin ? "\n" + w.osmanlica_latin : "");
+      }
+      let tr = (w.translation || w.tr || w.target_translation || "").toString();
+      if (!tr && w.guncel_turkce) {
+        tr = w.guncel_turkce;
+      }
+      return {
+        english: en.toUpperCase(),
+        turkish: tr.toUpperCase()
     };
   }).filter(w => w.english && w.turkish);
 

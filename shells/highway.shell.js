@@ -1332,6 +1332,7 @@ class HighwayGame {
     } else {
       this.ctx.setLineDash([35, 45]);
     }
+
     this.ctx.lineDashOffset = -this.roadOffset;
 
     const lanes = [150, 300, 450];
@@ -1630,16 +1631,24 @@ class HighwayGame {
     ctx.globalAlpha = progress;
     ctx.fillStyle = '#ffea00'; // Star Wars yellow
     ctx.font = 'bold 28px "Orbitron", Arial, sans-serif';
+    ctx.font = 'bold 36px "Orbitron", Arial, sans-serif';
     ctx.textAlign = 'center';
-    ctx.shadowColor = '#ffea00';
-    ctx.shadowBlur = 12;
-    ctx.fillText(floatingFx.english, 0, -15);
+
+    const lines = floatingFx.english.split('\n');
+    lines.forEach((line, i) => {
+      if (lines.length > 1 && i === 0) {
+        ctx.font = 'bold 50px "Orbitron", Arial, sans-serif'; // 44 + 6
+      } else {
+        ctx.font = 'bold 36px "Orbitron", Arial, sans-serif';
+      }
+      ctx.fillText(line, 0, -15 + i * 40);
+    });
     
     if (floatingFx.turkish) {
       ctx.fillStyle = '#00f0ff'; // Cyan translation meaning
       ctx.shadowColor = '#00f0ff';
-      ctx.font = 'bold 20px Arial, sans-serif';
-      ctx.fillText(floatingFx.turkish, 0, 15);
+      ctx.font = 'bold 24px Arial, sans-serif';
+      ctx.fillText(floatingFx.turkish, 0, 15 + (lines.length - 1) * 40);
     }
     
     ctx.restore();

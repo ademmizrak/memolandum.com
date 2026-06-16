@@ -155,20 +155,38 @@ class Platform {
       ctx.shadowBlur = 0;
       ctx.fillStyle = '#ffffff';
       
-      // Calculate font size dynamically based on platform width and text length
-      let fontSize = 16;
-      ctx.font = `bold ${fontSize}px "Orbitron", Arial, sans-serif`;
-      let textWidth = ctx.measureText(this.text).width;
-      
-      while (textWidth > this.width - 12 && fontSize > 10) {
-        fontSize--;
-        ctx.font = `bold ${fontSize}px "Orbitron", Arial, sans-serif`;
-        textWidth = ctx.measureText(this.text).width;
+      let lines = [];
+      if (this.text.includes('\n')) {
+        lines = this.text.split('\n');
+      } else if (this.text.includes(' ')) {
+        const words = this.text.split(' ');
+        const mid = Math.ceil(words.length / 2);
+        lines = [words.slice(0, mid).join(' '), words.slice(mid).join(' ')];
+      } else {
+        lines = [this.text];
       }
+
+      let fontSize = lines.length > 1 ? 16 : 18;
+      ctx.font = `bold ${fontSize}px Arial, sans-serif`;
       
+      let maxLineWidth = Math.max(...lines.map(line => ctx.measureText(line).width));
+      const maxWidth = this.width - 10;
+      while (maxLineWidth > maxWidth && fontSize > 10) {
+        fontSize--;
+        ctx.font = `bold ${fontSize}px Arial, sans-serif`;
+        maxLineWidth = Math.max(...lines.map(line => ctx.measureText(line).width));
+      }
+
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
-      ctx.fillText(this.text, this.x, this.y);
+      if (lines.length > 1) {
+        ctx.font = `bold ${fontSize + 6}px Arial, sans-serif`;
+        ctx.fillText(lines[0], this.x, this.y - 10);
+        ctx.font = `bold ${fontSize}px Arial, sans-serif`;
+        ctx.fillText(lines[1], this.x, this.y + 8);
+      } else {
+        ctx.fillText(lines[0], this.x, this.y);
+      }
     }
 
     ctx.restore();

@@ -1,0 +1,902 @@
+[
+  {
+    "id": 301,
+    "word": "hamper",
+    "translation": "engellemek, köstek olmak, aksatmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 302,
+    "word": "haphazard",
+    "translation": "rastgele, tesadüfi, düzensiz",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 303,
+    "word": "hardship",
+    "translation": "zorluk, güçlük, sıkıntı, çile",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 304,
+    "word": "harness",
+    "translation": "(doğal bir gücü vb.) dizginleyip kullanmak, faydalanmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 305,
+    "word": "harsh",
+    "translation": "sert, kaba, acımasız, (kış için) çetin",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 306,
+    "word": "hazard",
+    "translation": "tehlike, risk, tehlikeli unsur",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 307,
+    "word": "hinder",
+    "translation": "engellemek, alıkoymak, engel olmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 308,
+    "word": "hostile",
+    "translation": "düşmanca, saldırgan, elverişsiz/uygunsuz",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 309,
+    "word": "humble",
+    "translation": "mütevazi, alçakgönüllü, gösterişsiz",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 310,
+    "word": "humiliate",
+    "translation": "aşağılamak, utandırmak, gururunu kırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 311,
+    "word": "hypothesis",
+    "translation": "hipotez, varsayım",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 312,
+    "word": "identical",
+    "translation": "birebir aynı, ikiz",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 313,
+    "word": "ignorant",
+    "translation": "cahil, bilgisiz, habersiz",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 314,
+    "word": "illustrate",
+    "translation": "örneklemek, resimlemek, açıklamak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 315,
+    "word": "immense",
+    "translation": "muazzam, devasa, çok büyük",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 316,
+    "word": "imminent",
+    "translation": "eli kulağında, yakın, olması an meselesi olan",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 317,
+    "word": "immune",
+    "translation": "bağışık, muaf (-to/from ile kullanılır)",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 318,
+    "word": "impact",
+    "translation": "etki, darbe / etkilemek, çarpmak",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 319,
+    "word": "impede",
+    "translation": "engellemek, geciktirmek, ayak bağı olmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 320,
+    "word": "imperative",
+    "translation": "zorunlu, kaçınılmaz, çok önemli / emir",
+    "pos": "adjective/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 321,
+    "word": "implement",
+    "translation": "uygulamak, yürürlüğe koymak / araç, alet",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 322,
+    "word": "imply",
+    "translation": "ima etmek, üstü kapalı söylemek, anlamına gelmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 323,
+    "word": "impose",
+    "translation": "(yasa, vergi vb.) zorla kabul ettirmek, uygulamaya koymak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 324,
+    "word": "impoverished",
+    "translation": "yoksullaşmış, fakir düşmüş, verimsizleşmiş",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 325,
+    "word": "incentive",
+    "translation": "teşvik, güdü, özendirici unsur",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 326,
+    "word": "incidence",
+    "translation": "meydana gelme oranı, vaka, etki derecesi",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 327,
+    "word": "incline",
+    "translation": "eğilimi olmak, eğmek / yokuş, eğim",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 328,
+    "word": "incorporate",
+    "translation": "dahil etmek, bünyesinde birleştirmek, kapsamak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 329,
+    "word": "indifferent",
+    "translation": "ilgisiz, kayıtsız, umursamaz",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 330,
+    "word": "indigenous",
+    "translation": "yerli, o yöreye özgü (bitki, halk vb.)",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 331,
+    "word": "induce",
+    "translation": "ikna etmek, sebep olmak, tetiklemek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 332,
+    "word": "inevitable",
+    "translation": "kaçınılmaz, beklenen, önlenemez",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 333,
+    "word": "infectious",
+    "translation": "bulaşıcı (hastalık vb.)",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 334,
+    "word": "infer",
+    "translation": "sonuç çıkarmak, anlam çıkarmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 335,
+    "word": "inflict",
+    "translation": "(acı, ceza, zarar vb.) uğratmak, yaşatmak, vermek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 336,
+    "word": "inherent",
+    "translation": "doğuştan gelen, özünde olan, yapısında bulunan",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 337,
+    "word": "inhibit",
+    "translation": "engellemek, dizginlemek, yavaşlatmak, ket vurmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 338,
+    "word": "initiate",
+    "translation": "başlatmak, önayak olmak, kabul etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 339,
+    "word": "injure",
+    "translation": "incitmek, yaralamak, zarar vermek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 340,
+    "word": "innovative",
+    "translation": "yenilikçi, inovatif",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 341,
+    "word": "insight",
+    "translation": "içgörü, derinlemesine kavrayış, anlayış",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 342,
+    "word": "insist",
+    "translation": "ısrar etmek, ayak diremek (-on ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 343,
+    "word": "inspire",
+    "translation": "ilham vermek, esinlendirmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 344,
+    "word": "install",
+    "translation": "kurmak, monte etmek, (yazılım) yüklemek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 345,
+    "word": "instance",
+    "translation": "örnek, vaka, durum",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 346,
+    "word": "instinct",
+    "translation": "içgüdü, sezgi",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 347,
+    "word": "insult",
+    "translation": "hakaret etmek, aşağılamak / hakaret",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 348,
+    "word": "integrate",
+    "translation": "bütünleşmek, entegre etmek, birleştirmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 349,
+    "word": "intense",
+    "translation": "yoğun, şiddetli, koyu/derin",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 350,
+    "word": "intention",
+    "translation": "niyet, amaç, maksat",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 351,
+    "word": "interfere",
+    "translation": "müdahale etmek, burnunu sokmak (-with/in ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 352,
+    "word": "interpret",
+    "translation": "yorumlamak, (çeviri için) sözlü çeviri yapmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 353,
+    "word": "intervene",
+    "translation": "araya girmek, müdahale etmek (olumlu anlamda)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 354,
+    "word": "intimate",
+    "translation": "samimi, yakın, gizli/özel",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 355,
+    "word": "intricate",
+    "translation": "karmaşık, çetrefilli, girift",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 356,
+    "word": "intrude",
+    "translation": "izinsiz girmek, davetsiz dalmak, rahatsız etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 357,
+    "word": "invade",
+    "translation": "istila etmek, işgal etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 358,
+    "word": "invalidate",
+    "translation": "geçersiz kılmak, çürütmek (savı vb.)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 359,
+    "word": "valuable",
+    "translation": "değerli, kıymetli",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 360,
+    "word": "investigate",
+    "translation": "soruşturmak, araştırmak, incelemek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 361,
+    "word": "invisible",
+    "translation": "görünmez, gizli",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 362,
+    "word": "involuntary",
+    "translation": "istemsiz, elinde olmadan yapılan, gayriihtiyari",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 363,
+    "word": "irrigate",
+    "translation": "sulama yapmak, (tıpta) yara yıkamak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 364,
+    "word": "irritate",
+    "translation": "tahriş etmek, kızdırmak, sinirlendirmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 365,
+    "word": "isolate",
+    "translation": "soyutlamak, tecrit etmek, ayırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 366,
+    "word": "jeopardize",
+    "translation": "tehlikeye atmak, riske sokmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 367,
+    "word": "judicious",
+    "translation": "makul, mantıklı, sağduyulu, yerinde",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 368,
+    "word": "junction",
+    "translation": "bağlantı noktası, kavşak, demiryolu makası",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 369,
+    "word": "justify",
+    "translation": "haklı çıkarmak, gerekçelendirmek, doğrulamak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 370,
+    "word": "juvenile",
+    "translation": "gençlik, çocuksu, çocuk mahkemesi / genç, çocuk",
+    "pos": "adjective/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 371,
+    "word": "keen",
+    "translation": "keskin (zekâ/göz), hevesli, istekli",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 372,
+    "word": "lament",
+    "translation": "yas tutmak, ağıt yakmak, hayıflanmak / ağıt, figan",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 373,
+    "word": "latent",
+    "translation": "gizli, örtük, belirti göstermeyen (hastalık vb.)",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 374,
+    "word": "lavish",
+    "translation": "savurgan, müsrif, çok lüks / bolca harcamak",
+    "pos": "adjective/verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 375,
+    "word": "legislation",
+    "translation": "mevzuat, kanun yapma, yasama",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 376,
+    "word": "legitimate",
+    "translation": "meşru, yasal, haklı, mantıklı",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 377,
+    "word": "lenient",
+    "translation": "hoşgörülü, merhametli, yumuşak (ceza vb.)",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 378,
+    "word": "lethal",
+    "translation": "ölümcül, öldürücü",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 379,
+    "word": "liable",
+    "translation": "sorumlu, yükümlü, -e eğilimli/maruz kalabilir",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 380,
+    "word": "liberate",
+    "translation": "özgür bırakmak, serbest bırakmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 381,
+    "word": "lingering",
+    "translation": "uzun süren, devam eden, kalıcı (etki vb.)",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 382,
+    "word": "lucid",
+    "translation": "berrak, net, anlaşılır, akıl sağlığı yerinde",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 383,
+    "word": "lucrative",
+    "translation": "kârlı, kazançlı",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 384,
+    "word": "magnitude",
+    "translation": "(deprem vb.) büyüklük, önem, boyut",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 385,
+    "word": "maintain",
+    "translation": "sürdürmek, idame ettirmek, (iddia) ileri sürmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 386,
+    "word": "malice",
+    "translation": "kötü niyet, garez, kin",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 387,
+    "word": "mandatory",
+    "translation": "zorunlu, mecburi",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 388,
+    "word": "manifest",
+    "translation": "açıkça göstermek, ortaya koymak / bariz, belli",
+    "pos": "verb/adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 389,
+    "word": "marginal",
+    "translation": "marjinal, sınırda olan, çok az/önemsiz",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 390,
+    "word": "massive",
+    "translation": "büyük, devasa, heybetli",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 391,
+    "word": "meager",
+    "translation": "kıt, yetersiz, az, cılız",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 392,
+    "word": "mediate",
+    "translation": "arabuluculuk etmek, uzlaştırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 393,
+    "word": "mediocre",
+    "translation": "vasat, sıradan, ne iyi ne kötü",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 394,
+    "word": "menace",
+    "translation": "tehlike, tehdit unsuru / tehdit etmek",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 395,
+    "word": "merchandise",
+    "translation": "ticari mal, eşya / ticaretini yapmak",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 396,
+    "word": "merciful",
+    "translation": "merhametli, insaflı",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 397,
+    "word": "merge",
+    "translation": "birleşmek, (şirketleri vb.) birleştirmek, karışmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 398,
+    "word": "meticulous",
+    "translation": "titiz, kılı kırk yaran, çok özenli",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 399,
+    "word": "migration",
+    "translation": "göç, nüfuz hareketi",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 400,
+    "word": "milestone",
+    "translation": "mil taşı, dönüm noktası, tarihi aşama",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "id": 101,
+    "word": "contradict",
+    "translation": "çelişmek, aksini iddia etmek, yalanlamak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 102,
+    "word": "contribute",
+    "translation": "katkıda bulunmak, sebep olmak (-to ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 103,
+    "word": "controversial",
+    "translation": "tartışmalı, fikir ayrılığına sebep olan",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 104,
+    "word": "convene",
+    "translation": "toplanmak, toplantıya çağırmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 105,
+    "word": "conventional",
+    "translation": "geleneksel, alışılagelmiş",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 106,
+    "word": "convey",
+    "translation": "iletmek, taşımak, aktarmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 107,
+    "word": "cope",
+    "translation": "başa çıkmak, üstesinden gelmek (-with ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 108,
+    "word": "core",
+    "translation": "çekirdek, öz, temel, ana",
+    "pos": "noun/adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 109,
+    "word": "corrupt",
+    "translation": "yozlaşmış, rüşvetçi / bozmak, yozlaştırmak",
+    "pos": "adjective/verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 110,
+    "word": "counterpart",
+    "translation": "emsal, dengi, muadili",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 111,
+    "word": "crucial",
+    "translation": "çok önemli, hayati, kritik",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 112,
+    "word": "crude",
+    "translation": "ham, işlenmemiş, kaba",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 113,
+    "word": "cultivate",
+    "translation": "toprağı işlemek, tarım yapmak, geliştirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 114,
+    "word": "curtail",
+    "translation": "kısıtlamak, azaltmak, kısaltmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 115,
+    "word": "decay",
+    "translation": "çürümek, bozulmak / çürüme, çöküş",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 116,
+    "word": "deceive",
+    "translation": "aldatmak, kandırmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 117,
+    "word": "decline",
+    "translation": "azalmak, reddetmek / azalma, düşüş",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 118,
+    "word": "dedicate",
+    "translation": "adamak, ithaf etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 119,
+    "word": "defect",
+    "translation": "kusur, hata, sakatlık",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 120,
+    "word": "deficiency",
+    "translation": "eksiklik, yetersizlik",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 121,
+    "word": "deliberate",
+    "translation": "kasti, bilerek yapılan, planlı",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 122,
+    "word": "demolish",
+    "translation": "yıkmak, yerle bir etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 123,
+    "word": "demonstrate",
+    "translation": "kanıtlamak, göstermek, protesto yapmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 124,
+    "word": "denounce",
+    "translation": "kınamak, ihbar etmek, suçlamak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 125,
+    "word": "depict",
+    "translation": "tasvir etmek, betimlemek, çizmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 126,
+    "word": "deplete",
+    "translation": "tüketmek, azaltmak, tüketip bitirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 127,
+    "word": "deprive",
+    "translation": "mahrum etmek (-of ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 128,
+    "word": "derive",
+    "translation": "-den türetmek, -den kaynaklanmak (-from ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 129,
+    "word": "despise",
+    "translation": "aşağılamak, hor görmek, nefret etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 130,
+    "word": "detach",
+    "translation": "ayırmak, sökmek, koparmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 131,
+    "word": "detect",
+    "translation": "tespit etmek, algılamak, bulmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 132,
+    "word": "deteriorate",
+    "translation": "kötüleşmek, fenalaşmak, bozulmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 133,
+    "word": "devastate",
+    "translation": "harap etmek, mahvetmek, yıkmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 134,
+    "word": "device",
+    "translation": "cihaz, alet, mekanizma",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 135,
+    "word": "devote",
+    "translation": "adamak, kendini vermek (-to ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 136,
+    "word": "differentiate",
+    "translation": "ayırt etmek, farklılaştırmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 137,
+    "word": "diminish",
+    "translation": "azalmak, azaltmak, eksiltmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 138,
+    "word": "disaster",
+    "translation": "felaket, afet",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 139,
+    "word": "discard",
+    "translation": "atmak, ıskartaya çıkarmak, vazgeçmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 140,
+    "word": "disclose",
+    "translation": "açığa vurmak, ifşa etmek, gizliyi açmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 141,
+    "word": "discrepancy",
+    "translation": "çelişki, tutarsızlık, fark",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 142,
+    "word": "discriminate",
+    "translation": "ayrımcılık yapmak, ayırt etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 143,
+    "word": "dismiss",
+    "translation": "kovmak, reddetmek, kafasından çıkarmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 144,
+    "word": "disorder",
+    "translation": "kargaşa, düzensizlik, (tıpta) rahatsızlık/hastalık",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 145,
+    "word": "displace",
+    "translation": "yerinden etmek, göçe zorlamak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 146,
+    "word": "dispute",
+    "translation": "tartışma, çekişme / tartışmak, itiraz etmek",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 147,
+    "word": "disregard",
+    "translation": "gözardı etmek, önemsememek / umursamazlık",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 148,
+    "word": "disrupt",
+    "translation": "düzeni bozmak, kesintiye uğratmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 149,
+    "word": "disseminate",
+    "translation": "(bilgi, haber vb.) yaymak, saçmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 150,
+    "word": "distinguish",
+    "translation": "ayırt etmek, farkı görmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 151,
+    "word": "distort",
+    "translation": "(biçimini/gerçeği) saptırmak, çarpıtmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 152,
+    "word": "distract",
+    "translation": "dikkatini dağıtmak, şaşırtmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 153,
+    "word": "distribute",
+    "translation": "dağıtmak, paylaştırmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 154,
+    "word": "diverse",
+    "translation": "çeşitli, farklı, türlü türlü",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 155,
+    "word": "divert",
+    "translation": "yönünü değiştirmek, başka yöne çevirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 156,
+    "word": "divulge",
+    "translation": "açığa vurmak, ifşa etmek (sır vb.)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 157,
+    "word": "domestic",
+    "translation": "evcil, aile içi, yerli/ülke içi",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 158,
+    "word": "dominant",
+    "translation": "baskın, egemen, hakim",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 159,
+    "word": "drastic",
+    "translation": "ani ve şiddetli, radikal, sert",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 160,
+    "word": "durable",
+    "translation": "dayanıklı, uzun ömürlü",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 161,
+    "word": "dwelling",
+    "translation": "konut, mesken, ev",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 162,
+    "word": "eager",
+    "translation": "hevesli, istekli, coşkulu",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 163,
+    "word": "eccentric",
+    "translation": "eksantrik, tuhaf, alışılmadık",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 164,
+    "word": "efficient",
+    "translation": "verimli, etkili, usta",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 165,
+    "word": "elaborate",
+    "translation": "ayrıntılı, özenle hazırlanmış / detaylandırmak",
+    "pos": "adjective/verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 166,
+    "word": "elevate",
+    "translation": "yükseltmek, kaldırmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 167,
+    "word": "elicit",
+    "translation": "(bilgi, tepki, yanıt vb.) edinmek, ortaya çıkarmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 168,
+    "word": "eligible",
+    "translation": "(seçilmek veya katılmak için) uygun, nitelikli",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 169,
+    "word": "eliminate",
+    "translation": "elemek, ortadan kaldırmak, yok etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 170,
+    "word": "elusive",
+    "translation": "bulunması/yakalanması zor, tarifi zor",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 171,
+    "word": "embarrass",
+    "translation": "utandırmak, mahcup etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 172,
+    "word": "embody",
+    "translation": "somutlaştırmak, simgelemek, bünyesinde barındırmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 173,
+    "word": "embrace",
+    "translation": "kucaklamak, (fikir, din vb.) benimsemek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 174,
+    "word": "emerge",
+    "translation": "ortaya çıkmak, belirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 175,
+    "word": "emphasize",
+    "translation": "vurgulamak, altını çizmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 176,
+    "word": "empirical",
+    "translation": "deneysel, ampirik, gözleme dayalı",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 177,
+    "word": "encounter",
+    "translation": "karşılaşmak, rastlamak / karşılaşma",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 178,
+    "word": "endanger",
+    "translation": "tehlikeye atmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 179,
+    "word": "endorse",
+    "translation": "onaylamak, desteklemek (reklamda ürün övmek dahil)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 180,
+    "word": "endure",
+    "translation": "dayanmak, katlanmak, sürmek/devam etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 181,
+    "word": "enforce",
+    "translation": "(yasa, kural vb.) zorla uygulattırmak, yürürlüğe koymak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 182,
+    "word": "enhance",
+    "translation": "geliştirmek, artırmak, değerini yükseltmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 183,
+    "word": "enormous",
+    "translation": "devasa, çok büyük",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 184,
+    "word": "ensure",
+    "translation": "garantiye almak, sağlama almak, emin olmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 185,
+    "word": "entail",
+    "translation": "gerektirmek, zorunlu kılmak, yol açmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 186,
+    "word": "enterprise",
+    "translation": "girişim, işletme, kurulu düzen",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 187,
+    "word": "entitle",
+    "translation": "hak tanımak, yetki vermek, isimlendirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 188,
+    "word": "epidemic",
+    "translation": "salgın hastalık / salgın halindeki",
+    "pos": "noun/adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 189,
+    "word": "eradicate",
+    "translation": "kökünü kazımak, yok etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 190,
+    "word": "erode",
+    "translation": "aşınmak, aşındırmak, sarsmak/azaltmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 191,
+    "word": "estimate",
+    "translation": "tahmin etmek, değer biçmek / tahmin",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 192,
+    "word": "evaluate",
+    "translation": "değerlendirmek, analiz etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 193,
+    "word": "evade",
+    "translation": "(sorumluluktan, vergiden vb.) kaçmak, kurtulmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 194,
+    "word": "evident",
+    "translation": "belli, açık, bariz",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 195,
+    "word": "evolve",
+    "translation": "evrilmek, zamanla gelişmek/değişmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 196,
+    "word": "exaggerate",
+    "translation": "abartmak, büyütmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 197,
+    "word": "excavate",
+    "translation": "kazı yapmak, (tarihi eseri vb.) kazarak çıkarmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 198,
+    "word": "exceed",
+    "translation": "sınırı aşmak, geçmek, üstüne çıkmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 199,
+    "word": "exclude",
+    "translation": "hariç tutmak, dışlamak (-from ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 200,
+    "word": "execute",
+    "translation": "idame ettirmek/uygulamak, infaz etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  }
+]

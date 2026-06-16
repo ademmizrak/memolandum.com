@@ -89,25 +89,36 @@ class Brick {
     ctx.textBaseline = 'middle';
     
     const text = this.word.english;
-    const words = text.split(' ');
-    if (words.length > 1) {
-      ctx.font = 'bold 13px Arial, sans-serif';
+    let lines = [];
+    if (text.includes('\n')) {
+      lines = text.split('\n');
+    } else if (text.includes(' ')) {
+      const words = text.split(' ');
       const mid = Math.ceil(words.length / 2);
-      const line1 = words.slice(0, mid).join(' ');
-      const line2 = words.slice(mid).join(' ');
-      ctx.fillText(line1, rx + rw / 2, ry + rh / 2 - 8);
-      ctx.fillText(line2, rx + rw / 2, ry + rh / 2 + 8);
+      lines = [words.slice(0, mid).join(' '), words.slice(mid).join(' ')];
     } else {
-      let fontSize = 16;
+      lines = [text];
+    }
+
+    let fontSize = lines.length > 1 ? 16 : 18; // Larger fonts as requested
+    ctx.font = `bold ${fontSize}px Arial, sans-serif`;
+    
+    // Scale font size down if it exceeds brick width
+    let maxLineWidth = Math.max(...lines.map(line => ctx.measureText(line).width));
+    const maxWidth = rw - 12;
+    while (maxLineWidth > maxWidth && fontSize > 10) {
+      fontSize--;
       ctx.font = `bold ${fontSize}px Arial, sans-serif`;
-      let textWidth = ctx.measureText(text).width;
-      const maxWidth = rw - 12;
-      while (textWidth > maxWidth && fontSize > 10) {
-        fontSize--;
-        ctx.font = `bold ${fontSize}px Arial, sans-serif`;
-        textWidth = ctx.measureText(text).width;
-      }
-      ctx.fillText(text, rx + rw / 2, ry + rh / 2);
+      maxLineWidth = Math.max(...lines.map(line => ctx.measureText(line).width));
+    }
+
+    if (lines.length > 1) {
+      ctx.font = `bold ${fontSize + 6}px Arial, sans-serif`;
+      ctx.fillText(lines[0], rx + rw / 2, ry + rh / 2 - 12);
+      ctx.font = `bold ${fontSize}px Arial, sans-serif`;
+      ctx.fillText(lines[1], rx + rw / 2, ry + rh / 2 + 10);
+    } else {
+      ctx.fillText(lines[0], rx + rw / 2, ry + rh / 2);
     }
 
     ctx.restore();

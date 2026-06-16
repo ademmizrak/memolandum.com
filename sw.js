@@ -1,4 +1,4 @@
-const CACHE_NAME = 'memolandum-v5';
+const CACHE_NAME = 'memolandum-v40';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

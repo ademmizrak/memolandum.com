@@ -1,0 +1,902 @@
+[
+  {
+    "id": 101,
+    "word": "demolish",
+    "translation": "yıkmak, yerle bir etmek, (tezi) çürütmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 102,
+    "word": "demonstrate",
+    "translation": "kanıtlamak, göstererek açıklamak, protesto yapmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 103,
+    "word": "denounce",
+    "translation": "kınamak, ihbar etmek, suçlamak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 104,
+    "word": "depict",
+    "translation": "tasvir etmek, betimlemek, canlandırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 105,
+    "word": "deplete",
+    "translation": "tüketmek, azaltmak, (kaynakları) eritmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 106,
+    "word": "deprive",
+    "translation": "mahrum etmek, yoksun bırakmak (-of ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 107,
+    "word": "derive",
+    "translation": "-den türetmek, -den kaynaklanmak (-from ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 108,
+    "word": "desolate",
+    "translation": "terk edilmiş, ıssız, kederli",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 109,
+    "word": "despise",
+    "translation": "aşağılamak, hor görmek, nefret etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 110,
+    "word": "detach",
+    "translation": "ayırmak, sökmek, koparmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 111,
+    "word": "detect",
+    "translation": "tespit etmek, algılamak, ortaya çıkarmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 112,
+    "word": "deteriorate",
+    "translation": "kötüleşmek, bozulmak, fenalaşmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 113,
+    "word": "detrimental",
+    "translation": "zararlı, hasar veren (-to ile kullanılır)",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 114,
+    "word": "devastate",
+    "translation": "harap etmek, mahvetmek, şok etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 115,
+    "word": "deviate",
+    "translation": "(rotadan/konudan) sapmak, yönünü değiştirmek (-from ile)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 116,
+    "word": "devise",
+    "translation": "tasarlamak, icat etmek, geliştirmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 117,
+    "word": "devote",
+    "translation": "adamak, kendini vermek (-to ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 118,
+    "word": "diffuse",
+    "translation": "yaymak, dağılmak / yayılmış, dağınık",
+    "pos": "verb/adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 119,
+    "word": "differentiate",
+    "translation": "ayırt etmek, farklılaştırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 120,
+    "word": "dignity",
+    "translation": "haysiyet, onur, ağırbaşlılık",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 121,
+    "word": "diligent",
+    "translation": "çalışkan, gayretli, titiz",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 122,
+    "word": "diminish",
+    "translation": "azalmak, azaltmak, eksiltmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 123,
+    "word": "discard",
+    "translation": "atmak, gözden çıkarmak, vazgeçmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 124,
+    "word": "discern",
+    "translation": "fark etmek, ayırt etmek, sezmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 125,
+    "word": "disclose",
+    "translation": "açığa vurmak, ifşa etmek, gizliyi açmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 126,
+    "word": "discrepancy",
+    "translation": "çelişki, tutarsızlık, uyumsuzluk",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 127,
+    "word": "disdain",
+    "translation": "küçümseme, hor görme / küçümsemek",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 128,
+    "word": "disrupt",
+    "translation": "düzeni bozmak, aksatmak, kesintiye uğratmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 129,
+    "word": "disseminate",
+    "translation": "(bilgi, fikir vb.) yaymak, dağıtmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 130,
+    "word": "distort",
+    "translation": "(gerçeği/şekli) çarpıtmak, saptırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 131,
+    "word": "diverge",
+    "translation": "farklılaşmak, (yollar) ayrılmak, sapmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 132,
+    "word": "diverse",
+    "translation": "çeşitli, farklı, türlü türlü",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 133,
+    "word": "divert",
+    "translation": "başka yöne çevirmek, dikkati dağıtmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 134,
+    "word": "divulge",
+    "translation": "açığa vurmak, ifşa etmek (sır vb.)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 135,
+    "word": "domestic",
+    "translation": "iç/yerli (ülke içi), evcil, aile içi",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 136,
+    "word": "dominant",
+    "translation": "baskın, egemen, hakim",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 137,
+    "word": "drastic",
+    "translation": "radikal, sert, ani ve şiddetli",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 138,
+    "word": "durable",
+    "translation": "dayanıklı, uzun ömürlü, sağlam",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 139,
+    "word": "dwelling",
+    "translation": "konut, mesken, ev",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 140,
+    "word": "eager",
+    "translation": "hevesli, istekli, can atan",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 141,
+    "word": "eccentric",
+    "translation": "tuhaf, garip, alışılmadık",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 142,
+    "word": "elaborate",
+    "translation": "ayrıntılı, detaylı / detaylandırmak",
+    "pos": "adjective/verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 143,
+    "word": "elevate",
+    "translation": "yükseltmek, kaldırmak, (rütbe) artırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 144,
+    "word": "elicit",
+    "translation": "(tepki, bilgi vb.) ortaya çıkarmak, edinmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 145,
+    "word": "eligible",
+    "translation": "uygun, nitelikli, seçilebilir",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 146,
+    "word": "eliminate",
+    "translation": "elemek, ortadan kaldırmak, yok etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 147,
+    "word": "elusive",
+    "translation": "yakalanması/tarifi zor, kaypak",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 148,
+    "word": "embody",
+    "translation": "somutlaştırmak, simgelemek, bünyesinde barındırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 149,
+    "word": "embrace",
+    "translation": "benimsemek, kucaklamak, kabul etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 150,
+    "word": "emerge",
+    "translation": "ortaya çıkmak, belirmek, (krizden) çıkmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 151,
+    "word": "eminent",
+    "translation": "seçkin, ünlü, saygın, yüksek (mevki)",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 152,
+    "word": "empirical",
+    "translation": "deneysel, ampirik, gözleme dayalı",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 153,
+    "word": "encounter",
+    "translation": "karşılaşmak, rastlamak / karşılaşma",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 154,
+    "word": "encroach",
+    "translation": "hakkını çiğnemek, sınırını aşmak, tecavüz etmek (-on ile)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 155,
+    "word": "endeavor",
+    "translation": "çaba, gayret / çabalamak, uğraşmak",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 156,
+    "word": "endorse",
+    "translation": "onaylamak, desteklemek, (çek) arkasını imzalamak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 157,
+    "word": "endure",
+    "translation": "dayanmak, katlanmak, sürmek/devam etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 158,
+    "word": "enforce",
+    "translation": "(yasa, kural vb.) zorla uygulamak, yürürlüğe koymak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 159,
+    "word": "enhance",
+    "translation": "geliştirmek, artırmak, değerini yükseltmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 160,
+    "word": "enigma",
+    "translation": "gizem, muamma, sır",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 161,
+    "word": "enormous",
+    "translation": "devasa, çok büyük, muazzam",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 162,
+    "word": "ensure",
+    "translation": "garantiye almak, sağlama almak, emin olmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 163,
+    "word": "entail",
+    "translation": "gerektirmek, zorunlu kılmak, yol açmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 164,
+    "word": "entitle",
+    "translation": "hak tanımak, yetki vermek, unvan vermek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 165,
+    "word": "ephemeral",
+    "translation": "geçici, kısa ömürlü, fani",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 166,
+    "word": "eradicate",
+    "translation": "kökünü kazımak, tamamen yok etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 167,
+    "word": "erode",
+    "translation": "aşınmak, aşındırmak, sarsmak/zayıflatmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 168,
+    "word": "erratic",
+    "translation": "düzensiz, değişken, kararsız",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 169,
+    "word": "erroneous",
+    "translation": "hatalı, yanlış, yanıltıcı",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 170,
+    "word": "estimate",
+    "translation": "tahmin etmek, değer biçmek / tahmin",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 171,
+    "word": "evaluate",
+    "translation": "değerlendirmek, analiz etmek, ölçmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 172,
+    "word": "evade",
+    "translation": "(vergi, sorumluluk vb.) kaçmak, kurtulmak, sakınmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 173,
+    "word": "evident",
+    "translation": "belli, açık, bariz",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 174,
+    "word": "evolve",
+    "translation": "evrilmek, zamanla gelişmek/değişmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 175,
+    "word": "exacerbate",
+    "translation": "kötüleştirmek, alevlendirmek, canını sıkmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 176,
+    "word": "exaggerate",
+    "translation": "abartmak, büyütmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 177,
+    "word": "excavate",
+    "translation": "kazı yapmak, kazarak çıkarmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 178,
+    "word": "exceed",
+    "translation": "sınırı aşmak, geçmek, üstüne çıkmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 179,
+    "word": "exceptional",
+    "translation": "istisnai, fevkalade, sıra dışı, mükemmel",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 180,
+    "word": "exclude",
+    "translation": "hariç tutmak, dışlamak (-from ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 181,
+    "word": "execute",
+    "translation": "yerine getirmek/uygulamak, idam etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 182,
+    "word": "exemplify",
+    "translation": "örneklendirmek, örnek oluşturmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 183,
+    "word": "exhibit",
+    "translation": "sergilemek, göstermek / sergi, nesne",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 184,
+    "word": "exile",
+    "translation": "sürgün, sürgüne göndermek",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 185,
+    "word": "exonerate",
+    "translation": "aklamak, suçsuz bulmak, beraat ettirmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 186,
+    "word": "expand",
+    "translation": "genişlemek, büyümek, nüfuz olarak yayılmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 187,
+    "word": "expedite",
+    "translation": "hızlandırmak, kolaylaştırmak, çabuklaştırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 188,
+    "word": "expenditure",
+    "translation": "harcama, masraf, gider",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 189,
+    "word": "exploit",
+    "translation": "sömürmek, faydalanmak, kendi çıkarına kullanmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 190,
+    "word": "exquisite",
+    "translation": "enfes, pek zarif, üstün nitelikli",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 191,
+    "word": "extinct",
+    "translation": "nesli tükenmiş, sönmüş (yanardağ vb.)",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 192,
+    "word": "extinguish",
+    "translation": "söndürmek (yangın, umut vb.)",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 193,
+    "word": "extravagant",
+    "translation": "savurgan, müsrif, fahiş (fiyat vb.)",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 194,
+    "word": "fabricate",
+    "translation": "uydurmak (yalan/belge), imal etmek/üretmek",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 195,
+    "word": "facilitate",
+    "translation": "kolaylaştırmak, önünü açmak",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 196,
+    "word": "faction",
+    "translation": "klik, hizip, parti içi grup, çekişme",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 197,
+    "word": "fallacy",
+    "translation": "yanılgı, hileli mantık, safsata",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 198,
+    "word": "famine",
+    "translation": "kıtlık, açlık",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 199,
+    "word": "fatal",
+    "translation": "ölümcül, öldürücü, vahim",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 200,
+    "word": "feasible",
+    "translation": "yapılabilir, uygulanabilir, olası",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  }
+]
