@@ -1462,7 +1462,7 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
                           <button
                             key={cat.id}
                             onClick={() => {
-                              if (cat.files.length > 0) handleLevelSelect(cat.files[0].path);
+                              if (cat.files.length > 0) setActiveCategory(cat.files[0].path);
                               setActiveDropdown(false);
                             }}
                             className={`w-full text-left px-4 py-3 text-sm font-bold transition-colors ${currentEnglishCategory === cat.id && currentLanguage === 'English' ? 'bg-cyan-500/20 text-cyan-400 border-l-2 border-cyan-400' : 'text-gray-300 hover:bg-[#111625] hover:text-white'}`}
@@ -1478,7 +1478,7 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
                     <button
                       key={lang.id}
                       onClick={() => {
-                        if (lang.files.length > 0) handleLevelSelect(lang.files[0].path);
+                        if (lang.files.length > 0) setActiveCategory(lang.files[0].path);
                       }}
                       className={`px-3 py-1 rounded text-xs font-bold transition-colors whitespace-nowrap ${currentLanguage === lang.id ? 'bg-emerald-500 text-black' : 'bg-transparent text-gray-400 hover:bg-gray-800'}`}
                     >
@@ -1732,7 +1732,7 @@ function DesktopSidePanel({ language }) {
     function MemolandumHome() {
       const [language, setLanguage] = useState('ENG');
       const [langPair, setLangPair] = useState('en_tr');
-      const [showLanguageMenu, setShowLanguageMenu] = useState(false);
+      const [showLanguageMenu, setShowLanguageMenu] = React.useState(false);
       const [isMuted, setIsMuted] = useState(window.memolandum_muted);
       const [isDesktopMode, setIsDesktopMode] = useState(false);
 
