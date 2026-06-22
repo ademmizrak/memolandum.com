@@ -1,0 +1,9 @@
+{
+  "name": "memolandum-tts-generator",
+  "version": "1.0.0",
+  "main": "generate.js",
+  "dependencies": {
+    "@google/genai": "^2.9.0",
+    "fs-extra": "^11.3.5"
+  }
+}

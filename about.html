@@ -68,10 +68,15 @@
   <div class="scanlines"></div>
   
   <div class="max-w-3xl mx-auto px-4 py-8 relative z-10">
-    <a href="index.html" class="inline-flex items-center gap-2 text-[#00f0ff] hover:text-white transition-colors mb-8 font-['Orbitron'] tracking-wider text-sm uppercase">
+    <a href="index.html" id="back-btn-container" class="inline-flex items-center gap-2 text-[#00f0ff] hover:text-white transition-colors mb-8 font-['Orbitron'] tracking-wider text-sm uppercase">
       <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
       <span id="btn-back">Geri Dön</span>
     </a>
+    <script>
+      if (window.self !== window.top) {
+        document.getElementById('back-btn-container').style.display = 'none';
+      }
+    </script>
 
     <header class="mb-12 border-b border-[#00f0ff]/20 pb-6">
       <h1 id="main-title" class="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#00f0ff] to-[#a855f7] tracking-widest uppercase drop-shadow-[0_0_15px_rgba(0,240,255,0.4)] mb-4">

@@ -713,18 +713,6 @@ function prefetchStageData(jsonFileName) {
   prefetchedData = null;
   
   let dataPath = `./data/${jsonFileName}`;
-  
-  if (jsonFileName.startsWith('summer_')) {
-    const lang = localStorage.getItem('memolandum_lang') || 'ENG';
-    const prefix = lang === 'TR' ? 'tr_en' : 'en_tr';
-    dataPath = `./data/summer/${prefix}_${jsonFileName}`;
-  } else if (window.languagePair && window.languagePair !== 'en_tr') {
-    const match = jsonFileName.match(/^([a-z0-9]+)_words\.json$/i);
-    if (match) {
-      const level = match[1].toLowerCase();
-      dataPath = `./data/portugal/${window.languagePair}_${level}.json`;
-    }
-  }
 
   prefetchPromise = fetch(dataPath)
     .then(response => {
@@ -1211,15 +1199,17 @@ class Game {
     }, { passive: false });
 
     // Mouse fallbacks for desktop emulation clicks
-    btn.addEventListener('mousedown', () => {
+    btn.addEventListener('mousedown', (e) => {
+      e.preventDefault();
       this.input[inputProperty] = true;
     });
 
-    btn.addEventListener('mouseup', () => {
+    btn.addEventListener('mouseup', (e) => {
+      e.preventDefault();
       this.input[inputProperty] = false;
     });
 
-    btn.addEventListener('mouseleave', () => {
+    btn.addEventListener('mouseleave', (e) => {
       this.input[inputProperty] = false;
     });
   }
@@ -1227,6 +1217,7 @@ class Game {
   resize() {
     const rect = this.canvas.parentElement.getBoundingClientRect();
     const dpr = window.devicePixelRatio || 1;
+
 
     // Apply scale based on DPR for retina screens
     this.canvas.width = rect.width * dpr;
@@ -2496,18 +2487,6 @@ function loadLevel(jsonFileName, isTransition = false) {
   }
 
   let dataPath = `./data/${jsonFileName}`;
-  
-  if (jsonFileName.startsWith('summer_')) {
-    const lang = localStorage.getItem('memolandum_lang') || 'ENG';
-    const prefix = lang === 'TR' ? 'tr_en' : 'en_tr';
-    dataPath = `./data/summer/${prefix}_${jsonFileName}`;
-  } else if (window.languagePair && window.languagePair !== 'en_tr') {
-    const match = jsonFileName.match(/^([a-z0-9]+)_words\.json$/i);
-    if (match) {
-      const level = match[1].toLowerCase();
-      dataPath = `./data/portugal/${window.languagePair}_${level}.json`;
-    }
-  }
 
   fetch(dataPath)
     .then(response => {
@@ -2621,18 +2600,6 @@ function launchExam() {
   }
 
   let dataPath = `./data/${category}`;
-  
-  if (category.startsWith('summer_')) {
-    const lang = localStorage.getItem('memolandum_lang') || 'ENG';
-    const prefix = lang === 'TR' ? 'tr_en' : 'en_tr';
-    dataPath = `./data/summer/${prefix}_${category}`;
-  } else if (window.languagePair && window.languagePair !== 'en_tr') {
-    const match = category.match(/^([a-z0-9]+)_words\.json$/i);
-    if (match) {
-      const level = match[1].toLowerCase();
-      dataPath = `./data/portugal/${window.languagePair}_${level}.json`;
-    }
-  }
 
   fetch(dataPath)
     .then(response => {

@@ -38,7 +38,13 @@ function copyDir(src, dest) {
   }
 }
 
+const { execSync } = require('child_process');
+
 console.log('Building www folder...');
+
+console.log('Generating data manifest...');
+execSync('node generate_manifest.js', { stdio: 'inherit' });
+
 if (fs.existsSync(destDir)) {
   fs.rmSync(destDir, { recursive: true, force: true });
 }
