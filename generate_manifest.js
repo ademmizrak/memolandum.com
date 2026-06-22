@@ -20,7 +20,7 @@ const englishNames = {
   'Tr_Eng_Genel': 'Genel İngilizce',
   'Tr_Eng_Sınav_Ozel': 'Sınav Özel',
   'Tr_Eng_Temel_Cumleler': 'Temel Cümleler',
-  'Tr_Eng_Yaz_Cumleleri': 'Yazma Cümleleri',
+  'Tr_Eng_Yaz_Cumleleri': 'Yaz Kelimeleri',
   'Tr_Eng_YDS_kelimeleri': 'YDS Kelimeleri',
   'Tr_Eng_YKS_Kelimeleri': 'YKS Kelimeleri'
 };
@@ -49,7 +49,8 @@ function buildManifest() {
       .filter(f => f.endsWith('.json'))
       .map(f => {
         // Strip .json to use as level name or try to format nicely later
-        return { filename: f, path: `${folderName}/${f}` };
+        const label = f.replace('.json', '').replace(/_/g, ' ');
+        return { filename: f, path: `${folderName}/${f}`, label: label };
       });
       
     // Sort files alphabetically
