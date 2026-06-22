@@ -244,9 +244,7 @@
   }
   </script>
 
-  <!-- Data Manifest -->
-  <script src="data_manifest.js"></script>
-
+  
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -682,7 +680,7 @@
   <!-- React & Babel CDNs -->
   <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
   <!-- React Dashboard Component & Logic -->
   <!-- Firebase Authentication & Firestore (Modular SDK) -->
@@ -1390,16 +1388,6 @@
 
 
 function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, activeShell, setActiveShell, activeCategory, setActiveCategory, setIsDesktopMode, setLanguage, handleLaunchMode }) {
-      const [showContact, setShowContact] = React.useState(false);
-      const [activeDropdown, setActiveDropdown] = React.useState(false);
-      
-      const manifest = window.DATA_MANIFEST || { singleLanguages: [], englishCategories: [] };
-      const currentLanguageObj = manifest.singleLanguages.find(l => l.files.some(f => f.path === activeCategory)) || null;
-      const currentEngCatObj = manifest.englishCategories.find(c => c.files.some(f => f.path === activeCategory)) || null;
-
-      const currentLanguage = currentLanguageObj ? currentLanguageObj.id : 'English';
-      const currentEnglishCategory = currentEngCatObj ? currentEngCatObj.id : (manifest.englishCategories.length > 0 ? manifest.englishCategories[0].id : null);
-
       const handleShellSelect = (shell) => {
         setActiveShell(shell);
         if (typeof handleLaunchMode === 'function') {
@@ -1409,65 +1397,152 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
         }
       };
 
-      const handleLevelSelect = (levelPath) => {
-        setActiveCategory(levelPath);
-        if (typeof handleLaunchMode === 'function') {
-          handleLaunchMode(activeShell);
+      const handleLevelSelect = (levelJson) => {
+        setActiveCategory(levelJson);
+        if (typeof window.loadLevel === 'function') {
+          window.loadLevel(levelJson);
         }
       };
 
-      let activeLevels = [];
-      if (currentLanguage === 'English') {
-        const cat = manifest.englishCategories.find(c => c.id === currentEnglishCategory);
-        if (cat) activeLevels = cat.files;
-      } else {
-        const lang = manifest.singleLanguages.find(l => l.id === currentLanguage);
-        if (lang) activeLevels = lang.files;
-      }
-
       const shells = [
-        { id: 'shooter', title: 'Cosmic Shooter', desc: language === 'TR' ? 'Hızlı refleks + kelime patlatma' : 'Fast reflex + word blast', icon: '🚀', color: 'cyan' },
-        { id: 'breakout', title: 'Neon Breakout', desc: language === 'TR' ? 'Tuğla kırma + anlam eşleştirme' : 'Brick breaker + matching', icon: '🧱', color: 'pink' },
-        { id: 'worddrop', title: 'Data Drop', desc: language === 'TR' ? 'Düşen harfler + heceleme' : 'Falling letters + spelling', icon: '💧', color: 'yellow' },
-        { id: 'highway', title: 'Cyber Highway', desc: language === 'TR' ? '3 Şeritli yarış + doğru şıkkı bulma' : '3-Lane race + correct choice', icon: '🏎️', color: 'purple' },
-        { id: 'wordascent', title: 'Hacker Ascent', desc: language === 'TR' ? 'Yukarı tırmanış + boşluk doldurma' : 'Climbing + fill blanks', icon: '🧗', color: 'green' },
-        { id: 'invaders', title: 'Space Invaders', desc: language === 'TR' ? 'Gelen saldırıları geri püskürt' : 'Repel incoming attacks', icon: '👾', color: 'red' }
+        {
+          id: 'shooter',
+          title: language === 'TR' ? 'Retro Shooter' : 'Retro Shooter',
+          subtitle: 'SPACE SHOOTER',
+          desc: language === 'TR' ? 'Meteordaki kelimeleri vurarak eşle.' : 'Blast vocabulary meteors in space.',
+          color: 'cyan',
+          icon: (
+            <svg className="w-7 h-7 text-cyan-400 animate-pulse" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 2L2 22h4l6-4 6 4h4z" />
+              <circle cx="12" cy="11" r="3" />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 5v3" />
+            </svg>
+          )
+        },
+        {
+          id: 'breakout',
+          title: language === 'TR' ? 'Breakout DX-Ball' : 'Breakout DX-Ball',
+          subtitle: 'BRICK BREAKER',
+          desc: language === 'TR' ? 'Tuğlaları kırarak kelimeleri eşle.' : 'Break neon bricks to match words.',
+          color: 'pink',
+          icon: (
+            <svg className="w-7 h-7 text-pink-400" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+              <rect x="3" y="19" width="18" height="3" rx="1" />
+              <circle cx="12" cy="10" r="3.5" className="fill-pink-400/20" />
+              <rect x="4" y="3" width="4" height="2" rx="0.5" />
+              <rect x="10" y="3" width="4" height="2" rx="0.5" />
+              <rect x="16" y="3" width="4" height="2" rx="0.5" />
+            </svg>
+          )
+        },
+        {
+          id: 'highway',
+          title: language === 'TR' ? 'Highway Survivor' : 'Highway Survivor',
+          subtitle: 'LANE RACER',
+          desc: language === 'TR' ? 'Siber şeritlerde doğru şeride sür.' : 'Drive fast to match translations.',
+          color: 'yellow',
+          icon: (
+            <svg className="w-7 h-7 text-yellow-400" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+              <path d="M4 22L8 2M20 22L16 2M12 2v20" strokeDasharray="5 5" strokeLinecap="round" />
+              <rect x="9" y="11" width="6" height="8" rx="2" className="fill-yellow-400/10 animate-pulse" />
+              <circle cx="10" cy="18" r="1.5" />
+              <circle cx="14" cy="18" r="1.5" />
+            </svg>
+          )
+        },
+        {
+          id: 'invaders',
+          title: language === 'TR' ? 'Siberian Invaders' : 'Siberian Invaders',
+          subtitle: 'NEON SHMUP',
+          desc: language === 'TR' ? 'Uzay istilacılarını formasyonla vur.' : 'Neon space SHMUP with grid spawns.',
+          color: 'purple',
+          icon: (
+            <svg className="w-7 h-7 text-purple-400" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v4M8 6h8M4 10l2-2h12l2 2M6 14v4h12v-4" />
+              <rect x="7" y="10" width="10" height="4" rx="1" className="fill-purple-400/20" />
+              <circle cx="10" cy="12" r="1" />
+              <circle cx="14" cy="12" r="1" />
+            </svg>
+          )
+        },
+        {
+          id: 'wordascent',
+          title: language === 'TR' ? 'The Word Ascent' : 'The Word Ascent',
+          subtitle: 'VERTICAL CLIMBER',
+          desc: language === 'TR' ? 'Platformlarda zıplayarak tırman.' : 'Bounce climbing vertical platformer.',
+          color: 'green',
+          icon: (
+            <svg className="w-7 h-7 text-emerald-400" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 22V2M8 6l4-4 4 4" />
+              <path strokeLinecap="round" d="M5 18h6M13 13h6M5 8h7" />
+            </svg>
+          )
+        },
+        {
+          id: 'worddrop',
+          title: language === 'TR' ? 'Reverse Word Drop' : 'Reverse Word Drop',
+          subtitle: 'DIKEY TETRIS',
+          desc: language === 'TR' ? 'Blokları Tetris gibi yerleştir.' : 'Falling blocks Tetris word stacker.',
+          color: 'red',
+          icon: (
+            <svg className="w-7 h-7 text-red-400" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 4h7v7H4zM13 4h7v7h-7zM8 13h7v7H8z" />
+              <rect x="5" y="5" width="5" height="5" className="fill-red-400/20" />
+              <rect x="14" y="5" width="5" height="5" className="fill-red-400/20" />
+            </svg>
+          )
+        }
+      ];
+
+      const levels = [
+        { id: 'a1_words.json', name: 'A1 - Başlangıç Seviyesi' },
+        { id: 'a2_words.json', name: 'A2 - Temel Seviye' },
+        { id: 'b1_words.json', name: 'B1 - Orta Seviye' },
+        { id: 'b2_words.json', name: 'B2 - İleri Seviye' },
+        { id: 'phrasal_verbs.json', name: 'Phrasal Verbs' },
+        { id: 'prepositions.json', name: 'Prepositions' },
+        { id: 'conjunctions.json', name: 'Conjunctions' },
+        { id: 'academic_verbs.json', name: 'Akademik Fiiller' }
+      ];
+
+      const languagePairs = [
+        { id: 'en_tr', label: '🇬🇧 EN ➔ 🇹🇷 TR', lang: 'ENG' },
+        { id: 'tr_en', label: '🇹🇷 TR ➔ 🇬🇧 EN', lang: 'TR' },
+        { id: 'pt_br_eng', label: '🇧🇷 PT-BR ➔ 🇬🇧 EN', lang: 'PT-BR' },
+        { id: 'eng_pt_br', label: '🇬🇧 EN ➔ 🇧🇷 PT-BR', lang: 'ENG' },
+        { id: 'osm_tr', label: '🕌 OSM ➔ 🇹🇷 TR', lang: 'TR' },
+        { id: 'ko_tr', label: '🇰🇷 KO ➔ 🇹🇷 TR', lang: 'TR' },
+        { id: 'ru_tr', label: '🇷🇺 RU ➔ 🇹🇷 TR', lang: 'TR' },
+        { id: 'el_tr', label: '🇬🇷 GR ➔ 🇹🇷 TR', lang: 'TR' }
       ];
 
       return (
         <div className="w-full h-full flex flex-col pointer-events-none text-white font-body relative">
           
-          <div className="w-full h-[64px] bg-[#0a0f1d] border-b border-gray-800 flex flex-col justify-center shrink-0 pointer-events-auto z-50">
-            <div className="flex justify-between items-center px-6">
+          {/* TOPBAR */}
+          <div className="w-full bg-[#0a0f1d] border-b border-gray-800 flex flex-col shrink-0 pointer-events-auto z-50">
+            <div className="flex justify-between items-center px-6 py-3">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">🕹️</span>
                 <h1 className="text-2xl font-black tracking-widest text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.45)]">MEMOLANDUM</h1>
                 <span className="text-xs text-emerald-500 uppercase font-bold ml-2">Desktop Portal</span>
               </div>
               
-              <div className="flex items-center gap-4 overflow-x-auto custom-scrollbar pr-2">
-                <div className="flex items-center gap-2 bg-[#111625] px-4 py-1.5 rounded-lg border border-gray-800 shrink-0">
-                  {manifest.englishCategories.map(cat => (
+              <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 bg-[#111625] px-4 py-2 rounded-lg border border-gray-800">
+                  {languagePairs.map(pair => (
                     <button
-                      key={cat.id}
+                      key={pair.id}
                       onClick={() => {
-                        if (cat.files.length > 0) handleLevelSelect(cat.files[0].path);
+                        setLangPair(pair.id);
+                        if(pair.lang) setLanguage(pair.lang);
+                        if (typeof window.initializeLanguageSystem === 'function') {
+                          window.initializeLanguageSystem(pair.id);
+                        }
                       }}
-                      className={`px-3 py-1 rounded text-xs font-bold transition-colors whitespace-nowrap ${currentLanguage === 'English' && currentEnglishCategory === cat.id ? 'bg-cyan-500 text-black' : 'bg-transparent text-gray-400 hover:bg-gray-800'}`}
+                      className={`px-3 py-1 rounded text-xs font-bold transition-colors ${langPair === pair.id ? 'bg-cyan-500 text-black' : 'bg-transparent text-gray-400 hover:bg-gray-800'}`}
                     >
-                      {cat.label}
-                    </button>
-                  ))}
-                  <div className="w-px h-4 bg-gray-800 mx-2"></div>
-                  {manifest.singleLanguages.map(lang => (
-                    <button
-                      key={lang.id}
-                      onClick={() => {
-                        if (lang.files.length > 0) handleLevelSelect(lang.files[0].path);
-                      }}
-                      className={`px-3 py-1 rounded text-xs font-bold transition-colors whitespace-nowrap ${currentLanguage === lang.id ? 'bg-emerald-500 text-black' : 'bg-transparent text-gray-400 hover:bg-gray-800'}`}
-                    >
-                      {lang.label}
+                      {pair.label}
                     </button>
                   ))}
                 </div>
@@ -1487,41 +1562,32 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
             </div>
           </div>
 
+          {/* 3 COLUMN MAIN AREA */}
           <div className="flex-grow flex flex-row w-full overflow-hidden">
             
+            {/* LEFT COLUMN: LEVELS */}
             <div className="w-[320px] shrink-0 bg-[#0d1222] border-r border-gray-800 pointer-events-auto overflow-y-auto custom-scrollbar p-6 shadow-[10px_0_30px_rgba(0,0,0,0.5)] z-40 flex flex-col gap-3">
               <h3 className="text-xs font-black tracking-widest text-emerald-400 mb-2 uppercase flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                 Eğitim Seviyeleri
               </h3>
-              {activeLevels.map(lvl => (
+              {levels.map(lvl => (
                 <button
-                  key={lvl.path}
-                  onClick={() => handleLevelSelect(lvl.path)}
-                  className={`w-full text-left p-4 rounded-xl border transition-all ${activeCategory === lvl.path ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-[0_0_15px_rgba(16,185,129,0.2)]' : 'bg-[#111625] border-gray-800 text-gray-300 hover:border-emerald-500/30'}`}
+                  key={lvl.id}
+                  onClick={() => handleLevelSelect(lvl.id)}
+                  className={`w-full text-left p-4 rounded-xl border transition-all ${activeCategory === lvl.id ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-[0_0_15px_rgba(16,185,129,0.2)]' : 'bg-[#111625] border-gray-800 text-gray-300 hover:border-emerald-500/30'}`}
                 >
-                  <div className="font-bold text-sm tracking-wide">{lvl.label}</div>
+                  <div className="font-bold text-sm tracking-wide">{lvl.name}</div>
                 </button>
               ))}
             </div>
 
+            {/* MIDDLE COLUMN: TRANSPARENT GAME AREA */}
             <div className="flex-grow relative pointer-events-none">
-               {activeShell === 'about' && (
-                 <div className="absolute inset-0 pointer-events-auto z-[60] bg-[#05020a]/95 backdrop-blur-md overflow-hidden flex flex-col shadow-[inset_0_0_50px_rgba(0,0,0,0.8)]">
-                   <div className="w-full p-4 flex justify-end shrink-0">
-                     <button 
-                       onClick={() => handleShellSelect('shooter')}
-                       className="flex items-center gap-2 text-cyan-400 hover:text-white px-4 py-2 rounded-lg bg-[#111625] border border-cyan-500/30 transition-all font-black text-xs uppercase tracking-widest hover:border-cyan-400"
-                     >
-                       <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
-                       {language === 'TR' ? 'KAPAT' : 'CLOSE'}
-                     </button>
-                   </div>
-                   <iframe src="about.html" className="w-full flex-grow border-none" title="About Us & Science" />
-                 </div>
-               )}
+               {/* The game canvas sits underneath this transparent area */}
             </div>
 
+            {/* RIGHT COLUMN: GAME SHELLS */}
             <div className="w-[320px] shrink-0 bg-[#0d1222] border-l border-gray-800 pointer-events-auto overflow-y-auto custom-scrollbar p-6 shadow-[-10px_0_30px_rgba(0,0,0,0.5)] z-40 flex flex-col gap-3">
               <h3 className="text-xs font-black tracking-widest text-cyan-400 mb-2 uppercase flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
@@ -1566,50 +1632,19 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
                   </button>
                 );
               })}
-
-              <button 
-                onClick={() => handleShellSelect('about')}
-                className="w-full flex flex-shrink-0 items-center justify-center p-4 mt-auto bg-gradient-to-r from-[#111625]/90 to-purple-900/20 border-2 border-cyan-500/30 rounded-xl text-center active:scale-95 duration-100 hover:border-cyan-400/70 shadow-[0_0_10px_rgba(6,182,212,0.15)] transition-all gap-2 cursor-pointer"
-              >
-                <svg className="w-5 h-5 text-cyan-400 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                <h4 className="text-[11px] font-black tracking-wider text-white uppercase">{language === 'TR' ? 'Hakkımızda & Bilim' : 'About Us & Science'}</h4>
-              </button>
             </div>
             
           </div>
 
-          <div className="w-full h-[48px] bg-[#0a0f1d] border-t border-gray-800 pointer-events-auto px-4 flex justify-between items-center text-xs text-gray-500 font-bold tracking-widest shrink-0 z-50">
+          {/* FOOTER */}
+          <div className="w-full bg-[#0a0f1d] border-t border-gray-800 pointer-events-auto p-4 flex justify-between items-center text-xs text-gray-500 font-bold tracking-widest shrink-0 z-50">
             <div>© 2026 MEMOLANDUM.COM</div>
             <div className="flex gap-6">
-              <button onClick={(e) => { e.preventDefault(); setShowContact(true); }} className="hover:text-cyan-400 transition-colors uppercase tracking-widest cursor-pointer">İletişim</button>
-              <a href="https://kreosus.com/httpsmemolandumcom" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors uppercase tracking-widest">Destek</a>
-              <button onClick={(e) => e.preventDefault()} className="hover:text-yellow-400 transition-colors uppercase tracking-widest cursor-not-allowed opacity-50" title="Şimdilik beklemede">Gizlilik Politikası</button>
+              <a href="#" className="hover:text-cyan-400 transition-colors">İletişim</a>
+              <a href="#" className="hover:text-emerald-400 transition-colors">Destek</a>
+              <a href="#" className="hover:text-yellow-400 transition-colors">Gizlilik Politikası</a>
             </div>
           </div>
-
-          {showContact && (
-            <div className="absolute inset-0 z-[100] flex items-center justify-center pointer-events-auto bg-black/60 backdrop-blur-sm">
-              <div className="bg-[#0a0f1d] border border-cyan-500/30 rounded-2xl p-8 shadow-[0_0_40px_rgba(6,182,212,0.2)] relative min-w-[300px] flex flex-col items-center">
-                <button 
-                  onClick={() => setShowContact(false)}
-                  className="absolute top-4 right-4 text-gray-400 hover:text-white hover:rotate-90 transition-all"
-                >
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12"></path>
-                  </svg>
-                </button>
-                <div className="w-16 h-16 rounded-full bg-cyan-900/30 border border-cyan-500/50 flex items-center justify-center mb-4">
-                  <svg className="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                  </svg>
-                </div>
-                <h3 className="text-lg font-black tracking-widest text-white uppercase mb-2">İletişim</h3>
-                <p className="text-cyan-400 font-mono text-lg tracking-wider bg-[#111625] px-4 py-2 rounded-lg border border-cyan-500/20 select-all">
-                  info@memolandum.com
-                </p>
-              </div>
-            </div>
-          )}
         </div>
       );
     }
@@ -2255,9 +2290,8 @@ function DesktopSidePanel({ language }) {
             <div className="w-full flex-grow overflow-y-auto pb-44 px-1 scrollable-y custom-scrollbar" style={{ touchAction: 'pan-y' }}>
           
           {/* Header */}
-          <header className="w-full max-w-md flex flex-col items-center pt-5 mb-6 shrink-0 gap-3">
-            {/* Top Row: Logo & Language Switcher */}
-            <div className="w-full flex items-center justify-between px-2">
+          <header className="w-full max-w-md flex flex-col items-center mb-6 shrink-0">
+            <div className="w-full flex justify-between items-center px-2">
               <div 
                 className="flex items-center gap-1.5 cursor-pointer hover:opacity-80 active:scale-95 transition-all"
                 onClick={() => setActiveTab('home')}
@@ -2268,92 +2302,47 @@ function DesktopSidePanel({ language }) {
                   MEMOLANDUM
                 </h1>
               </div>
-
-              {/* Language Switcher */}
-              {(() => {
-                let leftLabel = 'TR';
-                let rightLabel = 'ENG';
-                let isRightActive = language === 'ENG';
-                
-                if (langPair === 'pt_br_eng') {
-                  leftLabel = 'PT-BR';
-                  rightLabel = 'ENG';
-                  isRightActive = language === 'ENG';
-                } else if (langPair === 'eng_pt_br') {
-                  leftLabel = 'ENG';
-                  rightLabel = 'PT-BR';
-                  isRightActive = language === 'PT-BR';
-                } else if (langPair === 'osm_tr') {
-                  leftLabel = 'OSM';
-                  rightLabel = 'TR';
-                  isRightActive = true;
-                } else if (langPair === 'ko_tr') {
-                  leftLabel = 'KO';
-                  rightLabel = 'TR';
-                  isRightActive = true;
-                } else if (langPair === 'ru_tr') {
-                  leftLabel = 'RU';
-                  rightLabel = 'TR';
-                  isRightActive = true;
-                } else if (langPair === 'el_tr') {
-                  leftLabel = 'GR';
-                  rightLabel = 'TR';
-                  isRightActive = true;
-                }
-
-                return (
-                  <div className="flex items-center bg-[#181d2e] border border-gray-800 rounded-full p-0.5 w-20 h-8 relative cursor-pointer shadow-inner shrink-0">
-                    <button 
-                      onClick={() => { if (langPair==='en_tr') toggleLanguage('TR'); }} 
-                      className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${!isRightActive ? 'text-white' : 'text-gray-500'}`}
-                    >
-                      {leftLabel}
-                    </button>
-                    <button 
-                      onClick={() => { if (langPair==='en_tr') toggleLanguage('ENG'); }} 
-                      className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${isRightActive ? 'text-white' : 'text-gray-500'}`}
-                    >
-                      {rightLabel}
-                    </button>
-                    <div 
-                      className={`absolute top-0.5 bottom-0.5 w-[36px] bg-cyan-500 rounded-full transition-all duration-300 shadow-[0_0_10px_rgba(6,182,212,0.8)] ${isRightActive ? 'left-[38px]' : 'left-0.5'}`} 
-                    />
+              
+              {loadingSector && (
+                <div className="absolute inset-0 z-[100] flex flex-col items-center justify-center bg-[#0a0f1d]/90 backdrop-blur-sm">
+                  <div className="w-12 h-12 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin mb-4 shadow-[0_0_15px_rgba(6,182,212,0.8)]"></div>
+                  <div className="text-cyan-400 font-black tracking-[4px] text-xs uppercase animate-pulse text-center px-4">
+                    CONNECTING TO SECTOR: <br/>{langPair === 'pt_br_eng' ? 'PT-BR' : langPair === 'eng_pt_br' ? 'ENG' : 'TR'}...
                   </div>
-                );
-              })()}
-            </div>
-
-            {loadingSector && (
-              <div className="absolute inset-0 z-[100] flex flex-col items-center justify-center bg-[#0a0f1d]/90 backdrop-blur-sm">
-                <div className="w-12 h-12 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin mb-4 shadow-[0_0_15px_rgba(6,182,212,0.8)]"></div>
-                <div className="text-cyan-400 font-black tracking-[4px] text-xs uppercase animate-pulse text-center px-4">
-                  CONNECTING TO SECTOR: <br/>{langPair === 'pt_br_eng' ? 'PT-BR' : langPair === 'eng_pt_br' ? 'ENG' : 'TR'}...
+                  <div className="text-gray-500 font-bold tracking-[2px] text-[9px] uppercase mt-4">
+                    INITIALIZING {langPair.includes('pt') ? 'PORTUGUESE' : 'TURKISH'} LEXICAL SHELL...
+                  </div>
                 </div>
-                <div className="text-gray-500 font-bold tracking-[2px] text-[9px] uppercase mt-4">
-                  INITIALIZING {langPair.includes('pt') ? 'PORTUGUESE' : 'TURKISH'} LEXICAL SHELL...
-                </div>
-              </div>
-            )}
+              )}
 
-            {/* Bottom Row: Science Button & Icons Group */}
-            <div className="w-full flex items-center justify-between px-2 mt-1">
-              <button 
-                onClick={() => setActiveTab('science')}
-                className="text-[10px] text-emerald-400 font-black uppercase tracking-widest hover:text-white transition-colors flex items-center gap-1 drop-shadow-[0_0_5px_rgba(16,185,129,0.5)] bg-emerald-500/10 px-2 py-1.5 rounded-sm border border-emerald-500/30 active:scale-95 shadow-[0_0_8px_rgba(16,185,129,0.15)]"
+              
+              {/* Desktop Mode Toggle Button */}
+              <button
+                onClick={() => setIsDesktopMode(true)}
+                className="w-8 h-8 flex items-center justify-center rounded-full bg-cyan-900/50 border border-cyan-500/30 text-cyan-400 hover:bg-cyan-800 transition-colors"
+                title={language === 'TR' ? 'Masaüstü Görünüme Geç' : 'Switch to Desktop View'}
               >
-                <span>🧠</span>
-                {language === 'TR' ? 'BİLİMSEL GERÇEKLER' : 'SCIENTIFIC FACTS'}
+                💻
               </button>
-
-              {/* Secondary Controls: Desktop, Sound, Globe */}
-              <div className="flex items-center justify-end gap-1.5 sm:gap-2">
-                <button
-                  onClick={() => setIsDesktopMode(true)}
-                  className="w-8 h-8 flex items-center justify-center rounded-full bg-cyan-900/50 border border-cyan-500/30 text-cyan-400 hover:bg-cyan-800 transition-colors"
-                  title={language === 'TR' ? 'Masaüstü Görünüme Geç' : 'Switch to Desktop View'}
-                >
-                  💻
-                </button>
+              {/* Language Switcher & Globe */}
+              <div className="flex items-center gap-2">
+                <div className="flex items-center bg-[#181d2e] border border-gray-800 rounded-full p-0.5 w-24 h-8 relative cursor-pointer shadow-inner">
+                  <button 
+                    onClick={() => { if (langPair==='en_tr') toggleLanguage('TR'); }} 
+                    className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${language === 'TR' || language === 'PT-BR' ? 'text-white' : 'text-gray-500'}`}
+                  >
+                    {langPair === 'pt_br_eng' ? 'PT-BR' : langPair === 'eng_pt_br' ? 'ENG' : 'TR'}
+                  </button>
+                  <button 
+                    onClick={() => { if (langPair==='en_tr') toggleLanguage('ENG'); }} 
+                    className={`flex-1 text-center text-[10px] font-black z-10 transition-colors duration-200 ${language === 'ENG' && langPair !== 'pt_br_eng' ? 'text-white' : langPair === 'eng_pt_br' && language === 'PT-BR' ? 'text-white' : 'text-gray-500'}`}
+                  >
+                    {langPair === 'pt_br_eng' ? 'ENG' : langPair === 'eng_pt_br' ? 'PT-BR' : 'ENG'}
+                  </button>
+                  <div 
+                    className={`absolute top-0.5 bottom-0.5 w-[44px] bg-cyan-500 rounded-full transition-all duration-300 shadow-[0_0_10px_rgba(6,182,212,0.8)] ${(language === 'ENG' && langPair !== 'eng_pt_br') || (language === 'PT-BR' && langPair === 'eng_pt_br') ? 'left-[46px]' : 'left-0.5'}`} 
+                  />
+                </div>
 
                 <button 
                   onClick={toggleMute}
@@ -2363,6 +2352,31 @@ function DesktopSidePanel({ language }) {
                   {isMuted ? '🔇' : '🔊'}
                 </button>
 
+                <div className="relative">
+                  <button 
+                    onClick={() => setShowLanguageMenu(!showLanguageMenu)}
+                    className="w-8 h-8 flex items-center justify-center rounded-full bg-[#181d2e] border border-gray-800 text-cyan-400 hover:text-cyan-300 hover:border-cyan-500 transition-all shadow-[0_0_8px_rgba(6,182,212,0.2)]"
+                  >
+                    🌐
+                  </button>
+
+                  {showLanguageMenu && (
+                    <div className="absolute right-0 top-10 w-48 bg-[#0f1629] border border-cyan-500/50 rounded-xl shadow-[0_0_15px_rgba(6,182,212,0.3)] z-50 overflow-hidden flex flex-col">
+                      <button onClick={() => toggleLanguagePair('en_tr')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors ${langPair === 'en_tr' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🇹🇷 TR ➔ 🇬🇧 ENG
+                      </button>
+                      <button onClick={() => toggleLanguagePair('pt_br_eng')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'pt_br_eng' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🇧🇷 PT-BR ➔ 🇬🇧 ENG
+                      </button>
+                      <button onClick={() => toggleLanguagePair('eng_pt_br')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'eng_pt_br' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🇬🇧 ENG ➔ 🇧🇷 PT-BR
+                      </button>
+                      <button onClick={() => toggleLanguagePair('osm_tr')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'osm_tr' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🕌 OSM ➔ 🇹🇷 TR
+                      </button>
+                      <button onClick={() => toggleLanguagePair('ko_tr')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'ko_tr' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
+                        🇰🇷 KO ➔ 🇹🇷 TR
+                      </button>
                       <button onClick={() => toggleLanguagePair('ru_tr')} className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-t border-gray-800/50 ${langPair === 'ru_tr' ? 'text-cyan-300 bg-cyan-900/20' : 'text-gray-300'}`}>
                         🇷🇺 RU ➔ 🇹🇷 TR
                       </button>
@@ -2372,6 +2386,18 @@ function DesktopSidePanel({ language }) {
                     </div>
                   )}
                 </div>
+              </div>
+            </div>
+            <div className="w-full flex items-center justify-between px-2 mt-2">
+              <button 
+                onClick={() => setActiveTab('science')}
+                className="text-[10px] text-emerald-400 font-black uppercase tracking-widest hover:text-white transition-colors flex items-center gap-1 drop-shadow-[0_0_5px_rgba(16,185,129,0.5)] bg-emerald-500/10 px-2 py-1 rounded-sm border border-emerald-500/30 active:scale-95 shadow-[0_0_8px_rgba(16,185,129,0.15)]"
+              >
+                <span>🧠</span>
+                {language === 'TR' ? 'BİLİMSEL GERÇEKLER' : 'SCIENTIFIC FACTS'}
+              </button>
+              <div className="text-[11px] text-cyan-400 font-bold uppercase tracking-[3px] drop-shadow-[0_0_8px_rgba(6,182,212,0.4)] text-right">
+                {t.subtitle}
               </div>
             </div>
           </header>
@@ -2462,6 +2488,98 @@ function DesktopSidePanel({ language }) {
                   </button>
                 </div>
               )}
+
+              {/* SECTION 1: SECTOR SELECTION (Direct) */}
+              <div className="w-full mb-6">
+                <div className="px-1 mb-3 text-left">
+                  <h2 className="text-sm font-black text-cyan-400 tracking-widest uppercase drop-shadow-[0_0_8px_rgba(6,182,212,0.3)]">
+                    1. ESTABLISH SECTOR LINK
+                  </h2>
+                  <p className="text-[11px] text-gray-500 font-bold uppercase mt-0.5">
+                    Select a translation database to connect with the shells
+                  </p>
+                </div>
+
+                {/* Sub-segmented tabs */}
+                <div className="flex flex-wrap bg-[#111625]/90 border border-gray-800 rounded-xl p-1 gap-1 mb-3">
+                  <button 
+                    onClick={() => setLevelsTab('core')}
+                    className={`flex-1 min-w-[70px] py-1.5 rounded-lg text-[10px] sm:text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'core' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
+                  >
+                    {t.coreLevelsTab}
+                  </button>
+                  <button 
+                    onClick={() => setLevelsTab('sentences')}
+                    className={`flex-1 min-w-[70px] py-1.5 rounded-lg text-[10px] sm:text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'sentences' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
+                  >
+                    {t.sentencesTab}
+                  </button>
+                  <button 
+                    onClick={() => setLevelsTab('special')}
+                    className={`flex-1 min-w-[70px] py-1.5 rounded-lg text-[10px] sm:text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'special' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
+                  >
+                    {t.specializedTab}
+                  </button>
+                  <button 
+                    onClick={() => setLevelsTab('yks')}
+                    className={`flex-1 min-w-[70px] py-1.5 rounded-lg text-[10px] sm:text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'yks' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
+                  >
+                    {t.yksTab}
+                  </button>
+                  <button 
+                    onClick={() => setLevelsTab('yds')}
+                    className={`flex-1 min-w-[70px] py-1.5 rounded-lg text-[10px] sm:text-xs font-black tracking-wider uppercase transition-all ${levelsTab === 'yds' ? 'bg-cyan-500 text-black font-extrabold shadow-[0_0_10px_rgba(6,182,212,0.4)]' : 'text-gray-400 hover:text-white'}`}
+                  >
+                    {t.ydsTab}
+                  </button>
+                </div>
+
+                {/* Sector Grid (Core/Sentences/Specialized/YKS/YDS) */}
+                <div className="grid grid-cols-2 gap-3 w-full">
+                  {(levelsTab === 'core' ? getCategories(langPair).core : levelsTab === 'sentences' ? getCategories(langPair).sentences : levelsTab === 'special' ? getCategories(langPair).special : levelsTab === 'yks' ? getCategories(langPair).yksHazirlik : getCategories(langPair).ydsKelimeleri).map(cat => {
+                    const isSelected = activeCategory === cat.id;
+                    const p = getCategoryProgressInline(cat.id);
+                    return (
+                      <div 
+                        key={cat.id}
+                        onClick={() => handleSelectCategory(cat.id)}
+                        className={`p-3 rounded-xl cursor-pointer transition-all border flex flex-col justify-between relative overflow-hidden active:scale-95 ${isSelected ? 'bg-cyan-500/10 border-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.2)]' : 'bg-[#111625]/90 border-gray-800 hover:border-cyan-500/30'}`}
+                      >
+                        {isSelected && <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-cyan-400" />}
+                        <div className="mb-2">
+                          <div className="flex justify-between items-center">
+                            <span className={`text-[9px] font-mono font-black ${isSelected ? 'text-cyan-400' : 'text-gray-400'}`}>
+                              {cat.id.includes('sentences') ? 'SENTENCE' : 'VOCAB'}
+                            </span>
+                            {isSelected ? (
+                              <span className="text-[9px] font-black text-emerald-400 uppercase tracking-widest animate-pulse">
+                                ● LINKED
+                              </span>
+                            ) : (
+                              <span className="text-[9px] font-black text-gray-500 uppercase tracking-widest">
+                                CONNECT
+                              </span>
+                            )}
+                          </div>
+                          <h4 className={`text-xs font-black tracking-wide mt-1 truncate ${isSelected ? 'text-white' : 'text-gray-300'}`}>
+                            {getCategoryDisplayName(cat.id, language)}
+                          </h4>
+                        </div>
+                        
+                        {/* Mini progress bar on level card */}
+                        <div className="w-full mt-2 pt-2 border-t border-gray-850">
+                          <div className="w-full bg-gray-950 rounded-full h-1 overflow-hidden">
+                            <div className="bg-cyan-400 h-full" style={{ width: `${p.pct || 0}%` }} />
+                          </div>
+                          <div className="flex justify-between items-center mt-1 text-[9px] font-bold text-gray-400 font-mono">
+                            <span>{p.pct || 0}% Mastery</span>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
 
               {/* SECTION 2: CHOOSE GAME CABINET (Direct) */}
               <div className="w-full mb-6">
@@ -3224,7 +3342,7 @@ function DesktopSidePanel({ language }) {
 
 
           {/* Bottom Nav Bar */}
-          <nav className="absolute bottom-0 left-0 w-full z-50 bg-[#0d1222]/95 border-t border-gray-850 backdrop-blur-md pt-3 pb-5 px-6 flex justify-between items-center text-center shrink-0">
+          <nav className="fixed bottom-0 left-0 w-full z-50 bg-[#0d1222]/95 border-t border-gray-850 backdrop-blur-md pt-3 pb-5 px-6 max-w-md mx-auto left-1/2 -translate-x-1/2 flex justify-between items-center text-center shrink-0">
             <button 
               onClick={() => setActiveTab('home')}
               className={`flex flex-col items-center gap-1 flex-1 ${activeTab === 'home' ? 'text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.6)]' : 'text-gray-500 hover:text-gray-300 transition-colors'}`}
@@ -3479,48 +3597,6 @@ function DesktopSidePanel({ language }) {
         });
       });
     }
-  </script>
-  <script>
-    // Universal Mobile Resizer for exact viewport fitting
-    function applyUniversalSizing() {
-      const container = document.getElementById('game-container');
-      if (!container) return;
-      
-      // Ignore if in desktop portal mode
-      if (document.body.classList.contains('desktop-portal-mode')) {
-        container.style.maxWidth = '';
-        container.style.maxHeight = '';
-        document.body.style.minHeight = '';
-        return;
-      }
-
-      let w = window.innerWidth;
-      let h = window.innerHeight;
-      
-      // Target Aspect Ratio: 2/3. So width = height * 2/3
-      let targetWidth = h * (2 / 3);
-      
-      // Cap at 500px as per CSS design
-      if (targetWidth > 500) targetWidth = 500;
-      // Cap at screen width to prevent horizontal overflow
-      if (targetWidth > w) targetWidth = w;
-      
-      container.style.maxWidth = `${targetWidth}px`;
-      container.style.maxHeight = `${h}px`;
-      
-      // Ensure body doesn't cause overflow scrolling on mobile browsers
-      document.body.style.minHeight = `${h}px`;
-    }
-
-    window.addEventListener('resize', applyUniversalSizing);
-    window.addEventListener('orientationchange', () => {
-      applyUniversalSizing();
-      setTimeout(applyUniversalSizing, 100);
-      setTimeout(applyUniversalSizing, 300);
-    });
-    
-    applyUniversalSizing();
-    setTimeout(applyUniversalSizing, 100);
   </script>
 </body>
 </html>
