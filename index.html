@@ -1699,7 +1699,7 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
 
             </div>
 
-            <div className="flex-grow relative pointer-events-none flex flex-col items-center justify-center p-8 z-10">
+            <div id="desktop-standby-overlay" className="flex-grow relative pointer-events-none flex flex-col items-center justify-center p-8 z-10">
                {activeShell === 'about' ? (
                  <div className="absolute inset-0 pointer-events-auto z-[60] bg-[#05020a]/95 backdrop-blur-md overflow-hidden flex flex-col shadow-[inset_0_0_50px_rgba(0,0,0,0.8)]">
                    <div className="w-full p-4 flex justify-end shrink-0">
@@ -2238,7 +2238,10 @@ function DesktopSidePanel({ language }) {
         const score = parseInt(localStorage.getItem('memolandum_saved_score')) || 0;
         const gems = parseInt(localStorage.getItem('memolandum_collected_gems')) || 0;
         const high = parseInt(localStorage.getItem('memolandum_high_score')) || 0;
-        const activeSh = localStorage.getItem('memolandum_active_shell') || 'shooter';
+        let activeSh = localStorage.getItem('memolandum_active_shell') || 'shooter';
+        if (activeSh === '[object Object]' || !['shooter', 'breakout', 'worddrop', 'highway', 'wordascent', 'invaders'].includes(activeSh)) {
+          activeSh = 'shooter';
+        }
 
         if (stage) {
           setSavedStage(stage);

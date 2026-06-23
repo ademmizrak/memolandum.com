@@ -63,6 +63,11 @@ body.desktop-portal-mode #main-menu.hidden {
   opacity: 1 !important;
 }
 
+/* Hide the standby overlay when main menu has hidden class (game is running) */
+body.desktop-portal-mode #main-menu.hidden #desktop-standby-overlay {
+  display: none !important;
+}
+
 body.desktop-portal-mode #game-container {
   /* Keep game-container centered and sized correctly */
   margin: 0 auto;
