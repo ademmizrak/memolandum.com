@@ -393,8 +393,8 @@ class WordDropGame {
       turkish: w.translation.toUpperCase()
     }));
 
-    // Fetch './data/fillers.json' asynchronously to merge/override if available
-    fetch('./data/fillers.json')
+    // Fetch '/data/fillers.json' asynchronously to merge/override if available
+    fetch('/data/fillers.json')
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {

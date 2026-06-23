@@ -432,7 +432,7 @@ class HighwayGame {
     }));
 
     // Load fillers asynchronously to update list
-    fetch('./data/fillers.json')
+    fetch('/data/fillers.json')
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {

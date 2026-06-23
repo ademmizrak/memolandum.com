@@ -8,6 +8,10 @@
     ],
     "rewrites": [
       {
+        "source": "/oyna/**",
+        "function": "ssr"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }

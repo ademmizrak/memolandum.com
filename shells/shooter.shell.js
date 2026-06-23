@@ -712,7 +712,7 @@ let prefetchedData = null;
 function prefetchStageData(jsonFileName) {
   prefetchedData = null;
   
-  let dataPath = `./data/${jsonFileName}`;
+  let dataPath = `/data/${jsonFileName}`;
 
   prefetchPromise = fetch(dataPath)
     .then(response => {
@@ -2486,7 +2486,7 @@ function loadLevel(jsonFileName, isTransition = false) {
     window.sessionScore = 0;
   }
 
-  let dataPath = `./data/${jsonFileName}`;
+  let dataPath = `/data/${jsonFileName}`;
 
   fetch(dataPath)
     .then(response => {
@@ -2599,7 +2599,7 @@ function launchExam() {
     loadingScreen.classList.remove('hidden');
   }
 
-  let dataPath = `./data/${category}`;
+  let dataPath = `/data/${category}`;
 
   fetch(dataPath)
     .then(response => {

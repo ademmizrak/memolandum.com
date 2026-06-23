@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <title>Memolandum - İngilizce Kelime Ezberleme Oyunu</title>
+  <title>Memolandum | Oyna, Ezberle - Kelime Öğrenme Oyunu</title>
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0d0d1a">
   <meta name="description" content="Siber uzay arcade temasıyla eğlenirken İngilizce kelime ezberleyin! Memolandum, retro oynanış eşliğinde A1-B2 seviyelerinde kelime dağarcığınızı hızla geliştirir.">
@@ -890,6 +890,72 @@
 
     const { useState, useEffect } = React;
 
+    const ALL_ROOT_LANGUAGES = [
+      { id: 'English', label: 'İngilizce', flag: '🇬🇧', desc: 'English' },
+      { id: 'spanish', label: 'İspanyolca', flag: '🇪🇸', desc: 'Spanish' },
+      { id: 'portugal', label: 'Portekizce', flag: '🇵🇹', desc: 'Portuguese' },
+      { id: 'Tr_De_Genel', label: 'Almanca', flag: '🇩🇪', desc: 'German' },
+      { id: 'Tr_Fr_Genel', label: 'Fransızca', flag: '🇫🇷', desc: 'French' },
+      { id: 'Tr_Ita_Genel', label: 'İtalyanca', flag: '🇮🇹', desc: 'Italian' },
+      { id: 'Russian', label: 'Rusça', flag: '🇷🇺', desc: 'Russian' },
+      { id: 'Greek', label: 'Yunanca', flag: '🇬🇷', desc: 'Greek' },
+      { id: 'Kore', label: 'Korece', flag: '🇰🇷', desc: 'Korean' },
+      { id: 'Osm_Tr', label: 'Osmanlıca', flag: '📜', desc: 'Ottoman' }
+    ];
+
+    function slugifyCategoryPath(path) {
+      if (!path) return "";
+      let name = path.replace('.json', '');
+      name = name.replace('Tr_Eng_', 'Ingilizce_');
+      name = name.replace('spanish', 'Ispanyolca');
+      name = name.replace('french', 'Fransizca');
+      name = name.replace('german', 'Almanca');
+      name = name.replace('italian', 'Italyanca');
+      name = name.replace('russian', 'Rusca');
+      name = name.replace('portuguese', 'Portekizce');
+      name = name.replace('portugal', 'Portekizce');
+      name = name.replace('korean', 'Korece');
+      name = name.replace('Kore', 'Korece');
+      name = name.replace('ottoman', 'Osmanlica');
+      name = name.replace('Osm_Tr', 'Osmanlica');
+      name = name.replace('greek', 'Yunanca');
+      name = name.replace('Greek', 'Yunanca');
+      
+      return name.toLowerCase()
+        .replace(/ç/g, 'c')
+        .replace(/ğ/g, 'g')
+        .replace(/ı/g, 'i')
+        .replace(/ö/g, 'o')
+        .replace(/ş/g, 's')
+        .replace(/ü/g, 'u')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+    }
+
+    function getPathFromSlug(slug, manifest) {
+      if (!manifest || !slug) return null;
+      const allFiles = [];
+      if (manifest.singleLanguages) {
+        manifest.singleLanguages.forEach(l => l.files.forEach(f => allFiles.push(f.path)));
+      }
+      if (manifest.englishCategories) {
+        manifest.englishCategories.forEach(c => c.files.forEach(f => allFiles.push(f.path)));
+      }
+      
+      for (let p of allFiles) {
+        if (slugifyCategoryPath(p) === slug) return p;
+      }
+      return null;
+    }
+
+    function getLanguageIdFromPath(path) {
+      if (!path) return 'English';
+      const folder = path.split('/')[0];
+      if (folder.startsWith('Tr_Eng_')) return 'English';
+      if (folder === 'Tr_Port_Genel') return 'portugal';
+      return folder;
+    }
+
     // ----------------------------------------------------
     // Translation Dictionary & Language Mappings
     // ----------------------------------------------------
@@ -1093,6 +1159,21 @@
     };
 
     const getCategoryDisplayName = (jsonFileName, lang) => {
+      const manifest = window.DATA_MANIFEST;
+      if (manifest && jsonFileName) {
+        const allFiles = [
+          ...manifest.singleLanguages.flatMap(l => l.files),
+          ...manifest.englishCategories.flatMap(c => c.files)
+        ];
+        const match = allFiles.find(f => f.path === jsonFileName || f.filename === jsonFileName);
+        if (match) {
+          if (match.directionLabel) {
+            return `${match.label} (${lang === 'TR' ? match.directionLabelTR : match.directionLabel})`;
+          }
+          return match.label;
+        }
+      }
+
       const TR_Names = {
         'Osm_Tr/Osm_tr_100.json': 'Osmanlıca 100',
         'Osm_Tr/Osm_tr_200.json': 'Osmanlıca 200',
@@ -1391,14 +1472,25 @@
 
 function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, activeShell, setActiveShell, activeCategory, setActiveCategory, setIsDesktopMode, setLanguage, handleLaunchMode }) {
       const [showContact, setShowContact] = React.useState(false);
-      const [activeDropdown, setActiveDropdown] = React.useState(false);
+      const [showLangDropdown, setShowLangDropdown] = React.useState(false);
       
       const manifest = window.DATA_MANIFEST || { singleLanguages: [], englishCategories: [] };
-      const currentLanguageObj = manifest.singleLanguages.find(l => l.files.some(f => f.path === activeCategory)) || null;
-      const currentEngCatObj = manifest.englishCategories.find(c => c.files.some(f => f.path === activeCategory)) || null;
+      
+      const currentLanguageId = getLanguageIdFromPath(activeCategory);
 
-      const currentLanguage = currentLanguageObj ? currentLanguageObj.id : 'English';
-      const currentEnglishCategory = currentEngCatObj ? currentEngCatObj.id : (manifest.englishCategories.length > 0 ? manifest.englishCategories[0].id : null);
+      // Find active category file object
+      const activeFileObj = React.useMemo(() => {
+        const allFiles = [
+          ...manifest.singleLanguages.flatMap(l => l.files),
+          ...manifest.englishCategories.flatMap(c => c.files)
+        ];
+        return allFiles.find(f => f.path === activeCategory) || null;
+      }, [activeCategory, manifest]);
+
+      const currentDirection = activeFileObj ? activeFileObj.direction : '';
+
+      const currentEngCatObj = manifest.englishCategories.find(c => c.files.some(f => f.path === activeCategory)) || null;
+      const currentEnglishCategoryId = currentEngCatObj ? currentEngCatObj.id : (manifest.englishCategories.length > 0 ? manifest.englishCategories[0].id : null);
 
       const handleShellSelect = (shell) => {
         setActiveShell(shell);
@@ -1411,18 +1503,28 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
 
       const handleLevelSelect = (levelPath) => {
         setActiveCategory(levelPath);
-        if (typeof handleLaunchMode === 'function') {
-          handleLaunchMode(activeShell);
-        }
       };
 
+      let directions = [];
       let activeLevels = [];
-      if (currentLanguage === 'English') {
-        const cat = manifest.englishCategories.find(c => c.id === currentEnglishCategory);
+      
+      if (currentLanguageId === 'English') {
+        const cat = manifest.englishCategories.find(c => c.id === currentEnglishCategoryId);
         if (cat) activeLevels = cat.files;
       } else {
-        const lang = manifest.singleLanguages.find(l => l.id === currentLanguage);
-        if (lang) activeLevels = lang.files;
+        const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
+        if (langObj) {
+          langObj.files.forEach(f => {
+            if (!directions.some(d => d.direction === f.direction)) {
+              directions.push({
+                direction: f.direction,
+                label: f.directionLabel,
+                labelTR: f.directionLabelTR
+              });
+            }
+          });
+          activeLevels = langObj.files.filter(f => f.direction === currentDirection);
+        }
       }
 
       const shells = [
@@ -1441,57 +1543,14 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
             <div className="flex justify-between items-center px-6">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">🕹️</span>
-                <h1 className="text-2xl font-black tracking-widest text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.45)]">MEMOLANDUM</h1>
-                <span className="text-xs text-emerald-500 uppercase font-bold ml-2">Desktop Portal</span>
+                <div>
+                  <h1 className="text-xl font-black tracking-widest text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.45)]">MEMOLANDUM</h1>
+                  <p className="text-[9px] text-cyan-400 font-bold uppercase tracking-[0.25em] -mt-1">OYNA, EZBERLE!</p>
+                </div>
+                <span className="text-[10px] text-emerald-500 uppercase font-bold ml-4 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20">Desktop Portal</span>
               </div>
               
               <div className="flex items-center gap-4 flex-grow justify-end">
-                {/* English Categories Dropdown (Outside overflow-hidden so it drops down fully) */}
-                <div className="relative shrink-0 z-[100]">
-                  <button 
-                    onClick={() => setActiveDropdown(!activeDropdown)} 
-                    className={`flex items-center gap-2 px-4 py-2 rounded-lg border font-bold transition-colors shadow-[0_0_10px_rgba(6,182,212,0.2)] ${currentLanguage === 'English' ? 'bg-cyan-900/40 border-cyan-500/60 text-cyan-400 hover:bg-cyan-900/60' : 'bg-[#111625] border-gray-700 text-gray-400 hover:text-white hover:border-gray-500'}`}
-                  >
-                    <span>🇬🇧 İngilizce {currentLanguage === 'English' && currentEnglishCategory ? `(${manifest.englishCategories.find(c => c.id === currentEnglishCategory)?.label})` : ''}</span>
-                    <svg className={`w-4 h-4 transition-transform ${activeDropdown ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </button>
-                  
-                  {activeDropdown && (
-                    <div className="absolute top-full right-0 mt-2 w-64 bg-[#0f1629] border border-cyan-500/50 rounded-xl shadow-[0_15px_40px_rgba(0,0,0,0.9)] py-2 z-[100] max-h-[70vh] overflow-y-auto custom-scrollbar">
-                      {manifest.englishCategories.map(cat => (
-                        <button
-                          key={cat.id}
-                          onClick={() => {
-                            if (cat.files.length > 0) setActiveCategory(cat.files[0].path);
-                            setActiveDropdown(false);
-                          }}
-                          className={`w-full text-left px-4 py-3 text-sm font-bold transition-colors ${currentEnglishCategory === cat.id && currentLanguage === 'English' ? 'bg-cyan-500/20 text-cyan-400 border-l-4 border-cyan-400' : 'text-gray-300 hover:bg-[#111625] hover:text-white'}`}
-                        >
-                          {cat.label}
-                        </button>
-                      ))}
-                    </div>
-                  )}
-                </div>
-
-                {/* Other Languages (Scrollable) */}
-                <div className="flex items-center gap-2 overflow-x-auto custom-scrollbar max-w-[40vw] pr-2">
-                  <div className="flex items-center gap-2 bg-[#111625] px-4 py-1.5 rounded-lg border border-gray-800 shrink-0">
-                    {manifest.singleLanguages.map(lang => (
-                      <button
-                        key={lang.id}
-                        onClick={() => {
-                          if (lang.files.length > 0) setActiveCategory(lang.files[0].path);
-                          setActiveDropdown(false);
-                        }}
-                        className={`px-3 py-1 rounded text-xs font-bold transition-colors whitespace-nowrap ${currentLanguage === lang.id ? 'bg-emerald-500 text-black shadow-[0_0_8px_rgba(16,185,129,0.4)]' : 'bg-transparent text-gray-400 hover:bg-gray-800 hover:text-gray-200'}`}
-                      >
-                        {lang.label}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-                
                 <button
                   onClick={() => {
                     if (typeof cleanControlButtons === 'function') cleanControlButtons();
@@ -1509,24 +1568,134 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
 
           <div className="flex-grow flex flex-row w-full overflow-hidden">
             
-            <div className="w-[320px] shrink-0 bg-[#0d1222] border-r border-gray-800 pointer-events-auto overflow-y-auto custom-scrollbar p-6 shadow-[10px_0_30px_rgba(0,0,0,0.5)] z-40 flex flex-col gap-3">
-              <h3 className="text-xs font-black tracking-widest text-emerald-400 mb-2 uppercase flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                Eğitim Seviyeleri
-              </h3>
-              {activeLevels.map(lvl => (
+            <div className="w-[320px] shrink-0 bg-[#0d1222] border-r border-gray-800 pointer-events-auto overflow-y-auto custom-scrollbar p-6 shadow-[10px_0_30px_rgba(0,0,0,0.5)] z-40 flex flex-col gap-5">
+              
+              {/* 1. ÖĞRENİLECEK DİL */}
+              <div className="relative">
+                <label className="text-[10px] font-black tracking-widest text-emerald-400 uppercase block mb-1.5 flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                  1. ÖĞRENİLECEK DİL
+                </label>
                 <button
-                  key={lvl.path}
-                  onClick={() => handleLevelSelect(lvl.path)}
-                  className={`w-full text-left p-4 rounded-xl border transition-all ${activeCategory === lvl.path ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-[0_0_15px_rgba(16,185,129,0.2)]' : 'bg-[#111625] border-gray-800 text-gray-300 hover:border-emerald-500/30'}`}
+                  onClick={() => setShowLangDropdown(!showLangDropdown)}
+                  className="w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-[#111625] border border-gray-800 text-left font-bold text-xs text-white hover:border-cyan-500/50 transition-colors"
                 >
-                  <div className="font-bold text-sm tracking-wide">{lvl.label}</div>
+                  <span className="flex items-center gap-2">
+                    <span className="text-base">{ALL_ROOT_LANGUAGES.find(l => l.id === currentLanguageId)?.flag}</span>
+                    <span>{ALL_ROOT_LANGUAGES.find(l => l.id === currentLanguageId)?.label}</span>
+                  </span>
+                  <svg className={`w-4 h-4 text-cyan-400 transition-transform ${showLangDropdown ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
-              ))}
+                
+                {showLangDropdown && (
+                  <div className="absolute top-full left-0 right-0 mt-1 bg-[#0f1629] border border-cyan-500/50 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.8)] py-1.5 z-[110] max-h-[250px] overflow-y-auto custom-scrollbar">
+                    {ALL_ROOT_LANGUAGES.map(lang => (
+                      <button
+                        key={lang.id}
+                        onClick={() => {
+                          let targetPath = '';
+                          if (lang.id === 'English') {
+                            if (manifest.englishCategories.length > 0 && manifest.englishCategories[0].files.length > 0) {
+                              targetPath = manifest.englishCategories[0].files[0].path;
+                            }
+                          } else {
+                            const singleL = manifest.singleLanguages.find(l => l.id === lang.id);
+                            if (singleL && singleL.files.length > 0) {
+                              targetPath = singleL.files[0].path;
+                            }
+                          }
+                          if (targetPath) {
+                            handleLevelSelect(targetPath);
+                          }
+                          setShowLangDropdown(false);
+                        }}
+                        className={`w-full text-left px-3.5 py-2 text-xs font-bold transition-colors flex items-center gap-2.5 ${currentLanguageId === lang.id ? 'bg-cyan-500/10 text-cyan-400 border-l-4 border-cyan-400' : 'text-gray-300 hover:bg-[#111625] hover:text-white'}`}
+                      >
+                        <span className="text-base">{lang.flag}</span>
+                        <span>{lang.label}</span>
+                        <span className="text-[9px] text-gray-500 font-normal ml-auto uppercase tracking-wider">{lang.desc}</span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* 2. ÖĞRENME YÖNÜ / KATEGORİ */}
+              {currentLanguageId === 'English' ? (
+                <div>
+                  <label className="text-[10px] font-black tracking-widest text-emerald-400 uppercase block mb-1.5 flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                    2. KATEGORİ SEÇİMİ
+                  </label>
+                  <div className="flex flex-col gap-1">
+                    {manifest.englishCategories.map(cat => (
+                      <button
+                        key={cat.id}
+                        onClick={() => {
+                          if (cat.files.length > 0) {
+                            handleLevelSelect(cat.files[0].path);
+                          }
+                        }}
+                        className={`w-full text-left px-3.5 py-2 rounded-lg border text-xs font-bold transition-all ${currentEnglishCategoryId === cat.id ? 'bg-cyan-500/10 border-cyan-500/50 text-cyan-400 shadow-[0_0_8px_rgba(6,182,212,0.15)]' : 'bg-[#111625] border-gray-800 text-gray-400 hover:border-gray-700 hover:text-gray-200'}`}
+                      >
+                        {cat.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                directions.length > 0 && (
+                  <div>
+                    <label className="text-[10px] font-black tracking-widest text-emerald-400 uppercase block mb-1.5 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                      2. ÖĞRENME YÖNÜ
+                    </label>
+                    <div className="flex flex-col gap-1">
+                      {directions.map(dir => (
+                        <button
+                          key={dir.direction}
+                          onClick={() => {
+                            const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
+                            if (langObj) {
+                              const firstFile = langObj.files.find(f => f.direction === dir.direction);
+                              if (firstFile) {
+                                handleLevelSelect(firstFile.path);
+                              }
+                            }
+                          }}
+                          className={`w-full text-left px-3.5 py-2 rounded-lg border text-xs font-bold transition-all ${currentDirection === dir.direction ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-[0_0_8px_rgba(16,185,129,0.15)]' : 'bg-[#111625] border-gray-800 text-gray-400 hover:border-gray-700 hover:text-gray-200'}`}
+                        >
+                          {language === 'TR' ? dir.labelTR : dir.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )
+              )}
+
+              {/* 3. SEVİYE SEÇİMİ */}
+              <div className="flex-grow flex flex-col min-h-0">
+                <label className="text-[10px] font-black tracking-widest text-emerald-400 uppercase block mb-1.5 flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                  3. SEVİYE SEÇİMİ
+                </label>
+                <div className="flex flex-col gap-1 overflow-y-auto custom-scrollbar flex-grow pr-1">
+                  {activeLevels.map(lvl => (
+                    <button
+                      key={lvl.path}
+                      onClick={() => handleLevelSelect(lvl.path)}
+                      className={`w-full text-left px-3.5 py-2.5 rounded-xl border transition-all ${activeCategory === lvl.path ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]' : 'bg-[#111625] border-gray-800/80 text-gray-400 hover:border-gray-700 hover:text-gray-200'}`}
+                    >
+                      <div className="font-bold text-xs tracking-wide">{lvl.label}</div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
             </div>
 
-            <div className="flex-grow relative pointer-events-none">
-               {activeShell === 'about' && (
+            <div className="flex-grow relative pointer-events-none flex flex-col items-center justify-center p-8 z-10">
+               {activeShell === 'about' ? (
                  <div className="absolute inset-0 pointer-events-auto z-[60] bg-[#05020a]/95 backdrop-blur-md overflow-hidden flex flex-col shadow-[inset_0_0_50px_rgba(0,0,0,0.8)]">
                    <div className="w-full p-4 flex justify-end shrink-0">
                      <button 
@@ -1538,6 +1707,46 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
                      </button>
                    </div>
                    <iframe src="about.html" className="w-full flex-grow border-none" title="About Us & Science" />
+                 </div>
+               ) : (
+                 <div className="pointer-events-auto bg-[#0d1222]/95 p-8 rounded-2xl border border-cyan-500/30 flex flex-col items-center gap-6 shadow-[0_0_40px_rgba(6,182,212,0.15)] backdrop-blur-xl max-w-md w-full transition-all duration-500 hover:border-cyan-400/50 hover:shadow-[0_0_50px_rgba(6,182,212,0.25)]">
+                   <div className="flex flex-col items-center gap-2">
+                     <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 mb-2">
+                       <span className="text-2xl animate-pulse">⚡</span>
+                     </div>
+                     <h2 className="text-xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400 tracking-widest text-center">
+                       {language === 'TR' ? 'SİSTEM BEKLEMEDE' : 'SYSTEM STANDBY'}
+                     </h2>
+                     <p className="text-gray-400 text-xs font-bold text-center tracking-wide mt-1">
+                       {language === 'TR' 
+                         ? 'Sol menüden seviyeyi, sağ menüden oyun modunu doğrulayın.' 
+                         : 'Verify level from the left menu and game mode from the right.'}
+                     </p>
+                   </div>
+
+                   <div className="w-full bg-[#111625] rounded-xl p-4 border border-gray-800 flex flex-col gap-3">
+                     <div className="flex justify-between items-center text-xs">
+                       <span className="text-gray-500 uppercase font-black tracking-wider">{language === 'TR' ? 'HEDEF SEKTÖR:' : 'TARGET LEVEL:'}</span>
+                       <span className="text-emerald-400 font-bold text-right">{activeCategory ? getCategoryDisplayName(activeCategory, language) : 'WAITING...'}</span>
+                     </div>
+                     <div className="w-full h-px bg-gray-850"></div>
+                     <div className="flex justify-between items-center text-xs">
+                       <span className="text-gray-500 uppercase font-black tracking-wider">{language === 'TR' ? 'OYUN MODÜLÜ:' : 'ENGINE SHELL:'}</span>
+                       <span className="text-cyan-400 font-bold uppercase text-right">{activeShell || 'WAITING...'}</span>
+                     </div>
+                   </div>
+
+                   <button 
+                     onClick={() => {
+                       if (typeof handleLaunchMode === 'function') {
+                         handleLaunchMode(activeShell);
+                       }
+                     }} 
+                     disabled={!activeCategory || !activeShell} 
+                     className="w-full py-4 mt-2 bg-gradient-to-r from-cyan-600 to-emerald-600 text-white font-black text-sm uppercase tracking-[0.2em] rounded-xl hover:from-cyan-500 hover:to-emerald-500 transition-all shadow-[0_0_20px_rgba(6,182,212,0.4)] hover:shadow-[0_0_30px_rgba(6,182,212,0.6)] disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none active:scale-95"
+                   >
+                     {language === 'TR' ? 'EZBERLEMEYE BAŞLA' : 'START MEMORIZING'}
+                   </button>
                  </div>
                )}
             </div>
@@ -1806,8 +2015,69 @@ function DesktopSidePanel({ language }) {
       
       const [activeTab, setActiveTab] = useState('home');
       const [activeShell, setActiveShell] = useState('shooter');
-      const [activeCategory, setActiveCategory] = useState('a1_words.json');
+      const getInitialCategory = () => {
+        const path = window.location.pathname;
+        if (path.startsWith('/oyna/')) {
+          const slug = path.replace('/oyna/', '').replace(/\/$/, '');
+          const manifest = window.DATA_MANIFEST;
+          if (manifest) {
+            const matchedPath = getPathFromSlug(slug, manifest);
+            if (matchedPath) return matchedPath;
+          }
+        }
+        return 'Tr_Eng_Genel/A1_words.json';
+      };
+
+      const [activeCategory, setActiveCategory] = useState(getInitialCategory);
+      const currentLanguageId = getLanguageIdFromPath(activeCategory);
       const [levelsTab, setLevelsTab] = useState('core');
+
+      const manifest = window.DATA_MANIFEST || { singleLanguages: [], englishCategories: [] };
+      
+      const activeFileObj = React.useMemo(() => {
+        const allFiles = [
+          ...manifest.singleLanguages.flatMap(l => l.files),
+          ...manifest.englishCategories.flatMap(c => c.files)
+        ];
+        return allFiles.find(f => f.path === activeCategory) || null;
+      }, [activeCategory, manifest]);
+
+      const currentDirection = activeFileObj ? activeFileObj.direction : '';
+      
+      const currentEngCatObj = manifest.englishCategories.find(c => c.files.some(f => f.path === activeCategory)) || null;
+      const currentEnglishCategoryId = currentEngCatObj ? currentEngCatObj.id : (manifest.englishCategories.length > 0 ? manifest.englishCategories[0].id : null);
+
+      const directions = React.useMemo(() => {
+        let dirs = [];
+        if (currentLanguageId !== 'English') {
+          const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
+          if (langObj) {
+            langObj.files.forEach(f => {
+              if (!dirs.some(d => d.direction === f.direction)) {
+                dirs.push({
+                  direction: f.direction,
+                  label: f.directionLabel,
+                  labelTR: f.directionLabelTR
+                });
+              }
+            });
+          }
+        }
+        return dirs;
+      }, [currentLanguageId, manifest]);
+
+      const activeLevels = React.useMemo(() => {
+        if (currentLanguageId === 'English') {
+          const cat = manifest.englishCategories.find(c => c.id === currentEnglishCategoryId);
+          return cat ? cat.files : [];
+        } else {
+          const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
+          if (langObj) {
+            return langObj.files.filter(f => f.direction === currentDirection);
+          }
+        }
+        return [];
+      }, [currentLanguageId, currentEnglishCategoryId, currentDirection, manifest]);
 
       const [savedStage, setSavedStage] = useState(null);
       const [savedLevel, setSavedLevel] = useState(1);
@@ -1855,6 +2125,45 @@ function DesktopSidePanel({ language }) {
           };
         }
       }, []);
+      // --- ROUTING EFFECTS ---
+      useEffect(() => {
+        const handlePopState = (event) => {
+          const manifest = window.DATA_MANIFEST;
+          if (!manifest) return;
+          const path = window.location.pathname;
+          if (path.startsWith('/oyna/')) {
+            const slug = path.replace('/oyna/', '').replace(/\/$/, '');
+            const matchedPath = getPathFromSlug(slug, manifest);
+            if (matchedPath) {
+              setActiveCategory(matchedPath);
+              if (typeof window.loadLevel === 'function') {
+                window.loadLevel(matchedPath);
+              }
+            }
+          }
+        };
+
+        window.addEventListener('popstate', handlePopState);
+        return () => {
+          window.removeEventListener('popstate', handlePopState);
+        };
+      }, []);
+
+      useEffect(() => {
+        if (activeCategory) {
+          const slug = slugifyCategoryPath(activeCategory);
+          if (slug) {
+            const newUrl = `/oyna/${slug}`;
+            if (window.location.pathname !== newUrl) {
+              window.history.pushState({path: activeCategory}, '', newUrl);
+            }
+            
+            const cleanName = getCategoryDisplayName(activeCategory, language);
+            document.title = `Memolandum | ${cleanName} | Oyna, Ezberle`;
+          }
+        }
+      }, [activeCategory, language]);
+      // -----------------------
 
       useEffect(() => {
         // Original menu observer
@@ -1967,36 +2276,46 @@ function DesktopSidePanel({ language }) {
           const dbStr = localStorage.getItem('memolandum_mastery_db');
           const db = dbStr ? JSON.parse(dbStr) : {};
           
-          let words = [];
+          const processWords = (wordsList) => {
+            let mastered = 0;
+            wordsList.forEach(w => {
+              const key = (w.word || w.en || "").toString().toUpperCase();
+              if (key && db[key] && db[key].totalHits >= 3) {
+                mastered++;
+              }
+            });
+            const total = wordsList.length;
+            const pct = total > 0 ? Math.round((mastered / total) * 100) : 0;
+            setVocabProgress({ mastered, total, pct });
+          };
+
           if (window.FALLBACK_DATA && window.FALLBACK_DATA[categoryName]) {
-            words = window.FALLBACK_DATA[categoryName];
+            processWords(window.FALLBACK_DATA[categoryName]);
           } else {
-            const lengthMap = {
-              'a1_words.json': 100, 'a2_words.json': 100, 'b1_words.json': 100, 'b2_words.json': 100,
-              'c1_words.json': 100, 'c2_words.json': 100,
-              'phrasal_verbs.json': 50, 'conjunctions.json': 50, 'academic_verbs.json': 50,
-              'prepositions.json': 50, 'abstract_adjectives.json': 50,
-              'sentences/tr_sentences_01_100.json': 100, 'sentences/tr_sentences_101_200.json': 100,
-              'sentences/tr_sentences_201_300.json': 100, 'sentences/tr_sentences_301_400.json': 100,
-              'sentences/tr_sentences_401_500.json': 100
-            };
-            const mockTotal = lengthMap[categoryName] || 100;
-            const mockMastered = Math.min(mockTotal, Math.round(mockTotal * 0.35));
-            setVocabProgress({ mastered: mockMastered, total: mockTotal, pct: 35 });
-            return;
+            fetch('/data/' + categoryName)
+              .then(res => {
+                if (!res.ok) throw new Error();
+                return res.json();
+              })
+              .then(data => {
+                if (Array.isArray(data)) {
+                  processWords(data);
+                }
+              })
+              .catch(() => {
+                const lengthMap = {
+                  'a1_words.json': 100, 'a2_words.json': 100, 'b1_words.json': 100, 'b2_words.json': 100,
+                  'c1_words.json': 100, 'c2_words.json': 100,
+                  'phrasal_verbs.json': 50, 'conjunctions.json': 50, 'academic_verbs.json': 50,
+                  'prepositions.json': 50, 'abstract_adjectives.json': 50,
+                  'sentences/tr_sentences_01_100.json': 100, 'sentences/tr_sentences_101_200.json': 100,
+                  'sentences/tr_sentences_201_300.json': 100, 'sentences/tr_sentences_301_400.json': 100,
+                  'sentences/tr_sentences_401_500.json': 100
+                };
+                const mockTotal = lengthMap[categoryName] || 100;
+                setVocabProgress({ mastered: 0, total: mockTotal, pct: 0 });
+              });
           }
-
-          let mastered = 0;
-          words.forEach(w => {
-            const key = (w.word || w.en || "").toString().toUpperCase();
-            if (key && db[key] && db[key].totalHits >= 3) {
-              mastered++;
-            }
-          });
-
-          const total = words.length;
-          const pct = total > 0 ? Math.round((mastered / total) * 100) : 0;
-          setVocabProgress({ mastered, total, pct });
         } catch (e) {
           setVocabProgress({ mastered: 0, total: 100, pct: 0 });
         }
@@ -2385,9 +2704,6 @@ function DesktopSidePanel({ language }) {
 
                       {(() => {
                   const manifest = window.DATA_MANIFEST || { singleLanguages: [], englishCategories: [] };
-                  const currentLanguageObj = manifest.singleLanguages.find(l => l.files.some(f => f.path === activeCategory)) || null;
-                  const currentEngCatObj = manifest.englishCategories.find(c => c.files.some(f => f.path === activeCategory)) || null;
-
                   return (
                     <div className="relative">
                       <button 
@@ -2398,51 +2714,39 @@ function DesktopSidePanel({ language }) {
                       </button>
 
                       {showLanguageMenu && (
-                        <div className="absolute right-0 top-10 w-[240px] bg-[#0f1629] border border-cyan-500/50 rounded-xl shadow-[0_0_15px_rgba(6,182,212,0.3)] z-50 overflow-y-auto max-h-[50vh] custom-scrollbar flex flex-col">
-                          <button 
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              const engList = document.getElementById('mobile-eng-list');
-                              if (engList) {
-                                engList.classList.toggle('hidden');
-                              }
-                            }}
-                            className="px-4 py-3 bg-[#111625] border-b border-gray-800 flex justify-between items-center hover:bg-[#181d2e] transition-colors"
-                          >
-                            <span className="text-[10px] font-black text-cyan-500 tracking-widest uppercase">🇬🇧 İngilizce {currentEngCatObj ? `(${currentEngCatObj.label})` : ''}</span>
-                            <svg className="w-4 h-4 text-cyan-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
-                          </button>
-                          
-                          <div id="mobile-eng-list" className="hidden flex-col bg-[#05020a]">
-                            {manifest.englishCategories.map(cat => (
+                        <div className="absolute right-0 top-10 w-[220px] bg-[#0f1629] border border-cyan-500/50 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.8)] py-1.5 z-50 overflow-y-auto max-h-[50vh] custom-scrollbar flex flex-col">
+                          <div className="px-4 py-2 bg-[#111625] border-b border-gray-800 text-[10px] font-black text-cyan-400 tracking-widest uppercase mb-1">
+                            ÖĞRENİLECEK DİL SEÇİMİ
+                          </div>
+                          {ALL_ROOT_LANGUAGES.map(lang => {
+                            const isSelected = currentLanguageId === lang.id;
+                            return (
                               <button 
-                                key={cat.id}
+                                key={lang.id}
                                 onClick={() => {
-                                  if (cat.files.length > 0) setActiveCategory(cat.files[0].path);
+                                  let targetPath = '';
+                                  if (lang.id === 'English') {
+                                    if (manifest.englishCategories.length > 0 && manifest.englishCategories[0].files.length > 0) {
+                                      targetPath = manifest.englishCategories[0].files[0].path;
+                                    }
+                                  } else {
+                                    const singleL = manifest.singleLanguages.find(l => l.id === lang.id);
+                                    if (singleL && singleL.files.length > 0) {
+                                      targetPath = singleL.files[0].path;
+                                    }
+                                  }
+                                  if (targetPath) {
+                                    setActiveCategory(targetPath);
+                                  }
                                   setShowLanguageMenu(false);
                                 }} 
-                                className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-b border-gray-800/50 ${currentEngCatObj && currentEngCatObj.id === cat.id ? 'text-cyan-300 bg-cyan-900/20 border-l-4 border-cyan-400' : 'text-gray-300'}`}
+                                className={`px-4 py-2.5 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-b border-gray-850 flex items-center gap-2.5 ${isSelected ? 'text-cyan-300 bg-cyan-900/10 border-l-4 border-cyan-400' : 'text-gray-300'}`}
                               >
-                                {cat.label}
+                                <span className="text-base">{lang.flag}</span>
+                                <span>{lang.label}</span>
                               </button>
-                            ))}
-                          </div>
-                          
-                          <div className="px-4 py-2 bg-[#111625] border-y border-gray-800 text-[10px] font-black text-emerald-500 tracking-widest uppercase mt-1">
-                            Diğer Diller
-                          </div>
-                          {manifest.singleLanguages.map(lang => (
-                            <button 
-                              key={lang.id}
-                              onClick={() => {
-                                if (lang.files.length > 0) setActiveCategory(lang.files[0].path);
-                                setShowLanguageMenu(false);
-                              }} 
-                              className={`px-4 py-3 text-xs font-bold text-left hover:bg-emerald-900/40 transition-colors border-b border-gray-800/50 ${currentLanguageObj && currentLanguageObj.id === lang.id ? 'text-emerald-300 bg-emerald-900/20' : 'text-gray-300'}`}
-                            >
-                              🌐 {lang.label}
-                            </button>
-                          ))}
+                            );
+                          })}
                         </div>
                       )}
                     </div>
@@ -2456,8 +2760,27 @@ function DesktopSidePanel({ language }) {
           {activeTab === 'home' && (
             <div className="w-full max-w-md flex flex-col items-center flex-grow px-1">
               
+              {/* HERO SLOGAN BANNER */}
+              <div className="w-full mb-6 relative overflow-hidden rounded-2xl bg-gradient-to-r from-purple-900/40 via-[#0a0f1d] to-cyan-900/40 border border-cyan-500/20 p-5 shadow-[0_0_20px_rgba(6,182,212,0.15)] flex flex-col justify-center items-center text-center shrink-0">
+                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(6,182,212,0.15),transparent_70%)] pointer-events-none" />
+                <div className="absolute inset-0 cyber-grid-bg opacity-10 pointer-events-none" />
+                <div className="relative z-10 flex flex-col items-center gap-1.5">
+                  <span className="text-[10px] font-black text-cyan-400 tracking-[0.3em] uppercase bg-cyan-500/10 px-2.5 py-0.5 rounded-full border border-cyan-400/20">
+                    {language === 'TR' ? 'SİBER ÖĞRENME PROTOKOLÜ' : 'CYBER LEARNING PROTOCOL'}
+                  </span>
+                  <h2 className="text-xl sm:text-2xl font-black tracking-widest text-white mt-1 drop-shadow-[0_0_12px_rgba(255,255,255,0.4)] uppercase">
+                    {language === 'TR' ? 'OYNA, EZBERLE!' : 'PLAY, MEMORIZE!'}
+                  </h2>
+                  <p className="text-[11px] text-gray-400 font-bold uppercase tracking-wide max-w-[280px]">
+                    {language === 'TR' 
+                      ? 'Retro arcade oyunlarıyla kelime dağarcığınızı saniyeler içinde kalıcı hale getirin.' 
+                      : 'Solidify your vocabulary database in seconds with retro arcade gaming.'}
+                  </p>
+                </div>
+              </div>
+
               {/* Pilot Status HUD (Header Widget) */}
-              <div className="w-full mb-6 p-4 bg-[#111625]/95 border border-gray-800 rounded-2xl shadow-[0_0_15px_rgba(0,240,255,0.05)] relative overflow-hidden">
+              <div className="w-full mb-6 p-4 bg-[#111625]/95 border border-gray-800 rounded-2xl shadow-[0_0_15px_rgba(0,240,255,0.05)] relative overflow-hidden shrink-0">
                 <div className="absolute top-0 right-0 w-24 h-24 bg-cyan-500/5 blur-2xl rounded-full" />
                 <div className="flex justify-between items-start mb-3">
                   <div>
@@ -2497,6 +2820,87 @@ function DesktopSidePanel({ language }) {
                     <span>{vocabProgress.mastered} / {vocabProgress.total} MASTERED</span>
                     <span className="animate-pulse text-emerald-400">SYSTEM STABLE</span>
                   </div>
+                </div>
+              </div>
+
+              {/* SECTION 1: SELECT SECTOR LEVEL */}
+              <div className="w-full mb-6 text-left shrink-0">
+                <div className="px-1 mb-3">
+                  <h2 className="text-sm font-black text-emerald-400 tracking-widest uppercase drop-shadow-[0_0_8px_rgba(16,185,129,0.3)]">
+                    1. SELECT SECTOR LEVEL
+                  </h2>
+                  <p className="text-[11px] text-gray-500 font-bold uppercase mt-0.5">
+                    {language === 'TR' ? 'HEDEF DİL SEVİYESİNİ VEYA KATEGORİSİNİ SEÇİN' : 'SELECT TARGET LANGUAGE LEVEL OR CATEGORY'}
+                  </p>
+                </div>
+                
+                {/* Category / Direction horizontal list if there are multiple */}
+                {currentLanguageId === 'English' ? (
+                  <div className="flex gap-2 overflow-x-auto pb-2 scrollable-x custom-scrollbar mb-3 px-1">
+                    {manifest.englishCategories.map(cat => (
+                      <button
+                        key={cat.id}
+                        onClick={() => {
+                          if (cat.files.length > 0) {
+                            setActiveCategory(cat.files[0].path);
+                          }
+                        }}
+                        className={`shrink-0 px-4 py-2 rounded-full border text-[11px] font-black uppercase tracking-wider transition-all ${
+                          currentEnglishCategoryId === cat.id 
+                            ? 'bg-cyan-500/10 border-cyan-500 text-cyan-400 shadow-[0_0_10px_rgba(6,182,212,0.2)]' 
+                            : 'bg-[#111625] border-gray-850 text-gray-450 hover:text-white'
+                        }`}
+                      >
+                        {cat.label}
+                      </button>
+                    ))}
+                  </div>
+                ) : (
+                  directions.length > 1 && (
+                    <div className="flex gap-2 overflow-x-auto pb-2 scrollable-x custom-scrollbar mb-3 px-1">
+                      {directions.map(dir => (
+                        <button
+                          key={dir.direction}
+                          onClick={() => {
+                            const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
+                            if (langObj) {
+                              const firstFile = langObj.files.find(f => f.direction === dir.direction);
+                              if (firstFile) {
+                                setActiveCategory(firstFile.path);
+                              }
+                            }
+                          }}
+                          className={`shrink-0 px-4 py-2 rounded-full border text-[11px] font-black uppercase tracking-wider transition-all ${
+                            currentDirection === dir.direction 
+                              ? 'bg-emerald-500/10 border-emerald-500 text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]' 
+                              : 'bg-[#111625] border-gray-850 text-gray-455 hover:text-white'
+                          }`}
+                        >
+                          {language === 'TR' ? dir.labelTR : dir.label}
+                        </button>
+                      ))}
+                    </div>
+                  )
+                )}
+
+                {/* Active levels grid */}
+                <div className="grid grid-cols-2 gap-2 w-full px-1">
+                  {activeLevels.map(lvl => {
+                    const isSelected = activeCategory === lvl.path;
+                    return (
+                      <button
+                        key={lvl.path}
+                        onClick={() => setActiveCategory(lvl.path)}
+                        className={`py-3 px-4 rounded-xl border text-left transition-all ${
+                          isSelected 
+                            ? 'bg-emerald-500/10 border-emerald-400 text-emerald-400 shadow-[0_0_12px_rgba(16,185,129,0.25)]' 
+                            : 'bg-[#111625]/90 border-gray-800 text-gray-400 hover:border-gray-700 hover:text-gray-200'
+                        }`}
+                      >
+                        <div className="font-bold text-xs tracking-wide truncate">{lvl.label}</div>
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
 

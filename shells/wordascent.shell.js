@@ -296,7 +296,7 @@ class WordAscentGame {
       turkish: w.translation.toUpperCase()
     }));
 
-    fetch('./data/fillers.json')
+    fetch('/data/fillers.json')
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {

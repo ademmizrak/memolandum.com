@@ -1,4 +1,4 @@
-const { onCall, HttpsError } = require("firebase-functions/v2/https");
+const { onCall, HttpsError, onRequest } = require("firebase-functions/v2/https");
 const { getFirestore, FieldValue } = require("firebase-admin/firestore");
 const admin = require("firebase-admin");
 
@@ -49,3 +49,189 @@ exports.syncProgress = onCall({ region: "us-central1" }, async (request) => {
         throw new HttpsError('internal', 'Veritabanı güncellenirken hata oluştu.');
     }
 });
+
+const fs = require('fs');
+const path = require('path');
+
+exports.ssr = onRequest({ region: "us-central1" }, (req, res) => {
+  const userAgent = (req.headers["user-agent"] || "").toLowerCase();
+  
+  const botKeywords = [
+    "googlebot", "bingbot", "yandexbot", "duckduckbot", "baiduspider",
+    "twitterbot", "facebookexternalhit", "linkedinbot", "embedly",
+    "quora link preview", "rogue", "markdownbot", "chatgpt", "gptbot",
+    "applebot", "gemini", "google-co-op", "google-extended"
+  ];
+  
+  const isBot = botKeywords.some(keyword => userAgent.includes(keyword)) || req.query.bot === "true";
+  
+  if (!isBot) {
+    const indexPath = path.join(__dirname, "index.html");
+    if (fs.existsSync(indexPath)) {
+      return res.status(200).sendFile(indexPath);
+    } else {
+      return res.status(404).send("index.html not found in functions directory.");
+    }
+  }
+
+  const requestPath = req.path || "";
+  let slug = "";
+  if (requestPath.startsWith("/oyna/")) {
+    slug = requestPath.replace("/oyna/", "").replace(/\/$/, "");
+  }
+
+  const manifestPath = path.join(__dirname, "data_manifest.json");
+  if (!fs.existsSync(manifestPath)) {
+    return res.status(500).send("data_manifest.json not found.");
+  }
+  const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+
+  function slugifyCategoryPath(filePath) {
+    if (!filePath) return "";
+    let name = filePath.replace(".json", "");
+    name = name.replace("Tr_Eng_", "Ingilizce_");
+    name = name.replace("spanish", "Ispanyolca");
+    name = name.replace("french", "Fransizca");
+    name = name.replace("german", "Almanca");
+    name = name.replace("italian", "Italyanca");
+    name = name.replace("russian", "Rusca");
+    name = name.replace("portuguese", "Portekizce");
+    name = name.replace("portugal", "Portekizce");
+    name = name.replace("korean", "Korece");
+    name = name.replace("Kore", "Korece");
+    name = name.replace("ottoman", "Osmanlica");
+    name = name.replace("Osm_Tr", "Osmanlica");
+    name = name.replace("greek", "Yunanca");
+    name = name.replace("Greek", "Yunanca");
+    
+    return name.toLowerCase()
+      .replace(/ç/g, "c")
+      .replace(/ğ/g, "g")
+      .replace(/ı/g, "i")
+      .replace(/ö/g, "o")
+      .replace(/ş/g, "s")
+      .replace(/ü/g, "u")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
+  function getPathFromSlug(s) {
+    if (!s) return null;
+    const allFiles = [];
+    if (manifest.singleLanguages) {
+      manifest.singleLanguages.forEach(l => l.files.forEach(f => allFiles.push(f)));
+    }
+    if (manifest.englishCategories) {
+      manifest.englishCategories.forEach(c => c.files.forEach(f => allFiles.push(f)));
+    }
+    
+    for (let f of allFiles) {
+      if (slugifyCategoryPath(f.path) === s) return f;
+    }
+    return null;
+  }
+
+  const matchedFile = getPathFromSlug(slug);
+
+  if (!matchedFile) {
+    const indexPath = path.join(__dirname, "index.html");
+    if (fs.existsSync(indexPath)) {
+      return res.status(200).sendFile(indexPath);
+    }
+    return res.status(404).send("Page not found");
+  }
+
+  const categoryWordsPath = path.join(__dirname, "data", matchedFile.path);
+  if (!fs.existsSync(categoryWordsPath)) {
+    return res.status(404).send(`Data file not found for path: ${matchedFile.path}`);
+  }
+
+  const words = JSON.parse(fs.readFileSync(categoryWordsPath, "utf8"));
+  const directionLabel = matchedFile.directionLabelTR || matchedFile.directionLabel || "";
+  const title = `Memolandum | ${matchedFile.label} (${directionLabel}) | Oyna, Ezberle - Kelime Öğrenme Oyunu`;
+  const description = `Memolandum ile retro arcade oyunları oynayarak ${matchedFile.label} (${directionLabel}) kelimelerini eğlenceli şekilde ezberleyin. Oyna, Ezberle!`;
+
+  let tableRows = "";
+  words.forEach((w, index) => {
+    tableRows += `
+      <tr>
+        <td>${index + 1}</td>
+        <td><strong>${w.word}</strong></td>
+        <td>${w.translation}</td>
+        <td>${w.pos || "N/A"}</td>
+      </tr>`;
+  });
+
+  const html = `<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${title}</title>
+  <meta name="description" content="${description}">
+  <meta name="keywords" content="${matchedFile.label}, ${directionLabel}, kelime ezberleme oyunu, memolandum, ingilizce öğrenme">
+  <link rel="canonical" href="https://memolandum.com/oyna/${slug}">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://memolandum.com/oyna/${slug}">
+  <meta property="og:title" content="${title}">
+  <meta property="og:description" content="${description}">
+  <meta property="og:image" content="https://memolandum.com/memolandum_preview.png">
+  <meta property="og:site_name" content="Memolandum">
+
+  <!-- JSON-LD for SEO & AI Crawlers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalApplication",
+    "name": "Memolandum - ${matchedFile.label}",
+    "description": "${description}",
+    "applicationCategory": "EducationalGame",
+    "genre": "Vocabulary Training",
+    "operatingSystem": "Web, iOS, Android",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #0a0f1d; color: #e2e8f0; padding: 20px; max-width: 800px; margin: 0 auto; line-height: 1.6; }
+    h1 { color: #38bdf8; border-bottom: 2px solid #1e293b; padding-bottom: 10px; font-size: 24px; }
+    p { color: #94a3b8; font-size: 14px; margin-bottom: 30px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 14px; }
+    th, td { border: 1px solid #1e293b; padding: 12px; text-align: left; }
+    th { background-color: #0f172a; color: #38bdf8; font-weight: bold; }
+    tr:nth-child(even) { background-color: #0f172a; }
+    tr:hover { background-color: #1e293b; }
+    .footer { margin-top: 40px; text-align: center; font-size: 12px; color: #475569; border-top: 1px solid #1e293b; padding-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Memolandum - ${matchedFile.label} (${directionLabel})</h1>
+  <p>${description} Bu sayfa arama motorları ve AI tarayıcılar için oluşturulmuş statik bir kelime listesidir. Oyunu tarayıcınızda interaktif olarak oynamak için <a href="https://memolandum.com/oyna/${slug}" style="color: #38bdf8; text-decoration: underline;">Memolandum'a giriş yapın</a>.</p>
+  
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 8%;">Sıra No</th>
+        <th style="width: 35%;">Kelime / İfade</th>
+        <th style="width: 35%;">Anlamı / Karşılığı</th>
+        <th style="width: 22%;">Sözcük Türü (POS)</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${tableRows}
+    </tbody>
+  </table>
+  
+  <div class="footer">
+    &copy; ${new Date().getFullYear()} Memolandum. Oyna, Ezberle! Tüm hakları saklıdır.
+  </div>
+</body>
+</html>`;
+
+    return res.status(200).send(html);
+  });

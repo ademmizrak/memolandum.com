@@ -1,2 +1,8 @@
 node_modules/
 www/
+functions/data/
+functions/data_manifest.json
+functions/index.html
+.firebase/
+firebase-debug.log
+scratch/
