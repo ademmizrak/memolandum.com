@@ -78,6 +78,8 @@ exports.ssr = onRequest({ region: "us-central1" }, (req, res) => {
   let slug = "";
   if (requestPath.startsWith("/oyna/")) {
     slug = requestPath.replace("/oyna/", "").replace(/\/$/, "");
+  } else if (requestPath.startsWith("/kategori/")) {
+    slug = requestPath.replace("/kategori/", "").replace(/\/$/, "");
   }
 
   const manifestPath = path.join(__dirname, "data_manifest.json");
@@ -125,8 +127,13 @@ exports.ssr = onRequest({ region: "us-central1" }, (req, res) => {
       manifest.englishCategories.forEach(c => c.files.forEach(f => allFiles.push(f)));
     }
     
+    const normalized = s.toLowerCase();
     for (let f of allFiles) {
-      if (slugifyCategoryPath(f.path) === s) return f;
+      if (slugifyCategoryPath(f.path) === normalized) return f;
+      
+      // Fallback: match legacy/direct path slug format (e.g. tr-eng-genel-a2-words)
+      const legacySlug = f.path.replace('.json', '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+      if (legacySlug === normalized) return f;
     }
     return null;
   }

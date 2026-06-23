@@ -1,4 +1,4 @@
-const CACHE_NAME = 'memolandum-v63';
+const CACHE_NAME = 'memolandum-v64';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -51,6 +51,26 @@ self.addEventListener('fetch', (event) => {
           // Check if we received a valid response
           if(!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
             return networkResponse;
+          }
+
+          // Safety filter: Do not dynamically cache HTML responses if the request was for static assets
+          const contentType = networkResponse.headers.get('content-type');
+          if (contentType && contentType.includes('text/html')) {
+            const url = new URL(event.request.url);
+            const path = url.pathname.toLowerCase();
+            if (
+              path.endsWith('.js') ||
+              path.endsWith('.css') ||
+              path.endsWith('.json') ||
+              path.endsWith('.png') ||
+              path.endsWith('.jpg') ||
+              path.endsWith('.jpeg') ||
+              path.endsWith('.gif') ||
+              path.endsWith('.svg') ||
+              path.endsWith('.ico')
+            ) {
+              return networkResponse;
+            }
           }
 
           // Clone the response because it's a stream

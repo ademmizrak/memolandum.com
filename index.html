@@ -942,8 +942,13 @@
         manifest.englishCategories.forEach(c => c.files.forEach(f => allFiles.push(f.path)));
       }
       
+      const normalizedSlug = slug.toLowerCase();
       for (let p of allFiles) {
-        if (slugifyCategoryPath(p) === slug) return p;
+        if (slugifyCategoryPath(p) === normalizedSlug) return p;
+        
+        // Fallback: match legacy/direct path slug format (e.g. tr-eng-genel-a2-words)
+        const legacySlug = p.replace('.json', '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+        if (legacySlug === normalizedSlug) return p;
       }
       return null;
     }
@@ -2017,8 +2022,14 @@ function DesktopSidePanel({ language }) {
       const [activeShell, setActiveShell] = useState('shooter');
       const getInitialCategory = () => {
         const path = window.location.pathname;
+        let slug = '';
         if (path.startsWith('/oyna/')) {
-          const slug = path.replace('/oyna/', '').replace(/\/$/, '');
+          slug = path.replace('/oyna/', '').replace(/\/$/, '');
+        } else if (path.startsWith('/kategori/')) {
+          slug = path.replace('/kategori/', '').replace(/\/$/, '');
+        }
+
+        if (slug) {
           const manifest = window.DATA_MANIFEST;
           if (manifest) {
             const matchedPath = getPathFromSlug(slug, manifest);
@@ -2119,8 +2130,14 @@ function DesktopSidePanel({ language }) {
           const manifest = window.DATA_MANIFEST;
           if (!manifest) return;
           const path = window.location.pathname;
+          let slug = '';
           if (path.startsWith('/oyna/')) {
-            const slug = path.replace('/oyna/', '').replace(/\/$/, '');
+            slug = path.replace('/oyna/', '').replace(/\/$/, '');
+          } else if (path.startsWith('/kategori/')) {
+            slug = path.replace('/kategori/', '').replace(/\/$/, '');
+          }
+
+          if (slug) {
             const matchedPath = getPathFromSlug(slug, manifest);
             if (matchedPath) {
               setActiveCategory(matchedPath);

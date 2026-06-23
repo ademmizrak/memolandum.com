@@ -12,6 +12,10 @@
         "function": "ssr"
       },
       {
+        "source": "/kategori/**",
+        "function": "ssr"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
