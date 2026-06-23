@@ -2858,10 +2858,10 @@ function DesktopSidePanel({ language }) {
                             setActiveCategory(cat.files[0].path);
                           }
                         }}
-                        className={`shrink-0 px-4 py-2 rounded-full border text-[11px] font-black uppercase tracking-wider transition-all ${
+                        className={`shrink-0 w-[96px] h-[48px] flex items-center justify-center text-center whitespace-normal leading-none px-2 rounded-xl border text-[10px] font-black uppercase tracking-wider transition-all ${
                           currentEnglishCategoryId === cat.id 
                             ? 'bg-cyan-500/10 border-cyan-500 text-cyan-400 shadow-[0_0_10px_rgba(6,182,212,0.2)]' 
-                            : 'bg-[#111625] border-gray-850 text-gray-450 hover:text-white'
+                            : 'bg-[#111625] border-gray-850 text-gray-455 hover:text-white'
                         }`}
                       >
                         {cat.label}
@@ -2883,7 +2883,7 @@ function DesktopSidePanel({ language }) {
                               }
                             }
                           }}
-                          className={`shrink-0 px-4 py-2 rounded-full border text-[11px] font-black uppercase tracking-wider transition-all ${
+                          className={`shrink-0 w-[100px] h-[48px] flex items-center justify-center text-center whitespace-normal leading-none px-2 rounded-xl border text-[9px] font-black uppercase tracking-wider transition-all ${
                             currentDirection === dir.direction 
                               ? 'bg-emerald-500/10 border-emerald-500 text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]' 
                               : 'bg-[#111625] border-gray-850 text-gray-455 hover:text-white'
