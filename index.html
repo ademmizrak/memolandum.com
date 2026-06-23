@@ -2034,50 +2034,38 @@ function DesktopSidePanel({ language }) {
 
       const manifest = window.DATA_MANIFEST || { singleLanguages: [], englishCategories: [] };
       
-      const activeFileObj = React.useMemo(() => {
-        const allFiles = [
-          ...manifest.singleLanguages.flatMap(l => l.files),
-          ...manifest.englishCategories.flatMap(c => c.files)
-        ];
-        return allFiles.find(f => f.path === activeCategory) || null;
-      }, [activeCategory, manifest]);
-
+      const allFiles = [
+        ...manifest.singleLanguages.flatMap(l => l.files),
+        ...manifest.englishCategories.flatMap(c => c.files)
+      ];
+      
+      const activeFileObj = allFiles.find(f => f.path === activeCategory) || null;
       const currentDirection = activeFileObj ? activeFileObj.direction : '';
       
       const currentEngCatObj = manifest.englishCategories.find(c => c.files.some(f => f.path === activeCategory)) || null;
       const currentEnglishCategoryId = currentEngCatObj ? currentEngCatObj.id : (manifest.englishCategories.length > 0 ? manifest.englishCategories[0].id : null);
 
-      const directions = React.useMemo(() => {
-        let dirs = [];
-        if (currentLanguageId !== 'English') {
-          const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
-          if (langObj) {
-            langObj.files.forEach(f => {
-              if (!dirs.some(d => d.direction === f.direction)) {
-                dirs.push({
-                  direction: f.direction,
-                  label: f.directionLabel,
-                  labelTR: f.directionLabelTR
-                });
-              }
-            });
-          }
+      let directions = [];
+      let activeLevels = [];
+      
+      if (currentLanguageId === 'English') {
+        const cat = manifest.englishCategories.find(c => c.id === currentEnglishCategoryId);
+        if (cat) activeLevels = cat.files;
+      } else {
+        const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
+        if (langObj) {
+          langObj.files.forEach(f => {
+            if (!directions.some(d => d.direction === f.direction)) {
+              directions.push({
+                direction: f.direction,
+                label: f.directionLabel,
+                labelTR: f.directionLabelTR
+              });
+            }
+          });
+          activeLevels = langObj.files.filter(f => f.direction === currentDirection);
         }
-        return dirs;
-      }, [currentLanguageId, manifest]);
-
-      const activeLevels = React.useMemo(() => {
-        if (currentLanguageId === 'English') {
-          const cat = manifest.englishCategories.find(c => c.id === currentEnglishCategoryId);
-          return cat ? cat.files : [];
-        } else {
-          const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
-          if (langObj) {
-            return langObj.files.filter(f => f.direction === currentDirection);
-          }
-        }
-        return [];
-      }, [currentLanguageId, currentEnglishCategoryId, currentDirection, manifest]);
+      }
 
       const [savedStage, setSavedStage] = useState(null);
       const [savedLevel, setSavedLevel] = useState(1);
@@ -2603,9 +2591,14 @@ function DesktopSidePanel({ language }) {
                 title={language === 'TR' ? 'Ana Ekrana Dön' : 'Back to Home'}
               >
                 <span className="text-xl animate-bounce">🕹️</span>
-                <h1 className="text-2xl font-black tracking-widest text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.45)]">
-                  MEMOLANDUM
-                </h1>
+                <div>
+                  <h1 className="text-2.5xl font-black tracking-widest text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.45)]">
+                    MEMOLANDUM
+                  </h1>
+                  <p className="text-[9px] text-cyan-400 font-bold uppercase tracking-[0.2em] -mt-1.5">
+                    {language === 'TR' ? 'OYNA, EZBERLE!' : 'PLAY, MEMORIZE!'}
+                  </p>
+                </div>
               </div>
 
               {/* Language Switcher */}
