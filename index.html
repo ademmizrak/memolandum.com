@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <title>Memolandum | Oyna, Ezberle - Kelime Öğrenme Oyunu</title>
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#0d0d1a">
   <meta name="description" content="Siber uzay arcade temasıyla eğlenirken İngilizce kelime ezberleyin! Memolandum, retro oynanış eşliğinde A1-B2 seviyelerinde kelime dağarcığınızı hızla geliştirir.">
   <meta name="keywords" content="ingilizce kelime ezberleme, kelime ezberleme oyunu, ingilizce öğrenme, siber arcade, space shooter kelime oyunu, memolandum, ingilizce pratik cümleler, a1 ingilizce kelimeler, rusça türkçe kelime ezberleme, ruslar için türkçe öğrenme, korece türkçe kelime öğrenme, yunanca kelime ezberleme">
@@ -245,7 +245,7 @@
   </script>
 
   <!-- Data Manifest -->
-  <script src="data_manifest.js"></script>
+  <script src="/data_manifest.js"></script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -253,7 +253,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
   
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
 
   <!-- Universal Mobile & Legacy Browser Polyfills (Canvas roundRect support) -->
   <script>
@@ -3831,7 +3831,7 @@ function DesktopSidePanel({ language }) {
   </script>
 
   <!-- Fallback Embedded Data (for local execution/offline fallback) -->
-  <script src="fallback_data.js"></script>
+  <script src="/fallback_data.js"></script>
 
   <!-- Dynamic Alphabet Engine (Monkey Patches) -->
   <script>
@@ -3932,20 +3932,20 @@ function DesktopSidePanel({ language }) {
     };
   </script>
   <!-- Unified Exam Engine -->
-  <script type="text/babel" src="ExamEngine.js"></script>
+  <script type="text/babel" src="/ExamEngine.js"></script>
 
   <!-- JavaScript Gameplay Logic -->
-  <script type="text/babel" src="shells/shooter.shell.js"></script>
-  <script type="text/babel" src="shells/breakout.shell.js"></script>
-  <script type="text/babel" src="shells/worddrop.shell.js"></script>
-  <script type="text/babel" src="shells/highway.shell.js"></script>
-  <script type="text/babel" src="shells/wordascent.shell.js"></script>
-  <script type="text/babel" src="shells/invaders.shell.js"></script>
+  <script type="text/babel" src="/shells/shooter.shell.js"></script>
+  <script type="text/babel" src="/shells/breakout.shell.js"></script>
+  <script type="text/babel" src="/shells/worddrop.shell.js"></script>
+  <script type="text/babel" src="/shells/highway.shell.js"></script>
+  <script type="text/babel" src="/shells/wordascent.shell.js"></script>
+  <script type="text/babel" src="/shells/invaders.shell.js"></script>
   <script>
     // Register Service Worker for PWA / Offline Support
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js').then(registration => {
+        navigator.serviceWorker.register('/sw.js').then(registration => {
           console.log('SW registered: ', registration);
         }).catch(registrationError => {
           console.log('SW registration failed: ', registrationError);
