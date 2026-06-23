@@ -2837,7 +2837,7 @@ function DesktopSidePanel({ language }) {
               </div>
 
               {/* SECTION 1: SELECT SECTOR LEVEL */}
-              <div className="w-full mb-6 text-left shrink-0">
+              <div className="w-full min-w-0 max-w-full mb-6 text-left shrink-0 overflow-hidden">
                 <div className="px-1 mb-3">
                   <h2 className="text-sm font-black text-emerald-400 tracking-widest uppercase drop-shadow-[0_0_8px_rgba(16,185,129,0.3)]">
                     1. SELECT SECTOR LEVEL
@@ -2849,7 +2849,7 @@ function DesktopSidePanel({ language }) {
                 
                 {/* Category / Direction horizontal list if there are multiple */}
                 {currentLanguageId === 'English' ? (
-                  <div className="flex gap-2 overflow-x-auto pb-2 scrollable-x custom-scrollbar mb-3 px-1">
+                  <div className="w-full max-w-full flex gap-2 overflow-x-auto pb-2 scrollable-x custom-scrollbar mb-3 px-1">
                     {manifest.englishCategories.map(cat => (
                       <button
                         key={cat.id}
@@ -2870,7 +2870,7 @@ function DesktopSidePanel({ language }) {
                   </div>
                 ) : (
                   directions.length > 1 && (
-                    <div className="flex gap-2 overflow-x-auto pb-2 scrollable-x custom-scrollbar mb-3 px-1">
+                    <div className="w-full max-w-full flex gap-2 overflow-x-auto pb-2 scrollable-x custom-scrollbar mb-3 px-1">
                       {directions.map(dir => (
                         <button
                           key={dir.direction}
