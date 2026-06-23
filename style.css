@@ -941,6 +941,12 @@ canvas {
   -webkit-overflow-scrolling: touch !important;
 }
 
+.scrollable-x,
+.scrollable-x * {
+  touch-action: pan-x !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
 #main-menu,
 .screen-overlay {
   overflow: hidden !important;
