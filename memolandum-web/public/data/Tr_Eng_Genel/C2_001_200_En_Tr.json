@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "eng_c2_001",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "abeyance",
+    "meaning": "askıya alma",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_001_abeyance.mp3"
+  },
+  {
+    "id": "eng_c2_002",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "abjure",
+    "meaning": "yemini bozmak / vazgeçmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_002_abjure.mp3"
+  },
+  {
+    "id": "eng_c2_003",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ablution",
+    "meaning": "yıkanma / temizlenme",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_003_ablution.mp3"
+  },
+  {
+    "id": "eng_c2_004",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "abnegate",
+    "meaning": "kendi isteğiyle vazgeçmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_004_abnegate.mp3"
+  },
+  {
+    "id": "eng_c2_005",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "abrogate",
+    "meaning": "ilga etmek / yürürlükten kaldırmak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_005_abrogate.mp3"
+  },
+  {
+    "id": "eng_c2_006",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "abscond",
+    "meaning": "gizlice kaçmak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_006_abscond.mp3"
+  },
+  {
+    "id": "eng_c2_007",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "abstemious",
+    "meaning": "ölçülü / perhizkar",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_007_abstemious.mp3"
+  },
+  {
+    "id": "eng_c2_008",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "abstruse",
+    "meaning": "anlaşılması güç",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_008_abstruse.mp3"
+  },
+  {
+    "id": "eng_c2_009",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "acarpous",
+    "meaning": "kısırlık",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_009_acarpous.mp3"
+  },
+  {
+    "id": "eng_c2_010",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "accretion",
+    "meaning": "birikme / artış",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_010_accretion.mp3"
+  },
+  {
+    "id": "eng_c2_011",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "acerbic",
+    "meaning": "sert / keskin",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_011_acerbic.mp3"
+  },
+  {
+    "id": "eng_c2_012",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "acme",
+    "meaning": "zirve / doruk",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_012_acme.mp3"
+  },
+  {
+    "id": "eng_c2_013",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "acolyte",
+    "meaning": "yardımcı / mürid",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_013_acolyte.mp3"
+  },
+  {
+    "id": "eng_c2_014",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "acquiesce",
+    "meaning": "rıza göstermek / boyun eğmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_014_acquiesce.mp3"
+  },
+  {
+    "id": "eng_c2_015",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "acrimonious",
+    "meaning": "kırıcı / sert",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_015_acrimonious.mp3"
+  },
+  {
+    "id": "eng_c2_016",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "acuity",
+    "meaning": "keskin zekalı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_016_acuity.mp3"
+  },
+  {
+    "id": "eng_c2_017",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "adage",
+    "meaning": "atasözü / özdeyiş",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_017_adage.mp3"
+  },
+  {
+    "id": "eng_c2_018",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "adamant",
+    "meaning": "tavizsiz / inatçı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_018_adamant.mp3"
+  },
+  {
+    "id": "eng_c2_019",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "adduce",
+    "meaning": "delil olarak göstermek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_019_adduce.mp3"
+  },
+  {
+    "id": "eng_c2_020",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "adumbrate",
+    "meaning": "ana hatlarıyla belirtmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_020_adumbrate.mp3"
+  },
+  {
+    "id": "eng_c2_021",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "adventitious",
+    "meaning": "tesadüfi / harici",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_021_adventitious.mp3"
+  },
+  {
+    "id": "eng_c2_022",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aegis",
+    "meaning": "himaye / koruma",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_022_aegis.mp3"
+  },
+  {
+    "id": "eng_c2_023",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aesthetic",
+    "meaning": "estetik / güzellik bilgisi",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_023_aesthetic.mp3"
+  },
+  {
+    "id": "eng_c2_024",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "affable",
+    "meaning": "cana yakın / kibar",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_024_affable.mp3"
+  },
+  {
+    "id": "eng_c2_025",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "affected",
+    "meaning": "yapmacık / etkilenmiş",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_025_affected.mp3"
+  },
+  {
+    "id": "eng_c2_026",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "affinity",
+    "meaning": "yakınlık / ilgi",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_026_affinity.mp3"
+  },
+  {
+    "id": "eng_c2_027",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "affluent",
+    "meaning": "zengin / varlıklı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_027_affluent.mp3"
+  },
+  {
+    "id": "eng_c2_028",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aggrandize",
+    "meaning": "büyütmek / yüceltmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_028_aggrandize.mp3"
+  },
+  {
+    "id": "eng_c2_029",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aggregate",
+    "meaning": "küme / toplu",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_029_aggregate.mp3"
+  },
+  {
+    "id": "eng_c2_030",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aghast",
+    "meaning": "dehşete düşmüş",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_030_aghast.mp3"
+  },
+  {
+    "id": "eng_c2_031",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "alacrity",
+    "meaning": "heves / çabukluk",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_031_alacrity.mp3"
+  },
+  {
+    "id": "eng_c2_032",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "alchemist",
+    "meaning": "simyacı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_032_alchemist.mp3"
+  },
+  {
+    "id": "eng_c2_033",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "alias",
+    "meaning": "takma ad",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_033_alias.mp3"
+  },
+  {
+    "id": "eng_c2_034",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "alienate",
+    "meaning": "yabancılaştırmak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_034_alienate.mp3"
+  },
+  {
+    "id": "eng_c2_035",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "alimentary",
+    "meaning": "besleyici",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_035_alimentary.mp3"
+  },
+  {
+    "id": "eng_c2_036",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "alimony",
+    "meaning": "nafaka",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_036_alimony.mp3"
+  },
+  {
+    "id": "eng_c2_037",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "allay",
+    "meaning": "dindirmek / hafifletmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_037_allay.mp3"
+  },
+  {
+    "id": "eng_c2_038",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "allege",
+    "meaning": "iddia etmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_038_allege.mp3"
+  },
+  {
+    "id": "eng_c2_039",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "allegory",
+    "meaning": "temsil / alegori",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_039_allegory.mp3"
+  },
+  {
+    "id": "eng_c2_040",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "alleviate",
+    "meaning": "hafifletmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_040_alleviate.mp3"
+  },
+  {
+    "id": "eng_c2_041",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "alliteration",
+    "meaning": "aliterasyon",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_041_alliteration.mp3"
+  },
+  {
+    "id": "eng_c2_042",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "allocate",
+    "meaning": "tahsis etmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_042_allocate.mp3"
+  },
+  {
+    "id": "eng_c2_043",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "alloy",
+    "meaning": "alaşım",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_043_alloy.mp3"
+  },
+  {
+    "id": "eng_c2_044",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "allude",
+    "meaning": "ima etmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_044_allude.mp3"
+  },
+  {
+    "id": "eng_c2_045",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "allure",
+    "meaning": "cazibe",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_045_allure.mp3"
+  },
+  {
+    "id": "eng_c2_046",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "alluvial",
+    "meaning": "alüvyal",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_046_alluvial.mp3"
+  },
+  {
+    "id": "eng_c2_047",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ally",
+    "meaning": "müttefik",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_047_ally.mp3"
+  },
+  {
+    "id": "eng_c2_048",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aloof",
+    "meaning": "mesafeli",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_048_aloof.mp3"
+  },
+  {
+    "id": "eng_c2_049",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "altercation",
+    "meaning": "sözlü tartışma",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_049_altercation.mp3"
+  },
+  {
+    "id": "eng_c2_050",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "altruistic",
+    "meaning": "özgecil",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_050_altruistic.mp3"
+  },
+  {
+    "id": "eng_c2_051",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amalgamate",
+    "meaning": "birleştirmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_051_amalgamate.mp3"
+  },
+  {
+    "id": "eng_c2_052",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amass",
+    "meaning": "yığmak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_052_amass.mp3"
+  },
+  {
+    "id": "eng_c2_053",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ambidextrous",
+    "meaning": "iki elini de kullanabilen",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_053_ambidextrous.mp3"
+  },
+  {
+    "id": "eng_c2_054",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ambience",
+    "meaning": "ortam",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_054_ambience.mp3"
+  },
+  {
+    "id": "eng_c2_055",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ambiguous",
+    "meaning": "belirsiz",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_055_ambiguous.mp3"
+  },
+  {
+    "id": "eng_c2_056",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ambivalent",
+    "meaning": "ikircikli",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_056_ambivalent.mp3"
+  },
+  {
+    "id": "eng_c2_057",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amble",
+    "meaning": "ağırdan yürümek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_057_amble.mp3"
+  },
+  {
+    "id": "eng_c2_058",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ameliorate",
+    "meaning": "iyileştirmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_058_ameliorate.mp3"
+  },
+  {
+    "id": "eng_c2_059",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amenable",
+    "meaning": "uysal",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_059_amenable.mp3"
+  },
+  {
+    "id": "eng_c2_060",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amend",
+    "meaning": "değişiklik yapmak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_060_amend.mp3"
+  },
+  {
+    "id": "eng_c2_061",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amenity",
+    "meaning": "olanak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_061_amenity.mp3"
+  },
+  {
+    "id": "eng_c2_062",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amiable",
+    "meaning": "sevecen",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_062_amiable.mp3"
+  },
+  {
+    "id": "eng_c2_063",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amicable",
+    "meaning": "dostane",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_063_amicable.mp3"
+  },
+  {
+    "id": "eng_c2_064",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amiss",
+    "meaning": "ters",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_064_amiss.mp3"
+  },
+  {
+    "id": "eng_c2_065",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amity",
+    "meaning": "dostluk",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_065_amity.mp3"
+  },
+  {
+    "id": "eng_c2_066",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amnesia",
+    "meaning": "hafıza kaybı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_066_amnesia.mp3"
+  },
+  {
+    "id": "eng_c2_067",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amnesty",
+    "meaning": "genel af",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_067_amnesty.mp3"
+  },
+  {
+    "id": "eng_c2_068",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amoral",
+    "meaning": "ahlak dışı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_068_amoral.mp3"
+  },
+  {
+    "id": "eng_c2_069",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amorous",
+    "meaning": "aşk dolu",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_069_amorous.mp3"
+  },
+  {
+    "id": "eng_c2_070",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amorphous",
+    "meaning": "biçimsiz",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_070_amorphous.mp3"
+  },
+  {
+    "id": "eng_c2_071",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amortize",
+    "meaning": "itfa etmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_071_amortize.mp3"
+  },
+  {
+    "id": "eng_c2_072",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ample",
+    "meaning": "bol",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_072_ample.mp3"
+  },
+  {
+    "id": "eng_c2_073",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amplify",
+    "meaning": "genişletmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_073_amplify.mp3"
+  },
+  {
+    "id": "eng_c2_074",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amply",
+    "meaning": "fazlasıyla",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_074_amply.mp3"
+  },
+  {
+    "id": "eng_c2_075",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amputate",
+    "meaning": "uzuv kesmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_075_amputate.mp3"
+  },
+  {
+    "id": "eng_c2_076",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "amulet",
+    "meaning": "muska",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_076_amulet.mp3"
+  },
+  {
+    "id": "eng_c2_077",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anachronism",
+    "meaning": "çağ dışılık",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_077_anachronism.mp3"
+  },
+  {
+    "id": "eng_c2_078",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "analgesic",
+    "meaning": "ağrı kesici",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_078_analgesic.mp3"
+  },
+  {
+    "id": "eng_c2_079",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "analogous",
+    "meaning": "benzer",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_079_analogous.mp3"
+  },
+  {
+    "id": "eng_c2_080",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "analogy",
+    "meaning": "benzeşim",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_080_analogy.mp3"
+  },
+  {
+    "id": "eng_c2_081",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anarchy",
+    "meaning": "anarşi",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_081_anarchy.mp3"
+  },
+  {
+    "id": "eng_c2_082",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anathema",
+    "meaning": "nefret edilen şey",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_082_anathema.mp3"
+  },
+  {
+    "id": "eng_c2_083",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ancestral",
+    "meaning": "atasal",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_083_ancestral.mp3"
+  },
+  {
+    "id": "eng_c2_084",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ancillary",
+    "meaning": "yardımcı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_084_ancillary.mp3"
+  },
+  {
+    "id": "eng_c2_085",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anecdote",
+    "meaning": "hikayecik",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_085_anecdote.mp3"
+  },
+  {
+    "id": "eng_c2_086",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anguish",
+    "meaning": "acı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_086_anguish.mp3"
+  },
+  {
+    "id": "eng_c2_087",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "angular",
+    "meaning": "köşeli",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_087_angular.mp3"
+  },
+  {
+    "id": "eng_c2_088",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "animadversion",
+    "meaning": "eleştiri",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_088_animadversion.mp3"
+  },
+  {
+    "id": "eng_c2_089",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "animated",
+    "meaning": "canlı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_089_animated.mp3"
+  },
+  {
+    "id": "eng_c2_090",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "animosity",
+    "meaning": "düşmanlık",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_090_animosity.mp3"
+  },
+  {
+    "id": "eng_c2_091",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "animus",
+    "meaning": "niyet",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_091_animus.mp3"
+  },
+  {
+    "id": "eng_c2_092",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "annals",
+    "meaning": "yıllık",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_092_annals.mp3"
+  },
+  {
+    "id": "eng_c2_093",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anneal",
+    "meaning": "tavlamak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_093_anneal.mp3"
+  },
+  {
+    "id": "eng_c2_094",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "annihilate",
+    "meaning": "yok etmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_094_annihilate.mp3"
+  },
+  {
+    "id": "eng_c2_095",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "annotate",
+    "meaning": "dipnot eklemek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_095_annotate.mp3"
+  },
+  {
+    "id": "eng_c2_096",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "annuity",
+    "meaning": "yıllık gelir",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_096_annuity.mp3"
+  },
+  {
+    "id": "eng_c2_097",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "annul",
+    "meaning": "feshetmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_097_annul.mp3"
+  },
+  {
+    "id": "eng_c2_098",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anodyne",
+    "meaning": "yatıştırıcı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_098_anodyne.mp3"
+  },
+  {
+    "id": "eng_c2_099",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anoint",
+    "meaning": "yağ sürmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_099_anoint.mp3"
+  },
+  {
+    "id": "eng_c2_100",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anomaly",
+    "meaning": "anormallik",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_100_anomaly.mp3"
+  },
+  {
+    "id": "eng_c2_101",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anonymity",
+    "meaning": "anonimlik",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_101_anonymity.mp3"
+  },
+  {
+    "id": "eng_c2_102",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "antagonism",
+    "meaning": "karşıtlık",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_102_antagonism.mp3"
+  },
+  {
+    "id": "eng_c2_103",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "antecedent",
+    "meaning": "öncül",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_103_antecedent.mp3"
+  },
+  {
+    "id": "eng_c2_104",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "antediluvian",
+    "meaning": "tufan öncesi",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_104_antediluvian.mp3"
+  },
+  {
+    "id": "eng_c2_105",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anthem",
+    "meaning": "marş",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_105_anthem.mp3"
+  },
+  {
+    "id": "eng_c2_106",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anthology",
+    "meaning": "antoloji",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_106_anthology.mp3"
+  },
+  {
+    "id": "eng_c2_107",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anthropocentric",
+    "meaning": "insan merkezli",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_107_anthropocentric.mp3"
+  },
+  {
+    "id": "eng_c2_108",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anthropology",
+    "meaning": "antropoloji",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_108_anthropology.mp3"
+  },
+  {
+    "id": "eng_c2_109",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anthropomorphic",
+    "meaning": "insan biçimli",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_109_anthropomorphic.mp3"
+  },
+  {
+    "id": "eng_c2_110",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "anticlimax",
+    "meaning": "hayal kırıklığı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_110_anticlimax.mp3"
+  },
+  {
+    "id": "eng_c2_111",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "antidote",
+    "meaning": "panzehir",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_111_antidote.mp3"
+  },
+  {
+    "id": "eng_c2_112",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "antipathy",
+    "meaning": "nefret",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_112_antipathy.mp3"
+  },
+  {
+    "id": "eng_c2_113",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "antiquated",
+    "meaning": "eskimiş",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_113_antiquated.mp3"
+  },
+  {
+    "id": "eng_c2_114",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "antiseptic",
+    "meaning": "mikrop öldürücü",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_114_antiseptic.mp3"
+  },
+  {
+    "id": "eng_c2_115",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "antithesis",
+    "meaning": "karşıtlık",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_115_antithesis.mp3"
+  },
+  {
+    "id": "eng_c2_116",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apathy",
+    "meaning": "ilgisizlik",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_116_apathy.mp3"
+  },
+  {
+    "id": "eng_c2_117",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aperture",
+    "meaning": "açıklık",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_117_aperture.mp3"
+  },
+  {
+    "id": "eng_c2_118",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apex",
+    "meaning": "zirve",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_118_apex.mp3"
+  },
+  {
+    "id": "eng_c2_119",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aphorism",
+    "meaning": "özlü söz",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_119_aphorism.mp3"
+  },
+  {
+    "id": "eng_c2_120",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apiary",
+    "meaning": "arı kovanı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_120_apiary.mp3"
+  },
+  {
+    "id": "eng_c2_121",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apocalypse",
+    "meaning": "kıyamet",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_121_apocalypse.mp3"
+  },
+  {
+    "id": "eng_c2_122",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apocryphal",
+    "meaning": "uydurma",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_122_apocryphal.mp3"
+  },
+  {
+    "id": "eng_c2_123",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apogee",
+    "meaning": "en yüksek nokta",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_123_apogee.mp3"
+  },
+  {
+    "id": "eng_c2_124",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apologetic",
+    "meaning": "özür dileyen",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_124_apologetic.mp3"
+  },
+  {
+    "id": "eng_c2_125",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apoplexy",
+    "meaning": "inme",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_125_apoplexy.mp3"
+  },
+  {
+    "id": "eng_c2_126",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apostate",
+    "meaning": "dinden dönen",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_126_apostate.mp3"
+  },
+  {
+    "id": "eng_c2_127",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apothecary",
+    "meaning": "eczacı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_127_apothecary.mp3"
+  },
+  {
+    "id": "eng_c2_128",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apotheosis",
+    "meaning": "yüceltme",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_128_apotheosis.mp3"
+  },
+  {
+    "id": "eng_c2_129",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "appall",
+    "meaning": "dehşete düşürmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_129_appall.mp3"
+  },
+  {
+    "id": "eng_c2_130",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apparition",
+    "meaning": "hayalet",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_130_apparition.mp3"
+  },
+  {
+    "id": "eng_c2_131",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "appease",
+    "meaning": "yatıştırmak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_131_appease.mp3"
+  },
+  {
+    "id": "eng_c2_132",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "appellation",
+    "meaning": "ad",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_132_appellation.mp3"
+  },
+  {
+    "id": "eng_c2_133",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "appendage",
+    "meaning": "eklenti",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_133_appendage.mp3"
+  },
+  {
+    "id": "eng_c2_134",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apposite",
+    "meaning": "uygun",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_134_apposite.mp3"
+  },
+  {
+    "id": "eng_c2_135",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "appraise",
+    "meaning": "değer biçmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_135_appraise.mp3"
+  },
+  {
+    "id": "eng_c2_136",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apprehensive",
+    "meaning": "endişeli",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_136_apprehensive.mp3"
+  },
+  {
+    "id": "eng_c2_137",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "approbation",
+    "meaning": "onay",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_137_approbation.mp3"
+  },
+  {
+    "id": "eng_c2_138",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "appropriate",
+    "meaning": "tahsis etmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_138_appropriate.mp3"
+  },
+  {
+    "id": "eng_c2_139",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "appurtenance",
+    "meaning": "eklenti",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_139_appurtenance.mp3"
+  },
+  {
+    "id": "eng_c2_140",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "apropos",
+    "meaning": "ilgili",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_140_apropos.mp3"
+  },
+  {
+    "id": "eng_c2_141",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aptitude",
+    "meaning": "yetenek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_141_aptitude.mp3"
+  },
+  {
+    "id": "eng_c2_142",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aquatic",
+    "meaning": "sulu",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_142_aquatic.mp3"
+  },
+  {
+    "id": "eng_c2_143",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aquiline",
+    "meaning": "kartal gagası gibi",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_143_aquiline.mp3"
+  },
+  {
+    "id": "eng_c2_144",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arable",
+    "meaning": "ekilebilir",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_144_arable.mp3"
+  },
+  {
+    "id": "eng_c2_145",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arbiter",
+    "meaning": "hakem",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_145_arbiter.mp3"
+  },
+  {
+    "id": "eng_c2_146",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arbitrary",
+    "meaning": "keyfi",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_146_arbitrary.mp3"
+  },
+  {
+    "id": "eng_c2_147",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arbitrate",
+    "meaning": "hakemlik etmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_147_arbitrate.mp3"
+  },
+  {
+    "id": "eng_c2_148",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arboreal",
+    "meaning": "ağaca ait",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_148_arboreal.mp3"
+  },
+  {
+    "id": "eng_c2_149",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arboretum",
+    "meaning": "ağaç parkı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_149_arboretum.mp3"
+  },
+  {
+    "id": "eng_c2_150",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arcade",
+    "meaning": "kemerli geçit",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_150_arcade.mp3"
+  },
+  {
+    "id": "eng_c2_151",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arcane",
+    "meaning": "esrarengiz",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_151_arcane.mp3"
+  },
+  {
+    "id": "eng_c2_152",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "archaic",
+    "meaning": "eski",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_152_archaic.mp3"
+  },
+  {
+    "id": "eng_c2_153",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "archetype",
+    "meaning": "arketip",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_153_archetype.mp3"
+  },
+  {
+    "id": "eng_c2_154",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "archipelago",
+    "meaning": "takımada",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_154_archipelago.mp3"
+  },
+  {
+    "id": "eng_c2_155",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "archives",
+    "meaning": "arşivler",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_155_archives.mp3"
+  },
+  {
+    "id": "eng_c2_156",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ardent",
+    "meaning": "ateşli",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_156_ardent.mp3"
+  },
+  {
+    "id": "eng_c2_157",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arduous",
+    "meaning": "zorlu",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_157_arduous.mp3"
+  },
+  {
+    "id": "eng_c2_158",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "argot",
+    "meaning": "argo",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_158_argot.mp3"
+  },
+  {
+    "id": "eng_c2_159",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aria",
+    "meaning": "arya",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_159_aria.mp3"
+  },
+  {
+    "id": "eng_c2_160",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arid",
+    "meaning": "kurak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_160_arid.mp3"
+  },
+  {
+    "id": "eng_c2_161",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aristocracy",
+    "meaning": "aristokrasi",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_161_aristocracy.mp3"
+  },
+  {
+    "id": "eng_c2_162",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "armada",
+    "meaning": "donanma",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_162_armada.mp3"
+  },
+  {
+    "id": "eng_c2_163",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aromatic",
+    "meaning": "aromatik",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_163_aromatic.mp3"
+  },
+  {
+    "id": "eng_c2_164",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arraign",
+    "meaning": "suçlamak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_164_arraign.mp3"
+  },
+  {
+    "id": "eng_c2_165",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arrant",
+    "meaning": "tam / düpedüz",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_165_arrant.mp3"
+  },
+  {
+    "id": "eng_c2_166",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "array",
+    "meaning": "sıralamak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_166_array.mp3"
+  },
+  {
+    "id": "eng_c2_167",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arrears",
+    "meaning": "borç / gecikme",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_167_arrears.mp3"
+  },
+  {
+    "id": "eng_c2_168",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arrogance",
+    "meaning": "kibir",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_168_arrogance.mp3"
+  },
+  {
+    "id": "eng_c2_169",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arrogate",
+    "meaning": "el koymak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_169_arrogate.mp3"
+  },
+  {
+    "id": "eng_c2_170",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arroyo",
+    "meaning": "dere yatağı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_170_arroyo.mp3"
+  },
+  {
+    "id": "eng_c2_171",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "arsenal",
+    "meaning": "cephanelik",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_171_arsenal.mp3"
+  },
+  {
+    "id": "eng_c2_172",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "artful",
+    "meaning": "kurnaz",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_172_artful.mp3"
+  },
+  {
+    "id": "eng_c2_173",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "articulate",
+    "meaning": "açıkça konuşan",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_173_articulate.mp3"
+  },
+  {
+    "id": "eng_c2_174",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "artifice",
+    "meaning": "hile",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_174_artifice.mp3"
+  },
+  {
+    "id": "eng_c2_175",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "artisan",
+    "meaning": "zanaatkar",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_175_artisan.mp3"
+  },
+  {
+    "id": "eng_c2_176",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "artless",
+    "meaning": "doğal / saftirik",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_176_artless.mp3"
+  },
+  {
+    "id": "eng_c2_177",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ascendant",
+    "meaning": "yükselen",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_177_ascendant.mp3"
+  },
+  {
+    "id": "eng_c2_178",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ascertain",
+    "meaning": "aslını öğrenmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_178_ascertain.mp3"
+  },
+  {
+    "id": "eng_c2_179",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ascetic",
+    "meaning": "çilekeş",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_179_ascetic.mp3"
+  },
+  {
+    "id": "eng_c2_180",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ascribe",
+    "meaning": "bağlamak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_180_ascribe.mp3"
+  },
+  {
+    "id": "eng_c2_181",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aseptic",
+    "meaning": "mikropsuz",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_181_aseptic.mp3"
+  },
+  {
+    "id": "eng_c2_182",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "ashen",
+    "meaning": "kül rengi",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_182_ashen.mp3"
+  },
+  {
+    "id": "eng_c2_183",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "asinine",
+    "meaning": "eşek kadar aptal",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_183_asinine.mp3"
+  },
+  {
+    "id": "eng_c2_184",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "askance",
+    "meaning": "kuşkuyla",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_184_askance.mp3"
+  },
+  {
+    "id": "eng_c2_185",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "askew",
+    "meaning": "yamuk",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_185_askew.mp3"
+  },
+  {
+    "id": "eng_c2_186",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "asperity",
+    "meaning": "sertlik",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_186_asperity.mp3"
+  },
+  {
+    "id": "eng_c2_187",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aspersion",
+    "meaning": "iftira",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_187_aspersion.mp3"
+  },
+  {
+    "id": "eng_c2_188",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "aspiration",
+    "meaning": "istek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_188_aspiration.mp3"
+  },
+  {
+    "id": "eng_c2_189",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "assail",
+    "meaning": "saldırmak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_189_assail.mp3"
+  },
+  {
+    "id": "eng_c2_190",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "assault",
+    "meaning": "saldırı",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_190_assault.mp3"
+  },
+  {
+    "id": "eng_c2_191",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "assay",
+    "meaning": "tahlil etmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_191_assay.mp3"
+  },
+  {
+    "id": "eng_c2_192",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "assent",
+    "meaning": "kabul etmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_192_assent.mp3"
+  },
+  {
+    "id": "eng_c2_193",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "assert",
+    "meaning": "iddia etmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_193_assert.mp3"
+  },
+  {
+    "id": "eng_c2_194",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "assess",
+    "meaning": "değerlendirmek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_194_assess.mp3"
+  },
+  {
+    "id": "eng_c2_195",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "asset",
+    "meaning": "varlık",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_195_asset.mp3"
+  },
+  {
+    "id": "eng_c2_196",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "assiduous",
+    "meaning": "gayretli",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_196_assiduous.mp3"
+  },
+  {
+    "id": "eng_c2_197",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "assimilate",
+    "meaning": "özümsemek",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_197_assimilate.mp3"
+  },
+  {
+    "id": "eng_c2_198",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "assuage",
+    "meaning": "yatıştırmak",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_198_assuage.mp3"
+  },
+  {
+    "id": "eng_c2_199",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "astringent",
+    "meaning": "büzücü",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_199_astringent.mp3"
+  },
+  {
+    "id": "eng_c2_200",
+    "language_code": "en",
+    "level_tag": "C2_Vocabulary",
+    "original_script": "astute",
+    "meaning": "zeki / kurnaz",
+    "is_latin": true,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_c2_200_astute.mp3"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 201,
+    "tr": "Seni bekliyorum.",
+    "en": "I am waiting for you.",
+    "category": "Eylem"
+  },
+  {
+    "id": 202,
+    "tr": "Ne okuyorsun?",
+    "en": "What are you reading?",
+    "category": "Soru"
+  },
+  {
+    "id": 203,
+    "tr": "Bir e-posta yazıyorum.",
+    "en": "I am writing an email.",
+    "category": "Eylem"
+  },
+  {
+    "id": 204,
+    "tr": "Biraz kahve ister misin?",
+    "en": "Do you want some coffee?",
+    "category": "Teklif"
+  },
+  {
+    "id": 205,
+    "tr": "Çayı tercih ederim.",
+    "en": "I prefer tea.",
+    "category": "Tercih"
+  },
+  {
+    "id": 206,
+    "tr": "Fiyatı ne kadar?",
+    "en": "How much does it cost?",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 207,
+    "tr": "Kartla ödeyebilir miyim?",
+    "en": "Can I pay by card?",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 208,
+    "tr": "Nakit param var.",
+    "en": "I have cash.",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 209,
+    "tr": "En yakın ATM nerede?",
+    "en": "Where is the nearest ATM?",
+    "category": "Soru"
+  },
+  {
+    "id": 210,
+    "tr": "Mağaza kapalı.",
+    "en": "The store is closed.",
+    "category": "Durum"
+  },
+  {
+    "id": 211,
+    "tr": "Mağaza açık.",
+    "en": "The store is open.",
+    "category": "Durum"
+  },
+  {
+    "id": 212,
+    "tr": "Kaç beden giyiyorsunuz?",
+    "en": "What size do you wear?",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 213,
+    "tr": "Bu çok pahalı.",
+    "en": "This is too expensive.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 214,
+    "tr": "İndiriminiz var mı?",
+    "en": "Do you have a discount?",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 215,
+    "tr": "Bunu deneyebilir miyim?",
+    "en": "Can I try it on?",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 216,
+    "tr": "Bunu alacağım.",
+    "en": "I will take it.",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 217,
+    "tr": "Havalimanı nerede?",
+    "en": "Where is the airport?",
+    "category": "Seyahat"
+  },
+  {
+    "id": 218,
+    "tr": "Taksiye ihtiyacım var.",
+    "en": "I need a taxi.",
+    "category": "Seyahat"
+  },
+  {
+    "id": 219,
+    "tr": "Lütfen beni bu adrese götürün.",
+    "en": "Please take me to this address.",
+    "category": "Seyahat"
+  },
+  {
+    "id": 220,
+    "tr": "Ne kadar uzaklıkta?",
+    "en": "How far is it?",
+    "category": "Seyahat"
+  },
+  {
+    "id": 221,
+    "tr": "Çok yakın.",
+    "en": "It is very close.",
+    "category": "Konum"
+  },
+  {
+    "id": 222,
+    "tr": "Çok uzak.",
+    "en": "It is very far.",
+    "category": "Konum"
+  },
+  {
+    "id": 223,
+    "tr": "Uçuş ertelendi.",
+    "en": "The flight is delayed.",
+    "category": "Seyahat"
+  },
+  {
+    "id": 224,
+    "tr": "Bagajım nerede?",
+    "en": "Where is my luggage?",
+    "category": "Seyahat"
+  },
+  {
+    "id": 225,
+    "tr": "Pasaportumu kaybettim.",
+    "en": "I lost my passport.",
+    "category": "Acil Durum"
+  },
+  {
+    "id": 226,
+    "tr": "Bizim fotoğrafımızı çekebilir misiniz?",
+    "en": "Can you take a picture of us?",
+    "category": "Rica"
+  },
+  {
+    "id": 227,
+    "tr": "Gülümse!",
+    "en": "Smile!",
+    "category": "Eylem"
+  },
+  {
+    "id": 228,
+    "tr": "Seyahat etmeyi seviyorum.",
+    "en": "I love traveling.",
+    "category": "Tercih"
+  },
+  {
+    "id": 229,
+    "tr": "İyi yolculuklar.",
+    "en": "Have a good trip.",
+    "category": "Dilek"
+  },
+  {
+    "id": 230,
+    "tr": "Nereye gittin?",
+    "en": "Where did you go?",
+    "category": "Soru"
+  },
+  {
+    "id": 231,
+    "tr": "Bir otelde kaldım.",
+    "en": "I stayed at a hotel.",
+    "category": "Durum"
+  },
+  {
+    "id": 232,
+    "tr": "En sevdiğin yemek nedir?",
+    "en": "What is your favorite food?",
+    "category": "Soru"
+  },
+  {
+    "id": 233,
+    "tr": "Fıstığa alerjim var.",
+    "en": "I am allergic to peanuts.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 234,
+    "tr": "Hesap lütfen.",
+    "en": "The bill, please.",
+    "category": "Yemek"
+  },
+  {
+    "id": 235,
+    "tr": "Üstü kalsın.",
+    "en": "Keep the change.",
+    "category": "Yemek"
+  },
+  {
+    "id": 236,
+    "tr": "Bu masa boş mu?",
+    "en": "Is this table free?",
+    "category": "Yemek"
+  },
+  {
+    "id": 237,
+    "tr": "Bir menü alabilir miyim?",
+    "en": "I would like a menu.",
+    "category": "Yemek"
+  },
+  {
+    "id": 238,
+    "tr": "Tadı güzel.",
+    "en": "It tastes good.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 239,
+    "tr": "Bu çok baharatlı.",
+    "en": "It is too spicy.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 240,
+    "tr": "Biraz su alabilir miyim?",
+    "en": "Can I have some water?",
+    "category": "Rica"
+  },
+  {
+    "id": 241,
+    "tr": "Akşam yemeği pişiriyorum.",
+    "en": "I am cooking dinner.",
+    "category": "Eylem"
+  },
+  {
+    "id": 242,
+    "tr": "Kahvaltı hazır.",
+    "en": "Breakfast is ready.",
+    "category": "Durum"
+  },
+  {
+    "id": 243,
+    "tr": "Öğle yemeğini atlarım.",
+    "en": "I skip lunch.",
+    "category": "Rutin"
+  },
+  {
+    "id": 244,
+    "tr": "Saat kaçta uyanırsın?",
+    "en": "What time do you wake up?",
+    "category": "Soru"
+  },
+  {
+    "id": 245,
+    "tr": "Erken uyanırım.",
+    "en": "I wake up early.",
+    "category": "Rutin"
+  },
+  {
+    "id": 246,
+    "tr": "Geç yatarım.",
+    "en": "I go to bed late.",
+    "category": "Rutin"
+  },
+  {
+    "id": 247,
+    "tr": "İyi uyudun mu?",
+    "en": "Did you sleep well?",
+    "category": "Soru"
+  },
+  {
+    "id": 248,
+    "tr": "Kötü bir rüya gördüm.",
+    "en": "I had a bad dream.",
+    "category": "Durum"
+  },
+  {
+    "id": 249,
+    "tr": "Işığı kapat.",
+    "en": "Turn off the light.",
+    "category": "Eylem"
+  },
+  {
+    "id": 250,
+    "tr": "Televizyonu aç.",
+    "en": "Turn on the TV.",
+    "category": "Eylem"
+  },
+  {
+    "id": 251,
+    "tr": "Bu gece televizyonda ne var?",
+    "en": "What is on TV tonight?",
+    "category": "Soru"
+  },
+  {
+    "id": 252,
+    "tr": "Bir film izliyorum.",
+    "en": "I am watching a movie.",
+    "category": "Eylem"
+  },
+  {
+    "id": 253,
+    "tr": "Spor sever misin?",
+    "en": "Do you like sports?",
+    "category": "Soru"
+  },
+  {
+    "id": 254,
+    "tr": "Futbol oynarım.",
+    "en": "I play football.",
+    "category": "Hobi"
+  },
+  {
+    "id": 255,
+    "tr": "Spor salonuna giderim.",
+    "en": "I go to the gym.",
+    "category": "Rutin"
+  },
+  {
+    "id": 256,
+    "tr": "En sevdiğim renk mavidir.",
+    "en": "My favorite color is blue.",
+    "category": "Tercih"
+  },
+  {
+    "id": 257,
+    "tr": "Bugün günlerden ne?",
+    "en": "What day is it today?",
+    "category": "Zaman"
+  },
+  {
+    "id": 258,
+    "tr": "Bugün Salı.",
+    "en": "Today is Tuesday.",
+    "category": "Zaman"
+  },
+  {
+    "id": 259,
+    "tr": "Dün Pazartesiydi.",
+    "en": "Yesterday was Monday.",
+    "category": "Zaman"
+  },
+  {
+    "id": 260,
+    "tr": "Yarın Çarşamba.",
+    "en": "Tomorrow is Wednesday.",
+    "category": "Zaman"
+  },
+  {
+    "id": 261,
+    "tr": "Gelecek hafta.",
+    "en": "Next week.",
+    "category": "Zaman"
+  },
+  {
+    "id": 262,
+    "tr": "Geçen ay.",
+    "en": "Last month.",
+    "category": "Zaman"
+  },
+  {
+    "id": 263,
+    "tr": "Bu yıl.",
+    "en": "This year.",
+    "category": "Zaman"
+  },
+  {
+    "id": 264,
+    "tr": "Gece yarısı.",
+    "en": "It is midnight.",
+    "category": "Zaman"
+  },
+  {
+    "id": 265,
+    "tr": "Öğle vakti.",
+    "en": "It is noon.",
+    "category": "Zaman"
+  },
+  {
+    "id": 266,
+    "tr": "İlkbahar güzeldir.",
+    "en": "Spring is beautiful.",
+    "category": "Mevsim"
+  },
+  {
+    "id": 267,
+    "tr": "Yaz sıcaktır.",
+    "en": "Summer is hot.",
+    "category": "Mevsim"
+  },
+  {
+    "id": 268,
+    "tr": "Sonbahar rüzgarlıdır.",
+    "en": "Autumn is windy.",
+    "category": "Mevsim"
+  },
+  {
+    "id": 269,
+    "tr": "Kış soğuktur.",
+    "en": "Winter is cold.",
+    "category": "Mevsim"
+  },
+  {
+    "id": 270,
+    "tr": "Öğrenci misin?",
+    "en": "Are you a student?",
+    "category": "Soru"
+  },
+  {
+    "id": 271,
+    "tr": "İngilizce çalışıyorum.",
+    "en": "I study English.",
+    "category": "Eğitim"
+  },
+  {
+    "id": 272,
+    "tr": "Ödevimi yapıyorum.",
+    "en": "I do my homework.",
+    "category": "Eğitim"
+  },
+  {
+    "id": 273,
+    "tr": "Sınav zordu.",
+    "en": "The exam was difficult.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 274,
+    "tr": "Test kolaydı.",
+    "en": "The test was easy.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 275,
+    "tr": "Bunu açıklayabilir misin?",
+    "en": "Can you explain this?",
+    "category": "İletişim"
+  },
+  {
+    "id": 276,
+    "tr": "Bir hata yaptım.",
+    "en": "I made a mistake.",
+    "category": "İtiraf"
+  },
+  {
+    "id": 277,
+    "tr": "Kimse mükemmel değildir.",
+    "en": "Nobody is perfect.",
+    "category": "Durum"
+  },
+  {
+    "id": 278,
+    "tr": "Pratik mükemmelleştirir.",
+    "en": "Practice makes perfect.",
+    "category": "Özlü Söz"
+  },
+  {
+    "id": 279,
+    "tr": "En iyi arkadaşın kim?",
+    "en": "Who is your best friend?",
+    "category": "Soru"
+  },
+  {
+    "id": 280,
+    "tr": "O çok zeki.",
+    "en": "She is very smart.",
+    "category": "Tanımlama"
+  },
+  {
+    "id": 281,
+    "tr": "O çok komik.",
+    "en": "He is very funny.",
+    "category": "Tanımlama"
+  },
+  {
+    "id": 282,
+    "tr": "Onlar benim ebeveynlerim.",
+    "en": "They are my parents.",
+    "category": "Aile"
+  },
+  {
+    "id": 283,
+    "tr": "Bir erkek kardeşim var.",
+    "en": "I have a brother.",
+    "category": "Aile"
+  },
+  {
+    "id": 284,
+    "tr": "İki kız kardeşim var.",
+    "en": "I have two sisters.",
+    "category": "Aile"
+  },
+  {
+    "id": 285,
+    "tr": "Onun evcil hayvanı var mı?",
+    "en": "Does he have a pet?",
+    "category": "Soru"
+  },
+  {
+    "id": 286,
+    "tr": "Bir köpeğim var.",
+    "en": "I have a dog.",
+    "category": "Hayvanlar"
+  },
+  {
+    "id": 287,
+    "tr": "Kedileri severim.",
+    "en": "I love cats.",
+    "category": "Hayvanlar"
+  },
+  {
+    "id": 288,
+    "tr": "Sessiz ol.",
+    "en": "Be quiet.",
+    "category": "Uyarı"
+  },
+  {
+    "id": 289,
+    "tr": "Daha yüksek sesle konuş.",
+    "en": "Talk louder.",
+    "category": "İletişim"
+  },
+  {
+    "id": 290,
+    "tr": "Wi-Fi şifresi nedir?",
+    "en": "What is the Wi-Fi password?",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 291,
+    "tr": "Telefonumun şarjı bitti.",
+    "en": "My phone is dead.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 292,
+    "tr": "Şarj aletine ihtiyacım var.",
+    "en": "I need a charger.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 293,
+    "tr": "Bilgisayarını kullanabilir miyim?",
+    "en": "Can I use your computer?",
+    "category": "Rica"
+  },
+  {
+    "id": 294,
+    "tr": "İnternet yavaş.",
+    "en": "The internet is slow.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 295,
+    "tr": "Bana bir mesaj gönder.",
+    "en": "Send me a message.",
+    "category": "İletişim"
+  },
+  {
+    "id": 296,
+    "tr": "E-postanı kontrol et.",
+    "en": "Check your email.",
+    "category": "İletişim"
+  },
+  {
+    "id": 297,
+    "tr": "Uygulamayı indir.",
+    "en": "Download the app.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 298,
+    "tr": "Bu bağlantıya tıkla.",
+    "en": "Click this link.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 299,
+    "tr": "Çaimıyor.",
+    "en": "It is not working.",
+    "category": "Sorun"
+  },
+  {
+    "id": 300,
+    "tr": "Başardık!",
+    "en": "We did it!",
+    "category": "Kutlama"
+  }
+]

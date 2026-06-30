@@ -1,0 +1,701 @@
+[
+  {
+    "id": "eng_a1_001",
+    "original_script": "the",
+    "meaning": "belirli tanımlık",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_001_the.mp3"
+  },
+  {
+    "id": "eng_a1_002",
+    "original_script": "be",
+    "meaning": "olmak",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_002_be.mp3"
+  },
+  {
+    "id": "eng_a1_003",
+    "original_script": "to",
+    "meaning": "-e, -a (yönelme)",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_003_to.mp3"
+  },
+  {
+    "id": "eng_a1_004",
+    "original_script": "of",
+    "meaning": "-in, -ın (aitlik)",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_004_of.mp3"
+  },
+  {
+    "id": "eng_a1_005",
+    "original_script": "and",
+    "meaning": "ve",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_005_and.mp3"
+  },
+  {
+    "id": "eng_a1_006",
+    "original_script": "a",
+    "meaning": "bir",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_006_a.mp3"
+  },
+  {
+    "id": "eng_a1_007",
+    "original_script": "in",
+    "meaning": "içinde",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_007_in.mp3"
+  },
+  {
+    "id": "eng_a1_008",
+    "original_script": "that",
+    "meaning": "şu, o",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_008_that.mp3"
+  },
+  {
+    "id": "eng_a1_009",
+    "original_script": "have",
+    "meaning": "sahip olmak",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_009_have.mp3"
+  },
+  {
+    "id": "eng_a1_010",
+    "original_script": "I",
+    "meaning": "ben",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_010_i.mp3"
+  },
+  {
+    "id": "eng_a1_011",
+    "original_script": "it",
+    "meaning": "o (cansız)",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_011_it.mp3"
+  },
+  {
+    "id": "eng_a1_012",
+    "original_script": "for",
+    "meaning": "için",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_012_for.mp3"
+  },
+  {
+    "id": "eng_a1_013",
+    "original_script": "not",
+    "meaning": "değil",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_013_not.mp3"
+  },
+  {
+    "id": "eng_a1_014",
+    "original_script": "on",
+    "meaning": "üzerinde",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_014_on.mp3"
+  },
+  {
+    "id": "eng_a1_015",
+    "original_script": "with",
+    "meaning": "ile",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_015_with.mp3"
+  },
+  {
+    "id": "eng_a1_016",
+    "original_script": "he",
+    "meaning": "o (erkek)",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_016_he.mp3"
+  },
+  {
+    "id": "eng_a1_017",
+    "original_script": "as",
+    "meaning": "gibi",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_017_as.mp3"
+  },
+  {
+    "id": "eng_a1_018",
+    "original_script": "you",
+    "meaning": "sen, siz",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_018_you.mp3"
+  },
+  {
+    "id": "eng_a1_019",
+    "original_script": "do",
+    "meaning": "yapmak",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_019_do.mp3"
+  },
+  {
+    "id": "eng_a1_020",
+    "original_script": "at",
+    "meaning": "-de, -da",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_020_at.mp3"
+  },
+  {
+    "id": "eng_a1_021",
+    "original_script": "this",
+    "meaning": "bu",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_021_this.mp3"
+  },
+  {
+    "id": "eng_a1_022",
+    "original_script": "but",
+    "meaning": "ama",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_022_but.mp3"
+  },
+  {
+    "id": "eng_a1_023",
+    "original_script": "his",
+    "meaning": "onun (erkek)",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_023_his.mp3"
+  },
+  {
+    "id": "eng_a1_024",
+    "original_script": "by",
+    "meaning": "tarafından",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_024_by.mp3"
+  },
+  {
+    "id": "eng_a1_025",
+    "original_script": "from",
+    "meaning": "-den, -dan",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_025_from.mp3"
+  },
+  {
+    "id": "eng_a1_026",
+    "original_script": "they",
+    "meaning": "onlar",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_026_they.mp3"
+  },
+  {
+    "id": "eng_a1_027",
+    "original_script": "we",
+    "meaning": "biz",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_027_we.mp3"
+  },
+  {
+    "id": "eng_a1_028",
+    "original_script": "say",
+    "meaning": "söylemek",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_028_say.mp3"
+  },
+  {
+    "id": "eng_a1_029",
+    "original_script": "her",
+    "meaning": "onun (kadın)",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_029_her.mp3"
+  },
+  {
+    "id": "eng_a1_030",
+    "original_script": "she",
+    "meaning": "o (kadın)",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_030_she.mp3"
+  },
+  {
+    "id": "eng_a1_031",
+    "original_script": "or",
+    "meaning": "veya",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_031_or.mp3"
+  },
+  {
+    "id": "eng_a1_032",
+    "original_script": "an",
+    "meaning": "bir",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_032_an.mp3"
+  },
+  {
+    "id": "eng_a1_033",
+    "original_script": "will",
+    "meaning": "-ecek/-acak",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_033_will.mp3"
+  },
+  {
+    "id": "eng_a1_034",
+    "original_script": "my",
+    "meaning": "benim",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_034_my.mp3"
+  },
+  {
+    "id": "eng_a1_035",
+    "original_script": "one",
+    "meaning": "bir",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_035_one.mp3"
+  },
+  {
+    "id": "eng_a1_036",
+    "original_script": "all",
+    "meaning": "hepsi",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_036_all.mp3"
+  },
+  {
+    "id": "eng_a1_037",
+    "original_script": "would",
+    "meaning": "-erdi/-ardı",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_037_would.mp3"
+  },
+  {
+    "id": "eng_a1_038",
+    "original_script": "there",
+    "meaning": "orada",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_038_there.mp3"
+  },
+  {
+    "id": "eng_a1_039",
+    "original_script": "their",
+    "meaning": "onların",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_039_their.mp3"
+  },
+  {
+    "id": "eng_a1_040",
+    "original_script": "what",
+    "meaning": "ne",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_040_what.mp3"
+  },
+  {
+    "id": "eng_a1_041",
+    "original_script": "so",
+    "meaning": "bu yüzden",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_041_so.mp3"
+  },
+  {
+    "id": "eng_a1_042",
+    "original_script": "up",
+    "meaning": "yukarı",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_042_up.mp3"
+  },
+  {
+    "id": "eng_a1_043",
+    "original_script": "out",
+    "meaning": "dışarı",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_043_out.mp3"
+  },
+  {
+    "id": "eng_a1_044",
+    "original_script": "if",
+    "meaning": "eğer",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_044_if.mp3"
+  },
+  {
+    "id": "eng_a1_045",
+    "original_script": "about",
+    "meaning": "hakkında",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_045_about.mp3"
+  },
+  {
+    "id": "eng_a1_046",
+    "original_script": "who",
+    "meaning": "kim",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_046_who.mp3"
+  },
+  {
+    "id": "eng_a1_047",
+    "original_script": "get",
+    "meaning": "almak",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_047_get.mp3"
+  },
+  {
+    "id": "eng_a1_048",
+    "original_script": "which",
+    "meaning": "hangi",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_048_which.mp3"
+  },
+  {
+    "id": "eng_a1_049",
+    "original_script": "go",
+    "meaning": "gitmek",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_049_go.mp3"
+  },
+  {
+    "id": "eng_a1_050",
+    "original_script": "me",
+    "meaning": "beni/bana",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_050_me.mp3"
+  },
+  {
+    "id": "eng_a1_051",
+    "original_script": "when",
+    "meaning": "ne zaman",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_051_when.mp3"
+  },
+  {
+    "id": "eng_a1_052",
+    "original_script": "make",
+    "meaning": "yapmak",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_052_make.mp3"
+  },
+  {
+    "id": "eng_a1_053",
+    "original_script": "can",
+    "meaning": "-ebilmek",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_053_can.mp3"
+  },
+  {
+    "id": "eng_a1_054",
+    "original_script": "like",
+    "meaning": "sevmek, gibi",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_054_like.mp3"
+  },
+  {
+    "id": "eng_a1_055",
+    "problem": "zaman",
+    "meaning": "zaman",
+    "level_tag": "A1_Vocabulary"
+  },
+  {
+    "id": "eng_a1_056",
+    "original_script": "no",
+    "meaning": "hayır",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_056_no.mp3"
+  },
+  {
+    "id": "eng_a1_057",
+    "original_script": "just",
+    "meaning": "sadece",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_057_just.mp3"
+  },
+  {
+    "id": "eng_a1_058",
+    "original_script": "him",
+    "meaning": "onu (erkek)",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_058_him.mp3"
+  },
+  {
+    "id": "eng_a1_059",
+    "original_script": "know",
+    "meaning": "bilmek",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_059_know.mp3"
+  },
+  {
+    "id": "eng_a1_060",
+    "original_script": "take",
+    "meaning": "almak",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_060_take.mp3"
+  },
+  {
+    "id": "eng_a1_061",
+    "original_script": "people",
+    "meaning": "insanlar",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_061_people.mp3"
+  },
+  {
+    "id": "eng_a1_062",
+    "original_script": "into",
+    "meaning": "içine",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_062_into.mp3"
+  },
+  {
+    "id": "eng_a1_063",
+    "original_script": "year",
+    "meaning": "yıl",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_063_year.mp3"
+  },
+  {
+    "id": "eng_a1_064",
+    "original_script": "your",
+    "meaning": "senin",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_064_your.mp3"
+  },
+  {
+    "id": "eng_a1_065",
+    "original_script": "good",
+    "meaning": "iyi",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_065_good.mp3"
+  },
+  {
+    "id": "eng_a1_066",
+    "original_script": "some",
+    "meaning": "biraz",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_066_some.mp3"
+  },
+  {
+    "id": "eng_a1_067",
+    "original_script": "could",
+    "meaning": "-ebilirdi",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_067_could.mp3"
+  },
+  {
+    "id": "eng_a1_068",
+    "original_script": "them",
+    "meaning": "onları",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_068_them.mp3"
+  },
+  {
+    "id": "eng_a1_069",
+    "original_script": "see",
+    "meaning": "görmek",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_069_see.mp3"
+  },
+  {
+    "id": "eng_a1_070",
+    "original_script": "other",
+    "meaning": "diğer",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_070_other.mp3"
+  },
+  {
+    "id": "eng_a1_071",
+    "original_script": "than",
+    "meaning": "-den/-dan (kıyas)",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_071_than.mp3"
+  },
+  {
+    "id": "eng_a1_072",
+    "original_script": "then",
+    "meaning": "o zaman",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_072_then.mp3"
+  },
+  {
+    "id": "eng_a1_073",
+    "original_script": "now",
+    "meaning": "şimdi",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_073_now.mp3"
+  },
+  {
+    "id": "eng_a1_074",
+    "original_script": "look",
+    "meaning": "bakmak",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_074_look.mp3"
+  },
+  {
+    "id": "eng_a1_075",
+    "original_script": "only",
+    "meaning": "sadece",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_075_only.mp3"
+  },
+  {
+    "id": "eng_a1_076",
+    "original_script": "come",
+    "meaning": "gelmek",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_076_come.mp3"
+  },
+  {
+    "id": "eng_a1_077",
+    "original_script": "its",
+    "meaning": "onun (cansız)",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_077_its.mp3"
+  },
+  {
+    "id": "eng_a1_078",
+    "original_script": "over",
+    "meaning": "üzerinde",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_078_over.mp3"
+  },
+  {
+    "id": "eng_a1_079",
+    "original_script": "think",
+    "meaning": "düşünmek",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_079_think.mp3"
+  },
+  {
+    "id": "eng_a1_080",
+    "original_script": "also",
+    "meaning": "ayrıca",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_080_also.mp3"
+  },
+  {
+    "id": "eng_a1_081",
+    "original_script": "back",
+    "meaning": "geri",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_081_back.mp3"
+  },
+  {
+    "id": "eng_a1_082",
+    "original_script": "after",
+    "meaning": "sonra",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_082_after.mp3"
+  },
+  {
+    "id": "eng_a1_083",
+    "original_script": "use",
+    "meaning": "kullanmak",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_083_use.mp3"
+  },
+  {
+    "id": "eng_a1_084",
+    "original_script": "two",
+    "meaning": "iki",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_084_two.mp3"
+  },
+  {
+    "id": "eng_a1_085",
+    "original_script": "how",
+    "meaning": "nasıl",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_085_how.mp3"
+  },
+  {
+    "id": "eng_a1_086",
+    "original_script": "our",
+    "meaning": "bizim",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_086_our.mp3"
+  },
+  {
+    "id": "eng_a1_087",
+    "original_script": "work",
+    "meaning": "çalışmak",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_087_work.mp3"
+  },
+  {
+    "id": "eng_a1_088",
+    "original_script": "first",
+    "meaning": "ilk",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_088_first.mp3"
+  },
+  {
+    "id": "eng_a1_089",
+    "original_script": "well",
+    "meaning": "iyi",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_089_well.mp3"
+  },
+  {
+    "id": "eng_a1_090",
+    "original_script": "way",
+    "meaning": "yol",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_090_way.mp3"
+  },
+  {
+    "id": "eng_a1_091",
+    "original_script": "even",
+    "meaning": "bile",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_091_even.mp3"
+  },
+  {
+    "id": "eng_a1_092",
+    "original_script": "new",
+    "meaning": "yeni",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_092_new.mp3"
+  },
+  {
+    "id": "eng_a1_093",
+    "original_script": "want",
+    "meaning": "istemek",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_093_want.mp3"
+  },
+  {
+    "id": "eng_a1_094",
+    "original_script": "because",
+    "meaning": "çünkü",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_094_because.mp3"
+  },
+  {
+    "id": "eng_a1_095",
+    "original_script": "any",
+    "meaning": "hiç",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_095_any.mp3"
+  },
+  {
+    "id": "eng_a1_096",
+    "original_script": "these",
+    "meaning": "bunlar",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_096_these.mp3"
+  },
+  {
+    "id": "eng_a1_097",
+    "original_script": "give",
+    "meaning": "vermek",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_097_give.mp3"
+  },
+  {
+    "id": "eng_a1_098",
+    "original_script": "day",
+    "meaning": "gün",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_098_day.mp3"
+  },
+  {
+    "id": "eng_a1_099",
+    "original_script": "most",
+    "meaning": "en çok",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_099_most.mp3"
+  },
+  {
+    "id": "eng_a1_100",
+    "original_script": "us",
+    "meaning": "bizi",
+    "level_tag": "A1_Vocabulary",
+    "audioUrl": "/data/data/Tr_Eng_Genel/Audio/eng_a1_100_us.mp3"
+  }
+]

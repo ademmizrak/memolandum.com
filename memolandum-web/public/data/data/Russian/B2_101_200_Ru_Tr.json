@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "rus_b2_101",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Воздействие",
+    "romanized_script": "Vozdeystviye",
+    "meaning": "Etki / Nüfuz",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_101_vozdeystviye.mp3"
+  },
+  {
+    "id": "rus_b2_102",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Проявление",
+    "romanized_script": "Proyavleniye",
+    "meaning": "Tezahür / Belirti",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_102_proyavleniye.mp3"
+  },
+  {
+    "id": "rus_b2_103",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Распространение",
+    "romanized_script": "Rasprostraneniye",
+    "meaning": "Yayılma / Dağıtım",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_103_rasprostraneniye.mp3"
+  },
+  {
+    "id": "rus_b2_104",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Совпадение",
+    "romanized_script": "Sovpadeniye",
+    "meaning": "Tesadüf / Çakışma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_104_sovpadeniye.mp3"
+  },
+  {
+    "id": "rus_b2_105",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Противоречие",
+    "romanized_script": "Protivoreçiye",
+    "meaning": "Çelişki",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_105_protivore_iye.mp3"
+  },
+  {
+    "id": "rus_b2_106",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Сомнение",
+    "romanized_script": "Somneniye",
+    "meaning": "Şüphe / Kuşku",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_106_somneniye.mp3"
+  },
+  {
+    "id": "rus_b2_107",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Напряжение",
+    "romanized_script": "Napryajeniye",
+    "meaning": "Gerilim / Tansiyon",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_107_napryajeniye.mp3"
+  },
+  {
+    "id": "rus_b2_108",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Разрешение",
+    "romanized_script": "Razreşeniye",
+    "meaning": "İzin / Çözüm",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_108_razre_eniye.mp3"
+  },
+  {
+    "id": "rus_b2_109",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Убеждение",
+    "romanized_script": "Ubejdeniye",
+    "meaning": "İnanç / İkna",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_109_ubejdeniye.mp3"
+  },
+  {
+    "id": "rus_b2_110",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Исключение",
+    "romanized_script": "Isklyuçeniye",
+    "meaning": "İstisna",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_110_isklyu_eniye.mp3"
+  },
+  {
+    "id": "rus_b2_111",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Наблюдение",
+    "romanized_script": "Nablyudeniye",
+    "meaning": "Gözlem",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_111_nablyudeniye.mp3"
+  },
+  {
+    "id": "rus_b2_112",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Ограничение",
+    "romanized_script": "Ograniçeniye",
+    "meaning": "Kısıtlama / Sınırlandırma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_112_ograni_eniye.mp3"
+  },
+  {
+    "id": "rus_b2_113",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Подтверждение",
+    "romanized_script": "Podtverjdeniye",
+    "meaning": "Doğrulama / Onay",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_113_podtverjdeniye.mp3"
+  },
+  {
+    "id": "rus_b2_114",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Предположение",
+    "romanized_script": "Predpolojeniye",
+    "meaning": "Varsayım",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_114_predpolojeniye.mp3"
+  },
+  {
+    "id": "rus_b2_115",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Признание",
+    "romanized_script": "Priznaniye",
+    "meaning": "İtiraf / Tanınma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_115_priznaniye.mp3"
+  },
+  {
+    "id": "rus_b2_116",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Удовлетворение",
+    "romanized_script": "Udovletvoreniye",
+    "meaning": "Memnuniyet / Tatmin",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_116_udovletvoreniye.mp3"
+  },
+  {
+    "id": "rus_b2_117",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Преобразование",
+    "romanized_script": "Preobrazovaniye",
+    "meaning": "Dönüşüm / Reform",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_117_preobrazovaniye.mp3"
+  },
+  {
+    "id": "rus_b2_118",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Взаимодействие",
+    "romanized_script": "Vzaimodeystviye",
+    "meaning": "Etkileşim",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_118_vzaimodeystviye.mp3"
+  },
+  {
+    "id": "rus_b2_119",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Сопротивление",
+    "romanized_script": "Soprotivleniye",
+    "meaning": "Direnç / Karşı koyma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_119_soprotivleniye.mp3"
+  },
+  {
+    "id": "rus_b2_120",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Возникновение",
+    "romanized_script": "Vozniknoveniye",
+    "meaning": "Ortaya çıkma / Doğuş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_120_vozniknoveniye.mp3"
+  },
+  {
+    "id": "rus_b2_121",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Нарушение",
+    "romanized_script": "Naruşeniye",
+    "meaning": "İhlal",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_121_naru_eniye.mp3"
+  },
+  {
+    "id": "rus_b2_122",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Восстановление",
+    "romanized_script": "Vosstanovleniye",
+    "meaning": "Onarım / Restorasyon",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_122_vosstanovleniye.mp3"
+  },
+  {
+    "id": "rus_b2_123",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Отклонение",
+    "romanized_script": "Otkloneniye",
+    "meaning": "Sapma / Reddetme",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_123_otkloneniye.mp3"
+  },
+  {
+    "id": "rus_b2_124",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Утверждение",
+    "romanized_script": "Utverjdeniye",
+    "meaning": "İddia / Onaylama",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_124_utverjdeniye.mp3"
+  },
+  {
+    "id": "rus_b2_125",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Применение",
+    "romanized_script": "Primeneniye",
+    "meaning": "Uygulama",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_125_primeneniye.mp3"
+  },
+  {
+    "id": "rus_b2_126",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Исполнение",
+    "romanized_script": "Ispolneniye",
+    "meaning": "Gerçekleştirme / İcra",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_126_ispolneniye.mp3"
+  },
+  {
+    "id": "rus_b2_127",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Сохранение",
+    "romanized_script": "Sohraneniye",
+    "meaning": "Koruma / Muhafaza",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_127_sohraneniye.mp3"
+  },
+  {
+    "id": "rus_b2_128",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Изобретение",
+    "romanized_script": "Izobreteniye",
+    "meaning": "İcat",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_128_izobreteniye.mp3"
+  },
+  {
+    "id": "rus_b2_129",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Дополнение",
+    "romanized_script": "Dopolneniye",
+    "meaning": "Ek / İlave",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_129_dopolneniye.mp3"
+  },
+  {
+    "id": "rus_b2_130",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Поколение",
+    "romanized_script": "Pokoleniye",
+    "meaning": "Nesil / Kuşak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_130_pokoleniye.mp3"
+  },
+  {
+    "id": "rus_b2_131",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Окружение",
+    "romanized_script": "Okrujeniye",
+    "meaning": "Çevre",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_131_okrujeniye.mp3"
+  },
+  {
+    "id": "rus_b2_132",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Заблуждение",
+    "romanized_script": "Zablujdeniye",
+    "meaning": "Yanılgı / Hata",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_132_zablujdeniye.mp3"
+  },
+  {
+    "id": "rus_b2_133",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Учреждение",
+    "romanized_script": "Uçrejdeniye",
+    "meaning": "Kurum / Kuruluş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_133_u_rejdeniye.mp3"
+  },
+  {
+    "id": "rus_b2_134",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Распоряжение",
+    "romanized_script": "Rasporyajeniye",
+    "meaning": "Emir / Talimat",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_134_rasporyajeniye.mp3"
+  },
+  {
+    "id": "rus_b2_135",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Представление",
+    "romanized_script": "Predstavleniye",
+    "meaning": "Gösteri / Temsil / Fikir",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_135_predstavleniye.mp3"
+  },
+  {
+    "id": "rus_b2_136",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Поведение",
+    "romanized_script": "Povedeniye",
+    "meaning": "Davranış",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_136_povedeniye.mp3"
+  },
+  {
+    "id": "rus_b2_137",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Убежище",
+    "romanized_script": "Ubejişçe",
+    "meaning": "Sığınak / Sığınma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_137_ubeji_e.mp3"
+  },
+  {
+    "id": "rus_b2_138",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Достоинство",
+    "romanized_script": "Dostoinstvo",
+    "meaning": "Erdem / Haysiyet / Değer",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_138_dostoinstvo.mp3"
+  },
+  {
+    "id": "rus_b2_139",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Богатство",
+    "romanized_script": "Bogatstvo",
+    "meaning": "Zenginlik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_139_bogatstvo.mp3"
+  },
+  {
+    "id": "rus_b2_140",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Меньшинство",
+    "romanized_script": "Menşinstvo",
+    "meaning": "Azınlık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_140_men_instvo.mp3"
+  },
+  {
+    "id": "rus_b2_141",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Большинство",
+    "romanized_script": "Bolşinstvo",
+    "meaning": "Çoğunluk",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_141_bol_instvo.mp3"
+  },
+  {
+    "id": "rus_b2_142",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Руководство",
+    "romanized_script": "Rukovodstvo",
+    "meaning": "Yönetim / Kılavuz",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_142_rukovodstvo.mp3"
+  },
+  {
+    "id": "rus_b2_143",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Человечество",
+    "romanized_script": "Çeloveçestvo",
+    "meaning": "İnsanlık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_143__elove_estvo.mp3"
+  },
+  {
+    "id": "rus_b2_144",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Творчество",
+    "romanized_script": "Tvorçestvo",
+    "meaning": "Yaratıcılık / Eser",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_144_tvor_estvo.mp3"
+  },
+  {
+    "id": "rus_b2_145",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Имущество",
+    "romanized_script": "Imuşçestvo",
+    "meaning": "Mülk / Mal",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_145_imu_estvo.mp3"
+  },
+  {
+    "id": "rus_b2_146",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Препятствие",
+    "romanized_script": "Prepyatstviye",
+    "meaning": "Engel",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_146_prepyatstviye.mp3"
+  },
+  {
+    "id": "rus_b2_147",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Сочувствие",
+    "romanized_script": "Soçuvstviye",
+    "meaning": "Sempati / Halden anlama",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_147_so_uvstviye.mp3"
+  },
+  {
+    "id": "rus_b2_148",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Отчаяние",
+    "romanized_script": "Otçayaniye",
+    "meaning": "Umutsuzluk",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_148_ot_ayaniye.mp3"
+  },
+  {
+    "id": "rus_b2_149",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Усилие",
+    "romanized_script": "Usiliye",
+    "meaning": "Çaba / Gayret",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_149_usiliye.mp3"
+  },
+  {
+    "id": "rus_b2_150",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Спокойствие",
+    "romanized_script": "Spokoystviye",
+    "meaning": "Sakinlik / Huzur",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_150_spokoystviye.mp3"
+  },
+  {
+    "id": "rus_b2_151",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Равновесие",
+    "romanized_script": "Ravnovesiye",
+    "meaning": "Denge",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_151_ravnovesiye.mp3"
+  },
+  {
+    "id": "rus_b2_152",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Согласие",
+    "romanized_script": "Soglasiye",
+    "meaning": "Rıza / Anlaşma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_152_soglasiye.mp3"
+  },
+  {
+    "id": "rus_b2_153",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Разнообразие",
+    "romanized_script": "Raznoobraziye",
+    "meaning": "Çeşitlilik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_153_raznoobraziye.mp3"
+  },
+  {
+    "id": "rus_b2_154",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Недоверие",
+    "romanized_script": "Nedoveriye",
+    "meaning": "Güvensizlik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_154_nedoveriye.mp3"
+  },
+  {
+    "id": "rus_b2_155",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Мировоззрение",
+    "romanized_script": "Mirovozzreniye",
+    "meaning": "Dünya görüşü",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_155_mirovozzreniye.mp3"
+  },
+  {
+    "id": "rus_b2_156",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Вдохновение",
+    "romanized_script": "Vdohnoveniye",
+    "meaning": "İlham",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_156_vdohnoveniye.mp3"
+  },
+  {
+    "id": "rus_b2_157",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Давление",
+    "romanized_script": "Davleniye",
+    "meaning": "Baskı / Basınç",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_157_davleniye.mp3"
+  },
+  {
+    "id": "rus_b2_158",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Преступность",
+    "romanized_script": "Prestupnost",
+    "meaning": "Suç oranı / Suçluluk",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_158_prestupnost.mp3"
+  },
+  {
+    "id": "rus_b2_159",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Зависимость",
+    "romanized_script": "Zavisimost",
+    "meaning": "Bağımlılık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_159_zavisimost.mp3"
+  },
+  {
+    "id": "rus_b2_160",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Независимость",
+    "romanized_script": "Nezavisimost",
+    "meaning": "Bağımsızlık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_160_nezavisimost.mp3"
+  },
+  {
+    "id": "rus_b2_161",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Несправедливость",
+    "romanized_script": "Nespravedlivost",
+    "meaning": "Adaletsizlik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_161_nespravedlivost.mp3"
+  },
+  {
+    "id": "rus_b2_162",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Уверенность",
+    "romanized_script": "Uverennost",
+    "meaning": "Kendine güven / Eminlik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_162_uverennost.mp3"
+  },
+  {
+    "id": "rus_b2_163",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Искренность",
+    "romanized_script": "Iskrennost",
+    "meaning": "Samimiyet",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_163_iskrennost.mp3"
+  },
+  {
+    "id": "rus_b2_164",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Жестокость",
+    "romanized_script": "Jestokost",
+    "meaning": "Acımasızlık / Gaddarlık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_164_jestokost.mp3"
+  },
+  {
+    "id": "rus_b2_165",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Осторожность",
+    "romanized_script": "Ostorojnost",
+    "meaning": "Temkin / Dikkat",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_165_ostorojnost.mp3"
+  },
+  {
+    "id": "rus_b2_166",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Поверхность",
+    "romanized_script": "Poverhnost",
+    "meaning": "Yüzey",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_166_poverhnost.mp3"
+  },
+  {
+    "id": "rus_b2_167",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Потребность",
+    "romanized_script": "Potrebnost",
+    "meaning": "İhtiyaç",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_167_potrebnost.mp3"
+  },
+  {
+    "id": "rus_b2_168",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Подробность",
+    "romanized_script": "Podrobnost",
+    "meaning": "Ayrıntı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_168_podrobnost.mp3"
+  },
+  {
+    "id": "rus_b2_169",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Сложность",
+    "romanized_script": "Slojnost",
+    "meaning": "Zorluk / Karmaşıklık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_169_slojnost.mp3"
+  },
+  {
+    "id": "rus_b2_170",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Готовность",
+    "romanized_script": "Gotovnost",
+    "meaning": "Hazır olma / İsteklilik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_170_gotovnost.mp3"
+  },
+  {
+    "id": "rus_b2_171",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Решимость",
+    "romanized_script": "Reşimost",
+    "meaning": "Kararlılık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_171_re_imost.mp3"
+  },
+  {
+    "id": "rus_b2_172",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Необходимость",
+    "romanized_script": "Neobhodimost",
+    "meaning": "Gereklilik / Zorunluluk",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_172_neobhodimost.mp3"
+  },
+  {
+    "id": "rus_b2_173",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Вероятность",
+    "romanized_script": "Veroyatnost",
+    "meaning": "Olasılık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_173_veroyatnost.mp3"
+  },
+  {
+    "id": "rus_b2_174",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Действительность",
+    "romanized_script": "Deystvitelnost",
+    "meaning": "Gerçeklik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_174_deystvitelnost.mp3"
+  },
+  {
+    "id": "rus_b2_175",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Опасность",
+    "romanized_script": "Opasnost",
+    "meaning": "Tehlike",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_175_opasnost.mp3"
+  },
+  {
+    "id": "rus_b2_176",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Собственность",
+    "romanized_script": "Sobstvennost",
+    "meaning": "Mülkiyet",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_176_sobstvennost.mp3"
+  },
+  {
+    "id": "rus_b2_177",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Совокупность",
+    "romanized_script": "Sovokupnost",
+    "meaning": "Bütün / Toplam",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_177_sovokupnost.mp3"
+  },
+  {
+    "id": "rus_b2_178",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Целостность",
+    "romanized_script": "Tselostnost",
+    "meaning": "Bütünlük",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_178_tselostnost.mp3"
+  },
+  {
+    "id": "rus_b2_179",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Эффективность",
+    "romanized_script": "Effektivnost",
+    "meaning": "Verimlilik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_179_effektivnost.mp3"
+  },
+  {
+    "id": "rus_b2_180",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Актуальность",
+    "romanized_script": "Aktualnost",
+    "meaning": "Güncellik / Önem",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_180_aktualnost.mp3"
+  },
+  {
+    "id": "rus_b2_181",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Стабильность",
+    "romanized_script": "Stabilnost",
+    "meaning": "İstikrar",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_181_stabilnost.mp3"
+  },
+  {
+    "id": "rus_b2_182",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Уязвимость",
+    "romanized_script": "Uyazvimost",
+    "meaning": "Kırılganlık / Savunmasızlık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_182_uyazvimost.mp3"
+  },
+  {
+    "id": "rus_b2_183",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Враждебность",
+    "romanized_script": "Vrajdebnost",
+    "meaning": "Düşmanlık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_183_vrajdebnost.mp3"
+  },
+  {
+    "id": "rus_b2_184",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Уникальность",
+    "romanized_script": "Unikalnost",
+    "meaning": "Eşsizlik / Özgünlük",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_184_unikalnost.mp3"
+  },
+  {
+    "id": "rus_b2_185",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Солидарность",
+    "romanized_script": "Solidarnost",
+    "meaning": "Dayanışma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_185_solidarnost.mp3"
+  },
+  {
+    "id": "rus_b2_186",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Принадлежность",
+    "romanized_script": "Prinadlejnost",
+    "meaning": "Aidiyet",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_186_prinadlejnost.mp3"
+  },
+  {
+    "id": "rus_b2_187",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Вмешиваться",
+    "romanized_script": "Vmeşivatsya",
+    "meaning": "Müdahale etmek / Karışmak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_187_vme_ivatsya.mp3"
+  },
+  {
+    "id": "rus_b2_188",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Оправдывать",
+    "romanized_script": "Opravdıvat",
+    "meaning": "Haklı çıkarmak / Aklamak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_188_opravd_vat.mp3"
+  },
+  {
+    "id": "rus_b2_189",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Подозревать",
+    "romanized_script": "Podozrevat",
+    "meaning": "Şüphelenmek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_189_podozrevat.mp3"
+  },
+  {
+    "id": "rus_b2_190",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Упрекать",
+    "romanized_script": "Uprekat",
+    "meaning": "Kınamak / Sitem etmek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_190_uprekat.mp3"
+  },
+  {
+    "id": "rus_b2_191",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Предавать",
+    "romanized_script": "Predavat",
+    "meaning": "İhanet etmek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_191_predavat.mp3"
+  },
+  {
+    "id": "rus_b2_192",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Угрожать",
+    "romanized_script": "Ugrojat",
+    "meaning": "Tehdit etmek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_192_ugrojat.mp3"
+  },
+  {
+    "id": "rus_b2_193",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Настаивать",
+    "romanized_script": "Nastaivat",
+    "meaning": "Israr etmek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_193_nastaivat.mp3"
+  },
+  {
+    "id": "rus_b2_194",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Возражать",
+    "romanized_script": "Vozrajat",
+    "meaning": "İtiraz etmek / Karşı çıkmak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_194_vozrajat.mp3"
+  },
+  {
+    "id": "rus_b2_195",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Опровергать",
+    "romanized_script": "Oprovergat",
+    "meaning": "Çürütmek / Yalanlamak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_195_oprovergat.mp3"
+  },
+  {
+    "id": "rus_b2_196",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Подтверждать",
+    "romanized_script": "Podtverjdat",
+    "meaning": "Doğrulamak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_196_podtverjdat.mp3"
+  },
+  {
+    "id": "rus_b2_197",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Раздражать",
+    "romanized_script": "Razdrajat",
+    "meaning": "Sinirlendirmek / Tahriş etmek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_197_razdrajat.mp3"
+  },
+  {
+    "id": "rus_b2_198",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Успокаивать",
+    "romanized_script": "Uspokaivat",
+    "meaning": "Sakinleştirmek / Yatıştırmak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_198_uspokaivat.mp3"
+  },
+  {
+    "id": "rus_b2_199",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Приспосабливаться",
+    "romanized_script": "Prisposablivatsya",
+    "meaning": "Uyum sağlamak / Adapte olmak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_199_prisposablivatsya.mp3"
+  },
+  {
+    "id": "rus_b2_200",
+    "language_code": "ru",
+    "level_tag": "B2_Vocabulary",
+    "original_script": "Сосредотачиваться",
+    "romanized_script": "Sosredotaçivatsya",
+    "meaning": "Odaklanmak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audioUrl": "/data/data/Russian/Audio/rus_b2_200_sosredota_ivatsya.mp3"
+  }
+]

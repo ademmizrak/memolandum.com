@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "a1_tr_de_201",
+    "word": "eintreten",
+    "translation": "girmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_201_eintreten.mp3"
+  },
+  {
+    "id": "a1_tr_de_202",
+    "word": "ausgehen",
+    "translation": "çıkmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_202_ausgehen.mp3"
+  },
+  {
+    "id": "a1_tr_de_203",
+    "word": "einsteigen",
+    "translation": "binmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_203_einsteigen.mp3"
+  },
+  {
+    "id": "a1_tr_de_204",
+    "word": "aussteigen",
+    "translation": "inmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_204_aussteigen.mp3"
+  },
+  {
+    "id": "a1_tr_de_205",
+    "word": "ändern",
+    "translation": "değiştirmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_205_ändern.mp3"
+  },
+  {
+    "id": "a1_tr_de_206",
+    "word": "vorbereiten",
+    "translation": "hazırlamak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_206_vorbereiten.mp3"
+  },
+  {
+    "id": "a1_tr_de_207",
+    "word": "verwenden",
+    "translation": "kullanmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_207_verwenden.mp3"
+  },
+  {
+    "id": "a1_tr_de_208",
+    "word": "erzählen",
+    "translation": "anlatmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_208_erzählen.mp3"
+  },
+  {
+    "id": "a1_tr_de_209",
+    "word": "erklären",
+    "translation": "açıklamak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_209_erklären.mp3"
+  },
+  {
+    "id": "a1_tr_de_210",
+    "word": "suchen",
+    "translation": "aramak (araştırmak)",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_210_suchen.mp3"
+  },
+  {
+    "id": "a1_tr_de_211",
+    "word": "tragen",
+    "translation": "taşımak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_211_tragen.mp3"
+  },
+  {
+    "id": "a1_tr_de_212",
+    "word": "zeichnen",
+    "translation": "çizmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_212_zeichnen.mp3"
+  },
+  {
+    "id": "a1_tr_de_213",
+    "word": "brechen",
+    "translation": "kırmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_213_brechen.mp3"
+  },
+  {
+    "id": "a1_tr_de_214",
+    "word": "waschen",
+    "translation": "yıkamak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_214_waschen.mp3"
+  },
+  {
+    "id": "a1_tr_de_215",
+    "word": "putzen",
+    "translation": "temizlemek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_215_putzen.mp3"
+  },
+  {
+    "id": "a1_tr_de_216",
+    "word": "bezahlen",
+    "translation": "ödemek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_216_bezahlen.mp3"
+  },
+  {
+    "id": "a1_tr_de_217",
+    "word": "gewinnen",
+    "translation": "kazanmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_217_gewinnen.mp3"
+  },
+  {
+    "id": "a1_tr_de_218",
+    "word": "besuchen",
+    "translation": "gezmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_218_besuchen.mp3"
+  },
+  {
+    "id": "a1_tr_de_219",
+    "word": "reisen",
+    "translation": "seyahat etmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_219_reisen.mp3"
+  },
+  {
+    "id": "a1_tr_de_220",
+    "word": "fliegen",
+    "translation": "uçmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_220_fliegen.mp3"
+  },
+  {
+    "id": "a1_tr_de_221",
+    "word": "stehen",
+    "translation": "durmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_221_stehen.mp3"
+  },
+  {
+    "id": "a1_tr_de_222",
+    "word": "sitzen",
+    "translation": "oturmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_222_sitzen.mp3"
+  },
+  {
+    "id": "a1_tr_de_223",
+    "word": "laufen",
+    "translation": "koşmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_223_laufen.mp3"
+  },
+  {
+    "id": "a1_tr_de_224",
+    "word": "schwimmen",
+    "translation": "yüzmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_224_schwimmen.mp3"
+  },
+  {
+    "id": "a1_tr_de_225",
+    "word": "tanzen",
+    "translation": "dans etmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_225_tanzen.mp3"
+  },
+  {
+    "id": "a1_tr_de_226",
+    "word": "singen",
+    "translation": "şarkı söylemek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_226_singen.mp3"
+  },
+  {
+    "id": "a1_tr_de_227",
+    "word": "das Bücherregal",
+    "translation": "kitaplık",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_227_das bücherregal.mp3"
+  },
+  {
+    "id": "a1_tr_de_228",
+    "word": "der Tisch",
+    "translation": "masa",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_228_der tisch.mp3"
+  },
+  {
+    "id": "a1_tr_de_229",
+    "word": "der Stuhl",
+    "translation": "sandalye",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_229_der stuhl.mp3"
+  },
+  {
+    "id": "a1_tr_de_230",
+    "word": "der Stift",
+    "translation": "kalem",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_230_der stift.mp3"
+  },
+  {
+    "id": "a1_tr_de_231",
+    "word": "das Papier",
+    "translation": "kağıt",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_231_das papier.mp3"
+  },
+  {
+    "id": "a1_tr_de_232",
+    "word": "die Tasche",
+    "translation": "çanta",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_232_die tasche.mp3"
+  },
+  {
+    "id": "a1_tr_de_233",
+    "word": "der Schlüssel",
+    "translation": "anahtar",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_233_der schlüssel.mp3"
+  },
+  {
+    "id": "a1_tr_de_234",
+    "word": "das Telefon",
+    "translation": "telefon",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_234_das telefon.mp3"
+  },
+  {
+    "id": "a1_tr_de_235",
+    "word": "der Computer",
+    "translation": "bilgisayar",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_235_der computer.mp3"
+  },
+  {
+    "id": "a1_tr_de_236",
+    "word": "die Brille",
+    "translation": "gözlük",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_236_die brille.mp3"
+  },
+  {
+    "id": "a1_tr_de_237",
+    "word": "der Schuh",
+    "translation": "ayakkabı",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_237_der schuh.mp3"
+  },
+  {
+    "id": "a1_tr_de_238",
+    "word": "das Kleid",
+    "translation": "elbise",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_238_das kleid.mp3"
+  },
+  {
+    "id": "a1_tr_de_239",
+    "word": "der Hut",
+    "translation": "şapka",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_239_der hut.mp3"
+  },
+  {
+    "id": "a1_tr_de_240",
+    "word": "die Jacke",
+    "translation": "ceket",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_240_die jacke.mp3"
+  },
+  {
+    "id": "a1_tr_de_241",
+    "word": "das Hemd",
+    "translation": "gömlek",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_241_das hemd.mp3"
+  },
+  {
+    "id": "a1_tr_de_242",
+    "word": "die Hose",
+    "translation": "pantolon",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_242_die hose.mp3"
+  },
+  {
+    "id": "a1_tr_de_243",
+    "word": "die Küche",
+    "translation": "mutfak",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_243_die küche.mp3"
+  },
+  {
+    "id": "a1_tr_de_244",
+    "word": "das Bad",
+    "translation": "banyo",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_244_das bad.mp3"
+  },
+  {
+    "id": "a1_tr_de_245",
+    "word": "das Bett",
+    "translation": "yatak",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_245_das bett.mp3"
+  },
+  {
+    "id": "a1_tr_de_246",
+    "word": "das Fenster",
+    "translation": "pencere",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_246_das fenster.mp3"
+  },
+  {
+    "id": "a1_tr_de_247",
+    "word": "die Tür",
+    "translation": "kapı",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_247_die tür.mp3"
+  },
+  {
+    "id": "a1_tr_de_248",
+    "word": "der Garten",
+    "translation": "bahçe",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_248_der garten.mp3"
+  },
+  {
+    "id": "a1_tr_de_249",
+    "word": "der Park",
+    "translation": "park",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_249_der park.mp3"
+  },
+  {
+    "id": "a1_tr_de_250",
+    "word": "das Geschäft",
+    "translation": "mağaza",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_250_das geschäft.mp3"
+  },
+  {
+    "id": "a1_tr_de_251",
+    "word": "das Krankenhaus",
+    "translation": "hastane",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_251_das krankenhaus.mp3"
+  },
+  {
+    "id": "a1_tr_de_252",
+    "word": "die Apotheke",
+    "translation": "eczane",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_252_die apotheke.mp3"
+  },
+  {
+    "id": "a1_tr_de_253",
+    "word": "die Bank",
+    "translation": "banka",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_253_die bank.mp3"
+  },
+  {
+    "id": "a1_tr_de_254",
+    "word": "die Post",
+    "translation": "postane",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_254_die post.mp3"
+  },
+  {
+    "id": "a1_tr_de_255",
+    "word": "der Bahnhof",
+    "translation": "istasyon",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_255_der bahnhof.mp3"
+  },
+  {
+    "id": "a1_tr_de_256",
+    "word": "der Flughafen",
+    "translation": "havaalanı",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_256_der flughafen.mp3"
+  },
+  {
+    "id": "a1_tr_de_257",
+    "word": "die Brücke",
+    "translation": "köprü",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_257_die brücke.mp3"
+  },
+  {
+    "id": "a1_tr_de_258",
+    "word": "der Berg",
+    "translation": "dağ",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_258_der berg.mp3"
+  },
+  {
+    "id": "a1_tr_de_259",
+    "word": "das Meer",
+    "translation": "deniz",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_259_das meer.mp3"
+  },
+  {
+    "id": "a1_tr_de_260",
+    "word": "der Wald",
+    "translation": "orman",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_260_der wald.mp3"
+  },
+  {
+    "id": "a1_tr_de_261",
+    "word": "der Verwandte",
+    "translation": "akraba",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_261_der verwandte.mp3"
+  },
+  {
+    "id": "a1_tr_de_262",
+    "word": "der Vater",
+    "translation": "baba",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_262_der vater.mp3"
+  },
+  {
+    "id": "a1_tr_de_263",
+    "word": "der Sohn",
+    "translation": "oğul",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_263_der sohn.mp3"
+  },
+  {
+    "id": "a1_tr_de_264",
+    "word": "die Tochter",
+    "translation": "kız",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_264_die tochter.mp3"
+  },
+  {
+    "id": "a1_tr_de_265",
+    "word": "der Bruder",
+    "translation": "kardeş (erkek)",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_265_der bruder.mp3"
+  },
+  {
+    "id": "a1_tr_de_266",
+    "word": "die Schwester",
+    "translation": "kız kardeş",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_266_die schwester.mp3"
+  },
+  {
+    "id": "a1_tr_de_267",
+    "word": "die Großmutter",
+    "translation": "büyükanne",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_267_die großmutter.mp3"
+  },
+  {
+    "id": "a1_tr_de_268",
+    "word": "der Großvater",
+    "translation": "büyükbaba",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_268_der großvater.mp3"
+  },
+  {
+    "id": "a1_tr_de_269",
+    "word": "kurz",
+    "translation": "kısa (süre)",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_269_kurz.mp3"
+  },
+  {
+    "id": "a1_tr_de_270",
+    "word": "lange",
+    "translation": "uzun (süre)",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_270_lange.mp3"
+  },
+  {
+    "id": "a1_tr_de_271",
+    "word": "jung",
+    "translation": "genç",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_271_jung.mp3"
+  },
+  {
+    "id": "a1_tr_de_272",
+    "word": "alt",
+    "translation": "yaşlı",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_272_alt.mp3"
+  },
+  {
+    "id": "a1_tr_de_273",
+    "word": "schön",
+    "translation": "güzel",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_273_schön.mp3"
+  },
+  {
+    "id": "a1_tr_de_274",
+    "word": "hässlich",
+    "translation": "çirkin",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_274_hässlich.mp3"
+  },
+  {
+    "id": "a1_tr_de_275",
+    "word": "klug",
+    "translation": "akıllı",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_275_klug.mp3"
+  },
+  {
+    "id": "a1_tr_de_276",
+    "word": "dumm",
+    "translation": "aptal",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_276_dumm.mp3"
+  },
+  {
+    "id": "a1_tr_de_277",
+    "word": "lustig",
+    "translation": "komik",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_277_lustig.mp3"
+  },
+  {
+    "id": "a1_tr_de_278",
+    "word": "ernst",
+    "translation": "ciddi",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_278_ernst.mp3"
+  },
+  {
+    "id": "a1_tr_de_279",
+    "word": "voll",
+    "translation": "dolu",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_279_voll.mp3"
+  },
+  {
+    "id": "a1_tr_de_280",
+    "word": "leer",
+    "translation": "boş",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_280_leer.mp3"
+  },
+  {
+    "id": "a1_tr_de_281",
+    "word": "richtig",
+    "translation": "doğru",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_281_richtig.mp3"
+  },
+  {
+    "id": "a1_tr_de_282",
+    "word": "falsch",
+    "translation": "yanlış",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_282_falsch.mp3"
+  },
+  {
+    "id": "a1_tr_de_283",
+    "word": "billig",
+    "translation": "ucuz",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_283_billig.mp3"
+  },
+  {
+    "id": "a1_tr_de_284",
+    "word": "teuer",
+    "translation": "pahalı",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_284_teuer.mp3"
+  },
+  {
+    "id": "a1_tr_de_285",
+    "word": "weich",
+    "translation": "yumuşak",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_285_weich.mp3"
+  },
+  {
+    "id": "a1_tr_de_286",
+    "word": "hart",
+    "translation": "sert",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_286_hart.mp3"
+  },
+  {
+    "id": "a1_tr_de_287",
+    "word": "leicht",
+    "translation": "kolay",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_287_leicht.mp3"
+  },
+  {
+    "id": "a1_tr_de_288",
+    "word": "schwer",
+    "translation": "zor",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_288_schwer.mp3"
+  },
+  {
+    "id": "a1_tr_de_289",
+    "word": "hungrig",
+    "translation": "aç",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_289_hungrig.mp3"
+  },
+  {
+    "id": "a1_tr_de_290",
+    "word": "satt",
+    "translation": "tok",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_290_satt.mp3"
+  },
+  {
+    "id": "a1_tr_de_291",
+    "word": "müde",
+    "translation": "yorgun",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_291_müde.mp3"
+  },
+  {
+    "id": "a1_tr_de_292",
+    "word": "aktiv",
+    "translation": "aktif",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_292_aktiv.mp3"
+  },
+  {
+    "id": "a1_tr_de_293",
+    "word": "passiv",
+    "translation": "pasif",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_293_passiv.mp3"
+  },
+  {
+    "id": "a1_tr_de_294",
+    "word": "nah",
+    "translation": "yakın",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_294_nah.mp3"
+  },
+  {
+    "id": "a1_tr_de_295",
+    "word": "weit",
+    "translation": "uzak",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_295_weit.mp3"
+  },
+  {
+    "id": "a1_tr_de_296",
+    "word": "vielleicht",
+    "translation": "belki",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_296_vielleicht.mp3"
+  },
+  {
+    "id": "a1_tr_de_297",
+    "word": "sehr",
+    "translation": "çok",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_297_sehr.mp3"
+  },
+  {
+    "id": "a1_tr_de_298",
+    "word": "nur",
+    "translation": "sadece",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_298_nur.mp3"
+  },
+  {
+    "id": "a1_tr_de_299",
+    "word": "schon",
+    "translation": "zaten",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_299_schon.mp3"
+  },
+  {
+    "id": "a1_tr_de_300",
+    "word": "wieder",
+    "translation": "tekrar",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_300_wieder.mp3"
+  }
+]

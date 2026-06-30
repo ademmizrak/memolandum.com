@@ -1,0 +1,1001 @@
+[
+  {
+    "id": 1,
+    "word": "abandon",
+    "translation": "terk etmek, bırakmak, vazgeçmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/abandon.mp3"
+  },
+  {
+    "id": 2,
+    "word": "absorb",
+    "translation": "içine çekmek, emmek, kavramak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/absorb.mp3"
+  },
+  {
+    "id": 3,
+    "word": "abstract",
+    "translation": "soyut, özet",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/abstract.mp3"
+  },
+  {
+    "id": 4,
+    "word": "abundant",
+    "translation": "bol, bereketli",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/abundant.mp3"
+  },
+  {
+    "id": 5,
+    "word": "accelerate",
+    "translation": "hızlandırmak, hızlanmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/accelerate.mp3"
+  },
+  {
+    "id": 6,
+    "word": "accessible",
+    "translation": "ulaşılabilir, erişilebilir",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/accessible.mp3"
+  },
+  {
+    "id": 7,
+    "word": "accumulate",
+    "translation": "biriktirmek, toplanmak, yığılmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/accumulate.mp3"
+  },
+  {
+    "id": 8,
+    "word": "accurate",
+    "translation": "doğru, kesin, hatasız",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/accurate.mp3"
+  },
+  {
+    "id": 9,
+    "word": "acknowledge",
+    "translation": "kabul etmek, itiraf etmek, tanımak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/acknowledge.mp3"
+  },
+  {
+    "id": 10,
+    "word": "acquire",
+    "translation": "edinmek, kazanmak, ele geçirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/acquire.mp3"
+  },
+  {
+    "id": 11,
+    "word": "adapt",
+    "translation": "uyum sağlamak, adapte olmak/etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/adapt.mp3"
+  },
+  {
+    "id": 12,
+    "word": "addiction",
+    "translation": "bağımlılık, düşkünlük",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/addiction.mp3"
+  },
+  {
+    "id": 13,
+    "word": "adequate",
+    "translation": "yeterli, kafi",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/adequate.mp3"
+  },
+  {
+    "id": 14,
+    "word": "adopt",
+    "translation": "benimsemek, evlat edinmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/adopt.mp3"
+  },
+  {
+    "id": 15,
+    "word": "adverse",
+    "translation": "olumsuz, kötü, ters",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/adverse.mp3"
+  },
+  {
+    "id": 16,
+    "word": "advocate",
+    "translation": "savunmak, desteklemek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/advocate.mp3"
+  },
+  {
+    "id": 17,
+    "word": "affect",
+    "translation": "etkilemek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/affect.mp3"
+  },
+  {
+    "id": 18,
+    "word": "aggression",
+    "translation": "saldırganlık, tecavüz",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/aggression.mp3"
+  },
+  {
+    "id": 19,
+    "word": "alter",
+    "translation": "değiştirmek, değişmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/alter.mp3"
+  },
+  {
+    "id": 20,
+    "word": "ambiguous",
+    "translation": "belirsiz, muğlak, çift anlamlı",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/ambiguous.mp3"
+  },
+  {
+    "id": 21,
+    "word": "amend",
+    "translation": "değiştirmek (kanun vb.), düzeltmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/amend.mp3"
+  },
+  {
+    "id": 22,
+    "word": "ample",
+    "translation": "bol, geniş, fazlasıyla yeterli",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/ample.mp3"
+  },
+  {
+    "id": 23,
+    "word": "annual",
+    "translation": "yıllık, senede bir olan",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/annual.mp3"
+  },
+  {
+    "id": 24,
+    "word": "anticipate",
+    "translation": "ummak, beklemek, öngörmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/anticipate.mp3"
+  },
+  {
+    "id": 25,
+    "word": "apparent",
+    "translation": "bariz, açık, aşikar",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/apparent.mp3"
+  },
+  {
+    "id": 26,
+    "word": "appreciate",
+    "translation": "takdir etmek, değerini anlamak/artmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/appreciate.mp3"
+  },
+  {
+    "id": 27,
+    "word": "approach",
+    "translation": "yaklaşım, yaklaşmak",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/approach.mp3"
+  },
+  {
+    "id": 28,
+    "word": "appropriate",
+    "translation": "uygun, yerinde",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/appropriate.mp3"
+  },
+  {
+    "id": 29,
+    "word": "approve",
+    "translation": "onaylamak, beğenmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/approve.mp3"
+  },
+  {
+    "id": 30,
+    "word": "arbitrary",
+    "translation": "keyfi, rastgele",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/arbitrary.mp3"
+  },
+  {
+    "id": 31,
+    "word": "arid",
+    "translation": "kurak, çorak",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/arid.mp3"
+  },
+  {
+    "id": 32,
+    "word": "artificial",
+    "translation": "yapay, suni",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/artificial.mp3"
+  },
+  {
+    "id": 33,
+    "word": "aspect",
+    "translation": "açı, yön, özellik",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/aspect.mp3"
+  },
+  {
+    "id": 34,
+    "word": "assert",
+    "translation": "ileri sürmek, iddia etmek, savunmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/assert.mp3"
+  },
+  {
+    "id": 35,
+    "word": "assess",
+    "translation": "değerlendirmek, değer biçmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/assess.mp3"
+  },
+  {
+    "id": 36,
+    "word": "asset",
+    "translation": "mülk, varlık, artı değer/kazanç",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/asset.mp3"
+  },
+  {
+    "id": 37,
+    "word": "assume",
+    "translation": "varsaymak, üstlenmek (görev/sorumluluk)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/assume.mp3"
+  },
+  {
+    "id": 38,
+    "word": "assure",
+    "translation": "güvence vermek, garanti etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/reassure.mp3"
+  },
+  {
+    "id": 39,
+    "word": "attain",
+    "translation": "ulaşmak, elde etmek, kazanmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/attain.mp3"
+  },
+  {
+    "id": 40,
+    "word": "attribute",
+    "translation": "-e dayandırmak, -e yormak / özellik, nitelik",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/attribute.mp3"
+  },
+  {
+    "id": 41,
+    "word": "augment",
+    "translation": "artırmak, çoğaltmak, büyütmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/augment.mp3"
+  },
+  {
+    "id": 42,
+    "word": "available",
+    "translation": "mevcut, hazır, el altında",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/available.mp3"
+  },
+  {
+    "id": 43,
+    "word": "avoid",
+    "translation": "kaçınmak, sakınmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/avoid.mp3"
+  },
+  {
+    "id": 44,
+    "word": "barren",
+    "translation": "çorak, verimsiz, kısır",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/barren.mp3"
+  },
+  {
+    "id": 45,
+    "word": "beneficial",
+    "translation": "faydalı, yararlı",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/beneficial.mp3"
+  },
+  {
+    "id": 46,
+    "word": "bias",
+    "translation": "önyargı, taraflılık",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/bias.mp3"
+  },
+  {
+    "id": 47,
+    "word": "blend",
+    "translation": "karışmak, harmanlamak / karışım",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/blend.mp3"
+  },
+  {
+    "id": 48,
+    "word": "boost",
+    "translation": "artırmak, canlandırmak / artış, destek",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/boost.mp3"
+  },
+  {
+    "id": 49,
+    "word": "breach",
+    "translation": "ihlal, ihlal etmek, uymamak",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/breach.mp3"
+  },
+  {
+    "id": 50,
+    "word": "brittle",
+    "translation": "kırılgan, hassas",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/brittle.mp3"
+  },
+  {
+    "id": 51,
+    "word": "cancel",
+    "translation": "iptal etmek, geçersiz kılmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/cancel.mp3"
+  },
+  {
+    "id": 52,
+    "word": "candidate",
+    "translation": "aday",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/candidate.mp3"
+  },
+  {
+    "id": 53,
+    "word": "casual",
+    "translation": "gündelik, sıradan, tesadüfi",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/casual.mp3"
+  },
+  {
+    "id": 54,
+    "word": "catastrophe",
+    "translation": "felaket, yıkım",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/catastrophe.mp3"
+  },
+  {
+    "id": 55,
+    "word": "cautious",
+    "translation": "tedbirli, dikkatli, sakıngan",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/cautious.mp3"
+  },
+  {
+    "id": 56,
+    "word": "cherish",
+    "translation": "değer vermek, şefkatle bakmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/cherish.mp3"
+  },
+  {
+    "id": 57,
+    "word": "chronic",
+    "translation": "kronik, müzmin, uzun süreli",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/chronic.mp3"
+  },
+  {
+    "id": 58,
+    "word": "circulate",
+    "translation": "dolaşmak, devretmek, yayılmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/circulate.mp3"
+  },
+  {
+    "id": 59,
+    "word": "clarify",
+    "translation": "açıklığa kavuşturmak, netleştirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/clarify.mp3"
+  },
+  {
+    "id": 60,
+    "word": "coincide",
+    "translation": "aynı zamana denk gelmek, uyuşmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/coincide.mp3"
+  },
+  {
+    "id": 61,
+    "word": "collaborate",
+    "translation": "iş birliği yapmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/collaborate.mp3"
+  },
+  {
+    "id": 62,
+    "word": "collapse",
+    "translation": "çökmek, yıkılmak / çöküş",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/collapse.mp3"
+  },
+  {
+    "id": 63,
+    "word": "combat",
+    "translation": "savaşmak, mücadele etmek / dövüş, mücadele",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/combat.mp3"
+  },
+  {
+    "id": 64,
+    "word": "commence",
+    "translation": "başlamak, başlatmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/commence.mp3"
+  },
+  {
+    "id": 65,
+    "word": "compel",
+    "translation": "zorlamak, mecbur etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/compel.mp3"
+  },
+  {
+    "id": 66,
+    "word": "compensate",
+    "translation": "telafi etmek, tazminat ödemek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/compensate.mp3"
+  },
+  {
+    "id": 67,
+    "word": "compete",
+    "translation": "yarışmak, rekabet etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/compete.mp3"
+  },
+  {
+    "id": 68,
+    "word": "competent",
+    "translation": "yetkin, becerikli, ehil",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/competent.mp3"
+  },
+  {
+    "id": 69,
+    "word": "compile",
+    "translation": "derlemek, bir araya getirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/compile.mp3"
+  },
+  {
+    "id": 70,
+    "word": "comply",
+    "translation": "uymak, itaat etmek (-with ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/comply.mp3"
+  },
+  {
+    "id": 71,
+    "word": "component",
+    "translation": "bileşen, parça, unsur",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 72,
+    "word": "comprise",
+    "translation": "-den oluşmak, kapsamak, içermek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/comprise.mp3"
+  },
+  {
+    "id": 73,
+    "word": "compulsory",
+    "translation": "zorunlu, mecburi",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/compulsory.mp3"
+  },
+  {
+    "id": 74,
+    "word": "conceal",
+    "translation": "gizlemek, saklamak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/conceal.mp3"
+  },
+  {
+    "id": 75,
+    "word": "concede",
+    "translation": "kabul etmek, itiraf etmek, ödün vermek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/concede.mp3"
+  },
+  {
+    "id": 76,
+    "word": "concentrate",
+    "translation": "odaklanmak, yoğunlaşmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/concentrate.mp3"
+  },
+  {
+    "id": 77,
+    "word": "conclude",
+    "translation": "sonuçlandırmak, karara varmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/conclude.mp3"
+  },
+  {
+    "id": 78,
+    "word": "concrete",
+    "translation": "somut, net / beton",
+    "pos": "adjective/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/concrete.mp3"
+  },
+  {
+    "id": 79,
+    "word": "condemn",
+    "translation": "kınamak, mahkum etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/condemn.mp3"
+  },
+  {
+    "id": 80,
+    "word": "conduct",
+    "translation": "yürütmek (deney/anket vb.), yönetmek / davranış",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/conduct.mp3"
+  },
+  {
+    "id": 81,
+    "word": "confess",
+    "translation": "itiraf etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/confess.mp3"
+  },
+  {
+    "id": 82,
+    "word": "confident",
+    "translation": "emin, kendinden emin",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/confident.mp3"
+  },
+  {
+    "id": 83,
+    "word": "confine",
+    "translation": "sınırlandırmak, hapsetmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/confine.mp3"
+  },
+  {
+    "id": 84,
+    "word": "confirm",
+    "translation": "onaylamak, doğrulamak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/confirm.mp3"
+  },
+  {
+    "id": 85,
+    "word": "conflict",
+    "translation": "çatışma, anlaşmazlık / çatışmak",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/conflict.mp3"
+  },
+  {
+    "id": 86,
+    "word": "conform",
+    "translation": "uymak, uyum sağlamak (-to ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/conform.mp3"
+  },
+  {
+    "id": 87,
+    "word": "confront",
+    "translation": "yüzleşmek, karşı karşıya kalmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/confront.mp3"
+  },
+  {
+    "id": 88,
+    "word": "consecutive",
+    "translation": "ardışık, birbirini izleyen",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/consecutive.mp3"
+  },
+  {
+    "id": 89,
+    "word": "consensus",
+    "translation": "fikir birliği, uzlaşı",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/consensus.mp3"
+  },
+  {
+    "id": 90,
+    "word": "consent",
+    "translation": "razı olmak, izin vermek / rıza, onay",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/consent.mp3"
+  },
+  {
+    "id": 91,
+    "word": "consequence",
+    "translation": "sonuç, netice",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/consequence.mp3"
+  },
+  {
+    "id": 92,
+    "word": "considerable",
+    "translation": "önemli, azımsanmayacak derecede çok",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/considerable.mp3"
+  },
+  {
+    "id": 93,
+    "word": "consistent",
+    "translation": "tutarlı, istikrarlı, uyumlu",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/consistent.mp3"
+  },
+  {
+    "id": 94,
+    "word": "conspicuous",
+    "translation": "göze çarpan, belirgin, dikkat çekici",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/conspicuous.mp3"
+  },
+  {
+    "id": 95,
+    "word": "constant",
+    "translation": "sabit, sürekli, değişmez",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/constant.mp3"
+  },
+  {
+    "id": 96,
+    "word": "constitute",
+    "translation": "oluşturmak, teşkil etmek, kurmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/constitute.mp3"
+  },
+  {
+    "id": 97,
+    "word": "constrain",
+    "translation": "kısıtlamak, zorlamak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/constrain.mp3"
+  },
+  {
+    "id": 98,
+    "word": "consume",
+    "translation": "tüketmek, bitirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/consume.mp3"
+  },
+  {
+    "id": 99,
+    "word": "contagious",
+    "translation": "bulaşıcı",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/contagious.mp3"
+  },
+  {
+    "id": 100,
+    "word": "contaminate",
+    "translation": "kirletmek, mikrop bulaştırmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/contaminate.mp3"
+  }
+]

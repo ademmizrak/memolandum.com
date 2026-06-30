@@ -1,24 +1,10 @@
 {
   "hosting": {
-    "public": ".",
+    "source": "memolandum-web",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "/oyna/**",
-        "function": "ssr"
-      },
-      {
-        "source": "/kategori/**",
-        "function": "ssr"
-      },
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   },
   "functions": {

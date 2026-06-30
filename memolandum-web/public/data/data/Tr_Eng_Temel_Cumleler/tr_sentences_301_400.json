@@ -1,0 +1,602 @@
+[
+  {
+    "id": 301,
+    "tr": "Bir toplantım var.",
+    "en": "I have a meeting.",
+    "category": "İş"
+  },
+  {
+    "id": 302,
+    "tr": "O benim patronum.",
+    "en": "She is my boss.",
+    "category": "İş"
+  },
+  {
+    "id": 303,
+    "tr": "Evden çalışıyorum.",
+    "en": "I am working from home.",
+    "category": "İş"
+  },
+  {
+    "id": 304,
+    "tr": "Mesleğin nedir?",
+    "en": "What is your profession?",
+    "category": "İş"
+  },
+  {
+    "id": 305,
+    "tr": "Tatile ihtiyacım var.",
+    "en": "I need a vacation.",
+    "category": "İş / Dinlenme"
+  },
+  {
+    "id": 306,
+    "tr": "Proje bitti.",
+    "en": "The project is finished.",
+    "category": "İş"
+  },
+  {
+    "id": 307,
+    "tr": "Lütfen burayı imzalayın.",
+    "en": "Please sign here.",
+    "category": "İş"
+  },
+  {
+    "id": 308,
+    "tr": "Bunu yazdırabilir misin?",
+    "en": "Can you print this?",
+    "category": "İş"
+  },
+  {
+    "id": 309,
+    "tr": "Bilgisayarım çöktü.",
+    "en": "My computer crashed.",
+    "category": "Teknoloji"
+  },
+  {
+    "id": 310,
+    "tr": "Hadi mola verelim.",
+    "en": "Let's take a break.",
+    "category": "İş"
+  },
+  {
+    "id": 311,
+    "tr": "Dikkatli sür.",
+    "en": "Drive carefully.",
+    "category": "Trafik"
+  },
+  {
+    "id": 312,
+    "tr": "Emniyet kemerini tak.",
+    "en": "Put on your seatbelt.",
+    "category": "Trafik"
+  },
+  {
+    "id": 313,
+    "tr": "Çok trafik var.",
+    "en": "There is a lot of traffic.",
+    "category": "Trafik"
+  },
+  {
+    "id": 314,
+    "tr": "Benzine ihtiyacım var.",
+    "en": "I need gas.",
+    "category": "Trafik"
+  },
+  {
+    "id": 315,
+    "tr": "Motoru çalıştır.",
+    "en": "Turn the engine on.",
+    "category": "Trafik"
+  },
+  {
+    "id": 316,
+    "tr": "Arabayı buraya park et.",
+    "en": "Park the car here.",
+    "category": "Trafik"
+  },
+  {
+    "id": 317,
+    "tr": "Tren istasyonu nerede?",
+    "en": "Where is the train station?",
+    "category": "Ulaşım"
+  },
+  {
+    "id": 318,
+    "tr": "Otobüs geliyor.",
+    "en": "The bus is coming.",
+    "category": "Ulaşım"
+  },
+  {
+    "id": 319,
+    "tr": "Treni kaçırdım.",
+    "en": "I missed the train.",
+    "category": "Ulaşım"
+  },
+  {
+    "id": 320,
+    "tr": "Bir bilet al.",
+    "en": "Buy a ticket.",
+    "category": "Ulaşım"
+  },
+  {
+    "id": 321,
+    "tr": "Evi temizliyorum.",
+    "en": "I am cleaning the house.",
+    "category": "Ev İşleri"
+  },
+  {
+    "id": 322,
+    "tr": "Bulaşıkları yıka.",
+    "en": "Wash the dishes.",
+    "category": "Ev İşleri"
+  },
+  {
+    "id": 323,
+    "tr": "Çamaşırları yıka.",
+    "en": "Do the laundry.",
+    "category": "Ev İşleri"
+  },
+  {
+    "id": 324,
+    "tr": "Çöpü çıkar.",
+    "en": "Take out the trash.",
+    "category": "Ev İşleri"
+  },
+  {
+    "id": 325,
+    "tr": "Yeri süpür.",
+    "en": "Sweep the floor.",
+    "category": "Ev İşleri"
+  },
+  {
+    "id": 326,
+    "tr": "Yatağı topla.",
+    "en": "Make the bed.",
+    "category": "Ev İşleri"
+  },
+  {
+    "id": 327,
+    "tr": "Pencereyi aç.",
+    "en": "Open the window.",
+    "category": "Ev İçi"
+  },
+  {
+    "id": 328,
+    "tr": "Kapıyı kapat.",
+    "en": "Close the door.",
+    "category": "Ev İçi"
+  },
+  {
+    "id": 329,
+    "tr": "Kapıyı kilitle.",
+    "en": "Lock the door.",
+    "category": "Ev İçi"
+  },
+  {
+    "id": 330,
+    "tr": "Ev kirli.",
+    "en": "The house is dirty.",
+    "category": "Ev"
+  },
+  {
+    "id": 331,
+    "tr": "Karnım ağrıyor.",
+    "en": "I have a stomachache.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 332,
+    "tr": "Dişim ağrıyor.",
+    "en": "I have a toothache.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 333,
+    "tr": "Soğuk algınlığım var.",
+    "en": "I have a cold.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 334,
+    "tr": "İlaca ihtiyacım var.",
+    "en": "I need medicine.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 335,
+    "tr": "Hastaneye git.",
+    "en": "Go to the hospital.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 336,
+    "tr": "Ağzını aç.",
+    "en": "Open your mouth.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 337,
+    "tr": "Derin nefes al.",
+    "en": "Breathe deeply.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 338,
+    "tr": "Bol su iç.",
+    "en": "Drink plenty of water.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 339,
+    "tr": "Ellerini yıka.",
+    "en": "Wash your hands.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 340,
+    "tr": "Yatakta kal.",
+    "en": "Stay in bed.",
+    "category": "Sağlık"
+  },
+  {
+    "id": 341,
+    "tr": "O çok güzel.",
+    "en": "She is very beautiful.",
+    "category": "Görünüm"
+  },
+  {
+    "id": 342,
+    "tr": "O çok yakışıklı.",
+    "en": "He is very handsome.",
+    "category": "Görünüm"
+  },
+  {
+    "id": 343,
+    "tr": "Harika görünüyorsun.",
+    "en": "You look great.",
+    "category": "Övgü"
+  },
+  {
+    "id": 344,
+    "tr": "Sana güveniyorum.",
+    "en": "I trust you.",
+    "category": "İlişki"
+  },
+  {
+    "id": 345,
+    "tr": "Seni özledim.",
+    "en": "I miss you.",
+    "category": "Duygu"
+  },
+  {
+    "id": 346,
+    "tr": "Bana yalan söyleme.",
+    "en": "Don't lie to me.",
+    "category": "İlişki"
+  },
+  {
+    "id": 347,
+    "tr": "Kızgın mısın?",
+    "en": "Are you angry?",
+    "category": "Duygu"
+  },
+  {
+    "id": 348,
+    "tr": "Sakin ol.",
+    "en": "Calm down.",
+    "category": "Duygu"
+  },
+  {
+    "id": 349,
+    "tr": "Şaşırdım.",
+    "en": "I am surprised.",
+    "category": "Duygu"
+  },
+  {
+    "id": 350,
+    "tr": "Ağlama.",
+    "en": "Don't cry.",
+    "category": "Duygu"
+  },
+  {
+    "id": 351,
+    "tr": "Borç para alabilir miyim?",
+    "en": "Can I borrow money?",
+    "category": "Para"
+  },
+  {
+    "id": 352,
+    "tr": "Hiç param yok.",
+    "en": "I have no money.",
+    "category": "Para"
+  },
+  {
+    "id": 353,
+    "tr": "Ben zenginim.",
+    "en": "I am rich.",
+    "category": "Para"
+  },
+  {
+    "id": 354,
+    "tr": "Ben fakirim.",
+    "en": "I am poor.",
+    "category": "Para"
+  },
+  {
+    "id": 355,
+    "tr": "Paranı biriktir.",
+    "en": "Save your money.",
+    "category": "Para"
+  },
+  {
+    "id": 356,
+    "tr": "Çok fazla harcama.",
+    "en": "Don't spend too much.",
+    "category": "Para"
+  },
+  {
+    "id": 357,
+    "tr": "İndirimde.",
+    "en": "It is on sale.",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 358,
+    "tr": "Bu ucuz.",
+    "en": "It is cheap.",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 359,
+    "tr": "İşte fişiniz.",
+    "en": "Here is your receipt.",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 360,
+    "tr": "Fişi sakla.",
+    "en": "Keep the receipt.",
+    "category": "Alışveriş"
+  },
+  {
+    "id": 361,
+    "tr": "İngilizce öğreniyorum.",
+    "en": "I am learning English.",
+    "category": "Eğitim"
+  },
+  {
+    "id": 362,
+    "tr": "Bu kitabı oku.",
+    "en": "Read this book.",
+    "category": "Eğitim"
+  },
+  {
+    "id": 363,
+    "tr": "Bir paragraf yaz.",
+    "en": "Write a paragraph.",
+    "category": "Eğitim"
+  },
+  {
+    "id": 364,
+    "tr": "Bir soru sor.",
+    "en": "Ask a question.",
+    "category": "Eğitim"
+  },
+  {
+    "id": 365,
+    "tr": "Soruyu cevapla.",
+    "en": "Answer the question.",
+    "category": "Eğitim"
+  },
+  {
+    "id": 366,
+    "tr": "Dikkatlice dinle.",
+    "en": "Listen carefully.",
+    "category": "Eğitim"
+  },
+  {
+    "id": 367,
+    "tr": "Not al.",
+    "en": "Take notes.",
+    "category": "Eğitim"
+  },
+  {
+    "id": 368,
+    "tr": "Elinden gelenin en iyisini yap.",
+    "en": "Do your best.",
+    "category": "Motivasyon"
+  },
+  {
+    "id": 369,
+    "tr": "Geç kalma.",
+    "en": "Don't be late.",
+    "category": "Uyarı"
+  },
+  {
+    "id": 370,
+    "tr": "Ders bitti.",
+    "en": "The class is over.",
+    "category": "Eğitim"
+  },
+  {
+    "id": 371,
+    "tr": "Hadi parti yapalım.",
+    "en": "Let's have a party.",
+    "category": "Eğlence"
+  },
+  {
+    "id": 372,
+    "tr": "Benimle dans et.",
+    "en": "Dance with me.",
+    "category": "Eğlence"
+  },
+  {
+    "id": 373,
+    "tr": "Bir şarkı söyle.",
+    "en": "Sing a song.",
+    "category": "Eğlence"
+  },
+  {
+    "id": 374,
+    "tr": "Bu bir sır.",
+    "en": "It is a secret.",
+    "category": "İletişim"
+  },
+  {
+    "id": 375,
+    "tr": "Kimseye söyleme.",
+    "en": "Don't tell anyone.",
+    "category": "İletişim"
+  },
+  {
+    "id": 376,
+    "tr": "Çok komiksin.",
+    "en": "You are so funny.",
+    "category": "Övgü"
+  },
+  {
+    "id": 377,
+    "tr": "Gülmeyi bırak.",
+    "en": "Stop laughing.",
+    "category": "Eylem"
+  },
+  {
+    "id": 378,
+    "tr": "Bana bir hikaye anlat.",
+    "en": "Tell me a story.",
+    "category": "İletişim"
+  },
+  {
+    "id": 379,
+    "tr": "Hadi oyun oynayalım.",
+    "en": "Let's play a game.",
+    "category": "Eğlence"
+  },
+  {
+    "id": 380,
+    "tr": "Eğleniyor musun?",
+    "en": "Are you having fun?",
+    "category": "Soru"
+  },
+  {
+    "id": 381,
+    "tr": "Gökyüzü mavi.",
+    "en": "The sky is blue.",
+    "category": "Doğa"
+  },
+  {
+    "id": 382,
+    "tr": "Güneş parlıyor.",
+    "en": "The sun is shining.",
+    "category": "Doğa"
+  },
+  {
+    "id": 383,
+    "tr": "Kar yağıyor.",
+    "en": "It is snowing.",
+    "category": "Hava Durumu"
+  },
+  {
+    "id": 384,
+    "tr": "Yıldızlara bak.",
+    "en": "Look at the stars.",
+    "category": "Doğa"
+  },
+  {
+    "id": 385,
+    "tr": "Ay parlak.",
+    "en": "The moon is bright.",
+    "category": "Doğa"
+  },
+  {
+    "id": 386,
+    "tr": "Şu kuşa bak.",
+    "en": "Look at that bird.",
+    "category": "Doğa"
+  },
+  {
+    "id": 387,
+    "tr": "Su derin.",
+    "en": "The water is deep.",
+    "category": "Doğa"
+  },
+  {
+    "id": 388,
+    "tr": "Burada yüzme.",
+    "en": "Don't swim here.",
+    "category": "Uyarı"
+  },
+  {
+    "id": 389,
+    "tr": "Hadi plaja gidelim.",
+    "en": "Let's go to the beach.",
+    "category": "Seyahat"
+  },
+  {
+    "id": 390,
+    "tr": "Dağları severim.",
+    "en": "I like the mountains.",
+    "category": "Tercih"
+  },
+  {
+    "id": 391,
+    "tr": "Aklını kullan.",
+    "en": "Use your brain.",
+    "category": "Eylem"
+  },
+  {
+    "id": 392,
+    "tr": "Beni takip et.",
+    "en": "Follow me.",
+    "category": "Eylem"
+  },
+  {
+    "id": 393,
+    "tr": "Git buradan.",
+    "en": "Go away.",
+    "category": "Eylem"
+  },
+  {
+    "id": 394,
+    "tr": "Düğmeye bas.",
+    "en": "Push the button.",
+    "category": "Eylem"
+  },
+  {
+    "id": 395,
+    "tr": "Kapıyı çek.",
+    "en": "Pull the door.",
+    "category": "Eylem"
+  },
+  {
+    "id": 396,
+    "tr": "Bunu tut.",
+    "en": "Hold this.",
+    "category": "Eylem"
+  },
+  {
+    "id": 397,
+    "tr": "Onu bırak/düşür.",
+    "en": "Drop it.",
+    "category": "Eylem"
+  },
+  {
+    "id": 398,
+    "tr": "Onu yerden al.",
+    "en": "Pick it up.",
+    "category": "Eylem"
+  },
+  {
+    "id": 399,
+    "tr": "O kırık/bozuk.",
+    "en": "It is broken.",
+    "category": "Durum"
+  },
+  {
+    "id": 400,
+    "tr": "Onu tamir et.",
+    "en": "Fix it.",
+    "category": "Eylem"
+  }
+]

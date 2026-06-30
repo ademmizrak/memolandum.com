@@ -1,4 +1,5 @@
 const { onCall, HttpsError, onRequest } = require("firebase-functions/v2/https");
+const { onDocumentWritten } = require("firebase-functions/v2/firestore");
 const { getFirestore, FieldValue } = require("firebase-admin/firestore");
 const admin = require("firebase-admin");
 
@@ -43,10 +44,53 @@ exports.syncProgress = onCall({ region: "us-central1" }, async (request) => {
             }, { merge: true });
         });
 
+        // Also update leaderboard safely using increment if score is gained
+        if (safeScore > 0) {
+            const leaderboardRef = db.collection('leaderboard').doc(uid);
+            await leaderboardRef.set({
+                high_score: FieldValue.increment(safeScore),
+                displayName: request.auth.token.name || request.auth.token.email?.split('@')[0] || "CADET",
+                lastUpdated: FieldValue.serverTimestamp()
+            }, { merge: true });
+        }
+
         return { success: true, message: 'İlerleme güvenli şekilde kaydedildi.' };
     } catch (error) {
         console.error("Progress sync error:", error);
         throw new HttpsError('internal', 'Veritabanı güncellenirken hata oluştu.');
+    }
+});
+
+exports.updateScore = onCall({ region: "us-central1" }, async (request) => {
+    if (!request.auth) {
+        throw new HttpsError('unauthenticated', 'Kullanıcı girişi yapılmalı.');
+    }
+    
+    const uid = request.auth.uid;
+    const { score, displayName } = request.data;
+
+    const safeScore = Number.isInteger(score) ? Math.max(0, score) : 0;
+    
+    if (safeScore > 5000) {
+        throw new HttpsError('out-of-range', 'Şüpheli skor algılandı.');
+    }
+
+    if (safeScore === 0) return { success: true };
+
+    const db = getFirestore();
+    const leaderboardRef = db.collection('leaderboard').doc(uid);
+    
+    try {
+        await leaderboardRef.set({
+            high_score: FieldValue.increment(safeScore),
+            displayName: displayName || "CADET",
+            lastUpdated: FieldValue.serverTimestamp()
+        }, { merge: true });
+        
+        return { success: true, message: 'Skor başarıyla eklendi.' };
+    } catch (error) {
+        console.error("updateScore error:", error);
+        throw new HttpsError('internal', 'Skor güncellenirken hata oluştu.');
     }
 });
 
@@ -242,3 +286,30 @@ exports.ssr = onRequest({ region: "us-central1" }, (req, res) => {
 
     return res.status(200).send(html);
   });
+
+// Evrensel Döngü Engelleyici (Guard Clause) Şablonu
+exports.processUserProgress = onDocumentWritten("users/{userId}/progress/{progressId}", async (event) => {
+    // 1. Döküman silinmişse işlemi sonlandır
+    if (!event.data.after.exists) {
+        return null;
+    }
+
+    const newData = event.data.after.data();
+
+    // 2. GUARD CLAUSE: Eğer veri zaten işlenmişse fonksiyonu DERHAL sonlandır (Infinite Loop Koruması)
+    if (newData.processed === true) {
+        console.log("Belge zaten işlendi, fonksiyon sonlandırılıyor.");
+        return null;
+    }
+
+    // 3. İşlemlerinizi burada yapın (Skor hesaplama vb.)
+    // ... örneğin: const bonusScore = newData.score * 2; ...
+
+    // 4. İşlem bittikten sonra belgeyi 'processed: true' olarak güncelle.
+    // merge: true ile sadece bu alanı güncelliyoruz, diğer alanlar bozulmuyor.
+    return event.data.after.ref.set({
+        processed: true,
+        // bonusScore: bonusScore,
+        updatedAt: FieldValue.serverTimestamp()
+    }, { merge: true });
+});

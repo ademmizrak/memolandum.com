@@ -1,0 +1,602 @@
+[
+  {
+    "id": 101,
+    "tr": "Ne oldu?",
+    "en": "What happened?",
+    "category": "Soru"
+  },
+  {
+    "id": 102,
+    "tr": "Unuttum.",
+    "en": "I forgot.",
+    "category": "Durum"
+  },
+  {
+    "id": 103,
+    "tr": "Hatırlıyorum.",
+    "en": "I remember.",
+    "category": "Durum"
+  },
+  {
+    "id": 104,
+    "tr": "Sanırım öyle.",
+    "en": "I think so.",
+    "category": "Düşünce"
+  },
+  {
+    "id": 105,
+    "tr": "Öyle sanmıyorum.",
+    "en": "I don't think so.",
+    "category": "Düşünce"
+  },
+  {
+    "id": 106,
+    "tr": "Ben de.",
+    "en": "Me too.",
+    "category": "Onay"
+  },
+  {
+    "id": 107,
+    "tr": "Henüz değil.",
+    "en": "Not yet.",
+    "category": "Zaman"
+  },
+  {
+    "id": 108,
+    "tr": "Önemli değil / Fark etmez.",
+    "en": "It doesn't matter.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 109,
+    "tr": "Bana haber ver.",
+    "en": "Let me know.",
+    "category": "İletişim"
+  },
+  {
+    "id": 110,
+    "tr": "İçeri gel.",
+    "en": "Come in.",
+    "category": "Eylem"
+  },
+  {
+    "id": 111,
+    "tr": "Dışarı çık.",
+    "en": "Go out.",
+    "category": "Eylem"
+  },
+  {
+    "id": 112,
+    "tr": "Ayağa kalk.",
+    "en": "Stand up.",
+    "category": "Eylem"
+  },
+  {
+    "id": 113,
+    "tr": "Otur.",
+    "en": "Sit down.",
+    "category": "Eylem"
+  },
+  {
+    "id": 114,
+    "tr": "Sola dön.",
+    "en": "Turn left.",
+    "category": "Yön"
+  },
+  {
+    "id": 115,
+    "tr": "Sağa dön.",
+    "en": "Turn right.",
+    "category": "Yön"
+  },
+  {
+    "id": 116,
+    "tr": "Düz git.",
+    "en": "Go straight.",
+    "category": "Yön"
+  },
+  {
+    "id": 117,
+    "tr": "Katılıyorum.",
+    "en": "I agree.",
+    "category": "Fikir"
+  },
+  {
+    "id": 118,
+    "tr": "Katılmıyorum.",
+    "en": "I disagree.",
+    "category": "Fikir"
+  },
+  {
+    "id": 119,
+    "tr": "Deli misin?",
+    "en": "Are you crazy?",
+    "category": "Soru"
+  },
+  {
+    "id": 120,
+    "tr": "Bunu yapma.",
+    "en": "Don't do that.",
+    "category": "Uyarı"
+  },
+  {
+    "id": 121,
+    "tr": "Şaka yapıyorum.",
+    "en": "I am joking.",
+    "category": "Durum"
+  },
+  {
+    "id": 122,
+    "tr": "Bir saniye lütfen.",
+    "en": "Just a moment.",
+    "category": "Zaman"
+  },
+  {
+    "id": 123,
+    "tr": "İyi misin?",
+    "en": "Are you okay?",
+    "category": "Soru"
+  },
+  {
+    "id": 124,
+    "tr": "Hiçbir fikrim yok.",
+    "en": "I have no idea.",
+    "category": "Bilgi"
+  },
+  {
+    "id": 125,
+    "tr": "Bu harika.",
+    "en": "That is awesome.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 126,
+    "tr": "Bu berbat.",
+    "en": "That is terrible.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 127,
+    "tr": "Bir bakayım.",
+    "en": "Let me see.",
+    "category": "Eylem"
+  },
+  {
+    "id": 128,
+    "tr": "Tokum.",
+    "en": "I am full.",
+    "category": "Fiziksel Durum"
+  },
+  {
+    "id": 129,
+    "tr": "Açlıktan ölüyorum.",
+    "en": "I am starving.",
+    "category": "Fiziksel Durum"
+  },
+  {
+    "id": 130,
+    "tr": "Çok yaşa.",
+    "en": "Bless you.",
+    "category": "Nezaket"
+  },
+  {
+    "id": 131,
+    "tr": "Şerefe.",
+    "en": "Cheers.",
+    "category": "Kutlama"
+  },
+  {
+    "id": 132,
+    "tr": "Bir soru sorabilir miyim?",
+    "en": "Can I ask a question?",
+    "category": "İletişim"
+  },
+  {
+    "id": 133,
+    "tr": "Ne düşünüyorsun?",
+    "en": "What do you think?",
+    "category": "Soru"
+  },
+  {
+    "id": 134,
+    "tr": "Bir dakikan var mı?",
+    "en": "Do you have a minute?",
+    "category": "İletişim"
+  },
+  {
+    "id": 135,
+    "tr": "Yağmur yağıyor.",
+    "en": "It is raining.",
+    "category": "Hava Durumu"
+  },
+  {
+    "id": 136,
+    "tr": "Hava güneşli.",
+    "en": "It is sunny.",
+    "category": "Hava Durumu"
+  },
+  {
+    "id": 137,
+    "tr": "Hazırım.",
+    "en": "I am ready.",
+    "category": "Durum"
+  },
+  {
+    "id": 138,
+    "tr": "Hazır değilim.",
+    "en": "I am not ready.",
+    "category": "Durum"
+  },
+  {
+    "id": 139,
+    "tr": "Bu kim?",
+    "en": "Who is this?",
+    "category": "Soru"
+  },
+  {
+    "id": 140,
+    "tr": "Günün nasıldı?",
+    "en": "How was your day?",
+    "category": "Soru"
+  },
+  {
+    "id": 141,
+    "tr": "İyiydi.",
+    "en": "It was good.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 142,
+    "tr": "Kötüydü.",
+    "en": "It was bad.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 143,
+    "tr": "Devam et.",
+    "en": "Keep going.",
+    "category": "Eylem"
+  },
+  {
+    "id": 144,
+    "tr": "Pes et.",
+    "en": "Give up.",
+    "category": "Eylem"
+  },
+  {
+    "id": 145,
+    "tr": "Asla pes etme.",
+    "en": "Never give up.",
+    "category": "Motivasyon"
+  },
+  {
+    "id": 146,
+    "tr": "Bana gerçeği söyle.",
+    "en": "Tell me the truth.",
+    "category": "İletişim"
+  },
+  {
+    "id": 147,
+    "tr": "Yalan söylüyorsun.",
+    "en": "You are lying.",
+    "category": "İletişim"
+  },
+  {
+    "id": 148,
+    "tr": "Doğruyu söylüyorum.",
+    "en": "I am telling the truth.",
+    "category": "İletişim"
+  },
+  {
+    "id": 149,
+    "tr": "Her şey yolunda mı?",
+    "en": "Is everything okay?",
+    "category": "Soru"
+  },
+  {
+    "id": 150,
+    "tr": "Her şey yolunda.",
+    "en": "Everything is fine.",
+    "category": "Durum"
+  },
+  {
+    "id": 151,
+    "tr": "İyi iş.",
+    "en": "Good job.",
+    "category": "Övgü"
+  },
+  {
+    "id": 152,
+    "tr": "Aferin.",
+    "en": "Well done.",
+    "category": "Övgü"
+  },
+  {
+    "id": 153,
+    "tr": "Seninle gurur duyuyorum.",
+    "en": "I am proud of you.",
+    "category": "Övgü"
+  },
+  {
+    "id": 154,
+    "tr": "Sorun nedir?",
+    "en": "What is the problem?",
+    "category": "Soru"
+  },
+  {
+    "id": 155,
+    "tr": "Umurumda değil.",
+    "en": "I don't care.",
+    "category": "Tutum"
+  },
+  {
+    "id": 156,
+    "tr": "Beni yalnız bırak.",
+    "en": "Leave me alone.",
+    "category": "İstek"
+  },
+  {
+    "id": 157,
+    "tr": "Lütfen beni affet.",
+    "en": "Please forgive me.",
+    "category": "Nezaket"
+  },
+  {
+    "id": 158,
+    "tr": "Benim hatam.",
+    "en": "It is my fault.",
+    "category": "İtiraf"
+  },
+  {
+    "id": 159,
+    "tr": "Benim hatam değil.",
+    "en": "It is not my fault.",
+    "category": "Savunma"
+  },
+  {
+    "id": 160,
+    "tr": "Evli misin?",
+    "en": "Are you married?",
+    "category": "Kişisel Bilgi"
+  },
+  {
+    "id": 161,
+    "tr": "Bekarım.",
+    "en": "I am single.",
+    "category": "Kişisel Bilgi"
+  },
+  {
+    "id": 162,
+    "tr": "Kaç yaşındasın?",
+    "en": "How old are you?",
+    "category": "Soru"
+  },
+  {
+    "id": 163,
+    "tr": "Nerelisin?",
+    "en": "Where are you from?",
+    "category": "Soru"
+  },
+  {
+    "id": 164,
+    "tr": "Türkiyeliyim.",
+    "en": "I am from Turkey.",
+    "category": "Kişisel Bilgi"
+  },
+  {
+    "id": 165,
+    "tr": "Seninle konuşmak güzeldi.",
+    "en": "Nice talking to you.",
+    "category": "Vedalaşma"
+  },
+  {
+    "id": 166,
+    "tr": "Mesleğin ne?",
+    "en": "What is your job?",
+    "category": "Soru"
+  },
+  {
+    "id": 167,
+    "tr": "Öğrenciyim.",
+    "en": "I am a student.",
+    "category": "Kişisel Bilgi"
+  },
+  {
+    "id": 168,
+    "tr": "Öğretmenim.",
+    "en": "I am a teacher.",
+    "category": "Kişisel Bilgi"
+  },
+  {
+    "id": 169,
+    "tr": "İngilizce konuşuyor musun?",
+    "en": "Do you speak English?",
+    "category": "Yetenek"
+  },
+  {
+    "id": 170,
+    "tr": "Biraz İngilizce konuşuyorum.",
+    "en": "I speak a little English.",
+    "category": "Yetenek"
+  },
+  {
+    "id": 171,
+    "tr": "Lütfen bunu tekrarla.",
+    "en": "Please repeat that.",
+    "category": "İstek"
+  },
+  {
+    "id": 172,
+    "tr": "Bunu yazabilir misin?",
+    "en": "Can you write it down?",
+    "category": "İstek"
+  },
+  {
+    "id": 173,
+    "tr": "Bunu nasıl hecelersin?",
+    "en": "How do you spell that?",
+    "category": "Soru"
+  },
+  {
+    "id": 174,
+    "tr": "Ne dedin?",
+    "en": "What did you say?",
+    "category": "Soru"
+  },
+  {
+    "id": 175,
+    "tr": "İş arıyorum.",
+    "en": "I am looking for a job.",
+    "category": "Durum"
+  },
+  {
+    "id": 176,
+    "tr": "Biraz paraya ihtiyacım var.",
+    "en": "I need some money.",
+    "category": "İhtiyaç"
+  },
+  {
+    "id": 177,
+    "tr": "Bunu ödünç alabilir miyim?",
+    "en": "Can I borrow this?",
+    "category": "İstek"
+  },
+  {
+    "id": 178,
+    "tr": "Mutlu yıllar.",
+    "en": "Happy New Year.",
+    "category": "Kutlama"
+  },
+  {
+    "id": 179,
+    "tr": "Mutlu noeller.",
+    "en": "Merry Christmas.",
+    "category": "Kutlama"
+  },
+  {
+    "id": 180,
+    "tr": "Tebrikler.",
+    "en": "Congratulations.",
+    "category": "Kutlama"
+  },
+  {
+    "id": 181,
+    "tr": "Afiyet olsun.",
+    "en": "Enjoy your meal.",
+    "category": "Dilek"
+  },
+  {
+    "id": 182,
+    "tr": "Başım ağrıyor.",
+    "en": "I have a headache.",
+    "category": "Fiziksel Durum"
+  },
+  {
+    "id": 183,
+    "tr": "Kendimi hasta hissediyorum.",
+    "en": "I feel sick.",
+    "category": "Fiziksel Durum"
+  },
+  {
+    "id": 184,
+    "tr": "Bir doktor çağır.",
+    "en": "Call a doctor.",
+    "category": "Acil Durum"
+  },
+  {
+    "id": 185,
+    "tr": "Polisi ara.",
+    "en": "Call the police.",
+    "category": "Acil Durum"
+  },
+  {
+    "id": 186,
+    "tr": "Bana yardım et.",
+    "en": "Help me.",
+    "category": "Acil Durum"
+  },
+  {
+    "id": 187,
+    "tr": "Yangın!",
+    "en": "Fire!",
+    "category": "Acil Durum"
+  },
+  {
+    "id": 188,
+    "tr": "Burada dur.",
+    "en": "Stop here.",
+    "category": "Yönlendirme"
+  },
+  {
+    "id": 189,
+    "tr": "Devam et / Önden buyurun.",
+    "en": "Go ahead.",
+    "category": "Yönlendirme"
+  },
+  {
+    "id": 190,
+    "tr": "Dikkat et!",
+    "en": "Watch out!",
+    "category": "Uyarı"
+  },
+  {
+    "id": 191,
+    "tr": "Bu gece müsait misin?",
+    "en": "Are you free tonight?",
+    "category": "Soru"
+  },
+  {
+    "id": 192,
+    "tr": "Bir şeyler yiyelim.",
+    "en": "Let's eat something.",
+    "category": "Teklif"
+  },
+  {
+    "id": 193,
+    "tr": "Uyumak istiyorum.",
+    "en": "I want to sleep.",
+    "category": "İstek"
+  },
+  {
+    "id": 194,
+    "tr": "Bu çok lezzetli.",
+    "en": "It is delicious.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 195,
+    "tr": "Bu sıkıcı.",
+    "en": "It is boring.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 196,
+    "tr": "Bu ilginç.",
+    "en": "It is interesting.",
+    "category": "Değerlendirme"
+  },
+  {
+    "id": 197,
+    "tr": "Bu benim evim.",
+    "en": "This is my house.",
+    "category": "Tanıtma"
+  },
+  {
+    "id": 198,
+    "tr": "Müzik sever misin?",
+    "en": "Do you like music?",
+    "category": "Tercih"
+  },
+  {
+    "id": 199,
+    "tr": "Kitap okumayı severim.",
+    "en": "I like reading books.",
+    "category": "Tercih"
+  },
+  {
+    "id": 200,
+    "tr": "Yakında görüşürüz.",
+    "en": "See you soon.",
+    "category": "Vedalaşma"
+  }
+]
