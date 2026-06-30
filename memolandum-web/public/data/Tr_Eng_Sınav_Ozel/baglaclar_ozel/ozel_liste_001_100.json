@@ -1,0 +1,702 @@
+[
+  {
+    "word": "However",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_however.mp3"
+  },
+  {
+    "word": "Furthermore",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_furthermore.mp3"
+  },
+  {
+    "word": "Consequently",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_consequently.mp3"
+  },
+  {
+    "word": "Nevertheless",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_nevertheless.mp3"
+  },
+  {
+    "word": "Moreover",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_moreover.mp3"
+  },
+  {
+    "word": "Therefore",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_therefore.mp3"
+  },
+  {
+    "word": "Nonetheless",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_nonetheless.mp3"
+  },
+  {
+    "word": "In addition",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_addition.mp3"
+  },
+  {
+    "word": "Similarly",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_similarly.mp3"
+  },
+  {
+    "word": "In contrast",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_contrast.mp3"
+  },
+  {
+    "word": "Meanwhile",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_meanwhile.mp3"
+  },
+  {
+    "word": "Subsequently",
+    "type": "Zaman/Sıralama",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_subsequently.mp3"
+  },
+  {
+    "word": "Thus",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_thus.mp3"
+  },
+  {
+    "word": "On the other hand",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_on_the_other_hand.mp3"
+  },
+  {
+    "word": "Alternatively",
+    "type": "Koşul/Seçenek",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_alternatively.mp3"
+  },
+  {
+    "word": "Indeed",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_indeed.mp3"
+  },
+  {
+    "word": "As a result",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_a_result.mp3"
+  },
+  {
+    "word": "Conversely",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_conversely.mp3"
+  },
+  {
+    "word": "Instead",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_instead.mp3"
+  },
+  {
+    "word": "Otherwise",
+    "type": "Koşul",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_otherwise.mp3"
+  },
+  {
+    "word": "Notwithstanding",
+    "type": "Zıtlık",
+    "structure": "İsim alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_notwithstanding.mp3"
+  },
+  {
+    "word": "Likewise",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_likewise.mp3"
+  },
+  {
+    "word": "Despite",
+    "type": "Zıtlık",
+    "structure": "İsim alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_despite.mp3"
+  },
+  {
+    "word": "Although",
+    "type": "Zıtlık",
+    "structure": "Cümle alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_although.mp3"
+  },
+  {
+    "word": "Whereas",
+    "type": "Zıtlık",
+    "structure": "Cümle alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_whereas.mp3"
+  },
+  {
+    "word": "Provided that",
+    "type": "Koşul",
+    "structure": "Cümle alır",
+    "flow": "Yellow",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_provided_that.mp3"
+  },
+  {
+    "word": "Unless",
+    "type": "Koşul",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_unless.mp3"
+  },
+  {
+    "word": "Provided",
+    "type": "Koşul",
+    "structure": "Cümle alır",
+    "flow": "Yellow",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_provided.mp3"
+  },
+  {
+    "word": "As long as",
+    "type": "Koşul",
+    "structure": "Cümle alır",
+    "flow": "Yellow",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_long_as.mp3"
+  },
+  {
+    "word": "In order to",
+    "type": "Amaç",
+    "structure": "İsim/Fiil alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_order_to.mp3"
+  },
+  {
+    "word": "So as to",
+    "type": "Amaç",
+    "structure": "İsim/Fiil alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_so_as_to.mp3"
+  },
+  {
+    "word": "Due to",
+    "type": "Sebep-Sonuç",
+    "structure": "İsim alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_due_to.mp3"
+  },
+  {
+    "word": "Because of",
+    "type": "Sebep-Sonuç",
+    "structure": "İsim alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_because_of.mp3"
+  },
+  {
+    "word": "Owing to",
+    "type": "Sebep-Sonuç",
+    "structure": "İsim alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_owing_to.mp3"
+  },
+  {
+    "word": "Thanks to",
+    "type": "Sebep-Sonuç",
+    "structure": "İsim alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_thanks_to.mp3"
+  },
+  {
+    "word": "As",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/Collocations/audio_connectors/col_228_link_ideas.mp3"
+  },
+  {
+    "word": "Since",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_since.mp3"
+  },
+  {
+    "word": "Inasmuch as",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_inasmuch_as.mp3"
+  },
+  {
+    "word": "Insofar as",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_insofar_as.mp3"
+  },
+  {
+    "word": "Supposing that",
+    "type": "Koşul",
+    "structure": "Cümle alır",
+    "flow": "Yellow",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_supposing_that.mp3"
+  },
+  {
+    "word": "Whether or not",
+    "type": "Koşul",
+    "structure": "Cümle alır",
+    "flow": "Yellow",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_whether_or_not.mp3"
+  },
+  {
+    "word": "Incidentally",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_incidentally.mp3"
+  },
+  {
+    "word": "Given that",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_given_that.mp3"
+  },
+  {
+    "word": "In view of",
+    "type": "Sebep-Sonuç",
+    "structure": "İsim alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_view_of.mp3"
+  },
+  {
+    "word": "Seeing that",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_seeing_that.mp3"
+  },
+  {
+    "word": "In the event of",
+    "type": "Koşul",
+    "structure": "İsim alır",
+    "flow": "Yellow",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_the_event_of.mp3"
+  },
+  {
+    "word": "Even if",
+    "type": "Zıtlık",
+    "structure": "Cümle alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_even_if.mp3"
+  },
+  {
+    "word": "In spite of",
+    "type": "Zıtlık",
+    "structure": "İsim alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_spite_of.mp3"
+  },
+  {
+    "word": "In contrast to",
+    "type": "Zıtlık",
+    "structure": "İsim alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_contrast_to.mp3"
+  },
+  {
+    "word": "While",
+    "type": "Zıtlık",
+    "structure": "Cümle alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/Synonym_Antonym/audio_synonym_antonym/syn_241_worthwhile.mp3"
+  },
+  {
+    "word": "Even though",
+    "type": "Zıtlık",
+    "structure": "Cümle alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_even_though.mp3"
+  },
+  {
+    "word": "As though",
+    "type": "Zıtlık",
+    "structure": "Cümle alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_though.mp3"
+  },
+  {
+    "word": "As if",
+    "type": "Zıtlık",
+    "structure": "Cümle alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_if.mp3"
+  },
+  {
+    "word": "Lest",
+    "type": "Amaç",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_lest.mp3"
+  },
+  {
+    "word": "As for",
+    "type": "Paralellik",
+    "structure": "İsim alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_for.mp3"
+  },
+  {
+    "word": "As to",
+    "type": "Paralellik",
+    "structure": "İsim alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_so_as_to.mp3"
+  },
+  {
+    "word": "In terms of",
+    "type": "Paralellik",
+    "structure": "İsim alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_terms_of.mp3"
+  },
+  {
+    "word": "With regard to",
+    "type": "Paralellik",
+    "structure": "İsim alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_with_regard_to.mp3"
+  },
+  {
+    "word": "In respect of",
+    "type": "Paralellik",
+    "structure": "İsim alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_respect_of.mp3"
+  },
+  {
+    "word": "By means of",
+    "type": "Sebep-Sonuç",
+    "structure": "İsim alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_by_means_of.mp3"
+  },
+  {
+    "word": "In line with",
+    "type": "Paralellik",
+    "structure": "İsim alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_line_with.mp3"
+  },
+  {
+    "word": "In light of",
+    "type": "Sebep-Sonuç",
+    "structure": "İsim alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_light_of.mp3"
+  },
+  {
+    "word": "So that",
+    "type": "Amaç",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_so_that.mp3"
+  },
+  {
+    "word": "As soon as",
+    "type": "Zaman",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_soon_as.mp3"
+  },
+  {
+    "word": "Additionally",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_additionally.mp3"
+  },
+  {
+    "word": "Admittedly",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_admittedly.mp3"
+  },
+  {
+    "word": "After all",
+    "type": "Sebep-Sonuç",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_after_all.mp3"
+  },
+  {
+    "word": "Afterward",
+    "type": "Zaman",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_afterward.mp3"
+  },
+  {
+    "word": "All the same",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_all_the_same.mp3"
+  },
+  {
+    "word": "As a matter of fact",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_a_matter_of_fact.mp3"
+  },
+  {
+    "word": "As compared to",
+    "type": "Zıtlık",
+    "structure": "İsim alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_compared_to.mp3"
+  },
+  {
+    "word": "As concerns",
+    "type": "Paralellik",
+    "structure": "İsim alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_concerns.mp3"
+  },
+  {
+    "word": "As far as",
+    "type": "Paralellik",
+    "structure": "Cümle alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_far_as.mp3"
+  },
+  {
+    "word": "As opposed to",
+    "type": "Zıtlık",
+    "structure": "İsim alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_opposed_to.mp3"
+  },
+  {
+    "word": "As per",
+    "type": "Sebep-Sonuç",
+    "structure": "İsim alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_per.mp3"
+  },
+  {
+    "word": "As well",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_well.mp3"
+  },
+  {
+    "word": "Aside from",
+    "type": "Paralellik",
+    "structure": "İsim alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_aside_from.mp3"
+  },
+  {
+    "word": "At any rate",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_at_any_rate.mp3"
+  },
+  {
+    "word": "By all means",
+    "type": "Paralellik",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_by_all_means.mp3"
+  },
+  {
+    "word": "By degree",
+    "type": "Zaman",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_by_degree.mp3"
+  },
+  {
+    "word": "By virtue of",
+    "type": "Sebep-Sonuç",
+    "structure": "İsim alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_by_virtue_of.mp3"
+  },
+  {
+    "word": "Certainly",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_certainly.mp3"
+  },
+  {
+    "word": "Comparatively",
+    "type": "Zıtlık",
+    "structure": "Zarf",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_comparatively.mp3"
+  },
+  {
+    "word": "Concerning",
+    "type": "Paralellik",
+    "structure": "İsim alır",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_concerning.mp3"
+  },
+  {
+    "word": "Contrary to",
+    "type": "Zıtlık",
+    "structure": "İsim alır",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_contrary_to.mp3"
+  },
+  {
+    "word": "Correspondingly",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_correspondingly.mp3"
+  },
+  {
+    "word": "Duly",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_duly.mp3"
+  },
+  {
+    "word": "Effectively",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_effectively.mp3"
+  },
+  {
+    "word": "Elsewhere",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_elsewhere.mp3"
+  },
+  {
+    "word": "Equally",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_equally.mp3"
+  },
+  {
+    "word": "Essentially",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_essentially.mp3"
+  },
+  {
+    "word": "Eventually",
+    "type": "Zaman",
+    "structure": "Zarf",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_eventually.mp3"
+  },
+  {
+    "word": "Ever since",
+    "type": "Zaman",
+    "structure": "Cümle alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_ever_since.mp3"
+  },
+  {
+    "word": "Explicitly",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_explicitly.mp3"
+  },
+  {
+    "word": "Externally",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_externally.mp3"
+  },
+  {
+    "word": "Finally",
+    "type": "Zaman",
+    "structure": "Zarf",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_finally.mp3"
+  },
+  {
+    "word": "For all that",
+    "type": "Zıtlık",
+    "structure": "Cümle (noktadan sonra)",
+    "flow": "Red",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_for_all_that.mp3"
+  },
+  {
+    "word": "For fear of",
+    "type": "Sebep-Sonuç",
+    "structure": "İsim alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_for_fear_of.mp3"
+  },
+  {
+    "word": "For instance",
+    "type": "Paralellik",
+    "structure": "Zarf",
+    "flow": "Green",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_for_instance.mp3"
+  },
+  {
+    "word": "For the purpose of",
+    "type": "Amaç",
+    "structure": "İsim alır",
+    "flow": "Stop",
+    "audioUrl": "/data/Tr_Eng_Sınav_Ozel/baglaclar_ozel/audio_connectors/undefined_for_the_purpose_of.mp3"
+  }
+]

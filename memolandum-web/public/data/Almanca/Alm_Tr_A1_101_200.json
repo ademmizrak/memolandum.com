@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "a1_tr_de_101",
+    "word": "ich",
+    "translation": "ben",
+    "pos": "pronoun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_101_ich.mp3"
+  },
+  {
+    "id": "a1_tr_de_102",
+    "word": "du",
+    "translation": "sen",
+    "pos": "pronoun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_102_du.mp3"
+  },
+  {
+    "id": "a1_tr_de_103",
+    "word": "er/sie/es",
+    "translation": "o",
+    "pos": "pronoun",
+    "tags": [
+      "A1",
+      "Core"
+    ]
+  },
+  {
+    "id": "a1_tr_de_104",
+    "word": "wir",
+    "translation": "biz",
+    "pos": "pronoun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_104_wir.mp3"
+  },
+  {
+    "id": "a1_tr_de_105",
+    "word": "ihr",
+    "translation": "siz",
+    "pos": "pronoun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_105_ihr.mp3"
+  },
+  {
+    "id": "a1_tr_de_106",
+    "word": "sie",
+    "translation": "onlar",
+    "pos": "pronoun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_106_sie.mp3"
+  },
+  {
+    "id": "a1_tr_de_107",
+    "word": "und",
+    "translation": "ve",
+    "pos": "conjunction",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_107_und.mp3"
+  },
+  {
+    "id": "a1_tr_de_108",
+    "word": "aber",
+    "translation": "ama",
+    "pos": "conjunction",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_108_aber.mp3"
+  },
+  {
+    "id": "a1_tr_de_109",
+    "word": "oder",
+    "translation": "veya",
+    "pos": "conjunction",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_109_oder.mp3"
+  },
+  {
+    "id": "a1_tr_de_110",
+    "word": "weil",
+    "translation": "çünkü",
+    "pos": "conjunction",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_110_weil.mp3"
+  },
+  {
+    "id": "a1_tr_de_111",
+    "word": "heute",
+    "translation": "bugün",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_111_heute.mp3"
+  },
+  {
+    "id": "a1_tr_de_112",
+    "word": "morgen",
+    "translation": "yarın",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_112_morgen.mp3"
+  },
+  {
+    "id": "a1_tr_de_113",
+    "word": "gestern",
+    "translation": "dün",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_113_gestern.mp3"
+  },
+  {
+    "id": "a1_tr_de_114",
+    "word": "jetzt",
+    "translation": "şimdi",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ]
+  },
+  {
+    "id": "a1_tr_de_115",
+    "word": "hier",
+    "translation": "burada",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_115_hier.mp3"
+  },
+  {
+    "id": "a1_tr_de_116",
+    "word": "dort",
+    "translation": "orada",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_116_dort.mp3"
+  },
+  {
+    "id": "a1_tr_de_117",
+    "word": "immer",
+    "translation": "her zaman",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_117_immer.mp3"
+  },
+  {
+    "id": "a1_tr_de_118",
+    "word": "nie",
+    "translation": "asla",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_118_nie.mp3"
+  },
+  {
+    "id": "a1_tr_de_119",
+    "word": "manchmal",
+    "translation": "bazen",
+    "pos": "adverb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_119_manchmal.mp3"
+  },
+  {
+    "id": "a1_tr_de_120",
+    "word": "ja",
+    "translation": "evet",
+    "pos": "particle",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_120_ja.mp3"
+  },
+  {
+    "id": "a1_tr_de_121",
+    "word": "nein",
+    "translation": "hayır",
+    "pos": "particle",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_121_nein.mp3"
+  },
+  {
+    "id": "a1_tr_de_122",
+    "word": "bitte",
+    "translation": "lütfen",
+    "pos": "particle",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_122_bitte.mp3"
+  },
+  {
+    "id": "a1_tr_de_123",
+    "word": "danke",
+    "translation": "teşekkür ederim",
+    "pos": "particle",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_123_danke.mp3"
+  },
+  {
+    "id": "a1_tr_de_124",
+    "word": "hallo",
+    "translation": "merhaba",
+    "pos": "interjection",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_124_hallo.mp3"
+  },
+  {
+    "id": "a1_tr_de_125",
+    "word": "tschüss",
+    "translation": "hoşça kal",
+    "pos": "interjection",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_125_tschüss.mp3"
+  },
+  {
+    "id": "a1_tr_de_126",
+    "word": "der Morgen",
+    "translation": "sabah",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_126_der morgen.mp3"
+  },
+  {
+    "id": "a1_tr_de_127",
+    "word": "der Abend",
+    "translation": "akşam",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_127_der abend.mp3"
+  },
+  {
+    "id": "a1_tr_de_128",
+    "word": "der Mittag",
+    "translation": "öğle",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_128_der mittag.mp3"
+  },
+  {
+    "id": "a1_tr_de_129",
+    "word": "Montag",
+    "translation": "pazartesi",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_129_montag.mp3"
+  },
+  {
+    "id": "a1_tr_de_130",
+    "word": "Dienstag",
+    "translation": "salı",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_130_dienstag.mp3"
+  },
+  {
+    "id": "a1_tr_de_131",
+    "word": "Mittwoch",
+    "translation": "çarşamba",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_131_mittwoch.mp3"
+  },
+  {
+    "id": "a1_tr_de_132",
+    "word": "Donnerstag",
+    "translation": "perşembe",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_132_donnerstag.mp3"
+  },
+  {
+    "id": "a1_tr_de_133",
+    "word": "Freitag",
+    "translation": "cuma",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_133_freitag.mp3"
+  },
+  {
+    "id": "a1_tr_de_134",
+    "word": "Samstag",
+    "translation": "cumartesi",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_134_samstag.mp3"
+  },
+  {
+    "id": "a1_tr_de_135",
+    "word": "Sonntag",
+    "translation": "pazar",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_135_sonntag.mp3"
+  },
+  {
+    "id": "a1_tr_de_136",
+    "word": "eins",
+    "translation": "bir",
+    "pos": "number",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_136_eins.mp3"
+  },
+  {
+    "id": "a1_tr_de_137",
+    "word": "zwei",
+    "translation": "iki",
+    "pos": "number",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_137_zwei.mp3"
+  },
+  {
+    "id": "a1_tr_de_138",
+    "word": "drei",
+    "translation": "üç",
+    "pos": "number",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_138_drei.mp3"
+  },
+  {
+    "id": "a1_tr_de_139",
+    "word": "vier",
+    "translation": "dört",
+    "pos": "number",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_139_vier.mp3"
+  },
+  {
+    "id": "a1_tr_de_140",
+    "word": "fünf",
+    "translation": "beş",
+    "pos": "number",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_140_fünf.mp3"
+  },
+  {
+    "id": "a1_tr_de_141",
+    "word": "sechs",
+    "translation": "altı",
+    "pos": "number",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_141_sechs.mp3"
+  },
+  {
+    "id": "a1_tr_de_142",
+    "word": "sieben",
+    "translation": "yedi",
+    "pos": "number",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_142_sieben.mp3"
+  },
+  {
+    "id": "a1_tr_de_143",
+    "word": "acht",
+    "translation": "sekiz",
+    "pos": "number",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_143_acht.mp3"
+  },
+  {
+    "id": "a1_tr_de_144",
+    "word": "neun",
+    "translation": "dokuz",
+    "pos": "number",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_144_neun.mp3"
+  },
+  {
+    "id": "a1_tr_de_145",
+    "word": "zehn",
+    "translation": "on",
+    "pos": "number",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_145_zehn.mp3"
+  },
+  {
+    "id": "a1_tr_de_146",
+    "word": "rot",
+    "translation": "kırmızı",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_146_rot.mp3"
+  },
+  {
+    "id": "a1_tr_de_147",
+    "word": "blau",
+    "translation": "mavi",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_147_blau.mp3"
+  },
+  {
+    "id": "a1_tr_de_148",
+    "word": "grün",
+    "translation": "yeşil",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_148_grün.mp3"
+  },
+  {
+    "id": "a1_tr_de_149",
+    "word": "gelb",
+    "translation": "sarı",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_149_gelb.mp3"
+  },
+  {
+    "id": "a1_tr_de_150",
+    "word": "schwarz",
+    "translation": "siyah",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_150_schwarz.mp3"
+  },
+  {
+    "id": "a1_tr_de_151",
+    "word": "weiß",
+    "translation": "beyaz",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_151_weiß.mp3"
+  },
+  {
+    "id": "a1_tr_de_152",
+    "word": "benutzen",
+    "translation": "kullanmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_152_benutzen.mp3"
+  },
+  {
+    "id": "a1_tr_de_153",
+    "word": "arbeiten",
+    "translation": "çalışmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_153_arbeiten.mp3"
+  },
+  {
+    "id": "a1_tr_de_154",
+    "word": "lernen",
+    "translation": "öğrenmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_154_lernen.mp3"
+  },
+  {
+    "id": "a1_tr_de_155",
+    "word": "verstehen",
+    "translation": "anlamak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_155_verstehen.mp3"
+  },
+  {
+    "id": "a1_tr_de_156",
+    "word": "fragen",
+    "translation": "sormak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_156_fragen.mp3"
+  },
+  {
+    "id": "a1_tr_de_157",
+    "word": "antworten",
+    "translation": "cevaplamak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_157_antworten.mp3"
+  },
+  {
+    "id": "a1_tr_de_158",
+    "word": "warten",
+    "translation": "beklemek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_158_warten.mp3"
+  },
+  {
+    "id": "a1_tr_de_159",
+    "word": "anrufen",
+    "translation": "aramak (telefonla)",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_159_anrufen.mp3"
+  },
+  {
+    "id": "a1_tr_de_160",
+    "word": "treffen",
+    "translation": "tanışmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_160_treffen.mp3"
+  },
+  {
+    "id": "a1_tr_de_161",
+    "word": "machen",
+    "translation": "yapmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_161_machen.mp3"
+  },
+  {
+    "id": "a1_tr_de_162",
+    "word": "sein",
+    "translation": "olmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_162_sein.mp3"
+  },
+  {
+    "id": "a1_tr_de_163",
+    "word": "haben",
+    "translation": "sahip olmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_163_haben.mp3"
+  },
+  {
+    "id": "a1_tr_de_164",
+    "word": "kommen",
+    "translation": "gelmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_164_kommen.mp3"
+  },
+  {
+    "id": "a1_tr_de_165",
+    "word": "bleiben",
+    "translation": "kalmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_165_bleiben.mp3"
+  },
+  {
+    "id": "a1_tr_de_166",
+    "word": "zeigen",
+    "translation": "göstermek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_166_zeigen.mp3"
+  },
+  {
+    "id": "a1_tr_de_167",
+    "word": "denken",
+    "translation": "düşünmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_167_denken.mp3"
+  },
+  {
+    "id": "a1_tr_de_168",
+    "word": "glauben",
+    "translation": "inanmak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_168_glauben.mp3"
+  },
+  {
+    "id": "a1_tr_de_169",
+    "word": "versuchen",
+    "translation": "denemek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_169_versuchen.mp3"
+  },
+  {
+    "id": "a1_tr_de_170",
+    "word": "lachen",
+    "translation": "gülmek",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_170_lachen.mp3"
+  },
+  {
+    "id": "a1_tr_de_171",
+    "word": "weinen",
+    "translation": "ağlamak",
+    "pos": "verb",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_171_weinen.mp3"
+  },
+  {
+    "id": "a1_tr_de_172",
+    "word": "der Arzt",
+    "translation": "doktor",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_172_der arzt.mp3"
+  },
+  {
+    "id": "a1_tr_de_173",
+    "word": "der Lehrer",
+    "translation": "öğretmen",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_173_der lehrer.mp3"
+  },
+  {
+    "id": "a1_tr_de_174",
+    "word": "der Freund",
+    "translation": "arkadaş",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_174_der freund.mp3"
+  },
+  {
+    "id": "a1_tr_de_175",
+    "word": "die Stadt",
+    "translation": "şehir",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_175_die stadt.mp3"
+  },
+  {
+    "id": "a1_tr_de_176",
+    "word": "die Straße",
+    "translation": "sokak",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_176_die straße.mp3"
+  },
+  {
+    "id": "a1_tr_de_177",
+    "word": "das Auto",
+    "translation": "araba",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_177_das auto.mp3"
+  },
+  {
+    "id": "a1_tr_de_178",
+    "word": "der Bus",
+    "translation": "otobüs",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_178_der bus.mp3"
+  },
+  {
+    "id": "a1_tr_de_179",
+    "word": "der Zug",
+    "translation": "tren",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_179_der zug.mp3"
+  },
+  {
+    "id": "a1_tr_de_180",
+    "word": "das Flugzeug",
+    "translation": "uçak",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_180_das flugzeug.mp3"
+  },
+  {
+    "id": "a1_tr_de_181",
+    "word": "das Wetter",
+    "translation": "hava",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_181_das wetter.mp3"
+  },
+  {
+    "id": "a1_tr_de_182",
+    "word": "die Sonne",
+    "translation": "güneş",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_182_die sonne.mp3"
+  },
+  {
+    "id": "a1_tr_de_183",
+    "word": "der Regen",
+    "translation": "yağmur",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_183_der regen.mp3"
+  },
+  {
+    "id": "a1_tr_de_184",
+    "word": "die Katze",
+    "translation": "kedi",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_184_die katze.mp3"
+  },
+  {
+    "id": "a1_tr_de_185",
+    "word": "der Hund",
+    "translation": "köpek",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_185_der hund.mp3"
+  },
+  {
+    "id": "a1_tr_de_186",
+    "word": "das Essen",
+    "translation": "yemek (öğün)",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_186_das essen.mp3"
+  },
+  {
+    "id": "a1_tr_de_187",
+    "word": "das Frühstück",
+    "translation": "kahvaltı",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_187_das frühstück.mp3"
+  },
+  {
+    "id": "a1_tr_de_188",
+    "word": "das Abendessen",
+    "translation": "akşam yemeği",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_188_das abendessen.mp3"
+  },
+  {
+    "id": "a1_tr_de_189",
+    "word": "das Brot",
+    "translation": "ekmek",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_189_das brot.mp3"
+  },
+  {
+    "id": "a1_tr_de_190",
+    "word": "die Milch",
+    "translation": "süt",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_190_die milch.mp3"
+  },
+  {
+    "id": "a1_tr_de_191",
+    "word": "der Kaffee",
+    "translation": "kahve",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_191_der kaffee.mp3"
+  },
+  {
+    "id": "a1_tr_de_192",
+    "word": "der Tee",
+    "translation": "çay",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_192_der tee.mp3"
+  },
+  {
+    "id": "a1_tr_de_193",
+    "word": "der Zucker",
+    "translation": "şeker",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_193_der zucker.mp3"
+  },
+  {
+    "id": "a1_tr_de_194",
+    "word": "das Salz",
+    "translation": "tuz",
+    "pos": "noun",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_194_das salz.mp3"
+  },
+  {
+    "id": "a1_tr_de_195",
+    "word": "kurz",
+    "translation": "kısa",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_195_kurz.mp3"
+  },
+  {
+    "id": "a1_tr_de_196",
+    "word": "hoch",
+    "translation": "yüksek",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_196_hoch.mp3"
+  },
+  {
+    "id": "a1_tr_de_197",
+    "word": "niedrig",
+    "translation": "düşük",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_197_niedrig.mp3"
+  },
+  {
+    "id": "a1_tr_de_198",
+    "word": "sauber",
+    "translation": "temiz",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_198_sauber.mp3"
+  },
+  {
+    "id": "a1_tr_de_199",
+    "word": "schmutzig",
+    "translation": "kirli",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_199_schmutzig.mp3"
+  },
+  {
+    "id": "a1_tr_de_200",
+    "word": "einfach",
+    "translation": "kolay",
+    "pos": "adjective",
+    "tags": [
+      "A1",
+      "Core"
+    ],
+    "audioUrl": "/data/Almanca/audio/a1_tr_de_200_einfach.mp3"
+  }
+]

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Memolandum - Hakkımızda & Bilimsel Temellerimiz / About Science</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0d0d1a">
+  <meta name="description" content="Memolandum, insan beyninin çalışma prensiplerini çözen nörobilim, bilişsel psikoloji ve dijital oyun teknolojilerinin evrimsel disipliniyle hareket eden yeni nesil dil öğrenme platformudur.">
+  
+  <link rel="alternate" hreflang="tr" href="https://memolandum.com/about.html" />
+  <link rel="alternate" hreflang="en" href="https://memolandum.com/about.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://memolandum.com/about.html" />
+  <link rel="alternate" hreflang="ko" href="https://memolandum.com/about.html" />
+  <link rel="alternate" hreflang="ru" href="https://memolandum.com/about.html" />
+  <link rel="alternate" hreflang="x-default" href="https://memolandum.com/about.html" />
+
+  <!-- JSON-LD Structured Data for AboutPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "Memolandum Bilimsel Gerçekler ve Hakkımızda",
+    "description": "Memolandum'un arkasındaki bilimsel temeller: Bilişsel Psikoloji, Nörobilim ve Oyunlaştırma algoritmaları.",
+    "url": "https://memolandum.com/about.html",
+    "inLanguage": ["tr", "en", "pt-BR", "ko", "ru"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Memolandum Team"
+    }
+  }
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #0b101a;
+      color: #e2e8f0;
+      font-family: 'Space Grotesk', sans-serif;
+      display: block !important;
+      height: auto !important;
+      overflow-y: auto !important;
+      touch-action: auto !important;
+    }
+    h1, h2, h3 {
+      font-family: 'Orbitron', sans-serif;
+    }
+    .scanlines::before {
+      content: " ";
+      display: block;
+      position: fixed;
+      top: 0; left: 0; bottom: 0; right: 0;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+      z-index: 100;
+      background-size: 100% 2px, 3px 100%;
+      pointer-events: none;
+    }
+    .lang-btn.active {
+      background-color: rgba(0, 240, 255, 0.1);
+      border-color: rgba(0, 240, 255, 0.5);
+      color: #00f0ff;
+    }
+  </style>
+</head>
+<body class="bg-[#0b101a] overflow-x-hidden min-h-screen">
+  <div class="scanlines"></div>
+  
+  <div class="max-w-3xl mx-auto px-4 py-8 relative z-10">
+    <a href="/" id="back-btn-container" class="inline-flex items-center gap-2 text-[#00f0ff] hover:text-white transition-colors mb-8 font-['Orbitron'] tracking-wider text-sm uppercase">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+      <span id="btn-back">Geri Dön</span>
+    </a>
+    <script>
+      if (window.self !== window.top) {
+        document.getElementById('back-btn-container').style.display = 'none';
+      }
+    </script>
+
+    <header class="mb-12 border-b border-[#00f0ff]/20 pb-6">
+      <h1 id="main-title" class="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#00f0ff] to-[#a855f7] tracking-widest uppercase drop-shadow-[0_0_15px_rgba(0,240,255,0.4)] mb-4">
+        Hakkımızda & Bilimsel Temellerimiz
+      </h1>
+      
+      <!-- Language Tabs -->
+      <div class="flex flex-wrap gap-2 mt-8">
+        <button onclick="switchLang('tr')" id="btn-tr" class="lang-btn active px-4 py-2 rounded-md font-['Orbitron'] text-sm tracking-widest border border-[#00f0ff]/50 bg-[#00f0ff]/10 text-[#00f0ff] transition-all">TR</button>
+        <button onclick="switchLang('en')" id="btn-en" class="lang-btn px-4 py-2 rounded-md font-['Orbitron'] text-sm tracking-widest border border-gray-600 text-gray-400 hover:border-[#00f0ff]/50 hover:text-[#00f0ff] transition-all">EN</button>
+        <button onclick="switchLang('pt')" id="btn-pt" class="lang-btn px-4 py-2 rounded-md font-['Orbitron'] text-sm tracking-widest border border-gray-600 text-gray-400 hover:border-[#00f0ff]/50 hover:text-[#00f0ff] transition-all">PT-BR</button>
+        <button onclick="switchLang('ko')" id="btn-ko" class="lang-btn px-4 py-2 rounded-md font-['Orbitron'] text-sm tracking-widest border border-gray-600 text-gray-400 hover:border-[#00f0ff]/50 hover:text-[#00f0ff] transition-all">KO</button>
+        <button onclick="switchLang('ru')" id="btn-ru" class="lang-btn px-4 py-2 rounded-md font-['Orbitron'] text-sm tracking-widest border border-gray-600 text-gray-400 hover:border-[#00f0ff]/50 hover:text-[#00f0ff] transition-all">RU</button>
+        <button onclick="switchLang('el')" id="btn-el" class="lang-btn px-4 py-2 rounded-md font-['Orbitron'] text-sm tracking-widest border border-gray-600 text-gray-400 hover:border-[#00f0ff]/50 hover:text-[#00f0ff] transition-all">EL</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="content-tr" class="lang-content space-y-8 leading-relaxed text-sm md:text-base text-gray-300">
+        <p><strong class="text-[#00f0ff]">memolandum.com</strong>, geleneksel ve sıkıcı öğrenme metotlarını geride bırakarak, kalıcı hafıza yönetimini küresel bir oyun ekosistemine dönüştüren yeni nesil bir platformdur. Amacımız; kullanıcılarımızın yeni bir dil öğrenirken veya teknik terimlere hakim olmaya çalışırken bilişsel potansiyellerini maksimuma çıkarmak ve bu kazanımlarla kendi hayatlarını domine edecek bir kişisel gelişim ivmesi yakalamalarını sağlamaktır.</p>
+        <p>Peki, bunu nasıl yapıyoruz? Sadece eğlenceli oyun tasarımlarıyla değil; insan beyninin çalışma prensiplerini çözen nörobilim, bilişsel psikoloji ve dijital oyun teknolojilerinin evrimsel disipliniyle hareket ediyoruz.</p>
+        
+        <div class="mt-12 mb-8">
+          <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-[#ff0055] tracking-widest uppercase mb-6">Gücümüzü Bilim, Disiplin ve Teknolojiden Alıyoruz</h2>
+          <p class="mb-6">Geliştirdiğimiz oyun modülleri ve kelime edinim algoritmaları, doğrudan aşağıdaki akademik teoriler ve teknolojik vizyon üzerine inşa edilmiştir:</p>
+          
+          <div class="space-y-8">
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">01.</span> Subliminal ve Örtük Öğrenme <span class="text-xs text-gray-500 font-normal ml-1">(Subliminal & Implicit Learning)</span></h3>
+              <p class="mb-3">İnsan beyni, bilincin aktif olarak algılayamadığı "eşik altı" (subliminal) uyaranları işleme ve kaydetme yeteneğine sahiptir. Psikolojide Implicit Learning (Örtük Öğrenme) olarak adlandırılan bu süreç, bireyin farkında olmadan, çevreyle etkileşime girerek kuralları ve kalıpları hafızasına kazımasıdır.</p>
+              <p><strong class="text-purple-400">Bilimsel Çözümümüz:</strong> memolandum.com'un dinamik oyun motorlarında, siz sadece ekrandaki ana hedefe odaklanmışken, arka planda, renk geçişlerinde veya oyunun mikro saniyelik akışlarında hedef dildeki kelime kalıpları beyninize servis edilir. Yüksek odaklanma (Hyper-focus) anında kelimeler bilinçaltı düzeyde zihninize işlenir.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-yellow-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,234,0,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex items-center gap-2"><span class="text-yellow-400">02.</span> Atariler ve Bilişimin "Sıfır Noktası" Felsefesi</h3>
+              <p class="mb-3">70'lerin ve 80'lerin atari (arcade) salonları, sadece piksellerden oluşan eğlence araçları değildi; bugün yapay zekadan uzay teknolojilerine kadar dünyayı domine eden modern bilişim sektörünün sıfır noktasıydı.</p>
+              <p><strong class="text-purple-400">Vizyonumuz:</strong> Atarilerin oyun endüstrisini sıfırdan alıp bugün dünyayı yöneten bir bilişim gücü haline getirmesi gibi, memolandum.com da oyunlaştırmanın bu saf, köklü ve güçlü enerjisini disiplinle işler. Tıpkı oyun sektörünün dünyayı domine etmesi gibi, siz de oyun teknolojileriyle zihninizi geliştirerek kendi hayatınızı domine edecek noktaya geleceksiniz.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#39ff14]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(57,255,20,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#39ff14]">03.</span> Ebbinghaus Unutma Eğrisi ve Aralıklı Tekrar <span class="text-xs text-gray-500 font-normal ml-1">(Spaced Repetition)</span></h3>
+              <p class="mb-3">1885 yılında psikolog Hermann Ebbinghaus tarafından keşfedilen Unutma Eğrisi, yeni öğrenilen bilgilerin tekrar edilmediği takdirde geometrik bir hızla unutulduğunu gösterir.</p>
+              <p><strong class="text-purple-400">Bilimsel Çözümümüz:</strong> memolandum.com algoritmaları, bir kelimeyi veya bilgiyi tam unutmak üzere olduğunuz o kritik "kırılma anını" hesaplar. Kelimeleri tam zamanında karşınıza çıkararak bilginin kalıcı hafızaya (long-term memory) transfer edilmesini sağlar.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">04.</span> İkili Kodlama Teorisi <span class="text-xs text-gray-500 font-normal ml-1">(Dual-Coding Theory)</span></h3>
+              <p class="mb-3">Allan Paivio’nun İkili Kodlama Teorisi, insan beyninin bilgiyi hem görsel hem de sözel (metinsel) kanallardan ayrı ayrı işlediğini savunur. Bilgi her iki kanaldan birden girdiğinde, akılda kalıcılık oranı katlanarak artar.</p>
+              <p><strong class="text-purple-400">Bilimsel Çözümümüz:</strong> Platformumuzdaki görsel oyun motorları, metinsel veriyi dinamik görsel uyaranlarla birleştirir. Sadece okumaz, aynı zamanda görür, tepki verir ve mekansal hafızanızı (spatial memory) tetiklersiniz.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#ff0055]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,0,85,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#ff0055]">05.</span> Akış Teorisi ve Oyunlaştırma <span class="text-xs text-gray-500 font-normal ml-1">(Flow Theory & Gamification)</span></h3>
+              <p class="mb-3">Mihaly Csikszentmihalyi tarafından ortaya konan Akış (Flow) Teorisi, bir bireyin beceri düzeyi ile karşılaştığı zorluk dengelendiğinde "pürüzsüz bir odaklanma" evresine girdiğini kanıtlar.</p>
+              <p><strong class="text-purple-400">Bilimsel Çözümümüz:</strong> Oyun modüllerimiz, kullanıcının anlık kelime ve kavram hakimiyetine göre dinamik olarak zorlaşır veya kolaylaşır. Bu sayede öğrenme sürecini sürdürülebilir bir "pozitif bağımlılık" olarak algılarsınız.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-purple-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(168,85,247,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-purple-400">06.</span> Aktif Geri Çağırma <span class="text-xs text-gray-500 font-normal ml-1">(Active Recall)</span></h3>
+              <p class="mb-3">Bilimsel araştırmalar, beynin bilgiyi pasif bir şekilde okuduğunda değil, "içeriden dışarıya çağırmaya" (test edilmeye) zorlandığında güçlü sinaptik bağlar kurduğunu gösterir.</p>
+              <p><strong class="text-purple-400">Bilimsel Çözümümüz:</strong> memolandum.com size kelimeleri sadece okutmaz; arcade mekanikleriyle sizi o bilgiyi refleksif olarak geri çağırmaya (Active Recall) zorlar.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/40 rounded-xl p-6 shadow-[0_0_20px_rgba(0,240,255,0.15)] relative overflow-hidden">
+              <div class="absolute top-0 right-0 w-32 h-32 bg-[#00f0ff]/10 rounded-full blur-2xl"></div>
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">07.</span> Bilişsel Dil Ağları vs. Yapay Zeka Çevirmenleri <span class="text-xs text-gray-500 font-normal ml-1">(Cognitive Networks vs. AI)</span></h3>
+              <p class="mb-3">Günümüzde gelişmiş yapay zeka çeviri araçları (AI Translators) metinleri anında farklı dillere çevirebilse de, bu durum nörolojik bir illüzyon yaratır. Bilimsel olarak, sürekli harici yapay zeka çevirmenlerine güvenmek, beynin sinaptik dil ağlarını tembelleştirir (Cognitive Offloading). Ancak akıcı konuşabilmek, doğal diyaloglar kurabilmek ve anlık iletişimde bulunabilmek için kelimeleri bizzat zihninizde barındırmak zorunludur.</p>
+              <p><strong class="text-purple-400">Bilimsel Çözümümüz:</strong> Çeviri cihazları karşılıklı iletişimin hızını keser ve duygu aktarımını zedeler. Memolandum, kelimeleri yapay zeka araçlarına ihtiyaç duymadan refleks olarak kullanabilmeniz için zihinsel kas hafızanızı eğitir. YDS, TOEFL veya akademik sınavlarda yapay zekaya erişiminiz olmadığı gerçeği göz önüne alındığında, aktif kelime dağarcığınız (Active Vocabulary) sizin en güçlü silahınızdır.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12">
+          <h2 class="text-2xl font-bold text-white tracking-widest uppercase mb-4 border-b border-gray-800 pb-2">Küresel Vizyon: Sınırsız Dil, Sınırsız Gelişim</h2>
+          <p class="mb-4">memolandum.com sadece İngilizce öğrenmek isteyenler için tasarlanmış lokal bir araç değildir. Sisteme eklenen yeni dillerle küresel bir çoklu dil edinim merkezine dönüşmektedir.</p>
+          <p>Öğrendiğiniz her dil bilişsel sınırlarınızı esnetir. Tıpkı sıfır noktasından başlayan atari piksellerinin bugün dünyayı yönetmesi gibi, siz de sıfırdan başlayarak dünya dillerine hakim olacak ve geleceğinizi kendiniz inşa edeceksiniz.</p>
+        </div>
+
+        <div class="mt-12 bg-gray-900/50 rounded-xl p-6 border border-gray-800">
+          <h2 class="text-xl font-bold text-[#00f0ff] tracking-widest uppercase mb-4">Neden memolandum.com?</h2>
+          <ul class="space-y-3 list-none">
+            <li class="flex items-start gap-3"><span class="text-[#00f0ff] mt-1">▹</span> <div><strong class="text-white">Eşik Altı (Subliminal) Güç:</strong> Farkında olmadan kalıcı dil edinimi.</div></li>
+            <li class="flex items-start gap-3"><span class="text-[#00f0ff] mt-1">▹</span> <div><strong class="text-white">Arcade Kütüphanesi:</strong> Durmadan evrilen retro oyun modülleri.</div></li>
+            <li class="flex items-start gap-3"><span class="text-[#00f0ff] mt-1">▹</span> <div><strong class="text-white">Kalıcı Edinim:</strong> Geleneksel yöntemlere göre %40 daha hızlı ve kalıcı öğrenme.</div></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="content-en" class="lang-content hidden space-y-8 leading-relaxed text-sm md:text-base text-gray-300">
+        <p><strong class="text-[#00f0ff]">memolandum.com</strong> is a next-generation platform that leaves traditional and boring learning methods behind, transforming long-term memory management into a global gaming ecosystem. Our goal is to maximize the cognitive potential of our users while learning a new language and to provide a personal development momentum that will dominate their lives.</p>
+        <p>How do we do this? Not just through fun game designs; we operate with the evolutionary discipline of neuroscience, cognitive psychology, and digital game technologies that decode the working principles of the human brain.</p>
+        
+        <div class="mt-12 mb-8">
+          <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-[#ff0055] tracking-widest uppercase mb-6">Powered by Science, Discipline, and Technology</h2>
+          <p class="mb-6">The game modules and vocabulary acquisition algorithms we developed are directly built upon the following academic theories:</p>
+          
+          <div class="space-y-8">
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">01.</span> Subliminal & Implicit Learning</h3>
+              <p class="mb-3">The human brain has the ability to process and record "subliminal" stimuli that consciousness cannot actively perceive. In psychology, this process, called Implicit Learning, is when an individual subconsciously etches rules and patterns into their memory by interacting with the environment.</p>
+              <p><strong class="text-purple-400">Our Scientific Solution:</strong> In the dynamic game engines of memolandum.com, while you are focused solely on the main target on the screen, vocabulary patterns in the target language are served to your brain in the background. In the moment of Hyper-focus brought by playing, words are processed into your mind at a subconscious level.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-yellow-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,234,0,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex items-center gap-2"><span class="text-yellow-400">02.</span> Arcades and the "Ground Zero" Philosophy of Computing</h3>
+              <p class="mb-3">The arcade halls of the 70s and 80s were not just pixelated entertainment; they were the ground zero of the modern IT sector that dominates the world today.</p>
+              <p><strong class="text-purple-400">Our Vision:</strong> Just as arcades took the gaming industry from scratch and turned it into an IT power, memolandum.com strictly processes this pure, deep-rooted energy of gamification. By developing your mind with gaming technologies, you will reach a point to dominate your own life.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#39ff14]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(57,255,20,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#39ff14]">03.</span> The Ebbinghaus Forgetting Curve & Spaced Repetition</h3>
+              <p class="mb-3">The Forgetting Curve, discovered by Hermann Ebbinghaus in 1885, shows that newly learned information is forgotten at an exponential rate unless repeated.</p>
+              <p><strong class="text-purple-400">Our Scientific Solution:</strong> Our algorithms calculate that critical "breaking point" when you are about to completely forget a word. It brings these words to you at the exact right time, ensuring the transfer of knowledge to long-term memory.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">04.</span> Dual-Coding Theory</h3>
+              <p class="mb-3">Allan Paivio’s Dual-Coding Theory argues that the human brain processes information through both visual and verbal channels separately. When information enters through both, the retention rate increases exponentially.</p>
+              <p><strong class="text-purple-400">Our Scientific Solution:</strong> Our visual game engines combine textual data with dynamic visual stimuli. You don't just read; you see, react, and trigger your spatial memory.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#ff0055]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,0,85,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#ff0055]">05.</span> Flow Theory & Gamification</h3>
+              <p class="mb-3">Flow Theory, introduced by Mihaly Csikszentmihalyi, proves that when an individual's skill level and the difficulty they face are balanced, they enter a phase of "smooth focus".</p>
+              <p><strong class="text-purple-400">Our Scientific Solution:</strong> Our game modules dynamically become harder or easier according to your instant vocabulary mastery. This way, you perceive the learning process not as a burden, but as a sustainable "positive addiction".</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-purple-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(168,85,247,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-purple-400">06.</span> Active Recall</h3>
+              <p class="mb-3">Scientific research shows that the brain builds strong synaptic connections not when it passively reads information, but when it is forced to "recall it from inside out" (to be tested).</p>
+              <p><strong class="text-purple-400">Our Scientific Solution:</strong> memolandum.com does not just make you read words; it forces you to recall that information reflexively with arcade mechanics.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/40 rounded-xl p-6 shadow-[0_0_20px_rgba(0,240,255,0.15)] relative overflow-hidden">
+              <div class="absolute top-0 right-0 w-32 h-32 bg-[#00f0ff]/10 rounded-full blur-2xl"></div>
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">07.</span> Cognitive Networks vs. AI Translators</h3>
+              <p class="mb-3">Although advanced AI translation tools can instantly translate texts today, this creates a neurological illusion. Scientifically, constantly relying on external AI translators makes the brain's synaptic language networks lazy (Cognitive Offloading). However, to speak fluently, establish natural dialogues, and communicate instantly, it is mandatory to host the words in your own mind.</p>
+              <p><strong class="text-purple-400">Our Scientific Solution:</strong> Translation devices cut the speed of mutual communication and damage the transfer of emotion. Memolandum trains your mental muscle memory so you can use words as a reflex without needing AI tools. Considering that you have no access to AI in official exams like TOEFL or IELTS, your Active Vocabulary is your most powerful weapon.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12">
+          <h2 class="text-2xl font-bold text-white tracking-widest uppercase mb-4 border-b border-gray-800 pb-2">Global Vision: Limitless Language</h2>
+          <p class="mb-4">memolandum.com is not a local tool designed solely for those who want to learn English. It is transforming into a global multi-language acquisition center with new languages added to the system.</p>
+          <p>Every language you learn stretches your cognitive boundaries. Just as the arcade pixels starting from ground zero rule the world today, you will start from scratch, master world languages, and build your future.</p>
+        </div>
+      </div>
+
+      <div id="content-pt" class="lang-content hidden space-y-8 leading-relaxed text-sm md:text-base text-gray-300">
+        <p><strong class="text-[#00f0ff]">memolandum.com</strong> é uma plataforma de nova geração que deixa para trás os métodos de aprendizado tradicionais e chatos, transformando o gerenciamento da memória de longo prazo em um ecossistema global de jogos. Nosso objetivo é maximizar o potencial cognitivo de nossos usuários enquanto aprendem um novo idioma.</p>
+        
+        <div class="mt-12 mb-8">
+          <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-[#ff0055] tracking-widest uppercase mb-6">Impulsionado por Ciência e Tecnologia</h2>
+          
+          <div class="space-y-8">
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">01.</span> Aprendizagem Subliminar e Implícita</h3>
+              <p class="mb-3">O cérebro humano processa estímulos "subliminares" que a consciência não percebe ativamente. Enquanto você foca no jogo, as palavras são processadas na sua mente subconsciente.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-yellow-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,234,0,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-yellow-400">02.</span> A Filosofia "Marco Zero" dos Arcades</h3>
+              <p class="mb-3">Assim como os arcades dos anos 80 moldaram o setor de TI, a energia de gamificação do Memolandum impulsionará seu desenvolvimento cognitivo de forma pura e disciplinada.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#39ff14]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(57,255,20,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#39ff14]">03.</span> Repetição Espaçada (Spaced Repetition)</h3>
+              <p class="mb-3">Nossos algoritmos calculam o momento exato em que você está prestes a esquecer uma palavra e a trazem de volta, transferindo-a para a memória de longo prazo.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">04.</span> Teoria da Dupla Codificação</h3>
+              <p class="mb-3">Unimos dados textuais com estímulos visuais dinâmicos. Você não apenas lê, você vê, reage e aciona sua memória espacial.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#ff0055]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,0,85,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#ff0055]">05.</span> Teoria do Fluxo e Gamificação</h3>
+              <p class="mb-3">A dificuldade do jogo se adapta ao seu nível de habilidade, mantendo você em um estado de foco constante sem se sentir sobrecarregado.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-purple-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(168,85,247,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-purple-400">06.</span> Recordação Ativa (Active Recall)</h3>
+              <p class="mb-3">Forçamos você a recuperar informações ativamente através da mecânica arcade, fortalecendo as conexões sinápticas.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/40 rounded-xl p-6 shadow-[0_0_20px_rgba(0,240,255,0.15)] relative overflow-hidden">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">07.</span> Redes Cognitivas vs. Tradutores de IA</h3>
+              <p class="mb-3">Depender de IAs de tradução torna suas redes linguísticas preguiçosas. Para falar fluentemente e se comunicar de forma natural, é obrigatório abrigar as palavras na sua própria mente. Memolandum treina seus reflexos para que você não dependa de IAs durante conversas naturais ou provas de proficiência.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="content-ko" class="lang-content hidden space-y-8 leading-relaxed text-sm md:text-base text-gray-300">
+        <p><strong class="text-[#00f0ff]">memolandum.com</strong> 은 지루한 전통적 학습 방식을 뒤로하고 장기 기억 관리를 글로벌 게임 생태계로 변모시키는 차세대 플랫폼입니다.</p>
+        
+        <div class="mt-12 mb-8">
+          <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-[#ff0055] tracking-widest uppercase mb-6">과학, 규율 및 기술의 결합</h2>
+          
+          <div class="space-y-8">
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">01.</span> 잠재의식 및 암묵적 학습</h3>
+              <p class="mb-3">화면의 주요 목표에만 집중하는 동안 타겟 언어의 어휘 패턴이 백그라운드에서 뇌로 전달됩니다. 게임의 높은 집중력을 통해 단어는 잠재의식 수준에서 학습됩니다.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-yellow-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,234,0,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-yellow-400">02.</span> 아케이드의 철학</h3>
+              <p class="mb-3">80년대 아케이드가 현재의 IT 산업을 지배한 것처럼, Memolandum의 순수한 게임화 에너지는 사용자의 인지 능력을 발달시켜 삶의 주도권을 쥐게 만듭니다.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#39ff14]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(57,255,20,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#39ff14]">03.</span> 망각 곡선과 간격 반복</h3>
+              <p class="mb-3">단어를 완전히 잊기 직전의 타이밍을 계산하여 단어를 다시 노출시킵니다. 이를 통해 정보를 단기 기억에서 장기 기억으로 전송합니다.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">04.</span> 이중 부호화 이론</h3>
+              <p class="mb-3">시각적 게임 엔진이 텍스트 데이터를 역동적인 시각적 자극과 결합합니다. 읽기만 하는 것이 아니라 보고 반응하며 공간 기억을 활성화합니다.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#ff0055]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,0,85,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#ff0055]">05.</span> 플로우 이론과 게임화</h3>
+              <p class="mb-3">사용자의 어휘 숙달도에 따라 게임 난이도가 동적으로 조절되어 학습 과정을 지속 가능한 '긍정적인 중독'으로 만듭니다.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-purple-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(168,85,247,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-purple-400">06.</span> 능동적 회상 (Active Recall)</h3>
+              <p class="mb-3">아케이드 메커니즘을 통해 정보를 반사적으로 기억해내도록 유도하여 강력한 뇌 신경망 연결을 구축합니다.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/40 rounded-xl p-6 shadow-[0_0_20px_rgba(0,240,255,0.15)] relative overflow-hidden">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">07.</span> 인지 네트워크 vs. AI 번역기</h3>
+              <p class="mb-3">AI 번역기에 지속적으로 의존하면 뇌의 언어 신경망이 게을러집니다(인지적 하역). 유창하게 말하고 자연스러운 대화를 나누려면 자신의 마음 속에 단어를 담아두어야 합니다. Memolandum은 자연스러운 대화나 공식 시험에서 AI에 의존하지 않고 반사적으로 단어를 사용할 수 있도록 당신의 머릿속을 훈련시킵니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- RUSSIAN CONTENT -->
+      <div id="content-ru" class="lang-content hidden space-y-8 leading-relaxed text-sm md:text-base text-gray-300">
+        <p><strong class="text-[#00f0ff]">memolandum.com</strong> — это платформа нового поколения, которая оставляет позади традиционные и скучные методы обучения, превращая долговременное запоминание в глобальную игровую экосистему. Наша цель — максимально раскрыть когнитивный потенциал наших пользователей при изучении нового языка или терминологии, чтобы они могли доминировать в своей жизни благодаря этому импульсу саморазвития.</p>
+        <p>Как мы это делаем? Не только благодаря увлекательному игровому дизайну; мы используем эволюционную дисциплину нейробиологии, когнитивной психологии и технологий цифровых игр, которые раскрывают принципы работы человеческого мозга.</p>
+        
+        <div class="mt-12 mb-8">
+          <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-[#ff0055] tracking-widest uppercase mb-6">Опираясь на науку, дисциплину и технологии</h2>
+          <p class="mb-6">Наши игровые модули и алгоритмы усвоения слов построены непосредственно на следующих академических теориях и технологическом видении:</p>
+          
+          <div class="space-y-8">
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">01.</span> Сублиминальное и неявное обучение <span class="text-xs text-gray-500 font-normal ml-1">(Subliminal & Implicit Learning)</span></h3>
+              <p class="mb-3">Человеческий мозг способен обрабатывать и запоминать «подпороговые» (сублиминальные) стимулы, которые сознание не может активно воспринимать. В психологии этот процесс называется неявным обучением, когда человек подсознательно усваивает правила и шаблоны, взаимодействуя с окружающей средой.</p>
+              <p><strong class="text-purple-400">Наше научное решение:</strong> В динамичных игровых движках memolandum.com, пока вы сосредоточены только на главной цели на экране, шаблоны слов изучаемого языка подаются в ваш мозг на фоне, в цветовых переходах или микросекундных игровых процессах. В момент гиперфокуса слова записываются в вашем подсознании.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-yellow-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,234,0,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex items-center gap-2"><span class="text-yellow-400">02.</span> Аркады и философия «нулевой отметки»</h3>
+              <p class="mb-3">Аркадные залы 70-х и 80-х годов были не просто пиксельным развлечением; они были нулевой отметкой современной IT-индустрии, которая сегодня доминирует в мире, от искусственного интеллекта до космических технологий.</p>
+              <p><strong class="text-purple-400">Наше видение:</strong> Подобно тому, как аркады с нуля создали игровую индустрию и превратили ее в мировую IT-силу, memolandum.com дисциплинированно обрабатывает эту чистую и мощную энергию геймификации. Так же, как игровая индустрия доминирует в мире, вы тоже научитесь доминировать в своей жизни, развивая свой ум с помощью игровых технологий.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#39ff14]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(57,255,20,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#39ff14]">03.</span> Кривая забывания Эббингауза и интервальное повторение <span class="text-xs text-gray-500 font-normal ml-1">(Spaced Repetition)</span></h3>
+              <p class="mb-3">Кривая забывания, открытая психологом Германом Эббингаузом в 1885 году, показывает, что недавно изученная информация забывается с геометрической прогрессией, если ее не повторять.</p>
+              <p><strong class="text-purple-400">Наше научное решение:</strong> Алгоритмы memolandum.com вычисляют тот самый критический «момент разрыва», когда вы почти забыли слово. Показывая вам слова в нужный момент, мы обеспечиваем их перенос в долговременную память (long-term memory).</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">04.</span> Теория двойного кодирования <span class="text-xs text-gray-500 font-normal ml-1">(Dual-Coding Theory)</span></h3>
+              <p class="mb-3">Теория двойного кодирования Аллана Пайвио утверждает, что мозг обрабатывает информацию отдельно по визуальным и вербальным (текстовым) каналам. Когда информация поступает по обоим каналам, уровень запоминания возрастает в геометрической прогрессии.</p>
+              <p><strong class="text-purple-400">Наше научное решение:</strong> Визуальные игровые движки на нашей платформе объединяют текстовые данные с динамичными визуальными стимулами. Вы не просто читаете; вы также видите, реагируете и стимулируете пространственную память.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#ff0055]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,0,85,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#ff0055]">05.</span> Теория потока и геймификация <span class="text-xs text-gray-500 font-normal ml-1">(Flow Theory & Gamification)</span></h3>
+              <p class="mb-3">Теория потока, предложенная Михаем Чиксентмихайи, доказывает, что человек входит в состояние «плавной концентрации», когда сложность задачи сбалансирована с его уровнем навыков.</p>
+              <p><strong class="text-purple-400">Наше научное решение:</strong> Наши игровые модули динамически адаптируют сложность в зависимости от вашего сиюминутного владения словами. Таким образом, процесс обучения воспринимается как устойчивая «позитивная зависимость».</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-purple-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(168,85,247,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-purple-400">06.</span> Активное припоминание <span class="text-xs text-gray-500 font-normal ml-1">(Active Recall)</span></h3>
+              <p class="mb-3">Научные исследования показывают, что мозг строит прочные синаптические связи не тогда, когда пассивно читает информацию, а когда вынужден «вызывать ее изнутри» (при тестировании).</p>
+              <p><strong class="text-purple-400">Наше научное решение:</strong> memolandum.com не просто заставляет вас читать слова; благодаря аркадной механике система заставляет вас рефлекторно вызывать эту информацию из памяти.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/40 rounded-xl p-6 shadow-[0_0_20px_rgba(0,240,255,0.15)] relative overflow-hidden">
+              <div class="absolute top-0 right-0 w-32 h-32 bg-[#00f0ff]/10 rounded-full blur-2xl"></div>
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">07.</span> Когнитивные языковые сети против ИИ-переводчиков <span class="text-xs text-gray-500 font-normal ml-1">(Cognitive Networks vs. AI)</span></h3>
+              <p class="mb-3">Хотя современные продвинутые ИИ-переводчики (AI Translators) могут мгновенно переводить тексты, это создает неврологическую иллюзию. С научной точки зрения, постоянная зависимость от внешних ИИ-переводчиков расслабляет синаптические языковые сети мозга (Cognitive Offloading). Для беглого общения и естественных диалогов необходимо, чтобы слова хранились в вашем уме.</p>
+              <p><strong class="text-purple-400">Наше научное решение:</strong> Устройства перевода замедляют взаимное общение и портят передачу эмоций. Memolandum тренирует вашу умственную мышечную память, чтобы вы могли использовать слова рефлекторно, без необходимости в искусственном интеллекте. Ваш активный словарный запас (Active Vocabulary) — это ваше самое мощное оружие.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12">
+          <h2 class="text-2xl font-bold text-white tracking-widest uppercase mb-4 border-b border-gray-800 pb-2">Глобальное видение: Языки без границ</h2>
+          <p class="mb-4">memolandum.com — это не просто локальный инструмент, предназначенный для тех, кто хочет изучать язык. С добавлением новых языков он превращается в глобальный центр многоязычного обучения.</p>
+          <p>Каждый выученный язык расширяет ваши когнитивные границы. Подобно пикселям аркадных игр, которые когда-то начинали с нуля, а сегодня правят миром, вы тоже начнете с нуля, овладеете языками мира и сами построите свое будущее.</p>
+        </div>
+
+        <div class="mt-12 bg-gray-900/50 rounded-xl p-6 border border-gray-800">
+          <h2 class="text-xl font-bold text-[#00f0ff] tracking-widest uppercase mb-4">Почему memolandum.com?</h2>
+          <ul class="space-y-3 list-none">
+            <li class="flex items-start gap-3"><span class="text-[#00f0ff] mt-1">▹</span> <div><strong class="text-white">Сублиминальная сила:</strong> Запоминание языка без осознанных усилий.</div></li>
+            <li class="flex items-start gap-3"><span class="text-[#00f0ff] mt-1">▹</span> <div><strong class="text-white">Аркадная библиотека:</strong> Постоянно развивающиеся модули ретро-игр.</div></li>
+            <li class="flex items-start gap-3"><span class="text-[#00f0ff] mt-1">▹</span> <div><strong class="text-white">Долгосрочное усвоение:</strong> Обучение происходит на 40% быстрее и надежнее, чем при традиционных методах.</div></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div id="content-el" class="lang-content hidden space-y-8 leading-relaxed text-sm md:text-base text-gray-300">
+        <p><strong class="text-[#00f0ff]">memolandum.com</strong> είναι μια πλατφόρμα νέας γενιάς που αφήνει πίσω τις παραδοσιακές και βαρετές μεθόδους εκμάθησης, μετατρέποντας τη διαχείριση της μακροπρόθεσμης μνήμης σε ένα παγκόσμιο οικοσύστημα παιχνιδιών. Στόχος μας είναι να μεγιστοποιήσουμε το γνωστικό δυναμικό των χρηστών μας κατά την εκμάθηση μιας νέας γλώσσας.</p>
+        
+        <div class="mt-12 mb-8">
+          <h2 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-[#ff0055] tracking-widest uppercase mb-6">Με γνώμονα την Επιστήμη και την Τεχνολογία</h2>
+          
+          <div class="space-y-8">
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">01.</span> Υποσυνείδητη & Σιωπηρή Μάθηση (Implicit Learning)</h3>
+              <p class="mb-3">Ο ανθρώπινος εγκέφαλος επεξεργάζεται «υποσυνείδητα» ερεθίσματα που η συνείδηση δεν αντιλαμβάνεται ενεργά. Ενώ εστιάζετε στο παιχνίδι, οι λέξεις αποτυπώνονται στο υποσυνείδητό σας.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-yellow-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,234,0,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-yellow-400">02.</span> Τα Arcades και η Φιλοσοφία της "Μηδενικής Βάσης"</h3>
+              <p class="mb-3">Όπως τα arcades της δεκαετίας του '80 διαμόρφωσαν τη βιομηχανία της πληροφορικής, έτσι και η ενέργεια gamification του Memolandum θα τονώσει την γνωστική σας ανάπτυξη με καθαρό και πειθαρχημένο τρόπο.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#39ff14]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(57,255,20,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#39ff14]">03.</span> Καμπύλη Λήθης & Κατανεμημένη Επανάληψη (Spaced Repetition)</h3>
+              <p class="mb-3">Οι αλγόριθμοί μας υπολογίζουν την ακριβή στιγμή που πρόκειται να ξεχάσετε μια λέξη και σας την υπενθυμίζουν εγκαίρως, μεταφέροντάς την στη μακροπρόθεσμη μνήμη.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(0,240,255,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">04.</span> Θεωρία Διπλής Κωδικοποίησης (Dual-Coding Theory)</h3>
+              <p class="mb-3">Οι οπτικές μηχανές των παιχνιδιών μας συνδυάζουν δεδομένα κειμένου με δυναμικά οπτικά ερεθίσματα. Δεν διαβάζετε απλώς· βλέπετε, αντιδράτε και ενεργοποιείτε τη χωρική σας μνήμη.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#ff0055]/20 rounded-xl p-6 shadow-[0_0_15px_rgba(255,0,85,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#ff0055]">05.</span> Θεωρία Ροής (Flow Theory) & Gamification</h3>
+              <p class="mb-3">Οι μηχανισμοί των παιχνιδιών μας προσαρμόζουν δυναμικά τη δυσκολία ανάλογα με το επίπεδο δεξιοτήτων σας. Η μάθηση δεν αποτελεί πλέον βάρος, αλλά γίνεται μια βιώσιμη "θετική εξάρτηση".</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-purple-400/20 rounded-xl p-6 shadow-[0_0_15px_rgba(168,85,247,0.05)]">
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-purple-400">06.</span> Ενεργή Ανάκληση (Active Recall)</h3>
+              <p class="mb-3">Το memolandum.com δεν σας κάνει απλώς να διαβάζετε λέξεις· σας αναγκάζει να ανακαλείτε αντανακλαστικά αυτές τις πληροφορίες μέσω μηχανισμών arcade.</p>
+            </div>
+
+            <div class="bg-[#111625]/80 border border-[#00f0ff]/40 rounded-xl p-6 shadow-[0_0_20px_rgba(0,240,255,0.15)] relative overflow-hidden">
+              <div class="absolute top-0 right-0 w-32 h-32 bg-[#00f0ff]/10 rounded-full blur-2xl"></div>
+              <h3 class="text-lg text-white font-bold mb-3 flex flex-wrap items-center gap-2"><span class="text-[#00f0ff]">07.</span> Γνωστικά Δίκτυα vs Μεταφραστές AI (Cognitive Networks vs. AI)</h3>
+              <p class="mb-3">Το Memolandum εκπαιδεύει τη νοητική μυϊκή σας μνήμη, ώστε να μπορείτε να χρησιμοποιείτε λέξεις ως αντανακλαστικό, χωρίς να χρειάζεστε εργαλεία τεχνητής νοημοσύνης. Το Ενεργό σας Λεξιλόγιο (Active Vocabulary) είναι το πιο ισχυρό σας όπλο.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12">
+          <h2 class="text-2xl font-bold text-white tracking-widest uppercase mb-4 border-b border-gray-800 pb-2">Παγκόσμιο Όραμα: Γλώσσες Χωρίς Σύνορα</h2>
+          <p class="mb-4">Με την προσθήκη νέων γλωσσών, το σύστημα μετατρέπεται σε ένα παγκόσμιο κέντρο πολύγλωσσης εκμάθησης. Κάθε γλώσσα που μαθαίνετε διευρύνει τα γνωστικά σας όρια.</p>
+        </div>
+      </div>
+    </main>
+    
+    <div class="mt-12 text-center border-t border-gray-800 pt-8 pb-12">
+      <h2 class="text-xl font-bold text-white tracking-widest uppercase mb-6">Contact / İletişim</h2>
+      <div class="flex flex-col items-center gap-4 text-sm font-['Orbitron']">
+        <a href="mailto:info@memolandum.com" class="text-[#00f0ff] hover:text-white transition-colors border border-[#00f0ff]/30 rounded-full px-6 py-2 hover:bg-[#00f0ff]/10">Email: info@memolandum.com</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.remove('active', 'bg-[#00f0ff]/10', 'border-[#00f0ff]/50', 'text-[#00f0ff]');
+        btn.classList.add('border-gray-600', 'text-gray-400');
+      });
+      
+      const activeBtn = document.getElementById('btn-' + lang);
+      activeBtn.classList.add('active', 'bg-[#00f0ff]/10', 'border-[#00f0ff]/50', 'text-[#00f0ff]');
+      activeBtn.classList.remove('border-gray-600', 'text-gray-400');
+
+      document.querySelectorAll('.lang-content').forEach(content => {
+        content.classList.add('hidden');
+      });
+      document.getElementById('content-' + lang).classList.remove('hidden');
+
+      const mainTitle = document.getElementById('main-title');
+      const btnBack = document.getElementById('btn-back');
+      
+      if(lang === 'tr') {
+        mainTitle.textContent = "Hakkımızda & Bilimsel Temellerimiz";
+        btnBack.textContent = "Geri Dön";
+        document.documentElement.lang = "tr";
+      } else if(lang === 'en') {
+        mainTitle.textContent = "About Us & Scientific Foundations";
+        btnBack.textContent = "Go Back";
+        document.documentElement.lang = "en";
+      } else if(lang === 'pt') {
+        mainTitle.textContent = "Sobre Nós e Fundamentos Científicos";
+        btnBack.textContent = "Voltar";
+        document.documentElement.lang = "pt-BR";
+      } else if(lang === 'ko') {
+        mainTitle.textContent = "회사 소개 및 과학적 원리";
+        btnBack.textContent = "돌아가기";
+        document.documentElement.lang = "ko";
+      } else if(lang === 'ru') {
+        mainTitle.textContent = "О нас и научные основы";
+        btnBack.textContent = "Вернуться";
+        document.documentElement.lang = "ru";
+      } else if(lang === 'el') {
+        mainTitle.textContent = "Σχετικά με Εμάς και Επιστημονικές Βάσεις";
+        btnBack.textContent = "Επιστροφή";
+        document.documentElement.lang = "el";
+      }
+    }
+  </script>
+</body>
+</html>

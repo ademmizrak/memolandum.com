@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 201,
+    "word": "exhibit",
+    "translation": "sergilemek, göstermek / sergi, nesne",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/exhibit.mp3"
+  },
+  {
+    "id": 202,
+    "word": "exile",
+    "translation": "sürgün, sürgüne göndermek",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/exile.mp3"
+  },
+  {
+    "id": 203,
+    "word": "expand",
+    "translation": "genişlemek, büyümek, nüfuz olarak yayılmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/expand.mp3"
+  },
+  {
+    "id": 204,
+    "word": "expedition",
+    "translation": "keşif gezisi, yolculuk, sefer",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/expedition.mp3"
+  },
+  {
+    "id": 205,
+    "word": "expel",
+    "translation": "kovmak, sınır dışı etmek, okuldan atmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/expel.mp3"
+  },
+  {
+    "id": 206,
+    "word": "expenditure",
+    "translation": "harcama, masraf, gider",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/expenditure.mp3"
+  },
+  {
+    "id": 207,
+    "word": "exploit",
+    "translation": "sömürmek, kendi çıkarına kullanmak, faydalanmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/exploit.mp3"
+  },
+  {
+    "id": 208,
+    "word": "extinct",
+    "translation": "nesli tükenmiş, sönmüş (yanardağ vb.)",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/extinct.mp3"
+  },
+  {
+    "id": 209,
+    "word": "extinguish",
+    "translation": "söndürmek (yangın, umut vb.)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/extinguish.mp3"
+  },
+  {
+    "id": 210,
+    "word": "famine",
+    "translation": "kıtlık, açlık",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/famine.mp3"
+  },
+  {
+    "id": 211,
+    "word": "fatal",
+    "translation": "ölümcül, öldürüçü",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/fatal.mp3"
+  },
+  {
+    "id": 212,
+    "word": "feasible",
+    "translation": "mümkün, yapılabilir, uygulanabilir",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/feasible.mp3"
+  },
+  {
+    "id": 213,
+    "word": "feeble",
+    "translation": "zayıf, güçsüz, cılız",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/feeble.mp3"
+  },
+  {
+    "id": 214,
+    "word": "fertile",
+    "translation": "verimli, bereketli, doğurgan",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/fertile.mp3"
+  },
+  {
+    "id": 215,
+    "word": "fluctuate",
+    "translation": "dalgalanmak, istikrarsızca değişmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/fluctuate.mp3"
+  },
+  {
+    "id": 216,
+    "word": "forbid",
+    "translation": "yasaklamak, men etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/forbid.mp3"
+  },
+  {
+    "id": 217,
+    "word": "forecast",
+    "translation": "tahmin etmek, öngörmek / tahmin",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/forecast.mp3"
+  },
+  {
+    "id": 218,
+    "word": "foremost",
+    "translation": "en önde gelen, en önemli, başı çeken",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/foremost.mp3"
+  },
+  {
+    "id": 219,
+    "word": "fragile",
+    "translation": "kırılgan, narin, hassas",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/fragile.mp3"
+  },
+  {
+    "id": 220,
+    "word": "frustrate",
+    "translation": "hüsrana uğratmak, engel olmak, planını bozmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/frustrate.mp3"
+  },
+  {
+    "id": 221,
+    "word": "fulfill",
+    "translation": "yerine getirmek, gerçekleştirmek, tatmin etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/fulfill.mp3"
+  },
+  {
+    "id": 222,
+    "word": "fundamental",
+    "translation": "temel, asli, köklü",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/fundamental.mp3"
+  },
+  {
+    "id": 223,
+    "word": "furious",
+    "translation": "öfkeli, kızgın, azgın/şiddetli",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/furious.mp3"
+  },
+  {
+    "id": 224,
+    "word": "genuine",
+    "translation": "gerçek, hakiki, özgün",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/genuine.mp3"
+  },
+  {
+    "id": 225,
+    "word": "glance",
+    "translation": "göz atmak, hızlıca bakmak / kısa bakış",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/glance.mp3"
+  },
+  {
+    "id": 226,
+    "word": "gloom",
+    "translation": "karamsarlık, hüzün, karanlık",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/gloom.mp3"
+  },
+  {
+    "id": 227,
+    "word": "graceful",
+    "translation": "zarif, hoş, nazik",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/graceful.mp3"
+  },
+  {
+    "id": 228,
+    "word": "gradual",
+    "translation": "kademeli, yavaş yavaş olan, aşamalı",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/gradual.mp3"
+  },
+  {
+    "id": 229,
+    "word": "grant",
+    "translation": "vermek, bağışlamak, kabul etmek / burs, hibe",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/grant.mp3"
+  },
+  {
+    "id": 230,
+    "word": "grave",
+    "translation": "ciddi, ağır, vahim / mezar",
+    "pos": "adjective/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/grave.mp3"
+  },
+  {
+    "id": 231,
+    "word": "grievance",
+    "translation": "şikayet, dert, yakınma sebebi",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/grievance.mp3"
+  },
+  {
+    "id": 232,
+    "word": "grim",
+    "translation": "gaddar, acımasız, amansız, kasvetli",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/grim.mp3"
+  },
+  {
+    "id": 233,
+    "word": "gross",
+    "translation": "brüt, apaçık/büyük, iğrenç",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/gross.mp3"
+  },
+  {
+    "id": 234,
+    "word": "grudge",
+    "translation": "kin, garez / çok görmek, esirgemek",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/grudge.mp3"
+  },
+  {
+    "id": 235,
+    "word": "hamper",
+    "translation": "engellemek, köstek olmak, aksatmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/hamper.mp3"
+  },
+  {
+    "id": 236,
+    "word": "handicap",
+    "translation": "engel, dezavantaj / engellemek",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/handicap.mp3"
+  },
+  {
+    "id": 237,
+    "word": "haphazard",
+    "translation": "rastgele, tesadüfi, düzensiz",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/haphazard.mp3"
+  },
+  {
+    "id": 238,
+    "word": "hardship",
+    "translation": "zorluk, güçlük, sıkıntı",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/hardship.mp3"
+  },
+  {
+    "id": 239,
+    "word": "harness",
+    "translation": "(doğal bir gücü vb.) dizginleyip kullanmak/faydalanmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/harness.mp3"
+  },
+  {
+    "id": 240,
+    "word": "harsh",
+    "translation": "sert, kaba, acımasız, kış için (çetin)",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/harsh.mp3"
+  },
+  {
+    "id": 241,
+    "word": "hazard",
+    "translation": "tehlike, risk, unsur",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/hazard.mp3"
+  },
+  {
+    "id": 242,
+    "word": "heir",
+    "translation": "mirasçı, varis",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/heir.mp3"
+  },
+  {
+    "id": 243,
+    "word": "hinder",
+    "translation": "engellemek, alıkoymak, engel olmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/hinder.mp3"
+  },
+  {
+    "id": 244,
+    "word": "hostile",
+    "translation": "düşmanca, saldırgan, elverişsiz",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/hostile.mp3"
+  },
+  {
+    "id": 245,
+    "word": "humble",
+    "translation": "mütevazi, alçakgönüllü, gösterişsiz",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/humble.mp3"
+  },
+  {
+    "id": 246,
+    "word": "humiliate",
+    "translation": "aşağılamak, utandırmak, gururunu kırmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/humiliate.mp3"
+  },
+  {
+    "id": 247,
+    "word": "hypothesis",
+    "translation": "hipotez, varsayım",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/hypothesis.mp3"
+  },
+  {
+    "id": 248,
+    "word": "identical",
+    "translation": "birebir aynı, ikiz",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/identical.mp3"
+  },
+  {
+    "id": 249,
+    "word": "idle",
+    "translation": "aylak, boş, çalışmayan, tembel",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/idle.mp3"
+  },
+  {
+    "id": 250,
+    "word": "ignorant",
+    "translation": "cahil, bilgisiz, habersiz",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/ignorant.mp3"
+  },
+  {
+    "id": 251,
+    "word": "illustrate",
+    "translation": "örneklemek, resimlemek, açıklamak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/illustrate.mp3"
+  },
+  {
+    "id": 252,
+    "word": "immense",
+    "translation": "muazzam, devasa, çok büyük",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/immense.mp3"
+  },
+  {
+    "id": 253,
+    "word": "imminent",
+    "translation": "eli kulağında, yakın, olması an meselesi",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/imminent.mp3"
+  },
+  {
+    "id": 254,
+    "word": "immune",
+    "translation": "bağışık, muaf (-to/from ile kullanılır)",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/immune.mp3"
+  },
+  {
+    "id": 255,
+    "word": "impact",
+    "translation": "etki, darbe / etkilemek, çarpmak",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/impact.mp3"
+  },
+  {
+    "id": 256,
+    "word": "impede",
+    "translation": "engellemek, geciktirmek, ayak bağı olmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/impede.mp3"
+  },
+  {
+    "id": 257,
+    "word": "imperative",
+    "translation": "zorunlu, kaçınılmaz, çok önemli / emir",
+    "pos": "adjective/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/imperative.mp3"
+  },
+  {
+    "id": 258,
+    "word": "implement",
+    "translation": "uygulamak, yürürlüğe koymak / araç, alet",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/implement.mp3"
+  },
+  {
+    "id": 259,
+    "word": "imply",
+    "translation": "ima etmek, anlamına gelmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/imply.mp3"
+  },
+  {
+    "id": 260,
+    "word": "impose",
+    "translation": "(yasa, vergi, ceza vb.) zorla kabul ettirmek, koymak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/impose.mp3"
+  },
+  {
+    "id": 261,
+    "word": "impoverished",
+    "translation": "yoksullaşmış, fakir düşmüş, verimsizleşmiş",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/impoverished.mp3"
+  },
+  {
+    "id": 262,
+    "word": "incentive",
+    "translation": "teşvik, güdü, özendirici unsur",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/incentive.mp3"
+  },
+  {
+    "id": 263,
+    "word": "incidence",
+    "translation": "meydana gelme oranı, vaka, etki derecesi",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/incidence.mp3"
+  },
+  {
+    "id": 264,
+    "word": "incline",
+    "translation": "eğilimi olmak, eğmek / yokuş, eğim",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/incline.mp3"
+  },
+  {
+    "id": 265,
+    "word": "incorporate",
+    "translation": "dahil etmek, bünyesinde birleştirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/incorporate.mp3"
+  },
+  {
+    "id": 266,
+    "word": "indifferent",
+    "translation": "ilgisiz, kayıtsız, umursamaz",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/indifferent.mp3"
+  },
+  {
+    "id": 267,
+    "word": "indigenous",
+    "translation": "yerli, o yöreye özgü (bitki, halk vb.)",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/indigenous.mp3"
+  },
+  {
+    "id": 268,
+    "word": "induce",
+    "translation": "ikna etmek, sebep olmak, tetiklemek (tıpta doğum vb.)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/induce.mp3"
+  },
+  {
+    "id": 269,
+    "word": "inevitable",
+    "translation": "kaçınılmaz, beklenen",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/inevitable.mp3"
+  },
+  {
+    "id": 270,
+    "word": "infant",
+    "translation": "bebek (0-1 yaş arası), ufak çocuk",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/infant.mp3"
+  },
+  {
+    "id": 271,
+    "word": "infectious",
+    "translation": "bulaşıcı (hastalık, gülüş vb.)",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/infectious.mp3"
+  },
+  {
+    "id": 272,
+    "word": "infer",
+    "translation": "sonuç çıkarmak, anlam çıkarmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/infer.mp3"
+  },
+  {
+    "id": 273,
+    "word": "inflation",
+    "translation": "enflasyon, fiyat artışı, şişme",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/inflation.mp3"
+  },
+  {
+    "id": 274,
+    "word": "inflict",
+    "translation": "(acı, ceza, zarar vb.) uğratmak, yaşatmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/inflict.mp3"
+  },
+  {
+    "id": 275,
+    "word": "inherent",
+    "translation": "doğuştan gelen, özünde olan, yapısında bulunan",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/inherent.mp3"
+  },
+  {
+    "id": 276,
+    "word": "inhibit",
+    "translation": "engellemek, dizginlemek, yavaşlatmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/inhibit.mp3"
+  },
+  {
+    "id": 277,
+    "word": "initiate",
+    "translation": "başlatmak, önayak olmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/initiate.mp3"
+  },
+  {
+    "id": 278,
+    "word": "injure",
+    "translation": "incitmek, yaralamak, zarar vermek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/injure.mp3"
+  },
+  {
+    "id": 279,
+    "word": "innovative",
+    "translation": "yenilikçi, inovatif",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/innovative.mp3"
+  },
+  {
+    "id": 280,
+    "word": "insight",
+    "translation": "içgörü, derinlemesine kavrayış, anlayış",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/insight.mp3"
+  },
+  {
+    "id": 281,
+    "word": "insist",
+    "translation": "ısrar etmek, ayak diremek (-on ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/insist.mp3"
+  },
+  {
+    "id": 282,
+    "word": "inspire",
+    "translation": "ilham vermek, esinlendirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/inspire.mp3"
+  },
+  {
+    "id": 283,
+    "word": "install",
+    "translation": "kurmak, monte etmek, (yazılım) yüklemek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/install.mp3"
+  },
+  {
+    "id": 284,
+    "word": "instance",
+    "translation": "örnek, vaka, durum",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/instance.mp3"
+  },
+  {
+    "id": 285,
+    "word": "instinct",
+    "translation": "içgüdü, sezgi",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/instinct.mp3"
+  },
+  {
+    "id": 286,
+    "word": "insult",
+    "translation": "hakaret etmek, aşağılamak / hakaret",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/insult.mp3"
+  },
+  {
+    "id": 287,
+    "word": "tact",
+    "translation": "sağduyu, incelik, dokunma duyusu, yerinde davranma",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/tact.mp3"
+  },
+  {
+    "id": 288,
+    "word": "integrate",
+    "translation": "bütünleşmek, entegre etmek, birleştirmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/integrate.mp3"
+  },
+  {
+    "id": 289,
+    "word": "intense",
+    "translation": "yoğun, şiddetli, koyu/derin",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/intense.mp3"
+  },
+  {
+    "id": 290,
+    "word": "intention",
+    "translation": "niyet, amaç, maksat",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/intention.mp3"
+  },
+  {
+    "id": 291,
+    "word": "interfere",
+    "translation": "müdahale etmek, burnunu sokmak (-with/in ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/interfere.mp3"
+  },
+  {
+    "id": 292,
+    "word": "interpret",
+    "translation": "yorumlamak, (çeviri için) sözlü çeviri yapmak",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YKS_Kelimeleri/audio_yks/interpret.mp3"
+  },
+  {
+    "id": 293,
+    "word": "intervene",
+    "translation": "araya girmek, müdahale etmek (olumlu anlamda engellemek)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/intervene.mp3"
+  },
+  {
+    "id": 294,
+    "word": "intimate",
+    "translation": "samimi, yakın, gizli/özel",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/intimate.mp3"
+  },
+  {
+    "id": 295,
+    "word": "intricate",
+    "translation": "karmaşık, çetrefilli, girift",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/intricate.mp3"
+  },
+  {
+    "id": 296,
+    "word": "intrude",
+    "translation": "izinsiz girmek, davetsiz dalmak, rahatsız etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/intrude.mp3"
+  },
+  {
+    "id": 297,
+    "word": "invade",
+    "translation": "istila etmek, işgal etmek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/invade.mp3"
+  },
+  {
+    "id": 298,
+    "word": "invalidate",
+    "translation": "geçersiz kılmak, çürütmek (savı vb.)",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/invalidate.mp3"
+  },
+  {
+    "id": 299,
+    "word": "valuable",
+    "translation": "değerli, kıymetli",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/valuable.mp3"
+  },
+  {
+    "id": 300,
+    "word": "investigate",
+    "translation": "soruşturmak, araştırmak, incelemek",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ],
+    "audioUrl": "/data/data/Tr_Eng_YDS_kelimeleri/audio_yds/investigate.mp3"
+  }
+]

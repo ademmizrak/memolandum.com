@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "ep_c1_01",
+    "word": "abandon",
+    "translation": "abandonar / largar",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_01_abandonar___largar.mp3"
+  },
+  {
+    "id": "ep_c1_02",
+    "word": "abstract",
+    "translation": "abstrato / teórico",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_02_abstrato___te_rico.mp3"
+  },
+  {
+    "id": "ep_c1_03",
+    "word": "accumulate",
+    "translation": "acumular / juntar",
+    "len": 10,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_03_acumular___juntar.mp3"
+  },
+  {
+    "id": "ep_c1_04",
+    "word": "accurate",
+    "translation": "preciso / exato",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_04_preciso___exato.mp3"
+  },
+  {
+    "id": "ep_c1_05",
+    "word": "adhere",
+    "translation": "aderir / colar",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_05_aderir___colar.mp3"
+  },
+  {
+    "id": "ep_c1_06",
+    "word": "adjacent",
+    "translation": "adjacente / vizinho",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_06_adjacente___vizinho.mp3"
+  },
+  {
+    "id": "ep_c1_07",
+    "word": "adjust",
+    "translation": "ajustar / regular",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_07_ajustar___regular.mp3"
+  },
+  {
+    "id": "ep_c1_08",
+    "word": "advocate",
+    "translation": "defender / apoiar",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_08_defender___apoiar.mp3"
+  },
+  {
+    "id": "ep_c1_09",
+    "word": "aesthetic",
+    "translation": "estético / belo",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_09_est_tico___belo.mp3"
+  },
+  {
+    "id": "ep_c1_10",
+    "word": "albeit",
+    "translation": "embora / se bem que",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_100_diverso___variado.mp3"
+  },
+  {
+    "id": "ep_c1_11",
+    "word": "allocate",
+    "translation": "alocar / destinar",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_11_alocar___destinar.mp3"
+  },
+  {
+    "id": "ep_c1_12",
+    "word": "alter",
+    "translation": "alterar / mudar",
+    "len": 5,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_12_alterar___mudar.mp3"
+  },
+  {
+    "id": "ep_c1_13",
+    "word": "ambiguous",
+    "translation": "ambíguo / incerto",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_13_amb_guo___incerto.mp3"
+  },
+  {
+    "id": "ep_c1_14",
+    "word": "amendment",
+    "translation": "emenda / correção",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_14_emenda___corre__o.mp3"
+  },
+  {
+    "id": "ep_c1_15",
+    "word": "analogy",
+    "translation": "analogia / semelhança",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_15_analogia___semelhan_a.mp3"
+  },
+  {
+    "id": "ep_c1_16",
+    "word": "anticipate",
+    "translation": "antecipar / prever",
+    "len": 10,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_16_antecipar___prever.mp3"
+  },
+  {
+    "id": "ep_c1_17",
+    "word": "apparatus",
+    "translation": "aparelho / estrutura",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_17_aparelho___estrutura.mp3"
+  },
+  {
+    "id": "ep_c1_18",
+    "word": "appendix",
+    "translation": "apêndice / anexo",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_18_ap_ndice___anexo.mp3"
+  },
+  {
+    "id": "ep_c1_19",
+    "word": "arbitrary",
+    "translation": "arbitrário / aleatório",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_19_arbitr_rio___aleat_rio.mp3"
+  },
+  {
+    "id": "ep_c1_20",
+    "word": "aspect",
+    "translation": "aspecto / faceta",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_20_aspecto___faceta.mp3"
+  },
+  {
+    "id": "ep_c1_21",
+    "word": "assemble",
+    "translation": "montar / reunir",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_21_montar___reunir.mp3"
+  },
+  {
+    "id": "ep_c1_22",
+    "word": "assert",
+    "translation": "afirmar / assegurar",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_22_afirmar___assegurar.mp3"
+  },
+  {
+    "id": "ep_c1_23",
+    "word": "assign",
+    "translation": "atribuir / designar",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_23_atribuir___designar.mp3"
+  },
+  {
+    "id": "ep_c1_24",
+    "word": "assume",
+    "translation": "assumir / supor",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_24_assumir___supor.mp3"
+  },
+  {
+    "id": "ep_c1_25",
+    "word": "assure",
+    "translation": "garantir / assegurar",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_25_garantir___assegurar.mp3"
+  },
+  {
+    "id": "ep_c1_26",
+    "word": "attain",
+    "translation": "atingir / alcançar",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_26_atingir___alcan_ar.mp3"
+  },
+  {
+    "id": "ep_c1_27",
+    "word": "attribute",
+    "translation": "atribuir / qualidade",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_27_atribuir___qualidade.mp3"
+  },
+  {
+    "id": "ep_c1_28",
+    "word": "authentic",
+    "translation": "autêntico / real",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_28_aut_ntico___real.mp3"
+  },
+  {
+    "id": "ep_c1_29",
+    "word": "bias",
+    "translation": "viés / preconceito",
+    "len": 4,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_29_vi_s___preconceito.mp3"
+  },
+  {
+    "id": "ep_c1_30",
+    "word": "bond",
+    "translation": "vínculo / laço / bônus",
+    "len": 4,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_30_v_nculo___la_o___b_nus.mp3"
+  },
+  {
+    "id": "ep_c1_31",
+    "word": "brief",
+    "translation": "breve / curto",
+    "len": 5,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_31_breve___curto.mp3"
+  },
+  {
+    "id": "ep_c1_32",
+    "word": "bulk",
+    "translation": "em massa / grande volume",
+    "len": 4,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_32_em_massa___grande_volume.mp3"
+  },
+  {
+    "id": "ep_c1_33",
+    "word": "capable",
+    "translation": "capaz / apto",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_33_capaz___apto.mp3"
+  },
+  {
+    "id": "ep_c1_34",
+    "word": "capacity",
+    "translation": "capacidade / teto",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_34_capacidade___teto.mp3"
+  },
+  {
+    "id": "ep_c1_35",
+    "word": "cease",
+    "translation": "cessar / parar",
+    "len": 5,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_35_cessar___parar.mp3"
+  },
+  {
+    "id": "ep_c1_36",
+    "word": "channel",
+    "translation": "canal / via",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_36_canal___via.mp3"
+  },
+  {
+    "id": "ep_c1_37",
+    "word": "chronic",
+    "translation": "crônico / persistente",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_37_cr_nico___persistente.mp3"
+  },
+  {
+    "id": "ep_c1_38",
+    "word": "cite",
+    "translation": "citar / mencionar",
+    "len": 4,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_38_citar___mencionar.mp3"
+  },
+  {
+    "id": "ep_c1_39",
+    "word": "civil",
+    "translation": "civil / cortês",
+    "len": 5,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_39_civil___cort_s.mp3"
+  },
+  {
+    "id": "ep_c1_40",
+    "word": "clarify",
+    "translation": "esclarecer / elucidar",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_40_esclarecer___elucidar.mp3"
+  },
+  {
+    "id": "ep_c1_41",
+    "word": "clause",
+    "translation": "cláusula / parágrafo",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_41_cl_usula___par_grafo.mp3"
+  },
+  {
+    "id": "ep_c1_42",
+    "word": "code",
+    "translation": "código / diretriz",
+    "len": 4,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_42_c_digo___diretriz.mp3"
+  },
+  {
+    "id": "ep_c1_43",
+    "word": "coherent",
+    "translation": "coerente / lógico",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_43_coerente___l_gico.mp3"
+  },
+  {
+    "id": "ep_c1_44",
+    "word": "coincide",
+    "translation": "coincidir / bater",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_44_coincidir___bater.mp3"
+  },
+  {
+    "id": "ep_c1_45",
+    "word": "collapse",
+    "translation": "desabar / colapsar",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_45_desabar___colapsar.mp3"
+  },
+  {
+    "id": "ep_c1_46",
+    "word": "colleague",
+    "translation": "colega de trabalho",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_46_colega_de_trabalho.mp3"
+  },
+  {
+    "id": "ep_c1_47",
+    "word": "commence",
+    "translation": "começar / iniciar",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_47_come_ar___iniciar.mp3"
+  },
+  {
+    "id": "ep_c1_48",
+    "word": "commodity",
+    "translation": "mercadoria / bem",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_48_mercadoria___bem.mp3"
+  },
+  {
+    "id": "ep_c1_49",
+    "word": "compatible",
+    "translation": "compatível / sintonizado",
+    "len": 10,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_49_compat_vel___sintonizado.mp3"
+  },
+  {
+    "id": "ep_c1_50",
+    "word": "compile",
+    "translation": "compilar / reunir",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_50_compilar___reunir.mp3"
+  },
+  {
+    "id": "ep_c1_51",
+    "word": "complement",
+    "translation": "complementar / fechar",
+    "len": 10,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_51_complementar___fechar.mp3"
+  },
+  {
+    "id": "ep_c1_52",
+    "word": "comply",
+    "translation": "cumprir / obedecer",
+    "len": 5,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_52_cumprir___obedecer.mp3"
+  },
+  {
+    "id": "ep_c1_53",
+    "word": "component",
+    "translation": "componente / peça",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_53_componente___pe_a.mp3"
+  },
+  {
+    "id": "ep_c1_54",
+    "word": "compound",
+    "translation": "composto / mistura",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_54_composto___mistura.mp3"
+  },
+  {
+    "id": "ep_c1_55",
+    "word": "comprise",
+    "translation": "compreender / incluir",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_55_compreender___incluir.mp3"
+  },
+  {
+    "id": "ep_c1_56",
+    "word": "compute",
+    "translation": "computar / calcular",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_56_computar___calcular.mp3"
+  },
+  {
+    "id": "ep_c1_57",
+    "word": "conceal",
+    "translation": "esconder / ocultar",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_57_esconder___ocultar.mp3"
+  },
+  {
+    "id": "ep_c1_58",
+    "word": "concede",
+    "translation": "conceder / admitir",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_58_conceder___admitir.mp3"
+  },
+  {
+    "id": "ep_c1_59",
+    "word": "conceive",
+    "translation": "conceber / idealizar",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_59_conceber___idealizar.mp3"
+  },
+  {
+    "id": "ep_c1_60",
+    "word": "concept",
+    "translation": "conceito / ideia base",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_60_conceito___ideia_base.mp3"
+  },
+  {
+    "id": "ep_c1_61",
+    "word": "conclude",
+    "translation": "concluir / finalizar",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_61_concluir___finalizar.mp3"
+  },
+  {
+    "id": "ep_c1_62",
+    "word": "concrete",
+    "translation": "concreto / sólido",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_62_concreto___s_lido.mp3"
+  },
+  {
+    "id": "ep_c1_63",
+    "word": "conduct",
+    "translation": "conduzir / conduta",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_63_conduzir___conduta.mp3"
+  },
+  {
+    "id": "ep_c1_64",
+    "word": "confer",
+    "translation": "conferir / outorgar",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_64_conferir___outorgar.mp3"
+  },
+  {
+    "id": "ep_c1_65",
+    "word": "confine",
+    "translation": "confinar / limitar",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_65_confinar___limitar.mp3"
+  },
+  {
+    "id": "ep_c1_66",
+    "word": "confirm",
+    "translation": "confirmar / validar",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_66_confirmar___validar.mp3"
+  },
+  {
+    "id": "ep_c1_67",
+    "word": "consent",
+    "translation": "consentimento / acordo",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_67_consentimento___acordo.mp3"
+  },
+  {
+    "id": "ep_c1_68",
+    "word": "conserve",
+    "translation": "conservar / poupar",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_68_conservar___poupar.mp3"
+  },
+  {
+    "id": "ep_c1_69",
+    "word": "consist",
+    "translation": "consistir / constar",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_69_consistir___constar.mp3"
+  },
+  {
+    "id": "ep_c1_70",
+    "word": "constant",
+    "translation": "constante / contínuo",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_70_constante___cont_nuo.mp3"
+  },
+  {
+    "id": "ep_c1_71",
+    "word": "constrain",
+    "translation": "restringir / limitar",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_71_restringir___limitar.mp3"
+  },
+  {
+    "id": "ep_c1_72",
+    "word": "consume",
+    "translation": "consumir / gastar",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_72_consumir___gastar.mp3"
+  },
+  {
+    "id": "ep_c1_73",
+    "word": "contract",
+    "translation": "contrato / contrair",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_73_contrato___contrair.mp3"
+  },
+  {
+    "id": "ep_c1_74",
+    "word": "contradict",
+    "translation": "contradizer / opor",
+    "len": 10,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_74_contradizer___opor.mp3"
+  },
+  {
+    "id": "ep_c1_75",
+    "word": "contrary",
+    "translation": "contrário / oposto",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_75_contr_rio___oposto.mp3"
+  },
+  {
+    "id": "ep_c1_76",
+    "word": "contrast",
+    "translation": "contraste / opor",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_76_contraste___opor.mp3"
+  },
+  {
+    "id": "ep_c1_77",
+    "word": "contribute",
+    "translation": "contribuir / doar",
+    "len": 10,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_77_contribuir___doar.mp3"
+  },
+  {
+    "id": "ep_c1_78",
+    "word": "convert",
+    "translation": "converter / transformar",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_78_converter___transformar.mp3"
+  },
+  {
+    "id": "ep_c1_79",
+    "word": "convince",
+    "translation": "convencer / persuadir",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_79_convencer___persuadir.mp3"
+  },
+  {
+    "id": "ep_c1_80",
+    "word": "coordinate",
+    "translation": "coordenar / alinhar",
+    "len": 10,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_80_coordenar___alinhar.mp3"
+  },
+  {
+    "id": "ep_c1_81",
+    "word": "core",
+    "translation": "núcleo / essência / centro",
+    "len": 4,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_81_n_cleo___ess_ncia___centro.mp3"
+  },
+  {
+    "id": "ep_c1_82",
+    "word": "corporate",
+    "translation": "corporativo / empresarial",
+    "len": 9,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_82_corporativo___empresarial.mp3"
+  },
+  {
+    "id": "ep_c1_83",
+    "word": "correspond",
+    "translation": "corresponder / equivaler",
+    "len": 10,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_83_corresponder___equivaler.mp3"
+  },
+  {
+    "id": "ep_c1_84",
+    "word": "crucial",
+    "translation": "crucial / decisivo",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_84_crucial___decisivo.mp3"
+  },
+  {
+    "id": "ep_c1_85",
+    "word": "currency",
+    "translation": "moeda corrente / fluxo",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_85_moeda_corrente___fluxo.mp3"
+  },
+  {
+    "id": "ep_c1_86",
+    "word": "decade",
+    "translation": "década / dez anos",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_86_d_cada___dez_anos.mp3"
+  },
+  {
+    "id": "ep_c1_87",
+    "word": "decline",
+    "translation": "declinar / queda",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_87_declinar___queda.mp3"
+  },
+  {
+    "id": "ep_c1_88",
+    "word": "defy",
+    "translation": "desafiar / contestar",
+    "len": 4,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_88_desafiar___contestar.mp3"
+  },
+  {
+    "id": "ep_c1_89",
+    "word": "demonstrate",
+    "translation": "demonstrar / provar",
+    "len": 11,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_89_demonstrar___provar.mp3"
+  },
+  {
+    "id": "ep_c1_90",
+    "word": "deny",
+    "translation": "negar / recusar",
+    "len": 4,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_90_negar___recusar.mp3"
+  },
+  {
+    "id": "ep_c1_91",
+    "word": "depict",
+    "translation": "retratar / descrever",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_91_retratar___descrever.mp3"
+  },
+  {
+    "id": "ep_c1_92",
+    "word": "derive",
+    "translation": "derivar / originar",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_92_derivar___originar.mp3"
+  },
+  {
+    "id": "ep_c1_93",
+    "word": "detect",
+    "translation": "detectar / descobrir",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_93_detectar___descobrir.mp3"
+  },
+  {
+    "id": "ep_c1_94",
+    "word": "deviate",
+    "translation": "desviar / afastar",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_94_desviar___afastar.mp3"
+  },
+  {
+    "id": "ep_c1_95",
+    "word": "devote",
+    "translation": "dedicar / devotar",
+    "len": 6,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_95_dedicar___devotar.mp3"
+  },
+  {
+    "id": "ep_c1_96",
+    "word": "diminish",
+    "translation": "diminuir / reduzir",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_96_diminuir___reduzir.mp3"
+  },
+  {
+    "id": "ep_c1_97",
+    "word": "displace",
+    "translation": "deslocar / desalojar",
+    "len": 8,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_97_deslocar___desalojar.mp3"
+  },
+  {
+    "id": "ep_c1_98",
+    "word": "distort",
+    "translation": "distorcer / deformar",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_98_distorcer___deformar.mp3"
+  },
+  {
+    "id": "ep_c1_99",
+    "word": "distribute",
+    "translation": "distribuir / repartir",
+    "len": 10,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_99_distribuir___repartir.mp3"
+  },
+  {
+    "id": "ep_c1_100",
+    "word": "diverse",
+    "translation": "diverso / variado",
+    "len": 7,
+    "tags": [
+      "c1"
+    ],
+    "audioUrl": "/data/data/portugal/Audio/ep_c1_100_diverso___variado.mp3"
+  }
+]
