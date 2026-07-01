@@ -16,12 +16,11 @@ jobs:
       - name: Install dependencies
         run: npm install
         working-directory: memolandum-web
-      - name: Enable Web Frameworks
-        run: npx firebase-tools experiments:enable webframeworks
+      - name: Build Next.js
+        run: npm run build
+        working-directory: memolandum-web
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MEMOLANDUM_33DC4 }}
           projectId: memolandum-33dc4
-        env:
-          FIREBASE_CLI_EXPERIMENTS: webframeworks
