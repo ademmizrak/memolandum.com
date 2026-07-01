@@ -829,6 +829,32 @@ export class InvadersGame {
         this.startGame();
       };
     }
+
+    // Touch controls for player movement
+    this.canvas.addEventListener('touchmove', (e) => {
+      if (this.isPaused || this.state !== 'playing' || this.isCelebrationActive) return;
+      const touch = e.touches[0];
+      const rect = this.canvas.getBoundingClientRect();
+      const scaleX = this.virtualWidth / rect.width;
+      const x = (touch.clientX - rect.left) * scaleX;
+      
+      this.player.x = Math.max(this.player.width / 2, Math.min(x, this.virtualWidth - this.player.width / 2));
+      this.player.targetVx = 0;
+      this.player.vx = 0;
+      e.preventDefault();
+    }, { passive: false });
+
+    this.canvas.addEventListener('touchstart', (e) => {
+      if (this.isPaused || this.state !== 'playing' || this.isCelebrationActive) return;
+      const touch = e.touches[0];
+      const rect = this.canvas.getBoundingClientRect();
+      const scaleX = this.virtualWidth / rect.width;
+      const x = (touch.clientX - rect.left) * scaleX;
+      
+      this.player.x = Math.max(this.player.width / 2, Math.min(x, this.virtualWidth - this.player.width / 2));
+      this.player.targetVx = 0;
+      this.player.vx = 0;
+    }, { passive: false });
   }
 
   handleKeyDown(e) {
@@ -896,32 +922,9 @@ export class InvadersGame {
   gameOver() {
     this.state = 'gameover';
     this.soundManager.playGameOver();
-
-    const el_hud = document.getElementById('hud'); if(el_hud) el_hud.classList.add('hidden');
-    const el_gameCanvas = document.getElementById('gameCanvas'); if(el_gameCanvas) el_gameCanvas.classList.add('hidden');
-    const el_controls = document.querySelector('.controls-container'); if (el_controls) el_controls.classList.add('hidden');
-
-    const gameOverScreen = document.getElementById('game-over-screen');
-    const finalScoreEl = document.getElementById('final-score');
-    const learnedListEl = document.getElementById('learned-list');
-
-    if (finalScoreEl) finalScoreEl.textContent = this.score;
-
-    if (learnedListEl) {
-      learnedListEl.innerHTML = '';
-      this.wordsLearnedThisRun.forEach(w => {
-        const item = document.createElement('li');
-        item.style.padding = '6px 12px';
-        item.style.borderRadius = '6px';
-        item.style.background = 'rgba(255, 255, 255, 0.03)';
-        item.style.border = '1px solid rgba(255, 255, 255, 0.05)';
-        item.style.color = '#ffffff';
-        item.innerHTML = `<strong>${w.english}</strong>: ${w.turkish}`;
-        learnedListEl.appendChild(item);
-      });
+    if (this.callbacks && this.callbacks.onScreenChange) {
+      this.callbacks.onScreenChange('game-over-screen', true);
     }
-
-    gameOverScreen.classList.remove('hidden');
   }
 
   triggerLevelComplete() {
@@ -936,32 +939,9 @@ export class InvadersGame {
   triggerFinalVictory() {
     this.state = 'victory';
     this.soundManager.playStageClear();
-
-    const el_hud = document.getElementById('hud'); if(el_hud) el_hud.classList.add('hidden');
-    const el_gameCanvas = document.getElementById('gameCanvas'); if(el_gameCanvas) el_gameCanvas.classList.add('hidden');
-    const el_controls = document.querySelector('.controls-container'); if (el_controls) el_controls.classList.add('hidden');
-
-    const victoryScreen = document.getElementById('victory-screen');
-    const victoryScoreEl = document.getElementById('victory-score');
-    const victoryListEl = document.getElementById('victory-learned-list');
-
-    if (victoryScoreEl) victoryScoreEl.textContent = this.score;
-
-    if (victoryListEl) {
-      victoryListEl.innerHTML = '';
-      this.wordsLearnedThisRun.forEach(w => {
-        const item = document.createElement('li');
-        item.style.padding = '6px 12px';
-        item.style.borderRadius = '6px';
-        item.style.background = 'rgba(255, 255, 255, 0.03)';
-        item.style.border = '1px solid rgba(255, 255, 255, 0.05)';
-        item.style.color = '#ffffff';
-        item.innerHTML = `<strong>${w.english}</strong>: ${w.turkish}`;
-        victoryListEl.appendChild(item);
-      });
+    if (this.callbacks && this.callbacks.onScreenChange) {
+      this.callbacks.onScreenChange('victory-screen', true);
     }
-
-    victoryScreen.classList.remove('hidden');
     localStorage.removeItem('memolandum_saved_stage');
     localStorage.removeItem('memolandum_saved_level');
     localStorage.removeItem('memolandum_saved_score');
