@@ -109,8 +109,11 @@ export default function WordDrop({
         } else if (e.key === 'ArrowDown' || e.key === 's' || e.key === 'S') {
           gameEngineRef.current.handleInput('down');
           e.preventDefault();
-        } else if (e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W' || e.key === ' ') {
+        } else if (e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W') {
           gameEngineRef.current.handleInput('rotate');
+          e.preventDefault();
+        } else if (e.key === ' ') {
+          gameEngineRef.current.handleInput('drop');
           e.preventDefault();
         } else if (e.key === 'Escape' || e.key === 'p' || e.key === 'P') {
           gameEngineRef.current.state = 'paused';
@@ -171,7 +174,7 @@ export default function WordDrop({
       <div className="w-full max-w-[600px] h-full relative bg-[#06030c] flex flex-col overflow-hidden font-sans select-none border-x-2 border-slate-800/50 shadow-[0_0_50px_rgba(255,0,85,0.15)]">
       
       {/* 1) HUD */}
-      <div className="w-full h-auto bg-[#05020a] border-b-2 border-[#ff0055] flex flex-row items-center justify-between p-2 md:p-4 shrink-0 z-50 shadow-[0_4px_20px_rgba(255,0,85,0.2)]">
+      <div className="w-full h-auto bg-[#05020a] flex flex-row items-center justify-between p-2 md:p-4 shrink-0 z-50 shadow-[0_4px_20px_rgba(255,0,85,0.2)]">
         <div className="flex flex-col gap-1">
           <div className="text-white text-sm md:text-xl font-black italic tracking-wider flex items-center gap-2 drop-shadow-[0_0_5px_#ffffff]">
             <span className="text-[#ff0055] animate-pulse">▼</span>
@@ -273,6 +276,19 @@ export default function WordDrop({
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8">
                    <path d="M9 18l6-6-6-6" />
                 </svg>
+              </button>
+            </div>
+
+            {/* Middle Control (Hard Drop) */}
+            <div className="flex flex-1 justify-center px-2">
+              <button 
+                onPointerDown={(e) => { e.preventDefault(); if (gameEngineRef.current) gameEngineRef.current.handleInput('drop'); }}
+                className="w-full max-w-[120px] h-14 md:h-16 rounded-xl bg-slate-800/80 border-2 border-slate-600 flex flex-col items-center justify-center text-white active:bg-[#ff0055] active:border-white transition-colors touch-none"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+                   <path d="M12 4v16m-7-7l7 7 7-7" />
+                </svg>
+                <span className="text-[10px] font-bold mt-1">DROP</span>
               </button>
             </div>
 
