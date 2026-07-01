@@ -1,5 +1,6 @@
 import { db, auth } from './config';
 import { doc, setDoc, increment, serverTimestamp } from 'firebase/firestore';
+import { useMemolandumStore } from '../../store/useMemolandumStore';
 
 /**
  * Enterprise Level Global State Synchronizer for Firebase.
@@ -81,9 +82,10 @@ class GlobalStateSync {
         last_updated: serverTimestamp()
       };
 
-      if (auth?.currentUser) {
-        payload.displayName = auth.currentUser.displayName || "Siber Kadet";
-        payload.photoURL = auth.currentUser.photoURL || null;
+      const storeProfile = useMemolandumStore.getState().profile;
+      if (storeProfile) {
+        payload.displayName = storeProfile.displayName || "Siber Kadet";
+        payload.photoURL = storeProfile.photoURL || null;
       }
 
       // Dinamik oyun bazlı alanları ekle
