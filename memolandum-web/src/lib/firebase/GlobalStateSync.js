@@ -14,7 +14,7 @@ class GlobalStateSync {
   };
   
   static syncTimeout = null;
-  static SYNC_DELAY_MS = 3000; // 3 seconds debounce for batching writes
+  static SYNC_DELAY_MS = 0; // 0 seconds delay for instant batched writes (next event loop tick)
 
   /**
    * Oyundan gelen kazanımları (score, xp, gems) alır, debounce ile Firestore'a tek bir write (setDoc merge) atar.
