@@ -1274,6 +1274,28 @@ export class ShooterGame {
         updateMainMenuResumeUI();
       };
     }
+
+    // Touch controls for player movement
+    this.canvas.addEventListener('touchmove', (e) => {
+      if (this.state !== 'playing' || this.isCelebrationActive) return;
+      const touch = e.touches[0];
+      const rect = this.canvas.getBoundingClientRect();
+      const scaleX = this.virtualWidth / rect.width;
+      const x = (touch.clientX - rect.left) * scaleX;
+      
+      this.player.x = Math.max(this.player.width / 2, Math.min(x, this.virtualWidth - this.player.width / 2));
+      e.preventDefault();
+    }, { passive: false });
+
+    this.canvas.addEventListener('touchstart', (e) => {
+      if (this.state !== 'playing' || this.isCelebrationActive) return;
+      const touch = e.touches[0];
+      const rect = this.canvas.getBoundingClientRect();
+      const scaleX = this.virtualWidth / rect.width;
+      const x = (touch.clientX - rect.left) * scaleX;
+      
+      this.player.x = Math.max(this.player.width / 2, Math.min(x, this.virtualWidth - this.player.width / 2));
+    }, { passive: false });
   }
 
   bindButton(elementId, inputProperty) {

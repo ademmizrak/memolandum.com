@@ -178,7 +178,7 @@ export default function SiberianInvaders({ levelId, langId, onExit, onNextLevel,
     <div className="relative w-full h-full bg-black overflow-hidden font-mono" style={{ fontFamily: '"Courier New", Courier, monospace' }}>
       
       {/* Game Canvas */}
-      <div className="absolute inset-0 w-full h-full" onPointerDown={() => engineRef.current?.soundManager.warmUp()}>
+      <div className="absolute inset-0 w-full h-full" onPointerDown={() => { if (engineRef.current?.soundManager && typeof engineRef.current.soundManager.init === 'function') engineRef.current.soundManager.init(); }}>
         <canvas ref={canvasRef} className="w-full h-full block" />
       </div>
 
