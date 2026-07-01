@@ -92,10 +92,10 @@ class InvadersParticle {
     this.life = this.maxLife;
   }
 
-  update() {
-    this.x += this.vx;
-    this.y += this.vy;
-    this.life--;
+  update(dt = 1.0) {
+    this.x += this.vx * dt;
+    this.y += this.vy * dt;
+    this.life -= dt;
     this.alpha = Math.max(0, this.life / this.maxLife);
   }
 
@@ -122,9 +122,9 @@ class InvadersFloatingText {
     this.life = 45;
   }
 
-  update() {
-    this.y -= 1.0;
-    this.life--;
+  update(dt = 1.0) {
+    this.y -= 1.0 * dt;
+    this.life -= dt;
     this.alpha = Math.max(0, this.life / 45);
   }
 
@@ -250,8 +250,8 @@ class InvadersBullet {
     this.active = true;
   }
 
-  update() {
-    this.y += this.vy;
+  update(dt = 1.0) {
+    this.y += this.vy * dt;
     if (this.y < -20) {
       this.active = false;
     }
@@ -280,12 +280,12 @@ class InvadersEnemyBullet {
     this.active = true;
   }
 
-  update(playerX) {
+  update(playerX, dt = 1.0) {
     // Steer horizontally toward the player X coordinate
     const dx = playerX - this.x;
-    this.vx += (dx * 0.015 - this.vx) * 0.08;
-    this.x += this.vx;
-    this.y += this.vy;
+    this.vx += (dx * 0.015 - this.vx) * 0.08 * dt;
+    this.x += this.vx * dt;
+    this.y += this.vy * dt;
     
     if (this.y > 1020) {
       this.active = false;
@@ -313,7 +313,7 @@ class InvadersGem {
     this.active = true;
   }
 
-  update(playerX, playerY) {
+  update(playerX, playerY, dt = 1.0) {
     const dx = playerX - this.x;
     const dy = playerY - this.y;
     const dist = Math.hypot(dx, dy);
@@ -321,10 +321,10 @@ class InvadersGem {
     // Magnetic pull when player is close or duringStarWarsCrawl celebration
     if (dist < 280) {
       const pull = (280 - dist) / 280;
-      this.x += (dx / dist) * 12 * pull;
-      this.y += (dy / dist) * 12 * pull;
+      this.x += (dx / dist) * 12 * pull * dt;
+      this.y += (dy / dist) * 12 * pull * dt;
     } else {
-      this.y += this.vy;
+      this.y += this.vy * dt;
     }
     
     if (this.y > 1020) {
@@ -1043,8 +1043,14 @@ export class InvadersGame {
 
     // Bullet-Time slowdown factor for Star Wars crawl FX
     let dt = 1.0;
+    
+    // PC Web view slowdown (20% slower on desktop)
+    if (window.innerWidth > 768) {
+      dt *= 0.8;
+    }
+
     if (this.floatingFx && this.floatingFx.active) {
-      dt = 0.2;
+      dt *= 0.2;
     }
 
     if (this.isLevelTransitioning) {
@@ -1060,7 +1066,7 @@ export class InvadersGame {
     // Update particles
     for (let i = this.activeParticles.length - 1; i >= 0; i--) {
       const p = this.activeParticles[i];
-      p.update();
+      p.update(dt);
       if (p.life <= 0) {
         this.activeParticles.splice(i, 1);
         this.particlePool.release(p);
@@ -1070,7 +1076,7 @@ export class InvadersGame {
     // Update floating texts
     for (let i = this.activeFloatingTexts.length - 1; i >= 0; i--) {
       const ft = this.activeFloatingTexts[i];
-      ft.update();
+      ft.update(dt);
       if (ft.life <= 0) {
         this.activeFloatingTexts.splice(i, 1);
         this.floatingTextPool.release(ft);
@@ -1135,7 +1141,7 @@ export class InvadersGame {
     // 3. Update Player Bullets
     for (let i = this.bullets.length - 1; i >= 0; i--) {
       const b = this.bullets[i];
-      b.update();
+      b.update(dt);
       if (!b.active) {
         this.bullets.splice(i, 1);
       }
@@ -1144,7 +1150,7 @@ export class InvadersGame {
     // 4. Update Guided Counter Shells (Enemy Bullets)
     for (let i = this.enemyBullets.length - 1; i >= 0; i--) {
       const eb = this.enemyBullets[i];
-      eb.update(this.player.x);
+      eb.update(this.player.x, dt);
       
       // Spawn plasma trail particles
       if (Math.random() < 0.3) {
@@ -1181,7 +1187,7 @@ export class InvadersGame {
     // 5. Update Falling Gems (magnetic pull)
     for (let i = this.fallingGems.length - 1; i >= 0; i--) {
       const gem = this.fallingGems[i];
-      gem.update(this.player.x, this.player.y);
+      gem.update(this.player.x, this.player.y, dt);
 
       // Check player capture (AABB or distance check)
       const dist = Math.hypot(this.player.x - gem.x, this.player.y - gem.y);
