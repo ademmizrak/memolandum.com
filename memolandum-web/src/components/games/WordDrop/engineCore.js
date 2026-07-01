@@ -467,6 +467,13 @@ export class WordDropGame {
       if (this.activePiece) this.activePiece.move(1, 0, this.grid);
     } else if (action === 'down') {
       if (this.activePiece) this.activePiece.move(0, -1, this.grid);
+    } else if (action === 'drop') {
+      if (this.activePiece) {
+        while (this.activePiece.isValid(this.activePiece.blocks.map(b => ({x: b.x, y: b.y - 1})), this.grid)) {
+          this.activePiece.move(0, -1, this.grid);
+        }
+        this.fallTimer = 1.0; // Force immediate lock
+      }
     } else if (action === 'rotate' || action === 'fire') {
       this.rotateActivePiece();
     }
