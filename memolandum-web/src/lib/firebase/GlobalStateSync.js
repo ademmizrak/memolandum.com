@@ -88,11 +88,15 @@ class GlobalStateSync {
         payload.photoURL = storeProfile.photoURL || null;
       }
 
-      // Dinamik oyun bazlı alanları ekle
-      for (const [gameId, stats] of Object.entries(snapshot.games)) {
-        if (stats.score > 0) payload[`game_breakdown.${gameId}.score`] = increment(stats.score);
-        if (stats.xp > 0) payload[`game_breakdown.${gameId}.xp`] = increment(stats.xp);
-        if (stats.gems > 0) payload[`game_breakdown.${gameId}.gems`] = increment(stats.gems);
+      // Dinamik oyun bazlı alanları ekle (merge: true ile çalışması için nested object yapıyoruz)
+      if (Object.keys(snapshot.games).length > 0) {
+        payload.game_breakdown = {};
+        for (const [gameId, stats] of Object.entries(snapshot.games)) {
+          payload.game_breakdown[gameId] = {};
+          if (stats.score > 0) payload.game_breakdown[gameId].score = increment(stats.score);
+          if (stats.xp > 0) payload.game_breakdown[gameId].xp = increment(stats.xp);
+          if (stats.gems > 0) payload.game_breakdown[gameId].gems = increment(stats.gems);
+        }
       }
 
       // setDoc ve merge:true kullanıyoruz ki doküman yoksa oluşsun (updateDoc hata verir)

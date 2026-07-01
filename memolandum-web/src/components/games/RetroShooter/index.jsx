@@ -144,10 +144,22 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
   const togglePause = () => {
     if (activeScreen === 'playing') {
       setActiveScreen('pause');
-      if (engineRef.current) engineRef.current.isPaused = true;
+      if (engineRef.current) {
+        if (typeof engineRef.current.togglePause === 'function') {
+          if (!engineRef.current.isPaused) engineRef.current.togglePause();
+        } else {
+          engineRef.current.isPaused = true;
+        }
+      }
     } else if (activeScreen === 'pause') {
       setActiveScreen('playing');
-      if (engineRef.current) engineRef.current.isPaused = false;
+      if (engineRef.current) {
+        if (typeof engineRef.current.togglePause === 'function') {
+          if (engineRef.current.isPaused) engineRef.current.togglePause();
+        } else {
+          engineRef.current.isPaused = false;
+        }
+      }
     }
   };
 

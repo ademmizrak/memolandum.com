@@ -147,10 +147,22 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
   const togglePause = () => {
     if (activeScreen === 'playing') {
       setActiveScreen('pause');
-      if (engineRef.current) engineRef.current.pauseGame();
+      if (engineRef.current) {
+        if (typeof engineRef.current.togglePause === 'function') {
+          if (!engineRef.current.isPaused) engineRef.current.togglePause();
+        } else {
+          engineRef.current.isPaused = true;
+        }
+      }
     } else if (activeScreen === 'pause') {
       setActiveScreen('playing');
-      if (engineRef.current) engineRef.current.resumeGame();
+      if (engineRef.current) {
+        if (typeof engineRef.current.togglePause === 'function') {
+          if (engineRef.current.isPaused) engineRef.current.togglePause();
+        } else {
+          engineRef.current.isPaused = false;
+        }
+      }
     }
   };
 
