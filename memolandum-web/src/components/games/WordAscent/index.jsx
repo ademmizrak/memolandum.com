@@ -1,8 +1,10 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { useScoreSync } from '../../../hooks/useScoreSync';
 import { useLessonLoader } from '../../../hooks/useLessonLoader';
 import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
+import { GameHeader } from '../shared/GameHeader';
 import { WordAscentGame } from './engineCore';
+import { useMemolandumStore } from '../../../store/useMemolandumStore';
+import GlobalStateSync from '../../../lib/firebase/GlobalStateSync';
 
 // The Word Ascent Protocol (Shell #5) - Canvas Integration
 export default function WordAscent({ 
@@ -16,7 +18,6 @@ export default function WordAscent({
   setIsFxEnabled 
 }) {
   // Hooks
-  const { addScore, syncToFirebase } = useScoreSync('word_ascent');
   const { words, isLoading } = useLessonLoader(levelId, langId);
 
   // UI State
@@ -32,6 +33,27 @@ export default function WordAscent({
   const containerRef = useRef(null);
   const gameEngineRef = useRef(null);
   const requestRef = useRef(null);
+  const hasSyncedRef = useRef(false);
+
+  useEffect(() => {
+    if (activeScreen === 'playing') {
+      hasSyncedRef.current = false;
+    }
+  }, [activeScreen]);
+
+  useEffect(() => {
+    if ((activeScreen === 'gameover' || activeScreen === 'victory') && !hasSyncedRef.current) {
+      hasSyncedRef.current = true;
+      const state = useMemolandumStore.getState();
+      const s = parseInt(score, 10) || 0;
+      const x = Math.floor(s / 10);
+      
+      state.addLocalProgress('word_ascent', { score: s, xp: x, gems: 0 });
+      if (state.uid) {
+         GlobalStateSync.updateProgress(state.uid, 'word_ascent', { score: s, xp: x, gems: 0 });
+      }
+    }
+  }, [activeScreen, score]);
 
   const initGame = useCallback(() => {
     if (!canvasRef.current || !words || words.length === 0) return;
@@ -47,7 +69,6 @@ export default function WordAscent({
     const engine = new WordAscentGame(canvasRef.current, ctx, words, {
       onScore: (points) => {
         setScore(s => s + points);
-        if (addScore) addScore(points);
       },
       onLearned: (wordObj) => {
         setLearnedWords(prev => {
@@ -97,7 +118,7 @@ export default function WordAscent({
       window.removeEventListener('resize', resizeCanvas);
       cancelAnimationFrame(requestRef.current);
     };
-  }, [words, addScore]);
+  }, [words]);
 
   useEffect(() => {
     if (!isLoading && words && words.length > 0) {
@@ -166,9 +187,6 @@ export default function WordAscent({
   };
 
   const handleExit = async () => {
-    if (syncToFirebase) {
-      await syncToFirebase(score);
-    }
     if (onExit) onExit();
   };
 
@@ -187,75 +205,32 @@ export default function WordAscent({
       <div className="w-full max-w-[600px] h-full relative bg-[#06030c] flex flex-col overflow-hidden font-sans select-none border-x-2 border-slate-800/50 shadow-[0_0_50px_rgba(0,240,255,0.1)]">
       
       {/* 1) HUD (Universal Top Header) */}
-      <div className="w-full h-auto bg-[#05020a] border-b-2 border-[#00f0ff] flex flex-row items-center justify-between p-2 md:p-4 shrink-0 z-50 shadow-[0_4px_20px_rgba(0,240,255,0.2)]">
-        
-        {/* Left Side: Title & Stats */}
-        <div className="flex flex-col gap-1">
-          <div className="text-white text-sm md:text-xl font-black italic tracking-wider flex items-center gap-2 drop-shadow-[0_0_5px_#ffffff]">
-            <span className="text-[#00f0ff] animate-pulse">▲</span>
-            WORD ASCENT
-          </div>
-          
-          <div className="flex flex-row items-center gap-3 md:gap-6 text-xs md:text-sm font-bold">
-            <div className="flex flex-col">
-              <span className="text-slate-400 text-[10px] md:text-xs tracking-wider">LEVEL</span>
-              <span className="text-white text-sm md:text-lg drop-shadow-[0_0_8px_#ffffff]">{levelId || 1}</span>
-            </div>
-            
-            <div className="w-px h-6 bg-slate-700/50"></div>
-            
-            <div className="flex flex-col">
-              <span className="text-slate-400 text-[10px] md:text-xs tracking-wider">ASCENDED</span>
-              <span className="text-[#39ff14] text-sm md:text-lg drop-shadow-[0_0_8px_#39ff14]">{learnedCount}/{totalWords || 12}</span>
-            </div>
-            
-            <div className="w-px h-6 bg-slate-700/50"></div>
-            
-            <div className="flex flex-col">
-              <span className="text-slate-400 text-[10px] md:text-xs tracking-wider">SCORE</span>
-              <span className="text-[#ffea00] text-sm md:text-lg drop-shadow-[0_0_8px_#ffea00]">{score}</span>
-            </div>
-          </div>
-        </div>
+      <GameHeader>
+        <GameHeader.Left>
+          <GameHeader.Shields max={3} current={shields} />
+          <GameHeader.Stage value={learnedCount} max={totalWords || 12} label="ASCENDED" icon="▲" />
+        </GameHeader.Left>
 
-        {/* Right Side: Shields & Controls */}
-        <div className="flex flex-row items-center gap-3 md:gap-4">
-          <div className="flex flex-col items-end gap-1">
-             <span className="text-slate-400 text-[10px] md:text-xs tracking-wider font-bold">SHIELDS</span>
-             <div className="flex flex-row gap-1">
-               {[...Array(3)].map((_, i) => (
-                 <div 
-                   key={i}
-                   className={`w-4 h-4 md:w-6 md:h-6 rotate-45 border-2 transition-all duration-300 ${
-                     i < shields 
-                     ? 'bg-[#00f0ff] border-white shadow-[0_0_10px_#00f0ff]' 
-                     : 'bg-transparent border-slate-700'
-                   }`}
-                 />
-               ))}
-             </div>
-          </div>
-          
-          <button 
-            onClick={() => {
-              if (activeScreen === 'playing') {
-                setActiveScreen('pause');
-                if (gameEngineRef.current) gameEngineRef.current.state = 'paused';
-              }
+        <GameHeader.Right>
+          <GameHeader.Score value={score} />
+          <GameHeader.Controls 
+            isFxEnabled={isFxEnabled}
+            onFxToggle={() => setIsFxEnabled && setIsFxEnabled(!isFxEnabled)}
+            isAudioEnabled={isAudioEnabled}
+            onAudioToggle={() => setIsAudioEnabled && setIsAudioEnabled(!isAudioEnabled)}
+            onPause={() => {
+              setActiveScreen('pause');
+              if (gameEngineRef.current) gameEngineRef.current.state = 'paused';
             }}
-            className="ml-2 w-10 h-10 md:w-12 md:h-12 bg-slate-800/80 hover:bg-[#00f0ff] text-white hover:text-black border-2 border-slate-600 hover:border-white rounded-lg flex items-center justify-center transition-all duration-200 shadow-lg cursor-pointer z-50 active:scale-95"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </button>
-        </div>
-      </div>
+          />
+        </GameHeader.Right>
+      </GameHeader>
 
       {/* 2) Canvas Container */}
       <div 
         ref={containerRef} 
         className="flex-1 w-full relative bg-[#06030c] shadow-[inset_0_0_100px_rgba(0,0,0,0.9)] touch-none"
+        onPointerDown={() => gameEngineRef.current?.soundManager.warmUp()}
       >
         <canvas 
           ref={canvasRef} 

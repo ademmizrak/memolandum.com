@@ -1,6 +1,9 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
+import { useMemolandumStore } from '../store/useMemolandumStore';
+import GlobalStateSync from '../lib/firebase/GlobalStateSync';
+import { GameHeader } from '../components/games/shared/GameHeader';
 import { EngineController } from "./engine.controller";
 import RetroShooter from "../components/games/RetroShooter";
 import RetroBreakout from "../components/games/RetroBreakout";
@@ -252,68 +255,25 @@ export default function GameEngineWrapper({ gameType, levelId, langId, onExit, o
   return (
     <div className="relative w-full h-[950px] flex flex-col bg-dark-900 rounded-xl overflow-hidden shadow-[0_0_15px_rgba(6,182,212,0.15)] border border-dark-800">
       
-      {/* Üst Kısım: Skor ve Genel Kontroller (Shooter ve Breakout hariç) */}
-      {gameType !== 'shooter' && gameType !== 'breakout' && (
-        <div className="w-full pointer-events-none z-50 font-mono shrink-0">
-          <div className="game-hud-container pointer-events-auto flex items-center justify-between p-4 bg-dark-950 border-b border-dark-800 shadow-md">
-            
-            {/* Player Stats (Shields & Level) */}
-            <div className="flex space-x-6 items-center">
-              <div className="hud-card shield-card flex items-center gap-2 bg-slate-900/40 border border-slate-500/30 rounded-lg px-4 py-2 shadow-lg">
-                <span className="hud-icon text-2xl drop-shadow-[0_0_8px_#38bdf8]">🛡️</span>
-                <div className="flex flex-col">
-                  <span className="text-[10px] text-cyan-500 font-bold tracking-widest">SHIELD</span>
-                  <div id="hud-shields" className="flex gap-1 mt-1">
-                     {/* Vanilla JS motoru kalkanları buraya çizecek */}
-                     {[1,2,3].map(i => (
-                       <div key={i} className="shield-cell h-3 w-8 rounded-sm bg-cyan-400 shadow-[0_0_8px_#22d3ee]"></div>
-                     ))}
-                  </div>
-                </div>
-              </div>
-              
-              <div className="hud-card bg-indigo-900/40 border border-indigo-500/50 rounded-lg px-6 py-2 shadow-[0_0_15px_rgba(99,102,241,0.3)]">
-                <span id="level-label" className="text-xs text-indigo-400 block tracking-widest">LEVEL</span>
-                <span id="level-val" className="text-xl text-white font-bold tracking-wider drop-shadow-[0_0_5px_#fff]">1</span>
-              </div>
-            </div>
+      {/* Üst Kısım: Skor ve Genel Kontroller */}
+      <GameHeader>
+        <GameHeader.Left>
+          <GameHeader.Shields max={3} current={3} customId="hud-shields" />
+          <GameHeader.Stage value={1} label="LEVEL" customIdValues={{ labelId: "level-label", valueId: "level-val" }} />
+        </GameHeader.Left>
 
-            {/* Controls & Score */}
-            <div className="flex items-center gap-6">
-              <div className="flex flex-col items-end">
-                <span id="score-label" className="text-[10px] text-green-500 font-bold tracking-widest">SCORE</span>
-                <span id="score-val" className="text-2xl text-green-400 font-black drop-shadow-[0_0_10px_#4ade80]">{score}</span>
-              </div>
-
-              <div className="flex gap-2">
-                <button 
-                  className="hud-btn bg-slate-800/80 p-2 rounded-md hover:bg-slate-700 transition-colors border border-slate-600" 
-                  title="Oyun Efektleri" 
-                  onClick={() => setIsFxEnabled(!isFxEnabled)}
-                  style={{ opacity: isFxEnabled ? 1 : 0.5 }}
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={isFxEnabled ? "#4ade80" : "#f87171"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
-                </button>
-                <button 
-                  className="hud-btn bg-slate-800/80 p-2 rounded-md hover:bg-slate-700 transition-colors border border-slate-600" 
-                  title="Kelime Telaffuzu" 
-                  onClick={() => setIsAudioEnabled(!isAudioEnabled)}
-                  style={{ opacity: isAudioEnabled ? 1 : 0.5 }}
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={isAudioEnabled ? "#38bdf8" : "#f87171"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M11 5L6 9H2v6h4l5 4V5z"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
-                </button>
-                <button 
-                  className="hud-btn bg-slate-800/80 p-2 rounded-md hover:bg-slate-700 transition-colors border border-slate-600" 
-                  title="Durdur / Devam Et"
-                  id="btn-pause"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+        <GameHeader.Right>
+          <GameHeader.Score value={score} customIdValues={{ labelId: "score-label", valueId: "score-val" }} />
+          <GameHeader.Controls 
+            isFxEnabled={isFxEnabled}
+            onFxToggle={() => setIsFxEnabled(!isFxEnabled)}
+            isAudioEnabled={isAudioEnabled}
+            onAudioToggle={() => setIsAudioEnabled(!isAudioEnabled)}
+            onPause={() => {}} 
+            pauseId="btn-pause"
+          />
+        </GameHeader.Right>
+      </GameHeader>
 
       {/* Game Area (Canvas + Overlays) */}
       <div className="flex-1 relative w-full h-full min-h-0">

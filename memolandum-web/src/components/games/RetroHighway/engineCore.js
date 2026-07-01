@@ -270,36 +270,43 @@ export class HighwayGame {
 
   gameLoop(time) {
     if (this.state !== 'playing') return;
-    this.updateGame();
+
+    if (!this.lastTime) this.lastTime = time;
+    let dt = (time - this.lastTime) / 16.6667;
+    if (dt > 3) dt = 3;
+    if (dt <= 0 || isNaN(dt)) dt = 1;
+    this.lastTime = time;
+
+    this.updateGame(dt);
     this.drawGame();
   }
 
-  updateGame() {
+  updateGame(dt = 1) {
     if (this.screenShakeTimer > 0) this.screenShakeTimer--;
     if (this.damageTimer > 0) this.damageTimer--;
 
     if (this.nitroActive) {
-      this.speedKmh += 0.166; 
+      this.speedKmh += 0.5 * dt; 
       if (this.speedKmh > 120) this.speedKmh = 120;
     } else if (this.brakeActive) {
-      this.speedKmh -= 0.5; 
+      this.speedKmh -= 1.0 * dt; 
       if (this.speedKmh < 10) this.speedKmh = 10;
     } else {
       if (this.speedKmh > 40) {
-        this.speedKmh -= 0.08;
+        this.speedKmh -= 0.2 * dt;
       } else if (this.speedKmh < 40) {
-        this.speedKmh += 0.05;
+        this.speedKmh += 0.2 * dt;
       }
     }
     
     let targetRoadSpeed = this.speedKmh * 0.035;
     targetRoadSpeed *= this.speedMultiplier;
 
-    this.roadSpeed += (targetRoadSpeed - this.roadSpeed) * 0.1;
-    this.roadOffset += this.roadSpeed;
+    this.roadSpeed += (targetRoadSpeed - this.roadSpeed) * (0.1 * dt);
+    this.roadOffset += this.roadSpeed * dt;
 
     this.stars.forEach(star => {
-      star.y += this.roadSpeed * 0.5;
+      star.y += this.roadSpeed * 0.5 * dt;
       if (star.y > this.virtualHeight) {
         star.reset(this.virtualWidth, this.virtualHeight);
         star.y = 0;
@@ -307,7 +314,7 @@ export class HighwayGame {
     });
 
     this.player.targetX = this.player.lane * 150 + 75;
-    this.player.x += (this.player.targetX - this.player.x) * 0.2;
+    this.player.x += (this.player.targetX - this.player.x) * (0.2 * dt);
 
     const relativeSpeed = this.roadSpeed * 0.85; 
     let correctCarFound = null;
@@ -316,7 +323,7 @@ export class HighwayGame {
       const car = this.trafficCars[i];
       if (!car) continue;
 
-      car.update(relativeSpeed);
+      car.update(relativeSpeed * dt);
       
       if (car.isCorrect) {
         correctCarFound = car;
@@ -367,15 +374,15 @@ export class HighwayGame {
           this.triggerTurboBlast(correctCarFound);
         }
       } else {
-        this.draftingTimer = Math.max(0, this.draftingTimer - 2);
+        this.draftingTimer = Math.max(0, this.draftingTimer - 2 * dt);
       }
     } else {
-      this.draftingTimer = Math.max(0, this.draftingTimer - 2);
+      this.draftingTimer = Math.max(0, this.draftingTimer - 2 * dt);
     }
 
     for (let i = this.activeGems.length - 1; i >= 0; i--) {
       const gem = this.activeGems[i];
-      gem.update(this.player.x, this.player.y, this.roadSpeed, this.nitroActive);
+      gem.update(this.player.x, this.player.y, this.roadSpeed * dt, this.nitroActive);
       
       const dist = Math.hypot(this.player.x - gem.x, this.player.y - gem.y);
       if (dist < 40) {
@@ -400,7 +407,7 @@ export class HighwayGame {
 
     for (let i = this.activeParticles.length - 1; i >= 0; i--) {
       const p = this.activeParticles[i];
-      p.update();
+      p.update(dt);
       if (p.life <= 0) {
         this.activeParticles.splice(i, 1);
         this.particlePool.release(p);
@@ -409,7 +416,7 @@ export class HighwayGame {
 
     for (let i = this.activeFloatingTexts.length - 1; i >= 0; i--) {
       const ft = this.activeFloatingTexts[i];
-      ft.update();
+      ft.update(dt);
       if (ft.life <= 0) {
         this.activeFloatingTexts.splice(i, 1);
         this.floatingTextPool.release(ft);
@@ -578,7 +585,7 @@ export class HighwayGame {
   }
 
   drawSpeedometer(ctx) {
-    const cx = this.virtualWidth - 80;
+    const cx = this.virtualWidth / 2;
     const cy = this.virtualHeight - 80;
     const radius = 55;
 

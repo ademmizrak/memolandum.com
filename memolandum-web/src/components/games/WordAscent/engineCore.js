@@ -371,20 +371,25 @@ export class WordAscentGame {
   }
 
   gameLoop(currentTime) {
+    if (!this.lastTime) this.lastTime = currentTime;
+    let dt = (currentTime - this.lastTime) / 16.6667;
+    if (dt > 3.0) dt = 3.0; // clamp
+    if (dt <= 0 || isNaN(dt)) dt = 1.0;
+    this.lastTime = currentTime;
+
     if (this.state === 'playing') {
-      this.updateGame();
+      this.updateGame(dt);
     }
     this.drawGame();
   }
 
-  updateGame() {
+  updateGame(dt = 1.0) {
     // Decrement input helper timers
-    if (this.coyoteTimer > 0) this.coyoteTimer--;
-    if (this.jumpBufferTimer > 0) this.jumpBufferTimer--;
+    if (this.coyoteTimer > 0) this.coyoteTimer -= dt;
+    if (this.jumpBufferTimer > 0) this.jumpBufferTimer -= dt;
 
-    let dt = 1.0;
     if (this.floatingFx && this.floatingFx.active) {
-      dt = 0.2; 
+      dt = dt * 0.2; 
     }
 
     if (this.screenShakeTimer > 0) {
@@ -432,10 +437,10 @@ export class WordAscentGame {
     }
 
     if (this.rocketActive) {
-      this.rocketTimer--;
+      this.rocketTimer -= dt;
       this.player.vy = -22.0; 
       this.player.vx = 0;
-      this.player.y += this.player.vy;
+      this.player.y += this.player.vy * dt;
 
       if (Math.random() < 0.6) {
         const px = this.player.x + (Math.random() - 0.5) * 16;

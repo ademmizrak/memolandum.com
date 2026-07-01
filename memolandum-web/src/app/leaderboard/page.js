@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { collection, query, orderBy, limit, onSnapshot } from 'firebase/firestore';
+import { collectionGroup, query, orderBy, limit, onSnapshot, doc, getDoc } from 'firebase/firestore';
 import { db } from '../../lib/firebase/config';
 import Link from 'next/link';
 import Header from '../../components/Header';
@@ -13,15 +13,43 @@ export default function LeaderboardPage() {
   useEffect(() => {
     
     const q = query(
-      collection(db, "leaderboard"), 
-      orderBy("high_score", "desc"), 
+      collectionGroup(db, "stats"), 
+      orderBy("total_score", "desc"), 
       limit(10)
     );
     
-    const unsubscribe = onSnapshot(q, (snapshot) => {
-      const data = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-      setLeaderboard(data);
-      setLoading(false);
+    const unsubscribe = onSnapshot(q, async (snapshot) => {
+      try {
+        const dataPromises = snapshot.docs.map(async (d) => {
+          // d.ref.parent is 'stats' collection, d.ref.parent.parent is 'users/{uid}' doc
+          const userRef = d.ref.parent.parent;
+          let displayName = "Siber Kadet";
+          let photoURL = null;
+          
+          if (userRef) {
+            const userSnap = await getDoc(userRef);
+            if (userSnap.exists()) {
+              displayName = userSnap.data().displayName || displayName;
+              photoURL = userSnap.data().photoURL || photoURL;
+            }
+          }
+          
+          return { 
+            id: userRef ? userRef.id : d.id, 
+            high_score: d.data().total_score || 0,
+            displayName,
+            photoURL
+          };
+        });
+        
+        const resolvedData = await Promise.all(dataPromises);
+        // Ensure sorted since Promise.all preserves map order but map order is snapshot order
+        setLeaderboard(resolvedData);
+        setLoading(false);
+      } catch (err) {
+        console.error("Leaderboard processing error:", err);
+        setLoading(false);
+      }
     }, (error) => {
       console.error("Leaderboard stream error:", error);
       setLoading(false);
@@ -113,6 +141,13 @@ export default function LeaderboardPage() {
                       
                       {/* Avatar & Name */}
                       <div className="flex items-center gap-4">
+                      {user.photoURL ? (
+                        <img src={user.photoURL} alt={user.displayName} className={`w-12 h-12 rounded-full border-2 ${
+                          index === 0 ? 'border-amber-400' :
+                          index < 3 ? 'border-gray-400' :
+                          'border-dark-600'
+                        }`} />
+                      ) : (
                         <div className={`w-12 h-12 rounded-full flex items-center justify-center font-bold uppercase text-base border-2 ${
                           index === 0 ? 'bg-amber-900/50 border-amber-400 text-amber-400' :
                           index < 3 ? 'bg-dark-800 border-gray-400 text-gray-300' :
@@ -120,6 +155,7 @@ export default function LeaderboardPage() {
                         }`}>
                           {(user.displayName || "C")[0]}
                         </div>
+                      )}
                         <div>
                           <p className={`font-black text-lg sm:text-xl tracking-wide ${index === 0 ? 'text-amber-400 drop-shadow-[0_0_5px_rgba(245,158,11,0.5)]' : 'text-white'}`}>
                             {user.displayName || "CADET_" + user.id.slice(0,4)}

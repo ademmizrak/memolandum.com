@@ -62,7 +62,18 @@ class SoundManager {
     this.audioCtx = null;
     this.isFxEnabled = true;
     this.isAudioEnabled = true;
-    this.audioCache = {};
+    this.wordAudio = new Audio();
+    this.wordAudio.volume = 1.0;
+  }
+
+  warmUp() {
+    this.init();
+    if (this.wordAudio) {
+      this.wordAudio.play().then(() => {
+        this.wordAudio.pause();
+        this.wordAudio.currentTime = 0;
+      }).catch(e => console.warn("Warmup play blocked:", e));
+    }
   }
 
   setFxEnabled(enabled) {
@@ -76,13 +87,14 @@ class SoundManager {
   playWordAudio(url) {
     if (!this.isAudioEnabled || !url) return;
     
-    if (!this.audioCache[url]) {
-      this.audioCache[url] = new Audio(url);
+    try {
+      this.wordAudio.src = url;
+      this.wordAudio.load();
+      this.wordAudio.currentTime = 0;
+      this.wordAudio.play().catch(e => console.warn("Audio play failed:", e));
+    } catch (e) {
+      console.error("Audio playback error:", e);
     }
-    
-    const audio = this.audioCache[url];
-    audio.currentTime = 0;
-    audio.play().catch(e => console.warn("Audio play failed:", e));
   }
 
   init() {

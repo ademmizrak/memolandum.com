@@ -7,8 +7,9 @@ import {
   updateProfile
 } from "firebase/auth";
 import { doc, getDoc, setDoc, deleteDoc } from "firebase/firestore";
-import { auth, db, googleProvider, syncProgressCall } from "./config";
+import { auth, db, googleProvider } from "./config";
 import { useMemolandumStore } from "../../store/useMemolandumStore";
+import GlobalStateSync from "./GlobalStateSync";
 
 export const signInWithGoogle = async () => {
   try {
@@ -166,34 +167,73 @@ export const updateUserAvatarInFirebase = async (avatarUrl) => {
 };
 
 /**
- * Senkronizasyon mantığı (Merge Logic):
- * LocalStorage'da tutulan misafir (Guest) verileri ile Firebase (Cloud) verilerini kıyaslar.
- * Not: httpsCallable kullandığımız için Authorization (Bearer token) arka planda Firebase SDK tarafından otomatik olarak gönderilir.
+ * Senkronizasyon mantığı:
+ * LocalStorage'da tutulan misafir (Guest) verilerini giriş yapıldığında Cloud'a yazar.
  */
 export const syncUserProgress = async (user) => {
   if (!user) return;
 
   const store = useMemolandumStore.getState();
-  const localXp = store.totalXp;
-  // TODO: Add localGems, localLevel when added to store
+  const localStats = store.globalStats;
 
   try {
-    // syncProgress cloud function'ı çağırıyoruz.
-    // Fonksiyon, kullanıcının cloud'daki mevcut XP'sini dönecektir (veya güncellenmiş halini).
-    const result = await syncProgressCall({
-      totalXp: localXp,
-      // gems: localGems, vs.
-    });
+    // If the guest user had accumulated any progress, we sync it to their new auth account.
+    if (localStats && (localStats.total_score > 0 || localStats.total_xp > 0 || localStats.gems > 0)) {
+      // Loop over game breakdown and push individually or push total directly
+      const promises = [];
+      if (localStats.game_breakdown) {
+        for (const [gameId, stats] of Object.entries(localStats.game_breakdown)) {
+          if (stats.score > 0 || stats.xp > 0 || stats.gems > 0) {
+            promises.push(
+              GlobalStateSync.updateProgress(user.uid, gameId, {
+                score: stats.score || 0,
+                xp: stats.xp || 0,
+                gems: stats.gems || 0
+              })
+            );
+          }
+        }
+      }
+      
+      await Promise.all(promises);
+      
+      // Force flush so it's written immediately
+      await GlobalStateSync.forceFlush(user.uid);
+      
+      // After syncing local progress to cloud, clear the local progression offsets
+      useMemolandumStore.setState({
+         globalStats: {
+            total_score: 0,
+            total_xp: 0,
+            gems: 0,
+            level: 1,
+            game_breakdown: {}
+         }
+      });
+    }
 
-    const cloudData = result.data;
-
-    // Eğer Cloud'daki XP, yereldekinden daha büyükse (veya eşitse), 
-    // Cloud verisi LocalStorage'ı (Zustand) ezmelidir.
-    // Cloud Function backend tarafında zaten "localXp > cloudXp ise db'yi güncelle, değilse db'dekini dön" 
-    // mantığını uyguluyorsa (ki genelde böyledir), gelen güncel veriyi store'a yazıyoruz.
-    if (cloudData && cloudData.totalXp !== undefined) {
-      if (cloudData.totalXp > localXp) {
-        store.setTotalXp(cloudData.totalXp);
+    // --- LEGACY MIGRATION ---
+    // If the user has old 'totalXp' on their users/{uid} document, migrate it to the new system
+    const userDocRef = doc(db, 'users', user.uid);
+    const userSnap = await getDoc(userDocRef);
+    if (userSnap.exists()) {
+      const userData = userSnap.data();
+      if (userData.totalXp && userData.totalXp > 0) {
+        // Check if the new global stats doc exists
+        const globalStatsRef = doc(db, 'users', user.uid, 'stats', 'global');
+        const globalSnap = await getDoc(globalStatsRef);
+        
+        // If they don't have the new stats doc yet, migrate the old XP
+        if (!globalSnap.exists() || (globalSnap.data().total_xp === 0 && globalSnap.data().total_score === 0)) {
+          // In the old system, totalXp was just the score. We'll map it to total_score and total_xp
+          await GlobalStateSync.updateProgress(user.uid, 'legacy_migration', {
+            score: userData.totalXp * 10, // Assuming score is roughly 10x XP
+            xp: userData.totalXp,
+            gems: 0
+          });
+          await GlobalStateSync.forceFlush(user.uid);
+          console.log("🔥 Legacy XP migrated successfully!");
+        }
       }
     }
 

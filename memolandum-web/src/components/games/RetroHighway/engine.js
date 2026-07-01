@@ -23,7 +23,20 @@ export class Star {
 }
 
 export class SoundManager {
-  init() {}
+  init() {
+    this.wordAudio = new Audio();
+    this.wordAudio.volume = 1.0;
+  }
+  
+  warmUp() {
+    if (this.wordAudio) {
+      // Play and immediately pause a silent or empty audio to unlock AudioContext on mobile
+      this.wordAudio.play().then(() => {
+        this.wordAudio.pause();
+        this.wordAudio.currentTime = 0;
+      }).catch(e => console.warn("Warmup play blocked:", e));
+    }
+  }
   
   playGemTick() {
     playCoinSound();
@@ -40,9 +53,14 @@ export class SoundManager {
   playWordAudio(url) {
     if (!url) return;
     try {
-      const audio = new Audio(url);
-      audio.volume = 1.0;
-      audio.play().catch(e => console.warn("Audio play blocked or failed:", e));
+      if (!this.wordAudio) {
+        this.wordAudio = new Audio();
+        this.wordAudio.volume = 1.0;
+      }
+      this.wordAudio.src = url;
+      this.wordAudio.load();
+      this.wordAudio.currentTime = 0;
+      this.wordAudio.play().catch(e => console.warn("Audio play blocked or failed:", e));
     } catch (e) {
       console.error("Audio creation failed:", e);
     }
@@ -99,10 +117,10 @@ export class HighwayParticle {
     this.life = this.maxLife;
   }
 
-  update() {
-    this.x += this.vx;
-    this.y += this.vy;
-    this.life--;
+  update(dt = 1) {
+    this.x += this.vx * dt;
+    this.y += this.vy * dt;
+    this.life -= 1 * dt;
     this.alpha = Math.max(0, this.life / this.maxLife);
   }
 
@@ -133,9 +151,9 @@ export class HighwayFloatingText {
     this.life = 60;
   }
 
-  update() {
-    this.y -= 1.5;
-    this.life--;
+  update(dt = 1) {
+    this.y -= 1.5 * dt;
+    this.life -= 1 * dt;
     this.alpha = Math.max(0, this.life / 60);
   }
 

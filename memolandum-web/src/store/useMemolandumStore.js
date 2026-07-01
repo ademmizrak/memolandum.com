@@ -8,7 +8,17 @@ export const useMemolandumStore = create(
       // User Profile Data
       uid: null,
       profile: null,
-      totalXp: 0,
+      
+      // Global Progress Tracking (Single Source of Truth locally)
+      globalStats: {
+        total_score: 0,
+        total_xp: 0,
+        gems: 0,
+        level: 1,
+        game_breakdown: {}
+      },
+      lastPlayedLevel: null,
+      lastPlayedLang: null,
       
       // Auth State
       isAuthenticated: false,
@@ -30,13 +40,40 @@ export const useMemolandumStore = create(
         isEmailVerified: user ? user.emailVerified : false
       }),
 
-      // XP Management
-      addXp: (amount) => set((state) => ({
-        totalXp: state.totalXp + amount
+      setLastPlayed: (lang, level) => set({
+        lastPlayedLang: lang,
+        lastPlayedLevel: level
+      }),
+
+      // Syncs state from Firestore upon login or listener
+      syncGlobalStats: (firestoreStats) => set((state) => ({
+        globalStats: { ...state.globalStats, ...firestoreStats }
       })),
 
-      setTotalXp: (amount) => set({
-        totalXp: amount
+      // Offline / Guest accumulation (runs parallel to GlobalStateSync for UI reactivity)
+      addLocalProgress: (gameId, delta) => set((state) => {
+        const s = parseInt(delta.score, 10) || 0;
+        const x = parseInt(delta.xp, 10) || 0;
+        const g = parseInt(delta.gems, 10) || 0;
+        
+        const currentBreakdown = state.globalStats.game_breakdown[gameId] || { score: 0, xp: 0, gems: 0 };
+
+        return {
+          globalStats: {
+            ...state.globalStats,
+            total_score: state.globalStats.total_score + s,
+            total_xp: state.globalStats.total_xp + x,
+            gems: state.globalStats.gems + g,
+            game_breakdown: {
+              ...state.globalStats.game_breakdown,
+              [gameId]: {
+                score: currentBreakdown.score + s,
+                xp: currentBreakdown.xp + x,
+                gems: currentBreakdown.gems + g
+              }
+            }
+          }
+        };
       }),
 
       // Game specific temporary state (optional, for passing data between screens)
@@ -59,8 +96,9 @@ export const useMemolandumStore = create(
     {
       name: 'memolandum-storage',
       partialize: (state) => ({
-        totalXp: state.totalXp
-        // Add other progress fields here (gems, level progress, etc.)
+        globalStats: state.globalStats,
+        lastPlayedLevel: state.lastPlayedLevel,
+        lastPlayedLang: state.lastPlayedLang
       }),
     }
   )
