@@ -10,6 +10,7 @@ import MemolandumIcon from "./MemolandumIcon";
 export default function Header() {
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [authModalView, setAuthModalView] = useState('login');
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   const { isAuthenticated, profile, totalXp, isEmailVerified } = useMemolandumStore();
 
@@ -126,13 +127,36 @@ export default function Header() {
             )}
 
             {/* Mobil Menü Butonu (Hamburger) */}
-            <button className="mobile-menu-toggle" id="mobileMenuBtn" aria-label="Menüyü Aç">
+            <button 
+              className={`mobile-menu-toggle ${isMobileMenuOpen ? 'open' : ''}`} 
+              id="mobileMenuBtn" 
+              aria-label="Menüyü Aç"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
               <span></span>
               <span></span>
               <span></span>
             </button>
           </div>
         </div>
+
+        {/* Mobil Dropdown Menü */}
+        {isMobileMenuOpen && (
+          <div className="mobile-dropdown-menu">
+            <Link href="/" className="mobile-nav-item" onClick={() => setIsMobileMenuOpen(false)}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+              Ana Üs
+            </Link>
+            <Link href="/leaderboard" className="mobile-nav-item" onClick={() => setIsMobileMenuOpen(false)}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              Liderlik
+            </Link>
+            <a href="https://kreosus.com/httpsmemolandumcom/about" target="_blank" rel="noopener noreferrer" className="mobile-nav-item text-pink-400" onClick={() => setIsMobileMenuOpen(false)}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              Destek & İşbirliği
+            </a>
+          </div>
+        )}
         
         <style dangerouslySetInnerHTML={{ __html: `
 /* --- HEADER ANA STİLLERİ --- */
@@ -343,7 +367,7 @@ export default function Header() {
   border: none;
   cursor: pointer;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
   padding: 4px;
 }
 
@@ -352,6 +376,46 @@ export default function Header() {
   height: 2px;
   background: white;
   border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-toggle.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.mobile-menu-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+.mobile-menu-toggle.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.mobile-dropdown-menu {
+  display: none; /* Mobilde açılacak */
+  flex-direction: column;
+  background: rgba(15, 23, 42, 0.95);
+  border-top: 1px solid rgba(79, 70, 229, 0.2);
+  padding: 10px 0;
+}
+
+.mobile-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 24px;
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.mobile-nav-item:last-child {
+  border-bottom: none;
+}
+
+.mobile-nav-item:hover, .mobile-nav-item:active {
+  background: rgba(255,255,255,0.05);
+  color: white;
 }
 
 /* --- RESPONSIVE TASARIM (Mobil) --- */
@@ -360,6 +424,9 @@ export default function Header() {
     display: none;
   }
   .mobile-menu-toggle {
+    display: flex;
+  }
+  .mobile-dropdown-menu {
     display: flex;
   }
 }
