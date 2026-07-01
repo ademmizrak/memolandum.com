@@ -1048,11 +1048,14 @@ export class InvadersGame {
     this.ctx.save();
     this.ctx.scale(this.scaleX, this.scaleY);
 
-    if (this.state === 'playing' || this.state === 'freeze') {
-      this.updateGame();
+    try {
+      if (this.state === 'playing' || this.state === 'freeze') {
+        this.updateGame();
+      }
+      this.drawGame();
+    } finally {
+      this.ctx.restore();
     }
-    this.drawGame();
-    this.ctx.restore();
   }
 
   updateGame() {
