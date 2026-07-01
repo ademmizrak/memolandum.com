@@ -175,8 +175,8 @@ export default function WordDrop({
       
       {/* 1) HUD */}
       <div className="w-full h-auto bg-[#05020a] flex flex-row items-center justify-between p-2 md:p-4 shrink-0 z-50 shadow-[0_4px_20px_rgba(255,0,85,0.2)]">
-        <div className="flex flex-col gap-1">
-          <div className="text-white text-sm md:text-xl font-black italic tracking-wider flex items-center gap-2 drop-shadow-[0_0_5px_#ffffff]">
+        <div className="flex flex-col gap-1 min-w-0 flex-1">
+          <div className="text-white text-xs md:text-xl font-black italic tracking-wider flex items-center gap-1 md:gap-2 drop-shadow-[0_0_5px_#ffffff] truncate">
             <span className="text-[#ff0055] animate-pulse">▼</span>
             REVERSE DROP
           </div>
@@ -203,9 +203,9 @@ export default function WordDrop({
           </div>
         </div>
 
-        <div className="flex flex-row items-center gap-3 md:gap-4">
+        <div className="flex flex-row items-center gap-2 md:gap-4 shrink-0">
           <div className="flex flex-col items-end gap-1">
-             <span className="text-slate-400 text-[10px] md:text-xs tracking-wider font-bold">SHIELDS</span>
+             <span className="hidden sm:block text-slate-400 text-[10px] md:text-xs tracking-wider font-bold">SHIELDS</span>
              <div className="flex flex-row gap-1">
                {[...Array(3)].map((_, i) => (
                  <div 
@@ -227,9 +227,9 @@ export default function WordDrop({
                 if (gameEngineRef.current) gameEngineRef.current.state = 'paused';
               }
             }}
-            className="ml-2 w-10 h-10 md:w-12 md:h-12 bg-slate-800/80 hover:bg-[#ff0055] text-white hover:text-black border-2 border-slate-600 hover:border-white rounded-lg flex items-center justify-center transition-all duration-200 shadow-lg cursor-pointer z-50 active:scale-95"
+            className="ml-1 md:ml-2 w-9 h-9 md:w-12 md:h-12 shrink-0 bg-slate-800/80 hover:bg-[#ff0055] text-white hover:text-black border-2 border-slate-600 hover:border-white rounded-lg flex items-center justify-center transition-all duration-200 shadow-lg cursor-pointer z-50 active:scale-95"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </button>
