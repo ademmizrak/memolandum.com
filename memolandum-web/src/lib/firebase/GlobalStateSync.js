@@ -1,4 +1,4 @@
-import { db } from './config';
+import { db, auth } from './config';
 import { doc, setDoc, increment, serverTimestamp } from 'firebase/firestore';
 
 /**
@@ -80,6 +80,11 @@ class GlobalStateSync {
         gems: increment(snapshot.gems),
         last_updated: serverTimestamp()
       };
+
+      if (auth?.currentUser) {
+        payload.displayName = auth.currentUser.displayName || "Siber Kadet";
+        payload.photoURL = auth.currentUser.photoURL || null;
+      }
 
       // Dinamik oyun bazlı alanları ekle
       for (const [gameId, stats] of Object.entries(snapshot.games)) {

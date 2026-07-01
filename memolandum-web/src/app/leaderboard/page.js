@@ -23,15 +23,20 @@ export default function LeaderboardPage() {
         const dataPromises = snapshot.docs.map(async (d) => {
           // d.ref.parent is 'stats' collection, d.ref.parent.parent is 'users/{uid}' doc
           const userRef = d.ref.parent.parent;
-          let displayName = "Siber Kadet";
-          let photoURL = null;
+          // Fallback to data attached directly to the global stats document (new behavior)
+          let displayName = d.data().displayName || "Siber Kadet";
+          let photoURL = d.data().photoURL || null;
           
-          if (userRef) {
-            const userSnap = await getDoc(userRef);
-            if (userSnap.exists()) {
-              displayName = userSnap.data().displayName || displayName;
-              photoURL = userSnap.data().photoURL || photoURL;
-            }
+          if (!d.data().displayName && userRef) {
+             try {
+               const userSnap = await getDoc(userRef);
+               if (userSnap.exists()) {
+                 displayName = userSnap.data().displayName || displayName;
+                 photoURL = userSnap.data().photoURL || photoURL;
+               }
+             } catch (error) {
+               // Ignore permission-denied for other users
+             }
           }
           
           return { 
