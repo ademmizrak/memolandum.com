@@ -975,45 +975,17 @@ export class InvadersGame {
       localStorage.setItem('memolandum_saved_stage', this.jsonFileName);
       localStorage.setItem('memolandum_saved_level', this.chunkIndex + 1);
       localStorage.setItem('memolandum_saved_score', this.score);
-      // removed
     } else {
       this.triggerFinalVictory();
     }
   }
 
   updateHUD() {
-    const shieldsEl = document.getElementById('hud-shields');
-    const levelValEl = document.getElementById('level-val');
-    const masteredValEl = document.getElementById('mastered-val');
-    const scoreValEl = document.getElementById('score-val');
-
-    const lblLevel = document.getElementById('level-label');
-    const lblMastered = document.getElementById('mastered-label');
-    const lblScore = document.getElementById('score-label');
-    if (lblLevel) lblLevel.textContent = 'LEVEL';
-    if (lblMastered) lblMastered.textContent = 'MASTERED';
-    if (lblScore) lblScore.textContent = 'SCORE';
-
-    if (shieldsEl) {
-      shieldsEl.innerHTML = '';
-      for (let i = 0; i < 3; i++) {
-        const shieldCell = document.createElement('div');
-        shieldCell.className = `shield-cell ${i < this.shields ? 'active' : ''}`;
-        shieldsEl.appendChild(shieldCell);
-      }
-    }
-
-    if (levelValEl) {
-      levelValEl.textContent = this.chunkIndex + 1;
-    }
-
-    if (masteredValEl) {
-      masteredValEl.textContent = `${this.processedCount}/${this.wordsPerLevel}`;
-    }
-
-    if (scoreValEl) {
-      scoreValEl.textContent = this.score;
-    }
+    this.callbacks?.onScoreChange?.(this.score);
+    this.callbacks?.onGemsChange?.(this.collectedGems);
+    this.callbacks?.onShieldsChange?.(this.shields);
+    this.callbacks?.onLevelChange?.(this.chunkIndex + 1);
+    this.callbacks?.onMasteredChange?.(this.processedCount);
   }
 
   resize() {
