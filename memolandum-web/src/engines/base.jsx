@@ -10,6 +10,7 @@ import RetroBreakout from "../components/games/RetroBreakout";
 import RetroHighway from "../components/games/RetroHighway";
 import WordAscent from "../components/games/WordAscent";
 import WordDrop from "../components/games/WordDrop";
+import SiberianInvaders from "../components/games/SiberianInvaders";
 import { gameManifest } from "../config/manifest";
 
 const GAME_THEMES = {
@@ -239,6 +240,23 @@ export default function GameEngineWrapper({ gameType, levelId, langId, onExit, o
     return (
       <div className="w-full h-full absolute inset-0">
         <WordDrop 
+          levelId={levelId} 
+          langId={langId} 
+          onExit={onExit}
+          onNextLevel={handleNextLevel}
+          isAudioEnabled={isAudioEnabled}
+          setIsAudioEnabled={setIsAudioEnabled}
+          isFxEnabled={isFxEnabled}
+          setIsFxEnabled={setIsFxEnabled}
+        />
+      </div>
+    );
+  }
+
+  if (gameType === 'invaders') {
+    return (
+      <div className="w-full h-full absolute inset-0">
+        <SiberianInvaders 
           levelId={levelId} 
           langId={langId} 
           onExit={onExit}
