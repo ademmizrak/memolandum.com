@@ -252,32 +252,32 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
 
         {/* Mobile Controls (Only visible in playing mode, positioned at bottom) */}
         {activeScreen === 'playing' && (
-          <div className="absolute bottom-8 left-0 w-full px-6 flex justify-between pointer-events-auto select-none">
+          <div className="absolute bottom-16 md:bottom-8 left-0 w-full px-6 flex justify-between pointer-events-auto select-none z-50">
              <div className="flex space-x-4">
                <button 
-                onTouchStart={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.left = true; }} 
-                onTouchEnd={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.left = false; }} 
-                onMouseDown={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.left = true; }} 
-                onMouseUp={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.left = false; }}
-                onMouseLeave={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.left = false; }}
-                className="w-16 h-16 rounded-full border-2 border-cyan-500/50 flex items-center justify-center text-cyan-400 bg-cyan-900/30 backdrop-blur-sm active:bg-cyan-400 active:text-black transition-colors"
+                onPointerDown={(e) => { e.preventDefault(); e.target.setPointerCapture(e.pointerId); if (engineRef.current) engineRef.current.input.left = true; }} 
+                onPointerUp={(e) => { e.preventDefault(); e.target.releasePointerCapture(e.pointerId); if (engineRef.current) engineRef.current.input.left = false; }} 
+                onPointerLeave={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.left = false; }}
+                onPointerCancel={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.left = false; }}
+                onContextMenu={(e) => e.preventDefault()}
+                className="w-16 h-16 rounded-full border-2 border-cyan-500/50 flex items-center justify-center text-cyan-400 bg-cyan-900/30 backdrop-blur-sm active:bg-cyan-400 active:text-black transition-colors touch-none"
                >◀</button>
                <button 
-                onTouchStart={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.right = true; }} 
-                onTouchEnd={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.right = false; }} 
-                onMouseDown={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.right = true; }} 
-                onMouseUp={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.right = false; }}
-                onMouseLeave={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.right = false; }}
-                className="w-16 h-16 rounded-full border-2 border-cyan-500/50 flex items-center justify-center text-cyan-400 bg-cyan-900/30 backdrop-blur-sm active:bg-cyan-400 active:text-black transition-colors"
+                onPointerDown={(e) => { e.preventDefault(); e.target.setPointerCapture(e.pointerId); if (engineRef.current) engineRef.current.input.right = true; }} 
+                onPointerUp={(e) => { e.preventDefault(); e.target.releasePointerCapture(e.pointerId); if (engineRef.current) engineRef.current.input.right = false; }} 
+                onPointerLeave={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.right = false; }}
+                onPointerCancel={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.right = false; }}
+                onContextMenu={(e) => e.preventDefault()}
+                className="w-16 h-16 rounded-full border-2 border-cyan-500/50 flex items-center justify-center text-cyan-400 bg-cyan-900/30 backdrop-blur-sm active:bg-cyan-400 active:text-black transition-colors touch-none"
                >▶</button>
              </div>
              <button 
-              onTouchStart={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.fire = true; }} 
-              onTouchEnd={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.fire = false; }} 
-              onMouseDown={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.fire = true; }} 
-              onMouseUp={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.fire = false; }}
-              onMouseLeave={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.fire = false; }}
-              className="w-20 h-20 rounded-full border-2 border-pink-500/50 flex items-center justify-center text-pink-500 bg-pink-900/30 backdrop-blur-sm active:bg-pink-500 active:text-white font-bold transition-colors"
+              onPointerDown={(e) => { e.preventDefault(); e.target.setPointerCapture(e.pointerId); if (engineRef.current) engineRef.current.input.fire = true; }} 
+              onPointerUp={(e) => { e.preventDefault(); e.target.releasePointerCapture(e.pointerId); if (engineRef.current) engineRef.current.input.fire = false; }} 
+              onPointerLeave={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.fire = false; }}
+              onPointerCancel={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.fire = false; }}
+              onContextMenu={(e) => e.preventDefault()}
+              className="w-20 h-20 rounded-full border-2 border-pink-500/50 flex items-center justify-center text-pink-500 bg-pink-900/30 backdrop-blur-sm active:bg-pink-500 active:text-white font-bold transition-colors touch-none"
              >FIRE</button>
           </div>
         )}
