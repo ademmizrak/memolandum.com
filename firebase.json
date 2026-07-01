@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "source": "memolandum-web",
+    "public": "memolandum-web/out",
+    "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
