@@ -1562,6 +1562,11 @@ export class ShooterGame {
     // Cap dt to prevent massive jumps when switching tabs
     if (dt > 0.1) dt = 0.1;
 
+    // PC Web view slowdown (20% slower on desktop)
+    if (window.innerWidth > 768) {
+      dt *= 0.8;
+    }
+
     if (this.state !== 'playing' && this.state !== 'exam') {
       // If start or gameover states, just update background stars and draw
       this.stars.forEach(star => star.update(dt, this.virtualWidth, this.virtualHeight));
