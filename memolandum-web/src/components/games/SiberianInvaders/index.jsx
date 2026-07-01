@@ -269,18 +269,18 @@ export default function SiberianInvaders({ levelId, langId, onExit, onNextLevel,
           <div className="absolute bottom-16 md:bottom-8 left-0 w-full px-6 flex justify-between pointer-events-auto select-none z-50">
              <div className="flex space-x-4">
                <button 
-                onPointerDown={(e) => { e.preventDefault(); e.target.setPointerCapture(e.pointerId); if (engineRef.current) engineRef.current.input.left = true; }} 
-                onPointerUp={(e) => { e.preventDefault(); e.target.releasePointerCapture(e.pointerId); if (engineRef.current) engineRef.current.input.left = false; }} 
-                onPointerLeave={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.left = false; }}
-                onPointerCancel={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.left = false; }}
+                onPointerDown={(e) => { e.preventDefault(); e.target.setPointerCapture(e.pointerId); if (engineRef.current) { engineRef.current.input.left = true; engineRef.current.player.targetVx = -6.5; } }} 
+                onPointerUp={(e) => { e.preventDefault(); e.target.releasePointerCapture(e.pointerId); if (engineRef.current) { engineRef.current.input.left = false; if (!engineRef.current.input.right) engineRef.current.player.targetVx = 0; } }} 
+                onPointerLeave={(e) => { e.preventDefault(); if (engineRef.current) { engineRef.current.input.left = false; if (!engineRef.current.input.right) engineRef.current.player.targetVx = 0; } }}
+                onPointerCancel={(e) => { e.preventDefault(); if (engineRef.current) { engineRef.current.input.left = false; if (!engineRef.current.input.right) engineRef.current.player.targetVx = 0; } }}
                 onContextMenu={(e) => e.preventDefault()}
                 className="w-16 h-16 rounded-full border-2 border-cyan-500/50 flex items-center justify-center text-cyan-400 bg-cyan-900/30 backdrop-blur-sm active:bg-cyan-400 active:text-black transition-colors touch-none"
                >◀</button>
                <button 
-                onPointerDown={(e) => { e.preventDefault(); e.target.setPointerCapture(e.pointerId); if (engineRef.current) engineRef.current.input.right = true; }} 
-                onPointerUp={(e) => { e.preventDefault(); e.target.releasePointerCapture(e.pointerId); if (engineRef.current) engineRef.current.input.right = false; }} 
-                onPointerLeave={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.right = false; }}
-                onPointerCancel={(e) => { e.preventDefault(); if (engineRef.current) engineRef.current.input.right = false; }}
+                onPointerDown={(e) => { e.preventDefault(); e.target.setPointerCapture(e.pointerId); if (engineRef.current) { engineRef.current.input.right = true; engineRef.current.player.targetVx = 6.5; } }} 
+                onPointerUp={(e) => { e.preventDefault(); e.target.releasePointerCapture(e.pointerId); if (engineRef.current) { engineRef.current.input.right = false; if (!engineRef.current.input.left) engineRef.current.player.targetVx = 0; } }} 
+                onPointerLeave={(e) => { e.preventDefault(); if (engineRef.current) { engineRef.current.input.right = false; if (!engineRef.current.input.left) engineRef.current.player.targetVx = 0; } }}
+                onPointerCancel={(e) => { e.preventDefault(); if (engineRef.current) { engineRef.current.input.right = false; if (!engineRef.current.input.left) engineRef.current.player.targetVx = 0; } }}
                 onContextMenu={(e) => e.preventDefault()}
                 className="w-16 h-16 rounded-full border-2 border-cyan-500/50 flex items-center justify-center text-cyan-400 bg-cyan-900/30 backdrop-blur-sm active:bg-cyan-400 active:text-black transition-colors touch-none"
                >▶</button>
