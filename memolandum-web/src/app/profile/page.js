@@ -4,7 +4,8 @@ import { useMemolandumStore } from "../../store/useMemolandumStore";
 import Header from "../../components/Header";
 import { useRouter } from "next/navigation";
 import { changeUsername } from "../../lib/firebase/authService";
-import { auth } from "../../lib/firebase/config";
+import { auth, db } from "../../lib/firebase/config";
+import { doc, onSnapshot } from "firebase/firestore";
 
 const PRESET_AVATARS = [
   "https://api.dicebear.com/9.x/bottts/svg?seed=Felix",
@@ -24,7 +25,8 @@ const MOCK_PROGRESS = [
 ];
 
 export default function ProfilePage() {
-  const { profile, changeAvatar, isAuthenticated, isAuthLoading } = useMemolandumStore();
+  const { profile, changeAvatar, isAuthenticated, isAuthLoading, uid } = useMemolandumStore();
+  const [globalStats, setGlobalStats] = useState(null);
   const [mounted, setMounted] = useState(false);
   const router = useRouter();
   const [isEditingUsername, setIsEditingUsername] = useState(false);
@@ -59,6 +61,18 @@ export default function ProfilePage() {
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  useEffect(() => {
+    if (mounted && isAuthenticated && uid) {
+      const userRef = doc(db, 'users', uid, 'stats', 'global');
+      const unsub = onSnapshot(userRef, (docSnap) => {
+        if (docSnap.exists()) {
+          setGlobalStats(docSnap.data());
+        }
+      });
+      return () => unsub();
+    }
+  }, [mounted, isAuthenticated, uid]);
 
   useEffect(() => {
     if (mounted && !isAuthLoading && !isAuthenticated) {
@@ -143,21 +157,43 @@ export default function ProfilePage() {
         </section>
 
         <section className="profile-section">
-          <h2>Dil Potansiyeli İlerleme Durumu</h2>
+          <h2>Oyun Performansı (Global Stats)</h2>
+          <div className="flex gap-4 mb-6">
+             <div className="bg-gray-800 p-4 rounded-lg flex-1 border border-gray-700">
+               <span className="text-gray-400 text-sm font-bold tracking-wider">TOPLAM PUAN</span>
+               <div className="text-2xl font-black text-cyan-400 drop-shadow-[0_0_8px_#22d3ee]">{globalStats?.total_score || 0}</div>
+             </div>
+             <div className="bg-gray-800 p-4 rounded-lg flex-1 border border-gray-700">
+               <span className="text-gray-400 text-sm font-bold tracking-wider">TOPLAM XP</span>
+               <div className="text-2xl font-black text-purple-400 drop-shadow-[0_0_8px_#c084fc]">{globalStats?.total_xp || 0}</div>
+             </div>
+             <div className="bg-gray-800 p-4 rounded-lg flex-1 border border-gray-700">
+               <span className="text-gray-400 text-sm font-bold tracking-wider">TOPLANAN GEM</span>
+               <div className="text-2xl font-black text-green-400 drop-shadow-[0_0_8px_#4ade80]">{globalStats?.gems || 0}</div>
+             </div>
+          </div>
           <div className="chart-container">
-            {MOCK_PROGRESS.map((item, idx) => (
+            {Object.entries(globalStats?.game_breakdown || {}).map(([gameId, stats], idx) => {
+              const percentage = Math.min(100, Math.max(5, Math.round(((stats.score || 0) / 10000) * 100)));
+              const colors = ["#38bdf8", "#a855f7", "#22c55e", "#f59e0b", "#ef4444", "#ec4899"];
+              const color = colors[idx % colors.length];
+              
+              return (
               <div key={idx} className="progress-bar-row">
                 <div className="bar-info">
-                  <span className="lang-name">{item.language}</span>
-                  <span className="lang-level">{item.level}</span>
+                  <span className="lang-name capitalize">{gameId.replace(/_/g, ' ')}</span>
+                  <span className="lang-level">XP: {stats.xp || 0}</span>
                 </div>
                 <div className="bar-bg">
-                  <div className="bar-fill" style={{ width: `${item.percentage}%`, backgroundColor: item.color }}>
-                    <span className="bar-percentage">%{item.percentage}</span>
+                  <div className="bar-fill" style={{ width: `${percentage}%`, backgroundColor: color }}>
+                    <span className="bar-percentage">{stats.score || 0} PTS</span>
                   </div>
                 </div>
               </div>
-            ))}
+            )})}
+            {(!globalStats || !globalStats.game_breakdown || Object.keys(globalStats.game_breakdown).length === 0) && (
+               <div className="text-gray-500 italic font-mono">Henüz bir oyun kaydı bulunmuyor.</div>
+            )}
           </div>
         </section>
       </div>

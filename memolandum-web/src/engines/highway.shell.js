@@ -88,10 +88,10 @@ class HighwayParticle {
     this.life = this.maxLife;
   }
 
-  update() {
-    this.x += this.vx;
-    this.y += this.vy;
-    this.life--;
+  update(dt = 1) {
+    this.x += this.vx * dt;
+    this.y += this.vy * dt;
+    this.life -= 1 * dt;
     this.alpha = Math.max(0, this.life / this.maxLife);
   }
 
@@ -123,9 +123,9 @@ class HighwayFloatingText {
     this.life = 60;
   }
 
-  update() {
-    this.y -= 1.5;
-    this.life--;
+  update(dt = 1) {
+    this.y -= 1.5 * dt;
+    this.life -= 1 * dt;
     this.alpha = Math.max(0, this.life / 60);
   }
 
@@ -1076,18 +1076,23 @@ export class HighwayGame {
   gameLoop(currentTime) {
     this.loopId = requestAnimationFrame((time) => this.gameLoop(time));
 
+    if (!this.lastTime) this.lastTime = currentTime;
+    let dt = (currentTime - this.lastTime) / 16.6667;
+    if (dt > 3) dt = 3;
+    if (dt <= 0 || isNaN(dt)) dt = 1;
+    this.lastTime = currentTime;
+
     this.ctx.save();
     this.ctx.scale(this.scaleX, this.scaleY);
 
     if (this.state === 'playing' && !this.isPaused) {
-      this.updateGame();
+      this.updateGame(dt);
     }
     this.drawGame();
     this.ctx.restore();
   }
 
-  updateGame() {
-    const dt = 1;
+  updateGame(dt = 1) {
 
     // Handle screen shake timer
     if (this.screenShakeTimer > 0) {
@@ -1101,7 +1106,7 @@ export class HighwayGame {
 
     // Handle level complete counting countdown
     if (this.isLevelTransitioning) {
-      this.levelCompleteTimer -= (1 / 60);
+      this.levelCompleteTimer -= (1 / 60) * dt;
       if (this.levelCompleteTimer <= 0) {
         this.nextLevel();
       }
@@ -1109,32 +1114,33 @@ export class HighwayGame {
 
     // Determine road speed based on inputs (simulating real driving acceleration)
     if (this.nitroActive) {
-      this.speedKmh += 2.0; // Faster acceleration (reaches 120 in ~0.66s)
+      this.speedKmh += 2.0 * dt; // Faster acceleration (reaches 120 in ~0.66s)
       if (this.speedKmh > 120) this.speedKmh = 120;
     } else if (this.brakeActive) {
-      this.speedKmh -= 3.0; // Faster braking
+      this.speedKmh -= 3.0 * dt; // Faster braking
       if (this.speedKmh < 10) this.speedKmh = 10;
     } else {
       // coasting returns to cruising speed gradually
       if (this.speedKmh > 40) {
-        this.speedKmh -= 1.0;
+        this.speedKmh -= 1.0 * dt;
       } else if (this.speedKmh < 40) {
-        this.speedKmh += 1.0;
+        this.speedKmh += 1.0 * dt;
       }
     }
     
-    let targetRoadSpeed = this.speedKmh * 0.035;
+    // 150% speed increase request
+    let targetRoadSpeed = this.speedKmh * 0.0525;
 
     // Apply difficulty speed multiplier
     targetRoadSpeed *= this.speedMultiplier;
 
     // Lerp road speed for smoothness (0.05 creates a smooth automatic gear transition feel)
-    this.roadSpeed += (targetRoadSpeed - this.roadSpeed) * 0.1;
-    this.roadOffset += this.roadSpeed;
+    this.roadSpeed += (targetRoadSpeed - this.roadSpeed) * (0.1 * dt);
+    this.roadOffset += this.roadSpeed * dt;
 
     // Stars background scrolling speed matching road
     this.stars.forEach(star => {
-      star.y += this.roadSpeed * 0.5;
+      star.y += this.roadSpeed * 0.5 * dt;
       if (star.y > this.virtualHeight) {
         star.reset(this.virtualWidth, this.virtualHeight);
         star.y = 0;
@@ -1143,7 +1149,7 @@ export class HighwayGame {
 
     // Update Player Car Lerp lane shifting
     this.player.targetX = this.player.lane * 150 + 75;
-    this.player.x += (this.player.targetX - this.player.x) * 0.2;
+    this.player.x += (this.player.targetX - this.player.x) * (0.35 * dt);
 
     // Update Traffic Cars
     const relativeSpeed = this.roadSpeed * 0.85; // simulate traffic moving slightly slower
@@ -1152,7 +1158,7 @@ export class HighwayGame {
     // 1. Update cars and find the correct one
     for (let i = this.trafficCars.length - 1; i >= 0; i--) {
       const car = this.trafficCars[i];
-      car.update(relativeSpeed);
+      car.update(relativeSpeed * dt);
       
       if (car.isCorrect) {
         correctCarFound = car;
@@ -1235,7 +1241,7 @@ export class HighwayGame {
         
         // Accumulate charge (faster if Up Arrow Nitro is active)
         const chargeRate = this.nitroActive ? 1.5 : 1.0;
-        this.draftingTimer += chargeRate * this.speedMultiplier;
+        this.draftingTimer += chargeRate * this.speedMultiplier * dt;
 
         // Emit blue neon spark drafting particles from the bumper gap
         if (Math.random() < 0.4) {
@@ -1250,10 +1256,10 @@ export class HighwayGame {
         }
       } else {
         // Decay charge gradually when out of zone
-        this.draftingTimer = Math.max(0, this.draftingTimer - 2);
+        this.draftingTimer = Math.max(0, this.draftingTimer - 2 * dt);
       }
     } else {
-      this.draftingTimer = Math.max(0, this.draftingTimer - 2);
+      this.draftingTimer = Math.max(0, this.draftingTimer - 2 * dt);
     }
 
     // Turbo timer logic removed for continuous flow
@@ -1261,7 +1267,7 @@ export class HighwayGame {
     // Update Gems
     for (let i = this.activeGems.length - 1; i >= 0; i--) {
       const gem = this.activeGems[i];
-      gem.update(this.player.x, this.player.y, this.roadSpeed, this.nitroActive);
+      gem.update(this.player.x, this.player.y, this.roadSpeed * dt, this.nitroActive);
       
       // Magnet collection threshold check
       const dist = Math.hypot(this.player.x - gem.x, this.player.y - gem.y);
@@ -1292,7 +1298,7 @@ export class HighwayGame {
     // Update Particles
     for (let i = this.activeParticles.length - 1; i >= 0; i--) {
       const p = this.activeParticles[i];
-      p.update();
+      p.update(dt);
       if (p.life <= 0) {
         this.activeParticles.splice(i, 1);
         this.particlePool.release(p);
@@ -1302,7 +1308,7 @@ export class HighwayGame {
     // Update Floating Text alerts
     for (let i = this.activeFloatingTexts.length - 1; i >= 0; i--) {
       const ft = this.activeFloatingTexts[i];
-      ft.update();
+      ft.update(dt);
       if (ft.life <= 0) {
         this.activeFloatingTexts.splice(i, 1);
         this.floatingTextPool.release(ft);
@@ -1507,7 +1513,7 @@ export class HighwayGame {
   }
 
   drawSpeedometer(ctx) {
-    const cx = this.virtualWidth - 80;
+    const cx = this.virtualWidth / 2;
     const cy = this.virtualHeight - 80;
     const radius = 55;
 

@@ -1,8 +1,10 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { useScoreSync } from '../../../hooks/useScoreSync';
 import { useLessonLoader } from '../../../hooks/useLessonLoader';
 import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
+import { GameHeader } from '../shared/GameHeader';
 import { HighwayGame } from './engineCore';
+import { useMemolandumStore } from '../../../store/useMemolandumStore';
+import GlobalStateSync from '../../../lib/firebase/GlobalStateSync';
 
 // Highway Survivor (Shell #4) - Canvas Integration
 export default function RetroHighway({ 
@@ -16,7 +18,6 @@ export default function RetroHighway({
   setIsFxEnabled 
 }) {
   // Hooks
-  const { addScore, syncToFirebase } = useScoreSync('highway');
   const { words, isLoading } = useLessonLoader(levelId, langId);
 
   // UI State
@@ -32,6 +33,27 @@ export default function RetroHighway({
   const containerRef = useRef(null);
   const gameEngineRef = useRef(null);
   const requestRef = useRef(null);
+  const hasSyncedRef = useRef(false);
+
+  useEffect(() => {
+    if (activeScreen === 'playing') {
+      hasSyncedRef.current = false;
+    }
+  }, [activeScreen]);
+
+  useEffect(() => {
+    if ((activeScreen === 'gameover' || activeScreen === 'victory') && !hasSyncedRef.current) {
+      hasSyncedRef.current = true;
+      const state = useMemolandumStore.getState();
+      const s = parseInt(score, 10) || 0;
+      const x = Math.floor(s / 10);
+      
+      state.addLocalProgress('highway', { score: s, xp: x, gems: 0 });
+      if (state.uid) {
+         GlobalStateSync.updateProgress(state.uid, 'highway', { score: s, xp: x, gems: 0 });
+      }
+    }
+  }, [activeScreen, score]);
 
   const initGame = useCallback(() => {
     if (!canvasRef.current || !words || words.length === 0) return;
@@ -47,7 +69,6 @@ export default function RetroHighway({
     const engine = new HighwayGame(canvasRef.current, ctx, words, {
       onScore: (points) => {
         setScore(s => s + points);
-        if (addScore) addScore(points);
       },
       onLearned: (wordObj) => {
         setLearnedWords(prev => {
@@ -93,7 +114,7 @@ export default function RetroHighway({
       window.removeEventListener('resize', resizeCanvas);
       cancelAnimationFrame(requestRef.current);
     };
-  }, [words, addScore]);
+  }, [words]);
 
   useEffect(() => {
     if (!isLoading && words && words.length > 0) {
@@ -155,9 +176,6 @@ export default function RetroHighway({
   };
 
   const handleExit = async () => {
-    if (syncToFirebase) {
-      await syncToFirebase(score);
-    }
     if (onExit) onExit();
   };
 
@@ -176,55 +194,26 @@ export default function RetroHighway({
       <div className="w-full max-w-[600px] h-full relative bg-[#0a0a0f] flex flex-col overflow-hidden font-sans select-none border-x-2 border-slate-800/50 shadow-[0_0_50px_rgba(255,0,127,0.1)]">
       
       {/* 1) HUD (Universal Top Header) */}
-      <div className="w-full h-auto bg-[#050508] border-b-2 border-[#ff007f] flex flex-row items-center justify-between p-2 md:p-4 shrink-0 z-50 shadow-[0_4px_20px_rgba(255,0,127,0.2)]">
-        
-        {/* Left Side: Title & Stats */}
-        <div className="flex items-center gap-4 md:gap-8 overflow-x-auto no-scrollbar">
-          
-          <h1 className="text-xl md:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#00f3ff] to-[#ff007f] tracking-wider italic uppercase shrink-0">
-            HIGHWAY
-          </h1>
+      <GameHeader>
+        <GameHeader.Left>
+          <GameHeader.Shields max={3} current={shields} />
+          <GameHeader.Stage value={learnedCount} max={totalWords || 12} label="LEARNED" icon="🧠" />
+        </GameHeader.Left>
 
-          <div className="flex items-center gap-3 md:gap-6">
-            {/* Score */}
-            <div className="bg-[#110515] rounded-lg px-3 py-1 border border-[#ff007f40] shadow-[0_0_10px_rgba(255,0,127,0.1)] flex items-center gap-2 shrink-0">
-              <span className="text-[10px] md:text-xs text-[#ff007f] font-bold uppercase tracking-widest">Score:</span>
-              <span className="text-lg md:text-2xl font-black text-white drop-shadow-[0_0_8px_#ff007f] leading-none">
-                {score.toLocaleString()}
-              </span>
-            </div>
-
-            {/* Progress */}
-            <div className="bg-[#051515] rounded-lg px-3 py-1 border border-[#00f3ff40] shadow-[0_0_10px_rgba(0,243,255,0.1)] flex items-center gap-2 shrink-0">
-              <span className="text-[10px] md:text-xs text-[#00f3ff] font-bold uppercase tracking-widest">Learned:</span>
-              <span className="text-lg md:text-2xl font-black text-white drop-shadow-[0_0_8px_#00f3ff] leading-none">
-                {learnedCount} <span className="text-sm md:text-base text-gray-500">/ {totalWords || 12}</span>
-              </span>
-            </div>
-
-            {/* Shields */}
-            <div className="bg-[#150505] rounded-lg px-3 py-1 border border-[#ff000040] flex items-center gap-2 shrink-0">
-              <div className="flex gap-1">
-                 {[0,1,2].map(i => (
-                    <div key={i} className={`w-4 h-4 md:w-5 md:h-5 rounded ${i < shields ? 'bg-[#39ff14] shadow-[0_0_8px_#39ff14]' : 'bg-[#333333]'} border border-white/20 transition-all duration-300`}></div>
-                 ))}
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        {/* Right Side: Pause Button */}
-        <button 
-          onClick={() => {
-            setActiveScreen('pause');
-            if (gameEngineRef.current) gameEngineRef.current.state = 'paused';
-          }}
-          className="p-1 md:p-2 ml-2 rounded bg-[#00f3ff20] hover:bg-[#00f3ff40] border border-[#00f3ff] transition-all flex items-center justify-center shrink-0"
-        >
-          <span className="text-xl md:text-2xl text-[#00f3ff]">⏸</span>
-        </button>
-      </div>
+        <GameHeader.Right>
+          <GameHeader.Score value={score} />
+          <GameHeader.Controls 
+            isFxEnabled={isFxEnabled}
+            onFxToggle={() => setIsFxEnabled && setIsFxEnabled(!isFxEnabled)}
+            isAudioEnabled={isAudioEnabled}
+            onAudioToggle={() => setIsAudioEnabled && setIsAudioEnabled(!isAudioEnabled)}
+            onPause={() => {
+              setActiveScreen('pause');
+              if (gameEngineRef.current) gameEngineRef.current.state = 'paused';
+            }}
+          />
+        </GameHeader.Right>
+      </GameHeader>
 
       {/* 2) Game Area (Centered Arcade Cabinet Style) */}
       <div className="flex-1 relative w-full h-full overflow-hidden flex justify-center items-center bg-[#050508] bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#1a0525] to-[#050508]">
@@ -240,6 +229,7 @@ export default function RetroHighway({
                   const x = (e.clientX - rect.left) / gameEngineRef.current.scaleX;
                   const lane = Math.floor(x / 150);
                   if (lane >= 0 && lane <= 3) {
+                    gameEngineRef.current.soundManager.warmUp();
                     gameEngineRef.current.player.lane = lane;
                     gameEngineRef.current.soundManager.playGemTick();
                   }
@@ -254,14 +244,14 @@ export default function RetroHighway({
               {/* Steering Controls (Left) */}
               <div className="flex gap-2 pointer-events-auto">
                 <button 
-                  onPointerDown={(e) => { e.preventDefault(); gameEngineRef.current?.handleInput('left', true); }}
+                  onPointerDown={(e) => { e.preventDefault(); gameEngineRef.current?.soundManager.warmUp(); gameEngineRef.current?.handleInput('left', true); }}
                   onContextMenu={(e) => e.preventDefault()}
                   className="w-14 h-14 bg-[#0a0a0fcc] border-2 border-[#00f3ff] rounded-full flex items-center justify-center text-[#00f3ff] text-2xl shadow-[0_0_15px_rgba(0,243,255,0.4)] active:bg-[#00f3ff50] active:scale-95 transition-all touch-none select-none"
                 >
                   ◀
                 </button>
                 <button 
-                  onPointerDown={(e) => { e.preventDefault(); gameEngineRef.current?.handleInput('right', true); }}
+                  onPointerDown={(e) => { e.preventDefault(); gameEngineRef.current?.soundManager.warmUp(); gameEngineRef.current?.handleInput('right', true); }}
                   onContextMenu={(e) => e.preventDefault()}
                   className="w-14 h-14 bg-[#0a0a0fcc] border-2 border-[#00f3ff] rounded-full flex items-center justify-center text-[#00f3ff] text-2xl shadow-[0_0_15px_rgba(0,243,255,0.4)] active:bg-[#00f3ff50] active:scale-95 transition-all touch-none select-none"
                 >
@@ -272,7 +262,7 @@ export default function RetroHighway({
               {/* Speed Controls (Right) */}
               <div className="flex gap-2 pointer-events-auto">
                 <button 
-                  onPointerDown={(e) => { e.preventDefault(); gameEngineRef.current?.handleInput('down', true); }}
+                  onPointerDown={(e) => { e.preventDefault(); gameEngineRef.current?.soundManager.warmUp(); gameEngineRef.current?.handleInput('down', true); }}
                   onPointerUp={(e) => { e.preventDefault(); gameEngineRef.current?.handleInput('down', false); }}
                   onPointerLeave={(e) => { e.preventDefault(); gameEngineRef.current?.handleInput('down', false); }}
                   onContextMenu={(e) => e.preventDefault()}
@@ -281,7 +271,7 @@ export default function RetroHighway({
                   ⏬
                 </button>
                 <button 
-                  onPointerDown={(e) => { e.preventDefault(); gameEngineRef.current?.handleInput('up', true); }}
+                  onPointerDown={(e) => { e.preventDefault(); gameEngineRef.current?.soundManager.warmUp(); gameEngineRef.current?.handleInput('up', true); }}
                   onPointerUp={(e) => { e.preventDefault(); gameEngineRef.current?.handleInput('up', false); }}
                   onPointerLeave={(e) => { e.preventDefault(); gameEngineRef.current?.handleInput('up', false); }}
                   onContextMenu={(e) => e.preventDefault()}

@@ -12,7 +12,8 @@ export default function Header() {
   const [authModalView, setAuthModalView] = useState('login');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
-  const { isAuthenticated, profile, totalXp, isEmailVerified } = useMemolandumStore();
+  const { isAuthenticated, profile, globalStats, isEmailVerified } = useMemolandumStore();
+  const totalXp = globalStats?.total_xp || 0;
 
   const openAuthModal = (view) => {
     setAuthModalView(view);

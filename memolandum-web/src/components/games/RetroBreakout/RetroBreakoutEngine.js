@@ -258,7 +258,8 @@ export class RetroBreakoutEngine {
     let currentSpeedY = this.ball.dy * this.ball.speedMultiplier;
     
     // Scale by dt for smooth movement if needed, but for simplicity assuming ~60FPS base
-    let timeScale = dt / 16.66;
+    let timeScale = dt / 16.6667;
+    timeScale = Math.min(timeScale, 3.0); // Clamp to prevent teleportation on lag/background
     
     this.ball.x += currentSpeedX * timeScale;
     this.ball.y += currentSpeedY * timeScale;

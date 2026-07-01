@@ -1,8 +1,10 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { useScoreSync } from '../../../hooks/useScoreSync';
 import { useLessonLoader } from '../../../hooks/useLessonLoader';
 import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
+import { GameHeader } from '../shared/GameHeader';
 import { WordDropGame } from './engineCore';
+import { useMemolandumStore } from '../../../store/useMemolandumStore';
+import GlobalStateSync from '../../../lib/firebase/GlobalStateSync';
 
 // Reverse Word Drop Protocol V2 (Dikey Tetris) - Canvas Integration
 export default function WordDrop({ 
@@ -16,7 +18,6 @@ export default function WordDrop({
   setIsFxEnabled 
 }) {
   // Hooks
-  const { addScore, syncToFirebase } = useScoreSync('word_drop');
   const { words, isLoading } = useLessonLoader(levelId, langId);
 
   // UI State
@@ -32,6 +33,27 @@ export default function WordDrop({
   const canvasRef = useRef(null);
   const containerRef = useRef(null);
   const gameEngineRef = useRef(null);
+  const hasSyncedRef = useRef(false);
+
+  useEffect(() => {
+    if (activeScreen === 'playing') {
+      hasSyncedRef.current = false;
+    }
+  }, [activeScreen]);
+
+  useEffect(() => {
+    if ((activeScreen === 'gameover' || activeScreen === 'victory') && !hasSyncedRef.current) {
+      hasSyncedRef.current = true;
+      const state = useMemolandumStore.getState();
+      const s = parseInt(score, 10) || 0;
+      const x = Math.floor(s / 10);
+      
+      state.addLocalProgress('word_drop', { score: s, xp: x, gems: 0 });
+      if (state.uid) {
+         GlobalStateSync.updateProgress(state.uid, 'word_drop', { score: s, xp: x, gems: 0 });
+      }
+    }
+  }, [activeScreen, score]);
 
   const initGame = useCallback(() => {
     if (!canvasRef.current || !words || words.length === 0) return;
@@ -51,13 +73,11 @@ export default function WordDrop({
         setScore(finalScore);
         setLearnedWords(learned);
         setActiveScreen('gameover');
-        if (addScore) addScore(finalScore);
       },
       onVictory: (finalScore, learned) => {
         setScore(finalScore);
         setLearnedWords(learned);
         setActiveScreen('victory');
-        if (addScore) addScore(finalScore);
       },
       onStateUpdate: (stateData) => {
         if (stateData.score !== undefined) setScore(stateData.score);
@@ -87,7 +107,7 @@ export default function WordDrop({
         gameEngineRef.current.stopGame();
       }
     };
-  }, [words, addScore]);
+  }, [words]);
 
   useEffect(() => {
     if (!isLoading && words && words.length > 0) {
@@ -153,9 +173,6 @@ export default function WordDrop({
   };
 
   const handleExit = async () => {
-    if (syncToFirebase) {
-      await syncToFirebase(score);
-    }
     if (onExit) onExit();
   };
 
@@ -173,73 +190,33 @@ export default function WordDrop({
     <div className="w-full h-full bg-[#030106] flex justify-center items-center">
       <div className="w-full max-w-[600px] h-full relative bg-[#06030c] flex flex-col overflow-hidden font-sans select-none border-x-2 border-slate-800/50 shadow-[0_0_50px_rgba(255,0,85,0.15)]">
       
-      {/* 1) HUD */}
-      <div className="w-full h-auto bg-[#05020a] flex flex-row items-center justify-between p-2 md:p-4 shrink-0 z-50 shadow-[0_4px_20px_rgba(255,0,85,0.2)]">
-        <div className="flex flex-col gap-1 min-w-0 flex-1">
-          <div className="text-white text-xs md:text-xl font-black italic tracking-wider flex items-center gap-1 md:gap-2 drop-shadow-[0_0_5px_#ffffff] truncate">
-            <span className="text-[#ff0055] animate-pulse">▼</span>
-            REVERSE DROP
-          </div>
-          
-          <div className="flex flex-row items-center gap-3 md:gap-6 text-xs md:text-sm font-bold">
-            <div className="flex flex-col">
-              <span className="text-slate-400 text-[10px] md:text-xs tracking-wider">LEVEL</span>
-              <span className="text-white text-sm md:text-lg drop-shadow-[0_0_8px_#ffffff]">{levelText}</span>
-            </div>
-            
-            <div className="w-px h-6 bg-slate-700/50"></div>
-            
-            <div className="flex flex-col">
-              <span className="text-slate-400 text-[10px] md:text-xs tracking-wider">CLEARED</span>
-              <span className="text-[#39ff14] text-sm md:text-lg drop-shadow-[0_0_8px_#39ff14]">{learnedCount}/{totalWords}</span>
-            </div>
-            
-            <div className="w-px h-6 bg-slate-700/50"></div>
-            
-            <div className="flex flex-col">
-              <span className="text-slate-400 text-[10px] md:text-xs tracking-wider">SCORE</span>
-              <span className="text-[#ffea00] text-sm md:text-lg drop-shadow-[0_0_8px_#ffea00]">{score}</span>
-            </div>
-          </div>
-        </div>
+      {/* 1) HUD (Universal Top Header) */}
+      <GameHeader>
+        <GameHeader.Left>
+          <GameHeader.Shields max={3} current={shields} />
+          <GameHeader.Stage value={learnedCount} max={totalWords || 12} label="CLEARED" icon="▼" />
+        </GameHeader.Left>
 
-        <div className="flex flex-row items-center gap-2 md:gap-4 shrink-0">
-          <div className="flex flex-col items-end gap-1">
-             <span className="hidden sm:block text-slate-400 text-[10px] md:text-xs tracking-wider font-bold">SHIELDS</span>
-             <div className="flex flex-row gap-1">
-               {[...Array(3)].map((_, i) => (
-                 <div 
-                   key={i}
-                   className={`w-4 h-4 md:w-6 md:h-6 rotate-45 border-2 transition-all duration-300 ${
-                     i < shields 
-                     ? 'bg-[#ff0055] border-white shadow-[0_0_10px_#ff0055]' 
-                     : 'bg-transparent border-slate-700'
-                   }`}
-                 />
-               ))}
-             </div>
-          </div>
-          
-          <button 
-            onClick={() => {
-              if (activeScreen === 'playing') {
-                setActiveScreen('pause');
-                if (gameEngineRef.current) gameEngineRef.current.state = 'paused';
-              }
+        <GameHeader.Right>
+          <GameHeader.Score value={score} />
+          <GameHeader.Controls 
+            isFxEnabled={isFxEnabled}
+            onFxToggle={() => setIsFxEnabled && setIsFxEnabled(!isFxEnabled)}
+            isAudioEnabled={isAudioEnabled}
+            onAudioToggle={() => setIsAudioEnabled && setIsAudioEnabled(!isAudioEnabled)}
+            onPause={() => {
+              setActiveScreen('pause');
+              if (gameEngineRef.current) gameEngineRef.current.state = 'paused';
             }}
-            className="ml-1 md:ml-2 w-9 h-9 md:w-12 md:h-12 shrink-0 bg-slate-800/80 hover:bg-[#ff0055] text-white hover:text-black border-2 border-slate-600 hover:border-white rounded-lg flex items-center justify-center transition-all duration-200 shadow-lg cursor-pointer z-50 active:scale-95"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </button>
-        </div>
-      </div>
+          />
+        </GameHeader.Right>
+      </GameHeader>
 
       {/* 2) Canvas Container */}
       <div 
         ref={containerRef} 
         className="flex-1 w-full relative bg-[#06030c] shadow-[inset_0_0_100px_rgba(0,0,0,0.9)] touch-none"
+        onPointerDown={() => gameEngineRef.current?.soundManager.warmUp()}
       >
         <canvas 
           ref={canvasRef} 

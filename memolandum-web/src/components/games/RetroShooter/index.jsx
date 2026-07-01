@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { ShooterGame } from './RetroShooterEngine';
-import { useScoreSync } from '../../../hooks/useScoreSync';
 import { useLessonLoader } from '../../../hooks/useLessonLoader';
 import { useMemolandumStore } from '../../../store/useMemolandumStore';
+import GlobalStateSync from '../../../lib/firebase/GlobalStateSync';
 import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
+import { GameHeader } from '../shared/GameHeader';
 
 export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isAudioEnabled, setIsAudioEnabled, isFxEnabled, setIsFxEnabled }) {
   const canvasRef = useRef(null);
@@ -21,13 +22,13 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
     countdown: '4'
   });
   const [learnedWords, setLearnedWords] = useState([]);
-  const [highScore, setHighScore] = useState(0);
+  const hasSyncedRef = useRef(false);
 
   useEffect(() => {
-    const saved = localStorage.getItem('memolandum_saved_score_high_shooter') || 0;
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setHighScore(parseInt(saved, 10));
-  }, []);
+    if (activeScreen === 'playing') {
+      hasSyncedRef.current = false;
+    }
+  }, [activeScreen]);
 
   useEffect(() => {
     if (engineRef.current && engineRef.current.soundManager) {
@@ -37,20 +38,11 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
   }, [isFxEnabled, isAudioEnabled]);
 
   // Hooks
-  const { addScore, syncToFirebase } = useScoreSync('retro-shooter');
   const { words, isLoading } = useLessonLoader(levelId, langId);
 
-  // Callbacks for Engine -> React (Wrapped in useCallback as requested by PRD)
+  // Callbacks for Engine -> React
   const onScoreChange = useCallback((val) => {
-    const num = parseInt(val, 10) || 0;
     setUiState(p => ({ ...p, score: val }));
-    setHighScore(prev => {
-      if (num > prev) {
-        localStorage.setItem('memolandum_saved_score_high_shooter', num);
-        return num;
-      }
-      return prev;
-    });
   }, []);
 
   const onShieldsChange = useCallback((val) => setUiState(p => ({ ...p, shields: val })), []);
@@ -129,18 +121,39 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
     };
   }, [isLoading, words, onScoreChange, onShieldsChange, onLevelChange, onMasteredChange, onGemsChange, onCelebrationTextChange, onCountdownChange, onScreenChange, onWordLearned, onExit]);
 
-  // Handle Firebase Sync when Game Ends
+  // Handle Global State Sync when Game Ends
   useEffect(() => {
-    if (activeScreen === 'gameOver' || activeScreen === 'victory') {
-      syncToFirebase();
+    if ((activeScreen === 'gameOver' || activeScreen === 'victory') && !hasSyncedRef.current) {
+      hasSyncedRef.current = true;
+      const state = useMemolandumStore.getState();
+      const s = parseInt(uiState.score, 10) || 0;
+      const g = parseInt(uiState.gems ? String(uiState.gems).replace(/[^0-9]/g, '') : '0', 10) || 0;
+      const x = Math.floor(s / 10); // Basic XP calculation
+      
+      // Update local store
+      state.addLocalProgress('shooter', { score: s, xp: x, gems: g });
+      
+      // Update Firestore if logged in
+      if (state.uid) {
+         GlobalStateSync.updateProgress(state.uid, 'shooter', { score: s, xp: x, gems: g });
+      }
     }
-  }, [activeScreen, syncToFirebase]);
+  }, [activeScreen, uiState.score, uiState.gems]);
 
   // UI Event Triggers mapped to Engine
-  const triggerAction = (actionId) => {
-    if (engineRef.current) {
-      engineRef.current.triggerAction(actionId);
+  const togglePause = () => {
+    if (activeScreen === 'playing') {
+      setActiveScreen('pause');
+      if (engineRef.current) engineRef.current.isPaused = true;
+    } else if (activeScreen === 'pause') {
+      setActiveScreen('playing');
+      if (engineRef.current) engineRef.current.isPaused = false;
     }
+  };
+
+  const handleRestart = () => {
+    setActiveScreen('playing');
+    if (engineRef.current) engineRef.current.startGame();
   };
 
   if (isLoading) {
@@ -151,7 +164,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
     <div className="relative w-full h-full bg-black overflow-hidden font-mono" style={{ fontFamily: '"Courier New", Courier, monospace' }}>
       
       {/* Game Canvas */}
-      <div className="absolute inset-0 w-full h-full">
+      <div className="absolute inset-0 w-full h-full" onPointerDown={() => engineRef.current?.soundManager.warmUp()}>
         <canvas ref={canvasRef} className="w-full h-full block" />
       </div>
 
@@ -161,90 +174,31 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
 
         {/* HUD */}
         {activeScreen === 'playing' && (
-          <div className="absolute top-0 left-0 w-full pointer-events-none z-50">
-            <div className="game-hud-container pointer-events-auto">
-              {/* 1. BÖLÜM: Oyuncu Durumu (Kalkan ve Aşama) */}
-              <div className="hud-section player-stats">
-                <div className="hud-card shield-card">
-                  <span className="hud-icon animate-pulse">🛡️</span>
-                  <div className="stat-meta">
-                    <span className="stat-label">SHIELD</span>
-                    <div className="shield-bar-wrapper">
-                      <div 
-                        className="shield-bar-fill" 
-                        style={{ width: `${Math.max(0, (parseInt(uiState.shields, 10) || 0) / 3 * 100)}%` }}
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="hud-card stage-card">
-                  <span className="hud-icon">🚀</span>
-                  <div className="stat-meta">
-                    <span className="stat-label">STAGE</span>
-                    <span className="stat-value text-cyan">
-                      {String(uiState.level || '1').padStart(2, '0')}<span className="text-muted">/10</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
+          <GameHeader>
+            <GameHeader.Left>
+              <GameHeader.Shields max={3} current={parseInt(uiState.shields, 10) || 0} />
+              <GameHeader.Stage value={uiState.level || 1} max={10} />
+            </GameHeader.Left>
 
-              {/* 2. BÖLÜM: Skor ve Ekonomi (Mücevher / Kelime Sayacı) */}
-              <div className="hud-section game-economy">
-                <div className="hud-card score-card">
-                  <div className="stat-meta text-center">
-                    <span className="stat-label">SCORE</span>
-                    <span className="stat-value neon-text-green">{uiState.score || '0'}</span>
-                  </div>
-                </div>
-
-                <div className="hud-card gem-card">
-                  <span className="hud-icon">💎</span>
-                  <div className="stat-meta">
-                    <span className="stat-label">GEMS</span>
-                    <span className="stat-value neon-text-blue">{uiState.gems ? String(uiState.gems).replace(/[^0-9]/g, '') : '0'}</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* 3. BÖLÜM: Konsolide Oyun Kontrolleri */}
-              <div className="hud-section game-controls">
-                <button 
-                  className="hud-btn" 
-                  id="hudFxBtn" 
-                  title="Oyun Efektleri" 
-                  onClick={() => setIsFxEnabled && setIsFxEnabled(!isFxEnabled)}
-                  style={{ opacity: isFxEnabled ? 1 : 0.5 }}
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
-                </button>
-                <button 
-                  className="hud-btn" 
-                  id="hudVoiceBtn" 
-                  title="Kelime Telaffuzu" 
-                  onClick={() => setIsAudioEnabled && setIsAudioEnabled(!isAudioEnabled)}
-                  style={{ opacity: isAudioEnabled ? 1 : 0.5 }}
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M11 5L6 9H2v6h4l5 4V5z"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
-                </button>
-                <button 
-                  className="hud-btn pause-btn" 
-                  id="hudPauseBtn" 
-                  title="Oyunu Durdur" 
-                  onClick={() => triggerAction('btn-pause')}
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="4" x2="18" y2="20"></line><line x1="6" y1="4" x2="6" y2="20"></line></svg>
-                </button>
-              </div>
-            </div>
-          </div>
+            <GameHeader.Right>
+              <GameHeader.Score value={uiState.score} />
+              <GameHeader.Gems value={uiState.gems ? String(uiState.gems).replace(/[^0-9]/g, '') : 0} />
+              <GameHeader.Controls 
+                isFxEnabled={isFxEnabled}
+                onFxToggle={() => setIsFxEnabled && setIsFxEnabled(!isFxEnabled)}
+                isAudioEnabled={isAudioEnabled}
+                onAudioToggle={() => setIsAudioEnabled && setIsAudioEnabled(!isAudioEnabled)}
+                onPause={togglePause}
+              />
+            </GameHeader.Right>
+          </GameHeader>
         )}
 
         {/* Pause Screen */}
         {activeScreen === 'pause' && (
           <PauseScreen 
-            onResume={() => triggerAction('resume-btn')} 
-            onRestart={() => triggerAction('pause-restart-btn')} 
+            onResume={togglePause} 
+            onRestart={handleRestart} 
             onMainMenu={() => {
               if (onExit) onExit();
               else window.location.href = '/';
@@ -257,7 +211,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
           <GameOverScreen 
             score={uiState.score}
             message="SHIELDS DEPLETED"
-            onRestart={() => triggerAction('gameover-restart-btn')}
+            onRestart={handleRestart}
             onMainMenu={() => {
               if (onExit) onExit();
               else window.location.href = '/';
@@ -269,7 +223,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
         {activeScreen === 'victory' && (
           <VictoryScreen 
             score={uiState.score}
-            onNextLevel={() => onNextLevel ? onNextLevel() : triggerAction('victory-restart-btn')}
+            onNextLevel={() => onNextLevel ? onNextLevel() : handleRestart()}
             onMainMenu={() => {
               if (onExit) onExit();
               else window.location.href = '/';

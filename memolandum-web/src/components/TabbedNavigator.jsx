@@ -4,70 +4,31 @@ import React, { useState, useEffect } from "react";
 import { gameManifest } from "../config/manifest";
 import GameSelector from "./GameSelector";
 import { Play, ChevronRight, ChevronLeft } from "lucide-react";
+import { useMemolandumStore } from "../store/useMemolandumStore";
 
 export default function TabbedNavigator({ initialSlug, onStartGame }) {
+  const { lastPlayedLang, lastPlayedLevel, setLastPlayed } = useMemolandumStore();
+
   const defaultMainId = gameManifest.mainCategories[0].id;
   const defaultSubId = gameManifest.mainCategories[0].subCategories[0]?.id || "";
   const defaultLevelId = gameManifest.mainCategories[0].subCategories[0]?.levels[0]?.id || "";
 
-  const [activeMainId, setActiveMainId] = useState(defaultMainId);
-  const [activeSubId, setActiveSubId] = useState(defaultSubId);
-  const [activeLevelId, setActiveLevelId] = useState(defaultLevelId);
+  // Derive initial values from the store or defaults
+  const [activeMainId, setActiveMainId] = useState(() => {
+     if (lastPlayedLang) {
+       for (const main of gameManifest.mainCategories) {
+         if (main.subCategories.find(s => s.id === lastPlayedLang)) {
+           return main.id;
+         }
+       }
+     }
+     return defaultMainId;
+  });
+  const [activeSubId, setActiveSubId] = useState(lastPlayedLang || defaultSubId);
+  const [activeLevelId, setActiveLevelId] = useState(lastPlayedLevel || defaultLevelId);
+  
   const [activeGameId, setActiveGameId] = useState("");
   const [previousMainId, setPreviousMainId] = useState("");
-
-  // Storage key names
-  const STORAGE_KEY_MAIN = "memorade_last_main";
-  const STORAGE_KEY_SUB = "memorade_last_sub";
-  const STORAGE_KEY_LEVEL = "memorade_last_level";
-  const STORAGE_KEY_GAME = "memorade_last_game";
-
-  // Mount olduğunda localStorage'dan yükle
-  useEffect(() => {
-    if (typeof window !== 'undefined' && !initialSlug) {
-      let savedMain = localStorage.getItem(STORAGE_KEY_MAIN);
-      let savedSub = localStorage.getItem(STORAGE_KEY_SUB);
-      let savedLevel = localStorage.getItem(STORAGE_KEY_LEVEL);
-      const savedGame = localStorage.getItem(STORAGE_KEY_GAME);
-
-      // Validate saved data against manifest
-      let isValid = false;
-      if (savedMain && savedSub && savedLevel) {
-        const mainCat = gameManifest.mainCategories.find(c => c.id === savedMain);
-        if (mainCat) {
-          const subCat = mainCat.subCategories.find(s => s.id === savedSub);
-          if (subCat) {
-            const level = subCat.levels.find(l => l.id === savedLevel);
-            if (level) isValid = true;
-          }
-        }
-      }
-
-      if (!isValid) {
-        // Reset to default if mismatched or missing
-        savedMain = defaultMainId;
-        savedSub = defaultSubId;
-        savedLevel = defaultLevelId;
-      }
-
-      setActiveMainId(savedMain);
-      setActiveSubId(savedSub);
-      setActiveLevelId(savedLevel);
-      if (savedGame) setActiveGameId(savedGame);
-
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [initialSlug]);
-
-  // State'ler değiştikçe localStorage'ı güncelle
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      if (activeMainId && activeMainId !== 'games') localStorage.setItem(STORAGE_KEY_MAIN, activeMainId);
-      if (activeSubId) localStorage.setItem(STORAGE_KEY_SUB, activeSubId);
-      if (activeLevelId) localStorage.setItem(STORAGE_KEY_LEVEL, activeLevelId);
-      if (activeGameId) localStorage.setItem(STORAGE_KEY_GAME, activeGameId);
-    }
-  }, [activeMainId, activeSubId, activeLevelId, activeGameId]);
 
   // Eski route veya başlangıçta slug gelirse
   useEffect(() => {
@@ -118,18 +79,13 @@ export default function TabbedNavigator({ initialSlug, onStartGame }) {
     const gm = newGameId || activeGameId;
     
     if (!lvl) {
-      // Kullanıcı bir seviye seçmemişse, localStorage'dan son kaldığı yeri al, yoksa varsayılan A1 yap.
-      const savedLevel = localStorage.getItem(STORAGE_KEY_LEVEL);
-      const savedSub = localStorage.getItem(STORAGE_KEY_SUB);
-      
-      if (savedLevel && savedSub) {
-        lvl = savedLevel;
-        setActiveSubId(savedSub);
-        setActiveLevelId(savedLevel);
+      if (lastPlayedLevel && lastPlayedLang) {
+        lvl = lastPlayedLevel;
+        setActiveSubId(lastPlayedLang);
+        setActiveLevelId(lastPlayedLevel);
         
-        // Ana kategoriyi de bulup güncelle ki sekme doğru yere geçsin
         for (const main of gameManifest.mainCategories) {
-          if (main.subCategories.find(s => s.id === savedSub)) {
+          if (main.subCategories.find(s => s.id === lastPlayedLang)) {
             setActiveMainId(main.id);
             break;
           }
@@ -144,10 +100,12 @@ export default function TabbedNavigator({ initialSlug, onStartGame }) {
 
     if (lvl && gm) {
       let currentSubId = activeSubId;
-      // Eğer fallback kullanıldıysa state henüz güncellenmediği için subId'yi manuel al
       if (!newLevelId && !activeLevelId) {
-        currentSubId = localStorage.getItem(STORAGE_KEY_SUB) || defaultSubId;
+        currentSubId = lastPlayedLang || defaultSubId;
       }
+
+      // Update global store
+      setLastPlayed(currentSubId, lvl);
 
       onStartGame({
         langId: currentSubId,

@@ -49,7 +49,6 @@ export const metadata = {
     description: "Siber uzay arcade temasıyla eğlenirken İngilizce kelime ezberleyin! A1-B2 seviyeleri ve siber kelime protokolü ile kelime bilginizi saniyeler içinde kalıcı hale getirin.",
     images: ["https://memolandum.com/memolandum_preview.png"],
   },
-  manifest: "/manifest.json",
   icons: {
     icon: "/favicon.ico",
   },
@@ -162,6 +161,22 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <script dangerouslySetInnerHTML={{ __html: `
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function(registrations) {
+              let hasUnregistered = false;
+              const promises = [];
+              for (let registration of registrations) {
+                promises.push(registration.unregister().then(() => { hasUnregistered = true; }));
+              }
+              Promise.all(promises).then(() => {
+                if (hasUnregistered) {
+                  window.location.reload(true);
+                }
+              });
+            });
+          }
+        `}} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdVideoGame) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebSite) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSoftwareApp) }} />
