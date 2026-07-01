@@ -371,10 +371,10 @@ class InvadersStar {
 }
 
 export class InvadersGame {
-  constructor(vocabulary, jsonFileName, canvasElement, playAudioCallback) {
+  constructor(vocabulary, jsonFileName, canvasElement, callbacks) {
     this.isInvadersGame = true;
     this.canvas = canvasElement || document.getElementById('gameCanvas');
-    this.playAudioCallback = playAudioCallback;
+    this.callbacks = callbacks;
     this.ctx = this.canvas.getContext('2d');
 
     this.vocabulary = (vocabulary || []).map(w => ({
@@ -1291,7 +1291,7 @@ export class InvadersGame {
     this.triggerScreenShake(20, 7);
 
     // Save mastered word to local list
-    if (this.playAudioCallback) this.playAudioCallback(this.activeWord);
+    this.callbacks?.onWordLearned?.(this.activeWord.english);
     const found = this.vocabulary.find(v => v.english === this.activeWord.english);
     if (found && !this.wordsLearnedThisRun.some(w => w.english === found.english)) {
       this.wordsLearnedThisRun.push(found);
