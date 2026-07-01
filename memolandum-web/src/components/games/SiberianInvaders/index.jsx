@@ -32,8 +32,9 @@ export default function SiberianInvaders({ levelId, langId, onExit, onNextLevel,
 
   useEffect(() => {
     if (engineRef.current && engineRef.current.soundManager) {
-      engineRef.current.soundManager.setFxEnabled(isFxEnabled);
-      engineRef.current.soundManager.setAudioEnabled(isAudioEnabled);
+      if (typeof engineRef.current.soundManager.setMuted === 'function') {
+        engineRef.current.soundManager.setMuted(!isFxEnabled);
+      }
     }
   }, [isFxEnabled, isAudioEnabled]);
 
@@ -92,8 +93,9 @@ export default function SiberianInvaders({ levelId, langId, onExit, onNextLevel,
 
     const engine = new GameEngine(words, `level-${levelId}`, canvasRef.current, callbacks);
     engineRef.current = engine;
-    engine.soundManager.setFxEnabled(isFxEnabled);
-    engine.soundManager.setAudioEnabled(isAudioEnabled);
+    if (engine.soundManager && typeof engine.soundManager.setMuted === 'function') {
+      engine.soundManager.setMuted(!isFxEnabled);
+    }
     engine.startGame();
 
     // Resize observer
