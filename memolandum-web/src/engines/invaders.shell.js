@@ -921,6 +921,8 @@ export class InvadersGame {
 
   gameOver() {
     this.state = 'gameover';
+    this.screenShakeTimer = 0;
+    this.damageTimer = 0;
     this.soundManager.playGameOver();
     if (this.callbacks && this.callbacks.onScreenChange) {
       this.callbacks.onScreenChange('game-over-screen', true);
@@ -938,6 +940,8 @@ export class InvadersGame {
 
   triggerFinalVictory() {
     this.state = 'victory';
+    this.screenShakeTimer = 0;
+    this.damageTimer = 0;
     this.soundManager.playStageClear();
     if (this.callbacks && this.callbacks.onScreenChange) {
       this.callbacks.onScreenChange('victory-screen', true);
