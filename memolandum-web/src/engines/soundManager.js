@@ -2,10 +2,17 @@ export class SoundManager {
   constructor() {
     this.audioCtx = null;
     this.isMuted = false;
+    this.isAudioEnabled = true;
+    this.wordAudio = new Audio();
+    this.wordAudio.volume = 1.0;
   }
 
   setMuted(muted) {
     this.isMuted = muted;
+  }
+
+  setAudioEnabled(enabled) {
+    this.isAudioEnabled = enabled;
   }
 
   init() {
@@ -21,6 +28,13 @@ export class SoundManager {
     if (this.audioCtx && this.audioCtx.state === 'suspended') {
       this.audioCtx.resume();
     }
+    if (this.wordAudio && this.wordAudio.paused && !this.wordAudio.src) {
+      // Small trick to unlock audio on first interaction
+      this.wordAudio.play().then(() => {
+        this.wordAudio.pause();
+        this.wordAudio.currentTime = 0;
+      }).catch(e => {});
+    }
   }
 
   stop() {
@@ -28,6 +42,19 @@ export class SoundManager {
       try {
         this.audioCtx.suspend();
       } catch (e) {}
+    }
+  }
+
+  playWordAudio(url) {
+    if (!this.isAudioEnabled || !url) return;
+    
+    try {
+      this.wordAudio.src = url;
+      this.wordAudio.load();
+      this.wordAudio.currentTime = 0;
+      this.wordAudio.play().catch(e => console.warn("Audio play failed:", e));
+    } catch (e) {
+      console.error("Audio playback error:", e);
     }
   }
 

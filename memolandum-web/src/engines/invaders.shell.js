@@ -1285,6 +1285,11 @@ export class InvadersGame {
     const meaningFt = this.floatingTextPool.acquire(correctInvader.x, correctInvader.currentY + 15, this.activeWord.turkish, '#00f0ff');
     this.activeFloatingTexts.push(meaningFt);
 
+    // Play word pronunciation audio
+    if (this.soundManager && (this.activeWord.audioUrl || this.activeWord.audio_url)) {
+      this.soundManager.playWordAudio(this.activeWord.audioUrl || this.activeWord.audio_url);
+    }
+
     // Commit attempt to ExamEngine
     if (window.examEngine) {
       window.examEngine.registerAttempt(this.activeWord.english, true);
