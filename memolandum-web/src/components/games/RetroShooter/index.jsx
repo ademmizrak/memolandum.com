@@ -32,8 +32,16 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
 
   useEffect(() => {
     if (engineRef.current && engineRef.current.soundManager) {
-      engineRef.current.soundManager.setFxEnabled(isFxEnabled);
-      engineRef.current.soundManager.setAudioEnabled(isAudioEnabled);
+      const sm = engineRef.current.soundManager;
+      if (typeof sm.setFxEnabled === 'function') {
+        sm.setFxEnabled(isFxEnabled);
+      } else if (typeof sm.setMuted === 'function') {
+        sm.setMuted(!isFxEnabled);
+      }
+      
+      if (typeof sm.setAudioEnabled === 'function') {
+        sm.setAudioEnabled(isAudioEnabled);
+      }
     }
   }, [isFxEnabled, isAudioEnabled]);
 
@@ -92,8 +100,18 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
 
     const engine = new ShooterGame(words, `level-${levelId}`, canvasRef.current, callbacks);
     engineRef.current = engine;
-    engine.soundManager.setFxEnabled(isFxEnabled);
-    engine.soundManager.setAudioEnabled(isAudioEnabled);
+    
+    if (engine.soundManager) {
+      if (typeof engine.soundManager.setFxEnabled === 'function') {
+        engine.soundManager.setFxEnabled(isFxEnabled);
+      } else if (typeof engine.soundManager.setMuted === 'function') {
+        engine.soundManager.setMuted(!isFxEnabled);
+      }
+      if (typeof engine.soundManager.setAudioEnabled === 'function') {
+        engine.soundManager.setAudioEnabled(isAudioEnabled);
+      }
+    }
+    
     engine.startGame();
 
     // Resize observer
