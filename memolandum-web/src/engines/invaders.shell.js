@@ -576,7 +576,6 @@ export class InvadersGame {
     this.fleetSpeed = 0.07 + (this.chunkIndex * 0.015); // Slightly accelerate per level
     this.screenShakeTimer = 0;
     this.damageTimer = 0;
-    this.floatingFx = { active: false };
 
     this.loadLevelChunk();
     this.selectNextWord();
@@ -1053,10 +1052,6 @@ export class InvadersGame {
       dt *= 0.8;
     }
 
-    if (this.floatingFx && this.floatingFx.active) {
-      dt *= 0.2;
-    }
-
     if (this.isLevelTransitioning) {
       this.levelCompleteTimer -= (1 / 60) * dt;
       if (this.levelCompleteTimer <= 0) {
@@ -1087,27 +1082,7 @@ export class InvadersGame {
       }
     }
 
-    // Update Star Wars Crawl FX
-    if (this.floatingFx && this.floatingFx.active) {
-      this.floatingFx.duration -= (1 / 60);
-      
-      // Magnetic pull of gems is complete during crawl celebration
-      this.fallingGems.forEach(gem => gem.update(this.player.x, this.player.y));
-      
-      if (this.floatingFx.duration <= 0) {
-        this.floatingFx.active = false;
-        
-        // Commit attempt to ExamEngine
-        if (window.examEngine) {
-          window.examEngine.registerAttempt(this.activeWord.english, true);
-        }
 
-        // Spawn next wave
-        this.selectNextWord();
-        this.spawnInvaders();
-      }
-      return; // Freeze main action physics during celebration crawl!
-    }
 
     // 1. Player Slide Physics
     if (this.player.targetVx !== 0) {
@@ -1306,8 +1281,18 @@ export class InvadersGame {
     const ft = this.floatingTextPool.acquire(correctInvader.x, correctInvader.currentY - 15, "PERFECT CLEAR! +500", '#39ff14');
     this.activeFloatingTexts.push(ft);
 
-    // Initialize Star Wars 3D Crawl Celebration & Freeze Frame state
-    this.triggerStarWarsCrawl();
+    // Show meaning as floating text
+    const meaningFt = this.floatingTextPool.acquire(correctInvader.x, correctInvader.currentY + 15, this.activeWord.turkish, '#00f0ff');
+    this.activeFloatingTexts.push(meaningFt);
+
+    // Commit attempt to ExamEngine
+    if (window.examEngine) {
+      window.examEngine.registerAttempt(this.activeWord.english, true);
+    }
+
+    // Instantly spawn next wave without freezing
+    this.selectNextWord();
+    this.spawnInvaders();
   }
 
   handleIncorrectHit(incorrectInvader) {
@@ -1326,16 +1311,6 @@ export class InvadersGame {
 
     const ft = this.floatingTextPool.acquire(incorrectInvader.x, incorrectInvader.currentY - 15, "WRONG TARGET!", '#ff0055');
     this.activeFloatingTexts.push(ft);
-  }
-
-  triggerStarWarsCrawl() {
-    this.floatingFx = {
-      active: true,
-      english: this.activeWord.english,
-      turkish: this.activeWord.turkish,
-      y: 750,
-      duration: 3.0 // 3-second crawl window
-    };
   }
 
   drawGame() {
@@ -1380,11 +1355,6 @@ export class InvadersGame {
 
     // 3. Render Cyber Target Billboard
     this.drawTargetHUD(this.ctx);
-
-    // 4. Render Star Wars 3D crawl overlay
-    if (this.floatingFx && this.floatingFx.active) {
-      this.drawStarWarsCrawl(this.ctx);
-    }
 
     // 5. Draw damage red flash overlay
     if (this.damageTimer > 0) {
@@ -1529,52 +1499,6 @@ export class InvadersGame {
       } else {
         ctx.fillText(lines[0], tx, ty);
       }
-    }
-
-    ctx.restore();
-  }
-
-  drawStarWarsCrawl(ctx) {
-    ctx.save();
-    const floatingFx = this.floatingFx;
-    const progress = Math.max(0, floatingFx.duration / 3.0);
-
-    // Scroll up
-    floatingFx.y -= 150 * (1 / 60);
-
-    ctx.fillStyle = 'rgba(5, 2, 12, 0.7)';
-    ctx.fillRect(0, 0, this.virtualWidth, this.virtualHeight);
-
-    const textY = floatingFx.y;
-    if (textY > 50 && textY < 950) {
-      ctx.save();
-      
-      // Star Wars perspective depth formula
-      const scale = Math.max(0.2, (textY - 50) / 600);
-      ctx.translate(this.virtualWidth / 2, textY);
-      ctx.scale(scale, scale);
-
-      ctx.globalAlpha = progress;
-      ctx.fillStyle = '#ffea00'; // Star Wars Gold
-      ctx.font = 'bold 32px "Orbitron", Arial, sans-serif';
-      ctx.textAlign = 'center';
-      ctx.shadowBlur = 12;
-      const lines = floatingFx.english.split('\n');
-      lines.forEach((line, i) => {
-        if (lines.length > 1 && i === 0) {
-          ctx.font = 'bold 34px "Orbitron", Arial, sans-serif'; // 32 + 2
-        } else {
-          ctx.font = 'bold 32px "Orbitron", Arial, sans-serif';
-        }
-        ctx.fillText(line, 0, -18 + i * 28);
-      });
-
-      ctx.fillStyle = '#00f0ff'; // Cyan meaning
-      ctx.shadowColor = '#00f0ff';
-      ctx.font = 'bold 22px Arial, sans-serif';
-      ctx.fillText(floatingFx.turkish, 0, 18);
-
-      ctx.restore();
     }
 
     ctx.restore();
