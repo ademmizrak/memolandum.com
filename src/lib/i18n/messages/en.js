@@ -16,6 +16,7 @@ const en = {
     langProfile: "Change language profile",
     verifyEmail: "Verify email",
     setName: "Set username",
+    profile: "My Profile",
   },
   common: {
     language: "Language",

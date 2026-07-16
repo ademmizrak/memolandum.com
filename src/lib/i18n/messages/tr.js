@@ -16,6 +16,7 @@ const tr = {
     langProfile: "Dil profilini değiştir",
     verifyEmail: "E-Posta Onayla",
     setName: "İsim Belirle",
+    profile: "Profilim",
   },
   common: {
     language: "Dil",
