@@ -120,14 +120,33 @@ export default function RootLayout({ children }) {
         <script
           dangerouslySetInnerHTML={{
             __html: `
+          // Catch chunk load / script load errors and reload the page automatically to pull the new version
+          window.addEventListener('error', function(e) {
+            var target = e.target || e.srcElement;
+            if (target && (target.tagName === 'SCRIPT' || target.tagName === 'LINK')) {
+              var src = target.src || target.href;
+              if (src && src.indexOf('_next/static') !== -1) {
+                console.warn('Resource load failed:', src, '- reloading page...');
+                window.location.reload(true);
+              }
+            }
+          }, true);
+
+          window.addEventListener('unhandledrejection', function(e) {
+            if (e.reason && (e.reason.name === 'ChunkLoadError' || /loading.*chunk/i.test(e.reason.message || ''))) {
+              console.warn('ChunkLoadError detected - reloading page...');
+              window.location.reload(true);
+            }
+          });
+
           if ('serviceWorker' in navigator) {
             navigator.serviceWorker.getRegistrations().then(function(registrations) {
-              let hasUnregistered = false;
-              const promises = [];
-              for (let registration of registrations) {
-                promises.push(registration.unregister().then(() => { hasUnregistered = true; }));
+              var hasUnregistered = false;
+              var promises = [];
+              for (var i = 0; i < registrations.length; i++) {
+                promises.push(registrations[i].unregister().then(function() { hasUnregistered = true; }));
               }
-              Promise.all(promises).then(() => {
+              Promise.all(promises).then(function() {
                 if (hasUnregistered) {
                   window.location.reload(true);
                 }
