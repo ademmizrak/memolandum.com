@@ -1,11 +1,12 @@
 {
   "hosting": {
-    "public": "memolandum-web/out",
+    "public": "out",
     "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "data/**"
     ],
     "headers": [
       {
@@ -16,6 +17,24 @@
             "value": "no-cache, no-store, must-revalidate"
           }
         ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/leaderboard/__next.leaderboard.__PAGE__.txt",
+        "destination": "/leaderboard/__next.leaderboard/__PAGE__.txt"
+      },
+      {
+        "source": "/profile/__next.profile.__PAGE__.txt",
+        "destination": "/profile/__next.profile/__PAGE__.txt"
+      },
+      {
+        "source": "/vocabulary/__next.vocabulary.__PAGE__.txt",
+        "destination": "/vocabulary/__next.vocabulary/__PAGE__.txt"
+      },
+      {
+        "source": "/_not-found/__next._not-found.__PAGE__.txt",
+        "destination": "/_not-found/__next._not-found/__PAGE__.txt"
       }
     ]
   },

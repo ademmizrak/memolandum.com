@@ -1,0 +1,692 @@
+[
+  {
+    "id": "jap_hira_001",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "あ",
+    "romanized_script": "a",
+    "meaning": "Hiragana 'a'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_001_a.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_002",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "い",
+    "romanized_script": "i",
+    "meaning": "Hiragana 'i'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_002_i.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_003",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "う",
+    "romanized_script": "u",
+    "meaning": "Hiragana 'u'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_003_u.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_004",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "え",
+    "romanized_script": "e",
+    "meaning": "Hiragana 'e'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_004_e.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_005",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "お",
+    "romanized_script": "o",
+    "meaning": "Hiragana 'o'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_005_o.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_006",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "か",
+    "romanized_script": "ka",
+    "meaning": "Hiragana 'ka'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_006_ka.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_007",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "き",
+    "romanized_script": "ki",
+    "meaning": "Hiragana 'ki'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_007_ki.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_008",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "く",
+    "romanized_script": "ku",
+    "meaning": "Hiragana 'ku'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_008_ku.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_009",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "け",
+    "romanized_script": "ke",
+    "meaning": "Hiragana 'ke'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_009_ke.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_010",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "こ",
+    "romanized_script": "ko",
+    "meaning": "Hiragana 'ko'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_010_ko.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_011",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "さ",
+    "romanized_script": "sa",
+    "meaning": "Hiragana 'sa'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_011_sa.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_012",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "し",
+    "romanized_script": "shi",
+    "meaning": "Hiragana 'shi'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_012_shi.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_013",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "す",
+    "romanized_script": "su",
+    "meaning": "Hiragana 'su'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_013_su.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_014",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "せ",
+    "romanized_script": "se",
+    "meaning": "Hiragana 'se'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_014_se.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_015",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "そ",
+    "romanized_script": "so",
+    "meaning": "Hiragana 'so'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_015_so.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_016",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "た",
+    "romanized_script": "ta",
+    "meaning": "Hiragana 'ta'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_016_ta.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_017",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ち",
+    "romanized_script": "chi",
+    "meaning": "Hiragana 'chi'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_017_chi.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_018",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "つ",
+    "romanized_script": "tsu",
+    "meaning": "Hiragana 'tsu'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_018_tsu.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_019",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "て",
+    "romanized_script": "te",
+    "meaning": "Hiragana 'te'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_019_te.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_020",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "と",
+    "romanized_script": "to",
+    "meaning": "Hiragana 'to'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_020_to.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_021",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "な",
+    "romanized_script": "na",
+    "meaning": "Hiragana 'na'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_021_na.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_022",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "に",
+    "romanized_script": "ni",
+    "meaning": "Hiragana 'ni'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_022_ni.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_023",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ぬ",
+    "romanized_script": "nu",
+    "meaning": "Hiragana 'nu'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_023_nu.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_024",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ね",
+    "romanized_script": "ne",
+    "meaning": "Hiragana 'ne'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_024_ne.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_025",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "の",
+    "romanized_script": "no",
+    "meaning": "Hiragana 'no'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_025_no.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_026",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "は",
+    "romanized_script": "ha",
+    "meaning": "Hiragana 'ha'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_026_ha.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_027",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ひ",
+    "romanized_script": "hi",
+    "meaning": "Hiragana 'hi'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_027_hi.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_028",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ふ",
+    "romanized_script": "fu",
+    "meaning": "Hiragana 'fu'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_028_fu.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_029",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "へ",
+    "romanized_script": "he",
+    "meaning": "Hiragana 'he'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_029_he.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_030",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ほ",
+    "romanized_script": "ho",
+    "meaning": "Hiragana 'ho'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_030_ho.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_031",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ま",
+    "romanized_script": "ma",
+    "meaning": "Hiragana 'ma'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_031_ma.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_032",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "み",
+    "romanized_script": "mi",
+    "meaning": "Hiragana 'mi'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_032_mi.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_033",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "む",
+    "romanized_script": "mu",
+    "meaning": "Hiragana 'mu'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_033_mu.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_034",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "め",
+    "romanized_script": "me",
+    "meaning": "Hiragana 'me'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_034_me.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_035",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "も",
+    "romanized_script": "mo",
+    "meaning": "Hiragana 'mo'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_035_mo.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_036",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "や",
+    "romanized_script": "ya",
+    "meaning": "Hiragana 'ya'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_036_ya.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_037",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ゆ",
+    "romanized_script": "yu",
+    "meaning": "Hiragana 'yu'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_037_yu.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_038",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "よ",
+    "romanized_script": "yo",
+    "meaning": "Hiragana 'yo'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_038_yo.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_039",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ら",
+    "romanized_script": "ra",
+    "meaning": "Hiragana 'ra'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_039_ra.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_040",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "り",
+    "romanized_script": "ri",
+    "meaning": "Hiragana 'ri'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_040_ri.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_041",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "る",
+    "romanized_script": "ru",
+    "meaning": "Hiragana 'ru'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_041_ru.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_042",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "れ",
+    "romanized_script": "re",
+    "meaning": "Hiragana 're'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_042_re.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_043",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ろ",
+    "romanized_script": "ro",
+    "meaning": "Hiragana 'ro'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_043_ro.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_044",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "わ",
+    "romanized_script": "wa",
+    "meaning": "Hiragana 'wa'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_044_wa.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_045",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "を",
+    "romanized_script": "wo",
+    "meaning": "Hiragana 'wo'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_045_wo.mp3"
+    }
+  },
+  {
+    "id": "jap_hira_046",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ん",
+    "romanized_script": "n",
+    "meaning": "Hiragana 'n'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_hira_046_n.mp3"
+    }
+  }
+]

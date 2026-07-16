@@ -1,0 +1,801 @@
+[
+  {
+    "id": "root_101",
+    "type": "root",
+    "word": "anim",
+    "meaning": "can/ruh",
+    "example": "animate (canlandırmak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_101_anim.mp3"
+  },
+  {
+    "id": "root_102",
+    "type": "root",
+    "word": "apt",
+    "meaning": "uygun/yatkın",
+    "example": "adapt (uyarlamak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_102_apt.mp3"
+  },
+  {
+    "id": "root_103",
+    "type": "root",
+    "word": "bell",
+    "meaning": "savaş",
+    "example": "rebellion (başkaldırı)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_103_bell.mp3"
+  },
+  {
+    "id": "root_104",
+    "type": "root",
+    "word": "brev",
+    "meaning": "kısa",
+    "example": "abbreviate (kısaltmak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_104_brev.mp3"
+  },
+  {
+    "id": "root_105",
+    "type": "root",
+    "word": "cad",
+    "meaning": "düşmek",
+    "example": "cascade (şelale/düşüş)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_105_cad.mp3"
+  },
+  {
+    "id": "root_106",
+    "type": "root",
+    "word": "cand",
+    "meaning": "parlak/beyaz",
+    "example": "candid (açık sözlü)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_106_cand.mp3"
+  },
+  {
+    "id": "root_107",
+    "type": "root",
+    "word": "carn",
+    "meaning": "et",
+    "example": "carnivorous (etobur)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_107_carn.mp3"
+  },
+  {
+    "id": "root_108",
+    "type": "root",
+    "word": "cogn",
+    "meaning": "bilmek",
+    "example": "recognize (tanımak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_108_cogn.mp3"
+  },
+  {
+    "id": "root_109",
+    "type": "root",
+    "word": "corp",
+    "meaning": "gövde/beden",
+    "example": "corporate (kurumsal)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_109_corp.mp3"
+  },
+  {
+    "id": "root_110",
+    "type": "root",
+    "word": "curr",
+    "meaning": "koşmak/akmak",
+    "example": "current (akım)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_110_curr.mp3"
+  },
+  {
+    "id": "root_111",
+    "type": "root",
+    "word": "dent",
+    "meaning": "diş",
+    "example": "dental (diş ile ilgili)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_111_dent.mp3"
+  },
+  {
+    "id": "root_112",
+    "type": "root",
+    "word": "derm",
+    "meaning": "deri",
+    "example": "dermatology (cilt bilimi)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_112_derm.mp3"
+  },
+  {
+    "id": "root_113",
+    "type": "root",
+    "word": "equ",
+    "meaning": "eşit",
+    "example": "equality (eşitlik)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_113_equ.mp3"
+  },
+  {
+    "id": "root_114",
+    "type": "root",
+    "word": "fac",
+    "meaning": "yapmak",
+    "example": "factory (fabrika)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_114_fac.mp3"
+  },
+  {
+    "id": "root_115",
+    "type": "root",
+    "word": "fer",
+    "meaning": "taşımak/getirmek",
+    "example": "transfer (aktarmak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_115_fer.mp3"
+  },
+  {
+    "id": "root_116",
+    "type": "root",
+    "word": "flect",
+    "meaning": "bükmek",
+    "example": "reflect (yansıtmak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_116_flect.mp3"
+  },
+  {
+    "id": "root_117",
+    "type": "root",
+    "word": "frag",
+    "meaning": "kırmak",
+    "example": "fragment (parça)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_117_frag.mp3"
+  },
+  {
+    "id": "root_118",
+    "type": "root",
+    "word": "gen",
+    "meaning": "doğum/soy",
+    "example": "generate (üretmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_118_gen.mp3"
+  },
+  {
+    "id": "root_119",
+    "type": "root",
+    "word": "grad",
+    "meaning": "adım/derece",
+    "example": "graduate (mezun)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_119_grad.mp3"
+  },
+  {
+    "id": "root_120",
+    "type": "root",
+    "word": "gress",
+    "meaning": "ilerlemek",
+    "example": "progress (ilerleme)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_120_gress.mp3"
+  },
+  {
+    "id": "root_121",
+    "type": "root",
+    "word": "her",
+    "meaning": "yapışmak",
+    "example": "adhere (bağlı kalmak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_121_her.mp3"
+  },
+  {
+    "id": "root_122",
+    "type": "root",
+    "word": "junc",
+    "meaning": "birleştirmek",
+    "example": "junction (kavşak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_122_junc.mp3"
+  },
+  {
+    "id": "root_123",
+    "type": "root",
+    "word": "leg",
+    "meaning": "hukuk/yasamak",
+    "example": "legal (yasal)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_123_leg.mp3"
+  },
+  {
+    "id": "root_124",
+    "type": "root",
+    "word": "lev",
+    "meaning": "hafif/kaldırmak",
+    "example": "elevate (yükseltmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_124_lev.mp3"
+  },
+  {
+    "id": "root_125",
+    "type": "root",
+    "word": "lig",
+    "meaning": "bağlamak",
+    "example": "obligation (yükümlülük)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_125_lig.mp3"
+  },
+  {
+    "id": "root_126",
+    "type": "root",
+    "word": "liter",
+    "meaning": "harf",
+    "example": "literature (edebiyat)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_126_liter.mp3"
+  },
+  {
+    "id": "root_127",
+    "type": "root",
+    "word": "loq",
+    "meaning": "konuşmak",
+    "example": "eloquent (etkili konuşan)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_127_loq.mp3"
+  },
+  {
+    "id": "root_128",
+    "type": "root",
+    "word": "magn",
+    "meaning": "büyük",
+    "example": "magnify (büyütmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_128_magn.mp3"
+  },
+  {
+    "id": "root_129",
+    "type": "root",
+    "word": "man",
+    "meaning": "el",
+    "example": "manipulate (yönetmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_129_man.mp3"
+  },
+  {
+    "id": "root_130",
+    "type": "root",
+    "word": "mar",
+    "meaning": "deniz",
+    "example": "marine (deniz ile ilgili)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_130_mar.mp3"
+  },
+  {
+    "id": "root_131",
+    "type": "root",
+    "word": "mater",
+    "meaning": "anne",
+    "example": "maternal (anne ile ilgili)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_131_mater.mp3"
+  },
+  {
+    "id": "root_132",
+    "type": "root",
+    "word": "medi",
+    "meaning": "orta",
+    "example": "median (orta değer)"
+  },
+  {
+    "id": "root_133",
+    "type": "root",
+    "word": "ment",
+    "meaning": "akıl",
+    "example": "mental (zihinsel)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_133_ment.mp3"
+  },
+  {
+    "id": "root_134",
+    "type": "root",
+    "word": "migr",
+    "meaning": "yer değiştirmek",
+    "example": "migrate (göç etmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_134_migr.mp3"
+  },
+  {
+    "id": "root_135",
+    "type": "root",
+    "word": "min",
+    "meaning": "küçük/az",
+    "example": "minimize (en aza indirmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_135_min.mp3"
+  },
+  {
+    "id": "root_136",
+    "type": "root",
+    "word": "mon",
+    "meaning": "uyarmak/hatırlatmak",
+    "example": "monitor (izlemek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_136_mon.mp3"
+  },
+  {
+    "id": "root_137",
+    "type": "root",
+    "word": "multi",
+    "meaning": "çok",
+    "example": "multimedia (çoklu ortam)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_137_multi.mp3"
+  },
+  {
+    "id": "root_138",
+    "type": "root",
+    "word": "nat",
+    "meaning": "doğum",
+    "example": "native (yerli)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_138_nat.mp3"
+  },
+  {
+    "id": "root_139",
+    "type": "root",
+    "word": "neg",
+    "meaning": "inkar etmek",
+    "example": "negative (olumsuz)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_139_neg.mp3"
+  },
+  {
+    "id": "root_140",
+    "type": "root",
+    "word": "nomen",
+    "meaning": "isim",
+    "example": "nominal (isimsiz/düşük)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_140_nomen.mp3"
+  },
+  {
+    "id": "root_141",
+    "type": "prefix",
+    "word": "circum-",
+    "meaning": "çevre/etrafında",
+    "example": "circumspect (tedbirli)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_141_circum-.mp3"
+  },
+  {
+    "id": "root_142",
+    "type": "prefix",
+    "word": "extra-",
+    "meaning": "dışında",
+    "example": "extraordinary (olağanüstü)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_142_extra-.mp3"
+  },
+  {
+    "id": "root_143",
+    "type": "prefix",
+    "word": "infra-",
+    "meaning": "altında",
+    "example": "infrastructure (altyapı)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_143_infra-.mp3"
+  },
+  {
+    "id": "root_144",
+    "type": "prefix",
+    "word": "non-",
+    "meaning": "olumsuzluk",
+    "example": "nonstop (durmaksızın)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_144_non-.mp3"
+  },
+  {
+    "id": "root_145",
+    "type": "prefix",
+    "word": "omni-",
+    "meaning": "tüm/her",
+    "example": "omnipotent (her şeye gücü yeten)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_145_omni-.mp3"
+  },
+  {
+    "id": "root_146",
+    "type": "prefix",
+    "word": "over-",
+    "meaning": "fazla/aşırı",
+    "example": "overestimate (fazla tahmin)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_146_over-.mp3"
+  },
+  {
+    "id": "root_147",
+    "type": "prefix",
+    "word": "post-",
+    "meaning": "sonra",
+    "example": "postpone (ertelemek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_147_post-.mp3"
+  },
+  {
+    "id": "root_148",
+    "type": "prefix",
+    "word": "retro-",
+    "meaning": "geriye",
+    "example": "retroactive (geriye dönük)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_148_retro-.mp3"
+  },
+  {
+    "id": "root_149",
+    "type": "prefix",
+    "word": "super-",
+    "meaning": "üstünde",
+    "example": "superficial (yüzeysel)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_149_super-.mp3"
+  },
+  {
+    "id": "root_150",
+    "type": "prefix",
+    "word": "ultra-",
+    "meaning": "aşırı",
+    "example": "ultramodern (aşırı modern)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_150_ultra-.mp3"
+  },
+  {
+    "id": "root_151",
+    "type": "suffix",
+    "word": "-ate",
+    "meaning": "fiil yapan",
+    "example": "activate (etkinleştirmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_151_-ate.mp3"
+  },
+  {
+    "id": "root_152",
+    "type": "suffix",
+    "word": "-ify",
+    "meaning": "dönüştürmek",
+    "example": "simplify (basitleştirmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_152_-ify.mp3"
+  },
+  {
+    "id": "root_153",
+    "type": "suffix",
+    "word": "-ize",
+    "meaning": "yapmak/uygulamak",
+    "example": "organize (düzenlemek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_153_-ize.mp3"
+  },
+  {
+    "id": "root_154",
+    "type": "suffix",
+    "word": "-ive",
+    "meaning": "yapan/eğilimli",
+    "example": "creative (yaratıcı)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_154_-ive.mp3"
+  },
+  {
+    "id": "root_155",
+    "type": "suffix",
+    "word": "-ous",
+    "meaning": "sıfat yapan",
+    "example": "courageous (cesur)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_155_-ous.mp3"
+  },
+  {
+    "id": "root_156",
+    "type": "suffix",
+    "word": "-ic",
+    "meaning": "ile ilgili",
+    "example": "heroic (kahramanca)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_156_-ic.mp3"
+  },
+  {
+    "id": "root_157",
+    "type": "suffix",
+    "word": "-al",
+    "meaning": "ile ilgili",
+    "example": "cultural (kültürel)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_157_-al.mp3"
+  },
+  {
+    "id": "root_158",
+    "type": "suffix",
+    "word": "-y",
+    "meaning": "durum/özellik",
+    "example": "dizzy (baş dönmesi)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_158_-y.mp3"
+  },
+  {
+    "id": "root_159",
+    "type": "suffix",
+    "word": "-ish",
+    "meaning": "gibi/yakın",
+    "example": "reddish (kırmızımsı)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_159_-ish.mp3"
+  },
+  {
+    "id": "root_160",
+    "type": "suffix",
+    "word": "-ive",
+    "meaning": "ilgili/yapan",
+    "example": "instructive (öğretici)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_160_-ive.mp3"
+  },
+  {
+    "id": "root_161",
+    "type": "root",
+    "word": "nov",
+    "meaning": "yeni",
+    "example": "innovation (yenilik)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_161_nov.mp3"
+  },
+  {
+    "id": "root_162",
+    "type": "root",
+    "word": "numer",
+    "meaning": "sayı",
+    "example": "enumerate (numaralandırmak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_162_numer.mp3"
+  },
+  {
+    "id": "root_163",
+    "type": "root",
+    "word": "oper",
+    "meaning": "çalışmak",
+    "example": "operate (işletmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_163_oper.mp3"
+  },
+  {
+    "id": "root_164",
+    "type": "root",
+    "word": "pater",
+    "meaning": "baba",
+    "example": "paternal (baba ile ilgili)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_164_pater.mp3"
+  },
+  {
+    "id": "root_165",
+    "type": "root",
+    "word": "ped",
+    "meaning": "çocuk",
+    "example": "pediatrics (çocuk sağlığı)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_165_ped.mp3"
+  },
+  {
+    "id": "root_166",
+    "type": "root",
+    "word": "pel",
+    "meaning": "itmek",
+    "example": "compel (zorlamak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_166_pel.mp3"
+  },
+  {
+    "id": "root_167",
+    "type": "root",
+    "word": "phon",
+    "meaning": "ses",
+    "example": "microphone (ses büyütücü)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_167_phon.mp3"
+  },
+  {
+    "id": "root_168",
+    "type": "root",
+    "word": "plen",
+    "meaning": "dolu",
+    "example": "plenty (bolluk)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_168_plen.mp3"
+  },
+  {
+    "id": "root_169",
+    "type": "root",
+    "word": "pod",
+    "meaning": "ayak",
+    "example": "podium (ayaklık)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_169_pod.mp3"
+  },
+  {
+    "id": "root_170",
+    "type": "root",
+    "word": "poli",
+    "meaning": "şehir/devlet",
+    "example": "politics (politika)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_170_poli.mp3"
+  },
+  {
+    "id": "root_171",
+    "type": "root",
+    "word": "pop",
+    "meaning": "halk",
+    "example": "population (nüfus)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_171_pop.mp3"
+  },
+  {
+    "id": "root_172",
+    "type": "root",
+    "word": "psych",
+    "meaning": "zihin/ruh",
+    "example": "psychology (psikoloji)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_172_psych.mp3"
+  },
+  {
+    "id": "root_173",
+    "type": "root",
+    "word": "punct",
+    "meaning": "nokta/delmek",
+    "example": "punctual (dakik)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_173_punct.mp3"
+  },
+  {
+    "id": "root_174",
+    "type": "root",
+    "word": "rect",
+    "meaning": "düz/doğru",
+    "example": "correct (doğru)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_174_rect.mp3"
+  },
+  {
+    "id": "root_175",
+    "type": "root",
+    "word": "rupt",
+    "meaning": "kırmak/patlamak",
+    "example": "interrupt (söz kesmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_175_rupt.mp3"
+  },
+  {
+    "id": "root_176",
+    "type": "root",
+    "word": "sal",
+    "meaning": "tuz/sağlık",
+    "example": "saline (tuzlu)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_176_sal.mp3"
+  },
+  {
+    "id": "root_177",
+    "type": "root",
+    "word": "scend",
+    "meaning": "tırmanmak",
+    "example": "ascend (yükselmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_177_scend.mp3"
+  },
+  {
+    "id": "root_178",
+    "type": "root",
+    "word": "sec",
+    "meaning": "kesmek",
+    "example": "section (bölüm)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_178_sec.mp3"
+  },
+  {
+    "id": "root_179",
+    "type": "root",
+    "word": "sed",
+    "meaning": "oturmak/yerleşmek",
+    "example": "sedentary (hareketsiz)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_179_sed.mp3"
+  },
+  {
+    "id": "root_180",
+    "type": "root",
+    "word": "serv",
+    "meaning": "hizmet etmek/korumak",
+    "example": "conserve (korumak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_180_serv.mp3"
+  },
+  {
+    "id": "root_181",
+    "type": "root",
+    "word": "sol",
+    "meaning": "güneş",
+    "example": "solar (güneş ile ilgili)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_181_sol.mp3"
+  },
+  {
+    "id": "root_182",
+    "type": "root",
+    "word": "son",
+    "meaning": "ses",
+    "example": "sonic (ses ile ilgili)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_182_son.mp3"
+  },
+  {
+    "id": "root_183",
+    "type": "root",
+    "word": "spec",
+    "meaning": "görmek",
+    "example": "spectator (izleyici)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_183_spec.mp3"
+  },
+  {
+    "id": "root_184",
+    "type": "root",
+    "word": "spir",
+    "meaning": "nefes almak",
+    "example": "inspire (ilham vermek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_184_spir.mp3"
+  },
+  {
+    "id": "root_185",
+    "type": "root",
+    "word": "sta",
+    "meaning": "durmak",
+    "example": "stable (durağan)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_185_sta.mp3"
+  },
+  {
+    "id": "root_186",
+    "type": "root",
+    "word": "string",
+    "meaning": "sıkı/bağ",
+    "example": "strict (katı)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_186_string.mp3"
+  },
+  {
+    "id": "root_187",
+    "type": "root",
+    "word": "tang",
+    "meaning": "dokunmak",
+    "example": "tangible (somut)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_187_tang.mp3"
+  },
+  {
+    "id": "root_188",
+    "type": "root",
+    "word": "tort",
+    "meaning": "bükmek",
+    "example": "distort (saptırmak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_188_tort.mp3"
+  },
+  {
+    "id": "root_189",
+    "type": "root",
+    "word": "urb",
+    "meaning": "şehir",
+    "example": "urban (kentsel)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_189_urb.mp3"
+  },
+  {
+    "id": "root_190",
+    "type": "root",
+    "word": "vac",
+    "meaning": "boş",
+    "example": "evacuate (tahliye etmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_190_vac.mp3"
+  },
+  {
+    "id": "root_191",
+    "type": "root",
+    "word": "val",
+    "meaning": "güç/değer",
+    "example": "value (değer)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_191_val.mp3"
+  },
+  {
+    "id": "root_192",
+    "type": "root",
+    "word": "ven",
+    "meaning": "gelmek",
+    "example": "convene (toplanmak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_192_ven.mp3"
+  },
+  {
+    "id": "root_193",
+    "type": "root",
+    "word": "ver",
+    "meaning": "doğru",
+    "example": "verdict (karar)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_193_ver.mp3"
+  },
+  {
+    "id": "root_194",
+    "type": "root",
+    "word": "vid",
+    "meaning": "görmek",
+    "example": "video (görüntü)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_194_vid.mp3"
+  },
+  {
+    "id": "root_195",
+    "type": "root",
+    "word": "viv",
+    "meaning": "yaşamak",
+    "example": "survive (hayatta kalmak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_276_viv.mp3"
+  },
+  {
+    "id": "root_196",
+    "type": "root",
+    "word": "voc",
+    "meaning": "ses/çağırmak",
+    "example": "advocate (savunmak)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_277_voc.mp3"
+  },
+  {
+    "id": "root_197",
+    "type": "root",
+    "word": "vol",
+    "meaning": "istek/gönüllü",
+    "example": "volunteer (gönüllü)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_197_vol.mp3"
+  },
+  {
+    "id": "root_198",
+    "type": "root",
+    "word": "volv",
+    "meaning": "dönmek/sarmak",
+    "example": "evolve (gelişmek)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_198_volv.mp3"
+  },
+  {
+    "id": "root_199",
+    "type": "root",
+    "word": "xen",
+    "meaning": "yabancı",
+    "example": "xenophobia (yabancı korkusu)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_199_xen.mp3"
+  },
+  {
+    "id": "root_200",
+    "type": "root",
+    "word": "zo",
+    "meaning": "hayvan",
+    "example": "zoology (hayvan bilimi)",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Root_Kelimeler/audio_Root/root_200_zo.mp3"
+  }
+]

@@ -1,0 +1,6502 @@
+[
+  {
+    "id": "fr_sent_001",
+    "word": "Je me sens mieux.",
+    "translation": "Kendimi daha iyi hissediyorum.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_001.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_002",
+    "word": "C'est mieux que rien.",
+    "translation": "Hiç yoktan iyidir.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_002.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_003",
+    "word": "Il faut faire un effort.",
+    "translation": "Çaba göstermek gerek.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_003.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_004",
+    "word": "On peut le faire.",
+    "translation": "Bunu yapabiliriz.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_004.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_005",
+    "word": "Je suis fatigué.",
+    "translation": "Yorgunum.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_005.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_006",
+    "word": "J'ai faim.",
+    "translation": "Acıktım.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_006.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_007",
+    "word": "J'ai soif.",
+    "translation": "Susamışım.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_007.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_008",
+    "word": "Il fait beau aujourd'hui.",
+    "translation": "Bugün hava güzel.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_008.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_009",
+    "word": "Qu'est-ce que c'est ?",
+    "translation": "Bu nedir?",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_009.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_010",
+    "word": "Je ne sais pas.",
+    "translation": "Bilmiyorum.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_010.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_011",
+    "word": "C'est génial !",
+    "translation": "Bu harika!",
+    "len": 13,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_011.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_012",
+    "word": "J'aime la France.",
+    "translation": "Fransa'yı seviyorum.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_012.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_013",
+    "word": "Il est quelle heure ?",
+    "translation": "Saat kaç?",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_013.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_014",
+    "word": "C'est l'heure de manger.",
+    "translation": "Yemek vakti.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_014.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_015",
+    "word": "Il fait chaud ici.",
+    "translation": "Burası sıcak.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_015.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_016",
+    "word": "Je veux dormir.",
+    "translation": "Uyumak istiyorum.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_016.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_017",
+    "word": "C'est une bonne idée.",
+    "translation": "Bu iyi bir fikir.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_017.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_018",
+    "word": "Pas du tout.",
+    "translation": "Hiç de değil.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_018.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_019",
+    "word": "D'accord.",
+    "translation": "Anlaştık.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_019.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_020",
+    "word": "Il pleut.",
+    "translation": "Yağmur yağıyor.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_020.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_021",
+    "word": "J'ai oublié mes clés.",
+    "translation": "Anahtarlarımı unuttum.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_021.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_022",
+    "word": "Peux-tu ouvrir la porte ?",
+    "translation": "Kapıyı açabilir misin?",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_022.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_023",
+    "word": "C'est trop chaud.",
+    "translation": "Çok sıcak.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_023.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_024",
+    "word": "C'est parfait comme ça.",
+    "translation": "Böyle mükemmel.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_024.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_025",
+    "word": "C'est une bonne journée.",
+    "translation": "Güzel bir gün.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_025.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_026",
+    "word": "Il fait froid dehors.",
+    "translation": "Dışarısı soğuk.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_026.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_027",
+    "word": "Mettez un manteau.",
+    "translation": "Mont giyin.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_027.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_028",
+    "word": "Je suis en retard.",
+    "translation": "Geciktim.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_028.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_029",
+    "word": "Dépêchez-vous !",
+    "translation": "Acele edin!",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_029.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_030",
+    "word": "Je reviens bientôt.",
+    "translation": "Yakında döneceğim.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_030.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_031",
+    "word": "Je ne peux pas m'en passer.",
+    "translation": "Onsuz yapamam.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_031.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_032",
+    "word": "Je vais prendre mon temps.",
+    "translation": "Acele etmeyeceğim.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_032.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_033",
+    "word": "Ne fais pas l'idiot.",
+    "translation": "Ahmaklık yapma.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_033.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_034",
+    "word": "Je n'ai aucune idée.",
+    "translation": "Hiçbir fikrim yok.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_034.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_035",
+    "word": "Qu'est-ce qui se passe ?",
+    "translation": "Neler oluyor?",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_035.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_036",
+    "word": "Rien de spécial.",
+    "translation": "Özel bir şey yok.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_036.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_037",
+    "word": "J'ai besoin de réfléchir.",
+    "translation": "Düşünmem gerekiyor.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_037.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_038",
+    "word": "C'est quel jour aujourd'hui ?",
+    "translation": "Bugün günlerden ne?",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_038.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_039",
+    "word": "Nous sommes mardi.",
+    "translation": "Bugün salı.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_039.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_040",
+    "word": "N'oublie pas tes affaires.",
+    "translation": "Eşyalarını unutma.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_040.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_041",
+    "word": "Je pense qu'il va pleuvoir.",
+    "translation": "Sanırım yağmur yağacak.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_041.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_042",
+    "word": "Prends ton parapluie.",
+    "translation": "Şemsiyeni al.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_042.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_043",
+    "word": "Tout est sous contrôle.",
+    "translation": "Her şey kontrol altında.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_043.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_044",
+    "word": "Allez, on y va.",
+    "translation": "Hadi, gidiyoruz.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_044.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_045",
+    "word": "Je veux rentrer chez moi.",
+    "translation": "Evime dönmek istiyorum.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_045.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_046",
+    "word": "C'est l'heure de se lever.",
+    "translation": "Kalkma vakti.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_046.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_047",
+    "word": "Quelle belle journée !",
+    "translation": "Ne güzel bir gün!",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_047.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_048",
+    "word": "C'est tout ce que je veux.",
+    "translation": "Tek istediğim bu.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_048.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_049",
+    "word": "C'est mieux que rien.",
+    "translation": "Hiç yoktan iyidir.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_049.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_050",
+    "word": "Il faut faire un effort.",
+    "translation": "Çaba göstermek gerek.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_050.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_051",
+    "word": "On peut le faire.",
+    "translation": "Bunu yapabiliriz.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_051.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_052",
+    "word": "C'est tout.",
+    "translation": "Hepsi bu.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_052.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_053",
+    "word": "Je suis prêt.",
+    "translation": "Hazırım.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_053.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_054",
+    "word": "Attends-moi ici.",
+    "translation": "Beni burada bekle.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_054.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_055",
+    "word": "C'est très important.",
+    "translation": "Bu çok önemli.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_055.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_056",
+    "word": "Ne fais pas de bruit.",
+    "translation": "Gürültü yapma.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_056.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_057",
+    "word": "Ouvre la fenêtre.",
+    "translation": "Pencereyi aç.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_057.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_058",
+    "word": "Ferme la porte.",
+    "translation": "Kapıyı kapat.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_058.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_059",
+    "word": "Allume la lumière.",
+    "translation": "Işığı aç.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_059.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_060",
+    "word": "Éteins la télé.",
+    "translation": "Televizyonu kapat.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_060.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_061",
+    "word": "J'ai besoin de calme.",
+    "translation": "Sessizliğe ihtiyacım var.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_061.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_062",
+    "word": "Je travaille à la maison.",
+    "translation": "Evde çalışıyorum.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_062.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_063",
+    "word": "Où est mon téléphone ?",
+    "translation": "Telefonum nerede?",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_063.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_064",
+    "word": "C'est sur la table.",
+    "translation": "Masanın üzerinde.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_064.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_065",
+    "word": "J'ai soif d'apprendre.",
+    "translation": "Öğrenmeye açım.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_065.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_066",
+    "word": "Le café est prêt.",
+    "translation": "Kahve hazır.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_066.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_067",
+    "word": "Il est très bon.",
+    "translation": "Çok güzel.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_067.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_068",
+    "word": "Tu veux un sucre ?",
+    "translation": "Şeker ister misin?",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_068.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_069",
+    "word": "Non, merci.",
+    "translation": "Hayır, teşekkürler.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_069.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_070",
+    "word": "C'est suffisant.",
+    "translation": "Bu yeterli.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_070.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_071",
+    "word": "J'ai beaucoup de travail.",
+    "translation": "Çok işim var.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_071.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_072",
+    "word": "Je dois me dépêcher.",
+    "translation": "Acele etmem gerek.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_072.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_073",
+    "word": "À plus tard.",
+    "translation": "Sonra görüşürüz.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_073.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_074",
+    "word": "Bonne fin de journée.",
+    "translation": "İyi günler.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_074.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_075",
+    "word": "À demain matin.",
+    "translation": "Yarın sabah görüşürüz.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_075.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_076",
+    "word": "Fais de beaux rêves.",
+    "translation": "Tatlı rüyalar.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_076.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_077",
+    "word": "Bonne nuit, à demain.",
+    "translation": "İyi geceler, yarına.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_077.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_078",
+    "word": "C'est un beau jour.",
+    "translation": "Güzel bir gün.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_078.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_079",
+    "word": "Profitons-en.",
+    "translation": "Tadını çıkaralım.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_079.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_080",
+    "word": "C'est la vie.",
+    "translation": "Hayat bu.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_080.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_081",
+    "word": "Tout est possible.",
+    "translation": "Her şey mümkün.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_081.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_082",
+    "word": "Ne perds pas espoir.",
+    "translation": "Umudunu kaybetme.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_082.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_083",
+    "word": "Sois positif.",
+    "translation": "Pozitif ol.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_083.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_084",
+    "word": "Tout ira bien.",
+    "translation": "Her şey iyi olacak.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_084.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_085",
+    "word": "Je compte sur toi.",
+    "translation": "Sana güveniyorum.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_085.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_086",
+    "word": "Tu es mon ami.",
+    "translation": "Sen benim arkadaşımsın.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_086.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_087",
+    "word": "On est ensemble.",
+    "translation": "Birlikteyiz.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_087.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_088",
+    "word": "C'est super.",
+    "translation": "Bu harika.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_088.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_089",
+    "word": "Ça me plaît.",
+    "translation": "Hoşuma gidiyor.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_089.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_090",
+    "word": "C'est un bon début.",
+    "translation": "İyi bir başlangıç.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_090.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_091",
+    "word": "Je continue à apprendre.",
+    "translation": "Öğrenmeye devam ediyorum.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_091.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_092",
+    "word": "C'est ma passion.",
+    "translation": "Bu benim tutkum.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_092.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_093",
+    "word": "J'aime relever des défis.",
+    "translation": "Zorlukları aşmayı severim.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_093.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_094",
+    "word": "Je ne recule jamais.",
+    "translation": "Asla geri adım atmam.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_094.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_095",
+    "word": "C'est une étape importante.",
+    "translation": "Önemli bir aşama.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_095.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_096",
+    "word": "Je suis fier de ce projet.",
+    "translation": "Bu projeyle gurur duyuyorum.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_096.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_097",
+    "word": "C'est le travail d'une équipe.",
+    "translation": "Bu bir ekip çalışması.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_097.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_098",
+    "word": "Merci à vous tous.",
+    "translation": "Hepinize teşekkürler.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_098.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_099",
+    "word": "On continue comme ça.",
+    "translation": "Böyle devam.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_099.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_100",
+    "word": "C'est parti !",
+    "translation": "Başlayalım!",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_100.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_201",
+    "word": "Je travaille ici.",
+    "translation": "Burada çalışıyorum.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_201.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_202",
+    "word": "Quel est votre travail ?",
+    "translation": "İşiniz nedir?",
+    "len": 22,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_202.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_203",
+    "word": "Je suis étudiant.",
+    "translation": "Öğrenciyim.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_203.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_204",
+    "word": "C'est une grande réussite.",
+    "translation": "Bu büyük bir başarı.",
+    "len": 25,
+    "tags": [
+      "work",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_204.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_205",
+    "word": "Bravo pour ton travail.",
+    "translation": "İşin için tebrikler.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_205.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_206",
+    "word": "Je travaille sur mon projet.",
+    "translation": "Projem üzerinde çalışıyorum.",
+    "len": 26,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_206.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_207",
+    "word": "Tu as fini ton travail ?",
+    "translation": "İşini bitirdin mi?",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_207.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_208",
+    "word": "Je suis fatigué de travailler.",
+    "translation": "Çalışmaktan yoruldum.",
+    "len": 28,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_208.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_209",
+    "word": "Je suis très occupé.",
+    "translation": "Çok meşgulüm.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_209.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_210",
+    "word": "J'ai un rendez-vous important.",
+    "translation": "Önemli bir randevum var.",
+    "len": 29,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_210.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_211",
+    "word": "Je travaille toujours.",
+    "translation": "Hala çalışıyorum.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_211.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_212",
+    "word": "Prends une pause.",
+    "translation": "Bir mola ver.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_212.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_213",
+    "word": "Tu fais du bon travail.",
+    "translation": "İyi iş çıkarıyorsun.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_213.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_214",
+    "word": "Je suis fier de ce projet.",
+    "translation": "Bu projeyle gurur duyuyorum.",
+    "len": 26,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_214.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_215",
+    "word": "C'est le travail d'une équipe.",
+    "translation": "Bu bir ekip çalışması.",
+    "len": 27,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_215.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_216",
+    "word": "Je dois préparer une présentation.",
+    "translation": "Bir sunum hazırlamam gerek.",
+    "len": 31,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_216.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_217",
+    "word": "La réunion est à dix heures.",
+    "translation": "Toplantı saat onda.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_217.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_218",
+    "word": "As-tu préparé les documents ?",
+    "translation": "Belgeleri hazırladın mı?",
+    "len": 27,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_218.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_219",
+    "word": "Je vais envoyer un email.",
+    "translation": "Bir e-posta göndereceğim.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_219.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_220",
+    "word": "C'est une priorité.",
+    "translation": "Bu bir öncelik.",
+    "len": 17,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_220.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_221",
+    "word": "On a beaucoup de tâches.",
+    "translation": "Çok görevimiz var.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_221.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_222",
+    "word": "Il faut respecter les délais.",
+    "translation": "Teslim tarihlerine uymak gerek.",
+    "len": 29,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_222.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_223",
+    "word": "Je suis en réunion.",
+    "translation": "Toplantıdayım.",
+    "len": 17,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_223.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_224",
+    "word": "Appelle-moi plus tard.",
+    "translation": "Beni daha sonra ara.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_224.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_225",
+    "word": "Je te rappellerai.",
+    "translation": "Seni arayacağım.",
+    "len": 17,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_225.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_226",
+    "word": "C'est un défi intéressant.",
+    "translation": "İlginç bir zorluk.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_226.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_227",
+    "word": "Nous avons besoin de solutions.",
+    "translation": "Çözümlere ihtiyacımız var.",
+    "len": 28,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_227.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_228",
+    "word": "Quel est le plan ?",
+    "translation": "Plan nedir?",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_228.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_229",
+    "word": "Il faut agir maintenant.",
+    "translation": "Hemen harekete geçmeliyiz.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_229.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_230",
+    "word": "On analyse les données.",
+    "translation": "Verileri analiz ediyoruz.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_230.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_231",
+    "word": "Le résultat est positif.",
+    "translation": "Sonuç olumlu.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_231.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_232",
+    "word": "C'est un bon résultat.",
+    "translation": "Bu iyi bir sonuç.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_232.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_233",
+    "word": "Je suis satisfait de nous.",
+    "translation": "Bizden memnunum.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_233.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_234",
+    "word": "On doit s'améliorer.",
+    "translation": "Gelişmemiz gerek.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_234.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_235",
+    "word": "Tu as fait du bon travail.",
+    "translation": "İyi iş çıkardın.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_235.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_236",
+    "word": "C'est un travail bien fait.",
+    "translation": "İyi yapılmış bir iş.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_236.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_237",
+    "word": "Quel est ton objectif ?",
+    "translation": "Hedefin nedir?",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_237.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_238",
+    "word": "Je veux progresser.",
+    "translation": "İlerlemek istiyorum.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_238.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_239",
+    "word": "C'est une opportunité.",
+    "translation": "Bu bir fırsat.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_239.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_240",
+    "word": "Il faut saisir l'occasion.",
+    "translation": "Fırsatı değerlendirmek gerek.",
+    "len": 27,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_240.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_241",
+    "word": "Je demande une augmentation.",
+    "translation": "Zam istiyorum.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_241.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_242",
+    "word": "Je cherche un nouvel emploi.",
+    "translation": "Yeni bir iş arıyorum.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_242.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_243",
+    "word": "C'est un poste intéressant.",
+    "translation": "İlginç bir pozisyon.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_243.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_244",
+    "word": "Je vais postuler.",
+    "translation": "Başvuracağım.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_244.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_245",
+    "word": "Il faut envoyer le CV.",
+    "translation": "CV'yi göndermek gerek.",
+    "len": 22,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_245.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_246",
+    "word": "C'est une longue journée.",
+    "translation": "Uzun bir gün.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_246.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_247",
+    "word": "Je suis épuisé.",
+    "translation": "Tükendim.",
+    "len": 13,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_247.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_248",
+    "word": "On a besoin de repos.",
+    "translation": "Dinlenmeye ihtiyacımız var.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_248.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_249",
+    "word": "Le travail est la santé.",
+    "translation": "Çalışmak sağlıktır.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_249.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_250",
+    "word": "Bon travail à tous.",
+    "translation": "Herkese iyi çalışmalar.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_250.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_251",
+    "word": "Qu'est-ce qu'on doit faire ?",
+    "translation": "Ne yapmamız gerekiyor?",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_251.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_252",
+    "word": "On doit finir le projet.",
+    "translation": "Projeyi bitirmeliyiz.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_252.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_253",
+    "word": "C'est urgent.",
+    "translation": "Acil.",
+    "len": 12,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_253.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_254",
+    "word": "On manque de temps.",
+    "translation": "Zamanımız azalıyor.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_254.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_255",
+    "word": "Il faut se dépêcher.",
+    "translation": "Acele etmek lazım.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_255.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_256",
+    "word": "Je m'occupe de ça.",
+    "translation": "Bununla ben ilgileniyorum.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_256.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_257",
+    "word": "Merci de ta collaboration.",
+    "translation": "İş birliğin için teşekkürler.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_257.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_258",
+    "word": "C'est un effort collectif.",
+    "translation": "Bu kolektif bir çaba.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_258.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_259",
+    "word": "Bravo pour cette avancée.",
+    "translation": "Bu ilerleme için tebrikler.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_259.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_260",
+    "word": "C'est un grand pas.",
+    "translation": "Bu büyük bir adım.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_260.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_261",
+    "word": "Je suis prêt pour la suite.",
+    "translation": "Devamı için hazırım.",
+    "len": 22,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_261.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_262",
+    "word": "On continue le travail.",
+    "translation": "Çalışmaya devam ediyoruz.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_262.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_263",
+    "word": "C'est un projet ambitieux.",
+    "translation": "Bu iddialı bir proje.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_263.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_264",
+    "word": "Il a du potentiel.",
+    "translation": "Potansiyeli var.",
+    "len": 15,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_264.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_265",
+    "word": "On va y arriver.",
+    "translation": "Başaracağız.",
+    "len": 14,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_265.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_266",
+    "word": "Faisons de notre mieux.",
+    "translation": "Elimizden gelenin en iyisini yapalım.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_266.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_267",
+    "word": "C'est une journée productive.",
+    "translation": "Üretken bir gün.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_267.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_268",
+    "word": "J'aime travailler avec vous.",
+    "translation": "Sizinle çalışmayı seviyorum.",
+    "len": 26,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_268.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_269",
+    "word": "C'est très professionnel.",
+    "translation": "Çok profesyonelce.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_269.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_270",
+    "word": "Bonne initiative.",
+    "translation": "İyi bir girişim.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_270.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_271",
+    "word": "Je valide ton idée.",
+    "translation": "Fikrini onaylıyorum.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_271.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_272",
+    "word": "C'est très utile.",
+    "translation": "Çok yararlı.",
+    "len": 14,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_272.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_273",
+    "word": "Ça va changer les choses.",
+    "translation": "Bu işleri değiştirecek.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_273.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_274",
+    "word": "On a besoin d'avis.",
+    "translation": "Görüşlere ihtiyacımız var.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_274.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_275",
+    "word": "Donne ton avis.",
+    "translation": "Görüşünü bildir.",
+    "len": 15,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_275.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_276",
+    "word": "C'est essentiel pour nous.",
+    "translation": "Bizim için esas.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_276.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_277",
+    "word": "Je prends note.",
+    "translation": "Not alıyorum.",
+    "len": 13,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_277.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_278",
+    "word": "On va en discuter.",
+    "translation": "Bunu tartışacağız.",
+    "len": 17,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_278.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_279",
+    "word": "Je suis ouvert aux suggestions.",
+    "translation": "Önerilere açığım.",
+    "len": 26,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_279.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_280",
+    "word": "Merci de ta franchise.",
+    "translation": "Dürüstlüğün için teşekkürler.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_280.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_281",
+    "word": "On peut faire mieux.",
+    "translation": "Daha iyisini yapabiliriz.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_281.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_282",
+    "word": "C'est un défi à relever.",
+    "translation": "Aşılması gereken bir zorluk.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_282.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_283",
+    "word": "On va réussir.",
+    "translation": "Başaracağız.",
+    "len": 13,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_283.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_284",
+    "word": "Je compte sur ton soutien.",
+    "translation": "Desteğine güveniyorum.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_284.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_285",
+    "word": "Tu es un élément clé.",
+    "translation": "Kilit bir parçasın.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_285.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_286",
+    "word": "Merci pour ton implication.",
+    "translation": "Katılımın için teşekkürler.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_286.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_287",
+    "word": "On forme une bonne équipe.",
+    "translation": "İyi bir takımız.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_287.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_288",
+    "word": "C'est gratifiant.",
+    "translation": "Tatmin edici.",
+    "len": 13,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_288.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_289",
+    "word": "Je suis motivé.",
+    "translation": "Motivasyonum yüksek.",
+    "len": 14,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_289.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_290",
+    "word": "On a un bel avenir.",
+    "translation": "Güzel bir geleceğimiz var.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_290.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_291",
+    "word": "Merci pour cette opportunité.",
+    "translation": "Bu fırsat için teşekkürler.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_291.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_292",
+    "word": "C'est une expérience enrichissante.",
+    "translation": "Zenginleştirici bir deneyim.",
+    "len": 28,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_292.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_293",
+    "word": "Je suis prêt à apprendre.",
+    "translation": "Öğrenmeye hazırım.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_293.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_294",
+    "word": "On va grandir ensemble.",
+    "translation": "Birlikte büyüyeceğiz.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_294.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_295",
+    "word": "C'est motivant.",
+    "translation": "Motive edici.",
+    "len": 13,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_295.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_296",
+    "word": "Il faut rester concentré.",
+    "translation": "Odaklanmış kalmalıyız.",
+    "len": 22,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_296.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_297",
+    "word": "L'effort porte ses fruits.",
+    "translation": "Çaba meyvelerini verir.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_297.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_298",
+    "word": "Chaque détail compte.",
+    "translation": "Her detay önemlidir.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_298.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_299",
+    "word": "On vise l'excellence.",
+    "translation": "Mükemmelliği hedefliyoruz.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_299.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_300",
+    "word": "C'est notre devise.",
+    "translation": "Bu bizim mottomuz.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_300.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_401",
+    "word": "Je ne peux pas m'imaginer la vie sans toi.",
+    "translation": "Sensiz bir hayat hayal edemiyorum.",
+    "len": 40,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_401.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_402",
+    "word": "On a tellement de souvenirs ensemble.",
+    "translation": "Birlikte o kadar çok anımız var ki.",
+    "len": 35,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_402.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_403",
+    "word": "C'est un lien indestructible.",
+    "translation": "Bu kopmaz bir bağ.",
+    "len": 27,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_403.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_404",
+    "word": "Je serai toujours là pour toi.",
+    "translation": "Senin için her zaman burada olacağım.",
+    "len": 30,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_404.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_405",
+    "word": "On peut tout surmonter ensemble.",
+    "translation": "Birlikte her şeyin üstesinden gelebiliriz.",
+    "len": 32,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_405.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_406",
+    "word": "Ta présence me donne de la force.",
+    "translation": "Varlığın bana güç veriyor.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_406.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_407",
+    "word": "Merci d'être qui tu es.",
+    "translation": "Olduğun gibi kaldığın için teşekkürler.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_407.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_408",
+    "word": "J'admire ton courage.",
+    "translation": "Cesaretine hayranım.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_408.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_409",
+    "word": "Tu m'inspires chaque jour.",
+    "translation": "Bana her gün ilham veriyorsun.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_409.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_410",
+    "word": "Ne change jamais.",
+    "translation": "Asla değişme.",
+    "len": 16,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_410.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_411",
+    "word": "Je me sens tellement chanceux.",
+    "translation": "Kendimi çok şanslı hissediyorum.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_411.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_412",
+    "word": "C'est une belle journée pour apprendre.",
+    "translation": "Öğrenmek için güzel bir gün.",
+    "len": 33,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_412.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_413",
+    "word": "La langue française est fascinante.",
+    "translation": "Fransız dili büyüleyici.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "hobbies"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_413.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_414",
+    "word": "Je fais des progrès rapides.",
+    "translation": "Hızlı ilerleme kaydediyorum.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_414.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_415",
+    "word": "C'est difficile, mais gratifiant.",
+    "translation": "Zor ama tatmin edici.",
+    "len": 27,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_415.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_416",
+    "word": "Je ne m'arrête jamais.",
+    "translation": "Asla durmuyorum.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_416.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_417",
+    "word": "Chaque mot compte.",
+    "translation": "Her kelime önemlidir.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_417.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_418",
+    "word": "Je lis un peu chaque soir.",
+    "translation": "Her akşam biraz okuyorum.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "hobbies"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_418.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_419",
+    "word": "J'écoute des podcasts français.",
+    "translation": "Fransızca podcastler dinliyorum.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "hobbies"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_419.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_420",
+    "word": "La pratique est la clé.",
+    "translation": "Pratik anahtardır.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_420.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_421",
+    "word": "J'adore parler avec les locaux.",
+    "translation": "Yerel halkla konuşmaya bayılıyorum.",
+    "len": 30,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_421.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_422",
+    "word": "Ils sont très accueillants.",
+    "translation": "Çok misafirperverler.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_422.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_423",
+    "word": "Je me sens comme chez moi.",
+    "translation": "Evimde gibi hissediyorum.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_423.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_424",
+    "word": "La culture est si riche.",
+    "translation": "Kültür çok zengin.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_424.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_425",
+    "word": "J'ai visité le musée du Louvre.",
+    "translation": "Louvre Müzesi'ni gezdim.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_425.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_426",
+    "word": "C'était époustouflant.",
+    "translation": "Nefes kesiciydi.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_426.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_427",
+    "word": "J'ai marché sur les Champs-Élysées.",
+    "translation": "Şanzelize'de yürüdüm.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_427.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_428",
+    "word": "La vue depuis la tour Eiffel est unique.",
+    "translation": "Eyfel Kulesi'nden manzara eşsiz.",
+    "len": 36,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_428.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_429",
+    "word": "Je veux revenir ici.",
+    "translation": "Buraya geri dönmek istiyorum.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_429.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_430",
+    "word": "Il y a tant de choses à faire.",
+    "translation": "Yapacak çok şey var.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_430.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_431",
+    "word": "Je ne veux jamais partir.",
+    "translation": "Asla ayrılmak istemiyorum.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_431.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_432",
+    "word": "C'est un rêve devenu réalité.",
+    "translation": "Gerçeğe dönüşen bir rüya.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_432.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_433",
+    "word": "Je garderai ces souvenirs pour toujours.",
+    "translation": "Bu anıları sonsuza dek saklayacağım.",
+    "len": 37,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_433.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_434",
+    "word": "Le temps file.",
+    "translation": "Zaman uçup gidiyor.",
+    "len": 13,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_434.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_435",
+    "word": "Il faut savourer chaque instant.",
+    "translation": "Her anın tadını çıkarmak gerek.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_435.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_436",
+    "word": "La vie est une aventure.",
+    "translation": "Hayat bir maceradır.",
+    "len": 22,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_436.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_437",
+    "word": "Suis ton cœur.",
+    "translation": "Kalbinin sesini dinle.",
+    "len": 13,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_437.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_438",
+    "word": "Ne laisse personne te freiner.",
+    "translation": "Kimsenin seni durdurmasına izin verme.",
+    "len": 29,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_438.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_439",
+    "word": "Crois en toi.",
+    "translation": "Kendine inan.",
+    "len": 12,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_439.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_440",
+    "word": "Tu es capable de tout.",
+    "translation": "Her şeyi başarabilirsin.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_440.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_441",
+    "word": "Rien n'est impossible.",
+    "translation": "Hiçbir şey imkansız değildir.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_441.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_442",
+    "word": "La persévérance est la clé.",
+    "translation": "Azim anahtardır.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_442.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_443",
+    "word": "Ne baisse jamais les bras.",
+    "translation": "Asla pes etme.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_443.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_444",
+    "word": "Chaque erreur est une leçon.",
+    "translation": "Her hata bir derstir.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_444.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_445",
+    "word": "Apprends de tes expériences.",
+    "translation": "Deneyimlerinden öğren.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_445.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_446",
+    "word": "Sois curieux.",
+    "translation": "Meraklı ol.",
+    "len": 12,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_446.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_447",
+    "word": "Pose des questions.",
+    "translation": "Sorular sor.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_447.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_448",
+    "word": "N'aie pas peur de l'inconnu.",
+    "translation": "Bilinmeyenden korkma.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_448.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_449",
+    "word": "L'inconnu est une opportunité.",
+    "translation": "Bilinmeyen bir fırsattır.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_449.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_450",
+    "word": "Ose sortir de ta zone de confort.",
+    "translation": "Konfor alanından çıkmaya cesaret et.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_450.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_451",
+    "word": "C'est là que tout commence.",
+    "translation": "Her şey orada başlar.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_451.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_452",
+    "word": "Le changement est bon.",
+    "translation": "Değişim iyidir.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_452.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_453",
+    "word": "Accueille le nouveau.",
+    "translation": "Yeni olanı kucakla.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_453.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_454",
+    "word": "L'avenir est devant toi.",
+    "translation": "Gelecek senin önünde.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_454.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_455",
+    "word": "Le passé est derrière.",
+    "translation": "Geçmiş arkada kaldı.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_455.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_456",
+    "word": "Vis le moment présent.",
+    "translation": "Anı yaşa.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_456.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_457",
+    "word": "Profite de chaque seconde.",
+    "translation": "Her saniyenin tadını çıkar.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_457.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_458",
+    "word": "Sois reconnaissant.",
+    "translation": "Minnettar ol.",
+    "len": 15,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_458.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_459",
+    "word": "Remercie pour les petits détails.",
+    "translation": "Küçük detaylar için teşekkür et.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_459.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_460",
+    "word": "Le bonheur est dans les petites choses.",
+    "translation": "Mutluluk küçük şeylerde gizlidir.",
+    "len": 33,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_460.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_461",
+    "word": "Partage ton bonheur.",
+    "translation": "Mutluluğunu paylaş.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_461.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_462",
+    "word": "Sois généreux.",
+    "translation": "Cömert ol.",
+    "len": 14,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_462.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_463",
+    "word": "Aide ceux dans le besoin.",
+    "translation": "İhtiyacı olanlara yardım et.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_463.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_464",
+    "word": "La solidarité est vitale.",
+    "translation": "Dayanışma hayati önem taşır.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_464.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_465",
+    "word": "Ensemble, on est plus forts.",
+    "translation": "Birlikte daha güçlüyüz.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_465.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_466",
+    "word": "Ne laisse personne de côté.",
+    "translation": "Kimseyi geride bırakma.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_466.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_467",
+    "word": "La bienveillance fait la différence.",
+    "translation": "İyi niyet fark yaratır.",
+    "len": 27,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_467.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_468",
+    "word": "Écoute avec attention.",
+    "translation": "Dikkatle dinle.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_468.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_469",
+    "word": "Comprends les autres.",
+    "translation": "Başkalarını anlamaya çalış.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_469.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_470",
+    "word": "La patience est une vertu.",
+    "translation": "Sabır bir erdemdir.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_470.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_471",
+    "word": "Ne réagis pas avec colère.",
+    "translation": "Öfkeyle tepki verme.",
+    "len": 22,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_471.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_472",
+    "word": "Respire un grand coup.",
+    "translation": "Derin bir nefes al.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_472.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_473",
+    "word": "Prends du recul.",
+    "translation": "Geri adım at.",
+    "len": 14,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_473.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_474",
+    "word": "Analyse la situation.",
+    "translation": "Durumu analiz et.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_474.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_475",
+    "word": "Trouve une solution calme.",
+    "translation": "Sakin bir çözüm bul.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_475.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_476",
+    "word": "Le dialogue résout tout.",
+    "translation": "Diyalog her şeyi çözer.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_476.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_477",
+    "word": "Sois diplomate.",
+    "translation": "Diplomatik ol.",
+    "len": 14,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_477.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_478",
+    "word": "Respecte les opinions des autres.",
+    "translation": "Başkalarının fikirlerine saygı duy.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_478.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_479",
+    "word": "Même si tu n'es pas d'accord.",
+    "translation": "Aynı fikirde olmasan bile.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_479.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_480",
+    "word": "La tolérance est essentielle.",
+    "translation": "Hoşgörü şarttır.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_480.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_481",
+    "word": "Apprends à pardonner.",
+    "translation": "Affetmeyi öğren.",
+    "len": 16,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_481.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_482",
+    "word": "Le pardon libère l'esprit.",
+    "translation": "Affetmek zihni özgürleştirir.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_482.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_483",
+    "word": "Ne garde pas de rancœur.",
+    "translation": "Kin besleme.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_483.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_484",
+    "word": "Avance avec légèreté.",
+    "translation": "Hafiflikle ilerle.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_484.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_485",
+    "word": "Laisse les choses aller.",
+    "translation": "Akışına bırak.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_485.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_486",
+    "word": "La paix est en toi.",
+    "translation": "Huzur senin içindedir.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_486.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_487",
+    "word": "Cherche l'équilibre.",
+    "translation": "Dengeyi ara.",
+    "len": 15,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_487.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_488",
+    "word": "Cultive ton jardin intérieur.",
+    "translation": "İç dünyanı geliştir.",
+    "len": 22,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_488.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_489",
+    "word": "La beauté est partout.",
+    "translation": "Güzellik her yerdedir.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_489.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_490",
+    "word": "Ouvre tes yeux.",
+    "translation": "Gözlerini aç.",
+    "len": 13,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_490.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_491",
+    "word": "Admire le monde.",
+    "translation": "Dünyayı hayranlıkla izle.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_491.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_492",
+    "word": "La terre est précieuse.",
+    "translation": "Dünya çok kıymetli.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_492.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_493",
+    "word": "Protégeons la nature.",
+    "translation": "Doğayı koruyalım.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_493.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_494",
+    "word": "C'est notre maison commune.",
+    "translation": "Bu bizim ortak evimiz.",
+    "len": 22,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_494.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_495",
+    "word": "Agissons pour demain.",
+    "translation": "Yarın için harekete geçelim.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_495.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_496",
+    "word": "Il n'est jamais trop tard.",
+    "translation": "Asla çok geç değildir.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_496.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_497",
+    "word": "Chaque geste compte.",
+    "translation": "Her eylem önemlidir.",
+    "len": 16,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_497.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_498",
+    "word": "Unissons nos forces.",
+    "translation": "Güçlerimizi birleştirelim.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_498.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_499",
+    "word": "Pour un avenir meilleur.",
+    "translation": "Daha iyi bir gelecek için.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_499.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_500",
+    "word": "Merci de faire partie de ce voyage.",
+    "translation": "Bu yolculuğun bir parçası olduğun için teşekkürler.",
+    "len": 36,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_500.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_301",
+    "word": "Où sont les toilettes ?",
+    "translation": "Tuvaletler nerede?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_301.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_302",
+    "word": "Où est la gare ?",
+    "translation": "İstasyon nerede?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_302.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_303",
+    "word": "C'est par ici.",
+    "translation": "Buradan.",
+    "len": 13,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_303.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_304",
+    "word": "Tournez à droite.",
+    "translation": "Sağa dönün.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_304.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_305",
+    "word": "Tournez à gauche.",
+    "translation": "Sola dönün.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_305.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_306",
+    "word": "Allez tout droit.",
+    "translation": "Dosdoğru gidin.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_306.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_307",
+    "word": "Où est la sortie ?",
+    "translation": "Çıkış nerede?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_307.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_308",
+    "word": "Où est la gare ?",
+    "translation": "Tren istasyonu nerede?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_308.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_309",
+    "word": "J'ai besoin d'un ticket.",
+    "translation": "Bir bilete ihtiyacım var.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_309.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_310",
+    "word": "Quel est le prochain arrêt ?",
+    "translation": "Bir sonraki durak neresi?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_310.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_311",
+    "word": "Je descends au prochain.",
+    "translation": "Bir sonrakinde iniyorum.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_311.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_312",
+    "word": "Où est le métro ?",
+    "translation": "Metro nerede?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_312.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_313",
+    "word": "C'est loin d'ici ?",
+    "translation": "Buradan uzak mı?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_313.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_314",
+    "word": "Il faut prendre le bus numéro 5.",
+    "translation": "5 numaralı otobüse binmek gerek.",
+    "len": 33,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_314.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_315",
+    "word": "Où puis-je acheter un ticket ?",
+    "translation": "Nereden bilet satın alabilirim?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_315.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_316",
+    "word": "C'est à quelle distance d'ici ?",
+    "translation": "Buradan ne kadar uzaklıkta?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_316.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_317",
+    "word": "Ça prend environ dix minutes.",
+    "translation": "Yaklaşık on dakika sürüyor.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_317.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_318",
+    "word": "Tu peux marcher jusqu'à là-bas.",
+    "translation": "Oraya kadar yürüyebilirsin.",
+    "len": 30,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_318.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_319",
+    "word": "Il y a beaucoup de trafic.",
+    "translation": "Çok trafik var.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_319.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_320",
+    "word": "Prends le chemin le plus court.",
+    "translation": "En kısa yolu seç.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_320.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_321",
+    "word": "On est presque arrivés.",
+    "translation": "Neredeyse vardık.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_321.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_322",
+    "word": "Où est ma voiture ?",
+    "translation": "Arabam nerede?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_322.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_323",
+    "word": "Elle est sur le parking.",
+    "translation": "Otoparkta.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_323.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_324",
+    "word": "J'ai besoin de mon passeport.",
+    "translation": "Pasaportuma ihtiyacım var.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_324.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_325",
+    "word": "Devant le cinéma.",
+    "translation": "Sinemanın önünde.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_325.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_326",
+    "word": "Quel est ce bâtiment ?",
+    "translation": "Bu bina nedir?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_326.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_327",
+    "word": "C'est très beau ici.",
+    "translation": "Burası çok güzel.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_327.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_328",
+    "word": "On part en vacances ?",
+    "translation": "Tatile çıkıyor muyuz?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_328.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_329",
+    "word": "Où est-ce qu'on pourrait aller ?",
+    "translation": "Nereye gidebiliriz?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_329.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_330",
+    "word": "À la mer ou à la montagne ?",
+    "translation": "Denize mi, dağa mı?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_330.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_331",
+    "word": "La montagne, c'est plus calme.",
+    "translation": "Dağ daha sakin.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_331.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_332",
+    "word": "J'ai réservé les billets.",
+    "translation": "Biletleri ayırttım.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_332.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_333",
+    "word": "Il ne faut pas oublier les bagages.",
+    "translation": "Valizleri unutmamak gerek.",
+    "len": 31,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_333.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_334",
+    "word": "Je ferai les valises ce soir.",
+    "translation": "Valizleri bu akşam hazırlayacağım.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_334.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_335",
+    "word": "Quel est le programme ?",
+    "translation": "Program nedir?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_335.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_336",
+    "word": "Visiter les musées le matin.",
+    "translation": "Sabah müzeleri gezmek.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_336.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_337",
+    "word": "Se reposer l'après-midi.",
+    "translation": "Öğleden sonra dinlenmek.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_337.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_338",
+    "word": "Je t'attends à la gare.",
+    "translation": "Seni istasyonda bekliyorum.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_338.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_339",
+    "word": "Le train part à quelle heure ?",
+    "translation": "Tren saat kaçta kalkıyor?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_339.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_340",
+    "word": "À dix heures précises.",
+    "translation": "Tam onda.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_340.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_341",
+    "word": "Vite, on va le rater !",
+    "translation": "Çabuk, kaçıracağız!",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_341.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_342",
+    "word": "On a encore quelques minutes.",
+    "translation": "Hala birkaç dakikamız var.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_342.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_343",
+    "word": "Ouf, on est à l'heure.",
+    "translation": "Puf, tam vaktindeyiz.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_343.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_344",
+    "word": "Tu as ton billet ?",
+    "translation": "Biletin yanında mı?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_344.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_345",
+    "word": "Oui, il est là.",
+    "translation": "Evet, burada.",
+    "len": 14,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_345.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_346",
+    "word": "Installe-toi confortablement.",
+    "translation": "Rahatça yerleş.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_346.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_347",
+    "word": "Le voyage va être long.",
+    "translation": "Yolculuk uzun sürecek.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_347.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_348",
+    "word": "Le paysage est magnifique.",
+    "translation": "Manzara muhteşem.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_348.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_349",
+    "word": "On est arrivés ?",
+    "translation": "Vardık mı?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_349.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_350",
+    "word": "C'est la destination finale.",
+    "translation": "Son duraktayız.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_350.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_351",
+    "word": "Où est l'hôtel ?",
+    "translation": "Otel nerede?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_351.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_352",
+    "word": "Il est près du centre.",
+    "translation": "Merkeze yakın.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_352.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_353",
+    "word": "On doit faire le check-in.",
+    "translation": "Giriş yapmamız gerek.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_353.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_354",
+    "word": "Je voudrais une chambre.",
+    "translation": "Bir oda istiyorum.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_354.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_355",
+    "word": "Avec vue sur mer ?",
+    "translation": "Deniz manzaralı mı?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_355.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_356",
+    "word": "Oui, si possible.",
+    "translation": "Evet, mümkünse.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_356.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_357",
+    "word": "C'est quel étage ?",
+    "translation": "Kaçıncı kat?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_357.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_358",
+    "word": "Au deuxième étage.",
+    "translation": "İkinci katta.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_358.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_359",
+    "word": "Où est l'ascenseur ?",
+    "translation": "Asansör nerede?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_359.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_360",
+    "word": "Par ici, merci.",
+    "translation": "Buradan, teşekkürler.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_360.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_361",
+    "word": "La ville est si vivante.",
+    "translation": "Şehir çok canlı.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_361.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_362",
+    "word": "Il y a trop de monde ici.",
+    "translation": "Burada çok kalabalık var.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_362.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_363",
+    "word": "On marche un peu ?",
+    "translation": "Biraz yürüyelim mi?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_363.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_364",
+    "word": "Découvrons ce quartier.",
+    "translation": "Bu mahalleyi keşfedelim.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_364.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_365",
+    "word": "Il y a une boulangerie ici.",
+    "translation": "Burada bir fırın var.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_365.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_366",
+    "word": "L'odeur est délicieuse.",
+    "translation": "Koku harika.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_366.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_367",
+    "word": "On s'arrête pour manger ?",
+    "translation": "Yemek için duralım mı?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_367.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_368",
+    "word": "C'est une bonne idée.",
+    "translation": "Bu iyi bir fikir.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_368.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_369",
+    "word": "Je veux goûter ce plat.",
+    "translation": "Bu yemeği tatmak istiyorum.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_369.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_370",
+    "word": "C'est une spécialité locale.",
+    "translation": "Bu yerel bir spesiyal.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_370.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_371",
+    "word": "C'est très typique.",
+    "translation": "Çok otantik.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_371.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_372",
+    "word": "J'aime beaucoup cet endroit.",
+    "translation": "Burayı çok sevdim.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_372.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_373",
+    "word": "On y retourne demain ?",
+    "translation": "Yarın oraya tekrar gidelim mi?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_373.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_374",
+    "word": "Avec plaisir.",
+    "translation": "Memnuniyetle.",
+    "len": 13,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_374.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_375",
+    "word": "Où est le bureau d'information ?",
+    "translation": "Danışma bürosu nerede?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_375.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_376",
+    "word": "Je voudrais une carte.",
+    "translation": "Bir harita istiyorum.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_376.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_377",
+    "word": "Qu'est-ce qu'il faut visiter ?",
+    "translation": "Neleri gezmek gerek?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_377.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_378",
+    "word": "Ne manquez pas ce site.",
+    "translation": "Bu yeri kaçırmayın.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_378.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_379",
+    "word": "C'est un incontournable.",
+    "translation": "Bu mutlaka görülmeli.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_379.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_380",
+    "word": "Le musée ferme à quelle heure ?",
+    "translation": "Müze saat kaçta kapanıyor?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_380.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_381",
+    "word": "À dix-huit heures.",
+    "translation": "On sekizde.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_381.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_382",
+    "word": "On a assez de temps.",
+    "translation": "Yeterince zamanımız var.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_382.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_383",
+    "word": "Allons-y dès maintenant.",
+    "translation": "Hemen gidelim.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_383.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_384",
+    "word": "C'est la direction opposée.",
+    "translation": "Tam tersi yön.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_384.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_385",
+    "word": "Je me suis trompé.",
+    "translation": "Yanlış yere gittim.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_385.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_386",
+    "word": "Ce n'est pas grave.",
+    "translation": "Sorun değil.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_386.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_387",
+    "word": "On va trouver.",
+    "translation": "Bulacağız.",
+    "len": 13,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_387.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_388",
+    "word": "Demande le chemin.",
+    "translation": "Yolu sor.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_388.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_389",
+    "word": "Excusez-moi, monsieur.",
+    "translation": "Afedersiniz, beyefendi.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_389.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_390",
+    "word": "Où est la place centrale ?",
+    "translation": "Merkez meydanı nerede?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_390.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_391",
+    "word": "C'est tout droit.",
+    "translation": "Dosdoğru.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_391.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_392",
+    "word": "Merci pour l'aide.",
+    "translation": "Yardım için teşekkürler.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_392.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_393",
+    "word": "On y est presque.",
+    "translation": "Neredeyse vardık.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_393.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_394",
+    "word": "Quel monument magnifique.",
+    "translation": "Ne muhteşem bir anıt.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_394.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_395",
+    "word": "Prends une photo, s'il te plaît.",
+    "translation": "Bir fotoğraf çek, lütfen.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_395.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_396",
+    "word": "C'est un souvenir précieux.",
+    "translation": "Değerli bir anı.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_396.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_397",
+    "word": "On continue la balade ?",
+    "translation": "Yürüyüşe devam mı?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_397.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_398",
+    "word": "Oui, explorons tout.",
+    "translation": "Evet, her yeri keşfedelim.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_398.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_399",
+    "word": "C'est une ville incroyable.",
+    "translation": "İnanılmaz bir şehir.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_399.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_400",
+    "word": "Je ne veux jamais partir.",
+    "translation": "Asla ayrılmak istemiyorum.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_400.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_101",
+    "word": "Bonjour, comment allez-vous ?",
+    "translation": "Merhaba, nasılsınız?",
+    "len": 26,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_101.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_102",
+    "word": "Je m'appelle Adem.",
+    "translation": "Benim adım Adem.",
+    "len": 18,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_102.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_103",
+    "word": "Enchanté de vous rencontrer.",
+    "translation": "Tanıştığımıza memnun oldum.",
+    "len": 28,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_103.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_104",
+    "word": "Quel est votre nom ?",
+    "translation": "Adınız nedir?",
+    "len": 19,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_104.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_105",
+    "word": "D'où venez-vous ?",
+    "translation": "Nerelisiniz?",
+    "len": 17,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_105.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_106",
+    "word": "Je viens de Turquie.",
+    "translation": "Türkiye'den geliyorum.",
+    "len": 20,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_106.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_107",
+    "word": "Parlez-vous français ?",
+    "translation": "Fransızca konuşuyor musunuz?",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_107.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_108",
+    "word": "Je parle un peu français.",
+    "translation": "Biraz Fransızca konuşuyorum.",
+    "len": 25,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_108.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_109",
+    "word": "Je ne comprends pas.",
+    "translation": "Anlamıyorum.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_109.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_110",
+    "word": "Pouvez-vous répéter ?",
+    "translation": "Tekrar edebilir misiniz?",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_110.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_111",
+    "word": "Merci beaucoup.",
+    "translation": "Çok teşekkür ederim.",
+    "len": 15,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_111.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_112",
+    "word": "S'il vous plaît.",
+    "translation": "Lütfen.",
+    "len": 14,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_112.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_113",
+    "word": "De rien.",
+    "translation": "Rica ederim.",
+    "len": 9,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_113.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_114",
+    "word": "Désolé pour le retard.",
+    "translation": "Gecikme için üzgünüm.",
+    "len": 23,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_114.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_115",
+    "word": "À plus tard.",
+    "translation": "Sonra görüşürüz.",
+    "len": 12,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_115.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_116",
+    "word": "Au revoir.",
+    "translation": "Hoşça kal.",
+    "len": 10,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_116.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_117",
+    "word": "Pouvez-vous m'aider ?",
+    "translation": "Bana yardım edebilir misiniz?",
+    "len": 22,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_117.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_118",
+    "word": "Bien sûr.",
+    "translation": "Tabii ki.",
+    "len": 11,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_118.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_119",
+    "word": "On y va ?",
+    "translation": "Gidiyor muyuz?",
+    "len": 10,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_119.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_120",
+    "word": "D'accord.",
+    "translation": "Anlaştık.",
+    "len": 9,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_120.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_121",
+    "word": "Avez-vous des frères ?",
+    "translation": "Kardeşiniz var mı?",
+    "len": 21,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_121.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_122",
+    "word": "Oui, j'ai une sœur.",
+    "translation": "Evet, bir kız kardeşim var.",
+    "len": 19,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_122.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_123",
+    "word": "Je suis marié.",
+    "translation": "Evliyim.",
+    "len": 14,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_123.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_124",
+    "word": "Quel âge avez-vous ?",
+    "translation": "Kaç yaşındasınız?",
+    "len": 20,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_124.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_125",
+    "word": "J'ai trente ans.",
+    "translation": "Otuz yaşındayım.",
+    "len": 15,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_125.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_126",
+    "word": "On peut se voir ?",
+    "translation": "Görüşebilir miyiz?",
+    "len": 16,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_126.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_127",
+    "word": "À quelle heure ?",
+    "translation": "Saat kaçta?",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_127.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_128",
+    "word": "Ça me va.",
+    "translation": "Bana uyar.",
+    "len": 9,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_128.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_129",
+    "word": "Désolé, je ne peux pas.",
+    "translation": "Üzgünüm, yapamam.",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_129.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_130",
+    "word": "Appelez-moi demain.",
+    "translation": "Beni yarın arayın.",
+    "len": 18,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_130.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_131",
+    "word": "C'est difficile à dire.",
+    "translation": "Söylemesi zor.",
+    "len": 23,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_131.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_132",
+    "word": "Je ne peux pas venir.",
+    "translation": "Gelemem.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_132.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_133",
+    "word": "Peux-tu parler plus lentement ?",
+    "translation": "Daha yavaş konuşabilir misin?",
+    "len": 31,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_133.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_134",
+    "word": "Qu'est-ce que cela signifie ?",
+    "translation": "Bu ne anlama geliyor?",
+    "len": 27,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_134.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_135",
+    "word": "Je suis d'accord avec toi.",
+    "translation": "Seninle aynı fikirdeyim.",
+    "len": 25,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_135.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_136",
+    "word": "Peux-tu me donner un coup de main ?",
+    "translation": "Bana yardım edebilir misin?",
+    "len": 34,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_136.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_137",
+    "word": "Bien sûr, avec plaisir.",
+    "translation": "Tabii ki, memnuniyetle.",
+    "len": 23,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_137.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_138",
+    "word": "Quel est ton numéro de téléphone ?",
+    "translation": "Telefon numaran nedir?",
+    "len": 32,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_138.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_139",
+    "word": "Appelle-moi quand tu es prêt.",
+    "translation": "Hazır olduğunda beni ara.",
+    "len": 29,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_139.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_140",
+    "word": "Ne sois pas triste.",
+    "translation": "Üzgün olma.",
+    "len": 18,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_140.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_141",
+    "word": "Prends soin de toi.",
+    "translation": "Kendine iyi bak.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_141.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_142",
+    "word": "Merci pour ta gentillesse.",
+    "translation": "Nezaketin için teşekkürler.",
+    "len": 26,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_142.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_143",
+    "word": "Est-ce qu'on se connaît ?",
+    "translation": "Tanışıyor muyuz?",
+    "len": 24,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_143.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_144",
+    "word": "On s'est vus l'année dernière.",
+    "translation": "Geçen yıl görüşmüştük.",
+    "len": 28,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_144.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_145",
+    "word": "C'est possible.",
+    "translation": "Mümkün.",
+    "len": 14,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_145.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_146",
+    "word": "Je suis ravi de vous revoir.",
+    "translation": "Sizi tekrar gördüğüme sevindim.",
+    "len": 27,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_146.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_147",
+    "word": "Comment va la famille ?",
+    "translation": "Aile nasıl?",
+    "len": 21,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_147.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_148",
+    "word": "Tout le monde va bien.",
+    "translation": "Herkes iyi.",
+    "len": 20,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_148.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_149",
+    "word": "Merci de demander.",
+    "translation": "Sorduğun için teşekkürler.",
+    "len": 20,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_149.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_150",
+    "word": "Tu as beaucoup grandi.",
+    "translation": "Çok büyümüşsün.",
+    "len": 20,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_150.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_151",
+    "word": "Tu ressembles à ton père.",
+    "translation": "Babana benziyorsun.",
+    "len": 24,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_151.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_152",
+    "word": "Ici, c'est mon ami.",
+    "translation": "Burada, arkadaşım.",
+    "len": 18,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_152.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_153",
+    "word": "Enchanté de faire ta connaissance.",
+    "translation": "Tanıştığımıza memnun oldum.",
+    "len": 29,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_153.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_154",
+    "word": "On peut se tutoyer ?",
+    "translation": "Senli benli konuşabilir miyiz?",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_154.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_155",
+    "word": "Oui, avec plaisir.",
+    "translation": "Evet, memnuniyetle.",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_155.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_156",
+    "word": "Qu'est-ce que tu racontes ?",
+    "translation": "Neler anlatıyorsun?",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_156.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_157",
+    "word": "Pas grand-chose.",
+    "translation": "Pek bir şey yok.",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_157.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_158",
+    "word": "Raconte-moi tout.",
+    "translation": "Bana her şeyi anlat.",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_158.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_159",
+    "word": "Tu as des projets pour demain ?",
+    "translation": "Yarın için planların var mı?",
+    "len": 27,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_159.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_160",
+    "word": "Rien de prévu.",
+    "translation": "Planlanmış bir şey yok.",
+    "len": 16,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_160.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_161",
+    "word": "On pourrait se voir.",
+    "translation": "Görüşebiliriz.",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_161.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_162",
+    "word": "C'est une bonne idée.",
+    "translation": "Bu iyi bir fikir.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_162.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_163",
+    "word": "Quel endroit préfères-tu ?",
+    "translation": "Hangi yeri tercih edersin?",
+    "len": 24,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_163.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_164",
+    "word": "Peu importe.",
+    "translation": "Fark etmez.",
+    "len": 12,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_164.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_165",
+    "word": "Où est le café le plus proche ?",
+    "translation": "En yakın kafe nerede?",
+    "len": 27,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_165.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_166",
+    "word": "Je connais un endroit sympa.",
+    "translation": "Güzel bir yer biliyorum.",
+    "len": 25,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_166.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_167",
+    "word": "Allons-y ensemble.",
+    "translation": "Birlikte gidelim.",
+    "len": 16,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_167.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_168",
+    "word": "Tu me manques.",
+    "translation": "Seni özlüyorum.",
+    "len": 13,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_168.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_169",
+    "word": "À bientôt, j'espère.",
+    "translation": "Yakında görüşürüz, umarım.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_169.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_170",
+    "word": "Je pense souvent à toi.",
+    "translation": "Seni sık sık düşünüyorum.",
+    "len": 23,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_170.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_171",
+    "word": "C'est réciproque.",
+    "translation": "Aynı şekilde.",
+    "len": 14,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_171.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_172",
+    "word": "Tu as fait quoi ce week-end ?",
+    "translation": "Bu hafta sonu ne yaptın?",
+    "len": 26,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_172.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_173",
+    "word": "Je suis allé me promener.",
+    "translation": "Yürüyüşe çıktım.",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_173.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_174",
+    "word": "C'était relaxant.",
+    "translation": "Rahatlatıcıydı.",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_174.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_175",
+    "word": "J'ai besoin d'une pause.",
+    "translation": "Mola vermeye ihtiyacım var.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_175.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_176",
+    "word": "On prend un café ?",
+    "translation": "Kahve içelim mi?",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_176.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_177",
+    "word": "Avec plaisir.",
+    "translation": "Memnuniyetle.",
+    "len": 13,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_177.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_178",
+    "word": "Quoi de neuf ?",
+    "translation": "Ne haber?",
+    "len": 13,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_178.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_179",
+    "word": "Pas grand-chose de nouveau.",
+    "translation": "Pek yeni bir şey yok.",
+    "len": 23,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_179.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_180",
+    "word": "Et toi, comment ça va ?",
+    "translation": "Ya sen, nasılsın?",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_180.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_181",
+    "word": "Je ne peux pas me plaindre.",
+    "translation": "Şikayet edemem.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_181.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_182",
+    "word": "C'est la routine.",
+    "translation": "Her zamanki rutin.",
+    "len": 16,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_182.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_183",
+    "word": "Je travaille toujours.",
+    "translation": "Hala çalışıyorum.",
+    "len": 18,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_183.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_184",
+    "word": "C'est fatiguant.",
+    "translation": "Yorucu.",
+    "len": 14,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_184.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_185",
+    "word": "Tu as besoin de vacances.",
+    "translation": "Tatile ihtiyacın var.",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_185.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_186",
+    "word": "Tu as totalement raison.",
+    "translation": "Tamamen haklısın.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_186.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_187",
+    "word": "On prévoit quelque chose ?",
+    "translation": "Bir şeyler planlayalım mı?",
+    "len": 24,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_187.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_188",
+    "word": "Pourquoi pas après-demain ?",
+    "translation": "Neden öbür gün olmasın?",
+    "len": 25,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_188.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_189",
+    "word": "C'est noté.",
+    "translation": "Not ettim.",
+    "len": 11,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_189.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_190",
+    "word": "On reste en contact.",
+    "translation": "İletişimde kalalım.",
+    "len": 19,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_190.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_191",
+    "word": "J'ai hâte d'y être.",
+    "translation": "O an için sabırsızlanıyorum.",
+    "len": 25,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_191.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_192",
+    "word": "Moi aussi.",
+    "translation": "Ben de.",
+    "len": 10,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_192.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_193",
+    "word": "À très bientôt.",
+    "translation": "Çok yakında görüşürüz.",
+    "len": 14,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_193.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_194",
+    "word": "Passe une bonne soirée.",
+    "translation": "İyi akşamlar.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_194.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_195",
+    "word": "Bonne fin de semaine.",
+    "translation": "İyi hafta sonları.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_195.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_196",
+    "word": "Au plaisir.",
+    "translation": "Görüşmek üzere.",
+    "len": 11,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_196.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_197",
+    "word": "Salue tout le monde pour moi.",
+    "translation": "Herkese benden selam söyle.",
+    "len": 29,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_197.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_198",
+    "word": "Je n'y manquerai pas.",
+    "translation": "Mutlaka söyleyeceğim.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_198.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_199",
+    "word": "Merci, c'est gentil.",
+    "translation": "Teşekkürler, çok naziksin.",
+    "len": 20,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_199.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_200",
+    "word": "À une prochaine fois.",
+    "translation": "Bir dahaki sefere görüşürüz.",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_200.mp3"
+    }
+  }
+]

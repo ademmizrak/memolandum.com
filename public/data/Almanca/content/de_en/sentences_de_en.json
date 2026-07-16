@@ -1,0 +1,5802 @@
+[
+  {
+    "id": "de_sent_001",
+    "word": "Ich fühle mich besser.",
+    "translation": "I feel better.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "health"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_001.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_002",
+    "word": "Es ist besser als nichts.",
+    "translation": "It is better than nothing.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_002.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_003",
+    "word": "Man muss sich anstrengen.",
+    "translation": "You have to make an effort.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_003.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_004",
+    "word": "Wir können es schaffen.",
+    "translation": "We can do it.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_004.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_005",
+    "word": "Wo ist mein Auto?",
+    "translation": "Where is my car?",
+    "len": 17,
+    "tags": [
+      "daily",
+      "travel"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_005.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_006",
+    "word": "Ich bin müde.",
+    "translation": "I am tired.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_006.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_007",
+    "word": "Ich habe Hunger.",
+    "translation": "I am hungry.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_007.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_008",
+    "word": "Ich habe Durst.",
+    "translation": "I am thirsty.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_008.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_009",
+    "word": "Das Wetter ist heute schön.",
+    "translation": "The weather is beautiful today.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_009.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_010",
+    "word": "Was ist das?",
+    "translation": "What is that?",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_010.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_011",
+    "word": "Ich weiß es nicht.",
+    "translation": "I don't know.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_011.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_012",
+    "word": "Das ist großartig!",
+    "translation": "That is great!",
+    "len": 17,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_012.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_013",
+    "word": "Ich liebe Frankreich.",
+    "translation": "I love France.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_013.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_014",
+    "word": "Wie spät ist es?",
+    "translation": "What time is it?",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_014.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_015",
+    "word": "Es ist Zeit zum Essen.",
+    "translation": "It is time to eat.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_015.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_016",
+    "word": "Hier ist es heiß.",
+    "translation": "It is hot here.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_016.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_017",
+    "word": "Ich möchte schlafen.",
+    "translation": "I want to sleep.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_017.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_018",
+    "word": "Das ist eine gute Idee.",
+    "translation": "That is a good idea.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_018.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_019",
+    "word": "Überhaupt nicht.",
+    "translation": "Not at all.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_019.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_020",
+    "word": "Einverstanden.",
+    "translation": "Agreed.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_020.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_021",
+    "word": "Es regnet.",
+    "translation": "It is raining.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_021.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_022",
+    "word": "Ich habe meine Schlüssel vergessen.",
+    "translation": "I forgot my keys.",
+    "len": 33,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_022.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_023",
+    "word": "Kannst du die Tür öffnen?",
+    "translation": "Can you open the door?",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_023.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_024",
+    "word": "Das ist zu heiß.",
+    "translation": "That is too hot.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_024.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_025",
+    "word": "So ist es perfekt.",
+    "translation": "That is perfect.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_025.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_026",
+    "word": "Das ist ein schöner Tag.",
+    "translation": "This is a beautiful day.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_026.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_027",
+    "word": "Draußen ist es kalt.",
+    "translation": "It is cold outside.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_027.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_028",
+    "word": "Zieh einen Mantel an.",
+    "translation": "Put on a coat.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_028.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_029",
+    "word": "Ich bin spät dran.",
+    "translation": "I am running late.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_029.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_030",
+    "word": "Beeil dich!",
+    "translation": "Hurry up!",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_030.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_031",
+    "word": "Ich komme bald zurück.",
+    "translation": "I will be back soon.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_031.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_032",
+    "word": "Ich kann nicht darauf verzichten.",
+    "translation": "I cannot do without it.",
+    "len": 29,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_032.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_033",
+    "word": "Ich lasse mir Zeit.",
+    "translation": "I will take my time.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_033.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_034",
+    "word": "Sei nicht albern.",
+    "translation": "Don't be silly.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_034.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_035",
+    "word": "Ich habe keine Ahnung.",
+    "translation": "I have no idea.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_035.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_036",
+    "word": "Was ist los?",
+    "translation": "What is going on?",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_036.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_037",
+    "word": "Nichts Besonderes.",
+    "translation": "Nothing special.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_037.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_038",
+    "word": "Ich muss nachdenken.",
+    "translation": "I need to think.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_038.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_039",
+    "word": "Welcher Wochentag ist heute?",
+    "translation": "What day of the week is it today?",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_039.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_040",
+    "word": "Heute ist Dienstag.",
+    "translation": "Today is Tuesday.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_040.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_041",
+    "word": "Vergiss deine Sachen nicht.",
+    "translation": "Don't forget your things.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_041.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_042",
+    "word": "Ich glaube, es wird regnen.",
+    "translation": "I think it will rain.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_042.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_043",
+    "word": "Nimm deinen Regenschirm mit.",
+    "translation": "Take your umbrella with you.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_043.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_044",
+    "word": "Alles ist unter Kontrolle.",
+    "translation": "Everything is under control.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_044.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_045",
+    "word": "Komm, wir gehen.",
+    "translation": "Come on, let's go.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_045.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_046",
+    "word": "Ich will nach Hause.",
+    "translation": "I want to go home.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_046.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_047",
+    "word": "Es ist Zeit aufzustehen.",
+    "translation": "It is time to get up.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_047.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_048",
+    "word": "Was für ein schöner Tag!",
+    "translation": "What a beautiful day!",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_048.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_049",
+    "word": "Das ist alles, was ich will.",
+    "translation": "That is all I want.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_049.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_050",
+    "word": "Das ist alles.",
+    "translation": "That is all.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_050.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_051",
+    "word": "Ich bin bereit.",
+    "translation": "I am ready.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_051.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_052",
+    "word": "Warte hier auf mich.",
+    "translation": "Wait for me here.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_052.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_053",
+    "word": "Das ist sehr wichtig.",
+    "translation": "This is very important.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_053.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_054",
+    "word": "Mach keinen Lärm.",
+    "translation": "Don't make any noise.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_054.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_055",
+    "word": "Öffne das Fenster.",
+    "translation": "Open the window.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_055.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_056",
+    "word": "Schließ die Tür.",
+    "translation": "Close the door.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_056.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_057",
+    "word": "Mach das Licht an.",
+    "translation": "Turn on the light.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_057.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_058",
+    "word": "Mach den Fernseher aus.",
+    "translation": "Turn off the TV.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_058.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_059",
+    "word": "Ich brauche Ruhe.",
+    "translation": "I need some peace and quiet.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_059.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_060",
+    "word": "Ich arbeite von zu Hause.",
+    "translation": "I work from home.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_060.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_061",
+    "word": "Wo ist mein Telefon?",
+    "translation": "Where is my phone?",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_061.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_062",
+    "word": "Es liegt auf dem Tisch.",
+    "translation": "It is on the table.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_062.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_063",
+    "word": "Ich habe Wissensdurst.",
+    "translation": "I am thirsty for knowledge.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_063.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_064",
+    "word": "Der Kaffee ist fertig.",
+    "translation": "The coffee is ready.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_064.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_065",
+    "word": "Er ist sehr gut.",
+    "translation": "It is very good.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_065.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_066",
+    "word": "Möchtest du Zucker?",
+    "translation": "Would you like sugar?",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_066.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_067",
+    "word": "Nein, danke.",
+    "translation": "No, thank you.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_067.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_068",
+    "word": "Das reicht.",
+    "translation": "That is enough.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_068.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_069",
+    "word": "Ich habe viel Arbeit.",
+    "translation": "I have a lot of work.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_069.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_070",
+    "word": "Ich muss mich beeilen.",
+    "translation": "I need to hurry.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_070.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_071",
+    "word": "Bis später.",
+    "translation": "See you later.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_071.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_072",
+    "word": "Schönen Tag noch.",
+    "translation": "Have a nice day.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_072.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_073",
+    "word": "Bis morgen früh.",
+    "translation": "See you tomorrow morning.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_073.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_074",
+    "word": "Träum was Schönes.",
+    "translation": "Sweet dreams.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_074.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_075",
+    "word": "Gute Nacht, bis morgen.",
+    "translation": "Good night, see you tomorrow.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_075.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_076",
+    "word": "Das ist ein schöner Tag.",
+    "translation": "This is a beautiful day.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_076.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_077",
+    "word": "Genießen wir es.",
+    "translation": "Let's enjoy it.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_077.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_078",
+    "word": "So ist das Leben.",
+    "translation": "That is life.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_078.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_079",
+    "word": "Alles ist möglich.",
+    "translation": "Everything is possible.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_079.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_080",
+    "word": "Verliere nicht die Hoffnung.",
+    "translation": "Don't lose hope.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_080.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_081",
+    "word": "Sei positiv.",
+    "translation": "Be positive.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_081.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_082",
+    "word": "Alles wird gut.",
+    "translation": "Everything will be alright.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_082.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_083",
+    "word": "Ich verlasse mich auf dich.",
+    "translation": "I am counting on you.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_083.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_084",
+    "word": "Du bist mein Freund.",
+    "translation": "You are my friend.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_084.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_085",
+    "word": "Wir sind zusammen.",
+    "translation": "We are together.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_085.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_086",
+    "word": "Das ist super.",
+    "translation": "That is super.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_086.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_087",
+    "word": "Das gefällt mir.",
+    "translation": "I like that.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_087.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_088",
+    "word": "Das ist ein guter Anfang.",
+    "translation": "That is a good start.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_088.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_089",
+    "word": "Ich lerne weiter.",
+    "translation": "I continue to learn.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_089.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_090",
+    "word": "Das ist meine Leidenschaft.",
+    "translation": "This is my passion.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_090.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_091",
+    "word": "Ich mag Herausforderungen.",
+    "translation": "I like challenges.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_091.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_092",
+    "word": "Ich gebe niemals auf.",
+    "translation": "I never give up.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_092.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_093",
+    "word": "Das ist ein wichtiger Schritt.",
+    "translation": "This is an important step.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_093.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_094",
+    "word": "Ich bin stolz auf dieses Projekt.",
+    "translation": "I am proud of this project.",
+    "len": 31,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_094.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_095",
+    "word": "Das ist Teamarbeit.",
+    "translation": "This is teamwork.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_095.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_096",
+    "word": "Danke an euch alle.",
+    "translation": "Thanks to you all.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_096.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_097",
+    "word": "Machen wir weiter so.",
+    "translation": "Let's keep it up.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_097.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_098",
+    "word": "Los geht's!",
+    "translation": "Let's go!",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_098.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_099",
+    "word": "Das Zimmer ist sauber.",
+    "translation": "The room is clean.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_099.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_100",
+    "word": "Ich koche gerne.",
+    "translation": "I like to cook.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_100.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_001",
+    "word": "Ich lerne jeden Tag etwas Neues.",
+    "translation": "I learn something new every day.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_001.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_002",
+    "word": "Übung macht den Meister.",
+    "translation": "Practice makes perfect.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_002.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_003",
+    "word": "Ich möchte mich weiterentwickeln.",
+    "translation": "I want to further develop myself.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_003.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_004",
+    "word": "Fehler sind Gelegenheiten zu lernen.",
+    "translation": "Mistakes are opportunities to learn.",
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_004.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_005",
+    "word": "Ich habe einen Plan für den Erfolg.",
+    "translation": "I have a plan for success.",
+    "tags": [
+      "mindset",
+      "planning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_005.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_006",
+    "word": "Was ist mein Ziel für heute?",
+    "translation": "What is my goal for today?",
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_006.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_007",
+    "word": "Ich glaube an meine Fähigkeiten.",
+    "translation": "I believe in my abilities.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_007.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_008",
+    "word": "Geduld ist der Schlüssel zum Erfolg.",
+    "translation": "Patience is the key to success.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_008.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_009",
+    "word": "Ich bleibe immer neugierig.",
+    "translation": "I always stay curious.",
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_009.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_010",
+    "word": "Wie kann ich das besser machen?",
+    "translation": "How can I do this better?",
+    "tags": [
+      "growth",
+      "learning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_010.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_011",
+    "word": "Ich konzentriere mich auf das Wichtige.",
+    "translation": "I focus on what is important.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_011.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_012",
+    "word": "Jeder Schritt zählt.",
+    "translation": "Every step counts.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_012.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_013",
+    "word": "Ich übernehme die Verantwortung.",
+    "translation": "I take responsibility.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_013.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_014",
+    "word": "Disziplin führt zum Ziel.",
+    "translation": "Discipline leads to the goal.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_014.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_015",
+    "word": "Ich bin offen für neue Ideen.",
+    "translation": "I am open to new ideas.",
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_015.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_016",
+    "word": "Man lernt nie aus.",
+    "translation": "One never stops learning.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_016.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_017",
+    "word": "Ich suche nach Lösungen.",
+    "translation": "I am looking for solutions.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_017.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_018",
+    "word": "Das ist eine Herausforderung für mich.",
+    "translation": "This is a challenge for me.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_018.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_019",
+    "word": "Ich reflektiere meine Fortschritte.",
+    "translation": "I reflect on my progress.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_019.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_020",
+    "word": "Stetiger Fortschritt ist wichtig.",
+    "translation": "Steady progress is important.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_020.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_021",
+    "word": "Ich bleibe motiviert.",
+    "translation": "I stay motivated.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_021.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_022",
+    "word": "Ich höre aktiv zu.",
+    "translation": "I listen actively.",
+    "tags": [
+      "learning",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_022.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_023",
+    "word": "Wissen ist Macht.",
+    "translation": "Knowledge is power.",
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_023.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_024",
+    "word": "Ich vergleiche mich nur mit mir selbst.",
+    "translation": "I only compare myself to myself.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_024.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_025",
+    "word": "Ich organisiere meine Zeit gut.",
+    "translation": "I organize my time well.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_025.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_026",
+    "word": "Ich bleibe positiv.",
+    "translation": "I stay positive.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_026.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_027",
+    "word": "Fragen zu stellen hilft beim Lernen.",
+    "translation": "Asking questions helps with learning.",
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_027.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_028",
+    "word": "Ich setze mir klare Ziele.",
+    "translation": "I set clear goals for myself.",
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_028.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_029",
+    "word": "Ich lerne aus meinen Erfolgen.",
+    "translation": "I learn from my successes.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_029.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_030",
+    "word": "Ich schätze meine Zeit.",
+    "translation": "I value my time.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_030.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_031",
+    "word": "Kritik hilft mir zu wachsen.",
+    "translation": "Criticism helps me grow.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_031.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_032",
+    "word": "Ich bin bereit, Neues zu wagen.",
+    "translation": "I am ready to dare new things.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_032.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_033",
+    "word": "Ich bleibe am Ball.",
+    "translation": "I stay on the ball.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_033.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_034",
+    "word": "Ich analysiere meine Fehler.",
+    "translation": "I analyze my mistakes.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_034.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_035",
+    "word": "Ich arbeite strukturiert.",
+    "translation": "I work in a structured way.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_035.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_036",
+    "word": "Ich erweitere meinen Horizont.",
+    "translation": "I broaden my horizon.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_036.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_037",
+    "word": "Ich bin geduldig mit mir selbst.",
+    "translation": "I am patient with myself.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_037.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_038",
+    "word": "Ich feiere meine kleinen Erfolge.",
+    "translation": "I celebrate my small successes.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_038.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_039",
+    "word": "Ich vertraue dem Prozess.",
+    "translation": "I trust the process.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_039.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_040",
+    "word": "Ich bin stolz auf meinen Weg.",
+    "translation": "I am proud of my path.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_040.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_041",
+    "word": "Ich suche nach Wissen.",
+    "translation": "I am looking for knowledge.",
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_041.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_042",
+    "word": "Ich bin bereit zu lernen.",
+    "translation": "I am ready to learn.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_042.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_043",
+    "word": "Ich hinterfrage Dinge.",
+    "translation": "I question things.",
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_043.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_044",
+    "word": "Ich wachse durch Herausforderungen.",
+    "translation": "I grow through challenges.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_044.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_045",
+    "word": "Ich habe ein klares Mindset.",
+    "translation": "I have a clear mindset.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_045.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_046",
+    "word": "Ich bleibe bei der Sache.",
+    "translation": "I stay focused.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_046.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_047",
+    "word": "Ich lerne von den Besten.",
+    "translation": "I learn from the best.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_047.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_048",
+    "word": "Ich bin ein lebenslanger Lerner.",
+    "translation": "I am a lifelong learner.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_048.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_049",
+    "word": "Ich bleibe ruhig in schwierigen Zeiten.",
+    "translation": "I stay calm in difficult times.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_049.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_050",
+    "word": "Ich setze Prioritäten.",
+    "translation": "I set priorities.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_050.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_051",
+    "word": "Ich vertiefe mein Wissen.",
+    "translation": "I deepen my knowledge.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_051.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_052",
+    "word": "Ich bin dankbar für Erfahrungen.",
+    "translation": "I am grateful for experiences.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_052.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_053",
+    "word": "Ich suche die Wahrheit.",
+    "translation": "I seek the truth.",
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_053.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_054",
+    "word": "Ich bin mein eigener Motivator.",
+    "translation": "I am my own motivator.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_054.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_055",
+    "word": "Ich akzeptiere Veränderungen.",
+    "translation": "I accept changes.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_055.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_056",
+    "word": "Ich bilde mich kontinuierlich weiter.",
+    "translation": "I continue to educate myself.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_056.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_057",
+    "word": "Ich reflektiere mein Verhalten.",
+    "translation": "I reflect on my behavior.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_057.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_058",
+    "word": "Ich schätze die Vielfalt.",
+    "translation": "I value diversity.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_058.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_059",
+    "word": "Ich bin fokussiert.",
+    "translation": "I am focused.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_059.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_060",
+    "word": "Ich entwickle mich jeden Tag.",
+    "translation": "I develop every day.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_060.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_061",
+    "word": "Ich plane meine nächsten Schritte.",
+    "translation": "I plan my next steps.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_061.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_062",
+    "word": "Ich bin mutig.",
+    "translation": "I am brave.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_062.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_063",
+    "word": "Ich lerne durch Praxis.",
+    "translation": "I learn through practice.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_063.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_064",
+    "word": "Ich bleibe flexibel.",
+    "translation": "I stay flexible.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_064.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_065",
+    "word": "Ich habe ein klares Ziel.",
+    "translation": "I have a clear goal.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_065.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_066",
+    "word": "Ich bin für Feedback offen.",
+    "translation": "I am open to feedback.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_066.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_067",
+    "word": "Ich verliere das Ziel nicht aus den Augen.",
+    "translation": "I do not lose sight of the goal.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_067.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_068",
+    "word": "Ich bin neugierig auf die Zukunft.",
+    "translation": "I am curious about the future.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_068.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_069",
+    "word": "Ich entwickle neue Fähigkeiten.",
+    "translation": "I develop new skills.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_069.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_070",
+    "word": "Ich bin ausdauernd.",
+    "translation": "I am persistent.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_070.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_071",
+    "word": "Ich erkenne mein Potential.",
+    "translation": "I recognize my potential.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_071.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_072",
+    "word": "Ich lerne von meinen Mitmenschen.",
+    "translation": "I learn from the people around me.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_072.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_073",
+    "word": "Ich nutze jede Gelegenheit.",
+    "translation": "I seize every opportunity.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_073.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_074",
+    "word": "Ich reflektiere über das Gelernte.",
+    "translation": "I reflect on what I have learned.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_074.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_075",
+    "word": "Ich mache kleine Schritte.",
+    "translation": "I take small steps.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_075.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_076",
+    "word": "Ich bin diszipliniert.",
+    "translation": "I am disciplined.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_076.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_077",
+    "word": "Ich entdecke neue Wege.",
+    "translation": "I discover new paths.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_077.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_078",
+    "word": "Ich vertraue auf meinen Erfolg.",
+    "translation": "I trust in my success.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_078.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_079",
+    "word": "Ich bin kreativ bei Lösungen.",
+    "translation": "I am creative with solutions.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_079.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_080",
+    "word": "Ich lerne ständig dazu.",
+    "translation": "I am constantly learning.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_080.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_081",
+    "word": "Ich bin offen für Veränderungen.",
+    "translation": "I am open to changes.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_081.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_082",
+    "word": "Ich gehe Herausforderungen an.",
+    "translation": "I tackle challenges.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_082.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_083",
+    "word": "Ich schätze den Prozess.",
+    "translation": "I value the process.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_083.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_084",
+    "word": "Ich bin zielorientiert.",
+    "translation": "I am goal-oriented.",
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_084.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_085",
+    "word": "Ich lerne durch Fehler.",
+    "translation": "I learn through mistakes.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_085.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_086",
+    "word": "Ich baue meine Zukunft auf.",
+    "translation": "I am building my future.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_086.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_087",
+    "word": "Ich bin bereit für Neues.",
+    "translation": "I am ready for something new.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_087.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_088",
+    "word": "Ich setze meine Stärken ein.",
+    "translation": "I use my strengths.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_088.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_089",
+    "word": "Ich lerne den ganzen Tag.",
+    "translation": "I learn all day long.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_089.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_090",
+    "word": "Ich bleibe standhaft.",
+    "translation": "I stay steadfast.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_090.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_091",
+    "word": "Ich entfalte mein Potential.",
+    "translation": "I unleash my potential.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_091.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_092",
+    "word": "Ich bin optimistisch.",
+    "translation": "I am optimistic.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_092.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_093",
+    "word": "Ich lerne schnell.",
+    "translation": "I learn fast.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_093.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_094",
+    "word": "Ich gestalte mein Leben.",
+    "translation": "I shape my life.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_094.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_095",
+    "word": "Ich nehme mir Zeit zum Nachdenken.",
+    "translation": "I take time to reflect.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_095.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_096",
+    "word": "Ich bin erfolgreich.",
+    "translation": "I am successful.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_096.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_097",
+    "word": "Ich arbeite diszipliniert.",
+    "translation": "I work in a disciplined way.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_097.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_098",
+    "word": "Ich bleibe bei meiner Vision.",
+    "translation": "I stay with my vision.",
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_098.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_099",
+    "word": "Ich lerne jeden Moment.",
+    "translation": "I learn every moment.",
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_099.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_100",
+    "word": "Ich bin bereit zu wachsen.",
+    "translation": "I am ready to grow.",
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_100.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_001",
+    "word": "Guten Tag, wie kann ich Ihnen helfen?",
+    "translation": "Good day, how can I help you?",
+    "len": 37,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_001.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_002",
+    "word": "Ich möchte einen Termin vereinbaren.",
+    "translation": "I would like to make an appointment.",
+    "len": 36,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_002.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_003",
+    "word": "Passt es Ihnen am Montag?",
+    "translation": "Does Monday work for you?",
+    "len": 24,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_003.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_004",
+    "word": "Wir müssen das Meeting verschieben.",
+    "translation": "We need to postpone the meeting.",
+    "len": 34,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_004.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_005",
+    "word": "Können Sie mich mit Herrn Müller verbinden?",
+    "translation": "Can you connect me with Mr. Müller?",
+    "len": 40,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_005.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_006",
+    "word": "Ich rufe wegen des Projekts an.",
+    "translation": "I am calling about the project.",
+    "len": 29,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_006.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_007",
+    "word": "Vielen Dank für Ihre E-Mail.",
+    "translation": "Thank you for your email.",
+    "len": 28,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_007.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_008",
+    "word": "Anbei sende ich Ihnen die Unterlagen.",
+    "translation": "I am sending the documents attached.",
+    "len": 36,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_008.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_009",
+    "word": "Könnten Sie das bitte bestätigen?",
+    "translation": "Could you please confirm that?",
+    "len": 31,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_009.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_010",
+    "word": "Ich melde mich in Kürze bei Ihnen.",
+    "translation": "I will get back to you shortly.",
+    "len": 35,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_010.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_011",
+    "word": "Was ist der aktuelle Status?",
+    "translation": "What is the current status?",
+    "len": 27,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_011.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_012",
+    "word": "Wir müssen die Deadline einhalten.",
+    "translation": "We must meet the deadline.",
+    "len": 31,
+    "tags": [
+      "business",
+      "deadline"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_012.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_013",
+    "word": "Haben Sie einen Vorschlag?",
+    "translation": "Do you have a suggestion?",
+    "len": 24,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_013.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_014",
+    "word": "Ich stimme Ihnen vollkommen zu.",
+    "translation": "I completely agree with you.",
+    "len": 29,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_014.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_015",
+    "word": "Das ist ein guter Ansatz.",
+    "translation": "That is a good approach.",
+    "len": 24,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_015.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_016",
+    "word": "Wir haben ein Problem mit dem System.",
+    "translation": "We have a problem with the system.",
+    "len": 36,
+    "tags": [
+      "business",
+      "issue"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_016.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_017",
+    "word": "Können wir kurz telefonieren?",
+    "translation": "Can we talk briefly on the phone?",
+    "len": 28,
+    "tags": [
+      "business",
+      "call"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_017.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_018",
+    "word": "Das Budget ist begrenzt.",
+    "translation": "The budget is limited.",
+    "len": 22,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_018.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_019",
+    "word": "Wir suchen nach einer Lösung.",
+    "translation": "We are looking for a solution.",
+    "len": 28,
+    "tags": [
+      "business",
+      "problem-solving"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_019.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_020",
+    "word": "Bitte senden Sie mir das Angebot.",
+    "translation": "Please send me the offer.",
+    "len": 31,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_020.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_021",
+    "word": "Der Vertrag ist unterschrieben.",
+    "translation": "The contract is signed.",
+    "len": 28,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_021.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_022",
+    "word": "Was sind die nächsten Schritte?",
+    "translation": "What are the next steps?",
+    "len": 29,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_022.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_023",
+    "word": "Ich arbeite an der Präsentation.",
+    "translation": "I am working on the presentation.",
+    "len": 30,
+    "tags": [
+      "business",
+      "task"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_023.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_024",
+    "word": "Können wir den Termin verschieben?",
+    "translation": "Can we reschedule the appointment?",
+    "len": 31,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_024.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_025",
+    "word": "Ich bin heute den ganzen Tag im Termin.",
+    "translation": "I am in meetings all day today.",
+    "len": 40,
+    "tags": [
+      "business",
+      "schedule"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_025.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_026",
+    "word": "Haben Sie meine Nachricht erhalten?",
+    "translation": "Did you receive my message?",
+    "len": 33,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_026.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_027",
+    "word": "Ich bin im Urlaub bis Freitag.",
+    "translation": "I am on vacation until Friday.",
+    "len": 29,
+    "tags": [
+      "business",
+      "out-of-office"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_027.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_028",
+    "word": "Bitte entschuldigen Sie die Verspätung.",
+    "translation": "Please excuse the delay.",
+    "len": 39,
+    "tags": [
+      "business",
+      "apology"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_028.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_029",
+    "word": "Wir müssen die Kosten reduzieren.",
+    "translation": "We must reduce costs.",
+    "len": 30,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_029.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_030",
+    "word": "Wer ist für das Projekt zuständig?",
+    "translation": "Who is responsible for the project?",
+    "len": 34,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_030.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_031",
+    "word": "Ich melde mich bei Ihnen zurück.",
+    "translation": "I will get back to you.",
+    "len": 29,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_031.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_032",
+    "word": "Wie lautet die Rechnungsnummer?",
+    "translation": "What is the invoice number?",
+    "len": 29,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_032.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_033",
+    "word": "Wir brauchen mehr Informationen.",
+    "translation": "We need more information.",
+    "len": 31,
+    "tags": [
+      "business",
+      "request"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_033.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_034",
+    "word": "Das ist nicht möglich.",
+    "translation": "That is not possible.",
+    "len": 21,
+    "tags": [
+      "business",
+      "refusal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_034.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_035",
+    "word": "Gerne helfe ich Ihnen dabei.",
+    "translation": "I would be happy to help you with that.",
+    "len": 27,
+    "tags": [
+      "business",
+      "help"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_035.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_036",
+    "word": "Wir schätzen Ihre Zusammenarbeit.",
+    "translation": "We value your cooperation.",
+    "len": 31,
+    "tags": [
+      "business",
+      "relationship"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_036.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_037",
+    "word": "Können wir das Meeting starten?",
+    "translation": "Can we start the meeting?",
+    "len": 28,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_037.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_038",
+    "word": "Haben Sie Unterlagen für mich?",
+    "translation": "Do you have documents for me?",
+    "len": 30,
+    "tags": [
+      "business",
+      "request"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_038.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_039",
+    "word": "Ich schicke Ihnen eine Einladung.",
+    "translation": "I am sending you an invitation.",
+    "len": 31,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_039.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_040",
+    "word": "Wie sieht Ihr Zeitplan aus?",
+    "translation": "What does your schedule look like?",
+    "len": 27,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_040.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_041",
+    "word": "Wir haben das Ziel erreicht.",
+    "translation": "We have reached the goal.",
+    "len": 25,
+    "tags": [
+      "business",
+      "success"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_041.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_042",
+    "word": "Das ist sehr dringend.",
+    "translation": "This is very urgent.",
+    "len": 21,
+    "tags": [
+      "business",
+      "urgency"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_042.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_043",
+    "word": "Können wir uns am Freitag treffen?",
+    "translation": "Can we meet on Friday?",
+    "len": 30,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_043.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_044",
+    "word": "Ich verstehe Ihre Bedenken.",
+    "translation": "I understand your concerns.",
+    "len": 24,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_044.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_045",
+    "word": "Wir müssen priorisieren.",
+    "translation": "We must prioritize.",
+    "len": 23,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_045.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_046",
+    "word": "Haben Sie Zeit für ein kurzes Gespräch?",
+    "translation": "Do you have time for a short conversation?",
+    "len": 37,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_046.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_047",
+    "word": "Ich sende Ihnen den Entwurf zu.",
+    "translation": "I am sending you the draft.",
+    "len": 29,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_047.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_048",
+    "word": "Gibt es offene Fragen?",
+    "translation": "Are there any open questions?",
+    "len": 22,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_048.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_049",
+    "word": "Wir müssen effizienter arbeiten.",
+    "translation": "We must work more efficiently.",
+    "len": 29,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_049.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_050",
+    "word": "Wie ist der Fortschritt?",
+    "translation": "How is the progress?",
+    "len": 21,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_050.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_051",
+    "word": "Ich schlage vor, wir treffen uns.",
+    "translation": "I suggest we meet.",
+    "len": 31,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_051.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_052",
+    "word": "Das Projekt wurde genehmigt.",
+    "translation": "The project was approved.",
+    "len": 27,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_052.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_053",
+    "word": "Bitte halten Sie mich auf dem Laufenden.",
+    "translation": "Please keep me updated.",
+    "len": 40,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_053.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_054",
+    "word": "Haben Sie Zugriff auf die Datei?",
+    "translation": "Do you have access to the file?",
+    "len": 30,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_054.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_055",
+    "word": "Das ist unsere Firmenpolitik.",
+    "translation": "That is our company policy.",
+    "len": 27,
+    "tags": [
+      "business",
+      "policy"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_055.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_056",
+    "word": "Wir suchen neue Mitarbeiter.",
+    "translation": "We are looking for new employees.",
+    "len": 26,
+    "tags": [
+      "business",
+      "HR"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_056.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_057",
+    "word": "Was ist das Ziel dieses Meetings?",
+    "translation": "What is the goal of this meeting?",
+    "len": 31,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_057.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_058",
+    "word": "Ich sende Ihnen die Tagesordnung.",
+    "translation": "I am sending you the agenda.",
+    "len": 29,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_058.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_059",
+    "word": "Wir haben technische Probleme.",
+    "translation": "We have technical problems.",
+    "len": 27,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_059.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_060",
+    "word": "Ich kann das nicht beurteilen.",
+    "translation": "I cannot judge that.",
+    "len": 26,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_060.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_061",
+    "word": "Können wir das Thema vertagen?",
+    "translation": "Can we defer the topic?",
+    "len": 28,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_061.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_062",
+    "word": "Wir brauchen ein Protokoll.",
+    "translation": "We need meeting minutes.",
+    "len": 26,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_062.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_063",
+    "word": "Das hat Priorität.",
+    "translation": "That has priority.",
+    "len": 18,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_063.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_064",
+    "word": "Sind Sie damit einverstanden?",
+    "translation": "Do you agree with that?",
+    "len": 27,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_064.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_065",
+    "word": "Ich habe eine Rückfrage dazu.",
+    "translation": "I have a follow-up question about that.",
+    "len": 27,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_065.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_066",
+    "word": "Das ist eine gute Gelegenheit.",
+    "translation": "That is a good opportunity.",
+    "len": 27,
+    "tags": [
+      "business",
+      "opportunity"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_066.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_067",
+    "word": "Wir sollten uns abstimmen.",
+    "translation": "We should coordinate.",
+    "len": 25,
+    "tags": [
+      "business",
+      "collaboration"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_067.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_068",
+    "word": "Vielen Dank für Ihre Geduld.",
+    "translation": "Thank you for your patience.",
+    "len": 27,
+    "tags": [
+      "business",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_068.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_069",
+    "word": "Ich habe den Bericht angehängt.",
+    "translation": "I have attached the report.",
+    "len": 28,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_069.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_070",
+    "word": "Wir haben den Vertrag geprüft.",
+    "translation": "We have reviewed the contract.",
+    "len": 28,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_070.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_071",
+    "word": "Das Ergebnis ist positiv.",
+    "translation": "The result is positive.",
+    "len": 23,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_071.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_072",
+    "word": "Wie sind die Konditionen?",
+    "translation": "What are the terms?",
+    "len": 23,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_072.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_073",
+    "word": "Wir müssen die Qualität sichern.",
+    "translation": "We must ensure quality.",
+    "len": 31,
+    "tags": [
+      "business",
+      "quality"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_073.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_074",
+    "word": "Ich unterstütze diesen Vorschlag.",
+    "translation": "I support this proposal.",
+    "len": 30,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_074.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_075",
+    "word": "Gibt es einen Plan B?",
+    "translation": "Is there a Plan B?",
+    "len": 19,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_075.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_076",
+    "word": "Ich habe die E-Mail weitergeleitet.",
+    "translation": "I have forwarded the email.",
+    "len": 32,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_076.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_077",
+    "word": "Wir benötigen Ihre Unterschrift.",
+    "translation": "We need your signature.",
+    "len": 28,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_077.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_078",
+    "word": "Das Team leistet gute Arbeit.",
+    "translation": "The team is doing good work.",
+    "len": 27,
+    "tags": [
+      "business",
+      "team"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_078.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_079",
+    "word": "Wir müssen die Ressourcen planen.",
+    "translation": "We must plan the resources.",
+    "len": 30,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_079.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_080",
+    "word": "Ich bin mit dem Ergebnis zufrieden.",
+    "translation": "I am satisfied with the result.",
+    "len": 32,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_080.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_081",
+    "word": "Bitte rufen Sie mich zurück.",
+    "translation": "Please call me back.",
+    "len": 27,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_081.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_082",
+    "word": "Das Meeting dauert eine Stunde.",
+    "translation": "The meeting lasts one hour.",
+    "len": 30,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_082.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_083",
+    "word": "Wir müssen die Daten analysieren.",
+    "translation": "We must analyze the data.",
+    "len": 30,
+    "tags": [
+      "business",
+      "analysis"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_083.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_084",
+    "word": "Ich habe keine Zeit dafür.",
+    "translation": "I have no time for that.",
+    "len": 24,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_084.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_085",
+    "word": "Können wir den Termin bestätigen?",
+    "translation": "Can we confirm the appointment?",
+    "len": 30,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_085.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_086",
+    "word": "Das ist eine wichtige Entscheidung.",
+    "translation": "That is an important decision.",
+    "len": 31,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_086.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_087",
+    "word": "Ich schicke Ihnen die Unterlagen per Post.",
+    "translation": "I am sending you the documents by mail.",
+    "len": 40,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_087.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_088",
+    "word": "Wir haben das Budget überschritten.",
+    "translation": "We have exceeded the budget.",
+    "len": 30,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_088.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_089",
+    "word": "Das ist in unserem Interesse.",
+    "translation": "That is in our interest.",
+    "len": 27,
+    "tags": [
+      "business",
+      "strategy"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_089.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_090",
+    "word": "Können Sie die Datei öffnen?",
+    "translation": "Can you open the file?",
+    "len": 26,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_090.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_091",
+    "word": "Wir müssen den Fehler beheben.",
+    "translation": "We must fix the error.",
+    "len": 28,
+    "tags": [
+      "business",
+      "issue"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_091.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_092",
+    "word": "Das Angebot ist gültig bis morgen.",
+    "translation": "The offer is valid until tomorrow.",
+    "len": 33,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_092.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_093",
+    "word": "Ich bin für Ihre Hilfe dankbar.",
+    "translation": "I am grateful for your help.",
+    "len": 28,
+    "tags": [
+      "business",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_093.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_094",
+    "word": "Wir suchen nach Effizienz.",
+    "translation": "We are looking for efficiency.",
+    "len": 24,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_094.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_095",
+    "word": "Haben Sie ein Feedback dazu?",
+    "translation": "Do you have any feedback on that?",
+    "len": 28,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_095.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_096",
+    "word": "Das Meeting findet online statt.",
+    "translation": "The meeting is taking place online.",
+    "len": 32,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_096.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_097",
+    "word": "Ich sende Ihnen den Link.",
+    "translation": "I am sending you the link.",
+    "len": 25,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_097.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_098",
+    "word": "Wir müssen uns konzentrieren.",
+    "translation": "We must focus.",
+    "len": 26,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_098.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_099",
+    "word": "Können wir die Strategie ändern?",
+    "translation": "Can we change the strategy?",
+    "len": 29,
+    "tags": [
+      "business",
+      "strategy"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_099.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_100",
+    "word": "Vielen Dank für das Gespräch.",
+    "translation": "Thank you for the conversation.",
+    "len": 28,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_100.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_001",
+    "word": "Hallo!",
+    "translation": "Hello!",
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_001.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_002",
+    "word": "Guten Morgen!",
+    "translation": "Good morning!",
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_002.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_003",
+    "word": "Guten Tag!",
+    "translation": "Good day!",
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_003.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_004",
+    "word": "Guten Abend!",
+    "translation": "Good evening!",
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_004.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_005",
+    "word": "Wie geht es dir?",
+    "translation": "How are you?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_005.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_006",
+    "word": "Wie geht es Ihnen?",
+    "translation": "How are you? (formal)",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_006.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_007",
+    "word": "Mir geht es gut, danke.",
+    "translation": "I am fine, thank you.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_007.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_008",
+    "word": "Und dir?",
+    "translation": "And you?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_008.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_009",
+    "word": "Wie heißt du?",
+    "translation": "What is your name?",
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_009.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_010",
+    "word": "Ich heiße...",
+    "translation": "My name is...",
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_010.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_011",
+    "word": "Freut mich.",
+    "translation": "Nice to meet you.",
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_011.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_012",
+    "word": "Woher kommst du?",
+    "translation": "Where are you from?",
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_012.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_013",
+    "word": "Ich komme aus der Türkei.",
+    "translation": "I come from Turkey.",
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_013.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_014",
+    "word": "Wo wohnst du?",
+    "translation": "Where do you live?",
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_014.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_015",
+    "word": "Was machst du beruflich?",
+    "translation": "What do you do for a living?",
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_015.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_016",
+    "word": "Kannst du mir helfen?",
+    "translation": "Can you help me?",
+    "tags": [
+      "social",
+      "help"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_016.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_017",
+    "word": "Ich verstehe das nicht.",
+    "translation": "I do not understand that.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_017.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_018",
+    "word": "Kannst du das wiederholen?",
+    "translation": "Can you repeat that?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_018.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_019",
+    "word": "Sprichst du Englisch?",
+    "translation": "Do you speak English?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_019.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_020",
+    "word": "Ein bisschen.",
+    "translation": "A little.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_020.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_021",
+    "word": "Wie sagt man das?",
+    "translation": "How do you say that?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_021.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_022",
+    "word": "Was bedeutet das?",
+    "translation": "What does that mean?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_022.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_023",
+    "word": "Ich lerne Deutsch.",
+    "translation": "I am learning German.",
+    "tags": [
+      "social",
+      "learning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_023.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_024",
+    "word": "Schreib das bitte auf.",
+    "translation": "Please write that down.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_024.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_025",
+    "word": "Entschuldigung.",
+    "translation": "Excuse me.",
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_025.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_026",
+    "word": "Kein Problem.",
+    "translation": "No problem.",
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_026.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_027",
+    "word": "Bitte.",
+    "translation": "Please / You're welcome.",
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_027.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_028",
+    "word": "Danke schön.",
+    "translation": "Thank you very much.",
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_028.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_029",
+    "word": "Vielen Dank.",
+    "translation": "Thank you very much.",
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_029.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_030",
+    "word": "Gerne!",
+    "translation": "Gladly!",
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_030.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_031",
+    "word": "Hast du Zeit?",
+    "translation": "Do you have time?",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_031.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_032",
+    "word": "Wollen wir Kaffee trinken?",
+    "translation": "Shall we drink coffee?",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_032.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_033",
+    "word": "Ich habe Lust auf...",
+    "translation": "I feel like...",
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_033.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_034",
+    "word": "Wann treffen wir uns?",
+    "translation": "When shall we meet?",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_034.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_035",
+    "word": "Wo treffen wir uns?",
+    "translation": "Where shall we meet?",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_035.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_036",
+    "word": "Das passt mir gut.",
+    "translation": "That works for me.",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_036.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_037",
+    "word": "Das geht leider nicht.",
+    "translation": "Unfortunately, that does not work.",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_037.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_038",
+    "word": "Bist du sicher?",
+    "translation": "Are you sure?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_038.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_039",
+    "word": "Klar!",
+    "translation": "Sure!",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_039.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_040",
+    "word": "Vielleicht.",
+    "translation": "Maybe.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_040.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_041",
+    "word": "Hast du Pläne?",
+    "translation": "Do you have plans?",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_041.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_042",
+    "word": "Kommst du mit?",
+    "translation": "Are you coming along?",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_042.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_043",
+    "word": "Ich freue mich.",
+    "translation": "I am looking forward to it.",
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_043.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_044",
+    "word": "Viel Erfolg!",
+    "translation": "Good luck!",
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_044.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_045",
+    "word": "Guten Appetit!",
+    "translation": "Enjoy your meal!",
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_045.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_046",
+    "word": "Ich finde das toll.",
+    "translation": "I think that is great.",
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_046.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_047",
+    "word": "Ich mag das nicht.",
+    "translation": "I do not like that.",
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_047.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_048",
+    "word": "Ich bin anderer Meinung.",
+    "translation": "I have a different opinion.",
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_048.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_049",
+    "word": "Das stimmt.",
+    "translation": "That is correct.",
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_049.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_050",
+    "word": "Ich bin einverstanden.",
+    "translation": "I agree.",
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_050.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_051",
+    "word": "Was denkst du?",
+    "translation": "What do you think?",
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_051.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_052",
+    "word": "Keine Ahnung.",
+    "translation": "No idea.",
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_052.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_053",
+    "word": "Ich glaube...",
+    "translation": "I think...",
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_053.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_054",
+    "word": "Ich hoffe...",
+    "translation": "I hope...",
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_054.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_055",
+    "word": "Viel Glück!",
+    "translation": "Good luck!",
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_055.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_056",
+    "word": "Wie spät ist es?",
+    "translation": "What time is it?",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_056.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_057",
+    "word": "Ich muss los.",
+    "translation": "I have to go.",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_057.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_058",
+    "word": "Bis bald!",
+    "translation": "See you soon!",
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_058.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_059",
+    "word": "Bis später!",
+    "translation": "See you later!",
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_059.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_060",
+    "word": "Schönen Tag!",
+    "translation": "Have a nice day!",
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_060.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_061",
+    "word": "Gute Nacht!",
+    "translation": "Good night!",
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_061.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_062",
+    "word": "Wie war dein Tag?",
+    "translation": "How was your day?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_062.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_063",
+    "word": "Ich bin müde.",
+    "translation": "I am tired.",
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_063.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_064",
+    "word": "Ich habe Hunger.",
+    "translation": "I am hungry.",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_064.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_065",
+    "word": "Haben wir Kaffee?",
+    "translation": "Do we have coffee?",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_065.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_066",
+    "word": "Das Wetter ist schön.",
+    "translation": "The weather is nice.",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_066.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_067",
+    "word": "Es regnet.",
+    "translation": "It is raining.",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_067.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_068",
+    "word": "Ich brauche Ruhe.",
+    "translation": "I need some quiet.",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_068.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_069",
+    "word": "Was machen wir abends?",
+    "translation": "What are we doing in the evening?",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_069.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_070",
+    "word": "Ich rufe dich an.",
+    "translation": "I will call you.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_070.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_071",
+    "word": "Alles klar.",
+    "translation": "All right.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_071.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_072",
+    "word": "Verstehst du mich?",
+    "translation": "Do you understand me?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_072.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_073",
+    "word": "Sehr nett von dir.",
+    "translation": "Very nice of you.",
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_073.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_074",
+    "word": "Gute Besserung!",
+    "translation": "Get well soon!",
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_074.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_075",
+    "word": "Herzlichen Glückwunsch!",
+    "translation": "Congratulations!",
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_075.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_076",
+    "word": "Entschuldigen Sie.",
+    "translation": "Excuse me.",
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_076.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_077",
+    "word": "Darf ich fragen?",
+    "translation": "May I ask?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_077.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_078",
+    "word": "Das klingt gut.",
+    "translation": "That sounds good.",
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_078.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_079",
+    "word": "Ich weiß nicht.",
+    "translation": "I do not know.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_079.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_080",
+    "word": "Kannst du das erklären?",
+    "translation": "Can you explain that?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_080.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_081",
+    "word": "Das ist wichtig.",
+    "translation": "That is important.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_081.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_082",
+    "word": "Wie bitte?",
+    "translation": "Pardon?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_082.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_083",
+    "word": "Keine Sorge.",
+    "translation": "Do not worry.",
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_083.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_084",
+    "word": "Viel Spaß!",
+    "translation": "Have fun!",
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_084.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_085",
+    "word": "Ich warte auf dich.",
+    "translation": "I am waiting for you.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_085.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_086",
+    "word": "Was ist passiert?",
+    "translation": "What happened?",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_086.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_087",
+    "word": "Es macht Spaß.",
+    "translation": "It is fun.",
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_087.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_088",
+    "word": "Ich vermisse dich.",
+    "translation": "I miss you.",
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_088.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_089",
+    "word": "Alles Gute!",
+    "translation": "All the best!",
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_089.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_090",
+    "word": "Schön dich zu sehen.",
+    "translation": "Nice to see you.",
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_090.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_091",
+    "word": "Einen Moment bitte.",
+    "translation": "One moment please.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_091.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_092",
+    "word": "Komm rein!",
+    "translation": "Come in!",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_092.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_093",
+    "word": "Setz dich.",
+    "translation": "Sit down.",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_093.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_094",
+    "word": "Trinkst du etwas?",
+    "translation": "Would you like something to drink?",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_094.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_095",
+    "word": "Es ist mir egal.",
+    "translation": "I do not care.",
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_095.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_096",
+    "word": "Ich bin bereit.",
+    "translation": "I am ready.",
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_096.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_097",
+    "word": "Hast du kurz Zeit?",
+    "translation": "Do you have a moment?",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_097.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_098",
+    "word": "Das ist mir neu.",
+    "translation": "That is new to me.",
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_098.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_099",
+    "word": "Lass uns anfangen.",
+    "translation": "Let us start.",
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_099.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_100",
+    "word": "Bis zum nächsten Mal.",
+    "translation": "Until next time.",
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_100.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_001",
+    "word": "Wo ist der Bahnhof?",
+    "translation": "Where is the train station?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_001.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_002",
+    "word": "Wie komme ich zum Hotel?",
+    "translation": "How do I get to the hotel?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_002.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_003",
+    "word": "Ein Ticket nach Berlin, bitte.",
+    "translation": "A ticket to Berlin, please.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_003.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_004",
+    "word": "Wann fährt der nächste Zug?",
+    "translation": "When does the next train leave?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_004.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_005",
+    "word": "Haben Sie ein freies Zimmer?",
+    "translation": "Do you have a vacant room?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_005.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_006",
+    "word": "Ich habe eine Reservierung.",
+    "translation": "I have a reservation.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_006.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_007",
+    "word": "Wo ist die nächste U-Bahn?",
+    "translation": "Where is the nearest subway station?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_007.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_008",
+    "word": "Wie viel kostet das?",
+    "translation": "How much does that cost?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_008.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_009",
+    "word": "Ich möchte einchecken.",
+    "translation": "I would like to check in.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_009.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_010",
+    "word": "Können Sie mir helfen?",
+    "translation": "Can you help me?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_010.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_011",
+    "word": "Gibt es hier ein Restaurant?",
+    "translation": "Is there a restaurant here?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_011.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_012",
+    "word": "Ich suche den Stadtplan.",
+    "translation": "I am looking for the city map.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_012.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_013",
+    "word": "Ist es weit von hier?",
+    "translation": "Is it far from here?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_013.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_014",
+    "word": "Ich möchte ein Taxi rufen.",
+    "translation": "I would like to call a taxi.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_014.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_015",
+    "word": "Wann öffnet das Museum?",
+    "translation": "When does the museum open?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_015.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_016",
+    "word": "Wo kann ich Geld wechseln?",
+    "translation": "Where can I exchange money?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_016.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_017",
+    "word": "Haben Sie einen Stadtplan?",
+    "translation": "Do you have a city map?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_017.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_018",
+    "word": "Das ist sehr schön.",
+    "translation": "That is very beautiful.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_018.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_019",
+    "word": "Einen Tisch für zwei, bitte.",
+    "translation": "A table for two, please.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_019.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_020",
+    "word": "Die Rechnung, bitte.",
+    "translation": "The bill, please.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_020.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_021",
+    "word": "Wo ist die Toilette?",
+    "translation": "Where is the restroom?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_021.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_022",
+    "word": "Ich bin Tourist.",
+    "translation": "I am a tourist.",
+    "len": 14,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_022.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_023",
+    "word": "Können Sie das fotografieren?",
+    "translation": "Can you take a picture of this?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_023.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_024",
+    "word": "Wo ist der Ausgang?",
+    "translation": "Where is the exit?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_024.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_025",
+    "word": "Was empfehlen Sie?",
+    "translation": "What do you recommend?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_025.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_026",
+    "word": "Gibt es ein Ticket für den ganzen Tag?",
+    "translation": "Is there a ticket for the whole day?",
+    "len": 37,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_026.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_027",
+    "word": "Ich brauche ein Pflaster.",
+    "translation": "I need a bandage.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_027.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_028",
+    "word": "Gute Reise!",
+    "translation": "Have a good trip!",
+    "len": 12,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_028.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_029",
+    "word": "Wie komme ich zum Flughafen?",
+    "translation": "How do I get to the airport?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_029.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_030",
+    "word": "Wo ist die Haltestelle?",
+    "translation": "Where is the bus stop?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_030.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_031",
+    "word": "Ich habe mein Gepäck verloren.",
+    "translation": "I lost my luggage.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_031.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_032",
+    "word": "Ist das Frühstück inklusive?",
+    "translation": "Is breakfast included?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_032.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_033",
+    "word": "Wann ist der Check-out?",
+    "translation": "When is check-out?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_033.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_034",
+    "word": "Können Sie laut sprechen?",
+    "translation": "Can you speak louder?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_034.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_035",
+    "word": "Wo ist der Supermarkt?",
+    "translation": "Where is the supermarket?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_035.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_036",
+    "word": "Ich möchte Fahrräder mieten.",
+    "translation": "I would like to rent bicycles.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_036.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_037",
+    "word": "Gibt es WLAN hier?",
+    "translation": "Is there Wi-Fi here?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_037.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_038",
+    "word": "Das ist ein tolles Gebäude.",
+    "translation": "That is a great building.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_038.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_039",
+    "word": "Wo ist die Touristeninfo?",
+    "translation": "Where is the tourist information center?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_039.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_040",
+    "word": "Ich möchte ein Zimmer mit Aussicht.",
+    "translation": "I would like a room with a view.",
+    "len": 33,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_040.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_041",
+    "word": "Wie lange dauert die Fahrt?",
+    "translation": "How long does the trip take?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_041.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_042",
+    "word": "Haben Sie eine Karte?",
+    "translation": "Do you have a map?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_042.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_043",
+    "word": "Entschuldigung, wie bitte?",
+    "translation": "Excuse me, pardon?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_043.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_044",
+    "word": "Wo ist die Apotheke?",
+    "translation": "Where is the pharmacy?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_044.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_045",
+    "word": "Ich möchte diese Sehenswürdigkeit besuchen.",
+    "translation": "I would like to visit this attraction.",
+    "len": 40,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_045.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_046",
+    "word": "Kann ich hier mit Karte zahlen?",
+    "translation": "Can I pay by card here?",
+    "len": 32,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_046.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_047",
+    "word": "Ist es sicher hier?",
+    "translation": "Is it safe here?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_047.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_048",
+    "word": "Wo ist die nächste Bank?",
+    "translation": "Where is the nearest bank?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_048.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_049",
+    "word": "Wir haben uns verlaufen.",
+    "translation": "We are lost.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_049.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_050",
+    "word": "Was ist das Eintrittspreis?",
+    "translation": "What is the entrance fee?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_050.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_051",
+    "word": "Können Sie das auf der Karte zeigen?",
+    "translation": "Can you show me that on the map?",
+    "len": 35,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_051.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_052",
+    "word": "Wo ist der Parkplatz?",
+    "translation": "Where is the parking lot?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_052.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_053",
+    "word": "Ich habe eine Allergie.",
+    "translation": "I have an allergy.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_053.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_054",
+    "word": "Wo ist die Botschaft?",
+    "translation": "Where is the embassy?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_054.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_055",
+    "word": "Wir brauchen Hilfe.",
+    "translation": "We need help.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_055.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_056",
+    "word": "Ist das Leitungswasser trinkbar?",
+    "translation": "Is the tap water drinkable?",
+    "len": 30,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_056.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_057",
+    "word": "Ich suche einen Park.",
+    "translation": "I am looking for a park.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_057.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_058",
+    "word": "Wo ist der Schalter?",
+    "translation": "Where is the ticket counter?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_058.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_059",
+    "word": "Können wir das verschieben?",
+    "translation": "Can we postpone that?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_059.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_060",
+    "word": "Gibt es eine Führung?",
+    "translation": "Is there a guided tour?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_060.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_061",
+    "word": "Ich mag diese Stadt.",
+    "translation": "I like this city.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_061.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_062",
+    "word": "Wo ist der Eingang?",
+    "translation": "Where is the entrance?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_062.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_063",
+    "word": "Wie komme ich zu diesem Museum?",
+    "translation": "How do I get to this museum?",
+    "len": 30,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_063.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_064",
+    "word": "Haben Sie ein vegetarisches Gericht?",
+    "translation": "Do you have a vegetarian dish?",
+    "len": 32,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_064.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_065",
+    "word": "Ich bin zum ersten Mal hier.",
+    "translation": "I am here for the first time.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_065.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_066",
+    "word": "Was ist Ihre Empfehlung?",
+    "translation": "What is your recommendation?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_066.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_067",
+    "word": "Wo ist der Flughafenbus?",
+    "translation": "Where is the airport bus?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_067.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_068",
+    "word": "Ich habe mein Handy verloren.",
+    "translation": "I lost my mobile phone.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_068.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_069",
+    "word": "Gibt es einen Rabatt?",
+    "translation": "Is there a discount?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_069.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_070",
+    "word": "Ich brauche ein Taxi für morgen.",
+    "translation": "I need a taxi for tomorrow.",
+    "len": 30,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_070.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_071",
+    "word": "Wo ist das Reisebüro?",
+    "translation": "Where is the travel agency?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_071.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_072",
+    "word": "Das ist sehr lecker.",
+    "translation": "That is very delicious.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_072.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_073",
+    "word": "Gibt es eine Karte für die Stadt?",
+    "translation": "Is there a city map?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_073.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_074",
+    "word": "Ich möchte Tickets buchen.",
+    "translation": "I would like to book tickets.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_074.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_075",
+    "word": "Wo ist der Bahnhofseingang?",
+    "translation": "Where is the station entrance?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_075.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_076",
+    "word": "Wie spät ist es?",
+    "translation": "What time is it?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_076.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_077",
+    "word": "Kann man hier rauchen?",
+    "translation": "Can one smoke here?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_077.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_078",
+    "word": "Ich suche ein billiges Hotel.",
+    "translation": "I am looking for a cheap hotel.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_078.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_079",
+    "word": "Wo ist die Post?",
+    "translation": "Where is the post office?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_079.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_080",
+    "word": "Ist der Eintritt kostenlos?",
+    "translation": "Is admission free?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_080.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_081",
+    "word": "Ich möchte mehr über die Stadt wissen.",
+    "translation": "I would like to know more about the city.",
+    "len": 40,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_081.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_082",
+    "word": "Wo kann ich Souvenirs kaufen?",
+    "translation": "Where can I buy souvenirs?",
+    "len": 30,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_082.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_083",
+    "word": "Ich brauche einen Arzt.",
+    "translation": "I need a doctor.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_083.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_084",
+    "word": "Wo ist die Polizei?",
+    "translation": "Where is the police station?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_084.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_085",
+    "word": "Das ist ein schöner Platz.",
+    "translation": "That is a beautiful square.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_085.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_086",
+    "word": "Wann schließt das Geschäft?",
+    "translation": "When does the shop close?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_086.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_087",
+    "word": "Gibt es öffentliche Verkehrsmittel?",
+    "translation": "Is there public transport?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_087.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_088",
+    "word": "Ich möchte ein Auto mieten.",
+    "translation": "I would like to rent a car.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_088.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_089",
+    "word": "Können Sie die Tür öffnen?",
+    "translation": "Can you open the door?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_089.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_090",
+    "word": "Wo ist das Theater?",
+    "translation": "Where is the theater?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_090.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_091",
+    "word": "Das Wasser ist warm.",
+    "translation": "The water is warm.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_091.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_092",
+    "word": "Gibt es eine Aussichtsplattform?",
+    "translation": "Is there an observation deck?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_092.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_093",
+    "word": "Ich habe den Bus verpasst.",
+    "translation": "I missed the bus.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_093.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_094",
+    "word": "Wo kann ich ein Ticket kaufen?",
+    "translation": "Where can I buy a ticket?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_094.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_095",
+    "word": "Ist es weit zu Fuß?",
+    "translation": "Is it far on foot?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_095.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_096",
+    "word": "Ich möchte die Altstadt sehen.",
+    "translation": "I would like to see the old town.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_096.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_097",
+    "word": "Haben Sie einladende Orte?",
+    "translation": "Do you have any recommended places?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_097.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_098",
+    "word": "Wo finde ich einen Bankautomaten?",
+    "translation": "Where can I find an ATM?",
+    "len": 31,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_098.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_099",
+    "word": "Vielen Dank für Ihre Hilfe.",
+    "translation": "Thank you for your help.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_099.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_100",
+    "word": "Auf Wiedersehen!",
+    "translation": "Goodbye!",
+    "len": 17,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_100.mp3",
+    "level": "DE"
+  }
+]

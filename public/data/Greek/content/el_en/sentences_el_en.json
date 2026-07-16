@@ -1,0 +1,7002 @@
+[
+  {
+    "id": "el_sent_001",
+    "word": "Νιώθω καλύτερα.",
+    "latin_okunusu": "Niotho kalitera.",
+    "translation": "I feel better.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_001.mp3"
+    }
+  },
+  {
+    "id": "el_sent_002",
+    "word": "Είναι καλύτερα από το τίποτα.",
+    "latin_okunusu": "Einai kalitera apo to tipota.",
+    "translation": "It is better than nothing.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_002.mp3"
+    }
+  },
+  {
+    "id": "el_sent_003",
+    "word": "Πρέπει να προσπαθήσεις.",
+    "latin_okunusu": "Prepei na prospathiseis.",
+    "translation": "You must try.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_003.mp3"
+    }
+  },
+  {
+    "id": "el_sent_004",
+    "word": "Μπορούμε να τα καταφέρουμε.",
+    "latin_okunusu": "Boroume na ta kataferoume.",
+    "translation": "We can do it.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_004.mp3"
+    }
+  },
+  {
+    "id": "el_sent_005",
+    "word": "Πού είναι το αυτοκίνητό μου;",
+    "latin_okunusu": "Pou einai to aftokinito mou?",
+    "translation": "Where is my car?",
+    "len": 25,
+    "tags": [
+      "daily",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_005.mp3"
+    }
+  },
+  {
+    "id": "el_sent_006",
+    "word": "Είμαι κουρασμένος.",
+    "latin_okunusu": "Eimai kourasmenos.",
+    "translation": "I am tired.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_006.mp3"
+    }
+  },
+  {
+    "id": "el_sent_007",
+    "word": "Πεινάω.",
+    "latin_okunusu": "Peinao.",
+    "translation": "I am hungry.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_007.mp3"
+    }
+  },
+  {
+    "id": "el_sent_008",
+    "word": "Διψάω.",
+    "latin_okunusu": "Dipsao.",
+    "translation": "I am thirsty.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_008.mp3"
+    }
+  },
+  {
+    "id": "el_sent_009",
+    "word": "Ο καιρός είναι ωραίος σήμερα.",
+    "latin_okunusu": "O kairos einai oraios simera.",
+    "translation": "The weather is nice today.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_009.mp3"
+    }
+  },
+  {
+    "id": "el_sent_010",
+    "word": "Τι είναι αυτό;",
+    "latin_okunusu": "Ti einai afto?",
+    "translation": "What is this?",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_010.mp3"
+    }
+  },
+  {
+    "id": "el_sent_011",
+    "word": "Δεν το ξέρω.",
+    "latin_okunusu": "Den to ksero.",
+    "translation": "I don't know it.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_011.mp3"
+    }
+  },
+  {
+    "id": "el_sent_012",
+    "word": "Αυτό είναι υπέροχο!",
+    "latin_okunusu": "Afto einai iperoxo!",
+    "translation": "That is wonderful!",
+    "len": 19,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_012.mp3"
+    }
+  },
+  {
+    "id": "el_sent_013",
+    "word": "Αγαπώ τη Γαλλία.",
+    "latin_okunusu": "Agapo ti Gallia.",
+    "translation": "I love France.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_013.mp3"
+    }
+  },
+  {
+    "id": "el_sent_014",
+    "word": "Τι ώρα είναι;",
+    "latin_okunusu": "Ti ora einai?",
+    "translation": "What time is it?",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_014.mp3"
+    }
+  },
+  {
+    "id": "el_sent_015",
+    "word": "Είναι ώρα για φαγητό.",
+    "latin_okunusu": "Einai ora gia fagito.",
+    "translation": "It is time to eat.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_015.mp3"
+    }
+  },
+  {
+    "id": "el_sent_016",
+    "word": "Εδώ κάνει ζέστη.",
+    "latin_okunusu": "Edo kanei zesti.",
+    "translation": "It is hot here.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_016.mp3"
+    }
+  },
+  {
+    "id": "el_sent_017",
+    "word": "Θέλω να κοιμηθώ.",
+    "latin_okunusu": "Thelo na koimitho.",
+    "translation": "I want to sleep.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_017.mp3"
+    }
+  },
+  {
+    "id": "el_sent_018",
+    "word": "Αυτή είναι μια καλή ιδέα.",
+    "latin_okunusu": "Afti einai mia kali idea.",
+    "translation": "That is a good idea.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_018.mp3"
+    }
+  },
+  {
+    "id": "el_sent_019",
+    "word": "Καθόλου.",
+    "latin_okunusu": "Katholou.",
+    "translation": "Not at all.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_019.mp3"
+    }
+  },
+  {
+    "id": "el_sent_020",
+    "word": "Σύμφωνοι.",
+    "latin_okunusu": "Simfonoi.",
+    "translation": "Agreed.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_020.mp3"
+    }
+  },
+  {
+    "id": "el_sent_021",
+    "word": "Βρέχει.",
+    "latin_okunusu": "Vrehei.",
+    "translation": "It is raining.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_021.mp3"
+    }
+  },
+  {
+    "id": "el_sent_022",
+    "word": "Ξέχασα τα κλειδιά μου.",
+    "latin_okunusu": "Ksehasa ta kleidia mou.",
+    "translation": "I forgot my keys.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_022.mp3"
+    }
+  },
+  {
+    "id": "el_sent_023",
+    "word": "Μπορείς να ανοίξεις την πόρτα;",
+    "latin_okunusu": "Boreis na anoikseis tin porta?",
+    "translation": "Can you open the door?",
+    "len": 29,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_023.mp3"
+    }
+  },
+  {
+    "id": "el_sent_024",
+    "word": "Κάνει πολλή ζέστη.",
+    "latin_okunusu": "Kanei polli zesti.",
+    "translation": "It is very hot.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_024.mp3"
+    }
+  },
+  {
+    "id": "el_sent_025",
+    "word": "Έτσι είναι τέλεια.",
+    "latin_okunusu": "Etsi einai teleia.",
+    "translation": "That is perfect.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_025.mp3"
+    }
+  },
+  {
+    "id": "el_sent_026",
+    "word": "Είναι μια ωραία μέρα.",
+    "latin_okunusu": "Einai mia oraia mera.",
+    "translation": "It is a nice day.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_026.mp3"
+    }
+  },
+  {
+    "id": "el_sent_027",
+    "word": "Έξω κάνει κρύο.",
+    "latin_okunusu": "Ekso kanei krio.",
+    "translation": "It is cold outside.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_027.mp3"
+    }
+  },
+  {
+    "id": "el_sent_028",
+    "word": "Φόρα ένα παλτό.",
+    "latin_okunusu": "Fora ena palto.",
+    "translation": "Wear a coat.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_028.mp3"
+    }
+  },
+  {
+    "id": "el_sent_029",
+    "word": "Άργησα.",
+    "latin_okunusu": "Argisa.",
+    "translation": "I am late.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_029.mp3"
+    }
+  },
+  {
+    "id": "el_sent_030",
+    "word": "Βιάσου!",
+    "latin_okunusu": "Viasou!",
+    "translation": "Hurry up!",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_030.mp3"
+    }
+  },
+  {
+    "id": "el_sent_031",
+    "word": "Θα γυρίσω σύντομα.",
+    "latin_okunusu": "Tha giriso sintoma.",
+    "translation": "I will be back soon.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_031.mp3"
+    }
+  },
+  {
+    "id": "el_sent_032",
+    "word": "Δεν μπορώ να το αποφύγω.",
+    "latin_okunusu": "Den boro na to apofygo.",
+    "translation": "I cannot avoid it.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_032.mp3"
+    }
+  },
+  {
+    "id": "el_sent_033",
+    "word": "Παίρνω τον χρόνο μου.",
+    "latin_okunusu": "Pairno ton chrono mou.",
+    "translation": "I am taking my time.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_033.mp3"
+    }
+  },
+  {
+    "id": "el_sent_034",
+    "word": "Μην είσαι ανόητος.",
+    "latin_okunusu": "Min eisai anoitos.",
+    "translation": "Don't be silly.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_034.mp3"
+    }
+  },
+  {
+    "id": "el_sent_035",
+    "word": "Δεν έχω ιδέα.",
+    "latin_okunusu": "Den echo idea.",
+    "translation": "I have no idea.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_035.mp3"
+    }
+  },
+  {
+    "id": "el_sent_036",
+    "word": "Τι συμβαίνει;",
+    "latin_okunusu": "Ti symbainei?",
+    "translation": "What is happening?",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_036.mp3"
+    }
+  },
+  {
+    "id": "el_sent_037",
+    "word": "Τίποτα ιδιαίτερο.",
+    "latin_okunusu": "Tipota idiaitero.",
+    "translation": "Nothing special.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_037.mp3"
+    }
+  },
+  {
+    "id": "el_sent_038",
+    "word": "Πρέπει να σκεφτώ.",
+    "latin_okunusu": "Prepei na skefto.",
+    "translation": "I need to think.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_038.mp3"
+    }
+  },
+  {
+    "id": "el_sent_039",
+    "word": "Τι μέρα είναι σήμερα;",
+    "latin_okunusu": "Ti mera einai simera?",
+    "translation": "What day is today?",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_039.mp3"
+    }
+  },
+  {
+    "id": "el_sent_040",
+    "word": "Σήμερα είναι Τρίτη.",
+    "latin_okunusu": "Simera einai Triti.",
+    "translation": "Today is Tuesday.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_040.mp3"
+    }
+  },
+  {
+    "id": "el_sent_041",
+    "word": "Μην ξεχάσεις τα πράγματά σου.",
+    "latin_okunusu": "Min ksehaseis ta pragmata sou.",
+    "translation": "Don't forget your things.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_041.mp3"
+    }
+  },
+  {
+    "id": "el_sent_042",
+    "word": "Πιστεύω ότι θα βρέξει.",
+    "latin_okunusu": "Pistevo oti tha vrexei.",
+    "translation": "I believe it will rain.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_042.mp3"
+    }
+  },
+  {
+    "id": "el_sent_043",
+    "word": "Πάρε την ομπρέλα σου μαζί.",
+    "latin_okunusu": "Pare tin omprela sou mazi.",
+    "translation": "Take your umbrella with you.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_043.mp3"
+    }
+  },
+  {
+    "id": "el_sent_044",
+    "word": "Όλα είναι υπό έλεγχο.",
+    "latin_okunusu": "Ola einai ypo elegcho.",
+    "translation": "Everything is under control.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_044.mp3"
+    }
+  },
+  {
+    "id": "el_sent_045",
+    "word": "Έλα, φεύγουμε.",
+    "latin_okunusu": "Ela, fevgoume.",
+    "translation": "Come on, let's go.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_045.mp3"
+    }
+  },
+  {
+    "id": "el_sent_046",
+    "word": "Θέλω να πάω σπίτι.",
+    "latin_okunusu": "Thelo na pao spiti.",
+    "translation": "I want to go home.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_046.mp3"
+    }
+  },
+  {
+    "id": "el_sent_047",
+    "word": "Είναι ώρα να σηκωθώ.",
+    "latin_okunusu": "Einai ora na sikotho.",
+    "translation": "It is time to get up.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_047.mp3"
+    }
+  },
+  {
+    "id": "el_sent_048",
+    "word": "Τι ωραία μέρα!",
+    "latin_okunusu": "Ti oraia mera!",
+    "translation": "What a beautiful day!",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_048.mp3"
+    }
+  },
+  {
+    "id": "el_sent_049",
+    "word": "Αυτό είναι όλο που θέλω.",
+    "latin_okunusu": "Afto einai olo pou thelo.",
+    "translation": "That is all I want.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_049.mp3"
+    }
+  },
+  {
+    "id": "el_sent_050",
+    "word": "Αυτό είναι όλο.",
+    "latin_okunusu": "Afto einai olo.",
+    "translation": "That is all.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_050.mp3"
+    }
+  },
+  {
+    "id": "el_sent_051",
+    "word": "Είμαι έτοιμος.",
+    "latin_okunusu": "Eimai etoimos.",
+    "translation": "I am ready.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_051.mp3"
+    }
+  },
+  {
+    "id": "el_sent_052",
+    "word": "Περίμενέ με εδώ.",
+    "latin_okunusu": "Perimene me edo.",
+    "translation": "Wait for me here.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_052.mp3"
+    }
+  },
+  {
+    "id": "el_sent_053",
+    "word": "Αυτό είναι πολύ σημαντικό.",
+    "latin_okunusu": "Afto einai poly simantiko.",
+    "translation": "This is very important.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_053.mp3"
+    }
+  },
+  {
+    "id": "el_sent_054",
+    "word": "Μην κάνεις θόρυβο.",
+    "latin_okunusu": "Min kaneis thorivo.",
+    "translation": "Don't make noise.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_054.mp3"
+    }
+  },
+  {
+    "id": "el_sent_055",
+    "word": "Άνοιξε το παράθυρο.",
+    "latin_okunusu": "Anoikse to parathyro.",
+    "translation": "Open the window.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_055.mp3"
+    }
+  },
+  {
+    "id": "el_sent_056",
+    "word": "Κλείσε την πόρτα.",
+    "latin_okunusu": "Kleise tin porta.",
+    "translation": "Close the door.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_056.mp3"
+    }
+  },
+  {
+    "id": "el_sent_057",
+    "word": "Άναψε το φως.",
+    "latin_okunusu": "Anapse to fos.",
+    "translation": "Turn on the light.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_057.mp3"
+    }
+  },
+  {
+    "id": "el_sent_058",
+    "word": "Κλείσε την τηλεόραση.",
+    "latin_okunusu": "Kleise tin tileorasi.",
+    "translation": "Turn off the TV.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_058.mp3"
+    }
+  },
+  {
+    "id": "el_sent_059",
+    "word": "Χρειάζομαι ηρεμία.",
+    "latin_okunusu": "Hreiazomai iremia.",
+    "translation": "I need silence.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_059.mp3"
+    }
+  },
+  {
+    "id": "el_sent_060",
+    "word": "Δουλεύω από το σπίτι.",
+    "latin_okunusu": "Doulevo apo to spiti.",
+    "translation": "I am working from home.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_060.mp3"
+    }
+  },
+  {
+    "id": "el_sent_061",
+    "word": "Πού είναι το τηλέφωνό μου;",
+    "latin_okunusu": "Pou einai to tilefono mou?",
+    "translation": "Where is my phone?",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_061.mp3"
+    }
+  },
+  {
+    "id": "el_sent_062",
+    "word": "Είναι πάνω στο τραπέζι.",
+    "latin_okunusu": "Einai pano sto trapezi.",
+    "translation": "It is on the table.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_062.mp3"
+    }
+  },
+  {
+    "id": "el_sent_063",
+    "word": "Έχω δίψα για γνώση.",
+    "latin_okunusu": "Echo dipsa gia gnosi.",
+    "translation": "I am thirsty for knowledge.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_063.mp3"
+    }
+  },
+  {
+    "id": "el_sent_064",
+    "word": "Ο καφές είναι έτοιμος.",
+    "latin_okunusu": "O kafes einai etoimos.",
+    "translation": "The coffee is ready.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_064.mp3"
+    }
+  },
+  {
+    "id": "el_sent_065",
+    "word": "Είναι πολύ καλός.",
+    "latin_okunusu": "Einai poly kalos.",
+    "translation": "It is very good.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_065.mp3"
+    }
+  },
+  {
+    "id": "el_sent_066",
+    "word": "Θέλεις ζάχαρη;",
+    "latin_okunusu": "Theleis zahari?",
+    "translation": "Do you want sugar?",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_066.mp3"
+    }
+  },
+  {
+    "id": "el_sent_067",
+    "word": "Όχι, ευχαριστώ.",
+    "latin_okunusu": "Ochi, efcharisto.",
+    "translation": "No, thank you.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_067.mp3"
+    }
+  },
+  {
+    "id": "el_sent_068",
+    "word": "Αυτό αρκεί.",
+    "latin_okunusu": "Afto arkei.",
+    "translation": "That is enough.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_068.mp3"
+    }
+  },
+  {
+    "id": "el_sent_069",
+    "word": "Έχω πολλή δουλειά.",
+    "latin_okunusu": "Echo polli douleia.",
+    "translation": "I have a lot of work.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_069.mp3"
+    }
+  },
+  {
+    "id": "el_sent_070",
+    "word": "Πρέπει να βιαστώ.",
+    "latin_okunusu": "Prepei na viasto.",
+    "translation": "I have to hurry.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_070.mp3"
+    }
+  },
+  {
+    "id": "el_sent_071",
+    "word": "Τα λέμε αργότερα.",
+    "latin_okunusu": "Ta leme argotera.",
+    "translation": "See you later.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_071.mp3"
+    }
+  },
+  {
+    "id": "el_sent_072",
+    "word": "Καλή συνέχεια.",
+    "latin_okunusu": "Kali synecheia.",
+    "translation": "Have a good day.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_072.mp3"
+    }
+  },
+  {
+    "id": "el_sent_073",
+    "word": "Τα λέμε αύριο το πρωί.",
+    "latin_okunusu": "Ta leme avrio to proi.",
+    "translation": "See you tomorrow morning.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_073.mp3"
+    }
+  },
+  {
+    "id": "el_sent_074",
+    "word": "Καλά όνειρα.",
+    "latin_okunusu": "Kala oneira.",
+    "translation": "Sweet dreams.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_074.mp3"
+    }
+  },
+  {
+    "id": "el_sent_075",
+    "word": "Καληνύχτα, τα λέμε αύριο.",
+    "latin_okunusu": "Kalinychta, ta leme avrio.",
+    "translation": "Good night, see you tomorrow.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_075.mp3"
+    }
+  },
+  {
+    "id": "el_sent_076",
+    "word": "Είναι μια ωραία μέρα.",
+    "latin_okunusu": "Einai mia oraia mera.",
+    "translation": "It is a nice day.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_076.mp3"
+    }
+  },
+  {
+    "id": "el_sent_077",
+    "word": "Ας το απολαύσουμε.",
+    "latin_okunusu": "As to apolafsoume.",
+    "translation": "Let's enjoy it.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_077.mp3"
+    }
+  },
+  {
+    "id": "el_sent_078",
+    "word": "Έτσι είναι η ζωή.",
+    "latin_okunusu": "Etsi einai i zoi.",
+    "translation": "That is life.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_078.mp3"
+    }
+  },
+  {
+    "id": "el_sent_079",
+    "word": "Όλα είναι πιθανά.",
+    "latin_okunusu": "Ola einai pithana.",
+    "translation": "Everything is possible.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_079.mp3"
+    }
+  },
+  {
+    "id": "el_sent_080",
+    "word": "Μην χάνεις την ελπίδα σου.",
+    "latin_okunusu": "Min chaneis tin elpida sou.",
+    "translation": "Don't lose your hope.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_080.mp3"
+    }
+  },
+  {
+    "id": "el_sent_081",
+    "word": "Να είσαι θετικός.",
+    "latin_okunusu": "Na eisai thetikos.",
+    "translation": "Be positive.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_081.mp3"
+    }
+  },
+  {
+    "id": "el_sent_082",
+    "word": "Όλα θα πάνε καλά.",
+    "latin_okunusu": "Ola tha pane kala.",
+    "translation": "Everything will be fine.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_082.mp3"
+    }
+  },
+  {
+    "id": "el_sent_083",
+    "word": "Βασίζομαι πάνω σου.",
+    "latin_okunusu": "Vasizomai pano sou.",
+    "translation": "I am counting on you.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_083.mp3"
+    }
+  },
+  {
+    "id": "el_sent_084",
+    "word": "Είσαι φίλος μου.",
+    "latin_okunusu": "Eisai filos mou.",
+    "translation": "You are my friend.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_084.mp3"
+    }
+  },
+  {
+    "id": "el_sent_085",
+    "word": "Είμαστε μαζί.",
+    "latin_okunusu": "Eimaste mazi.",
+    "translation": "We are together.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_085.mp3"
+    }
+  },
+  {
+    "id": "el_sent_086",
+    "word": "Αυτό είναι σούπερ.",
+    "latin_okunusu": "Afto einai souper.",
+    "translation": "This is super.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_086.mp3"
+    }
+  },
+  {
+    "id": "el_sent_087",
+    "word": "Μου αρέσει αυτό.",
+    "latin_okunusu": "Mou aresei afto.",
+    "translation": "I like this.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_087.mp3"
+    }
+  },
+  {
+    "id": "el_sent_088",
+    "word": "Αυτή είναι μια καλή αρχή.",
+    "latin_okunusu": "Afti einai mia kali archi.",
+    "translation": "This is a good start.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_088.mp3"
+    }
+  },
+  {
+    "id": "el_sent_089",
+    "word": "Συνεχίζω να μαθαίνω.",
+    "latin_okunusu": "Synechizo na mathaino.",
+    "translation": "I continue to learn.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_089.mp3"
+    }
+  },
+  {
+    "id": "el_sent_090",
+    "word": "Αυτό είναι το πάθος μου.",
+    "latin_okunusu": "Afto einai to pathos mou.",
+    "translation": "This is my passion.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_090.mp3"
+    }
+  },
+  {
+    "id": "el_sent_091",
+    "word": "Μου αρέσουν οι προκλήσεις.",
+    "latin_okunusu": "Mou aresoun oi prokliseis.",
+    "translation": "I like challenges.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_091.mp3"
+    }
+  },
+  {
+    "id": "el_sent_092",
+    "word": "Δεν τα παρατάω ποτέ.",
+    "latin_okunusu": "Den ta paratao pote.",
+    "translation": "I never give up.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_092.mp3"
+    }
+  },
+  {
+    "id": "el_sent_093",
+    "word": "Αυτό είναι ένα σημαντικό βήμα.",
+    "latin_okunusu": "Afto einai ena simantiko vima.",
+    "translation": "This is an important step.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_093.mp3"
+    }
+  },
+  {
+    "id": "el_sent_094",
+    "word": "Είμαι περήφανος για αυτό το έργο.",
+    "latin_okunusu": "Eimai perifanos gia afto to ergo.",
+    "translation": "I am proud of this project.",
+    "len": 32,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_094.mp3"
+    }
+  },
+  {
+    "id": "el_sent_095",
+    "word": "Αυτό είναι ομαδική δουλειά.",
+    "latin_okunusu": "Afto einai omadiki douleia.",
+    "translation": "This is teamwork.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_095.mp3"
+    }
+  },
+  {
+    "id": "el_sent_096",
+    "word": "Ευχαριστώ σε όλους εσάς.",
+    "latin_okunusu": "Efcharisto se olous esas.",
+    "translation": "Thanks to all of you.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_096.mp3"
+    }
+  },
+  {
+    "id": "el_sent_097",
+    "word": "Ας συνεχίσουμε έτσι.",
+    "latin_okunusu": "As synechisoume etsi.",
+    "translation": "Let's continue like this.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_097.mp3"
+    }
+  },
+  {
+    "id": "el_sent_098",
+    "word": "Φύγαμε!",
+    "latin_okunusu": "Fygame!",
+    "translation": "Let's go!",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_098.mp3"
+    }
+  },
+  {
+    "id": "el_sent_099",
+    "word": "Το δωμάτιο είναι καθαρό.",
+    "latin_okunusu": "To domatio einai katharo.",
+    "translation": "The room is clean.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_099.mp3"
+    }
+  },
+  {
+    "id": "el_sent_100",
+    "word": "Μου αρέσει να μαγειρεύω.",
+    "latin_okunusu": "Mou aresei na mageirevo.",
+    "translation": "I like to cook.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_sent_100.mp3"
+    }
+  },
+  {
+    "id": "el_biz_001",
+    "word": "Καλημέρα, πώς μπορώ να σας βοηθήσω;",
+    "latin_okunusu": "Kalimera, pos boro na sas voithiso?",
+    "translation": "Good morning, how can I help you?",
+    "len": 37,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_001.mp3"
+    }
+  },
+  {
+    "id": "el_biz_002",
+    "word": "Θα ήθελα να κλείσω ένα ραντεβού.",
+    "latin_okunusu": "Tha ithela na kleiso ena rantevou.",
+    "translation": "I would like to book an appointment.",
+    "len": 32,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_002.mp3"
+    }
+  },
+  {
+    "id": "el_biz_003",
+    "word": "Σας βολεύει τη Δευτέρα;",
+    "latin_okunusu": "Sas volevei ti Deftera?",
+    "translation": "Does Monday work for you?",
+    "len": 23,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_003.mp3"
+    }
+  },
+  {
+    "id": "el_biz_004",
+    "word": "Πρέπει να αναβάλουμε τη συνάντηση.",
+    "latin_okunusu": "Prepei na anavaloume ti sinantisi.",
+    "translation": "We need to postpone the meeting.",
+    "len": 32,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_004.mp3"
+    }
+  },
+  {
+    "id": "el_biz_005",
+    "word": "Μπορείτε να με συνδέσετε με τον κύριο Παπαδόπουλο;",
+    "latin_okunusu": "Boreite na me syndesete me ton kyrio Papadopoulo?",
+    "translation": "Can you put me through to Mr. Papadopoulos?",
+    "len": 49,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_005.mp3"
+    }
+  },
+  {
+    "id": "el_biz_006",
+    "word": "Σας παίρνω τηλέφωνο για το έργο.",
+    "latin_okunusu": "Sas pairno tilefono gia to ergo.",
+    "translation": "I am calling about the project.",
+    "len": 31,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_006.mp3"
+    }
+  },
+  {
+    "id": "el_biz_007",
+    "word": "Σας ευχαριστώ πολύ για το email σας.",
+    "latin_okunusu": "Sas efcharisto poly gia to email sas.",
+    "translation": "Thank you very much for your email.",
+    "len": 36,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_007.mp3"
+    }
+  },
+  {
+    "id": "el_biz_008",
+    "word": "Σας επισυνάπτω τα έγγραφα.",
+    "latin_okunusu": "Sas episynapto ta egrafa.",
+    "translation": "I am attaching the documents.",
+    "len": 26,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_008.mp3"
+    }
+  },
+  {
+    "id": "el_biz_009",
+    "word": "Θα μπορούσατε να το επιβεβαιώσετε;",
+    "latin_okunusu": "Tha borousate na to epivevaiosete?",
+    "translation": "Could you please confirm this?",
+    "len": 32,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_009.mp3"
+    }
+  },
+  {
+    "id": "el_biz_010",
+    "word": "Θα επικοινωνήσω μαζί σας σύντομα.",
+    "latin_okunusu": "Tha epikoinoniso mazi sas syntoma.",
+    "translation": "I will get back to you shortly.",
+    "len": 32,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_010.mp3"
+    }
+  },
+  {
+    "id": "el_biz_011",
+    "word": "Ποια είναι η τρέχουσα κατάσταση;",
+    "latin_okunusu": "Poia einai i trechousa katastasi?",
+    "translation": "What is the current status?",
+    "len": 29,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_011.mp3"
+    }
+  },
+  {
+    "id": "el_biz_012",
+    "word": "Πρέπει να τηρήσουμε την προθεσμία.",
+    "latin_okunusu": "Prepei na tirisoume tin prothesmia.",
+    "translation": "We must meet the deadline.",
+    "len": 32,
+    "tags": [
+      "business",
+      "deadline"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_012.mp3"
+    }
+  },
+  {
+    "id": "el_biz_013",
+    "word": "Έχετε κάποια πρόταση;",
+    "latin_okunusu": "Echete kapoia protasi?",
+    "translation": "Do you have any suggestions?",
+    "len": 21,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_013.mp3"
+    }
+  },
+  {
+    "id": "el_biz_014",
+    "word": "Συμφωνώ απόλυτα μαζί σας.",
+    "latin_okunusu": "Symfono apolyta mazi sas.",
+    "translation": "I completely agree with you.",
+    "len": 26,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_014.mp3"
+    }
+  },
+  {
+    "id": "el_biz_015",
+    "word": "Αυτή είναι μια καλή προσέγγιση.",
+    "latin_okunusu": "Afti einai mia kali prosengisi.",
+    "translation": "This is a good approach.",
+    "len": 29,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_015.mp3"
+    }
+  },
+  {
+    "id": "el_biz_016",
+    "word": "Έχουμε ένα πρόβλημα με το σύστημα.",
+    "latin_okunusu": "Echoume ena provlima me to systima.",
+    "translation": "We have a problem with the system.",
+    "len": 32,
+    "tags": [
+      "business",
+      "issue"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_016.mp3"
+    }
+  },
+  {
+    "id": "el_biz_017",
+    "word": "Μπορούμε να μιλήσουμε τηλεφωνικά;",
+    "latin_okunusu": "Boroume na milisoume tilefonika?",
+    "translation": "Can we talk over the phone?",
+    "len": 31,
+    "tags": [
+      "business",
+      "call"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_017.mp3"
+    }
+  },
+  {
+    "id": "el_biz_018",
+    "word": "Ο προϋπολογισμός είναι περιορισμένος.",
+    "latin_okunusu": "O proypologismos einai periorismenos.",
+    "translation": "The budget is limited.",
+    "len": 34,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_018.mp3"
+    }
+  },
+  {
+    "id": "el_biz_019",
+    "word": "Ψάχνουμε για μια λύση.",
+    "latin_okunusu": "Psachnoume gia mia lysi.",
+    "translation": "We are looking for a solution.",
+    "len": 22,
+    "tags": [
+      "business",
+      "problem-solving"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_019.mp3"
+    }
+  },
+  {
+    "id": "el_biz_020",
+    "word": "Παρακαλώ στείλτε μου την προσφορά.",
+    "latin_okunusu": "Parakalo steilte mou tin prosfora.",
+    "translation": "Please send me the offer.",
+    "len": 33,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_020.mp3"
+    }
+  },
+  {
+    "id": "el_biz_021",
+    "word": "Το συμβόλαιο έχει υπογραφεί.",
+    "latin_okunusu": "To symvolaio echei ypografei.",
+    "translation": "The contract has been signed.",
+    "len": 27,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_021.mp3"
+    }
+  },
+  {
+    "id": "el_biz_022",
+    "word": "Ποια είναι τα επόμενα βήματα;",
+    "latin_okunusu": "Poia einai ta epomena vimata?",
+    "translation": "What are the next steps?",
+    "len": 28,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_022.mp3"
+    }
+  },
+  {
+    "id": "el_biz_023",
+    "word": "Εργάζομαι πάνω στην παρουσίαση.",
+    "latin_okunusu": "Ergazomai pano stin parousiasi.",
+    "translation": "I am working on the presentation.",
+    "len": 31,
+    "tags": [
+      "business",
+      "task"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_023.mp3"
+    }
+  },
+  {
+    "id": "el_biz_024",
+    "word": "Μπορούμε να αλλάξουμε το ραντεβού;",
+    "latin_okunusu": "Boroume na allaksoume to rantevou?",
+    "translation": "Can we reschedule the appointment?",
+    "len": 32,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_024.mp3"
+    }
+  },
+  {
+    "id": "el_biz_025",
+    "word": "Είμαι σε ραντεβού όλη μέρα σήμερα.",
+    "latin_okunusu": "Eimai se rantevou oli mera simera.",
+    "translation": "I am in meetings all day today.",
+    "len": 33,
+    "tags": [
+      "business",
+      "schedule"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_025.mp3"
+    }
+  },
+  {
+    "id": "el_biz_026",
+    "word": "Λάβατε το μήνυμά μου;",
+    "latin_okunusu": "Lavate to mynimam mou?",
+    "translation": "Did you receive my message?",
+    "len": 22,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_026.mp3"
+    }
+  },
+  {
+    "id": "el_biz_027",
+    "word": "Λείπω σε άδεια μέχρι την Παρασκευή.",
+    "latin_okunusu": "Leipo se adeia mechri tin Paraskevi.",
+    "translation": "I am on leave until Friday.",
+    "len": 33,
+    "tags": [
+      "business",
+      "out-of-office"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_027.mp3"
+    }
+  },
+  {
+    "id": "el_biz_028",
+    "word": "Παρακαλώ συγχωρήστε την καθυστέρηση.",
+    "latin_okunusu": "Parakalo synchoriste tin kathysterisi.",
+    "translation": "Please apologize for the delay.",
+    "len": 35,
+    "tags": [
+      "business",
+      "apology"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_028.mp3"
+    }
+  },
+  {
+    "id": "el_biz_029",
+    "word": "Πρέπει να μειώσουμε τα έξοδα.",
+    "latin_okunusu": "Prepei na meiosoume ta eksoda.",
+    "translation": "We must reduce costs.",
+    "len": 28,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_029.mp3"
+    }
+  },
+  {
+    "id": "el_biz_030",
+    "word": "Ποιος είναι υπεύθυνος για το έργο;",
+    "latin_okunusu": "Poios einai ypefthynos gia to ergo?",
+    "translation": "Who is responsible for the project?",
+    "len": 34,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_030.mp3"
+    }
+  },
+  {
+    "id": "el_biz_031",
+    "word": "Θα σας απαντήσω σύντομα.",
+    "latin_okunusu": "Tha sas apantisou syntoma.",
+    "translation": "I will respond to you soon.",
+    "len": 25,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_031.mp3"
+    }
+  },
+  {
+    "id": "el_biz_032",
+    "word": "Ποιος είναι ο αριθμός τιμολογίου;",
+    "latin_okunusu": "Poios einai o arithmos timologiou?",
+    "translation": "What is the invoice number?",
+    "len": 31,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_032.mp3"
+    }
+  },
+  {
+    "id": "el_biz_033",
+    "word": "Χρειαζόμαστε περισσότερες πληροφορίες.",
+    "latin_okunusu": "Chreiazomaste perissoteres plirofories.",
+    "translation": "We need more information.",
+    "len": 34,
+    "tags": [
+      "business",
+      "request"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_033.mp3"
+    }
+  },
+  {
+    "id": "el_biz_034",
+    "word": "Αυτό δεν είναι εφικτό.",
+    "latin_okunusu": "Afto den einai efikto.",
+    "translation": "This is not feasible.",
+    "len": 22,
+    "tags": [
+      "business",
+      "refusal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_034.mp3"
+    }
+  },
+  {
+    "id": "el_biz_035",
+    "word": "Ευχαρίστως να σας βοηθήσω.",
+    "latin_okunusu": "Efcharistos na sas voithiso.",
+    "translation": "I would be happy to help you with that.",
+    "len": 27,
+    "tags": [
+      "business",
+      "help"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_035.mp3"
+    }
+  },
+  {
+    "id": "el_biz_036",
+    "word": "Εκτιμούμε τη συνεργασία σας.",
+    "latin_okunusu": "Ektimoume ti synergasia sas.",
+    "translation": "We value your collaboration.",
+    "len": 28,
+    "tags": [
+      "business",
+      "relationship"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_036.mp3"
+    }
+  },
+  {
+    "id": "el_biz_037",
+    "word": "Μπορούμε να ξεκινήσουμε τη συνάντηση;",
+    "latin_okunusu": "Boroume na ksekinisoume ti sinantisi?",
+    "translation": "Can we start the meeting?",
+    "len": 36,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_037.mp3"
+    }
+  },
+  {
+    "id": "el_biz_038",
+    "word": "Έχετε έγγραφα για μένα;",
+    "latin_okunusu": "Echete egrafa gia mena?",
+    "translation": "Do you have documents for me?",
+    "len": 24,
+    "tags": [
+      "business",
+      "request"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_038.mp3"
+    }
+  },
+  {
+    "id": "el_biz_039",
+    "word": "Σας στέλνω μια πρόσκληση.",
+    "latin_okunusu": "Sas stelno mia prosklisi.",
+    "translation": "I am sending you an invitation.",
+    "len": 25,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_039.mp3"
+    }
+  },
+  {
+    "id": "el_biz_040",
+    "word": "Πώς είναι το πρόγραμμά σας;",
+    "latin_okunusu": "Pos einai to programma sas?",
+    "translation": "How does your schedule look?",
+    "len": 26,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_040.mp3"
+    }
+  },
+  {
+    "id": "el_biz_041",
+    "word": "Πετύχαμε τον στόχο.",
+    "latin_okunusu": "Petychame ton stocho.",
+    "translation": "We reached the goal.",
+    "len": 18,
+    "tags": [
+      "business",
+      "success"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_041.mp3"
+    }
+  },
+  {
+    "id": "el_biz_042",
+    "word": "Είναι πολύ επείγον.",
+    "latin_okunusu": "Einai poly epeigon.",
+    "translation": "It is very urgent.",
+    "len": 19,
+    "tags": [
+      "business",
+      "urgency"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_042.mp3"
+    }
+  },
+  {
+    "id": "el_biz_043",
+    "word": "Μπορούμε να συναντηθούμε την Παρασκευή;",
+    "latin_okunusu": "Boroume na synantithoume tin Paraskevi?",
+    "translation": "Can we meet on Friday?",
+    "len": 37,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_043.mp3"
+    }
+  },
+  {
+    "id": "el_biz_044",
+    "word": "Καταλαβαίνω τους προβληματισμούς σας.",
+    "latin_okunusu": "Katalavaino tous provlimatismous sas.",
+    "translation": "I understand your concerns.",
+    "len": 35,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_044.mp3"
+    }
+  },
+  {
+    "id": "el_biz_045",
+    "word": "Πρέπει να βάλουμε προτεραιότητες.",
+    "latin_okunusu": "Prepei na valoume proteraiotites.",
+    "translation": "We must prioritize.",
+    "len": 31,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_045.mp3"
+    }
+  },
+  {
+    "id": "el_biz_046",
+    "word": "Έχετε χρόνο για μια σύντομη συζήτηση;",
+    "latin_okunusu": "Echete chrono gia mia syntomi syzitisi?",
+    "translation": "Do you have time for a brief discussion?",
+    "len": 37,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_046.mp3"
+    }
+  },
+  {
+    "id": "el_biz_047",
+    "word": "Σας στέλνω το προσχέδιο.",
+    "latin_okunusu": "Sas stelno to proschedio.",
+    "translation": "I am sending you the draft.",
+    "len": 24,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_047.mp3"
+    }
+  },
+  {
+    "id": "el_biz_048",
+    "word": "Υπάρχουν ερωτήσεις;",
+    "latin_okunusu": "Yparchoun erotiseis?",
+    "translation": "Are there any questions?",
+    "len": 20,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_048.mp3"
+    }
+  },
+  {
+    "id": "el_biz_049",
+    "word": "Πρέπει να δουλέψουμε πιο αποδοτικά.",
+    "latin_okunusu": "Prepei na doulepsoume pio apodotika.",
+    "translation": "We need to work more efficiently.",
+    "len": 33,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_049.mp3"
+    }
+  },
+  {
+    "id": "el_biz_050",
+    "word": "Πώς είναι η πρόοδος;",
+    "latin_okunusu": "Pos einai i proodos?",
+    "translation": "How is the progress?",
+    "len": 20,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_050.mp3"
+    }
+  },
+  {
+    "id": "el_biz_051",
+    "word": "Προτείνω να συναντηθούμε.",
+    "latin_okunusu": "Proteino na synantithoume.",
+    "translation": "I suggest we meet.",
+    "len": 23,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_051.mp3"
+    }
+  },
+  {
+    "id": "el_biz_052",
+    "word": "Το έργο εγκρίθηκε.",
+    "latin_okunusu": "To ergo enkrihtike.",
+    "translation": "The project was approved.",
+    "len": 19,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_052.mp3"
+    }
+  },
+  {
+    "id": "el_biz_053",
+    "word": "Παρακαλώ κρατήστε με ενήμερο.",
+    "latin_okunusu": "Parakalo kratiste me enimero.",
+    "translation": "Please keep me informed.",
+    "len": 28,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_053.mp3"
+    }
+  },
+  {
+    "id": "el_biz_054",
+    "word": "Έχετε πρόσβαση στο αρχείο;",
+    "latin_okunusu": "Echete prosvasi sto archeio?",
+    "translation": "Do you have access to the file?",
+    "len": 26,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_054.mp3"
+    }
+  },
+  {
+    "id": "el_biz_055",
+    "word": "Αυτή είναι η πολιτική της εταιρείας.",
+    "latin_okunusu": "Afti einai i politiki tis etaireias.",
+    "translation": "This is our company policy.",
+    "len": 36,
+    "tags": [
+      "business",
+      "policy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_055.mp3"
+    }
+  },
+  {
+    "id": "el_biz_056",
+    "word": "Ψάχνουμε για νέους υπαλλήλους.",
+    "latin_okunusu": "Psachnoume gia neous ypallilous.",
+    "translation": "We are looking for new employees.",
+    "len": 31,
+    "tags": [
+      "business",
+      "HR"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_056.mp3"
+    }
+  },
+  {
+    "id": "el_biz_057",
+    "word": "Ποιος είναι ο στόχος αυτής της συνάντησης;",
+    "latin_okunusu": "Poios einai o stochos aftis tis sinantisis?",
+    "translation": "What is the goal of this meeting?",
+    "len": 40,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_057.mp3"
+    }
+  },
+  {
+    "id": "el_biz_058",
+    "word": "Σας στέλνω την ημερήσια διάταξη.",
+    "latin_okunusu": "Sas stelno tin imerisia diataxi.",
+    "translation": "I am sending you the agenda.",
+    "len": 33,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_058.mp3"
+    }
+  },
+  {
+    "id": "el_biz_059",
+    "word": "Έχουμε τεχνικά προβλήματα.",
+    "latin_okunusu": "Echoume technika provlimata.",
+    "translation": "We have technical issues.",
+    "len": 28,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_059.mp3"
+    }
+  },
+  {
+    "id": "el_biz_060",
+    "word": "Δεν μπορώ να το κρίνω αυτό.",
+    "latin_okunusu": "Den boro na to krino afto.",
+    "translation": "I cannot judge that.",
+    "len": 28,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_060.mp3"
+    }
+  },
+  {
+    "id": "el_biz_061",
+    "word": "Μπορούμε να αναβάλουμε το θέμα;",
+    "latin_okunusu": "Boroume na anavaloume to thema?",
+    "translation": "Can we postpone the topic?",
+    "len": 28,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_061.mp3"
+    }
+  },
+  {
+    "id": "el_biz_062",
+    "word": "Χρειαζόμαστε πρακτικά.",
+    "latin_okunusu": "Chreiazomaste praktika.",
+    "translation": "We need minutes of the meeting.",
+    "len": 22,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_062.mp3"
+    }
+  },
+  {
+    "id": "el_biz_063",
+    "word": "Αυτή έχει προτεραιότητα.",
+    "latin_okunusu": "Afto echei proteraiotita.",
+    "translation": "This is a priority.",
+    "len": 26,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_063.mp3"
+    }
+  },
+  {
+    "id": "el_biz_064",
+    "word": "Συμφωνείτε με αυτό;",
+    "latin_okunusu": "Symfoneite me afto?",
+    "translation": "Do you agree with this?",
+    "len": 20,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_064.mp3"
+    }
+  },
+  {
+    "id": "el_biz_065",
+    "word": "Έχω μια διευκρινιστική ερώτηση.",
+    "latin_okunusu": "Echo mia dievkrinistiki erotisi.",
+    "translation": "I have a clarifying question.",
+    "len": 28,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_065.mp3"
+    }
+  },
+  {
+    "id": "el_biz_066",
+    "word": "Αυτή είναι μια καλή ευκαιρία.",
+    "latin_okunusu": "Afti einai mia kali efkairia.",
+    "translation": "This is a good opportunity.",
+    "len": 29,
+    "tags": [
+      "business",
+      "opportunity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_066.mp3"
+    }
+  },
+  {
+    "id": "el_biz_067",
+    "word": "Πρέπει να συντονιστούμε.",
+    "latin_okunusu": "Prepei na syntonistoume.",
+    "translation": "We must coordinate.",
+    "len": 25,
+    "tags": [
+      "business",
+      "collaboration"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_067.mp3"
+    }
+  },
+  {
+    "id": "el_biz_068",
+    "word": "Ευχαριστώ για την υπομονή σας.",
+    "latin_okunusu": "Efcharisto gia tin ypomoni sas.",
+    "translation": "Thank you for your patience.",
+    "len": 28,
+    "tags": [
+      "business",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_068.mp3"
+    }
+  },
+  {
+    "id": "el_biz_069",
+    "word": "Έχω επισυνάψει την αναφορά.",
+    "latin_okunusu": "Echo episynapsei tin anafora.",
+    "translation": "I have attached the report.",
+    "len": 27,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_069.mp3"
+    }
+  },
+  {
+    "id": "el_biz_070",
+    "word": "Ελέγξαμε το συμβόλαιο.",
+    "latin_okunusu": "Elenksame to symvolaio.",
+    "translation": "We reviewed the contract.",
+    "len": 23,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_070.mp3"
+    }
+  },
+  {
+    "id": "el_biz_071",
+    "word": "Το αποτέλεσμα είναι θετικό.",
+    "latin_okunusu": "To apotelesma einai thetiko.",
+    "translation": "The result is positive.",
+    "len": 26,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_071.mp3"
+    }
+  },
+  {
+    "id": "el_biz_072",
+    "word": "Ποιοι είναι οι όροι;",
+    "latin_okunusu": "Poioi einai oi oroi?",
+    "translation": "What are the terms?",
+    "len": 18,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_072.mp3"
+    }
+  },
+  {
+    "id": "el_biz_073",
+    "word": "Πρέπει να διασφαλίσουμε την ποιότητα.",
+    "latin_okunusu": "Prepei na diasfalisoume tin poiotita.",
+    "translation": "We must ensure quality.",
+    "len": 36,
+    "tags": [
+      "business",
+      "quality"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_073.mp3"
+    }
+  },
+  {
+    "id": "el_biz_074",
+    "word": "Υποστηρίζω αυτή την πρόταση.",
+    "latin_okunusu": "Ypostirizo afti tin protasi.",
+    "translation": "I support this proposal.",
+    "len": 28,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_074.mp3"
+    }
+  },
+  {
+    "id": "el_biz_075",
+    "word": "Υπάρχει σχέδιο Β;",
+    "latin_okunusu": "Yparchei schedio V?",
+    "translation": "Is there a Plan B?",
+    "len": 17,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_075.mp3"
+    }
+  },
+  {
+    "id": "el_biz_076",
+    "word": "Προώθησα το email.",
+    "latin_okunusu": "Proothisa to email.",
+    "translation": "I forwarded the email.",
+    "len": 18,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_076.mp3"
+    }
+  },
+  {
+    "id": "el_biz_077",
+    "word": "Χρειαζόμαστε την υπογραφή σας.",
+    "latin_okunusu": "Chreiazomaste tin ypografi sas.",
+    "translation": "We need your signature.",
+    "len": 28,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_077.mp3"
+    }
+  },
+  {
+    "id": "el_biz_078",
+    "word": "Η ομάδα κάνει καλή δουλειά.",
+    "latin_okunusu": "I omada kanei kali douleia.",
+    "translation": "The team is doing a good job.",
+    "len": 28,
+    "tags": [
+      "business",
+      "team"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_078.mp3"
+    }
+  },
+  {
+    "id": "el_biz_079",
+    "word": "Πρέπει να προγραμματίσουμε τους πόρους.",
+    "latin_okunusu": "Prepei na programatisoume tous porous.",
+    "translation": "We must plan the resources.",
+    "len": 37,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_079.mp3"
+    }
+  },
+  {
+    "id": "el_biz_080",
+    "word": "Είμαι ικανοποιημένος με το αποτέλεσμα.",
+    "latin_okunusu": "Eimai ikanopoiimenos me to apotelesma.",
+    "translation": "I am satisfied with the result.",
+    "len": 36,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_080.mp3"
+    }
+  },
+  {
+    "id": "el_biz_081",
+    "word": "Παρακαλώ πάρτε με πίσω.",
+    "latin_okunusu": "Parakalo parte me piso.",
+    "translation": "Please call me back.",
+    "len": 23,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_081.mp3"
+    }
+  },
+  {
+    "id": "el_biz_082",
+    "word": "Η συνάντηση διαρκεί μία ώρα.",
+    "latin_okunusu": "I sinantisi diarkei mia ora.",
+    "translation": "The meeting lasts one hour.",
+    "len": 29,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_082.mp3"
+    }
+  },
+  {
+    "id": "el_biz_083",
+    "word": "Πρέπει να αναλύσουμε τα δεδομένα.",
+    "latin_okunusu": "Prepei na analysoume ta dedomena.",
+    "translation": "We must analyze the data.",
+    "len": 32,
+    "tags": [
+      "business",
+      "analysis"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_083.mp3"
+    }
+  },
+  {
+    "id": "el_biz_084",
+    "word": "Δεν έχω χρόνο γι' αυτό.",
+    "latin_okunusu": "Den echo chrono gi' afto.",
+    "translation": "I don't have time for that.",
+    "len": 23,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_084.mp3"
+    }
+  },
+  {
+    "id": "el_biz_085",
+    "word": "Μπορούμε να επιβεβαιώσουμε το ραντεβού;",
+    "latin_okunusu": "Boroume na epivevaiosoume to rantevou?",
+    "translation": "Can we confirm the appointment?",
+    "len": 38,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_085.mp3"
+    }
+  },
+  {
+    "id": "el_biz_086",
+    "word": "Αυτή είναι μια σημαντική απόφαση.",
+    "latin_okunusu": "Afti einai mia simantiki apofasi.",
+    "translation": "This is an important decision.",
+    "len": 32,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_086.mp3"
+    }
+  },
+  {
+    "id": "el_biz_087",
+    "word": "Σας στέλνω τα έγγραφα ταχυδρομικώς.",
+    "latin_okunusu": "Sas stelno ta egrafa tachydromikos.",
+    "translation": "I am sending the documents by mail.",
+    "len": 36,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_087.mp3"
+    }
+  },
+  {
+    "id": "el_biz_088",
+    "word": "Ξεπεράσαμε τον προϋπολογισμό.",
+    "latin_okunusu": "Kseperasame ton proypologismo.",
+    "translation": "We went over budget.",
+    "len": 27,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_088.mp3"
+    }
+  },
+  {
+    "id": "el_biz_089",
+    "word": "Αυτό είναι προς το συμφέρον μας.",
+    "latin_okunusu": "Afto einai pros to symferon mas.",
+    "translation": "This is in our interest.",
+    "len": 29,
+    "tags": [
+      "business",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_089.mp3"
+    }
+  },
+  {
+    "id": "el_biz_090",
+    "word": "Μπορείτε να ανοίξετε το αρχείο;",
+    "latin_okunusu": "Boreite na anoiksete to archeio?",
+    "translation": "Can you open the file?",
+    "len": 27,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_090.mp3"
+    }
+  },
+  {
+    "id": "el_biz_091",
+    "word": "Πρέπει να διορθώσουμε το σφάλμα.",
+    "latin_okunusu": "Prepei na diorthosoume to sfalma.",
+    "translation": "We must correct the error.",
+    "len": 31,
+    "tags": [
+      "business",
+      "issue"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_091.mp3"
+    }
+  },
+  {
+    "id": "el_biz_092",
+    "word": "Η προσφορά ισχύει μέχρι αύριο.",
+    "latin_okunusu": "I prosfora ischeiei mechri avrio.",
+    "translation": "The offer is valid until tomorrow.",
+    "len": 29,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_092.mp3"
+    }
+  },
+  {
+    "id": "el_biz_093",
+    "word": "Είμαι ευγνώμων για τη βοήθειά σας.",
+    "latin_okunusu": "Eimai evgnomon gia ti voitheia sas.",
+    "translation": "I am grateful for your help.",
+    "len": 33,
+    "tags": [
+      "business",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_093.mp3"
+    }
+  },
+  {
+    "id": "el_biz_094",
+    "word": "Αναζητούμε την αποτελεσματικότητα.",
+    "latin_okunusu": "Anazitoume tin apotelesmatikotita.",
+    "translation": "We are seeking efficiency.",
+    "len": 31,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_094.mp3"
+    }
+  },
+  {
+    "id": "el_biz_095",
+    "word": "Έχετε κάποια ανάδραση γι' αυτό;",
+    "latin_okunusu": "Echete kapoia anadrasi gi' afto?",
+    "translation": "Do you have any feedback on this?",
+    "len": 31,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_095.mp3"
+    }
+  },
+  {
+    "id": "el_biz_096",
+    "word": "Η συνάντηση θα γίνει online.",
+    "latin_okunusu": "I sinantisi tha ginei online.",
+    "translation": "The meeting will take place online.",
+    "len": 27,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_096.mp3"
+    }
+  },
+  {
+    "id": "el_biz_097",
+    "word": "Σας στέλνω τον σύνδεσμο.",
+    "latin_okunusu": "Sas stelno ton syndesmo.",
+    "translation": "I am sending you the link.",
+    "len": 24,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_097.mp3"
+    }
+  },
+  {
+    "id": "el_biz_098",
+    "word": "Πρέπει να συγκεντρωθούμε.",
+    "latin_okunusu": "Prepei na sygkentrothoume.",
+    "translation": "We must focus.",
+    "len": 25,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_098.mp3"
+    }
+  },
+  {
+    "id": "el_biz_099",
+    "word": "Μπορούμε να αλλάξουμε τη στρατηγική;",
+    "latin_okunusu": "Boroume na allaksoume ti stratigiki?",
+    "translation": "Can we change the strategy?",
+    "len": 34,
+    "tags": [
+      "business",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_099.mp3"
+    }
+  },
+  {
+    "id": "el_biz_100",
+    "word": "Σας ευχαριστώ για τη συζήτηση.",
+    "latin_okunusu": "Sas efcharisto gia ti syzitisi.",
+    "translation": "Thank you for the discussion.",
+    "len": 28,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_biz_0100.mp3"
+    }
+  },
+  {
+    "id": "el_dev_001",
+    "word": "Μαθαίνω κάτι καινούργιο κάθε μέρα.",
+    "latin_okunusu": "Mathaino kati kainourgio kathe mera.",
+    "translation": "I learn something new every day.",
+    "len": 35,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_001.mp3"
+    }
+  },
+  {
+    "id": "el_dev_002",
+    "word": "Η επανάληψη είναι η μητέρα της μάθησης.",
+    "latin_okunusu": "I epanalipsi einai i mitera tis mathisis.",
+    "translation": "Repetition is the mother of learning.",
+    "len": 39,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_002.mp3"
+    }
+  },
+  {
+    "id": "el_dev_003",
+    "word": "Θέλω να εξελιχθώ.",
+    "latin_okunusu": "Thelo na exelichtho.",
+    "translation": "I want to develop myself.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_003.mp3"
+    }
+  },
+  {
+    "id": "el_dev_004",
+    "word": "Τα λάθη είναι ευκαιρίες για μάθηση.",
+    "latin_okunusu": "Ta lathi einai efkairies gia mathisi.",
+    "translation": "Mistakes are opportunities for learning.",
+    "len": 34,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_004.mp3"
+    }
+  },
+  {
+    "id": "el_dev_005",
+    "word": "Έχω ένα σχέδιο για την επιτυχία.",
+    "latin_okunusu": "Echo ena schedio gia tin epitychia.",
+    "translation": "I have a plan for success.",
+    "len": 31,
+    "tags": [
+      "mindset",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_005.mp3"
+    }
+  },
+  {
+    "id": "el_dev_006",
+    "word": "Ποιος είναι ο στόχος μου για σήμερα;",
+    "latin_okunusu": "Poios einai o stochos mou gia simera?",
+    "translation": "What is my goal for today?",
+    "len": 33,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_006.mp3"
+    }
+  },
+  {
+    "id": "el_dev_007",
+    "word": "Πιστεύω στις ικανότητές μου.",
+    "latin_okunusu": "Pistevo stis ikanotites mou.",
+    "translation": "I believe in my abilities.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_007.mp3"
+    }
+  },
+  {
+    "id": "el_dev_008",
+    "word": "Η υπομονή είναι το κλειδί της επιτυχίας.",
+    "latin_okunusu": "I ypomoni einai to kleidi tis epitychias.",
+    "translation": "Patience is the key to success.",
+    "len": 38,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_008.mp3"
+    }
+  },
+  {
+    "id": "el_dev_009",
+    "word": "Παραμένω πάντα περίεργος.",
+    "latin_okunusu": "Parameno panta periergos.",
+    "translation": "I always remain curious.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_009.mp3"
+    }
+  },
+  {
+    "id": "el_dev_010",
+    "word": "Πώς μπορώ να το κάνω καλύτερα;",
+    "latin_okunusu": "Pos boro na to kano kalitera?",
+    "translation": "How can I do it better?",
+    "len": 28,
+    "tags": [
+      "growth",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_010.mp3"
+    }
+  },
+  {
+    "id": "el_dev_011",
+    "word": "Εστιάζω στα σημαντικά.",
+    "latin_okunusu": "Estiazo sta simantika.",
+    "translation": "I focus on what is important.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_011.mp3"
+    }
+  },
+  {
+    "id": "el_dev_012",
+    "word": "Κάθε βήμα μετράει.",
+    "latin_okunusu": "Kathe vima metraei.",
+    "translation": "Every step counts.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_012.mp3"
+    }
+  },
+  {
+    "id": "el_dev_013",
+    "word": "Αναλαμβάνω την ευθύνη.",
+    "latin_okunusu": "Analamvano tin efthyni.",
+    "translation": "I take responsibility.",
+    "len": 22,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_013.mp3"
+    }
+  },
+  {
+    "id": "el_dev_014",
+    "word": "Η πειθαρχία οδηγεί στον στόχο.",
+    "latin_okunusu": "I peitharchia odigei ston stocho.",
+    "translation": "Discipline leads to the goal.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_014.mp3"
+    }
+  },
+  {
+    "id": "el_dev_015",
+    "word": "Είμαι ανοιχτός σε νέες ιδέες.",
+    "latin_okunusu": "Eimai anoichtos se nees idees.",
+    "translation": "I am open to new ideas.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_015.mp3"
+    }
+  },
+  {
+    "id": "el_dev_016",
+    "word": "Δεν σταματάς ποτέ να μαθαίνεις.",
+    "latin_okunusu": "Den stamatas pote na matheineis.",
+    "translation": "You never stop learning.",
+    "len": 29,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_016.mp3"
+    }
+  },
+  {
+    "id": "el_dev_017",
+    "word": "Ψάχνω για λύσεις.",
+    "latin_okunusu": "Psachno gia lyseis.",
+    "translation": "I am looking for solutions.",
+    "len": 17,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_017.mp3"
+    }
+  },
+  {
+    "id": "el_dev_018",
+    "word": "Αυτή είναι μια πρόκληση για μένα.",
+    "latin_okunusu": "Afti einai mia proklisi gia mena.",
+    "translation": "This is a challenge for me.",
+    "len": 31,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_018.mp3"
+    }
+  },
+  {
+    "id": "el_dev_019",
+    "word": "Αξιολογώ την πρόοδό μου.",
+    "latin_okunusu": "Axiologo tin proodo mou.",
+    "translation": "I evaluate my progress.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_019.mp3"
+    }
+  },
+  {
+    "id": "el_dev_020",
+    "word": "Η συνεχή πρόοδος είναι σημαντική.",
+    "latin_okunusu": "I synexi proodos einai simantiki.",
+    "translation": "Continuous progress is important.",
+    "len": 32,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_020.mp3"
+    }
+  },
+  {
+    "id": "el_dev_021",
+    "word": "Παραμένω με κίνητρο.",
+    "latin_okunusu": "Parameno me kinitro.",
+    "translation": "I remain motivated.",
+    "len": 20,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_021.mp3"
+    }
+  },
+  {
+    "id": "el_dev_022",
+    "word": "Ακούω ενεργά.",
+    "latin_okunusu": "Akouo energá.",
+    "translation": "I listen actively.",
+    "len": 12,
+    "tags": [
+      "learning",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_022.mp3"
+    }
+  },
+  {
+    "id": "el_dev_023",
+    "word": "Η γνώση είναι δύναμη.",
+    "latin_okunusu": "I gnosi einai dynami.",
+    "translation": "Knowledge is power.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_023.mp3"
+    }
+  },
+  {
+    "id": "el_dev_024",
+    "word": "Συγκρίνω τον εαυτό μου μόνο με τον εαυτό μου.",
+    "latin_okunusu": "Synkrino ton eafto mou mono me ton eafto mou.",
+    "translation": "I compare myself only with myself.",
+    "len": 44,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_024.mp3"
+    }
+  },
+  {
+    "id": "el_dev_025",
+    "word": "Οργανώνω καλά τον χρόνο μου.",
+    "latin_okunusu": "Organono kala ton chrono mou.",
+    "translation": "I organize my time well.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_025.mp3"
+    }
+  },
+  {
+    "id": "el_dev_026",
+    "word": "Παραμένω θετικός.",
+    "latin_okunusu": "Parameno thetikos.",
+    "translation": "I remain positive.",
+    "len": 17,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_026.mp3"
+    }
+  },
+  {
+    "id": "el_dev_027",
+    "word": "Το να κάνεις ερωτήσεις βοηθά στη μάθηση.",
+    "latin_okunusu": "To na kaneis erotiseis voitha sti mathisi.",
+    "translation": "Asking questions helps with learning.",
+    "len": 37,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_027.mp3"
+    }
+  },
+  {
+    "id": "el_dev_028",
+    "word": "Θέτω σαφείς στόχους.",
+    "latin_okunusu": "Theto safeis stochous.",
+    "translation": "I set clear goals.",
+    "len": 20,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_028.mp3"
+    }
+  },
+  {
+    "id": "el_dev_029",
+    "word": "Μαθαίνω από τις επιτυχίες μου.",
+    "latin_okunusu": "Mathaino apo tis epitychies mou.",
+    "translation": "I learn from my successes.",
+    "len": 29,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_029.mp3"
+    }
+  },
+  {
+    "id": "el_dev_030",
+    "word": "Εκτιμώ τον χρόνο μου.",
+    "latin_okunusu": "Ektimo ton chrono mou.",
+    "translation": "I value my time.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_030.mp3"
+    }
+  },
+  {
+    "id": "el_dev_031",
+    "word": "Η κριτική με βοηθά να αναπτυχθώ.",
+    "latin_okunusu": "I kritiki me voitha na anaptychtho.",
+    "translation": "Criticism helps me grow.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_031.mp3"
+    }
+  },
+  {
+    "id": "el_dev_032",
+    "word": "Είμαι έτοιμος να δοκιμάσω νέα πράγματα.",
+    "latin_okunusu": "Eimai etoimos na dokimaso nea pragmata.",
+    "translation": "I am ready to try new things.",
+    "len": 37,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_032.mp3"
+    }
+  },
+  {
+    "id": "el_dev_033",
+    "word": "Δεν τα παρατάω.",
+    "latin_okunusu": "Den ta paratao.",
+    "translation": "I don't give up.",
+    "len": 14,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_033.mp3"
+    }
+  },
+  {
+    "id": "el_dev_034",
+    "word": "Αναλύω τα λάθη μου.",
+    "latin_okunusu": "Analyo ta lathi mou.",
+    "translation": "I analyze my mistakes.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_034.mp3"
+    }
+  },
+  {
+    "id": "el_dev_035",
+    "word": "Δουλεύω με δομημένο τρόπο.",
+    "latin_okunusu": "Doulevo me domimeno tropo.",
+    "translation": "I work in a structured way.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_035.mp3"
+    }
+  },
+  {
+    "id": "el_dev_036",
+    "word": "Διευρύνω τους ορίζοντές μου.",
+    "latin_okunusu": "Dievryno tous orizontes mou.",
+    "translation": "I broaden my horizons.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_036.mp3"
+    }
+  },
+  {
+    "id": "el_dev_037",
+    "word": "Είμαι υπομονετικός με τον εαυτό μου.",
+    "latin_okunusu": "Eimai ypomonetikos me ton eafto mou.",
+    "translation": "I am patient with myself.",
+    "len": 35,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_037.mp3"
+    }
+  },
+  {
+    "id": "el_dev_038",
+    "word": "Γιορτάζω τις μικρές μου επιτυχίες.",
+    "latin_okunusu": "Giortazo tis mikres mou epitychies.",
+    "translation": "I celebrate my small successes.",
+    "len": 33,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_038.mp3"
+    }
+  },
+  {
+    "id": "el_dev_039",
+    "word": "Εμπιστεύομαι τη διαδικασία.",
+    "latin_okunusu": "Empisteuomai ti diadikasia.",
+    "translation": "I trust the process.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_039.mp3"
+    }
+  },
+  {
+    "id": "el_dev_040",
+    "word": "Είμαι περήφανος για τη διαδρομή μου.",
+    "latin_okunusu": "Eimai perifanos gia ti diadromi mou.",
+    "translation": "I am proud of my journey.",
+    "len": 36,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_040.mp3"
+    }
+  },
+  {
+    "id": "el_dev_041",
+    "word": "Αναζητώ τη γνώση.",
+    "latin_okunusu": "Anazito ti gnosi.",
+    "translation": "I seek knowledge.",
+    "len": 17,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_041.mp3"
+    }
+  },
+  {
+    "id": "el_dev_042",
+    "word": "Είμαι έτοιμος να μάθω.",
+    "latin_okunusu": "Eimai etoimos na matho.",
+    "translation": "I am ready to learn.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_042.mp3"
+    }
+  },
+  {
+    "id": "el_dev_043",
+    "word": "Αμφισβητώ τα πράγματα.",
+    "latin_okunusu": "Amfisvito ta pragmata.",
+    "translation": "I question things.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_043.mp3"
+    }
+  },
+  {
+    "id": "el_dev_044",
+    "word": "Μεγαλώνω μέσα από τις προκλήσεις.",
+    "latin_okunusu": "Megalono mesa apo tis prokliseis.",
+    "translation": "I grow through challenges.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_044.mp3"
+    }
+  },
+  {
+    "id": "el_dev_045",
+    "word": "Έχω ένα ξεκάθαρο τρόπο σκέψης.",
+    "latin_okunusu": "Echo ena xekatharo tropo skepsis.",
+    "translation": "I have a clear way of thinking.",
+    "len": 31,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_045.mp3"
+    }
+  },
+  {
+    "id": "el_dev_046",
+    "word": "Παραμένω συγκεντρωμένος.",
+    "latin_okunusu": "Parameno sygkentromenos.",
+    "translation": "I stay focused.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_046.mp3"
+    }
+  },
+  {
+    "id": "el_dev_047",
+    "word": "Μαθαίνω από τους καλύτερους.",
+    "latin_okunusu": "Mathaino apo tous kaliterous.",
+    "translation": "I learn from the best.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_047.mp3"
+    }
+  },
+  {
+    "id": "el_dev_048",
+    "word": "Είμαι ένας δια βίου μαθητής.",
+    "latin_okunusu": "Eimai enas dia viou mathitis.",
+    "translation": "I am a lifelong learner.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_048.mp3"
+    }
+  },
+  {
+    "id": "el_dev_049",
+    "word": "Παραμένω ήρεμος σε δύσκολες στιγμές.",
+    "latin_okunusu": "Parameno iremos se dyskoles stigmes.",
+    "translation": "I stay calm in difficult times.",
+    "len": 38,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_049.mp3"
+    }
+  },
+  {
+    "id": "el_dev_050",
+    "word": "Θέτω προτεραιότητες.",
+    "latin_okunusu": "Theto proteraiotites.",
+    "translation": "I set priorities.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_050.mp3"
+    }
+  },
+  {
+    "id": "el_dev_051",
+    "word": "Εμβαθύνω τις γνώσεις μου.",
+    "latin_okunusu": "Emvathino tis gnoseis mou.",
+    "translation": "I deepen my knowledge.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_051.mp3"
+    }
+  },
+  {
+    "id": "el_dev_052",
+    "word": "Είμαι ευγνώμων για τις εμπειρίες.",
+    "latin_okunusu": "Eimai efgnomon gia tis empeiries.",
+    "translation": "I am grateful for the experiences.",
+    "len": 32,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_052.mp3"
+    }
+  },
+  {
+    "id": "el_dev_053",
+    "word": "Αναζητώ την αλήθεια.",
+    "latin_okunusu": "Anazito tin alitheia.",
+    "translation": "I seek the truth.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_053.mp3"
+    }
+  },
+  {
+    "id": "el_dev_054",
+    "word": "Είμαι ο δικός μου παρακινητής.",
+    "latin_okunusu": "Eimai o dikos mou parakinitis.",
+    "translation": "I am my own motivator.",
+    "len": 29,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_054.mp3"
+    }
+  },
+  {
+    "id": "el_dev_055",
+    "word": "Αποδέχομαι τις αλλαγές.",
+    "latin_okunusu": "Apodechomai tis allages.",
+    "translation": "I accept changes.",
+    "len": 22,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_055.mp3"
+    }
+  },
+  {
+    "id": "el_dev_056",
+    "word": "Συνεχίζω να εκπαιδεύομαι.",
+    "latin_okunusu": "Synechizo na ekpaideuomai.",
+    "translation": "I continue to educate myself.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_056.mp3"
+    }
+  },
+  {
+    "id": "el_dev_057",
+    "word": "Σκέφτομαι τη συμπεριφορά μου.",
+    "latin_okunusu": "Skeftomai ti symperifora mou.",
+    "translation": "I reflect on my behavior.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_057.mp3"
+    }
+  },
+  {
+    "id": "el_dev_058",
+    "word": "Εκτιμώ τη διαφορετικότητα.",
+    "latin_okunusu": "Ektimo ti diaforetikotita.",
+    "translation": "I value diversity.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_058.mp3"
+    }
+  },
+  {
+    "id": "el_dev_059",
+    "word": "Είμαι εστιασμένος.",
+    "latin_okunusu": "Eimai estiasmenos.",
+    "translation": "I am focused.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_059.mp3"
+    }
+  },
+  {
+    "id": "el_dev_060",
+    "word": "Αναπτύσσομαι κάθε μέρα.",
+    "latin_okunusu": "Anaptyssomai kathe mera.",
+    "translation": "I develop every day.",
+    "len": 22,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_060.mp3"
+    }
+  },
+  {
+    "id": "el_dev_061",
+    "word": "Σχεδιάζω τα επόμενα βήματά μου.",
+    "latin_okunusu": "Schediazo ta epomena vimata mou.",
+    "translation": "I plan my next steps.",
+    "len": 30,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_061.mp3"
+    }
+  },
+  {
+    "id": "el_dev_062",
+    "word": "Είμαι θαρραλέος.",
+    "latin_okunusu": "Eimai tharraleos.",
+    "translation": "I am brave.",
+    "len": 16,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_062.mp3"
+    }
+  },
+  {
+    "id": "el_dev_063",
+    "word": "Μαθαίνω μέσα από την πράξη.",
+    "latin_okunusu": "Mathaino mesa apo tin praxi.",
+    "translation": "I learn by doing.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_063.mp3"
+    }
+  },
+  {
+    "id": "el_dev_064",
+    "word": "Παραμένω ευέλικτος.",
+    "latin_okunusu": "Parameno evelikton.",
+    "translation": "I remain flexible.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_064.mp3"
+    }
+  },
+  {
+    "id": "el_dev_065",
+    "word": "Έχω έναν σαφή στόχο.",
+    "latin_okunusu": "Echo enan safi stocho.",
+    "translation": "I have a clear goal.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_065.mp3"
+    }
+  },
+  {
+    "id": "el_dev_066",
+    "word": "Είμαι ανοιχτός σε σχόλια.",
+    "latin_okunusu": "Eimai anoichtos se scholia.",
+    "translation": "I am open to feedback.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_066.mp3"
+    }
+  },
+  {
+    "id": "el_dev_067",
+    "word": "Δεν χάνω τον στόχο από τα μάτια μου.",
+    "latin_okunusu": "Den chano ton stocho apo ta matia mou.",
+    "translation": "I don't lose sight of the goal.",
+    "len": 36,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_067.mp3"
+    }
+  },
+  {
+    "id": "el_dev_068",
+    "word": "Είμαι περίεργος για το μέλλον.",
+    "latin_okunusu": "Eimai periergos gia to mellon.",
+    "translation": "I am curious about the future.",
+    "len": 29,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_068.mp3"
+    }
+  },
+  {
+    "id": "el_dev_069",
+    "word": "Αναπτύσσω νέες ικανότητες.",
+    "latin_okunusu": "Anaptysso nees ikanotites.",
+    "translation": "I am developing new skills.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_069.mp3"
+    }
+  },
+  {
+    "id": "el_dev_070",
+    "word": "Είμαι επίμονος.",
+    "latin_okunusu": "Eimai epimonos.",
+    "translation": "I am persistent.",
+    "len": 14,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_070.mp3"
+    }
+  },
+  {
+    "id": "el_dev_071",
+    "word": "Αναγνωρίζω τις δυνατότητές μου.",
+    "latin_okunusu": "Anagnorizo tis dynatotites mou.",
+    "translation": "I recognize my potential.",
+    "len": 30,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_071.mp3"
+    }
+  },
+  {
+    "id": "el_dev_072",
+    "word": "Μαθαίνω από τους γύρω μου.",
+    "latin_okunusu": "Mathaino apo tous gyro mou.",
+    "translation": "I learn from those around me.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_072.mp3"
+    }
+  },
+  {
+    "id": "el_dev_073",
+    "word": "Εκμεταλλεύομαι κάθε ευκαιρία.",
+    "latin_okunusu": "Ekmetalleuomai kathe efkairia.",
+    "translation": "I take every opportunity.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_073.mp3"
+    }
+  },
+  {
+    "id": "el_dev_074",
+    "word": "Σκέφτομαι πάνω σε αυτά που έμαθα.",
+    "latin_okunusu": "Skeftomai pano se afta pou ematha.",
+    "translation": "I reflect on what I learned.",
+    "len": 31,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_074.mp3"
+    }
+  },
+  {
+    "id": "el_dev_075",
+    "word": "Κάνω μικρά βήματα.",
+    "latin_okunusu": "Kano mikra vimata.",
+    "translation": "I take small steps.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_075.mp3"
+    }
+  },
+  {
+    "id": "el_dev_076",
+    "word": "Είμαι πειθαρχημένος.",
+    "latin_okunusu": "Eimai peitharchimenos.",
+    "translation": "I am disciplined.",
+    "len": 19,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_076.mp3"
+    }
+  },
+  {
+    "id": "el_dev_077",
+    "word": "Ανακαλύπτω νέους δρόμους.",
+    "latin_okunusu": "Anakalypto neous dromous.",
+    "translation": "I discover new paths.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_077.mp3"
+    }
+  },
+  {
+    "id": "el_dev_078",
+    "word": "Πιστεύω στην επιτυχία μου.",
+    "latin_okunusu": "Pistevo stin epitychia mou.",
+    "translation": "I believe in my success.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_078.mp3"
+    }
+  },
+  {
+    "id": "el_dev_079",
+    "word": "Είμαι δημιουργικός στις λύσεις.",
+    "latin_okunusu": "Eimai dimiourgikos stis lyseis.",
+    "translation": "I am creative with solutions.",
+    "len": 31,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_079.mp3"
+    }
+  },
+  {
+    "id": "el_dev_080",
+    "word": "Μαθαίνω συνεχώς.",
+    "latin_okunusu": "Mathaino synechos.",
+    "translation": "I am constantly learning.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_080.mp3"
+    }
+  },
+  {
+    "id": "el_dev_081",
+    "word": "Είμαι ανοιχτός σε αλλαγές.",
+    "latin_okunusu": "Eimai anoichtos se allages.",
+    "translation": "I am open to change.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_081.mp3"
+    }
+  },
+  {
+    "id": "el_dev_082",
+    "word": "Αντιμετωπίζω τις προκλήσεις.",
+    "latin_okunusu": "Antimetopizo tis prokliseis.",
+    "translation": "I face challenges.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_082.mp3"
+    }
+  },
+  {
+    "id": "el_dev_083",
+    "word": "Εκτιμώ τη διαδικασία.",
+    "latin_okunusu": "Ektimo ti diadikasia.",
+    "translation": "I value the process.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_083.mp3"
+    }
+  },
+  {
+    "id": "el_dev_084",
+    "word": "Είμαι προσανατολισμένος στον στόχο.",
+    "latin_okunusu": "Eimai prosanatolismenos ston stocho.",
+    "translation": "I am goal-oriented.",
+    "len": 33,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_084.mp3"
+    }
+  },
+  {
+    "id": "el_dev_085",
+    "word": "Μαθαίνω από τα λάθη μου.",
+    "latin_okunusu": "Mathaino apo ta lathi mou.",
+    "translation": "I learn from my mistakes.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_085.mp3"
+    }
+  },
+  {
+    "id": "el_dev_086",
+    "word": "Χτίζω το μέλλον μου.",
+    "latin_okunusu": "Chtizo to mellon mou.",
+    "translation": "I am building my future.",
+    "len": 20,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_086.mp3"
+    }
+  },
+  {
+    "id": "el_dev_087",
+    "word": "Είμαι έτοιμος για κάτι καινούργιο.",
+    "latin_okunusu": "Eimai etoimos gia kati kainourgio.",
+    "translation": "I am ready for something new.",
+    "len": 32,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_087.mp3"
+    }
+  },
+  {
+    "id": "el_dev_088",
+    "word": "Χρησιμοποιώ τα δυνατά μου σημεία.",
+    "latin_okunusu": "Chrisimopoio ta dynata mou simeia.",
+    "translation": "I use my strengths.",
+    "len": 32,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_088.mp3"
+    }
+  },
+  {
+    "id": "el_dev_089",
+    "word": "Μαθαίνω όλη την ημέρα.",
+    "latin_okunusu": "Mathaino oli tin imera.",
+    "translation": "I am learning all day.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_089.mp3"
+    }
+  },
+  {
+    "id": "el_dev_090",
+    "word": "Παραμένω σταθερός.",
+    "latin_okunusu": "Parameno statheros.",
+    "translation": "I remain steady.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_090.mp3"
+    }
+  },
+  {
+    "id": "el_dev_091",
+    "word": "Ξεδιπλώνω τις δυνατότητές μου.",
+    "latin_okunusu": "Xediplono tis dynatotites mou.",
+    "translation": "I am unfolding my potential.",
+    "len": 30,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_091.mp3"
+    }
+  },
+  {
+    "id": "el_dev_092",
+    "word": "Είμαι αισιόδοξος.",
+    "latin_okunusu": "Eimai aisiodoxos.",
+    "translation": "I am optimistic.",
+    "len": 16,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_092.mp3"
+    }
+  },
+  {
+    "id": "el_dev_093",
+    "word": "Μαθαίνω γρήγορα.",
+    "latin_okunusu": "Mathaino grigora.",
+    "translation": "I learn fast.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_093.mp3"
+    }
+  },
+  {
+    "id": "el_dev_094",
+    "word": "Διαμορφώνω τη ζωή μου.",
+    "latin_okunusu": "Diamorfono ti zoi mou.",
+    "translation": "I am shaping my life.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_094.mp3"
+    }
+  },
+  {
+    "id": "el_dev_095",
+    "word": "Παίρνω τον χρόνο μου να σκεφτώ.",
+    "latin_okunusu": "Pairno ton chrono mou na skefto.",
+    "translation": "I take my time to think.",
+    "len": 31,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_095.mp3"
+    }
+  },
+  {
+    "id": "el_dev_096",
+    "word": "Είμαι επιτυχημένος.",
+    "latin_okunusu": "Eimai epitychimenos.",
+    "translation": "I am successful.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_096.mp3"
+    }
+  },
+  {
+    "id": "el_dev_097",
+    "word": "Δουλεύω με πειθαρχία.",
+    "latin_okunusu": "Doulevo me peitharchia.",
+    "translation": "I work with discipline.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_097.mp3"
+    }
+  },
+  {
+    "id": "el_dev_098",
+    "word": "Παραμένω πιστός στο όραμά μου.",
+    "latin_okunusu": "Parameno pistos sto orama mou.",
+    "translation": "I remain faithful to my vision.",
+    "len": 30,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_098.mp3"
+    }
+  },
+  {
+    "id": "el_dev_099",
+    "word": "Μαθαίνω κάθε στιγμή.",
+    "latin_okunusu": "Mathaino kathe stigmi.",
+    "translation": "I learn every moment.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_099.mp3"
+    }
+  },
+  {
+    "id": "el_dev_100",
+    "word": "Είμαι έτοιμος να μεγαλώσω.",
+    "latin_okunusu": "Eimai etoimos na megaloso.",
+    "translation": "I am ready to grow.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_dev_100.mp3"
+    }
+  },
+  {
+    "id": "el_trv_001",
+    "word": "Πού είναι ο σιδηροδρομικός σταθμός;",
+    "latin_okunusu": "Pou einai o sidirodromikos stathmos?",
+    "translation": "Nerede tren istasyonu?",
+    "len": 34,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_001.mp3"
+    }
+  },
+  {
+    "id": "el_trv_002",
+    "word": "Πώς θα πάω στο ξενοδοχείο;",
+    "latin_okunusu": "Pos tha pao sto xenodocheio?",
+    "translation": "Nasıl gideceğim otele?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_002.mp3"
+    }
+  },
+  {
+    "id": "el_trv_003",
+    "word": "Ένα εισιτήριο για το Βερολίνο, παρακαλώ.",
+    "latin_okunusu": "Ena eisitirio gia to Verolino, parakalo.",
+    "translation": "Bir bilet Berlin'e, lütfen.",
+    "len": 40,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_003.mp3"
+    }
+  },
+  {
+    "id": "el_trv_004",
+    "word": "Πότε φεύγει το επόμενο τρένο;",
+    "latin_okunusu": "Pote fevgei to epomeno treno?",
+    "translation": "Ne zaman kalkıyor bir sonraki tren?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_004.mp3"
+    }
+  },
+  {
+    "id": "el_trv_005",
+    "word": "Έχετε ένα ελεύθερο δωμάτιο;",
+    "latin_okunusu": "Echete ena elefthero domatio?",
+    "translation": "Var mı bir boş odanız?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_005.mp3"
+    }
+  },
+  {
+    "id": "el_trv_006",
+    "word": "Έχω μια κράτηση.",
+    "latin_okunusu": "Echo mia kratisi.",
+    "translation": "Var benim bir rezervasyonum.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_006.mp3"
+    }
+  },
+  {
+    "id": "el_trv_007",
+    "word": "Πού είναι το κοντινότερο μετρό;",
+    "latin_okunusu": "Pou einai to kontinotero metro?",
+    "translation": "Nerede en yakın metro?",
+    "len": 30,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_007.mp3"
+    }
+  },
+  {
+    "id": "el_trv_008",
+    "word": "Πόσο κοστίζει αυτό;",
+    "latin_okunusu": "Poso kostizei afto?",
+    "translation": "Ne kadar maliyeti bunun?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_008.mp3"
+    }
+  },
+  {
+    "id": "el_trv_009",
+    "word": "Θέλω να κάνω check-in.",
+    "latin_okunusu": "Thelo na kano check-in.",
+    "translation": "İstiyorum yapmak giriş.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_009.mp3"
+    }
+  },
+  {
+    "id": "el_trv_010",
+    "word": "Μπορείτε να με βοηθήσετε;",
+    "latin_okunusu": "Boreite na me voithisete?",
+    "translation": "Edebilir misiniz bana yardım?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_010.mp3"
+    }
+  },
+  {
+    "id": "el_trv_011",
+    "word": "Υπάρχει ένα εστιατόριο εδώ κοντά;",
+    "latin_okunusu": "Yparchei ena estiatorio edo konta?",
+    "translation": "Var mı bir restoran burada yakın?",
+    "len": 32,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_011.mp3"
+    }
+  },
+  {
+    "id": "el_trv_012",
+    "word": "Ψάχνω για έναν χάρτη της πόλης.",
+    "latin_okunusu": "Psachno gia enan charti tis polis.",
+    "translation": "Arıyorum bir harita şehrin.",
+    "len": 31,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_012.mp3"
+    }
+  },
+  {
+    "id": "el_trv_013",
+    "word": "Είναι μακριά από εδώ;",
+    "latin_okunusu": "Einai makria apo edo?",
+    "translation": "Uzak mı buradan?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_013.mp3"
+    }
+  },
+  {
+    "id": "el_trv_014",
+    "word": "Θέλω να καλέσω ένα ταξί.",
+    "latin_okunusu": "Thelo na kaleso ena taxi.",
+    "translation": "İstiyorum çağırmak bir taksi.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_014.mp3"
+    }
+  },
+  {
+    "id": "el_trv_015",
+    "word": "Πότε ανοίγει το μουσείο;",
+    "latin_okunusu": "Pote anoigei to mouseio?",
+    "translation": "Ne zaman açılıyor müze?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_015.mp3"
+    }
+  },
+  {
+    "id": "el_trv_016",
+    "word": "Πού μπορώ να αλλάξω χρήματα;",
+    "latin_okunusu": "Pou boro na allaxo chrimata?",
+    "translation": "Nerede yapabilirim değiştirmek para?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_016.mp3"
+    }
+  },
+  {
+    "id": "el_trv_017",
+    "word": "Έχετε έναν χάρτη της πόλης;",
+    "latin_okunusu": "Echete enan charti tis polis?",
+    "translation": "Var mı elinizde bir harita şehrin?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_017.mp3"
+    }
+  },
+  {
+    "id": "el_trv_018",
+    "word": "Αυτό είναι πολύ όμορφο.",
+    "latin_okunusu": "Afto einai poly omorfo.",
+    "translation": "Bu çok güzel.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_018.mp3"
+    }
+  },
+  {
+    "id": "el_trv_019",
+    "word": "Ένα τραπέζι για δύο, παρακαλώ.",
+    "latin_okunusu": "Ena trapezi gia dyo, parakalo.",
+    "translation": "Bir masa için iki, lütfen.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_019.mp3"
+    }
+  },
+  {
+    "id": "el_trv_020",
+    "word": "Το λογαριασμό, παρακαλώ.",
+    "latin_okunusu": "To logariasmo, parakalo.",
+    "translation": "Hesabı, lütfen.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_020.mp3"
+    }
+  },
+  {
+    "id": "el_trv_021",
+    "word": "Πού είναι η τουαλέτα;",
+    "latin_okunusu": "Pou einai i toualeta?",
+    "translation": "Nerede tuvalet?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_021.mp3"
+    }
+  },
+  {
+    "id": "el_trv_022",
+    "word": "Είμαι τουρίστας.",
+    "latin_okunusu": "Eimai touristas.",
+    "translation": "Ben bir turistim.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_022.mp3"
+    }
+  },
+  {
+    "id": "el_trv_023",
+    "word": "Μπορείτε να βγάλετε μια φωτογραφία;",
+    "latin_okunusu": "Boreite na vgalete mia fotografia?",
+    "translation": "Edebilir misiniz çekmek bir fotoğraf?",
+    "len": 33,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_023.mp3"
+    }
+  },
+  {
+    "id": "el_trv_024",
+    "word": "Πού είναι η έξοδος;",
+    "latin_okunusu": "Pou einai i exodos?",
+    "translation": "Nerede çıkış?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_024.mp3"
+    }
+  },
+  {
+    "id": "el_trv_025",
+    "word": "Τι μου προτείνετε;",
+    "latin_okunusu": "Ti mou proteinete?",
+    "translation": "Ne bana tavsiye edersiniz?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_025.mp3"
+    }
+  },
+  {
+    "id": "el_trv_026",
+    "word": "Υπάρχει εισιτήριο για όλη τη μέρα;",
+    "latin_okunusu": "Yparchei eisitirio gia oli ti mera?",
+    "translation": "Var mı bilet için tüm gün?",
+    "len": 33,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_026.mp3"
+    }
+  },
+  {
+    "id": "el_trv_027",
+    "word": "Χρειάζομαι ένα τσιρότο.",
+    "latin_okunusu": "Chreiazomai ena tsiroto.",
+    "translation": "İhtiyacım var bir yara bandına.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_027.mp3"
+    }
+  },
+  {
+    "id": "el_trv_028",
+    "word": "Καλό ταξίδι!",
+    "latin_okunusu": "Kalo taxidi!",
+    "translation": "İyi yolculuklar!",
+    "len": 13,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_028.mp3"
+    }
+  },
+  {
+    "id": "el_trv_029",
+    "word": "Πώς θα πάω στο αεροδρόμιο;",
+    "latin_okunusu": "Pos tha pao sto aerodromio?",
+    "translation": "Nasıl gideceğim havalimanına?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_029.mp3"
+    }
+  },
+  {
+    "id": "el_trv_030",
+    "word": "Πού είναι η στάση;",
+    "latin_okunusu": "Pou einai i stasi?",
+    "translation": "Nerede durak?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_030.mp3"
+    }
+  },
+  {
+    "id": "el_trv_031",
+    "word": "Έχασα τις αποσκευές μου.",
+    "latin_okunusu": "Echasa tis aposkeves mou.",
+    "translation": "Kaybettim bavullarımı.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_031.mp3"
+    }
+  },
+  {
+    "id": "el_trv_032",
+    "word": "Το πρωινό περιλαμβάνεται;",
+    "latin_okunusu": "To proino perilamvanetai?",
+    "translation": "Kahvaltı dahil mi?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_032.mp3"
+    }
+  },
+  {
+    "id": "el_trv_033",
+    "word": "Πότε είναι το check-out;",
+    "latin_okunusu": "Pote einai to check-out?",
+    "translation": "Ne zaman çıkış saati?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_033.mp3"
+    }
+  },
+  {
+    "id": "el_trv_034",
+    "word": "Μπορείτε να μιλήσετε πιο δυνατά;",
+    "latin_okunusu": "Boreite na milisete pio dynata?",
+    "translation": "Edebilir misiniz konuşmak daha yüksek sesle?",
+    "len": 33,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_034.mp3"
+    }
+  },
+  {
+    "id": "el_trv_035",
+    "word": "Πού είναι το σούπερ μάρκετ;",
+    "latin_okunusu": "Pou einai to souper market?",
+    "translation": "Nerede süpermarket?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_035.mp3"
+    }
+  },
+  {
+    "id": "el_trv_036",
+    "word": "Θέλω να νοικιάσω ποδήλατα.",
+    "latin_okunusu": "Thelo na noikiaso podilata.",
+    "translation": "İstiyorum kiralamak bisikletler.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_036.mp3"
+    }
+  },
+  {
+    "id": "el_trv_037",
+    "word": "Υπάρχει Wi-Fi εδώ;",
+    "latin_okunusu": "Yparchei Wi-Fi edo?",
+    "translation": "Var mı Wi-Fi burada?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_037.mp3"
+    }
+  },
+  {
+    "id": "el_trv_038",
+    "word": "Αυτό είναι ένα υπέροχο κτίριο.",
+    "latin_okunusu": "Afto einai ena iperocho ktirio.",
+    "translation": "Bu bir harika bina.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_038.mp3"
+    }
+  },
+  {
+    "id": "el_trv_039",
+    "word": "Πού είναι οι πληροφορίες τουριστών;",
+    "latin_okunusu": "Pou einai oi plirofories touriston?",
+    "translation": "Nerede bilgi turistler için?",
+    "len": 35,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_039.mp3"
+    }
+  },
+  {
+    "id": "el_trv_040",
+    "word": "Θέλω ένα δωμάτιο με θέα.",
+    "latin_okunusu": "Thelo ena domatio me thea.",
+    "translation": "İstiyorum bir oda manzaralı.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_040.mp3"
+    }
+  },
+  {
+    "id": "el_trv_041",
+    "word": "Πόση ώρα διαρκεί η διαδρομή;",
+    "latin_okunusu": "Posi ora diarkei i diadromi?",
+    "translation": "Ne kadar sürer yolculuk?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_041.mp3"
+    }
+  },
+  {
+    "id": "el_trv_042",
+    "word": "Έχετε έναν χάρτη;",
+    "latin_okunusu": "Echete enan charti?",
+    "translation": "Var mı elinizde bir harita?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_042.mp3"
+    }
+  },
+  {
+    "id": "el_trv_043",
+    "word": "Συγγνώμη, πώς είπατε;",
+    "latin_okunusu": "Syngnomi, pos eipate?",
+    "translation": "Afedersiniz, nasıl dediniz?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_043.mp3"
+    }
+  },
+  {
+    "id": "el_trv_044",
+    "word": "Πού είναι το φαρμακείο;",
+    "latin_okunusu": "Pou einai to farmakeio?",
+    "translation": "Nerede eczane?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_044.mp3"
+    }
+  },
+  {
+    "id": "el_trv_045",
+    "word": "Θέλω να επισκεφτώ αυτό το αξιοθέατο.",
+    "latin_okunusu": "Thelo na episkefto afto to axiotheato.",
+    "translation": "İstiyorum ziyaret etmek bu turistik yeri.",
+    "len": 36,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_045.mp3"
+    }
+  },
+  {
+    "id": "el_trv_046",
+    "word": "Μπορώ να πληρώσω με κάρτα;",
+    "latin_okunusu": "Boro na pliroso me karta?",
+    "translation": "Yapabilir miyim ödeme kartla?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_046.mp3"
+    }
+  },
+  {
+    "id": "el_trv_047",
+    "word": "Είναι ασφαλές εδώ;",
+    "latin_okunusu": "Einai asfales edo?",
+    "translation": "Güvenli mi burada?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_047.mp3"
+    }
+  },
+  {
+    "id": "el_trv_048",
+    "word": "Πού είναι η κοντινότερη τράπεζα;",
+    "latin_okunusu": "Pou einai i kontinoteri trapeza?",
+    "translation": "Nerede en yakın banka?",
+    "len": 31,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_048.mp3"
+    }
+  },
+  {
+    "id": "el_trv_049",
+    "word": "Χαθήκαμε.",
+    "latin_okunusu": "Chathikame.",
+    "translation": "Kaybolduk.",
+    "len": 10,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_049.mp3"
+    }
+  },
+  {
+    "id": "el_trv_050",
+    "word": "Ποιο είναι το κόστος εισόδου;",
+    "latin_okunusu": "Poio einai to kostos eisodou?",
+    "translation": "Nedir maliyeti girişin?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_050.mp3"
+    }
+  },
+  {
+    "id": "el_trv_051",
+    "word": "Μπορείτε να μου το δείξετε στον χάρτη;",
+    "latin_okunusu": "Boreite na mou to deixete ston charti?",
+    "translation": "Edebilir misiniz bana onu göstermek haritada?",
+    "len": 38,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_051.mp3"
+    }
+  },
+  {
+    "id": "el_trv_052",
+    "word": "Πού είναι το πάρκινγκ;",
+    "latin_okunusu": "Pou einai to parking?",
+    "translation": "Nerede otopark?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_052.mp3"
+    }
+  },
+  {
+    "id": "el_trv_053",
+    "word": "Έχω μια αλλεργία.",
+    "latin_okunusu": "Echo mia allergia.",
+    "translation": "Var benim bir alerjim.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_053.mp3"
+    }
+  },
+  {
+    "id": "el_trv_054",
+    "word": "Πού είναι η πρεσβεία;",
+    "latin_okunusu": "Pou einai i presveia?",
+    "translation": "Nerede büyükelçilik?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_054.mp3"
+    }
+  },
+  {
+    "id": "el_trv_055",
+    "word": "Χρειαζόμαστε βοήθεια.",
+    "latin_okunusu": "Chreiazomaste voitheia.",
+    "translation": "İhtiyacımız var yardıma.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_055.mp3"
+    }
+  },
+  {
+    "id": "el_trv_056",
+    "word": "Είναι το νερό της βρύσης πόσιμο;",
+    "latin_okunusu": "Einai to nero tis vrysis posimo?",
+    "translation": "Mi suyun çeşme içilebilir?",
+    "len": 30,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_056.mp3"
+    }
+  },
+  {
+    "id": "el_trv_057",
+    "word": "Ψάχνω για ένα πάρκο.",
+    "latin_okunusu": "Psachno gia ena parko.",
+    "translation": "Arıyorum bir park.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_057.mp3"
+    }
+  },
+  {
+    "id": "el_trv_058",
+    "word": "Πού είναι το γκισέ;",
+    "latin_okunusu": "Pou einai to gkise?",
+    "translation": "Nerede gişe?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_058.mp3"
+    }
+  },
+  {
+    "id": "el_trv_059",
+    "word": "Μπορούμε να το αναβάλουμε;",
+    "latin_okunusu": "Boroume na to anavaloume?",
+    "translation": "Edebilir miyiz onu ertelemek?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_059.mp3"
+    }
+  },
+  {
+    "id": "el_trv_060",
+    "word": "Υπάρχει ξενάγηση;",
+    "latin_okunusu": "Yparchei xenagisi?",
+    "translation": "Var mı rehberli tur?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_060.mp3"
+    }
+  },
+  {
+    "id": "el_trv_061",
+    "word": "Μου αρέσει αυτή η πόλη.",
+    "latin_okunusu": "Mou aresei afti i poli.",
+    "translation": "Seviyorum bu şehri.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_061.mp3"
+    }
+  },
+  {
+    "id": "el_trv_062",
+    "word": "Πού είναι η είσοδος;",
+    "latin_okunusu": "Pou einai i eisodos?",
+    "translation": "Nerede giriş?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_062.mp3"
+    }
+  },
+  {
+    "id": "el_trv_063",
+    "word": "Πώς θα πάω σε αυτό το μουσείο;",
+    "latin_okunusu": "Pos tha pao se afto to mouseio?",
+    "translation": "Nasıl gideceğim bu müzeye?",
+    "len": 31,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_063.mp3"
+    }
+  },
+  {
+    "id": "el_trv_064",
+    "word": "Έχετε ένα χορτοφαγικό πιάτο;",
+    "latin_okunusu": "Echete ena chortofagiko piato?",
+    "translation": "Var mı vejetaryen bir yemek?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_064.mp3"
+    }
+  },
+  {
+    "id": "el_trv_065",
+    "word": "Είμαι για πρώτη φορά εδώ.",
+    "latin_okunusu": "Eimai gia proti fora edo.",
+    "translation": "Burada ilk defa bulunuyorum.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_065.mp3"
+    }
+  },
+  {
+    "id": "el_trv_066",
+    "word": "Ποια είναι η σύστασή σας;",
+    "latin_okunusu": "Poia einai i systasi sas?",
+    "translation": "Nedir sizin tavsiyeniz?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_066.mp3"
+    }
+  },
+  {
+    "id": "el_trv_067",
+    "word": "Πού είναι το λεωφορείο για το αεροδρόμιο;",
+    "latin_okunusu": "Pou einai to leoforeio gia to aerodromio?",
+    "translation": "Nerede otobüs havalimanı için?",
+    "len": 40,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_067.mp3"
+    }
+  },
+  {
+    "id": "el_trv_068",
+    "word": "Έχασα το κινητό μου.",
+    "latin_okunusu": "Echasa to kinito mou.",
+    "translation": "Kaybettim telefonumu.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_068.mp3"
+    }
+  },
+  {
+    "id": "el_trv_069",
+    "word": "Υπάρχει κάποια έκπτωση;",
+    "latin_okunusu": "Yparchei kapoia ekptosi?",
+    "translation": "Var mı herhangi bir indirim?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_069.mp3"
+    }
+  },
+  {
+    "id": "el_trv_070",
+    "word": "Χρειάζομαι ένα ταξί για αύριο.",
+    "latin_okunusu": "Chreiazomai ena taxi gia avrio.",
+    "translation": "İhtiyacım var bir taksiye yarın için.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_070.mp3"
+    }
+  },
+  {
+    "id": "el_trv_071",
+    "word": "Πού είναι το ταξιδιωτικό γραφείο;",
+    "latin_okunusu": "Pou einai to taxidiotiko grafeio?",
+    "translation": "Nerede seyahat acentesi?",
+    "len": 31,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_071.mp3"
+    }
+  },
+  {
+    "id": "el_trv_072",
+    "word": "Αυτό είναι πολύ νόστιμο.",
+    "latin_okunusu": "Afto einai poly nostimo.",
+    "translation": "Bu çok lezzetli.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_072.mp3"
+    }
+  },
+  {
+    "id": "el_trv_073",
+    "word": "Υπάρχει χάρτης για την πόλη;",
+    "latin_okunusu": "Yparchei chartis gia tin poli?",
+    "translation": "Var mı bir harita şehrin?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_073.mp3"
+    }
+  },
+  {
+    "id": "el_trv_074",
+    "word": "Θέλω να κλείσω εισιτήρια.",
+    "latin_okunusu": "Thelo na kleiso eisitiria.",
+    "translation": "İstiyorum ayırtmak biletler.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_074.mp3"
+    }
+  },
+  {
+    "id": "el_trv_075",
+    "word": "Πού είναι η είσοδος του σταθμού;",
+    "latin_okunusu": "Pou einai i eisodos tou stathmou?",
+    "translation": "Nerede istasyonun girişi?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_075.mp3"
+    }
+  },
+  {
+    "id": "el_trv_076",
+    "word": "Τι ώρα είναι;",
+    "latin_okunusu": "Ti ora einai?",
+    "translation": "Saat kaç?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_076.mp3"
+    }
+  },
+  {
+    "id": "el_trv_077",
+    "word": "Επιτρέπεται το κάπνισμα εδώ;",
+    "latin_okunusu": "Epitrepetai to kapnisma edo?",
+    "translation": "İzin veriliyor mu sigara içmeye burada?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_077.mp3"
+    }
+  },
+  {
+    "id": "el_trv_078",
+    "word": "Ψάχνω για ένα φθηνό ξενοδοχείο.",
+    "latin_okunusu": "Psachno gia ena fthino xenodocheio.",
+    "translation": "Arıyorum bir ucuz otel.",
+    "len": 31,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_078.mp3"
+    }
+  },
+  {
+    "id": "el_trv_079",
+    "word": "Πού είναι το ταχυδρομείο;",
+    "latin_okunusu": "Pou einai to tachydromeio?",
+    "translation": "Nerede postane?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_079.mp3"
+    }
+  },
+  {
+    "id": "el_trv_080",
+    "word": "Είναι δωρεάν η είσοδος;",
+    "latin_okunusu": "Einai dorean i eisodos?",
+    "translation": "Ücretsiz mi giriş?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_080.mp3"
+    }
+  },
+  {
+    "id": "el_trv_081",
+    "word": "Θέλω να μάθω περισσότερα για την πόλη.",
+    "latin_okunusu": "Thelo na matho perissotera gia tin poli.",
+    "translation": "İstiyorum öğrenmek daha fazlasını şehir hakkında.",
+    "len": 37,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_081.mp3"
+    }
+  },
+  {
+    "id": "el_trv_082",
+    "word": "Πού μπορώ να αγοράσω αναμνηστικά;",
+    "latin_okunusu": "Pou boro na agoraso anamnistika?",
+    "translation": "Nerede yapabilirim satın almak hediyelik eşyalar?",
+    "len": 31,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_082.mp3"
+    }
+  },
+  {
+    "id": "el_trv_083",
+    "word": "Χρειάζομαι έναν γιατρό.",
+    "latin_okunusu": "Chreiazomai enan giatro.",
+    "translation": "İhtiyacım var bir doktora.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_083.mp3"
+    }
+  },
+  {
+    "id": "el_trv_084",
+    "word": "Πού είναι η αστυνομία;",
+    "latin_okunusu": "Pou einai i astynomia?",
+    "translation": "Nerede polis?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_084.mp3"
+    }
+  },
+  {
+    "id": "el_trv_085",
+    "word": "Αυτή είναι μια ωραία πλατεία.",
+    "latin_okunusu": "Afti einai mia oraia plateia.",
+    "translation": "Bu bir güzel meydan.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_085.mp3"
+    }
+  },
+  {
+    "id": "el_trv_086",
+    "word": "Πότε κλείνει το μαγαζί;",
+    "latin_okunusu": "Pote kleinei to magazi?",
+    "translation": "Ne zaman kapanıyor dükkan?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_086.mp3"
+    }
+  },
+  {
+    "id": "el_trv_087",
+    "word": "Υπάρχουν μέσα μαζικής μεταφοράς;",
+    "latin_okunusu": "Yparchoun mesa mazikis metafopas?",
+    "translation": "Var mı araçlar toplu taşıma için?",
+    "len": 30,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_087.mp3"
+    }
+  },
+  {
+    "id": "el_trv_088",
+    "word": "Θέλω να νοικιάσω ένα αυτοκίνητο.",
+    "latin_okunusu": "Thelo na noikiaso ena aftokinito.",
+    "translation": "İstiyorum kiralamak bir araba.",
+    "len": 31,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_088.mp3"
+    }
+  },
+  {
+    "id": "el_trv_089",
+    "word": "Μπορείτε να ανοίξετε την πόρτα;",
+    "latin_okunusu": "Boreite na anoiksete tin porta?",
+    "translation": "Edebilir misiniz açmak kapıyı?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_089.mp3"
+    }
+  },
+  {
+    "id": "el_trv_090",
+    "word": "Πού είναι το θέατρο;",
+    "latin_okunusu": "Pou einai to theatro?",
+    "translation": "Nerede tiyatro?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_090.mp3"
+    }
+  },
+  {
+    "id": "el_trv_091",
+    "word": "Το νερό είναι χλιαρό.",
+    "latin_okunusu": "To nero einai chliaro.",
+    "translation": "Su ılıktır.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_091.mp3"
+    }
+  },
+  {
+    "id": "el_trv_092",
+    "word": "Υπάρχει πλατφόρμα θέασης;",
+    "latin_okunusu": "Yparchei platforma theasis?",
+    "translation": "Var mı bir platform seyir için?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_092.mp3"
+    }
+  },
+  {
+    "id": "el_trv_093",
+    "word": "Έχασα το λεωφορείο.",
+    "latin_okunusu": "Echasa to leoforeio.",
+    "translation": "Kaçırdım otobüsü.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_093.mp3"
+    }
+  },
+  {
+    "id": "el_trv_094",
+    "word": "Πού μπορώ να αγοράσω εισιτήριο;",
+    "latin_okunusu": "Pou boro na agoraso eisitirio?",
+    "translation": "Nerede yapabilirim satın almak bilet?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_094.mp3"
+    }
+  },
+  {
+    "id": "el_trv_095",
+    "word": "Είναι μακριά με τα πόδια;",
+    "latin_okunusu": "Einai makria me ta podia?",
+    "translation": "Uzak mı yaya olarak?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_095.mp3"
+    }
+  },
+  {
+    "id": "el_trv_096",
+    "word": "Θέλω να δω την παλιά πόλη.",
+    "latin_okunusu": "Thelo na do tin palia poli.",
+    "translation": "İstiyorum görmek eski şehri.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_096.mp3"
+    }
+  },
+  {
+    "id": "el_trv_097",
+    "word": "Έχετε προτεινόμενα μέρη;",
+    "latin_okunusu": "Echete proteinomena meri?",
+    "translation": "Var mı elinizde önerilen yerler?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_097.mp3"
+    }
+  },
+  {
+    "id": "el_trv_098",
+    "word": "Πού θα βρω ένα ΑΤΜ;",
+    "latin_okunusu": "Pou tha vro ena ATM?",
+    "translation": "Nerede bulacağım bir ATM?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_098.mp3"
+    }
+  },
+  {
+    "id": "el_trv_099",
+    "word": "Ευχαριστώ για τη βοήθειά σας.",
+    "latin_okunusu": "Efcharisto gia ti voitheia sas.",
+    "translation": "Teşekkürler sizin yardımınız için.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_099.mp3"
+    }
+  },
+  {
+    "id": "el_trv_100",
+    "word": "Εις το επανιδείν!",
+    "latin_okunusu": "Eis to epanidein!",
+    "translation": "Görüşmek üzere!",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_trv_100.mp3"
+    }
+  },
+  {
+    "id": "el_soc_001",
+    "word": "Γεια σου!",
+    "latin_okunusu": "Geia sou!",
+    "translation": "Hello!",
+    "len": 8,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_001.mp3"
+    }
+  },
+  {
+    "id": "el_soc_002",
+    "word": "Καλημέρα!",
+    "latin_okunusu": "Kalimera!",
+    "translation": "Good morning!",
+    "len": 9,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_002.mp3"
+    }
+  },
+  {
+    "id": "el_soc_003",
+    "word": "Καλησπέρα!",
+    "latin_okunusu": "Kalispera!",
+    "translation": "Good afternoon/evening!",
+    "len": 10,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_003.mp3"
+    }
+  },
+  {
+    "id": "el_soc_004",
+    "word": "Καληνύχτα!",
+    "latin_okunusu": "Kalinychta!",
+    "translation": "Good night!",
+    "len": 11,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_004.mp3"
+    }
+  },
+  {
+    "id": "el_soc_005",
+    "word": "Πώς είσαι;",
+    "latin_okunusu": "Pos eisai?",
+    "translation": "How are you? (informal)",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_005.mp3"
+    }
+  },
+  {
+    "id": "el_soc_006",
+    "word": "Πώς είστε;",
+    "latin_okunusu": "Pos eiste?",
+    "translation": "How are you? (formal/plural)",
+    "len": 11,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_006.mp3"
+    }
+  },
+  {
+    "id": "el_soc_007",
+    "word": "Είμαι καλά, ευχαριστώ.",
+    "latin_okunusu": "Eimai kala, efcharisto.",
+    "translation": "I am fine, thank you.",
+    "len": 21,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_007.mp3"
+    }
+  },
+  {
+    "id": "el_soc_008",
+    "word": "Εσύ;",
+    "latin_okunusu": "Esy?",
+    "translation": "And you?",
+    "len": 5,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_008.mp3"
+    }
+  },
+  {
+    "id": "el_soc_009",
+    "word": "Πώς σε λένε;",
+    "latin_okunusu": "Pos se lene?",
+    "translation": "What is your name?",
+    "len": 12,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_009.mp3"
+    }
+  },
+  {
+    "id": "el_soc_010",
+    "word": "Με λένε...",
+    "latin_okunusu": "Me lene...",
+    "translation": "My name is...",
+    "len": 11,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_010.mp3"
+    }
+  },
+  {
+    "id": "el_soc_011",
+    "word": "Χάρηκα πολύ.",
+    "latin_okunusu": "Charika poly.",
+    "translation": "Nice to meet you.",
+    "len": 13,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_011.mp3"
+    }
+  },
+  {
+    "id": "el_soc_012",
+    "word": "Από πού είσαι;",
+    "latin_okunusu": "Apo pou eisai?",
+    "translation": "Where are you from?",
+    "len": 15,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_012.mp3"
+    }
+  },
+  {
+    "id": "el_soc_013",
+    "word": "Είμαι από την Τουρκία.",
+    "latin_okunusu": "Eimai apo tin Tourkia.",
+    "translation": "I am from Turkey.",
+    "len": 22,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_013.mp3"
+    }
+  },
+  {
+    "id": "el_soc_014",
+    "word": "Πού μένεις;",
+    "latin_okunusu": "Pou meneis?",
+    "translation": "Where do you live?",
+    "len": 12,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_014.mp3"
+    }
+  },
+  {
+    "id": "el_soc_015",
+    "word": "Τι δουλειά κάνεις;",
+    "latin_okunusu": "Ti douleia kaneis?",
+    "translation": "What do you do for a living?",
+    "len": 17,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_015.mp3"
+    }
+  },
+  {
+    "id": "el_soc_016",
+    "word": "Μπορείς να με βοηθήσεις;",
+    "latin_okunusu": "Boreis na me voithiseis?",
+    "translation": "Can you help me?",
+    "len": 24,
+    "tags": [
+      "social",
+      "help"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_016.mp3"
+    }
+  },
+  {
+    "id": "el_soc_017",
+    "word": "Δεν το καταλαβαίνω.",
+    "latin_okunusu": "Den to katalavaino.",
+    "translation": "I don't understand.",
+    "len": 19,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_017.mp3"
+    }
+  },
+  {
+    "id": "el_soc_018",
+    "word": "Μπορείς να το επαναλάβεις;",
+    "latin_okunusu": "Boreis na to epanalaveis?",
+    "translation": "Can you repeat that?",
+    "len": 26,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_018.mp3"
+    }
+  },
+  {
+    "id": "el_soc_019",
+    "word": "Μιλάς Αγγλικά;",
+    "latin_okunusu": "Milas Anglika?",
+    "translation": "Do you speak English?",
+    "len": 14,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_019.mp3"
+    }
+  },
+  {
+    "id": "el_soc_020",
+    "word": "Λίγο.",
+    "latin_okunusu": "Ligo.",
+    "translation": "A little.",
+    "len": 6,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_020.mp3"
+    }
+  },
+  {
+    "id": "el_soc_021",
+    "word": "Πώς λέγεται αυτό;",
+    "latin_okunusu": "Pos legetai afto?",
+    "translation": "How do you say that?",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_021.mp3"
+    }
+  },
+  {
+    "id": "el_soc_022",
+    "word": "Τι σημαίνει αυτό;",
+    "latin_okunusu": "Ti simainei afto?",
+    "translation": "What does this mean?",
+    "len": 18,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_022.mp3"
+    }
+  },
+  {
+    "id": "el_soc_023",
+    "word": "Μαθαίνω Ελληνικά.",
+    "latin_okunusu": "Mathaino Ellinika.",
+    "translation": "I am learning Greek.",
+    "len": 17,
+    "tags": [
+      "social",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_023.mp3"
+    }
+  },
+  {
+    "id": "el_soc_024",
+    "word": "Γράψτο παρακαλώ.",
+    "latin_okunusu": "Grapto parakalo.",
+    "translation": "Write it down, please.",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_024.mp3"
+    }
+  },
+  {
+    "id": "el_soc_025",
+    "word": "Συγγνώμη.",
+    "latin_okunusu": "Syngnomi.",
+    "translation": "Excuse me / Sorry.",
+    "len": 11,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_025.mp3"
+    }
+  },
+  {
+    "id": "el_soc_026",
+    "word": "Κανένα πρόβλημα.",
+    "latin_okunusu": "Kanena provlima.",
+    "translation": "No problem.",
+    "len": 15,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_026.mp3"
+    }
+  },
+  {
+    "id": "el_soc_027",
+    "word": "Παρακαλώ.",
+    "latin_okunusu": "Parakalo.",
+    "translation": "Please / You're welcome.",
+    "len": 12,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_027.mp3"
+    }
+  },
+  {
+    "id": "el_soc_028",
+    "word": "Ευχαριστώ πολύ.",
+    "latin_okunusu": "Efcharisto poly.",
+    "translation": "Thank you very much.",
+    "len": 16,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_028.mp3"
+    }
+  },
+  {
+    "id": "el_soc_029",
+    "word": "Σας ευχαριστώ.",
+    "latin_okunusu": "Sas efcharisto.",
+    "translation": "Thank you.",
+    "len": 15,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_029.mp3"
+    }
+  },
+  {
+    "id": "el_soc_030",
+    "word": "Ευχαρίστως!",
+    "latin_okunusu": "Efcharistos!",
+    "translation": "With pleasure!",
+    "len": 12,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_030.mp3"
+    }
+  },
+  {
+    "id": "el_soc_031",
+    "word": "Έχεις χρόνο;",
+    "latin_okunusu": "Echeis chrono?",
+    "translation": "Do you have time?",
+    "len": 13,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_031.mp3"
+    }
+  },
+  {
+    "id": "el_soc_032",
+    "word": "Θέλεις να πιούμε καφέ;",
+    "latin_okunusu": "Theleis na pioume kafe?",
+    "translation": "Would you like to have coffee?",
+    "len": 20,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_032.mp3"
+    }
+  },
+  {
+    "id": "el_soc_033",
+    "word": "Έχω όρεξη για...",
+    "latin_okunusu": "Echo orexi gia...",
+    "translation": "I feel like...",
+    "len": 15,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_033.mp3"
+    }
+  },
+  {
+    "id": "el_soc_034",
+    "word": "Πότε θα βρεθούμε;",
+    "latin_okunusu": "Pote tha vrethoume?",
+    "translation": "When shall we meet?",
+    "len": 17,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_034.mp3"
+    }
+  },
+  {
+    "id": "el_soc_035",
+    "word": "Πού θα βρεθούμε;",
+    "latin_okunusu": "Pou tha vrethoume?",
+    "translation": "Where shall we meet?",
+    "len": 16,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_035.mp3"
+    }
+  },
+  {
+    "id": "el_soc_036",
+    "word": "Μου ταιριάζει.",
+    "latin_okunusu": "Mou tairiazei.",
+    "translation": "It suits me.",
+    "len": 13,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_036.mp3"
+    }
+  },
+  {
+    "id": "el_soc_037",
+    "word": "Δυστυχώς δεν γίνεται.",
+    "latin_okunusu": "Dystychos den ginetai.",
+    "translation": "Unfortunately, it is not possible.",
+    "len": 21,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_037.mp3"
+    }
+  },
+  {
+    "id": "el_soc_038",
+    "word": "Είσαι σίγουρος;",
+    "latin_okunusu": "Eisai sigouros?",
+    "translation": "Are you sure?",
+    "len": 15,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_038.mp3"
+    }
+  },
+  {
+    "id": "el_soc_039",
+    "word": "Φυσικά!",
+    "latin_okunusu": "Fysika!",
+    "translation": "Of course!",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_039.mp3"
+    }
+  },
+  {
+    "id": "el_soc_040",
+    "word": "Ίσως.",
+    "latin_okunusu": "Isos.",
+    "translation": "Maybe.",
+    "len": 6,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_040.mp3"
+    }
+  },
+  {
+    "id": "el_soc_041",
+    "word": "Έχεις σχέδια;",
+    "latin_okunusu": "Echeis schedia?",
+    "translation": "Do you have any plans?",
+    "len": 14,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_041.mp3"
+    }
+  },
+  {
+    "id": "el_soc_042",
+    "word": "Θα έρθεις μαζί;",
+    "latin_okunusu": "Tha ertheis mazi?",
+    "translation": "Are you coming along?",
+    "len": 15,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_042.mp3"
+    }
+  },
+  {
+    "id": "el_soc_043",
+    "word": "Ανυπομονώ.",
+    "latin_okunusu": "Anypomono.",
+    "translation": "I can't wait.",
+    "len": 12,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_043.mp3"
+    }
+  },
+  {
+    "id": "el_soc_044",
+    "word": "Καλή επιτυχία!",
+    "latin_okunusu": "Kali epitychia!",
+    "translation": "Good luck / Success!",
+    "len": 14,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_044.mp3"
+    }
+  },
+  {
+    "id": "el_soc_045",
+    "word": "Καλή όρεξη!",
+    "latin_okunusu": "Kali orexi!",
+    "translation": "Enjoy your meal!",
+    "len": 13,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_045.mp3"
+    }
+  },
+  {
+    "id": "el_soc_046",
+    "word": "Μου αρέσει πολύ.",
+    "latin_okunusu": "Mou aresei poly.",
+    "translation": "I like it a lot.",
+    "len": 16,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_046.mp3"
+    }
+  },
+  {
+    "id": "el_soc_047",
+    "word": "Δεν μου αρέσει.",
+    "latin_okunusu": "Den mou aresei.",
+    "translation": "I don't like it.",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_047.mp3"
+    }
+  },
+  {
+    "id": "el_soc_048",
+    "word": "Έχω διαφορετική άποψη.",
+    "latin_okunusu": "Echo diaforetiki apopsi.",
+    "translation": "I have a different opinion.",
+    "len": 23,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_048.mp3"
+    }
+  },
+  {
+    "id": "el_soc_049",
+    "word": "Είναι αλήθεια.",
+    "latin_okunusu": "Einai alitheia.",
+    "translation": "It is true.",
+    "len": 15,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_049.mp3"
+    }
+  },
+  {
+    "id": "el_soc_050",
+    "word": "Συμφωνώ.",
+    "latin_okunusu": "Symfono.",
+    "translation": "I agree.",
+    "len": 9,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_050.mp3"
+    }
+  },
+  {
+    "id": "el_soc_051",
+    "word": "Τι πιστεύεις;",
+    "latin_okunusu": "Ti pisteveis?",
+    "translation": "What do you think?",
+    "len": 13,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_051.mp3"
+    }
+  },
+  {
+    "id": "el_soc_052",
+    "word": "Δεν έχω ιδέα.",
+    "latin_okunusu": "Den echo idea.",
+    "translation": "I have no idea.",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_052.mp3"
+    }
+  },
+  {
+    "id": "el_soc_053",
+    "word": "Πιστεύω ότι...",
+    "latin_okunusu": "Pistevo oti...",
+    "translation": "I believe that...",
+    "len": 15,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_053.mp3"
+    }
+  },
+  {
+    "id": "el_soc_054",
+    "word": "Ελπίζω ότι...",
+    "latin_okunusu": "Elpizo oti...",
+    "translation": "I hope that...",
+    "len": 13,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_054.mp3"
+    }
+  },
+  {
+    "id": "el_soc_055",
+    "word": "Καλή τύχη!",
+    "latin_okunusu": "Kali tychi!",
+    "translation": "Good luck!",
+    "len": 12,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_055.mp3"
+    }
+  },
+  {
+    "id": "el_soc_056",
+    "word": "Τι ώρα είναι;",
+    "latin_okunusu": "Ti ora einai?",
+    "translation": "What time is it?",
+    "len": 13,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_056.mp3"
+    }
+  },
+  {
+    "id": "el_soc_057",
+    "word": "Πρέπει να φύγω.",
+    "latin_okunusu": "Prepei na fygo.",
+    "translation": "I have to leave.",
+    "len": 15,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_057.mp3"
+    }
+  },
+  {
+    "id": "el_soc_058",
+    "word": "Τα λέμε σύντομα!",
+    "latin_okunusu": "Ta leme syntoma!",
+    "translation": "See you soon!",
+    "len": 17,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_058.mp3"
+    }
+  },
+  {
+    "id": "el_soc_059",
+    "word": "Τα λέμε αργότερα!",
+    "latin_okunusu": "Ta leme argotera!",
+    "translation": "See you later!",
+    "len": 17,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_059.mp3"
+    }
+  },
+  {
+    "id": "el_soc_060",
+    "word": "Να έχεις μια καλή μέρα!",
+    "latin_okunusu": "Na echeis mia kali mera!",
+    "translation": "Have a nice day!",
+    "len": 22,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_060.mp3"
+    }
+  },
+  {
+    "id": "el_soc_061",
+    "word": "Καλό βράδυ!",
+    "latin_okunusu": "Kalo vradi!",
+    "translation": "Good evening!",
+    "len": 12,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_061.mp3"
+    }
+  },
+  {
+    "id": "el_soc_062",
+    "word": "Πώς ήταν η μέρα σου;",
+    "latin_okunusu": "Pos itan i mera sou?",
+    "translation": "How was your day?",
+    "len": 20,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_062.mp3"
+    }
+  },
+  {
+    "id": "el_soc_063",
+    "word": "Είμαι κουρασμένος.",
+    "latin_okunusu": "Eimai kourasmenos.",
+    "translation": "I am tired.",
+    "len": 18,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_063.mp3"
+    }
+  },
+  {
+    "id": "el_soc_064",
+    "word": "Πεινάω.",
+    "latin_okunusu": "Peinao.",
+    "translation": "I am hungry.",
+    "len": 7,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_064.mp3"
+    }
+  },
+  {
+    "id": "el_soc_065",
+    "word": "Έχουμε καφέ;",
+    "latin_okunusu": "Echoume kafe?",
+    "translation": "Do we have coffee?",
+    "len": 13,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_065.mp3"
+    }
+  },
+  {
+    "id": "el_soc_066",
+    "word": "Ο καιρός είναι ωραίος.",
+    "latin_okunusu": "O kairos einai oraios.",
+    "translation": "The weather is nice.",
+    "len": 20,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_066.mp3"
+    }
+  },
+  {
+    "id": "el_soc_067",
+    "word": "Βρέχει.",
+    "latin_okunusu": "Vrehei.",
+    "translation": "It is raining.",
+    "len": 7,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_067.mp3"
+    }
+  },
+  {
+    "id": "el_soc_068",
+    "word": "Χρειάζομαι ηρεμία.",
+    "latin_okunusu": "Chreiazomai iremia.",
+    "translation": "I need some peace/quiet.",
+    "len": 17,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_068.mp3"
+    }
+  },
+  {
+    "id": "el_soc_069",
+    "word": "Τι θα κάνουμε το βράδυ;",
+    "latin_okunusu": "Ti tha kanoume to vradi?",
+    "translation": "What are we doing tonight?",
+    "len": 23,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_069.mp3"
+    }
+  },
+  {
+    "id": "el_soc_070",
+    "word": "Θα σε πάρω τηλέφωνο.",
+    "latin_okunusu": "Tha se paro tilefono.",
+    "translation": "I will call you.",
+    "len": 21,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_070.mp3"
+    }
+  },
+  {
+    "id": "el_soc_071",
+    "word": "Εντάξει.",
+    "latin_okunusu": "Entaxei.",
+    "translation": "Okay.",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_071.mp3"
+    }
+  },
+  {
+    "id": "el_soc_072",
+    "word": "Με καταλαβαίνεις;",
+    "latin_okunusu": "Me katalavaineis?",
+    "translation": "Do you understand me?",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_072.mp3"
+    }
+  },
+  {
+    "id": "el_soc_073",
+    "word": "Πολύ ευγενικό από μέρους σου.",
+    "latin_okunusu": "Poly evgeniko apo merous sou.",
+    "translation": "Very kind of you.",
+    "len": 27,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_073.mp3"
+    }
+  },
+  {
+    "id": "el_soc_074",
+    "word": "Περαστικά!",
+    "latin_okunusu": "Perastika!",
+    "translation": "Get well soon!",
+    "len": 10,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_074.mp3"
+    }
+  },
+  {
+    "id": "el_soc_075",
+    "word": "Συγχαρητήρια!",
+    "latin_okunusu": "Syncharitiria!",
+    "translation": "Congratulations!",
+    "len": 13,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_075.mp3"
+    }
+  },
+  {
+    "id": "el_soc_076",
+    "word": "Συγγνώμη.",
+    "latin_okunusu": "Syngnomi.",
+    "translation": "Excuse me / Sorry.",
+    "len": 11,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_076.mp3"
+    }
+  },
+  {
+    "id": "el_soc_077",
+    "word": "Μπορώ να ρωτήσω;",
+    "latin_okunusu": "Boro na rotiso?",
+    "translation": "May I ask?",
+    "len": 16,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_077.mp3"
+    }
+  },
+  {
+    "id": "el_soc_078",
+    "word": "Ακούγεται καλό.",
+    "latin_okunusu": "Akougetai kalo.",
+    "translation": "Sounds good.",
+    "len": 16,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_078.mp3"
+    }
+  },
+  {
+    "id": "el_soc_079",
+    "word": "Δεν ξέρω.",
+    "latin_okunusu": "Den ksero.",
+    "translation": "I don't know.",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_079.mp3"
+    }
+  },
+  {
+    "id": "el_soc_080",
+    "word": "Μπορείς να το εξηγήσεις;",
+    "latin_okunusu": "Boreis na to exigiseis?",
+    "translation": "Can you explain it?",
+    "len": 24,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_080.mp3"
+    }
+  },
+  {
+    "id": "el_soc_081",
+    "word": "Είναι σημαντικό.",
+    "latin_okunusu": "Einai simantiko.",
+    "translation": "It is important.",
+    "len": 15,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_081.mp3"
+    }
+  },
+  {
+    "id": "el_soc_082",
+    "word": "Ορίστε;",
+    "latin_okunusu": "Oriste?",
+    "translation": "Pardon? / Yes?",
+    "len": 7,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_082.mp3"
+    }
+  },
+  {
+    "id": "el_soc_083",
+    "word": "Μην ανησυχείς.",
+    "latin_okunusu": "Min anisychis.",
+    "translation": "Don't worry.",
+    "len": 14,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_083.mp3"
+    }
+  },
+  {
+    "id": "el_soc_084",
+    "word": "Καλή διασκέδαση!",
+    "latin_okunusu": "Kali diaskedasi!",
+    "translation": "Have fun!",
+    "len": 16,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_084.mp3"
+    }
+  },
+  {
+    "id": "el_soc_085",
+    "word": "Σε περιμένω.",
+    "latin_okunusu": "Se perimeno.",
+    "translation": "I am waiting for you.",
+    "len": 12,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_085.mp3"
+    }
+  },
+  {
+    "id": "el_soc_086",
+    "word": "Τι συνέβη;",
+    "latin_okunusu": "Ti synevi?",
+    "translation": "What happened?",
+    "len": 11,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_086.mp3"
+    }
+  },
+  {
+    "id": "el_soc_087",
+    "word": "Είναι διασκεδαστικό.",
+    "latin_okunusu": "Einai diaskedastiko.",
+    "translation": "It is fun.",
+    "len": 19,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_087.mp3"
+    }
+  },
+  {
+    "id": "el_soc_088",
+    "word": "Μου λείπεις.",
+    "latin_okunusu": "Mou leipeis.",
+    "translation": "I miss you.",
+    "len": 12,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_088.mp3"
+    }
+  },
+  {
+    "id": "el_soc_089",
+    "word": "Όλα τα καλά!",
+    "latin_okunusu": "Ola ta kala!",
+    "translation": "All the best!",
+    "len": 13,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_089.mp3"
+    }
+  },
+  {
+    "id": "el_soc_090",
+    "word": "Χάρηκα που σε είδα.",
+    "latin_okunusu": "Charika pou se eida.",
+    "translation": "It was nice to see you.",
+    "len": 19,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_090.mp3"
+    }
+  },
+  {
+    "id": "el_soc_091",
+    "word": "Μια στιγμή παρακαλώ.",
+    "latin_okunusu": "Mia stigmi parakalo.",
+    "translation": "One moment, please.",
+    "len": 19,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_091.mp3"
+    }
+  },
+  {
+    "id": "el_soc_092",
+    "word": "Έλα μέσα!",
+    "latin_okunusu": "Ela mesa!",
+    "translation": "Come in!",
+    "len": 10,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_092.mp3"
+    }
+  },
+  {
+    "id": "el_soc_093",
+    "word": "Κάθισε.",
+    "latin_okunusu": "Kathise.",
+    "translation": "Sit down.",
+    "len": 7,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_093.mp3"
+    }
+  },
+  {
+    "id": "el_soc_094",
+    "word": "Θέλεις να πιείς κάτι;",
+    "latin_okunusu": "Theleis na pieis kati?",
+    "translation": "Would you like to drink something?",
+    "len": 21,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_094.mp3"
+    }
+  },
+  {
+    "id": "el_soc_095",
+    "word": "Δεν με πειράζει.",
+    "latin_okunusu": "Den me peirazei.",
+    "translation": "I don't mind.",
+    "len": 15,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_095.mp3"
+    }
+  },
+  {
+    "id": "el_soc_096",
+    "word": "Είμαι έτοιμος.",
+    "latin_okunusu": "Eimai etoimos.",
+    "translation": "I am ready.",
+    "len": 14,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_096.mp3"
+    }
+  },
+  {
+    "id": "el_soc_097",
+    "word": "Έχεις λίγο χρόνο;",
+    "latin_okunusu": "Echeis ligo chrono?",
+    "translation": "Do you have a little time?",
+    "len": 18,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_097.mp3"
+    }
+  },
+  {
+    "id": "el_soc_098",
+    "word": "Αυτό είναι καινούργιο για μένα.",
+    "latin_okunusu": "Afto einai kainourgio gia mena.",
+    "translation": "This is new to me.",
+    "len": 29,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_098.mp3"
+    }
+  },
+  {
+    "id": "el_soc_099",
+    "word": "Ας ξεκινήσουμε.",
+    "latin_okunusu": "As xekinisoume.",
+    "translation": "Let's start.",
+    "len": 15,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_099.mp3"
+    }
+  },
+  {
+    "id": "el_soc_100",
+    "word": "Τα λέμε την επόμενη φορά.",
+    "latin_okunusu": "Ta leme tin epomeni fora.",
+    "translation": "See you next time.",
+    "len": 27,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_el/el_soc_100.mp3"
+    }
+  }
+]

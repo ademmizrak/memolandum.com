@@ -1,0 +1,6500 @@
+[
+  {
+    "id": "pt_sent_001",
+    "word": "Eu acordo cedo.",
+    "translation": "I wake up early.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_acordo_cedo.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_002",
+    "word": "Eu abro a janela.",
+    "translation": "I open the window.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_abro_a_janela.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_003",
+    "word": "Eu preparo o café da manhã.",
+    "translation": "I prepare breakfast.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_preparo_o_café_da_manhã.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_004",
+    "word": "Eu bebo um café.",
+    "translation": "I drink a coffee.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_bebo_um_café.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_005",
+    "word": "Eu limpo a cozinha.",
+    "translation": "I clean the kitchen.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_limpo_a_cozinha.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_006",
+    "word": "Eu arrumo a cama.",
+    "translation": "I make the bed.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_arrumo_a_cama.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_007",
+    "word": "A casa está limpa.",
+    "translation": "The house is clean.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_casa_está_limpa.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_008",
+    "word": "Preciso lavar a roupa.",
+    "translation": "I need to wash the clothes.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_preciso_lavar_a_roupa.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_009",
+    "word": "Eu passo as camisas.",
+    "translation": "I iron the shirts.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_passo_as_camisas.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_010",
+    "word": "Eu acendo a luz.",
+    "translation": "I turn on the light.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_acendo_a_luz.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_011",
+    "word": "Eu desligo a televisão.",
+    "translation": "I turn off the TV.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_desligo_a_televisão.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_012",
+    "word": "Eu fecho a porta.",
+    "translation": "I close the door.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_fecho_a_porta.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_013",
+    "word": "Eu procuro minhas chaves.",
+    "translation": "I look for my keys.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_procuro_minhas_chaves.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_014",
+    "word": "Eu encontro meus óculos.",
+    "translation": "I find my glasses.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_encontro_meus_óculos.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_015",
+    "word": "Eu ponho a mesa.",
+    "translation": "I set the table.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_ponho_a_mesa.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_016",
+    "word": "Eu cozinho algo gostoso.",
+    "translation": "I cook something delicious.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_cozinho_algo_gostoso.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_017",
+    "word": "Eu almoço com minha família.",
+    "translation": "I have lunch with my family.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_almoço_com_minha_família.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_018",
+    "word": "Eu lavo os pratos.",
+    "translation": "I wash the dishes.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_lavo_os_pratos.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_019",
+    "word": "Preciso de mais açúcar.",
+    "translation": "I need more sugar.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_preciso_de_mais_açúcar.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_020",
+    "word": "Passe o sal, por favor.",
+    "translation": "Pass the salt, please.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_sent_021",
+    "word": "A sopa está quente.",
+    "translation": "The soup is hot.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_sopa_está_quente.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_022",
+    "word": "Eu gosto de café puro.",
+    "translation": "I like black coffee.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_gosto_de_café_puro.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_023",
+    "word": "Tem leite na geladeira.",
+    "translation": "There is milk in the fridge.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tem_leite_na_geladeira.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_024",
+    "word": "Tenho muito trabalho hoje.",
+    "translation": "I have a lot of work today.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_muito_trabalho_hoje.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_025",
+    "word": "Eu trabalho de casa.",
+    "translation": "I work from home.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_trabalho_de_casa.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_026",
+    "word": "O computador não funciona.",
+    "translation": "The computer doesn't work.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_computador_não_funciona.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_027",
+    "word": "Eu procuro uma caneta.",
+    "translation": "I look for a pen.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_procuro_uma_caneta.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_028",
+    "word": "Eu escrevo no meu caderno.",
+    "translation": "I write in my notebook.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_escrevo_no_meu_caderno.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_029",
+    "word": "A casa é muito aconchegante.",
+    "translation": "The house is very cozy.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_casa_é_muito_aconchegante.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_030",
+    "word": "A sala é grande.",
+    "translation": "The living room is big.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_sala_é_grande.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_031",
+    "word": "Meu quarto é pequeno.",
+    "translation": "My room is small.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_meu_quarto_é_pequeno.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_032",
+    "word": "O jardim é bonito.",
+    "translation": "The garden is pretty.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_jardim_é_bonito.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_033",
+    "word": "Tem flores frescas.",
+    "translation": "There are fresh flowers.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tem_flores_frescas.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_034",
+    "word": "Eu ouço música suave.",
+    "translation": "I listen to soft music.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_ouço_música_suave.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_035",
+    "word": "Eu leio um livro interessante.",
+    "translation": "I read an interesting book.",
+    "len": 29,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_leio_um_livro_interessante.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_036",
+    "word": "Eu estou cansado.",
+    "translation": "I am tired.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_estou_cansado.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_037",
+    "word": "Quero descansar um pouco.",
+    "translation": "I want to rest a little.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_quero_descansar_um_pouco.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_038",
+    "word": "Eu me sinto feliz aqui.",
+    "translation": "I feel happy here.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_me_sinto_feliz_aqui.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_039",
+    "word": "É hora de dormir.",
+    "translation": "It is time to sleep.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_hora_de_dormir.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_040",
+    "word": "Boa noite, família.",
+    "translation": "Good night, family.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_sent_041",
+    "word": "Amanhã será outro dia.",
+    "translation": "Tomorrow is another day.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_amanhã_será_outro_dia.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_042",
+    "word": "Tudo está no lugar.",
+    "translation": "Everything is in its place.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tudo_está_no_lugar.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_043",
+    "word": "Não esqueça de regar as plantas.",
+    "translation": "Don't forget to water the plants.",
+    "len": 31,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_não_esqueça_de_regar_as_plantas.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_044",
+    "word": "A luz está acesa.",
+    "translation": "The light is on.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_luz_está_acesa.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_045",
+    "word": "A água está muito fria.",
+    "translation": "The water is very cold.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_água_está_muito_fria.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_046",
+    "word": "Tenho que arrumar meu quarto.",
+    "translation": "I have to tidy my room.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_que_arrumar_meu_quarto.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_047",
+    "word": "Eu visto o pijama.",
+    "translation": "I put on my pajamas.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_visto_o_pijama.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_048",
+    "word": "O despertador toca.",
+    "translation": "The alarm clock rings.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_despertador_toca.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_049",
+    "word": "É um dia ensolarado.",
+    "translation": "It is a sunny day.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_dia_ensolarado.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_050",
+    "word": "Onde está o telefone?",
+    "translation": "Where is the phone?",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_sent_051",
+    "word": "Está no sofá.",
+    "translation": "It is on the sofa.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_está_no_sofá.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_052",
+    "word": "Eu estou com fome.",
+    "translation": "I am hungry.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_estou_com_fome.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_053",
+    "word": "O que tem para jantar?",
+    "translation": "What is for dinner?",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_sent_054",
+    "word": "Eu preparo uma salada.",
+    "translation": "I prepare a salad.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_preparo_uma_salada.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_055",
+    "word": "A carne está gostosa.",
+    "translation": "The meat is tasty.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_carne_está_gostosa.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_056",
+    "word": "Quero pão, por favor.",
+    "translation": "I want bread, please.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_sent_057",
+    "word": "A sobremesa é excelente.",
+    "translation": "The dessert is excellent.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_sobremesa_é_excelente.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_058",
+    "word": "Guardo a comida na geladeira.",
+    "translation": "I store the food in the fridge.",
+    "len": 29,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_guardo_a_comida_na_geladeira.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_059",
+    "word": "Tem muita bagunça aqui.",
+    "translation": "There is a lot of mess here.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tem_muita_bagunça_aqui.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_060",
+    "word": "Devo tirar o lixo.",
+    "translation": "I must take out the trash.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_devo_tirar_o_lixo.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_061",
+    "word": "A chave não entra bem.",
+    "translation": "The key does not enter well.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_chave_não_entra_bem.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_062",
+    "word": "Preciso de um martelo.",
+    "translation": "I need a hammer.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_preciso_de_um_martelo.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_063",
+    "word": "A lâmpada está quebrada.",
+    "translation": "The lamp is broken.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_lâmpada_está_quebrada.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_064",
+    "word": "Eu troco a lâmpada.",
+    "translation": "I change the light bulb.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_troco_a_lâmpada.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_065",
+    "word": "Eu abro o guarda-roupa.",
+    "translation": "I open the closet.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_abro_o_guarda-roupa.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_066",
+    "word": "Eu procuro meu casaco.",
+    "translation": "I look for my coat.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_procuro_meu_casaco.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_067",
+    "word": "Está atrás da porta.",
+    "translation": "It is behind the door.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_está_atrás_da_porta.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_068",
+    "word": "Estou com frio.",
+    "translation": "I am cold.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_estou_com_frio.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_069",
+    "word": "Eu fecho a janela.",
+    "translation": "I close the window.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_fecho_a_janela.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_070",
+    "word": "Eu ligo o aquecedor.",
+    "translation": "I turn on the heating.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_ligo_o_aquecedor.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_071",
+    "word": "O ambiente está quente.",
+    "translation": "The atmosphere is warm.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_ambiente_está_quente.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_072",
+    "word": "Eu relaxo um pouco.",
+    "translation": "I relax a little.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_relaxo_um_pouco.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_073",
+    "word": "Eu assisto a um filme.",
+    "translation": "I watch a movie.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_assisto_a_um_filme.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_074",
+    "word": "O sofá é muito confortável.",
+    "translation": "The sofa is very comfortable.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_sofá_é_muito_confortável.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_075",
+    "word": "Eu bebo um suco de laranja.",
+    "translation": "I drink an orange juice.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_bebo_um_suco_de_laranja.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_076",
+    "word": "É muito refrescante.",
+    "translation": "It is very refreshing.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_muito_refrescante.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_077",
+    "word": "Eu tiro o pó.",
+    "translation": "I dust.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_tiro_o_pó.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_078",
+    "word": "A mesa está cheia.",
+    "translation": "The table is full.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_mesa_está_cheia.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_079",
+    "word": "Eu passo o aspirador.",
+    "translation": "I vacuum.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_passo_o_aspirador.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_080",
+    "word": "O chão brilha.",
+    "translation": "The floor shines.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_chão_brilha.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_081",
+    "word": "Tudo está em ordem.",
+    "translation": "Everything is in order.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tudo_está_em_ordem.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_082",
+    "word": "Eu me sinto orgulhoso.",
+    "translation": "I feel proud.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_me_sinto_orgulhoso.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_083",
+    "word": "A vida é bela.",
+    "translation": "Life is beautiful.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_vida_é_bela.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_084",
+    "word": "Amanhã será um grande dia.",
+    "translation": "Tomorrow will be a great day.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_amanhã_será_um_grande_dia.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_085",
+    "word": "Nós contamos os minutos.",
+    "translation": "We count the minutes.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_nós_contamos_os_minutos.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_086",
+    "word": "Nós estamos juntos.",
+    "translation": "We are together.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_nós_estamos_juntos.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_087",
+    "word": "A casa é meu refúgio.",
+    "translation": "The house is my refuge.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_casa_é_meu_refúgio.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_088",
+    "word": "Eu amo este lugar.",
+    "translation": "I love this place.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_amo_este_lugar.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_089",
+    "word": "Tudo é maravilhoso.",
+    "translation": "Everything is wonderful.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tudo_é_maravilhoso.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_090",
+    "word": "A família é o mais importante.",
+    "translation": "Family comes first.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_família_é_o_mais_importante.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_091",
+    "word": "Nós nos divertimos muito.",
+    "translation": "We have a lot of fun.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_nós_nos_divertimos_muito.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_092",
+    "word": "Nós compartilhamos risadas.",
+    "translation": "We share laughs.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_nós_compartilhamos_risadas.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_093",
+    "word": "Conversar é importante.",
+    "translation": "Talking is important.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_conversar_é_importante.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_094",
+    "word": "Nós ouvimos a todos.",
+    "translation": "We listen to everyone.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_nós_ouvimos_a_todos.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_095",
+    "word": "O respeito é a base.",
+    "translation": "Respect is the foundation.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_respeito_é_a_base.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_096",
+    "word": "Obrigado por tudo.",
+    "translation": "Thanks for everything.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_obrigado_por_tudo.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_097",
+    "word": "Nós continuamos em frente.",
+    "translation": "We continue moving forward.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_nós_continuamos_em_frente.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_098",
+    "word": "Nós somos um time.",
+    "translation": "We are a team.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_nós_somos_um_time.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_099",
+    "word": "A paz é fundamental.",
+    "translation": "Peace is fundamental.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_paz_é_fundamental.mp3"
+    }
+  },
+  {
+    "id": "pt_sent_100",
+    "word": "O lar é onde o coração está.",
+    "translation": "Home is where the heart is.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_lar_é_onde_o_coração_está.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_001",
+    "word": "Tenho uma reunião importante.",
+    "translation": "I have an important meeting.",
+    "len": 28,
+    "tags": [
+      "professional",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_uma_reunião_importante.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_002",
+    "word": "Podemos começar a apresentação.",
+    "translation": "We can start the presentation.",
+    "len": 31,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_podemos_começar_a_apresentação.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_003",
+    "word": "Preciso da sua opinião profissional.",
+    "translation": "I need your professional opinion.",
+    "len": 33,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_preciso_da_sua_opinião_profissional.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_004",
+    "word": "O projeto vai bem.",
+    "translation": "The project is going well.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_projeto_vai_bem.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_005",
+    "word": "Envie-me o relatório por e-mail.",
+    "translation": "Send me the report by email.",
+    "len": 29,
+    "tags": [
+      "professional",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_envie-me_o_relatório_por_e-mail.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_006",
+    "word": "Estou trabalhando no orçamento.",
+    "translation": "I am working on the budget.",
+    "len": 29,
+    "tags": [
+      "professional",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_estou_trabalhando_no_orçamento.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_007",
+    "word": "Temos que cumprir o prazo.",
+    "translation": "We have to meet the deadline.",
+    "len": 26,
+    "tags": [
+      "professional",
+      "deadline"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_temos_que_cumprir_o_prazo.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_008",
+    "word": "Amanhã tenho uma entrevista.",
+    "translation": "I have an interview tomorrow.",
+    "len": 26,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_amanhã_tenho_uma_entrevista.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_009",
+    "word": "Vamos falar sobre os objetivos.",
+    "translation": "Let's talk about the goals.",
+    "len": 29,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_falar_sobre_os_objetivos.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_010",
+    "word": "É uma excelente oportunidade.",
+    "translation": "It is an excellent opportunity.",
+    "len": 28,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_uma_excelente_oportunidade.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_011",
+    "word": "Devemos melhorar a eficiência.",
+    "translation": "We must improve efficiency.",
+    "len": 27,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_devemos_melhorar_a_eficiência.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_012",
+    "word": "Confio na sua equipe.",
+    "translation": "I trust your team.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_confio_na_sua_equipe.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_013",
+    "word": "O contrato está pronto.",
+    "translation": "The contract is ready.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_contrato_está_pronto.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_014",
+    "word": "Vamos analisar os resultados.",
+    "translation": "We are going to analyze the results.",
+    "len": 27,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_analisar_os_resultados.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_015",
+    "word": "Não há nenhum problema.",
+    "translation": "There is no problem.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_não_há_nenhum_problema.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_016",
+    "word": "Recebi sua mensagem.",
+    "translation": "I have received your message.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_recebi_sua_mensagem.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_017",
+    "word": "Obrigado pela colaboração.",
+    "translation": "Thanks for your collaboration.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_obrigado_pela_colaboração.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_018",
+    "word": "Concordo com você.",
+    "translation": "I agree with you.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_concordo_com_você.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_019",
+    "word": "Há muito trabalho pendente.",
+    "translation": "There is a lot of pending work.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_há_muito_trabalho_pendente.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_020",
+    "word": "A prioridade é o cliente.",
+    "translation": "The priority is the client.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_prioridade_é_o_cliente.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_021",
+    "word": "Organize a agenda, por favor.",
+    "translation": "Organize the agenda, please.",
+    "len": 27,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_prof_022",
+    "word": "Vamos buscar soluções criativas.",
+    "translation": "Let's look for creative solutions.",
+    "len": 31,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_buscar_soluções_criativas.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_023",
+    "word": "O relatório é confidencial.",
+    "translation": "The report is confidential.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_relatório_é_confidencial.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_024",
+    "word": "Vamos passo a passo.",
+    "translation": "Let's go step by step.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_passo_a_passo.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_025",
+    "word": "É uma equipe muito esforçada.",
+    "translation": "It is a very hard-working team.",
+    "len": 27,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_uma_equipe_muito_esforçada.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_026",
+    "word": "A oferta vence hoje.",
+    "translation": "The offer expires today.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_oferta_vence_hoje.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_027",
+    "word": "Tenha cuidado com os detalhes.",
+    "translation": "Be careful with the details.",
+    "len": 27,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenha_cuidado_com_os_detalhes.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_028",
+    "word": "Preciso de mais recursos.",
+    "translation": "I need more resources.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_preciso_de_mais_recursos.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_029",
+    "word": "Estamos em contato.",
+    "translation": "We are in contact.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_estamos_em_contato.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_030",
+    "word": "O lucro aumentou.",
+    "translation": "The profit increased.",
+    "len": 16,
+    "tags": [
+      "professional",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_lucro_aumentou.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_031",
+    "word": "O compromisso é necessário.",
+    "translation": "Commitment is necessary.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_compromisso_é_necessário.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_032",
+    "word": "Vamos avaliar o desempenho.",
+    "translation": "We are going to evaluate performance.",
+    "len": 27,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_avaliar_o_desempenho.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_033",
+    "word": "Mantenha a calma.",
+    "translation": "Keep calm.",
+    "len": 16,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_mantenha_a_calma.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_034",
+    "word": "Tudo está sob controle.",
+    "translation": "Everything is under control.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tudo_está_sob_controle.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_035",
+    "word": "Ligue para o escritório.",
+    "translation": "Call the office.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_ligue_para_o_escritório.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_036",
+    "word": "Temos muita experiência.",
+    "translation": "We have a lot of experience.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_temos_muita_experiência.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_037",
+    "word": "A qualidade é fundamental.",
+    "translation": "Quality is fundamental.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_qualidade_é_fundamental.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_038",
+    "word": "Devemos sempre inovar.",
+    "translation": "We must always innovate.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_devemos_sempre_inovar.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_039",
+    "word": "Vamos fazer um esforço extra.",
+    "translation": "Let's make an extra effort.",
+    "len": 28,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_fazer_um_esforço_extra.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_040",
+    "word": "É um mercado global.",
+    "translation": "It is a global market.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_mercado_global.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_041",
+    "word": "Assine aqui, por favor.",
+    "translation": "Sign here, please.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "legal"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_prof_042",
+    "word": "A estratégia está clara.",
+    "translation": "The strategy is clear.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_estratégia_está_clara.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_043",
+    "word": "Precisamos de um novo plano.",
+    "translation": "We need a new plan.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_precisamos_de_um_novo_plano.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_044",
+    "word": "É um cliente exigente.",
+    "translation": "It is a demanding client.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_cliente_exigente.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_045",
+    "word": "Vamos ouvir o cliente.",
+    "translation": "Let's listen to the client.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_ouvir_o_cliente.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_046",
+    "word": "A comunicação é vital.",
+    "translation": "Communication is vital.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_comunicação_é_vital.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_047",
+    "word": "Gerencie bem o seu tempo.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_gerencie_bem_o_seu_tempo.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_048",
+    "word": "O trabalho é gratificante.",
+    "translation": "Work is rewarding.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_trabalho_é_gratificante.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_049",
+    "word": "Tenha uma visão clara.",
+    "translation": "Have a clear vision.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenha_uma_visão_clara.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_050",
+    "word": "Devemos liderar o mercado.",
+    "translation": "We must lead the market.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_devemos_liderar_o_mercado.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_051",
+    "word": "É hora de crescer.",
+    "translation": "It is time to grow.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_hora_de_crescer.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_052",
+    "word": "A formação é constante.",
+    "translation": "Training is constant.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_formação_é_constante.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_053",
+    "word": "Valorize o talento.",
+    "translation": "Value talent.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_valorize_o_talento.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_054",
+    "word": "Ele é um bom líder.",
+    "translation": "He is a good leader.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_ele_é_um_bom_líder.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_055",
+    "word": "A honestidade é a chave.",
+    "translation": "Honesty is key.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_honestidade_é_a_chave.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_056",
+    "word": "Estamos comprometidos.",
+    "translation": "We are committed.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_estamos_comprometidos.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_057",
+    "word": "O valor agregado é este.",
+    "translation": "The added value is this.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_valor_agregado_é_este.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_058",
+    "word": "Analise os dados.",
+    "translation": "Analyze the data.",
+    "len": 16,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_analise_os_dados.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_059",
+    "word": "Vamos ser mais eficazes.",
+    "translation": "Let's be more effective.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_ser_mais_eficazes.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_060",
+    "word": "É uma grande vantagem.",
+    "translation": "It is a great advantage.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_uma_grande_vantagem.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_061",
+    "word": "Evite riscos desnecessários.",
+    "translation": "Avoid unnecessary risks.",
+    "len": 26,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_evite_riscos_desnecessários.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_062",
+    "word": "A visão é de futuro.",
+    "translation": "The vision is for the future.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_visão_é_de_futuro.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_063",
+    "word": "Vamos trabalhar com entusiasmo.",
+    "translation": "Let's work with enthusiasm.",
+    "len": 29,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_trabalhar_com_entusiasmo.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_064",
+    "word": "A ordem é vital.",
+    "translation": "Order is vital.",
+    "len": 16,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_ordem_é_vital.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_065",
+    "word": "Não desista.",
+    "translation": "Do not give up.",
+    "len": 12,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_não_desista.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_066",
+    "word": "A perseverança é boa.",
+    "translation": "Perseverance is good.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_perseverança_é_boa.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_067",
+    "word": "É um ambiente dinâmico.",
+    "translation": "It is a dynamic environment.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_ambiente_dinâmico.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_068",
+    "word": "O cliente vem primeiro.",
+    "translation": "The client comes first.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_cliente_vem_primeiro.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_069",
+    "word": "Devemos nos adaptar.",
+    "translation": "We must adapt.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_devemos_nos_adaptar.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_070",
+    "word": "O feedback é útil.",
+    "translation": "Feedback is useful.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_feedback_é_útil.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_071",
+    "word": "Tome as rédeas.",
+    "translation": "Take the reins.",
+    "len": 16,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tome_as_rédeas.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_072",
+    "word": "É um projeto ambicioso.",
+    "translation": "It is an ambitious project.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_projeto_ambicioso.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_073",
+    "word": "Fomente o aprendizado.",
+    "translation": "Encourage learning.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_fomente_o_aprendizado.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_074",
+    "word": "O planejamento é a chave.",
+    "translation": "Planning is key.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_planejamento_é_a_chave.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_075",
+    "word": "Aja com profissionalismo.",
+    "translation": "Act with professionalism.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_aja_com_profissionalismo.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_076",
+    "word": "O trabalho em equipe soma.",
+    "translation": "Teamwork adds up.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_trabalho_em_equipe_soma.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_077",
+    "word": "Temos metas altas.",
+    "translation": "We have high goals.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_temos_metas_altas.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_078",
+    "word": "Busque a excelência.",
+    "translation": "Seek excellence.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_busque_a_excelência.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_079",
+    "word": "A disciplina é necessária.",
+    "translation": "Discipline is necessary.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_disciplina_é_necessária.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_080",
+    "word": "Valorize o seu tempo.",
+    "translation": "Value your time.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_valorize_o_seu_tempo.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_081",
+    "word": "É um passo à frente.",
+    "translation": "It is a step forward.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_passo_à_frente.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_082",
+    "word": "A solução é esta.",
+    "translation": "The solution is this.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_solução_é_esta.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_083",
+    "word": "Fale de forma clara e direta.",
+    "translation": "Speak clearly and directly.",
+    "len": 29,
+    "tags": [
+      "professional",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_fale_de_forma_clara_e_direta.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_084",
+    "word": "A ética é importante.",
+    "translation": "Ethics is important.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_ética_é_importante.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_085",
+    "word": "Estamos crescendo muito.",
+    "translation": "We are growing a lot.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_estamos_crescendo_muito.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_086",
+    "word": "É um ambiente seguro.",
+    "translation": "It is a safe environment.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_ambiente_seguro.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_087",
+    "word": "A motivação é essencial.",
+    "translation": "Motivation is essential.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_motivação_é_essencial.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_088",
+    "word": "Proponha novas ideias.",
+    "translation": "Propose new ideas.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_proponha_novas_ideias.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_089",
+    "word": "Mantenha o foco.",
+    "translation": "Keep the focus.",
+    "len": 16,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_mantenha_o_foco.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_090",
+    "word": "O detalhe faz a diferença.",
+    "translation": "Detail makes a difference.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_detalhe_faz_a_diferença.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_091",
+    "word": "É um grande compromisso.",
+    "translation": "It is a great commitment.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_grande_compromisso.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_092",
+    "word": "A cultura é inclusiva.",
+    "translation": "The culture is inclusive.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_cultura_é_inclusiva.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_093",
+    "word": "Queremos um impacto positivo.",
+    "translation": "We want positive impact.",
+    "len": 27,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_queremos_um_impacto_positivo.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_094",
+    "word": "Seja proativo sempre.",
+    "translation": "Always be proactive.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_seja_proativo_sempre.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_095",
+    "word": "Cumpra suas promessas.",
+    "translation": "Keep your promises.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_cumpra_suas_promessas.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_096",
+    "word": "A confiança se conquista.",
+    "translation": "Trust is earned.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_confiança_se_conquista.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_097",
+    "word": "É hora de se destacar.",
+    "translation": "It is time to stand out.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_hora_de_se_destacar.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_098",
+    "word": "Tenha uma mente aberta.",
+    "translation": "Have an open mind.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenha_uma_mente_aberta.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_099",
+    "word": "O sucesso é compartilhado.",
+    "translation": "Success is shared.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_sucesso_é_compartilhado.mp3"
+    }
+  },
+  {
+    "id": "pt_prof_100",
+    "word": "Vamos continuar avançando.",
+    "translation": "Let's keep moving forward.",
+    "len": 26,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_continuar_avançando.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_001",
+    "word": "Nunca deixo de aprender.",
+    "translation": "I never stop learning.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_nunca_deixo_de_aprender.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_002",
+    "word": "O conhecimento é poder.",
+    "translation": "Knowledge is power.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_conhecimento_é_poder.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_003",
+    "word": "Todo dia aprendo algo novo.",
+    "translation": "I learn something new every day.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_todo_dia_aprendo_algo_novo.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_004",
+    "word": "A curiosidade é fundamental.",
+    "translation": "Curiosity is fundamental.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_curiosidade_é_fundamental.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_005",
+    "word": "Gosto de superar desafios.",
+    "translation": "I like to overcome challenges.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_gosto_de_superar_desafios.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_006",
+    "word": "Tenho uma mente aberta.",
+    "translation": "I have an open mind.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_uma_mente_aberta.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_007",
+    "word": "A prática leva à perfeição.",
+    "translation": "Practice makes perfect.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_prática_leva_à_perfeição.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_008",
+    "word": "Penso antes de agir.",
+    "translation": "I think before I act.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_penso_antes_de_agir.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_009",
+    "word": "Quero melhorar minhas habilidades.",
+    "translation": "I want to improve my skills.",
+    "len": 31,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_quero_melhorar_minhas_habilidades.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_010",
+    "word": "A leitura expande a mente.",
+    "translation": "Reading expands the mind.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_leitura_expande_a_mente.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_011",
+    "word": "Analiso meus erros.",
+    "translation": "I analyze my mistakes.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_analiso_meus_erros.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_012",
+    "word": "O fracasso é aprendizado.",
+    "translation": "Failure is learning.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_fracasso_é_aprendizado.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_013",
+    "word": "Busco novas perspectivas.",
+    "translation": "I look for new perspectives.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_busco_novas_perspectivas.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_014",
+    "word": "A disciplina é a chave.",
+    "translation": "Discipline is key.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_disciplina_é_a_chave.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_015",
+    "word": "Tenho meus objetivos claros.",
+    "translation": "My goals are clear.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_meus_objetivos_claros.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_016",
+    "word": "A educação é um caminho.",
+    "translation": "Education is a path.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_educação_é_um_caminho.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_017",
+    "word": "Reflito sobre minhas ações.",
+    "translation": "I reflect on my actions.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_reflito_sobre_minhas_ações.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_018",
+    "word": "A mudança é inevitável.",
+    "translation": "Change is inevitable.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_mudança_é_inevitável.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_019",
+    "word": "Valorizo a opinião alheia.",
+    "translation": "I value others' opinions.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_valorizo_a_opinião_alheia.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_020",
+    "word": "Sempre sigo em frente.",
+    "translation": "I always keep moving forward.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sempre_sigo_em_frente.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_021",
+    "word": "Foco no presente.",
+    "translation": "I focus on the present.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_foco_no_presente.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_022",
+    "word": "Sou constante nos estudos.",
+    "translation": "I am consistent in my studies.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_constante_nos_estudos.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_023",
+    "word": "O aprendizado é contínuo.",
+    "translation": "Learning is continuous.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_aprendizado_é_contínuo.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_024",
+    "word": "Tenho grande determinação.",
+    "translation": "I have great determination.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_grande_determinação.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_025",
+    "word": "A criatividade não tem limites.",
+    "translation": "Creativity has no limits.",
+    "len": 29,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_criatividade_não_tem_limites.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_026",
+    "word": "Observo e compreendo.",
+    "translation": "I observe and understand.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_observo_e_compreendo.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_027",
+    "word": "Supero meus limites.",
+    "translation": "I overcome my limits.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_supero_meus_limites.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_028",
+    "word": "O sucesso me motiva.",
+    "translation": "Success motivates me.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_sucesso_me_motiva.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_029",
+    "word": "Ouço para aprender.",
+    "translation": "I listen to learn.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_ouço_para_aprender.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_030",
+    "word": "A paciência é uma virtude.",
+    "translation": "Patience is a virtue.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_paciência_é_uma_virtude.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_031",
+    "word": "Busco a verdade.",
+    "translation": "I search for the truth.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_busco_a_verdade.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_032",
+    "word": "O esforço traz resultados.",
+    "translation": "Effort brings results.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_esforço_traz_resultados.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_033",
+    "word": "Sou uma pessoa proativa.",
+    "translation": "I am a proactive person.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_uma_pessoa_proativa.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_034",
+    "word": "Analiso antes de decidir.",
+    "translation": "I analyze before deciding.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_analiso_antes_de_decidir.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_035",
+    "word": "Me adapto facilmente.",
+    "translation": "I adapt easily.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_me_adapto_facilmente.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_036",
+    "word": "O conhecimento é infinito.",
+    "translation": "Knowledge is infinite.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_conhecimento_é_infinito.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_037",
+    "word": "Desenvolvo meu potencial.",
+    "translation": "I develop my potential.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_desenvolvo_meu_potencial.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_038",
+    "word": "Tenho grande visão.",
+    "translation": "I have great vision.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_grande_visão.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_039",
+    "word": "Aceito críticas.",
+    "translation": "I accept criticism.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_aceito_críticas.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_040",
+    "word": "Aprendo com todos.",
+    "translation": "I learn from everyone.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_aprendo_com_todos.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_041",
+    "word": "A verdade me guia.",
+    "translation": "Truth guides me.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_verdade_me_guia.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_042",
+    "word": "Sou muito otimista.",
+    "translation": "I am very optimistic.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_muito_otimista.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_043",
+    "word": "A vida é aprendizado.",
+    "translation": "Life is learning.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_vida_é_aprendizado.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_044",
+    "word": "Busco novas metas.",
+    "translation": "I look for new goals.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_busco_novas_metas.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_045",
+    "word": "Tenho mente lógica.",
+    "translation": "I have a logical mind.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_mente_lógica.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_046",
+    "word": "O tempo é valioso.",
+    "translation": "Time is valuable.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_tempo_é_valioso.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_047",
+    "word": "Fomento meu crescimento.",
+    "translation": "I encourage my growth.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_fomento_meu_crescimento.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_048",
+    "word": "Tudo é possível.",
+    "translation": "Everything is possible.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tudo_é_possível.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_049",
+    "word": "Sou autocrítico.",
+    "translation": "I am self-critical.",
+    "len": 15,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_autocrítico.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_050",
+    "word": "Avanço dia a dia.",
+    "translation": "I progress day by day.",
+    "len": 17,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_avanço_dia_a_dia.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_051",
+    "word": "O sucesso requer tempo.",
+    "translation": "Success requires time.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_sucesso_requer_tempo.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_052",
+    "word": "Tenho grande clareza.",
+    "translation": "I have great clarity.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_grande_clareza.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_053",
+    "word": "Gosto de pesquisar.",
+    "translation": "I like to research.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_gosto_de_pesquisar.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_054",
+    "word": "A confiança aumenta.",
+    "translation": "Confidence increases.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_confiança_aumenta.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_055",
+    "word": "Tomo minhas decisões.",
+    "translation": "I make my own decisions.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tomo_minhas_decisões.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_056",
+    "word": "Sou responsável.",
+    "translation": "I am responsible.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_responsável.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_057",
+    "word": "A sabedoria se adquire.",
+    "translation": "Wisdom is acquired.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_sabedoria_se_adquire.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_058",
+    "word": "Busco a excelência.",
+    "translation": "I seek excellence.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_busco_a_excelência.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_059",
+    "word": "Meu potencial é enorme.",
+    "translation": "My potential is enormous.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_meu_potencial_é_enorme.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_060",
+    "word": "Sempre há melhoria.",
+    "translation": "There is always improvement.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sempre_há_melhoria.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_061",
+    "word": "Sou uma pessoa reflexiva.",
+    "translation": "I am a reflective person.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_uma_pessoa_reflexiva.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_062",
+    "word": "A meta está próxima.",
+    "translation": "The goal is near.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_meta_está_próxima.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_063",
+    "word": "Tenho disciplina própria.",
+    "translation": "I have self-discipline.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_disciplina_própria.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_064",
+    "word": "A honestidade é vital.",
+    "translation": "Honesty is vital.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_honestidade_é_vital.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_065",
+    "word": "Cada passo conta.",
+    "translation": "Every step counts.",
+    "len": 17,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_cada_passo_conta.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_066",
+    "word": "Aprendo com experiências.",
+    "translation": "I learn from experiences.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_aprendo_com_experiências.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_067",
+    "word": "Tenho ideias inovadoras.",
+    "translation": "I have innovative ideas.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_ideias_inovadoras.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_068",
+    "word": "A mudança me ensina.",
+    "translation": "Change teaches me.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_mudança_me_ensina.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_069",
+    "word": "Busco sempre a qualidade.",
+    "translation": "I always look for quality.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_busco_sempre_a_qualidade.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_070",
+    "word": "Sou muito apaixonado.",
+    "translation": "I am very passionate.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_muito_apaixonado.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_071",
+    "word": "A lógica é fundamental.",
+    "translation": "Logic is fundamental.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_lógica_é_fundamental.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_072",
+    "word": "Tenho grande tenacidade.",
+    "translation": "I have great tenacity.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_grande_tenacidade.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_073",
+    "word": "Cada dia é diferente.",
+    "translation": "Every day is different.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_cada_dia_é_diferente.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_074",
+    "word": "Ouço minha voz interior.",
+    "translation": "I listen to my inner voice.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_ouço_minha_voz_interior.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_075",
+    "word": "O superação é minha meta.",
+    "translation": "Self-improvement is my goal.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_superação_é_minha_meta.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_076",
+    "word": "Tenho uma mente brilhante.",
+    "translation": "I have a brilliant mind.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_uma_mente_brilhante.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_077",
+    "word": "Analiso os resultados.",
+    "translation": "I analyze the results.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_analiso_os_resultados.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_078",
+    "word": "A prática é necessária.",
+    "translation": "Practice is necessary.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_prática_é_necessária.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_079",
+    "word": "Sou muito persistente.",
+    "translation": "I am very persistent.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_muito_persistente.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_080",
+    "word": "Valorizo o aprendizado.",
+    "translation": "I value learning.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_valorizo_o_aprendizado.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_081",
+    "word": "A visão é clara.",
+    "translation": "The vision is clear.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_visão_é_clara.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_082",
+    "word": "Tenho uma ideia fixa.",
+    "translation": "I have a fixed idea.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_uma_ideia_fixa.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_083",
+    "word": "O trabalho dá frutos.",
+    "translation": "Work bears fruit.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_trabalho_dá_frutos.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_084",
+    "word": "Sou muito observador.",
+    "translation": "I am very observant.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_muito_observador.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_085",
+    "word": "A mente se treina.",
+    "translation": "The mind is trained.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_mente_se_treina.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_086",
+    "word": "Tenho grande esperança.",
+    "translation": "I have great hope.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_grande_esperança.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_087",
+    "word": "Busco o lado positivo.",
+    "translation": "I look for the positive side.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_busco_o_lado_positivo.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_088",
+    "word": "A inteligência cresce.",
+    "translation": "Intelligence grows.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_inteligência_cresce.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_089",
+    "word": "Sou muito detalhista.",
+    "translation": "I am very detail-oriented.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_muito_detalhista.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_090",
+    "word": "O caminho é gratificante.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_caminho_é_gratificante.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_091",
+    "word": "Tenho novas metas.",
+    "translation": "I have new goals.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_novas_metas.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_092",
+    "word": "A calma é necessária.",
+    "translation": "Calmness is necessary.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_calma_é_necessária.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_093",
+    "word": "O esforço vale a pena.",
+    "translation": "The effort is worth it.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_esforço_vale_a_pena.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_094",
+    "word": "Sou fiel às minhas ideias.",
+    "translation": "I am faithful to my ideas.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_fiel_às_minhas_ideias.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_095",
+    "word": "A meta é alta.",
+    "translation": "The goal is high.",
+    "len": 14,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_meta_é_alta.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_096",
+    "word": "Aprendo com alegria.",
+    "translation": "I learn with joy.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_aprendo_com_alegria.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_097",
+    "word": "Tenho uma fé cega.",
+    "translation": "I have blind faith.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_uma_fé_cega.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_098",
+    "word": "O mundo é uma escola.",
+    "translation": "The world is a school.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_mundo_é_uma_escola.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_099",
+    "word": "Sou muito criativo.",
+    "translation": "I am very creative.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sou_muito_criativo.mp3"
+    }
+  },
+  {
+    "id": "pt_learn_100",
+    "word": "Sigo aprendendo sempre.",
+    "translation": "I keep learning always.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sigo_aprendendo_sempre.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_001",
+    "word": "Estou procurando o hotel.",
+    "translation": "I am looking for the hotel.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_estou_procurando_o_hotel.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_002",
+    "word": "Quero comprar uma passagem.",
+    "translation": "I want to buy a ticket.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_quero_comprar_uma_passagem.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_003",
+    "word": "A que horas sai o trem?",
+    "translation": "What time does the train leave?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_004",
+    "word": "Preciso de um táxi, por favor.",
+    "translation": "I need a taxi, please.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_005",
+    "word": "Onde fica a estação?",
+    "translation": "Where is the station?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_006",
+    "word": "Tenho uma reserva.",
+    "translation": "I have a reservation.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_uma_reserva.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_007",
+    "word": "O voo está atrasado.",
+    "translation": "The flight is delayed.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_voo_está_atrasado.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_008",
+    "word": "Procuro um restaurante típico.",
+    "translation": "I am looking for a typical restaurant.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_procuro_um_restaurante_típico.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_009",
+    "word": "Quanto custa a passagem?",
+    "translation": "How much does the ticket cost?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_010",
+    "word": "Gosto de caminhar pela cidade.",
+    "translation": "I like walking around the city.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_gosto_de_caminhar_pela_cidade.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_011",
+    "word": "Vou visitar o museu.",
+    "translation": "I am going to visit the museum.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vou_visitar_o_museu.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_012",
+    "word": "Tem mapas da região?",
+    "translation": "Are there maps of the area?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_013",
+    "word": "Desculpe, estou perdido?",
+    "translation": "Excuse me, am I lost?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_014",
+    "word": "Este lugar é lindo.",
+    "translation": "This place is beautiful.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_este_lugar_é_lindo.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_015",
+    "word": "Quero ver o nascer do sol.",
+    "translation": "I want to see the sunrise.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_quero_ver_o_nascer_do_sol.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_016",
+    "word": "A vista é espetacular.",
+    "translation": "The view is spectacular.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_vista_é_espetacular.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_017",
+    "word": "Procuro o ponto de ônibus.",
+    "translation": "I am looking for the bus stop.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_procuro_o_ponto_de_ônibus.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_018",
+    "word": "Fica longe daqui?",
+    "translation": "Is it far from here?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_019",
+    "word": "O quarto é confortável.",
+    "translation": "The room is comfortable.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_quarto_é_confortável.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_020",
+    "word": "Prefiro viajar leve.",
+    "translation": "I prefer to travel light.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_prefiro_viajar_leve.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_021",
+    "word": "Amanhã pego o avião.",
+    "translation": "I am taking the plane tomorrow.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_amanhã_pego_o_avião.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_022",
+    "word": "Quero provar comida local.",
+    "translation": "I want to try local food.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_quero_provar_comida_local.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_023",
+    "word": "A aventura começa hoje.",
+    "translation": "The adventure begins today.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_aventura_começa_hoje.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_024",
+    "word": "Qual é a melhor rota?",
+    "translation": "Which is the best route?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_025",
+    "word": "Estou com meu passaporte.",
+    "translation": "I have my passport here.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_estou_com_meu_passaporte.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_026",
+    "word": "Procuro um guia turístico.",
+    "translation": "I am looking for a tour guide.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_procuro_um_guia_turístico.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_027",
+    "word": "É um destino incrível.",
+    "translation": "It is an incredible destination.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_destino_incrível.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_028",
+    "word": "O trem vai muito rápido.",
+    "translation": "The train goes very fast.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_trem_vai_muito_rápido.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_029",
+    "word": "Adoro explorar caminhos.",
+    "translation": "I love exploring paths.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_adoro_explorar_caminhos.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_030",
+    "word": "Onde tem um banco?",
+    "translation": "Where is there a bank?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_031",
+    "word": "Preciso trocar dinheiro.",
+    "translation": "I need to exchange money.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_preciso_trocar_dinheiro.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_032",
+    "word": "O centro está perto.",
+    "translation": "The center is near.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_centro_está_perto.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_033",
+    "word": "Quero alugar um carro.",
+    "translation": "I want to rent a car.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_quero_alugar_um_carro.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_034",
+    "word": "Procuro hospedagem barata.",
+    "translation": "I am looking for cheap accommodation.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_procuro_hospedagem_barata.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_035",
+    "word": "A cidade é histórica.",
+    "translation": "The city is historic.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_cidade_é_histórica.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_036",
+    "word": "É minha primeira vez aqui.",
+    "translation": "It is my first time here.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_minha_primeira_vez_aqui.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_037",
+    "word": "Tudo está sinalizado.",
+    "translation": "Everything is signposted.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tudo_está_sinalizado.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_038",
+    "word": "As pessoas são gentis.",
+    "translation": "The people are kind.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_as_pessoas_são_gentis.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_039",
+    "word": "Quero ver a catedral.",
+    "translation": "I want to see the cathedral.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_quero_ver_a_catedral.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_040",
+    "word": "O tour dura duas horas.",
+    "translation": "The tour lasts two hours.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_tour_dura_duas_horas.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_041",
+    "word": "Tem Wi-Fi aqui?",
+    "translation": "Is there Wi-Fi here?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_042",
+    "word": "Vou tirar fotos.",
+    "translation": "I am going to take photos.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vou_tirar_fotos.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_043",
+    "word": "É uma viagem de negócios.",
+    "translation": "It is a business trip.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_uma_viagem_de_negócios.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_044",
+    "word": "Prefiro trem a ônibus.",
+    "translation": "I prefer the train to the bus.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_prefiro_trem_a_ônibus.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_045",
+    "word": "A bagagem é pesada.",
+    "translation": "The luggage is heavy.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_bagagem_é_pesada.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_046",
+    "word": "Procuro o portão de embarque.",
+    "translation": "I am looking for the boarding gate.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_procuro_o_portão_de_embarque.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_047",
+    "word": "O tempo está limpo.",
+    "translation": "The weather is clear.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_tempo_está_limpo.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_048",
+    "word": "Gosto de turismo cultural.",
+    "translation": "I like cultural tourism.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_gosto_de_turismo_cultural.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_049",
+    "word": "A cultura é fascinante.",
+    "translation": "The culture is fascinating.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_cultura_é_fascinante.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_050",
+    "word": "Que horas fecham?",
+    "translation": "What time do they close?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_trav_051",
+    "word": "Preciso descansar um pouco.",
+    "translation": "I need to rest a little.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_preciso_descansar_um_pouco.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_052",
+    "word": "Tenho um bom roteiro.",
+    "translation": "I have a good itinerary.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_um_bom_roteiro.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_053",
+    "word": "A cidade nunca dorme.",
+    "translation": "The city never sleeps.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_cidade_nunca_dorme.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_054",
+    "word": "A paisagem é única.",
+    "translation": "The landscape is unique.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_paisagem_é_única.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_055",
+    "word": "Estou curtindo a viagem.",
+    "translation": "I am enjoying the trip.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_estou_curtindo_a_viagem.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_056",
+    "word": "Procuro um lugar tranquilo.",
+    "translation": "I am looking for a quiet place.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_procuro_um_lugar_tranquilo.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_057",
+    "word": "A gastronomia é ótima.",
+    "translation": "The gastronomy is great.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_gastronomia_é_ótima.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_058",
+    "word": "Tem muito o que ver hoje.",
+    "translation": "There is a lot to see today.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tem_muito_o_que_ver_hoje.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_059",
+    "word": "O clima está perfeito.",
+    "translation": "The climate is perfect.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_clima_está_perfeito.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_060",
+    "word": "Vamos para outra cidade.",
+    "translation": "We are going to another city.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_para_outra_cidade.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_061",
+    "word": "O caminho é difícil.",
+    "translation": "The road is difficult.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_062",
+    "word": "Adoro a aventura.",
+    "translation": "I love adventure.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_adoro_a_aventura.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_063",
+    "word": "Procuro o mirante.",
+    "translation": "I am looking for the lookout.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_procuro_o_mirante.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_064",
+    "word": "É meu destino favorito.",
+    "translation": "It is my favorite destination.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_meu_destino_favorito.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_065",
+    "word": "A viagem é longa.",
+    "translation": "The trip is long.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_viagem_é_longa.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_066",
+    "word": "Preciso de um bom mapa.",
+    "translation": "I need a good map.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_preciso_de_um_bom_mapa.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_067",
+    "word": "A aventura me chama.",
+    "translation": "Adventure calls me.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_aventura_me_chama.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_068",
+    "word": "Espero ver muitas coisas.",
+    "translation": "I hope to see many things.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_espero_ver_muitas_coisas.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_069",
+    "word": "A cidade tem charme.",
+    "translation": "The city has charm.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_cidade_tem_charme.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_070",
+    "word": "O hotel é central.",
+    "translation": "The hotel is central.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_hotel_é_central.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_071",
+    "word": "Quero comprar lembranças.",
+    "translation": "I want to buy souvenirs.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_quero_comprar_lembranças.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_072",
+    "word": "O artesanato é bonito.",
+    "translation": "The craftsmanship is pretty.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_artesanato_é_bonito.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_073",
+    "word": "O tour é guiado.",
+    "translation": "The tour is guided.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_tour_é_guiado.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_074",
+    "word": "Aproveito cada momento.",
+    "translation": "I enjoy every moment.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_aproveito_cada_momento.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_075",
+    "word": "É um lugar com história.",
+    "translation": "It is a place with history.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_lugar_com_história.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_076",
+    "word": "Procuro uma experiência única.",
+    "translation": "I am looking for a unique experience.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_procuro_uma_experiência_única.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_077",
+    "word": "O barco sai logo.",
+    "translation": "The ship leaves soon.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_barco_sai_logo.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_078",
+    "word": "Gosto da arquitetura.",
+    "translation": "I like the architecture.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_gosto_da_arquitetura.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_079",
+    "word": "A igreja é antiga.",
+    "translation": "The church is ancient.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_igreja_é_antiga.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_080",
+    "word": "Sigo meus instintos.",
+    "translation": "I follow my instincts.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_sigo_meus_instintos.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_081",
+    "word": "A viagem nos une.",
+    "translation": "The trip unites us.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_viagem_nos_une.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_082",
+    "word": "É muito emocionante.",
+    "translation": "It is very exciting.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_muito_emocionante.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_083",
+    "word": "Chegamos na hora.",
+    "translation": "We arrive on time.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_chegamos_na_hora.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_084",
+    "word": "A cultura abre mentes.",
+    "translation": "Culture opens minds.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_cultura_abre_mentes.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_085",
+    "word": "Procuro a paz interior.",
+    "translation": "I am looking for inner peace.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_procuro_a_paz_interior.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_086",
+    "word": "O povo é acolhedor.",
+    "translation": "The town is welcoming.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_povo_é_acolhedor.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_087",
+    "word": "É hora de explorar.",
+    "translation": "It is time to explore.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_hora_de_explorar.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_088",
+    "word": "A aventura me espera.",
+    "translation": "Adventure awaits me.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_aventura_me_espera.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_089",
+    "word": "O guia é muito bom.",
+    "translation": "The guide is very good.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_guia_é_muito_bom.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_090",
+    "word": "Tenho grandes planos.",
+    "translation": "I have big plans.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_grandes_planos.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_091",
+    "word": "A cidade está acordada.",
+    "translation": "The city is awake.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_cidade_está_acordada.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_092",
+    "word": "Amo as viagens longas.",
+    "translation": "I love long trips.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_amo_as_viagens_longas.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_093",
+    "word": "É um lugar fascinante.",
+    "translation": "It is a fascinating place.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_lugar_fascinante.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_094",
+    "word": "O mapa me ajuda muito.",
+    "translation": "The map helps me a lot.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_mapa_me_ajuda_muito.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_095",
+    "word": "Caminhamos pela praia.",
+    "translation": "We walk on the beach.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_caminhamos_pela_praia.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_096",
+    "word": "O pôr do sol é lindo.",
+    "translation": "The sunset is beautiful.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_o_pôr_do_sol_é_lindo.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_097",
+    "word": "Estou muito animado.",
+    "translation": "I am very excited.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_estou_muito_animado.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_098",
+    "word": "A viagem ensina muito.",
+    "translation": "Traveling teaches a lot.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_a_viagem_ensina_muito.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_099",
+    "word": "É uma experiência inesquecível.",
+    "translation": "It is an unforgettable experience.",
+    "len": 30,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_uma_experiência_inesquecível.mp3"
+    }
+  },
+  {
+    "id": "pt_trav_100",
+    "word": "Continuamos descobrindo o mundo.",
+    "translation": "We continue discovering the world.",
+    "len": 32,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_continuamos_descobrindo_o_mundo.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_001",
+    "word": "Olá, tudo bem?",
+    "translation": "Hello, how are you?",
+    "len": 15,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_002",
+    "word": "Bom dia.",
+    "translation": "Good morning.",
+    "len": 9,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_bom_dia.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_003",
+    "word": "Prazer em conhecer.",
+    "translation": "Nice to meet you.",
+    "len": 19,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_prazer_em_conhecer.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_004",
+    "word": "Como você se chama?",
+    "translation": "What is your name?",
+    "len": 21,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_005",
+    "word": "Eu me chamo Adem.",
+    "translation": "My name is Adem.",
+    "len": 17,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_me_chamo_adem.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_006",
+    "word": "De onde você é?",
+    "translation": "Where are you from?",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_007",
+    "word": "Eu sou da Turquia.",
+    "translation": "I am from Turkey.",
+    "len": 18,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_sou_da_turquia.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_008",
+    "word": "O que você faz?",
+    "translation": "What do you do?",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_009",
+    "word": "Tudo bem, obrigado.",
+    "translation": "Everything is good, thanks.",
+    "len": 19,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_010",
+    "word": "Desculpe, pode repetir?",
+    "translation": "Excuse me, can you repeat?",
+    "len": 23,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_011",
+    "word": "Não entendo muito bem.",
+    "translation": "I don't understand very well.",
+    "len": 22,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_não_entendo_muito_bem.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_012",
+    "word": "Pode falar mais devagar?",
+    "translation": "Can you speak more slowly?",
+    "len": 25,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_013",
+    "word": "Eu falo um pouco de português.",
+    "translation": "I speak a little Portuguese.",
+    "len": 29,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_falo_um_pouco_de_português.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_014",
+    "word": "Prazer em te conhecer.",
+    "translation": "Nice to meet you.",
+    "len": 23,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_prazer_em_te_conhecer.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_015",
+    "word": "Como vai o seu dia?",
+    "translation": "How is your day?",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_016",
+    "word": "Tem sido um bom dia.",
+    "translation": "It has been a good day.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tem_sido_um_bom_dia.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_017",
+    "word": "Me conte mais.",
+    "translation": "Tell me more.",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_me_conte_mais.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_018",
+    "word": "É um prazer falar com você.",
+    "translation": "It is a pleasure to speak with you.",
+    "len": 27,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_prazer_falar_com_você.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_019",
+    "word": "Obrigado por tudo.",
+    "translation": "Thanks for everything.",
+    "len": 18,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_obrigado_por_tudo.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_020",
+    "word": "De nada.",
+    "translation": "You're welcome.",
+    "len": 10,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_de_nada.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_021",
+    "word": "Por favor, sente-se.",
+    "translation": "Please, sit down.",
+    "len": 19,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_022",
+    "word": "Quer beber algo?",
+    "translation": "Do you want to drink something?",
+    "len": 17,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_023",
+    "word": "Eu gostaria de um café.",
+    "translation": "I would like a coffee.",
+    "len": 23,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_gostaria_de_um_café.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_024",
+    "word": "Desta vez é por minha conta.",
+    "translation": "I'll pay this time.",
+    "len": 28,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_desta_vez_é_por_minha_conta.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_025",
+    "word": "Até logo.",
+    "translation": "See you later.",
+    "len": 11,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_até_logo.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_026",
+    "word": "Nos vemos em breve.",
+    "translation": "See you soon.",
+    "len": 19,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_nos_vemos_em_breve.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_027",
+    "word": "Tenha um bom dia!",
+    "translation": "Have a nice day!",
+    "len": 18,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_028",
+    "word": "Você vem com a gente?",
+    "translation": "Are you coming with us?",
+    "len": 24,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_029",
+    "word": "Eu adoraria.",
+    "translation": "I would love to.",
+    "len": 15,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_adoraria.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_030",
+    "word": "Talvez em outro momento.",
+    "translation": "Maybe another time.",
+    "len": 24,
+    "tags": [
+      "social",
+      "refusal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_talvez_em_outro_momento.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_031",
+    "word": "Estou ocupado hoje.",
+    "translation": "I am busy today.",
+    "len": 19,
+    "tags": [
+      "social",
+      "refusal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_estou_ocupado_hoje.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_032",
+    "word": "Que boa ideia!",
+    "translation": "What a good idea!",
+    "len": 15,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_033",
+    "word": "Não tenho certeza.",
+    "translation": "I am not sure.",
+    "len": 18,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_não_tenho_certeza.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_034",
+    "word": "Eu concordo.",
+    "translation": "I agree.",
+    "len": 13,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_concordo.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_035",
+    "word": "Isso é verdade.",
+    "translation": "That is true.",
+    "len": 15,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_isso_é_verdade.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_036",
+    "word": "Eu não acho.",
+    "translation": "I don't think so.",
+    "len": 12,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_não_acho.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_037",
+    "word": "Você tem razão.",
+    "translation": "You are right.",
+    "len": 16,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_você_tem_razão.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_038",
+    "word": "O que você pensa disso?",
+    "translation": "What do you think about this?",
+    "len": 24,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_039",
+    "word": "Me parece ótimo.",
+    "translation": "It seems great to me.",
+    "len": 17,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_me_parece_ótimo.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_040",
+    "word": "Desculpe pelo atraso.",
+    "translation": "Excuse the delay.",
+    "len": 20,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_desculpe_pelo_atraso.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_041",
+    "word": "Não tem problema.",
+    "translation": "It's nothing.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_não_tem_problema.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_042",
+    "word": "Foi minha culpa.",
+    "translation": "It was my fault.",
+    "len": 16,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_foi_minha_culpa.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_043",
+    "word": "Perdão pelo incômodo.",
+    "translation": "Sorry for the trouble.",
+    "len": 20,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_perdão_pelo_incômodo.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_044",
+    "word": "Não se preocupe.",
+    "translation": "Don't worry.",
+    "len": 16,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_não_se_preocupe.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_045",
+    "word": "Poderia me ajudar?",
+    "translation": "Could you help me?",
+    "len": 19,
+    "tags": [
+      "social",
+      "request"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_046",
+    "word": "Claro que sim!",
+    "translation": "Of course!",
+    "len": 14,
+    "tags": [
+      "social",
+      "request"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_047",
+    "word": "Obrigado pela sua ajuda.",
+    "translation": "Thanks for your help.",
+    "len": 25,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_obrigado_pela_sua_ajuda.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_048",
+    "word": "De nada, é um prazer.",
+    "translation": "You're welcome, it's a pleasure.",
+    "len": 23,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_049",
+    "word": "Como você tem passado?",
+    "translation": "How have you been?",
+    "len": 23,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_050",
+    "word": "Tudo bem, e você?",
+    "translation": "Everything good, you?",
+    "len": 18,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_051",
+    "word": "Tenho que ir agora.",
+    "translation": "I have to go now.",
+    "len": 18,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenho_que_ir_agora.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_052",
+    "word": "Foi um prazer.",
+    "translation": "It has been a pleasure.",
+    "len": 15,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_foi_um_prazer.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_053",
+    "word": "Vamos manter contato.",
+    "translation": "We'll keep in touch.",
+    "len": 21,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_manter_contato.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_054",
+    "word": "Tenha um bom dia!",
+    "translation": "Have a good one!",
+    "len": 18,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_055",
+    "word": "Me ligue quando puder.",
+    "translation": "Call me when you can.",
+    "len": 22,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_me_ligue_quando_puder.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_056",
+    "word": "Me mande uma mensagem.",
+    "translation": "Send me a message.",
+    "len": 23,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_me_mande_uma_mensagem.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_057",
+    "word": "Você tem e-mail?",
+    "translation": "Do you have email?",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_058",
+    "word": "Eu te escrevo em breve.",
+    "translation": "I'll write to you soon.",
+    "len": 23,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_te_escrevo_em_breve.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_059",
+    "word": "Cuide-se bem.",
+    "translation": "Take care.",
+    "len": 14,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_cuide-se_bem.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_060",
+    "word": "Um abraço.",
+    "translation": "A hug.",
+    "len": 11,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_um_abraço.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_061",
+    "word": "Saudações à sua família.",
+    "translation": "Greetings to your family.",
+    "len": 24,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_saudações_à_sua_família.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_062",
+    "word": "Parabéns.",
+    "translation": "Congratulations.",
+    "len": 10,
+    "tags": [
+      "social",
+      "celebration"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_parabéns.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_063",
+    "word": "Feliz aniversário!",
+    "translation": "Happy birthday!",
+    "len": 18,
+    "tags": [
+      "social",
+      "celebration"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_064",
+    "word": "Tenha sorte.",
+    "translation": "Good luck.",
+    "len": 13,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenha_sorte.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_065",
+    "word": "Boa viagem!",
+    "translation": "Have a good trip!",
+    "len": 12,
+    "tags": [
+      "social",
+      "travel"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_066",
+    "word": "Bom apetite!",
+    "translation": "Enjoy your meal!",
+    "len": 14,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_067",
+    "word": "Saúde.",
+    "translation": "Cheers.",
+    "len": 7,
+    "tags": [
+      "social",
+      "celebration"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_saúde.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_068",
+    "word": "Desculpe, que horas são?",
+    "translation": "Excuse me, what time is it?",
+    "len": 24,
+    "tags": [
+      "social",
+      "request"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_069",
+    "word": "São três horas.",
+    "translation": "It is three o'clock.",
+    "len": 16,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_são_três_horas.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_070",
+    "word": "Obrigado por avisar.",
+    "translation": "Thanks for letting me know.",
+    "len": 21,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_obrigado_por_avisar.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_071",
+    "word": "De nada, estamos aqui para isso.",
+    "translation": "You're welcome, that's what we're here for.",
+    "len": 32,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_072",
+    "word": "Você mora aqui?",
+    "translation": "Do you live here?",
+    "len": 16,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_073",
+    "word": "Sim, há pouco tempo.",
+    "translation": "Yes, for a short while.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_074",
+    "word": "Você trabalha ou estuda?",
+    "translation": "Do you work or study?",
+    "len": 24,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_075",
+    "word": "Ambas as coisas.",
+    "translation": "Both.",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_ambas_as_coisas.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_076",
+    "word": "Que interessante!",
+    "translation": "How interesting!",
+    "len": 17,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_077",
+    "word": "Me conte mais sobre isso.",
+    "translation": "Tell me more about that.",
+    "len": 26,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_me_conte_mais_sobre_isso.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_078",
+    "word": "Não tenho muito tempo.",
+    "translation": "I don't have much time.",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_não_tenho_muito_tempo.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_079",
+    "word": "Eu te entendo.",
+    "translation": "I understand you.",
+    "len": 15,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_te_entendo.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_080",
+    "word": "Falamos depois.",
+    "translation": "We'll talk later.",
+    "len": 16,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_falamos_depois.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_081",
+    "word": "Você me entende?",
+    "translation": "Do you understand me?",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_082",
+    "word": "Sim, eu te entendo bem.",
+    "translation": "Yes, I understand you well.",
+    "len": 24,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_083",
+    "word": "É um pouco difícil.",
+    "translation": "It is a little difficult.",
+    "len": 19,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_um_pouco_difícil.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_084",
+    "word": "Ânimo!",
+    "translation": "Cheer up!",
+    "len": 8,
+    "tags": [
+      "social",
+      "encouragement"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "pt_soc_085",
+    "word": "Você está indo bem.",
+    "translation": "You are doing well.",
+    "len": 20,
+    "tags": [
+      "social",
+      "encouragement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_você_está_indo_bem.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_086",
+    "word": "Não desista.",
+    "translation": "Don't give up.",
+    "len": 13,
+    "tags": [
+      "social",
+      "encouragement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_não_desista.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_087",
+    "word": "Você é muito gentil.",
+    "translation": "You are very kind.",
+    "len": 19,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_você_é_muito_gentil.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_088",
+    "word": "Que atencioso você é.",
+    "translation": "How thoughtful you are.",
+    "len": 22,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_que_atencioso_você_é.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_089",
+    "word": "Você é muito generoso.",
+    "translation": "You are very generous.",
+    "len": 22,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_você_é_muito_generoso.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_090",
+    "word": "Valorizo sua opinião.",
+    "translation": "I value your opinion.",
+    "len": 21,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_valorizo_sua_opinião.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_091",
+    "word": "Fico feliz por você.",
+    "translation": "I am happy for you.",
+    "len": 21,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_fico_feliz_por_você.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_092",
+    "word": "Isso é genial.",
+    "translation": "That is great.",
+    "len": 15,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_isso_é_genial.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_093",
+    "word": "É importante conversar.",
+    "translation": "It is important to talk.",
+    "len": 23,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_é_importante_conversar.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_094",
+    "word": "Vamos comer juntos.",
+    "translation": "Let's eat together.",
+    "len": 19,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_vamos_comer_juntos.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_095",
+    "word": "Eu adoraria.",
+    "translation": "I really feel like it.",
+    "len": 14,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_eu_adoraria.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_096",
+    "word": "Te ligarei em breve.",
+    "translation": "I will call you soon.",
+    "len": 19,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_te_ligarei_em_breve.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_097",
+    "word": "Espero sua ligação.",
+    "translation": "I wait for your call.",
+    "len": 20,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_espero_sua_ligação.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_098",
+    "word": "Tenha uma boa tarde.",
+    "translation": "Have a good afternoon.",
+    "len": 20,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_tenha_uma_boa_tarde.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_099",
+    "word": "Até amanhã.",
+    "translation": "See you tomorrow.",
+    "len": 13,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_até_amanhã.mp3"
+    }
+  },
+  {
+    "id": "pt_soc_100",
+    "word": "Foi um prazer.",
+    "translation": "It was a pleasure.",
+    "len": 14,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_BrPt/brpt_foi_um_prazer.mp3"
+    }
+  }
+]

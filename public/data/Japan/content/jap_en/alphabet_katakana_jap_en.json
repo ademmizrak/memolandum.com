@@ -1,0 +1,692 @@
+[
+  {
+    "id": "jap_kata_001",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ア",
+    "romanized_script": "a",
+    "meaning": "Katakana 'a'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_001_a.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_002",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "イ",
+    "romanized_script": "i",
+    "meaning": "Katakana 'i'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_002_i.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_003",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ウ",
+    "romanized_script": "u",
+    "meaning": "Katakana 'u'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_003_u.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_004",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "エ",
+    "romanized_script": "e",
+    "meaning": "Katakana 'e'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_004_e.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_005",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "オ",
+    "romanized_script": "o",
+    "meaning": "Katakana 'o'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_005_o.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_006",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "カ",
+    "romanized_script": "ka",
+    "meaning": "Katakana 'ka'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_006_ka.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_007",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "キ",
+    "romanized_script": "ki",
+    "meaning": "Katakana 'ki'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_007_ki.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_008",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ク",
+    "romanized_script": "ku",
+    "meaning": "Katakana 'ku'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_008_ku.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_009",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ケ",
+    "romanized_script": "ke",
+    "meaning": "Katakana 'ke'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_009_ke.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_010",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "コ",
+    "romanized_script": "ko",
+    "meaning": "Katakana 'ko'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_010_ko.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_011",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "サ",
+    "romanized_script": "sa",
+    "meaning": "Katakana 'sa'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_011_sa.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_012",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "シ",
+    "romanized_script": "shi",
+    "meaning": "Katakana 'shi'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_012_shi.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_013",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ス",
+    "romanized_script": "su",
+    "meaning": "Katakana 'su'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_013_su.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_014",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "セ",
+    "romanized_script": "se",
+    "meaning": "Katakana 'se'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_014_se.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_015",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ソ",
+    "romanized_script": "so",
+    "meaning": "Katakana 'so'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_015_so.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_016",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "タ",
+    "romanized_script": "ta",
+    "meaning": "Katakana 'ta'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_016_ta.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_017",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "チ",
+    "romanized_script": "chi",
+    "meaning": "Katakana 'chi'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_017_chi.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_018",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ツ",
+    "romanized_script": "tsu",
+    "meaning": "Katakana 'tsu'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_018_tsu.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_019",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "テ",
+    "romanized_script": "te",
+    "meaning": "Katakana 'te'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_019_te.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_020",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ト",
+    "romanized_script": "to",
+    "meaning": "Katakana 'to'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_020_to.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_021",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ナ",
+    "romanized_script": "na",
+    "meaning": "Katakana 'na'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_021_na.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_022",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ニ",
+    "romanized_script": "ni",
+    "meaning": "Katakana 'ni'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_022_ni.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_023",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ヌ",
+    "romanized_script": "nu",
+    "meaning": "Katakana 'nu'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_023_nu.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_024",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ネ",
+    "romanized_script": "ne",
+    "meaning": "Katakana 'ne'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_024_ne.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_025",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ノ",
+    "romanized_script": "no",
+    "meaning": "Katakana 'no'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_025_no.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_026",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ハ",
+    "romanized_script": "ha",
+    "meaning": "Katakana 'ha'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_026_ha.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_027",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ヒ",
+    "romanized_script": "hi",
+    "meaning": "Katakana 'hi'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_027_hi.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_028",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "フ",
+    "romanized_script": "fu",
+    "meaning": "Katakana 'fu'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_028_fu.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_029",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ヘ",
+    "romanized_script": "he",
+    "meaning": "Katakana 'he'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_029_he.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_030",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ホ",
+    "romanized_script": "ho",
+    "meaning": "Katakana 'ho'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_030_ho.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_031",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "マ",
+    "romanized_script": "ma",
+    "meaning": "Katakana 'ma'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_031_ma.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_032",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ミ",
+    "romanized_script": "mi",
+    "meaning": "Katakana 'mi'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_032_mi.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_033",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ム",
+    "romanized_script": "mu",
+    "meaning": "Katakana 'mu'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_033_mu.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_034",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "メ",
+    "romanized_script": "me",
+    "meaning": "Katakana 'me'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_034_me.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_035",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "モ",
+    "romanized_script": "mo",
+    "meaning": "Katakana 'mo'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_035_mo.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_036",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ヤ",
+    "romanized_script": "ya",
+    "meaning": "Katakana 'ya'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_036_ya.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_037",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ユ",
+    "romanized_script": "yu",
+    "meaning": "Katakana 'yu'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_037_yu.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_038",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ヨ",
+    "romanized_script": "yo",
+    "meaning": "Katakana 'yo'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_038_yo.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_039",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ラ",
+    "romanized_script": "ra",
+    "meaning": "Katakana 'ra'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_039_ra.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_040",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "リ",
+    "romanized_script": "ri",
+    "meaning": "Katakana 'ri'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_040_ri.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_041",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ル",
+    "romanized_script": "ru",
+    "meaning": "Katakana 'ru'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_041_ru.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_042",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "レ",
+    "romanized_script": "re",
+    "meaning": "Katakana 're'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_042_re.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_043",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ロ",
+    "romanized_script": "ro",
+    "meaning": "Katakana 'ro'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_043_ro.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_044",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ワ",
+    "romanized_script": "wa",
+    "meaning": "Katakana 'wa'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_044_wa.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_045",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ヲ",
+    "romanized_script": "wo",
+    "meaning": "Katakana 'wo'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_045_wo.mp3"
+    }
+  },
+  {
+    "id": "jap_kata_046",
+    "language_code": "ja",
+    "level_tag": "Alphabet",
+    "original_script": "ン",
+    "romanized_script": "n",
+    "meaning": "Katakana 'n'",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ja/jap_kata_046_n.mp3"
+    }
+  }
+]

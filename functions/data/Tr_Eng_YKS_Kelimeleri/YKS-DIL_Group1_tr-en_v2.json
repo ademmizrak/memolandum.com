@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "word": "terk etmek, bırakmak, vazgeçmek",
+    "translation": "abandon",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 2,
+    "word": "içine çekmek, emmek, kavramak",
+    "translation": "absorb",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 3,
+    "word": "soyut, özet",
+    "translation": "abstract",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 4,
+    "word": "bol, bereketli",
+    "translation": "abundant",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 5,
+    "word": "hızlandırmak, hızlanmak",
+    "translation": "accelerate",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 6,
+    "word": "ulaşılabilir, erişilebilir",
+    "translation": "accessible",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 7,
+    "word": "biriktirmek, toplanmak, yığılmak",
+    "translation": "accumulate",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 8,
+    "word": "doğru, kesin, hatasız",
+    "translation": "accurate",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 9,
+    "word": "kabul etmek, itiraf etmek, tanımak",
+    "translation": "acknowledge",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 10,
+    "word": "edinmek, kazanmak, ele geçirmek",
+    "translation": "acquire",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 11,
+    "word": "uyum sağlamak, adapte olmak/etmek",
+    "translation": "adapt",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 12,
+    "word": "bağımlılık, düşkünlük",
+    "translation": "addiction",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 13,
+    "word": "yeterli, kafi",
+    "translation": "adequate",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 14,
+    "word": "benimsemek, evlat edinmek",
+    "translation": "adopt",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 15,
+    "word": "olumsuz, kötü, ters",
+    "translation": "adverse",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 16,
+    "word": "savunmak, desteklemek",
+    "translation": "advocate",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 17,
+    "word": "etkilemek",
+    "translation": "affect",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 18,
+    "word": "saldırganlık, tecavüz",
+    "translation": "aggression",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 19,
+    "word": "değiştirmek, değişmek",
+    "translation": "alter",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 20,
+    "word": "belirsiz, muğlak, çift anlamlı",
+    "translation": "ambiguous",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 21,
+    "word": "değiştirmek (kanun vb.), düzeltmek",
+    "translation": "amend",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 22,
+    "word": "bol, geniş, fazlasıyla yeterli",
+    "translation": "ample",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 23,
+    "word": "yıllık, senede bir olan",
+    "translation": "annual",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 24,
+    "word": "ummak, beklemek, öngörmek",
+    "translation": "anticipate",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 25,
+    "word": "bariz, açık, aşikar",
+    "translation": "apparent",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 26,
+    "word": "takdir etmek, değerini anlamak/artmak",
+    "translation": "appreciate",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 27,
+    "word": "yaklaşım, yaklaşmak",
+    "translation": "approach",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 28,
+    "word": "uygun, yerinde",
+    "translation": "appropriate",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 29,
+    "word": "onaylamak, beğenmek",
+    "translation": "approve",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 30,
+    "word": "keyfi, rastgele",
+    "translation": "arbitrary",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 31,
+    "word": "kurak, çorak",
+    "translation": "arid",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 32,
+    "word": "yapay, suni",
+    "translation": "artificial",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 33,
+    "word": "açı, yön, özellik",
+    "translation": "aspect",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 34,
+    "word": "ileri sürmek, iddia etmek, savunmak",
+    "translation": "assert",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 35,
+    "word": "değerlendirmek, değer biçmek",
+    "translation": "assess",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 36,
+    "word": "mülk, varlık, artı değer/kazanç",
+    "translation": "asset",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 37,
+    "word": "varsaymak, üstlenmek (görev/sorumluluk)",
+    "translation": "assume",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 38,
+    "word": "güvence vermek, garanti etmek",
+    "translation": "assure",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 39,
+    "word": "ulaşmak, elde etmek, kazanmak",
+    "translation": "attain",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 40,
+    "word": "-e dayandırmak, -e yormak / özellik, nitelik",
+    "translation": "attribute",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 41,
+    "word": "artırmak, çoğaltmak, büyütmek",
+    "translation": "augment",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 42,
+    "word": "mevcut, hazır, el altında",
+    "translation": "available",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 43,
+    "word": "kaçınmak, sakınmak",
+    "translation": "avoid",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 44,
+    "word": "çorak, verimsiz, kısır",
+    "translation": "barren",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 45,
+    "word": "faydalı, yararlı",
+    "translation": "beneficial",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 46,
+    "word": "önyargı, taraflılık",
+    "translation": "bias",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 47,
+    "word": "karışmak, harmanlamak / karışım",
+    "translation": "blend",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 48,
+    "word": "artırmak, canlandırmak / artış, destek",
+    "translation": "boost",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 49,
+    "word": "ihlal, ihlal etmek, uymamak",
+    "translation": "breach",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 50,
+    "word": "kırılgan, hassas",
+    "translation": "brittle",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 51,
+    "word": "iptal etmek, geçersiz kılmak",
+    "translation": "cancel",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 52,
+    "word": "aday",
+    "translation": "candidate",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 53,
+    "word": "gündelik, sıradan, tesadüfi",
+    "translation": "casual",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 54,
+    "word": "felaket, yıkım",
+    "translation": "catastrophe",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 55,
+    "word": "tedbirli, dikkatli, sakıngan",
+    "translation": "cautious",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 56,
+    "word": "değer vermek, şefkatle bakmak",
+    "translation": "cherish",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 57,
+    "word": "kronik, müzmin, uzun süreli",
+    "translation": "chronic",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 58,
+    "word": "dolaşmak, devretmek, yayılmak",
+    "translation": "circulate",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 59,
+    "word": "açıklığa kavuşturmak, netleştirmek",
+    "translation": "clarify",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 60,
+    "word": "aynı zamana denk gelmek, uyuşmak",
+    "translation": "coindex",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 61,
+    "word": "iş birliği yapmak",
+    "translation": "collaborate",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 62,
+    "word": "çökmek, yıkılmak / çöküş",
+    "translation": "collapse",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 63,
+    "word": "savaşmak, mücadele etmek / dövüş, mücadele",
+    "translation": "combat",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 64,
+    "word": "başlamak, başlatmak",
+    "translation": "commence",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 65,
+    "word": "zorlamak, mecbur etmek",
+    "translation": "compel",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 66,
+    "word": "telafi etmek, tazminat ödemek",
+    "translation": "compensate",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 67,
+    "word": "yarışmak, rekabet etmek",
+    "translation": "compete",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 68,
+    "word": "yetkin, becerikli, ehil",
+    "translation": "competent",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 69,
+    "word": "derlemek, bir araya getirmek",
+    "translation": "compile",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 70,
+    "word": "uymak, itaat etmek (-with ile kullanılır)",
+    "translation": "comply",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 71,
+    "word": "bileşen, parça, unsur",
+    "translation": "component",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 72,
+    "word": "-den oluşmak, kapsamak, içermek",
+    "translation": "comprise",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 73,
+    "word": "zorunlu, mecburi",
+    "translation": "compulsory",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 74,
+    "word": "gizlemek, saklamak",
+    "translation": "conceal",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 75,
+    "word": "kabul etmek, itiraf etmek, ödün vermek",
+    "translation": "concede",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 76,
+    "word": "odaklanmak, yoğunlaşmak",
+    "translation": "concentrate",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 77,
+    "word": "sonuçlandırmak, karara varmak",
+    "translation": "conclude",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 78,
+    "word": "somut, net / beton",
+    "translation": "concrete",
+    "pos": "adjective/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 79,
+    "word": "kınamak, mahkum etmek",
+    "translation": "condemn",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 80,
+    "word": "yürütmek (deney/anket vb.), yönetmek / davranış",
+    "translation": "conduct",
+    "pos": "verb/noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 81,
+    "word": "itiraf etmek",
+    "translation": "confess",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 82,
+    "word": "emin, kendinden emin",
+    "translation": "confident",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 83,
+    "word": "sınırlandırmak, hapsetmek",
+    "translation": "confine",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 84,
+    "word": "onaylamak, doğrulamak",
+    "translation": "confirm",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 85,
+    "word": "çatışma, anlaşmazlık / çatışmak",
+    "translation": "conflict",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 86,
+    "word": "uymak, uyum sağlamak (-to ile kullanılır)",
+    "translation": "conform",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 87,
+    "word": "yüzleşmek, karşı karşıya kalmak",
+    "translation": "confront",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 88,
+    "word": "ardışık, birbirini izleyen",
+    "translation": "consecutive",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 89,
+    "word": "fikir birliği, uzlaşı",
+    "translation": "consensus",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 90,
+    "word": "razı olmak, izin vermek / rıza, onay",
+    "translation": "consent",
+    "pos": "noun/verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 91,
+    "word": "sonuç, netice",
+    "translation": "consequence",
+    "pos": "noun",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 92,
+    "word": "önemli, azımsanmayacak derecede çok",
+    "translation": "considerable",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 93,
+    "word": "tutarlı, istikrarlı, uyumlu",
+    "translation": "consistent",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 94,
+    "word": "göze çarpan, belirgin, dikkat çekici",
+    "translation": "conspicuous",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 95,
+    "word": "sabit, sürekli, değişmez",
+    "translation": "constant",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 96,
+    "word": "oluşturmak, teşkil etmek, kurmak",
+    "translation": "constitute",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 97,
+    "word": "kısıtlamak, zorlamak",
+    "translation": "constrain",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 98,
+    "word": "tüketmek, bitirmek",
+    "translation": "consume",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 99,
+    "word": "bulaşıcı",
+    "translation": "contagious",
+    "pos": "adjective",
+    "tags": [
+      "YKS-DIL"
+    ]
+  },
+  {
+    "id": 100,
+    "word": "kirletmek, mikrop bulaştırmak",
+    "translation": "contaminate",
+    "pos": "verb",
+    "tags": [
+      "YKS-DIL"
+    ]
+  }
+]

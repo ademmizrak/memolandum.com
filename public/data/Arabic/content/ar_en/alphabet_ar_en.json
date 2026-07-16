@@ -1,0 +1,714 @@
+[
+  {
+    "id": "ara_alf_001",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "أ",
+    "romanized_script": "Alif",
+    "meaning": "Alif (A sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "أ",
+        "initial": "أ",
+        "medial": "ـأ",
+        "final": "ـأ"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_001.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_001.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_002",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "بَ",
+    "romanized_script": "Ba",
+    "meaning": "Ba (B sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ب",
+        "initial": "بـ",
+        "medial": "ـبـ",
+        "final": "ـب"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_002.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_002.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_003",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "تَ",
+    "romanized_script": "Ta",
+    "meaning": "Ta (T sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ت",
+        "initial": "تـ",
+        "medial": "ـتـ",
+        "final": "ـت"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_003.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_003.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_004",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "ثَ",
+    "romanized_script": "Tha",
+    "meaning": "Tha (Soft th)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ث",
+        "initial": "ثـ",
+        "medial": "ـثـ",
+        "final": "ـث"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_004.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_004.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_005",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "جَ",
+    "romanized_script": "Jim",
+    "meaning": "Jim (J sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ج",
+        "initial": "جـ",
+        "medial": "ـجـ",
+        "final": "ـج"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_005.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_005.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_006",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "حَ",
+    "romanized_script": "Ha",
+    "meaning": "Ha (Pharyngeal H)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ح",
+        "initial": "حـ",
+        "medial": "ـحـ",
+        "final": "ـح"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_006.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_006.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_007",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "خَ",
+    "romanized_script": "Kha",
+    "meaning": "Kha (Throaty Kh)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "خ",
+        "initial": "خـ",
+        "medial": "ـخـ",
+        "final": "ـخ"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_007.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_007.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_008",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "د",
+    "romanized_script": "Dal",
+    "meaning": "Dal (D sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "د",
+        "initial": "د",
+        "medial": "ـد",
+        "final": "ـد"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_008.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_008.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_009",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "ذ",
+    "romanized_script": "Dhal",
+    "meaning": "Dhal (Soft th)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ذ",
+        "initial": "ذ",
+        "medial": "ـذ",
+        "final": "ـذ"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_009.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_009.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_010",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "ر",
+    "romanized_script": "Ra",
+    "meaning": "Ra (R sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ر",
+        "initial": "ر",
+        "medial": "ـر",
+        "final": "ـر"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_010.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_010.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_011",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "ز",
+    "romanized_script": "Zay",
+    "meaning": "Zay (Z sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ز",
+        "initial": "ز",
+        "medial": "ـز",
+        "final": "ـز"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_011.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_011.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_012",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "سَ",
+    "romanized_script": "Sin",
+    "meaning": "Sin (S sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "س",
+        "initial": "سـ",
+        "medial": "ـسـ",
+        "final": "ـس"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_012.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_012.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_013",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "شَ",
+    "romanized_script": "Shin",
+    "meaning": "Shin (Sh sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ش",
+        "initial": "شـ",
+        "medial": "ـشـ",
+        "final": "ـش"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_013.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_013.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_014",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "صَ",
+    "romanized_script": "Sad",
+    "meaning": "Sad (Emphatic S)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ص",
+        "initial": "صـ",
+        "medial": "ـصـ",
+        "final": "ـص"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_014.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_014.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_015",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "ضَ",
+    "romanized_script": "Dad",
+    "meaning": "Dad (Emphatic D)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ض",
+        "initial": "ضـ",
+        "medial": "ـضـ",
+        "final": "ـض"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_015.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_015.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_016",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "طَ",
+    "romanized_script": "Ta",
+    "meaning": "Ta (Emphatic T)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ط",
+        "initial": "طـ",
+        "medial": "ـطـ",
+        "final": "ـط"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_016.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_016.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_017",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "ظَ",
+    "romanized_script": "Za",
+    "meaning": "Za (Emphatic Z)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ظ",
+        "initial": "ظـ",
+        "medial": "ـظـ",
+        "final": "ـظ"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_017.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_017.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_018",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "عَ",
+    "romanized_script": "Ayn",
+    "meaning": "Ayn (Deep A)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ع",
+        "initial": "عـ",
+        "medial": "ـعـ",
+        "final": "ـع"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_018.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_018.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_019",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "غَ",
+    "romanized_script": "Ghayn",
+    "meaning": "Ghayn (Throaty Gh)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "غ",
+        "initial": "غـ",
+        "medial": "ـغـ",
+        "final": "ـغ"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_019.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_019.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_020",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "فَ",
+    "romanized_script": "Fa",
+    "meaning": "Fa (F sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ف",
+        "initial": "فـ",
+        "medial": "ـفـ",
+        "final": "ـف"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_020.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_020.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_021",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "قَ",
+    "romanized_script": "Qaf",
+    "meaning": "Qaf (Deep Q)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ق",
+        "initial": "قـ",
+        "medial": "ـقـ",
+        "final": "ـق"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_021.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_021.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_022",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "كَ",
+    "romanized_script": "Kaf",
+    "meaning": "Kaf (Normal K)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ك",
+        "initial": "كـ",
+        "medial": "ـكـ",
+        "final": "ـك"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_022.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_022.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_023",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "لَ",
+    "romanized_script": "Lam",
+    "meaning": "Lam (L sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ل",
+        "initial": "لـ",
+        "medial": "ـلـ",
+        "final": "ـل"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_023.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_023.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_024",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "مَ",
+    "romanized_script": "Mim",
+    "meaning": "Mim (M sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "م",
+        "initial": "مـ",
+        "medial": "ـمـ",
+        "final": "ـم"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_024.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_024.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_025",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "نَ",
+    "romanized_script": "Nun",
+    "meaning": "Nun (N sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ن",
+        "initial": "نـ",
+        "medial": "ـنـ",
+        "final": "ـن"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_025.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_025.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_026",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "هَ",
+    "romanized_script": "Ha",
+    "meaning": "Ha (H sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ه",
+        "initial": "هـ",
+        "medial": "ـهـ",
+        "final": "ـه"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_026.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_026.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_027",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "وَ",
+    "romanized_script": "Waw",
+    "meaning": "Waw (W/U sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "و",
+        "initial": "و",
+        "medial": "ـو",
+        "final": "ـو"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_027.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_027.mp3"
+    }
+  },
+  {
+    "id": "ara_alf_028",
+    "language_code": "ar",
+    "level_tag": "A1_Alphabet",
+    "original_script": "يَ",
+    "romanized_script": "Ya",
+    "meaning": "Ya (Y sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl",
+      "forms": {
+        "isolated": "ي",
+        "initial": "يـ",
+        "medial": "ـيـ",
+        "final": "ـي"
+      }
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_028.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_028.mp3"
+    }
+  },
+  {
+    "id": "ara_num_000",
+    "language_code": "ar",
+    "level_tag": "A1_Numbers",
+    "original_script": "٠",
+    "romanized_script": "Sifr",
+    "meaning": "Zero (0)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl"
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_num_000.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_000.mp3"
+    }
+  },
+  {
+    "id": "ara_num_001",
+    "language_code": "ar",
+    "level_tag": "A1_Numbers",
+    "original_script": "١",
+    "romanized_script": "Wahid",
+    "meaning": "One (1)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl"
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_001.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_001.mp3"
+    }
+  },
+  {
+    "id": "ara_num_002",
+    "language_code": "ar",
+    "level_tag": "A1_Numbers",
+    "original_script": "٢",
+    "romanized_script": "Ithnan",
+    "meaning": "Two (2)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl"
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_002.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_002.mp3"
+    }
+  },
+  {
+    "id": "ara_num_003",
+    "language_code": "ar",
+    "level_tag": "A1_Numbers",
+    "original_script": "٣",
+    "romanized_script": "Thalatha",
+    "meaning": "Three (3)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl"
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_003.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_003.mp3"
+    }
+  },
+  {
+    "id": "ara_num_004",
+    "language_code": "ar",
+    "level_tag": "A1_Numbers",
+    "original_script": "٤",
+    "romanized_script": "Arba'a",
+    "meaning": "Four (4)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl"
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_004.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_004.mp3"
+    }
+  },
+  {
+    "id": "ara_num_005",
+    "language_code": "ar",
+    "level_tag": "A1_Numbers",
+    "original_script": "٥",
+    "romanized_script": "Khamsa",
+    "meaning": "Five (5)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "rtl"
+    },
+    "audio": {
+      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_005.mp3",
+      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_005.mp3"
+    }
+  }
+]

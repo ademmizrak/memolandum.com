@@ -1,0 +1,114 @@
+--- Page 1 ---
+MEMOLANDUM — NİHAİ PRD DOKÜMANI
+Ürün Gereksinimleri: UI Slogan Entegrasyonu, SEO, GEO ve SPA Mimari Optimizasyonları
+1. Proje Genel Bakışı & Vizyon
+Memolandum, Google Firebase altyapısı üzerinde çalışan, mobil öncelikli (mobile-first) ve HTML5 Canvas
+oyun  motoruyla  geliştirilmiş  bir  kelime  öğrenme  arcade  uygulamasıdır.  Kullanıcıların  sıkılmadan,  oyun
+mekanikleriyle kelime ezberlemesini hedefler. Platform, 10 farklı yabancı dilde içerik sunarak iki ana hedef
+kitleyi tek çatı altında eritmeyi amaçlar: Günübirlik eğlence arayan ana kitle ve YDS, TOEFL, IELTS gibi
+yüksek puan hedefli sınavlara hazırlanan akademik kitle. 
+2. Arayüz (UI) ve Slogan Entegrasyonu
+Markanın akılda kalıcılığını artırmak ve kullanıcının siteye girdiği an core mekaniği anlamasını sağlamak
+adına "Oyna - Ezberle" mottosu ana görsele entegre edilecektir. 
+Site Banner/Hero Alanı: Sitenin en üstünde yer alan karşılama alanına (Banner) Oyna, Ezberle!
+mottosu, modern, okunabilir ve odak noktası olacak şekilde eklenecektir.
+Mobil Optimizasyon: Banner alanı, mobil cihazlarda HTML5 Canvas oyun ekranının üstünde veya hemen
+altında yer alacak, oyun alanını kapatmayacak şekilde duyarlı (responsive) tasarlanacaktır.
+3. Teknik SEO & SPA Mimari Çözümleri
+Projenin Single Page Application (SPA) ve HTML5 Canvas mimarisiyle geliştirilmiş olması, arama motoru
+botlarının (Googlebot) ve yapay zeka tarayıcılarının içeriği pikseller halinde görmesine (okuyamamasına)
+neden olmaktadır. Bu handikapı aşmak için aşağıdaki teknik gereksinimler zorunludur: 
+3.1. Dinamik Yönlendirme (Dynamic Routing) & History API
+Kullanıcı oyun içinde dil veya zorluk derecesi seçtiğinde (Örn: İngilizce Akademik Bağlaçlar), sayfa
+yenilenmeden URL yapısı değişmelidir.
+Örnek URL Yapısı:memolandum.com/oyna/ingilizce-akademik-baglaclar veya 
+memolandum.com/oyna/ispanyolca-gunluk
+Bu sayede her bir kategori ve dil paketi, Google tarafından bağımsız birer sayfa olarak indekslenebilecektir.
+3.2. Dinamik Sunucu Taraflı İşleme (Dynamic Rendering / SSR)
+Google Firebase Hosting ve Cloud Functions kullanılarak bir ara katman kurgulanmalıdır.
+Normal bir kullanıcı siteye girdiğinde hızlı istemci taraflı (SPA/Canvas) oyun yüklenirken; arama motoru
+botları veya yapay zeka botları geldiğinde, sunucu arka planda oluşturulmuş statik HTML kodunu botlara
+servis etmelidir.
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+Memolandum Stratejik PRD v1.0 1
+--- Page 2 ---
+Canvas içerisinde akan tüm kelimeler ve metin listeleri, arka plandaki görünmez DOM katmanında (DOM
+Overlay) standart HTML etiketleri (<h1>, <p>, <table>) olarak botların okumasına sunulmalıdır.
+4. GEO (Yapay Zeka Arama Motoru Optimizasyonu) Gereksinimleri
+Kullanıcıların yeni nesil yapay zeka asistanlarına (Gemini, ChatGPT, Perplexity vb.) sorduğu doğal dildeki
+sorulara  doğrudan  Memolandum'un  yanıt  veya  kaynak  olarak  gösterilmesini  sağlamak  için  kurgulanan
+stratejidir. 
+4.1. Yapılandırılmış Veri (Schema Markup) Entegrasyonu
+Site mimarisine her sayfa için dinamik olarak beslenecek JSON-LD şema yapıları eklenecektir. Proje hem bir
+eğitim uygulaması hem de oyun olduğu için iki şema birleştirilecektir:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalApplication",
+  "name": "Memolandum",
+  "applicationCategory": "EducationalGame",
+  "operatingSystem": "All",
+  "browserRequirements": "Requires HTML5 Canvas support.",
+  "description": "10 farklı dilde eğlenerek kelime ezberlemenin en hızlı yolu. Oyna ve 
+ezberle!",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "TRY"
+  },
+  "educationalLevel": "Academic, Beginner, Intermediate",
+  "inLanguage": ["en", "tr", "es", "de", "fr", "it"]
+}
+</script>
+4.2. Sıfır Tıklama (Zero-Click) Veri Alanları
+Yapay zekanın doğrudan bilgiyi çekip kullanıcıya sunabileceği ve kaynak gösterebileceği statik veri sayfaları/
+tabloları oluşturulmalıdır. Örneğin: "Akademik sınavlarda en çok karıştırılan 20 bağlaç ve istatistikleri" gibi
+tablolar, botlar için mükemmel birer veridir. 
+• 
+Memolandum Stratejik PRD v1.0 2
+--- Page 3 ---
+5. Hedef Kitle & İçerik Yapılandırması
+Hedef Kitle Arama Niyeti / Odak KelimelerSite İçi Çözüm / Modül
+Günübirlik Kullanıcı
+Pratik kelime öğrenme, en çok
+kullanılan kelimeler, seyahat
+kelimeleri oyunu
+Hızlı tüketilebilir, 30 saniyelik kolay
+günlük dil modülleri.
+Akademik Kullanıcı
+YDS kelime ezberleme, TOEFL ileri
+seviye fiiller, Akademik İngilizce
+bağlaçlar
+Hedef 70+ puan odaklı, sınav
+formatına uygun ağır terminoloji
+paketleri.
+6. Meta Etiket Yapılandırması (Örnek Şablon)
+Sitenin ana head yapısı tam olarak şu şekilde güncellenecektir:
+<head>
+    <title>Memolandum | Oyna, Ezberle - Kelime Öğrenme Oyunu</title>
+    <meta name="description" content="10 farklı dilde akademik ve günlük kelimeleri 
+oyun oynayarak kalıcı olarak ezberleyin. YDS, TOEFL ve günlük pratik için ideal oyna-
+ezberle platformu." />
+    <!-- Open Graph / Sosyal Medya -->
+    <meta property="og:title" content="Memolandum | Oyna, Ezberle - Kelime Öğrenme 
+Oyunu" />
+    <meta property="og:description" content="10 farklı dilde akademik ve günlük 
+kelimeleri oyun oynayarak kalıcı olarak ezberleyin." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://memolandum.com" />
+</head>
+7. Başarı Kriterleri (KPI) ve Takip
+SEO: "Akademik kelime ezberleme", "YDS kelime oyunu" kelimelerinde ilk 3 sayfaya giriş.
+GEO: Yapay zeka motorlarında dil öğrenme tavsiyelerinde referans (citation) olarak yer alma.
+Kullanıcı Tutundurma: Firebase Analytics verilerinde "Hemen Çıkma Oranı" (Bounce Rate) düşüşü ve
+ortalama oturum süresinin en az 5 dakikanın üzerine çıkması.
+• 
+• 
+• 
+Memolandum Stratejik PRD v1.0 3

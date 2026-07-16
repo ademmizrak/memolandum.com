@@ -1,0 +1,902 @@
+[
+  {
+    "id": 401,
+    "word": "küçük ölçekli, minyatür, ufacık",
+    "translation": "miniature",
+    "pos": "adjective/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 402,
+    "word": "çok küçük, ufacık, detaylı, titiz",
+    "translation": "minute",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 403,
+    "word": "yanlış kanı, yanılgı, yanlış anlaşılma",
+    "translation": "misconception",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 404,
+    "word": "perişan, zavallı, sefil, çok kötü",
+    "translation": "miserable",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 405,
+    "word": "değiştirmek, üzerinde değişiklik yapmak, adapte etmek",
+    "translation": "modify",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 406,
+    "word": "hız, ivme, hareket gücü",
+    "translation": "momentum",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 407,
+    "word": "tekel, tekelleşme, tröst",
+    "translation": "monopoly",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 408,
+    "word": "monoton, tekdüze, sıkıcı",
+    "translation": "monotonous",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 409,
+    "word": "ahlak, ahlaklılık, etik kurallar",
+    "translation": "morality",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 410,
+    "word": "ölümlü, fani, ölümcül",
+    "translation": "mortal",
+    "pos": "adjective/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 411,
+    "word": "karşılıklı, ortak",
+    "translation": "mutual",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 412,
+    "word": "sayısız, çok büyük miktarda, on binlerce",
+    "translation": "myriad",
+    "pos": "noun/adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 413,
+    "word": "saf, deneyimsiz, toy, safdil",
+    "translation": "naive",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 414,
+    "word": "anlatı, öykü, hikaye / anlatısal",
+    "translation": "narrative",
+    "pos": "noun/adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 415,
+    "word": "ihmal edilebilir, göz ardı edilebilir, önemsiz",
+    "translation": "negligible",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 416,
+    "word": "aday (ödül, seçim vb. için gösterilen)",
+    "translation": "nominee",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 417,
+    "word": "adı çıkmış, kötü şöhretli",
+    "translation": "notorious",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 418,
+    "word": "beslemek, büyütmek, (fikri) geliştirmek",
+    "translation": "nourish",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 419,
+    "word": "yenilik, orijinallik, yeni çıkan şey",
+    "translation": "novelty",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 420,
+    "word": "çekirdek, merkez, esas kısım",
+    "translation": "nucleus",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 421,
+    "word": "geçersiz kılmak, iptal etmek, hükümsüz bırakmak",
+    "translation": "nullify",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 422,
+    "word": "besleyip büyütmek, geliştirmek / eğitim, yetiştirme",
+    "translation": "nurture",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 423,
+    "word": "obez, aşırı şişman",
+    "translation": "obese",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 424,
+    "word": "amaç, hedef / nesnel, tarafsız",
+    "translation": "objective",
+    "pos": "noun/adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 425,
+    "word": "zorunlu, mecburi",
+    "translation": "obligatory",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 426,
+    "word": "silip yok etmek, ortadan kaldırmak, imha etmek",
+    "translation": "obliterate",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 427,
+    "word": "belirsiz, tanınmamış, muğlak / gizlemek, örtmek",
+    "translation": "obscure",
+    "pos": "adjective/verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 428,
+    "word": "aklına takılmak, saplantı haline gelmek, kafayı takmak",
+    "translation": "obsess",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 429,
+    "word": "modası geçmiş, artık kullanılmayan, eski tip",
+    "translation": "obsolete",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 430,
+    "word": "engel, mâni",
+    "translation": "obstacle",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 431,
+    "word": "inatçı, dik kafalı, dirençli",
+    "translation": "obstinate",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 432,
+    "word": "engellemek, tıkamak, önünü kapatmak",
+    "translation": "obstruct",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 433,
+    "word": "elde etmek, edinmek, kazanmak",
+    "translation": "obtain",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 434,
+    "word": "apaçık, bariz, ortada",
+    "translation": "obvious",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 435,
+    "word": "işgal etmek, (yer/zaman) kaplamak, meşgul etmek",
+    "translation": "occupy",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 436,
+    "word": "meydana gelme, vaka, olay, hadise",
+    "translation": "occurrence",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 437,
+    "word": "tuhaf, garip, alışılmadık, tek/tekil (sayı)",
+    "translation": "odd",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 438,
+    "word": "dengelemek, telafi etmek, nötrlemek",
+    "translation": "offset",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 439,
+    "word": "ileriye doğru, ileriye yönelik",
+    "translation": "onward",
+    "pos": "adjective/adverb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 440,
+    "word": "opak, mat, ışık geçirmeyen, anlaşılması zor",
+    "translation": "opaque",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 441,
+    "word": "rakip, karşı taraf, muhalif",
+    "translation": "opponent",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 442,
+    "word": "baskı yapmak, zulmetmek, sıkıntı vermek",
+    "translation": "oppress",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 443,
+    "word": "iyimser, umutlu",
+    "translation": "optimistic",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 444,
+    "word": "zengin, lüks, gösterişli, bol",
+    "translation": "opulent",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 445,
+    "word": "kahve falı/kahin, vahiy, bilge kişi",
+    "translation": "oracle",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 446,
+    "word": "sıradan, normal, vasat",
+    "translation": "ordinary",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 447,
+    "word": "ortodoks, geleneksel, ana akım, kabul görmüş",
+    "translation": "orthodox",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 448,
+    "word": "(hastalık, savaş vb.) patlak verme, baş gösterme, salgın",
+    "translation": "outbreak",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 449,
+    "word": "sonuç, netice, akıbet",
+    "translation": "outcome",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 450,
+    "word": "-den daha iyi yapmak, geride bırakmak, aşmak",
+    "translation": "outdo",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 451,
+    "word": "yasaklamak, yasa dışı ilan etmek / kanun kaçağı",
+    "translation": "outlaw",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 452,
+    "word": "ürün, çıktı, production miktarı",
+    "translation": "output",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 453,
+    "word": "gaddarca, acımasız, şok edici, kabul edilemez",
+    "translation": "outrageous",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 454,
+    "word": "seçkin, muhteşvel, göze çarpan, (borç için) ödenmemiş",
+    "translation": "outstanding",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 455,
+    "word": "üstesinden gelmek, yenmek, alt etmek",
+    "translation": "overcome",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 456,
+    "word": "göz ardı etmek, görmezden gelmek, tepeden bakmak",
+    "translation": "overlook",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 457,
+    "word": "denetlemek, gözetlemek, yönetmek",
+    "translation": "oversee",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 458,
+    "word": "abartmak, mübalağa etmek",
+    "translation": "overstate",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 459,
+    "word": "devirmek, altüst etmek, (kararı) bozmak/iptal etmek",
+    "translation": "overturn",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 460,
+    "word": "boğmak, ezmek, etkisi altına almak, alt etmek",
+    "translation": "overwhelm",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 461,
+    "word": "titiz, özenli, kılı kırk yaran",
+    "translation": "painstaking",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 462,
+    "word": "değersiz, ehemmiyetsiz, çok az, sadaka gibi",
+    "translation": "paltry",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 463,
+    "word": "çelişki, paradoks, tezat durum",
+    "translation": "paradox",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 464,
+    "word": "en önemli, üstün, başı çeken",
+    "translation": "paramount",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 465,
+    "word": "kısmen, tam olmayarak, taraflı bir şekilde",
+    "translation": "partially",
+    "pos": "adverb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 466,
+    "word": "belirli, özel, titiz/detaycı",
+    "translation": "particular",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 467,
+    "word": "tutaklı, ihtiraslı, coşkulu",
+    "translation": "passionate",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 468,
+    "word": "acınası, zavallı, dokunaklı",
+    "translation": "pathetic",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 469,
+    "word": "azlık, yetersizlik, kıtlık",
+    "translation": "paucity",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 470,
+    "word": "tuhaf, garip, -e özgü/has",
+    "translation": "peculiar",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 471,
+    "word": "cezalandırmak, ceza kesmek",
+    "translation": "penalize",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 472,
+    "word": "içine işlemek, nüfuz etmek, delip geçmek",
+    "translation": "penetrate",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 473,
+    "word": "algılamak, fark etmek, kavramak",
+    "translation": "perceive",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 474,
+    "word": "büyük tehlike, risk, korku veren durum",
+    "translation": "peril",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 475,
+    "word": "yok olmak, can vermek, (soğuktan) donmak, çürümek",
+    "translation": "perish",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 476,
+    "word": "kalıcı, kalıcı olan, sabit",
+    "translation": "permanent",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 477,
+    "word": "içine işlemek, yayılmak, nüfuz etmek",
+    "translation": "permeate",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 478,
+    "word": "izin verilebilir, yasal, makul",
+    "translation": "permissible",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 479,
+    "word": "sinsi ve zararlı, öldürücü, yıkıcı",
+    "translation": "pernicious",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 480,
+    "word": "ebedi, sürekli, kesintisiz, daimi",
+    "translation": "perpetual",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 481,
+    "word": "aklımı karıştırmak, şaşırtmak, hayrete düşürmek",
+    "translation": "perplex",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 482,
+    "word": "(din, ırk vb. yüzünden) zulmetmek, sıkıntı vermek",
+    "translation": "persecute",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 483,
+    "word": "azimle devam etmek, direnmek, yılmamak (-in ile)",
+    "translation": "persevere",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 484,
+    "word": "ısrar etmek, inatla devam etmek (-in ile kullanılır)",
+    "translation": "persist",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 485,
+    "word": "somutlaştırmak, kişileştirmek, simgesi olmak",
+    "translation": "personify",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 486,
+    "word": "bakış açısı, perspektif, derinlik hissi",
+    "translation": "perspective",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 487,
+    "word": "ikna etmek, kandırmak",
+    "translation": "persuade",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 488,
+    "word": "bütününe yayılmak, kaplamak, sinmek",
+    "translation": "pervade",
+    "pos": "verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 489,
+    "word": "karamsar, kötümser",
+    "translation": "pessimistic",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 490,
+    "word": "olgu, fenomen, olağanüstü olay",
+    "translation": "phenomenon",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 491,
+    "word": "öncü, çığır açan, ilk adımı atan",
+    "translation": "pioneering",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 492,
+    "word": "kısa ve öz, veciz, anlamlı",
+    "translation": "pithy",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 493,
+    "word": "merkezi, hayati öneme sahip, eksen oluşturan",
+    "translation": "pivotal",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 494,
+    "word": "veba, salgın hastalık, bela / musallat olmak, bezdirmek",
+    "translation": "plague",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 495,
+    "word": "sade, yalın, açık / ova, düzlük",
+    "translation": "plain",
+    "pos": "adjective/noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 496,
+    "word": "akla yatkın, makul, inanılması olası",
+    "translation": "plausible",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 497,
+    "word": "bol, bereketli, çok miktarda",
+    "translation": "plentiful",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 498,
+    "word": "kötü durum, çaresizlik, açmaz, dram",
+    "translation": "plight",
+    "pos": "noun",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 499,
+    "word": "dokunaklı, yürek burkan, keskin/etkileyici",
+    "translation": "poignant",
+    "pos": "adjective",
+    "tags": [
+      "YDS"
+    ]
+  },
+  {
+    "id": 500,
+    "word": "soğukkanlılık, denge, duruş / dengede tutmak",
+    "translation": "poise",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS"
+    ]
+  }
+]

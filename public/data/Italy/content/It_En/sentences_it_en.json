@@ -1,0 +1,6502 @@
+[
+  {
+    "id": "it_sent_001",
+    "word": "Mi sento meglio.",
+    "translation": "I feel better.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_001.mp3"
+    }
+  },
+  {
+    "id": "it_sent_002",
+    "word": "Meglio di niente.",
+    "translation": "Better than nothing.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_002.mp3"
+    }
+  },
+  {
+    "id": "it_sent_003",
+    "word": "Devi provarci.",
+    "translation": "You have to try.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_003.mp3"
+    }
+  },
+  {
+    "id": "it_sent_004",
+    "word": "Possiamo farcela.",
+    "translation": "We can do it.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_004.mp3"
+    }
+  },
+  {
+    "id": "it_sent_005",
+    "word": "Dov'è la mia macchina?",
+    "translation": "Where is my car?",
+    "len": 21,
+    "tags": [
+      "daily",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_005.mp3"
+    }
+  },
+  {
+    "id": "it_sent_006",
+    "word": "Sono stanco.",
+    "translation": "I am tired.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_006.mp3"
+    }
+  },
+  {
+    "id": "it_sent_007",
+    "word": "Ho fame.",
+    "translation": "I am hungry.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_007.mp3"
+    }
+  },
+  {
+    "id": "it_sent_008",
+    "word": "Ho sete.",
+    "translation": "I am thirsty.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_008.mp3"
+    }
+  },
+  {
+    "id": "it_sent_009",
+    "word": "Il tempo è bello oggi.",
+    "translation": "The weather is nice today.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_009.mp3"
+    }
+  },
+  {
+    "id": "it_sent_010",
+    "word": "Cos'è questo?",
+    "translation": "What is this?",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_010.mp3"
+    }
+  },
+  {
+    "id": "it_sent_011",
+    "word": "Non lo so.",
+    "translation": "I don't know.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_011.mp3"
+    }
+  },
+  {
+    "id": "it_sent_012",
+    "word": "È meraviglioso!",
+    "translation": "It is wonderful!",
+    "len": 15,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_012.mp3"
+    }
+  },
+  {
+    "id": "it_sent_013",
+    "word": "Amo la Francia.",
+    "translation": "I love France.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_013.mp3"
+    }
+  },
+  {
+    "id": "it_sent_014",
+    "word": "Che ore sono?",
+    "translation": "What time is it?",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_014.mp3"
+    }
+  },
+  {
+    "id": "it_sent_015",
+    "word": "È ora di mangiare.",
+    "translation": "It is time to eat.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_015.mp3"
+    }
+  },
+  {
+    "id": "it_sent_016",
+    "word": "Qui fa caldo.",
+    "translation": "It is hot here.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_016.mp3"
+    }
+  },
+  {
+    "id": "it_sent_017",
+    "word": "Voglio dormire.",
+    "translation": "I want to sleep.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_017.mp3"
+    }
+  },
+  {
+    "id": "it_sent_018",
+    "word": "È una buona idea.",
+    "translation": "It is a good idea.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_018.mp3"
+    }
+  },
+  {
+    "id": "it_sent_019",
+    "word": "Per niente.",
+    "translation": "Not at all.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_019.mp3"
+    }
+  },
+  {
+    "id": "it_sent_020",
+    "word": "D'accordo.",
+    "translation": "Agreed.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_020.mp3"
+    }
+  },
+  {
+    "id": "it_sent_021",
+    "word": "Piove.",
+    "translation": "It is raining.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_021.mp3"
+    }
+  },
+  {
+    "id": "it_sent_022",
+    "word": "Ho dimenticato le chiavi.",
+    "translation": "I forgot my keys.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_022.mp3"
+    }
+  },
+  {
+    "id": "it_sent_023",
+    "word": "Puoi aprire la porta?",
+    "translation": "Can you open the door?",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_023.mp3"
+    }
+  },
+  {
+    "id": "it_sent_024",
+    "word": "Fa molto caldo.",
+    "translation": "It is very hot.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_024.mp3"
+    }
+  },
+  {
+    "id": "it_sent_025",
+    "word": "Così è perfetto.",
+    "translation": "This is perfect.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_025.mp3"
+    }
+  },
+  {
+    "id": "it_sent_026",
+    "word": "È una bella giornata.",
+    "translation": "It is a beautiful day.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_026.mp3"
+    }
+  },
+  {
+    "id": "it_sent_027",
+    "word": "Fuori fa freddo.",
+    "translation": "It is cold outside.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_027.mp3"
+    }
+  },
+  {
+    "id": "it_sent_028",
+    "word": "Indossa un cappotto.",
+    "translation": "Wear a coat.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_028.mp3"
+    }
+  },
+  {
+    "id": "it_sent_029",
+    "word": "Sono in ritardo.",
+    "translation": "I am late.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_029.mp3"
+    }
+  },
+  {
+    "id": "it_sent_030",
+    "word": "Fai in fretta!",
+    "translation": "Hurry up!",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_030.mp3"
+    }
+  },
+  {
+    "id": "it_sent_031",
+    "word": "Tornerò presto.",
+    "translation": "I will return soon.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_031.mp3"
+    }
+  },
+  {
+    "id": "it_sent_032",
+    "word": "Non posso farne a meno.",
+    "translation": "I cannot do without it.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_032.mp3"
+    }
+  },
+  {
+    "id": "it_sent_033",
+    "word": "Me la prendo comoda.",
+    "translation": "I will take it easy.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_033.mp3"
+    }
+  },
+  {
+    "id": "it_sent_034",
+    "word": "Non essere sciocco.",
+    "translation": "Don't be silly.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_034.mp3"
+    }
+  },
+  {
+    "id": "it_sent_035",
+    "word": "Non ne ho idea.",
+    "translation": "I have no idea.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_035.mp3"
+    }
+  },
+  {
+    "id": "it_sent_036",
+    "word": "Che succede?",
+    "translation": "What is happening?",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_036.mp3"
+    }
+  },
+  {
+    "id": "it_sent_037",
+    "word": "Niente di speciale.",
+    "translation": "Nothing special.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_037.mp3"
+    }
+  },
+  {
+    "id": "it_sent_038",
+    "word": "Devo pensarci.",
+    "translation": "I need to think about it.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_038.mp3"
+    }
+  },
+  {
+    "id": "it_sent_039",
+    "word": "Che giorno è oggi?",
+    "translation": "What day is it today?",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_039.mp3"
+    }
+  },
+  {
+    "id": "it_sent_040",
+    "word": "Oggi è martedì.",
+    "translation": "Today is Tuesday.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_040.mp3"
+    }
+  },
+  {
+    "id": "it_sent_041",
+    "word": "Non dimenticare le tue cose.",
+    "translation": "Do not forget your things.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_041.mp3"
+    }
+  },
+  {
+    "id": "it_sent_042",
+    "word": "Penso che pioverà.",
+    "translation": "I think it will rain.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_042.mp3"
+    }
+  },
+  {
+    "id": "it_sent_043",
+    "word": "Prendi l'ombrello.",
+    "translation": "Take your umbrella.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_043.mp3"
+    }
+  },
+  {
+    "id": "it_sent_044",
+    "word": "Tutto è sotto controllo.",
+    "translation": "Everything is under control.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_044.mp3"
+    }
+  },
+  {
+    "id": "it_sent_045",
+    "word": "Andiamo, partiamo.",
+    "translation": "Come on, let's go.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_045.mp3"
+    }
+  },
+  {
+    "id": "it_sent_046",
+    "word": "Voglio andare a casa.",
+    "translation": "I want to go home.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_046.mp3"
+    }
+  },
+  {
+    "id": "it_sent_047",
+    "word": "È ora di alzarsi.",
+    "translation": "It is time to wake up.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_047.mp3"
+    }
+  },
+  {
+    "id": "it_sent_048",
+    "word": "Che bella giornata!",
+    "translation": "What a beautiful day!",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_048.mp3"
+    }
+  },
+  {
+    "id": "it_sent_049",
+    "word": "È tutto quello che voglio.",
+    "translation": "That's all I want.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_049.mp3"
+    }
+  },
+  {
+    "id": "it_sent_050",
+    "word": "È tutto.",
+    "translation": "That is all.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_050.mp3"
+    }
+  },
+  {
+    "id": "it_sent_051",
+    "word": "Sono pronto.",
+    "translation": "I am ready.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_051.mp3"
+    }
+  },
+  {
+    "id": "it_sent_052",
+    "word": "Aspettami qui.",
+    "translation": "Wait for me here.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_052.mp3"
+    }
+  },
+  {
+    "id": "it_sent_053",
+    "word": "Questo è molto importante.",
+    "translation": "This is very important.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_053.mp3"
+    }
+  },
+  {
+    "id": "it_sent_054",
+    "word": "Non fare rumore.",
+    "translation": "Do not make noise.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_054.mp3"
+    }
+  },
+  {
+    "id": "it_sent_055",
+    "word": "Apri la finestra.",
+    "translation": "Open the window.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_055.mp3"
+    }
+  },
+  {
+    "id": "it_sent_056",
+    "word": "Chiudi la porta.",
+    "translation": "Close the door.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_056.mp3"
+    }
+  },
+  {
+    "id": "it_sent_057",
+    "word": "Accendi la luce.",
+    "translation": "Turn on the light.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_057.mp3"
+    }
+  },
+  {
+    "id": "it_sent_058",
+    "word": "Spegni la TV.",
+    "translation": "Turn off the TV.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_058.mp3"
+    }
+  },
+  {
+    "id": "it_sent_059",
+    "word": "Ho bisogno di calma.",
+    "translation": "I need peace and quiet.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_059.mp3"
+    }
+  },
+  {
+    "id": "it_sent_060",
+    "word": "Lavoro da casa.",
+    "translation": "I work from home.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_060.mp3"
+    }
+  },
+  {
+    "id": "it_sent_061",
+    "word": "Dov'è il mio telefono?",
+    "translation": "Where is my phone?",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_061.mp3"
+    }
+  },
+  {
+    "id": "it_sent_062",
+    "word": "È sul tavolo.",
+    "translation": "It is on the table.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_062.mp3"
+    }
+  },
+  {
+    "id": "it_sent_063",
+    "word": "Ho sete di conoscenza.",
+    "translation": "I am hungry for knowledge.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_063.mp3"
+    }
+  },
+  {
+    "id": "it_sent_064",
+    "word": "Il caffè è pronto.",
+    "translation": "Coffee is ready.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_064.mp3"
+    }
+  },
+  {
+    "id": "it_sent_065",
+    "word": "È molto buono.",
+    "translation": "It is very good.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_065.mp3"
+    }
+  },
+  {
+    "id": "it_sent_066",
+    "word": "Vuoi lo zucchero?",
+    "translation": "Do you want sugar?",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_066.mp3"
+    }
+  },
+  {
+    "id": "it_sent_067",
+    "word": "No, grazie.",
+    "translation": "No, thanks.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_067.mp3"
+    }
+  },
+  {
+    "id": "it_sent_068",
+    "word": "Questo è abbastanza.",
+    "translation": "This is enough.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_068.mp3"
+    }
+  },
+  {
+    "id": "it_sent_069",
+    "word": "Ho molto lavoro.",
+    "translation": "I have a lot of work.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_069.mp3"
+    }
+  },
+  {
+    "id": "it_sent_070",
+    "word": "Devo sbrigarmi.",
+    "translation": "I have to hurry.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_070.mp3"
+    }
+  },
+  {
+    "id": "it_sent_071",
+    "word": "Ci vediamo più tardi.",
+    "translation": "See you later.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_071.mp3"
+    }
+  },
+  {
+    "id": "it_sent_072",
+    "word": "Buona continuazione.",
+    "translation": "Have a good day.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_072.mp3"
+    }
+  },
+  {
+    "id": "it_sent_073",
+    "word": "Ci vediamo domani mattina.",
+    "translation": "See you tomorrow morning.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_073.mp3"
+    }
+  },
+  {
+    "id": "it_sent_074",
+    "word": "Sogni d'oro.",
+    "translation": "Sweet dreams.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_074.mp3"
+    }
+  },
+  {
+    "id": "it_sent_075",
+    "word": "Buonanotte, a domani.",
+    "translation": "Good night, see you tomorrow.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_075.mp3"
+    }
+  },
+  {
+    "id": "it_sent_076",
+    "word": "È una bella giornata.",
+    "translation": "It is a nice day.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_076.mp3"
+    }
+  },
+  {
+    "id": "it_sent_077",
+    "word": "Godiamocela.",
+    "translation": "Let's enjoy it.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_077.mp3"
+    }
+  },
+  {
+    "id": "it_sent_078",
+    "word": "Questa è la vita.",
+    "translation": "That's life.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_078.mp3"
+    }
+  },
+  {
+    "id": "it_sent_079",
+    "word": "Tutto è possibile.",
+    "translation": "Everything is possible.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_079.mp3"
+    }
+  },
+  {
+    "id": "it_sent_080",
+    "word": "Non perdere la speranza.",
+    "translation": "Don't lose hope.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_080.mp3"
+    }
+  },
+  {
+    "id": "it_sent_081",
+    "word": "Sii positivo.",
+    "translation": "Be positive.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_081.mp3"
+    }
+  },
+  {
+    "id": "it_sent_082",
+    "word": "Tutto andrà bene.",
+    "translation": "Everything will be fine.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_082.mp3"
+    }
+  },
+  {
+    "id": "it_sent_083",
+    "word": "Conto su di te.",
+    "translation": "I count on you.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_083.mp3"
+    }
+  },
+  {
+    "id": "it_sent_084",
+    "word": "Sei un mio amico.",
+    "translation": "You are my friend.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_084.mp3"
+    }
+  },
+  {
+    "id": "it_sent_085",
+    "word": "Siamo insieme.",
+    "translation": "We are together.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_085.mp3"
+    }
+  },
+  {
+    "id": "it_sent_086",
+    "word": "Questo è fantastico.",
+    "translation": "This is great.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_086.mp3"
+    }
+  },
+  {
+    "id": "it_sent_087",
+    "word": "Mi piace questo.",
+    "translation": "I like this.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_087.mp3"
+    }
+  },
+  {
+    "id": "it_sent_088",
+    "word": "Questo è un buon inizio.",
+    "translation": "This is a good start.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_088.mp3"
+    }
+  },
+  {
+    "id": "it_sent_089",
+    "word": "Continuo a imparare.",
+    "translation": "I keep learning.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_089.mp3"
+    }
+  },
+  {
+    "id": "it_sent_090",
+    "word": "Questa è la mia passione.",
+    "translation": "This is my passion.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_090.mp3"
+    }
+  },
+  {
+    "id": "it_sent_091",
+    "word": "Amo le sfide.",
+    "translation": "I love challenges.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_091.mp3"
+    }
+  },
+  {
+    "id": "it_sent_092",
+    "word": "Non mi arrendo mai.",
+    "translation": "I never give up.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_092.mp3"
+    }
+  },
+  {
+    "id": "it_sent_093",
+    "word": "Questo è un passo importante.",
+    "translation": "This is an important step.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_093.mp3"
+    }
+  },
+  {
+    "id": "it_sent_094",
+    "word": "Sono orgoglioso di questo progetto.",
+    "translation": "I am proud of this project.",
+    "len": 35,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_094.mp3"
+    }
+  },
+  {
+    "id": "it_sent_095",
+    "word": "Questo è lavoro di squadra.",
+    "translation": "This is teamwork.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_095.mp3"
+    }
+  },
+  {
+    "id": "it_sent_096",
+    "word": "Grazie a tutti voi.",
+    "translation": "Thank you all.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_096.mp3"
+    }
+  },
+  {
+    "id": "it_sent_097",
+    "word": "Continuiamo così.",
+    "translation": "Let's keep it up.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_097.mp3"
+    }
+  },
+  {
+    "id": "it_sent_098",
+    "word": "Andiamo!",
+    "translation": "Let's start!",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_098.mp3"
+    }
+  },
+  {
+    "id": "it_sent_099",
+    "word": "La stanza è pulita.",
+    "translation": "The room is clean.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_099.mp3"
+    }
+  },
+  {
+    "id": "it_sent_100",
+    "word": "Mi piace cucinare.",
+    "translation": "I like cooking.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_100.mp3"
+    }
+  },
+  {
+    "id": "it_sent_001",
+    "word": "Mi sento meglio.",
+    "translation": "I feel better.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_001.mp3"
+    }
+  },
+  {
+    "id": "it_sent_002",
+    "word": "Meglio di niente.",
+    "translation": "Better than nothing.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_002.mp3"
+    }
+  },
+  {
+    "id": "it_sent_003",
+    "word": "Devi provarci.",
+    "translation": "You have to try.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_003.mp3"
+    }
+  },
+  {
+    "id": "it_sent_004",
+    "word": "Possiamo farcela.",
+    "translation": "We can do it.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_004.mp3"
+    }
+  },
+  {
+    "id": "it_sent_005",
+    "word": "Dov'è la mia macchina?",
+    "translation": "Where is my car?",
+    "len": 21,
+    "tags": [
+      "daily",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_005.mp3"
+    }
+  },
+  {
+    "id": "it_sent_006",
+    "word": "Sono stanco.",
+    "translation": "I am tired.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_006.mp3"
+    }
+  },
+  {
+    "id": "it_sent_007",
+    "word": "Ho fame.",
+    "translation": "I am hungry.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_007.mp3"
+    }
+  },
+  {
+    "id": "it_sent_008",
+    "word": "Ho sete.",
+    "translation": "I am thirsty.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_008.mp3"
+    }
+  },
+  {
+    "id": "it_sent_009",
+    "word": "Il tempo è bello oggi.",
+    "translation": "The weather is nice today.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_009.mp3"
+    }
+  },
+  {
+    "id": "it_sent_010",
+    "word": "Cos'è questo?",
+    "translation": "What is this?",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_010.mp3"
+    }
+  },
+  {
+    "id": "it_sent_011",
+    "word": "Non lo so.",
+    "translation": "I don't know.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_011.mp3"
+    }
+  },
+  {
+    "id": "it_sent_012",
+    "word": "È meraviglioso!",
+    "translation": "It is wonderful!",
+    "len": 15,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_012.mp3"
+    }
+  },
+  {
+    "id": "it_sent_013",
+    "word": "Amo la Francia.",
+    "translation": "I love France.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_013.mp3"
+    }
+  },
+  {
+    "id": "it_sent_014",
+    "word": "Che ore sono?",
+    "translation": "What time is it?",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_014.mp3"
+    }
+  },
+  {
+    "id": "it_sent_015",
+    "word": "È ora di mangiare.",
+    "translation": "It is time to eat.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_015.mp3"
+    }
+  },
+  {
+    "id": "it_sent_016",
+    "word": "Qui fa caldo.",
+    "translation": "It is hot here.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_016.mp3"
+    }
+  },
+  {
+    "id": "it_sent_017",
+    "word": "Voglio dormire.",
+    "translation": "I want to sleep.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_017.mp3"
+    }
+  },
+  {
+    "id": "it_sent_018",
+    "word": "È una buona idea.",
+    "translation": "It is a good idea.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_018.mp3"
+    }
+  },
+  {
+    "id": "it_sent_019",
+    "word": "Per niente.",
+    "translation": "Not at all.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_019.mp3"
+    }
+  },
+  {
+    "id": "it_sent_020",
+    "word": "D'accordo.",
+    "translation": "Agreed.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_020.mp3"
+    }
+  },
+  {
+    "id": "it_sent_021",
+    "word": "Piove.",
+    "translation": "It is raining.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_021.mp3"
+    }
+  },
+  {
+    "id": "it_sent_022",
+    "word": "Ho dimenticato le chiavi.",
+    "translation": "I forgot my keys.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_022.mp3"
+    }
+  },
+  {
+    "id": "it_sent_023",
+    "word": "Puoi aprire la porta?",
+    "translation": "Can you open the door?",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_023.mp3"
+    }
+  },
+  {
+    "id": "it_sent_024",
+    "word": "Fa molto caldo.",
+    "translation": "It is very hot.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_024.mp3"
+    }
+  },
+  {
+    "id": "it_sent_025",
+    "word": "Così è perfetto.",
+    "translation": "This is perfect.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_025.mp3"
+    }
+  },
+  {
+    "id": "it_sent_026",
+    "word": "È una bella giornata.",
+    "translation": "It is a beautiful day.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_026.mp3"
+    }
+  },
+  {
+    "id": "it_sent_027",
+    "word": "Fuori fa freddo.",
+    "translation": "It is cold outside.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_027.mp3"
+    }
+  },
+  {
+    "id": "it_sent_028",
+    "word": "Indossa un cappotto.",
+    "translation": "Wear a coat.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_028.mp3"
+    }
+  },
+  {
+    "id": "it_sent_029",
+    "word": "Sono in ritardo.",
+    "translation": "I am late.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_029.mp3"
+    }
+  },
+  {
+    "id": "it_sent_030",
+    "word": "Fai in fretta!",
+    "translation": "Hurry up!",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_030.mp3"
+    }
+  },
+  {
+    "id": "it_sent_031",
+    "word": "Tornerò presto.",
+    "translation": "I will return soon.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_031.mp3"
+    }
+  },
+  {
+    "id": "it_sent_032",
+    "word": "Non posso farne a meno.",
+    "translation": "I cannot do without it.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_032.mp3"
+    }
+  },
+  {
+    "id": "it_sent_033",
+    "word": "Me la prendo comoda.",
+    "translation": "I will take it easy.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_033.mp3"
+    }
+  },
+  {
+    "id": "it_sent_034",
+    "word": "Non essere sciocco.",
+    "translation": "Don't be silly.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_034.mp3"
+    }
+  },
+  {
+    "id": "it_sent_035",
+    "word": "Non ne ho idea.",
+    "translation": "I have no idea.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_035.mp3"
+    }
+  },
+  {
+    "id": "it_sent_036",
+    "word": "Che succede?",
+    "translation": "What is happening?",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_036.mp3"
+    }
+  },
+  {
+    "id": "it_sent_037",
+    "word": "Niente di speciale.",
+    "translation": "Nothing special.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_037.mp3"
+    }
+  },
+  {
+    "id": "it_sent_038",
+    "word": "Devo pensarci.",
+    "translation": "I need to think about it.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_038.mp3"
+    }
+  },
+  {
+    "id": "it_sent_039",
+    "word": "Che giorno è oggi?",
+    "translation": "What day is it today?",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_039.mp3"
+    }
+  },
+  {
+    "id": "it_sent_040",
+    "word": "Oggi è martedì.",
+    "translation": "Today is Tuesday.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_040.mp3"
+    }
+  },
+  {
+    "id": "it_sent_041",
+    "word": "Non dimenticare le tue cose.",
+    "translation": "Do not forget your things.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_041.mp3"
+    }
+  },
+  {
+    "id": "it_sent_042",
+    "word": "Penso che pioverà.",
+    "translation": "I think it will rain.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_042.mp3"
+    }
+  },
+  {
+    "id": "it_sent_043",
+    "word": "Prendi l'ombrello.",
+    "translation": "Take your umbrella.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_043.mp3"
+    }
+  },
+  {
+    "id": "it_sent_044",
+    "word": "Tutto è sotto controllo.",
+    "translation": "Everything is under control.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_044.mp3"
+    }
+  },
+  {
+    "id": "it_sent_045",
+    "word": "Andiamo, partiamo.",
+    "translation": "Come on, let's go.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_045.mp3"
+    }
+  },
+  {
+    "id": "it_sent_046",
+    "word": "Voglio andare a casa.",
+    "translation": "I want to go home.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_046.mp3"
+    }
+  },
+  {
+    "id": "it_sent_047",
+    "word": "È ora di alzarsi.",
+    "translation": "It is time to wake up.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_047.mp3"
+    }
+  },
+  {
+    "id": "it_sent_048",
+    "word": "Che bella giornata!",
+    "translation": "What a beautiful day!",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_048.mp3"
+    }
+  },
+  {
+    "id": "it_sent_049",
+    "word": "È tutto quello che voglio.",
+    "translation": "That's all I want.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_049.mp3"
+    }
+  },
+  {
+    "id": "it_sent_050",
+    "word": "È tutto.",
+    "translation": "That is all.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_050.mp3"
+    }
+  },
+  {
+    "id": "it_sent_051",
+    "word": "Sono pronto.",
+    "translation": "I am ready.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_051.mp3"
+    }
+  },
+  {
+    "id": "it_sent_052",
+    "word": "Aspettami qui.",
+    "translation": "Wait for me here.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_052.mp3"
+    }
+  },
+  {
+    "id": "it_sent_053",
+    "word": "Questo è molto importante.",
+    "translation": "This is very important.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_053.mp3"
+    }
+  },
+  {
+    "id": "it_sent_054",
+    "word": "Non fare rumore.",
+    "translation": "Do not make noise.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_054.mp3"
+    }
+  },
+  {
+    "id": "it_sent_055",
+    "word": "Apri la finestra.",
+    "translation": "Open the window.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_055.mp3"
+    }
+  },
+  {
+    "id": "it_sent_056",
+    "word": "Chiudi la porta.",
+    "translation": "Close the door.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_056.mp3"
+    }
+  },
+  {
+    "id": "it_sent_057",
+    "word": "Accendi la luce.",
+    "translation": "Turn on the light.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_057.mp3"
+    }
+  },
+  {
+    "id": "it_sent_058",
+    "word": "Spegni la TV.",
+    "translation": "Turn off the TV.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_058.mp3"
+    }
+  },
+  {
+    "id": "it_sent_059",
+    "word": "Ho bisogno di calma.",
+    "translation": "I need peace and quiet.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_059.mp3"
+    }
+  },
+  {
+    "id": "it_sent_060",
+    "word": "Lavoro da casa.",
+    "translation": "I work from home.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_060.mp3"
+    }
+  },
+  {
+    "id": "it_sent_061",
+    "word": "Dov'è il mio telefono?",
+    "translation": "Where is my phone?",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_061.mp3"
+    }
+  },
+  {
+    "id": "it_sent_062",
+    "word": "È sul tavolo.",
+    "translation": "It is on the table.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_062.mp3"
+    }
+  },
+  {
+    "id": "it_sent_063",
+    "word": "Ho sete di conoscenza.",
+    "translation": "I am hungry for knowledge.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_063.mp3"
+    }
+  },
+  {
+    "id": "it_sent_064",
+    "word": "Il caffè è pronto.",
+    "translation": "Coffee is ready.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_064.mp3"
+    }
+  },
+  {
+    "id": "it_sent_065",
+    "word": "È molto buono.",
+    "translation": "It is very good.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_065.mp3"
+    }
+  },
+  {
+    "id": "it_sent_066",
+    "word": "Vuoi lo zucchero?",
+    "translation": "Do you want sugar?",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_066.mp3"
+    }
+  },
+  {
+    "id": "it_sent_067",
+    "word": "No, grazie.",
+    "translation": "No, thanks.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_067.mp3"
+    }
+  },
+  {
+    "id": "it_sent_068",
+    "word": "Questo è abbastanza.",
+    "translation": "This is enough.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_068.mp3"
+    }
+  },
+  {
+    "id": "it_sent_069",
+    "word": "Ho molto lavoro.",
+    "translation": "I have a lot of work.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_069.mp3"
+    }
+  },
+  {
+    "id": "it_sent_070",
+    "word": "Devo sbrigarmi.",
+    "translation": "I have to hurry.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_070.mp3"
+    }
+  },
+  {
+    "id": "it_sent_071",
+    "word": "Ci vediamo più tardi.",
+    "translation": "See you later.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_071.mp3"
+    }
+  },
+  {
+    "id": "it_sent_072",
+    "word": "Buona continuazione.",
+    "translation": "Have a good day.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_072.mp3"
+    }
+  },
+  {
+    "id": "it_sent_073",
+    "word": "Ci vediamo domani mattina.",
+    "translation": "See you tomorrow morning.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_073.mp3"
+    }
+  },
+  {
+    "id": "it_sent_074",
+    "word": "Sogni d'oro.",
+    "translation": "Sweet dreams.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_074.mp3"
+    }
+  },
+  {
+    "id": "it_sent_075",
+    "word": "Buonanotte, a domani.",
+    "translation": "Good night, see you tomorrow.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_075.mp3"
+    }
+  },
+  {
+    "id": "it_sent_076",
+    "word": "È una bella giornata.",
+    "translation": "It is a nice day.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_076.mp3"
+    }
+  },
+  {
+    "id": "it_sent_077",
+    "word": "Godiamocela.",
+    "translation": "Let's enjoy it.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_077.mp3"
+    }
+  },
+  {
+    "id": "it_sent_078",
+    "word": "Questa è la vita.",
+    "translation": "That's life.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_078.mp3"
+    }
+  },
+  {
+    "id": "it_sent_079",
+    "word": "Tutto è possibile.",
+    "translation": "Everything is possible.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_079.mp3"
+    }
+  },
+  {
+    "id": "it_sent_080",
+    "word": "Non perdere la speranza.",
+    "translation": "Don't lose hope.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_080.mp3"
+    }
+  },
+  {
+    "id": "it_sent_081",
+    "word": "Sii positivo.",
+    "translation": "Be positive.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_081.mp3"
+    }
+  },
+  {
+    "id": "it_sent_082",
+    "word": "Tutto andrà bene.",
+    "translation": "Everything will be fine.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_082.mp3"
+    }
+  },
+  {
+    "id": "it_sent_083",
+    "word": "Conto su di te.",
+    "translation": "I count on you.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_083.mp3"
+    }
+  },
+  {
+    "id": "it_sent_084",
+    "word": "Sei un mio amico.",
+    "translation": "You are my friend.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_084.mp3"
+    }
+  },
+  {
+    "id": "it_sent_085",
+    "word": "Siamo insieme.",
+    "translation": "We are together.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_085.mp3"
+    }
+  },
+  {
+    "id": "it_sent_086",
+    "word": "Questo è fantastico.",
+    "translation": "This is great.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_086.mp3"
+    }
+  },
+  {
+    "id": "it_sent_087",
+    "word": "Mi piace questo.",
+    "translation": "I like this.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_087.mp3"
+    }
+  },
+  {
+    "id": "it_sent_088",
+    "word": "Questo è un buon inizio.",
+    "translation": "This is a good start.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_088.mp3"
+    }
+  },
+  {
+    "id": "it_sent_089",
+    "word": "Continuo a imparare.",
+    "translation": "I keep learning.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_089.mp3"
+    }
+  },
+  {
+    "id": "it_sent_090",
+    "word": "Questa è la mia passione.",
+    "translation": "This is my passion.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_090.mp3"
+    }
+  },
+  {
+    "id": "it_sent_091",
+    "word": "Amo le sfide.",
+    "translation": "I love challenges.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_091.mp3"
+    }
+  },
+  {
+    "id": "it_sent_092",
+    "word": "Non mi arrendo mai.",
+    "translation": "I never give up.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_092.mp3"
+    }
+  },
+  {
+    "id": "it_sent_093",
+    "word": "Questo è un passo importante.",
+    "translation": "This is an important step.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_093.mp3"
+    }
+  },
+  {
+    "id": "it_sent_094",
+    "word": "Sono orgoglioso di questo progetto.",
+    "translation": "I am proud of this project.",
+    "len": 35,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_094.mp3"
+    }
+  },
+  {
+    "id": "it_sent_095",
+    "word": "Questo è lavoro di squadra.",
+    "translation": "This is teamwork.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_095.mp3"
+    }
+  },
+  {
+    "id": "it_sent_096",
+    "word": "Grazie a tutti voi.",
+    "translation": "Thank you all.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_096.mp3"
+    }
+  },
+  {
+    "id": "it_sent_097",
+    "word": "Continuiamo così.",
+    "translation": "Let's keep it up.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_097.mp3"
+    }
+  },
+  {
+    "id": "it_sent_098",
+    "word": "Andiamo!",
+    "translation": "Let's start!",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_098.mp3"
+    }
+  },
+  {
+    "id": "it_sent_099",
+    "word": "La stanza è pulita.",
+    "translation": "The room is clean.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_099.mp3"
+    }
+  },
+  {
+    "id": "it_sent_100",
+    "word": "Mi piace cucinare.",
+    "translation": "I like cooking.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_100.mp3"
+    }
+  },
+  {
+    "id": "it_dev_001",
+    "word": "Imparo qualcosa di nuovo ogni giorno.",
+    "translation": "I learn something new every day.",
+    "len": 34,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_001.mp3"
+    }
+  },
+  {
+    "id": "it_dev_002",
+    "word": "La ripetizione è la madre dell'apprendimento.",
+    "translation": "Repetition is the mother of learning.",
+    "len": 41,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_002.mp3"
+    }
+  },
+  {
+    "id": "it_dev_003",
+    "word": "Voglio crescere.",
+    "translation": "I want to grow.",
+    "len": 15,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_003.mp3"
+    }
+  },
+  {
+    "id": "it_dev_004",
+    "word": "Gli errori sono opportunità per imparare.",
+    "translation": "Mistakes are opportunities to learn.",
+    "len": 39,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_004.mp3"
+    }
+  },
+  {
+    "id": "it_dev_005",
+    "word": "Ho un piano per il successo.",
+    "translation": "I have a plan for success.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_005.mp3"
+    }
+  },
+  {
+    "id": "it_dev_006",
+    "word": "Qual è il mio obiettivo oggi?",
+    "translation": "What is my goal today?",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_006.mp3"
+    }
+  },
+  {
+    "id": "it_dev_007",
+    "word": "Credo nelle mie capacità.",
+    "translation": "I believe in my abilities.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_007.mp3"
+    }
+  },
+  {
+    "id": "it_dev_008",
+    "word": "La pazienza è la chiave del successo.",
+    "translation": "Patience is the key to success.",
+    "len": 34,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_008.mp3"
+    }
+  },
+  {
+    "id": "it_dev_009",
+    "word": "Rimango sempre curioso.",
+    "translation": "I always remain curious.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_009.mp3"
+    }
+  },
+  {
+    "id": "it_dev_010",
+    "word": "Come posso farlo meglio?",
+    "translation": "How can I do this better?",
+    "len": 23,
+    "tags": [
+      "growth",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_010.mp3"
+    }
+  },
+  {
+    "id": "it_dev_011",
+    "word": "Mi concentro sulle cose importanti.",
+    "translation": "I focus on important things.",
+    "len": 30,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_011.mp3"
+    }
+  },
+  {
+    "id": "it_dev_012",
+    "word": "Ogni passo conta.",
+    "translation": "Every step counts.",
+    "len": 16,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_012.mp3"
+    }
+  },
+  {
+    "id": "it_dev_013",
+    "word": "Mi prendo la responsabilità.",
+    "translation": "I take responsibility.",
+    "len": 25,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_013.mp3"
+    }
+  },
+  {
+    "id": "it_dev_014",
+    "word": "La disciplina porta all'obiettivo.",
+    "translation": "Discipline leads to the goal.",
+    "len": 30,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_014.mp3"
+    }
+  },
+  {
+    "id": "it_dev_015",
+    "word": "Sono aperto a nuove idee.",
+    "translation": "I am open to new ideas.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_015.mp3"
+    }
+  },
+  {
+    "id": "it_dev_016",
+    "word": "Non smettere mai di imparare.",
+    "translation": "Never stop learning.",
+    "len": 28,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_016.mp3"
+    }
+  },
+  {
+    "id": "it_dev_017",
+    "word": "Cerco soluzioni.",
+    "translation": "I look for solutions.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_017.mp3"
+    }
+  },
+  {
+    "id": "it_dev_018",
+    "word": "Questa è una sfida per me.",
+    "translation": "This is a challenge for me.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_018.mp3"
+    }
+  },
+  {
+    "id": "it_dev_019",
+    "word": "Valuto il mio progresso.",
+    "translation": "I evaluate my progress.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_019.mp3"
+    }
+  },
+  {
+    "id": "it_dev_020",
+    "word": "Il progresso continuo è importante.",
+    "translation": "Continuous progress is important.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_020.mp3"
+    }
+  },
+  {
+    "id": "it_dev_021",
+    "word": "Rimango motivato.",
+    "translation": "I stay motivated.",
+    "len": 16,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_021.mp3"
+    }
+  },
+  {
+    "id": "it_dev_022",
+    "word": "Ascolto attivamente.",
+    "translation": "I listen actively.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_022.mp3"
+    }
+  },
+  {
+    "id": "it_dev_023",
+    "word": "La conoscenza è potere.",
+    "translation": "Knowledge is power.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_023.mp3"
+    }
+  },
+  {
+    "id": "it_dev_024",
+    "word": "Mi confronto solo con me stesso.",
+    "translation": "I compare myself only with myself.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_024.mp3"
+    }
+  },
+  {
+    "id": "it_dev_025",
+    "word": "Organizzo bene il mio tempo.",
+    "translation": "I organize my time well.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_025.mp3"
+    }
+  },
+  {
+    "id": "it_dev_026",
+    "word": "Rimango positivo.",
+    "translation": "I stay positive.",
+    "len": 16,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_026.mp3"
+    }
+  },
+  {
+    "id": "it_dev_027",
+    "word": "Fare domande aiuta a imparare.",
+    "translation": "Asking questions helps to learn.",
+    "len": 29,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_027.mp3"
+    }
+  },
+  {
+    "id": "it_dev_028",
+    "word": "Stabilisco obiettivi chiari.",
+    "translation": "I set clear goals.",
+    "len": 25,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_028.mp3"
+    }
+  },
+  {
+    "id": "it_dev_029",
+    "word": "Imparo dai miei successi.",
+    "translation": "I learn from my successes.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_029.mp3"
+    }
+  },
+  {
+    "id": "it_dev_030",
+    "word": "Apprezzo il mio tempo.",
+    "translation": "I value my time.",
+    "len": 20,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_030.mp3"
+    }
+  },
+  {
+    "id": "it_dev_031",
+    "word": "La critica mi aiuta a crescere.",
+    "translation": "Criticism helps me grow.",
+    "len": 27,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_031.mp3"
+    }
+  },
+  {
+    "id": "it_dev_032",
+    "word": "Sono pronto a provare cose nuove.",
+    "translation": "I am ready to try new things.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_032.mp3"
+    }
+  },
+  {
+    "id": "it_dev_033",
+    "word": "Non mi arrendo.",
+    "translation": "I do not give up.",
+    "len": 13,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_033.mp3"
+    }
+  },
+  {
+    "id": "it_dev_034",
+    "word": "Analizzo i miei errori.",
+    "translation": "I analyze my mistakes.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_034.mp3"
+    }
+  },
+  {
+    "id": "it_dev_035",
+    "word": "Lavoro in modo strutturato.",
+    "translation": "I work in a structured way.",
+    "len": 25,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_035.mp3"
+    }
+  },
+  {
+    "id": "it_dev_036",
+    "word": "Espando i miei orizzonti.",
+    "translation": "I expand my horizons.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_036.mp3"
+    }
+  },
+  {
+    "id": "it_dev_037",
+    "word": "Sono paziente con me stesso.",
+    "translation": "I am patient with myself.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_037.mp3"
+    }
+  },
+  {
+    "id": "it_dev_038",
+    "word": "Celebro i miei piccoli successi.",
+    "translation": "I celebrate my small successes.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_038.mp3"
+    }
+  },
+  {
+    "id": "it_dev_039",
+    "word": "Mi fido del processo.",
+    "translation": "I trust the process.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_039.mp3"
+    }
+  },
+  {
+    "id": "it_dev_040",
+    "word": "Sono orgoglioso del mio percorso.",
+    "translation": "I am proud of my journey.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_040.mp3"
+    }
+  },
+  {
+    "id": "it_dev_041",
+    "word": "Cerco la conoscenza.",
+    "translation": "I look for knowledge.",
+    "len": 17,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_041.mp3"
+    }
+  },
+  {
+    "id": "it_dev_042",
+    "word": "Sono pronto a imparare.",
+    "translation": "I am ready to learn.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_042.mp3"
+    }
+  },
+  {
+    "id": "it_dev_043",
+    "word": "Metto in dubbio le cose.",
+    "translation": "I question things.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_043.mp3"
+    }
+  },
+  {
+    "id": "it_dev_044",
+    "word": "Cresco attraverso le sfide.",
+    "translation": "I grow through challenges.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_044.mp3"
+    }
+  },
+  {
+    "id": "it_dev_045",
+    "word": "Ho una mentalità chiara.",
+    "translation": "I have a clear mindset.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_045.mp3"
+    }
+  },
+  {
+    "id": "it_dev_046",
+    "word": "Rimango concentrato.",
+    "translation": "I stay focused.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_046.mp3"
+    }
+  },
+  {
+    "id": "it_dev_047",
+    "word": "Imparo dai migliori.",
+    "translation": "I learn from the best.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_047.mp3"
+    }
+  },
+  {
+    "id": "it_dev_048",
+    "word": "Sono uno studente a vita.",
+    "translation": "I am a lifelong learner.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_048.mp3"
+    }
+  },
+  {
+    "id": "it_dev_049",
+    "word": "Rimango calmo nei momenti difficili.",
+    "translation": "I stay calm in difficult times.",
+    "len": 32,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_049.mp3"
+    }
+  },
+  {
+    "id": "it_dev_050",
+    "word": "Stabilisco priorità.",
+    "translation": "I set priorities.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_050.mp3"
+    }
+  },
+  {
+    "id": "it_dev_051",
+    "word": "Approfondisco le mie conoscenze.",
+    "translation": "I deepen my knowledge.",
+    "len": 28,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_051.mp3"
+    }
+  },
+  {
+    "id": "it_dev_052",
+    "word": "Sono grato per le esperienze.",
+    "translation": "I am grateful for the experiences.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_052.mp3"
+    }
+  },
+  {
+    "id": "it_dev_053",
+    "word": "Cerco la verità.",
+    "translation": "I look for the truth.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_053.mp3"
+    }
+  },
+  {
+    "id": "it_dev_054",
+    "word": "Sono il mio motivatore.",
+    "translation": "I am my own motivator.",
+    "len": 22,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_054.mp3"
+    }
+  },
+  {
+    "id": "it_dev_055",
+    "word": "Accetto i cambiamenti.",
+    "translation": "I accept changes.",
+    "len": 20,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_055.mp3"
+    }
+  },
+  {
+    "id": "it_dev_056",
+    "word": "Continuo a formarmi.",
+    "translation": "I keep educating myself.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_056.mp3"
+    }
+  },
+  {
+    "id": "it_dev_057",
+    "word": "Rifletto sul mio comportamento.",
+    "translation": "I reflect on my behavior.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_057.mp3"
+    }
+  },
+  {
+    "id": "it_dev_058",
+    "word": "Apprezzo la diversità.",
+    "translation": "I value diversity.",
+    "len": 20,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_058.mp3"
+    }
+  },
+  {
+    "id": "it_dev_059",
+    "word": "Sono concentrato.",
+    "translation": "I am focused.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_059.mp3"
+    }
+  },
+  {
+    "id": "it_dev_060",
+    "word": "Cresco ogni giorno.",
+    "translation": "I grow every day.",
+    "len": 16,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_060.mp3"
+    }
+  },
+  {
+    "id": "it_dev_061",
+    "word": "Pianifico i miei prossimi passi.",
+    "translation": "I plan my next steps.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_061.mp3"
+    }
+  },
+  {
+    "id": "it_dev_062",
+    "word": "Sono coraggioso.",
+    "translation": "I am brave.",
+    "len": 13,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_062.mp3"
+    }
+  },
+  {
+    "id": "it_dev_063",
+    "word": "Imparo attraverso la pratica.",
+    "translation": "I learn through practice.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_063.mp3"
+    }
+  },
+  {
+    "id": "it_dev_064",
+    "word": "Rimango flessibile.",
+    "translation": "I stay flexible.",
+    "len": 16,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_064.mp3"
+    }
+  },
+  {
+    "id": "it_dev_065",
+    "word": "Ho un obiettivo chiaro.",
+    "translation": "I have a clear goal.",
+    "len": 19,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_065.mp3"
+    }
+  },
+  {
+    "id": "it_dev_066",
+    "word": "Sono aperto ai commenti.",
+    "translation": "I am open to feedback.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_066.mp3"
+    }
+  },
+  {
+    "id": "it_dev_067",
+    "word": "Non perdo di vista l'obiettivo.",
+    "translation": "I don't lose sight of the goal.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_067.mp3"
+    }
+  },
+  {
+    "id": "it_dev_068",
+    "word": "Sono curioso per il futuro.",
+    "translation": "I am curious about the future.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_068.mp3"
+    }
+  },
+  {
+    "id": "it_dev_069",
+    "word": "Sviluppo nuove competenze.",
+    "translation": "I develop new skills.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_069.mp3"
+    }
+  },
+  {
+    "id": "it_dev_070",
+    "word": "Sono persistente.",
+    "translation": "I am persistent.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_070.mp3"
+    }
+  },
+  {
+    "id": "it_dev_071",
+    "word": "Riconosco il mio potenziale.",
+    "translation": "I realize my potential.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_071.mp3"
+    }
+  },
+  {
+    "id": "it_dev_072",
+    "word": "Imparo da chi mi circonda.",
+    "translation": "I learn from those around me.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_072.mp3"
+    }
+  },
+  {
+    "id": "it_dev_073",
+    "word": "Sfrutto ogni opportunità.",
+    "translation": "I take every opportunity.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_073.mp3"
+    }
+  },
+  {
+    "id": "it_dev_074",
+    "word": "Rifletto su ciò che ho imparato.",
+    "translation": "I reflect on what I learned.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_074.mp3"
+    }
+  },
+  {
+    "id": "it_dev_075",
+    "word": "Faccio piccoli passi.",
+    "translation": "I take small steps.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_075.mp3"
+    }
+  },
+  {
+    "id": "it_dev_076",
+    "word": "Sono disciplinato.",
+    "translation": "I am disciplined.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_076.mp3"
+    }
+  },
+  {
+    "id": "it_dev_077",
+    "word": "Scopro nuovi percorsi.",
+    "translation": "I discover new paths.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_077.mp3"
+    }
+  },
+  {
+    "id": "it_dev_078",
+    "word": "Credo nel mio successo.",
+    "translation": "I believe in my success.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_078.mp3"
+    }
+  },
+  {
+    "id": "it_dev_079",
+    "word": "Sono creativo nelle soluzioni.",
+    "translation": "I am creative in solutions.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_079.mp3"
+    }
+  },
+  {
+    "id": "it_dev_080",
+    "word": "Imparo costantemente.",
+    "translation": "I learn constantly.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_080.mp3"
+    }
+  },
+  {
+    "id": "it_dev_081",
+    "word": "Sono aperto ai cambiamenti.",
+    "translation": "I am open to change.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_081.mp3"
+    }
+  },
+  {
+    "id": "it_dev_082",
+    "word": "Affronto le sfide.",
+    "translation": "I face challenges.",
+    "len": 16,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_082.mp3"
+    }
+  },
+  {
+    "id": "it_dev_083",
+    "word": "Apprezzo il processo.",
+    "translation": "I value the process.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_083.mp3"
+    }
+  },
+  {
+    "id": "it_dev_084",
+    "word": "Sono orientato all'obiettivo.",
+    "translation": "I am goal-oriented.",
+    "len": 25,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_084.mp3"
+    }
+  },
+  {
+    "id": "it_dev_085",
+    "word": "Imparo dai miei errori.",
+    "translation": "I learn from my mistakes.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_085.mp3"
+    }
+  },
+  {
+    "id": "it_dev_086",
+    "word": "Costruisco il mio futuro.",
+    "translation": "I build my future.",
+    "len": 22,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_086.mp3"
+    }
+  },
+  {
+    "id": "it_dev_087",
+    "word": "Sono pronto per qualcosa di nuovo.",
+    "translation": "I am ready for something new.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_087.mp3"
+    }
+  },
+  {
+    "id": "it_dev_088",
+    "word": "Uso i miei punti di forza.",
+    "translation": "I use my strengths.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_088.mp3"
+    }
+  },
+  {
+    "id": "it_dev_089",
+    "word": "Imparo tutto il giorno.",
+    "translation": "I learn all day.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_089.mp3"
+    }
+  },
+  {
+    "id": "it_dev_090",
+    "word": "Rimango costante.",
+    "translation": "I remain steady.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_090.mp3"
+    }
+  },
+  {
+    "id": "it_dev_091",
+    "word": "Realizzo il mio potenziale.",
+    "translation": "I realize my potential.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_091.mp3"
+    }
+  },
+  {
+    "id": "it_dev_092",
+    "word": "Sono ottimista.",
+    "translation": "I am optimistic.",
+    "len": 12,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_092.mp3"
+    }
+  },
+  {
+    "id": "it_dev_093",
+    "word": "Imparo velocemente.",
+    "translation": "I learn quickly.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_093.mp3"
+    }
+  },
+  {
+    "id": "it_dev_094",
+    "word": "Dò forma alla mia vita.",
+    "translation": "I shape my life.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_094.mp3"
+    }
+  },
+  {
+    "id": "it_dev_095",
+    "word": "Mi prendo del tempo per pensare.",
+    "translation": "I take time to think.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_095.mp3"
+    }
+  },
+  {
+    "id": "it_dev_096",
+    "word": "Sono di successo.",
+    "translation": "I am successful.",
+    "len": 13,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_096.mp3"
+    }
+  },
+  {
+    "id": "it_dev_097",
+    "word": "Lavoro con disciplina.",
+    "translation": "I work with discipline.",
+    "len": 19,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_097.mp3"
+    }
+  },
+  {
+    "id": "it_dev_098",
+    "word": "Rimango fedele alla mia visione.",
+    "translation": "I stay true to my vision.",
+    "len": 25,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_098.mp3"
+    }
+  },
+  {
+    "id": "it_dev_099",
+    "word": "Imparo ogni momento.",
+    "translation": "I learn every moment.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_099.mp3"
+    }
+  },
+  {
+    "id": "it_dev_100",
+    "word": "Sono pronto a crescere.",
+    "translation": "I am ready to grow.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_100.mp3"
+    }
+  },
+  {
+    "id": "it_trv_001",
+    "word": "Dov'è la stazione ferroviaria?",
+    "translation": "Where is the train station?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_001.mp3"
+    }
+  },
+  {
+    "id": "it_trv_002",
+    "word": "Come arrivo all'hotel?",
+    "translation": "How do I get to the hotel?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_002.mp3"
+    }
+  },
+  {
+    "id": "it_trv_003",
+    "word": "Un biglietto per Berlino, per favore.",
+    "translation": "A ticket to Berlin, please.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_003.mp3"
+    }
+  },
+  {
+    "id": "it_trv_004",
+    "word": "Quando parte il prossimo treno?",
+    "translation": "When does the next train leave?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_004.mp3"
+    }
+  },
+  {
+    "id": "it_trv_005",
+    "word": "Avete una camera libera?",
+    "translation": "Do you have a vacant room?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_005.mp3"
+    }
+  },
+  {
+    "id": "it_trv_006",
+    "word": "Ho una prenotazione.",
+    "translation": "I have a reservation.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_006.mp3"
+    }
+  },
+  {
+    "id": "it_trv_007",
+    "word": "Dov'è la stazione della metropolitana più vicina?",
+    "translation": "Where is the nearest subway station?",
+    "len": 40,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_007.mp3"
+    }
+  },
+  {
+    "id": "it_trv_008",
+    "word": "Quanto costa?",
+    "translation": "How much does it cost?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_008.mp3"
+    }
+  },
+  {
+    "id": "it_trv_009",
+    "word": "Voglio fare il check-in.",
+    "translation": "I want to check in.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_009.mp3"
+    }
+  },
+  {
+    "id": "it_trv_010",
+    "word": "Puoi aiutarmi?",
+    "translation": "Can you help me?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_010.mp3"
+    }
+  },
+  {
+    "id": "it_trv_011",
+    "word": "C'è un ristorante qui vicino?",
+    "translation": "Is there a restaurant nearby?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_011.mp3"
+    }
+  },
+  {
+    "id": "it_trv_012",
+    "word": "Cerco una mappa della città.",
+    "translation": "I am looking for a city map.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_012.mp3"
+    }
+  },
+  {
+    "id": "it_trv_013",
+    "word": "È lontano da qui?",
+    "translation": "Is it far from here?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_013.mp3"
+    }
+  },
+  {
+    "id": "it_trv_014",
+    "word": "Voglio chiamare un taxi.",
+    "translation": "I want to call a taxi.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_014.mp3"
+    }
+  },
+  {
+    "id": "it_trv_015",
+    "word": "Quando apre il museo?",
+    "translation": "When does the museum open?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_015.mp3"
+    }
+  },
+  {
+    "id": "it_trv_016",
+    "word": "Dove posso cambiare valuta?",
+    "translation": "Where can I exchange currency?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_016.mp3"
+    }
+  },
+  {
+    "id": "it_trv_017",
+    "word": "Avete una mappa della città?",
+    "translation": "Do you have a city map?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_017.mp3"
+    }
+  },
+  {
+    "id": "it_trv_018",
+    "word": "È molto bello.",
+    "translation": "It is very beautiful.",
+    "len": 13,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_018.mp3"
+    }
+  },
+  {
+    "id": "it_trv_019",
+    "word": "Un tavolo per due, per favore.",
+    "translation": "A table for two, please.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_019.mp3"
+    }
+  },
+  {
+    "id": "it_trv_020",
+    "word": "Il conto, per favore.",
+    "translation": "The bill, please.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_020.mp3"
+    }
+  },
+  {
+    "id": "it_trv_021",
+    "word": "Dov'è il bagno?",
+    "translation": "Where is the bathroom?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_021.mp3"
+    }
+  },
+  {
+    "id": "it_trv_022",
+    "word": "Sono un turista.",
+    "translation": "I am a tourist.",
+    "len": 13,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_022.mp3"
+    }
+  },
+  {
+    "id": "it_trv_023",
+    "word": "Puoi scattare una foto?",
+    "translation": "Can you take a photo?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_023.mp3"
+    }
+  },
+  {
+    "id": "it_trv_024",
+    "word": "Dov'è l'uscita?",
+    "translation": "Where is the exit?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_024.mp3"
+    }
+  },
+  {
+    "id": "it_trv_025",
+    "word": "Cosa mi consigli?",
+    "translation": "What do you recommend?",
+    "len": 14,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_025.mp3"
+    }
+  },
+  {
+    "id": "it_trv_026",
+    "word": "C'è un biglietto giornaliero?",
+    "translation": "Is there a day ticket?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_026.mp3"
+    }
+  },
+  {
+    "id": "it_trv_027",
+    "word": "Ho bisogno di un cerotto.",
+    "translation": "I need a bandage.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_027.mp3"
+    }
+  },
+  {
+    "id": "it_trv_028",
+    "word": "Buon viaggio!",
+    "translation": "Have a good trip!",
+    "len": 12,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_028.mp3"
+    }
+  },
+  {
+    "id": "it_trv_029",
+    "word": "Come arrivo all'aeroporto?",
+    "translation": "How do I get to the airport?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_029.mp3"
+    }
+  },
+  {
+    "id": "it_trv_030",
+    "word": "Dov'è la fermata?",
+    "translation": "Where is the stop?",
+    "len": 14,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_030.mp3"
+    }
+  },
+  {
+    "id": "it_trv_031",
+    "word": "Ho perso il mio bagaglio.",
+    "translation": "I lost my luggage.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_031.mp3"
+    }
+  },
+  {
+    "id": "it_trv_032",
+    "word": "La colazione è inclusa?",
+    "translation": "Is breakfast included?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_032.mp3"
+    }
+  },
+  {
+    "id": "it_trv_033",
+    "word": "Quando devo fare il check-out?",
+    "translation": "When is check-out time?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_033.mp3"
+    }
+  },
+  {
+    "id": "it_trv_034",
+    "word": "Puoi parlare più forte?",
+    "translation": "Can you speak louder?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_034.mp3"
+    }
+  },
+  {
+    "id": "it_trv_035",
+    "word": "Dov'è il supermercato?",
+    "translation": "Where is the supermarket?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_035.mp3"
+    }
+  },
+  {
+    "id": "it_trv_036",
+    "word": "Voglio noleggiare delle biciclette.",
+    "translation": "I want to rent bicycles.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_036.mp3"
+    }
+  },
+  {
+    "id": "it_trv_037",
+    "word": "C'è il Wi-Fi qui?",
+    "translation": "Is there Wi-Fi here?",
+    "len": 14,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_037.mp3"
+    }
+  },
+  {
+    "id": "it_trv_038",
+    "word": "Questo è un edificio meraviglioso.",
+    "translation": "This is a wonderful building.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_038.mp3"
+    }
+  },
+  {
+    "id": "it_trv_039",
+    "word": "Dov'è l'ufficio turistico?",
+    "translation": "Where is the tourist office?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_039.mp3"
+    }
+  },
+  {
+    "id": "it_trv_040",
+    "word": "Voglio una stanza con vista.",
+    "translation": "I want a room with a view.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_040.mp3"
+    }
+  },
+  {
+    "id": "it_trv_041",
+    "word": "Quanto dura il viaggio?",
+    "translation": "How long is the trip?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_041.mp3"
+    }
+  },
+  {
+    "id": "it_trv_042",
+    "word": "Avete una mappa?",
+    "translation": "Do you have a map?",
+    "len": 14,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_042.mp3"
+    }
+  },
+  {
+    "id": "it_trv_043",
+    "word": "Scusa, cosa hai detto?",
+    "translation": "Excuse me, what did you say?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_043.mp3"
+    }
+  },
+  {
+    "id": "it_trv_044",
+    "word": "Dov'è la farmacia?",
+    "translation": "Where is the pharmacy?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_044.mp3"
+    }
+  },
+  {
+    "id": "it_trv_045",
+    "word": "Voglio visitare questa attrazione.",
+    "translation": "I want to visit this attraction.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_045.mp3"
+    }
+  },
+  {
+    "id": "it_trv_046",
+    "word": "Posso pagare con carta?",
+    "translation": "Can I pay by card?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_046.mp3"
+    }
+  },
+  {
+    "id": "it_trv_047",
+    "word": "È sicuro qui?",
+    "translation": "Is it safe here?",
+    "len": 12,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_047.mp3"
+    }
+  },
+  {
+    "id": "it_trv_048",
+    "word": "Dov'è la banca più vicina?",
+    "translation": "Where is the nearest bank?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_048.mp3"
+    }
+  },
+  {
+    "id": "it_trv_049",
+    "word": "Ci siamo persi.",
+    "translation": "We are lost.",
+    "len": 12,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_049.mp3"
+    }
+  },
+  {
+    "id": "it_trv_050",
+    "word": "Qual è il costo d'ingresso?",
+    "translation": "What is the entry cost?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_050.mp3"
+    }
+  },
+  {
+    "id": "it_trv_051",
+    "word": "Puoi mostrarmelo sulla mappa?",
+    "translation": "Can you show it on the map?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_051.mp3"
+    }
+  },
+  {
+    "id": "it_trv_052",
+    "word": "Dov'è il parcheggio?",
+    "translation": "Where is the parking lot?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_052.mp3"
+    }
+  },
+  {
+    "id": "it_trv_053",
+    "word": "Ho un'allergia.",
+    "translation": "I have an allergy.",
+    "len": 13,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_053.mp3"
+    }
+  },
+  {
+    "id": "it_trv_054",
+    "word": "Dov'è l'ambasciata?",
+    "translation": "Where is the embassy?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_054.mp3"
+    }
+  },
+  {
+    "id": "it_trv_055",
+    "word": "Abbiamo bisogno di aiuto.",
+    "translation": "We need help.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_055.mp3"
+    }
+  },
+  {
+    "id": "it_trv_056",
+    "word": "L'acqua del rubinetto è potabile?",
+    "translation": "Is tap water drinkable?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_056.mp3"
+    }
+  },
+  {
+    "id": "it_trv_057",
+    "word": "Cerco un parco.",
+    "translation": "I am looking for a park.",
+    "len": 12,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_057.mp3"
+    }
+  },
+  {
+    "id": "it_trv_058",
+    "word": "Dov'è la biglietteria?",
+    "translation": "Where is the ticket office?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_058.mp3"
+    }
+  },
+  {
+    "id": "it_trv_059",
+    "word": "Possiamo rimandarlo?",
+    "translation": "Can we postpone it?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_059.mp3"
+    }
+  },
+  {
+    "id": "it_trv_060",
+    "word": "C'è una visita guidata?",
+    "translation": "Is there a guided tour?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_060.mp3"
+    }
+  },
+  {
+    "id": "it_trv_061",
+    "word": "Mi piace questa città.",
+    "translation": "I like this city.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_061.mp3"
+    }
+  },
+  {
+    "id": "it_trv_062",
+    "word": "Dov'è l'ingresso?",
+    "translation": "Where is the entrance?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_062.mp3"
+    }
+  },
+  {
+    "id": "it_trv_063",
+    "word": "Come arrivo a questo museo?",
+    "translation": "How do I get to this museum?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_063.mp3"
+    }
+  },
+  {
+    "id": "it_trv_064",
+    "word": "Avete piatti vegetariani?",
+    "translation": "Do you have vegetarian dishes?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_064.mp3"
+    }
+  },
+  {
+    "id": "it_trv_065",
+    "word": "È la mia prima volta qui.",
+    "translation": "It is my first time here.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_065.mp3"
+    }
+  },
+  {
+    "id": "it_trv_066",
+    "word": "Cosa mi consigli?",
+    "translation": "What do you recommend?",
+    "len": 14,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_066.mp3"
+    }
+  },
+  {
+    "id": "it_trv_067",
+    "word": "Dov'è l'autobus per l'aeroporto?",
+    "translation": "Where is the bus to the airport?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_067.mp3"
+    }
+  },
+  {
+    "id": "it_trv_068",
+    "word": "Ho perso il mio telefono.",
+    "translation": "I lost my phone.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_068.mp3"
+    }
+  },
+  {
+    "id": "it_trv_069",
+    "word": "C'è uno sconto?",
+    "translation": "Is there a discount?",
+    "len": 14,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_069.mp3"
+    }
+  },
+  {
+    "id": "it_trv_070",
+    "word": "Ho bisogno di un taxi per domani.",
+    "translation": "I need a taxi for tomorrow.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_070.mp3"
+    }
+  },
+  {
+    "id": "it_trv_071",
+    "word": "Dov'è l'agenzia di viaggi?",
+    "translation": "Where is the travel agency?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_071.mp3"
+    }
+  },
+  {
+    "id": "it_trv_072",
+    "word": "Questo è molto gustoso.",
+    "translation": "This is very tasty.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_072.mp3"
+    }
+  },
+  {
+    "id": "it_trv_073",
+    "word": "C'è una mappa per la città?",
+    "translation": "Is there a city map?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_073.mp3"
+    }
+  },
+  {
+    "id": "it_trv_074",
+    "word": "Voglio prenotare dei biglietti.",
+    "translation": "I want to book tickets.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_074.mp3"
+    }
+  },
+  {
+    "id": "it_trv_075",
+    "word": "Dov'è l'ingresso della stazione?",
+    "translation": "Where is the station entrance?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_075.mp3"
+    }
+  },
+  {
+    "id": "it_trv_076",
+    "word": "Che ore sono?",
+    "translation": "What time is it?",
+    "len": 14,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_076.mp3"
+    }
+  },
+  {
+    "id": "it_trv_077",
+    "word": "È permesso fumare qui?",
+    "translation": "Is smoking allowed here?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_077.mp3"
+    }
+  },
+  {
+    "id": "it_trv_078",
+    "word": "Cerco un hotel economico.",
+    "translation": "I am looking for a cheap hotel.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_078.mp3"
+    }
+  },
+  {
+    "id": "it_trv_079",
+    "word": "Dov'è l'ufficio postale?",
+    "translation": "Where is the post office?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_079.mp3"
+    }
+  },
+  {
+    "id": "it_trv_080",
+    "word": "L'ingresso è gratuito?",
+    "translation": "Is admission free?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_080.mp3"
+    }
+  },
+  {
+    "id": "it_trv_081",
+    "word": "Voglio saperne di più sulla città.",
+    "translation": "I want to know more about the city.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_081.mp3"
+    }
+  },
+  {
+    "id": "it_trv_082",
+    "word": "Dove posso comprare souvenir?",
+    "translation": "Where can I buy souvenirs?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_082.mp3"
+    }
+  },
+  {
+    "id": "it_trv_083",
+    "word": "Ho bisogno di un medico.",
+    "translation": "I need a doctor.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_083.mp3"
+    }
+  },
+  {
+    "id": "it_trv_084",
+    "word": "Dov'è la polizia?",
+    "translation": "Where is the police?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_084.mp3"
+    }
+  },
+  {
+    "id": "it_trv_085",
+    "word": "Questa è una bella piazza.",
+    "translation": "This is a beautiful square.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_085.mp3"
+    }
+  },
+  {
+    "id": "it_trv_086",
+    "word": "Quando chiude il negozio?",
+    "translation": "When does the shop close?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_086.mp3"
+    }
+  },
+  {
+    "id": "it_trv_087",
+    "word": "Ci sono mezzi pubblici?",
+    "translation": "Is there public transport?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_087.mp3"
+    }
+  },
+  {
+    "id": "it_trv_088",
+    "word": "Voglio noleggiare un'auto.",
+    "translation": "I want to rent a car.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_088.mp3"
+    }
+  },
+  {
+    "id": "it_trv_089",
+    "word": "Puoi aprire la porta?",
+    "translation": "Can you open the door?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_089.mp3"
+    }
+  },
+  {
+    "id": "it_trv_090",
+    "word": "Dov'è il teatro?",
+    "translation": "Where is the theater?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_090.mp3"
+    }
+  },
+  {
+    "id": "it_trv_091",
+    "word": "L'acqua è tiepida.",
+    "translation": "The water is lukewarm.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_091.mp3"
+    }
+  },
+  {
+    "id": "it_trv_092",
+    "word": "C'è una piattaforma panoramica?",
+    "translation": "Is there an observation deck?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_092.mp3"
+    }
+  },
+  {
+    "id": "it_trv_093",
+    "word": "Ho perso l'autobus.",
+    "translation": "I missed the bus.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_093.mp3"
+    }
+  },
+  {
+    "id": "it_trv_094",
+    "word": "Dove posso comprare un biglietto?",
+    "translation": "Where can I buy a ticket?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_094.mp3"
+    }
+  },
+  {
+    "id": "it_trv_095",
+    "word": "È lontano a piedi?",
+    "translation": "Is it far on foot?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_095.mp3"
+    }
+  },
+  {
+    "id": "it_trv_096",
+    "word": "Voglio vedere il centro storico.",
+    "translation": "I want to see the old town.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_096.mp3"
+    }
+  },
+  {
+    "id": "it_trv_097",
+    "word": "Avete posti consigliati?",
+    "translation": "Do you have any recommendations?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_097.mp3"
+    }
+  },
+  {
+    "id": "it_trv_098",
+    "word": "Dove trovo un bancomat?",
+    "translation": "Where can I find an ATM?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_098.mp3"
+    }
+  },
+  {
+    "id": "it_trv_099",
+    "word": "Grazie per il tuo aiuto.",
+    "translation": "Thank you for your help.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_099.mp3"
+    }
+  },
+  {
+    "id": "it_trv_100",
+    "word": "Arrivederci!",
+    "translation": "Goodbye!",
+    "len": 12,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_100.mp3"
+    }
+  },
+  {
+    "id": "it_soc_001",
+    "word": "Ciao!",
+    "translation": "Hello!",
+    "len": 5,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_001.mp3"
+    }
+  },
+  {
+    "id": "it_soc_002",
+    "word": "Buongiorno!",
+    "translation": "Good morning!",
+    "len": 10,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_002.mp3"
+    }
+  },
+  {
+    "id": "it_soc_003",
+    "word": "Buon pomeriggio!",
+    "translation": "Good afternoon!",
+    "len": 16,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_003.mp3"
+    }
+  },
+  {
+    "id": "it_soc_004",
+    "word": "Buonanotte!",
+    "translation": "Good night!",
+    "len": 11,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_004.mp3"
+    }
+  },
+  {
+    "id": "it_soc_005",
+    "word": "Come stai?",
+    "translation": "How are you?",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_005.mp3"
+    }
+  },
+  {
+    "id": "it_soc_006",
+    "word": "Come sta?",
+    "translation": "How are you? (formal)",
+    "len": 9,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_006.mp3"
+    }
+  },
+  {
+    "id": "it_soc_007",
+    "word": "Sto bene, grazie.",
+    "translation": "I'm fine, thanks.",
+    "len": 16,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_007.mp3"
+    }
+  },
+  {
+    "id": "it_soc_008",
+    "word": "E tu?",
+    "translation": "And you?",
+    "len": 6,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_008.mp3"
+    }
+  },
+  {
+    "id": "it_soc_009",
+    "word": "Come ti chiami?",
+    "translation": "What is your name?",
+    "len": 14,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_009.mp3"
+    }
+  },
+  {
+    "id": "it_soc_010",
+    "word": "Mi chiamo...",
+    "translation": "My name is...",
+    "len": 11,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_010.mp3"
+    }
+  },
+  {
+    "id": "it_soc_011",
+    "word": "Piacere di conoscerti.",
+    "translation": "Nice to meet you.",
+    "len": 21,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_011.mp3"
+    }
+  },
+  {
+    "id": "it_soc_012",
+    "word": "Di dove sei?",
+    "translation": "Where are you from?",
+    "len": 12,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_012.mp3"
+    }
+  },
+  {
+    "id": "it_soc_013",
+    "word": "Vengo dalla Turchia.",
+    "translation": "I come from Turkey.",
+    "len": 19,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_013.mp3"
+    }
+  },
+  {
+    "id": "it_soc_014",
+    "word": "Dove abiti?",
+    "translation": "Where do you live?",
+    "len": 11,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_014.mp3"
+    }
+  },
+  {
+    "id": "it_soc_015",
+    "word": "Che lavoro fai?",
+    "translation": "What do you do for a living?",
+    "len": 14,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_015.mp3"
+    }
+  },
+  {
+    "id": "it_soc_016",
+    "word": "Puoi aiutarmi?",
+    "translation": "Can you help me?",
+    "len": 13,
+    "tags": [
+      "social",
+      "help"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_016.mp3"
+    }
+  },
+  {
+    "id": "it_soc_017",
+    "word": "Non capisco.",
+    "translation": "I don't understand.",
+    "len": 11,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_017.mp3"
+    }
+  },
+  {
+    "id": "it_soc_018",
+    "word": "Puoi ripetere?",
+    "translation": "Can you repeat?",
+    "len": 13,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_018.mp3"
+    }
+  },
+  {
+    "id": "it_soc_019",
+    "word": "Parli inglese?",
+    "translation": "Do you speak English?",
+    "len": 13,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_019.mp3"
+    }
+  },
+  {
+    "id": "it_soc_020",
+    "word": "Un poco.",
+    "translation": "A little.",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_020.mp3"
+    }
+  },
+  {
+    "id": "it_soc_021",
+    "word": "Come si dice questo?",
+    "translation": "How do you say this?",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_021.mp3"
+    }
+  },
+  {
+    "id": "it_soc_022",
+    "word": "Cosa significa questo?",
+    "translation": "What does this mean?",
+    "len": 19,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_022.mp3"
+    }
+  },
+  {
+    "id": "it_soc_023",
+    "word": "Sto imparando l'italiano.",
+    "translation": "I am learning Italian.",
+    "len": 23,
+    "tags": [
+      "social",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_023.mp3"
+    }
+  },
+  {
+    "id": "it_soc_024",
+    "word": "Scrivilo per favore.",
+    "translation": "Write it down please.",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_024.mp3"
+    }
+  },
+  {
+    "id": "it_soc_025",
+    "word": "Scusa.",
+    "translation": "Sorry.",
+    "len": 5,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_025.mp3"
+    }
+  },
+  {
+    "id": "it_soc_026",
+    "word": "Nessun problema.",
+    "translation": "No problem.",
+    "len": 15,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_026.mp3"
+    }
+  },
+  {
+    "id": "it_soc_027",
+    "word": "Per favore.",
+    "translation": "Please.",
+    "len": 11,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_027.mp3"
+    }
+  },
+  {
+    "id": "it_soc_028",
+    "word": "Grazie mille.",
+    "translation": "Thank you very much.",
+    "len": 13,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_028.mp3"
+    }
+  },
+  {
+    "id": "it_soc_029",
+    "word": "Grazie.",
+    "translation": "Thank you.",
+    "len": 6,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_029.mp3"
+    }
+  },
+  {
+    "id": "it_soc_030",
+    "word": "Con piacere!",
+    "translation": "With pleasure!",
+    "len": 12,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_030.mp3"
+    }
+  },
+  {
+    "id": "it_soc_031",
+    "word": "Hai tempo?",
+    "translation": "Do you have time?",
+    "len": 10,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_031.mp3"
+    }
+  },
+  {
+    "id": "it_soc_032",
+    "word": "Ti va un caffè?",
+    "translation": "Would you like a coffee?",
+    "len": 13,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_032.mp3"
+    }
+  },
+  {
+    "id": "it_soc_033",
+    "word": "Ho voglia di...",
+    "translation": "I feel like...",
+    "len": 13,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_033.mp3"
+    }
+  },
+  {
+    "id": "it_soc_034",
+    "word": "Quando ci vediamo?",
+    "translation": "When shall we meet?",
+    "len": 16,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_034.mp3"
+    }
+  },
+  {
+    "id": "it_soc_035",
+    "word": "Dove ci vediamo?",
+    "translation": "Where shall we meet?",
+    "len": 15,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_035.mp3"
+    }
+  },
+  {
+    "id": "it_soc_036",
+    "word": "Mi va bene.",
+    "translation": "That works for me.",
+    "len": 10,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_036.mp3"
+    }
+  },
+  {
+    "id": "it_soc_037",
+    "word": "Purtroppo non posso.",
+    "translation": "Unfortunately, I can't.",
+    "len": 18,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_037.mp3"
+    }
+  },
+  {
+    "id": "it_soc_038",
+    "word": "Sei sicuro?",
+    "translation": "Are you sure?",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_038.mp3"
+    }
+  },
+  {
+    "id": "it_soc_039",
+    "word": "Certo!",
+    "translation": "Of course!",
+    "len": 6,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_039.mp3"
+    }
+  },
+  {
+    "id": "it_soc_040",
+    "word": "Forse.",
+    "translation": "Maybe.",
+    "len": 6,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_040.mp3"
+    }
+  },
+  {
+    "id": "it_soc_041",
+    "word": "Hai dei piani?",
+    "translation": "Do you have plans?",
+    "len": 13,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_041.mp3"
+    }
+  },
+  {
+    "id": "it_soc_042",
+    "word": "Vieni anche tu?",
+    "translation": "Are you coming too?",
+    "len": 14,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_042.mp3"
+    }
+  },
+  {
+    "id": "it_soc_043",
+    "word": "Non vedo l'ora.",
+    "translation": "I can't wait.",
+    "len": 14,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_043.mp3"
+    }
+  },
+  {
+    "id": "it_soc_044",
+    "word": "In bocca al lupo!",
+    "translation": "Good luck!",
+    "len": 16,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_044.mp3"
+    }
+  },
+  {
+    "id": "it_soc_045",
+    "word": "Buon appetito!",
+    "translation": "Enjoy your meal!",
+    "len": 14,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_045.mp3"
+    }
+  },
+  {
+    "id": "it_soc_046",
+    "word": "Mi piace molto.",
+    "translation": "I like it a lot.",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_046.mp3"
+    }
+  },
+  {
+    "id": "it_soc_047",
+    "word": "Non mi piace.",
+    "translation": "I don't like it.",
+    "len": 13,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_047.mp3"
+    }
+  },
+  {
+    "id": "it_soc_048",
+    "word": "Ho un'opinione diversa.",
+    "translation": "I have a different opinion.",
+    "len": 20,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_048.mp3"
+    }
+  },
+  {
+    "id": "it_soc_049",
+    "word": "È vero.",
+    "translation": "It is true.",
+    "len": 7,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_049.mp3"
+    }
+  },
+  {
+    "id": "it_soc_050",
+    "word": "Sono d'accordo.",
+    "translation": "I agree.",
+    "len": 13,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_050.mp3"
+    }
+  },
+  {
+    "id": "it_soc_051",
+    "word": "Cosa ne pensi?",
+    "translation": "What do you think?",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_051.mp3"
+    }
+  },
+  {
+    "id": "it_soc_052",
+    "word": "Non ne ho idea.",
+    "translation": "I have no idea.",
+    "len": 15,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_052.mp3"
+    }
+  },
+  {
+    "id": "it_soc_053",
+    "word": "Penso che...",
+    "translation": "I think that...",
+    "len": 11,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_053.mp3"
+    }
+  },
+  {
+    "id": "it_soc_054",
+    "word": "Spero che...",
+    "translation": "I hope that...",
+    "len": 11,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_054.mp3"
+    }
+  },
+  {
+    "id": "it_soc_055",
+    "word": "Buona fortuna!",
+    "translation": "Good luck!",
+    "len": 14,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_055.mp3"
+    }
+  },
+  {
+    "id": "it_soc_056",
+    "word": "Che ore sono?",
+    "translation": "What time is it?",
+    "len": 14,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_056.mp3"
+    }
+  },
+  {
+    "id": "it_soc_057",
+    "word": "Devo andare.",
+    "translation": "I must go.",
+    "len": 12,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_057.mp3"
+    }
+  },
+  {
+    "id": "it_soc_058",
+    "word": "Ci vediamo presto!",
+    "translation": "See you soon!",
+    "len": 17,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_058.mp3"
+    }
+  },
+  {
+    "id": "it_soc_059",
+    "word": "Ci vediamo dopo!",
+    "translation": "See you later!",
+    "len": 15,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_059.mp3"
+    }
+  },
+  {
+    "id": "it_soc_060",
+    "word": "Buona giornata!",
+    "translation": "Have a good day!",
+    "len": 14,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_060.mp3"
+    }
+  },
+  {
+    "id": "it_soc_061",
+    "word": "Buona serata!",
+    "translation": "Have a good evening!",
+    "len": 13,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_061.mp3"
+    }
+  },
+  {
+    "id": "it_soc_062",
+    "word": "Com'è andata la tua giornata?",
+    "translation": "How was your day?",
+    "len": 24,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_062.mp3"
+    }
+  },
+  {
+    "id": "it_soc_063",
+    "word": "Sono stanco.",
+    "translation": "I'm tired.",
+    "len": 12,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_063.mp3"
+    }
+  },
+  {
+    "id": "it_soc_064",
+    "word": "Ho fame.",
+    "translation": "I'm hungry.",
+    "len": 8,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_064.mp3"
+    }
+  },
+  {
+    "id": "it_soc_065",
+    "word": "Abbiamo del caffè?",
+    "translation": "Do we have coffee?",
+    "len": 17,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_065.mp3"
+    }
+  },
+  {
+    "id": "it_soc_066",
+    "word": "Il tempo è bello.",
+    "translation": "The weather is nice.",
+    "len": 15,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_066.mp3"
+    }
+  },
+  {
+    "id": "it_soc_067",
+    "word": "Piove.",
+    "translation": "It is raining.",
+    "len": 6,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_067.mp3"
+    }
+  },
+  {
+    "id": "it_soc_068",
+    "word": "Ho bisogno di calma.",
+    "translation": "I need some quiet.",
+    "len": 20,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_068.mp3"
+    }
+  },
+  {
+    "id": "it_soc_069",
+    "word": "Cosa facciamo stasera?",
+    "translation": "What are we doing tonight?",
+    "len": 21,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_069.mp3"
+    }
+  },
+  {
+    "id": "it_soc_070",
+    "word": "Ti chiamo.",
+    "translation": "I will call you.",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_070.mp3"
+    }
+  },
+  {
+    "id": "it_soc_071",
+    "word": "Va bene.",
+    "translation": "All right.",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_071.mp3"
+    }
+  },
+  {
+    "id": "it_soc_072",
+    "word": "Mi capisci?",
+    "translation": "Do you understand me?",
+    "len": 11,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_072.mp3"
+    }
+  },
+  {
+    "id": "it_soc_073",
+    "word": "Molto gentile da parte tua.",
+    "translation": "Very kind of you.",
+    "len": 23,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_073.mp3"
+    }
+  },
+  {
+    "id": "it_soc_074",
+    "word": "Guarisci presto!",
+    "translation": "Get well soon!",
+    "len": 16,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_074.mp3"
+    }
+  },
+  {
+    "id": "it_soc_075",
+    "word": "Congratulazioni!",
+    "translation": "Congratulations!",
+    "len": 15,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_075.mp3"
+    }
+  },
+  {
+    "id": "it_soc_076",
+    "word": "Scusa.",
+    "translation": "Sorry.",
+    "len": 6,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_076.mp3"
+    }
+  },
+  {
+    "id": "it_soc_077",
+    "word": "Posso chiedere?",
+    "translation": "Can I ask?",
+    "len": 14,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_077.mp3"
+    }
+  },
+  {
+    "id": "it_soc_078",
+    "word": "Suona bene.",
+    "translation": "Sounds good.",
+    "len": 11,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_078.mp3"
+    }
+  },
+  {
+    "id": "it_soc_079",
+    "word": "Non lo so.",
+    "translation": "I don't know.",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_079.mp3"
+    }
+  },
+  {
+    "id": "it_soc_080",
+    "word": "Puoi spiegare?",
+    "translation": "Can you explain?",
+    "len": 13,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_080.mp3"
+    }
+  },
+  {
+    "id": "it_soc_081",
+    "word": "È importante.",
+    "translation": "It is important.",
+    "len": 13,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_081.mp3"
+    }
+  },
+  {
+    "id": "it_soc_082",
+    "word": "Prego?",
+    "translation": "Pardon?",
+    "len": 6,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_082.mp3"
+    }
+  },
+  {
+    "id": "it_soc_083",
+    "word": "Non preoccuparti.",
+    "translation": "Don't worry.",
+    "len": 16,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_083.mp3"
+    }
+  },
+  {
+    "id": "it_soc_084",
+    "word": "Divertiti!",
+    "translation": "Have fun!",
+    "len": 10,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_084.mp3"
+    }
+  },
+  {
+    "id": "it_soc_085",
+    "word": "Ti aspetto.",
+    "translation": "I'm waiting for you.",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_085.mp3"
+    }
+  },
+  {
+    "id": "it_soc_086",
+    "word": "Che è successo?",
+    "translation": "What happened?",
+    "len": 14,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_086.mp3"
+    }
+  },
+  {
+    "id": "it_soc_087",
+    "word": "È divertente.",
+    "translation": "It is funny.",
+    "len": 13,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_087.mp3"
+    }
+  },
+  {
+    "id": "it_soc_088",
+    "word": "Mi manchi.",
+    "translation": "I miss you.",
+    "len": 10,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_088.mp3"
+    }
+  },
+  {
+    "id": "it_soc_089",
+    "word": "Tutto il meglio!",
+    "translation": "All the best!",
+    "len": 16,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_089.mp3"
+    }
+  },
+  {
+    "id": "it_soc_090",
+    "word": "È stato bello vederti.",
+    "translation": "It was nice to see you.",
+    "len": 21,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_090.mp3"
+    }
+  },
+  {
+    "id": "it_soc_091",
+    "word": "Un momento, per favore.",
+    "translation": "One moment, please.",
+    "len": 22,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_091.mp3"
+    }
+  },
+  {
+    "id": "it_soc_092",
+    "word": "Entra!",
+    "translation": "Come in!",
+    "len": 6,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_092.mp3"
+    }
+  },
+  {
+    "id": "it_soc_093",
+    "word": "Siediti.",
+    "translation": "Sit down.",
+    "len": 8,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_093.mp3"
+    }
+  },
+  {
+    "id": "it_soc_094",
+    "word": "Vuoi bere qualcosa?",
+    "translation": "Do you want to drink something?",
+    "len": 19,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_094.mp3"
+    }
+  },
+  {
+    "id": "it_soc_095",
+    "word": "Non mi importa.",
+    "translation": "I don't care.",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_095.mp3"
+    }
+  },
+  {
+    "id": "it_soc_096",
+    "word": "Sono pronto.",
+    "translation": "I am ready.",
+    "len": 12,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_096.mp3"
+    }
+  },
+  {
+    "id": "it_soc_097",
+    "word": "Hai un po' di tempo?",
+    "translation": "Do you have a little time?",
+    "len": 20,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_097.mp3"
+    }
+  },
+  {
+    "id": "it_soc_098",
+    "word": "Questo è nuovo per me.",
+    "translation": "This is new to me.",
+    "len": 22,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_098.mp3"
+    }
+  },
+  {
+    "id": "it_soc_099",
+    "word": "Iniziamo.",
+    "translation": "Let's start.",
+    "len": 9,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_099.mp3"
+    }
+  },
+  {
+    "id": "it_soc_100",
+    "word": "Ci vediamo la prossima volta.",
+    "translation": "See you next time.",
+    "len": 28,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_it/it_biz_100.mp3"
+    }
+  }
+]

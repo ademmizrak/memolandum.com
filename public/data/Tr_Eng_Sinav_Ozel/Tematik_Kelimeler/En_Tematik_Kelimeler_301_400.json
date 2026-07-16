@@ -1,0 +1,702 @@
+[
+  {
+    "id": "dom_301",
+    "word": "pathological",
+    "theme": "Health",
+    "translation": "patolojik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_301_pathological.mp3"
+  },
+  {
+    "id": "dom_302",
+    "word": "prognostic",
+    "theme": "Health",
+    "translation": "öngörüsel",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_302_prognostic.mp3"
+  },
+  {
+    "id": "dom_303",
+    "word": "pediatrician",
+    "theme": "Health",
+    "translation": "çocuk doktoru",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_303_pediatrician.mp3"
+  },
+  {
+    "id": "dom_304",
+    "word": "cardiac",
+    "theme": "Health",
+    "translation": "kalp ile ilgili",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_304_cardiac.mp3"
+  },
+  {
+    "id": "dom_305",
+    "word": "analgesic",
+    "theme": "Health",
+    "translation": "ağrı kesici",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_305_analgesic.mp3"
+  },
+  {
+    "id": "dom_306",
+    "word": "asymptomatic",
+    "theme": "Health",
+    "translation": "belirti göstermeyen",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_306_asymptomatic.mp3"
+  },
+  {
+    "id": "dom_307",
+    "word": "genetics",
+    "theme": "Health",
+    "translation": "genetik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_307_genetics.mp3"
+  },
+  {
+    "id": "dom_308",
+    "word": "sanitary",
+    "theme": "Health",
+    "translation": "sağlık ile ilgili/hijyenik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_308_sanitary.mp3"
+  },
+  {
+    "id": "dom_309",
+    "word": "tuberculosis",
+    "theme": "Health",
+    "translation": "verem",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_309_tuberculosis.mp3"
+  },
+  {
+    "id": "dom_310",
+    "word": "vaccination",
+    "theme": "Health",
+    "translation": "aşılama",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_310_vaccination.mp3"
+  },
+  {
+    "id": "dom_311",
+    "word": "deflation",
+    "theme": "Economy",
+    "translation": "deflasyon",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_311_deflation.mp3"
+  },
+  {
+    "id": "dom_312",
+    "word": "monetary",
+    "theme": "Economy",
+    "translation": "parasal",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_312_monetary.mp3"
+  },
+  {
+    "id": "dom_313",
+    "word": "insolvency",
+    "theme": "Economy",
+    "translation": "ödeme aczi",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_313_insolvency.mp3"
+  },
+  {
+    "id": "dom_314",
+    "word": "microeconomic",
+    "theme": "Economy",
+    "translation": "mikroekonomik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_314_microeconomic.mp3"
+  },
+  {
+    "id": "dom_315",
+    "word": "hyperinflation",
+    "theme": "Economy",
+    "translation": "hiperenflasyon",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_315_hyperinflation.mp3"
+  },
+  {
+    "id": "dom_316",
+    "word": "capitalism",
+    "theme": "Economy",
+    "translation": "kapitalizm",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_316_capitalism.mp3"
+  },
+  {
+    "id": "dom_317",
+    "word": "privatization",
+    "theme": "Economy",
+    "translation": "özelleştirme",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_317_privatization.mp3"
+  },
+  {
+    "id": "dom_318",
+    "word": "stockholder",
+    "theme": "Economy",
+    "translation": "hissedar",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_318_stockholder.mp3"
+  },
+  {
+    "id": "dom_319",
+    "word": "monetary",
+    "theme": "Economy",
+    "translation": "parasal",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_319_monetary.mp3"
+  },
+  {
+    "id": "dom_320",
+    "word": "merchandise",
+    "theme": "Economy",
+    "translation": "ticari mal",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_320_merchandise.mp3"
+  },
+  {
+    "id": "dom_321",
+    "word": "desertification",
+    "theme": "Environment",
+    "translation": "çölleşme",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_321_desertification.mp3"
+  },
+  {
+    "id": "dom_322",
+    "word": "eutrophication",
+    "theme": "Environment",
+    "translation": "ötrofikasyon",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_322_eutrophication.mp3"
+  },
+  {
+    "id": "dom_323",
+    "word": "sustainability",
+    "theme": "Environment",
+    "translation": "sürdürülebilirlik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_323_sustainability.mp3"
+  },
+  {
+    "id": "dom_324",
+    "word": "compost",
+    "theme": "Environment",
+    "translation": "kompost",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_324_compost.mp3"
+  },
+  {
+    "id": "dom_325",
+    "word": "effluent",
+    "theme": "Environment",
+    "translation": "atık su",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_325_effluent.mp3"
+  },
+  {
+    "id": "dom_326",
+    "word": "conservation",
+    "theme": "Environment",
+    "translation": "koruma",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_326_conservation.mp3"
+  },
+  {
+    "id": "dom_327",
+    "word": "reclamation",
+    "theme": "Environment",
+    "translation": "geri kazanım",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_327_reclamation.mp3"
+  },
+  {
+    "id": "dom_328",
+    "word": "ecosystemic",
+    "theme": "Environment",
+    "translation": "ekosistemik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_328_ecosystemic.mp3"
+  },
+  {
+    "id": "dom_329",
+    "word": "unsustainable",
+    "theme": "Environment",
+    "translation": "sürdürülemez",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_329_unsustainable.mp3"
+  },
+  {
+    "id": "dom_330",
+    "word": "overgrazing",
+    "theme": "Environment",
+    "translation": "aşırı otlatma",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_330_overgrazing.mp3"
+  },
+  {
+    "id": "dom_331",
+    "word": "microchip",
+    "theme": "Technology",
+    "translation": "mikroçip",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_331_microchip.mp3"
+  },
+  {
+    "id": "dom_332",
+    "word": "biometric",
+    "theme": "Technology",
+    "translation": "biyometrik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_332_biometric.mp3"
+  },
+  {
+    "id": "dom_333",
+    "word": "virtualize",
+    "theme": "Technology",
+    "translation": "sanallaştırmak",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_333_virtualize.mp3"
+  },
+  {
+    "id": "dom_334",
+    "word": "cybernetic",
+    "theme": "Technology",
+    "translation": "sibernetik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_334_cybernetic.mp3"
+  },
+  {
+    "id": "dom_335",
+    "word": "biotechnology",
+    "theme": "Technology",
+    "translation": "biyoteknoloji",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_335_biotechnology.mp3"
+  },
+  {
+    "id": "dom_336",
+    "word": "technocratic",
+    "theme": "Technology",
+    "translation": "teknokratik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_336_technocratic.mp3"
+  },
+  {
+    "id": "dom_337",
+    "word": "bandwidth",
+    "theme": "Technology",
+    "translation": "bant genişliği",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_337_bandwidth.mp3"
+  },
+  {
+    "id": "dom_338",
+    "word": "computation",
+    "theme": "Technology",
+    "translation": "hesaplama",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_338_computation.mp3"
+  },
+  {
+    "id": "dom_339",
+    "word": "synaptic",
+    "theme": "Technology",
+    "translation": "sinaptik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_339_synaptic.mp3"
+  },
+  {
+    "id": "dom_340",
+    "word": "technophile",
+    "theme": "Technology",
+    "translation": "teknoloji tutkunu",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_340_technophile.mp3"
+  },
+  {
+    "id": "dom_341",
+    "word": "stratified",
+    "theme": "Sociology",
+    "translation": "tabakalaşmış",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_341_stratified.mp3"
+  },
+  {
+    "id": "dom_342",
+    "word": "demographics",
+    "theme": "Sociology",
+    "translation": "demografik özellikler",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_342_demographics.mp3"
+  },
+  {
+    "id": "dom_343",
+    "word": "acculturation",
+    "theme": "Sociology",
+    "translation": "kültürel uyum",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_343_acculturation.mp3"
+  },
+  {
+    "id": "dom_344",
+    "word": "urbanization",
+    "theme": "Sociology",
+    "translation": "kentleşme",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_344_urbanization.mp3"
+  },
+  {
+    "id": "dom_345",
+    "word": "egalitarianism",
+    "theme": "Sociology",
+    "translation": "eşitlikçilik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_345_egalitarianism.mp3"
+  },
+  {
+    "id": "dom_346",
+    "word": "patriarchal",
+    "theme": "Sociology",
+    "translation": "ataerkil",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_346_patriarchal.mp3"
+  },
+  {
+    "id": "dom_347",
+    "word": "xenophobia",
+    "theme": "Sociology",
+    "translation": "yabancı düşmanlığı",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_347_xenophobia.mp3"
+  },
+  {
+    "id": "dom_348",
+    "word": "marginalized",
+    "theme": "Sociology",
+    "translation": "marjinalleşmiş",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_348_marginalized.mp3"
+  },
+  {
+    "id": "dom_349",
+    "word": "sociopolitical",
+    "theme": "Sociology",
+    "translation": "sosyopolitik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_349_sociopolitical.mp3"
+  },
+  {
+    "id": "dom_350",
+    "word": "acculturated",
+    "theme": "Sociology",
+    "translation": "kültüre uyum sağlamış",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_350_acculturated.mp3"
+  },
+  {
+    "id": "dom_351",
+    "word": "anaesthetic",
+    "theme": "Health",
+    "translation": "anestezik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_351_anaesthetic.mp3"
+  },
+  {
+    "id": "dom_352",
+    "word": "neurological",
+    "theme": "Health",
+    "translation": "nörolojik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_352_neurological.mp3"
+  },
+  {
+    "id": "dom_353",
+    "word": "syndrome",
+    "theme": "Health",
+    "translation": "sendrom",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_353_syndrome.mp3"
+  },
+  {
+    "id": "dom_354",
+    "word": "prognosis",
+    "theme": "Health",
+    "translation": "öngörü",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_354_prognosis.mp3"
+  },
+  {
+    "id": "dom_355",
+    "word": "somatic",
+    "theme": "Health",
+    "translation": "bedensel",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_355_somatic.mp3"
+  },
+  {
+    "id": "dom_356",
+    "word": "budget",
+    "theme": "Economy",
+    "translation": "bütçe",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_256_budget.mp3"
+  },
+  {
+    "id": "dom_357",
+    "word": "capitalist",
+    "theme": "Economy",
+    "translation": "kapitalist",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_357_capitalist.mp3"
+  },
+  {
+    "id": "dom_358",
+    "word": "market",
+    "theme": "Economy",
+    "translation": "pazar",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_358_market.mp3"
+  },
+  {
+    "id": "dom_359",
+    "word": "subsidy",
+    "theme": "Economy",
+    "translation": "teşvik/destek",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_359_subsidy.mp3"
+  },
+  {
+    "id": "dom_360",
+    "word": "tariff",
+    "theme": "Economy",
+    "translation": "gümrük vergisi",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_360_tariff.mp3"
+  },
+  {
+    "id": "dom_361",
+    "word": "habitat",
+    "theme": "Environment",
+    "translation": "yaşam alanı",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_361_habitat.mp3"
+  },
+  {
+    "id": "dom_362",
+    "word": "contamination",
+    "theme": "Environment",
+    "translation": "kirlenme",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_362_contamination.mp3"
+  },
+  {
+    "id": "dom_363",
+    "word": "ecology",
+    "theme": "Environment",
+    "translation": "ekoloji",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_363_ecology.mp3"
+  },
+  {
+    "id": "dom_364",
+    "word": "pollutant",
+    "theme": "Environment",
+    "translation": "kirletici",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_364_pollutant.mp3"
+  },
+  {
+    "id": "dom_365",
+    "word": "ozone",
+    "theme": "Environment",
+    "translation": "ozon",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_365_ozone.mp3"
+  },
+  {
+    "id": "dom_366",
+    "word": "interface",
+    "theme": "Technology",
+    "translation": "arayüz",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_366_interface.mp3"
+  },
+  {
+    "id": "dom_367",
+    "word": "binary",
+    "theme": "Technology",
+    "translation": "ikili",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_367_binary.mp3"
+  },
+  {
+    "id": "dom_368",
+    "word": "encryption",
+    "theme": "Technology",
+    "translation": "şifreleme",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_368_encryption.mp3"
+  },
+  {
+    "id": "dom_369",
+    "word": "hardware",
+    "theme": "Technology",
+    "translation": "donanım",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_369_hardware.mp3"
+  },
+  {
+    "id": "dom_370",
+    "word": "database",
+    "theme": "Technology",
+    "translation": "veritabanı",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_370_database.mp3"
+  },
+  {
+    "id": "dom_371",
+    "word": "values",
+    "theme": "Sociology",
+    "translation": "değerler",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_371_values.mp3"
+  },
+  {
+    "id": "dom_372",
+    "word": "status",
+    "theme": "Sociology",
+    "translation": "statü",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_372_status.mp3"
+  },
+  {
+    "id": "dom_373",
+    "word": "interaction",
+    "theme": "Sociology",
+    "translation": "etkileşim",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_373_interaction.mp3"
+  },
+  {
+    "id": "dom_374",
+    "word": "norm",
+    "theme": "Sociology",
+    "translation": "norm/kural",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_374_norm.mp3"
+  },
+  {
+    "id": "dom_375",
+    "word": "class",
+    "theme": "Sociology",
+    "translation": "sınıf",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_375_class.mp3"
+  },
+  {
+    "id": "dom_376",
+    "word": "therapeutic",
+    "theme": "Health",
+    "translation": "terapötik",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_376_therapeutic.mp3"
+  },
+  {
+    "id": "dom_377",
+    "word": "respiratory",
+    "theme": "Health",
+    "translation": "solunumla ilgili",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_377_respiratory.mp3"
+  },
+  {
+    "id": "dom_378",
+    "word": "prophylactic",
+    "theme": "Health",
+    "translation": "koruyucu",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_378_prophylactic.mp3"
+  },
+  {
+    "id": "dom_379",
+    "word": "morbid",
+    "theme": "Health",
+    "translation": "hastalıklı",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_379_morbid.mp3"
+  },
+  {
+    "id": "dom_380",
+    "word": "rehabilitate",
+    "theme": "Health",
+    "translation": "iyileştirmek",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Health/dom_380_rehabilitate.mp3"
+  },
+  {
+    "id": "dom_381",
+    "word": "revenue",
+    "theme": "Economy",
+    "translation": "gelir",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_381_revenue.mp3"
+  },
+  {
+    "id": "dom_382",
+    "word": "equity",
+    "theme": "Economy",
+    "translation": "özsermaye",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_382_equity.mp3"
+  },
+  {
+    "id": "dom_383",
+    "word": "monetary",
+    "theme": "Economy",
+    "translation": "parasal",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_383_monetary.mp3"
+  },
+  {
+    "id": "dom_384",
+    "word": "export",
+    "theme": "Economy",
+    "translation": "ihracat",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_384_export.mp3"
+  },
+  {
+    "id": "dom_385",
+    "word": "import",
+    "theme": "Economy",
+    "translation": "ithalat",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Economy/dom_385_import.mp3"
+  },
+  {
+    "id": "dom_386",
+    "word": "greenhouse",
+    "theme": "Environment",
+    "translation": "sera",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_386_greenhouse.mp3"
+  },
+  {
+    "id": "dom_387",
+    "word": "waste",
+    "theme": "Environment",
+    "translation": "atık",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_387_waste.mp3"
+  },
+  {
+    "id": "dom_388",
+    "word": "fossil",
+    "theme": "Environment",
+    "translation": "fosil",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_288_fossil.mp3"
+  },
+  {
+    "id": "dom_389",
+    "word": "arid",
+    "theme": "Environment",
+    "translation": "kurak",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_389_arid.mp3"
+  },
+  {
+    "id": "dom_390",
+    "word": "degrade",
+    "theme": "Environment",
+    "translation": "bozulmak",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Environment/dom_390_degrade.mp3"
+  },
+  {
+    "id": "dom_391",
+    "word": "automation",
+    "theme": "Technology",
+    "translation": "otomasyon",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_391_automation.mp3"
+  },
+  {
+    "id": "dom_392",
+    "word": "digital",
+    "theme": "Technology",
+    "translation": "dijital",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_392_digital.mp3"
+  },
+  {
+    "id": "dom_393",
+    "word": "cyber",
+    "theme": "Technology",
+    "translation": "siber",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_393_cyber.mp3"
+  },
+  {
+    "id": "dom_394",
+    "word": "device",
+    "theme": "Technology",
+    "translation": "cihaz",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_394_device.mp3"
+  },
+  {
+    "id": "dom_395",
+    "word": "advanced",
+    "theme": "Technology",
+    "translation": "ileri",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Technology/dom_395_advanced.mp3"
+  },
+  {
+    "id": "dom_396",
+    "word": "community",
+    "theme": "Sociology",
+    "translation": "topluluk",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_396_community.mp3"
+  },
+  {
+    "id": "dom_397",
+    "word": "ideology",
+    "theme": "Sociology",
+    "translation": "ideoloji",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_397_ideology.mp3"
+  },
+  {
+    "id": "dom_398",
+    "word": "tradition",
+    "theme": "Sociology",
+    "translation": "gelenek",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_398_tradition.mp3"
+  },
+  {
+    "id": "dom_399",
+    "word": "migration",
+    "theme": "Sociology",
+    "translation": "göç",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_399_migration.mp3"
+  },
+  {
+    "id": "dom_400",
+    "word": "behavior",
+    "theme": "Sociology",
+    "translation": "davranış",
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/audio_thematic/Sociology/dom_400_behavior.mp3"
+  }
+]
