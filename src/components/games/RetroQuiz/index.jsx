@@ -180,21 +180,20 @@ export default function RetroQuiz({
 
     // Canvas targets setup
     const canvas = canvasRef.current;
-    if (canvas) {
-      const laneWidth = canvas.width / 4;
-      entitiesRef.current.targets = choicesList.map((choice, i) => ({
-        value: choice.value,
-        isCorrect: choice.isCorrect,
-        index: i,
-        x: (i + 0.5) * laneWidth,
-        y: entitiesRef.current.spawnY,
-        width: laneWidth * 0.88,
-        height: 42,
-        active: true,
-        isHit: false,
-        hitAnimationTimer: 0
-      }));
-    }
+    const width = canvas && canvas.width ? canvas.width : 600;
+    const laneWidth = width / 4;
+    entitiesRef.current.targets = choicesList.map((choice, i) => ({
+      value: choice.value,
+      isCorrect: choice.isCorrect,
+      index: i,
+      x: (i + 0.5) * laneWidth,
+      y: entitiesRef.current.spawnY,
+      width: laneWidth * 0.88,
+      height: 42,
+      active: true,
+      isHit: false,
+      hitAnimationTimer: 0
+    }));
   }, []);
 
   // Initialize Lesson Words
@@ -448,7 +447,7 @@ export default function RetroQuiz({
       window.removeEventListener('resize', handleResize);
       resizeObserver.disconnect();
     };
-  }, []);
+  }, [isLoading]);
 
   // Shoot trigger
   const spawnLaser = useCallback(() => {
@@ -488,7 +487,7 @@ export default function RetroQuiz({
         
         // Push floating timer value to React state once per second
         const sec = Math.max(0, Math.ceil(state.timeRemaining));
-        setTimeLeft(sec);
+        setTimeLeft(prev => prev !== sec ? sec : prev);
 
         if (state.timeRemaining <= 0) {
           state.timeRemaining = 0;
@@ -721,7 +720,7 @@ export default function RetroQuiz({
     return () => {
       cancelAnimationFrame(animId);
     };
-  }, [activeScreen, generateQuestion, spawnLaser]);
+  }, [isLoading, activeScreen, generateQuestion, spawnLaser]);
 
   // Touch/Mouse move handler (Ship steering)
   const handlePointerMove = (e) => {
