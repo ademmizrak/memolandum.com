@@ -55,6 +55,8 @@ export const useMemolandumStore = create(
       isAuthLoading: true,
       isGuest: true,
       isEmailVerified: false,
+      isPremium: false,
+      translationCount: 0,
 
       setAuthUser: (user) => set({
         uid: user ? user.uid : null,
@@ -338,6 +340,10 @@ export const useMemolandumStore = create(
           console.error("Zustand Avatar Update Error:", error);
         }
       },
+      setPremium: (status) => set({ isPremium: status }),
+      incrementTranslationCount: () => set((state) => ({
+        translationCount: (state.translationCount || 0) + 1
+      })),
     }),
     {
       name: 'memolandum-storage',
@@ -350,6 +356,8 @@ export const useMemolandumStore = create(
         studyProfiles: state.studyProfiles,
         activeStudyProfileId: state.activeStudyProfileId,
         profileStatsMap: state.profileStatsMap,
+        isPremium: state.isPremium,
+        translationCount: state.translationCount,
       }),
     }
   )

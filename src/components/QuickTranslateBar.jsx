@@ -11,6 +11,10 @@ import {
   BookmarkPlus,
   Volume2,
   VolumeX,
+  X,
+  CreditCard,
+  Sparkles,
+  CheckCircle2,
 } from "lucide-react";
 import {
   TRANSLATE_LANGUAGES,
@@ -66,6 +70,50 @@ export default function QuickTranslateBar() {
   const [isSpeaking, setIsSpeaking] = useState(false);
 
   const { addLearnedWords, vocabularyVault } = useMemolandumStore();
+  const isPremium = useMemolandumStore((state) => state.isPremium);
+  const translationCount = useMemolandumStore((state) => state.translationCount) || 0;
+  const incrementTranslationCount = useMemolandumStore((state) => state.incrementTranslationCount);
+  const setPremium = useMemolandumStore((state) => state.setPremium);
+
+  const [showPremiumModal, setShowPremiumModal] = useState(false);
+  const [checkoutProvider, setCheckoutProvider] = useState(null); // null | 'stripe' | 'iyzico'
+  const [paymentStep, setPaymentStep] = useState('select'); // select | form | processing | success
+  const [cardName, setCardName] = useState("");
+  const [cardNumber, setCardNumber] = useState("");
+  const [cardExpiry, setCardExpiry] = useState("");
+  const [cardCvc, setCardCvc] = useState("");
+
+  const isPremiumRef = useRef(isPremium);
+  const translationCountRef = useRef(translationCount);
+
+  useEffect(() => {
+    isPremiumRef.current = isPremium;
+    translationCountRef.current = translationCount;
+  }, [isPremium, translationCount]);
+
+  const handleStartPayment = (provider) => {
+    setCheckoutProvider(provider);
+    setPaymentStep('form');
+  };
+
+  const handleProcessPayment = (e) => {
+    e.preventDefault();
+    setPaymentStep('processing');
+    setTimeout(() => {
+      setPaymentStep('success');
+      setPremium(true);
+    }, 2200);
+  };
+
+  const handleCloseModal = () => {
+    setShowPremiumModal(false);
+    setCheckoutProvider(null);
+    setPaymentStep('select');
+    setCardName("");
+    setCardNumber("");
+    setCardExpiry("");
+    setCardCvc("");
+  };
 
   const mediaRecorderRef = useRef(null);
   const chunksRef = useRef([]);
@@ -95,6 +143,13 @@ export default function QuickTranslateBar() {
     const trimmed = (value || "").trim();
     if (!trimmed || !lang) return;
 
+    if (!isPremiumRef.current && translationCountRef.current >= 10) {
+      setShowPremiumModal(true);
+      setStatus("error");
+      setError("AI Çeviri limitine ulaştınız. Devam etmek için Premium'a yükseltin!");
+      return;
+    }
+
     const reqId = ++requestIdRef.current;
     setStatus("loading");
     setError("");
@@ -102,6 +157,9 @@ export default function QuickTranslateBar() {
     try {
       const result = await translateText(trimmed, lang);
       if (reqId !== requestIdRef.current) return;
+
+      incrementTranslationCount();
+
       setTranslation(result.translation);
       setSourceHint(result.sourceLang || "");
       setVaultState("idle");
@@ -180,6 +238,13 @@ export default function QuickTranslateBar() {
         });
         chunksRef.current = [];
 
+        if (!isPremiumRef.current && translationCountRef.current >= 10) {
+          setShowPremiumModal(true);
+          setStatus("error");
+          setError("Sesli AI Çeviri limitine ulaştınız. Devam etmek için Premium'a yükseltin!");
+          return;
+        }
+
         const reqId = ++requestIdRef.current;
         setStatus("loading");
         setError("");
@@ -187,6 +252,9 @@ export default function QuickTranslateBar() {
         try {
           const result = await translateAudioBlob(blob, targetLang);
           if (reqId !== requestIdRef.current) return;
+
+          incrementTranslationCount();
+
           if (result.transcript) setText(result.transcript);
           setTranslation(result.translation || "");
           setSourceHint(result.sourceLang || "");
@@ -341,6 +409,9 @@ export default function QuickTranslateBar() {
           <div className="qt-label" title="Google Gemini ile anlık çeviri">
             <Languages size={15} strokeWidth={2.2} />
             <span className="qt-label-text">{t("translate.label")}</span>
+            <span className="premium-badge ml-2 px-1.5 py-0.5 rounded text-[9px] font-mono font-bold uppercase tracking-wider">
+              {isPremium ? "⭐ PREMIUM" : `${Math.max(0, 10 - translationCount)}/10 FREE`}
+            </span>
           </div>
 
           <button
@@ -467,6 +538,182 @@ export default function QuickTranslateBar() {
           </div>
         </div>
       </div>
+
+      {showPremiumModal && (
+        <div className="premium-modal-overlay">
+          <div className="premium-modal">
+            <button className="premium-modal-close" onClick={handleCloseModal}>
+              <X size={18} />
+            </button>
+
+            {paymentStep === 'select' && (
+              <div className="premium-modal-content">
+                <div className="premium-modal-header animate-pulse-glow">
+                  <Sparkles className="w-8 h-8 text-amber-400" />
+                  <h2>MEMOLANDUM PREMIUM</h2>
+                  <p>AI Çeviri Limitine Ulaştınız</p>
+                </div>
+                
+                <p className="premium-modal-desc">
+                  Deneme sürümündeki ilk 10 ücretsiz çeviri hakkınızı tamamladınız. 
+                  Devam etmek ve tüm özellikleri sınırsız kullanmak için premium üyeliğe yükseltin.
+                </p>
+
+                <div className="premium-features">
+                  <div className="feature-item">
+                    <span className="bullet">⚡</span>
+                    <div>
+                      <strong>Sınırsız Yapay Zeka Çevirisi</strong>
+                      <p>Gemini destekli anlık ve kesintisiz çeviri motoru</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <span className="bullet">🎙️</span>
+                    <div>
+                      <strong>Sınırsız Sesli Arama & Telaffuz</strong>
+                      <p>Doğal ses algılama ve telaffuz mekanizmaları</p>
+                    </div>
+                  </div>
+                  <div className="feature-item">
+                    <span className="bullet">🎮</span>
+                    <div>
+                      <strong>Reklamsız Arcade Deneyimi</strong>
+                      <p>Kelimeleri kesintisiz, odaklanmış ve akıcı öğrenin</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="premium-pricing-options">
+                  <button 
+                    onClick={() => handleStartPayment('iyzico')}
+                    className="pay-btn iyzico-btn"
+                  >
+                    <span>🇹🇷 iyzico ile Güvenli Öde</span>
+                    <strong>99 TL / Ay</strong>
+                  </button>
+                  <button 
+                    onClick={() => handleStartPayment('stripe')}
+                    className="pay-btn stripe-btn"
+                  >
+                    <span>💳 Stripe ile Güvenli Öde</span>
+                    <strong>$2.99 / Ay</strong>
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {paymentStep === 'form' && (
+              <div className="premium-modal-content">
+                <div className="premium-checkout-header">
+                  <CreditCard className="w-6 h-6 text-cyan-400" />
+                  <h3>{checkoutProvider === 'iyzico' ? 'iyzico Sanal POS' : 'Stripe Secure Checkout'}</h3>
+                  <p className="price">
+                    {checkoutProvider === 'iyzico' ? '99.00 TL / Aylık' : '$2.99 / Monthly'}
+                  </p>
+                </div>
+
+                <form onSubmit={handleProcessPayment} className="checkout-form">
+                  <div className="form-group">
+                    <label>Kart Üzerindeki İsim</label>
+                    <input 
+                      type="text" 
+                      required 
+                      value={cardName} 
+                      onChange={(e) => setCardName(e.target.value)} 
+                      placeholder="John Doe" 
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label>Kart Numarası</label>
+                    <input 
+                      type="text" 
+                      required 
+                      maxLength="19"
+                      value={cardNumber} 
+                      onChange={(e) => {
+                        const val = e.target.value.replace(/\D/g, '').replace(/(\d{4})/g, '$1 ').trim();
+                        setCardNumber(val);
+                      }} 
+                      placeholder="4355 1200 4599 8812" 
+                    />
+                  </div>
+                  <div className="form-row">
+                    <div className="form-group flex-1">
+                      <label>Son Kullanma Tarihi</label>
+                      <input 
+                        type="text" 
+                        required 
+                        maxLength="5"
+                        value={cardExpiry} 
+                        onChange={(e) => {
+                          let val = e.target.value.replace(/\D/g, '');
+                          if (val.length > 2) val = val.slice(0,2) + '/' + val.slice(2);
+                          setCardExpiry(val);
+                        }} 
+                        placeholder="MM/YY" 
+                      />
+                    </div>
+                    <div className="form-group w-24">
+                      <label>CVC</label>
+                      <input 
+                        type="password" 
+                        required 
+                        maxLength="3"
+                        value={cardCvc} 
+                        onChange={(e) => setCardCvc(e.target.value.replace(/\D/g, ''))} 
+                        placeholder="***" 
+                      />
+                    </div>
+                  </div>
+
+                  <div className="checkout-actions">
+                    <button 
+                      type="button" 
+                      onClick={() => setPaymentStep('select')}
+                      className="checkout-back"
+                    >
+                      Geri
+                    </button>
+                    <button type="submit" className="checkout-submit">
+                      Güvenli Öde
+                    </button>
+                  </div>
+                </form>
+              </div>
+            )}
+
+            {paymentStep === 'processing' && (
+              <div className="premium-modal-content flex flex-col items-center py-12 justify-center">
+                <Loader2 className="w-12 h-12 text-cyan-400 animate-spin mb-4" />
+                <h4 className="text-lg font-mono font-bold tracking-wider text-slate-200">
+                  {checkoutProvider === 'iyzico' ? "iyzico POS'a Bağlanılıyor..." : "Stripe POS'a Bağlanılıyor..."}
+                </h4>
+                <p className="text-xs font-mono text-slate-400 mt-2">
+                  Lütfen tarayıcınızı kapatmayın veya yenilemeyin.
+                </p>
+              </div>
+            )}
+
+            {paymentStep === 'success' && (
+              <div className="premium-modal-content flex flex-col items-center text-center py-6 justify-center">
+                <CheckCircle2 className="w-16 h-16 text-emerald-400 animate-bounce mb-4" />
+                <h3 className="text-xl font-mono font-bold text-emerald-400 tracking-widest">
+                  ÖDEME BAŞARILI!
+                </h3>
+                <p className="text-sm font-mono text-slate-300 mt-2 max-w-xs">
+                  Memolandum Premium üyeliğiniz aktif edildi. Tüm limitler kaldırıldı!
+                </p>
+                <button 
+                  onClick={handleCloseModal}
+                  className="checkout-success-btn"
+                >
+                  Kullanmaya Başla 🚀
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       <style
         dangerouslySetInnerHTML={{
@@ -742,6 +989,300 @@ export default function QuickTranslateBar() {
   }
   .qt-action-label { display: none; }
   .qt-inner { padding: 8px 10px 10px; }
+}
+
+.premium-badge {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2) 0%, rgba(217, 70, 239, 0.2) 100%);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #fbbf24;
+  box-shadow: 0 0 6px rgba(245, 158, 11, 0.2);
+}
+
+.premium-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 5, 16, 0.85);
+  backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+
+.premium-modal {
+  background: #0b0f19;
+  border: 1px solid rgba(6, 182, 212, 0.25);
+  border-radius: 16px;
+  width: 100%;
+  max-width: 480px;
+  padding: 32px 24px;
+  position: relative;
+  box-shadow: 0 0 50px rgba(6, 182, 212, 0.15);
+  box-sizing: border-box;
+}
+
+.premium-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.premium-modal-close:hover {
+  color: #f1f5f9;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.premium-modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.premium-modal-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.premium-modal-header h2 {
+  font-family: monospace;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  background: linear-gradient(135deg, #fbbf24 0%, #d946ef 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.premium-modal-header p {
+  color: #f43f5e;
+  font-size: 11px;
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.premium-modal-desc {
+  color: #94a3b8;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+}
+
+.premium-features {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+  background: rgba(15, 23, 42, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.feature-item .bullet {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.feature-item strong {
+  display: block;
+  color: #f1f5f9;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.feature-item p {
+  color: #64748b;
+  font-size: 11px;
+  margin: 0;
+}
+
+.premium-pricing-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pay-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.iyzico-btn {
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  color: #f59e0b;
+}
+
+.iyzico-btn:hover {
+  background: #f59e0b;
+  color: #000000;
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.25);
+}
+
+.stripe-btn {
+  background: rgba(6, 182, 212, 0.08);
+  border: 1px solid rgba(6, 182, 212, 0.35);
+  color: #06b6d4;
+}
+
+.stripe-btn:hover {
+  background: #06b6d4;
+  color: #000000;
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.25);
+}
+
+.premium-checkout-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.premium-checkout-header h3 {
+  font-size: 16px;
+  font-family: monospace;
+  font-weight: bold;
+  color: #f1f5f9;
+  margin: 0;
+}
+
+.premium-checkout-header .price {
+  color: #34d399;
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: bold;
+  margin: 0;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  color: #64748b;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.form-group input {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: #f1f5f9;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  outline: none;
+  font-family: monospace;
+}
+
+.form-group input:focus {
+  border-color: rgba(6, 182, 212, 0.5);
+  box-shadow: 0 0 8px rgba(6, 182, 212, 0.15);
+}
+
+.form-row {
+  display: flex;
+  gap: 12px;
+}
+
+.checkout-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.checkout-back {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: #94a3b8;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.checkout-back:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #f1f5f9;
+}
+
+.checkout-submit {
+  flex: 2;
+  background: #06b6d4;
+  border: none;
+  color: #000000;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.checkout-submit:hover {
+  background: #22d3ee;
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.35);
+}
+
+.checkout-success-btn {
+  background: #10b981;
+  border: none;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: monospace;
+  margin-top: 16px;
+  transition: all 0.2s;
+}
+
+.checkout-success-btn:hover {
+  background: #34d399;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.35);
 }
           `,
         }}
