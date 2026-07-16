@@ -44,3 +44,11 @@ yarn-error.log*
 next-env.d.ts
 
 .fake
+
+# credentials and service account keys
+**/serviceAccountKey.json
+**/google-key.json
+google-key.json
+serviceAccountKey.json
+*.json.key
+secrets/
