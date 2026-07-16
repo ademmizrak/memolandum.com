@@ -159,7 +159,7 @@ export default function AuthProvider({ children }) {
   const isAuthenticated = useMemolandumStore((s) => s.isAuthenticated);
 
   useEffect(() => {
-    if (!isAuthenticated || !uid || !db || !activeStudyProfileId) return undefined;
+    if (!isAuthenticated || !uid || !activeStudyProfileId) return undefined;
     const statsPath = doc(db, 'users', uid, 'profileStats', activeStudyProfileId);
     const unsub = onSnapshot(
       statsPath,
@@ -172,6 +172,22 @@ export default function AuthProvider({ children }) {
     );
     return () => unsub();
   }, [isAuthenticated, uid, activeStudyProfileId, syncGlobalStats]);
+
+  // Düzenli aralıklarla (5 dakikada bir) Firebase Firestore veritabanına otomatik yedekleme yapar
+  useEffect(() => {
+    if (!isAuthenticated || !uid || !auth?.currentUser) return undefined;
+
+    const backupInterval = setInterval(async () => {
+      try {
+        console.log("🔄 Düzenli Firebase yedekleme döngüsü tetiklendi...");
+        await syncUserProgress(auth.currentUser);
+      } catch (err) {
+        console.warn("Düzenli yedekleme başarısız:", err?.message || err);
+      }
+    }, 5 * 60 * 1000); // 5 dakika
+
+    return () => clearInterval(backupInterval);
+  }, [isAuthenticated, uid]);
 
   if (!initialCheckDone || isAuthLoading) {
     return (
