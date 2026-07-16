@@ -81,7 +81,8 @@ export default function RetroQuiz({
     lastShootTime: 0,
     flashRedTimer: 0,
     flashGreenTimer: 0,
-    successTextTimer: 0
+    successTextTimer: 0,
+    isPointerDown: false
   });
 
   // Sound manager lifecycle
@@ -512,9 +513,9 @@ export default function RetroQuiz({
         // Clamp inside canvas bounds
         ship.x = Math.max(25, Math.min(canvas.width - 25, ship.x));
 
-        // 3. Auto firing trigger (Every 400ms)
+        // 3. Firing trigger (Only when holding touch/click, every 300ms)
         const now = Date.now();
-        if (!state.transitioning && now - entities.lastShootTime > 400) {
+        if (!state.transitioning && entities.isPointerDown && now - entities.lastShootTime > 300) {
           spawnLaser();
           entities.lastShootTime = now;
         }
@@ -981,10 +982,20 @@ export default function RetroQuiz({
             className="w-full h-full block touch-none cursor-crosshair"
             onPointerDown={(e) => {
               handleWarmUp();
+              entitiesRef.current.isPointerDown = true;
               handlePointerMove(e);
               spawnLaser();
             }}
             onPointerMove={handlePointerMove}
+            onPointerUp={() => {
+              entitiesRef.current.isPointerDown = false;
+            }}
+            onPointerLeave={() => {
+              entitiesRef.current.isPointerDown = false;
+            }}
+            onPointerCancel={() => {
+              entitiesRef.current.isPointerDown = false;
+            }}
           />
 
           {/* Combo overlay */}
