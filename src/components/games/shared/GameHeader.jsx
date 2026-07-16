@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-import { useMemolandumStore } from '../../../store/useMemolandumStore';
 
 /**
  * GameHeader - Universal responsive HUD for all games
@@ -131,17 +130,8 @@ GameHeader.Controls = function GameHeaderControls({
   isAudioEnabled, onAudioToggle, 
   onPause, pauseId = "hudPauseBtn"
 }) {
-  const { isChallengeMode, toggleChallengeMode } = useMemolandumStore();
-
   return (
     <div className="flex items-center gap-1 sm:gap-2">
-      <button 
-        className={`flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 rounded-lg border transition-all text-xs sm:text-base ${isChallengeMode ? 'bg-amber-600/30 border-amber-500/50 text-amber-400 shadow-[0_0_8px_rgba(245,158,11,0.5)]' : 'bg-slate-800 border-white/5 text-slate-500 hover:text-slate-300'}`}
-        onClick={toggleChallengeMode}
-        title="Challenge Mode"
-      >
-        ⚡
-      </button>
 
       {onFxToggle && (
         <button 
