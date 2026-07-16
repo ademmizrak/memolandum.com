@@ -122,20 +122,35 @@ export default function RootLayout({ children }) {
             __html: `
           // Catch chunk load / script load errors and reload the page automatically to pull the new version
           window.addEventListener('error', function(e) {
-            var target = e.target || e.srcElement;
+            var target = e.target;
             if (target && (target.tagName === 'SCRIPT' || target.tagName === 'LINK')) {
               var src = target.src || target.href;
-              if (src && src.indexOf('_next/static') !== -1) {
-                console.warn('Resource load failed:', src, '- reloading page...');
-                window.location.reload(true);
+              if (typeof src === 'string' && src.indexOf('_next/static') !== -1) {
+                // Prevent infinite reload loops
+                var lastReload = sessionStorage.getItem('last_chunk_reload');
+                var now = Date.now();
+                if (!lastReload || (now - parseInt(lastReload, 10) > 15000)) {
+                  sessionStorage.setItem('last_chunk_reload', String(now));
+                  console.warn('Resource load failed:', src, '- reloading page...');
+                  window.location.reload(true);
+                } else {
+                  console.error('Resource load failed consistently:', src, '- reload loop blocked.');
+                }
               }
             }
           }, true);
 
           window.addEventListener('unhandledrejection', function(e) {
             if (e.reason && (e.reason.name === 'ChunkLoadError' || /loading.*chunk/i.test(e.reason.message || ''))) {
-              console.warn('ChunkLoadError detected - reloading page...');
-              window.location.reload(true);
+              var lastReload = sessionStorage.getItem('last_chunk_reload');
+              var now = Date.now();
+              if (!lastReload || (now - parseInt(lastReload, 10) > 15000)) {
+                sessionStorage.setItem('last_chunk_reload', String(now));
+                console.warn('ChunkLoadError detected - reloading page...');
+                window.location.reload(true);
+              } else {
+                console.error('ChunkLoadError consistently thrown - reload loop blocked.');
+              }
             }
           });
 
