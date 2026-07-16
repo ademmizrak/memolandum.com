@@ -85,6 +85,8 @@ export default function RetroQuiz({
     isPointerDown: false
   });
 
+  const keysPressedRef = useRef({ left: false, right: false, shoot: false });
+
   // Sound manager lifecycle
   useEffect(() => {
     soundManagerRef.current = new SoundManager();
@@ -507,15 +509,24 @@ export default function RetroQuiz({
           }
         }
 
-        // 2. Smoothly steer ship to target coordinates
+        // 2. Smoothly steer ship to target coordinates based on key states
         const ship = entities.ship;
+        const keys = keysPressedRef.current;
+        const speed = 7.5; // Steer speed per frame
+        if (keys.left) {
+          ship.targetX = Math.max(25, ship.targetX - speed);
+        }
+        if (keys.right) {
+          ship.targetX = Math.min(canvas.width - 25, ship.targetX + speed);
+        }
+
         ship.x += (ship.targetX - ship.x) * 0.28;
-        // Clamp inside canvas bounds
         ship.x = Math.max(25, Math.min(canvas.width - 25, ship.x));
 
-        // 3. Firing trigger (Only when holding touch/click, every 300ms)
+        // 3. Firing trigger (Only when holding touch/click or Space/Up key, every 300ms)
         const now = Date.now();
-        if (!state.transitioning && entities.isPointerDown && now - entities.lastShootTime > 300) {
+        const wantsToShoot = entities.isPointerDown || keys.shoot;
+        if (!state.transitioning && wantsToShoot && now - entities.lastShootTime > 300) {
           spawnLaser();
           entities.lastShootTime = now;
         }
@@ -764,24 +775,37 @@ export default function RetroQuiz({
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (activeScreen !== 'playing') return;
-      const ship = entitiesRef.current.ship;
-      const step = 28;
+      const keys = keysPressedRef.current;
 
       if (e.key === 'ArrowLeft' || e.key === 'a') {
-        ship.targetX -= step;
+        keys.left = true;
       } else if (e.key === 'ArrowRight' || e.key === 'd') {
-        ship.targetX += step;
+        keys.right = true;
       } else if (e.key === ' ' || e.key === 'ArrowUp') {
         e.preventDefault();
-        spawnLaser();
+        keys.shoot = true;
+      }
+    };
+
+    const handleKeyUp = (e) => {
+      const keys = keysPressedRef.current;
+
+      if (e.key === 'ArrowLeft' || e.key === 'a') {
+        keys.left = false;
+      } else if (e.key === 'ArrowRight' || e.key === 'd') {
+        keys.right = false;
+      } else if (e.key === ' ' || e.key === 'ArrowUp') {
+        keys.shoot = false;
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('keyup', handleKeyUp);
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('keyup', handleKeyUp);
     };
-  }, [activeScreen, spawnLaser]);
+  }, [activeScreen]);
 
   // Rounded Rect helper
   const drawRoundedRect = (ctx, x, y, width, height, radius, fill, stroke, strokeWidth) => {
