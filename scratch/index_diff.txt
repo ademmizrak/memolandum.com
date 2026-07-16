@@ -1,0 +1,546 @@
+﻿diff --git a/index.html b/index.html
+index d046f9b..dc62cd6 100644
+--- a/index.html
++++ b/index.html
+@@ -890,6 +890,19 @@
+ 
+     const { useState, useEffect } = React;
+ 
++    const ALL_ROOT_LANGUAGES = [
++      { id: 'English', label: '─░ngilizce', flag: '­şç¼­şçğ', desc: 'English' },
++      { id: 'spanish', label: '─░spanyolca', flag: '­şç¬­şç©', desc: 'Spanish' },
++      { id: 'portugal', label: 'Portekizce', flag: '­şçÁ­şç╣', desc: 'Portuguese' },
++      { id: 'Tr_De_Genel', label: 'Almanca', flag: '­şç®­şç¬', desc: 'German' },
++      { id: 'Tr_Fr_Genel', label: 'Frans─▒zca', flag: '­şç½­şçÀ', desc: 'French' },
++      { id: 'Tr_Ita_Genel', label: '─░talyanca', flag: '­şç«­şç╣', desc: 'Italian' },
++      { id: 'Russian', label: 'Rus├ğa', flag: '­şçÀ­şç║', desc: 'Russian' },
++      { id: 'Greek', label: 'Yunanca', flag: '­şç¼­şçÀ', desc: 'Greek' },
++      { id: 'Kore', label: 'Korece', flag: '­şç░­şçÀ', desc: 'Korean' },
++      { id: 'Osm_Tr', label: 'Osmanl─▒ca', flag: '­şô£', desc: 'Osmanl─▒' }
++    ];
++
+     // ----------------------------------------------------
+     // Translation Dictionary & Language Mappings
+     // ----------------------------------------------------
+@@ -1391,14 +1404,22 @@
+ 
+ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, activeShell, setActiveShell, activeCategory, setActiveCategory, setIsDesktopMode, setLanguage, handleLaunchMode }) {
+       const [showContact, setShowContact] = React.useState(false);
+-      const [activeDropdown, setActiveDropdown] = React.useState(false);
++      const [showLangDropdown, setShowLangDropdown] = React.useState(false);
+       
+       const manifest = window.DATA_MANIFEST || { singleLanguages: [], englishCategories: [] };
++
++      // Find active file info
++      const activeFileObj = [
++        ...manifest.singleLanguages.flatMap(l => l.files),
++        ...manifest.englishCategories.flatMap(c => c.files)
++      ].find(f => f.path === activeCategory) || null;
++
+       const currentLanguageObj = manifest.singleLanguages.find(l => l.files.some(f => f.path === activeCategory)) || null;
+-      const currentEngCatObj = manifest.englishCategories.find(c => c.files.some(f => f.path === activeCategory)) || null;
++      const currentLanguageId = currentLanguageObj ? currentLanguageObj.id : 'English';
+ 
+-      const currentLanguage = currentLanguageObj ? currentLanguageObj.id : 'English';
+-      const currentEnglishCategory = currentEngCatObj ? currentEngCatObj.id : (manifest.englishCategories.length > 0 ? manifest.englishCategories[0].id : null);
++      const currentEngCatObj = manifest.englishCategories.find(c => c.files.some(f => f.path === activeCategory)) || null;
++      const currentEnglishCategoryId = currentEngCatObj ? currentEngCatObj.id : (manifest.englishCategories.length > 0 ? manifest.englishCategories[0].id : null);
++      const currentDirection = activeFileObj ? activeFileObj.direction : '';
+ 
+       const handleShellSelect = (shell) => {
+         setActiveShell(shell);
+@@ -1416,13 +1437,27 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
+         }
+       };
+ 
++
++      let directions = [];
+       let activeLevels = [];
+-      if (currentLanguage === 'English') {
+-        const cat = manifest.englishCategories.find(c => c.id === currentEnglishCategory);
++      
++      if (currentLanguageId === 'English') {
++        const cat = manifest.englishCategories.find(c => c.id === currentEnglishCategoryId);
+         if (cat) activeLevels = cat.files;
+       } else {
+-        const lang = manifest.singleLanguages.find(l => l.id === currentLanguage);
+-        if (lang) activeLevels = lang.files;
++        const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
++        if (langObj) {
++          langObj.files.forEach(f => {
++            if (!directions.some(d => d.direction === f.direction)) {
++              directions.push({
++                direction: f.direction,
++                label: f.directionLabel,
++                labelTR: f.directionLabelTR
++              });
++            }
++          });
++          activeLevels = langObj.files.filter(f => f.direction === currentDirection);
++        }
+       }
+ 
+       const shells = [
+@@ -1449,52 +1484,6 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
+               </div>
+               
+               <div className="flex items-center gap-4 flex-grow justify-end">
+-                {/* English Categories Dropdown (Outside overflow-hidden so it drops down fully) */}
+-                <div className="relative shrink-0 z-[100]">
+-                  <button 
+-                    onClick={() => setActiveDropdown(!activeDropdown)} 
+-                    className={`flex items-center gap-2 px-4 py-2 rounded-lg border font-bold transition-colors shadow-[0_0_10px_rgba(6,182,212,0.2)] ${currentLanguage === 'English' ? 'bg-cyan-900/40 border-cyan-500/60 text-cyan-400 hover:bg-cyan-900/60' : 'bg-[#111625] border-gray-700 text-gray-400 hover:text-white hover:border-gray-500'}`}
+-                  >
+-                    <span>­şç¼­şçğ ─░ngilizce {currentLanguage === 'English' && currentEnglishCategory ? `(${manifest.englishCategories.find(c => c.id === currentEnglishCategory)?.label})` : ''}</span>
+-                    <svg className={`w-4 h-4 transition-transform ${activeDropdown ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
+-                  </button>
+-                  
+-                  {activeDropdown && (
+-                    <div className="absolute top-full right-0 mt-2 w-64 bg-[#0f1629] border border-cyan-500/50 rounded-xl shadow-[0_15px_40px_rgba(0,0,0,0.9)] py-2 z-[100] max-h-[70vh] overflow-y-auto custom-scrollbar">
+-                      {manifest.englishCategories.map(cat => (
+-                        <button
+-                          key={cat.id}
+-                          onClick={() => {
+-                            if (cat.files.length > 0) setActiveCategory(cat.files[0].path);
+-                            setActiveDropdown(false);
+-                          }}
+-                          className={`w-full text-left px-4 py-3 text-sm font-bold transition-colors ${currentEnglishCategory === cat.id && currentLanguage === 'English' ? 'bg-cyan-500/20 text-cyan-400 border-l-4 border-cyan-400' : 'text-gray-300 hover:bg-[#111625] hover:text-white'}`}
+-                        >
+-                          {cat.label}
+-                        </button>
+-                      ))}
+-                    </div>
+-                  )}
+-                </div>
+-
+-                {/* Other Languages (Scrollable) */}
+-                <div className="flex items-center gap-2 overflow-x-auto custom-scrollbar max-w-[40vw] pr-2">
+-                  <div className="flex items-center gap-2 bg-[#111625] px-4 py-1.5 rounded-lg border border-gray-800 shrink-0">
+-                    {manifest.singleLanguages.map(lang => (
+-                      <button
+-                        key={lang.id}
+-                        onClick={() => {
+-                          if (lang.files.length > 0) setActiveCategory(lang.files[0].path);
+-                          setActiveDropdown(false);
+-                        }}
+-                        className={`px-3 py-1 rounded text-xs font-bold transition-colors whitespace-nowrap ${currentLanguage === lang.id ? 'bg-emerald-500 text-black shadow-[0_0_8px_rgba(16,185,129,0.4)]' : 'bg-transparent text-gray-400 hover:bg-gray-800 hover:text-gray-200'}`}
+-                      >
+-                        {lang.label}
+-                      </button>
+-                    ))}
+-                  </div>
+-                </div>
+-                
+                 <button
+                   onClick={() => {
+                     if (typeof cleanControlButtons === 'function') cleanControlButtons();
+@@ -1512,20 +1501,130 @@ function DesktopPortal({ language, langPair, setLangPair, toggleLanguage, active
+ 
+           <div className="flex-grow flex flex-row w-full overflow-hidden">
+             
+-            <div className="w-[320px] shrink-0 bg-[#0d1222] border-r border-gray-800 pointer-events-auto overflow-y-auto custom-scrollbar p-6 shadow-[10px_0_30px_rgba(0,0,0,0.5)] z-40 flex flex-col gap-3">
+-              <h3 className="text-xs font-black tracking-widest text-emerald-400 mb-2 uppercase flex items-center gap-2">
+-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+-                E─şitim Seviyeleri
+-              </h3>
+-              {activeLevels.map(lvl => (
++            <div className="w-[320px] shrink-0 bg-[#0d1222] border-r border-gray-800 pointer-events-auto overflow-y-auto custom-scrollbar p-6 shadow-[10px_0_30px_rgba(0,0,0,0.5)] z-40 flex flex-col gap-4">
++              
++              {/* 1. ├û─ŞREN─░LECEK D─░L (Language Selection) */}
++              <div className="relative">
++                <label className="text-[10px] font-black tracking-widest text-emerald-400 uppercase block mb-1.5 flex items-center gap-1.5">
++                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
++                  1. ├û─ŞREN─░LECEK D─░L
++                </label>
+                 <button
+-                  key={lvl.path}
+-                  onClick={() => handleLevelSelect(lvl.path)}
+-                  className={`w-full text-left p-4 rounded-xl border transition-all ${activeCategory === lvl.path ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-[0_0_15px_rgba(16,185,129,0.2)]' : 'bg-[#111625] border-gray-800 text-gray-300 hover:border-emerald-500/30'}`}
++                  onClick={() => setShowLangDropdown(!showLangDropdown)}
++                  className="w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-[#111625] border border-gray-800 text-left font-bold text-xs text-white hover:border-cyan-500/50 transition-colors"
+                 >
+-                  <div className="font-bold text-sm tracking-wide">{lvl.label}</div>
++                  <span className="flex items-center gap-2">
++                    <span className="text-base">{ALL_ROOT_LANGUAGES.find(l => l.id === currentLanguageId)?.flag}</span>
++                    <span>{ALL_ROOT_LANGUAGES.find(l => l.id === currentLanguageId)?.label}</span>
++                  </span>
++                  <svg className={`w-4 h-4 text-cyan-400 transition-transform ${showLangDropdown ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
+                 </button>
+-              ))}
++                
++                {showLangDropdown && (
++                  <div className="absolute top-full left-0 right-0 mt-1 bg-[#0f1629] border border-cyan-500/50 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.8)] py-1.5 z-[110] max-h-[250px] overflow-y-auto custom-scrollbar">
++                    {ALL_ROOT_LANGUAGES.map(lang => (
++                      <button
++                        key={lang.id}
++                        onClick={() => {
++                          let targetPath = '';
++                          if (lang.id === 'English') {
++                            if (manifest.englishCategories.length > 0 && manifest.englishCategories[0].files.length > 0) {
++                              targetPath = manifest.englishCategories[0].files[0].path;
++                            }
++                          } else {
++                            const singleL = manifest.singleLanguages.find(l => l.id === lang.id);
++                            if (singleL && singleL.files.length > 0) {
++                              targetPath = singleL.files[0].path;
++                            }
++                          }
++                          if (targetPath) {
++                            handleLevelSelect(targetPath);
++                          }
++                          setShowLangDropdown(false);
++                        }}
++                        className={`w-full text-left px-3.5 py-2 text-xs font-bold transition-colors flex items-center gap-2.5 ${currentLanguageId === lang.id ? 'bg-cyan-500/10 text-cyan-400 border-l-4 border-cyan-400' : 'text-gray-300 hover:bg-[#111625] hover:text-white'}`}
++                      >
++                        <span className="text-base">{lang.flag}</span>
++                        <span>{lang.label}</span>
++                        <span className="text-[9px] text-gray-500 font-normal ml-auto uppercase tracking-wider">{lang.desc}</span>
++                      </button>
++                    ))}
++                  </div>
++                )}
++              </div>
++
++              {/* 2. ├û─ŞRENME Y├ûN├£ / KATEGOR─░ (Direction / Category Selection) */}
++              {currentLanguageId === 'English' ? (
++                <div>
++                  <label className="text-[10px] font-black tracking-widest text-emerald-400 uppercase block mb-1.5 flex items-center gap-1.5">
++                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
++                    2. KATEGOR─░ SE├ç─░M─░
++                  </label>
++                  <div className="flex flex-col gap-1">
++                    {manifest.englishCategories.map(cat => (
++                      <button
++                        key={cat.id}
++                        onClick={() => {
++                          if (cat.files.length > 0) {
++                            handleLevelSelect(cat.files[0].path);
++                          }
++                        }}
++                        className={`w-full text-left px-3 py-2 rounded-lg border text-xs font-bold transition-all ${currentEnglishCategoryId === cat.id ? 'bg-cyan-500/10 border-cyan-500/50 text-cyan-400 shadow-[0_0_8px_rgba(6,182,212,0.15)]' : 'bg-[#111625] border-gray-800 text-gray-400 hover:border-gray-700 hover:text-gray-200'}`}
++                      >
++                        {cat.label}
++                      </button>
++                    ))}
++                  </div>
++                </div>
++              ) : (
++                directions.length > 0 && (
++                  <div>
++                    <label className="text-[10px] font-black tracking-widest text-emerald-400 uppercase block mb-1.5 flex items-center gap-1.5">
++                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
++                      2. ├û─ŞRENME Y├ûN├£
++                    </label>
++                    <div className="flex flex-col gap-1">
++                      {directions.map(dir => (
++                        <button
++                          key={dir.direction}
++                          onClick={() => {
++                            const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
++                            if (langObj) {
++                              const firstFile = langObj.files.find(f => f.direction === dir.direction);
++                              if (firstFile) {
++                                handleLevelSelect(firstFile.path);
++                              }
++                            }
++                          }}
++                          className={`w-full text-left px-3 py-2 rounded-lg border text-xs font-bold transition-all ${currentDirection === dir.direction ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-[0_0_8px_rgba(16,185,129,0.15)]' : 'bg-[#111625] border-gray-400 hover:border-gray-700 hover:text-gray-200'}`}
++                        >
++                          {language === 'TR' ? dir.labelTR : dir.label}
++                        </button>
++                      ))}
++                    </div>
++                  </div>
++                )
++              )}
++
++              {/* 3. SEV─░YE SE├ç─░M─░ (Levels Selection) */}
++              <div className="flex-grow flex flex-col min-h-0">
++                <label className="text-[10px] font-black tracking-widest text-emerald-400 uppercase block mb-1.5 flex items-center gap-1.5">
++                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
++                  3. SEV─░YE SE├ç─░M─░
++                </label>
++                <div className="flex flex-col gap-1">
++                  {activeLevels.map(lvl => (
++                    <button
++                      key={lvl.path}
++                      onClick={() => handleLevelSelect(lvl.path)}
++                      className={`w-full text-left px-3.5 py-2.5 rounded-xl border transition-all ${activeCategory === lvl.path ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]' : 'bg-[#111625] border-gray-800/80 text-gray-400 hover:border-gray-700 hover:text-gray-200'}`}
++                    >
++                      <div className="font-bold text-xs tracking-wide">{lvl.label}</div>
++                    </button>
++                  ))}
++                </div>
++              </div>
++
+             </div>
+ 
+             <div className="flex-grow relative pointer-events-none">
+@@ -1837,9 +1936,25 @@ function DesktopSidePanel({ language }) {
+       useEffect(() => {
+         const path = window.location.pathname;
+         if (path.startsWith('/kategori/')) {
+-          const urlSlug = path.replace('/kategori/', '').trim();
+-          if (urlSlug) {
+-             let catPath = urlSlug.replace(/-/g, '_');
++          const urlSlug = path.replace('/kategori/', '').trim().toLowerCase();
++          if (urlSlug && window.DATA_MANIFEST) {
++            const allFiles = [
++              ...window.DATA_MANIFEST.singleLanguages.flatMap(l => l.files),
++              ...window.DATA_MANIFEST.englishCategories.flatMap(c => c.files)
++            ];
++            const match = allFiles.find(f => {
++              const s = f.path.replace('.json', '').replace(/\//g, '_').replace(/_/g, '-').toLowerCase();
++              return s === urlSlug;
++            });
++            if (match) {
++              setActiveCategory(match.path);
++              return;
++            }
++          }
++          // Fallback legacy behavior
++          const fallbackSlug = path.replace('/kategori/', '').trim();
++          if (fallbackSlug) {
++             let catPath = fallbackSlug.replace(/-/g, '_');
+              if (catPath.startsWith('sentences_')) {
+                 catPath = catPath.replace('sentences_', 'sentences/');
+              }
+@@ -2423,10 +2538,9 @@ function DesktopSidePanel({ language }) {
+                   {isMuted ? '­şöç' : '­şöè'}
+                 </button>
+ 
+-                      {(() => {
++                {(() => {
+                   const manifest = window.DATA_MANIFEST || { singleLanguages: [], englishCategories: [] };
+                   const currentLanguageObj = manifest.singleLanguages.find(l => l.files.some(f => f.path === activeCategory)) || null;
+-                  const currentEngCatObj = manifest.englishCategories.find(c => c.files.some(f => f.path === activeCategory)) || null;
+ 
+                   return (
+                     <div className="relative">
+@@ -2438,59 +2552,47 @@ function DesktopSidePanel({ language }) {
+                       </button>
+ 
+                       {showLanguageMenu && (
+-                        <div className="absolute right-0 top-10 w-[240px] bg-[#0f1629] border border-cyan-500/50 rounded-xl shadow-[0_0_15px_rgba(6,182,212,0.3)] z-50 overflow-y-auto max-h-[50vh] custom-scrollbar flex flex-col">
+-                          <button 
+-                            onClick={(e) => {
+-                              e.stopPropagation();
+-                              const engList = document.getElementById('mobile-eng-list');
+-                              if (engList) {
+-                                engList.classList.toggle('hidden');
+-                              }
+-                            }}
+-                            className="px-4 py-3 bg-[#111625] border-b border-gray-800 flex justify-between items-center hover:bg-[#181d2e] transition-colors"
+-                          >
+-                            <span className="text-[10px] font-black text-cyan-500 tracking-widest uppercase">­şç¼­şçğ ─░ngilizce {currentEngCatObj ? `(${currentEngCatObj.label})` : ''}</span>
+-                            <svg className="w-4 h-4 text-cyan-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
+-                          </button>
+-                          
+-                          <div id="mobile-eng-list" className="hidden flex-col bg-[#05020a]">
+-                            {manifest.englishCategories.map(cat => (
++                        <div className="absolute right-0 top-10 w-[220px] bg-[#0f1629] border border-cyan-500/50 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.8)] py-1.5 z-50 overflow-y-auto max-h-[50vh] custom-scrollbar flex flex-col">
++                          <div className="px-4 py-2 bg-[#111625] border-b border-gray-800 text-[10px] font-black text-cyan-400 tracking-widest uppercase mb-1">
++                            ├û─ŞREN─░LECEK D─░L SE├ç─░M─░
++                          </div>
++                          {ALL_ROOT_LANGUAGES.map(lang => {
++                            const isSelected = currentLanguageObj ? (currentLanguageObj.id === lang.id) : (lang.id === 'English');
++                            return (
+                               <button 
+-                                key={cat.id}
++                                key={lang.id}
+                                 onClick={() => {
+-                                  if (cat.files.length > 0) setActiveCategory(cat.files[0].path);
++                                  let targetPath = '';
++                                  if (lang.id === 'English') {
++                                    if (manifest.englishCategories.length > 0 && manifest.englishCategories[0].files.length > 0) {
++                                      targetPath = manifest.englishCategories[0].files[0].path;
++                                    }
++                                  } else {
++                                    const singleL = manifest.singleLanguages.find(l => l.id === lang.id);
++                                    if (singleL && singleL.files.length > 0) {
++                                      targetPath = singleL.files[0].path;
++                                    }
++                                  }
++                                  if (targetPath) {
++                                    setActiveCategory(targetPath);
++                                  }
+                                   setShowLanguageMenu(false);
+                                 }} 
+-                                className={`px-4 py-3 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-b border-gray-800/50 ${currentEngCatObj && currentEngCatObj.id === cat.id ? 'text-cyan-300 bg-cyan-900/20 border-l-4 border-cyan-400' : 'text-gray-300'}`}
++                                className={`px-4 py-2.5 text-xs font-bold text-left hover:bg-cyan-900/40 transition-colors border-b border-gray-850 flex items-center gap-2.5 ${isSelected ? 'text-cyan-300 bg-cyan-900/10 border-l-4 border-cyan-400' : 'text-gray-300'}`}
+                               >
+-                                {cat.label}
++                                <span className="text-base">{lang.flag}</span>
++                                <span>{lang.label}</span>
+                               </button>
+-                            ))}
+-                          </div>
+-                          
+-                          <div className="px-4 py-2 bg-[#111625] border-y border-gray-800 text-[10px] font-black text-emerald-500 tracking-widest uppercase mt-1">
+-                            Di─şer Diller
+-                          </div>
+-                          {manifest.singleLanguages.map(lang => (
+-                            <button 
+-                              key={lang.id}
+-                              onClick={() => {
+-                                if (lang.files.length > 0) setActiveCategory(lang.files[0].path);
+-                                setShowLanguageMenu(false);
+-                              }} 
+-                              className={`px-4 py-3 text-xs font-bold text-left hover:bg-emerald-900/40 transition-colors border-b border-gray-800/50 ${currentLanguageObj && currentLanguageObj.id === lang.id ? 'text-emerald-300 bg-emerald-900/20' : 'text-gray-300'}`}
+-                            >
+-                              ­şîÉ {lang.label}
+-                            </button>
+-                          ))}
++                            );
++                          })}
+                         </div>
+                       )}
+                     </div>
+                   );
+                 })()}
+               </div>
+-            </div>
+-          </header>
++              </div>
++            </header>
+ 
+           {/* HOME TAB */}
+           {activeTab === 'home' && (
+@@ -2757,38 +2859,114 @@ function DesktopSidePanel({ language }) {
+                 </div>
+                 {(() => {
+                   const manifest = window.DATA_MANIFEST || { singleLanguages: [], englishCategories: [] };
++                  const activeFileObj = [
++                    ...manifest.singleLanguages.flatMap(l => l.files),
++                    ...manifest.englishCategories.flatMap(c => c.files)
++                  ].find(f => f.path === activeCategory) || null;
++
+                   const currentLanguageObj = manifest.singleLanguages.find(l => l.files.some(f => f.path === activeCategory)) || null;
++                  const currentLanguageId = currentLanguageObj ? currentLanguageObj.id : 'English';
++
+                   const currentEngCatObj = manifest.englishCategories.find(c => c.files.some(f => f.path === activeCategory)) || null;
++                  const currentEnglishCategoryId = currentEngCatObj ? currentEngCatObj.id : (manifest.englishCategories.length > 0 ? manifest.englishCategories[0].id : null);
++                  const currentDirection = activeFileObj ? activeFileObj.direction : '';
+ 
+-                  const currentLanguage = currentLanguageObj ? currentLanguageObj.id : 'English';
+-                  const currentEnglishCategory = currentEngCatObj ? currentEngCatObj.id : (manifest.englishCategories.length > 0 ? manifest.englishCategories[0].id : null);
+-                  
++                  let directions = [];
+                   let activeLevels = [];
+-                  if (currentLanguage === 'English') {
+-                    const cat = manifest.englishCategories.find(c => c.id === currentEnglishCategory);
++                  
++                  if (currentLanguageId === 'English') {
++                    const cat = manifest.englishCategories.find(c => c.id === currentEnglishCategoryId);
+                     if (cat) activeLevels = cat.files;
+                   } else {
+-                    const lang = manifest.singleLanguages.find(l => l.id === currentLanguage);
+-                    if (lang) activeLevels = lang.files;
++                    const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
++                    if (langObj) {
++                      langObj.files.forEach(f => {
++                        if (!directions.some(d => d.direction === f.direction)) {
++                          directions.push({
++                            direction: f.direction,
++                            label: f.directionLabel,
++                            labelTR: f.directionLabelTR
++                          });
++                        }
++                      });
++                      activeLevels = langObj.files.filter(f => f.direction === currentDirection);
++                    }
+                   }
+ 
+                   return (
+-                    <div className="bg-[#111625]/80 border border-gray-800 rounded-xl p-3 h-[250px] overflow-y-auto custom-scrollbar">
+-                      <div className="flex flex-col gap-2">
+-                        {activeLevels.map(lvl => (
+-                          <button
+-                            key={lvl.path}
+-                            onClick={() => {
+-                              setActiveCategory(lvl.path);
+-                              if (typeof window.loadLevel === 'function') {
+-                                window.loadLevel(lvl.path);
+-                              }
+-                            }}
+-                            className={`w-full text-left p-3 rounded-lg border transition-all ${activeCategory === lvl.path ? 'bg-cyan-500/10 border-cyan-500 text-cyan-400 shadow-[0_0_10px_rgba(6,182,212,0.2)]' : 'bg-[#0d1222] border-gray-800 text-gray-300 hover:border-cyan-500/30'}`}
+-                          >
+-                            <div className="font-bold text-xs leading-tight">{lvl.label}</div>
+-                          </button>
+-                        ))}
++                    <div className="flex flex-col gap-3">
++                      {/* Sub-Selector for English categories or SingleLanguage directions */}
++                      {currentLanguageId === 'English' ? (
++                        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 custom-scrollbar scrollable-x" style={{ touchAction: 'pan-x' }}>
++                          {manifest.englishCategories.map(cat => (
++                            <button
++                              key={cat.id}
++                              onClick={() => {
++                                if (cat.files.length > 0) {
++                                  setActiveCategory(cat.files[0].path);
++                                  if (typeof window.loadLevel === 'function') {
++                                    window.loadLevel(cat.files[0].path);
++                                  }
++                                }
++                              }}
++                              className={`px-3 py-1.5 rounded-lg border text-[10px] font-black tracking-wider uppercase transition-all shrink-0 ${currentEnglishCategoryId === cat.id ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300' : 'bg-[#111625] border-gray-800 text-gray-400 hover:text-gray-200'}`}
++                            >
++                              {cat.label}
++                            </button>
++                          ))}
++                        </div>
++                      ) : (
++                        directions.length > 1 && (
++                          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 custom-scrollbar scrollable-x" style={{ touchAction: 'pan-x' }}>
++                            {directions.map(dir => (
++                              <button
++                                key={dir.direction}
++                                onClick={() => {
++                                  const langObj = manifest.singleLanguages.find(l => l.id === currentLanguageId);
++                                  if (langObj) {
++                                    const firstFile = langObj.files.find(f => f.direction === dir.direction);
++                                    if (firstFile) {
++                                      setActiveCategory(firstFile.path);
++                                      if (typeof window.loadLevel === 'function') {
++                                        window.loadLevel(firstFile.path);
++                                      }
++                                    }
++                                  }
++                                }}
++                                className={`px-3 py-1.5 rounded-lg border text-[10px] font-black tracking-wider uppercase transition-all shrink-0 ${currentDirection === dir.direction ? 'bg-emerald-500/20 border-emerald-500 text-emerald-300' : 'bg-[#111625] border-gray-800 text-gray-400 hover:text-gray-200'}`}
++                              >
++                                {language === 'TR' ? dir.labelTR : dir.label}
++                              </button>
++                            ))}
++                          </div>
++                        )
++                      )}
++
++                      {/* Display Info Badge for single direction languages */}
++                      {currentLanguageId !== 'English' && directions.length === 1 && (
++                        <div className="text-[10px] font-bold text-gray-400 bg-gray-900/50 border border-gray-850 px-3 py-1.5 rounded-lg">
++                          ├û─şrenme Y├Ân├╝: <span className="text-emerald-400">{language === 'TR' ? directions[0].labelTR : directions[0].label}</span>
++                        </div>
++                      )}
++
++                      {/* Levels List */}
++                      <div className="bg-[#111625]/80 border border-gray-800 rounded-xl p-3 h-[200px] overflow-y-auto custom-scrollbar">
++                        <div className="flex flex-col gap-2">
++                          {activeLevels.map(lvl => (
++                            <button
++                              key={lvl.path}
++                              onClick={() => {
++                                setActiveCategory(lvl.path);
++                                if (typeof window.loadLevel === 'function') {
++                                  window.loadLevel(lvl.path);
++                                }
++                              }}
++                              className={`w-full text-left p-3 rounded-lg border transition-all ${activeCategory === lvl.path ? 'bg-cyan-500/10 border-cyan-500 text-cyan-400 shadow-[0_0_10px_rgba(6,182,212,0.2)]' : 'bg-[#0d1222] border-gray-800 text-gray-300 hover:border-cyan-500/30'}`}
++                            >
++                              <div className="font-bold text-xs leading-tight">{lvl.label}</div>
++                            </button>
++                          ))}
++                        </div>
+                       </div>
+                     </div>
+                   );

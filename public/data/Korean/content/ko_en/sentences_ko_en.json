@@ -1,0 +1,7002 @@
+[
+  {
+    "id": "kr_sent_001",
+    "word": "기분이 더 나아졌어요.",
+    "latin_okunusu": "Gibuni deo naajyeosseoyo.",
+    "translation": "I feel much better.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_001.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_002",
+    "word": "아예 없는 것보다 나아요.",
+    "latin_okunusu": "Aye eomneun geotboda naayo.",
+    "translation": "Better than nothing.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_002.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_003",
+    "word": "노력해야 해요.",
+    "latin_okunusu": "Noryeokhaeya haeyo.",
+    "translation": "You have to put in the effort.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_003.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_004",
+    "word": "우리는 해낼 수 있어요.",
+    "latin_okunusu": "Urineun haenael su isseoyo.",
+    "translation": "We can do this.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_004.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_005",
+    "word": "제 차가 어디 있죠?",
+    "latin_okunusu": "Je chaga eodi itjyo?",
+    "translation": "Where is my car?",
+    "len": 9,
+    "tags": [
+      "daily",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_005.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_006",
+    "word": "피곤해요.",
+    "latin_okunusu": "Pigonhaeyo.",
+    "translation": "I'm exhausted.",
+    "len": 5,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_006.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_007",
+    "word": "배고파요.",
+    "latin_okunusu": "Baegopayo.",
+    "translation": "I'm hungry.",
+    "len": 5,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_007.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_008",
+    "word": "목말라요.",
+    "latin_okunusu": "Mokmallayo.",
+    "translation": "I'm thirsty.",
+    "len": 5,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_008.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_009",
+    "word": "오늘 날씨가 좋아요.",
+    "latin_okunusu": "Oneul nalssiga joayo.",
+    "translation": "The weather is nice today.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_009.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_010",
+    "word": "이게 뭐예요?",
+    "latin_okunusu": "Ige mwoyeyo?",
+    "translation": "What is this?",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_010.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_011",
+    "word": "잘 모르겠어요.",
+    "latin_okunusu": "Jal moreugesseoyo.",
+    "translation": "I'm not sure.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_011.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_012",
+    "word": "정말 훌륭해요!",
+    "latin_okunusu": "Jeongmal hullyunghaeyo!",
+    "translation": "It's fantastic!",
+    "len": 8,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_012.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_013",
+    "word": "프랑스를 좋아해요.",
+    "latin_okunusu": "Peurangseureul joahaeyo.",
+    "translation": "I love France.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_013.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_014",
+    "word": "몇 시예요?",
+    "latin_okunusu": "Myeot siyeyo?",
+    "translation": "What time is it?",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_014.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_015",
+    "word": "밥 먹을 시간이에요.",
+    "latin_okunusu": "Bap meogeul siganieyo.",
+    "translation": "It's time to eat.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_015.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_016",
+    "word": "여기는 더워요.",
+    "latin_okunusu": "Yeogineun deowoyo.",
+    "translation": "It's hot in here.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_016.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_017",
+    "word": "자고 싶어요.",
+    "latin_okunusu": "Jago sipeoyo.",
+    "translation": "I want to get some sleep.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_017.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_018",
+    "word": "좋은 생각이에요.",
+    "latin_okunusu": "Joeun saenggagieyo.",
+    "translation": "That's a good idea.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_018.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_019",
+    "word": "전혀 아니에요.",
+    "latin_okunusu": "Jeonhyeo anieyo.",
+    "translation": "Not at all.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_019.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_020",
+    "word": "동의해요.",
+    "latin_okunusu": "Donguihaeyo.",
+    "translation": "I agree.",
+    "len": 5,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_020.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_021",
+    "word": "비가 와요.",
+    "latin_okunusu": "Biga wayo.",
+    "translation": "It's raining.",
+    "len": 5,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_021.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_022",
+    "word": "열쇠를 깜빡했어요.",
+    "latin_okunusu": "Yeolsoereul kkamppakhaesseoyo.",
+    "translation": "I forgot my keys.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_022.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_023",
+    "word": "문을 열어줄 수 있어요?",
+    "latin_okunusu": "Muneul yeoreojul su isseoyo?",
+    "translation": "Can you open the door?",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_023.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_024",
+    "word": "너무 더워요.",
+    "latin_okunusu": "Neomu deowoyo.",
+    "translation": "It's way too hot.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_024.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_025",
+    "word": "그게 완벽해요.",
+    "latin_okunusu": "Geuge wanbyeokhaeyo.",
+    "translation": "That's perfect.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_025.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_026",
+    "word": "좋은 하루예요.",
+    "latin_okunusu": "Joeun haruyeyo.",
+    "translation": "Have a great day.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_026.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_027",
+    "word": "밖은 추워요.",
+    "latin_okunusu": "Bakkeun chuwoyo.",
+    "translation": "It's freezing outside.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_027.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_028",
+    "word": "코트를 입으세요.",
+    "latin_okunusu": "Koteureul ibuseyo.",
+    "translation": "Put on a coat.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_028.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_029",
+    "word": "늦었어요.",
+    "latin_okunusu": "Neujeosseoyo.",
+    "translation": "I'm running late.",
+    "len": 5,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_029.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_030",
+    "word": "서두르세요!",
+    "latin_okunusu": "Seodureuseyo!",
+    "translation": "Hurry up!",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_030.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_031",
+    "word": "곧 돌아올게요.",
+    "latin_okunusu": "Got doraolgeyo.",
+    "translation": "I'll be right back.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_031.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_032",
+    "word": "어쩔 수 없어요.",
+    "latin_okunusu": "Eojjeol su eopseoyo.",
+    "translation": "I can't help it.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_032.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_033",
+    "word": "천천히 할게요.",
+    "latin_okunusu": "Cheoncheonhi halgeyo.",
+    "translation": "Take your time.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_033.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_034",
+    "word": "바보 같은 짓 하지 마요.",
+    "latin_okunusu": "Babo gateun jit haji mayo.",
+    "translation": "Don't be silly.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_034.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_035",
+    "word": "전혀 모르겠어요.",
+    "latin_okunusu": "Jeonhyeo moreugesseoyo.",
+    "translation": "I have no idea.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_035.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_036",
+    "word": "무슨 일이에요?",
+    "latin_okunusu": "Museun irieyo?",
+    "translation": "What's going on?",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_036.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_037",
+    "word": "별일 아니에요.",
+    "latin_okunusu": "Byeolil anieyo.",
+    "translation": "It's nothing special.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_037.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_038",
+    "word": "생각해봐야 해요.",
+    "latin_okunusu": "Saenggakhaebwaya haeyo.",
+    "translation": "I need to think about it.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_038.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_039",
+    "word": "오늘이 무슨 요일이죠?",
+    "latin_okunusu": "Oneuri museun yoilijyo?",
+    "translation": "What day is it today?",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_039.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_040",
+    "word": "오늘은 화요일이에요.",
+    "latin_okunusu": "Oneureun hwayoilieyo.",
+    "translation": "It's Tuesday today.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_040.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_041",
+    "word": "물건을 챙기세요.",
+    "latin_okunusu": "Mulgeoneul chaenggiseyo.",
+    "translation": "Don't forget your stuff.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_041.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_042",
+    "word": "비가 올 것 같아요.",
+    "latin_okunusu": "Biga ol geot gatayo.",
+    "translation": "Looks like it's going to rain.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_042.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_043",
+    "word": "우산을 챙기세요.",
+    "latin_okunusu": "Usaneul chaenggiseyo.",
+    "translation": "Take your umbrella.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_043.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_044",
+    "word": "모두 잘되고 있어요.",
+    "latin_okunusu": "Modu jaldoego isseoyo.",
+    "translation": "Everything is under control.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_044.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_045",
+    "word": "자, 가요.",
+    "latin_okunusu": "Ja, gayo.",
+    "translation": "Let's go.",
+    "len": 4,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_045.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_046",
+    "word": "집에 가고 싶어요.",
+    "latin_okunusu": "Jibe gago sipeoyo.",
+    "translation": "I want to go home.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_046.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_047",
+    "word": "일어날 시간이에요.",
+    "latin_okunusu": "Ireonal siganieyo.",
+    "translation": "Time to get up.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_047.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_048",
+    "word": "정말 좋은 날이네요!",
+    "latin_okunusu": "Jeongmal joeun narineyo!",
+    "translation": "What a beautiful day!",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_048.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_049",
+    "word": "제가 원하는 건 이게 다예요.",
+    "latin_okunusu": "Jega wonhaneun geon ige dayeyo.",
+    "translation": "That's all I want.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_049.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_050",
+    "word": "이게 전부예요.",
+    "latin_okunusu": "Ige jeonbuyeyo.",
+    "translation": "That's everything.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_050.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_051",
+    "word": "준비됐어요.",
+    "latin_okunusu": "Junbidaesseoyo.",
+    "translation": "I'm ready.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_051.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_052",
+    "word": "여기서 기다려주세요.",
+    "latin_okunusu": "Yeogiseo gidaryeojuseyo.",
+    "translation": "Please wait here.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_052.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_053",
+    "word": "이건 정말 중요해요.",
+    "latin_okunusu": "Igeon jeongmal jungyohaeyo.",
+    "translation": "This is really important.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_053.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_054",
+    "word": "조용히 하세요.",
+    "latin_okunusu": "Joyonghi haseyo.",
+    "translation": "Be quiet, please.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_054.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_055",
+    "word": "창문을 여세요.",
+    "latin_okunusu": "Changmuneul yeoseyo.",
+    "translation": "Open the window.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_055.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_056",
+    "word": "문을 닫으세요.",
+    "latin_okunusu": "Muneul dadeuseyo.",
+    "translation": "Close the door.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_056.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_057",
+    "word": "불을 켜세요.",
+    "latin_okunusu": "Bureul kyeoseyo.",
+    "translation": "Turn on the light.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_057.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_058",
+    "word": "텔레비전을 끄세요.",
+    "latin_okunusu": "Tellebijeoneul kkeuseyo.",
+    "translation": "Turn off the TV.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_058.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_059",
+    "word": "조용함이 필요해요.",
+    "latin_okunusu": "Joyonghami piryohaeyo.",
+    "translation": "I need some quiet.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_059.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_060",
+    "word": "재택근무 중이에요.",
+    "latin_okunusu": "Jaetaekgeunmu jungieyo.",
+    "translation": "I'm working from home.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_060.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_061",
+    "word": "제 휴대폰이 어디 있죠?",
+    "latin_okunusu": "Je hyudaeponi eodi itjyo?",
+    "translation": "Where's my phone?",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_061.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_062",
+    "word": "탁자 위에 있어요.",
+    "latin_okunusu": "Takja wie isseoyo.",
+    "translation": "It's on the table.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_062.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_063",
+    "word": "배우고 싶어 죽겠어요.",
+    "latin_okunusu": "Baeugo sipeo jukgesseoyo.",
+    "translation": "I'm dying to learn.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_063.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_064",
+    "word": "커피가 준비됐어요.",
+    "latin_okunusu": "Keopiga junbidaesseoyo.",
+    "translation": "Coffee's ready.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_064.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_065",
+    "word": "아주 좋아요.",
+    "latin_okunusu": "Aju joayo.",
+    "translation": "That's great.",
+    "len": 5,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_065.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_066",
+    "word": "설탕을 넣을까요?",
+    "latin_okunusu": "Seoltangeul neoeulkkayo?",
+    "translation": "Do you want some sugar?",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_066.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_067",
+    "word": "아니요, 괜찮아요.",
+    "latin_okunusu": "Aniyo, gwaenchanayo.",
+    "translation": "No, I'm good.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_067.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_068",
+    "word": "이 정도면 충분해요.",
+    "latin_okunusu": "I jeongdomyeon chungbunhaeyo.",
+    "translation": "This is enough.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_068.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_069",
+    "word": "일이 정말 많아요.",
+    "latin_okunusu": "Iri jeongmal manayo.",
+    "translation": "I have so much work.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_069.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_070",
+    "word": "서둘러야 해요.",
+    "latin_okunusu": "Seodulleoya haeyo.",
+    "translation": "I'm in a rush.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_070.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_071",
+    "word": "나중에 봐요.",
+    "latin_okunusu": "Najunge bwayo.",
+    "translation": "See you later.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_071.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_072",
+    "word": "좋은 하루 보내세요.",
+    "latin_okunusu": "Joeun haru bonaeseyo.",
+    "translation": "Have a nice day.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_072.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_073",
+    "word": "내일 아침에 봐요.",
+    "latin_okunusu": "Naeil achime bwayo.",
+    "translation": "See you tomorrow morning.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_073.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_074",
+    "word": "좋은 꿈 꾸세요.",
+    "latin_okunusu": "Joeun kkum kkuseyo.",
+    "translation": "Sweet dreams.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_074.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_075",
+    "word": "잘 자요, 내일 봐요.",
+    "latin_okunusu": "Jal jayo, naeil bwayo.",
+    "translation": "Good night, see you tomorrow.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_075.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_076",
+    "word": "정말 좋은 날이네요.",
+    "latin_okunusu": "Jeongmal joeun narineyo.",
+    "translation": "It's a lovely day.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_076.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_077",
+    "word": "즐겨봅시다.",
+    "latin_okunusu": "Jeulgyeobopsida.",
+    "translation": "Let's enjoy this.",
+    "len": 5,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_077.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_078",
+    "word": "사는 게 다 그렇죠.",
+    "latin_okunusu": "Saneun ge da geureochyo.",
+    "translation": "That's life.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_078.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_079",
+    "word": "모든 게 가능해요.",
+    "latin_okunusu": "Modeun ge ganeunghaeyo.",
+    "translation": "Anything is possible.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_079.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_080",
+    "word": "희망을 잃지 마세요.",
+    "latin_okunusu": "Huimangeul ilchi maseyo.",
+    "translation": "Don't lose hope.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_080.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_081",
+    "word": "긍정적으로 생각하세요.",
+    "latin_okunusu": "Geungjeongjeogeuro saenggakhaseyo.",
+    "translation": "Stay positive.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_081.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_082",
+    "word": "모두 잘 될 거예요.",
+    "latin_okunusu": "Modu jal doel geoyeyo.",
+    "translation": "Everything will be fine.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_082.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_083",
+    "word": "당신을 믿어요.",
+    "latin_okunusu": "Dangsineul mideoyo.",
+    "translation": "I believe in you.",
+    "len": 6,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_083.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_084",
+    "word": "당신은 제 친구예요.",
+    "latin_okunusu": "Dangsineun je chinguyeyo.",
+    "translation": "You're my friend.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_084.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_085",
+    "word": "우리는 함께예요.",
+    "latin_okunusu": "Urineun hamkkeyeyo.",
+    "translation": "We're in this together.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_085.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_086",
+    "word": "최고예요.",
+    "latin_okunusu": "Choegoyeyo.",
+    "translation": "You're the best.",
+    "len": 4,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_086.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_087",
+    "word": "이게 마음에 들어요.",
+    "latin_okunusu": "Ige maeume deureoyo.",
+    "translation": "I like this.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_087.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_088",
+    "word": "좋은 시작이에요.",
+    "latin_okunusu": "Joeun sijagieyo.",
+    "translation": "It's a good start.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_088.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_089",
+    "word": "계속 배우고 있어요.",
+    "latin_okunusu": "Gyesok baeugo isseoyo.",
+    "translation": "I'm still learning.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_089.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_090",
+    "word": "이건 제 열정이에요.",
+    "latin_okunusu": "Igeon je yeoljeongieyo.",
+    "translation": "This is my passion.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_090.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_091",
+    "word": "도전을 좋아해요.",
+    "latin_okunusu": "Dojeoneul joahaeyo.",
+    "translation": "I love a challenge.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_091.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_092",
+    "word": "절대 포기하지 않아요.",
+    "latin_okunusu": "Jeoldae pogihaji anayo.",
+    "translation": "Never give up.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_092.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_093",
+    "word": "중요한 단계예요.",
+    "latin_okunusu": "Jungyohan dangyeyeyo.",
+    "translation": "It's an important step.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_093.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_094",
+    "word": "이 프로젝트가 자랑스러워요.",
+    "latin_okunusu": "I peurojekteuga jarangseureowoyo.",
+    "translation": "I'm proud of this project.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_094.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_095",
+    "word": "이건 팀워크예요.",
+    "latin_okunusu": "Igeon timwokeuyeyo.",
+    "translation": "This is teamwork.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_095.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_096",
+    "word": "모두에게 감사드려요.",
+    "latin_okunusu": "Moduege gamsadeuryeoyo.",
+    "translation": "Thanks to everyone.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_096.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_097",
+    "word": "이대로 계속해요.",
+    "latin_okunusu": "Idaero gyesokhaeyo.",
+    "translation": "Keep it up.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_097.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_098",
+    "word": "시작합시다!",
+    "latin_okunusu": "Sijakhapsida!",
+    "translation": "Let's get started!",
+    "len": 5,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_098.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_099",
+    "word": "방이 깨끗해요.",
+    "latin_okunusu": "Bangi kkaekkeuthaeyo.",
+    "translation": "The room is clean.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_099.mp3"
+    }
+  },
+  {
+    "id": "kr_sent_100",
+    "word": "요리하는 걸 좋아해요.",
+    "latin_okunusu": "Yorihaneun geol joahaeyo.",
+    "translation": "I enjoy cooking.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "kr_biz_001",
+    "word": "안녕하세요, 무엇을 도와드릴까요?",
+    "latin_okunusu": "Annyeonghaseyo, mueoseul dowadeurilkkayo?",
+    "translation": "Hello, how can I help you?",
+    "len": 15,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_001.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_002",
+    "word": "미팅을 잡고 싶습니다.",
+    "latin_okunusu": "Mitingeul japgo sipseumnida.",
+    "translation": "I would like to schedule a meeting.",
+    "len": 11,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_002.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_003",
+    "word": "월요일에 시간 괜찮으세요?",
+    "latin_okunusu": "Woryoire sigan gwaenchan-euseyo?",
+    "translation": "Are you available on Monday?",
+    "len": 12,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_003.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_004",
+    "word": "회의를 연기해야 합니다.",
+    "latin_okunusu": "Hoe-ireul yeongihaeya hamnida.",
+    "translation": "We need to postpone the meeting.",
+    "len": 10,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_004.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_005",
+    "word": "김 부장님께 연결해 주시겠어요?",
+    "latin_okunusu": "Kim bujangnimkke yeongyeolhae jusigesseoyo?",
+    "translation": "Could you put me through to Manager Kim?",
+    "len": 15,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_005.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_006",
+    "word": "프로젝트 건으로 연락드렸습니다.",
+    "latin_okunusu": "Peurojekteu geoneuro yeollakdeuryeotseumnida.",
+    "translation": "I'm calling regarding the project.",
+    "len": 14,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_006.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_007",
+    "word": "이메일 주셔서 감사합니다.",
+    "latin_okunusu": "Imeil jusyeoseo gamsahamnida.",
+    "translation": "Thank you for your email.",
+    "len": 11,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_007.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_008",
+    "word": "관련 서류를 첨부합니다.",
+    "latin_okunusu": "Gwallyeon seoryureul cheombuhamnida.",
+    "translation": "I've attached the relevant documents.",
+    "len": 10,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_008.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_009",
+    "word": "이것을 확인해 주실 수 있나요?",
+    "latin_okunusu": "Igeoseul hwaginhae jusil su innayo?",
+    "translation": "Could you please confirm this?",
+    "len": 13,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_009.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_010",
+    "word": "곧 연락드리겠습니다.",
+    "latin_okunusu": "Got yeollakdeurigesseumnida.",
+    "translation": "I will get back to you shortly.",
+    "len": 9,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_010.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_011",
+    "word": "현재 진행 상황은 어떤가요?",
+    "latin_okunusu": "Hyeonjae jinhaeng sanghwang-eun eotteongayo?",
+    "translation": "What is the current status?",
+    "len": 12,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_011.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_012",
+    "word": "마감 기한을 지켜야 합니다.",
+    "latin_okunusu": "Magam gihaneul jikyeoya hamnida.",
+    "translation": "We must meet the deadline.",
+    "len": 11,
+    "tags": [
+      "business",
+      "deadline"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_012.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_013",
+    "word": "좋은 제안 있으신가요?",
+    "latin_okunusu": "Joeun je-an isseusingayo?",
+    "translation": "Do you have any suggestions?",
+    "len": 10,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_013.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_014",
+    "word": "전적으로 동의합니다.",
+    "latin_okunusu": "Jeonjeogeuro dong-uihamnida.",
+    "translation": "I fully agree with you.",
+    "len": 9,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_014.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_015",
+    "word": "좋은 접근 방식이네요.",
+    "latin_okunusu": "Joeun jeopgeun bangsigineyo.",
+    "translation": "That's a good approach.",
+    "len": 10,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_015.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_016",
+    "word": "시스템에 문제가 생겼습니다.",
+    "latin_okunusu": "Siseuteme munjega saenggyeotseumnida.",
+    "translation": "We are having issues with the system.",
+    "len": 12,
+    "tags": [
+      "business",
+      "issue"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_016.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_017",
+    "word": "전화로 말씀 나눌 수 있을까요?",
+    "latin_okunusu": "Jeonhwaro malsseum nanul su isseulkkayo?",
+    "translation": "Can we discuss this over the phone?",
+    "len": 14,
+    "tags": [
+      "business",
+      "call"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_017.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_018",
+    "word": "예산이 제한적입니다.",
+    "latin_okunusu": "Yesani jehanjeogimnida.",
+    "translation": "The budget is limited.",
+    "len": 9,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_018.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_019",
+    "word": "해결책을 찾고 있습니다.",
+    "latin_okunusu": "Haegyeolchaegeul chatgo isseumnida.",
+    "translation": "We are looking for a solution.",
+    "len": 11,
+    "tags": [
+      "business",
+      "problem-solving"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_019.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_020",
+    "word": "견적서를 보내주세요.",
+    "latin_okunusu": "Gyeonjeokseoreul bonaejuseyo.",
+    "translation": "Please send me the quote.",
+    "len": 9,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_020.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_021",
+    "word": "계약서에 서명했습니다.",
+    "latin_okunusu": "Gyeyakseoe seomyeonghaetseumnida.",
+    "translation": "The contract has been signed.",
+    "len": 10,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_021.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_022",
+    "word": "다음 단계는 무엇인가요?",
+    "latin_okunusu": "Daeum dangyeneun mueosingayo?",
+    "translation": "What are the next steps?",
+    "len": 11,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_022.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_023",
+    "word": "발표 자료 준비 중입니다.",
+    "latin_okunusu": "Balpyo jaryo junbi jungimnida.",
+    "translation": "I'm preparing the presentation slides.",
+    "len": 11,
+    "tags": [
+      "business",
+      "task"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_023.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_024",
+    "word": "약속을 변경해도 될까요?",
+    "latin_okunusu": "Yaksogeul byeongyeonghaedo doelkkayo?",
+    "translation": "Can we reschedule our appointment?",
+    "len": 11,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_024.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_025",
+    "word": "오늘 회의가 종일 있습니다.",
+    "latin_okunusu": "Oneul hoe-i-ga jongil isseumnida.",
+    "translation": "I am in meetings all day.",
+    "len": 12,
+    "tags": [
+      "business",
+      "schedule"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_025.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_026",
+    "word": "메시지 확인하셨나요?",
+    "latin_okunusu": "Mesiji hwaginhasyeonnayo?",
+    "translation": "Did you receive my message?",
+    "len": 9,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_026.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_027",
+    "word": "금요일까지 휴가입니다.",
+    "latin_okunusu": "Geumyoilkkaji hyugaimnida.",
+    "translation": "I'm off until Friday.",
+    "len": 10,
+    "tags": [
+      "business",
+      "out-of-office"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_027.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_028",
+    "word": "답변이 늦어 죄송합니다.",
+    "latin_okunusu": "Dapbyeoni neujeo joesonghamnida.",
+    "translation": "Sorry for the late response.",
+    "len": 10,
+    "tags": [
+      "business",
+      "apology"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_028.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_029",
+    "word": "비용을 절감해야 합니다.",
+    "latin_okunusu": "Biyong-eul jeolgamhaeya hamnida.",
+    "translation": "We need to cut costs.",
+    "len": 10,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_029.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_030",
+    "word": "누가 담당자입니까?",
+    "latin_okunusu": "Nuga damdangjaimnikka?",
+    "translation": "Who is the person in charge?",
+    "len": 7,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_030.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_031",
+    "word": "곧 답장하겠습니다.",
+    "latin_okunusu": "Got dapjanghagetseumnida.",
+    "translation": "I will reply soon.",
+    "len": 8,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_031.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_032",
+    "word": "송장 번호가 무엇인가요?",
+    "latin_okunusu": "Songjang beonhoga mueosingayo?",
+    "translation": "What is the invoice number?",
+    "len": 10,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_032.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_033",
+    "word": "더 많은 정보가 필요합니다.",
+    "latin_okunusu": "Deo maneun jeongboga piryohamnida.",
+    "translation": "We need more information.",
+    "len": 11,
+    "tags": [
+      "business",
+      "request"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_033.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_034",
+    "word": "불가능한 일입니다.",
+    "latin_okunusu": "Bulganeunghan irimnida.",
+    "translation": "That's not possible.",
+    "len": 8,
+    "tags": [
+      "business",
+      "refusal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_034.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_035",
+    "word": "기꺼이 도와드리겠습니다.",
+    "latin_okunusu": "Gikkeoi dowadeurigesseumnida.",
+    "translation": "I'd be happy to help.",
+    "len": 10,
+    "tags": [
+      "business",
+      "help"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_035.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_036",
+    "word": "협력해 주셔서 감사합니다.",
+    "latin_okunusu": "Hyeomnyeokhae jusyeoseo gamsahamnida.",
+    "translation": "We appreciate your cooperation.",
+    "len": 11,
+    "tags": [
+      "business",
+      "relationship"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_036.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_037",
+    "word": "회의를 시작할까요?",
+    "latin_okunusu": "Hoe-ireul sijakalkkayo?",
+    "translation": "Shall we start the meeting?",
+    "len": 8,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_037.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_038",
+    "word": "관련 서류 좀 있으신가요?",
+    "latin_okunusu": "Gwallyeon seoryu jom isseusingayo?",
+    "translation": "Do you have any related documents?",
+    "len": 11,
+    "tags": [
+      "business",
+      "request"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_038.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_039",
+    "word": "초대장을 보냅니다.",
+    "latin_okunusu": "Chodaejangeul bonaemnida.",
+    "translation": "I'm sending you an invitation.",
+    "len": 8,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_039.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_040",
+    "word": "일정이 어떻게 되세요?",
+    "latin_okunusu": "Iljeongi eotteoke doeseyo?",
+    "translation": "What does your schedule look like?",
+    "len": 9,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_040.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_041",
+    "word": "목표를 달성했습니다.",
+    "latin_okunusu": "Mokpyoreul dalseonghaetseumnida.",
+    "translation": "We've reached our goal.",
+    "len": 9,
+    "tags": [
+      "business",
+      "success"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_041.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_042",
+    "word": "매우 긴급한 사항입니다.",
+    "latin_okunusu": "Maeu gingeup-han sahangimnida.",
+    "translation": "This is very urgent.",
+    "len": 10,
+    "tags": [
+      "business",
+      "urgency"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_042.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_043",
+    "word": "금요일에 뵐 수 있을까요?",
+    "latin_okunusu": "Geumyoire boel su isseulkkayo?",
+    "translation": "Can we meet on Friday?",
+    "len": 11,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_043.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_044",
+    "word": "우려하시는 점 이해합니다.",
+    "latin_okunusu": "Uryeohasineun jeom ihaehamnida.",
+    "translation": "I understand your concerns.",
+    "len": 10,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_044.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_045",
+    "word": "우선순위를 정해야 합니다.",
+    "latin_okunusu": "Useonsunwireul jeonghaeya hamnida.",
+    "translation": "We need to set priorities.",
+    "len": 11,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_045.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_046",
+    "word": "잠시 이야기 나눌 시간 있으세요?",
+    "latin_okunusu": "Jamsi iyagi nanul sigan isseuseyo?",
+    "translation": "Do you have time for a quick chat?",
+    "len": 13,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_046.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_047",
+    "word": "초안을 보냅니다.",
+    "latin_okunusu": "Choaneul bonaemnida.",
+    "translation": "I'm sending you the draft.",
+    "len": 7,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_047.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_048",
+    "word": "질문 있으신가요?",
+    "latin_okunusu": "Jilmun isseusingayo?",
+    "translation": "Do you have any questions?",
+    "len": 7,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_048.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_049",
+    "word": "더 효율적으로 일해야 합니다.",
+    "latin_okunusu": "Deo hyoyuljeogeuro ilhaeya hamnida.",
+    "translation": "We need to work more efficiently.",
+    "len": 11,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_049.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_050",
+    "word": "진행 상황은 어때요?",
+    "latin_okunusu": "Jinhaeng sanghwang-eun eottaeyo?",
+    "translation": "How is the progress?",
+    "len": 8,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_050.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_051",
+    "word": "만나는 것을 제안합니다.",
+    "latin_okunusu": "Mannaneun geoseul je-anhamnida.",
+    "translation": "I suggest we meet.",
+    "len": 10,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_051.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_052",
+    "word": "프로젝트가 승인되었습니다.",
+    "latin_okunusu": "Peurojekteuga seung-indoeeotseumnida.",
+    "translation": "The project has been approved.",
+    "len": 11,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_052.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_053",
+    "word": "상황을 계속 알려주세요.",
+    "latin_okunusu": "Sanghwang-eul gyesok allyeojuseyo.",
+    "translation": "Please keep me updated.",
+    "len": 10,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_053.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_054",
+    "word": "파일에 접근할 수 있으신가요?",
+    "latin_okunusu": "Paire jeopgeunhal su isseusingayo?",
+    "translation": "Can you access the file?",
+    "len": 11,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_054.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_055",
+    "word": "회사 방침입니다.",
+    "latin_okunusu": "Hoesa bangchimimnida.",
+    "translation": "It's company policy.",
+    "len": 7,
+    "tags": [
+      "business",
+      "policy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_055.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_056",
+    "word": "신입 사원을 채용 중입니다.",
+    "latin_okunusu": "Sinip sawoneul chaeyong jungimnida.",
+    "translation": "We are hiring new staff.",
+    "len": 11,
+    "tags": [
+      "business",
+      "HR"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_056.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_057",
+    "word": "이 회의의 목적이 무엇인가요?",
+    "latin_okunusu": "I hoe-i-ui mokjeogi mueosingayo?",
+    "translation": "What is the purpose of this meeting?",
+    "len": 11,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_057.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_058",
+    "word": "회의 안건을 보내드립니다.",
+    "latin_okunusu": "Hoe-i angeoneul bonaedeurimnida.",
+    "translation": "I'm sending you the agenda.",
+    "len": 10,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_058.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_059",
+    "word": "기술적인 문제가 있습니다.",
+    "latin_okunusu": "Gisuljeogin munjega isseumnida.",
+    "translation": "There is a technical issue.",
+    "len": 10,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_059.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_060",
+    "word": "그것은 판단하기 어렵습니다.",
+    "latin_okunusu": "Geugeoseun pandanhagi eoryeopsseumnida.",
+    "translation": "That's hard to judge.",
+    "len": 11,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_060.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_061",
+    "word": "이 안건은 미룰까요?",
+    "latin_okunusu": "I angeoneun mirulkkayo?",
+    "translation": "Can we push this back?",
+    "len": 8,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_061.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_062",
+    "word": "회의록이 필요합니다.",
+    "latin_okunusu": "Hoe-irogi piryohamnida.",
+    "translation": "We need meeting minutes.",
+    "len": 8,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_062.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_063",
+    "word": "이것이 우선순위입니다.",
+    "latin_okunusu": "Igeosi useonsunwiimnida.",
+    "translation": "This is the priority.",
+    "len": 9,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_063.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_064",
+    "word": "동의하시나요?",
+    "latin_okunusu": "Dong-uihasinayo?",
+    "translation": "Do you agree?",
+    "len": 6,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_064.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_065",
+    "word": "관련하여 질문이 하나 있습니다.",
+    "latin_okunusu": "Gwallyeonhayeo jilmuni hana isseumnida.",
+    "translation": "I have a question regarding that.",
+    "len": 12,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_065.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_066",
+    "word": "좋은 기회입니다.",
+    "latin_okunusu": "Joeun gihoeimnida.",
+    "translation": "It's a great opportunity.",
+    "len": 7,
+    "tags": [
+      "business",
+      "opportunity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_066.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_067",
+    "word": "우리는 협력해야 합니다.",
+    "latin_okunusu": "Urineun hyeomnyeokhaeya hamnida.",
+    "translation": "We need to collaborate.",
+    "len": 10,
+    "tags": [
+      "business",
+      "collaboration"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_067.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_068",
+    "word": "기다려 주셔서 감사합니다.",
+    "latin_okunusu": "Gidaryeo jusyeoseo gamsahamnida.",
+    "translation": "Thanks for waiting.",
+    "len": 10,
+    "tags": [
+      "business",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_068.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_069",
+    "word": "보고서를 첨부했습니다.",
+    "latin_okunusu": "Bogoseoreul cheombuhaetseumnida.",
+    "translation": "I've attached the report.",
+    "len": 9,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_069.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_070",
+    "word": "계약서를 검토했습니다.",
+    "latin_okunusu": "Gyeyakseoreul geomtohaetseumnida.",
+    "translation": "I've reviewed the contract.",
+    "len": 9,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_070.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_071",
+    "word": "결과가 긍정적입니다.",
+    "latin_okunusu": "Gyeolgwaga geungjeongjeogimnida.",
+    "translation": "The result is positive.",
+    "len": 8,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_071.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_072",
+    "word": "조건이 무엇인가요?",
+    "latin_okunusu": "Jogeoni mueosingayo?",
+    "translation": "What are the conditions?",
+    "len": 7,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_072.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_073",
+    "word": "품질을 보장해야 합니다.",
+    "latin_okunusu": "Pumjireul bojanghaeya hamnida.",
+    "translation": "We must guarantee quality.",
+    "len": 10,
+    "tags": [
+      "business",
+      "quality"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_073.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_074",
+    "word": "이 제안을 지지합니다.",
+    "latin_okunusu": "I je-aneul jijihamnida.",
+    "translation": "I support this proposal.",
+    "len": 9,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_074.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_075",
+    "word": "플랜 B가 있나요?",
+    "latin_okunusu": "Peullaen Bga innayo?",
+    "translation": "Do you have a Plan B?",
+    "len": 7,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_075.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_076",
+    "word": "이메일을 전달했습니다.",
+    "latin_okunusu": "Imeireul jeondalhaetseumnida.",
+    "translation": "I've forwarded the email.",
+    "len": 9,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_076.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_077",
+    "word": "서명이 필요합니다.",
+    "latin_okunusu": "Seomyeong-i piryohamnida.",
+    "translation": "Your signature is required.",
+    "len": 7,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_077.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_078",
+    "word": "팀이 잘하고 있습니다.",
+    "latin_okunusu": "Timi jalhago isseumnida.",
+    "translation": "The team is doing well.",
+    "len": 9,
+    "tags": [
+      "business",
+      "team"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_078.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_079",
+    "word": "자원을 계획해야 합니다.",
+    "latin_okunusu": "Jawoneul gyehoekhaeya hamnida.",
+    "translation": "We must plan our resources.",
+    "len": 10,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_079.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_080",
+    "word": "결과에 만족합니다.",
+    "latin_okunusu": "Gyeolgwae manjokhamnida.",
+    "translation": "I'm satisfied with the results.",
+    "len": 8,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_080.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_081",
+    "word": "다시 전화 부탁드립니다.",
+    "latin_okunusu": "Dasi jeonhwa butakdeurimnida.",
+    "translation": "Please call me back.",
+    "len": 9,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_081.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_082",
+    "word": "회의는 한 시간 걸립니다.",
+    "latin_okunusu": "Hoe-ineun han sigan geollimnida.",
+    "translation": "The meeting lasts an hour.",
+    "len": 10,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_082.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_083",
+    "word": "데이터를 분석해야 합니다.",
+    "latin_okunusu": "Deiteoreul bunseokhaeya hamnida.",
+    "translation": "We need to analyze the data.",
+    "len": 10,
+    "tags": [
+      "business",
+      "analysis"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_083.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_084",
+    "word": "그럴 시간이 없습니다.",
+    "latin_okunusu": "Geureol sigani eopseumnida.",
+    "translation": "I don't have time for that.",
+    "len": 8,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_084.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_085",
+    "word": "일정을 확정할 수 있을까요?",
+    "latin_okunusu": "Iljeongeul hwakjeonghal su isseulkkayo?",
+    "translation": "Can we confirm the schedule?",
+    "len": 11,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_085.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_086",
+    "word": "중요한 결정입니다.",
+    "latin_okunusu": "Jungyohan gyeoljeongimnida.",
+    "translation": "It's an important decision.",
+    "len": 8,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_086.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_087",
+    "word": "서류를 우편으로 보냅니다.",
+    "latin_okunusu": "Seoryureul upyeoneuro bonaemnida.",
+    "translation": "I'm mailing the documents.",
+    "len": 11,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_087.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_088",
+    "word": "예산을 초과했습니다.",
+    "latin_okunusu": "Yesaneul chogwahaetseumnida.",
+    "translation": "We've exceeded the budget.",
+    "len": 9,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_088.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_089",
+    "word": "이것은 우리에게 유리합니다.",
+    "latin_okunusu": "Igeoseun uriege yurihamnida.",
+    "translation": "This is to our advantage.",
+    "len": 11,
+    "tags": [
+      "business",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_089.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_090",
+    "word": "파일을 열 수 있나요?",
+    "latin_okunusu": "Paireul yeol su innayo?",
+    "translation": "Can you open the file?",
+    "len": 8,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_090.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_091",
+    "word": "오류를 수정해야 합니다.",
+    "latin_okunusu": "Oryureul sujeonghaeya hamnida.",
+    "translation": "We need to fix the error.",
+    "len": 9,
+    "tags": [
+      "business",
+      "issue"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_091.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_092",
+    "word": "제안은 내일까지 유효합니다.",
+    "latin_okunusu": "Je-aneun naeilkkaji yuhyohamnida.",
+    "translation": "The offer is valid until tomorrow.",
+    "len": 11,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_092.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_093",
+    "word": "도와주셔서 감사합니다.",
+    "latin_okunusu": "Dowajusyeoseo gamsahamnida.",
+    "translation": "Thank you for your help.",
+    "len": 9,
+    "tags": [
+      "business",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_093.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_094",
+    "word": "효율성을 추구합니다.",
+    "latin_okunusu": "Hyoyulseong-eul chuguhamnida.",
+    "translation": "We are seeking efficiency.",
+    "len": 8,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_094.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_095",
+    "word": "이에 대한 의견이 있으신가요?",
+    "latin_okunusu": "Ie daehan uigyeoni isseusingayo?",
+    "translation": "Do you have any feedback on this?",
+    "len": 12,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_095.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_096",
+    "word": "회의는 온라인으로 진행됩니다.",
+    "latin_okunusu": "Hoe-ineun onrain-euro jinhaengdoemnida.",
+    "translation": "The meeting will be held online.",
+    "len": 11,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_096.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_097",
+    "word": "링크를 보내드립니다.",
+    "latin_okunusu": "Ringkeureul bonaedeurimnida.",
+    "translation": "I'm sending you the link.",
+    "len": 8,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_097.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_098",
+    "word": "집중해야 합니다.",
+    "latin_okunusu": "Jipjunghaeya hamnida.",
+    "translation": "We need to focus.",
+    "len": 7,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_098.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_099",
+    "word": "전략을 변경할 수 있을까요?",
+    "latin_okunusu": "Jeonryageul byeongyeonghal su isseulkkayo?",
+    "translation": "Can we change the strategy?",
+    "len": 11,
+    "tags": [
+      "business",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_099.mp3"
+    }
+  },
+  {
+    "id": "kr_biz_0100",
+    "word": "논의해주셔서 감사합니다.",
+    "latin_okunusu": "Nonuihaejusyeoseo gamsahamnida.",
+    "translation": "Thank you for the discussion.",
+    "len": 9,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_0100.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_001",
+    "word": "매일 새로운 것을 배우고 있어요.",
+    "latin_okunusu": "Maeil saeroun geoseul baeugo isseoyo.",
+    "translation": "I am learning something new every day.",
+    "len": 15,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_001.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_002",
+    "word": "반복은 학습의 어머니입니다.",
+    "latin_okunusu": "Banbogeun hakseubui eomeoniimnida.",
+    "translation": "Repetition is the mother of learning.",
+    "len": 12,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_002.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_003",
+    "word": "저는 성장하고 싶어요.",
+    "latin_okunusu": "Jeoneun seongjanghago sipeoyo.",
+    "translation": "I want to grow as a person.",
+    "len": 10,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_003.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_004",
+    "word": "실수는 배움의 기회입니다.",
+    "latin_okunusu": "Silsuneun baeumui gihoeimnida.",
+    "translation": "Mistakes are opportunities to learn.",
+    "len": 11,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_004.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_005",
+    "word": "성공을 위한 계획이 있어요.",
+    "latin_okunusu": "Seonggongeul wihan gyehoegi isseoyo.",
+    "translation": "I have a plan for success.",
+    "len": 11,
+    "tags": [
+      "mindset",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_005.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_006",
+    "word": "오늘의 목표는 무엇인가요?",
+    "latin_okunusu": "Oneurui mokpyoneun mueosingayo?",
+    "translation": "What is today's goal?",
+    "len": 11,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_006.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_007",
+    "word": "제 능력을 믿습니다.",
+    "latin_okunusu": "Je neungryeogeul mitsseumnida.",
+    "translation": "I believe in my abilities.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_007.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_008",
+    "word": "인내는 성공의 열쇠입니다.",
+    "latin_okunusu": "Innaeneun seonggongui yeolsoeimnida.",
+    "translation": "Patience is the key to success.",
+    "len": 11,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_008.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_009",
+    "word": "항상 호기심을 유지합니다.",
+    "latin_okunusu": "Hangsang hogisimeul yujihamnida.",
+    "translation": "I always stay curious.",
+    "len": 11,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_009.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_010",
+    "word": "어떻게 더 잘할 수 있을까요?",
+    "latin_okunusu": "Eotteoke deo jalhal su isseulkkayo?",
+    "translation": "How can I improve?",
+    "len": 12,
+    "tags": [
+      "growth",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_010.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_011",
+    "word": "중요한 것에 집중합니다.",
+    "latin_okunusu": "Jungyohan geose jipjunghamnida.",
+    "translation": "I focus on what matters.",
+    "len": 10,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_011.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_012",
+    "word": "한 걸음씩 중요합니다.",
+    "latin_okunusu": "Han georeumssik jungyohamnida.",
+    "translation": "Every step counts.",
+    "len": 9,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_012.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_013",
+    "word": "책임을 집니다.",
+    "latin_okunusu": "Chaegimeul jimnida.",
+    "translation": "I take responsibility.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_013.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_014",
+    "word": "규율이 목표로 이끕니다.",
+    "latin_okunusu": "Gyuyuri mokpyoro ikkeumnida.",
+    "translation": "Discipline leads to goals.",
+    "len": 10,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_014.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_015",
+    "word": "새로운 아이디어에 열려 있어요.",
+    "latin_okunusu": "Saeroun aidieoe yeollyeo isseoyo.",
+    "translation": "I am open to new ideas.",
+    "len": 13,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_015.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_016",
+    "word": "배움은 끝이 없습니다.",
+    "latin_okunusu": "Baeumeun kkeuchi eopseumnida.",
+    "translation": "Learning never ends.",
+    "len": 9,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_016.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_017",
+    "word": "해결책을 찾고 있습니다.",
+    "latin_okunusu": "Haegyeolchaegeul chatgo isseumnida.",
+    "translation": "I am looking for solutions.",
+    "len": 11,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_017.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_018",
+    "word": "이것은 저에게 도전입니다.",
+    "latin_okunusu": "Igeoseun jeoege dojeonimnida.",
+    "translation": "This is a challenge for me.",
+    "len": 11,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_018.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_019",
+    "word": "진전을 평가합니다.",
+    "latin_okunusu": "Jinjeoneul pyeonggahamnida.",
+    "translation": "I assess my progress.",
+    "len": 8,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_019.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_020",
+    "word": "지속적인 발전이 중요합니다.",
+    "latin_okunusu": "Jisokjeogin baljeoni jungyohamnida.",
+    "translation": "Constant improvement is essential.",
+    "len": 11,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_020.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_021",
+    "word": "동기를 유지합니다.",
+    "latin_okunusu": "Donggireul yujihamnida.",
+    "translation": "I maintain my motivation.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_021.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_022",
+    "word": "적극적으로 듣습니다.",
+    "latin_okunusu": "Jeokgeukjeogeuro deutseumnida.",
+    "translation": "I listen actively.",
+    "len": 8,
+    "tags": [
+      "learning",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_022.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_023",
+    "word": "지식은 힘입니다.",
+    "latin_okunusu": "Jisigeun himimnida.",
+    "translation": "Knowledge is power.",
+    "len": 6,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_023.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_024",
+    "word": "어제의 나와 비교합니다.",
+    "latin_okunusu": "Eojeui nawa bigyohamnida.",
+    "translation": "I compare myself with who I was yesterday.",
+    "len": 10,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_024.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_025",
+    "word": "시간을 잘 관리합니다.",
+    "latin_okunusu": "Siganeul jal gwallihamnida.",
+    "translation": "I manage my time effectively.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_025.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_026",
+    "word": "긍정적인 마음을 가집니다.",
+    "latin_okunusu": "Geungjeongjeogin maeumeul gajimnida.",
+    "translation": "I keep a positive mindset.",
+    "len": 10,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_026.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_027",
+    "word": "질문은 학습에 도움이 됩니다.",
+    "latin_okunusu": "Jilmuneun hakseube doumi doemnida.",
+    "translation": "Questions aid learning.",
+    "len": 12,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_027.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_028",
+    "word": "명확한 목표를 세웁니다.",
+    "latin_okunusu": "Myeonghwakhan mokpyoreul seumnida.",
+    "translation": "I set clear goals.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_028.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_029",
+    "word": "성공에서 배웁니다.",
+    "latin_okunusu": "Seonggongeseo baeumnida.",
+    "translation": "I learn from success.",
+    "len": 7,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_029.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_030",
+    "word": "시간을 소중히 합니다.",
+    "latin_okunusu": "Siganeul sojunghi hamnida.",
+    "translation": "I value my time.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_030.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_031",
+    "word": "비판은 성장에 도움이 됩니다.",
+    "latin_okunusu": "Bipaneun seongjang-e doumi doemnida.",
+    "translation": "Constructive criticism aids growth.",
+    "len": 11,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_031.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_032",
+    "word": "새로운 것을 시도할 준비가 됐어요.",
+    "latin_okunusu": "Saeroun geoseul sidohal junbiga dwaesseoyo.",
+    "translation": "I'm ready to try new things.",
+    "len": 13,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_032.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_033",
+    "word": "포기하지 않습니다.",
+    "latin_okunusu": "Pogihaji anseumnida.",
+    "translation": "I do not give up.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_033.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_034",
+    "word": "실수를 분석합니다.",
+    "latin_okunusu": "Silsureul bunseokhamnida.",
+    "translation": "I analyze my mistakes.",
+    "len": 7,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_034.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_035",
+    "word": "구조적으로 일합니다.",
+    "latin_okunusu": "Gujojeogeuro ilhamnida.",
+    "translation": "I work in a structured way.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_035.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_036",
+    "word": "시야를 넓힙니다.",
+    "latin_okunusu": "Siyareul neolpipnida.",
+    "translation": "I broaden my perspective.",
+    "len": 6,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_036.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_037",
+    "word": "스스로에게 인내심을 가집니다.",
+    "latin_okunusu": "Seuseuroege innaesimeul gajimnida.",
+    "translation": "I am patient with myself.",
+    "len": 11,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_037.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_038",
+    "word": "작은 성공을 축하합니다.",
+    "latin_okunusu": "Jageun seonggongeul chukhahamnida.",
+    "translation": "I celebrate small wins.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_038.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_039",
+    "word": "과정을 믿습니다.",
+    "latin_okunusu": "Gwajeongeul mitsseumnida.",
+    "translation": "I trust the process.",
+    "len": 6,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_039.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_040",
+    "word": "제 여정이 자랑스럽습니다.",
+    "latin_okunusu": "Je yeojeongi jarangseureopseumnida.",
+    "translation": "I'm proud of my journey.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_040.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_041",
+    "word": "지식을 추구합니다.",
+    "latin_okunusu": "Jisigeul chuguhamnida.",
+    "translation": "I seek knowledge.",
+    "len": 6,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_041.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_042",
+    "word": "배울 준비가 되었습니다.",
+    "latin_okunusu": "Baeul junbiga doeeotseumnida.",
+    "translation": "I am ready to learn.",
+    "len": 9,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_042.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_043",
+    "word": "사물을 의심해봅니다.",
+    "latin_okunusu": "Samureul uisimhaebomnida.",
+    "translation": "I question things.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_043.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_044",
+    "word": "도전을 통해 성장합니다.",
+    "latin_okunusu": "Dojeoneul tonghae seongjanghamnida.",
+    "translation": "I grow through challenges.",
+    "len": 9,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_044.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_045",
+    "word": "명확한 사고방식을 가집니다.",
+    "latin_okunusu": "Myeonghwakhan sagobangsigeul gajimnida.",
+    "translation": "I have a clear mindset.",
+    "len": 10,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_045.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_046",
+    "word": "집중력을 유지합니다.",
+    "latin_okunusu": "Jipjunghryeogeul yujihamnida.",
+    "translation": "I stay focused.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_046.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_047",
+    "word": "최고에게 배웁니다.",
+    "latin_okunusu": "Choegoege baeumnida.",
+    "translation": "I learn from the best.",
+    "len": 6,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_047.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_048",
+    "word": "저는 평생 학습자입니다.",
+    "latin_okunusu": "Jeoneun pyeongsaeng hakseupjaimnida.",
+    "translation": "I am a lifelong learner.",
+    "len": 9,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_048.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_049",
+    "word": "어려울 때도 침착합니다.",
+    "latin_okunusu": "Eoryeoul ttaedo chimchakhamnida.",
+    "translation": "I stay calm under pressure.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_049.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_050",
+    "word": "우선순위를 정합니다.",
+    "latin_okunusu": "Useonsunwireul jeonghamnida.",
+    "translation": "I set my priorities.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_050.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_051",
+    "word": "지식을 깊게 합니다.",
+    "latin_okunusu": "Jisigeul gipge hamnida.",
+    "translation": "I deepen my knowledge.",
+    "len": 7,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_051.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_052",
+    "word": "경험에 감사합니다.",
+    "latin_okunusu": "Gyeongheome gamsahamnida.",
+    "translation": "I'm grateful for experiences.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_052.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_053",
+    "word": "진실을 추구합니다.",
+    "latin_okunusu": "Jinsireul chuguhamnida.",
+    "translation": "I seek the truth.",
+    "len": 6,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_053.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_054",
+    "word": "제 스스로에게 동기를 줍니다.",
+    "latin_okunusu": "Je seuseuroege donggireul jumnida.",
+    "translation": "I motivate myself.",
+    "len": 11,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_054.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_055",
+    "word": "변화를 받아들입니다.",
+    "latin_okunusu": "Byeonhwareul badadeuripnida.",
+    "translation": "I embrace change.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_055.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_056",
+    "word": "계속 교육받고 있습니다.",
+    "latin_okunusu": "Gyesok gyoyukbatgo isseumnida.",
+    "translation": "I am constantly educating myself.",
+    "len": 9,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_056.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_057",
+    "word": "제 행동을 돌아봅니다.",
+    "latin_okunusu": "Je haengdong-eul dorabomnida.",
+    "translation": "I reflect on my actions.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_057.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_058",
+    "word": "다양성을 존중합니다.",
+    "latin_okunusu": "Dayeongseong-eul jonjunghamnida.",
+    "translation": "I value diversity.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_058.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_059",
+    "word": "집중하고 있습니다.",
+    "latin_okunusu": "Jipjunghago isseumnida.",
+    "translation": "I am concentrated.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_059.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_060",
+    "word": "매일 성장합니다.",
+    "latin_okunusu": "Maeil seongjanghamnida.",
+    "translation": "I grow every day.",
+    "len": 6,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_060.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_061",
+    "word": "다음 단계를 계획합니다.",
+    "latin_okunusu": "Daeum dangyereul gyehoekhamnida.",
+    "translation": "I plan the next steps.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_061.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_062",
+    "word": "용기 있게 행동합니다.",
+    "latin_okunusu": "Yonggi itge haengdonghamnida.",
+    "translation": "I act with courage.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_062.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_063",
+    "word": "실천하며 배웁니다.",
+    "latin_okunusu": "Silcheonhamyeo baeumnida.",
+    "translation": "I learn by doing.",
+    "len": 7,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_063.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_064",
+    "word": "유연함을 유지합니다.",
+    "latin_okunusu": "Yuyeonhameul yujihamnida.",
+    "translation": "I stay flexible.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_064.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_065",
+    "word": "분명한 목표가 있습니다.",
+    "latin_okunusu": "Bunmyeonghan mokpyoga isseumnida.",
+    "translation": "I have clear goals.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_065.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_066",
+    "word": "피드백에 열려 있습니다.",
+    "latin_okunusu": "Pideubaeke yeollyeo isseumnida.",
+    "translation": "I am open to feedback.",
+    "len": 9,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_066.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_067",
+    "word": "목표를 잃지 않습니다.",
+    "latin_okunusu": "Mokpyoreul ilchi anseumnida.",
+    "translation": "I stay on track.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_067.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_068",
+    "word": "미래가 궁금합니다.",
+    "latin_okunusu": "Miraega gunggeumhamnida.",
+    "translation": "I am curious about the future.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_068.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_069",
+    "word": "새로운 기술을 개발합니다.",
+    "latin_okunusu": "Saeroun gisureul gaebalkhamnida.",
+    "translation": "I develop new skills.",
+    "len": 10,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_069.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_070",
+    "word": "끈기 있게 노력합니다.",
+    "latin_okunusu": "Kkeun-gi itge noryeokhamnida.",
+    "translation": "I persist.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_070.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_071",
+    "word": "잠재력을 알아봅니다.",
+    "latin_okunusu": "Jamjaeryeogeul arabomnida.",
+    "translation": "I recognize my potential.",
+    "len": 7,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_071.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_072",
+    "word": "주변에서 배웁니다.",
+    "latin_okunusu": "Jubyeoneseo baeumnida.",
+    "translation": "I learn from those around me.",
+    "len": 7,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_072.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_073",
+    "word": "모든 기회를 활용합니다.",
+    "latin_okunusu": "Modeun gihoe-reul hwaryonghamnida.",
+    "translation": "I seize every opportunity.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_073.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_074",
+    "word": "배운 것을 생각합니다.",
+    "latin_okunusu": "Baeun geoseul saenggakhamnida.",
+    "translation": "I reflect on what I've learned.",
+    "len": 8,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_074.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_075",
+    "word": "작은 걸음부터 시작합니다.",
+    "latin_okunusu": "Jageun georeumbuteo sijakhamnida.",
+    "translation": "I start with small steps.",
+    "len": 10,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_075.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_076",
+    "word": "규율을 지킵니다.",
+    "latin_okunusu": "Gyuyureul jikipnida.",
+    "translation": "I follow discipline.",
+    "len": 6,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_076.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_077",
+    "word": "새로운 길을 발견합니다.",
+    "latin_okunusu": "Saeroun gireul balgyeonhamnida.",
+    "translation": "I discover new paths.",
+    "len": 9,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_077.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_078",
+    "word": "성공을 믿습니다.",
+    "latin_okunusu": "Seonggongeul mitsseumnida.",
+    "translation": "I believe in success.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_078.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_079",
+    "word": "해결에 창의적입니다.",
+    "latin_okunusu": "Haegyeore chang-uijeogimnida.",
+    "translation": "I am creative in solving problems.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_079.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_080",
+    "word": "끊임없이 배웁니다.",
+    "latin_okunusu": "Kkeun-imeopsi baeumnida.",
+    "translation": "I learn constantly.",
+    "len": 7,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_080.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_081",
+    "word": "변화를 환영합니다.",
+    "latin_okunusu": "Byeonhwareul hwanyeonghamnida.",
+    "translation": "I welcome change.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_081.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_082",
+    "word": "도전에 맞섭니다.",
+    "latin_okunusu": "Dojeone matseomnida.",
+    "translation": "I face challenges head-on.",
+    "len": 6,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_082.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_083",
+    "word": "과정을 소중히 합니다.",
+    "latin_okunusu": "Gwajeongeul sojunghi hamnida.",
+    "translation": "I cherish the process.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_083.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_084",
+    "word": "목표 중심적입니다.",
+    "latin_okunusu": "Mokpyo jungsimjeogimnida.",
+    "translation": "I am goal-oriented.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_084.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_085",
+    "word": "실수에서 배웁니다.",
+    "latin_okunusu": "Silsueseo baeumnida.",
+    "translation": "I learn from my mistakes.",
+    "len": 6,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_085.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_086",
+    "word": "미래를 만들어갑니다.",
+    "latin_okunusu": "Miraereul mandeureogamnida.",
+    "translation": "I am shaping the future.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_086.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_087",
+    "word": "새로운 준비가 됐습니다.",
+    "latin_okunusu": "Saeroun junbiga dwaetseumnida.",
+    "translation": "I am ready for the new.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_087.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_088",
+    "word": "강점을 활용합니다.",
+    "latin_okunusu": "Gangjeomeul hwaryonghamnida.",
+    "translation": "I leverage my strengths.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_088.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_089",
+    "word": "하루 종일 배웁니다.",
+    "latin_okunusu": "Haru jongil baeumnida.",
+    "translation": "I learn all day long.",
+    "len": 7,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_089.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_090",
+    "word": "흔들림이 없습니다.",
+    "latin_okunusu": "Heundeullimi eopseumnida.",
+    "translation": "I am unwavering.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_090.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_091",
+    "word": "잠재력을 발휘합니다.",
+    "latin_okunusu": "Jamjaeryeogeul balhwihamnida.",
+    "translation": "I unleash my potential.",
+    "len": 8,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_091.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_092",
+    "word": "낙관적입니다.",
+    "latin_okunusu": "Nakgwanjeogimnida.",
+    "translation": "I am optimistic.",
+    "len": 6,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_092.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_093",
+    "word": "빨리 배웁니다.",
+    "latin_okunusu": "Ppalli baeumnida.",
+    "translation": "I learn quickly.",
+    "len": 6,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_093.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_094",
+    "word": "제 삶을 디자인합니다.",
+    "latin_okunusu": "Je salmeul dijainhamnida.",
+    "translation": "I design my own life.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_094.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_095",
+    "word": "생각할 시간을 갖습니다.",
+    "latin_okunusu": "Saenggakhal siganeul gatseumnida.",
+    "translation": "I take time to reflect.",
+    "len": 9,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_095.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_096",
+    "word": "저는 성공했습니다.",
+    "latin_okunusu": "Jeoneun seonggonghaetseumnida.",
+    "translation": "I have succeeded.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_096.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_097",
+    "word": "규율 있게 일합니다.",
+    "latin_okunusu": "Gyuyul itge ilhamnida.",
+    "translation": "I work with discipline.",
+    "len": 8,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_097.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_098",
+    "word": "비전을 지킵니다.",
+    "latin_okunusu": "Bijeoneul jikipnida.",
+    "translation": "I stay true to my vision.",
+    "len": 7,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_098.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_099",
+    "word": "매 순간 배웁니다.",
+    "latin_okunusu": "Mae sungan baeumnida.",
+    "translation": "I learn every moment.",
+    "len": 6,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_099.mp3"
+    }
+  },
+  {
+    "id": "kr_dev_099",
+    "word": "성장할 준비가 됐습니다.",
+    "latin_okunusu": "Seongjanghal junbiga dwaetseumnida.",
+    "translation": "I am ready to grow.",
+    "len": 9,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_099.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_001",
+    "word": "기차역이 어디인가요?",
+    "latin_okunusu": "Gicharyeogi eodingayo?",
+    "translation": "Where is the train station?",
+    "len": 10,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_001.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_002",
+    "word": "호텔까지 어떻게 가나요?",
+    "latin_okunusu": "Hotelkkaji eotteoke ganayo?",
+    "translation": "How do I get to the hotel?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_002.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_003",
+    "word": "베를린행 표 한 장 주세요.",
+    "latin_okunusu": "Bereulrinhaeng pyo han jang juseyo.",
+    "translation": "One ticket to Berlin, please.",
+    "len": 12,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_003.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_004",
+    "word": "다음 기차는 언제 출발하나요?",
+    "latin_okunusu": "Daeum gichaneun eonje chulbalhanayo?",
+    "translation": "When is the next train?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_004.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_005",
+    "word": "빈 방 있나요?",
+    "latin_okunusu": "Bin bang innayo?",
+    "translation": "Do you have any vacancies?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_005.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_006",
+    "word": "예약했습니다.",
+    "latin_okunusu": "Yeyakhaetseumnida.",
+    "translation": "I have a reservation.",
+    "len": 6,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_006.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_007",
+    "word": "가장 가까운 지하철역은 어디인가요?",
+    "latin_okunusu": "Gajang gakkaun jihacheoryeogeun eodingayo?",
+    "translation": "Where is the nearest subway station?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_007.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_008",
+    "word": "이거 얼마인가요?",
+    "latin_okunusu": "Igeo eolmaingayo?",
+    "translation": "How much is this?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_008.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_009",
+    "word": "체크인하고 싶어요.",
+    "latin_okunusu": "Chekeuinhago sipeoyo.",
+    "translation": "I'd like to check in.",
+    "len": 9,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_009.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_010",
+    "word": "도와주실 수 있나요?",
+    "latin_okunusu": "Dowajusil su innayo?",
+    "translation": "Could you help me?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_010.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_011",
+    "word": "근처에 식당이 있나요?",
+    "latin_okunusu": "Geuncheoe sikdangi innayo?",
+    "translation": "Are there any restaurants nearby?",
+    "len": 10,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_011.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_012",
+    "word": "시내 지도를 찾고 있어요.",
+    "latin_okunusu": "Sinae jidoreul chatgo isseoyo.",
+    "translation": "I'm looking for a city map.",
+    "len": 10,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_012.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_013",
+    "word": "여기서 먼가요?",
+    "latin_okunusu": "Yeogiseo meongayo?",
+    "translation": "Is it far from here?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_013.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_014",
+    "word": "택시를 부르고 싶어요.",
+    "latin_okunusu": "Taeksireul bureugo sipeoyo.",
+    "translation": "I'd like to call a taxi.",
+    "len": 10,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_014.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_015",
+    "word": "박물관은 몇 시에 여나요?",
+    "latin_okunusu": "Bangmulgwaneun myeot sie yeonayo?",
+    "translation": "What time does the museum open?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_015.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_016",
+    "word": "어디서 환전할 수 있나요?",
+    "latin_okunusu": "Eodiseo hwanjeonhal su innayo?",
+    "translation": "Where can I exchange money?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_016.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_017",
+    "word": "도시 지도가 있으신가요?",
+    "latin_okunusu": "Dosi jidoga isseusingayo?",
+    "translation": "Do you have a city map?",
+    "len": 10,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_017.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_018",
+    "word": "정말 아름답네요.",
+    "latin_okunusu": "Jeongmal areumdapneyo.",
+    "translation": "It's beautiful.",
+    "len": 7,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_018.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_019",
+    "word": "2인용 테이블 하나 주세요.",
+    "latin_okunusu": "I-inyong teibeul hana juseyo.",
+    "translation": "A table for two, please.",
+    "len": 11,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_019.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_020",
+    "word": "계산서 주세요.",
+    "latin_okunusu": "Gyesanseo juseyo.",
+    "translation": "Check, please.",
+    "len": 6,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_020.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_021",
+    "word": "화장실이 어디인가요?",
+    "latin_okunusu": "Hwajangsiri eodingayo?",
+    "translation": "Where is the restroom?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_021.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_022",
+    "word": "저는 여행객입니다.",
+    "latin_okunusu": "Jeoneun yeohaenggaegimnida.",
+    "translation": "I'm a tourist.",
+    "len": 9,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_022.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_023",
+    "word": "사진 좀 찍어주실 수 있나요?",
+    "latin_okunusu": "Sajin jom jjigeojusil su innayo?",
+    "translation": "Could you take a photo for me?",
+    "len": 12,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_023.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_024",
+    "word": "출구가 어디인가요?",
+    "latin_okunusu": "Chulguga eodingayo?",
+    "translation": "Where is the exit?",
+    "len": 8,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_024.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_025",
+    "word": "무엇을 추천하시나요?",
+    "latin_okunusu": "Mueoseul chucheonhasinayo?",
+    "translation": "What do you recommend?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_025.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_026",
+    "word": "일일권이 있나요?",
+    "latin_okunusu": "Irilgwoni innayo?",
+    "translation": "Is there a day pass?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_026.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_027",
+    "word": "반창고가 필요해요.",
+    "latin_okunusu": "Banchanggoga piryohaeyo.",
+    "translation": "I need a bandage.",
+    "len": 8,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_027.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_028",
+    "word": "여행 잘하세요!",
+    "latin_okunusu": "Yeohaeng jalhaseyo!",
+    "translation": "Have a nice trip!",
+    "len": 7,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_028.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_029",
+    "word": "공항에 어떻게 가나요?",
+    "latin_okunusu": "Gonghange eotteoke ganayo?",
+    "translation": "How do I get to the airport?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_029.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_030",
+    "word": "정류장이 어디인가요?",
+    "latin_okunusu": "Jeongnyujang-i eodingayo?",
+    "translation": "Where is the bus stop?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_030.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_031",
+    "word": "짐을 잃어버렸어요.",
+    "latin_okunusu": "Jimeul ireobeoryeosseoyo.",
+    "translation": "I lost my luggage.",
+    "len": 8,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_031.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_032",
+    "word": "아침 식사가 포함되어 있나요?",
+    "latin_okunusu": "Achim sikgaga pohamdoeeo innayo?",
+    "translation": "Is breakfast included?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_032.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_033",
+    "word": "체크아웃 시간은 언제인가요?",
+    "latin_okunusu": "Chekeuaut siganeun eonjeingayo?",
+    "translation": "What time is check-out?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_033.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_034",
+    "word": "더 크게 말씀해 주실 수 있나요?",
+    "latin_okunusu": "Deo keuge malsseumhae jusil su innayo?",
+    "translation": "Could you speak louder?",
+    "len": 14,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_034.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_035",
+    "word": "슈퍼마켓이 어디인가요?",
+    "latin_okunusu": "Syupeomakesi eodingayo?",
+    "translation": "Where is the supermarket?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_035.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_036",
+    "word": "자전거를 빌리고 싶어요.",
+    "latin_okunusu": "Jajeonggeoreul billigo sipeoyo.",
+    "translation": "I'd like to rent a bike.",
+    "len": 10,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_036.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_037",
+    "word": "와이파이가 되나요?",
+    "latin_okunusu": "Waipaiga doenayo?",
+    "translation": "Do you have Wi-Fi?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_037.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_038",
+    "word": "정말 멋진 건물이네요.",
+    "latin_okunusu": "Jeongmal meotjin geonmurineyo.",
+    "translation": "What a cool building.",
+    "len": 9,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_038.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_039",
+    "word": "관광 안내소가 어디인가요?",
+    "latin_okunusu": "Gwangwang annaesoga eodingayo?",
+    "translation": "Where is the tourist info?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_039.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_040",
+    "word": "전망 좋은 방을 원해요.",
+    "latin_okunusu": "Jeonmang joeun bangeul wonhaeyo.",
+    "translation": "I want a room with a view.",
+    "len": 9,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_040.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_041",
+    "word": "시간이 얼마나 걸리나요?",
+    "latin_okunusu": "Sigani eolmana geollinayo?",
+    "translation": "How long does it take?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_041.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_042",
+    "word": "지도 있으신가요?",
+    "latin_okunusu": "Jido isseusingayo?",
+    "translation": "Do you have a map?",
+    "len": 6,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_042.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_043",
+    "word": "죄송합니다, 뭐라고 하셨나요?",
+    "latin_okunusu": "Joesonghamnida, mworago hasyeonnayo?",
+    "translation": "Sorry, what did you say?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_043.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_044",
+    "word": "약국이 어디인가요?",
+    "latin_okunusu": "Yakgugi eodingayo?",
+    "translation": "Where is the pharmacy?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_044.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_045",
+    "word": "이 명소를 방문하고 싶어요.",
+    "latin_okunusu": "I myeongsoreul bangmunhago sipeoyo.",
+    "translation": "I want to visit this attraction.",
+    "len": 11,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_045.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_046",
+    "word": "카드로 결제할 수 있나요?",
+    "latin_okunusu": "Kadeuro gyeoljehal su innayo?",
+    "translation": "Can I pay by card?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_046.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_047",
+    "word": "여기는 안전한가요?",
+    "latin_okunusu": "Yeogineun anjeonhangayo?",
+    "translation": "Is it safe here?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_047.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_048",
+    "word": "가장 가까운 은행이 어디인가요?",
+    "latin_okunusu": "Gajang gakkaun eunhaengi eodingayo?",
+    "translation": "Where is the nearest bank?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_048.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_049",
+    "word": "길을 잃었어요.",
+    "latin_okunusu": "Gireul ireosseoyo.",
+    "translation": "I'm lost.",
+    "len": 6,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_049.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_050",
+    "word": "입장료가 얼마인가요?",
+    "latin_okunusu": "Ipjangryoneun eolmaingayo?",
+    "translation": "How much is the admission?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_050.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_051",
+    "word": "지도에 표시해 주실 수 있나요?",
+    "latin_okunusu": "Jidoe pyosihae jusil su innayo?",
+    "translation": "Could you mark it on the map?",
+    "len": 12,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_051.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_052",
+    "word": "주차장이 어디인가요?",
+    "latin_okunusu": "Juchajang-i eodingayo?",
+    "translation": "Where is the parking lot?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_052.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_053",
+    "word": "알레르기가 있어요.",
+    "latin_okunusu": "Allereugiga isseoyo.",
+    "translation": "I have an allergy.",
+    "len": 7,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_053.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_054",
+    "word": "대사관이 어디인가요?",
+    "latin_okunusu": "Daesagwani eodingayo?",
+    "translation": "Where is the embassy?",
+    "len": 8,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_054.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_055",
+    "word": "도움이 필요해요.",
+    "latin_okunusu": "Doumi piryohaeyo.",
+    "translation": "I need some help.",
+    "len": 7,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_055.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_056",
+    "word": "수돗물 마셔도 되나요?",
+    "latin_okunusu": "Sudotmul masyeodo doenayo?",
+    "translation": "Is the tap water drinkable?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_056.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_057",
+    "word": "공원을 찾고 있어요.",
+    "latin_okunusu": "Gong-woneul chatgo isseoyo.",
+    "translation": "I'm looking for a park.",
+    "len": 8,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_057.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_058",
+    "word": "매표소가 어디인가요?",
+    "latin_okunusu": "Maepyosoga eodingayo?",
+    "translation": "Where is the ticket office?",
+    "len": 8,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_058.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_059",
+    "word": "이거 미뤄도 될까요?",
+    "latin_okunusu": "Igeo mirwodo doelkkayo?",
+    "translation": "Can we postpone this?",
+    "len": 8,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_059.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_060",
+    "word": "가이드 투어가 있나요?",
+    "latin_okunusu": "Gaideu tueoga innayo?",
+    "translation": "Are there guided tours?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_060.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_061",
+    "word": "이 도시가 마음에 들어요.",
+    "latin_okunusu": "I dosiga maeume deureoyo.",
+    "translation": "I like this city.",
+    "len": 10,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_061.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_062",
+    "word": "입구가 어디인가요?",
+    "latin_okunusu": "Ipkuga eodingayo?",
+    "translation": "Where is the entrance?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_062.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_063",
+    "word": "이 박물관에 어떻게 가나요?",
+    "latin_okunusu": "I bangmulgwane eotteoke ganayo?",
+    "translation": "How do I get to this museum?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_063.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_064",
+    "word": "채식 메뉴가 있나요?",
+    "latin_okunusu": "Chaesik menyuga innayo?",
+    "translation": "Do you have vegetarian options?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_064.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_065",
+    "word": "여기는 처음이에요.",
+    "latin_okunusu": "Yeogineun cheoeumieyo.",
+    "translation": "It's my first time here.",
+    "len": 7,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_065.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_066",
+    "word": "추천 메뉴가 무엇인가요?",
+    "latin_okunusu": "Chucheon menyuga mueosingayo?",
+    "translation": "What do you recommend?",
+    "len": 10,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_066.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_067",
+    "word": "공항버스 타는 곳이 어디인가요?",
+    "latin_okunusu": "Gonghangbeoseu taneun gosi eodingayo?",
+    "translation": "Where is the airport bus?",
+    "len": 14,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_067.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_068",
+    "word": "휴대폰을 잃어버렸어요.",
+    "latin_okunusu": "Hyudaeponeul ireobeoryeosseoyo.",
+    "translation": "I lost my phone.",
+    "len": 10,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_068.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_069",
+    "word": "할인이 되나요?",
+    "latin_okunusu": "Harini doenayo?",
+    "translation": "Is there a discount?",
+    "len": 6,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_069.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_070",
+    "word": "내일 택시가 필요해요.",
+    "latin_okunusu": "Naeil taeksiga piryohaeyo.",
+    "translation": "I need a taxi for tomorrow.",
+    "len": 9,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_070.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_071",
+    "word": "여행사가 어디인가요?",
+    "latin_okunusu": "Yeohaengsaga eodingayo?",
+    "translation": "Where is the travel agency?",
+    "len": 8,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_071.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_072",
+    "word": "이거 정말 맛있네요.",
+    "latin_okunusu": "Igeo jeongmal masitneyo.",
+    "translation": "This is delicious.",
+    "len": 8,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_072.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_073",
+    "word": "도시 지도 있나요?",
+    "latin_okunusu": "Dosi jido innayo?",
+    "translation": "Do you have a city map?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_073.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_074",
+    "word": "표를 예매하고 싶어요.",
+    "latin_okunusu": "Pyoreul yemaehago sipeoyo.",
+    "translation": "I'd like to book a ticket.",
+    "len": 9,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_074.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_075",
+    "word": "역 입구가 어디인가요?",
+    "latin_okunusu": "Yeok ipkuga eodingayo?",
+    "translation": "Where is the station entrance?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_075.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_076",
+    "word": "지금 몇 시예요?",
+    "latin_okunusu": "Jigeum myeot siyeyo?",
+    "translation": "What time is it now?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_076.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_077",
+    "word": "여기서 담배 피워도 되나요?",
+    "latin_okunusu": "Yeogiseo dambae piwodo doenayo?",
+    "translation": "Is smoking allowed here?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_077.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_078",
+    "word": "저렴한 호텔을 찾고 있어요.",
+    "latin_okunusu": "Jeoryeomhan hotereul chatgo isseoyo.",
+    "translation": "I'm looking for a cheap hotel.",
+    "len": 11,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_078.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_079",
+    "word": "우체국이 어디인가요?",
+    "latin_okunusu": "Uchegugi eodingayo?",
+    "translation": "Where is the post office?",
+    "len": 8,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_079.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_080",
+    "word": "입장료는 무료인가요?",
+    "latin_okunusu": "Ipjangryoneun muryoingayo?",
+    "translation": "Is admission free?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_080.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_081",
+    "word": "도시 정보를 더 알고 싶어요.",
+    "latin_okunusu": "Dosi jeongboreul deo algo sipeoyo.",
+    "translation": "I want more city information.",
+    "len": 12,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_081.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_082",
+    "word": "기념품은 어디서 사나요?",
+    "latin_okunusu": "Ginyeompumeun eodiseo sanayo?",
+    "translation": "Where can I buy souvenirs?",
+    "len": 10,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_082.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_083",
+    "word": "의사가 필요해요.",
+    "latin_okunusu": "Uisaga piryohaeyo.",
+    "translation": "I need a doctor.",
+    "len": 6,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_083.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_084",
+    "word": "경찰서가 어디인가요?",
+    "latin_okunusu": "Gyeongchalseoga eodingayo?",
+    "translation": "Where is the police station?",
+    "len": 8,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_084.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_085",
+    "word": "여기 광장이 멋지네요.",
+    "latin_okunusu": "Yeogi gwangjang-i meotjineyo.",
+    "translation": "This square is nice.",
+    "len": 10,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_085.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_086",
+    "word": "가게 문 언제 닫나요?",
+    "latin_okunusu": "Gage mun eonje damnayo?",
+    "translation": "When do the shops close?",
+    "len": 8,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_086.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_087",
+    "word": "대중교통이 있나요?",
+    "latin_okunusu": "Daejunggyotong-i innayo?",
+    "translation": "Is there public transport?",
+    "len": 8,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_087.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_088",
+    "word": "차를 렌트하고 싶어요.",
+    "latin_okunusu": "Chareul renteuhago sipeoyo.",
+    "translation": "I'd like to rent a car.",
+    "len": 9,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_088.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_089",
+    "word": "문을 열어주실 수 있나요?",
+    "latin_okunusu": "Muneul yeoreojusil su innayo?",
+    "translation": "Can you open the door for me?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_089.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_090",
+    "word": "극장이 어디인가요?",
+    "latin_okunusu": "Geukjang-i eodingayo?",
+    "translation": "Where is the theater?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_090.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_091",
+    "word": "물이 미지근해요.",
+    "latin_okunusu": "Muri mijigeunhaeyo.",
+    "translation": "The water is lukewarm.",
+    "len": 7,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_091.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_092",
+    "word": "전망대가 있나요?",
+    "latin_okunusu": "Jeonmangdaega innayo?",
+    "translation": "Is there an observation deck?",
+    "len": 7,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_092.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_093",
+    "word": "버스를 놓쳤어요.",
+    "latin_okunusu": "Beoseureul nochyeosseoyo.",
+    "translation": "I missed the bus.",
+    "len": 7,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_093.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_094",
+    "word": "어디서 표를 사나요?",
+    "latin_okunusu": "Eodiseo pyoreul sanayo?",
+    "translation": "Where can I buy tickets?",
+    "len": 8,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_094.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_095",
+    "word": "걸어서 먼가요?",
+    "latin_okunusu": "Georeoseo meongayo?",
+    "translation": "Is it far by foot?",
+    "len": 6,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_095.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_096",
+    "word": "구시가지를 보고 싶어요.",
+    "latin_okunusu": "Gusigajireul bogo sipeoyo.",
+    "translation": "I want to see the old town.",
+    "len": 9,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_096.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_097",
+    "word": "추천할 만한 곳이 있나요?",
+    "latin_okunusu": "Chucheonhal manhan gosi innayo?",
+    "translation": "Any recommendations?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_097.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_098",
+    "word": "ATM가 어디에 있나요?",
+    "latin_okunusu": "ATMga eodie innayo?",
+    "translation": "Where can I find an ATM?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_098.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_099",
+    "word": "도와주셔서 감사합니다.",
+    "latin_okunusu": "Dowajusyeoseo gamsahamnida.",
+    "translation": "Thanks for your help.",
+    "len": 9,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_099.mp3"
+    }
+  },
+  {
+    "id": "kr_trv_100",
+    "word": "안녕히 계세요!",
+    "latin_okunusu": "Annyeonghi gyeseyo!",
+    "translation": "Goodbye!",
+    "len": 7,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": null
+    }
+  },
+  {
+    "id": "kr_soc_001",
+    "word": "안녕하세요!",
+    "latin_okunusu": "Annyeonghaseyo!",
+    "translation": "Hi!",
+    "len": 6,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_001.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_002",
+    "word": "좋은 아침이에요!",
+    "latin_okunusu": "Joeun achimieyo!",
+    "translation": "Good morning!",
+    "len": 8,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_002.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_003",
+    "word": "안녕하세요!",
+    "latin_okunusu": "Annyeonghaseyo!",
+    "translation": "Hello!",
+    "len": 6,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_003.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_004",
+    "word": "안녕히 주무세요!",
+    "latin_okunusu": "Annyeonghi jumuseyo!",
+    "translation": "Good night!",
+    "len": 8,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_004.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_005",
+    "word": "어떻게 지내세요?",
+    "latin_okunusu": "Eotteoke jinaeseyo?",
+    "translation": "How are you doing?",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_005.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_006",
+    "word": "어떻게 지내십니까?",
+    "latin_okunusu": "Eotteoke jinaesimnikka?",
+    "translation": "How are you?",
+    "len": 9,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_006.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_007",
+    "word": "잘 지내요, 감사합니다.",
+    "latin_okunusu": "Jal jinaeyo, gamsahamnida.",
+    "translation": "I'm doing well, thanks.",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_007.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_008",
+    "word": "당신은요?",
+    "latin_okunusu": "Dangsineunyo?",
+    "translation": "How about you?",
+    "len": 5,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_008.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_009",
+    "word": "이름이 뭐예요?",
+    "latin_okunusu": "Ireumi mwoyeyo?",
+    "translation": "What's your name?",
+    "len": 7,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_009.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_010",
+    "word": "제 이름은 ... 입니다.",
+    "latin_okunusu": "Je ireumeun ... imnida.",
+    "translation": "My name is...",
+    "len": 10,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_010.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_011",
+    "word": "만나서 반가워요.",
+    "latin_okunusu": "Mannaseo bangawoyo.",
+    "translation": "Nice to meet you.",
+    "len": 8,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_011.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_012",
+    "word": "어디서 오셨어요?",
+    "latin_okunusu": "Eodiseo osyeosseoyo?",
+    "translation": "Where are you from?",
+    "len": 8,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_012.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_013",
+    "word": "저는 터키에서 왔어요.",
+    "latin_okunusu": "Jeoneun teokie-eseo wasseoyo.",
+    "translation": "I'm from Turkey.",
+    "len": 10,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_013.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_014",
+    "word": "어디에 사세요?",
+    "latin_okunusu": "Eodie saseyo?",
+    "translation": "Where do you live?",
+    "len": 6,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_014.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_015",
+    "word": "무슨 일을 하세요?",
+    "latin_okunusu": "Museun ireul haseyo?",
+    "translation": "What do you do?",
+    "len": 8,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_015.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_016",
+    "word": "도와주실 수 있어요?",
+    "latin_okunusu": "Dowajusil su isseoyo?",
+    "translation": "Could you help me?",
+    "len": 9,
+    "tags": [
+      "social",
+      "help"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_016.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_017",
+    "word": "잘 이해하지 못했어요.",
+    "latin_okunusu": "Jal ihaehaji mothaesseoyo.",
+    "translation": "I don't quite understand.",
+    "len": 9,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_017.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_018",
+    "word": "다시 한번 말씀해 주시겠어요?",
+    "latin_okunusu": "Dasi hanbeon malsseumhae jusigesseoyo?",
+    "translation": "Could you say that again?",
+    "len": 13,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_018.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_019",
+    "word": "영어를 할 줄 아세요?",
+    "latin_okunusu": "Yeong-eoreul hal jul aseyo?",
+    "translation": "Do you speak English?",
+    "len": 9,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_019.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_020",
+    "word": "조금요.",
+    "latin_okunusu": "Jogeumyo.",
+    "translation": "Just a little.",
+    "len": 3,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_020.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_021",
+    "word": "이것은 뭐라고 부르나요?",
+    "latin_okunusu": "Igeoseun mworago bureunayo?",
+    "translation": "What do you call this?",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_021.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_022",
+    "word": "이게 무슨 뜻인가요?",
+    "latin_okunusu": "Ige museun tteusingayo?",
+    "translation": "What does this mean?",
+    "len": 9,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_022.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_023",
+    "word": "한국어를 배우고 있어요.",
+    "latin_okunusu": "Hangugeoreul baeugo isseoyo.",
+    "translation": "I'm learning Korean.",
+    "len": 10,
+    "tags": [
+      "social",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_023.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_024",
+    "word": "써주실 수 있나요?",
+    "latin_okunusu": "Sseojusil su innayo?",
+    "translation": "Could you write that down?",
+    "len": 7,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_024.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_025",
+    "word": "죄송합니다.",
+    "latin_okunusu": "Joesonghamnida.",
+    "translation": "I'm sorry.",
+    "len": 5,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_025.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_026",
+    "word": "괜찮습니다.",
+    "latin_okunusu": "Gwaenchanseumnida.",
+    "translation": "It's okay.",
+    "len": 5,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_026.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_027",
+    "word": "부탁합니다 / 천만에요.",
+    "latin_okunusu": "Butakhamnida / Cheonmaneyo.",
+    "translation": "Please / You're welcome.",
+    "len": 13,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_027.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_028",
+    "word": "정말 감사합니다.",
+    "latin_okunusu": "Jeongmal gamsahamnida.",
+    "translation": "Thank you so much.",
+    "len": 7,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_028.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_029",
+    "word": "감사합니다.",
+    "latin_okunusu": "Gamsahamnida.",
+    "translation": "Thank you.",
+    "len": 5,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_029.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_030",
+    "word": "기꺼이요!",
+    "latin_okunusu": "Gikkeoeiyo!",
+    "translation": "My pleasure!",
+    "len": 5,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_030.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_031",
+    "word": "시간 있으세요?",
+    "latin_okunusu": "Sigan isseuseyo?",
+    "translation": "Do you have a moment?",
+    "len": 6,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_031.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_032",
+    "word": "커피 마실래요?",
+    "latin_okunusu": "Keopi masillaeyo?",
+    "translation": "Wanna grab a coffee?",
+    "len": 6,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_032.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_033",
+    "word": "저는 ... 하고 싶어요.",
+    "latin_okunusu": "Jeoneun ... hago sipeoyo.",
+    "translation": "I feel like...",
+    "len": 9,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_033.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_034",
+    "word": "언제 만날까요?",
+    "latin_okunusu": "Eonje mannalkkayo?",
+    "translation": "When should we meet?",
+    "len": 6,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_034.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_035",
+    "word": "어디서 만날까요?",
+    "latin_okunusu": "Eodiseo mannalkkayo?",
+    "translation": "Where shall we meet?",
+    "len": 6,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_035.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_036",
+    "word": "좋아요.",
+    "latin_okunusu": "Joayo.",
+    "translation": "That works for me.",
+    "len": 3,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_036.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_037",
+    "word": "아쉽지만 안 돼요.",
+    "latin_okunusu": "Aswipjiman an dwaeyo.",
+    "translation": "I'm afraid I can't.",
+    "len": 8,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_037.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_038",
+    "word": "확실해요?",
+    "latin_okunusu": "Hwaksilhaeyo?",
+    "translation": "Are you sure?",
+    "len": 5,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_038.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_039",
+    "word": "물론이죠!",
+    "latin_okunusu": "Mullonijyo!",
+    "translation": "Of course!",
+    "len": 4,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_039.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_040",
+    "word": "글쎄요.",
+    "latin_okunusu": "Geulsseyo.",
+    "translation": "Maybe.",
+    "len": 3,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_040.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_041",
+    "word": "계획이 있으세요?",
+    "latin_okunusu": "Gyehoegi isseuseyo?",
+    "translation": "Do you have any plans?",
+    "len": 7,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_041.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_042",
+    "word": "같이 갈래요?",
+    "latin_okunusu": "Gachi gallaeyo?",
+    "translation": "Do you want to come along?",
+    "len": 6,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_042.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_043",
+    "word": "기대돼요.",
+    "latin_okunusu": "Gidaedwaeyo.",
+    "translation": "I'm looking forward to it.",
+    "len": 4,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_043.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_044",
+    "word": "행운을 빌어요!",
+    "latin_okunusu": "Haeng-uneul bireoyo!",
+    "translation": "Good luck!",
+    "len": 6,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_044.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_045",
+    "word": "맛있게 드세요!",
+    "latin_okunusu": "Masitge deuseyo!",
+    "translation": "Enjoy your meal!",
+    "len": 6,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_045.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_046",
+    "word": "정말 좋아요.",
+    "latin_okunusu": "Jeongmal joayo.",
+    "translation": "I love it.",
+    "len": 5,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_046.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_047",
+    "word": "저는 좋아하지 않아요.",
+    "latin_okunusu": "Jeoneun joahaji anayo.",
+    "translation": "I don't really like it.",
+    "len": 9,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_047.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_048",
+    "word": "제 생각은 달라요.",
+    "latin_okunusu": "Je saenggageun dallayo.",
+    "translation": "I have a different view.",
+    "len": 7,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_048.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_049",
+    "word": "그것은 사실이에요.",
+    "latin_okunusu": "Geugeoseun sasirieyo.",
+    "translation": "That's true.",
+    "len": 7,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_049.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_050",
+    "word": "동의합니다.",
+    "latin_okunusu": "Dong-uihamnida.",
+    "translation": "I agree.",
+    "len": 5,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_050.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_051",
+    "word": "어떻게 생각하세요?",
+    "latin_okunusu": "Eotteoke saenggakhaseyo?",
+    "translation": "What do you think?",
+    "len": 7,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_051.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_052",
+    "word": "잘 모르겠어요.",
+    "latin_okunusu": "Jal moreugesseoyo.",
+    "translation": "I have no idea.",
+    "len": 6,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_052.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_053",
+    "word": "저는 ... 라고 생각해요.",
+    "latin_okunusu": "Jeoneun ... rago saenggakhaeyo.",
+    "translation": "I think that...",
+    "len": 10,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_053.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_054",
+    "word": "... 이기를 바라요.",
+    "latin_okunusu": "... igireul barayo.",
+    "translation": "I hope...",
+    "len": 8,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_054.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_055",
+    "word": "행운을 빕니다!",
+    "latin_okunusu": "Haeng-uneul bimnida!",
+    "translation": "Best of luck!",
+    "len": 6,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_055.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_056",
+    "word": "지금 몇 시예요?",
+    "latin_okunusu": "Jigeum myeot siyeyo?",
+    "translation": "What time is it?",
+    "len": 7,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_056.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_057",
+    "word": "가야 해요.",
+    "latin_okunusu": "Gaya haeyo.",
+    "translation": "I've got to go.",
+    "len": 4,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_057.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_058",
+    "word": "곧 봐요!",
+    "latin_okunusu": "Got bwayo!",
+    "translation": "See you soon!",
+    "len": 4,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_058.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_059",
+    "word": "나중에 봐요!",
+    "latin_okunusu": "Najunge bwayo!",
+    "translation": "See you later!",
+    "len": 5,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_059.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_060",
+    "word": "좋은 하루 보내세요!",
+    "latin_okunusu": "Joeun haru bonaeseyo!",
+    "translation": "Have a nice day!",
+    "len": 8,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_060.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_061",
+    "word": "좋은 밤 보내세요!",
+    "latin_okunusu": "Joeun bam bonaeseyo!",
+    "translation": "Have a good night!",
+    "len": 8,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_061.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_062",
+    "word": "오늘 하루 어땠어요?",
+    "latin_okunusu": "Oneul haru eottaesseoyo?",
+    "translation": "How was your day?",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_062.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_063",
+    "word": "피곤해요.",
+    "latin_okunusu": "Pigonhaeyo.",
+    "translation": "I'm tired.",
+    "len": 4,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_063.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_064",
+    "word": "배고파요.",
+    "latin_okunusu": "Baegopayo.",
+    "translation": "I'm hungry.",
+    "len": 4,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_064.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_065",
+    "word": "커피 있어요?",
+    "latin_okunusu": "Keopi isseoyo?",
+    "translation": "Is there any coffee?",
+    "len": 5,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_065.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_066",
+    "word": "날씨가 좋네요.",
+    "latin_okunusu": "Nalssiga jonneyo.",
+    "translation": "The weather's nice.",
+    "len": 6,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_066.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_067",
+    "word": "비가 와요.",
+    "latin_okunusu": "Biga wayo.",
+    "translation": "It's raining.",
+    "len": 4,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_067.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_068",
+    "word": "조용함이 필요해요.",
+    "latin_okunusu": "Joyonghami piryohaeyo.",
+    "translation": "I need some peace and quiet.",
+    "len": 8,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_068.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_069",
+    "word": "저녁에 뭐 할까요?",
+    "latin_okunusu": "Jeonyeoge mwo halkkayo?",
+    "translation": "What are you doing tonight?",
+    "len": 7,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_069.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_070",
+    "word": "전화할게요.",
+    "latin_okunusu": "Jeonhwahalgeyo.",
+    "translation": "I'll call you.",
+    "len": 5,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_070.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_071",
+    "word": "알겠습니다.",
+    "latin_okunusu": "Algesseumnida.",
+    "translation": "Got it.",
+    "len": 5,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_071.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_072",
+    "word": "제 말 이해하시나요?",
+    "latin_okunusu": "Je mal ihaehasinayo?",
+    "translation": "Do you understand me?",
+    "len": 7,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_072.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_073",
+    "word": "정말 친절하시네요.",
+    "latin_okunusu": "Jeongmal chinjeolhasineyo.",
+    "translation": "You're very kind.",
+    "len": 7,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_073.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_074",
+    "word": "쾌차하세요!",
+    "latin_okunusu": "Kwaechahaseyo!",
+    "translation": "Get well soon!",
+    "len": 5,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_074.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_075",
+    "word": "축하합니다!",
+    "latin_okunusu": "Chukhahamnida!",
+    "translation": "Congratulations!",
+    "len": 5,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_075.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_076",
+    "word": "죄송합니다.",
+    "latin_okunusu": "Joesonghamnida.",
+    "translation": "My apologies.",
+    "len": 5,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_076.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_077",
+    "word": "하나 물어봐도 될까요?",
+    "latin_okunusu": "Hana mureobwado doelkkayo?",
+    "translation": "Can I ask you something?",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_077.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_078",
+    "word": "좋게 들리네요.",
+    "latin_okunusu": "Joke deullineyo.",
+    "translation": "Sounds good.",
+    "len": 6,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_078.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_079",
+    "word": "모르겠어요.",
+    "latin_okunusu": "Moreugesseoyo.",
+    "translation": "I have no idea.",
+    "len": 5,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_079.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_080",
+    "word": "설명해주실 수 있나요?",
+    "latin_okunusu": "Seolmyeonghaejusil su innayo?",
+    "translation": "Could you explain that?",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_080.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_081",
+    "word": "이것은 중요해요.",
+    "latin_okunusu": "Igeoseun jungyohaeyo.",
+    "translation": "This is important.",
+    "len": 6,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_081.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_082",
+    "word": "네?",
+    "latin_okunusu": "Ne?",
+    "translation": "Pardon?",
+    "len": 1,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_082.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_083",
+    "word": "걱정 마세요.",
+    "latin_okunusu": "Geokjeong maseyo.",
+    "translation": "Don't worry about it.",
+    "len": 5,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_083.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_084",
+    "word": "재미있게 보내세요!",
+    "latin_okunusu": "Jaemiitge bonaeseyo!",
+    "translation": "Have fun!",
+    "len": 7,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_084.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_085",
+    "word": "기다리고 있어요.",
+    "latin_okunusu": "Gidarigo isseoyo.",
+    "translation": "I'm waiting for you.",
+    "len": 6,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_085.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_086",
+    "word": "무슨 일 있었나요?",
+    "latin_okunusu": "Museun il isseonnayo?",
+    "translation": "Did something happen?",
+    "len": 6,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_086.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_087",
+    "word": "정말 재미있어요.",
+    "latin_okunusu": "Jeongmal jaemiisseoyo.",
+    "translation": "That's so much fun.",
+    "len": 6,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_087.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_088",
+    "word": "보고 싶어요.",
+    "latin_okunusu": "Bogosipeoyo.",
+    "translation": "I miss you.",
+    "len": 5,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_088.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_089",
+    "word": "모든 게 잘 되길 바랍니다!",
+    "latin_okunusu": "Modeun ge jal doegil baramnida!",
+    "translation": "I wish you all the best!",
+    "len": 9,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_089.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_090",
+    "word": "만나서 좋았어요.",
+    "latin_okunusu": "Mannaseo joasseoyo.",
+    "translation": "It was nice meeting you.",
+    "len": 6,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_090.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_091",
+    "word": "잠시만 기다려주세요.",
+    "latin_okunusu": "Jamsiman gidaryeojuseyo.",
+    "translation": "Please wait a moment.",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_091.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_092",
+    "word": "들어오세요!",
+    "latin_okunusu": "Deureooseyo!",
+    "translation": "Come on in!",
+    "len": 5,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_092.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_093",
+    "word": "앉으세요.",
+    "latin_okunusu": "Anjeuseyo.",
+    "translation": "Take a seat.",
+    "len": 4,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_093.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_094",
+    "word": "뭐 좀 마실래요?",
+    "latin_okunusu": "Mwo jom masillaeyo?",
+    "translation": "Would you like something to drink?",
+    "len": 6,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_094.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_095",
+    "word": "저는 상관없어요.",
+    "latin_okunusu": "Jeoneun sanggwaneopseoyo.",
+    "translation": "It doesn't matter to me.",
+    "len": 7,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_095.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_096",
+    "word": "준비됐어요.",
+    "latin_okunusu": "Junbidaesseoyo.",
+    "translation": "I'm ready.",
+    "len": 5,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_096.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_097",
+    "word": "잠깐 시간 있어요?",
+    "latin_okunusu": "Jamkkan sigan isseoyo?",
+    "translation": "Do you have a second?",
+    "len": 6,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_097.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_098",
+    "word": "이건 저한테 새로운 거예요.",
+    "latin_okunusu": "Igeon jeohante saeroun geoyeyo.",
+    "translation": "This is new to me.",
+    "len": 9,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_098.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_099",
+    "word": "시작합시다.",
+    "latin_okunusu": "Sijakhapsida.",
+    "translation": "Let's get started.",
+    "len": 5,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ko/kr_biz_099.mp3"
+    }
+  },
+  {
+    "id": "kr_soc_100",
+    "word": "다음번에 또 봐요.",
+    "latin_okunusu": "Daeumbeone tto bwayo.",
+    "translation": "See you next time.",
+    "len": 7,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": null
+    }
+  }
+]

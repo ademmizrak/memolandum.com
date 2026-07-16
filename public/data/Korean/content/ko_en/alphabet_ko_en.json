@@ -1,0 +1,450 @@
+[
+  {
+    "id": "kor_lvl0_001",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㄱ",
+    "romanized_script": "G / K",
+    "meaning": "Letter G/K (Read as K at the start, G in the middle of words)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_001_g_k.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_002",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㄴ",
+    "romanized_script": "N",
+    "meaning": "Letter N",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_002_n.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_003",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㄷ",
+    "romanized_script": "D / T",
+    "meaning": "Letter D/T (Read as T at the start, D in the middle of words)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_003_d_t.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_004",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㄹ",
+    "romanized_script": "R / L",
+    "meaning": "Letter R/L (Read as R at the start of a syllable, L at the end)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_004_r_l.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_005",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅁ",
+    "romanized_script": "M",
+    "meaning": "Letter M",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_005_m.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_006",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅂ",
+    "romanized_script": "B / P",
+    "meaning": "Letter B/P (Read as P at the start, B in the middle of words)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_006_b_p.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_007",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅅ",
+    "romanized_script": "S / Ş",
+    "meaning": "Letter S (Read as SH before 'i')",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_007_s.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_008",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅇ",
+    "romanized_script": "Silent / NG",
+    "meaning": "Silent at start of syllable, 'NG' sound at the end",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_008_yutulan_ng.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_009",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅈ",
+    "romanized_script": "C / Ç",
+    "meaning": "Letter C/CH (Read as CH at the start, C in the middle of words)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_009_c.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_010",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅊ",
+    "romanized_script": "CH",
+    "meaning": "Letter CH (Aspirated)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_010_.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_011",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅋ",
+    "romanized_script": "K",
+    "meaning": "Letter K (Aspirated)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_011_k.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_012",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅌ",
+    "romanized_script": "T",
+    "meaning": "Letter T (Aspirated)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_012_t.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_013",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅍ",
+    "romanized_script": "P",
+    "meaning": "Letter P (Aspirated)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_013_p.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_014",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅎ",
+    "romanized_script": "H",
+    "meaning": "Letter H",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_014_h.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_015",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅏ",
+    "romanized_script": "A",
+    "meaning": "Vowel A",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_015_a.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_016",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅓ",
+    "romanized_script": "EO",
+    "meaning": "Vowel EO (Open O sound)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_016_o.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_017",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅗ",
+    "romanized_script": "O",
+    "meaning": "Vowel O (Rounded)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_017_o.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_018",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅜ",
+    "romanized_script": "U",
+    "meaning": "Vowel U",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_018_u.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_019",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅡ",
+    "romanized_script": "EU",
+    "meaning": "Vowel EU",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_019_i.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_020",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅣ",
+    "romanized_script": "I",
+    "meaning": "Vowel I",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_020_i.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_021",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅐ",
+    "romanized_script": "AE",
+    "meaning": "Vowel AE",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_021_e.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_022",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "ㅔ",
+    "romanized_script": "E",
+    "meaning": "Vowel E",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_022_e.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_023",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "나",
+    "romanized_script": "Na",
+    "meaning": "I / Me (Syllable 'na')",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_023_na.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_024",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "너",
+    "romanized_script": "Neo",
+    "meaning": "You (Syllable 'neo')",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_024_neo.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_025",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "가",
+    "romanized_script": "Ga",
+    "meaning": "Go (Syllable 'ga')",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_025_ga.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_026",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "오",
+    "romanized_script": "O",
+    "meaning": "Come (Syllable 'o')",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_026_o.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_027",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "아이",
+    "romanized_script": "Ai",
+    "meaning": "Child",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_027_ai.mp3"
+    }
+  },
+  {
+    "id": "kor_lvl0_028",
+    "language_code": "ko",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "우유",
+    "romanized_script": "Uyu",
+    "meaning": "Milk",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    },
+    "audio": {
+      "default": "/audio/alphabet_ko/kor_lvl0_028_uyu.mp3"
+    }
+  }
+]

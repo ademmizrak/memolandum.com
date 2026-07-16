@@ -8,60 +8,69 @@ const client = new textToSpeech.TextToSpeechClient({
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-// JSON dosyanızın yolunu buraya ekleyin
-const dataFilePath = path.join(__dirname, "YKS-DIL_Group11_en-tr_v2.json");
-let wordList = [];
+// İşlenecek dosyalar
+const inputFiles = [
+  "a1_zh_CN_En_201_300.json",
+  "a1_zh_CN_En_301_400.json",
+  "a2_zh_CN_En_001_100.json",
+  "a2_zh_CN_En_101_200.json",
+  "b1_zh_CN_En_001_100.json",
+  "b1_zh_CN_En_101_200.json",
+  "b2_zh_CN_En_001_100.json",
+  "b2_zh_CN_En_101_200.json",
+  "c1_zh_CN_En_001_100.json",
+  "c1_zh_CN_En_101_200.json",
+  "c2_zh_CN_En_001_100.json",
+  "c2_zh_CN_En_101_200.json",
+];
 
-try {
-  let rawData = fs.readFileSync(dataFilePath, "utf8");
-  wordList = JSON.parse(rawData);
-} catch (error) {
-  console.error("❌ JSON dosyası okunamadı.", error.message);
-  process.exit(1);
-}
-
-const outputDir = path.join(__dirname, "audio_yks");
+const outputDir = path.join(__dirname, "audio_zh_words_native");
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-async function createYKSAudio() {
-  console.log(`🚀 ${wordList.length} YKS kelimesi işleniyor...`);
+async function main() {
+  for (const file of inputFiles) {
+    const filePath = path.join(__dirname, file);
 
-  for (const item of wordList) {
-    const textToRead = item.word;
-
-    // Dosya adı tam olarak kelimenin kendisi olsun (örneğin: "abandon.mp3")
-    // Eğer kelime içerisinde geçersiz karakterler varsa işletim sistemi sorun yaratabilir,
-    // bu yüzden sadece temel isimlendirme kullanıyoruz.
-    const fileName = `${textToRead}.mp3`;
-    const filePath = path.join(outputDir, fileName);
-
-    if (fs.existsSync(filePath)) {
-      console.log(`⏩ Atlandı (Zaten var): ${fileName}`);
+    if (!fs.existsSync(filePath)) {
+      console.error(`❌ Dosya bulunamadı: ${file}`);
       continue;
     }
 
-    const request = {
-      input: { text: textToRead },
-      voice: {
-        languageCode: "en-US",
-        name: "en-US-Journey-F",
-        ssmlGender: "FEMALE",
-      },
-      audioConfig: { audioEncoding: "MP3" },
-    };
+    // JSON verisini oku
+    const rawData = fs.readFileSync(filePath, "utf8");
+    const data = JSON.parse(rawData);
 
-    try {
-      const [response] = await client.synthesizeSpeech(request);
-      fs.writeFileSync(filePath, response.audioContent, "binary");
-      console.log(`✅ ${fileName} oluşturuldu.`);
+    // JSON yapısındaki 'words' dizisine erişim sağlanıyor
+    console.log(`📂 İşleniyor: ${file}`);
 
-      await delay(1000);
-    } catch (error) {
-      console.error(`❌ Hata (${textToRead}):`, error.message);
-      await delay(5000);
+    for (const item of data.words) {
+      // Çıkış dosyası ismi word_id kullanılarak oluşturuluyor
+      const outputFile = path.join(outputDir, `${item.word_id}.mp3`);
+
+      // Eğer dosya zaten varsa tekrar üretme
+      if (fs.existsSync(outputFile)) continue;
+
+      // Seslendirme isteği: 'item.hanzi' metni kullanılıyor
+      const request = {
+        input: { text: item.hanzi },
+        voice: {
+          languageCode: "cmn-CN",
+          name: "cmn-CN-Wavenet-D",
+          ssmlGender: "MALE",
+        },
+        audioConfig: { audioEncoding: "MP3", speakingRate: 0.9 },
+      };
+
+      try {
+        const [response] = await client.synthesizeSpeech(request);
+        fs.writeFileSync(outputFile, response.audioContent, "binary");
+        console.log(`✅ Üretildi: ${item.word_id} (${item.hanzi})`);
+        await delay(300); // API limitlerine takılmamak için bekleme
+      } catch (err) {
+        console.error(`❌ Hata (${item.word_id}): ${err.message}`);
+      }
     }
   }
-  console.log("🎉 Tüm YKS ses dosyaları başarıyla işlendi!");
 }
 
-createYKSAudio();
+main().catch(console.error);

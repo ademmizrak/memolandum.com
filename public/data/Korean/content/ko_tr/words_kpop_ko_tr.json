@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "kor_fan_001",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애",
+    "romanized_script": "Choe-ae",
+    "meaning": "Bias / En sevilen sanatçı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_001_choeae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_002",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "대박",
+    "romanized_script": "Daebak",
+    "meaning": "Efsane / Müthiş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_002_daebak.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_003",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "인싸",
+    "romanized_script": "In-ssa",
+    "meaning": "Popüler / Sosyal",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_003_inssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_004",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "화이팅",
+    "romanized_script": "Hwaiting",
+    "meaning": "Başarabilirsin / Hadi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_004_hwaiting.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_005",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "막내",
+    "romanized_script": "Maknae",
+    "meaning": "En küçük üye",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_005_maknae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_006",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "선배",
+    "romanized_script": "Sunbae",
+    "meaning": "Kıdemli",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_006_sunbae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_007",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "후배",
+    "romanized_script": "Hoobae",
+    "meaning": "Çaylak / Ast",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_007_hoobae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_008",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "ㅇㅇ",
+    "romanized_script": "Eung-eung",
+    "meaning": "Evet / Tamam",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_008_eungeung.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_009",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "ㅋㅋ",
+    "romanized_script": "Keke",
+    "meaning": "Gülme / Hahaha",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_009_keke.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_010",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "아싸",
+    "romanized_script": "A-ssa",
+    "meaning": "İçe dönük / Yalnız",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_010_assa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_011",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Hayranlık faaliyeti",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_011_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_012",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Bir hayran kitlesine girmek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_012_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_013",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "탈덕",
+    "romanized_script": "Tal-deok",
+    "meaning": "Hayranlığı bırakmak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_013_taldeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_014",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "컴백",
+    "romanized_script": "Keom-baek",
+    "meaning": "Yeni albüm çıkışı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_014_keombaek.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_015",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직캠",
+    "romanized_script": "Jik-kaem",
+    "meaning": "Üye odaklı çekim",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_015_jikkaem.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_016",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "올팬",
+    "romanized_script": "Ol-paen",
+    "meaning": "Grubun tüm üyelerini sevmek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_016_olpaen.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_017",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "연습생",
+    "romanized_script": "Yeonseup-saeng",
+    "meaning": "Stajyer",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_017_yeonseupsaeng.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_018",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원법",
+    "romanized_script": "Eung-won-beop",
+    "meaning": "Fanchant / Destek sloganı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_018_eungwonbeop.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_019",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "아이돌",
+    "romanized_script": "Aidol",
+    "meaning": "İdol / Sanatçı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_019_aidol.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_020",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "데뷔",
+    "romanized_script": "Debwi",
+    "meaning": "Çıkış yapmak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_020_debwi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_021",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "센터",
+    "romanized_script": "Senteo",
+    "meaning": "Grup merkezindeki üye",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_021_senteo.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_022",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "메인보컬",
+    "romanized_script": "Mein-bok-eol",
+    "meaning": "Ana vokal",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_022_meinbokeol.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_023",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "메인댄서",
+    "romanized_script": "Mein-daenseo",
+    "meaning": "Ana dansçı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_023_meindaenseo.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_024",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "비주얼",
+    "romanized_script": "Bijual",
+    "meaning": "Görsel üye / En yakışıklı/güzel",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_024_bijual.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_025",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "리더",
+    "romanized_script": "Lideo",
+    "meaning": "Grup lideri",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_025_lideo.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_026",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬미팅",
+    "romanized_script": "Paen-miting",
+    "meaning": "Hayran buluşması",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_026_paenmiting.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_027",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "사인회",
+    "romanized_script": "Sa-in-hoe",
+    "meaning": "İmza günü",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_027_sainhoe.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_028",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Lightstick / Fener",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_028_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_029",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "굿즈",
+    "romanized_script": "Gut-jeu",
+    "meaning": "Ürünler / Merchandise",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_029_gutjeu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_030",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "콘서트",
+    "romanized_script": "Konseoteu",
+    "meaning": "Konser",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_030_konseoteu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_031",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음방",
+    "romanized_script": "Eum-bang",
+    "meaning": "Müzik programı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_031_eumbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_032",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "사전녹화",
+    "romanized_script": "Sa-jeon-nok-hwa",
+    "meaning": "Ön kayıt",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_032_sajeonnokhwa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_033",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤비",
+    "romanized_script": "Myu-bi",
+    "meaning": "Müzik videosu",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_033_myubi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_034",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음원",
+    "romanized_script": "Eum-won",
+    "meaning": "Müzik dosyası / Dijital şarkı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_034_eumwon.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_035",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "차트인",
+    "romanized_script": "Cha-teu-in",
+    "meaning": "Listeye giriş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_035_chateuin.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_036",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "1위",
+    "romanized_script": "Il-wi",
+    "meaning": "Birinci sıra / Birincilik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_036_ilwi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_037",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "올킬",
+    "romanized_script": "Ol-kil",
+    "meaning": "Tüm listeleri süpürmek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_037_olkil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_038",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Konsere bizzat gitmek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_038_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_039",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Fan sitesi yöneticisi/fotoğrafçı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_039_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_040",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Fandom aktivitesi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_040_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_041",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "성덕",
+    "romanized_script": "Seong-deok",
+    "meaning": "Başarılı hayran",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_041_seongdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_042",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "비공굿",
+    "romanized_script": "Bi-gong-gut",
+    "meaning": "Hayran yapımı ürünler",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_042_bigonggut.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_043",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Photocard",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_043_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_044",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "앨범",
+    "romanized_script": "Ael-beom",
+    "meaning": "Albüm",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_044_aelbeom.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_045",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "İmza günü etkinliği",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_045_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_046",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "서포트",
+    "romanized_script": "Seo-po-teu",
+    "meaning": "Hayran desteği (hediye/yemek)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_046_seopoteu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_047",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Konsere canlı katılım",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_047_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_048",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "투표",
+    "romanized_script": "Tu-pyo",
+    "meaning": "Oy kullanma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_048_tupyo.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_049",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "총공",
+    "romanized_script": "Chong-gong",
+    "meaning": "Toplu destek eylemi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_049_chonggong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_050",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Hayranlığa başlama",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_050_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_051",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "탈덕",
+    "romanized_script": "Tal-deok",
+    "meaning": "Hayranlıktan ayrılma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_051_taldeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_052",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Fandom aktivitesi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_052_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_053",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕부정기",
+    "romanized_script": "Ipd-eok-bu-jeong-gi",
+    "meaning": "Hayran olduğunu inkar süreci",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_053_ipdeokbujeonggi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_054",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕요정",
+    "romanized_script": "Ipd-eok-yo-jeong",
+    "meaning": "İnsanları hayran bırakan üye",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_054_ipdeokyojeong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_055",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "휴덕",
+    "romanized_script": "Hyu-deok",
+    "meaning": "Hayranlığa ara verme",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_055_hyudeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_056",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "성덕",
+    "romanized_script": "Seong-deok",
+    "meaning": "Başarılı fan",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_056_seongdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_057",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "계탄",
+    "romanized_script": "Gye-tan",
+    "meaning": "Şanslı hayran (piyango vuran)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_057_gyetan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_058",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬덤",
+    "romanized_script": "Paen-deom",
+    "meaning": "Hayran kitlesi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_058_paendeom.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_059",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "총공",
+    "romanized_script": "Chong-gong",
+    "meaning": "Kolektif aksiyon",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_059_chonggong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_060",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음중",
+    "romanized_script": "Eum-jung",
+    "meaning": "Müzik merkezi programı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_060_eumjung.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_061",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤뱅",
+    "romanized_script": "Myu-baeng",
+    "meaning": "Müzik bankası programı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_061_myubaeng.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_062",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "인가",
+    "romanized_script": "In-ga",
+    "meaning": "Inkigayo programı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_062_inga.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_063",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "엠카",
+    "romanized_script": "Em-ka",
+    "meaning": "M-Countdown programı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_063_emka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_064",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "사녹",
+    "romanized_script": "Sa-nok",
+    "meaning": "Ön kayıt",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_064_sanok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_065",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "본방사수",
+    "romanized_script": "Bon-bang-sa-su",
+    "meaning": "Canlı yayını izlemek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_065_bonbangsasu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_066",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Fan aktivitesi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_066_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_067",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Fan olma başlangıcı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_067_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_068",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Fandom eylemi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_068_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_069",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직캠",
+    "romanized_script": "Jik-kaem",
+    "meaning": "Üye odaklı çekim",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_069_jikkaem.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_070",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "İmza günü",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_070_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_071",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Master-nim",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_071_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_072",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "굿즈",
+    "romanized_script": "Gut-jeu",
+    "meaning": "Ürünler",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_072_gutjeu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_073",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Photocard",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_073_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_074",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Lightstick",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_074_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_075",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "컴백",
+    "romanized_script": "Keom-baek",
+    "meaning": "Dönüş / Yeni çıkış",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_075_keombaek.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_076",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음방",
+    "romanized_script": "Eum-bang",
+    "meaning": "Müzik şovları",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_076_eumbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_077",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "데뷔",
+    "romanized_script": "Debwi",
+    "meaning": "Sahneye ilk adım",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_077_debwi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_078",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "연습생",
+    "romanized_script": "Yeonseup-saeng",
+    "meaning": "Eğitim gören kişi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_078_yeonseupsaeng.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_079",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬미팅",
+    "romanized_script": "Paen-miting",
+    "meaning": "Buluşma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_079_paenmiting.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_080",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "사인회",
+    "romanized_script": "Sa-in-hoe",
+    "meaning": "İmza günü",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_080_sainhoe.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_081",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음원",
+    "romanized_script": "Eum-won",
+    "meaning": "Dijital müzik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_081_eumwon.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_082",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "차트인",
+    "romanized_script": "Cha-teu-in",
+    "meaning": "Müzik listesi başarısı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_082_chateuin.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_083",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "1위",
+    "romanized_script": "Il-wi",
+    "meaning": "Birincilik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_083_ilwi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_084",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "올킬",
+    "romanized_script": "Ol-kil",
+    "meaning": "Listeleri domine etme",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_084_olkil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_085",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤비",
+    "romanized_script": "Myu-bi",
+    "meaning": "Klip",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_085_myubi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_086",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Fandom tutkusu",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_086_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_087",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕부정기",
+    "romanized_script": "Ipd-eok-bu-jeong-gi",
+    "meaning": "Reddetme süreci",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_087_ipdeokbujeonggi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_088",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕요정",
+    "romanized_script": "Ipd-eok-yo-jeong",
+    "meaning": "Bağlayan üye",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_088_ipdeokyojeong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_089",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "휴덕",
+    "romanized_script": "Hyu-deok",
+    "meaning": "Ara verme",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_089_hyudeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_090",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "성덕",
+    "romanized_script": "Seong-deok",
+    "meaning": "Şanslı hayran",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_090_seongdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_091",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Canlı konser katılımı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_091_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_092",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "투표",
+    "romanized_script": "Tu-pyo",
+    "meaning": "Destek oylaması",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_092_tupyo.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_093",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "총공",
+    "romanized_script": "Chong-gong",
+    "meaning": "Kolektif destek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_093_chonggong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_094",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Fan fotoğrafçısı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_094_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_095",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "굿즈",
+    "romanized_script": "Gut-jeu",
+    "meaning": "Merchandise",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_095_gutjeu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_096",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Photocard",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_096_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_097",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "앨범",
+    "romanized_script": "Ael-beom",
+    "meaning": "Müzik albümü",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_097_aelbeom.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_098",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Işıklı çubuk",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_098_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_099",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "본방사수",
+    "romanized_script": "Bon-bang-sa-su",
+    "meaning": "Canlı yayın takibi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_099_bonbangsasu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_100",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "서포트",
+    "romanized_script": "Seo-po-teu",
+    "meaning": "Hayran yardımı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_100_seopoteu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_101",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애곡",
+    "romanized_script": "Choe-ae-gok",
+    "meaning": "En sevilen şarkı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_101_choeaegok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_102",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "역주행",
+    "romanized_script": "Yeok-ju-haeng",
+    "meaning": "Eski şarkının tekrar listelere girmesi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_102_yeokjuhaeng.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_103",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직캠",
+    "romanized_script": "Jik-kaem",
+    "meaning": "Kişisel odaklı video",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_103_jikkaem.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_104",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "칼군무",
+    "romanized_script": "Kal-gun-mu",
+    "meaning": "Jilet gibi senkronize dans",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_104_kalgunmu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_105",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Hayranlığa giriş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_105_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_106",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Fandom aktivitesi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_106_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_107",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "탈덕",
+    "romanized_script": "Tal-deok",
+    "meaning": "Hayranlığı bırakmak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_107_taldeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_108",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애",
+    "romanized_script": "Choe-ae",
+    "meaning": "Bir numaralı favori",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_108_choeae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_109",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "Hayran imza etkinliği",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_109_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_110",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "컴백",
+    "romanized_script": "Keom-baek",
+    "meaning": "Dönüş / Yeni yayın",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_110_keombaek.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_111",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음방",
+    "romanized_script": "Eum-bang",
+    "meaning": "Müzik yayını",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_111_eumbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_112",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "연습생",
+    "romanized_script": "Yeonseup-saeng",
+    "meaning": "Stajyer",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_112_yeonseupsaeng.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_113",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Fener",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_113_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_114",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "굿즈",
+    "romanized_script": "Gut-jeu",
+    "meaning": "Ürünler",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_114_gutjeu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_115",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Fotoğraf kartı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_115_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_116",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Canlı konser katılımı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_116_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_117",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "앨범",
+    "romanized_script": "Ael-beom",
+    "meaning": "Albüm",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_117_aelbeom.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_118",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "투표",
+    "romanized_script": "Tu-pyo",
+    "meaning": "Destek oyu",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_118_tupyo.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_119",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "본방사수",
+    "romanized_script": "Bon-bang-sa-su",
+    "meaning": "Yayını kaçırmama",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_119_bonbangsasu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_120",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Hayran fotoğrafçısı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_120_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_121",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음원",
+    "romanized_script": "Eum-won",
+    "meaning": "Dijital müzik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_121_eumwon.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_122",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "올킬",
+    "romanized_script": "Ol-kil",
+    "meaning": "Listeleri süpürme",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_122_olkil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_123",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "서포트",
+    "romanized_script": "Seo-po-teu",
+    "meaning": "Destek paketi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_123_seopoteu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_124",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕부정기",
+    "romanized_script": "Ipd-eok-bu-jeong-gi",
+    "meaning": "Reddetme dönemi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_124_ipdeokbujeonggi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_125",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "성덕",
+    "romanized_script": "Seong-deok",
+    "meaning": "Başarılı hayran",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_125_seongdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_126",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "공방",
+    "romanized_script": "Gong-bang",
+    "meaning": "Halka açık yayın",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_126_gongbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_127",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원법",
+    "romanized_script": "Eung-won-beop",
+    "meaning": "Destek ritmi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_127_eungwonbeop.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_128",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "İmza etkinliği",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_128_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_129",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "비공굿",
+    "romanized_script": "Bi-gong-gut",
+    "meaning": "Hayran ürünü",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_129_bigonggut.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_130",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "총공",
+    "romanized_script": "Chong-gong",
+    "meaning": "Organize aksiyon",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_130_chonggong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_131",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "휴덕",
+    "romanized_script": "Hyu-deok",
+    "meaning": "Ara verme",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_131_hyudeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_132",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕요정",
+    "romanized_script": "Ipd-eok-yo-jeong",
+    "meaning": "Bağlayıcı üye",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_132_ipdeokyojeong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_133",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애곡",
+    "romanized_script": "Choe-ae-gok",
+    "meaning": "Favori şarkı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_133_choeaegok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_134",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "역주행",
+    "romanized_script": "Yeok-ju-haeng",
+    "meaning": "Listeye dönüş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_134_yeokjuhaeng.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_135",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "사녹",
+    "romanized_script": "Sa-nok",
+    "meaning": "Ön kayıt",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_135_sanok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_136",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Fan faaliyeti",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_136_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_137",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Fan girişi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_137_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_138",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직캠",
+    "romanized_script": "Jik-kaem",
+    "meaning": "Kişisel video",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_138_jikkaem.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_139",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "올팬",
+    "romanized_script": "Ol-paen",
+    "meaning": "Grup destekçisi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_139_olpaen.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_140",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "İmza etkinliği",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_140_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_141",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "차트인",
+    "romanized_script": "Cha-teu-in",
+    "meaning": "Liste girişi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_141_chateuin.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_142",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "1위",
+    "romanized_script": "Il-wi",
+    "meaning": "Liderlik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_142_ilwi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_143",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "올킬",
+    "romanized_script": "Ol-kil",
+    "meaning": "Tam zafer",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_143_olkil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_144",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Canlı katılım",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_144_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_145",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Kayıtçı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_145_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_146",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "굿즈",
+    "romanized_script": "Gut-jeu",
+    "meaning": "Ekipman",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_146_gutjeu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_147",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Kart",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_147_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_148",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Işık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_148_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_149",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "컴백",
+    "romanized_script": "Keom-baek",
+    "meaning": "Dönüş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_149_keombaek.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_150",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음방",
+    "romanized_script": "Eum-bang",
+    "meaning": "Müzik şov",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_150_eumbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_151",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Fan olma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_151_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_152",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "탈덕",
+    "romanized_script": "Tal-deok",
+    "meaning": "Ayrılma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_152_taldeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_153",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬미팅",
+    "romanized_script": "Paen-miting",
+    "meaning": "Buluşma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_153_paenmiting.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_154",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "사인회",
+    "romanized_script": "Sa-in-hoe",
+    "meaning": "İmza günü",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_154_sainhoe.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_155",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음원",
+    "romanized_script": "Eum-won",
+    "meaning": "Müzik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_155_eumwon.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_156",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Canlı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_156_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_157",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "총공",
+    "romanized_script": "Chong-gong",
+    "meaning": "Eylem",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_157_chonggong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_158",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Fotoğrafçı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_158_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_159",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Kart",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_159_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_160",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "앨범",
+    "romanized_script": "Ael-beom",
+    "meaning": "Albüm",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_160_aelbeom.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_161",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Işık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_161_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_162",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤비",
+    "romanized_script": "Myu-bi",
+    "meaning": "Klip",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_162_myubi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_163",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "본방사수",
+    "romanized_script": "Bon-bang-sa-su",
+    "meaning": "Yayında izle",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_163_bonbangsasu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_164",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "서포트",
+    "romanized_script": "Seo-po-teu",
+    "meaning": "Destek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_164_seopoteu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_165",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕부정기",
+    "romanized_script": "Ipd-eok-bu-jeong-gi",
+    "meaning": "İnkar dönemi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_165_ipdeokbujeonggi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_166",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "성덕",
+    "romanized_script": "Seong-deok",
+    "meaning": "Şanslı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_166_seongdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_167",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "휴덕",
+    "romanized_script": "Hyu-deok",
+    "meaning": "Ara",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_167_hyudeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_168",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕요정",
+    "romanized_script": "Ipd-eok-yo-jeong",
+    "meaning": "Fark ettiren",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_168_ipdeokyojeong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_169",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "데뷔",
+    "romanized_script": "Debwi",
+    "meaning": "İlk çıkış",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_169_debwi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_170",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "연습생",
+    "romanized_script": "Yeonseup-saeng",
+    "meaning": "Aday",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_170_yeonseupsaeng.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_171",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬미팅",
+    "romanized_script": "Paen-miting",
+    "meaning": "Görüşme",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_171_paenmiting.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_172",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "사인회",
+    "romanized_script": "Sa-in-hoe",
+    "meaning": "İmza günü",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_172_sainhoe.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_173",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음원",
+    "romanized_script": "Eum-won",
+    "meaning": "Dijital",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_173_eumwon.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_174",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "차트인",
+    "romanized_script": "Cha-teu-in",
+    "meaning": "Başarı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_174_chateuin.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_175",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "1위",
+    "romanized_script": "Il-wi",
+    "meaning": "Birinci",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_175_ilwi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_176",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "올킬",
+    "romanized_script": "Ol-kil",
+    "meaning": "Zirve",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_176_olkil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_177",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤비",
+    "romanized_script": "Myu-bi",
+    "meaning": "Müzik film",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_177_myubi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_178",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Fanlık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_178_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_179",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Giriş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_179_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_180",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "탈덕",
+    "romanized_script": "Tal-deok",
+    "meaning": "Çıkış",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_180_taldeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_181",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애",
+    "romanized_script": "Choe-ae",
+    "meaning": "Fav",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_181_choeae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_182",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "İmza",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_182_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_183",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Canlı izle",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_183_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_184",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "총공",
+    "romanized_script": "Chong-gong",
+    "meaning": "Destekle",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_184_chonggong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_185",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Çekimci",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_185_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_186",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "굿즈",
+    "romanized_script": "Gut-jeu",
+    "meaning": "Ürün",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_186_gutjeu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_187",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Kart",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_187_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_188",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Fener",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_188_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_189",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "컴백",
+    "romanized_script": "Keom-baek",
+    "meaning": "Yeni çıkış",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_189_keombaek.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_190",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음방",
+    "romanized_script": "Eum-bang",
+    "meaning": "Canlı şov",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_190_eumbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_191",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Başlangıç",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_191_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_192",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "탈덕",
+    "romanized_script": "Tal-deok",
+    "meaning": "Bitiş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_192_taldeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_193",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬미팅",
+    "romanized_script": "Paen-miting",
+    "meaning": "Buluşma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_193_paenmiting.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_194",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "사인회",
+    "romanized_script": "Sa-in-hoe",
+    "meaning": "İmza",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_194_sainhoe.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_195",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음원",
+    "romanized_script": "Eum-won",
+    "meaning": "Şarkı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_195_eumwon.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_196",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Konser",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_196_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_197",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "총공",
+    "romanized_script": "Chong-gong",
+    "meaning": "Destek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_197_chonggong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_198",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Fotoğraf",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_198_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_199",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Kart",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_199_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_200",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "앨범",
+    "romanized_script": "Ael-beom",
+    "meaning": "Disk",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_200_aelbeom.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_201",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애캐",
+    "romanized_script": "Choe-ae-kae",
+    "meaning": "Favori kurgusal karakter",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_201_choeaekae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_202",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕부정기",
+    "romanized_script": "Ipd-eok-bu-jeong-gi",
+    "meaning": "İnkar süreci",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_202_ipdeokbujeonggi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_203",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "탈덕수용소",
+    "romanized_script": "Tal-deok-su-yong-so",
+    "meaning": "Hayranlıktan ayrılanların yeri",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_203_taldeoksuyongso.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_204",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직찍",
+    "romanized_script": "Jik-jjik",
+    "meaning": "Bizzat çekilen fotoğraf",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_204_jikjjik.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_205",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "공방요정",
+    "romanized_script": "Gong-bang-yo-jeong",
+    "meaning": "Yayınlarda sürekli görülen fan",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_205_gongbangyojeong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_206",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Başlangıç",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_206_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_207",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Aktif hayranlık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_207_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_208",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "탈덕",
+    "romanized_script": "Tal-deok",
+    "meaning": "Bırakma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_208_taldeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_209",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애",
+    "romanized_script": "Choe-ae",
+    "meaning": "Favori",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_209_choeae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_210",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "İmza günü",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_210_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_211",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Canlı konser",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_211_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_212",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "총공",
+    "romanized_script": "Chong-gong",
+    "meaning": "Organize eylem",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_212_chonggong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_213",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Fotoğrafçı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_213_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_214",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "굿즈",
+    "romanized_script": "Gut-jeu",
+    "meaning": "Merch",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_214_gutjeu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_215",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Kart",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_215_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_216",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Fener",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_216_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_217",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "컴백",
+    "romanized_script": "Keom-baek",
+    "meaning": "Yeni iş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_217_keombaek.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_218",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음방",
+    "romanized_script": "Eum-bang",
+    "meaning": "Müzik şov",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_218_eumbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_219",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "본방사수",
+    "romanized_script": "Bon-bang-sa-su",
+    "meaning": "Canlı izle",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_219_bonbangsasu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_220",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤비",
+    "romanized_script": "Myu-bi",
+    "meaning": "Video klip",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_220_myubi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_221",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "서포트",
+    "romanized_script": "Seo-po-teu",
+    "meaning": "Destek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_221_seopoteu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_222",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직캠",
+    "romanized_script": "Jik-kaem",
+    "meaning": "Kişisel odak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_222_jikkaem.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_223",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "차트인",
+    "romanized_script": "Cha-teu-in",
+    "meaning": "Liste başarısı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_223_chateuin.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_224",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "1위",
+    "romanized_script": "Il-wi",
+    "meaning": "Birincilik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_224_ilwi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_225",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "올킬",
+    "romanized_script": "Ol-kil",
+    "meaning": "Zirve başarısı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_225_olkil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_226",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "역주행",
+    "romanized_script": "Yeok-ju-haeng",
+    "meaning": "Listeye dönüş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_226_yeokjuhaeng.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_227",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "칼군무",
+    "romanized_script": "Kal-gun-mu",
+    "meaning": "Senkron dans",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_227_kalgunmu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_228",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음원",
+    "romanized_script": "Eum-won",
+    "meaning": "Şarkı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_228_eumwon.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_229",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Hayran faaliyeti",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_229_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_230",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "İmza etkinliği",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_230_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_231",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "공방",
+    "romanized_script": "Gong-bang",
+    "meaning": "Halka açık şov",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_231_gongbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_232",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "총공",
+    "romanized_script": "Chong-gong",
+    "meaning": "Kolektif aksiyon",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_232_chonggong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_233",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Fotoğrafçı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_233_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_234",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "굿즈",
+    "romanized_script": "Gut-jeu",
+    "meaning": "Ürün",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_234_gutjeu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_235",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Kart",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_235_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_236",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Fener",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_236_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_237",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "컴백",
+    "romanized_script": "Keom-baek",
+    "meaning": "Dönüş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_237_keombaek.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_238",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음방",
+    "romanized_script": "Eum-bang",
+    "meaning": "Müzik şov",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_238_eumbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_239",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤비",
+    "romanized_script": "Myu-bi",
+    "meaning": "Video klip",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_239_myubi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_240",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "본방사수",
+    "romanized_script": "Bon-bang-sa-su",
+    "meaning": "Yayında izle",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_240_bonbangsasu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_241",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "서포트",
+    "romanized_script": "Seo-po-teu",
+    "meaning": "Destek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_241_seopoteu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_242",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Canlı şov",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_242_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_243",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "투표",
+    "romanized_script": "Tu-pyo",
+    "meaning": "Destek oyu",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_243_tupyo.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_244",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "İmza etkinliği",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_244_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_245",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "앨범",
+    "romanized_script": "Ael-beom",
+    "meaning": "Albüm",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_245_aelbeom.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_246",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직캠",
+    "romanized_script": "Jik-kaem",
+    "meaning": "Kişisel odak",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_246_jikkaem.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_247",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "올킬",
+    "romanized_script": "Ol-kil",
+    "meaning": "Tam zafer",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_247_olkil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_248",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음원",
+    "romanized_script": "Eum-won",
+    "meaning": "Şarkı dosyası",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_248_eumwon.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_249",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Fan aktivitesi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_249_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_250",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애",
+    "romanized_script": "Choe-ae",
+    "meaning": "Favori",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_250_choeae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_251",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Giriş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_251_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_252",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "탈덕",
+    "romanized_script": "Tal-deok",
+    "meaning": "Ayrılma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_252_taldeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_253",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "차트인",
+    "romanized_script": "Cha-teu-in",
+    "meaning": "Liste girişi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_253_chateuin.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_254",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "1위",
+    "romanized_script": "Il-wi",
+    "meaning": "Liderlik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_254_ilwi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_255",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Fotoğrafçı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_255_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_256",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "굿즈",
+    "romanized_script": "Gut-jeu",
+    "meaning": "Ekipman",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_256_gutjeu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_257",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Kart",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_257_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_258",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Işık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_258_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_259",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "컴백",
+    "romanized_script": "Keom-baek",
+    "meaning": "Dönüş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_259_keombaek.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_260",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음방",
+    "romanized_script": "Eum-bang",
+    "meaning": "Şov",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_260_eumbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_261",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤비",
+    "romanized_script": "Myu-bi",
+    "meaning": "Klip",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_261_myubi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_262",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬미팅",
+    "romanized_script": "Paen-miting",
+    "meaning": "Buluşma",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_262_paenmiting.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_263",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "사인회",
+    "romanized_script": "Sa-in-hoe",
+    "meaning": "İmza",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_263_sainhoe.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_264",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음원",
+    "romanized_script": "Eum-won",
+    "meaning": "Müzik",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_264_eumwon.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_265",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Canlı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_265_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_266",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "총공",
+    "romanized_script": "Chong-gong",
+    "meaning": "Eylem",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_266_chonggong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_267",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직캠",
+    "romanized_script": "Jik-kaem",
+    "meaning": "Kayıt",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_267_jikkaem.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_268",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Kart",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_268_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_269",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "앨범",
+    "romanized_script": "Ael-beom",
+    "meaning": "Disk",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_269_aelbeom.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_270",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Işık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_270_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_271",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "컴백",
+    "romanized_script": "Keom-baek",
+    "meaning": "Dönüş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_271_keombaek.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_272",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음방",
+    "romanized_script": "Eum-bang",
+    "meaning": "Şov",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_272_eumbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_273",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤비",
+    "romanized_script": "Myu-bi",
+    "meaning": "Klip",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_273_myubi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_274",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "본방사수",
+    "romanized_script": "Bon-bang-sa-su",
+    "meaning": "Yayında izle",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_274_bonbangsasu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_275",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "서포트",
+    "romanized_script": "Seo-po-teu",
+    "meaning": "Destek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_275_seopoteu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_276",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Canlı",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_276_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_277",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "투표",
+    "romanized_script": "Tu-pyo",
+    "meaning": "Oy",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_277_tupyo.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_278",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "İmza",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_278_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_279",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "앨범",
+    "romanized_script": "Ael-beom",
+    "meaning": "Albüm",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_279_aelbeom.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_280",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Hobi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_280_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_281",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애",
+    "romanized_script": "Choe-ae",
+    "meaning": "Bias",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_281_choeae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_282",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "홈마",
+    "romanized_script": "Hom-ma",
+    "meaning": "Fan",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_282_homma.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_283",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "굿즈",
+    "romanized_script": "Gut-jeu",
+    "meaning": "Ürün",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_283_gutjeu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_284",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "포카",
+    "romanized_script": "Po-ka",
+    "meaning": "Kart",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_284_poka.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_285",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "응원봉",
+    "romanized_script": "Eung-won-bong",
+    "meaning": "Işık",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_285_eungwonbong.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_286",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "컴백",
+    "romanized_script": "Keom-baek",
+    "meaning": "Yeni iş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_286_keombaek.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_287",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "음방",
+    "romanized_script": "Eum-bang",
+    "meaning": "Şov",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_287_eumbang.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_288",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤비",
+    "romanized_script": "Myu-bi",
+    "meaning": "Klip",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_288_myubi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_289",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "본방사수",
+    "romanized_script": "Bon-bang-sa-su",
+    "meaning": "İzle",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_289_bonbangsasu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_290",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "서포트",
+    "romanized_script": "Seo-po-teu",
+    "meaning": "Destek",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_290_seopoteu.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_291",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "직관",
+    "romanized_script": "Jik-gwan",
+    "meaning": "Katılım",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_291_jikgwan.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_292",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "투표",
+    "romanized_script": "Tu-pyo",
+    "meaning": "Oy",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_292_tupyo.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_293",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "팬싸",
+    "romanized_script": "Paen-ssa",
+    "meaning": "İmza",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_293_paenssa.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_294",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "앨범",
+    "romanized_script": "Ael-beom",
+    "meaning": "Albüm",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_294_aelbeom.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_295",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애",
+    "romanized_script": "Choe-ae",
+    "meaning": "Fav",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_295_choeae.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_296",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "덕질",
+    "romanized_script": "Deok-jil",
+    "meaning": "Hobi",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_296_deokjil.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_297",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "입덕",
+    "romanized_script": "Ipd-eok",
+    "meaning": "Giriş",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_297_ipdeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_298",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "탈덕",
+    "romanized_script": "Tal-deok",
+    "meaning": "Çıkış",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_298_taldeok.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_299",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "뮤비",
+    "romanized_script": "Myu-bi",
+    "meaning": "Klip",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_299_myubi.mp3"
+    }
+  },
+  {
+    "id": "kor_fan_300",
+    "language_code": "ko",
+    "level_tag": "Fandom_Slang",
+    "original_script": "최애곡",
+    "romanized_script": "Choe-ae-gok",
+    "meaning": "Hit",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr"
+    },
+    "audio": {
+      "default": "/audio/K_pop_ko/kor_fan_300_choeaegok.mp3"
+    }
+  }
+]

@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 1,
+    "osmanlica_latin": "Adalet",
+    "osmanlica_arapca": "عدالت",
+    "guncel_turkce": "Hak ve hukuka uygunluk, türe",
+    "audio": {
+      "default": "/osm/osm_001_adalet.mp3"
+    }
+  },
+  {
+    "id": 2,
+    "osmanlica_latin": "Aheng",
+    "osmanlica_arapca": "آهنگ",
+    "guncel_turkce": "Uyum, düzen, makam",
+    "audio": {
+      "default": "/osm/osm_002_aheng.mp3"
+    }
+  },
+  {
+    "id": 3,
+    "osmanlica_latin": "Akis",
+    "osmanlica_arapca": "عكس",
+    "guncel_turkce": "Yansıma, yankı",
+    "audio": {
+      "default": "/osm/osm_003_akis.mp3"
+    }
+  },
+  {
+    "id": 4,
+    "osmanlica_latin": "Akil",
+    "osmanlica_arapca": "عاقل",
+    "guncel_turkce": "Akıllı, aklı başında olan",
+    "audio": {
+      "default": "/osm/osm_004_akil.mp3"
+    }
+  },
+  {
+    "id": 5,
+    "osmanlica_latin": "Aksiseda",
+    "osmanlica_arapca": "عكس صدا",
+    "guncel_turkce": "Yankı, ses yansıması",
+    "audio": {
+      "default": "/osm/osm_005_aksiseda.mp3"
+    }
+  },
+  {
+    "id": 6,
+    "osmanlica_latin": "Arzu",
+    "osmanlica_arapca": "آرزو",
+    "guncel_turkce": "İstek, dilek, heves",
+    "audio": {
+      "default": "/osm/osm_006_arzu.mp3"
+    }
+  },
+  {
+    "id": 7,
+    "osmanlica_latin": "Asude",
+    "osmanlica_arapca": "آسوده",
+    "guncel_turkce": "Rahat, sakin, huzurlu",
+    "audio": {
+      "default": "/osm/osm_007_asude.mp3"
+    }
+  },
+  {
+    "id": 8,
+    "osmanlica_latin": "Aşk",
+    "osmanlica_arapca": "عشق",
+    "guncel_turkce": "Aşırı sevgi, bağlılık",
+    "audio": {
+      "default": "/osm/osm_008_ask.mp3"
+    }
+  },
+  {
+    "id": 9,
+    "osmanlica_latin": "Avam",
+    "osmanlica_arapca": "عوام",
+    "guncel_turkce": "Halk, sıradan insanlar",
+    "audio": {
+      "default": "/osm/osm_009_avam.mp3"
+    }
+  },
+  {
+    "id": 10,
+    "osmanlica_latin": "Aziz",
+    "osmanlica_arapca": "عزيز",
+    "guncel_turkce": "Değerli, saygın, sevgili",
+    "audio": {
+      "default": "/osm/osm_010_aziz.mp3"
+    }
+  },
+  {
+    "id": 11,
+    "osmanlica_latin": "Baki",
+    "osmanlica_arapca": "باقى",
+    "guncel_turkce": "Sürekli, kalıcı, sonsuz",
+    "audio": {
+      "default": "/osm/osm_011_baki.mp3"
+    }
+  },
+  {
+    "id": 12,
+    "osmanlica_latin": "Baris",
+    "osmanlica_arapca": "بارش",
+    "guncel_turkce": "Yağmur, barışma",
+    "audio": {
+      "default": "/osm/osm_012_baris.mp3"
+    }
+  },
+  {
+    "id": 13,
+    "osmanlica_latin": "Basiret",
+    "osmanlica_arapca": "بصيرت",
+    "guncel_turkce": "Sağduyu, uzağı görme becerisi",
+    "audio": {
+      "default": "/osm/osm_013_basiret.mp3"
+    }
+  },
+  {
+    "id": 14,
+    "osmanlica_latin": "Batıl",
+    "osmanlica_arapca": "باطل",
+    "guncel_turkce": "Geçersiz, çürük, yalan",
+    "audio": {
+      "default": "/osm/osm_014_batil.mp3"
+    }
+  },
+  {
+    "id": 15,
+    "osmanlica_latin": "Bedbaht",
+    "osmanlica_arapca": "بدبخت",
+    "guncel_turkce": "Mutsuz, bahtsız, şanssız",
+    "audio": {
+      "default": "/osm/osm_015_bedbaht.mp3"
+    }
+  },
+  {
+    "id": 16,
+    "osmanlica_latin": "Bedbin",
+    "osmanlica_arapca": "بدبين",
+    "guncel_turkce": "Kötümser",
+    "audio": {
+      "default": "/osm/osm_016_bedbin.mp3"
+    }
+  },
+  {
+    "id": 17,
+    "osmanlica_latin": "Belağat",
+    "osmanlica_arapca": "بلاغت",
+    "guncel_turkce": "Güzel ve etkili konuşma sanatı",
+    "audio": {
+      "default": "/osm/osm_017_belagat.mp3"
+    }
+  },
+  {
+    "id": 18,
+    "osmanlica_latin": "Bende",
+    "osmanlica_arapca": "بende",
+    "guncel_turkce": "Kul, köle, hizmetkar",
+    "audio": {
+      "default": "/osm/osm_018_bende.mp3"
+    }
+  },
+  {
+    "id": 19,
+    "osmanlica_latin": "Beraber",
+    "osmanlica_arapca": "برابر",
+    "guncel_turkce": "Birlikte, eşit",
+    "audio": {
+      "default": "/osm/osm_019_beraber.mp3"
+    }
+  },
+  {
+    "id": 20,
+    "osmanlica_latin": "Berrak",
+    "osmanlica_arapca": "براق",
+    "guncel_turkce": "Aydınlık, duru, temiz",
+    "audio": {
+      "default": "/osm/osm_020_berrak.mp3"
+    }
+  },
+  {
+    "id": 21,
+    "osmanlica_latin": "Beyan",
+    "osmanlica_arapca": "بيان",
+    "guncel_turkce": "Açıklama, bildirme",
+    "audio": {
+      "default": "/osm/osm_021_beyan.mp3"
+    }
+  },
+  {
+    "id": 22,
+    "osmanlica_latin": "Beşer",
+    "osmanlica_arapca": "بشر",
+    "guncel_turkce": "İnsan, insan oğlu",
+    "audio": {
+      "default": "/osm/osm_022_beser.mp3"
+    }
+  },
+  {
+    "id": 23,
+    "osmanlica_latin": "Bihaber",
+    "osmanlica_arapca": "بيخبر",
+    "guncel_turkce": "Habersiz, bilgisiz",
+    "audio": {
+      "default": "/osm/osm_023_bihaber.mp3"
+    }
+  },
+  {
+    "id": 24,
+    "osmanlica_latin": "Bilakis",
+    "osmanlica_arapca": "بالعكس",
+    "guncel_turkce": "Aksine, tersine",
+    "audio": {
+      "default": "/osm/osm_024_bilakis.mp3"
+    }
+  },
+  {
+    "id": 25,
+    "osmanlica_latin": "Binaen",
+    "osmanlica_arapca": "بناءاً",
+    "guncel_turkce": "Dayanarak, -den dolayı",
+    "audio": {
+      "default": "/osm/osm_025_binaen.mp3"
+    }
+  },
+  {
+    "id": 26,
+    "osmanlica_latin": "Biçare",
+    "osmanlica_arapca": "بيچاره",
+    "guncel_turkce": "Çaresiz, zavallı",
+    "audio": {
+      "default": "/osm/osm_026_bicare.mp3"
+    }
+  },
+  {
+    "id": 27,
+    "osmanlica_latin": "Burhan",
+    "osmanlica_arapca": "برهان",
+    "guncel_turkce": "Delil, kanıt, güvenilir belge",
+    "audio": {
+      "default": "/osm/osm_027_burhan.mp3"
+    }
+  },
+  {
+    "id": 28,
+    "osmanlica_latin": "Buse",
+    "osmanlica_arapca": "بوسه",
+    "guncel_turkce": "Öpücük, öpüş",
+    "audio": {
+      "default": "/osm/osm_028_buse.mp3"
+    }
+  },
+  {
+    "id": 29,
+    "osmanlica_latin": "Bülbül",
+    "osmanlica_arapca": "بلبل",
+    "guncel_turkce": "Güzel sesli ötücü kuş",
+    "audio": {
+      "default": "/osm/osm_029_bulbul.mp3"
+    }
+  },
+  {
+    "id": 30,
+    "osmanlica_latin": "Cahil",
+    "osmanlica_arapca": "جاهل",
+    "guncel_turkce": "Bilgisiz, deneyimsiz",
+    "audio": {
+      "default": "/osm/osm_030_cahil.mp3"
+    }
+  },
+  {
+    "id": 31,
+    "osmanlica_latin": "Cami",
+    "osmanlica_arapca": "جامع",
+    "guncel_turkce": "Toplayan, bir araya getiren",
+    "audio": {
+      "default": "/osm/osm_031_cami.mp3"
+    }
+  },
+  {
+    "id": 32,
+    "osmanlica_latin": "Canan",
+    "osmanlica_arapca": "جانان",
+    "guncel_turkce": "Sevgili, gönül verilmiş kadın",
+    "audio": {
+      "default": "/osm/osm_032_canan.mp3"
+    }
+  },
+  {
+    "id": 33,
+    "osmanlica_latin": "Cari",
+    "osmanlica_arapca": "جارى",
+    "guncel_turkce": "Geçerli olan, yürürlükte",
+    "audio": {
+      "default": "/osm/osm_033_cari.mp3"
+    }
+  },
+  {
+    "id": 34,
+    "osmanlica_latin": "Cazibe",
+    "osmanlica_arapca": "جاذبه",
+    "guncel_turkce": "Çekim gücü, alımlılık",
+    "audio": {
+      "default": "/osm/osm_034_cazibe.mp3"
+    }
+  },
+  {
+    "id": 35,
+    "osmanlica_latin": "Cefa",
+    "osmanlica_arapca": "جفا",
+    "guncel_turkce": "Eziyet, sıkıntı, üzme",
+    "audio": {
+      "default": "/osm/osm_035_cefa.mp3"
+    }
+  },
+  {
+    "id": 36,
+    "osmanlica_latin": "Celal",
+    "osmanlica_arapca": "جلال",
+    "guncel_turkce": "Öfke, kızgınlık, büyüklük",
+    "audio": {
+      "default": "/osm/osm_036_celal.mp3"
+    }
+  },
+  {
+    "id": 37,
+    "osmanlica_latin": "Cemal",
+    "osmanlica_arapca": "جمال",
+    "guncel_turkce": "Yüz güzelliği, estetik",
+    "audio": {
+      "default": "/osm/osm_037_cemal.mp3"
+    }
+  },
+  {
+    "id": 38,
+    "osmanlica_latin": "Cemiyet",
+    "osmanlica_arapca": "جمعيت",
+    "guncel_turkce": "Topluluk, dernek",
+    "audio": {
+      "default": "/osm/osm_038_cemiyet.mp3"
+    }
+  },
+  {
+    "id": 39,
+    "osmanlica_latin": "Cenap",
+    "osmanlica_arapca": "جناب",
+    "guncel_turkce": "Saygıdeğer, hazret",
+    "audio": {
+      "default": "/osm/osm_039_cenap.mp3"
+    }
+  },
+  {
+    "id": 40,
+    "osmanlica_latin": "Cenk",
+    "osmanlica_arapca": "جنگ",
+    "guncel_turkce": "Savaş, vuruşma",
+    "audio": {
+      "default": "/osm/osm_040_cenk.mp3"
+    }
+  },
+  {
+    "id": 41,
+    "osmanlica_latin": "Cesaret",
+    "osmanlica_arapca": "جسارت",
+    "guncel_turkce": "Yüreklilik, korkusuzluk",
+    "audio": {
+      "default": "/osm/osm_041_cesaret.mp3"
+    }
+  },
+  {
+    "id": 42,
+    "osmanlica_latin": "Cevaz",
+    "osmanlica_arapca": "جواز",
+    "guncel_turkce": "İzin, onay, müsaade",
+    "audio": {
+      "default": "/osm/osm_042_cevaz.mp3"
+    }
+  },
+  {
+    "id": 43,
+    "osmanlica_latin": "Cevher",
+    "osmanlica_arapca": "جوهر",
+    "guncel_turkce": "Öz, değerli taş, yetenek",
+    "audio": {
+      "default": "/osm/osm_043_cevher.mp3"
+    }
+  },
+  {
+    "id": 44,
+    "osmanlica_latin": "Cihan",
+    "osmanlica_arapca": "جهان",
+    "guncel_turkce": "Dünya, alem",
+    "audio": {
+      "default": "/osm/osm_044_cihan.mp3"
+    }
+  },
+  {
+    "id": 45,
+    "osmanlica_latin": "Cüsse",
+    "osmanlica_arapca": "جثه",
+    "guncel_turkce": "Beden, gövde, hacim",
+    "audio": {
+      "default": "/osm/osm_045_cusse.mp3"
+    }
+  },
+  {
+    "id": 46,
+    "osmanlica_latin": "Cömert",
+    "osmanlica_arapca": "جوانمرد",
+    "guncel_turkce": "Eli açık, ikramı seven",
+    "audio": {
+      "default": "/osm/osm_046_comert.mp3"
+    }
+  },
+  {
+    "id": 47,
+    "osmanlica_latin": "Cüret",
+    "osmanlica_arapca": "جرأت",
+    "guncel_turkce": "Yüreklilik, atılganlık",
+    "audio": {
+      "default": "/osm/osm_047_curet.mp3"
+    }
+  },
+  {
+    "id": 48,
+    "osmanlica_latin": "Cüz",
+    "osmanlica_arapca": "جزء",
+    "guncel_turkce": "Parça, kısım, bölüm",
+    "audio": {
+      "default": "/osm/osm_048_cuz.mp3"
+    }
+  },
+  {
+    "id": 49,
+    "osmanlica_latin": "Daimi",
+    "osmanlica_arapca": "دائمى",
+    "guncel_turkce": "Sürekli, kalıcı, kalımlı",
+    "audio": {
+      "default": "/osm/osm_049_daimi.mp3"
+    }
+  },
+  {
+    "id": 50,
+    "osmanlica_latin": "Darülfünun",
+    "osmanlica_arapca": "دار الفنون",
+    "guncel_turkce": "Üniversite, fenler evi",
+    "audio": {
+      "default": "/osm/osm_050_darulfunun.mp3"
+    }
+  },
+  {
+    "id": 51,
+    "osmanlica_latin": "Davet",
+    "osmanlica_arapca": "دعوت",
+    "guncel_turkce": "Çağrı, ağırlama",
+    "audio": {
+      "default": "/osm/osm_051_davet.mp3"
+    }
+  },
+  {
+    "id": 52,
+    "osmanlica_latin": "Defa",
+    "osmanlica_arapca": "دفه",
+    "guncel_turkce": "Kez, kere, sefer",
+    "audio": {
+      "default": "/osm/osm_052_defa.mp3"
+    }
+  },
+  {
+    "id": 53,
+    "osmanlica_latin": "Deha",
+    "osmanlica_arapca": "دهاء",
+    "guncel_turkce": "Üstün zeka, dahi olma durumu",
+    "audio": {
+      "default": "/osm/osm_053_deha.mp3"
+    }
+  },
+  {
+    "id": 54,
+    "osmanlica_latin": "Delalet",
+    "osmanlica_arapca": "دلالت",
+    "guncel_turkce": "İşaret etmek, kılavuzluk",
+    "audio": {
+      "default": "/osm/osm_054_delalet.mp3"
+    }
+  },
+  {
+    "id": 55,
+    "osmanlica_latin": "Derd",
+    "osmanlica_arapca": "درد",
+    "guncel_turkce": "Sıkıntı, dert, keder",
+    "audio": {
+      "default": "/osm/osm_055_derd.mp3"
+    }
+  },
+  {
+    "id": 56,
+    "osmanlica_latin": "Deruhte",
+    "osmanlica_arapca": "دروهده",
+    "guncel_turkce": "Üzerine alma, üstlenme",
+    "audio": {
+      "default": "/osm/osm_056_deruhte.mp3"
+    }
+  },
+  {
+    "id": 57,
+    "osmanlica_latin": "Deruni",
+    "osmanlica_arapca": "درونى",
+    "guncel_turkce": "İçten, kalbi, ruhsal",
+    "audio": {
+      "default": "/osm/osm_057_deruni.mp3"
+    }
+  },
+  {
+    "id": 58,
+    "osmanlica_latin": "Derya",
+    "osmanlica_arapca": "دريا",
+    "guncel_turkce": "Deniz, büyük nehir",
+    "audio": {
+      "default": "/osm/osm_058_derya.mp3"
+    }
+  },
+  {
+    "id": 59,
+    "osmanlica_latin": "Devlet",
+    "osmanlica_arapca": "دولت",
+    "guncel_turkce": "Mülk, talih, siyasi organizasyon",
+    "audio": {
+      "default": "/osm/osm_059_devlet.mp3"
+    }
+  },
+  {
+    "id": 60,
+    "osmanlica_latin": "Devran",
+    "osmanlica_arapca": "دوران",
+    "guncel_turkce": "Zaman, dünya, dönüş",
+    "audio": {
+      "default": "/osm/osm_060_devran.mp3"
+    }
+  },
+  {
+    "id": 61,
+    "osmanlica_latin": "Dikkat",
+    "osmanlica_arapca": "دقت",
+    "guncel_turkce": "Özen, titizlik, zihni yoğunlaştırma",
+    "audio": {
+      "default": "/osm/osm_061_dikkat.mp3"
+    }
+  },
+  {
+    "id": 62,
+    "osmanlica_latin": "Dilber",
+    "osmanlica_arapca": "دلber",
+    "guncel_turkce": "Gönül alan, güzel kadın",
+    "audio": {
+      "default": "/osm/osm_062_dilber.mp3"
+    }
+  },
+  {
+    "id": 63,
+    "osmanlica_latin": "Dilek",
+    "osmanlica_arapca": "ديلك",
+    "guncel_turkce": "Arzu, istek, temenni",
+    "audio": {
+      "default": "/osm/osm_063_dilek.mp3"
+    }
+  },
+  {
+    "id": 64,
+    "osmanlica_latin": "Diyar",
+    "osmanlica_arapca": "ديار",
+    "guncel_turkce": "Ülke, memleket, yurt",
+    "audio": {
+      "default": "/osm/osm_064_diyar.mp3"
+    }
+  },
+  {
+    "id": 65,
+    "osmanlica_latin": "Ebedi",
+    "osmanlica_arapca": "ابدى",
+    "guncel_turkce": "Sonsuz, sonu olmayan",
+    "audio": {
+      "default": "/osm/osm_065_ebedi.mp3"
+    }
+  },
+  {
+    "id": 66,
+    "osmanlica_latin": "Ecdat",
+    "osmanlica_arapca": "اجداد",
+    "guncel_turkce": "Atalar, geçmiş nesiller",
+    "audio": {
+      "default": "/osm/osm_066_ecdat.mp3"
+    }
+  },
+  {
+    "id": 67,
+    "osmanlica_latin": "Ecnebi",
+    "osmanlica_arapca": "اجنبى",
+    "guncel_turkce": "Yabancı, başka milletten olan",
+    "audio": {
+      "default": "/osm/osm_067_ecnebi.mp3"
+    }
+  },
+  {
+    "id": 68,
+    "osmanlica_latin": "Eda",
+    "osmanlica_arapca": "ادا",
+    "guncel_turkce": "Tavır, tarz, yerine getirme",
+    "audio": {
+      "default": "/osm/osm_068_eda.mp3"
+    }
+  },
+  {
+    "id": 69,
+    "osmanlica_latin": "Efkâr",
+    "osmanlica_arapca": "افكار",
+    "guncel_turkce": "Düşünceler, fikirler, keder",
+    "audio": {
+      "default": "/osm/osm_069_efkar.mp3"
+    }
+  },
+  {
+    "id": 70,
+    "osmanlica_latin": "Ehliyet",
+    "osmanlica_arapca": "اهليت",
+    "guncel_turkce": "Yetkinlik, ustalık, uygunluk",
+    "audio": {
+      "default": "/osm/osm_070_ehliyet.mp3"
+    }
+  },
+  {
+    "id": 71,
+    "osmanlica_latin": "Ehemmiyet",
+    "osmanlica_arapca": "اهميت",
+    "guncel_turkce": "Önem, değer",
+    "audio": {
+      "default": "/osm/osm_071_ehemmiyet.mp3"
+    }
+  },
+  {
+    "id": 72,
+    "osmanlica_latin": "Elzem",
+    "osmanlica_arapca": "الزم",
+    "guncel_turkce": "Çok gerekli, vazgeçilmez",
+    "audio": {
+      "default": "/osm/osm_072_elzem.mp3"
+    }
+  },
+  {
+    "id": 73,
+    "osmanlica_latin": "Emanet",
+    "osmanlica_arapca": "امانت",
+    "guncel_turkce": "Korunmak için bırakılan şey",
+    "audio": {
+      "default": "/osm/osm_073_emanet.mp3"
+    }
+  },
+  {
+    "id": 74,
+    "osmanlica_latin": "Emel",
+    "osmanlica_arapca": "امل",
+    "guncel_turkce": "Ümit, ideal, büyük arzu",
+    "audio": {
+      "default": "/osm/osm_074_emel.mp3"
+    }
+  },
+  {
+    "id": 75,
+    "osmanlica_latin": "Emin",
+    "osmanlica_arapca": "امين",
+    "guncel_turkce": "Güvenilir, inançlı, korkusuz",
+    "audio": {
+      "default": "/osm/osm_075_emin.mp3"
+    }
+  },
+  {
+    "id": 76,
+    "osmanlica_latin": "Emir",
+    "osmanlica_arapca": "امر",
+    "guncel_turkce": "Buyruk, komut",
+    "audio": {
+      "default": "/osm/osm_076_emir.mp3"
+    }
+  },
+  {
+    "id": 77,
+    "osmanlica_latin": "Enis",
+    "osmanlica_arapca": "انيس",
+    "guncel_turkce": "Dost, arkadaş, cana yakın",
+    "audio": {
+      "default": "/osm/osm_077_enis.mp3"
+    }
+  },
+  {
+    "id": 78,
+    "osmanlica_latin": "Envar",
+    "osmanlica_arapca": "انوار",
+    "guncel_turkce": "Işıklar, nurlar",
+    "audio": {
+      "default": "/osm/osm_078_envar.mp3"
+    }
+  },
+  {
+    "id": 79,
+    "osmanlica_latin": "Erbab",
+    "osmanlica_arapca": "ارباب",
+    "guncel_turkce": "İşin uzmanı, ehli",
+    "audio": {
+      "default": "/osm/osm_079_erbab.mp3"
+    }
+  },
+  {
+    "id": 80,
+    "osmanlica_latin": "Esas",
+    "osmanlica_arapca": "اساس",
+    "guncel_turkce": "Temel, köken, asıl",
+    "audio": {
+      "default": "/osm/osm_080_esas.mp3"
+    }
+  },
+  {
+    "id": 81,
+    "osmanlica_latin": "Esna",
+    "osmanlica_arapca": "اثنا",
+    "guncel_turkce": "Sıra, an, esnasında",
+    "audio": {
+      "default": "/osm/osm_081_esna.mp3"
+    }
+  },
+  {
+    "id": 82,
+    "osmanlica_latin": "Esrar",
+    "osmanlica_arapca": "اسرار",
+    "guncel_turkce": "Sırlar, gizemler",
+    "audio": {
+      "default": "/osm/osm_082_esrar.mp3"
+    }
+  },
+  {
+    "id": 83,
+    "osmanlica_latin": "Eşkal",
+    "osmanlica_arapca": "اشكال",
+    "guncel_turkce": "Şekiller, dış görünüş kalıbı",
+    "audio": {
+      "default": "/osm/osm_083_eskal.mp3"
+    }
+  },
+  {
+    "id": 84,
+    "osmanlica_latin": "Etraf",
+    "osmanlica_arapca": "اطراف",
+    "guncel_turkce": "Çevre, yanlar",
+    "audio": {
+      "default": "/osm/osm_084_etraf.mp3"
+    }
+  },
+  {
+    "id": 85,
+    "osmanlica_latin": "Evrak",
+    "osmanlica_arapca": "اوراق",
+    "guncel_turkce": "Belgeler, yazılı kağıtlar",
+    "audio": {
+      "default": "/osm/osm_085_evrak.mp3"
+    }
+  },
+  {
+    "id": 86,
+    "osmanlica_latin": "Evvel",
+    "osmanlica_arapca": "اول",
+    "guncel_turkce": "Önce, ilk",
+    "audio": {
+      "default": "/osm/osm_086_evvel.mp3"
+    }
+  },
+  {
+    "id": 87,
+    "osmanlica_latin": "Ezel",
+    "osmanlica_arapca": "ازل",
+    "guncel_turkce": "Başlangıcı olmayan geçmiş zaman",
+    "audio": {
+      "default": "/osm/osm_087_ezel.mp3"
+    }
+  },
+  {
+    "id": 88,
+    "osmanlica_latin": "Fahr",
+    "osmanlica_arapca": "فخر",
+    "guncel_turkce": "Övünme, kıvanç duyma",
+    "audio": {
+      "default": "/osm/osm_088_fahr.mp3"
+    }
+  },
+  {
+    "id": 89,
+    "osmanlica_latin": "Fani",
+    "osmanlica_arapca": "فانى",
+    "guncel_turkce": "Ölümlü, geçici",
+    "audio": {
+      "default": "/osm/osm_089_fani.mp3"
+    }
+  },
+  {
+    "id": 90,
+    "osmanlica_latin": "Farz",
+    "osmanlica_arapca": "فرض",
+    "guncel_turkce": "Zorunlu, yapılması şart olan",
+    "audio": {
+      "default": "/osm/osm_090_farz.mp3"
+    }
+  },
+  {
+    "id": 91,
+    "osmanlica_latin": "Fasih",
+    "osmanlica_arapca": "فصيح",
+    "guncel_turkce": "Açık, anlaşılır ve düzgün söz",
+    "audio": {
+      "default": "/osm/osm_091_fasih.mp3"
+    }
+  },
+  {
+    "id": 92,
+    "osmanlica_latin": "Fatin",
+    "osmanlica_arapca": "فطين",
+    "guncel_turkce": "Zeki, anlayışlı, uyanık",
+    "audio": {
+      "default": "/osm/osm_092_fatin.mp3"
+    }
+  },
+  {
+    "id": 93,
+    "osmanlica_latin": "Fazilet",
+    "osmanlica_arapca": "فضيلت",
+    "guncel_turkce": "Erdem, ahlaki üstünlük",
+    "audio": {
+      "default": "/osm/osm_093_fazilet.mp3"
+    }
+  },
+  {
+    "id": 94,
+    "osmanlica_latin": "Fedakâr",
+    "osmanlica_arapca": "فداكار",
+    "guncel_turkce": "Özverili, canını esirgemeyen",
+    "audio": {
+      "default": "/osm/osm_094_fedakar.mp3"
+    }
+  },
+  {
+    "id": 95,
+    "osmanlica_latin": "Feragat",
+    "osmanlica_arapca": "فراغت",
+    "guncel_turkce": "Hakkından kendi isteğiyle vazgeçme",
+    "audio": {
+      "default": "/osm/osm_095_feragat.mp3"
+    }
+  },
+  {
+    "id": 96,
+    "osmanlica_latin": "Ferah",
+    "osmanlica_arapca": "فراح",
+    "guncel_turkce": "Geniş, iç açıcı, bol",
+    "audio": {
+      "default": "/osm/osm_096_ferah.mp3"
+    }
+  },
+  {
+    "id": 97,
+    "osmanlica_latin": "Feraset",
+    "osmanlica_arapca": "فراست",
+    "guncel_turkce": "Çabuk anlama, sezgi gücü",
+    "audio": {
+      "default": "/osm/osm_097_feraset.mp3"
+    }
+  },
+  {
+    "id": 98,
+    "osmanlica_latin": "Feryat",
+    "osmanlica_arapca": "فرياد",
+    "guncel_turkce": "Çığlık, yüksek sesle yakarış",
+    "audio": {
+      "default": "/osm/osm_098_feryat.mp3"
+    }
+  },
+  {
+    "id": 99,
+    "osmanlica_latin": "Fikir",
+    "osmanlica_arapca": "فكر",
+    "guncel_turkce": "Düşünce, görüş",
+    "audio": {
+      "default": "/osm/osm_099_fikir.mp3"
+    }
+  },
+  {
+    "id": 100,
+    "osmanlica_latin": "Firkat",
+    "osmanlica_arapca": "فرقت",
+    "guncel_turkce": "Ayrılık, dostlardan uzak kalma",
+    "audio": {
+      "default": "/osm/osm_100_firkat.mp3"
+    }
+  },
+  {
+    "id": 101,
+    "osmanlica_latin": "Fıtrat",
+    "osmanlica_arapca": "فطرت",
+    "guncel_turkce": "Yaratılış, doğal yapı, karakter",
+    "audio": {
+      "default": "/osm/osm_101_fitrat.mp3"
+    }
+  },
+  {
+    "id": 102,
+    "osmanlica_latin": "Gafil",
+    "osmanlica_arapca": "غافل",
+    "guncel_turkce": "Habersiz, aymaz, dikkatsiz",
+    "audio": {
+      "default": "/osm/osm_102_gafil.mp3"
+    }
+  },
+  {
+    "id": 103,
+    "osmanlica_latin": "Garezkâr",
+    "osmanlica_arapca": "غرضكار",
+    "guncel_turkce": "Kin besleyen, garazı olan",
+    "audio": {
+      "default": "/osm/osm_103_garezkar.mp3"
+    }
+  },
+  {
+    "id": 104,
+    "osmanlica_latin": "Gayret",
+    "osmanlica_arapca": "غيرت",
+    "guncel_turkce": "Çaba, çalışma isteği",
+    "audio": {
+      "default": "/osm/osm_104_gayret.mp3"
+    }
+  },
+  {
+    "id": 105,
+    "osmanlica_latin": "Gaye",
+    "osmanlica_arapca": "غايه",
+    "guncel_turkce": "Amaç, hedef, ülkü",
+    "audio": {
+      "default": "/osm/osm_105_gaye.mp3"
+    }
+  },
+  {
+    "id": 106,
+    "osmanlica_latin": "Gıyap",
+    "osmanlica_arapca": "غياب",
+    "guncel_turkce": "Bulunmama durumu, arkasından",
+    "audio": {
+      "default": "/osm/osm_106_giyap.mp3"
+    }
+  },
+  {
+    "id": 107,
+    "osmanlica_latin": "Gurbet",
+    "osmanlica_arapca": "غربt",
+    "guncel_turkce": "Yabancı yer, sıla özlemi",
+    "audio": {
+      "default": "/osm/osm_107_gurbet.mp3"
+    }
+  },
+  {
+    "id": 108,
+    "osmanlica_latin": "Gülzar",
+    "osmanlica_arapca": "گلزار",
+    "guncel_turkce": "Gül bahçesi",
+    "audio": {
+      "default": "/osm/osm_108_gulzar.mp3"
+    }
+  },
+  {
+    "id": 109,
+    "osmanlica_latin": "Güzide",
+    "osmanlica_arapca": "گزيده",
+    "guncel_turkce": "Seçkin, seçilmiş, beğenilmiş",
+    "audio": {
+      "default": "/osm/osm_109_guzide.mp3"
+    }
+  },
+  {
+    "id": 110,
+    "osmanlica_latin": "Habis",
+    "osmanlica_arapca": "خبيث",
+    "guncel_turkce": "Kötü, alçak, uğursuz",
+    "audio": {
+      "default": "/osm/osm_110_habis.mp3"
+    }
+  },
+  {
+    "id": 111,
+    "osmanlica_latin": "Hacet",
+    "osmanlica_arapca": "حاجت",
+    "guncel_turkce": "İhtiyaç, gerekli olan şey",
+    "audio": {
+      "default": "/osm/osm_111_hacet.mp3"
+    }
+  },
+  {
+    "id": 112,
+    "osmanlica_latin": "Hafıza",
+    "osmanlica_arapca": "حافظه",
+    "guncel_turkce": "Bellek, dağarcık",
+    "audio": {
+      "default": "/osm/osm_112_hafiza.mp3"
+    }
+  },
+  {
+    "id": 113,
+    "osmanlica_latin": "Hakan",
+    "osmanlica_arapca": "خاقان",
+    "guncel_turkce": "Büyük hükümdar, kağan",
+    "audio": {
+      "default": "/osm/osm_113_hakan.mp3"
+    }
+  },
+  {
+    "id": 114,
+    "osmanlica_latin": "Hakikat",
+    "osmanlica_arapca": "حقيقت",
+    "guncel_turkce": "Gerçek, asıl, doğru",
+    "audio": {
+      "default": "/osm/osm_114_hakikat.mp3"
+    }
+  },
+  {
+    "id": 115,
+    "osmanlica_latin": "Hakim",
+    "osmanlica_arapca": "حاكم",
+    "guncel_turkce": "Yargıç, egemen olan",
+    "audio": {
+      "default": "/osm/osm_115_hakim.mp3"
+    }
+  },
+  {
+    "id": 116,
+    "osmanlica_latin": "Halis",
+    "osmanlica_arapca": "خالص",
+    "guncel_turkce": "Katışıksız, saf, temiz",
+    "audio": {
+      "default": "/osm/osm_116_halis.mp3"
+    }
+  },
+  {
+    "id": 117,
+    "osmanlica_latin": "Haluk",
+    "osmanlica_arapca": "خلوق",
+    "guncel_turkce": "İyi ahlaklı, temiz huylu",
+    "audio": {
+      "default": "/osm/osm_117_haluk.mp3"
+    }
+  },
+  {
+    "id": 118,
+    "osmanlica_latin": "Hamiyet",
+    "osmanlica_arapca": "حميت",
+    "guncel_turkce": "Milli onur ve haysiyet duygusu",
+    "audio": {
+      "default": "/osm/osm_118_hamiyet.mp3"
+    }
+  },
+  {
+    "id": 119,
+    "osmanlica_latin": "Hararet",
+    "osmanlica_arapca": "حرارت",
+    "guncel_turkce": "Sıcaklık, susuzluk, coşku",
+    "audio": {
+      "default": "/osm/osm_119_hararet.mp3"
+    }
+  },
+  {
+    "id": 120,
+    "osmanlica_latin": "Harap",
+    "osmanlica_arapca": "خراب",
+    "guncel_turkce": "Yıkık, bozuk, perişan",
+    "audio": {
+      "default": "/osm/osm_120_harap.mp3"
+    }
+  },
+  {
+    "id": 121,
+    "osmanlica_latin": "Hasret",
+    "osmanlica_arapca": "حسرت",
+    "guncel_turkce": "Özlem, kavuşma isteği",
+    "audio": {
+      "default": "/osm/osm_121_hasret.mp3"
+    }
+  },
+  {
+    "id": 122,
+    "osmanlica_latin": "Hassasiyet",
+    "osmanlica_arapca": "حساسيت",
+    "guncel_turkce": "Duyarlılık, incelik",
+    "audio": {
+      "default": "/osm/osm_122_hassasiyet.mp3"
+    }
+  },
+  {
+    "id": 123,
+    "osmanlica_latin": "Hata",
+    "osmanlica_arapca": "خطا",
+    "guncel_turkce": "Yanlışlık, kusur, günah",
+    "audio": {
+      "default": "/osm/osm_123_hata.mp3"
+    }
+  },
+  {
+    "id": 124,
+    "osmanlica_latin": "Hayal",
+    "osmanlica_arapca": "خيال",
+    "guncel_turkce": "Zihindeki canlandırma, imge",
+    "audio": {
+      "default": "/osm/osm_124_hayal.mp3"
+    }
+  },
+  {
+    "id": 125,
+    "osmanlica_latin": "Hayat",
+    "osmanlica_arapca": "حيات",
+    "guncel_turkce": "Yaşam, canlılık",
+    "audio": {
+      "default": "/osm/osm_125_hayat.mp3"
+    }
+  },
+  {
+    "id": 126,
+    "osmanlica_latin": "Haysiyet",
+    "osmanlica_arapca": "حيثيت",
+    "guncel_turkce": "Onur, şeref, saygınlık",
+    "audio": {
+      "default": "/osm/osm_126_haysiyet.mp3"
+    }
+  },
+  {
+    "id": 127,
+    "osmanlica_latin": "Hazin",
+    "osmanlica_arapca": "حزين",
+    "guncel_turkce": "Hüzünlü, acıklı, üzüntülü",
+    "audio": {
+      "default": "/osm/osm_127_hazin.mp3"
+    }
+  },
+  {
+    "id": 128,
+    "osmanlica_latin": "Hazine",
+    "osmanlica_arapca": "خزينه",
+    "guncel_turkce": "Gömü, değerli şeylerin saklandığı yer",
+    "audio": {
+      "default": "/osm/osm_128_hazine.mp3"
+    }
+  },
+  {
+    "id": 129,
+    "osmanlica_latin": "Hediyye",
+    "osmanlica_arapca": "هديه",
+    "guncel_turkce": "Armağan, ödül",
+    "audio": {
+      "default": "/osm/osm_129_hediyye.mp3"
+    }
+  },
+  {
+    "id": 130,
+    "osmanlica_latin": "Hemşire",
+    "osmanlica_arapca": "همشيره",
+    "guncel_turkce": "Kız kardeş, sağlık görevlisi",
+    "audio": {
+      "default": "/osm/osm_130_hemsire.mp3"
+    }
+  },
+  {
+    "id": 131,
+    "osmanlica_latin": "Heves",
+    "osmanlica_arapca": "هوس",
+    "guncel_turkce": "Geçici istek, eğilim",
+    "audio": {
+      "default": "/osm/osm_131_heves.mp3"
+    }
+  },
+  {
+    "id": 132,
+    "osmanlica_latin": "Hidayet",
+    "osmanlica_arapca": "هدايت",
+    "guncel_turkce": "Doğru yola erme, hak yolu",
+    "audio": {
+      "default": "/osm/osm_132_hidayet.mp3"
+    }
+  },
+  {
+    "id": 133,
+    "osmanlica_latin": "Hikmet",
+    "osmanlica_arapca": "حكمت",
+    "guncel_turkce": "Derin neden, gizli bilgelik",
+    "audio": {
+      "default": "/osm/osm_133_hikmet.mp3"
+    }
+  },
+  {
+    "id": 134,
+    "osmanlica_latin": "Hilal",
+    "osmanlica_arapca": "هلال",
+    "guncel_turkce": "Yeni ay, ayça",
+    "audio": {
+      "default": "/osm/osm_134_hilal.mp3"
+    }
+  },
+  {
+    "id": 135,
+    "osmanlica_latin": "Hususi",
+    "osmanlica_arapca": "خصوصى",
+    "guncel_turkce": "Özel, kişisel",
+    "audio": {
+      "default": "/osm/osm_135_hususi.mp3"
+    }
+  },
+  {
+    "id": 136,
+    "osmanlica_latin": "Huzur",
+    "osmanlica_arapca": "حضور",
+    "guncel_turkce": "Gönül rahatlığı, dirlik, makam",
+    "audio": {
+      "default": "/osm/osm_136_huzur.mp3"
+    }
+  },
+  {
+    "id": 137,
+    "osmanlica_latin": "Hüsnüniyet",
+    "osmanlica_arapca": "حسن نيت",
+    "guncel_turkce": "İyi niyet, temiz yüreklilik",
+    "audio": {
+      "default": "/osm/osm_137_husnuniyet.mp3"
+    }
+  },
+  {
+    "id": 138,
+    "osmanlica_latin": "Hüzün",
+    "osmanlica_arapca": "حزن",
+    "guncel_turkce": "Gönül üzüntüsü, keder",
+    "audio": {
+      "default": "/osm/osm_138_huzun.mp3"
+    }
+  },
+  {
+    "id": 139,
+    "osmanlica_latin": "İbadet",
+    "osmanlica_arapca": "عبادت",
+    "guncel_turkce": "Tapınma, kulluk görevleri",
+    "audio": {
+      "default": "/osm/osm_139_i_badet.mp3"
+    }
+  },
+  {
+    "id": 140,
+    "osmanlica_latin": "İbare",
+    "osmanlica_arapca": "باره",
+    "guncel_turkce": "Söz dizisi, cümle, ifade",
+    "audio": {
+      "default": "/osm/osm_140_i_bare.mp3"
+    }
+  },
+  {
+    "id": 141,
+    "osmanlica_latin": "İbret",
+    "osmanlica_arapca": "عبرت",
+    "guncel_turkce": "Ders alınacak durum, uyarı",
+    "audio": {
+      "default": "/osm/osm_141_i_bret.mp3"
+    }
+  },
+  {
+    "id": 142,
+    "osmanlica_latin": "İçtihat",
+    "osmanlica_arapca": "اجتهاد",
+    "guncel_turkce": "Yasa hükmü çıkarma, görüş",
+    "audio": {
+      "default": "/osm/osm_142_i_ctihat.mp3"
+    }
+  },
+  {
+    "id": 143,
+    "osmanlica_latin": "İrade",
+    "osmanlica_arapca": "اراده",
+    "guncel_turkce": "İsteme gücü, seçim yapabilme yetisi",
+    "audio": {
+      "default": "/osm/osm_143_i_rade.mp3"
+    }
+  },
+  {
+    "id": 144,
+    "osmanlica_latin": "İrfan",
+    "osmanlica_arapca": "عرفan",
+    "guncel_turkce": "Bilme, anlama, kültürel birikim",
+    "audio": {
+      "default": "/osm/osm_144_i_rfan.mp3"
+    }
+  },
+  {
+    "id": 145,
+    "osmanlica_latin": "İstikbal",
+    "osmanlica_arapca": "استقبال",
+    "guncel_turkce": "Gelecek zaman, karşılama",
+    "audio": {
+      "default": "/osm/osm_145_i_stikbal.mp3"
+    }
+  },
+  {
+    "id": 146,
+    "osmanlica_latin": "İstiklal",
+    "osmanlica_arapca": "استقلال",
+    "guncel_turkce": "Bağımsızlık, özgürlük",
+    "audio": {
+      "default": "/osm/osm_146_i_stiklal.mp3"
+    }
+  },
+  {
+    "id": 147,
+    "osmanlica_latin": "İtimat",
+    "osmanlica_arapca": "اعتماد",
+    "guncel_turkce": "Güvenme, inanma",
+    "audio": {
+      "default": "/osm/osm_147_i_timat.mp3"
+    }
+  },
+  {
+    "id": 148,
+    "osmanlica_latin": "Kabiliyet",
+    "osmanlica_arapca": "قابليت",
+    "guncel_turkce": "Yetenek, güç, elverişlilik",
+    "audio": {
+      "default": "/osm/osm_148_kabiliyet.mp3"
+    }
+  },
+  {
+    "id": 149,
+    "osmanlica_latin": "Kader",
+    "osmanlica_arapca": "قدر",
+    "guncel_turkce": "Yazgı, alın yazısı, ölçü",
+    "audio": {
+      "default": "/osm/osm_149_kader.mp3"
+    }
+  },
+  {
+    "id": 150,
+    "osmanlica_latin": "Kalp",
+    "osmanlica_arapca": "قلب",
+    "guncel_turkce": "Yürek, gönül, merkez",
+    "audio": {
+      "default": "/osm/osm_150_kalp.mp3"
+    }
+  },
+  {
+    "id": 151,
+    "osmanlica_latin": "Kamer",
+    "osmanlica_arapca": "قمر",
+    "guncel_turkce": "Ay, gök cismi",
+    "audio": {
+      "default": "/osm/osm_151_kamer.mp3"
+    }
+  },
+  {
+    "id": 152,
+    "osmanlica_latin": "Kanaat",
+    "osmanlica_arapca": "قناعت",
+    "guncel_turkce": "Yetenme, elindekini yeterli bulma",
+    "audio": {
+      "default": "/osm/osm_152_kanaat.mp3"
+    }
+  },
+  {
+    "id": 153,
+    "osmanlica_latin": "Kanun",
+    "osmanlica_arapca": "قانون",
+    "guncel_turkce": "Yasa, kural, düzen",
+    "audio": {
+      "default": "/osm/osm_153_kanun.mp3"
+    }
+  },
+  {
+    "id": 154,
+    "osmanlica_latin": "Kelim",
+    "osmanlica_arapca": "كليم",
+    "guncel_turkce": "Konuşan, söz söyleyen",
+    "audio": {
+      "default": "/osm/osm_154_kelim.mp3"
+    }
+  },
+  {
+    "id": 155,
+    "osmanlica_latin": "Kerem",
+    "osmanlica_arapca": "كرم",
+    "guncel_turkce": "Soylu cömertlik, lütuf",
+    "audio": {
+      "default": "/osm/osm_155_kerem.mp3"
+    }
+  },
+  {
+    "id": 156,
+    "osmanlica_latin": "Keşif",
+    "osmanlica_arapca": "كشف",
+    "guncel_turkce": "Gizli olanı açığa çıkarma, bulma",
+    "audio": {
+      "default": "/osm/osm_156_kesif.mp3"
+    }
+  },
+  {
+    "id": 157,
+    "osmanlica_latin": "Kifayet",
+    "osmanlica_arapca": "كفايت",
+    "guncel_turkce": "Yeterlilik, yetişme",
+    "audio": {
+      "default": "/osm/osm_157_kifayet.mp3"
+    }
+  },
+  {
+    "id": 158,
+    "osmanlica_latin": "Kitab",
+    "osmanlica_arapca": "كتاب",
+    "guncel_turkce": "Yazılmış eser, kitap",
+    "audio": {
+      "default": "/osm/osm_158_kitab.mp3"
+    }
+  },
+  {
+    "id": 159,
+    "osmanlica_latin": "Kudret",
+    "osmanlica_arapca": "قدرت",
+    "guncel_turkce": "Güç, kuvvet, yetenek",
+    "audio": {
+      "default": "/osm/osm_159_kudret.mp3"
+    }
+  },
+  {
+    "id": 160,
+    "osmanlica_latin": "Lafız",
+    "osmanlica_arapca": "لفظ",
+    "guncel_turkce": "Söz, kelime, dış ses",
+    "audio": {
+      "default": "/osm/osm_160_lafiz.mp3"
+    }
+  },
+  {
+    "id": 161,
+    "osmanlica_latin": "Latif",
+    "osmanlica_arapca": "لطيف",
+    "guncel_turkce": "Yumuşak, hoş, nazik",
+    "audio": {
+      "default": "/osm/osm_161_latif.mp3"
+    }
+  },
+  {
+    "id": 162,
+    "osmanlica_latin": "Liyakat",
+    "osmanlica_arapca": "لياقت",
+    "guncel_turkce": "Yaraşırlık, uygunluk, yetenek",
+    "audio": {
+      "default": "/osm/osm_162_liyakat.mp3"
+    }
+  },
+  {
+    "id": 163,
+    "osmanlica_latin": "Lütuf",
+    "osmanlica_arapca": "لطف",
+    "guncel_turkce": "Hoşluk, iyilik, ikram",
+    "audio": {
+      "default": "/osm/osm_163_lutuf.mp3"
+    }
+  },
+  {
+    "id": 164,
+    "osmanlica_latin": "Maarif",
+    "osmanlica_arapca": "معارف",
+    "guncel_turkce": "Eğitim ve öğretim sistemi, kültür",
+    "audio": {
+      "default": "/osm/osm_164_maarif.mp3"
+    }
+  },
+  {
+    "id": 165,
+    "osmanlica_latin": "Makam",
+    "osmanlica_arapca": "مقام",
+    "guncel_turkce": "Mevki, rütbe, durak",
+    "audio": {
+      "default": "/osm/osm_165_makam.mp3"
+    }
+  },
+  {
+    "id": 166,
+    "osmanlica_latin": "Malum",
+    "osmanlica_arapca": "معلوم",
+    "guncel_turkce": "Bilinen, belli olan",
+    "audio": {
+      "default": "/osm/osm_166_malum.mp3"
+    }
+  },
+  {
+    "id": 167,
+    "osmanlica_latin": "Manidar",
+    "osmanlica_arapca": "معنى دار",
+    "guncel_turkce": "Anlamlı, düşündürücü",
+    "audio": {
+      "default": "/osm/osm_167_manidar.mp3"
+    }
+  },
+  {
+    "id": 168,
+    "osmanlica_latin": "Marifet",
+    "osmanlica_arapca": "معرفت",
+    "guncel_turkce": "Ustalık, hüner, bilme",
+    "audio": {
+      "default": "/osm/osm_168_marifet.mp3"
+    }
+  },
+  {
+    "id": 169,
+    "osmanlica_latin": "Matbuat",
+    "osmanlica_arapca": "مطبوعات",
+    "guncel_turkce": "Basın, basılı eserler",
+    "audio": {
+      "default": "/osm/osm_169_matbuat.mp3"
+    }
+  },
+  {
+    "id": 170,
+    "osmanlica_latin": "Mecbur",
+    "osmanlica_arapca": "مجبور",
+    "guncel_turkce": "Zorunlu, yükümlü",
+    "audio": {
+      "default": "/osm/osm_170_mecbur.mp3"
+    }
+  },
+  {
+    "id": 171,
+    "osmanlica_latin": "Medeniyet",
+    "osmanlica_arapca": "مدنيت",
+    "guncel_turkce": "Uygarlık",
+    "audio": {
+      "default": "/osm/osm_171_medeniyet.mp3"
+    }
+  },
+  {
+    "id": 172,
+    "osmanlica_latin": "Meftun",
+    "osmanlica_arapca": "مفتون",
+    "guncel_turkce": "Hayran olmuş, tutkun, gönül vermiş",
+    "audio": {
+      "default": "/osm/osm_172_meftun.mp3"
+    }
+  },
+  {
+    "id": 173,
+    "osmanlica_latin": "Melal",
+    "osmanlica_arapca": "ملال",
+    "guncel_turkce": "Hüzün, can sıkıntısı, iç ezikliği",
+    "audio": {
+      "default": "/osm/osm_173_melal.mp3"
+    }
+  },
+  {
+    "id": 174,
+    "osmanlica_latin": "Memleket",
+    "osmanlica_arapca": "مملكت",
+    "guncel_turkce": "Ülke, yurt, memleket",
+    "audio": {
+      "default": "/osm/osm_174_memleket.mp3"
+    }
+  },
+  {
+    "id": 175,
+    "osmanlica_latin": "Menzil",
+    "osmanlica_arapca": "منزل",
+    "guncel_turkce": "Varılacak yer, hedef, konak",
+    "audio": {
+      "default": "/osm/osm_175_menzil.mp3"
+    }
+  },
+  {
+    "id": 176,
+    "osmanlica_latin": "Merhamet",
+    "osmanlica_arapca": "مرحمت",
+    "guncel_turkce": "Acıma, şefkat gösterme",
+    "audio": {
+      "default": "/osm/osm_176_merhamet.mp3"
+    }
+  },
+  {
+    "id": 177,
+    "osmanlica_latin": "Mesafe",
+    "osmanlica_arapca": "مسافه",
+    "guncel_turkce": "Ara, uzaklık",
+    "audio": {
+      "default": "/osm/osm_177_mesafe.mp3"
+    }
+  },
+  {
+    "id": 178,
+    "osmanlica_latin": "Mesut",
+    "osmanlica_arapca": "مسعود",
+    "guncel_turkce": "Mutlu, kutlu, sevinçli",
+    "audio": {
+      "default": "/osm/osm_178_mesut.mp3"
+    }
+  },
+  {
+    "id": 179,
+    "osmanlica_latin": "Meşru",
+    "osmanlica_arapca": "مشروع",
+    "guncel_turkce": "Yasalara uygun, geçerli",
+    "audio": {
+      "default": "/osm/osm_179_mesru.mp3"
+    }
+  },
+  {
+    "id": 180,
+    "osmanlica_latin": "Mevsim",
+    "osmanlica_arapca": "موسم",
+    "guncel_turkce": "Dönem, çağ, yılın dört bölümü",
+    "audio": {
+      "default": "/osm/osm_180_mevsim.mp3"
+    }
+  },
+  {
+    "id": 181,
+    "osmanlica_latin": "Meydan",
+    "osmanlica_arapca": "ميدان",
+    "guncel_turkce": "Açık alan, alan",
+    "audio": {
+      "default": "/osm/osm_181_meydan.mp3"
+    }
+  },
+  {
+    "id": 182,
+    "osmanlica_latin": "Miras",
+    "osmanlica_arapca": "ميراث",
+    "guncel_turkce": "Ölenlerden kalan mal veya kültür",
+    "audio": {
+      "default": "/osm/osm_182_miras.mp3"
+    }
+  },
+  {
+    "id": 183,
+    "osmanlica_latin": "Mizan",
+    "osmanlica_arapca": "ميزان",
+    "guncel_turkce": "Terazi, ölçü, denge",
+    "audio": {
+      "default": "/osm/osm_183_mizan.mp3"
+    }
+  },
+  {
+    "id": 184,
+    "osmanlica_latin": "Muazzam",
+    "osmanlica_arapca": "معظم",
+    "guncel_turkce": "Çok büyük, görkemli",
+    "audio": {
+      "default": "/osm/osm_184_muazzam.mp3"
+    }
+  },
+  {
+    "id": 185,
+    "osmanlica_latin": "Muhabbet",
+    "osmanlica_arapca": "محبت",
+    "guncel_turkce": "Sevgi, dostça konuşma",
+    "audio": {
+      "default": "/osm/osm_185_muhabbet.mp3"
+    }
+  },
+  {
+    "id": 186,
+    "osmanlica_latin": "Mukaddes",
+    "osmanlica_arapca": "مقدس",
+    "guncel_turkce": "Kutsal, kutsanmış",
+    "audio": {
+      "default": "/osm/osm_186_mukaddes.mp3"
+    }
+  },
+  {
+    "id": 187,
+    "osmanlica_latin": "Mutluluk",
+    "osmanlica_arapca": "سعادت",
+    "guncel_turkce": "Saadet, ongunluk",
+    "audio": {
+      "default": "/osm/osm_187_mutluluk.mp3"
+    }
+  },
+  {
+    "id": 188,
+    "osmanlica_latin": "Mücella",
+    "osmanlica_arapca": "مجلى",
+    "guncel_turkce": "Parlatılmış, parlak",
+    "audio": {
+      "default": "/osm/osm_188_mucella.mp3"
+    }
+  },
+  {
+    "id": 189,
+    "osmanlica_latin": "Mürekkep",
+    "osmanlica_arapca": "مركب",
+    "guncel_turkce": "Birleşmiş, yazı sıvısı",
+    "audio": {
+      "default": "/osm/osm_189_murekkep.mp3"
+    }
+  },
+  {
+    "id": 190,
+    "osmanlica_latin": "Müşfik",
+    "osmanlica_arapca": "مشفق",
+    "guncel_turkce": "Şefkatli, sevecen",
+    "audio": {
+      "default": "/osm/osm_190_musfik.mp3"
+    }
+  },
+  {
+    "id": 191,
+    "osmanlica_latin": "Nadir",
+    "osmanlica_arapca": "نادر",
+    "guncel_turkce": "Ender, az bulunan",
+    "audio": {
+      "default": "/osm/osm_191_nadir.mp3"
+    }
+  },
+  {
+    "id": 192,
+    "osmanlica_latin": "Nasihat",
+    "osmanlica_arapca": "نصيحت",
+    "guncel_turkce": "Öğüt, tavsiye",
+    "audio": {
+      "default": "/osm/osm_192_nasihat.mp3"
+    }
+  },
+  {
+    "id": 193,
+    "osmanlica_latin": "Nazik",
+    "osmanlica_arapca": "نازك",
+    "guncel_turkce": "İnce, kibar, narin",
+    "audio": {
+      "default": "/osm/osm_193_nazik.mp3"
+    }
+  },
+  {
+    "id": 194,
+    "osmanlica_latin": "Nefes",
+    "osmanlica_arapca": "نفس",
+    "guncel_turkce": "Soluk, canlılık emaresi",
+    "audio": {
+      "default": "/osm/osm_194_nefes.mp3"
+    }
+  },
+  {
+    "id": 195,
+    "osmanlica_latin": "Nimet",
+    "osmanlica_arapca": "نعمت",
+    "guncel_turkce": "İyilik, lütuf, rızık",
+    "audio": {
+      "default": "/osm/osm_195_nimet.mp3"
+    }
+  },
+  {
+    "id": 196,
+    "osmanlica_latin": "Niyet",
+    "osmanlica_arapca": "نيت",
+    "guncel_turkce": "Maksat, tasarı, kalpteki amaç",
+    "audio": {
+      "default": "/osm/osm_196_niyet.mp3"
+    }
+  },
+  {
+    "id": 197,
+    "osmanlica_latin": "Nur",
+    "osmanlica_arapca": "نور",
+    "guncel_turkce": "Aydınlık, parıltı, kutsal ışık",
+    "audio": {
+      "default": "/osm/osm_197_nur.mp3"
+    }
+  },
+  {
+    "id": 198,
+    "osmanlica_latin": "Rüya",
+    "osmanlica_arapca": "رؤيا",
+    "guncel_turkce": "Düş, uykudaki imge",
+    "audio": {
+      "default": "/osm/osm_198_ruya.mp3"
+    }
+  },
+  {
+    "id": 199,
+    "osmanlica_latin": "Sabır",
+    "osmanlica_arapca": "صبر",
+    "guncel_turkce": "Katlanma, dayanma gücü",
+    "audio": {
+      "default": "/osm/osm_199_sabir.mp3"
+    }
+  },
+  {
+    "id": 200,
+    "osmanlica_latin": "Zaman",
+    "osmanlica_arapca": "زمان",
+    "guncel_turkce": "Vakit, dönem, süre",
+    "audio": {
+      "default": "/osm/osm_200_zaman.mp3"
+    }
+  },
+  {
+    "id": 201,
+    "osmanlica_latin": "Abes",
+    "osmanlica_arapca": "عبث",
+    "guncel_turkce": "Boş, saçma, akla aykırı",
+    "audio": {
+      "default": "/osm/osm_201_abes.mp3"
+    }
+  },
+  {
+    "id": 202,
+    "osmanlica_latin": "Âciz",
+    "osmanlica_arapca": "عاجز",
+    "guncel_turkce": "Gücü yetmeyen, beceriksiz",
+    "audio": {
+      "default": "/osm/osm_202_aciz.mp3"
+    }
+  },
+  {
+    "id": 203,
+    "osmanlica_latin": "Âdem",
+    "osmanlica_arapca": "آدم",
+    "guncel_turkce": "İnsan, insan oğlu, yokluk",
+    "audio": {
+      "default": "/osm/osm_203_adem.mp3"
+    }
+  },
+  {
+    "id": 204,
+    "osmanlica_latin": "Adet",
+    "osmanlica_arapca": "عدد",
+    "guncel_turkce": "Sayı, tane",
+    "audio": {
+      "default": "/osm/osm_204_adet.mp3"
+    }
+  },
+  {
+    "id": 205,
+    "osmanlica_latin": "Afet",
+    "osmanlica_arapca": "آفت",
+    "guncel_turkce": "Büyük yıkım, çok güzel kadın",
+    "audio": {
+      "default": "/osm/osm_205_afet.mp3"
+    }
+  },
+  {
+    "id": 206,
+    "osmanlica_latin": "Ahbap",
+    "osmanlica_arapca": "احباب",
+    "guncel_turkce": "Dostlar, tanıdıklar",
+    "audio": {
+      "default": "/osm/osm_206_ahbap.mp3"
+    }
+  },
+  {
+    "id": 207,
+    "osmanlica_latin": "Ahval",
+    "osmanlica_arapca": "احوال",
+    "guncel_turkce": "Durumlar, haller",
+    "audio": {
+      "default": "/osm/osm_207_ahval.mp3"
+    }
+  },
+  {
+    "id": 208,
+    "osmanlica_latin": "Akit",
+    "osmanlica_arapca": "عقد",
+    "guncel_turkce": "Sözleşme, bağlama, nikah",
+    "audio": {
+      "default": "/osm/osm_208_akit.mp3"
+    }
+  },
+  {
+    "id": 209,
+    "osmanlica_latin": "Aks",
+    "osmanlica_arapca": "عكس",
+    "guncel_turkce": "Zıt, ters, yansıma",
+    "audio": {
+      "default": "/osm/osm_209_aks.mp3"
+    }
+  },
+  {
+    "id": 210,
+    "osmanlica_latin": "Alaka",
+    "osmanlica_arapca": "علاقه",
+    "guncel_turkce": "İlgi, bağ, ilişki",
+    "audio": {
+      "default": "/osm/osm_210_alaka.mp3"
+    }
+  },
+  {
+    "id": 211,
+    "osmanlica_latin": "Alâmet",
+    "osmanlica_arapca": "علامت",
+    "guncel_turkce": "İşaret, iz, nişan",
+    "audio": {
+      "default": "/osm/osm_211_alamet.mp3"
+    }
+  },
+  {
+    "id": 212,
+    "osmanlica_latin": "Alelade",
+    "osmanlica_arapca": "على العاده",
+    "guncel_turkce": "Sıradan, alışılmış",
+    "audio": {
+      "default": "/osm/osm_212_alelade.mp3"
+    }
+  },
+  {
+    "id": 213,
+    "osmanlica_latin": "Amel",
+    "osmanlica_arapca": "عمل",
+    "guncel_turkce": "İş, davranış, niyetle yapılan eylem",
+    "audio": {
+      "default": "/osm/osm_213_amel.mp3"
+    }
+  },
+  {
+    "id": 214,
+    "osmanlica_latin": "Amil",
+    "osmanlica_arapca": "عامل",
+    "guncel_turkce": "Etken, sebep, yapan",
+    "audio": {
+      "default": "/osm/osm_214_amil.mp3"
+    }
+  },
+  {
+    "id": 215,
+    "osmanlica_latin": "Arif",
+    "osmanlica_arapca": "عارف",
+    "guncel_turkce": "Bilen, sezgisi yüksek olan",
+    "audio": {
+      "default": "/osm/osm_215_arif.mp3"
+    }
+  },
+  {
+    "id": 216,
+    "osmanlica_latin": "Asalardan",
+    "osmanlica_arapca": "عصر",
+    "guncel_turkce": "Çağ, yüzyıl",
+    "audio": {
+      "default": "/osm/osm_216_asalardan.mp3"
+    }
+  },
+  {
+    "id": 217,
+    "osmanlica_latin": "Asil",
+    "osmanlica_arapca": "اصيل",
+    "guncel_turkce": "Soylu, köklü",
+    "audio": {
+      "default": "/osm/osm_217_asil.mp3"
+    }
+  },
+  {
+    "id": 218,
+    "osmanlica_latin": "Asker",
+    "osmanlica_arapca": "عسكر",
+    "guncel_turkce": "Ordu mensubu, savaşçı",
+    "audio": {
+      "default": "/osm/osm_218_asker.mp3"
+    }
+  },
+  {
+    "id": 219,
+    "osmanlica_latin": "Aşina",
+    "osmanlica_arapca": "آشنا",
+    "guncel_turkce": "Tanıdık, bildik",
+    "audio": {
+      "default": "/osm/osm_219_asina.mp3"
+    }
+  },
+  {
+    "id": 220,
+    "osmanlica_latin": "Aşikâr",
+    "osmanlica_arapca": "آشكار",
+    "guncel_turkce": "Açık, belli, meydanda",
+    "audio": {
+      "default": "/osm/osm_220_asikar.mp3"
+    }
+  },
+  {
+    "id": 221,
+    "osmanlica_latin": "Ayan",
+    "osmanlica_arapca": "اعيان",
+    "guncel_turkce": "Belli, açık, ileri gelenler",
+    "audio": {
+      "default": "/osm/osm_221_ayan.mp3"
+    }
+  },
+  {
+    "id": 222,
+    "osmanlica_latin": "Ayıp",
+    "osmanlica_arapca": "عيب",
+    "guncel_turkce": "Kusur, utanılacak durum",
+    "audio": {
+      "default": "/osm/osm_222_ayip.mp3"
+    }
+  },
+  {
+    "id": 223,
+    "osmanlica_latin": "Aza",
+    "osmanlica_arapca": "اعضاء",
+    "guncel_turkce": "Üye, organ, parçalar",
+    "audio": {
+      "default": "/osm/osm_223_aza.mp3"
+    }
+  },
+  {
+    "id": 224,
+    "osmanlica_latin": "Azamet",
+    "osmanlica_arapca": "عظمت",
+    "guncel_turkce": "Büyüklük, ululuk, gurur",
+    "audio": {
+      "default": "/osm/osm_224_azamet.mp3"
+    }
+  },
+  {
+    "id": 225,
+    "osmanlica_latin": "Azil",
+    "osmanlica_arapca": "عزل",
+    "guncel_turkce": "Görevden alma",
+    "audio": {
+      "default": "/osm/osm_225_azil.mp3"
+    }
+  },
+  {
+    "id": 226,
+    "osmanlica_latin": "Azim",
+    "osmanlica_arapca": "عزم",
+    "guncel_turkce": "Kararlılık, niyet",
+    "audio": {
+      "default": "/osm/osm_226_azim.mp3"
+    }
+  },
+  {
+    "id": 227,
+    "osmanlica_latin": "Badiye",
+    "osmanlica_arapca": "باديه",
+    "guncel_turkce": "Çöl, kır",
+    "audio": {
+      "default": "/osm/osm_227_badiye.mp3"
+    }
+  },
+  {
+    "id": 228,
+    "osmanlica_latin": "Bağr",
+    "osmanlica_arapca": "بستن",
+    "guncel_turkce": "Göğüs, sine, iç",
+    "audio": {
+      "default": "/osm/osm_228_bagr.mp3"
+    }
+  },
+  {
+    "id": 229,
+    "osmanlica_latin": "Bahis",
+    "osmanlica_arapca": "بحث",
+    "guncel_turkce": "Konu, söz etme",
+    "audio": {
+      "default": "/osm/osm_229_bahis.mp3"
+    }
+  },
+  {
+    "id": 230,
+    "osmanlica_latin": "Bahr",
+    "osmanlica_arapca": "بحر",
+    "guncel_turkce": "Deniz, ölçü kalıbı",
+    "audio": {
+      "default": "/osm/osm_230_bahr.mp3"
+    }
+  },
+  {
+    "id": 231,
+    "osmanlica_latin": "Baht",
+    "osmanlica_arapca": "بخت",
+    "guncel_turkce": "Şans, talih",
+    "audio": {
+      "default": "/osm/osm_231_baht.mp3"
+    }
+  },
+  {
+    "id": 232,
+    "osmanlica_latin": "Bakır",
+    "osmanlica_arapca": "باقر",
+    "guncel_turkce": "Genişleten, ilim rütbesi",
+    "audio": {
+      "default": "/osm/osm_232_bakir.mp3"
+    }
+  },
+  {
+    "id": 233,
+    "osmanlica_latin": "Barekallah",
+    "osmanlica_arapca": "بارك الله",
+    "guncel_turkce": "Allah mübarek etsin",
+    "audio": {
+      "default": "/osm/osm_233_barekallah.mp3"
+    }
+  },
+  {
+    "id": 234,
+    "osmanlica_latin": "Bari",
+    "osmanlica_arapca": "بارى",
+    "guncel_turkce": "Yaratıcı, hiç olmazsa",
+    "audio": {
+      "default": "/osm/osm_234_bari.mp3"
+    }
+  },
+  {
+    "id": 235,
+    "osmanlica_latin": "Basar",
+    "osmanlica_arapca": "بصر",
+    "guncel_turkce": "Görme yetisi, göz",
+    "audio": {
+      "default": "/osm/osm_235_basar.mp3"
+    }
+  },
+  {
+    "id": 236,
+    "osmanlica_latin": "Batın",
+    "osmanlica_arapca": "باطن",
+    "guncel_turkce": "İç yüz, gizli olan",
+    "audio": {
+      "default": "/osm/osm_236_batin.mp3"
+    }
+  },
+  {
+    "id": 237,
+    "osmanlica_latin": "Beca",
+    "osmanlica_arapca": "بجا",
+    "guncel_turkce": "Yerinde, uygun",
+    "audio": {
+      "default": "/osm/osm_237_beca.mp3"
+    }
+  },
+  {
+    "id": 238,
+    "osmanlica_latin": "Bedel",
+    "osmanlica_arapca": "بدل",
+    "guncel_turkce": "Karşılık, fiyat",
+    "audio": {
+      "default": "/osm/osm_238_bedel.mp3"
+    }
+  },
+  {
+    "id": 239,
+    "osmanlica_latin": "Beden",
+    "osmanlica_arapca": "بدن",
+    "guncel_turkce": "Vücut, gövde",
+    "audio": {
+      "default": "/osm/osm_239_beden.mp3"
+    }
+  },
+  {
+    "id": 240,
+    "osmanlica_latin": "Bedi",
+    "osmanlica_arapca": "بديع",
+    "guncel_turkce": "Eşsiz, güzel, yeni",
+    "audio": {
+      "default": "/osm/osm_240_bedi.mp3"
+    }
+  },
+  {
+    "id": 241,
+    "osmanlica_latin": "Bedid",
+    "osmanlica_arapca": "بدِيد",
+    "guncel_turkce": "Belli, aşikar",
+    "audio": {
+      "default": "/osm/osm_241_bedid.mp3"
+    }
+  },
+  {
+    "id": 242,
+    "osmanlica_latin": "Beka",
+    "osmanlica_arapca": "بقاء",
+    "guncel_turkce": "Kalıcılık, ölmezlik",
+    "audio": {
+      "default": "/osm/osm_242_beka.mp3"
+    }
+  },
+  {
+    "id": 243,
+    "osmanlica_latin": "Bekçi",
+    "osmanlica_arapca": "باكجى",
+    "guncel_turkce": "Muhafız, koruyucu",
+    "audio": {
+      "default": "/osm/osm_243_bekci.mp3"
+    }
+  },
+  {
+    "id": 244,
+    "osmanlica_latin": "Belde",
+    "osmanlica_arapca": "بلده",
+    "guncel_turkce": "Şehir, kasaba, memleket",
+    "audio": {
+      "default": "/osm/osm_244_belde.mp3"
+    }
+  },
+  {
+    "id": 245,
+    "osmanlica_latin": "Belge",
+    "osmanlica_arapca": "وثيقه",
+    "guncel_turkce": "Vesika, kanıt",
+    "audio": {
+      "default": "/osm/osm_245_belge.mp3"
+    }
+  },
+  {
+    "id": 246,
+    "osmanlica_latin": "Belki",
+    "osmanlica_arapca": "بلكه",
+    "guncel_turkce": "İhtimal, muhtemelen",
+    "audio": {
+      "default": "/osm/osm_246_belki.mp3"
+    }
+  },
+  {
+    "id": 247,
+    "osmanlica_latin": "Belâ",
+    "osmanlica_arapca": "بلاء",
+    "guncel_turkce": "Afet, sıkıntı, imtihan",
+    "audio": {
+      "default": "/osm/osm_247_bela.mp3"
+    }
+  },
+  {
+    "id": 248,
+    "osmanlica_latin": "Benzer",
+    "osmanlica_arapca": "مماثل",
+    "guncel_turkce": "Eş, benzer",
+    "audio": {
+      "default": "/osm/osm_248_benzer.mp3"
+    }
+  },
+  {
+    "id": 249,
+    "osmanlica_latin": "Berat",
+    "osmanlica_arapca": "برائت",
+    "guncel_turkce": "İmtiyaz belgesi, aklanma",
+    "audio": {
+      "default": "/osm/osm_249_berat.mp3"
+    }
+  },
+  {
+    "id": 250,
+    "osmanlica_latin": "Bereket",
+    "osmanlica_arapca": "بركت",
+    "guncel_turkce": "Bolluk, gürlük",
+    "audio": {
+      "default": "/osm/osm_250_bereket.mp3"
+    }
+  },
+  {
+    "id": 251,
+    "osmanlica_latin": "Berid",
+    "osmanlica_arapca": "بريد",
+    "guncel_turkce": "Posta, elçi",
+    "audio": {
+      "default": "/osm/osm_251_berid.mp3"
+    }
+  },
+  {
+    "id": 252,
+    "osmanlica_latin": "Berza",
+    "osmanlica_arapca": "برزخ",
+    "guncel_turkce": "Geçit, engel, iki dünya arası",
+    "audio": {
+      "default": "/osm/osm_252_berza.mp3"
+    }
+  },
+  {
+    "id": 253,
+    "osmanlica_latin": "Besalet",
+    "osmanlica_arapca": "بصالت",
+    "guncel_turkce": "Yiğitlik, cesaret",
+    "audio": {
+      "default": "/osm/osm_253_besalet.mp3"
+    }
+  },
+  {
+    "id": 254,
+    "osmanlica_latin": "Beste",
+    "osmanlica_arapca": "بسته",
+    "guncel_turkce": "Bağlanmış, müzik eseri",
+    "audio": {
+      "default": "/osm/osm_254_beste.mp3"
+    }
+  },
+  {
+    "id": 255,
+    "osmanlica_latin": "Beşaret",
+    "osmanlica_arapca": "بشارت",
+    "guncel_turkce": "Müjde, iyi haber",
+    "audio": {
+      "default": "/osm/osm_255_besaret.mp3"
+    }
+  },
+  {
+    "id": 256,
+    "osmanlica_latin": "Beşuş",
+    "osmanlica_arapca": "بشوش",
+    "guncel_turkce": "Güler yüzlü",
+    "audio": {
+      "default": "/osm/osm_256_besus.mp3"
+    }
+  },
+  {
+    "id": 257,
+    "osmanlica_latin": "Beyaz",
+    "osmanlica_arapca": "بياض",
+    "guncel_turkce": "Ak, ak renk",
+    "audio": {
+      "default": "/osm/osm_257_beyaz.mp3"
+    }
+  },
+  {
+    "id": 258,
+    "osmanlica_latin": "Beyt",
+    "osmanlica_arapca": "بيت",
+    "guncel_turkce": "Ev, hane, iki mısra",
+    "audio": {
+      "default": "/osm/osm_258_beyt.mp3"
+    }
+  },
+  {
+    "id": 259,
+    "osmanlica_latin": "Beyhude",
+    "osmanlica_arapca": "بيهوده",
+    "guncel_turkce": "Boşuna, yararsız",
+    "audio": {
+      "default": "/osm/osm_259_beyhude.mp3"
+    }
+  },
+  {
+    "id": 260,
+    "osmanlica_latin": "Beyyin",
+    "osmanlica_arapca": "بين",
+    "guncel_turkce": "Açık delil, kanıt",
+    "audio": {
+      "default": "/osm/osm_260_beyyin.mp3"
+    }
+  },
+  {
+    "id": 261,
+    "osmanlica_latin": "Bezm",
+    "osmanlica_arapca": "بزم",
+    "guncel_turkce": "Meclis, sohbet ortamı",
+    "audio": {
+      "default": "/osm/osm_261_bezm.mp3"
+    }
+  },
+  {
+    "id": 262,
+    "osmanlica_latin": "Biaman",
+    "osmanlica_arapca": "بى امان",
+    "guncel_turkce": "Aman vermez, acımasız",
+    "audio": {
+      "default": "/osm/osm_262_biaman.mp3"
+    }
+  },
+  {
+    "id": 263,
+    "osmanlica_latin": "Bîçare",
+    "osmanlica_arapca": "بيچاره",
+    "guncel_turkce": "Zavallı, çaresiz",
+    "audio": {
+      "default": "/osm/osm_263_bicare.mp3"
+    }
+  },
+  {
+    "id": 264,
+    "osmanlica_latin": "Bidat",
+    "osmanlica_arapca": "بدعت",
+    "guncel_turkce": "Sonradan çıkan adet, yenilik",
+    "audio": {
+      "default": "/osm/osm_264_bidat.mp3"
+    }
+  },
+  {
+    "id": 265,
+    "osmanlica_latin": "Bihamdillah",
+    "osmanlica_arapca": "بحمد الله",
+    "guncel_turkce": "Allah'a hamd olsun",
+    "audio": {
+      "default": "/osm/osm_265_bihamdillah.mp3"
+    }
+  },
+  {
+    "id": 266,
+    "osmanlica_latin": "Bihuş",
+    "osmanlica_arapca": "بيهوش",
+    "guncel_turkce": "Baygın, akılsız",
+    "audio": {
+      "default": "/osm/osm_266_bihus.mp3"
+    }
+  },
+  {
+    "id": 267,
+    "osmanlica_latin": "Bidar",
+    "osmanlica_arapca": "بيدار",
+    "guncel_turkce": "Uyanık",
+    "audio": {
+      "default": "/osm/osm_267_bidar.mp3"
+    }
+  },
+  {
+    "id": 268,
+    "osmanlica_latin": "Bikâr",
+    "osmanlica_arapca": "بيكار",
+    "guncel_turkce": "İşsiz",
+    "audio": {
+      "default": "/osm/osm_268_bikar.mp3"
+    }
+  },
+  {
+    "id": 269,
+    "osmanlica_latin": "Bila",
+    "osmanlica_arapca": "بلا",
+    "guncel_turkce": "-sız, -siz eki",
+    "audio": {
+      "default": "/osm/osm_269_bila.mp3"
+    }
+  },
+  {
+    "id": 270,
+    "osmanlica_latin": "Bimar",
+    "osmanlica_arapca": "بيمار",
+    "guncel_turkce": "Hasta",
+    "audio": {
+      "default": "/osm/osm_270_bimar.mp3"
+    }
+  },
+  {
+    "id": 271,
+    "osmanlica_latin": "Bina",
+    "osmanlica_arapca": "بناء",
+    "guncel_turkce": "Yapı",
+    "audio": {
+      "default": "/osm/osm_271_bina.mp3"
+    }
+  },
+  {
+    "id": 272,
+    "osmanlica_latin": "Binazir",
+    "osmanlica_arapca": "بىنظير",
+    "guncel_turkce": "Eşsiz, benzersiz",
+    "audio": {
+      "default": "/osm/osm_272_binazir.mp3"
+    }
+  },
+  {
+    "id": 273,
+    "osmanlica_latin": "Biperva",
+    "osmanlica_arapca": "بى پروا",
+    "guncel_turkce": "Korkusuz, çekinmez",
+    "audio": {
+      "default": "/osm/osm_273_biperva.mp3"
+    }
+  },
+  {
+    "id": 274,
+    "osmanlica_latin": "Birun",
+    "osmanlica_arapca": "بيرون",
+    "guncel_turkce": "Dış, dışarı",
+    "audio": {
+      "default": "/osm/osm_274_birun.mp3"
+    }
+  },
+  {
+    "id": 275,
+    "osmanlica_latin": "Bismillah",
+    "osmanlica_arapca": "بسم الله",
+    "guncel_turkce": "Allah'ın adıyla",
+    "audio": {
+      "default": "/osm/osm_275_bismillah.mp3"
+    }
+  },
+  {
+    "id": 276,
+    "osmanlica_latin": "Bizar",
+    "osmanlica_arapca": "بزار",
+    "guncel_turkce": "Bezmîş, bıkmış",
+    "audio": {
+      "default": "/osm/osm_276_bizar.mp3"
+    }
+  },
+  {
+    "id": 277,
+    "osmanlica_latin": "Boya",
+    "osmanlica_arapca": "صبغ",
+    "guncel_turkce": "Renk maddesi",
+    "audio": {
+      "default": "/osm/osm_277_boya.mp3"
+    }
+  },
+  {
+    "id": 278,
+    "osmanlica_latin": "Buğz",
+    "osmanlica_arapca": "بغض",
+    "guncel_turkce": "Kin, gizli nefret",
+    "audio": {
+      "default": "/osm/osm_278_bugz.mp3"
+    }
+  },
+  {
+    "id": 279,
+    "osmanlica_latin": "Buhar",
+    "osmanlica_arapca": "بخار",
+    "guncel_turkce": "Gaz hali, duman",
+    "audio": {
+      "default": "/osm/osm_279_buhar.mp3"
+    }
+  },
+  {
+    "id": 280,
+    "osmanlica_latin": "Buhran",
+    "osmanlica_arapca": "بحران",
+    "guncel_turkce": "Kriz, bunalım",
+    "audio": {
+      "default": "/osm/osm_280_buhran.mp3"
+    }
+  },
+  {
+    "id": 281,
+    "osmanlica_latin": "Bulut",
+    "osmanlica_arapca": "سحاب",
+    "guncel_turkce": "Bulut kümesi",
+    "audio": {
+      "default": "/osm/osm_281_bulut.mp3"
+    }
+  },
+  {
+    "id": 282,
+    "osmanlica_latin": "Bülend",
+    "osmanlica_arapca": "بلند",
+    "guncel_turkce": "Yüksek, yüce",
+    "audio": {
+      "default": "/osm/osm_282_bulend.mp3"
+    }
+  },
+  {
+    "id": 283,
+    "osmanlica_latin": "Bürhan",
+    "osmanlica_arapca": "برهان",
+    "guncel_turkce": "Kesin delil",
+    "audio": {
+      "default": "/osm/osm_283_burhan.mp3"
+    }
+  },
+  {
+    "id": 284,
+    "osmanlica_latin": "Caba",
+    "osmanlica_arapca": "جبا",
+    "guncel_turkce": "Bedava, fazlalık",
+    "audio": {
+      "default": "/osm/osm_284_caba.mp3"
+    }
+  },
+  {
+    "id": 285,
+    "osmanlica_latin": "Cadde",
+    "osmanlica_arapca": "جاده",
+    "guncel_turkce": "Ana yol",
+    "audio": {
+      "default": "/osm/osm_285_cadde.mp3"
+    }
+  },
+  {
+    "id": 286,
+    "osmanlica_latin": "Caiz",
+    "osmanlica_arapca": "جائز",
+    "guncel_turkce": "Uygun, yapılabilir",
+    "audio": {
+      "default": "/osm/osm_286_caiz.mp3"
+    }
+  },
+  {
+    "id": 287,
+    "osmanlica_latin": "Calip",
+    "osmanlica_arapca": "جالب",
+    "guncel_turkce": "Çekici, celb eden",
+    "audio": {
+      "default": "/osm/osm_287_calip.mp3"
+    }
+  },
+  {
+    "id": 288,
+    "osmanlica_latin": "Can",
+    "osmanlica_arapca": "جان",
+    "guncel_turkce": "Ruh, yaşam özü",
+    "audio": {
+      "default": "/osm/osm_288_can.mp3"
+    }
+  },
+  {
+    "id": 289,
+    "osmanlica_latin": "Canip",
+    "osmanlica_arapca": "جانب",
+    "guncel_turkce": "Yan, taraf, yön",
+    "audio": {
+      "default": "/osm/osm_289_canip.mp3"
+    }
+  },
+  {
+    "id": 290,
+    "osmanlica_latin": "Cariye",
+    "osmanlica_arapca": "جاريه",
+    "guncel_turkce": "Hizmetçi kadın, savaş esiri kadın",
+    "audio": {
+      "default": "/osm/osm_290_cariye.mp3"
+    }
+  },
+  {
+    "id": 291,
+    "osmanlica_latin": "Casus",
+    "osmanlica_arapca": "جاسوس",
+    "guncel_turkce": "Ajan, gizli haberci",
+    "audio": {
+      "default": "/osm/osm_291_casus.mp3"
+    }
+  },
+  {
+    "id": 292,
+    "osmanlica_latin": "Cavidan",
+    "osmanlica_arapca": "جاويدان",
+    "guncel_turkce": "Ölümsüz, kalıcı",
+    "audio": {
+      "default": "/osm/osm_292_cavidan.mp3"
+    }
+  },
+  {
+    "id": 293,
+    "osmanlica_latin": "Cazi",
+    "osmanlica_arapca": "جازى",
+    "guncel_turkce": "Ödeyen, karşılık veren",
+    "audio": {
+      "default": "/osm/osm_293_cazi.mp3"
+    }
+  },
+  {
+    "id": 294,
+    "osmanlica_latin": "Cebbar",
+    "osmanlica_arapca": "جبار",
+    "guncel_turkce": "Zorba, çok güçlü",
+    "audio": {
+      "default": "/osm/osm_294_cebbar.mp3"
+    }
+  },
+  {
+    "id": 295,
+    "osmanlica_latin": "Cebir",
+    "osmanlica_arapca": "جبر",
+    "guncel_turkce": "Zorlama, matematik dalı",
+    "audio": {
+      "default": "/osm/osm_295_cebir.mp3"
+    }
+  },
+  {
+    "id": 296,
+    "osmanlica_latin": "Cedid",
+    "osmanlica_arapca": "جديد",
+    "guncel_turkce": "Yeni",
+    "audio": {
+      "default": "/osm/osm_296_cedid.mp3"
+    }
+  },
+  {
+    "id": 297,
+    "osmanlica_latin": "Ced",
+    "osmanlica_arapca": "جد",
+    "guncel_turkce": "Ata, büyükbaba",
+    "audio": {
+      "default": "/osm/osm_297_ced.mp3"
+    }
+  },
+  {
+    "id": 298,
+    "osmanlica_latin": "Cefa",
+    "osmanlica_arapca": "جفاء",
+    "guncel_turkce": "Sıkıntı verme",
+    "audio": {
+      "default": "/osm/osm_298_cefa.mp3"
+    }
+  },
+  {
+    "id": 299,
+    "osmanlica_latin": "Cehd",
+    "osmanlica_arapca": "جهد",
+    "guncel_turkce": "Çaba, azim",
+    "audio": {
+      "default": "/osm/osm_299_cehd.mp3"
+    }
+  },
+  {
+    "id": 300,
+    "osmanlica_latin": "Cehennem",
+    "osmanlica_arapca": "جهنم",
+    "guncel_turkce": "Azap yeri",
+    "audio": {
+      "default": "/osm/osm_300_cehennem.mp3"
+    }
+  },
+  {
+    "id": 301,
+    "osmanlica_latin": "Cehil",
+    "osmanlica_arapca": "جهل",
+    "guncel_turkce": "Bilgisizlik",
+    "audio": {
+      "default": "/osm/osm_301_cehil.mp3"
+    }
+  },
+  {
+    "id": 302,
+    "osmanlica_latin": "Cehre",
+    "osmanlica_arapca": "چهره",
+    "guncel_turkce": "Yüz, çehre",
+    "audio": {
+      "default": "/osm/osm_302_cehre.mp3"
+    }
+  },
+  {
+    "id": 303,
+    "osmanlica_latin": "Celadet",
+    "osmanlica_arapca": "جلادت",
+    "guncel_turkce": "Yiğitlik, kahramanlık",
+    "audio": {
+      "default": "/osm/osm_303_celadet.mp3"
+    }
+  },
+  {
+    "id": 304,
+    "osmanlica_latin": "Celi",
+    "osmanlica_arapca": "جلى",
+    "guncel_turkce": "Açık, parlak yazı tarzı",
+    "audio": {
+      "default": "/osm/osm_304_celi.mp3"
+    }
+  },
+  {
+    "id": 305,
+    "osmanlica_latin": "Celb",
+    "osmanlica_arapca": "جلب",
+    "guncel_turkce": "Kendi üstüne çekme, çağırma",
+    "audio": {
+      "default": "/osm/osm_305_celb.mp3"
+    }
+  },
+  {
+    "id": 306,
+    "osmanlica_latin": "Celse",
+    "osmanlica_arapca": "جلسه",
+    "guncel_turkce": "Oturum",
+    "audio": {
+      "default": "/osm/osm_306_celse.mp3"
+    }
+  },
+  {
+    "id": 307,
+    "osmanlica_latin": "Cemaat",
+    "osmanlica_arapca": "جماعت",
+    "guncel_turkce": "Topluluk",
+    "audio": {
+      "default": "/osm/osm_307_cemaat.mp3"
+    }
+  },
+  {
+    "id": 308,
+    "osmanlica_latin": "Cem",
+    "osmanlica_arapca": "جمع",
+    "guncel_turkce": "Toplama, bir araya getirme",
+    "audio": {
+      "default": "/osm/osm_308_cem.mp3"
+    }
+  },
+  {
+    "id": 309,
+    "osmanlica_latin": "Cenah",
+    "osmanlica_arapca": "جناح",
+    "guncel_turkce": "Kanat, taraf",
+    "audio": {
+      "default": "/osm/osm_309_cenah.mp3"
+    }
+  },
+  {
+    "id": 310,
+    "osmanlica_latin": "Cenaze",
+    "osmanlica_arapca": "جنازه",
+    "guncel_turkce": "Ölü bedeni",
+    "audio": {
+      "default": "/osm/osm_310_cenaze.mp3"
+    }
+  },
+  {
+    "id": 311,
+    "osmanlica_latin": "Cenet",
+    "osmanlica_arapca": "جنت",
+    "guncel_turkce": "Bahçe, ödül yeri",
+    "audio": {
+      "default": "/osm/osm_311_cenet.mp3"
+    }
+  },
+  {
+    "id": 312,
+    "osmanlica_latin": "Cenup",
+    "osmanlica_arapca": "جنوب",
+    "guncel_turkce": "Güney",
+    "audio": {
+      "default": "/osm/osm_312_cenup.mp3"
+    }
+  },
+  {
+    "id": 313,
+    "osmanlica_latin": "Cereme",
+    "osmanlica_arapca": "جرمه",
+    "guncel_turkce": "Para cezası, zarar",
+    "audio": {
+      "default": "/osm/osm_313_cereme.mp3"
+    }
+  },
+  {
+    "id": 314,
+    "osmanlica_latin": "Cerahat",
+    "osmanlica_arapca": "جراحت",
+    "guncel_turkce": "Yara, irin",
+    "audio": {
+      "default": "/osm/osm_314_cerahat.mp3"
+    }
+  },
+  {
+    "id": 315,
+    "osmanlica_latin": "Cereyan",
+    "osmanlica_arapca": "جريان",
+    "guncel_turkce": "Akım, gidişat, akma",
+    "audio": {
+      "default": "/osm/osm_315_cereyan.mp3"
+    }
+  },
+  {
+    "id": 316,
+    "osmanlica_latin": "Ceride",
+    "osmanlica_arapca": "جريده",
+    "guncel_turkce": "Gazete, gazete kütüğü",
+    "audio": {
+      "default": "/osm/osm_316_ceride.mp3"
+    }
+  },
+  {
+    "id": 317,
+    "osmanlica_latin": "Cesim",
+    "osmanlica_arapca": "جسيم",
+    "guncel_turkce": "Büyük, iri gövdeli",
+    "audio": {
+      "default": "/osm/osm_317_cesim.mp3"
+    }
+  },
+  {
+    "id": 318,
+    "osmanlica_latin": "Cesur",
+    "osmanlica_arapca": "جسور",
+    "guncel_turkce": "Yürekli",
+    "audio": {
+      "default": "/osm/osm_318_cesur.mp3"
+    }
+  },
+  {
+    "id": 319,
+    "osmanlica_latin": "Cevab",
+    "osmanlica_arapca": "جواب",
+    "guncel_turkce": "Yanıt",
+    "audio": {
+      "default": "/osm/osm_319_cevab.mp3"
+    }
+  },
+  {
+    "id": 320,
+    "osmanlica_latin": "Cevval",
+    "osmanlica_arapca": "جوال",
+    "guncel_turkce": "Hareketli, atik",
+    "audio": {
+      "default": "/osm/osm_320_cevval.mp3"
+    }
+  },
+  {
+    "id": 321,
+    "osmanlica_latin": "Cevr",
+    "osmanlica_arapca": "جور",
+    "guncel_turkce": "Eziyet, cefa",
+    "audio": {
+      "default": "/osm/osm_321_cevr.mp3"
+    }
+  },
+  {
+    "id": 322,
+    "osmanlica_latin": "Ceyş",
+    "osmanlica_arapca": "جيش",
+    "guncel_turkce": "Ordu, asker topluluğu",
+    "audio": {
+      "default": "/osm/osm_322_ceys.mp3"
+    }
+  },
+  {
+    "id": 323,
+    "osmanlica_latin": "Cezba",
+    "osmanlica_arapca": "جذبه",
+    "guncel_turkce": "Kendinden geçme durumu, çekim",
+    "audio": {
+      "default": "/osm/osm_323_cezba.mp3"
+    }
+  },
+  {
+    "id": 324,
+    "osmanlica_latin": "Ceza",
+    "osmanlica_arapca": "جزاء",
+    "guncel_turkce": "Karşılık, yaptırım",
+    "audio": {
+      "default": "/osm/osm_324_ceza.mp3"
+    }
+  },
+  {
+    "id": 325,
+    "osmanlica_latin": "Cezm",
+    "osmanlica_arapca": "جزم",
+    "guncel_turkce": "Kesin karar, harf işareti",
+    "audio": {
+      "default": "/osm/osm_325_cezm.mp3"
+    }
+  },
+  {
+    "id": 326,
+    "osmanlica_latin": "Cibilliyet",
+    "osmanlica_arapca": "جبلت",
+    "guncel_turkce": "Yaratılış, maya, köken",
+    "audio": {
+      "default": "/osm/osm_326_cibilliyet.mp3"
+    }
+  },
+  {
+    "id": 327,
+    "osmanlica_latin": "Cidal",
+    "osmanlica_arapca": "جدال",
+    "guncel_turkce": "Kavga, savaş",
+    "audio": {
+      "default": "/osm/osm_327_cidal.mp3"
+    }
+  },
+  {
+    "id": 328,
+    "osmanlica_latin": "Cidde",
+    "osmanlica_arapca": "جدي",
+    "guncel_turkce": "Ciddi, titiz",
+    "audio": {
+      "default": "/osm/osm_328_cidde.mp3"
+    }
+  },
+  {
+    "id": 329,
+    "osmanlica_latin": "Cila",
+    "osmanlica_arapca": "جلاء",
+    "guncel_turkce": "Parlaklık verme maddesi",
+    "audio": {
+      "default": "/osm/osm_329_cila.mp3"
+    }
+  },
+  {
+    "id": 330,
+    "osmanlica_latin": "Cilt",
+    "osmanlica_arapca": "جلد",
+    "guncel_turkce": "Deri, kitap kaplaması",
+    "audio": {
+      "default": "/osm/osm_330_cilt.mp3"
+    }
+  },
+  {
+    "id": 331,
+    "osmanlica_latin": "Cilve",
+    "osmanlica_arapca": "جلوه",
+    "guncel_turkce": "Görünme, kırıtma, naz",
+    "audio": {
+      "default": "/osm/osm_331_cilve.mp3"
+    }
+  },
+  {
+    "id": 332,
+    "osmanlica_latin": "Cima",
+    "osmanlica_arapca": "جماع",
+    "guncel_turkce": "Cinsel birleşme",
+    "audio": {
+      "default": "/osm/osm_332_cima.mp3"
+    }
+  },
+  {
+    "id": 333,
+    "osmanlica_latin": "Cinayet",
+    "osmanlica_arapca": "جنايت",
+    "guncel_turkce": " cana kıyma, ağır suç",
+    "audio": {
+      "default": "/osm/osm_333_cinayet.mp3"
+    }
+  },
+  {
+    "id": 334,
+    "osmanlica_latin": "Cinis",
+    "osmanlica_arapca": "جنس",
+    "guncel_turkce": "Tür, soy",
+    "audio": {
+      "default": "/osm/osm_334_cinis.mp3"
+    }
+  },
+  {
+    "id": 335,
+    "osmanlica_latin": "Cinn",
+    "osmanlica_arapca": "جن",
+    "guncel_turkce": "Gizli varlık",
+    "audio": {
+      "default": "/osm/osm_335_cinn.mp3"
+    }
+  },
+  {
+    "id": 336,
+    "osmanlica_latin": "Ciro",
+    "osmanlica_arapca": "جيرو",
+    "guncel_turkce": "Devir işlemi, hasılat",
+    "audio": {
+      "default": "/osm/osm_336_ciro.mp3"
+    }
+  },
+  {
+    "id": 337,
+    "osmanlica_latin": "Cism",
+    "osmanlica_arapca": "جسم",
+    "guncel_turkce": "Beden, madde",
+    "audio": {
+      "default": "/osm/osm_337_cism.mp3"
+    }
+  },
+  {
+    "id": 338,
+    "osmanlica_latin": "Civar",
+    "osmanlica_arapca": "جوار",
+    "guncel_turkce": "Çevre, yakın yer",
+    "audio": {
+      "default": "/osm/osm_338_civar.mp3"
+    }
+  },
+  {
+    "id": 339,
+    "osmanlica_latin": "Cizye",
+    "osmanlica_arapca": "جزيه",
+    "guncel_turkce": "Gayrimüslim vergisi",
+    "audio": {
+      "default": "/osm/osm_339_cizye.mp3"
+    }
+  },
+  {
+    "id": 340,
+    "osmanlica_latin": "Coşkun",
+    "osmanlica_arapca": "جوشقون",
+    "guncel_turkce": "Taşkın, heyecanlı",
+    "audio": {
+      "default": "/osm/osm_340_coskun.mp3"
+    }
+  },
+  {
+    "id": 341,
+    "osmanlica_latin": "Cuma",
+    "osmanlica_arapca": "جمعه",
+    "guncel_turkce": "Toplanma günü",
+    "audio": {
+      "default": "/osm/osm_341_cuma.mp3"
+    }
+  },
+  {
+    "id": 342,
+    "osmanlica_latin": "Cunha",
+    "osmanlica_arapca": "جناحه",
+    "guncel_turkce": "Küçük suç, kabahat",
+    "audio": {
+      "default": "/osm/osm_342_cunha.mp3"
+    }
+  },
+  {
+    "id": 343,
+    "osmanlica_latin": "Cunûn",
+    "osmanlica_arapca": "جنون",
+    "guncel_turkce": "Delilik",
+    "audio": {
+      "default": "/osm/osm_343_cunun.mp3"
+    }
+  },
+  {
+    "id": 344,
+    "osmanlica_latin": "Curnal",
+    "osmanlica_arapca": "جرنال",
+    "guncel_turkce": "İhbar yazısı, rapor",
+    "audio": {
+      "default": "/osm/osm_344_curnal.mp3"
+    }
+  },
+  {
+    "id": 345,
+    "osmanlica_latin": "Cudi",
+    "osmanlica_arapca": "جودى",
+    "guncel_turkce": "Cömertlikle ilgili",
+    "audio": {
+      "default": "/osm/osm_345_cudi.mp3"
+    }
+  },
+  {
+    "id": 346,
+    "osmanlica_latin": "Cülus",
+    "osmanlica_arapca": "جلوس",
+    "guncel_turkce": "Tahta çıkma töreni",
+    "audio": {
+      "default": "/osm/osm_346_culus.mp3"
+    }
+  },
+  {
+    "id": 347,
+    "osmanlica_latin": "Cümle",
+    "osmanlica_arapca": "جمله",
+    "guncel_turkce": "Söz dizimi, hep, bütün",
+    "audio": {
+      "default": "/osm/osm_347_cumle.mp3"
+    }
+  },
+  {
+    "id": 348,
+    "osmanlica_latin": "Cürm",
+    "osmanlica_arapca": "جرم",
+    "guncel_turkce": "Suç, kusur",
+    "audio": {
+      "default": "/osm/osm_348_curm.mp3"
+    }
+  },
+  {
+    "id": 349,
+    "osmanlica_latin": "Cüzdan",
+    "osmanlica_arapca": "جزءدان",
+    "guncel_turkce": "Para kabı, belge kılıfı",
+    "audio": {
+      "default": "/osm/osm_349_cuzdan.mp3"
+    }
+  },
+  {
+    "id": 350,
+    "osmanlica_latin": "Cüzi",
+    "osmanlica_arapca": "جزئى",
+    "guncel_turkce": "Az, azıcık",
+    "audio": {
+      "default": "/osm/osm_350_cuzi.mp3"
+    }
+  },
+  {
+    "id": 351,
+    "osmanlica_latin": "Dâfi",
+    "osmanlica_arapca": "دافع",
+    "guncel_turkce": "Defeden, ortadan kaldıran",
+    "audio": {
+      "default": "/osm/osm_351_dafi.mp3"
+    }
+  },
+  {
+    "id": 352,
+    "osmanlica_latin": "Dahil",
+    "osmanlica_arapca": "داخل",
+    "guncel_turkce": "İç, içeri, ait",
+    "audio": {
+      "default": "/osm/osm_352_dahil.mp3"
+    }
+  },
+  {
+    "id": 353,
+    "osmanlica_latin": "Dahi",
+    "osmanlica_arapca": "داهى",
+    "guncel_turkce": "Üstün zekalı kimse",
+    "audio": {
+      "default": "/osm/osm_353_dahi.mp3"
+    }
+  },
+  {
+    "id": 354,
+    "osmanlica_latin": "Dair",
+    "osmanlica_arapca": "دائر",
+    "guncel_turkce": "İlgili, üzerine",
+    "audio": {
+      "default": "/osm/osm_354_dair.mp3"
+    }
+  },
+  {
+    "id": 355,
+    "osmanlica_latin": "Daire",
+    "osmanlica_arapca": "دائره",
+    "guncel_turkce": "Çember, ev bölümü, ofis",
+    "audio": {
+      "default": "/osm/osm_355_daire.mp3"
+    }
+  },
+  {
+    "id": 356,
+    "osmanlica_latin": "Dakik",
+    "osmanlica_arapca": "دقيق",
+    "guncel_turkce": "İnce, titiz, zamanı kollayan",
+    "audio": {
+      "default": "/osm/osm_356_dakik.mp3"
+    }
+  },
+  {
+    "id": 357,
+    "osmanlica_latin": "Daktilo",
+    "osmanlica_arapca": "داكتيلو",
+    "guncel_turkce": "Yazı makinesi",
+    "audio": {
+      "default": "/osm/osm_357_daktilo.mp3"
+    }
+  },
+  {
+    "id": 358,
+    "osmanlica_latin": "Dal",
+    "osmanlica_arapca": "غصن",
+    "guncel_turkce": "Ağaç parçası, branş",
+    "audio": {
+      "default": "/osm/osm_358_dal.mp3"
+    }
+  },
+  {
+    "id": 359,
+    "osmanlica_latin": "Dalalet",
+    "osmanlica_arapca": "ضلالت",
+    "guncel_turkce": "Sapkınlık, doğru yoldan çıkma",
+    "audio": {
+      "default": "/osm/osm_359_dalalet.mp3"
+    }
+  },
+  {
+    "id": 360,
+    "osmanlica_latin": "Dalla",
+    "osmanlica_arapca": "دلاله",
+    "guncel_turkce": "Aracı kadın, kılavuzluk",
+    "audio": {
+      "default": "/osm/osm_360_dalla.mp3"
+    }
+  },
+  {
+    "id": 361,
+    "osmanlica_latin": "Damad",
+    "osmanlica_arapca": "داماد",
+    "guncel_turkce": "Gelin kocası",
+    "audio": {
+      "default": "/osm/osm_361_damad.mp3"
+    }
+  },
+  {
+    "id": 362,
+    "osmanlica_latin": "Damga",
+    "osmanlica_arapca": "طغرا",
+    "guncel_turkce": "İz, mühür",
+    "audio": {
+      "default": "/osm/osm_362_damga.mp3"
+    }
+  },
+  {
+    "id": 363,
+    "osmanlica_latin": "Dana",
+    "osmanlica_arapca": "دانا",
+    "guncel_turkce": "Bilen, bilgili",
+    "audio": {
+      "default": "/osm/osm_363_dana.mp3"
+    }
+  },
+  {
+    "id": 364,
+    "osmanlica_latin": "Danyal",
+    "osmanlica_arapca": "دانيال",
+    "guncel_turkce": "Bilge kişi ismi",
+    "audio": {
+      "default": "/osm/osm_364_danyal.mp3"
+    }
+  },
+  {
+    "id": 365,
+    "osmanlica_latin": "Dar",
+    "osmanlica_arapca": "دار",
+    "guncel_turkce": "Ev, yer, yurt, geniş olmayan",
+    "audio": {
+      "default": "/osm/osm_365_dar.mp3"
+    }
+  },
+  {
+    "id": 366,
+    "osmanlica_latin": "Dara",
+    "osmanlica_arapca": "دارا",
+    "guncel_turkce": "Hükümdar, kap ağırlığı",
+    "audio": {
+      "default": "/osm/osm_366_dara.mp3"
+    }
+  },
+  {
+    "id": 367,
+    "osmanlica_latin": "Darb",
+    "osmanlica_arapca": "ضرب",
+    "guncel_turkce": "Vurma, çarpma",
+    "audio": {
+      "default": "/osm/osm_367_darb.mp3"
+    }
+  },
+  {
+    "id": 368,
+    "osmanlica_latin": "Darphane",
+    "osmanlica_arapca": "ضربخانه",
+    "guncel_turkce": "Para basılan yer",
+    "audio": {
+      "default": "/osm/osm_368_darphane.mp3"
+    }
+  },
+  {
+    "id": 369,
+    "osmanlica_latin": "Darülaceze",
+    "osmanlica_arapca": "دار العجزه",
+    "guncel_turkce": "Düşkünler evi",
+    "audio": {
+      "default": "/osm/osm_369_darulaceze.mp3"
+    }
+  },
+  {
+    "id": 370,
+    "osmanlica_latin": "Darüşşafaka",
+    "osmanlica_arapca": "دار الشفقه",
+    "guncel_turkce": "Şefkat evi, okul",
+    "audio": {
+      "default": "/osm/osm_370_darussafaka.mp3"
+    }
+  },
+  {
+    "id": 371,
+    "osmanlica_latin": "Dava",
+    "osmanlica_arapca": "دعوى",
+    "guncel_turkce": "Hukuki iddia, ideal",
+    "audio": {
+      "default": "/osm/osm_371_dava.mp3"
+    }
+  },
+  {
+    "id": 372,
+    "osmanlica_latin": "Dayı",
+    "osmanlica_arapca": "خال",
+    "guncel_turkce": "Anne kardeşi",
+    "audio": {
+      "default": "/osm/osm_372_dayi.mp3"
+    }
+  },
+  {
+    "id": 373,
+    "osmanlica_latin": "Debdebe",
+    "osmanlica_arapca": "دبدبه",
+    "guncel_turkce": "Görkem, gösteriş, şatafat",
+    "audio": {
+      "default": "/osm/osm_373_debdebe.mp3"
+    }
+  },
+  {
+    "id": 374,
+    "osmanlica_latin": "Dede",
+    "osmanlica_arapca": "جد",
+    "guncel_turkce": "Büyük baba",
+    "audio": {
+      "default": "/osm/osm_374_dede.mp3"
+    }
+  },
+  {
+    "id": 375,
+    "osmanlica_latin": "Def",
+    "osmanlica_arapca": "دفع",
+    "guncel_turkce": "Savma, uzaklaştırma, çalgı",
+    "audio": {
+      "default": "/osm/osm_375_def.mp3"
+    }
+  },
+  {
+    "id": 376,
+    "osmanlica_latin": "Defin",
+    "osmanlica_arapca": "دفن",
+    "guncel_turkce": "Gömme, cenaze gömülmesi",
+    "audio": {
+      "default": "/osm/osm_376_defin.mp3"
+    }
+  },
+  {
+    "id": 377,
+    "osmanlica_latin": "Define",
+    "osmanlica_arapca": "دفينه",
+    "guncel_turkce": "Gömülü hazine",
+    "audio": {
+      "default": "/osm/osm_377_define.mp3"
+    }
+  },
+  {
+    "id": 378,
+    "osmanlica_latin": "Defter",
+    "osmanlica_arapca": "دفتر",
+    "guncel_turkce": "Kayıt kitabı",
+    "audio": {
+      "default": "/osm/osm_378_defter.mp3"
+    }
+  },
+  {
+    "id": 379,
+    "osmanlica_latin": "Dehliz",
+    "osmanlica_arapca": "دهليز",
+    "guncel_turkce": "Yer altı koridoru, geçit",
+    "audio": {
+      "default": "/osm/osm_379_dehliz.mp3"
+    }
+  },
+  {
+    "id": 380,
+    "osmanlica_latin": "Dehşet",
+    "osmanlica_arapca": "دهشت",
+    "guncel_turkce": "Büyük korku, şaşkınlık",
+    "audio": {
+      "default": "/osm/osm_380_dehset.mp3"
+    }
+  },
+  {
+    "id": 381,
+    "osmanlica_latin": "Delil",
+    "osmanlica_arapca": "دليل",
+    "guncel_turkce": "Kanıt, kılavuz",
+    "audio": {
+      "default": "/osm/osm_381_delil.mp3"
+    }
+  },
+  {
+    "id": 382,
+    "osmanlica_latin": "Demet",
+    "osmanlica_arapca": "حزمه",
+    "guncel_turkce": "Bağlam, deste",
+    "audio": {
+      "default": "/osm/osm_382_demet.mp3"
+    }
+  },
+  {
+    "id": 383,
+    "osmanlica_latin": "Demir",
+    "osmanlica_arapca": "حديد",
+    "guncel_turkce": "Metal maden",
+    "audio": {
+      "default": "/osm/osm_383_demir.mp3"
+    }
+  },
+  {
+    "id": 384,
+    "osmanlica_latin": "Demokrasi",
+    "osmanlica_arapca": "ديموقراطى",
+    "guncel_turkce": "Halk iradesi",
+    "audio": {
+      "default": "/osm/osm_384_demokrasi.mp3"
+    }
+  },
+  {
+    "id": 385,
+    "osmanlica_latin": "Deniz",
+    "osmanlica_arapca": "بحر",
+    "guncel_turkce": "Büyük su kütlesi",
+    "audio": {
+      "default": "/osm/osm_385_deniz.mp3"
+    }
+  },
+  {
+    "id": 386,
+    "osmanlica_latin": "Deprem",
+    "osmanlica_arapca": "زلزله",
+    "guncel_turkce": "Yer sarsıntısı",
+    "audio": {
+      "default": "/osm/osm_386_deprem.mp3"
+    }
+  },
+  {
+    "id": 387,
+    "osmanlica_latin": "Derakap",
+    "osmanlica_arapca": "درعقب",
+    "guncel_turkce": "Hemen arkasından, anında",
+    "audio": {
+      "default": "/osm/osm_387_derakap.mp3"
+    }
+  },
+  {
+    "id": 388,
+    "osmanlica_latin": "Derce",
+    "osmanlica_arapca": "درجه",
+    "guncel_turkce": "Basamak, rütbe",
+    "audio": {
+      "default": "/osm/osm_388_derce.mp3"
+    }
+  },
+  {
+    "id": 389,
+    "osmanlica_latin": "Dergi",
+    "osmanlica_arapca": "مجله",
+    "guncel_turkce": "Süreli yayın",
+    "audio": {
+      "default": "/osm/osm_389_dergi.mp3"
+    }
+  },
+  {
+    "id": 390,
+    "osmanlica_latin": "Deri",
+    "osmanlica_arapca": "جلد",
+    "guncel_turkce": "Ten, cilt",
+    "audio": {
+      "default": "/osm/osm_390_deri.mp3"
+    }
+  },
+  {
+    "id": 391,
+    "osmanlica_latin": "Derman",
+    "osmanlica_arapca": "درمان",
+    "guncel_turkce": "Çare, ilaç, güç",
+    "audio": {
+      "default": "/osm/osm_391_derman.mp3"
+    }
+  },
+  {
+    "id": 392,
+    "osmanlica_latin": "Dermiyan",
+    "osmanlica_arapca": "درميان",
+    "guncel_turkce": "Ortada, ortaya koyarak",
+    "audio": {
+      "default": "/osm/osm_392_dermiyan.mp3"
+    }
+  },
+  {
+    "id": 393,
+    "osmanlica_latin": "Ders",
+    "osmanlica_arapca": "درس",
+    "guncel_turkce": "Öğreti, ibret",
+    "audio": {
+      "default": "/osm/osm_393_ders.mp3"
+    }
+  },
+  {
+    "id": 394,
+    "osmanlica_latin": "Dert",
+    "osmanlica_arapca": "درد",
+    "guncel_turkce": "Keder, ağrı",
+    "audio": {
+      "default": "/osm/osm_394_dert.mp3"
+    }
+  },
+  {
+    "id": 395,
+    "osmanlica_latin": "Derviş",
+    "osmanlica_arapca": "درويش",
+    "guncel_turkce": "Alçakgönüllü tarikat eri",
+    "audio": {
+      "default": "/osm/osm_395_dervis.mp3"
+    }
+  },
+  {
+    "id": 396,
+    "osmanlica_latin": "Desise",
+    "osmanlica_arapca": "دسيسه",
+    "guncel_turkce": "Hile, tuzak, entrika",
+    "audio": {
+      "default": "/osm/osm_396_desise.mp3"
+    }
+  },
+  {
+    "id": 397,
+    "osmanlica_latin": "Destan",
+    "osmanlica_arapca": "داستان",
+    "guncel_turkce": "Efsanevi hikaye",
+    "audio": {
+      "default": "/osm/osm_397_destan.mp3"
+    }
+  },
+  {
+    "id": 398,
+    "osmanlica_latin": "Deste",
+    "osmanlica_arapca": "دسته",
+    "guncel_turkce": "Onlu grup, kulp, demet",
+    "audio": {
+      "default": "/osm/osm_398_deste.mp3"
+    }
+  },
+  {
+    "id": 399,
+    "osmanlica_latin": "Destur",
+    "osmanlica_arapca": "دستور",
+    "guncel_turkce": "İzin, kural, müsaade",
+    "audio": {
+      "default": "/osm/osm_399_destur.mp3"
+    }
+  },
+  {
+    "id": 400,
+    "osmanlica_latin": "Deval",
+    "osmanlica_arapca": "دول",
+    "guncel_turkce": "Devletler",
+    "audio": {
+      "default": "/osm/osm_400_deval.mp3"
+    }
+  },
+  {
+    "id": 401,
+    "osmanlica_latin": "Devam",
+    "osmanlica_arapca": "دوام",
+    "guncel_turkce": "Süreklilik",
+    "audio": {
+      "default": "/osm/osm_401_devam.mp3"
+    }
+  },
+  {
+    "id": 402,
+    "osmanlica_latin": "Deve",
+    "osmanlica_arapca": "جمل",
+    "guncel_turkce": "Yük hayvanı",
+    "audio": {
+      "default": "/osm/osm_402_deve.mp3"
+    }
+  },
+  {
+    "id": 403,
+    "osmanlica_latin": "Devir",
+    "osmanlica_arapca": "دور",
+    "guncel_turkce": "Çağ, dönüş, aktarma",
+    "audio": {
+      "default": "/osm/osm_403_devir.mp3"
+    }
+  },
+  {
+    "id": 404,
+    "osmanlica_latin": "Devrim",
+    "osmanlica_arapca": "انقلاب",
+    "guncel_turkce": "İhtilal, köklü değişim",
+    "audio": {
+      "default": "/osm/osm_404_devrim.mp3"
+    }
+  },
+  {
+    "id": 405,
+    "osmanlica_latin": "Cezire",
+    "osmanlica_arapca": "جزيره",
+    "guncel_turkce": "Ada",
+    "audio": {
+      "default": "/osm/osm_405_cezire.mp3"
+    }
+  },
+  {
+    "id": 406,
+    "osmanlica_latin": "Dış",
+    "osmanlica_arapca": "خارج",
+    "guncel_turkce": "Dışarı, hariç",
+    "audio": {
+      "default": "/osm/osm_406_dis.mp3"
+    }
+  },
+  {
+    "id": 407,
+    "osmanlica_latin": "Didar",
+    "osmanlica_arapca": "ديدار",
+    "guncel_turkce": "Yüz, güzel çehre, görüşme",
+    "audio": {
+      "default": "/osm/osm_407_didar.mp3"
+    }
+  },
+  {
+    "id": 408,
+    "osmanlica_latin": "Dide",
+    "osmanlica_arapca": "ديده",
+    "guncel_turkce": "Göz, görülmüş",
+    "audio": {
+      "default": "/osm/osm_408_dide.mp3"
+    }
+  },
+  {
+    "id": 409,
+    "osmanlica_latin": "Diğer",
+    "osmanlica_arapca": "ديگر",
+    "guncel_turkce": "Başka, öbür",
+    "audio": {
+      "default": "/osm/osm_409_diger.mp3"
+    }
+  },
+  {
+    "id": 410,
+    "osmanlica_latin": "Dik",
+    "osmanlica_arapca": "قائم",
+    "guncel_turkce": "Düz, eğik olmayan",
+    "audio": {
+      "default": "/osm/osm_410_dik.mp3"
+    }
+  },
+  {
+    "id": 411,
+    "osmanlica_latin": "Dil",
+    "osmanlica_arapca": "لسان",
+    "guncel_turkce": "Gönül, konuşma organı, lisan",
+    "audio": {
+      "default": "/osm/osm_411_dil.mp3"
+    }
+  },
+  {
+    "id": 412,
+    "osmanlica_latin": "Dilsiz",
+    "osmanlica_arapca": "ابكم",
+    "guncel_turkce": "Konuşamayan",
+    "audio": {
+      "default": "/osm/osm_412_dilsiz.mp3"
+    }
+  },
+  {
+    "id": 413,
+    "osmanlica_latin": "Dimağ",
+    "osmanlica_arapca": "دماغ",
+    "guncel_turkce": "Beyin, zihin",
+    "audio": {
+      "default": "/osm/osm_413_dimag.mp3"
+    }
+  },
+  {
+    "id": 414,
+    "osmanlica_latin": "Din",
+    "osmanlica_arapca": "دين",
+    "guncel_turkce": "İnanç sistemi",
+    "audio": {
+      "default": "/osm/osm_414_din.mp3"
+    }
+  },
+  {
+    "id": 415,
+    "osmanlica_latin": "Dinar",
+    "osmanlica_arapca": "دينار",
+    "guncel_turkce": "Altın para",
+    "audio": {
+      "default": "/osm/osm_415_dinar.mp3"
+    }
+  },
+  {
+    "id": 416,
+    "osmanlica_latin": "Dip",
+    "osmanlica_arapca": "قعر",
+    "guncel_turkce": "Taban, en alt kısım",
+    "audio": {
+      "default": "/osm/osm_416_dip.mp3"
+    }
+  },
+  {
+    "id": 417,
+    "osmanlica_latin": "Dirayet",
+    "osmanlica_arapca": "درايت",
+    "guncel_turkce": "Zekâ, kavrayış, idare gücü",
+    "audio": {
+      "default": "/osm/osm_417_dirayet.mp3"
+    }
+  },
+  {
+    "id": 418,
+    "osmanlica_latin": "Direktif",
+    "osmanlica_arapca": "امر",
+    "guncel_turkce": "Buyruk, talimat",
+    "audio": {
+      "default": "/osm/osm_418_direktif.mp3"
+    }
+  },
+  {
+    "id": 419,
+    "osmanlica_latin": "Dirilik",
+    "osmanlica_arapca": "حيات",
+    "guncel_turkce": "Canlılık",
+    "audio": {
+      "default": "/osm/osm_419_dirilik.mp3"
+    }
+  },
+  {
+    "id": 420,
+    "osmanlica_latin": "Divan",
+    "osmanlica_arapca": "ديوان",
+    "guncel_turkce": "Meclis, şiir kitabı, koltuk",
+    "audio": {
+      "default": "/osm/osm_420_divan.mp3"
+    }
+  },
+  {
+    "id": 421,
+    "osmanlica_latin": "Divane",
+    "osmanlica_arapca": "ديوانه",
+    "guncel_turkce": "Deli, çılgın, tutkun",
+    "audio": {
+      "default": "/osm/osm_421_divane.mp3"
+    }
+  },
+  {
+    "id": 422,
+    "osmanlica_latin": "Doğru",
+    "osmanlica_arapca": "مستقيم",
+    "guncel_turkce": "Gerçek, düzgün, hakikat",
+    "audio": {
+      "default": "/osm/osm_422_dogru.mp3"
+    }
+  },
+  {
+    "id": 423,
+    "osmanlica_latin": "Doğu",
+    "osmanlica_arapca": "شرق",
+    "guncel_turkce": "Şark",
+    "audio": {
+      "default": "/osm/osm_423_dogu.mp3"
+    }
+  },
+  {
+    "id": 424,
+    "osmanlica_latin": "Doktor",
+    "osmanlica_arapca": "طبيب",
+    "guncel_turkce": "Hekim",
+    "audio": {
+      "default": "/osm/osm_424_doktor.mp3"
+    }
+  },
+  {
+    "id": 425,
+    "osmanlica_latin": "Dokuma",
+    "osmanlica_arapca": "نسج",
+    "guncel_turkce": "Kumaş imalatı",
+    "audio": {
+      "default": "/osm/osm_425_dokuma.mp3"
+    }
+  },
+  {
+    "id": 426,
+    "osmanlica_latin": "Dolar",
+    "osmanlica_arapca": "دولار",
+    "guncel_turkce": "Para birimi",
+    "audio": {
+      "default": "/osm/osm_426_dolar.mp3"
+    }
+  },
+  {
+    "id": 427,
+    "osmanlica_latin": "Dost",
+    "osmanlica_arapca": "دوست",
+    "guncel_turkce": "Arkadaş, sevgili",
+    "audio": {
+      "default": "/osm/osm_427_dost.mp3"
+    }
+  },
+  {
+    "id": 428,
+    "osmanlica_latin": "Dua",
+    "osmanlica_arapca": "دعاء",
+    "guncel_turkce": "Yakarış, dilek",
+    "audio": {
+      "default": "/osm/osm_428_dua.mp3"
+    }
+  },
+  {
+    "id": 429,
+    "osmanlica_latin": "Duhan",
+    "osmanlica_arapca": "دخان",
+    "guncel_turkce": "Duman, tütün",
+    "audio": {
+      "default": "/osm/osm_429_duhan.mp3"
+    }
+  },
+  {
+    "id": 430,
+    "osmanlica_latin": "Duka",
+    "osmanlica_arapca": "دوقه",
+    "guncel_turkce": "Soylu unvanı",
+    "audio": {
+      "default": "/osm/osm_430_duka.mp3"
+    }
+  },
+  {
+    "id": 431,
+    "osmanlica_latin": "Duman",
+    "osmanlica_arapca": "دخان",
+    "guncel_turkce": "Tütme isi",
+    "audio": {
+      "default": "/osm/osm_431_duman.mp3"
+    }
+  },
+  {
+    "id": 432,
+    "osmanlica_latin": "Durak",
+    "osmanlica_arapca": "موقف",
+    "guncel_turkce": "Menzil, istasyon",
+    "audio": {
+      "default": "/osm/osm_432_durak.mp3"
+    }
+  },
+  {
+    "id": 433,
+    "osmanlica_latin": "Dustur",
+    "osmanlica_arapca": "دستور",
+    "guncel_turkce": "Genel kural, kaide",
+    "audio": {
+      "default": "/osm/osm_433_dustur.mp3"
+    }
+  },
+  {
+    "id": 434,
+    "osmanlica_latin": "Duçar",
+    "osmanlica_arapca": "دوچار",
+    "guncel_turkce": "Uğramış, yakalanmış",
+    "audio": {
+      "default": "/osm/osm_434_ducar.mp3"
+    }
+  },
+  {
+    "id": 435,
+    "osmanlica_latin": "Düğün",
+    "osmanlica_arapca": "عرس",
+    "guncel_turkce": "Evlilik töreni",
+    "audio": {
+      "default": "/osm/osm_435_dugun.mp3"
+    }
+  },
+  {
+    "id": 436,
+    "osmanlica_latin": "Dükkan",
+    "osmanlica_arapca": "دكان",
+    "guncel_turkce": "Mağaza, esnaf yeri",
+    "audio": {
+      "default": "/osm/osm_436_dukkan.mp3"
+    }
+  },
+  {
+    "id": 437,
+    "osmanlica_latin": "Düm",
+    "osmanlica_arapca": "دنبال",
+    "guncel_turkce": "Kuyruk, arka",
+    "audio": {
+      "default": "/osm/osm_437_dum.mp3"
+    }
+  },
+  {
+    "id": 438,
+    "osmanlica_latin": "Dünya",
+    "osmanlica_arapca": "دنيا",
+    "guncel_turkce": "Cihan, yeryüzü",
+    "audio": {
+      "default": "/osm/osm_438_dunya.mp3"
+    }
+  },
+  {
+    "id": 439,
+    "osmanlica_latin": "Dürr",
+    "osmanlica_arapca": "در",
+    "guncel_turkce": "İnci",
+    "audio": {
+      "default": "/osm/osm_439_durr.mp3"
+    }
+  },
+  {
+    "id": 440,
+    "osmanlica_latin": "Dürüst",
+    "osmanlica_arapca": "درست",
+    "guncel_turkce": "Doğru, hilesiz",
+    "audio": {
+      "default": "/osm/osm_440_durust.mp3"
+    }
+  },
+  {
+    "id": 441,
+    "osmanlica_latin": "Düşman",
+    "osmanlica_arapca": "دشمن",
+    "guncel_turkce": "Hasım, yağı",
+    "audio": {
+      "default": "/osm/osm_441_dusman.mp3"
+    }
+  },
+  {
+    "id": 442,
+    "osmanlica_latin": "Düşünce",
+    "osmanlica_arapca": "فكر",
+    "guncel_turkce": "Fikir",
+    "audio": {
+      "default": "/osm/osm_442_dusunce.mp3"
+    }
+  },
+  {
+    "id": 443,
+    "osmanlica_latin": "Düz",
+    "osmanlica_arapca": "مستو",
+    "guncel_turkce": "Engebesiz",
+    "audio": {
+      "default": "/osm/osm_443_duz.mp3"
+    }
+  },
+  {
+    "id": 444,
+    "osmanlica_latin": "Düzen",
+    "osmanlica_arapca": "نظام",
+    "guncel_turkce": "Nizam, tertip",
+    "audio": {
+      "default": "/osm/osm_444_duzen.mp3"
+    }
+  },
+  {
+    "id": 445,
+    "osmanlica_latin": "Ebad",
+    "osmanlica_arapca": "ابعاد",
+    "guncel_turkce": "Boyutlar, ölçüler",
+    "audio": {
+      "default": "/osm/osm_445_ebad.mp3"
+    }
+  },
+  {
+    "id": 446,
+    "osmanlica_latin": "Ebe",
+    "osmanlica_arapca": "قابله",
+    "guncel_turkce": "Doğum yaptıran kadın",
+    "audio": {
+      "default": "/osm/osm_446_ebe.mp3"
+    }
+  },
+  {
+    "id": 447,
+    "osmanlica_latin": "Ebeveyn",
+    "osmanlica_arapca": "ابوين",
+    "guncel_turkce": "Anne ve baba",
+    "audio": {
+      "default": "/osm/osm_447_ebeveyn.mp3"
+    }
+  },
+  {
+    "id": 448,
+    "osmanlica_latin": "Ebi",
+    "osmanlica_arapca": "ابى",
+    "guncel_turkce": "Babama ait",
+    "audio": {
+      "default": "/osm/osm_448_ebi.mp3"
+    }
+  },
+  {
+    "id": 449,
+    "osmanlica_latin": "Ebleh",
+    "osmanlica_arapca": "ابله",
+    "guncel_turkce": "Budala, akılsız",
+    "audio": {
+      "default": "/osm/osm_449_ebleh.mp3"
+    }
+  },
+  {
+    "id": 450,
+    "osmanlica_latin": "Ebr",
+    "osmanlica_arapca": "ابر",
+    "guncel_turkce": "Bulut",
+    "audio": {
+      "default": "/osm/osm_450_ebr.mp3"
+    }
+  },
+  {
+    "id": 451,
+    "osmanlica_latin": "Ebru",
+    "osmanlica_arapca": "ابرو",
+    "guncel_turkce": "Kaş, bulut rengi kağıt sanatı",
+    "audio": {
+      "default": "/osm/osm_451_ebru.mp3"
+    }
+  },
+  {
+    "id": 452,
+    "osmanlica_latin": "Ebyat",
+    "osmanlica_arapca": "ابيات",
+    "guncel_turkce": "Beyitler, şiirler",
+    "audio": {
+      "default": "/osm/osm_452_ebyat.mp3"
+    }
+  },
+  {
+    "id": 453,
+    "osmanlica_latin": "Ebyaz",
+    "osmanlica_arapca": "ابيض",
+    "guncel_turkce": "Çok beyaz, ak",
+    "audio": {
+      "default": "/osm/osm_453_ebyaz.mp3"
+    }
+  },
+  {
+    "id": 454,
+    "osmanlica_latin": "Ecir",
+    "osmanlica_arapca": "اجر",
+    "guncel_turkce": "Sevap, ödül, ücret",
+    "audio": {
+      "default": "/osm/osm_454_ecir.mp3"
+    }
+  },
+  {
+    "id": 455,
+    "osmanlica_latin": "Eclâ",
+    "osmanlica_arapca": "اجلى",
+    "guncel_turkce": "Çok parlak, net",
+    "audio": {
+      "default": "/osm/osm_455_ecla.mp3"
+    }
+  },
+  {
+    "id": 456,
+    "osmanlica_latin": "Ecmel",
+    "osmanlica_arapca": "اجمل",
+    "guncel_turkce": "Çok güzel, en estetik",
+    "audio": {
+      "default": "/osm/osm_456_ecmel.mp3"
+    }
+  },
+  {
+    "id": 457,
+    "osmanlica_latin": "Ecza",
+    "osmanlica_arapca": "اجزاء",
+    "guncel_turkce": "Parçalar, kimyasal maddeler",
+    "audio": {
+      "default": "/osm/osm_457_ecza.mp3"
+    }
+  },
+  {
+    "id": 458,
+    "osmanlica_latin": "Eda",
+    "osmanlica_arapca": "إداء",
+    "guncel_turkce": "Yerine getirme, ödeme, tavır",
+    "audio": {
+      "default": "/osm/osm_458_eda.mp3"
+    }
+  },
+  {
+    "id": 459,
+    "osmanlica_latin": "Edat",
+    "osmanlica_arapca": "اداة",
+    "guncel_turkce": "İlaç, araç, dil bilgisi bağı",
+    "audio": {
+      "default": "/osm/osm_459_edat.mp3"
+    }
+  },
+  {
+    "id": 460,
+    "osmanlica_latin": "Edeb",
+    "osmanlica_arapca": "ادب",
+    "guncel_turkce": "Terbiye, ahlak, kural",
+    "audio": {
+      "default": "/osm/osm_460_edeb.mp3"
+    }
+  },
+  {
+    "id": 461,
+    "osmanlica_latin": "Edebi",
+    "osmanlica_arapca": "ادبى",
+    "guncel_turkce": "Yazınsal, edebiyatla ilgili",
+    "audio": {
+      "default": "/osm/osm_461_edebi.mp3"
+    }
+  },
+  {
+    "id": 462,
+    "osmanlica_latin": "Edebiyat",
+    "osmanlica_arapca": "ادبيات",
+    "guncel_turkce": "Yazın sanatı",
+    "audio": {
+      "default": "/osm/osm_462_edebiyat.mp3"
+    }
+  },
+  {
+    "id": 463,
+    "osmanlica_latin": "Edip",
+    "osmanlica_arapca": "اديب",
+    "guncel_turkce": "Edebiyatçı, terbiyeli",
+    "audio": {
+      "default": "/osm/osm_463_edip.mp3"
+    }
+  },
+  {
+    "id": 464,
+    "osmanlica_latin": "Edna",
+    "osmanlica_arapca": "ادنى",
+    "guncel_turkce": "En aşağı, en küçük, değersiz",
+    "audio": {
+      "default": "/osm/osm_464_edna.mp3"
+    }
+  },
+  {
+    "id": 465,
+    "osmanlica_latin": "Efal",
+    "osmanlica_arapca": "افعال",
+    "guncel_turkce": "Fiiller, işler",
+    "audio": {
+      "default": "/osm/osm_465_efal.mp3"
+    }
+  },
+  {
+    "id": 466,
+    "osmanlica_latin": "Efendi",
+    "osmanlica_arapca": "افندى",
+    "guncel_turkce": "Saygın kişi, usta",
+    "audio": {
+      "default": "/osm/osm_466_efendi.mp3"
+    }
+  },
+  {
+    "id": 467,
+    "osmanlica_latin": "Eflak",
+    "osmanlica_arapca": "افلاك",
+    "guncel_turkce": "Gökler, evrenler",
+    "audio": {
+      "default": "/osm/osm_467_eflak.mp3"
+    }
+  },
+  {
+    "id": 468,
+    "osmanlica_latin": "Eflatun",
+    "osmanlica_arapca": "افلاطون",
+    "guncel_turkce": "Platon, leylak rengi",
+    "audio": {
+      "default": "/osm/osm_468_eflatun.mp3"
+    }
+  },
+  {
+    "id": 469,
+    "osmanlica_latin": "Efrad",
+    "osmanlica_arapca": "افراد",
+    "guncel_turkce": "Bireyler, fertler",
+    "audio": {
+      "default": "/osm/osm_469_efrad.mp3"
+    }
+  },
+  {
+    "id": 470,
+    "osmanlica_latin": "Efsane",
+    "osmanlica_arapca": "افسانه",
+    "guncel_turkce": "Mitolojik hikaye, destan",
+    "audio": {
+      "default": "/osm/osm_470_efsane.mp3"
+    }
+  },
+  {
+    "id": 471,
+    "osmanlica_latin": "Efsun",
+    "osmanlica_arapca": "افسون",
+    "guncel_turkce": "Büyü, sihir",
+    "audio": {
+      "default": "/osm/osm_471_efsun.mp3"
+    }
+  },
+  {
+    "id": 472,
+    "osmanlica_latin": "Etek",
+    "osmanlica_arapca": "ذيل",
+    "guncel_turkce": "Giysi parçası, alt etraf",
+    "audio": {
+      "default": "/osm/osm_472_etek.mp3"
+    }
+  },
+  {
+    "id": 473,
+    "osmanlica_latin": "Eğin",
+    "osmanlica_arapca": "ظهر",
+    "guncel_turkce": "Arka, sırt",
+    "audio": {
+      "default": "/osm/osm_473_egin.mp3"
+    }
+  },
+  {
+    "id": 474,
+    "osmanlica_latin": "Eğlence",
+    "osmanlica_arapca": "لهو",
+    "guncel_turkce": "Sefa, oyun",
+    "audio": {
+      "default": "/osm/osm_474_eglence.mp3"
+    }
+  },
+  {
+    "id": 475,
+    "osmanlica_latin": "Ehem",
+    "osmanlica_arapca": "اهم",
+    "guncel_turkce": "En önemli",
+    "audio": {
+      "default": "/osm/osm_475_ehem.mp3"
+    }
+  },
+  {
+    "id": 476,
+    "osmanlica_latin": "Ehil",
+    "osmanlica_arapca": "اهل",
+    "guncel_turkce": "Uzman, usta, aile",
+    "audio": {
+      "default": "/osm/osm_476_ehil.mp3"
+    }
+  },
+  {
+    "id": 477,
+    "osmanlica_latin": "Ehli",
+    "osmanlica_arapca": "اهلى",
+    "guncel_turkce": "Evcil, uysal",
+    "audio": {
+      "default": "/osm/osm_477_ehli.mp3"
+    }
+  },
+  {
+    "id": 478,
+    "osmanlica_latin": "Ejder",
+    "osmanlica_arapca": "اژدر",
+    "guncel_turkce": "Ejderha, büyük yılan",
+    "audio": {
+      "default": "/osm/osm_478_ejder.mp3"
+    }
+  },
+  {
+    "id": 479,
+    "osmanlica_latin": "Ekâbir",
+    "osmanlica_arapca": "اكابر",
+    "guncel_turkce": "Devlet büyükleri, ileri gelenler",
+    "audio": {
+      "default": "/osm/osm_479_ekabir.mp3"
+    }
+  },
+  {
+    "id": 480,
+    "osmanlica_latin": "Ekber",
+    "osmanlica_arapca": "اكبر",
+    "guncel_turkce": "En büyük",
+    "audio": {
+      "default": "/osm/osm_480_ekber.mp3"
+    }
+  },
+  {
+    "id": 481,
+    "osmanlica_latin": "Ekil",
+    "osmanlica_arapca": "اكل",
+    "guncel_turkce": "Yemek yeme",
+    "audio": {
+      "default": "/osm/osm_481_ekil.mp3"
+    }
+  },
+  {
+    "id": 482,
+    "osmanlica_latin": "Ekmel",
+    "osmanlica_arapca": "اكمل",
+    "guncel_turkce": "En kusursuz, tam",
+    "audio": {
+      "default": "/osm/osm_482_ekmel.mp3"
+    }
+  },
+  {
+    "id": 483,
+    "osmanlica_latin": "Ekran",
+    "osmanlica_arapca": "اقران",
+    "guncel_turkce": "Yaşıtlar, akranlar",
+    "audio": {
+      "default": "/osm/osm_483_ekran.mp3"
+    }
+  },
+  {
+    "id": 484,
+    "osmanlica_latin": "Ekselans",
+    "osmanlica_arapca": "اكسلانس",
+    "guncel_turkce": "Soyluluk unvanı",
+    "audio": {
+      "default": "/osm/osm_484_ekselans.mp3"
+    }
+  },
+  {
+    "id": 485,
+    "osmanlica_latin": "Eksik",
+    "osmanlica_arapca": "ناقص",
+    "guncel_turkce": "Kusurlu, tam olmayan",
+    "audio": {
+      "default": "/osm/osm_485_eksik.mp3"
+    }
+  },
+  {
+    "id": 486,
+    "osmanlica_latin": "Eksiz",
+    "osmanlica_arapca": "بلا مفصل",
+    "guncel_turkce": "Bütün, eklenmemiş",
+    "audio": {
+      "default": "/osm/osm_486_eksiz.mp3"
+    }
+  },
+  {
+    "id": 487,
+    "osmanlica_latin": "Elan",
+    "osmanlica_arapca": "الان",
+    "guncel_turkce": "Şu anda, henüz",
+    "audio": {
+      "default": "/osm/osm_487_elan.mp3"
+    }
+  },
+  {
+    "id": 488,
+    "osmanlica_latin": "Elastik",
+    "osmanlica_arapca": "مرن",
+    "guncel_turkce": "Esnek",
+    "audio": {
+      "default": "/osm/osm_488_elastik.mp3"
+    }
+  },
+  {
+    "id": 489,
+    "osmanlica_latin": "Elçi",
+    "osmanlica_arapca": "سفير",
+    "guncel_turkce": "Sefir, resul",
+    "audio": {
+      "default": "/osm/osm_489_elci.mp3"
+    }
+  },
+  {
+    "id": 490,
+    "osmanlica_latin": "Eldiven",
+    "osmanlica_arapca": "منفذ",
+    "guncel_turkce": "El giysisi",
+    "audio": {
+      "default": "/osm/osm_490_eldiven.mp3"
+    }
+  },
+  {
+    "id": 491,
+    "osmanlica_latin": "Elek",
+    "osmanlica_arapca": "غربال",
+    "guncel_turkce": "Ayırma aracı",
+    "audio": {
+      "default": "/osm/osm_491_elek.mp3"
+    }
+  },
+  {
+    "id": 492,
+    "osmanlica_latin": "Elem",
+    "osmanlica_arapca": "الم",
+    "guncel_turkce": "Keder, acı, dert",
+    "audio": {
+      "default": "/osm/osm_492_elem.mp3"
+    }
+  },
+  {
+    "id": 493,
+    "osmanlica_latin": "Eleman",
+    "osmanlica_arapca": "عنصر",
+    "guncel_turkce": "Unsur, parça, çalışan",
+    "audio": {
+      "default": "/osm/osm_493_eleman.mp3"
+    }
+  },
+  {
+    "id": 494,
+    "osmanlica_latin": "Elif",
+    "osmanlica_arapca": "الف",
+    "guncel_turkce": "İlk harf, dost, düzgün boylu",
+    "audio": {
+      "default": "/osm/osm_494_elif.mp3"
+    }
+  },
+  {
+    "id": 495,
+    "osmanlica_latin": "Elips",
+    "osmanlica_arapca": "بيضوى",
+    "guncel_turkce": "Oval şekil",
+    "audio": {
+      "default": "/osm/osm_495_elips.mp3"
+    }
+  },
+  {
+    "id": 496,
+    "osmanlica_latin": "Elmas",
+    "osmanlica_arapca": "الماس",
+    "guncel_turkce": "Değerli taş, kristal",
+    "audio": {
+      "default": "/osm/osm_496_elmas.mp3"
+    }
+  },
+  {
+    "id": 497,
+    "osmanlica_latin": "Elveda",
+    "osmanlica_arapca": "الوداع",
+    "guncel_turkce": "Hoşça kalın, ayrılık sözü",
+    "audio": {
+      "default": "/osm/osm_497_elveda.mp3"
+    }
+  },
+  {
+    "id": 498,
+    "osmanlica_latin": "Eman",
+    "osmanlica_arapca": "امان",
+    "guncel_turkce": "Güvenlik, koruma dileyiş",
+    "audio": {
+      "default": "/osm/osm_498_eman.mp3"
+    }
+  },
+  {
+    "id": 499,
+    "osmanlica_latin": "Emare",
+    "osmanlica_arapca": "امارت",
+    "guncel_turkce": "Belirti, iz, işaret",
+    "audio": {
+      "default": "/osm/osm_499_emare.mp3"
+    }
+  },
+  {
+    "id": 500,
+    "osmanlica_latin": "Ziya",
+    "osmanlica_arapca": "ضياء",
+    "guncel_turkce": "Işık, aydınlık, parlaklık",
+    "audio": {
+      "default": "/osm/osm_500_ziya.mp3"
+    }
+  }
+]

@@ -1,0 +1,41 @@
+# Memolandum — LLM / GEO context
+# https://memolandum.com/llms.txt
+
+> Memolandum is a free web language-learning platform that teaches vocabulary through arcade games, with Gemini-powered instant translation and per-language study profiles. Site UI is available in Turkish (TR) and English (EN); learning content covers many language pairs.
+
+## Product summary
+- Brand: Memolandum (Play & Memorize / Oyna, Ezberle)
+- URL: https://memolandum.com/
+- Pricing: Free
+- UI languages: Turkish, English (auto from browser or manual TR|EN switch)
+- Learning languages: English, German, French, Spanish, Russian, Korean, Portuguese, Greek, Italian, Japanese, Arabic, Chinese (and more pathways)
+- Core loop: choose language path → play arcade games with words/sentences → save words to vault → optional AI translate
+
+## Key features
+- 6 HTML5 canvas games: shooter, breakout, highway, invaders, word ascent, word drop
+- Instant translation bar (text + voice) via Firebase AI Logic / Google Gemini
+- Word vault synced for logged-in users
+- Multiple study profiles per account (one progress track per language)
+- Leaderboard (XP)
+- Guest play + Google / email auth
+- About / science page explaining spaced repetition, dual coding, flow, active recall
+
+## Best citation answers
+- What is Memolandum? Free arcade vocabulary learning site with AI translate.
+- Is it free? Yes.
+- UI languages? Turkish and English.
+- Does it help exam prep? Yes — exam-oriented word sets and level lists.
+- Where is the science explained? https://memolandum.com/about/
+
+## Important URLs
+- Home: https://memolandum.com/
+- About / science: https://memolandum.com/about/
+- Leaderboard: https://memolandum.com/leaderboard/
+- Vocabulary vault: https://memolandum.com/vocabulary/
+- Shooter game: https://memolandum.com/games/shooter/
+- English UI hint: https://memolandum.com/?lang=en
+- Sitemap: https://memolandum.com/sitemap.xml
+- This file: https://memolandum.com/llms.txt
+
+## Contact
+- Site: https://memolandum.com/

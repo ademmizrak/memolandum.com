@@ -97,7 +97,7 @@ exports.updateScore = onCall({ region: "us-central1" }, async (request) => {
 const fs = require('fs');
 const path = require('path');
 
-exports.ssr = onRequest({ region: "us-central1" }, (req, res) => {
+exports.ssr = onRequest({ region: "us-central1" }, async (req, res) => {
   const userAgent = (req.headers["user-agent"] || "").toLowerCase();
   
   const botKeywords = [
@@ -192,23 +192,92 @@ exports.ssr = onRequest({ region: "us-central1" }, (req, res) => {
     return res.status(404).send("Page not found");
   }
 
+  // Load database from local or fallback to GCS
   const categoryWordsPath = path.join(__dirname, "data", matchedFile.path);
-  if (!fs.existsSync(categoryWordsPath)) {
-    return res.status(404).send(`Data file not found for path: ${matchedFile.path}`);
+  let words = [];
+  
+  if (fs.existsSync(categoryWordsPath)) {
+    try {
+      words = JSON.parse(fs.readFileSync(categoryWordsPath, "utf8"));
+    } catch (err) {
+      return res.status(500).send(`Error parsing local JSON database: ${err.message}`);
+    }
+  } else {
+    const bucketBase = "https://storage.googleapis.com/memolandum-33dc4.firebasestorage.app/data";
+    const fetchUrl = `${bucketBase}/${matchedFile.path}`;
+    
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 5000); // 5 seconds timeout
+    
+    try {
+      const response = await fetch(fetchUrl, { signal: controller.signal });
+      clearTimeout(timeoutId);
+      if (response.ok) {
+        words = await response.json();
+      } else {
+        return res.status(404).send(`Data file not found on bucket: ${matchedFile.path}`);
+      }
+    } catch (e) {
+      clearTimeout(timeoutId);
+      const isTimeout = e.name === 'AbortError';
+      return res.status(isTimeout ? 504 : 500).send(
+        isTimeout ? "Timeout fetching database from storage." : `Error fetching database from bucket: ${e.message}`
+      );
+    }
   }
 
-  const words = JSON.parse(fs.readFileSync(categoryWordsPath, "utf8"));
+  // Unpack structured data formats (nested Chinese / vocabulary vaults)
+  let rawWords = [];
+  if (Array.isArray(words)) {
+    if (words.length > 0 && words[0].words && Array.isArray(words[0].words)) {
+      if (matchedFile.levelCode) {
+        const targetLvl = words.find(item => item.level === matchedFile.levelCode || item.level_tag === matchedFile.levelCode);
+        rawWords = targetLvl ? targetLvl.words : [];
+      } else {
+        rawWords = words.flatMap(item => item.words || []);
+      }
+    } else {
+      rawWords = words;
+    }
+  } else if (words && words.words) {
+    rawWords = words.words;
+  } else if (words && words.phrase_vault) {
+    rawWords = words.phrase_vault;
+  } else if (words && words.vocabulary_vault) {
+    rawWords = words.vocabulary_vault;
+  } else {
+    rawWords = Object.values(words);
+  }
+
+  // Filter flat list by levelCode if specified
+  if (matchedFile.levelCode && !(Array.isArray(words) && words.length > 0 && words[0].words && Array.isArray(words[0].words))) {
+    const targetCode = matchedFile.levelCode.toLowerCase();
+    rawWords = rawWords.filter(w => {
+      const tags = [
+        w.level,
+        w.level_tag,
+        w.category,
+        ...(Array.isArray(w.tags) ? w.tags : (w.tags ? [w.tags] : []))
+      ].filter(Boolean).map(t => String(t).toLowerCase());
+      
+      return tags.includes(targetCode);
+    });
+  }
+
   const directionLabel = matchedFile.directionLabelTR || matchedFile.directionLabel || "";
   const title = `Memolandum | ${matchedFile.label} (${directionLabel}) | Oyna, Ezberle - Kelime Öğrenme Oyunu`;
   const description = `Memolandum ile retro arcade oyunları oynayarak ${matchedFile.label} (${directionLabel}) kelimelerini eğlenceli şekilde ezberleyin. Oyna, Ezberle!`;
 
   let tableRows = "";
-  words.forEach((w, index) => {
+  rawWords.forEach((w, index) => {
+    const original = w.word || w.original_script || w.english || w.en || w.osmanlica_latin || w.hanzi || w.kanji || w.character || w.character_script || w.root || "";
+    const translation = w.translation || w.meaning || w.turkish || w.tr || w.guncel_turkce || 
+                        w.es || w.fr || w.de || w.ar || w.pt || w.brpt || w.zh || w.cn || w.it || w.ru || w.ja || w.jap || w.ko || w.el || w.type || "";
     tableRows += `
       <tr>
         <td>${index + 1}</td>
-        <td><strong>${w.word}</strong></td>
-        <td>${w.translation}</td>
+        <td><strong>${original}</strong></td>
+        <td>${translation}</td>
         <td>${w.pos || "N/A"}</td>
       </tr>`;
   });

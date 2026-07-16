@@ -1,0 +1,6502 @@
+[
+  {
+    "id": "es_sent_001",
+    "es": "Me despierto temprano.",
+    "en": "I wake up early.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_002",
+    "es": "Abro la ventana.",
+    "en": "I open the window.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_003",
+    "es": "Preparo el desayuno.",
+    "en": "I prepare breakfast.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_004",
+    "es": "Bebo un café.",
+    "en": "I drink a coffee.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_005",
+    "es": "Limpio la cocina.",
+    "en": "I clean the kitchen.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_006",
+    "es": "Hago la cama.",
+    "en": "I make the bed.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_007",
+    "es": "La casa está limpia.",
+    "en": "The house is clean.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_008",
+    "es": "Necesito lavar la ropa.",
+    "en": "I need to wash the clothes.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_009",
+    "es": "Plancho las camisas.",
+    "en": "I iron the shirts.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_010",
+    "es": "Enciendo la luz.",
+    "en": "I turn on the light.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_011",
+    "es": "Apago el televisor.",
+    "en": "I turn off the TV.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_012",
+    "es": "Cierro la puerta.",
+    "en": "I close the door.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_013",
+    "es": "Busco mis llaves.",
+    "en": "I look for my keys.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_014",
+    "es": "Encuentro mis gafas.",
+    "en": "I find my glasses.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_015",
+    "es": "Pongo la mesa.",
+    "en": "I set the table.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_016",
+    "es": "Cocino algo rico.",
+    "en": "I cook something delicious.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_017",
+    "es": "Como con mi familia.",
+    "en": "I eat with my family.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_018",
+    "es": "Lavo los platos.",
+    "en": "I wash the dishes.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_019",
+    "es": "Necesito más azúcar.",
+    "en": "I need more sugar.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_020",
+    "es": "Pasa la sal, por favor.",
+    "en": "Pass the salt, please.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_021",
+    "es": "La sopa está caliente.",
+    "en": "The soup is hot.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_022",
+    "es": "Me gusta el café solo.",
+    "en": "I like black coffee.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_023",
+    "es": "Hay leche en el frigorífico.",
+    "en": "There is milk in the fridge.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_024",
+    "es": "Tengo mucho trabajo hoy.",
+    "en": "I have a lot of work today.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_025",
+    "es": "Trabajo desde casa.",
+    "en": "I work from home.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_026",
+    "es": "El ordenador no funciona.",
+    "en": "The computer is not working.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_027",
+    "es": "Busco un bolígrafo.",
+    "en": "I am looking for a pen.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_028",
+    "es": "Escribo en mi cuaderno.",
+    "en": "I write in my notebook.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_029",
+    "es": "La casa es muy acogedora.",
+    "en": "The house is very cozy.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_030",
+    "es": "El salón es grande.",
+    "en": "The living room is big.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_031",
+    "es": "Mi dormitorio es pequeño.",
+    "en": "My bedroom is small.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_032",
+    "es": "El jardín es bonito.",
+    "en": "The garden is pretty.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_033",
+    "es": "Hay flores frescas.",
+    "en": "There are fresh flowers.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_034",
+    "es": "Escucho música suave.",
+    "en": "I listen to soft music.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_035",
+    "es": "Leo un libro interesante.",
+    "en": "I read an interesting book.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_036",
+    "es": "Estoy cansado/a.",
+    "en": "I am tired.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_037",
+    "es": "Quiero descansar un poco.",
+    "en": "I want to rest a little.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_038",
+    "es": "Me siento feliz aquí.",
+    "en": "I feel happy here.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_039",
+    "es": "Es hora de dormir.",
+    "en": "It is time to sleep.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_040",
+    "es": "Buenas noches, familia.",
+    "en": "Good night, family.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_041",
+    "es": "Mañana será otro día.",
+    "en": "Tomorrow is another day.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_042",
+    "es": "Todo está en su sitio.",
+    "en": "Everything is in its place.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_043",
+    "es": "No olvides regar las plantas.",
+    "en": "Don't forget to water the plants.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_044",
+    "es": "La luz está encendida.",
+    "en": "The light is on.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_045",
+    "es": "El agua está muy fría.",
+    "en": "The water is very cold.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_046",
+    "es": "Tengo que ordenar mi cuarto.",
+    "en": "I have to tidy my room.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_047",
+    "es": "Me pongo el pijama.",
+    "en": "I put on my pajamas.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_048",
+    "es": "El despertador suena.",
+    "en": "The alarm clock rings.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_049",
+    "es": "Es un día soleado.",
+    "en": "It is a sunny day.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_050",
+    "es": "¿Dónde está el teléfono?",
+    "en": "Where is the phone?",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_051",
+    "es": "Está en el sofá.",
+    "en": "It is on the sofa.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_052",
+    "es": "Tengo hambre.",
+    "en": "I am hungry.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_053",
+    "es": "¿Qué hay para cenar?",
+    "en": "What is for dinner?",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_054",
+    "es": "Preparo una ensalada.",
+    "en": "I prepare a salad.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_055",
+    "es": "La carne está rica.",
+    "en": "The meat is tasty.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_056",
+    "es": "Quiero pan, por favor.",
+    "en": "I want bread, please.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_057",
+    "es": "El postre es excelente.",
+    "en": "The dessert is excellent.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_058",
+    "es": "Guardo la comida en el frío.",
+    "en": "I store the food in the fridge.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_059",
+    "es": "Hay mucho desorden aquí.",
+    "en": "There is a lot of mess here.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_060",
+    "es": "Debo sacar la basura.",
+    "en": "I must take out the trash.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_061",
+    "es": "La llave no entra bien.",
+    "en": "The key does not enter well.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_062",
+    "es": "Necesito un martillo.",
+    "en": "I need a hammer.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_063",
+    "es": "La lámpara está rota.",
+    "en": "The lamp is broken.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_064",
+    "es": "Cambio la bombilla.",
+    "en": "I change the light bulb.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_065",
+    "es": "Abro el armario.",
+    "en": "I open the closet.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_066",
+    "es": "Busco mi abrigo.",
+    "en": "I look for my coat.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_067",
+    "es": "Está detrás de la puerta.",
+    "en": "It is behind the door.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_068",
+    "es": "Tengo frío.",
+    "en": "I am cold.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_069",
+    "es": "Cierro la ventana.",
+    "en": "I close the window.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_070",
+    "es": "Pongo la calefacción.",
+    "en": "I turn on the heating.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_071",
+    "es": "El ambiente es caluroso.",
+    "en": "The atmosphere is warm.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_072",
+    "es": "Me relajo un poco.",
+    "en": "I relax a little.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_073",
+    "es": "Veo una película.",
+    "en": "I watch a movie.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_074",
+    "es": "El sofá es muy cómodo.",
+    "en": "The sofa is very comfortable.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_075",
+    "es": "Bebo un zumo de naranja.",
+    "en": "I drink an orange juice.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_076",
+    "es": "Es muy refrescante.",
+    "en": "It is very refreshing.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_077",
+    "es": "Limpio el polvo.",
+    "en": "I dust.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_078",
+    "es": "La mesa está llena.",
+    "en": "The table is full.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_079",
+    "es": "Paso la aspiradora.",
+    "en": "I vacuum.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_080",
+    "es": "El suelo brilla.",
+    "en": "The floor shines.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_081",
+    "es": "Todo está en orden.",
+    "en": "Everything is in order.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_082",
+    "es": "Me siento orgulloso/a.",
+    "en": "I feel proud.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_083",
+    "es": "La vida es bella.",
+    "en": "Life is beautiful.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_084",
+    "es": "Mañana será un gran día.",
+    "en": "Tomorrow will be a great day.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_085",
+    "es": "Contamos los minutos.",
+    "en": "We count the minutes.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_086",
+    "es": "Estamos juntos.",
+    "en": "We are together.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_087",
+    "es": "La casa es mi refugio.",
+    "en": "The house is my refuge.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_088",
+    "es": "Amo este lugar.",
+    "en": "I love this place.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_089",
+    "es": "Todo es maravilloso.",
+    "en": "Everything is wonderful.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_090",
+    "es": "La familia es lo primero.",
+    "en": "Family comes first.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_091",
+    "es": "Nos divertimos mucho.",
+    "en": "We have a lot of fun.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_092",
+    "es": "Compartimos risas.",
+    "en": "We share laughs.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_093",
+    "es": "Hablar es importante.",
+    "en": "Talking is important.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_094",
+    "es": "Escuchamos a todos.",
+    "en": "We listen to everyone.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_095",
+    "es": "El respeto es la base.",
+    "en": "Respect is the foundation.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_096",
+    "es": "Gracias por todo.",
+    "en": "Thanks for everything.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_097",
+    "es": "Continuamos adelante.",
+    "en": "We continue moving forward.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_098",
+    "es": "Somos un equipo.",
+    "en": "We are a team.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_099",
+    "es": "La paz es fundamental.",
+    "en": "Peace is fundamental.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_sent_0100",
+    "es": "El hogar está donde está el corazón.",
+    "en": "Home is where the heart is.",
+    "len": 35,
+    "tags": [
+      "daily",
+      "home"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_001",
+    "es": "Tengo una reunión importante.",
+    "en": "I have an important meeting.",
+    "len": 28,
+    "tags": [
+      "professional",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_002",
+    "es": "Podemos empezar la presentación.",
+    "en": "We can start the presentation.",
+    "len": 31,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_003",
+    "es": "Necesito su opinión profesional.",
+    "en": "I need your professional opinion.",
+    "len": 30,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_004",
+    "es": "El proyecto va bien.",
+    "en": "The project is going well.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_005",
+    "es": "Envíeme el informe por correo.",
+    "en": "Send me the report by email.",
+    "len": 29,
+    "tags": [
+      "professional",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_006",
+    "es": "Estoy trabajando en el presupuesto.",
+    "en": "I am working on the budget.",
+    "len": 32,
+    "tags": [
+      "professional",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_007",
+    "es": "Tenemos que cumplir el plazo.",
+    "en": "We have to meet the deadline.",
+    "len": 27,
+    "tags": [
+      "professional",
+      "deadline"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_008",
+    "es": "Mañana tengo una entrevista.",
+    "en": "I have an interview tomorrow.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_009",
+    "es": "Hablemos de los objetivos.",
+    "en": "Let's talk about the goals.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_010",
+    "es": "Es una excelente oportunidad.",
+    "en": "It is an excellent opportunity.",
+    "len": 26,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_011",
+    "es": "Debemos mejorar la eficiencia.",
+    "en": "We must improve efficiency.",
+    "len": 26,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_012",
+    "es": "Confío en su equipo.",
+    "en": "I trust your team.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_013",
+    "es": "El contrato está listo.",
+    "en": "The contract is ready.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_014",
+    "es": "Vamos a analizar los resultados.",
+    "en": "We are going to analyze the results.",
+    "len": 28,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_015",
+    "es": "No hay ningún problema.",
+    "en": "There is no problem.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_016",
+    "es": "He recibido su mensaje.",
+    "en": "I have received your message.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_017",
+    "es": "Gracias por su colaboración.",
+    "en": "Thanks for your collaboration.",
+    "len": 26,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_018",
+    "es": "Estoy de acuerdo con usted.",
+    "en": "I agree with you.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_019",
+    "es": "Hay mucho trabajo pendiente.",
+    "en": "There is a lot of pending work.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_020",
+    "es": "La prioridad es el cliente.",
+    "en": "The priority is the client.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_021",
+    "es": "Organice la agenda, por favor.",
+    "en": "Organize the agenda, please.",
+    "len": 27,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_022",
+    "es": "Busquemos soluciones creativas.",
+    "en": "Let's look for creative solutions.",
+    "len": 29,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_023",
+    "es": "El informe es confidencial.",
+    "en": "The report is confidential.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_024",
+    "es": "Vamos paso a paso.",
+    "en": "Let's go step by step.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_025",
+    "es": "Es un equipo muy trabajador.",
+    "en": "It is a very hard-working team.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_026",
+    "es": "La oferta vence hoy.",
+    "en": "The offer expires today.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_027",
+    "es": "Tenga cuidado con el detalle.",
+    "en": "Be careful with the detail.",
+    "len": 26,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_028",
+    "es": "Necesito más recursos.",
+    "en": "I need more resources.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_029",
+    "es": "Estamos en contacto.",
+    "en": "We are in contact.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_030",
+    "es": "El beneficio aumentó.",
+    "en": "The profit increased.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_031",
+    "es": "Es necesario el compromiso.",
+    "en": "Commitment is necessary.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_032",
+    "es": "Vamos a evaluar el desempeño.",
+    "en": "We are going to evaluate performance.",
+    "len": 27,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_033",
+    "es": "Mantenga la calma.",
+    "en": "Keep calm.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_034",
+    "es": "Todo está bajo control.",
+    "en": "Everything is under control.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_035",
+    "es": "Llame a la oficina.",
+    "en": "Call the office.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_036",
+    "es": "Tenemos mucha experiencia.",
+    "en": "We have a lot of experience.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_037",
+    "es": "La calidad es fundamental.",
+    "en": "Quality is fundamental.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_038",
+    "es": "Hay que innovar siempre.",
+    "en": "We must always innovate.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_039",
+    "es": "Hagamos un esfuerzo extra.",
+    "en": "Let's make an extra effort.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_040",
+    "es": "Es un mercado global.",
+    "en": "It is a global market.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_041",
+    "es": "Firme aquí, por favor.",
+    "en": "Sign here, please.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_042",
+    "es": "La estrategia es clara.",
+    "en": "The strategy is clear.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_043",
+    "es": "Necesitamos un nuevo plan.",
+    "en": "We need a new plan.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_044",
+    "es": "Es un cliente exigente.",
+    "en": "It is a demanding client.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_045",
+    "es": "Escuchemos al cliente.",
+    "en": "Let's listen to the client.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_046",
+    "es": "La comunicación es vital.",
+    "en": "Communication is vital.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_047",
+    "es": "Gestione bien su tiempo.",
+    "en": "Manage your time well.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_048",
+    "es": "El trabajo es gratificante.",
+    "en": "Work is rewarding.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_049",
+    "es": "Tenga una visión clara.",
+    "en": "Have a clear vision.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_050",
+    "es": "Debemos liderar el mercado.",
+    "en": "We must lead the market.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_051",
+    "es": "Es hora de crecer.",
+    "en": "It is time to grow.",
+    "len": 16,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_052",
+    "es": "La formación es constante.",
+    "en": "Training is constant.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_053",
+    "es": "Valore el talento.",
+    "en": "Value talent.",
+    "len": 16,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_054",
+    "es": "Es un buen líder.",
+    "en": "He is a good leader.",
+    "len": 16,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_055",
+    "es": "La honestidad es clave.",
+    "en": "Honesty is key.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_056",
+    "es": "Estamos comprometidos.",
+    "en": "We are committed.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_057",
+    "es": "El valor añadido es esto.",
+    "en": "The added value is this.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_058",
+    "es": "Analice los datos.",
+    "en": "Analyze the data.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_059",
+    "es": "Seamos más eficaces.",
+    "en": "Let's be more effective.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_060",
+    "es": "Es una gran ventaja.",
+    "en": "It is a great advantage.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_061",
+    "es": "Evite riesgos innecesarios.",
+    "en": "Avoid unnecessary risks.",
+    "len": 25,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_062",
+    "es": "La visión es de futuro.",
+    "en": "The vision is for the future.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_063",
+    "es": "Trabajemos con entusiasmo.",
+    "en": "Let's work with enthusiasm.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_064",
+    "es": "El orden es vital.",
+    "en": "Order is vital.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_065",
+    "es": "No se rinda.",
+    "en": "Do not give up.",
+    "len": 12,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_066",
+    "es": "La perseverancia es buena.",
+    "en": "Perseverance is good.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_067",
+    "es": "Es un entorno dinámico.",
+    "en": "It is a dynamic environment.",
+    "len": 22,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_068",
+    "es": "El cliente es primero.",
+    "en": "The client is first.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_069",
+    "es": "Debemos adaptarnos.",
+    "en": "We must adapt.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_070",
+    "es": "El feedback es útil.",
+    "en": "Feedback is useful.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_071",
+    "es": "Tome las riendas.",
+    "en": "Take the reins.",
+    "len": 16,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_072",
+    "es": "Es un proyecto ambicioso.",
+    "en": "It is an ambitious project.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_073",
+    "es": "Fomente el aprendizaje.",
+    "en": "Encourage learning.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_074",
+    "es": "La planificación es clave.",
+    "en": "Planning is key.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_075",
+    "es": "Actúe con profesionalismo.",
+    "en": "Act with professionalism.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_076",
+    "es": "El trabajo en equipo suma.",
+    "en": "Teamwork adds up.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_077",
+    "es": "Tenemos metas altas.",
+    "en": "We have high goals.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_078",
+    "es": "Busque la excelencia.",
+    "en": "Seek excellence.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_079",
+    "es": "La disciplina es necesaria.",
+    "en": "Discipline is necessary.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_080",
+    "es": "Valore su tiempo.",
+    "en": "Value your time.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_081",
+    "es": "Es un paso adelante.",
+    "en": "It is a step forward.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_082",
+    "es": "La solución es esta.",
+    "en": "The solution is this.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_083",
+    "es": "Hable claro y directo.",
+    "en": "Speak clearly and directly.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_084",
+    "es": "La ética es importante.",
+    "en": "Ethics is important.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_085",
+    "es": "Estamos creciendo mucho.",
+    "en": "We are growing a lot.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_086",
+    "es": "Es un entorno seguro.",
+    "en": "It is a safe environment.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_087",
+    "es": "La motivación es esencial.",
+    "en": "Motivation is essential.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_088",
+    "es": "Proponga ideas nuevas.",
+    "en": "Propose new ideas.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_089",
+    "es": "Mantenga el enfoque.",
+    "en": "Keep the focus.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_090",
+    "es": "El detalle marca diferencia.",
+    "en": "Detail makes a difference.",
+    "len": 24,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_091",
+    "es": "Es un gran compromiso.",
+    "en": "It is a great commitment.",
+    "len": 20,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_092",
+    "es": "La cultura es inclusiva.",
+    "en": "The culture is inclusive.",
+    "len": 21,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_093",
+    "es": "Queremos impacto positivo.",
+    "en": "We want positive impact.",
+    "len": 23,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_094",
+    "es": "Sea proactivo siempre.",
+    "en": "Always be proactive.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_095",
+    "es": "Cumpla sus promesas.",
+    "en": "Keep your promises.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_096",
+    "es": "La confianza se gana.",
+    "en": "Trust is earned.",
+    "len": 18,
+    "tags": [
+      "professional",
+      "business"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_097",
+    "es": "Es hora de destacar.",
+    "en": "It is time to stand out.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "career"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_098",
+    "es": "Tenga mente abierta.",
+    "en": "Have an open mind.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_099",
+    "es": "El éxito es compartido.",
+    "en": "Success is shared.",
+    "len": 19,
+    "tags": [
+      "professional",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_prof_100",
+    "es": "Sigamos avanzando.",
+    "en": "Let's keep moving forward.",
+    "len": 17,
+    "tags": [
+      "professional",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_001",
+    "es": "Nunca dejo de aprender.",
+    "en": "I never stop learning.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_002",
+    "es": "El conocimiento es poder.",
+    "en": "Knowledge is power.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_003",
+    "es": "Cada día aprendo algo nuevo.",
+    "en": "I learn something new every day.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_004",
+    "es": "La curiosidad es fundamental.",
+    "en": "Curiosity is fundamental.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_005",
+    "es": "Me gusta superar desafíos.",
+    "en": "I like to overcome challenges.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_006",
+    "es": "Tengo una mente abierta.",
+    "en": "I have an open mind.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_007",
+    "es": "La práctica hace al maestro.",
+    "en": "Practice makes perfect.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_008",
+    "es": "Pienso antes de actuar.",
+    "en": "I think before I act.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_009",
+    "es": "Quiero mejorar mis habilidades.",
+    "en": "I want to improve my skills.",
+    "len": 28,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_010",
+    "es": "La lectura expande la mente.",
+    "en": "Reading expands the mind.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_011",
+    "es": "Analizo mis errores.",
+    "en": "I analyze my mistakes.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_012",
+    "es": "El fracaso es aprendizaje.",
+    "en": "Failure is learning.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_013",
+    "es": "Busco nuevas perspectivas.",
+    "en": "I look for new perspectives.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_014",
+    "es": "La disciplina es clave.",
+    "en": "Discipline is key.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_015",
+    "es": "Tengo claros mis objetivos.",
+    "en": "My goals are clear.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_016",
+    "es": "La educación es un camino.",
+    "en": "Education is a path.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_017",
+    "es": "Reflexiono sobre mis acciones.",
+    "en": "I reflect on my actions.",
+    "len": 28,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_018",
+    "es": "El cambio es inevitable.",
+    "en": "Change is inevitable.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_019",
+    "es": "Valoro la opinión ajena.",
+    "en": "I value others' opinions.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_020",
+    "es": "Siempre sigo adelante.",
+    "en": "I always keep moving forward.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_021",
+    "es": "Me enfoco en el presente.",
+    "en": "I focus on the present.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_022",
+    "es": "Soy constante en mi estudio.",
+    "en": "I am consistent in my study.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_023",
+    "es": "El aprendizaje es continuo.",
+    "en": "Learning is continuous.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_024",
+    "es": "Tengo gran determinación.",
+    "en": "I have great determination.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_025",
+    "es": "La creatividad no tiene límites.",
+    "en": "Creativity has no limits.",
+    "len": 29,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_026",
+    "es": "Observo y comprendo.",
+    "en": "I observe and understand.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_027",
+    "es": "Supero mis límites.",
+    "en": "I overcome my limits.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_028",
+    "es": "Me motiva el éxito.",
+    "en": "Success motivates me.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_029",
+    "es": "Escucho para aprender.",
+    "en": "I listen to learn.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_030",
+    "es": "La paciencia es una virtud.",
+    "en": "Patience is a virtue.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_031",
+    "es": "Busco la verdad.",
+    "en": "I search for the truth.",
+    "len": 17,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_032",
+    "es": "El esfuerzo trae resultados.",
+    "en": "Effort brings results.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_033",
+    "es": "Soy una persona proactiva.",
+    "en": "I am a proactive person.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_034",
+    "es": "Analizo antes de decidir.",
+    "en": "I analyze before deciding.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_035",
+    "es": "Me adapto fácilmente.",
+    "en": "I adapt easily.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_036",
+    "es": "El conocimiento es infinito.",
+    "en": "Knowledge is infinite.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_037",
+    "es": "Desarrollo mi potencial.",
+    "en": "I develop my potential.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_038",
+    "es": "Tengo gran visión.",
+    "en": "I have great vision.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_039",
+    "es": "Acepto las críticas.",
+    "en": "I accept criticism.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_040",
+    "es": "Aprendo de todos.",
+    "en": "I learn from everyone.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_041",
+    "es": "La verdad me guía.",
+    "en": "Truth guides me.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_042",
+    "es": "Soy muy optimista.",
+    "en": "I am very optimistic.",
+    "len": 17,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_043",
+    "es": "La vida es aprendizaje.",
+    "en": "Life is learning.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_044",
+    "es": "Busco nuevas metas.",
+    "en": "I look for new goals.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_045",
+    "es": "Tengo mente lógica.",
+    "en": "I have a logical mind.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_046",
+    "es": "El tiempo es valioso.",
+    "en": "Time is valuable.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_047",
+    "es": "Fomento mi crecimiento.",
+    "en": "I encourage my growth.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_048",
+    "es": "Todo es posible.",
+    "en": "Everything is possible.",
+    "len": 17,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_049",
+    "es": "Soy crítico conmigo.",
+    "en": "I am critical of myself.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_050",
+    "es": "Avanzo día a día.",
+    "en": "I progress day by day.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_051",
+    "es": "El éxito requiere tiempo.",
+    "en": "Success requires time.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_052",
+    "es": "Tengo gran claridad.",
+    "en": "I have great clarity.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_053",
+    "es": "Me gusta investigar.",
+    "en": "I like to research.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_054",
+    "es": "La confianza aumenta.",
+    "en": "Confidence increases.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_055",
+    "es": "Tomo mis propias decisiones.",
+    "en": "I make my own decisions.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_056",
+    "es": "Soy responsable.",
+    "en": "I am responsible.",
+    "len": 17,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_057",
+    "es": "La sabiduría se adquiere.",
+    "en": "Wisdom is acquired.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_058",
+    "es": "Busco la excelencia.",
+    "en": "I seek excellence.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_059",
+    "es": "Mi potencial es enorme.",
+    "en": "My potential is enormous.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_060",
+    "es": "Siempre hay mejora.",
+    "en": "There is always room for improvement.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_061",
+    "es": "Soy una persona reflexiva.",
+    "en": "I am a reflective person.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_062",
+    "es": "La meta está cerca.",
+    "en": "The goal is near.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_063",
+    "es": "Tengo disciplina propia.",
+    "en": "I have self-discipline.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_064",
+    "es": "La honestidad es vital.",
+    "en": "Honesty is vital.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_065",
+    "es": "Cada paso cuenta.",
+    "en": "Every step counts.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_066",
+    "es": "Aprendo de mis vivencias.",
+    "en": "I learn from my experiences.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_067",
+    "es": "Tengo ideas innovadoras.",
+    "en": "I have innovative ideas.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_068",
+    "es": "El cambio me enseña.",
+    "en": "Change teaches me.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_069",
+    "es": "Busco siempre la calidad.",
+    "en": "I always look for quality.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_070",
+    "es": "Soy muy apasionado.",
+    "en": "I am very passionate.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_071",
+    "es": "La lógica es fundamental.",
+    "en": "Logic is fundamental.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_072",
+    "es": "Tengo gran tenacidad.",
+    "en": "I have great tenacity.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_073",
+    "es": "Cada día es distinto.",
+    "en": "Every day is different.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_074",
+    "es": "Escucho mi voz interior.",
+    "en": "I listen to my inner voice.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_075",
+    "es": "La superación es mi meta.",
+    "en": "Self-improvement is my goal.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_076",
+    "es": "Tengo una mente brillante.",
+    "en": "I have a brilliant mind.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_077",
+    "es": "Analizo los resultados.",
+    "en": "I analyze the results.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_078",
+    "es": "La práctica es necesaria.",
+    "en": "Practice is necessary.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_079",
+    "es": "Soy muy persistente.",
+    "en": "I am very persistent.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_080",
+    "es": "Valoro el aprendizaje.",
+    "en": "I value learning.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_081",
+    "es": "La visión es clara.",
+    "en": "The vision is clear.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_082",
+    "es": "Tengo una idea fija.",
+    "en": "I have a fixed idea.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_083",
+    "es": "El trabajo da frutos.",
+    "en": "Work bears fruit.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_084",
+    "es": "Soy muy observador.",
+    "en": "I am very observant.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_085",
+    "es": "La mente se entrena.",
+    "en": "The mind is trained.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_086",
+    "es": "Tengo gran esperanza.",
+    "en": "I have great hope.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_087",
+    "es": "Busco el lado positivo.",
+    "en": "I look for the positive side.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_088",
+    "es": "La inteligencia crece.",
+    "en": "Intelligence grows.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_089",
+    "es": "Soy muy detallista.",
+    "en": "I am very detail-oriented.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_090",
+    "es": "El camino es gratificante.",
+    "en": "The path is rewarding.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_091",
+    "es": "Tengo nuevas metas.",
+    "en": "I have new goals.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_092",
+    "es": "La calma es necesaria.",
+    "en": "Calmness is necessary.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_093",
+    "es": "El esfuerzo vale la pena.",
+    "en": "The effort is worth it.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_094",
+    "es": "Soy fiel a mis ideas.",
+    "en": "I am faithful to my ideas.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_095",
+    "es": "La meta es alta.",
+    "en": "The goal is high.",
+    "len": 17,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_096",
+    "es": "Aprendo con alegría.",
+    "en": "I learn with joy.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_097",
+    "es": "Tengo una fe ciega.",
+    "en": "I have blind faith.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_098",
+    "es": "El mundo es una escuela.",
+    "en": "The world is a school.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_099",
+    "es": "Soy muy creativo.",
+    "en": "I am very creative.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "thought"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_learn_100",
+    "es": "Sigo aprendiendo siempre.",
+    "en": "I keep learning always.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_001",
+    "es": "Estoy buscando el hotel.",
+    "en": "I am looking for the hotel.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_002",
+    "es": "Quiero comprar un billete.",
+    "en": "I want to buy a ticket.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_003",
+    "es": "¿A qué hora sale el tren?",
+    "en": "What time does the train leave?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_004",
+    "es": "Necesito un taxi, por favor.",
+    "en": "I need a taxi, please.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_005",
+    "es": "¿Dónde está la estación?",
+    "en": "Where is the station?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_006",
+    "es": "Tengo una reserva.",
+    "en": "I have a reservation.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_007",
+    "es": "El vuelo está retrasado.",
+    "en": "The flight is delayed.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_008",
+    "es": "Busco un restaurante típico.",
+    "en": "I am looking for a typical restaurant.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_009",
+    "es": "¿Cuánto cuesta el pasaje?",
+    "en": "How much does the ticket cost?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_010",
+    "es": "Me gusta caminar por la ciudad.",
+    "en": "I like walking around the city.",
+    "len": 31,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_011",
+    "es": "Voy a visitar el museo.",
+    "en": "I am going to visit the museum.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_012",
+    "es": "¿Hay mapas de la zona?",
+    "en": "Are there maps of the area?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_013",
+    "es": "Perdone, ¿estoy perdido?",
+    "en": "Excuse me, am I lost?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_014",
+    "es": "Este lugar es precioso.",
+    "en": "This place is beautiful.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_015",
+    "es": "Quiero ver el amanecer.",
+    "en": "I want to see the sunrise.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_016",
+    "es": "La vista es espectacular.",
+    "en": "The view is spectacular.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_017",
+    "es": "Busco la parada de autobús.",
+    "en": "I am looking for the bus stop.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_018",
+    "es": "¿Está lejos de aquí?",
+    "en": "Is it far from here?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_019",
+    "es": "La habitación es cómoda.",
+    "en": "The room is comfortable.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_020",
+    "es": "Prefiero viajar ligero.",
+    "en": "I prefer to travel light.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_021",
+    "es": "Mañana tomo el avión.",
+    "en": "I am taking the plane tomorrow.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_022",
+    "es": "Quiero probar comida local.",
+    "en": "I want to try local food.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_023",
+    "es": "La aventura comienza hoy.",
+    "en": "The adventure begins today.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_024",
+    "es": "¿Cuál es la mejor ruta?",
+    "en": "Which is the best route?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_025",
+    "es": "Tengo mi pasaporte aquí.",
+    "en": "I have my passport here.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_026",
+    "es": "Busco un guía turístico.",
+    "en": "I am looking for a tour guide.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_027",
+    "es": "Es un destino increíble.",
+    "en": "It is an incredible destination.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_028",
+    "es": "El tren va muy rápido.",
+    "en": "The train goes very fast.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_029",
+    "es": "Me encanta explorar caminos.",
+    "en": "I love exploring paths.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_030",
+    "es": "¿Dónde hay un banco?",
+    "en": "Where is there a bank?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_031",
+    "es": "Necesito cambiar dinero.",
+    "en": "I need to exchange money.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_032",
+    "es": "El centro está cerca.",
+    "en": "The center is near.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_033",
+    "es": "Quiero alquilar un coche.",
+    "en": "I want to rent a car.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_034",
+    "es": "Busco alojamiento barato.",
+    "en": "I am looking for cheap accommodation.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_035",
+    "es": "La ciudad es histórica.",
+    "en": "The city is historic.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_036",
+    "es": "Es mi primera vez aquí.",
+    "en": "It is my first time here.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_037",
+    "es": "Todo está señalizado.",
+    "en": "Everything is signposted.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_038",
+    "es": "La gente es amable.",
+    "en": "The people are kind.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_039",
+    "es": "Quiero ver la catedral.",
+    "en": "I want to see the cathedral.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_040",
+    "es": "El tour dura dos horas.",
+    "en": "The tour lasts two hours.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_041",
+    "es": "¿Hay Wi-Fi aquí?",
+    "en": "Is there Wi-Fi here?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_042",
+    "es": "Voy a hacer fotos.",
+    "en": "I am going to take photos.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_043",
+    "es": "Es un viaje de negocios.",
+    "en": "It is a business trip.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_044",
+    "es": "Prefiero el tren al autobús.",
+    "en": "I prefer the train to the bus.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_045",
+    "es": "El equipaje es pesado.",
+    "en": "The luggage is heavy.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_046",
+    "es": "Busco la puerta de embarque.",
+    "en": "I am looking for the boarding gate.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_047",
+    "es": "El tiempo está despejado.",
+    "en": "The weather is clear.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_048",
+    "es": "Me gusta el turismo cultural.",
+    "en": "I like cultural tourism.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_049",
+    "es": "La cultura es fascinante.",
+    "en": "The culture is fascinating.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_050",
+    "es": "¿A qué hora cierran?",
+    "en": "What time do they close?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_051",
+    "es": "Necesito descansar un poco.",
+    "en": "I need to rest a little.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_052",
+    "es": "Tengo un buen itinerario.",
+    "en": "I have a good itinerary.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_053",
+    "es": "La ciudad nunca duerme.",
+    "en": "The city never sleeps.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_054",
+    "es": "El paisaje es único.",
+    "en": "The landscape is unique.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_055",
+    "es": "Estoy disfrutando el viaje.",
+    "en": "I am enjoying the trip.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_056",
+    "es": "Busco un lugar tranquilo.",
+    "en": "I am looking for a quiet place.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_057",
+    "es": "La gastronomía es genial.",
+    "en": "The gastronomy is great.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_058",
+    "es": "Hay mucho que ver hoy.",
+    "en": "There is a lot to see today.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_059",
+    "es": "El clima es perfecto.",
+    "en": "The climate is perfect.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_060",
+    "es": "Vamos a otra ciudad.",
+    "en": "We are going to another city.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_061",
+    "es": "El camino es difícil.",
+    "en": "The road is difficult.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_062",
+    "es": "Me encanta la aventura.",
+    "en": "I love adventure.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_063",
+    "es": "Busco el mirador.",
+    "en": "I am looking for the lookout.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_064",
+    "es": "Es mi destino favorito.",
+    "en": "It is my favorite destination.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_065",
+    "es": "El viaje es largo.",
+    "en": "The trip is long.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_066",
+    "es": "Necesito un buen mapa.",
+    "en": "I need a good map.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_067",
+    "es": "La aventura me llama.",
+    "en": "Adventure calls me.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_068",
+    "es": "Espero ver muchas cosas.",
+    "en": "I hope to see many things.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_069",
+    "es": "La ciudad tiene encanto.",
+    "en": "The city has charm.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_070",
+    "es": "El hotel está céntrico.",
+    "en": "The hotel is central.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_071",
+    "es": "Quiero comprar recuerdos.",
+    "en": "I want to buy souvenirs.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_072",
+    "es": "La artesanía es bonita.",
+    "en": "The craftsmanship is pretty.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_073",
+    "es": "El tour es guiado.",
+    "en": "The tour is guided.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_074",
+    "es": "Disfruto cada momento.",
+    "en": "I enjoy every moment.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_075",
+    "es": "Es un lugar con historia.",
+    "en": "It is a place with history.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_076",
+    "es": "Busco una experiencia única.",
+    "en": "I am looking for a unique experience.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_077",
+    "es": "El barco sale pronto.",
+    "en": "The ship leaves soon.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_078",
+    "es": "Me gusta la arquitectura.",
+    "en": "I like the architecture.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_079",
+    "es": "La iglesia es antigua.",
+    "en": "The church is ancient.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_080",
+    "es": "Sigo mis instintos.",
+    "en": "I follow my instincts.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_081",
+    "es": "El viaje nos une.",
+    "en": "The trip unites us.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_082",
+    "es": "Es muy emocionante.",
+    "en": "It is very exciting.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_083",
+    "es": "Llegamos a tiempo.",
+    "en": "We arrive on time.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_084",
+    "es": "La cultura abre mentes.",
+    "en": "Culture opens minds.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_085",
+    "es": "Busco la paz interior.",
+    "en": "I am looking for inner peace.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_086",
+    "es": "El pueblo es acogedor.",
+    "en": "The town is welcoming.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_087",
+    "es": "Es hora de explorar.",
+    "en": "It is time to explore.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_088",
+    "es": "La aventura me espera.",
+    "en": "Adventure awaits me.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_089",
+    "es": "El guía es muy bueno.",
+    "en": "The guide is very good.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_090",
+    "es": "Tengo grandes planes.",
+    "en": "I have big plans.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_091",
+    "es": "La ciudad está despierta.",
+    "en": "The city is awake.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_092",
+    "es": "Amo los viajes largos.",
+    "en": "I love long trips.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_093",
+    "es": "Es un lugar fascinante.",
+    "en": "It is a fascinating place.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_094",
+    "es": "El mapa me ayuda mucho.",
+    "en": "The map helps me a lot.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_095",
+    "es": "Caminamos por la playa.",
+    "en": "We walk on the beach.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_096",
+    "es": "El atardecer es hermoso.",
+    "en": "The sunset is beautiful.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_097",
+    "es": "Tengo mucha ilusión.",
+    "en": "I am very excited.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_098",
+    "es": "El viaje enseña mucho.",
+    "en": "Traveling teaches a lot.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_099",
+    "es": "Es una experiencia inolvidable.",
+    "en": "It is an unforgettable experience.",
+    "len": 31,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_trav_100",
+    "es": "Seguimos descubriendo el mundo.",
+    "en": "We continue discovering the world.",
+    "len": 33,
+    "tags": [
+      "travel",
+      "discovery"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_001",
+    "es": "Hola, ¿cómo estás?",
+    "en": "Hello, how are you?",
+    "len": 18,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_002",
+    "es": "Buenos días.",
+    "en": "Good morning.",
+    "len": 12,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_003",
+    "es": "Mucho gusto.",
+    "en": "Nice to meet you.",
+    "len": 12,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_004",
+    "es": "¿Cómo te llamas?",
+    "en": "What is your name?",
+    "len": 15,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_005",
+    "es": "Me llamo Adem.",
+    "en": "My name is Adem.",
+    "len": 13,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_006",
+    "es": "¿De dónde eres?",
+    "en": "Where are you from?",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_007",
+    "es": "Soy de Turquía.",
+    "en": "I am from Turkey.",
+    "len": 14,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_008",
+    "es": "¿Qué haces?",
+    "en": "What are you doing?",
+    "len": 12,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_009",
+    "es": "Todo bien, gracias.",
+    "en": "Everything is good, thanks.",
+    "len": 18,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_010",
+    "es": "Perdona, ¿puedes repetir?",
+    "en": "Excuse me, can you repeat?",
+    "len": 24,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_011",
+    "es": "No entiendo muy bien.",
+    "en": "I don't understand very well.",
+    "len": 20,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_012",
+    "es": "¿Puedes hablar más lento?",
+    "en": "Can you speak more slowly?",
+    "len": 24,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_013",
+    "es": "Hablo un poco de español.",
+    "en": "I speak a little Spanish.",
+    "len": 24,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_014",
+    "es": "Encantado de conocerte.",
+    "en": "Nice to meet you.",
+    "len": 23,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_015",
+    "es": "¿Qué tal tu día?",
+    "en": "How is your day?",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_016",
+    "es": "Ha sido un buen día.",
+    "en": "It has been a good day.",
+    "len": 19,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_017",
+    "es": "Cuéntame más.",
+    "en": "Tell me more.",
+    "len": 13,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_018",
+    "es": "Es un placer hablar contigo.",
+    "en": "It is a pleasure to speak with you.",
+    "len": 26,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_019",
+    "es": "Gracias por todo.",
+    "en": "Thanks for everything.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_020",
+    "es": "De nada.",
+    "en": "You're welcome.",
+    "len": 9,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_021",
+    "es": "Por favor, siéntate.",
+    "en": "Please, sit down.",
+    "len": 18,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_022",
+    "es": "¿Quieres beber algo?",
+    "en": "Do you want to drink something?",
+    "len": 20,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_023",
+    "es": "Me gustaría un café.",
+    "en": "I would like a coffee.",
+    "len": 19,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_024",
+    "es": "Invito yo esta vez.",
+    "en": "I'll pay this time.",
+    "len": 19,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_025",
+    "es": "Hasta luego.",
+    "en": "See you later.",
+    "len": 12,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_026",
+    "es": "Nos vemos pronto.",
+    "en": "See you soon.",
+    "len": 16,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_027",
+    "es": "¡Qué tengas un buen día!",
+    "en": "Have a nice day!",
+    "len": 23,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_028",
+    "es": "¿Vienes con nosotros?",
+    "en": "Are you coming with us?",
+    "len": 21,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_029",
+    "es": "Me encantaría.",
+    "en": "I would love to.",
+    "len": 13,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_030",
+    "es": "Quizás en otro momento.",
+    "en": "Maybe another time.",
+    "len": 22,
+    "tags": [
+      "social",
+      "refusal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_031",
+    "es": "Estoy ocupado hoy.",
+    "en": "I am busy today.",
+    "len": 17,
+    "tags": [
+      "social",
+      "refusal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_032",
+    "es": "¡Qué buena idea!",
+    "en": "What a good idea!",
+    "len": 16,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_033",
+    "es": "No estoy seguro.",
+    "en": "I am not sure.",
+    "len": 16,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_034",
+    "es": "Estoy de acuerdo.",
+    "en": "I agree.",
+    "len": 16,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_035",
+    "es": "Eso es cierto.",
+    "en": "That is true.",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_036",
+    "es": "No lo creo.",
+    "en": "I don't think so.",
+    "len": 11,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_037",
+    "es": "Tienes razón.",
+    "en": "You are right.",
+    "len": 13,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_038",
+    "es": "¿Qué piensas de esto?",
+    "en": "What do you think about this?",
+    "len": 21,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_039",
+    "es": "Me parece genial.",
+    "en": "It seems great to me.",
+    "len": 16,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_040",
+    "es": "Disculpa el retraso.",
+    "en": "Excuse the delay.",
+    "len": 18,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_041",
+    "es": "No pasa nada.",
+    "en": "It's nothing.",
+    "len": 13,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_042",
+    "es": "Fue mi culpa.",
+    "en": "It was my fault.",
+    "len": 13,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_043",
+    "es": "Perdón por la molestia.",
+    "en": "Sorry for the trouble.",
+    "len": 22,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_044",
+    "es": "No te preocupes.",
+    "en": "Don't worry.",
+    "len": 15,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_045",
+    "es": "¿Podrías ayudarme?",
+    "en": "Could you help me?",
+    "len": 18,
+    "tags": [
+      "social",
+      "request"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_046",
+    "es": "¡Claro que sí!",
+    "en": "Of course!",
+    "len": 14,
+    "tags": [
+      "social",
+      "request"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_047",
+    "es": "Gracias por tu ayuda.",
+    "en": "Thanks for your help.",
+    "len": 21,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_048",
+    "es": "De nada, es un placer.",
+    "en": "You're welcome, it's a pleasure.",
+    "len": 21,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_049",
+    "es": "¿Cómo has estado?",
+    "en": "How have you been?",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_050",
+    "es": "Todo bien, ¿tú?",
+    "en": "Everything good, you?",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_051",
+    "es": "Tengo que irme ya.",
+    "en": "I have to go now.",
+    "len": 17,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_052",
+    "es": "Ha sido un placer.",
+    "en": "It has been a pleasure.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_053",
+    "es": "Nos mantenemos en contacto.",
+    "en": "We'll keep in touch.",
+    "len": 24,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_054",
+    "es": "¡Qué te vaya bien!",
+    "en": "Have a good one!",
+    "len": 18,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_055",
+    "es": "Llámame cuando puedas.",
+    "en": "Call me when you can.",
+    "len": 21,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_056",
+    "es": "Mándame un mensaje.",
+    "en": "Send me a message.",
+    "len": 19,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_057",
+    "es": "¿Tienes correo?",
+    "en": "Do you have email?",
+    "len": 14,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_058",
+    "es": "Te escribo pronto.",
+    "en": "I'll write to you soon.",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_059",
+    "es": "Cuídate mucho.",
+    "en": "Take care.",
+    "len": 15,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_060",
+    "es": "Un abrazo.",
+    "en": "A hug.",
+    "len": 11,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_061",
+    "es": "Saludos a tu familia.",
+    "en": "Greetings to your family.",
+    "len": 20,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_062",
+    "es": "Felicidades.",
+    "en": "Congratulations.",
+    "len": 12,
+    "tags": [
+      "social",
+      "celebration"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_063",
+    "es": "¡Feliz cumpleaños!",
+    "en": "Happy birthday!",
+    "len": 18,
+    "tags": [
+      "social",
+      "celebration"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_064",
+    "es": "Que tengas suerte.",
+    "en": "Good luck.",
+    "len": 16,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_065",
+    "es": "¡Buen viaje!",
+    "en": "Have a good trip!",
+    "len": 12,
+    "tags": [
+      "social",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_066",
+    "es": "¡Que aproveche!",
+    "en": "Enjoy your meal!",
+    "len": 14,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_067",
+    "es": "Salud.",
+    "en": "Cheers.",
+    "len": 7,
+    "tags": [
+      "social",
+      "celebration"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_068",
+    "es": "Perdona, ¿qué hora es?",
+    "en": "Excuse me, what time is it?",
+    "len": 20,
+    "tags": [
+      "social",
+      "request"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_069",
+    "es": "Son las tres.",
+    "en": "It is three o'clock.",
+    "len": 13,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_070",
+    "es": "Gracias por avisar.",
+    "en": "Thanks for letting me know.",
+    "len": 19,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_071",
+    "es": "De nada, para eso estamos.",
+    "en": "You're welcome, that's what we're here for.",
+    "len": 25,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_072",
+    "es": "¿Vives aquí?",
+    "en": "Do you live here?",
+    "len": 12,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_073",
+    "es": "Sí, desde hace poco.",
+    "en": "Yes, for a short while.",
+    "len": 19,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_074",
+    "es": "¿Trabajas o estudias?",
+    "en": "Do you work or study?",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_075",
+    "es": "Ambas cosas.",
+    "en": "Both.",
+    "len": 13,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_076",
+    "es": "¡Qué interesante!",
+    "en": "How interesting!",
+    "len": 17,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_077",
+    "es": "Cuéntame más sobre eso.",
+    "en": "Tell me more about that.",
+    "len": 23,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_078",
+    "es": "No tengo mucho tiempo.",
+    "en": "I don't have much time.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_079",
+    "es": "Te entiendo.",
+    "en": "I understand you.",
+    "len": 12,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_080",
+    "es": "Hablamos luego.",
+    "en": "We'll talk later.",
+    "len": 15,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_081",
+    "es": "¿Me entiendes?",
+    "en": "Do you understand me?",
+    "len": 14,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_082",
+    "es": "Sí, te entiendo bien.",
+    "en": "Yes, I understand you well.",
+    "len": 20,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_083",
+    "es": "Es un poco difícil.",
+    "en": "It is a little difficult.",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_084",
+    "es": "¡Ánimo!",
+    "en": "Cheer up!",
+    "len": 8,
+    "tags": [
+      "social",
+      "encouragement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_085",
+    "es": "Vas bien.",
+    "en": "You are doing well.",
+    "len": 10,
+    "tags": [
+      "social",
+      "encouragement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_086",
+    "es": "No te rindas.",
+    "en": "Don't give up.",
+    "len": 13,
+    "tags": [
+      "social",
+      "encouragement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_087",
+    "es": "Eres muy amable.",
+    "en": "You are very kind.",
+    "len": 15,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_088",
+    "es": "Qué detalle tienes.",
+    "en": "How thoughtful you are.",
+    "len": 19,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_089",
+    "es": "Eres muy generoso.",
+    "en": "You are very generous.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_090",
+    "es": "Valoro tu opinión.",
+    "en": "I value your opinion.",
+    "len": 18,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_091",
+    "es": "Me alegro por ti.",
+    "en": "I am happy for you.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_092",
+    "es": "Eso es genial.",
+    "en": "That is great.",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_093",
+    "es": "Es importante hablar.",
+    "en": "It is important to talk.",
+    "len": 19,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_094",
+    "es": "Vamos a comer juntos.",
+    "en": "Let's eat together.",
+    "len": 20,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_095",
+    "es": "Me apetece mucho.",
+    "en": "I really feel like it.",
+    "len": 16,
+    "tags": [
+      "social",
+      "invitation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_096",
+    "es": "Te llamaré pronto.",
+    "en": "I will call you soon.",
+    "len": 18,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_097",
+    "es": "Espero tu llamada.",
+    "en": "I wait for your call.",
+    "len": 18,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_098",
+    "es": "Que tengas una buena tarde.",
+    "en": "Have a good afternoon.",
+    "len": 25,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_099",
+    "es": "Hasta mañana.",
+    "en": "See you tomorrow.",
+    "len": 13,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  },
+  {
+    "id": "es_soc_100",
+    "es": "Fue un gusto.",
+    "en": "It was a pleasure.",
+    "len": 13,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_es/es_abro_el_armario.mp3"
+    }
+  }
+]

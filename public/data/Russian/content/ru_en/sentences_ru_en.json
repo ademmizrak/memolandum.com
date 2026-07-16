@@ -1,0 +1,7002 @@
+[
+  {
+    "id": "ru_sent_001",
+    "word": "Я чувствую себя лучше.",
+    "latin_okunusu": "Ya chuvstvuyu sebya luchshe.",
+    "translation": "I feel better.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_001.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_002",
+    "word": "Лучше, чем ничего.",
+    "latin_okunusu": "Luchshe, chem nichego.",
+    "translation": "Better than nothing.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_002.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_003",
+    "word": "Нужно постараться.",
+    "latin_okunusu": "Nuzhno postarat'sya.",
+    "translation": "Need to try hard.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_003.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_004",
+    "word": "Мы справимся с этим.",
+    "latin_okunusu": "My spravimsya s etim.",
+    "translation": "We can handle this.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_004.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_005",
+    "word": "Где моя машина?",
+    "latin_okunusu": "Gde moya mashina?",
+    "translation": "Where is my car?",
+    "len": 15,
+    "tags": [
+      "daily",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_005.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_006",
+    "word": "Я устал.",
+    "latin_okunusu": "Ya ustal.",
+    "translation": "I am tired.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_006.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_007",
+    "word": "Я голоден.",
+    "latin_okunusu": "Ya goloden.",
+    "translation": "I am hungry.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_007.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_008",
+    "word": "Я хочу пить.",
+    "latin_okunusu": "Ya khochu pit'.",
+    "translation": "I am thirsty.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_008.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_009",
+    "word": "Сегодня хорошая погода.",
+    "latin_okunusu": "Segodnya khoroshaya pogoda.",
+    "translation": "The weather is nice today.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_009.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_010",
+    "word": "Что это?",
+    "latin_okunusu": "Chto eto?",
+    "translation": "What is this?",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_010.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_011",
+    "word": "Я не знаю.",
+    "latin_okunusu": "Ya ne znayu.",
+    "translation": "I don't know.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_011.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_012",
+    "word": "Это замечательно!",
+    "latin_okunusu": "Eto zamechatel'no!",
+    "translation": "That's wonderful!",
+    "len": 17,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_012.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_013",
+    "word": "Я люблю Францию.",
+    "latin_okunusu": "Ya lyublyu Frantsiyu.",
+    "translation": "I love France.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_013.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_014",
+    "word": "Который час?",
+    "latin_okunusu": "Kotoryy chas?",
+    "translation": "What time is it?",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_014.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_015",
+    "word": "Время обедать.",
+    "latin_okunusu": "Vremya obedat'.",
+    "translation": "Time for lunch.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_015.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_016",
+    "word": "Здесь жарко.",
+    "latin_okunusu": "Zdes' zharko.",
+    "translation": "It's hot here.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_016.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_017",
+    "word": "Я хочу спать.",
+    "latin_okunusu": "Ya khochu spat'.",
+    "translation": "I want to sleep.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_017.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_018",
+    "word": "Это хорошая идея.",
+    "latin_okunusu": "Eto khoroshaya ideya.",
+    "translation": "That's a good idea.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_018.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_019",
+    "word": "Совсем нет.",
+    "latin_okunusu": "Sovsem net.",
+    "translation": "Not at all.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_019.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_020",
+    "word": "Договорились.",
+    "latin_okunusu": "Dogovorilis'.",
+    "translation": "Agreed.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_020.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_021",
+    "word": "Идёт дождь.",
+    "latin_okunusu": "Idet dozhd'.",
+    "translation": "It is raining.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_021.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_022",
+    "word": "Я забыл ключи.",
+    "latin_okunusu": "Ya zabyl klyuchi.",
+    "translation": "I forgot my keys.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_022.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_023",
+    "word": "Ты можешь открыть дверь?",
+    "latin_okunusu": "Ty mozhesh' otkryt' dver'?",
+    "translation": "Can you open the door?",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_023.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_024",
+    "word": "Очень жарко.",
+    "latin_okunusu": "Ochen' zharko.",
+    "translation": "It is very hot.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_024.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_025",
+    "word": "Так идеально.",
+    "latin_okunusu": "Tak ideal'no.",
+    "translation": "So perfect.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_025.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_026",
+    "word": "Хороший день.",
+    "latin_okunusu": "Khoroshiy den'.",
+    "translation": "A good day.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_026.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_027",
+    "word": "На улице холодно.",
+    "latin_okunusu": "Na ulitse kholodno.",
+    "translation": "It's cold outside.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_027.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_028",
+    "word": "Надень пальто.",
+    "latin_okunusu": "Naden' pal'to.",
+    "translation": "Put on a coat.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_028.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_029",
+    "word": "Я опоздал.",
+    "latin_okunusu": "Ya opozdal.",
+    "translation": "I am late.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_029.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_030",
+    "word": "Торопись!",
+    "latin_okunusu": "Toropis'!",
+    "translation": "Hurry up!",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_030.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_031",
+    "word": "Я скоро вернусь.",
+    "latin_okunusu": "Ya skoro vernus'.",
+    "translation": "I will return soon.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_031.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_032",
+    "word": "Я не могу без этого.",
+    "latin_okunusu": "Ya ne mogu bez etogo.",
+    "translation": "I can't without it.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_032.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_033",
+    "word": "Я не спешу.",
+    "latin_okunusu": "Ya ne speshu.",
+    "translation": "I'm in no hurry.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_033.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_034",
+    "word": "Не глупи.",
+    "latin_okunusu": "Ne glupi.",
+    "translation": "Don't be silly.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_034.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_035",
+    "word": "Я понятия не имею.",
+    "latin_okunusu": "Ya ponyatiya ne imeyu.",
+    "translation": "I have no idea.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_035.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_036",
+    "word": "Что происходит?",
+    "latin_okunusu": "Chto proiskhodit?",
+    "translation": "What is happening?",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_036.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_037",
+    "word": "Ничего особенного.",
+    "latin_okunusu": "Nichego osobennogo.",
+    "translation": "Nothing special.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_037.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_038",
+    "word": "Мне нужно подумать.",
+    "latin_okunusu": "Mne nuzhno podumat'.",
+    "translation": "I need to think.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_038.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_039",
+    "word": "Какой сегодня день?",
+    "latin_okunusu": "Kakoy segodnya den'?",
+    "translation": "What day is it today?",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_039.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_040",
+    "word": "Сегодня вторник.",
+    "latin_okunusu": "Segodnya vtornik.",
+    "translation": "Today is Tuesday.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_040.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_041",
+    "word": "Не забудь свои вещи.",
+    "latin_okunusu": "Ne zabud' svoi veshchi.",
+    "translation": "Don't forget your things.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_041.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_042",
+    "word": "Думаю, будет дождь.",
+    "latin_okunusu": "Dumayu, budet dozhd'.",
+    "translation": "I think it will rain.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_042.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_043",
+    "word": "Возьми зонт.",
+    "latin_okunusu": "Voz'mi zont.",
+    "translation": "Take an umbrella.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_043.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_044",
+    "word": "Всё под контролем.",
+    "latin_okunusu": "Vsyo pod kontrolem.",
+    "translation": "Everything is under control.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_044.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_045",
+    "word": "Пойдём, уходим.",
+    "latin_okunusu": "Poydem, ukhodim.",
+    "translation": "Let's go.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_045.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_046",
+    "word": "Я хочу домой.",
+    "latin_okunusu": "Ya khochu domoy.",
+    "translation": "I want to go home.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_046.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_047",
+    "word": "Пора вставать.",
+    "latin_okunusu": "Pora vstavat'.",
+    "translation": "Time to wake up.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_047.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_048",
+    "word": "Какой чудесный день!",
+    "latin_okunusu": "Kakoy chudesnyy den'!",
+    "translation": "What a wonderful day!",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_048.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_049",
+    "word": "Это всё, чего я хочу.",
+    "latin_okunusu": "Eto vsyo, chego ya khochu.",
+    "translation": "That's all I want.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_049.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_050",
+    "word": "Это всё.",
+    "latin_okunusu": "Eto vsyo.",
+    "translation": "That's all.",
+    "len": 7,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_050.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_051",
+    "word": "Я готов.",
+    "latin_okunusu": "Ya gotov.",
+    "translation": "I am ready.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_051.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_052",
+    "word": "Подожди меня здесь.",
+    "latin_okunusu": "Podozhdi menya zdes'.",
+    "translation": "Wait for me here.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_052.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_053",
+    "word": "Это очень важно.",
+    "latin_okunusu": "Eto ochen' vazhno.",
+    "translation": "This is very important.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_053.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_054",
+    "word": "Не шуми.",
+    "latin_okunusu": "Ne shumi.",
+    "translation": "Don't make noise.",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_054.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_055",
+    "word": "Открой окно.",
+    "latin_okunusu": "Otkroy okno.",
+    "translation": "Open the window.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_055.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_056",
+    "word": "Закрой дверь.",
+    "latin_okunusu": "Zakroy dver'.",
+    "translation": "Close the door.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_056.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_057",
+    "word": "Включи свет.",
+    "latin_okunusu": "Vklyuchi svet.",
+    "translation": "Turn on the light.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_057.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_058",
+    "word": "Выключи телевизор.",
+    "latin_okunusu": "Vyklyuchi televizor.",
+    "translation": "Turn off the TV.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_058.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_059",
+    "word": "Мне нужна тишина.",
+    "latin_okunusu": "Mne nuzhna tishina.",
+    "translation": "I need silence.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_059.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_060",
+    "word": "Я работаю из дома.",
+    "latin_okunusu": "Ya rabotayu iz doma.",
+    "translation": "I work from home.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_060.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_061",
+    "word": "Где мой телефон?",
+    "latin_okunusu": "Gde moy telefon?",
+    "translation": "Where is my phone?",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_061.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_062",
+    "word": "Он на столе.",
+    "latin_okunusu": "On na stole.",
+    "translation": "It is on the table.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_062.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_063",
+    "word": "Я жажду знаний.",
+    "latin_okunusu": "Ya zhazhdu znaniy.",
+    "translation": "I am thirsty for knowledge.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_063.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_064",
+    "word": "Кофе готов.",
+    "latin_okunusu": "Kofe gotov.",
+    "translation": "Coffee is ready.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_064.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_065",
+    "word": "Это очень хорошо.",
+    "latin_okunusu": "Eto ochen' khorosho.",
+    "translation": "That's very good.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_065.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_066",
+    "word": "Хочешь сахар?",
+    "latin_okunusu": "Khochesh' sakhar?",
+    "translation": "Do you want sugar?",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_066.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_067",
+    "word": "Нет, спасибо.",
+    "latin_okunusu": "Net, spasibo.",
+    "translation": "No, thanks.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_067.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_068",
+    "word": "Этого достаточно.",
+    "latin_okunusu": "Etogo dostatochno.",
+    "translation": "That's enough.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_068.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_069",
+    "word": "У меня много работы.",
+    "latin_okunusu": "U menya mnogo raboty.",
+    "translation": "I have a lot of work.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_069.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_070",
+    "word": "Мне нужно спешить.",
+    "latin_okunusu": "Mne nuzhno speshit'.",
+    "translation": "I need to hurry.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_070.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_071",
+    "word": "Увидимся позже.",
+    "latin_okunusu": "Uvidimsya pozzhe.",
+    "translation": "See you later.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_071.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_072",
+    "word": "Хорошего дня.",
+    "latin_okunusu": "Khoroshego dnya.",
+    "translation": "Have a nice day.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_072.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_073",
+    "word": "Увидимся завтра утром.",
+    "latin_okunusu": "Uvidimsya zavtra utrom.",
+    "translation": "See you tomorrow morning.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_073.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_074",
+    "word": "Приятных снов.",
+    "latin_okunusu": "Priyatnykh snov.",
+    "translation": "Sweet dreams.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_074.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_075",
+    "word": "Спокойной ночи, до завтра.",
+    "latin_okunusu": "Spokoynoy nochi, do zavtra.",
+    "translation": "Good night, see you tomorrow.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_075.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_076",
+    "word": "Прекрасный день.",
+    "latin_okunusu": "Prekrasnyy den'.",
+    "translation": "A wonderful day.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_076.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_077",
+    "word": "Давайте наслаждаться.",
+    "latin_okunusu": "Davayte naslazhdat'sya.",
+    "translation": "Let's enjoy.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_077.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_078",
+    "word": "Такова жизнь.",
+    "latin_okunusu": "Takova zhizn'.",
+    "translation": "That's life.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_078.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_079",
+    "word": "Всё возможно.",
+    "latin_okunusu": "Vsyo vozmozhno.",
+    "translation": "Everything is possible.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_079.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_080",
+    "word": "Не теряй надежды.",
+    "latin_okunusu": "Ne teryay nadezhdy.",
+    "translation": "Don't lose hope.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_080.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_081",
+    "word": "Будь позитивным.",
+    "latin_okunusu": "Bud' pozitivnym.",
+    "translation": "Be positive.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_081.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_082",
+    "word": "Всё будет хорошо.",
+    "latin_okunusu": "Vsyo budet khorosho.",
+    "translation": "Everything will be fine.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_082.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_083",
+    "word": "Я полагаюсь на тебя.",
+    "latin_okunusu": "Ya polagayus' na tebya.",
+    "translation": "I am counting on you.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_083.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_084",
+    "word": "Ты мой друг.",
+    "latin_okunusu": "Ty moy drug.",
+    "translation": "You are my friend.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_084.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_085",
+    "word": "Мы вместе.",
+    "latin_okunusu": "My vmeste.",
+    "translation": "We are together.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_085.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_086",
+    "word": "Это супер.",
+    "latin_okunusu": "Eto super.",
+    "translation": "That's super.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_086.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_087",
+    "word": "Мне это нравится.",
+    "latin_okunusu": "Mne eto nravitsya.",
+    "translation": "I like it.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_087.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_088",
+    "word": "Это хорошее начало.",
+    "latin_okunusu": "Eto khoroshee nachalo.",
+    "translation": "That's a good start.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_088.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_089",
+    "word": "Я продолжаю учиться.",
+    "latin_okunusu": "Ya prodolzhayu uchit'sya.",
+    "translation": "I continue to learn.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_089.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_090",
+    "word": "Это моя страсть.",
+    "latin_okunusu": "Eto moya strast'.",
+    "translation": "This is my passion.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_090.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_091",
+    "word": "Я люблю вызовы.",
+    "latin_okunusu": "Ya lyublyu vyzovy.",
+    "translation": "I love challenges.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_091.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_092",
+    "word": "Я никогда не сдамся.",
+    "latin_okunusu": "Ya nikogda ne sdamsya.",
+    "translation": "I will never give up.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_092.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_093",
+    "word": "Это важный шаг.",
+    "latin_okunusu": "Eto vazhnyy shag.",
+    "translation": "That's an important step.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_093.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_094",
+    "word": "Я горжусь этим проектом.",
+    "latin_okunusu": "Ya gordus' etim proyektom.",
+    "translation": "I am proud of this project.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_094.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_095",
+    "word": "Это командная работа.",
+    "latin_okunusu": "Eto komandnaya rabota.",
+    "translation": "This is teamwork.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_095.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_096",
+    "word": "Спасибо всем вам.",
+    "latin_okunusu": "Spasibo vsem vam.",
+    "translation": "Thank you all.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_096.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_097",
+    "word": "Продолжим в том же духе.",
+    "latin_okunusu": "Prodolzhim v tom zhe dukhe.",
+    "translation": "Let's keep it up.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_097.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_098",
+    "word": "Поехали!",
+    "latin_okunusu": "Poyekhali!",
+    "translation": "Let's go!",
+    "len": 8,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_098.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_099",
+    "word": "Комната чистая.",
+    "latin_okunusu": "Komnata chistaya.",
+    "translation": "The room is clean.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_099.mp3"
+    }
+  },
+  {
+    "id": "ru_sent_0100",
+    "word": "Я люблю готовить.",
+    "latin_okunusu": "Ya lyublyu gotovit'.",
+    "translation": "I love to cook.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_0100.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_001",
+    "word": "Здравствуйте, чем я могу вам помочь?",
+    "latin_okunusu": "Zdravstvuyte, chem ya mogu vam pomoch'?",
+    "translation": "Hello, how can I help you?",
+    "len": 36,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_001.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_002",
+    "word": "Я хотел бы назначить встречу.",
+    "latin_okunusu": "Ya khotel by naznachit' vstrechu.",
+    "translation": "I would like to schedule a meeting.",
+    "len": 28,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_002.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_003",
+    "word": "Вам удобно в понедельник?",
+    "latin_okunusu": "Vam udobno v ponedel'nik?",
+    "translation": "Is Monday convenient for you?",
+    "len": 24,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_003.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_004",
+    "word": "Нам нужно перенести встречу.",
+    "latin_okunusu": "Nam nuzhno perenesti vstrechu.",
+    "translation": "We need to reschedule the meeting.",
+    "len": 28,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_004.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_005",
+    "word": "Можете соединить меня с господином Пападопулосом?",
+    "latin_okunusu": "Mozhete soyedinit' menya s gospodinom Papadopulosom?",
+    "translation": "Could you connect me with Mr. Papadopoulos?",
+    "len": 49,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_005.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_006",
+    "word": "Я звоню по поводу проекта.",
+    "latin_okunusu": "Ya zvonyu po povodu proyekta.",
+    "translation": "I am calling regarding the project.",
+    "len": 26,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_006.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_007",
+    "word": "Спасибо за ваше письмо.",
+    "latin_okunusu": "Spasibo za vashe pis'mo.",
+    "translation": "Thank you for your email.",
+    "len": 23,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_007.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_008",
+    "word": "Я прикладываю документы.",
+    "latin_okunusu": "Ya prikladyvayu dokumenty.",
+    "translation": "I am attaching the documents.",
+    "len": 23,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_008.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_009",
+    "word": "Не могли бы вы это подтвердить?",
+    "latin_okunusu": "Ne mogli by vy eto podtverdit'?",
+    "translation": "Could you please confirm this?",
+    "len": 29,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_009.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_010",
+    "word": "Я свяжусь с вами в ближайшее время.",
+    "latin_okunusu": "Ya svyazhus' s vami v blizhaysheye vremya.",
+    "translation": "I will be in touch shortly.",
+    "len": 35,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_010.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_011",
+    "word": "Какова текущая ситуация?",
+    "latin_okunusu": "Kakova tekushchaya situatsiya?",
+    "translation": "What is the current situation?",
+    "len": 24,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_011.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_012",
+    "word": "Мы должны уложиться в срок.",
+    "latin_okunusu": "My dolzhny ulozhit'sya v srok.",
+    "translation": "We must meet the deadline.",
+    "len": 27,
+    "tags": [
+      "business",
+      "deadline"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_012.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_013",
+    "word": "У вас есть предложения?",
+    "latin_okunusu": "U vas yest' predlozheniya?",
+    "translation": "Do you have any suggestions?",
+    "len": 23,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_013.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_014",
+    "word": "Я полностью с вами согласен.",
+    "latin_okunusu": "Ya polnost'yu s vami soglasen.",
+    "translation": "I fully agree with you.",
+    "len": 27,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_014.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_015",
+    "word": "Это хороший подход.",
+    "latin_okunusu": "Eto khoroshiy podkhod.",
+    "translation": "That is a good approach.",
+    "len": 18,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_015.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_016",
+    "word": "У нас проблема с системой.",
+    "latin_okunusu": "U nas problema s sistemoy.",
+    "translation": "We have a system issue.",
+    "len": 25,
+    "tags": [
+      "business",
+      "issue"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_016.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_017",
+    "word": "Можем ли мы поговорить по телефону?",
+    "latin_okunusu": "Mozhem li my pogovorit' po telefonu?",
+    "translation": "Can we talk over the phone?",
+    "len": 34,
+    "tags": [
+      "business",
+      "call"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_017.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_018",
+    "word": "Бюджет ограничен.",
+    "latin_okunusu": "Byudzhet ogranichen.",
+    "translation": "The budget is limited.",
+    "len": 17,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_018.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_019",
+    "word": "Мы ищем решение.",
+    "latin_okunusu": "My ishchem resheniye.",
+    "translation": "We are seeking a solution.",
+    "len": 17,
+    "tags": [
+      "business",
+      "problem-solving"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_019.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_020",
+    "word": "Пожалуйста, отправьте мне предложение.",
+    "latin_okunusu": "Pozhaluysta, otprav'te mne predlozheniye.",
+    "translation": "Please send me a proposal.",
+    "len": 36,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_020.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_021",
+    "word": "Контракт подписан.",
+    "latin_okunusu": "Kontrakt podpis'an.",
+    "translation": "The contract is signed.",
+    "len": 17,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_021.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_022",
+    "word": "Какие следующие шаги?",
+    "latin_okunusu": "Kakie sleduyushchie shagi?",
+    "translation": "What are the next steps?",
+    "len": 21,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_022.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_023",
+    "word": "Я работаю над презентацией.",
+    "latin_okunusu": "Ya rabotayu nad prezentatsiyey.",
+    "translation": "I am working on the presentation.",
+    "len": 26,
+    "tags": [
+      "business",
+      "task"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_023.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_024",
+    "word": "Можем ли мы изменить время встречи?",
+    "latin_okunusu": "Mozhem li my izmenit' vremya vstrechi?",
+    "translation": "Can we change the meeting time?",
+    "len": 36,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_024.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_025",
+    "word": "Сегодня я весь день на встречах.",
+    "latin_okunusu": "Segodnya ya ves' den' na vstrechakh.",
+    "translation": "I am in meetings all day today.",
+    "len": 33,
+    "tags": [
+      "business",
+      "schedule"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_025.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_026",
+    "word": "Вы получили моё сообщение?",
+    "latin_okunusu": "Vy poluchili moyo soobshcheniye?",
+    "translation": "Did you receive my message?",
+    "len": 25,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_026.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_027",
+    "word": "Я в отпуске до пятницы.",
+    "latin_okunusu": "Ya v otpuske do pyatnitsy.",
+    "translation": "I am on vacation until Friday.",
+    "len": 21,
+    "tags": [
+      "business",
+      "out-of-office"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_027.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_028",
+    "word": "Прошу прощения за задержку.",
+    "latin_okunusu": "Proshu proshcheniya za zaderzhku.",
+    "translation": "I apologize for the delay.",
+    "len": 26,
+    "tags": [
+      "business",
+      "apology"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_028.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_029",
+    "word": "Нужно сократить расходы.",
+    "latin_okunusu": "Nuzhno sokratit' raskhody.",
+    "translation": "We need to reduce expenses.",
+    "len": 24,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_029.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_030",
+    "word": "Кто отвечает за этот проект?",
+    "latin_okunusu": "Kto otvechayet za etot proyekt?",
+    "translation": "Who is in charge of this project?",
+    "len": 28,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_030.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_031",
+    "word": "Я скоро вам отвечу.",
+    "latin_okunusu": "Ya skoro vam otvechu.",
+    "translation": "I will get back to you soon.",
+    "len": 18,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_031.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_032",
+    "word": "Какой номер счёта?",
+    "latin_okunusu": "Kakoy nomer schyota?",
+    "translation": "What is the invoice number?",
+    "len": 18,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_032.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_033",
+    "word": "Нам нужно больше информации.",
+    "latin_okunusu": "Nam nuzhno bol'she informatsii.",
+    "translation": "We need more information.",
+    "len": 27,
+    "tags": [
+      "business",
+      "request"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_033.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_034",
+    "word": "Это невозможно.",
+    "latin_okunusu": "Eto nevozmozhno.",
+    "translation": "This is impossible.",
+    "len": 14,
+    "tags": [
+      "business",
+      "refusal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_034.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_035",
+    "word": "Я с радостью вам помогу.",
+    "latin_okunusu": "Ya s radost'yu vam pomogu.",
+    "translation": "I would be happy to help.",
+    "len": 24,
+    "tags": [
+      "business",
+      "help"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_035.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_036",
+    "word": "Мы ценим наше сотрудничество.",
+    "latin_okunusu": "My tsenim nashe sotrudnichestvo.",
+    "translation": "We value our cooperation.",
+    "len": 27,
+    "tags": [
+      "business",
+      "relationship"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_036.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_037",
+    "word": "Можем ли мы начать собрание?",
+    "latin_okunusu": "Mozhem li my nachat' sobraniye?",
+    "translation": "Can we start the meeting?",
+    "len": 28,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_037.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_038",
+    "word": "У вас есть для меня документы?",
+    "latin_okunusu": "U vas yest' dlya menya dokumenty?",
+    "translation": "Do you have the documents for me?",
+    "len": 29,
+    "tags": [
+      "business",
+      "request"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_038.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_039",
+    "word": "Я отправляю вам приглашение.",
+    "latin_okunusu": "Ya otpravlyayu vam priglasheniye.",
+    "translation": "I am sending you an invitation.",
+    "len": 27,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_039.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_040",
+    "word": "Как выглядит ваш график?",
+    "latin_okunusu": "Kak vyglyadit vash grafik?",
+    "translation": "What does your schedule look like?",
+    "len": 24,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_040.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_041",
+    "word": "Мы достигли цели.",
+    "latin_okunusu": "My dostigli tseli.",
+    "translation": "We reached the goal.",
+    "len": 16,
+    "tags": [
+      "business",
+      "success"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_041.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_042",
+    "word": "Это очень срочно.",
+    "latin_okunusu": "Eto ochen' srochno.",
+    "translation": "This is very urgent.",
+    "len": 15,
+    "tags": [
+      "business",
+      "urgency"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_042.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_043",
+    "word": "Можем ли мы встретиться в пятницу?",
+    "latin_okunusu": "Mozhem li my vstretit'sya v pyatnitsu?",
+    "translation": "Can we meet on Friday?",
+    "len": 33,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_043.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_044",
+    "word": "Я понимаю ваши опасения.",
+    "latin_okunusu": "Ya ponimayu vashi opaseniya.",
+    "translation": "I understand your concerns.",
+    "len": 24,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_044.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_045",
+    "word": "Нужно расставить приоритеты.",
+    "latin_okunusu": "Nuzhno rasstavit' prioritety.",
+    "translation": "We need to set priorities.",
+    "len": 27,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_045.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_046",
+    "word": "У вас есть время для краткой беседы?",
+    "latin_okunusu": "U vas yest' vremya dlya kratkoy besedy?",
+    "translation": "Do you have time for a brief talk?",
+    "len": 35,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_046.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_047",
+    "word": "Я отправляю вам черновик.",
+    "latin_okunusu": "Ya otpravlyayu vam chernovik.",
+    "translation": "I am sending you a draft.",
+    "len": 24,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_047.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_048",
+    "word": "Есть ли вопросы?",
+    "latin_okunusu": "Yest' li voprosy?",
+    "translation": "Are there any questions?",
+    "len": 15,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_048.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_049",
+    "word": "Нам нужно работать эффективнее.",
+    "latin_okunusu": "Nam nuzhno rabotat' effektivneye.",
+    "translation": "We need to work more efficiently.",
+    "len": 28,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_049.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_050",
+    "word": "Как продвигаются дела?",
+    "latin_okunusu": "Kak prodvigayutsya dela?",
+    "translation": "How is progress going?",
+    "len": 22,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_050.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_051",
+    "word": "Предлагаю встретиться.",
+    "latin_okunusu": "Predlagayu vstretit'sya.",
+    "translation": "I suggest we meet.",
+    "len": 20,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_051.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_052",
+    "word": "Проект одобрен.",
+    "latin_okunusu": "Proyekt odobren.",
+    "translation": "The project is approved.",
+    "len": 14,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_052.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_053",
+    "word": "Пожалуйста, держите меня в курсе.",
+    "latin_okunusu": "Pozhaluysta, derzhite menya v kurse.",
+    "translation": "Please keep me updated.",
+    "len": 31,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_053.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_054",
+    "word": "У вас есть доступ к файлу?",
+    "latin_okunusu": "U vas yest' dostup k faylu?",
+    "translation": "Do you have access to the file?",
+    "len": 24,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_054.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_055",
+    "word": "Это политика компании.",
+    "latin_okunusu": "Eto politika kompanii.",
+    "translation": "This is company policy.",
+    "len": 21,
+    "tags": [
+      "business",
+      "policy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_055.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_056",
+    "word": "Мы ищем новых сотрудников.",
+    "latin_okunusu": "My ishchem novykh sotrudnikov.",
+    "translation": "We are looking for new employees.",
+    "len": 25,
+    "tags": [
+      "business",
+      "HR"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_056.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_057",
+    "word": "Какова цель этого собрания?",
+    "latin_okunusu": "Kakova tsel' etogo sobraniya?",
+    "translation": "What is the purpose of this meeting?",
+    "len": 26,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_057.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_058",
+    "word": "Отправляю вам повестку дня.",
+    "latin_okunusu": "Otpravlyayu vam povestku dnya.",
+    "translation": "I am sending you the agenda.",
+    "len": 26,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_058.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_059",
+    "word": "У нас технические проблемы.",
+    "latin_okunusu": "U nas tekhnicheskie problemy.",
+    "translation": "We have technical issues.",
+    "len": 25,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_059.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_060",
+    "word": "Я не могу судить об этом.",
+    "latin_okunusu": "Ya ne mogu sudit' ob etom.",
+    "translation": "I cannot judge that.",
+    "len": 22,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_060.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_061",
+    "word": "Можем ли мы отложить этот вопрос?",
+    "latin_okunusu": "Mozhem li my otlozhit' etot vopros?",
+    "translation": "Can we postpone this issue?",
+    "len": 30,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_061.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_062",
+    "word": "Нам нужен протокол.",
+    "latin_okunusu": "Nam nuzhen protokol.",
+    "translation": "We need the minutes.",
+    "len": 18,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_062.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_063",
+    "word": "Это является приоритетом.",
+    "latin_okunusu": "Eto yavlyayetsya prioritetom.",
+    "translation": "This is a priority.",
+    "len": 23,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_063.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_064",
+    "word": "Вы с этим согласны?",
+    "latin_okunusu": "Vy s etim soglasny?",
+    "translation": "Do you agree with this?",
+    "len": 18,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_064.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_065",
+    "word": "У меня есть уточняющий вопрос.",
+    "latin_okunusu": "U menya yest' utochnyayushchiy vopros.",
+    "translation": "I have a clarifying question.",
+    "len": 29,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_065.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_066",
+    "word": "Это хорошая возможность.",
+    "latin_okunusu": "Eto khoroshaya vozmozhnost'.",
+    "translation": "That is a good opportunity.",
+    "len": 24,
+    "tags": [
+      "business",
+      "opportunity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_066.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_067",
+    "word": "Нам нужно координировать действия.",
+    "latin_okunusu": "Nam nuzhno koordinirovat' deystviya.",
+    "translation": "We need to coordinate our actions.",
+    "len": 31,
+    "tags": [
+      "business",
+      "collaboration"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_067.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_068",
+    "word": "Спасибо за ваше терпение.",
+    "latin_okunusu": "Spasibo za vashe terpeniye.",
+    "translation": "Thank you for your patience.",
+    "len": 23,
+    "tags": [
+      "business",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_068.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_069",
+    "word": "Я приложил отчёт.",
+    "latin_okunusu": "Ya prilozhil otchyot.",
+    "translation": "I have attached the report.",
+    "len": 17,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_069.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_070",
+    "word": "Мы проверили контракт.",
+    "latin_okunusu": "My proverili kontrakt.",
+    "translation": "We have reviewed the contract.",
+    "len": 22,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_070.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_071",
+    "word": "Результат положительный.",
+    "latin_okunusu": "Rezultat polozhitel'nyy.",
+    "translation": "The result is positive.",
+    "len": 22,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_071.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_072",
+    "word": "Каковы условия?",
+    "latin_okunusu": "Kakovy usloviya?",
+    "translation": "What are the conditions?",
+    "len": 15,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_072.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_073",
+    "word": "Мы должны обеспечить качество.",
+    "latin_okunusu": "My dolzhny obespechit' kachestvo.",
+    "translation": "We must ensure quality.",
+    "len": 29,
+    "tags": [
+      "business",
+      "quality"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_073.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_074",
+    "word": "Я поддерживаю это предложение.",
+    "latin_okunusu": "Ya podderzhivayu eto predlozheniye.",
+    "translation": "I support this proposal.",
+    "len": 29,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_074.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_075",
+    "word": "Есть ли план Б?",
+    "latin_okunusu": "Yest' li plan B?",
+    "translation": "Is there a Plan B?",
+    "len": 13,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_075.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_076",
+    "word": "Я переслал письмо.",
+    "latin_okunusu": "Ya pereslal pis'mo.",
+    "translation": "I have forwarded the email.",
+    "len": 17,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_076.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_077",
+    "word": "Нам нужна ваша подпись.",
+    "latin_okunusu": "Nam nuzhna vasha podpis'.",
+    "translation": "We need your signature.",
+    "len": 24,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_077.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_078",
+    "word": "Команда хорошо работает.",
+    "latin_okunusu": "Komanda khorosho rabotayet.",
+    "translation": "The team is working well.",
+    "len": 22,
+    "tags": [
+      "business",
+      "team"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_078.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_079",
+    "word": "Нужно спланировать ресурсы.",
+    "latin_okunusu": "Nuzhno splanirovat' resursy.",
+    "translation": "Need to plan resources.",
+    "len": 24,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_079.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_080",
+    "word": "Я доволен результатом.",
+    "latin_okunusu": "Ya dovolen rezul'tatom.",
+    "translation": "I am satisfied with the result.",
+    "len": 20,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_080.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_081",
+    "word": "Пожалуйста, перезвоните мне.",
+    "latin_okunusu": "Pozhaluysta, perezvonite mne.",
+    "translation": "Please call me back.",
+    "len": 26,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_081.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_082",
+    "word": "Собрание длится один час.",
+    "latin_okunusu": "Sobraniye dlitsya odin chas.",
+    "translation": "The meeting lasts one hour.",
+    "len": 23,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_082.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_083",
+    "word": "Нужно проанализировать данные.",
+    "latin_okunusu": "Nuzhno proanalizirovat' dannye.",
+    "translation": "Need to analyze the data.",
+    "len": 27,
+    "tags": [
+      "business",
+      "analysis"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_083.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_084",
+    "word": "У меня нет на это времени.",
+    "latin_okunusu": "U menya net na eto vremeni.",
+    "translation": "I don't have time for this.",
+    "len": 23,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_084.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_085",
+    "word": "Можем ли мы подтвердить встречу?",
+    "latin_okunusu": "Mozhem li my podtverdit' vstrechu?",
+    "translation": "Can we confirm the meeting?",
+    "len": 29,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_085.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_086",
+    "word": "Это важное решение.",
+    "latin_okunusu": "Eto vazhnoye resheniye.",
+    "translation": "This is an important decision.",
+    "len": 19,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_086.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_087",
+    "word": "Отправляю документы почтой.",
+    "latin_okunusu": "Otpravlyayu dokumenty pochtoy.",
+    "translation": "Sending documents by mail.",
+    "len": 26,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_087.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_088",
+    "word": "Мы превысили бюджет.",
+    "latin_okunusu": "My prevysili byudzhet.",
+    "translation": "We exceeded the budget.",
+    "len": 20,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_088.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_089",
+    "word": "Это в наших интересах.",
+    "latin_okunusu": "Eto v nashikh interesakh.",
+    "translation": "This is in our interest.",
+    "len": 22,
+    "tags": [
+      "business",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_089.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_090",
+    "word": "Можете открыть файл?",
+    "latin_okunusu": "Mozhete otkryt' fayl?",
+    "translation": "Can you open the file?",
+    "len": 20,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_090.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_091",
+    "word": "Нужно исправить ошибку.",
+    "latin_okunusu": "Nuzhno ispravit' oshibku.",
+    "translation": "Need to fix the error.",
+    "len": 22,
+    "tags": [
+      "business",
+      "issue"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_091.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_092",
+    "word": "Предложение действительно до завтра.",
+    "latin_okunusu": "Predlozheniye deystvitel'no do zavtra.",
+    "translation": "The offer is valid until tomorrow.",
+    "len": 32,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_092.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_093",
+    "word": "Я благодарен за вашу помощь.",
+    "latin_okunusu": "Ya blagodaren za vashu pomoshch'.",
+    "translation": "I am grateful for your help.",
+    "len": 26,
+    "tags": [
+      "business",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_093.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_094",
+    "word": "Мы стремимся к эффективности.",
+    "latin_okunusu": "My stremimsya k effektivnosti.",
+    "translation": "We strive for efficiency.",
+    "len": 26,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_094.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_095",
+    "word": "Есть ли у вас отзывы об этом?",
+    "latin_okunusu": "Yest' li u vas otzyvy ob etom?",
+    "translation": "Do you have any feedback on this?",
+    "len": 26,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_095.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_096",
+    "word": "Встреча будет онлайн.",
+    "latin_okunusu": "Vstrecha budet onlayn.",
+    "translation": "The meeting will be online.",
+    "len": 20,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_096.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_097",
+    "word": "Я присылаю ссылку.",
+    "latin_okunusu": "Ya prisylayu ssylku.",
+    "translation": "I am sending the link.",
+    "len": 18,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_097.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_098",
+    "word": "Нужно сосредоточиться.",
+    "latin_okunusu": "Nuzhno sosredotochit'sya.",
+    "translation": "Need to focus.",
+    "len": 20,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_098.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_099",
+    "word": "Можем ли мы изменить стратегию?",
+    "latin_okunusu": "Mozhem li my izmenit' strategiyu?",
+    "translation": "Can we change the strategy?",
+    "len": 28,
+    "tags": [
+      "business",
+      "strategy"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_099.mp3"
+    }
+  },
+  {
+    "id": "ru_biz_0100",
+    "word": "Спасибо за обсуждение.",
+    "latin_okunusu": "Spasibo za obsuzhdeniye.",
+    "translation": "Thanks for the discussion.",
+    "len": 22,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_0100.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_001",
+    "word": "Я учусь чему-то новому каждый день.",
+    "latin_okunusu": "Ya uchus' chemu-to novomu kazhdyy den'.",
+    "translation": "I learn something new every day.",
+    "len": 35,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_001.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_002",
+    "word": "Повторение - мать учения.",
+    "latin_okunusu": "Povtoreniye - mat' ucheniya.",
+    "translation": "Repetition is the mother of learning.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_002.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_003",
+    "word": "Я хочу развиваться.",
+    "latin_okunusu": "Ya khochu razvivat'sya.",
+    "translation": "I want to develop myself.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_003.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_004",
+    "word": "Ошибки - это возможности для обучения.",
+    "latin_okunusu": "Oshibki - eto vozmozhnosti dlya obucheniya.",
+    "translation": "Mistakes are learning opportunities.",
+    "len": 37,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_004.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_005",
+    "word": "У меня есть план успеха.",
+    "latin_okunusu": "U menya yest' plan uspekha.",
+    "translation": "I have a plan for success.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "planning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_005.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_006",
+    "word": "Какова моя цель на сегодня?",
+    "latin_okunusu": "Kakova moya tsel' na segodnya?",
+    "translation": "What is my goal for today?",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_006.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_007",
+    "word": "Я верю в свои способности.",
+    "latin_okunusu": "Ya veryu v svoi sposobnosti.",
+    "translation": "I believe in my abilities.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_007.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_008",
+    "word": "Терпение - ключ к успеху.",
+    "latin_okunusu": "Terpeniye - klyuch k uspekhu.",
+    "translation": "Patience is the key to success.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_008.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_009",
+    "word": "Я всегда остаюсь любопытным.",
+    "latin_okunusu": "Ya vsegda ostayus' lyubopytnym.",
+    "translation": "I always remain curious.",
+    "len": 29,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_009.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_010",
+    "word": "Как я могу сделать это лучше?",
+    "latin_okunusu": "Kak ya mogu sdelat' eto luchshe?",
+    "translation": "How can I do this better?",
+    "len": 29,
+    "tags": [
+      "growth",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_010.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_011",
+    "word": "Я сосредотачиваюсь на важном.",
+    "latin_okunusu": "Ya sosredotachivayus' na vazhnom.",
+    "translation": "I focus on what's important.",
+    "len": 29,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_011.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_012",
+    "word": "Каждый шаг имеет значение.",
+    "latin_okunusu": "Kazhdyy shag imeyet znacheniye.",
+    "translation": "Every step matters.",
+    "len": 27,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_012.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_013",
+    "word": "Я беру на себя ответственность.",
+    "latin_okunusu": "Ya beru na sebya otvetstvennost'.",
+    "translation": "I take responsibility.",
+    "len": 29,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_013.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_014",
+    "word": "Дисциплина ведет к цели.",
+    "latin_okunusu": "Distsiplina vedet k tseli.",
+    "translation": "Discipline leads to the goal.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_014.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_015",
+    "word": "Я открыт для новых идей.",
+    "latin_okunusu": "Ya otkryt dlya novykh idey.",
+    "translation": "I am open to new ideas.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_015.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_016",
+    "word": "Никогда не переставай учиться.",
+    "latin_okunusu": "Nikogda ne perestavay uchit'sya.",
+    "translation": "Never stop learning.",
+    "len": 29,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_016.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_017",
+    "word": "Я ищу решения.",
+    "latin_okunusu": "Ya ishchu resheniya.",
+    "translation": "I seek solutions.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_017.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_018",
+    "word": "Это вызов для меня.",
+    "latin_okunusu": "Eto vyzov dlya menya.",
+    "translation": "This is a challenge for me.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_018.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_019",
+    "word": "Я оцениваю свой прогресс.",
+    "latin_okunusu": "Ya otsenivayu svoy progress.",
+    "translation": "I evaluate my progress.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_019.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_020",
+    "word": "Постоянный прогресс важен.",
+    "latin_okunusu": "Postoyannyy progress vazhen.",
+    "translation": "Constant progress is important.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_020.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_021",
+    "word": "Я сохраняю мотивацию.",
+    "latin_okunusu": "Ya sokhranyayu motivatsiyu.",
+    "translation": "I keep myself motivated.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_021.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_022",
+    "word": "Я активно слушаю.",
+    "latin_okunusu": "Ya aktivno slushayu.",
+    "translation": "I listen actively.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_022.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_023",
+    "word": "Знание - это сила.",
+    "latin_okunusu": "Znaniye - eto sila.",
+    "translation": "Knowledge is power.",
+    "len": 17,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_023.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_024",
+    "word": "Я сравниваю себя только с собой.",
+    "latin_okunusu": "Ya sravnivayu sebya tol'ko s soboy.",
+    "translation": "I only compare myself to myself.",
+    "len": 33,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_024.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_025",
+    "word": "Я хорошо организую своё время.",
+    "latin_okunusu": "Ya khorosho organizuyu svoyo vremya.",
+    "translation": "I organize my time well.",
+    "len": 31,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_025.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_026",
+    "word": "Я остаюсь позитивным.",
+    "latin_okunusu": "Ya ostayus' pozitivnym.",
+    "translation": "I remain positive.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_026.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_027",
+    "word": "Вопросы помогают учиться.",
+    "latin_okunusu": "Voprosy pomogayut uchit'sya.",
+    "translation": "Questions help to learn.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_027.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_028",
+    "word": "Я ставлю чёткие цели.",
+    "latin_okunusu": "Ya stavlyu chotkiye tseli.",
+    "translation": "I set clear goals.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_028.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_029",
+    "word": "Я учусь на своих успехах.",
+    "latin_okunusu": "Ya uchus' na svoikh uspekhakh.",
+    "translation": "I learn from my successes.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_029.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_030",
+    "word": "Я ценю своё время.",
+    "latin_okunusu": "Ya tsenyu svoyo vremya.",
+    "translation": "I value my time.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_030.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_031",
+    "word": "Критика помогает мне расти.",
+    "latin_okunusu": "Kritika pomogayet mne rasti.",
+    "translation": "Criticism helps me grow.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_031.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_032",
+    "word": "Я готов пробовать новое.",
+    "latin_okunusu": "Ya gotov probovat' novoye.",
+    "translation": "I am ready to try new things.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_032.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_033",
+    "word": "Я не сдаюсь.",
+    "latin_okunusu": "Ya ne sdayus'.",
+    "translation": "I do not give up.",
+    "len": 11,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_033.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_034",
+    "word": "Я анализирую свои ошибки.",
+    "latin_okunusu": "Ya analiziruyu svoi oshibki.",
+    "translation": "I analyze my mistakes.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_034.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_035",
+    "word": "Я работаю структурированно.",
+    "latin_okunusu": "Ya rabotayu strukturirovanno.",
+    "translation": "I work in a structured way.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_035.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_036",
+    "word": "Я расширяю свой кругозор.",
+    "latin_okunusu": "Ya rasshiryayu svoy krugozor.",
+    "translation": "I am broadening my horizons.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_036.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_037",
+    "word": "Я терпелив к себе.",
+    "latin_okunusu": "Ya terpeliv k sebe.",
+    "translation": "I am patient with myself.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_037.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_038",
+    "word": "Я праздную свои маленькие успехи.",
+    "latin_okunusu": "Ya prazdnuyu svoi malen'kiye uspekhi.",
+    "translation": "I celebrate my small successes.",
+    "len": 32,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_038.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_039",
+    "word": "Я доверяю процессу.",
+    "latin_okunusu": "Ya doveryayu protsessu.",
+    "translation": "I trust the process.",
+    "len": 19,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_039.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_040",
+    "word": "Я горжусь своим путём.",
+    "latin_okunusu": "Ya gordus' svoim putyom.",
+    "translation": "I am proud of my journey.",
+    "len": 22,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_040.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_041",
+    "word": "Я ищу знания.",
+    "latin_okunusu": "Ya ishchu znaniya.",
+    "translation": "I seek knowledge.",
+    "len": 14,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_041.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_042",
+    "word": "Я готов учиться.",
+    "latin_okunusu": "Ya gotov uchit'sya.",
+    "translation": "I am ready to learn.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_042.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_043",
+    "word": "Я подвергаю вещи сомнению.",
+    "latin_okunusu": "Ya podvergayu veshchi somneniyu.",
+    "translation": "I question things.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_043.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_044",
+    "word": "Я расту через трудности.",
+    "latin_okunusu": "Ya rastu cherez trudnosti.",
+    "translation": "I grow through difficulties.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_044.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_045",
+    "word": "У меня ясное мышление.",
+    "latin_okunusu": "U menya yasnoye myshleniye.",
+    "translation": "I have clear thinking.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_045.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_046",
+    "word": "Я остаюсь сосредоточенным.",
+    "latin_okunusu": "Ya ostayus' sosredotochennym.",
+    "translation": "I stay focused.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_046.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_047",
+    "word": "Я учусь у лучших.",
+    "latin_okunusu": "Ya uchus' u luchshikh.",
+    "translation": "I learn from the best.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_047.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_048",
+    "word": "Я учусь всю жизнь.",
+    "latin_okunusu": "Ya uchus' vsyu zhizn'.",
+    "translation": "I am a lifelong learner.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_048.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_049",
+    "word": "Я спокоен в трудные моменты.",
+    "latin_okunusu": "Ya spokoen v trudnye momenty.",
+    "translation": "I am calm in difficult moments.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_049.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_050",
+    "word": "Я расставляю приоритеты.",
+    "latin_okunusu": "Ya rasstavlyayu prioritety.",
+    "translation": "I set priorities.",
+    "len": 25,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_050.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_051",
+    "word": "Я углубляю свои знания.",
+    "latin_okunusu": "Ya uglublyayu svoi znaniya.",
+    "translation": "I am deepening my knowledge.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_051.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_052",
+    "word": "Я благодарен за опыт.",
+    "latin_okunusu": "Ya blagodaren za opyt.",
+    "translation": "I am grateful for the experience.",
+    "len": 22,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_052.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_053",
+    "word": "Я ищу истину.",
+    "latin_okunusu": "Ya ishchu istinu.",
+    "translation": "I seek the truth.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_053.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_054",
+    "word": "Я сам себя мотивирую.",
+    "latin_okunusu": "Ya sam sebya motiviruyu.",
+    "translation": "I motivate myself.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_054.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_055",
+    "word": "Я принимаю изменения.",
+    "latin_okunusu": "Ya prinimayu izmeneniya.",
+    "translation": "I embrace change.",
+    "len": 22,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_055.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_056",
+    "word": "Я продолжаю обучаться.",
+    "latin_okunusu": "Ya prodolzhayu obuchat'sya.",
+    "translation": "I keep learning.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_056.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_057",
+    "word": "Я анализирую своё поведение.",
+    "latin_okunusu": "Ya analiziruyu svoyo povedeniye.",
+    "translation": "I analyze my behavior.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_057.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_058",
+    "word": "Я ценю разнообразие.",
+    "latin_okunusu": "Ya tsenyu raznoobraziye.",
+    "translation": "I value diversity.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_058.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_059",
+    "word": "Я сосредоточен.",
+    "latin_okunusu": "Ya sosredotochen.",
+    "translation": "I am focused.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_059.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_060",
+    "word": "Я развиваюсь каждый день.",
+    "latin_okunusu": "Ya razvivayus' kazhdyy den'.",
+    "translation": "I grow every day.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_060.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_061",
+    "word": "Я планирую свои следующие шаги.",
+    "latin_okunusu": "Ya planiruyu svoi sleduyushchie shagi.",
+    "translation": "I plan my next steps.",
+    "len": 31,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_061.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_062",
+    "word": "Я смелый.",
+    "latin_okunusu": "Ya smelyy.",
+    "translation": "I am bold.",
+    "len": 11,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_062.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_063",
+    "word": "Я учусь на практике.",
+    "latin_okunusu": "Ya uchus' na praktike.",
+    "translation": "I learn by practice.",
+    "len": 20,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_063.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_064",
+    "word": "Я остаюсь гибким.",
+    "latin_okunusu": "Ya ostayus' gibkim.",
+    "translation": "I remain flexible.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_064.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_065",
+    "word": "У меня есть ясная цель.",
+    "latin_okunusu": "U menya yest' yasnaya tsel'.",
+    "translation": "I have a clear goal.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_065.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_066",
+    "word": "Я открыт к обратной связи.",
+    "latin_okunusu": "Ya otkryt k obratnoy svyazi.",
+    "translation": "I am open to feedback.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_066.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_067",
+    "word": "Я не упускаю цель из виду.",
+    "latin_okunusu": "Ya ne upuskayu tsel' iz vidu.",
+    "translation": "I keep my goal in sight.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_067.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_068",
+    "word": "Мне интересно будущее.",
+    "latin_okunusu": "Mne interesno budushcheye.",
+    "translation": "I am interested in the future.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_068.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_069",
+    "word": "Я развиваю новые навыки.",
+    "latin_okunusu": "Ya razvivayu novye navyki.",
+    "translation": "I am developing new skills.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_069.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_070",
+    "word": "Я настойчив.",
+    "latin_okunusu": "Ya nastoychiv.",
+    "translation": "I am persistent.",
+    "len": 14,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_070.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_071",
+    "word": "Я осознаю свой потенциал.",
+    "latin_okunusu": "Ya osoznayu svoy potentsial.",
+    "translation": "I realize my potential.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_071.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_072",
+    "word": "Я учусь у окружающих.",
+    "latin_okunusu": "Ya uchus' u okruzhayushchikh.",
+    "translation": "I learn from those around me.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_072.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_073",
+    "word": "Я использую каждую возможность.",
+    "latin_okunusu": "Ya ispol'zuyu kazhduyu vozmozhnost'.",
+    "translation": "I use every opportunity.",
+    "len": 31,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_073.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_074",
+    "word": "Я размышляю о том, что узнал.",
+    "latin_okunusu": "Ya razmyshlyayu o tom, chto uznal.",
+    "translation": "I reflect on what I learned.",
+    "len": 28,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_074.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_075",
+    "word": "Я делаю маленькие шаги.",
+    "latin_okunusu": "Ya delayu malen'kiye shagi.",
+    "translation": "I take small steps.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_075.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_076",
+    "word": "Я дисциплинирован.",
+    "latin_okunusu": "Ya distsiplinirovan.",
+    "translation": "I am disciplined.",
+    "len": 19,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_076.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_077",
+    "word": "Я открываю новые пути.",
+    "latin_okunusu": "Ya otkryvayu novye puti.",
+    "translation": "I discover new paths.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_077.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_078",
+    "word": "Я верю в свой успех.",
+    "latin_okunusu": "Ya veryu v svoy uspekh.",
+    "translation": "I believe in my success.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_078.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_079",
+    "word": "Я творчески подхожу к решениям.",
+    "latin_okunusu": "Ya tvorcheski podkhozhdyu k resheniyam.",
+    "translation": "I approach solutions creatively.",
+    "len": 31,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_079.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_080",
+    "word": "Я учусь постоянно.",
+    "latin_okunusu": "Ya uchus' postoyanno.",
+    "translation": "I learn constantly.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_080.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_081",
+    "word": "Я открыт к переменам.",
+    "latin_okunusu": "Ya otkryt k peremenam.",
+    "translation": "I am open to change.",
+    "len": 22,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_081.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_082",
+    "word": "Я справляюсь с трудностями.",
+    "latin_okunusu": "Ya spravlyayus' s trudnostyami.",
+    "translation": "I cope with difficulties.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_082.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_083",
+    "word": "Я ценю процесс.",
+    "latin_okunusu": "Ya tsenyu protsess.",
+    "translation": "I value the process.",
+    "len": 16,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_083.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_084",
+    "word": "Я ориентирован на цель.",
+    "latin_okunusu": "Ya oriyentirovan na tsel'.",
+    "translation": "I am goal-oriented.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_084.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_085",
+    "word": "Я учусь на своих ошибках.",
+    "latin_okunusu": "Ya uchus' na svoikh oshibkakh.",
+    "translation": "I learn from my mistakes.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_085.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_086",
+    "word": "Я строю своё будущее.",
+    "latin_okunusu": "Ya stroyu svoyo budushcheye.",
+    "translation": "I am building my future.",
+    "len": 22,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_086.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_087",
+    "word": "Я готов к чему-то новому.",
+    "latin_okunusu": "Ya gotov k chemu-to novomu.",
+    "translation": "I am ready for something new.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_087.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_088",
+    "word": "Я использую свои сильные стороны.",
+    "latin_okunusu": "Ya ispol'zuyu svoi sil'nye storony.",
+    "translation": "I use my strengths.",
+    "len": 31,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_088.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_089",
+    "word": "Я учусь целый день.",
+    "latin_okunusu": "Ya uchus' tselyy den'.",
+    "translation": "I learn all day.",
+    "len": 19,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_089.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_090",
+    "word": "Я остаюсь непоколебимым.",
+    "latin_okunusu": "Ya ostayus' nepokolebimym.",
+    "translation": "I remain unwavering.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_090.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_091",
+    "word": "Я раскрываю свой потенциал.",
+    "latin_okunusu": "Ya raskryvayu svoy potentsial.",
+    "translation": "I am unlocking my potential.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_091.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_092",
+    "word": "Я оптимистичен.",
+    "latin_okunusu": "Ya optimistichen.",
+    "translation": "I am optimistic.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_092.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_093",
+    "word": "Я быстро учусь.",
+    "latin_okunusu": "Ya bystro uchus'.",
+    "translation": "I learn quickly.",
+    "len": 15,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_093.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_094",
+    "word": "Я формирую свою жизнь.",
+    "latin_okunusu": "Ya formiruyu svoyu zhizn'.",
+    "translation": "I shape my life.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_094.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_095",
+    "word": "Я выделяю время, чтобы подумать.",
+    "latin_okunusu": "Ya vydelyayu vremya, chtoby podumat'.",
+    "translation": "I set aside time to think.",
+    "len": 30,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_095.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_096",
+    "word": "Я успешен.",
+    "latin_okunusu": "Ya uspeshen.",
+    "translation": "I am successful.",
+    "len": 12,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_096.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_097",
+    "word": "Я работаю дисциплинированно.",
+    "latin_okunusu": "Ya rabotayu distsiplinirovanno.",
+    "translation": "I work in a disciplined way.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_097.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_098",
+    "word": "Я верен своему видению.",
+    "latin_okunusu": "Ya veren svoyemu videniyu.",
+    "translation": "I am loyal to my vision.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_098.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_099",
+    "word": "Я учусь каждое мгновение.",
+    "latin_okunusu": "Ya uchus' kazhdoye mgnoveniye.",
+    "translation": "I learn every moment.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_099.mp3"
+    }
+  },
+  {
+    "id": "ru_dev_0100",
+    "word": "Я готов к росту.",
+    "latin_okunusu": "Ya gotov k rostu.",
+    "translation": "I am ready for growth.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_0100.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_001",
+    "word": "Где находится железнодорожный вокзал?",
+    "latin_okunusu": "Gde nakhoditsya zheleznodorozhnyy vokzal?",
+    "translation": "Where is the train station?",
+    "len": 37,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_001.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_002",
+    "word": "Как добраться до отеля?",
+    "latin_okunusu": "Kak dobrat'sya do otelya?",
+    "translation": "How do I get to the hotel?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_002.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_003",
+    "word": "Один билет до Берлина, пожалуйста.",
+    "latin_okunusu": "Odin bilet do Berlina, pozhaluysta.",
+    "translation": "One ticket to Berlin, please.",
+    "len": 33,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_003.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_004",
+    "word": "Когда отправляется следующий поезд?",
+    "latin_okunusu": "Kogda otpravlyayetsya sleduyushchiy poyezd?",
+    "translation": "When does the next train leave?",
+    "len": 35,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_004.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_005",
+    "word": "У вас есть свободный номер?",
+    "latin_okunusu": "U vas yest' svobodnyy nomer?",
+    "translation": "Do you have a vacant room?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_005.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_006",
+    "word": "У меня забронировано.",
+    "latin_okunusu": "U menya zabronirovano.",
+    "translation": "I have a reservation.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_006.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_007",
+    "word": "Где ближайшая станция метро?",
+    "latin_okunusu": "Gde blizhayshaya stantsiya metro?",
+    "translation": "Where is the nearest subway station?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_007.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_008",
+    "word": "Сколько это стоит?",
+    "latin_okunusu": "Skol'ko eto stoit?",
+    "translation": "How much does it cost?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_008.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_009",
+    "word": "Я хочу зарегистрироваться.",
+    "latin_okunusu": "Ya khochu zaregistrirovat'sya.",
+    "translation": "I want to check in.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_009.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_010",
+    "word": "Вы можете мне помочь?",
+    "latin_okunusu": "Vy mozhete mne pomoch'?",
+    "translation": "Can you help me?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_010.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_011",
+    "word": "Здесь есть ресторан поблизости?",
+    "latin_okunusu": "Zdes' yest' restoran poblizosti?",
+    "translation": "Is there a restaurant nearby?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_011.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_012",
+    "word": "Я ищу карту города.",
+    "latin_okunusu": "Ya ishchu kartu goroda.",
+    "translation": "I am looking for a city map.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_012.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_013",
+    "word": "Это далеко отсюда?",
+    "latin_okunusu": "Eto daleko ottsyuda?",
+    "translation": "Is it far from here?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_013.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_014",
+    "word": "Я хочу вызвать такси.",
+    "latin_okunusu": "Ya khochu vyzvat' taksi.",
+    "translation": "I want to call a taxi.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_014.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_015",
+    "word": "Когда открывается музей?",
+    "latin_okunusu": "Kogda otkryvayetsya muzey?",
+    "translation": "When does the museum open?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_015.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_016",
+    "word": "Где я могу обменять валюту?",
+    "latin_okunusu": "Gde ya mogu obmenyat' valyutu?",
+    "translation": "Where can I exchange currency?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_016.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_017",
+    "word": "У вас есть карта города?",
+    "latin_okunusu": "U vas yest' karta goroda?",
+    "translation": "Do you have a city map?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_017.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_018",
+    "word": "Это очень красиво.",
+    "latin_okunusu": "Eto ochen' krasivo.",
+    "translation": "This is very beautiful.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_018.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_019",
+    "word": "Столик на двоих, пожалуйста.",
+    "latin_okunusu": "Stolik na dvoikh, pozhaluysta.",
+    "translation": "A table for two, please.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_019.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_020",
+    "word": "Счёт, пожалуйста.",
+    "latin_okunusu": "Schyot, pozhaluysta.",
+    "translation": "The bill, please.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_020.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_021",
+    "word": "Где туалет?",
+    "latin_okunusu": "Gde tualet?",
+    "translation": "Where is the restroom?",
+    "len": 12,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_021.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_022",
+    "word": "Я турист.",
+    "latin_okunusu": "Ya turist.",
+    "translation": "I am a tourist.",
+    "len": 10,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_022.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_023",
+    "word": "Можете меня сфотографировать?",
+    "latin_okunusu": "Mozhete menya sfotografirovat'?",
+    "translation": "Can you take a photo of me?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_023.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_024",
+    "word": "Где выход?",
+    "latin_okunusu": "Gde vykhod?",
+    "translation": "Where is the exit?",
+    "len": 10,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_024.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_025",
+    "word": "Что вы порекомендуете?",
+    "latin_okunusu": "Chto vy posovetuyete?",
+    "translation": "What do you recommend?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_025.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_026",
+    "word": "Есть ли билет на весь день?",
+    "latin_okunusu": "Yest' li bilet na ves' den'?",
+    "translation": "Is there an all-day ticket?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_026.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_027",
+    "word": "Мне нужен пластырь.",
+    "latin_okunusu": "Mne nuzhen plastyr'.",
+    "translation": "I need a bandage.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_027.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_028",
+    "word": "Приятного путешествия!",
+    "latin_okunusu": "Priyatnogo puteshestviya!",
+    "translation": "Have a pleasant trip!",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_028.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_029",
+    "word": "Как добраться до аэропорта?",
+    "latin_okunusu": "Kak dobrat'sya do aeroporta?",
+    "translation": "How do I get to the airport?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_029.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_030",
+    "word": "Где остановка?",
+    "latin_okunusu": "Gde ostanovka?",
+    "translation": "Where is the bus stop?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_030.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_031",
+    "word": "Я потерял багаж.",
+    "latin_okunusu": "Ya poteryal bagazh.",
+    "translation": "I lost my luggage.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_031.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_032",
+    "word": "Завтрак включен?",
+    "latin_okunusu": "Zavtrak vklyuchen?",
+    "translation": "Is breakfast included?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_032.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_033",
+    "word": "Когда время выезда?",
+    "latin_okunusu": "Kogda vremya vyyezda?",
+    "translation": "When is check-out time?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_033.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_034",
+    "word": "Вы можете говорить погромче?",
+    "latin_okunusu": "Vy mozhete govorit' pogromche?",
+    "translation": "Could you speak louder?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_034.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_035",
+    "word": "Где супермаркет?",
+    "latin_okunusu": "Gde supermarket?",
+    "translation": "Where is the supermarket?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_035.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_036",
+    "word": "Я хочу арендовать велосипед.",
+    "latin_okunusu": "Ya khochu arendovat' velosiped.",
+    "translation": "I want to rent a bicycle.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_036.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_037",
+    "word": "Здесь есть Wi-Fi?",
+    "latin_okunusu": "Zdes' yest' Wi-Fi?",
+    "translation": "Is there Wi-Fi here?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_037.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_038",
+    "word": "Это прекрасное здание.",
+    "latin_okunusu": "Eto prekrasnoye zdaniye.",
+    "translation": "This is a beautiful building.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_038.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_039",
+    "word": "Где туристическая информация?",
+    "latin_okunusu": "Gde turisticheskaya informatsiya?",
+    "translation": "Where is the tourist information?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_039.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_040",
+    "word": "Я хочу номер с видом.",
+    "latin_okunusu": "Ya khochu nomer s vidom.",
+    "translation": "I want a room with a view.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_040.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_041",
+    "word": "Сколько длится поездка?",
+    "latin_okunusu": "Skol'ko dlitsya poyezdka?",
+    "translation": "How long does the trip take?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_041.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_042",
+    "word": "У вас есть карта?",
+    "latin_okunusu": "U vas yest' karta?",
+    "translation": "Do you have a map?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_042.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_043",
+    "word": "Извините, что вы сказали?",
+    "latin_okunusu": "Izvinite, chto vy skazali?",
+    "translation": "Excuse me, what did you say?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_043.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_044",
+    "word": "Где аптека?",
+    "latin_okunusu": "Gde apteka?",
+    "translation": "Where is the pharmacy?",
+    "len": 12,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_044.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_045",
+    "word": "Я хочу посетить эту достопримечательность.",
+    "latin_okunusu": "Ya khochu posetit' etu dostoprimechatel'nost'.",
+    "translation": "I want to visit this attraction.",
+    "len": 40,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_045.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_046",
+    "word": "Я могу заплатить картой?",
+    "latin_okunusu": "Ya mogu zaplatit' kartoy?",
+    "translation": "Can I pay by card?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_046.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_047",
+    "word": "Здесь безопасно?",
+    "latin_okunusu": "Zdes' bezopasno?",
+    "translation": "Is it safe here?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_047.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_048",
+    "word": "Где ближайший банк?",
+    "latin_okunusu": "Gde blizhayshiy bank?",
+    "translation": "Where is the nearest bank?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_048.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_049",
+    "word": "Мы потерялись.",
+    "latin_okunusu": "My poteryalis'.",
+    "translation": "We are lost.",
+    "len": 14,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_049.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_050",
+    "word": "Сколько стоит вход?",
+    "latin_okunusu": "Skol'ko stoit vkhod?",
+    "translation": "How much is the entrance?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_050.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_051",
+    "word": "Можете показать на карте?",
+    "latin_okunusu": "Mozhete pokazat' na karte?",
+    "translation": "Can you show me on the map?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_051.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_052",
+    "word": "Где парковка?",
+    "latin_okunusu": "Gde parkovka?",
+    "translation": "Where is the parking?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_052.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_053",
+    "word": "У меня аллергия.",
+    "latin_okunusu": "U menya allergiya.",
+    "translation": "I have an allergy.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_053.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_054",
+    "word": "Где посольство?",
+    "latin_okunusu": "Gde posol'stvo?",
+    "translation": "Where is the embassy?",
+    "len": 14,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_054.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_055",
+    "word": "Нам нужна помощь.",
+    "latin_okunusu": "Nam nuzhna pomoshch'.",
+    "translation": "We need help.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_055.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_056",
+    "word": "Водопроводная вода пригодна для питья?",
+    "latin_okunusu": "Vodoprovodnaya voda prigodna dlya pit'ya?",
+    "translation": "Is tap water drinkable?",
+    "len": 38,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_056.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_057",
+    "word": "Я ищу парк.",
+    "latin_okunusu": "Ya ishchu park.",
+    "translation": "I am looking for a park.",
+    "len": 13,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_057.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_058",
+    "word": "Где касса?",
+    "latin_okunusu": "Gde kassa?",
+    "translation": "Where is the ticket office?",
+    "len": 10,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_058.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_059",
+    "word": "Можем ли мы перенести это?",
+    "latin_okunusu": "Mozhem li my perenesti eto?",
+    "translation": "Can we postpone this?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_059.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_060",
+    "word": "Есть ли экскурсия?",
+    "latin_okunusu": "Yest' li ekskursiya?",
+    "translation": "Is there a tour?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_060.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_061",
+    "word": "Мне нравится этот город.",
+    "latin_okunusu": "Mne nravitsya etot gorod.",
+    "translation": "I like this city.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_061.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_062",
+    "word": "Где вход?",
+    "latin_okunusu": "Gde vkhod?",
+    "translation": "Where is the entrance?",
+    "len": 9,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_062.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_063",
+    "word": "Как добраться до этого музея?",
+    "latin_okunusu": "Kak dobrat'sya do etogo muzeya?",
+    "translation": "How do I get to this museum?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_063.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_064",
+    "word": "У вас есть вегетарианское блюдо?",
+    "latin_okunusu": "U vas yest' vegetarianskoye blyudo?",
+    "translation": "Do you have a vegetarian dish?",
+    "len": 31,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_064.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_065",
+    "word": "Я здесь впервые.",
+    "latin_okunusu": "Ya zdes' vpervyye.",
+    "translation": "I am here for the first time.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_065.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_066",
+    "word": "Что вы порекомендуете?",
+    "latin_okunusu": "Chto vy posovetuyete?",
+    "translation": "What do you recommend?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_066.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_067",
+    "word": "Где автобус до аэропорта?",
+    "latin_okunusu": "Gde avtobus do aeroporta?",
+    "translation": "Where is the bus to the airport?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_067.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_068",
+    "word": "Я потерял телефон.",
+    "latin_okunusu": "Ya poteryal telefon.",
+    "translation": "I lost my phone.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_068.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_069",
+    "word": "Есть ли скидка?",
+    "latin_okunusu": "Yest' li skidka?",
+    "translation": "Is there a discount?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_069.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_070",
+    "word": "Мне нужно такси на завтра.",
+    "latin_okunusu": "Mne nuzhno taksi na zavtra.",
+    "translation": "I need a taxi for tomorrow.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_070.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_071",
+    "word": "Где туристическое агентство?",
+    "latin_okunusu": "Gde turisticheskoye agentstvo?",
+    "translation": "Where is the travel agency?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_071.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_072",
+    "word": "Это очень вкусно.",
+    "latin_okunusu": "Eto ochen' vkusno.",
+    "translation": "This is very delicious.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_072.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_073",
+    "word": "Есть ли карта города?",
+    "latin_okunusu": "Yest' li karta goroda?",
+    "translation": "Is there a city map?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_073.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_074",
+    "word": "Я хочу забронировать билеты.",
+    "latin_okunusu": "Ya khochu zabronirovat' bilety.",
+    "translation": "I want to book tickets.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_074.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_075",
+    "word": "Где вход на станцию?",
+    "latin_okunusu": "Gde vkhod na stantsiyu?",
+    "translation": "Where is the station entrance?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_075.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_076",
+    "word": "Который час?",
+    "latin_okunusu": "Kotoryy chas?",
+    "translation": "What time is it?",
+    "len": 12,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_076.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_077",
+    "word": "Здесь можно курить?",
+    "latin_okunusu": "Zdes' mozhno kurit'?",
+    "translation": "Can I smoke here?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_077.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_078",
+    "word": "Я ищу недорогой отель.",
+    "latin_okunusu": "Ya ishchu nedorogoy otel'.",
+    "translation": "I am looking for an inexpensive hotel.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_078.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_079",
+    "word": "Где почта?",
+    "latin_okunusu": "Gde pochta?",
+    "translation": "Where is the post office?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_079.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_080",
+    "word": "Вход бесплатный?",
+    "latin_okunusu": "Vkhod besplatnyy?",
+    "translation": "Is admission free?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_080.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_081",
+    "word": "Я хочу узнать больше о городе.",
+    "latin_okunusu": "Ya khochu uznat' bol'she o gorode.",
+    "translation": "I want to learn more about the city.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_081.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_082",
+    "word": "Где можно купить сувениры?",
+    "latin_okunusu": "Gde mozhno kupit' suveniry?",
+    "translation": "Where can I buy souvenirs?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_082.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_083",
+    "word": "Мне нужен врач.",
+    "latin_okunusu": "Mne nuzhen vrach.",
+    "translation": "I need a doctor.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_083.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_084",
+    "word": "Где полиция?",
+    "latin_okunusu": "Gde politsiya?",
+    "translation": "Where is the police?",
+    "len": 12,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_084.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_085",
+    "word": "Это красивая площадь.",
+    "latin_okunusu": "Eto krasivaya ploshchad'.",
+    "translation": "This is a beautiful square.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_085.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_086",
+    "word": "Когда закрывается магазин?",
+    "latin_okunusu": "Kogda zakryvayetsya magazin?",
+    "translation": "When does the store close?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_086.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_087",
+    "word": "Есть ли общественный транспорт?",
+    "latin_okunusu": "Yest' li obshchestvennyy transport?",
+    "translation": "Is there public transport?",
+    "len": 31,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_087.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_088",
+    "word": "Я хочу арендовать машину.",
+    "latin_okunusu": "Ya khochu arendovat' mashinu.",
+    "translation": "I want to rent a car.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_088.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_089",
+    "word": "Можете открыть дверь?",
+    "latin_okunusu": "Mozhete otkryt' dver'?",
+    "translation": "Can you open the door?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_089.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_090",
+    "word": "Где театр?",
+    "latin_okunusu": "Gde teatr?",
+    "translation": "Where is the theater?",
+    "len": 11,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_090.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_091",
+    "word": "Вода тёплая.",
+    "latin_okunusu": "Voda tyoplaya.",
+    "translation": "The water is warm.",
+    "len": 12,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_091.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_092",
+    "word": "Есть ли смотровая площадка?",
+    "latin_okunusu": "Yest' li smotrovaya ploshchadka?",
+    "translation": "Is there an observation deck?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_092.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_093",
+    "word": "Я опоздал на автобус.",
+    "latin_okunusu": "Ya opozdal na avtobus.",
+    "translation": "I missed the bus.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_093.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_094",
+    "word": "Где купить билет?",
+    "latin_okunusu": "Gde kupit' bilet?",
+    "translation": "Where can I buy a ticket?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_094.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_095",
+    "word": "Это далеко пешком?",
+    "latin_okunusu": "Eto daleko peshkom?",
+    "translation": "Is it far on foot?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_095.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_096",
+    "word": "Я хочу посмотреть старый город.",
+    "latin_okunusu": "Ya khochu posmotret' staryy gorod.",
+    "translation": "I want to see the old town.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_096.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_097",
+    "word": "У вас есть рекомендации?",
+    "latin_okunusu": "U vas yest' rekomendatsii?",
+    "translation": "Do you have any recommendations?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_097.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_098",
+    "word": "Где найти банкомат?",
+    "latin_okunusu": "Gde nayti bankomat?",
+    "translation": "Where can I find an ATM?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_098.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_099",
+    "word": "Спасибо за помощь.",
+    "latin_okunusu": "Spasibo za pomoshch'.",
+    "translation": "Thank you for the help.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_099.mp3"
+    }
+  },
+  {
+    "id": "ru_trv_0100",
+    "word": "До свидания!",
+    "latin_okunusu": "Do svidaniya!",
+    "translation": "Goodbye!",
+    "len": 13,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_0100.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_001",
+    "word": "Привет!",
+    "latin_okunusu": "Privet!",
+    "translation": "Hi!",
+    "len": 7,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_001.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_002",
+    "word": "Доброе утро!",
+    "latin_okunusu": "Dobroye utro!",
+    "translation": "Good morning!",
+    "len": 13,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_002.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_003",
+    "word": "Добрый день!",
+    "latin_okunusu": "Dobryy den'!",
+    "translation": "Good day!",
+    "len": 13,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_003.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_004",
+    "word": "Спокойной ночи!",
+    "latin_okunusu": "Spokoynoy nochi!",
+    "translation": "Good night!",
+    "len": 16,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_004.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_005",
+    "word": "Как дела?",
+    "latin_okunusu": "Kak dela?",
+    "translation": "How are you?",
+    "len": 9,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_005.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_006",
+    "word": "Как вы поживаете?",
+    "latin_okunusu": "Kak vy pozhivayete?",
+    "translation": "How are you doing?",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_006.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_007",
+    "word": "У меня всё хорошо, спасибо.",
+    "latin_okunusu": "U menya vsyo khorosho, spasibo.",
+    "translation": "I'm doing well, thanks.",
+    "len": 27,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_007.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_008",
+    "word": "А у тебя?",
+    "latin_okunusu": "A u tebya?",
+    "translation": "And you?",
+    "len": 9,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_008.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_009",
+    "word": "Как тебя зовут?",
+    "latin_okunusu": "Kak tebya zovut?",
+    "translation": "What is your name?",
+    "len": 15,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_009.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_010",
+    "word": "Меня зовут...",
+    "latin_okunusu": "Menya zovut...",
+    "translation": "My name is...",
+    "len": 13,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_010.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_011",
+    "word": "Очень приятно.",
+    "latin_okunusu": "Ochen' priyatno.",
+    "translation": "Nice to meet you.",
+    "len": 14,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_011.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_012",
+    "word": "Откуда ты?",
+    "latin_okunusu": "Otkuda ty?",
+    "translation": "Where are you from?",
+    "len": 11,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_012.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_013",
+    "word": "Я из Турции.",
+    "latin_okunusu": "Ya iz Turtsii.",
+    "translation": "I am from Turkey.",
+    "len": 13,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_013.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_014",
+    "word": "Где ты живёшь?",
+    "latin_okunusu": "Gde ty zhivyosh'?",
+    "translation": "Where do you live?",
+    "len": 15,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_014.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_015",
+    "word": "Чем ты занимаешься?",
+    "latin_okunusu": "Chem ty zanimayesh'sya?",
+    "translation": "What do you do?",
+    "len": 19,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_015.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_016",
+    "word": "Ты можешь мне помочь?",
+    "latin_okunusu": "Ty mozhesh' mne pomoch'?",
+    "translation": "Can you help me?",
+    "len": 21,
+    "tags": [
+      "social",
+      "help"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_016.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_017",
+    "word": "Я не понимаю.",
+    "latin_okunusu": "Ya ne ponimayu.",
+    "translation": "I don't understand.",
+    "len": 14,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_017.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_018",
+    "word": "Можешь повторить?",
+    "latin_okunusu": "Mozhesh' povtorit'?",
+    "translation": "Can you repeat?",
+    "len": 18,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_018.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_019",
+    "word": "Ты говоришь по-английски?",
+    "latin_okunusu": "Ty govorish' po-angliyski?",
+    "translation": "Do you speak English?",
+    "len": 24,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_019.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_020",
+    "word": "Немного.",
+    "latin_okunusu": "Nemnogo.",
+    "translation": "A little.",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_020.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_021",
+    "word": "Как это называется?",
+    "latin_okunusu": "Kak eto nazyvayetsya?",
+    "translation": "What is this called?",
+    "len": 20,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_021.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_022",
+    "word": "Что это значит?",
+    "latin_okunusu": "Chto eto znachit?",
+    "translation": "What does this mean?",
+    "len": 15,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_022.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_023",
+    "word": "Я учу русский.",
+    "latin_okunusu": "Ya uchu russkiy.",
+    "translation": "I am learning Russian.",
+    "len": 15,
+    "tags": [
+      "social",
+      "learning"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_023.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_024",
+    "word": "Напиши это, пожалуйста.",
+    "latin_okunusu": "Napishi eto, pozhaluysta.",
+    "translation": "Please write this down.",
+    "len": 23,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_024.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_025",
+    "word": "Извини.",
+    "latin_okunusu": "Izvini.",
+    "translation": "Sorry.",
+    "len": 7,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_025.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_026",
+    "word": "Ничего страшного.",
+    "latin_okunusu": "Nichego strashnogo.",
+    "translation": "No problem.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_026.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_027",
+    "word": "Пожалуйста.",
+    "latin_okunusu": "Pozhaluysta.",
+    "translation": "Please.",
+    "len": 11,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_027.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_028",
+    "word": "Большое спасибо.",
+    "latin_okunusu": "Bol'shoye spasibo.",
+    "translation": "Thank you very much.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_028.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_029",
+    "word": "Спасибо.",
+    "latin_okunusu": "Spasibo.",
+    "translation": "Thank you.",
+    "len": 9,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_029.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_030",
+    "word": "С удовольствием!",
+    "latin_okunusu": "S udovol'stviyem!",
+    "translation": "With pleasure!",
+    "len": 16,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_030.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_031",
+    "word": "У тебя есть время?",
+    "latin_okunusu": "U tebya yest' vremya?",
+    "translation": "Do you have time?",
+    "len": 18,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_031.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_032",
+    "word": "Хочешь выпить кофе?",
+    "latin_okunusu": "Khochesh' vypit' kofe?",
+    "translation": "Want to have coffee?",
+    "len": 19,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_032.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_033",
+    "word": "У меня есть желание...",
+    "latin_okunusu": "U menya yest' zhelaniye...",
+    "translation": "I feel like...",
+    "len": 22,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_033.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_034",
+    "word": "Когда мы встретимся?",
+    "latin_okunusu": "Kogda my vstretimsya?",
+    "translation": "When shall we meet?",
+    "len": 21,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_034.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_035",
+    "word": "Где мы встретимся?",
+    "latin_okunusu": "Gde my vstretimsya?",
+    "translation": "Where shall we meet?",
+    "len": 19,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_035.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_036",
+    "word": "Мне это подходит.",
+    "latin_okunusu": "Mne eto podkhodit.",
+    "translation": "That works for me.",
+    "len": 17,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_036.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_037",
+    "word": "К сожалению, не получится.",
+    "latin_okunusu": "K sozhaleniyu, ne poluchitsya.",
+    "translation": "Unfortunately, I can't.",
+    "len": 25,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_037.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_038",
+    "word": "Ты уверен?",
+    "latin_okunusu": "Ty uveren?",
+    "translation": "Are you sure?",
+    "len": 11,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_038.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_039",
+    "word": "Конечно!",
+    "latin_okunusu": "Konechno!",
+    "translation": "Of course!",
+    "len": 9,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_039.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_040",
+    "word": "Может быть.",
+    "latin_okunusu": "Mozhet byt'.",
+    "translation": "Maybe.",
+    "len": 11,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_040.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_041",
+    "word": "У тебя есть планы?",
+    "latin_okunusu": "U tebya yest' plany?",
+    "translation": "Do you have any plans?",
+    "len": 18,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_041.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_042",
+    "word": "Ты пойдёшь со мной?",
+    "latin_okunusu": "Ty poydyosh' so mnoy?",
+    "translation": "Will you come with me?",
+    "len": 19,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_042.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_043",
+    "word": "Я жду этого.",
+    "latin_okunusu": "Ya zhdu etogo.",
+    "translation": "I am looking forward to it.",
+    "len": 13,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_043.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_044",
+    "word": "Удачи!",
+    "latin_okunusu": "Udachi!",
+    "translation": "Good luck!",
+    "len": 7,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_044.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_045",
+    "word": "Приятного аппетита!",
+    "latin_okunusu": "Priyatnogo appetita!",
+    "translation": "Enjoy your meal!",
+    "len": 18,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_045.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_046",
+    "word": "Мне очень нравится.",
+    "latin_okunusu": "Mne ochen' nravitsya.",
+    "translation": "I like it very much.",
+    "len": 19,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_046.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_047",
+    "word": "Мне это не нравится.",
+    "latin_okunusu": "Mne eto ne nravitsya.",
+    "translation": "I don't like it.",
+    "len": 20,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_047.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_048",
+    "word": "У меня другое мнение.",
+    "latin_okunusu": "U menya drugoye mneniye.",
+    "translation": "I have a different opinion.",
+    "len": 22,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_048.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_049",
+    "word": "Это правда.",
+    "latin_okunusu": "Eto pravda.",
+    "translation": "It is true.",
+    "len": 12,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_049.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_050",
+    "word": "Я согласен.",
+    "latin_okunusu": "Ya soglasen.",
+    "translation": "I agree.",
+    "len": 11,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_050.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_051",
+    "word": "Что ты думаешь?",
+    "latin_okunusu": "Chto ty dumayesh'?",
+    "translation": "What do you think?",
+    "len": 15,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_051.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_052",
+    "word": "Я без понятия.",
+    "latin_okunusu": "Ya bez ponyatiya.",
+    "translation": "I have no idea.",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_052.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_053",
+    "word": "Я думаю, что...",
+    "latin_okunusu": "Ya dumayu, chto...",
+    "translation": "I think that...",
+    "len": 16,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_053.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_054",
+    "word": "Я надеюсь, что...",
+    "latin_okunusu": "Ya nadeyus', chto...",
+    "translation": "I hope that...",
+    "len": 17,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_054.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_055",
+    "word": "Желаю удачи!",
+    "latin_okunusu": "Zhelayu udachi!",
+    "translation": "Good luck!",
+    "len": 13,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_055.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_056",
+    "word": "Который час?",
+    "latin_okunusu": "Kotoryy chas?",
+    "translation": "What time is it?",
+    "len": 12,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_056.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_057",
+    "word": "Мне пора идти.",
+    "latin_okunusu": "Mne pora idti.",
+    "translation": "I have to go.",
+    "len": 14,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_057.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_058",
+    "word": "До скорого!",
+    "latin_okunusu": "Do skorogo!",
+    "translation": "See you soon!",
+    "len": 11,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_058.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_059",
+    "word": "Увидимся позже!",
+    "latin_okunusu": "Uvidimsya pozzhe!",
+    "translation": "See you later!",
+    "len": 16,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_059.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_060",
+    "word": "Хорошего дня!",
+    "latin_okunusu": "Khoroshego dnya!",
+    "translation": "Have a nice day!",
+    "len": 13,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_060.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_061",
+    "word": "Доброй ночи!",
+    "latin_okunusu": "Dobroy nochi!",
+    "translation": "Good night!",
+    "len": 12,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_061.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_062",
+    "word": "Как прошёл твой день?",
+    "latin_okunusu": "Kak proshol tvoy den'?",
+    "translation": "How was your day?",
+    "len": 20,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_062.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_063",
+    "word": "Я устал.",
+    "latin_okunusu": "Ya ustal.",
+    "translation": "I am tired.",
+    "len": 8,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_063.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_064",
+    "word": "Я проголодался.",
+    "latin_okunusu": "Ya progolodalsya.",
+    "translation": "I am hungry.",
+    "len": 14,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_064.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_065",
+    "word": "У нас есть кофе?",
+    "latin_okunusu": "U nas yest' kofe?",
+    "translation": "Do we have coffee?",
+    "len": 15,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_065.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_066",
+    "word": "Погода хорошая.",
+    "latin_okunusu": "Pogoda khoroshaya.",
+    "translation": "The weather is good.",
+    "len": 15,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_066.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_067",
+    "word": "Идёт дождь.",
+    "latin_okunusu": "Idet dozhd'.",
+    "translation": "It is raining.",
+    "len": 11,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_067.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_068",
+    "word": "Мне нужно спокойствие.",
+    "latin_okunusu": "Mne nuzhno spokoystviye.",
+    "translation": "I need some peace and quiet.",
+    "len": 22,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_068.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_069",
+    "word": "Что мы будем делать вечером?",
+    "latin_okunusu": "Chto my budem delat' vecherom?",
+    "translation": "What are we doing in the evening?",
+    "len": 28,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_069.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_070",
+    "word": "Я тебе позвоню.",
+    "latin_okunusu": "Ya tebe pozvonyu.",
+    "translation": "I will call you.",
+    "len": 15,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_070.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_071",
+    "word": "Хорошо.",
+    "latin_okunusu": "Khorosho.",
+    "translation": "Okay.",
+    "len": 7,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_071.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_072",
+    "word": "Ты меня понимаешь?",
+    "latin_okunusu": "Ty menya ponimayesh'?",
+    "translation": "Do you understand me?",
+    "len": 18,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_072.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_073",
+    "word": "Это очень любезно с твоей стороны.",
+    "latin_okunusu": "Eto ochen' lyubezno s tvoyey storony.",
+    "translation": "That's very kind of you.",
+    "len": 35,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_073.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_074",
+    "word": "Выздоравливай!",
+    "latin_okunusu": "Vyzdoravlivay!",
+    "translation": "Get well soon!",
+    "len": 14,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_074.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_075",
+    "word": "Поздравляю!",
+    "latin_okunusu": "Pozdravlyayu!",
+    "translation": "Congratulations!",
+    "len": 11,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_075.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_076",
+    "word": "Извините.",
+    "latin_okunusu": "Izvinite.",
+    "translation": "Excuse me.",
+    "len": 9,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_076.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_077",
+    "word": "Могу я спросить?",
+    "latin_okunusu": "Mogu ya sprosit'?",
+    "translation": "Can I ask?",
+    "len": 16,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_077.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_078",
+    "word": "Звучит неплохо.",
+    "latin_okunusu": "Zvuchit neplokho.",
+    "translation": "Sounds not bad.",
+    "len": 16,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_078.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_079",
+    "word": "Я не знаю.",
+    "latin_okunusu": "Ya ne znayu.",
+    "translation": "I don't know.",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_079.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_080",
+    "word": "Можешь объяснить?",
+    "latin_okunusu": "Mozhesh' ob\"yasnit'?",
+    "translation": "Can you explain?",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_080.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_081",
+    "word": "Это важно.",
+    "latin_okunusu": "Eto vazhno.",
+    "translation": "This is important.",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_081.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_082",
+    "word": "Простите?",
+    "latin_okunusu": "Prostite?",
+    "translation": "Pardon?",
+    "len": 9,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_082.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_083",
+    "word": "Не волнуйся.",
+    "latin_okunusu": "Ne volnuysya.",
+    "translation": "Don't worry.",
+    "len": 12,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_083.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_084",
+    "word": "Хорошо повеселиться!",
+    "latin_okunusu": "Khorosho poveselit'sya!",
+    "translation": "Have fun!",
+    "len": 20,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_084.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_085",
+    "word": "Я тебя жду.",
+    "latin_okunusu": "Ya tebya zhdu.",
+    "translation": "I am waiting for you.",
+    "len": 12,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_085.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_086",
+    "word": "Что случилось?",
+    "latin_okunusu": "Chto sluchilos'?",
+    "translation": "What happened?",
+    "len": 14,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_086.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_087",
+    "word": "Это весело.",
+    "latin_okunusu": "Eto veselo.",
+    "translation": "This is fun.",
+    "len": 11,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_087.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_088",
+    "word": "Я скучаю по тебе.",
+    "latin_okunusu": "Ya skuchayu po tebe.",
+    "translation": "I miss you.",
+    "len": 18,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_088.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_089",
+    "word": "Всего самого лучшего!",
+    "latin_okunusu": "Vsego samogo luchshego!",
+    "translation": "All the best!",
+    "len": 22,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_089.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_090",
+    "word": "Рад был тебя видеть.",
+    "latin_okunusu": "Rad byl tebya videt'.",
+    "translation": "Nice to see you.",
+    "len": 20,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_090.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_091",
+    "word": "Минуточку, пожалуйста.",
+    "latin_okunusu": "Minutochku, pozhaluysta.",
+    "translation": "One moment, please.",
+    "len": 22,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_091.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_092",
+    "word": "Заходи!",
+    "latin_okunusu": "Zakhodi!",
+    "translation": "Come in!",
+    "len": 7,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_092.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_093",
+    "word": "Присаживайся.",
+    "latin_okunusu": "Prisazhivaysya.",
+    "translation": "Sit down.",
+    "len": 12,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_093.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_094",
+    "word": "Хочешь что-нибудь выпить?",
+    "latin_okunusu": "Khochesh' chto-nibud' vypit'?",
+    "translation": "Do you want something to drink?",
+    "len": 25,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_094.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_095",
+    "word": "Мне всё равно.",
+    "latin_okunusu": "Mne vsyo ravno.",
+    "translation": "I don't care.",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_095.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_096",
+    "word": "Я готов.",
+    "latin_okunusu": "Ya gotov.",
+    "translation": "I am ready.",
+    "len": 8,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_096.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_097",
+    "word": "У тебя есть немного времени?",
+    "latin_okunusu": "U tebya yest' nemnogo vremeni?",
+    "translation": "Do you have a little time?",
+    "len": 27,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_097.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_098",
+    "word": "Это для меня ново.",
+    "latin_okunusu": "Eto dlya menya novo.",
+    "translation": "This is new to me.",
+    "len": 18,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_098.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_099",
+    "word": "Давай начнём.",
+    "latin_okunusu": "Davay nachnyom.",
+    "translation": "Let's start.",
+    "len": 13,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audio": {
+      "default": "/audio/sentences_ru/ru_biz_099.mp3"
+    }
+  },
+  {
+    "id": "ru_soc_100",
+    "word": "Увидимся в следующий раз.",
+    "latin_okunusu": "Uvidimsya v sleduyushchiy raz.",
+    "translation": "See you next time.",
+    "len": 24,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audio": {
+      "default": null
+    }
+  }
+]

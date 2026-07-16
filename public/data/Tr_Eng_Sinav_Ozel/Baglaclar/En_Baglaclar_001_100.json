@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "conn_001",
+    "word": "however",
+    "translation": "bununla birlikte/yine de",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_001_however.mp3"
+  },
+  {
+    "id": "conn_002",
+    "word": "furthermore",
+    "translation": "ayrıca/üstelik",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_002_furthermore.mp3"
+  },
+  {
+    "id": "conn_003",
+    "word": "consequently",
+    "translation": "sonuç olarak/bundan dolayı",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_003_consequently.mp3"
+  },
+  {
+    "id": "conn_004",
+    "word": "nevertheless",
+    "translation": "yine de/buna rağmen",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_004_nevertheless.mp3"
+  },
+  {
+    "id": "conn_005",
+    "word": "moreover",
+    "translation": "ayrıca/dahası",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_005_moreover.mp3"
+  },
+  {
+    "id": "conn_006",
+    "word": "therefore",
+    "translation": "bu nedenle/dolayısıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_006_therefore.mp3"
+  },
+  {
+    "id": "conn_007",
+    "word": "nonetheless",
+    "translation": "yine de/her şeye rağmen",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_007_nonetheless.mp3"
+  },
+  {
+    "id": "conn_008",
+    "word": "in addition",
+    "translation": "ek olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_008_in_addition.mp3"
+  },
+  {
+    "id": "conn_009",
+    "word": "similarly",
+    "translation": "benzer şekilde",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_009_similarly.mp3"
+  },
+  {
+    "id": "conn_010",
+    "word": "in contrast",
+    "translation": "aksine/diğer taraftan",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_010_in_contrast.mp3"
+  },
+  {
+    "id": "conn_011",
+    "word": "meanwhile",
+    "translation": "bu arada/aynı zamanda",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_011_meanwhile.mp3"
+  },
+  {
+    "id": "conn_012",
+    "word": "subsequently",
+    "translation": "sonradan/ardından",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_012_subsequently.mp3"
+  },
+  {
+    "id": "conn_013",
+    "word": "thus",
+    "translation": "böylece/bu yüzden",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_013_thus.mp3"
+  },
+  {
+    "id": "conn_014",
+    "word": "on the other hand",
+    "translation": "diğer yandan",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_014_on_the_other_hand.mp3"
+  },
+  {
+    "id": "conn_015",
+    "word": "alternatively",
+    "translation": "alternatif olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_015_alternatively.mp3"
+  },
+  {
+    "id": "conn_016",
+    "word": "indeed",
+    "translation": "gerçekten/aslında",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_016_indeed.mp3"
+  },
+  {
+    "id": "conn_017",
+    "word": "as a result",
+    "translation": "sonuç olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_017_as_a_result.mp3"
+  },
+  {
+    "id": "conn_018",
+    "word": "consequently",
+    "translation": "sonuç olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_018_consequently.mp3"
+  },
+  {
+    "id": "conn_019",
+    "word": "nevertheless",
+    "translation": "yine de",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_019_nevertheless.mp3"
+  },
+  {
+    "id": "conn_020",
+    "word": "nonetheless",
+    "translation": "yine de",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_020_nonetheless.mp3"
+  },
+  {
+    "id": "conn_021",
+    "word": "conversely",
+    "translation": "aksine",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_021_conversely.mp3"
+  },
+  {
+    "id": "conn_022",
+    "word": "instead",
+    "translation": "bunun yerine",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_022_instead.mp3"
+  },
+  {
+    "id": "conn_023",
+    "word": "otherwise",
+    "translation": "aksi takdirde",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_023_otherwise.mp3"
+  },
+  {
+    "id": "conn_024",
+    "word": "notwithstanding",
+    "translation": "e rağmen/yine de",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_024_notwithstanding.mp3"
+  },
+  {
+    "id": "conn_025",
+    "word": "likewise",
+    "translation": "aynı şekilde",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_025_likewise.mp3"
+  },
+  {
+    "id": "conn_026",
+    "word": "consequently",
+    "translation": "sonuç olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_026_consequently.mp3"
+  },
+  {
+    "id": "conn_027",
+    "word": "subsequently",
+    "translation": "ardından",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_027_subsequently.mp3"
+  },
+  {
+    "id": "conn_028",
+    "word": "nevertheless",
+    "translation": "yine de",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_028_nevertheless.mp3"
+  },
+  {
+    "id": "conn_029",
+    "word": "nonetheless",
+    "translation": "yine de",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_029_nonetheless.mp3"
+  },
+  {
+    "id": "conn_030",
+    "word": "consequently",
+    "translation": "sonuç olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_030_consequently.mp3"
+  },
+  {
+    "id": "conn_031",
+    "word": "despite",
+    "translation": "e rağmen",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_031_despite.mp3"
+  },
+  {
+    "id": "conn_032",
+    "word": "although",
+    "translation": "rağmen/olmasına rağmen",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_032_although.mp3"
+  },
+  {
+    "id": "conn_033",
+    "word": "whereas",
+    "translation": "oysa/iken",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_033_whereas.mp3"
+  },
+  {
+    "id": "conn_034",
+    "word": "provided that",
+    "translation": "şartıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_034_provided_that.mp3"
+  },
+  {
+    "id": "conn_035",
+    "word": "unless",
+    "translation": "olmadıkça/meğerki",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_035_unless.mp3"
+  },
+  {
+    "id": "conn_036",
+    "word": "provided",
+    "translation": "şartıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_036_provided.mp3"
+  },
+  {
+    "id": "conn_037",
+    "word": "as long as",
+    "translation": "dığı sürece",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_037_as_long_as.mp3"
+  },
+  {
+    "id": "conn_038",
+    "word": "in order to",
+    "translation": "amacıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_order_to.mp3"
+  },
+  {
+    "id": "conn_039",
+    "word": "so as to",
+    "translation": "amacıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_039_so_as_to.mp3"
+  },
+  {
+    "id": "conn_040",
+    "word": "due to",
+    "translation": "yüzünden/nedeniyle",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_due_to.mp3"
+  },
+  {
+    "id": "conn_041",
+    "word": "because of",
+    "translation": "yüzünden/nedeniyle",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_041_because_of.mp3"
+  },
+  {
+    "id": "conn_042",
+    "word": "owing to",
+    "translation": "yüzünden/nedeniyle",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_042_owing_to.mp3"
+  },
+  {
+    "id": "conn_043",
+    "word": "thanks to",
+    "translation": "sayesinde",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_043_thanks_to.mp3"
+  },
+  {
+    "id": "conn_044",
+    "word": "as",
+    "translation": "gibi/olarak/iken",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_044_as.mp3"
+  },
+  {
+    "id": "conn_045",
+    "word": "since",
+    "translation": "dan beri/çünkü",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_045_since.mp3"
+  },
+  {
+    "id": "conn_046",
+    "word": "inasmuch as",
+    "translation": "kadarıyla/çünkü",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_046_inasmuch_as.mp3"
+  },
+  {
+    "id": "conn_047",
+    "word": "insofar as",
+    "translation": "kadarıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_047_insofar_as.mp3"
+  },
+  {
+    "id": "conn_048",
+    "word": "provided",
+    "translation": "şartıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_048_provided.mp3"
+  },
+  {
+    "id": "conn_049",
+    "word": "supposing that",
+    "translation": "varsayalım ki",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_049_supposing_that.mp3"
+  },
+  {
+    "id": "conn_050",
+    "word": "whether or not",
+    "translation": "olsun veya olmasın",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_050_whether_or_not.mp3"
+  },
+  {
+    "id": "conn_051",
+    "word": "consequently",
+    "translation": "sonuç olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_051_consequently.mp3"
+  },
+  {
+    "id": "conn_052",
+    "word": "subsequently",
+    "translation": "ardından",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_052_subsequently.mp3"
+  },
+  {
+    "id": "conn_053",
+    "word": "notably",
+    "translation": "özellikle/dikkate değer",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_053_notably.mp3"
+  },
+  {
+    "id": "conn_054",
+    "word": "incidentally",
+    "translation": "bu arada/tesadüfen",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_054_incidentally.mp3"
+  },
+  {
+    "id": "conn_055",
+    "word": "otherwise",
+    "translation": "aksi takdirde",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_055_otherwise.mp3"
+  },
+  {
+    "id": "conn_056",
+    "word": "henceforth",
+    "translation": "bundan böyle",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_056_henceforth.mp3"
+  },
+  {
+    "id": "conn_057",
+    "word": "thereby",
+    "translation": "böylece/bu sayede",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_057_thereby.mp3"
+  },
+  {
+    "id": "conn_058",
+    "word": "given that",
+    "translation": "göz önüne alındığında",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_058_given_that.mp3"
+  },
+  {
+    "id": "conn_059",
+    "word": "in view of",
+    "translation": "ışığında/düşünüldüğünde",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_059_in_view_of.mp3"
+  },
+  {
+    "id": "conn_060",
+    "word": "seeing that",
+    "translation": "mademki/düşünüldüğünde",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_060_seeing_that.mp3"
+  },
+  {
+    "id": "conn_061",
+    "word": "in the event of",
+    "translation": "durumunda",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_the_event_of.mp3"
+  },
+  {
+    "id": "conn_062",
+    "word": "even if",
+    "translation": "olsa bile",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_062_even_if.mp3"
+  },
+  {
+    "id": "conn_063",
+    "word": "provided",
+    "translation": "şartıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_063_provided.mp3"
+  },
+  {
+    "id": "conn_064",
+    "word": "as long as",
+    "translation": "dığı sürece",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_064_as_long_as.mp3"
+  },
+  {
+    "id": "conn_065",
+    "word": "in spite of",
+    "translation": "e rağmen",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_065_in_spite_of.mp3"
+  },
+  {
+    "id": "conn_066",
+    "word": "nonetheless",
+    "translation": "yine de",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_066_nonetheless.mp3"
+  },
+  {
+    "id": "conn_067",
+    "word": "on the contrary",
+    "translation": "aksine",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_067_on_the_contrary.mp3"
+  },
+  {
+    "id": "conn_068",
+    "word": "in contrast to",
+    "translation": "in aksine",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_068_in_contrast_to.mp3"
+  },
+  {
+    "id": "conn_069",
+    "word": "while",
+    "translation": "iken/oysa",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_069_while.mp3"
+  },
+  {
+    "id": "conn_070",
+    "word": "whereas",
+    "translation": "oysa/iken",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_070_whereas.mp3"
+  },
+  {
+    "id": "conn_071",
+    "word": "although",
+    "translation": "rağmen",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_071_although.mp3"
+  },
+  {
+    "id": "conn_072",
+    "word": "even though",
+    "translation": "rağmen",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_072_even_though.mp3"
+  },
+  {
+    "id": "conn_073",
+    "word": "provided that",
+    "translation": "şartıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_073_provided_that.mp3"
+  },
+  {
+    "id": "conn_074",
+    "word": "as though",
+    "translation": "sanki",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_074_as_though.mp3"
+  },
+  {
+    "id": "conn_075",
+    "word": "as if",
+    "translation": "sanki",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_075_as_if.mp3"
+  },
+  {
+    "id": "conn_076",
+    "word": "lest",
+    "translation": "korkusuyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_076_lest.mp3"
+  },
+  {
+    "id": "conn_077",
+    "word": "provided",
+    "translation": "şartıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_077_provided.mp3"
+  },
+  {
+    "id": "conn_078",
+    "word": "given that",
+    "translation": "düşünüldüğünde",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_078_given_that.mp3"
+  },
+  {
+    "id": "conn_079",
+    "word": "consequently",
+    "translation": "sonuç olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_079_consequently.mp3"
+  },
+  {
+    "id": "conn_080",
+    "word": "insofar as",
+    "translation": "kadarıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_080_insofar_as.mp3"
+  },
+  {
+    "id": "conn_081",
+    "word": "nonetheless",
+    "translation": "yine de",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_081_nonetheless.mp3"
+  },
+  {
+    "id": "conn_082",
+    "word": "notwithstanding",
+    "translation": "e rağmen",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_082_notwithstanding.mp3"
+  },
+  {
+    "id": "conn_083",
+    "word": "insofar as",
+    "translation": "kadarıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_083_insofar_as.mp3"
+  },
+  {
+    "id": "conn_084",
+    "word": "as for",
+    "translation": "gelince",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_084_as_for.mp3"
+  },
+  {
+    "id": "conn_085",
+    "word": "as to",
+    "translation": "ile ilgili olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_085_as_to.mp3"
+  },
+  {
+    "id": "conn_086",
+    "word": "in terms of",
+    "translation": "açısından",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_086_in_terms_of.mp3"
+  },
+  {
+    "id": "conn_087",
+    "word": "with regard to",
+    "translation": "ile ilgili olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_087_with_regard_to.mp3"
+  },
+  {
+    "id": "conn_088",
+    "word": "in respect of",
+    "translation": "ile ilgili olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_088_in_respect_of.mp3"
+  },
+  {
+    "id": "conn_089",
+    "word": "by means of",
+    "translation": "aracılığıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_089_by_means_of.mp3"
+  },
+  {
+    "id": "conn_090",
+    "word": "in line with",
+    "translation": "ile uyumlu olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_090_in_line_with.mp3"
+  },
+  {
+    "id": "conn_091",
+    "word": "so as to",
+    "translation": "amacıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_091_so_as_to.mp3"
+  },
+  {
+    "id": "conn_092",
+    "word": "in view of",
+    "translation": "ışığında",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_092_in_view_of.mp3"
+  },
+  {
+    "id": "conn_093",
+    "word": "owing to",
+    "translation": "nedeniyle",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_093_owing_to.mp3"
+  },
+  {
+    "id": "conn_094",
+    "word": "as regards",
+    "translation": "ile ilgili olarak",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_094_as_regards.mp3"
+  },
+  {
+    "id": "conn_095",
+    "word": "in light of",
+    "translation": "ışığında",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_095_in_light_of.mp3"
+  },
+  {
+    "id": "conn_096",
+    "word": "so that",
+    "translation": "öyle ki/böylece",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_096_so_that.mp3"
+  },
+  {
+    "id": "conn_097",
+    "word": "lest",
+    "translation": "korkusuyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_097_lest.mp3"
+  },
+  {
+    "id": "conn_098",
+    "word": "as soon as",
+    "translation": "yapar yapmaz",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_098_as_soon_as.mp3"
+  },
+  {
+    "id": "conn_099",
+    "word": "even if",
+    "translation": "olsa bile",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_099_even_if.mp3"
+  },
+  {
+    "id": "conn_100",
+    "word": "provided that",
+    "translation": "şartıyla",
+    "pos": "conjunction",
+    "tags": [
+      "Academic",
+      "Connector"
+    ],
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_100_provided_that.mp3"
+  }
+]

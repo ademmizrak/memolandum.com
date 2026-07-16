@@ -1,0 +1,6002 @@
+[
+  {
+    "id": "de_sent_001",
+    "word": "Ich fühle mich besser.",
+    "translation": "Kendimi daha iyi hissediyorum.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "health"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_001.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_002",
+    "word": "Es ist besser als nichts.",
+    "translation": "Hiç yoktan iyidir.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_002.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_003",
+    "word": "Man muss sich anstrengen.",
+    "translation": "Çaba göstermek gerek.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_003.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_004",
+    "word": "Wir können es schaffen.",
+    "translation": "Bunu başarabiliriz.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_004.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_005",
+    "word": "Wo ist mein Auto?",
+    "translation": "Arabam nerede?",
+    "len": 17,
+    "tags": [
+      "daily",
+      "travel"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_005.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_006",
+    "word": "Ich bin müde.",
+    "translation": "Yorgunum.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_006.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_007",
+    "word": "Ich habe Hunger.",
+    "translation": "Acıktım.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_007.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_008",
+    "word": "Ich habe Durst.",
+    "translation": "Susamışım.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_008.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_009",
+    "word": "Das Wetter ist heute schön.",
+    "translation": "Bugün hava güzel.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_009.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_010",
+    "word": "Was ist das?",
+    "translation": "Bu nedir?",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_010.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_011",
+    "word": "Ich weiß es nicht.",
+    "translation": "Bilmiyorum.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_011.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_012",
+    "word": "Das ist großartig!",
+    "translation": "Bu harika!",
+    "len": 17,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_012.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_013",
+    "word": "Ich liebe Frankreich.",
+    "translation": "Fransa'yı seviyorum.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_013.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_014",
+    "word": "Wie spät ist es?",
+    "translation": "Saat kaç?",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_014.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_015",
+    "word": "Es ist Zeit zum Essen.",
+    "translation": "Yemek vakti.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_015.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_016",
+    "word": "Hier ist es heiß.",
+    "translation": "Burası sıcak.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_016.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_017",
+    "word": "Ich möchte schlafen.",
+    "translation": "Uyumak istiyorum.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_017.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_018",
+    "word": "Das ist eine gute Idee.",
+    "translation": "Bu iyi bir fikir.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_018.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_019",
+    "word": "Überhaupt nicht.",
+    "translation": "Hiç de değil.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_019.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_020",
+    "word": "Einverstanden.",
+    "translation": "Anlaştık.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_020.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_021",
+    "word": "Es regnet.",
+    "translation": "Yağmur yağıyor.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_021.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_022",
+    "word": "Ich habe meine Schlüssel vergessen.",
+    "translation": "Anahtarlarımı unuttum.",
+    "len": 33,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_022.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_023",
+    "word": "Kannst du die Tür öffnen?",
+    "translation": "Kapıyı açabilir misin?",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_023.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_024",
+    "word": "Das ist zu heiß.",
+    "translation": "Çok sıcak.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_024.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_025",
+    "word": "So ist es perfekt.",
+    "translation": "Böyle mükemmel.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_025.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_026",
+    "word": "Das ist ein schöner Tag.",
+    "translation": "Güzel bir gün.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_026.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_027",
+    "word": "Draußen ist es kalt.",
+    "translation": "Dışarısı soğuk.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_027.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_028",
+    "word": "Zieh einen Mantel an.",
+    "translation": "Mont giyin.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_028.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_029",
+    "word": "Ich bin spät dran.",
+    "translation": "Geciktim.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_029.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_030",
+    "word": "Beeil dich!",
+    "translation": "Acele et!",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_030.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_031",
+    "word": "Ich komme bald zurück.",
+    "translation": "Yakında döneceğim.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_031.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_032",
+    "word": "Ich kann nicht darauf verzichten.",
+    "translation": "Onsuz yapamam.",
+    "len": 29,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_032.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_033",
+    "word": "Ich lasse mir Zeit.",
+    "translation": "Acele etmeyeceğim.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_033.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_034",
+    "word": "Sei nicht albern.",
+    "translation": "Ahmaklık yapma.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_034.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_035",
+    "word": "Ich habe keine Ahnung.",
+    "translation": "Hiçbir fikrim yok.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_035.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_036",
+    "word": "Was ist los?",
+    "translation": "Neler oluyor?",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_036.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_037",
+    "word": "Nichts Besonderes.",
+    "translation": "Özel bir şey yok.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_037.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_038",
+    "word": "Ich muss nachdenken.",
+    "translation": "Düşünmem gerekiyor.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_038.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_039",
+    "word": "Welcher Wochentag ist heute?",
+    "translation": "Bugün günlerden ne?",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_039.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_040",
+    "word": "Heute ist Dienstag.",
+    "translation": "Bugün salı.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_040.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_041",
+    "word": "Vergiss deine Sachen nicht.",
+    "translation": "Eşyalarını unutma.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_041.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_042",
+    "word": "Ich glaube, es wird regnen.",
+    "translation": "Sanırım yağmur yağacak.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_042.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_043",
+    "word": "Nimm deinen Regenschirm mit.",
+    "translation": "Şemsiyeni al.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_043.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_044",
+    "word": "Alles ist unter Kontrolle.",
+    "translation": "Her şey kontrol altında.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_044.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_045",
+    "word": "Komm, wir gehen.",
+    "translation": "Hadi, gidiyoruz.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_045.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_046",
+    "word": "Ich will nach Hause.",
+    "translation": "Evime dönmek istiyorum.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_046.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_047",
+    "word": "Es ist Zeit aufzustehen.",
+    "translation": "Kalkma vakti.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_047.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_048",
+    "word": "Was für ein schöner Tag!",
+    "translation": "Ne güzel bir gün!",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_048.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_049",
+    "word": "Das ist alles, was ich will.",
+    "translation": "Tek istediğim bu.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_049.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_050",
+    "word": "Das ist alles.",
+    "translation": "Hepsi bu.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_050.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_051",
+    "word": "Ich bin bereit.",
+    "translation": "Hazırım.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_051.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_052",
+    "word": "Warte hier auf mich.",
+    "translation": "Beni burada bekle.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_052.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_053",
+    "word": "Das ist sehr wichtig.",
+    "translation": "Bu çok önemli.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_053.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_054",
+    "word": "Mach keinen Lärm.",
+    "translation": "Gürültü yapma.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_054.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_055",
+    "word": "Öffne das Fenster.",
+    "translation": "Pencereyi aç.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_055.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_056",
+    "word": "Schließ die Tür.",
+    "translation": "Kapıyı kapat.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_056.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_057",
+    "word": "Mach das Licht an.",
+    "translation": "Işığı aç.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_057.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_058",
+    "word": "Mach den Fernseher aus.",
+    "translation": "Televizyonu kapat.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_058.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_059",
+    "word": "Ich brauche Ruhe.",
+    "translation": "Sessizliğe ihtiyacım var.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_059.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_060",
+    "word": "Ich arbeite von zu Hause.",
+    "translation": "Evde çalışıyorum.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_060.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_061",
+    "word": "Wo ist mein Telefon?",
+    "translation": "Telefonum nerede?",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_061.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_062",
+    "word": "Es liegt auf dem Tisch.",
+    "translation": "Masanın üzerinde.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_062.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_063",
+    "word": "Ich habe Wissensdurst.",
+    "translation": "Öğrenmeye açım.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_063.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_064",
+    "word": "Der Kaffee ist fertig.",
+    "translation": "Kahve hazır.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_064.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_065",
+    "word": "Er ist sehr gut.",
+    "translation": "Çok güzel.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_065.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_066",
+    "word": "Möchtest du Zucker?",
+    "translation": "Şeker ister misin?",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_066.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_067",
+    "word": "Nein, danke.",
+    "translation": "Hayır, teşekkürler.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_067.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_068",
+    "word": "Das reicht.",
+    "translation": "Bu yeterli.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_068.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_069",
+    "word": "Ich habe viel Arbeit.",
+    "translation": "Çok işim var.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_069.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_070",
+    "word": "Ich muss mich beeilen.",
+    "translation": "Acele etmem gerek.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_070.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_071",
+    "word": "Bis später.",
+    "translation": "Sonra görüşürüz.",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_071.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_072",
+    "word": "Schönen Tag noch.",
+    "translation": "İyi günler.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_072.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_073",
+    "word": "Bis morgen früh.",
+    "translation": "Yarın sabah görüşürüz.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_073.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_074",
+    "word": "Träum was Schönes.",
+    "translation": "Tatlı rüyalar.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_074.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_075",
+    "word": "Gute Nacht, bis morgen.",
+    "translation": "İyi geceler, yarına.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_075.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_076",
+    "word": "Das ist ein schöner Tag.",
+    "translation": "Güzel bir gün.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_076.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_077",
+    "word": "Genießen wir es.",
+    "translation": "Tadını çıkaralım.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_077.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_078",
+    "word": "So ist das Leben.",
+    "translation": "Hayat bu.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_078.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_079",
+    "word": "Alles ist möglich.",
+    "translation": "Her şey mümkün.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_079.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_080",
+    "word": "Verliere nicht die Hoffnung.",
+    "translation": "Umudunu kaybetme.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_080.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_081",
+    "word": "Sei positiv.",
+    "translation": "Pozitif ol.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_081.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_082",
+    "word": "Alles wird gut.",
+    "translation": "Her şey iyi olacak.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_082.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_083",
+    "word": "Ich verlasse mich auf dich.",
+    "translation": "Sana güveniyorum.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_083.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_084",
+    "word": "Du bist mein Freund.",
+    "translation": "Sen benim arkadaşımsın.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_084.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_085",
+    "word": "Wir sind zusammen.",
+    "translation": "Birlikteyiz.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_085.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_086",
+    "word": "Das ist super.",
+    "translation": "Bu harika.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_086.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_087",
+    "word": "Das gefällt mir.",
+    "translation": "Hoşuma gidiyor.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_087.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_088",
+    "word": "Das ist ein guter Anfang.",
+    "translation": "İyi bir başlangıç.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_088.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_089",
+    "word": "Ich lerne weiter.",
+    "translation": "Öğrenmeye devam ediyorum.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_089.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_090",
+    "word": "Das ist meine Leidenschaft.",
+    "translation": "Bu benim tutkum.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_090.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_091",
+    "word": "Ich mag Herausforderungen.",
+    "translation": "Zorlukları aşmayı severim.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_091.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_092",
+    "word": "Ich gebe niemals auf.",
+    "translation": "Asla geri adım atmam.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_092.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_093",
+    "word": "Das ist ein wichtiger Schritt.",
+    "translation": "Önemli bir aşama.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_093.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_094",
+    "word": "Ich bin stolz auf dieses Projekt.",
+    "translation": "Bu projeyle gurur duyuyorum.",
+    "len": 31,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_094.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_095",
+    "word": "Das ist Teamarbeit.",
+    "translation": "Bu bir ekip çalışması.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_095.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_096",
+    "word": "Danke an euch alle.",
+    "translation": "Hepinize teşekkürler.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_096.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_097",
+    "word": "Machen wir weiter so.",
+    "translation": "Böyle devam.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_097.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_098",
+    "word": "Los geht's!",
+    "translation": "Başlayalım!",
+    "len": 11,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_098.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_099",
+    "word": "Das Zimmer ist sauber.",
+    "translation": "Oda temiz.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_099.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "de_sent_100",
+    "word": "Ich koche gerne.",
+    "translation": "Yemek yapmayı severim.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_100.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_001",
+    "word": "Guten Tag, wie kann ich Ihnen helfen?",
+    "translation": "İyi günler, size nasıl yardımcı olabilirim?",
+    "len": 37,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_001.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_002",
+    "word": "Ich möchte einen Termin vereinbaren.",
+    "translation": "Bir randevu oluşturmak istiyorum.",
+    "len": 36,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_002.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_003",
+    "word": "Passt es Ihnen am Montag?",
+    "translation": "Pazartesi günü size uyar mı?",
+    "len": 24,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_003.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_004",
+    "word": "Wir müssen das Meeting verschieben.",
+    "translation": "Toplantıyı ertelememiz gerekiyor.",
+    "len": 34,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_004.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_005",
+    "word": "Können Sie mich mit Herrn Müller verbinden?",
+    "translation": "Beni Bay Müller'e bağlayabilir misiniz?",
+    "len": 40,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_005.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_006",
+    "word": "Ich rufe wegen des Projekts an.",
+    "translation": "Proje hakkında arıyorum.",
+    "len": 29,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_006.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_007",
+    "word": "Vielen Dank für Ihre E-Mail.",
+    "translation": "E-postanız için teşekkür ederim.",
+    "len": 28,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_007.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_008",
+    "word": "Anbei sende ich Ihnen die Unterlagen.",
+    "translation": "Ekte belgeleri gönderiyorum.",
+    "len": 36,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_008.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_009",
+    "word": "Könnten Sie das bitte bestätigen?",
+    "translation": "Bunu lütfen onaylayabilir misiniz?",
+    "len": 31,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_009.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_010",
+    "word": "Ich melde mich in Kürze bei Ihnen.",
+    "translation": "Size kısa süre içinde dönüş yapacağım.",
+    "len": 35,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_010.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_011",
+    "word": "Was ist der aktuelle Status?",
+    "translation": "Güncel durum nedir?",
+    "len": 27,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_011.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_012",
+    "word": "Wir müssen die Deadline einhalten.",
+    "translation": "Teslim tarihine uymalıyız.",
+    "len": 31,
+    "tags": [
+      "business",
+      "deadline"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_012.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_013",
+    "word": "Haben Sie einen Vorschlag?",
+    "translation": "Bir öneriniz var mı?",
+    "len": 24,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_013.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_014",
+    "word": "Ich stimme Ihnen vollkommen zu.",
+    "translation": "Size tamamen katılıyorum.",
+    "len": 29,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_014.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_015",
+    "word": "Das ist ein guter Ansatz.",
+    "translation": "Bu iyi bir yaklaşım.",
+    "len": 24,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_015.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_016",
+    "word": "Wir haben ein Problem mit dem System.",
+    "translation": "Sistemde bir sorunumuz var.",
+    "len": 36,
+    "tags": [
+      "business",
+      "issue"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_016.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_017",
+    "word": "Können wir kurz telefonieren?",
+    "translation": "Kısaca telefonla görüşebilir miyiz?",
+    "len": 28,
+    "tags": [
+      "business",
+      "call"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_017.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_018",
+    "word": "Das Budget ist begrenzt.",
+    "translation": "Bütçe sınırlı.",
+    "len": 22,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_018.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_019",
+    "word": "Wir suchen nach einer Lösung.",
+    "translation": "Bir çözüm arıyoruz.",
+    "len": 28,
+    "tags": [
+      "business",
+      "problem-solving"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_019.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_020",
+    "word": "Bitte senden Sie mir das Angebot.",
+    "translation": "Lütfen teklifi bana gönderin.",
+    "len": 31,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_020.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_021",
+    "word": "Der Vertrag ist unterschrieben.",
+    "translation": "Sözleşme imzalandı.",
+    "len": 28,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_021.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_022",
+    "word": "Was sind die nächsten Schritte?",
+    "translation": "Sıradaki adımlar neler?",
+    "len": 29,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_022.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_023",
+    "word": "Ich arbeite an der Präsentation.",
+    "translation": "Sunum üzerinde çalışıyorum.",
+    "len": 30,
+    "tags": [
+      "business",
+      "task"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_023.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_024",
+    "word": "Können wir den Termin verschieben?",
+    "translation": "Randevuyu erteleyebilir miyiz?",
+    "len": 31,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_024.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_025",
+    "word": "Ich bin heute den ganzen Tag im Termin.",
+    "translation": "Bugün tüm gün toplantıdayım.",
+    "len": 40,
+    "tags": [
+      "business",
+      "schedule"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_025.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_026",
+    "word": "Haben Sie meine Nachricht erhalten?",
+    "translation": "Mesajımı aldınız mı?",
+    "len": 33,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_026.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_027",
+    "word": "Ich bin im Urlaub bis Freitag.",
+    "translation": "Cumaya kadar izindeyim.",
+    "len": 29,
+    "tags": [
+      "business",
+      "out-of-office"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_027.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_028",
+    "word": "Bitte entschuldigen Sie die Verspätung.",
+    "translation": "Gecikme için lütfen özür dilerim.",
+    "len": 39,
+    "tags": [
+      "business",
+      "apology"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_028.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_029",
+    "word": "Wir müssen die Kosten reduzieren.",
+    "translation": "Maliyetleri azaltmalıyız.",
+    "len": 30,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_029.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_030",
+    "word": "Wer ist für das Projekt zuständig?",
+    "translation": "Projenin sorumlusu kim?",
+    "len": 34,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_030.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_031",
+    "word": "Ich melde mich bei Ihnen zurück.",
+    "translation": "Size geri dönüş yapacağım.",
+    "len": 29,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_031.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_032",
+    "word": "Wie lautet die Rechnungsnummer?",
+    "translation": "Fatura numarası nedir?",
+    "len": 29,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_032.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_033",
+    "word": "Wir brauchen mehr Informationen.",
+    "translation": "Daha fazla bilgiye ihtiyacımız var.",
+    "len": 31,
+    "tags": [
+      "business",
+      "request"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_033.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_034",
+    "word": "Das ist nicht möglich.",
+    "translation": "Bu mümkün değil.",
+    "len": 21,
+    "tags": [
+      "business",
+      "refusal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_034.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_035",
+    "word": "Gerne helfe ich Ihnen dabei.",
+    "translation": "Bu konuda size memnuniyetle yardımcı olurum.",
+    "len": 27,
+    "tags": [
+      "business",
+      "help"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_035.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_036",
+    "word": "Wir schätzen Ihre Zusammenarbeit.",
+    "translation": "İş birliğinize değer veriyoruz.",
+    "len": 31,
+    "tags": [
+      "business",
+      "relationship"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_036.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_037",
+    "word": "Können wir das Meeting starten?",
+    "translation": "Toplantıyı başlatabilir miyiz?",
+    "len": 28,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_037.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_038",
+    "word": "Haben Sie Unterlagen für mich?",
+    "translation": "Benim için belgeleriniz var mı?",
+    "len": 30,
+    "tags": [
+      "business",
+      "request"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_038.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_039",
+    "word": "Ich schicke Ihnen eine Einladung.",
+    "translation": "Size bir davetiye gönderiyorum.",
+    "len": 31,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_039.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_040",
+    "word": "Wie sieht Ihr Zeitplan aus?",
+    "translation": "Zaman çizelgeniz nasıl görünüyor?",
+    "len": 27,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_040.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_041",
+    "word": "Wir haben das Ziel erreicht.",
+    "translation": "Hedefe ulaştık.",
+    "len": 25,
+    "tags": [
+      "business",
+      "success"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_041.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_042",
+    "word": "Das ist sehr dringend.",
+    "translation": "Bu çok acil.",
+    "len": 21,
+    "tags": [
+      "business",
+      "urgency"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_042.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_043",
+    "word": "Können wir uns am Freitag treffen?",
+    "translation": "Cuma günü buluşabilir miyiz?",
+    "len": 30,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_043.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_044",
+    "word": "Ich verstehe Ihre Bedenken.",
+    "translation": "Endişelerinizi anlıyorum.",
+    "len": 24,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_044.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_045",
+    "word": "Wir müssen priorisieren.",
+    "translation": "Öncelik vermeliyiz.",
+    "len": 23,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_045.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_046",
+    "word": "Haben Sie Zeit für ein kurzes Gespräch?",
+    "translation": "Kısa bir görüşme için vaktiniz var mı?",
+    "len": 37,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_046.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_047",
+    "word": "Ich sende Ihnen den Entwurf zu.",
+    "translation": "Size taslağı gönderiyorum.",
+    "len": 29,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_047.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_048",
+    "word": "Gibt es offene Fragen?",
+    "translation": "Cevaplanmamış soru var mı?",
+    "len": 22,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_048.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_049",
+    "word": "Wir müssen effizienter arbeiten.",
+    "translation": "Daha verimli çalışmalıyız.",
+    "len": 29,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_049.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_050",
+    "word": "Wie ist der Fortschritt?",
+    "translation": "İlerleme nasıl?",
+    "len": 21,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_050.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_051",
+    "word": "Ich schlage vor, wir treffen uns.",
+    "translation": "Görüşmemizi öneriyorum.",
+    "len": 31,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_051.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_052",
+    "word": "Das Projekt wurde genehmigt.",
+    "translation": "Proje onaylandı.",
+    "len": 27,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_052.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_053",
+    "word": "Bitte halten Sie mich auf dem Laufenden.",
+    "translation": "Lütfen beni gelişmelerden haberdar edin.",
+    "len": 40,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_053.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_054",
+    "word": "Haben Sie Zugriff auf die Datei?",
+    "translation": "Dosyaya erişiminiz var mı?",
+    "len": 30,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_054.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_055",
+    "word": "Das ist unsere Firmenpolitik.",
+    "translation": "Bu şirket politikamızdır.",
+    "len": 27,
+    "tags": [
+      "business",
+      "policy"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_055.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_056",
+    "word": "Wir suchen neue Mitarbeiter.",
+    "translation": "Yeni çalışanlar arıyoruz.",
+    "len": 26,
+    "tags": [
+      "business",
+      "HR"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_056.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_057",
+    "word": "Was ist das Ziel dieses Meetings?",
+    "translation": "Bu toplantının amacı nedir?",
+    "len": 31,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_057.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_058",
+    "word": "Ich sende Ihnen die Tagesordnung.",
+    "translation": "Size gündemi gönderiyorum.",
+    "len": 29,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_058.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_059",
+    "word": "Wir haben technische Probleme.",
+    "translation": "Teknik sorunlarımız var.",
+    "len": 27,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_059.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_060",
+    "word": "Ich kann das nicht beurteilen.",
+    "translation": "Bunu değerlendiremem.",
+    "len": 26,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_060.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_061",
+    "word": "Können wir das Thema vertagen?",
+    "translation": "Konuyu erteleyebilir miyiz?",
+    "len": 28,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_061.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_062",
+    "word": "Wir brauchen ein Protokoll.",
+    "translation": "Bir tutanağa ihtiyacımız var.",
+    "len": 26,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_062.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_063",
+    "word": "Das hat Priorität.",
+    "translation": "Bunun önceliği var.",
+    "len": 18,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_063.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_064",
+    "word": "Sind Sie damit einverstanden?",
+    "translation": "Buna katılıyor musunuz?",
+    "len": 27,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_064.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_065",
+    "word": "Ich habe eine Rückfrage dazu.",
+    "translation": "Bununla ilgili bir sorum var.",
+    "len": 27,
+    "tags": [
+      "business",
+      "discussion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_065.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_066",
+    "word": "Das ist eine gute Gelegenheit.",
+    "translation": "Bu iyi bir fırsat.",
+    "len": 27,
+    "tags": [
+      "business",
+      "opportunity"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_066.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_067",
+    "word": "Wir sollten uns abstimmen.",
+    "translation": "Koordine olmalıyız.",
+    "len": 25,
+    "tags": [
+      "business",
+      "collaboration"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_067.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_068",
+    "word": "Vielen Dank für Ihre Geduld.",
+    "translation": "Sabrınız için teşekkürler.",
+    "len": 27,
+    "tags": [
+      "business",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_068.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_069",
+    "word": "Ich habe den Bericht angehängt.",
+    "translation": "Raporu ekledim.",
+    "len": 28,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_069.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_070",
+    "word": "Wir haben den Vertrag geprüft.",
+    "translation": "Sözleşmeyi inceledik.",
+    "len": 28,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_070.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_071",
+    "word": "Das Ergebnis ist positiv.",
+    "translation": "Sonuç olumlu.",
+    "len": 23,
+    "tags": [
+      "business",
+      "status"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_071.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_072",
+    "word": "Wie sind die Konditionen?",
+    "translation": "Koşullar nelerdir?",
+    "len": 23,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_072.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_073",
+    "word": "Wir müssen die Qualität sichern.",
+    "translation": "Kaliteyi güvence altına almalıyız.",
+    "len": 31,
+    "tags": [
+      "business",
+      "quality"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_073.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_074",
+    "word": "Ich unterstütze diesen Vorschlag.",
+    "translation": "Bu öneriyi destekliyorum.",
+    "len": 30,
+    "tags": [
+      "business",
+      "agreement"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_074.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_075",
+    "word": "Gibt es einen Plan B?",
+    "translation": "B planı var mı?",
+    "len": 19,
+    "tags": [
+      "business",
+      "planning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_075.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_076",
+    "word": "Ich habe die E-Mail weitergeleitet.",
+    "translation": "E-postayı ilettim.",
+    "len": 32,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_076.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_077",
+    "word": "Wir benötigen Ihre Unterschrift.",
+    "translation": "İmzanıza ihtiyacımız var.",
+    "len": 28,
+    "tags": [
+      "business",
+      "legal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_077.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_078",
+    "word": "Das Team leistet gute Arbeit.",
+    "translation": "Ekip iyi iş çıkarıyor.",
+    "len": 27,
+    "tags": [
+      "business",
+      "team"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_078.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_079",
+    "word": "Wir müssen die Ressourcen planen.",
+    "translation": "Kaynakları planlamalıyız.",
+    "len": 30,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_079.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_080",
+    "word": "Ich bin mit dem Ergebnis zufrieden.",
+    "translation": "Sonuçtan memnunum.",
+    "len": 32,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_080.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_081",
+    "word": "Bitte rufen Sie mich zurück.",
+    "translation": "Lütfen beni geri arayın.",
+    "len": 27,
+    "tags": [
+      "business",
+      "phone"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_081.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_082",
+    "word": "Das Meeting dauert eine Stunde.",
+    "translation": "Toplantı bir saat sürüyor.",
+    "len": 30,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_082.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_083",
+    "word": "Wir müssen die Daten analysieren.",
+    "translation": "Verileri analiz etmeliyiz.",
+    "len": 30,
+    "tags": [
+      "business",
+      "analysis"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_083.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_084",
+    "word": "Ich habe keine Zeit dafür.",
+    "translation": "Bunun için vaktim yok.",
+    "len": 24,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_084.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_085",
+    "word": "Können wir den Termin bestätigen?",
+    "translation": "Randevuyu onaylayabilir miyiz?",
+    "len": 30,
+    "tags": [
+      "business",
+      "scheduling"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_085.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_086",
+    "word": "Das ist eine wichtige Entscheidung.",
+    "translation": "Bu önemli bir karar.",
+    "len": 31,
+    "tags": [
+      "business",
+      "management"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_086.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_087",
+    "word": "Ich schicke Ihnen die Unterlagen per Post.",
+    "translation": "Belgeleri posta yoluyla gönderiyorum.",
+    "len": 40,
+    "tags": [
+      "business",
+      "email"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_087.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_088",
+    "word": "Wir haben das Budget überschritten.",
+    "translation": "Bütçeyi aştık.",
+    "len": 30,
+    "tags": [
+      "business",
+      "finance"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_088.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_089",
+    "word": "Das ist in unserem Interesse.",
+    "translation": "Bu bizim çıkarımıza.",
+    "len": 27,
+    "tags": [
+      "business",
+      "strategy"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_089.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_090",
+    "word": "Können Sie die Datei öffnen?",
+    "translation": "Dosyayı açabiliyor musunuz?",
+    "len": 26,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_090.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_091",
+    "word": "Wir müssen den Fehler beheben.",
+    "translation": "Hatayı düzeltmeliyiz.",
+    "len": 28,
+    "tags": [
+      "business",
+      "issue"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_091.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_092",
+    "word": "Das Angebot ist gültig bis morgen.",
+    "translation": "Teklif yarına kadar geçerlidir.",
+    "len": 33,
+    "tags": [
+      "business",
+      "sales"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_092.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_093",
+    "word": "Ich bin für Ihre Hilfe dankbar.",
+    "translation": "Yardımınız için minnettarım.",
+    "len": 28,
+    "tags": [
+      "business",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_093.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_094",
+    "word": "Wir suchen nach Effizienz.",
+    "translation": "Verimlilik arıyoruz.",
+    "len": 24,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_094.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_095",
+    "word": "Haben Sie ein Feedback dazu?",
+    "translation": "Bu konuda geri bildiriminiz var mı?",
+    "len": 28,
+    "tags": [
+      "business",
+      "feedback"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_095.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_096",
+    "word": "Das Meeting findet online statt.",
+    "translation": "Toplantı çevrimiçi gerçekleşiyor.",
+    "len": 32,
+    "tags": [
+      "business",
+      "meeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_096.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_097",
+    "word": "Ich sende Ihnen den Link.",
+    "translation": "Size bağlantıyı gönderiyorum.",
+    "len": 25,
+    "tags": [
+      "business",
+      "IT"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_097.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_098",
+    "word": "Wir müssen uns konzentrieren.",
+    "translation": "Odaklanmalıyız.",
+    "len": 26,
+    "tags": [
+      "business",
+      "productivity"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_098.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_099",
+    "word": "Können wir die Strategie ändern?",
+    "translation": "Stratejiyi değiştirebilir miyiz?",
+    "len": 29,
+    "tags": [
+      "business",
+      "strategy"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_099.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "biz_prof_100",
+    "word": "Vielen Dank für das Gespräch.",
+    "translation": "Görüşme için çok teşekkürler.",
+    "len": 28,
+    "tags": [
+      "business",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_100.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_001",
+    "word": "Ich lerne jeden Tag etwas Neues.",
+    "translation": "Her gün yeni bir şey öğreniyorum.",
+    "len": 32,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_001.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_002",
+    "word": "Übung macht den Meister.",
+    "translation": "Pratik yapmak ustalaştırır.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_002.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_003",
+    "word": "Ich möchte mich weiterentwickeln.",
+    "translation": "Kendimi geliştirmek istiyorum.",
+    "len": 31,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_003.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_004",
+    "word": "Fehler sind Gelegenheiten zu lernen.",
+    "translation": "Hatalar öğrenme fırsatlarıdır.",
+    "len": 34,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_004.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_005",
+    "word": "Ich habe einen Plan für den Erfolg.",
+    "translation": "Başarı için bir planım var.",
+    "len": 34,
+    "tags": [
+      "mindset",
+      "planning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_005.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_006",
+    "word": "Was ist mein Ziel für heute?",
+    "translation": "Bugünkü hedefim nedir?",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_006.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_007",
+    "word": "Ich glaube an meine Fähigkeiten.",
+    "translation": "Yeteneklerime inanıyorum.",
+    "len": 29,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_007.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_008",
+    "word": "Geduld ist der Schlüssel zum Erfolg.",
+    "translation": "Sabır, başarının anahtarıdır.",
+    "len": 34,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_008.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_009",
+    "word": "Ich bleibe immer neugierig.",
+    "translation": "Her zaman meraklı kalıyorum.",
+    "len": 26,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_009.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_010",
+    "word": "Wie kann ich das besser machen?",
+    "translation": "Bunu nasıl daha iyi yapabilirim?",
+    "len": 29,
+    "tags": [
+      "growth",
+      "learning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_010.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_011",
+    "word": "Ich konzentriere mich auf das Wichtige.",
+    "translation": "Önemli olanlara odaklanıyorum.",
+    "len": 37,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_011.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_012",
+    "word": "Jeder Schritt zählt.",
+    "translation": "Her adım önemlidir.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_012.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_013",
+    "word": "Ich übernehme die Verantwortung.",
+    "translation": "Sorumluluğu üstleniyorum.",
+    "len": 29,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_013.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_014",
+    "word": "Disziplin führt zum Ziel.",
+    "translation": "Disiplin hedefe götürür.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_014.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_015",
+    "word": "Ich bin offen für neue Ideen.",
+    "translation": "Yeni fikirlere açığım.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_015.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_016",
+    "word": "Man lernt nie aus.",
+    "translation": "İnsan öğrenmeyi asla bırakmaz.",
+    "len": 18,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_016.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_017",
+    "word": "Ich suche nach Lösungen.",
+    "translation": "Çözümler arıyorum.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_017.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_018",
+    "word": "Das ist eine Herausforderung für mich.",
+    "translation": "Bu benim için bir zorluk/sınav.",
+    "len": 35,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_018.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_019",
+    "word": "Ich reflektiere meine Fortschritte.",
+    "translation": "İlerlemelerimi değerlendiriyorum.",
+    "len": 32,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_019.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_020",
+    "word": "Stetiger Fortschritt ist wichtig.",
+    "translation": "İstikrarlı ilerleme önemlidir.",
+    "len": 30,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_020.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_021",
+    "word": "Ich bleibe motiviert.",
+    "translation": "Motivasyonumu koruyorum.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_021.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_022",
+    "word": "Ich höre aktiv zu.",
+    "translation": "Aktif olarak dinliyorum.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_022.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_023",
+    "word": "Wissen ist Macht.",
+    "translation": "Bilgi güçtür.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_023.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_024",
+    "word": "Ich vergleiche mich nur mit mir selbst.",
+    "translation": "Kendimi sadece kendimle kıyaslıyorum.",
+    "len": 39,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_024.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_025",
+    "word": "Ich organisiere meine Zeit gut.",
+    "translation": "Zamanımı iyi organize ediyorum.",
+    "len": 30,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_025.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_026",
+    "word": "Ich bleibe positiv.",
+    "translation": "Pozitif kalıyorum.",
+    "len": 17,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_026.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_027",
+    "word": "Fragen zu stellen hilft beim Lernen.",
+    "translation": "Soru sormak öğrenmeye yardımcı olur.",
+    "len": 34,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_027.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_028",
+    "word": "Ich setze mir klare Ziele.",
+    "translation": "Net hedefler belirliyorum.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_028.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_029",
+    "word": "Ich lerne aus meinen Erfolgen.",
+    "translation": "Başarılarımdan öğreniyorum.",
+    "len": 28,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_029.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_030",
+    "word": "Ich schätze meine Zeit.",
+    "translation": "Zamanıma değer veriyorum.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_030.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_031",
+    "word": "Kritik hilft mir zu wachsen.",
+    "translation": "Eleştiri büyümeme yardımcı olur.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_031.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_032",
+    "word": "Ich bin bereit, Neues zu wagen.",
+    "translation": "Yeni şeyler denemeye hazırım.",
+    "len": 30,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_032.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_033",
+    "word": "Ich bleibe am Ball.",
+    "translation": "Pes etmiyorum / işin peşindeyim.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_033.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_034",
+    "word": "Ich analysiere meine Fehler.",
+    "translation": "Hatalarımı analiz ediyorum.",
+    "len": 27,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_034.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_035",
+    "word": "Ich arbeite strukturiert.",
+    "translation": "Yapılandırılmış çalışıyorum.",
+    "len": 25,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_035.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_036",
+    "word": "Ich erweitere meinen Horizont.",
+    "translation": "Ufkumu genişletiyorum.",
+    "len": 28,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_036.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_037",
+    "word": "Ich bin geduldig mit mir selbst.",
+    "translation": "Kendime karşı sabırlıyım.",
+    "len": 31,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_037.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_038",
+    "word": "Ich feiere meine kleinen Erfolge.",
+    "translation": "Küçük başarılarımı kutluyorum.",
+    "len": 30,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_038.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_039",
+    "word": "Ich vertraue dem Prozess.",
+    "translation": "Sürece güveniyorum.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_039.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_040",
+    "word": "Ich bin stolz auf meinen Weg.",
+    "translation": "Yolculuğumla gurur duyuyorum.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_040.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_041",
+    "word": "Ich suche nach Wissen.",
+    "translation": "Bilgi arıyorum.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_041.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_042",
+    "word": "Ich bin bereit zu lernen.",
+    "translation": "Öğrenmeye hazırım.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_042.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_043",
+    "word": "Ich hinterfrage Dinge.",
+    "translation": "Bazı şeyleri sorguluyorum.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_043.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_044",
+    "word": "Ich wachse durch Herausforderungen.",
+    "translation": "Zorluklarla büyüyorum.",
+    "len": 30,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_044.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_045",
+    "word": "Ich habe ein klares Mindset.",
+    "translation": "Net bir zihniyetim var.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_045.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_046",
+    "word": "Ich bleibe bei der Sache.",
+    "translation": "İşime odaklanıyorum.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_046.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_047",
+    "word": "Ich lerne von den Besten.",
+    "translation": "En iyilerden öğreniyorum.",
+    "len": 25,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_047.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_048",
+    "word": "Ich bin ein lebenslanger Lerner.",
+    "translation": "Hayat boyu öğrenen biriyim.",
+    "len": 30,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_048.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_049",
+    "word": "Ich bleibe ruhig in schwierigen Zeiten.",
+    "translation": "Zor zamanlarda sakin kalıyorum.",
+    "len": 37,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_049.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_050",
+    "word": "Ich setze Prioritäten.",
+    "translation": "Önceliklerimi belirliyorum.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_050.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_051",
+    "word": "Ich vertiefe mein Wissen.",
+    "translation": "Bilgimi derinleştiriyorum.",
+    "len": 24,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_051.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_052",
+    "word": "Ich bin dankbar für Erfahrungen.",
+    "translation": "Deneyimler için minnettarım.",
+    "len": 29,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_052.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_053",
+    "word": "Ich suche die Wahrheit.",
+    "translation": "Gerçeği arıyorum.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "learning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_053.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_054",
+    "word": "Ich bin mein eigener Motivator.",
+    "translation": "Kendi motivasyon kaynağım benim.",
+    "len": 30,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_054.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_055",
+    "word": "Ich akzeptiere Veränderungen.",
+    "translation": "Değişimleri kabul ediyorum.",
+    "len": 25,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_055.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_056",
+    "word": "Ich bilde mich kontinuierlich weiter.",
+    "translation": "Sürekli kendimi eğitiyorum.",
+    "len": 34,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_056.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_057",
+    "word": "Ich reflektiere mein Verhalten.",
+    "translation": "Davranışlarımı değerlendiriyorum.",
+    "len": 28,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_057.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_058",
+    "word": "Ich schätze die Vielfalt.",
+    "translation": "Çeşitliliğe değer veriyorum.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_058.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_059",
+    "word": "Ich bin fokussiert.",
+    "translation": "Odaklanmış durumdayım.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_059.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_060",
+    "word": "Ich entwickle mich jeden Tag.",
+    "translation": "Her gün gelişiyorum.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_060.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_061",
+    "word": "Ich plane meine nächsten Schritte.",
+    "translation": "Sıradaki adımlarımı planlıyorum.",
+    "len": 30,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_061.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_062",
+    "word": "Ich bin mutig.",
+    "translation": "Cesurum.",
+    "len": 12,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_062.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_063",
+    "word": "Ich lerne durch Praxis.",
+    "translation": "Uygulayarak öğreniyorum.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_063.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_064",
+    "word": "Ich bleibe flexibel.",
+    "translation": "Esnek kalıyorum.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_064.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_065",
+    "word": "Ich habe ein klares Ziel.",
+    "translation": "Net bir hedefim var.",
+    "len": 21,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_065.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_066",
+    "word": "Ich bin für Feedback offen.",
+    "translation": "Geri bildirime açığım.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_066.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_067",
+    "word": "Ich verliere das Ziel nicht aus den Augen.",
+    "translation": "Hedefi göz ardı etmiyorum.",
+    "len": 39,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_067.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_068",
+    "word": "Ich bin neugierig auf die Zukunft.",
+    "translation": "Geleceği merak ediyorum.",
+    "len": 29,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_068.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_069",
+    "word": "Ich entwickle neue Fähigkeiten.",
+    "translation": "Yeni yetenekler geliştiriyorum.",
+    "len": 29,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_069.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_070",
+    "word": "Ich bin ausdauernd.",
+    "translation": "Azimliyim/Dayanıklıyım.",
+    "len": 17,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_070.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_071",
+    "word": "Ich erkenne mein Potential.",
+    "translation": "Potansiyelimi fark ediyorum.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_071.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_072",
+    "word": "Ich lerne von meinen Mitmenschen.",
+    "translation": "Çevremdekilerden öğreniyorum.",
+    "len": 29,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_072.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_073",
+    "word": "Ich nutze jede Gelegenheit.",
+    "translation": "Her fırsatı değerlendiriyorum.",
+    "len": 26,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_073.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_074",
+    "word": "Ich reflektiere über das Gelernte.",
+    "translation": "Öğrenilenler üzerine düşünüyorum.",
+    "len": 30,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_074.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_075",
+    "word": "Ich mache kleine Schritte.",
+    "translation": "Küçük adımlar atıyorum.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_075.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_076",
+    "word": "Ich bin diszipliniert.",
+    "translation": "Disiplinliyim.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_076.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_077",
+    "word": "Ich entdecke neue Wege.",
+    "translation": "Yeni yollar keşfediyorum.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_077.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_078",
+    "word": "Ich vertraue auf meinen Erfolg.",
+    "translation": "Başaracağıma inanıyorum.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_078.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_079",
+    "word": "Ich bin kreativ bei Lösungen.",
+    "translation": "Çözümlerde yaratıcıyım.",
+    "len": 25,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_079.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_080",
+    "word": "Ich lerne ständig dazu.",
+    "translation": "Sürekli yeni şeyler öğreniyorum.",
+    "len": 23,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_080.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_081",
+    "word": "Ich bin offen für Veränderungen.",
+    "translation": "Değişikliklere açığım.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_081.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_082",
+    "word": "Ich gehe Herausforderungen an.",
+    "translation": "Zorlukların üzerine gidiyorum.",
+    "len": 29,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_082.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_083",
+    "word": "Ich schätze den Prozess.",
+    "translation": "Sürece değer veriyorum.",
+    "len": 20,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_083.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_084",
+    "word": "Ich bin zielorientiert.",
+    "translation": "Hedef odaklıyım.",
+    "len": 18,
+    "tags": [
+      "mindset",
+      "goal"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_084.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_085",
+    "word": "Ich lerne durch Fehler.",
+    "translation": "Hatalarımdan öğreniyorum.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_085.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_086",
+    "word": "Ich baue meine Zukunft auf.",
+    "translation": "Geleceğimi inşa ediyorum.",
+    "len": 25,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_086.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_087",
+    "word": "Ich bin bereit für Neues.",
+    "translation": "Yeniye hazırım.",
+    "len": 20,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_087.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_088",
+    "word": "Ich setze meine Stärken ein.",
+    "translation": "Güçlü yönlerimi kullanıyorum.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_088.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_089",
+    "word": "Ich lerne den ganzen Tag.",
+    "translation": "Tüm gün öğreniyorum.",
+    "len": 22,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_089.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_090",
+    "word": "Ich bleibe standhaft.",
+    "translation": "Kararlı kalıyorum.",
+    "len": 19,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_090.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_091",
+    "word": "Ich entfalte mein Potential.",
+    "translation": "Potansiyelimi gerçekleştiriyorum.",
+    "len": 27,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_091.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_092",
+    "word": "Ich bin optimistisch.",
+    "translation": "İyimserim.",
+    "len": 15,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_092.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_093",
+    "word": "Ich lerne schnell.",
+    "translation": "Hızlı öğreniyorum.",
+    "len": 16,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_093.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_094",
+    "word": "Ich gestalte mein Leben.",
+    "translation": "Hayatımı ben şekillendiriyorum.",
+    "len": 24,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_094.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_095",
+    "word": "Ich nehme mir Zeit zum Nachdenken.",
+    "translation": "Düşünmek için zaman ayırıyorum.",
+    "len": 33,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_095.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_096",
+    "word": "Ich bin erfolgreich.",
+    "translation": "Başarılıyım.",
+    "len": 16,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_096.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_097",
+    "word": "Ich arbeite diszipliniert.",
+    "translation": "Disiplinli çalışıyorum.",
+    "len": 23,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_097.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_098",
+    "word": "Ich bleibe bei meiner Vision.",
+    "translation": "Vizyonuma sadık kalıyorum.",
+    "len": 27,
+    "tags": [
+      "mindset",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_098.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_099",
+    "word": "Ich lerne jeden Moment.",
+    "translation": "Her an öğreniyorum.",
+    "len": 21,
+    "tags": [
+      "learning",
+      "growth"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_099.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "dev_mind_100",
+    "word": "Ich bin bereit zu wachsen.",
+    "translation": "Büyümeye hazırım.",
+    "len": 22,
+    "tags": [
+      "growth",
+      "mindset"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_100.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_001",
+    "word": "Wo ist der Bahnhof?",
+    "translation": "İstasyon nerede?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_001.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_002",
+    "word": "Wie komme ich zum Hotel?",
+    "translation": "Otele nasıl giderim?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_002.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_003",
+    "word": "Ein Ticket nach Berlin, bitte.",
+    "translation": "Berlin'e bir bilet, lütfen.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_003.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_004",
+    "word": "Wann fährt der nächste Zug?",
+    "translation": "Bir sonraki tren ne zaman kalkıyor?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_004.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_005",
+    "word": "Haben Sie ein freies Zimmer?",
+    "translation": "Boş odanız var mı?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_005.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_006",
+    "word": "Ich habe eine Reservierung.",
+    "translation": "Rezervasyonum var.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_006.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_007",
+    "word": "Wo ist die nächste U-Bahn?",
+    "translation": "En yakın metro nerede?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_007.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_008",
+    "word": "Wie viel kostet das?",
+    "translation": "Bu ne kadar?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_008.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_009",
+    "word": "Ich möchte einchecken.",
+    "translation": "Giriş yapmak istiyorum.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_009.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_010",
+    "word": "Können Sie mir helfen?",
+    "translation": "Bana yardım edebilir misiniz?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_010.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_011",
+    "word": "Gibt es hier ein Restaurant?",
+    "translation": "Burada restoran var mı?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_011.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_012",
+    "word": "Ich suche den Stadtplan.",
+    "translation": "Şehir haritası arıyorum.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_012.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_013",
+    "word": "Ist es weit von hier?",
+    "translation": "Buradan uzak mı?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_013.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_014",
+    "word": "Ich möchte ein Taxi rufen.",
+    "translation": "Taksi çağırmak istiyorum.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_014.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_015",
+    "word": "Wann öffnet das Museum?",
+    "translation": "Müze ne zaman açılıyor?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_015.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_016",
+    "word": "Wo kann ich Geld wechseln?",
+    "translation": "Nerede para bozdurabilirim?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_016.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_017",
+    "word": "Haben Sie einen Stadtplan?",
+    "translation": "Şehir haritanız var mı?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_017.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_018",
+    "word": "Das ist sehr schön.",
+    "translation": "Bu çok güzel.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_018.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_019",
+    "word": "Einen Tisch für zwei, bitte.",
+    "translation": "İki kişilik bir masa, lütfen.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_019.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_020",
+    "word": "Die Rechnung, bitte.",
+    "translation": "Hesap, lütfen.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_020.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_021",
+    "word": "Wo ist die Toilette?",
+    "translation": "Tuvalet nerede?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_021.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_022",
+    "word": "Ich bin Tourist.",
+    "translation": "Turistim.",
+    "len": 14,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_022.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_023",
+    "word": "Können Sie das fotografieren?",
+    "translation": "Bunu fotoğraflayabilir misiniz?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_023.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_024",
+    "word": "Wo ist der Ausgang?",
+    "translation": "Çıkış nerede?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_024.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_025",
+    "word": "Was empfehlen Sie?",
+    "translation": "Ne tavsiye edersiniz?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_025.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_026",
+    "word": "Gibt es ein Ticket für den ganzen Tag?",
+    "translation": "Tüm gün için bilet var mı?",
+    "len": 37,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_026.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_027",
+    "word": "Ich brauche ein Pflaster.",
+    "translation": "Yara bandına ihtiyacım var.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_027.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_028",
+    "word": "Gute Reise!",
+    "translation": "İyi yolculuklar!",
+    "len": 12,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_028.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_029",
+    "word": "Wie komme ich zum Flughafen?",
+    "translation": "Havalimanına nasıl giderim?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_029.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_030",
+    "word": "Wo ist die Haltestelle?",
+    "translation": "Durak nerede?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_030.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_031",
+    "word": "Ich habe mein Gepäck verloren.",
+    "translation": "Bagajımı kaybettim.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_031.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_032",
+    "word": "Ist das Frühstück inklusive?",
+    "translation": "Kahvaltı dahil mi?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_032.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_033",
+    "word": "Wann ist der Check-out?",
+    "translation": "Çıkış saati ne zaman?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_033.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_034",
+    "word": "Können Sie laut sprechen?",
+    "translation": "Daha yüksek sesle konuşabilir misiniz?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_034.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_035",
+    "word": "Wo ist der Supermarkt?",
+    "translation": "Süpermarket nerede?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_035.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_036",
+    "word": "Ich möchte Fahrräder mieten.",
+    "translation": "Bisiklet kiralamak istiyorum.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_036.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_037",
+    "word": "Gibt es WLAN hier?",
+    "translation": "Burada Wi-Fi var mı?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_037.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_038",
+    "word": "Das ist ein tolles Gebäude.",
+    "translation": "Bu harika bir bina.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_038.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_039",
+    "word": "Wo ist die Touristeninfo?",
+    "translation": "Turist bilgilendirme nerede?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_039.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_040",
+    "word": "Ich möchte ein Zimmer mit Aussicht.",
+    "translation": "Manzaralı bir oda istiyorum.",
+    "len": 33,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_040.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_041",
+    "word": "Wie lange dauert die Fahrt?",
+    "translation": "Yolculuk ne kadar sürüyor?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_041.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_042",
+    "word": "Haben Sie eine Karte?",
+    "translation": "Haritanız var mı?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_042.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_043",
+    "word": "Entschuldigung, wie bitte?",
+    "translation": "Affedersiniz, efendim?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_043.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_044",
+    "word": "Wo ist die Apotheke?",
+    "translation": "Eczane nerede?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_044.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_045",
+    "word": "Ich möchte diese Sehenswürdigkeit besuchen.",
+    "translation": "Bu turistik yeri ziyaret etmek istiyorum.",
+    "len": 40,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_045.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_046",
+    "word": "Kann ich hier mit Karte zahlen?",
+    "translation": "Burada kartla ödeme yapabilir miyim?",
+    "len": 32,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_046.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_047",
+    "word": "Ist es sicher hier?",
+    "translation": "Burası güvenli mi?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_047.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_048",
+    "word": "Wo ist die nächste Bank?",
+    "translation": "En yakın banka nerede?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_048.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_049",
+    "word": "Wir haben uns verlaufen.",
+    "translation": "Kaybolduk.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_049.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_050",
+    "word": "Was ist das Eintrittspreis?",
+    "translation": "Giriş ücreti ne kadar?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_050.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_051",
+    "word": "Können Sie das auf der Karte zeigen?",
+    "translation": "Bunu haritada gösterebilir misiniz?",
+    "len": 35,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_051.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_052",
+    "word": "Wo ist der Parkplatz?",
+    "translation": "Otopark nerede?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_052.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_053",
+    "word": "Ich habe eine Allergie.",
+    "translation": "Alerjim var.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_053.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_054",
+    "word": "Wo ist die Botschaft?",
+    "translation": "Büyükelçilik nerede?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_054.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_055",
+    "word": "Wir brauchen Hilfe.",
+    "translation": "Yardıma ihtiyacımız var.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_055.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_056",
+    "word": "Ist das Leitungswasser trinkbar?",
+    "translation": "Musluk suyu içilebilir mi?",
+    "len": 30,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_056.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_057",
+    "word": "Ich suche einen Park.",
+    "translation": "Park arıyorum.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_057.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_058",
+    "word": "Wo ist der Schalter?",
+    "translation": "Gişe nerede?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_058.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_059",
+    "word": "Können wir das verschieben?",
+    "translation": "Bunu erteleyebilir miyiz?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_059.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_060",
+    "word": "Gibt es eine Führung?",
+    "translation": "Rehberli tur var mı?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_060.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_061",
+    "word": "Ich mag diese Stadt.",
+    "translation": "Bu şehri seviyorum.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_061.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_062",
+    "word": "Wo ist der Eingang?",
+    "translation": "Giriş nerede?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_062.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_063",
+    "word": "Wie komme ich zu diesem Museum?",
+    "translation": "Bu müzeye nasıl giderim?",
+    "len": 30,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_063.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_064",
+    "word": "Haben Sie ein vegetarisches Gericht?",
+    "translation": "Vejetaryen yemeğiniz var mı?",
+    "len": 32,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_064.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_065",
+    "word": "Ich bin zum ersten Mal hier.",
+    "translation": "Buraya ilk gelişim.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_065.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_066",
+    "word": "Was ist Ihre Empfehlung?",
+    "translation": "Tavsiyeniz nedir?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_066.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_067",
+    "word": "Wo ist der Flughafenbus?",
+    "translation": "Havalimanı otobüsü nerede?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_067.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_068",
+    "word": "Ich habe mein Handy verloren.",
+    "translation": "Telefonumu kaybettim.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_068.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_069",
+    "word": "Gibt es einen Rabatt?",
+    "translation": "İndirim var mı?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_069.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_070",
+    "word": "Ich brauche ein Taxi für morgen.",
+    "translation": "Yarın için taksiye ihtiyacım var.",
+    "len": 30,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_070.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_071",
+    "word": "Wo ist das Reisebüro?",
+    "translation": "Seyahat acentesi nerede?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_071.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_072",
+    "word": "Das ist sehr lecker.",
+    "translation": "Bu çok lezzetli.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "food"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_072.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_073",
+    "word": "Gibt es eine Karte für die Stadt?",
+    "translation": "Şehir haritası var mı?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_073.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_074",
+    "word": "Ich möchte Tickets buchen.",
+    "translation": "Bilet ayırtmak istiyorum.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_074.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_075",
+    "word": "Wo ist der Bahnhofseingang?",
+    "translation": "İstasyon girişi nerede?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_075.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_076",
+    "word": "Wie spät ist es?",
+    "translation": "Saat kaç?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_076.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_077",
+    "word": "Kann man hier rauchen?",
+    "translation": "Burada sigara içilir mi?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_077.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_078",
+    "word": "Ich suche ein billiges Hotel.",
+    "translation": "Ucuz bir otel arıyorum.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_078.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_079",
+    "word": "Wo ist die Post?",
+    "translation": "Postane nerede?",
+    "len": 16,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_079.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_080",
+    "word": "Ist der Eintritt kostenlos?",
+    "translation": "Giriş ücretsiz mi?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_080.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_081",
+    "word": "Ich möchte mehr über die Stadt wissen.",
+    "translation": "Şehir hakkında daha fazla şey bilmek istiyorum.",
+    "len": 40,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_081.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_082",
+    "word": "Wo kann ich Souvenirs kaufen?",
+    "translation": "Nereden hediyelik eşya alabilirim?",
+    "len": 30,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_082.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_083",
+    "word": "Ich brauche einen Arzt.",
+    "translation": "Doktora ihtiyacım var.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "health"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_083.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_084",
+    "word": "Wo ist die Polizei?",
+    "translation": "Polis nerede?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_084.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_085",
+    "word": "Das ist ein schöner Platz.",
+    "translation": "Burası güzel bir meydan.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_085.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_086",
+    "word": "Wann schließt das Geschäft?",
+    "translation": "Mağaza ne zaman kapanıyor?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_086.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_087",
+    "word": "Gibt es öffentliche Verkehrsmittel?",
+    "translation": "Toplu taşıma var mı?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_087.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_088",
+    "word": "Ich möchte ein Auto mieten.",
+    "translation": "Araba kiralamak istiyorum.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_088.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_089",
+    "word": "Können Sie die Tür öffnen?",
+    "translation": "Kapıyı açabilir misiniz?",
+    "len": 24,
+    "tags": [
+      "travel",
+      "accommodation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_089.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_090",
+    "word": "Wo ist das Theater?",
+    "translation": "Tiyatro nerede?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_090.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_091",
+    "word": "Das Wasser ist warm.",
+    "translation": "Su ılık.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_091.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_092",
+    "word": "Gibt es eine Aussichtsplattform?",
+    "translation": "Seyir terası var mı?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_092.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_093",
+    "word": "Ich habe den Bus verpasst.",
+    "translation": "Otobüsü kaçırdım.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_093.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_094",
+    "word": "Wo kann ich ein Ticket kaufen?",
+    "translation": "Nereden bilet alabilirim?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_094.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_095",
+    "word": "Ist es weit zu Fuß?",
+    "translation": "Yürüyerek uzak mı?",
+    "len": 18,
+    "tags": [
+      "travel",
+      "navigation"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_095.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_096",
+    "word": "Ich möchte die Altstadt sehen.",
+    "translation": "Eski şehri görmek istiyorum.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_096.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_097",
+    "word": "Haben Sie einladende Orte?",
+    "translation": "Önerdiğiniz yerler var mı?",
+    "len": 26,
+    "tags": [
+      "travel",
+      "sightseeing"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_097.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_098",
+    "word": "Wo finde ich einen Bankautomaten?",
+    "translation": "ATM'yi nerede bulabilirim?",
+    "len": 31,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_098.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_099",
+    "word": "Vielen Dank für Ihre Hilfe.",
+    "translation": "Yardımınız için teşekkürler.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_099.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "trv_exp_100",
+    "word": "Auf Wiedersehen!",
+    "translation": "Görüşmek üzere!",
+    "len": 17,
+    "tags": [
+      "travel",
+      "general"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_100.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_001",
+    "word": "Hallo!",
+    "translation": "Merhaba!",
+    "len": 6,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_001.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_002",
+    "word": "Guten Morgen!",
+    "translation": "Günaydın!",
+    "len": 13,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_002.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_003",
+    "word": "Guten Tag!",
+    "translation": "İyi günler!",
+    "len": 10,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_003.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_004",
+    "word": "Guten Abend!",
+    "translation": "İyi akşamlar!",
+    "len": 12,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_004.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_005",
+    "word": "Wie geht es dir?",
+    "translation": "Nasılsın?",
+    "len": 16,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_005.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_006",
+    "word": "Wie geht es Ihnen?",
+    "translation": "Nasılsınız?",
+    "len": 18,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_006.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_007",
+    "word": "Mir geht es gut, danke.",
+    "translation": "İyiyim, teşekkürler.",
+    "len": 23,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_007.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_008",
+    "word": "Und dir?",
+    "translation": "Ya sen?",
+    "len": 8,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_008.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_009",
+    "word": "Wie heißt du?",
+    "translation": "Adın ne?",
+    "len": 13,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_009.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_010",
+    "word": "Ich heiße...",
+    "translation": "Adım...",
+    "len": 12,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_010.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_011",
+    "word": "Freut mich.",
+    "translation": "Memnun oldum.",
+    "len": 11,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_011.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_012",
+    "word": "Woher kommst du?",
+    "translation": "Nerelisin?",
+    "len": 15,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_012.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_013",
+    "word": "Ich komme aus der Türkei.",
+    "translation": "Türkiye'den geliyorum.",
+    "len": 25,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_013.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_014",
+    "word": "Wo wohnst du?",
+    "translation": "Nerede oturuyorsun?",
+    "len": 13,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_014.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_015",
+    "word": "Was machst du beruflich?",
+    "translation": "Ne iş yapıyorsun?",
+    "len": 24,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_015.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_016",
+    "word": "Kannst du mir helfen?",
+    "translation": "Bana yardım edebilir misin?",
+    "len": 21,
+    "tags": [
+      "social",
+      "help"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_016.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_017",
+    "word": "Ich verstehe das nicht.",
+    "translation": "Bunu anlamıyorum.",
+    "len": 22,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_017.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_018",
+    "word": "Kannst du das wiederholen?",
+    "translation": "Bunu tekrar edebilir misin?",
+    "len": 26,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_018.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_019",
+    "word": "Sprichst du Englisch?",
+    "translation": "İngilizce konuşuyor musun?",
+    "len": 20,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_019.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_020",
+    "word": "Ein bisschen.",
+    "translation": "Biraz.",
+    "len": 13,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_020.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_021",
+    "word": "Wie sagt man das?",
+    "translation": "Buna nasıl denir?",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_021.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_022",
+    "word": "Was bedeutet das?",
+    "translation": "Bu ne anlama geliyor?",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_022.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_023",
+    "word": "Ich lerne Deutsch.",
+    "translation": "Almanca öğreniyorum.",
+    "len": 17,
+    "tags": [
+      "social",
+      "learning"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_023.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_024",
+    "word": "Schreib das bitte auf.",
+    "translation": "Bunu lütfen yaz.",
+    "len": 21,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_024.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_025",
+    "word": "Entschuldigung.",
+    "translation": "Affedersiniz.",
+    "len": 14,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_025.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_026",
+    "word": "Kein Problem.",
+    "translation": "Sorun değil.",
+    "len": 13,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_026.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_027",
+    "word": "Bitte.",
+    "translation": "Lütfen / Rica ederim.",
+    "len": 6,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_027.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_028",
+    "word": "Danke schön.",
+    "translation": "Çok teşekkürler.",
+    "len": 13,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_028.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_029",
+    "word": "Vielen Dank.",
+    "translation": "Çok teşekkürler.",
+    "len": 12,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_029.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_030",
+    "word": "Gerne!",
+    "translation": "Memnuniyetle!",
+    "len": 6,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_030.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_031",
+    "word": "Hast du Zeit?",
+    "translation": "Zamanın var mı?",
+    "len": 13,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_031.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_032",
+    "word": "Wollen wir Kaffee trinken?",
+    "translation": "Kahve içelim mi?",
+    "len": 24,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_032.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_033",
+    "word": "Ich habe Lust auf...",
+    "translation": "Canım ... istiyor.",
+    "len": 20,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_033.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_034",
+    "word": "Wann treffen wir uns?",
+    "translation": "Ne zaman buluşuyoruz?",
+    "len": 21,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_034.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_035",
+    "word": "Wo treffen wir uns?",
+    "translation": "Nerede buluşuyoruz?",
+    "len": 20,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_035.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_036",
+    "word": "Das passt mir gut.",
+    "translation": "Bu bana uyar.",
+    "len": 17,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_036.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_037",
+    "word": "Das geht leider nicht.",
+    "translation": "Maalesef bu olmaz.",
+    "len": 22,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_037.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_038",
+    "word": "Bist du sicher?",
+    "translation": "Emin misin?",
+    "len": 14,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_038.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_039",
+    "word": "Klar!",
+    "translation": "Tabii ki!",
+    "len": 5,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_039.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_040",
+    "word": "Vielleicht.",
+    "translation": "Belki.",
+    "len": 11,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_040.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_041",
+    "word": "Hast du Pläne?",
+    "translation": "Planın var mı?",
+    "len": 14,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_041.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_042",
+    "word": "Kommst du mit?",
+    "translation": "Geliyor musun?",
+    "len": 14,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_042.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_043",
+    "word": "Ich freue mich.",
+    "translation": "Bunu bekliyorum.",
+    "len": 15,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_043.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_044",
+    "word": "Viel Erfolg!",
+    "translation": "Başarılar!",
+    "len": 12,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_044.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_045",
+    "word": "Guten Appetit!",
+    "translation": "Afiyet olsun!",
+    "len": 14,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_045.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_046",
+    "word": "Ich finde das toll.",
+    "translation": "Bunu harika buluyorum.",
+    "len": 18,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_046.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_047",
+    "word": "Ich mag das nicht.",
+    "translation": "Bundan hoşlanmıyorum.",
+    "len": 17,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_047.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_048",
+    "word": "Ich bin anderer Meinung.",
+    "translation": "Farklı fikirdeyim.",
+    "len": 25,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_048.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_049",
+    "word": "Das stimmt.",
+    "translation": "Bu doğru.",
+    "len": 11,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_049.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_050",
+    "word": "Ich bin einverstanden.",
+    "translation": "Katılıyorum.",
+    "len": 21,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_050.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_051",
+    "word": "Was denkst du?",
+    "translation": "Sen ne düşünüyorsun?",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_051.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_052",
+    "word": "Keine Ahnung.",
+    "translation": "Hiç fikrim yok.",
+    "len": 13,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_052.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_053",
+    "word": "Ich glaube...",
+    "translation": "Sanıyorum ki...",
+    "len": 13,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_053.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_054",
+    "word": "Ich hoffe...",
+    "translation": "Umarım...",
+    "len": 12,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_054.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_055",
+    "word": "Viel Glück!",
+    "translation": "Bol şans!",
+    "len": 11,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_055.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_056",
+    "word": "Wie spät ist es?",
+    "translation": "Saat kaç?",
+    "len": 15,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_056.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_057",
+    "word": "Ich muss los.",
+    "translation": "Gitmem lazım.",
+    "len": 12,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_057.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_058",
+    "word": "Bis bald!",
+    "translation": "Yakında görüşürüz.",
+    "len": 10,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_058.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_059",
+    "word": "Bis später!",
+    "translation": "Sonra görüşürüz.",
+    "len": 12,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_059.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_060",
+    "word": "Schönen Tag!",
+    "translation": "İyi günler!",
+    "len": 12,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_060.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_061",
+    "word": "Gute Nacht!",
+    "translation": "İyi geceler!",
+    "len": 12,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_061.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_062",
+    "word": "Wie war dein Tag?",
+    "translation": "Günün nasıldı?",
+    "len": 16,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_062.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_063",
+    "word": "Ich bin müde.",
+    "translation": "Yorgunum.",
+    "len": 13,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_063.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_064",
+    "word": "Ich habe Hunger.",
+    "translation": "Acıktım.",
+    "len": 15,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_064.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_065",
+    "word": "Haben wir Kaffee?",
+    "translation": "Kahvemiz var mı?",
+    "len": 16,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_065.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_066",
+    "word": "Das Wetter ist schön.",
+    "translation": "Hava güzel.",
+    "len": 20,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_066.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_067",
+    "word": "Es regnet.",
+    "translation": "Yağmur yağıyor.",
+    "len": 11,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_067.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_068",
+    "word": "Ich brauche Ruhe.",
+    "translation": "Sessizliğe ihtiyacım var.",
+    "len": 16,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_068.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_069",
+    "word": "Was machen wir abends?",
+    "translation": "Bu akşam ne yapıyoruz?",
+    "len": 22,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_069.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_070",
+    "word": "Ich rufe dich an.",
+    "translation": "Seni arayacağım.",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_070.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_071",
+    "word": "Alles klar.",
+    "translation": "Tamamdır.",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_071.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_072",
+    "word": "Verstehst du mich?",
+    "translation": "Beni anlıyor musun?",
+    "len": 17,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_072.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_073",
+    "word": "Sehr nett von dir.",
+    "translation": "Çok naziksin.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_073.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_074",
+    "word": "Gute Besserung!",
+    "translation": "Geçmiş olsun!",
+    "len": 16,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_074.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_075",
+    "word": "Herzlichen Glückwunsch!",
+    "translation": "Tebrikler!",
+    "len": 23,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_075.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_076",
+    "word": "Entschuldigen Sie.",
+    "translation": "Affedersiniz.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_076.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_077",
+    "word": "Darf ich fragen?",
+    "translation": "Sorabilir miyim?",
+    "len": 15,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_077.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_078",
+    "word": "Das klingt gut.",
+    "translation": "Kulağa hoş geliyor.",
+    "len": 14,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_078.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_079",
+    "word": "Ich weiß nicht.",
+    "translation": "Bilmiyorum.",
+    "len": 14,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_079.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_080",
+    "word": "Kannst du das erklären?",
+    "translation": "Açıklayabilir misin?",
+    "len": 22,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_080.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_081",
+    "word": "Das ist wichtig.",
+    "translation": "Bu önemli.",
+    "len": 15,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_081.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_082",
+    "word": "Wie bitte?",
+    "translation": "Efendim?",
+    "len": 10,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_082.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_083",
+    "word": "Keine Sorge.",
+    "translation": "Endişelenme.",
+    "len": 12,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_083.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_084",
+    "word": "Viel Spaß!",
+    "translation": "İyi eğlenceler!",
+    "len": 10,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_084.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_085",
+    "word": "Ich warte auf dich.",
+    "translation": "Seni bekliyorum.",
+    "len": 19,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_085.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_086",
+    "word": "Was ist passiert?",
+    "translation": "Ne oldu?",
+    "len": 16,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_086.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_087",
+    "word": "Es macht Spaß.",
+    "translation": "Eğlenceli.",
+    "len": 14,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_087.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_088",
+    "word": "Ich vermisse dich.",
+    "translation": "Seni özledim.",
+    "len": 17,
+    "tags": [
+      "social",
+      "feelings"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_088.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_089",
+    "word": "Alles Gute!",
+    "translation": "Her şey gönlünce olsun!",
+    "len": 11,
+    "tags": [
+      "social",
+      "wishes"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_089.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_090",
+    "word": "Schön dich zu sehen.",
+    "translation": "Seni görmek güzel.",
+    "len": 21,
+    "tags": [
+      "social",
+      "greeting"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_090.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_091",
+    "word": "Einen Moment bitte.",
+    "translation": "Bir dakika lütfen.",
+    "len": 18,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_091.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_092",
+    "word": "Komm rein!",
+    "translation": "İçeri gel!",
+    "len": 11,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_092.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_093",
+    "word": "Setz dich.",
+    "translation": "Otur.",
+    "len": 10,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_093.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_094",
+    "word": "Trinkst du etwas?",
+    "translation": "Bir şey içecek misin?",
+    "len": 17,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_094.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_095",
+    "word": "Es ist mir egal.",
+    "translation": "Benim için fark etmez.",
+    "len": 17,
+    "tags": [
+      "social",
+      "opinion"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_095.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_096",
+    "word": "Ich bin bereit.",
+    "translation": "Hazırım.",
+    "len": 14,
+    "tags": [
+      "social",
+      "daily"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_096.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_097",
+    "word": "Hast du kurz Zeit?",
+    "translation": "Kısa bir vaktin var mı?",
+    "len": 17,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_097.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_098",
+    "word": "Das ist mir neu.",
+    "translation": "Bu bana yeni geldi.",
+    "len": 15,
+    "tags": [
+      "social",
+      "communication"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_098.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_099",
+    "word": "Lass uns anfangen.",
+    "translation": "Hadi başlayalım.",
+    "len": 16,
+    "tags": [
+      "social",
+      "plans"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_099.mp3",
+    "level": "DE"
+  },
+  {
+    "id": "soc_int_100",
+    "word": "Bis zum nächsten Mal.",
+    "translation": "Bir dahaki sefere görüşürüz.",
+    "len": 22,
+    "tags": [
+      "social",
+      "farewell"
+    ],
+    "audioUrl": "/audio/de/sentences/de_biz_prof_100.mp3",
+    "level": "DE"
+  }
+]

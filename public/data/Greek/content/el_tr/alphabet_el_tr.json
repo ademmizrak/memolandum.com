@@ -1,0 +1,434 @@
+[
+  {
+    "id": "gre_lvl0_001",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Α",
+    "romanized_script": "A",
+    "meaning": "Alfa Harfi (Türkçedeki A sesiyle aynıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_001_a.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_002",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Β",
+    "romanized_script": "V",
+    "meaning": "Vita Harfi (Latin alfabesindeki B ile karıştırılmamalıdır, V sesi verir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_002_v.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_003",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Γ",
+    "romanized_script": "G/Y",
+    "meaning": "Gama Harfi (Yumuşak G veya seslilerden önce hafif bir Y sesine dönüşür)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_003_g_y.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_004",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Δ",
+    "romanized_script": "Dh",
+    "meaning": "Delta Harfi (İngilizcedeki 'the' gibi peltek D sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_004_dh.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_005",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ε",
+    "romanized_script": "E",
+    "meaning": "Epsilon Harfi (Kısa ve net E sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_005_e.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_006",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ζ",
+    "romanized_script": "Z",
+    "meaning": "Zita Harfi (Türkçedeki Z sesiyle aynıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_006_z.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_007",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Η",
+    "romanized_script": "İ",
+    "meaning": "Ita Harfi (Latin alfabesindeki H ile karıştırılmamalıdır, İ sesi verir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_007_i.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_008",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Θ",
+    "romanized_script": "Th",
+    "meaning": "Thita Harfi (İngilizcedeki 'think' gibi peltek S/T arası bir sestir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_008_th.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_009",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ι",
+    "romanized_script": "İ",
+    "meaning": "Yota Harfi (Kısa düz İ sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_009_i.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_010",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Κ",
+    "romanized_script": "K",
+    "meaning": "Kapa Harfi (Türkçedeki K sesiyle aynıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_010_k.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_011",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Λ",
+    "romanized_script": "L",
+    "meaning": "Lamda Harfi (Türkçedeki L sesiyle aynıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_011_l.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_012",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Μ",
+    "romanized_script": "M",
+    "meaning": "Mi Harfi (Türkçedeki M sesiyle aynıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_012_m.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_013",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ν",
+    "romanized_script": "N",
+    "meaning": "Ni Harfi (Küçük harfi 'ν' Latin v'sine benzer, N okunur)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_013_n.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_014",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ξ",
+    "romanized_script": "Ks",
+    "meaning": "Ksi Harfi (Birleşik Ks/X sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_014_ks.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_015",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ο",
+    "romanized_script": "O",
+    "meaning": "Omikron Harfi (Kısa O sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_015_o.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_016",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Π",
+    "romanized_script": "P",
+    "meaning": "Pi Harfi (Matematikteki Pi sembolü, Türkçedeki P sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_016_p.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_017",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ρ",
+    "romanized_script": "R",
+    "meaning": "Ro Harfi (Latin alfabesindeki P ile karıştırılmamalıdır, R sesi verir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_017_r.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_018",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Σ",
+    "romanized_script": "S",
+    "meaning": "Sigma Harfi (Kelime sonunda 'ς' formunu alır, S okunur)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_018_s.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_019",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Τ",
+    "romanized_script": "T",
+    "meaning": "Taf Harfi (Türkçedeki T sesiyle aynıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_019_t.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_020",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Υ",
+    "romanized_script": "İ",
+    "meaning": "Ipsilon Harfi (Modern Yunancada genellikle İ sesi verir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_020_i.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_021",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Φ",
+    "romanized_script": "F",
+    "meaning": "Fi Harfi (Türkçedeki F sesiyle aynıdır)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_021_f.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_022",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Χ",
+    "romanized_script": "H",
+    "meaning": "Hi Harfi (Gırtlaktan gelen hafif sert H sesidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_022_h.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_023",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ψ",
+    "romanized_script": "Ps",
+    "meaning": "Psi Harfi (Birleşik Ps sesidir, psikoloji kelimesinin kökenidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "consonant"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_023_ps.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_024",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ω",
+    "romanized_script": "O",
+    "meaning": "Omega Harfi (Uzun O sesidir, alfabenin son harfidir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "vowel"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_024_o.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_025",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Ναι",
+    "romanized_script": "Ne",
+    "meaning": "Evet (Türkçedeki 'Ne' ile ses olarak benzer ama 'Evet' demektir)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_025_ne.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_026",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Όχι",
+    "romanized_script": "Ohi",
+    "meaning": "Hayır (O + χ + ι birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_026_ohi.mp3"
+    }
+  },
+  {
+    "id": "gre_lvl0_027",
+    "language_code": "el",
+    "level_tag": "Level_0_Alphabet",
+    "original_script": "Σπίτι",
+    "romanized_script": "Spiti",
+    "meaning": "Ev (Σ + π + ί + τ + ι birleşimi)",
+    "is_latin": false,
+    "metadata": {
+      "script_direction": "ltr",
+      "type": "syllable"
+    },
+    "audio": {
+      "default": "/audio/words_el/gre_lvl0_027_spiti.mp3"
+    }
+  }
+]

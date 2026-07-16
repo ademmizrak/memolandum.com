@@ -1,0 +1,6502 @@
+[
+  {
+    "id": "fr_sent_001",
+    "word": "Je me sens mieux.",
+    "translation": "I feel better.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "health"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_001.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_002",
+    "word": "C'est mieux que rien.",
+    "translation": "It's better than nothing.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_002.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_003",
+    "word": "Il faut faire un effort.",
+    "translation": "One must make an effort.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_003.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_004",
+    "word": "On peut le faire.",
+    "translation": "We can do it.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_004.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_005",
+    "word": "Je suis fatigué.",
+    "translation": "I am tired.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_005.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_006",
+    "word": "J'ai faim.",
+    "translation": "I am hungry.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_006.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_007",
+    "word": "J'ai soif.",
+    "translation": "I am thirsty.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_007.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_008",
+    "word": "Il fait beau aujourd'hui.",
+    "translation": "The weather is nice today.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_008.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_009",
+    "word": "Qu'est-ce que c'est ?",
+    "translation": "What is it?",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_009.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_010",
+    "word": "Je ne sais pas.",
+    "translation": "I don't know.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_010.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_011",
+    "word": "C'est génial !",
+    "translation": "It's great!",
+    "len": 13,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_011.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_012",
+    "word": "J'aime la France.",
+    "translation": "I love France.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_012.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_013",
+    "word": "Il est quelle heure ?",
+    "translation": "What time is it?",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_013.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_014",
+    "word": "C'est l'heure de manger.",
+    "translation": "It's time to eat.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_014.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_015",
+    "word": "Il fait chaud ici.",
+    "translation": "It's hot here.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_015.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_016",
+    "word": "Je veux dormir.",
+    "translation": "I want to sleep.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_016.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_017",
+    "word": "C'est une bonne idée.",
+    "translation": "That's a good idea.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_017.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_018",
+    "word": "Pas du tout.",
+    "translation": "Not at all.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_018.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_019",
+    "word": "D'accord.",
+    "translation": "Okay / Agreed.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_019.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_020",
+    "word": "Il pleut.",
+    "translation": "It is raining.",
+    "len": 9,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_020.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_021",
+    "word": "J'ai oublié mes clés.",
+    "translation": "I forgot my keys.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_021.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_022",
+    "word": "Peux-tu ouvrir la porte ?",
+    "translation": "Can you open the door?",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_022.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_023",
+    "word": "C'est trop chaud.",
+    "translation": "It's too hot.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_023.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_024",
+    "word": "C'est parfait comme ça.",
+    "translation": "It's perfect like that.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_024.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_025",
+    "word": "C'est une bonne journée.",
+    "translation": "It's a good day.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_025.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_026",
+    "word": "Il fait froid dehors.",
+    "translation": "It is cold outside.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_026.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_027",
+    "word": "Mettez un manteau.",
+    "translation": "Put on a coat.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_027.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_028",
+    "word": "Je suis en retard.",
+    "translation": "I am late.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_028.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_029",
+    "word": "Dépêchez-vous !",
+    "translation": "Hurry up!",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_029.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_030",
+    "word": "Je reviens bientôt.",
+    "translation": "I will be back soon.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_030.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_031",
+    "word": "Je ne peux pas m'en passer.",
+    "translation": "I can't do without it.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_031.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_032",
+    "word": "Je vais prendre mon temps.",
+    "translation": "I will take my time.",
+    "len": 25,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_032.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_033",
+    "word": "Ne fais pas l'idiot.",
+    "translation": "Don't be silly.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_033.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_034",
+    "word": "Je n'ai aucune idée.",
+    "translation": "I have no idea.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_034.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_035",
+    "word": "Qu'est-ce qui se passe ?",
+    "translation": "What's happening?",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_035.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_036",
+    "word": "Rien de spécial.",
+    "translation": "Nothing special.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_036.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_037",
+    "word": "J'ai besoin de réfléchir.",
+    "translation": "I need to think.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_037.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_038",
+    "word": "C'est quel jour aujourd'hui ?",
+    "translation": "What day is it today?",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_038.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_039",
+    "word": "Nous sommes mardi.",
+    "translation": "It is Tuesday.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_039.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_040",
+    "word": "N'oublie pas tes affaires.",
+    "translation": "Don't forget your things.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_040.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_041",
+    "word": "Je pense qu'il va pleuvoir.",
+    "translation": "I think it will rain.",
+    "len": 28,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_041.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_042",
+    "word": "Prends ton parapluie.",
+    "translation": "Take your umbrella.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_042.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_043",
+    "word": "Tout est sous contrôle.",
+    "translation": "Everything is under control.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_043.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_044",
+    "word": "Allez, on y va.",
+    "translation": "Come on, let's go.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_044.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_045",
+    "word": "Je veux rentrer chez moi.",
+    "translation": "I want to go home.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_045.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_046",
+    "word": "C'est l'heure de se lever.",
+    "translation": "It's time to get up.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_046.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_047",
+    "word": "Quelle belle journée !",
+    "translation": "What a beautiful day!",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_047.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_048",
+    "word": "C'est tout ce que je veux.",
+    "translation": "That's all I want.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_048.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_049",
+    "word": "C'est mieux que rien.",
+    "translation": "It's better than nothing.",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_049.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_050",
+    "word": "Il faut faire un effort.",
+    "translation": "One must make an effort.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_050.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_051",
+    "word": "On peut le faire.",
+    "translation": "We can do it.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_051.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_052",
+    "word": "C'est tout.",
+    "translation": "That's all.",
+    "len": 10,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_052.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_053",
+    "word": "Je suis prêt.",
+    "translation": "I am ready.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_053.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_054",
+    "word": "Attends-moi ici.",
+    "translation": "Wait for me here.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_054.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_055",
+    "word": "C'est très important.",
+    "translation": "It's very important.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_055.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_056",
+    "word": "Ne fais pas de bruit.",
+    "translation": "Don't make any noise.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_056.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_057",
+    "word": "Ouvre la fenêtre.",
+    "translation": "Open the window.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_057.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_058",
+    "word": "Ferme la porte.",
+    "translation": "Close the door.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_058.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_059",
+    "word": "Allume la lumière.",
+    "translation": "Turn on the light.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_059.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_060",
+    "word": "Éteins la télé.",
+    "translation": "Turn off the TV.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_060.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_061",
+    "word": "J'ai besoin de calme.",
+    "translation": "I need quiet.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_061.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_062",
+    "word": "Je travaille à la maison.",
+    "translation": "I work at home.",
+    "len": 22,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_062.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_063",
+    "word": "Où est mon téléphone ?",
+    "translation": "Where is my phone?",
+    "len": 21,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_063.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_064",
+    "word": "C'est sur la table.",
+    "translation": "It's on the table.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_064.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_065",
+    "word": "J'ai soif d'apprendre.",
+    "translation": "I am thirsty for learning.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_065.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_066",
+    "word": "Le café est prêt.",
+    "translation": "The coffee is ready.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_066.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_067",
+    "word": "Il est très bon.",
+    "translation": "It is very good.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_067.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_068",
+    "word": "Tu veux un sucre ?",
+    "translation": "Do you want sugar?",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_068.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_069",
+    "word": "Non, merci.",
+    "translation": "No, thank you.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_069.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_070",
+    "word": "C'est suffisant.",
+    "translation": "That's enough.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_070.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_071",
+    "word": "J'ai beaucoup de travail.",
+    "translation": "I have a lot of work.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_071.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_072",
+    "word": "Je dois me dépêcher.",
+    "translation": "I must hurry.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_072.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_073",
+    "word": "À plus tard.",
+    "translation": "See you later.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_073.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_074",
+    "word": "Bonne fin de journée.",
+    "translation": "Have a good day.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_074.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_075",
+    "word": "À demain matin.",
+    "translation": "See you tomorrow morning.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_075.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_076",
+    "word": "Fais de beaux rêves.",
+    "translation": "Sweet dreams.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_076.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_077",
+    "word": "Bonne nuit, à demain.",
+    "translation": "Good night, see you tomorrow.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_077.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_078",
+    "word": "C'est un beau jour.",
+    "translation": "It is a beautiful day.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_078.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_079",
+    "word": "Profitons-en.",
+    "translation": "Let's enjoy it.",
+    "len": 15,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_079.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_080",
+    "word": "C'est la vie.",
+    "translation": "That's life.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_080.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_081",
+    "word": "Tout est possible.",
+    "translation": "Everything is possible.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_081.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_082",
+    "word": "Ne perds pas espoir.",
+    "translation": "Don't lose hope.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_082.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_083",
+    "word": "Sois positif.",
+    "translation": "Be positive.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_083.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_084",
+    "word": "Tout ira bien.",
+    "translation": "Everything will be fine.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_084.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_085",
+    "word": "Je compte sur toi.",
+    "translation": "I am counting on you.",
+    "len": 17,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_085.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_086",
+    "word": "Tu es mon ami.",
+    "translation": "You are my friend.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_086.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_087",
+    "word": "On est ensemble.",
+    "translation": "We are together.",
+    "len": 14,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_087.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_088",
+    "word": "C'est super.",
+    "translation": "That's super.",
+    "len": 12,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_088.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_089",
+    "word": "Ça me plaît.",
+    "translation": "I like it.",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_089.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_090",
+    "word": "C'est un bon début.",
+    "translation": "It's a good start.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_090.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_091",
+    "word": "Je continue à apprendre.",
+    "translation": "I continue to learn.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_091.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_092",
+    "word": "C'est ma passion.",
+    "translation": "It's my passion.",
+    "len": 16,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_092.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_093",
+    "word": "J'aime relever des défis.",
+    "translation": "I like to take on challenges.",
+    "len": 23,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_093.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_094",
+    "word": "Je ne recule jamais.",
+    "translation": "I never back down.",
+    "len": 20,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_094.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_095",
+    "word": "C'est une étape importante.",
+    "translation": "It's an important step.",
+    "len": 24,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_095.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_096",
+    "word": "Je suis fier de ce projet.",
+    "translation": "I am proud of this project.",
+    "len": 26,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_096.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_097",
+    "word": "C'est le travail d'une équipe.",
+    "translation": "It's team work.",
+    "len": 27,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_097.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_098",
+    "word": "Merci à vous tous.",
+    "translation": "Thanks to you all.",
+    "len": 18,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_098.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_099",
+    "word": "On continue comme ça.",
+    "translation": "Let's keep going like this.",
+    "len": 19,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_099.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_100",
+    "word": "C'est parti !",
+    "translation": "Let's go!",
+    "len": 13,
+    "tags": [
+      "daily",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_100.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_201",
+    "word": "Je travaille ici.",
+    "translation": "I work here.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_201.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_202",
+    "word": "Quel est votre travail ?",
+    "translation": "What is your job?",
+    "len": 22,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_202.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_203",
+    "word": "Je suis étudiant.",
+    "translation": "I am a student.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_203.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_204",
+    "word": "C'est une grande réussite.",
+    "translation": "It is a great achievement.",
+    "len": 25,
+    "tags": [
+      "work",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_204.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_205",
+    "word": "Bravo pour ton travail.",
+    "translation": "Congratulations on your work.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_205.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_206",
+    "word": "Je travaille sur mon projet.",
+    "translation": "I am working on my project.",
+    "len": 26,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_206.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_207",
+    "word": "Tu as fini ton travail ?",
+    "translation": "Have you finished your work?",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_207.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_208",
+    "word": "Je suis fatigué de travailler.",
+    "translation": "I am tired of working.",
+    "len": 28,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_208.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_209",
+    "word": "Je suis très occupé.",
+    "translation": "I am very busy.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_209.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_210",
+    "word": "J'ai un rendez-vous important.",
+    "translation": "I have an important appointment.",
+    "len": 29,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_210.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_211",
+    "word": "Je travaille toujours.",
+    "translation": "I am still working.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_211.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_212",
+    "word": "Prends une pause.",
+    "translation": "Take a break.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_212.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_213",
+    "word": "Tu fais du bon travail.",
+    "translation": "You are doing good work.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_213.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_214",
+    "word": "Je suis fier de ce projet.",
+    "translation": "I am proud of this project.",
+    "len": 26,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_214.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_215",
+    "word": "C'est le travail d'une équipe.",
+    "translation": "It is a team effort.",
+    "len": 27,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_215.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_216",
+    "word": "Je dois préparer une présentation.",
+    "translation": "I need to prepare a presentation.",
+    "len": 31,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_216.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_217",
+    "word": "La réunion est à dix heures.",
+    "translation": "The meeting is at ten o'clock.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_217.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_218",
+    "word": "As-tu préparé les documents ?",
+    "translation": "Have you prepared the documents?",
+    "len": 27,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_218.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_219",
+    "word": "Je vais envoyer un email.",
+    "translation": "I will send an email.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_219.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_220",
+    "word": "C'est une priorité.",
+    "translation": "It is a priority.",
+    "len": 17,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_220.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_221",
+    "word": "On a beaucoup de tâches.",
+    "translation": "We have many tasks.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_221.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_222",
+    "word": "Il faut respecter les délais.",
+    "translation": "One must meet the deadlines.",
+    "len": 29,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_222.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_223",
+    "word": "Je suis en réunion.",
+    "translation": "I am in a meeting.",
+    "len": 17,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_223.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_224",
+    "word": "Appelle-moi plus tard.",
+    "translation": "Call me later.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_224.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_225",
+    "word": "Je te rappellerai.",
+    "translation": "I will call you back.",
+    "len": 17,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_225.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_226",
+    "word": "C'est un défi intéressant.",
+    "translation": "It is an interesting challenge.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_226.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_227",
+    "word": "Nous avons besoin de solutions.",
+    "translation": "We need solutions.",
+    "len": 28,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_227.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_228",
+    "word": "Quel est le plan ?",
+    "translation": "What is the plan?",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_228.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_229",
+    "word": "Il faut agir maintenant.",
+    "translation": "We must act now.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_229.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_230",
+    "word": "On analyse les données.",
+    "translation": "We are analyzing the data.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_230.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_231",
+    "word": "Le résultat est positif.",
+    "translation": "The result is positive.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_231.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_232",
+    "word": "C'est un bon résultat.",
+    "translation": "That is a good result.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_232.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_233",
+    "word": "Je suis satisfait de nous.",
+    "translation": "I am satisfied with us.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_233.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_234",
+    "word": "On doit s'améliorer.",
+    "translation": "We must improve.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_234.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_235",
+    "word": "Tu as fait du bon travail.",
+    "translation": "You did good work.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_235.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_236",
+    "word": "C'est un travail bien fait.",
+    "translation": "It is a job well done.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_236.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_237",
+    "word": "Quel est ton objectif ?",
+    "translation": "What is your goal?",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_237.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_238",
+    "word": "Je veux progresser.",
+    "translation": "I want to progress.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_238.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_239",
+    "word": "C'est une opportunité.",
+    "translation": "It is an opportunity.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_239.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_240",
+    "word": "Il faut saisir l'occasion.",
+    "translation": "One must seize the opportunity.",
+    "len": 27,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_240.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_241",
+    "word": "Je demande une augmentation.",
+    "translation": "I am asking for a raise.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_241.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_242",
+    "word": "Je cherche un nouvel emploi.",
+    "translation": "I am looking for a new job.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_242.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_243",
+    "word": "C'est un poste intéressant.",
+    "translation": "It is an interesting position.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_243.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_244",
+    "word": "Je vais postuler.",
+    "translation": "I will apply.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_244.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_245",
+    "word": "Il faut envoyer le CV.",
+    "translation": "One must send the CV.",
+    "len": 22,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_245.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_246",
+    "word": "C'est une longue journée.",
+    "translation": "It is a long day.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_246.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_247",
+    "word": "Je suis épuisé.",
+    "translation": "I am exhausted.",
+    "len": 13,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_247.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_248",
+    "word": "On a besoin de repos.",
+    "translation": "We need to rest.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_248.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_249",
+    "word": "Le travail est la santé.",
+    "translation": "Work is health.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_249.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_250",
+    "word": "Bon travail à tous.",
+    "translation": "Good work to everyone.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_250.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_251",
+    "word": "Qu'est-ce qu'on doit faire ?",
+    "translation": "What do we need to do?",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_251.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_252",
+    "word": "On doit finir le projet.",
+    "translation": "We must finish the project.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_252.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_253",
+    "word": "C'est urgent.",
+    "translation": "It is urgent.",
+    "len": 12,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_253.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_254",
+    "word": "On manque de temps.",
+    "translation": "We are short on time.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_254.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_255",
+    "word": "Il faut se dépêcher.",
+    "translation": "We must hurry.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_255.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_256",
+    "word": "Je m'occupe de ça.",
+    "translation": "I will take care of that.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_256.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_257",
+    "word": "Merci de ta collaboration.",
+    "translation": "Thank you for your collaboration.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_257.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_258",
+    "word": "C'est un effort collectif.",
+    "translation": "It is a collective effort.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_258.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_259",
+    "word": "Bravo pour cette avancée.",
+    "translation": "Well done on this progress.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_259.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_260",
+    "word": "C'est un grand pas.",
+    "translation": "It is a big step.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_260.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_261",
+    "word": "Je suis prêt pour la suite.",
+    "translation": "I am ready for what's next.",
+    "len": 22,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_261.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_262",
+    "word": "On continue le travail.",
+    "translation": "We are continuing the work.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_262.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_263",
+    "word": "C'est un projet ambitieux.",
+    "translation": "It is an ambitious project.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_263.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_264",
+    "word": "Il a du potentiel.",
+    "translation": "It has potential.",
+    "len": 15,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_264.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_265",
+    "word": "On va y arriver.",
+    "translation": "We will succeed.",
+    "len": 14,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_265.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_266",
+    "word": "Faisons de notre mieux.",
+    "translation": "Let's do our best.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_266.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_267",
+    "word": "C'est une journée productive.",
+    "translation": "It is a productive day.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_267.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_268",
+    "word": "J'aime travailler avec vous.",
+    "translation": "I like working with you.",
+    "len": 26,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_268.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_269",
+    "word": "C'est très professionnel.",
+    "translation": "It is very professional.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_269.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_270",
+    "word": "Bonne initiative.",
+    "translation": "Good initiative.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_270.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_271",
+    "word": "Je valide ton idée.",
+    "translation": "I approve of your idea.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_271.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_272",
+    "word": "C'est très utile.",
+    "translation": "It is very useful.",
+    "len": 14,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_272.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_273",
+    "word": "Ça va changer les choses.",
+    "translation": "It will change things.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_273.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_274",
+    "word": "On a besoin d'avis.",
+    "translation": "We need opinions.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_274.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_275",
+    "word": "Donne ton avis.",
+    "translation": "Give your opinion.",
+    "len": 15,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_275.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_276",
+    "word": "C'est essentiel pour nous.",
+    "translation": "It is essential for us.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_276.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_277",
+    "word": "Je prends note.",
+    "translation": "I am taking note.",
+    "len": 13,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_277.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_278",
+    "word": "On va en discuter.",
+    "translation": "We will discuss it.",
+    "len": 17,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_278.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_279",
+    "word": "Je suis ouvert aux suggestions.",
+    "translation": "I am open to suggestions.",
+    "len": 26,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_279.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_280",
+    "word": "Merci de ta franchise.",
+    "translation": "Thank you for your honesty.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_280.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_281",
+    "word": "On peut faire mieux.",
+    "translation": "We can do better.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_281.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_282",
+    "word": "C'est un défi à relever.",
+    "translation": "It is a challenge to take on.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_282.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_283",
+    "word": "On va réussir.",
+    "translation": "We will succeed.",
+    "len": 13,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_283.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_284",
+    "word": "Je compte sur ton soutien.",
+    "translation": "I am counting on your support.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_284.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_285",
+    "word": "Tu es un élément clé.",
+    "translation": "You are a key element.",
+    "len": 19,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_285.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_286",
+    "word": "Merci pour ton implication.",
+    "translation": "Thank you for your involvement.",
+    "len": 24,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_286.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_287",
+    "word": "On forme une bonne équipe.",
+    "translation": "We make a good team.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_287.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_288",
+    "word": "C'est gratifiant.",
+    "translation": "It is rewarding.",
+    "len": 13,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_288.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_289",
+    "word": "Je suis motivé.",
+    "translation": "I am motivated.",
+    "len": 14,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_289.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_290",
+    "word": "On a un bel avenir.",
+    "translation": "We have a bright future.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_290.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_291",
+    "word": "Merci pour cette opportunité.",
+    "translation": "Thank you for this opportunity.",
+    "len": 25,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_291.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_292",
+    "word": "C'est une expérience enrichissante.",
+    "translation": "It is an enriching experience.",
+    "len": 28,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_292.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_293",
+    "word": "Je suis prêt à apprendre.",
+    "translation": "I am ready to learn.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_293.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_294",
+    "word": "On va grandir ensemble.",
+    "translation": "We will grow together.",
+    "len": 21,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_294.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_295",
+    "word": "C'est motivant.",
+    "translation": "It is motivating.",
+    "len": 13,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_295.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_296",
+    "word": "Il faut rester concentré.",
+    "translation": "One must remain focused.",
+    "len": 22,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_296.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_297",
+    "word": "L'effort porte ses fruits.",
+    "translation": "Effort bears fruit.",
+    "len": 23,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_297.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_298",
+    "word": "Chaque détail compte.",
+    "translation": "Every detail counts.",
+    "len": 18,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_298.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_299",
+    "word": "On vise l'excellence.",
+    "translation": "We aim for excellence.",
+    "len": 20,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_299.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_300",
+    "word": "C'est notre devise.",
+    "translation": "It is our motto.",
+    "len": 16,
+    "tags": [
+      "work",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_300.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_401",
+    "word": "Je ne peux pas m'imaginer la vie sans toi.",
+    "translation": "I cannot imagine life without you.",
+    "len": 40,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_401.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_402",
+    "word": "On a tellement de souvenirs ensemble.",
+    "translation": "We have so many memories together.",
+    "len": 35,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_402.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_403",
+    "word": "C'est un lien indestructible.",
+    "translation": "It is an unbreakable bond.",
+    "len": 27,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_403.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_404",
+    "word": "Je serai toujours là pour toi.",
+    "translation": "I will always be there for you.",
+    "len": 30,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_404.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_405",
+    "word": "On peut tout surmonter ensemble.",
+    "translation": "We can overcome everything together.",
+    "len": 32,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_405.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_406",
+    "word": "Ta présence me donne de la force.",
+    "translation": "Your presence gives me strength.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_406.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_407",
+    "word": "Merci d'être qui tu es.",
+    "translation": "Thank you for being who you are.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_407.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_408",
+    "word": "J'admire ton courage.",
+    "translation": "I admire your courage.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_408.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_409",
+    "word": "Tu m'inspires chaque jour.",
+    "translation": "You inspire me every day.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_409.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_410",
+    "word": "Ne change jamais.",
+    "translation": "Never change.",
+    "len": 16,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_410.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_411",
+    "word": "Je me sens tellement chanceux.",
+    "translation": "I feel so lucky.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_411.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_412",
+    "word": "C'est une belle journée pour apprendre.",
+    "translation": "It is a beautiful day to learn.",
+    "len": 33,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_412.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_413",
+    "word": "La langue française est fascinante.",
+    "translation": "The French language is fascinating.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "hobbies"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_413.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_414",
+    "word": "Je fais des progrès rapides.",
+    "translation": "I am making rapid progress.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_414.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_415",
+    "word": "C'est difficile, mais gratifiant.",
+    "translation": "It is difficult, but rewarding.",
+    "len": 27,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_415.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_416",
+    "word": "Je ne m'arrête jamais.",
+    "translation": "I never stop.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_416.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_417",
+    "word": "Chaque mot compte.",
+    "translation": "Every word counts.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_417.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_418",
+    "word": "Je lis un peu chaque soir.",
+    "translation": "I read a little every night.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "hobbies"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_418.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_419",
+    "word": "J'écoute des podcasts français.",
+    "translation": "I listen to French podcasts.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "hobbies"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_419.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_420",
+    "word": "La pratique est la clé.",
+    "translation": "Practice is the key.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_420.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_421",
+    "word": "J'adore parler avec les locaux.",
+    "translation": "I love talking with the locals.",
+    "len": 30,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_421.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_422",
+    "word": "Ils sont très accueillants.",
+    "translation": "They are very welcoming.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_422.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_423",
+    "word": "Je me sens comme chez moi.",
+    "translation": "I feel at home.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_423.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_424",
+    "word": "La culture est si riche.",
+    "translation": "The culture is so rich.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_424.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_425",
+    "word": "J'ai visité le musée du Louvre.",
+    "translation": "I visited the Louvre Museum.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_425.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_426",
+    "word": "C'était époustouflant.",
+    "translation": "It was breathtaking.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_426.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_427",
+    "word": "J'ai marché sur les Champs-Élysées.",
+    "translation": "I walked on the Champs-Élysées.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_427.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_428",
+    "word": "La vue depuis la tour Eiffel est unique.",
+    "translation": "The view from the Eiffel Tower is unique.",
+    "len": 36,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_428.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_429",
+    "word": "Je veux revenir ici.",
+    "translation": "I want to come back here.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_429.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_430",
+    "word": "Il y a tant de choses à faire.",
+    "translation": "There are so many things to do.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_430.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_431",
+    "word": "Je ne veux jamais partir.",
+    "translation": "I never want to leave.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_431.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_432",
+    "word": "C'est un rêve devenu réalité.",
+    "translation": "It is a dream come true.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_432.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_433",
+    "word": "Je garderai ces souvenirs pour toujours.",
+    "translation": "I will keep these memories forever.",
+    "len": 37,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_433.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_434",
+    "word": "Le temps file.",
+    "translation": "Time flies.",
+    "len": 13,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_434.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_435",
+    "word": "Il faut savourer chaque instant.",
+    "translation": "One must savor every moment.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_435.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_436",
+    "word": "La vie est une aventure.",
+    "translation": "Life is an adventure.",
+    "len": 22,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_436.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_437",
+    "word": "Suis ton cœur.",
+    "translation": "Follow your heart.",
+    "len": 13,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_437.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_438",
+    "word": "Ne laisse personne te freiner.",
+    "translation": "Don't let anyone hold you back.",
+    "len": 29,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_438.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_439",
+    "word": "Crois en toi.",
+    "translation": "Believe in yourself.",
+    "len": 12,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_439.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_440",
+    "word": "Tu es capable de tout.",
+    "translation": "You are capable of everything.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_440.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_441",
+    "word": "Rien n'est impossible.",
+    "translation": "Nothing is impossible.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_441.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_442",
+    "word": "La persévérance est la clé.",
+    "translation": "Perseverance is the key.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_442.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_443",
+    "word": "Ne baisse jamais les bras.",
+    "translation": "Never give up.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_443.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_444",
+    "word": "Chaque erreur est une leçon.",
+    "translation": "Every mistake is a lesson.",
+    "len": 25,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_444.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_445",
+    "word": "Apprends de tes expériences.",
+    "translation": "Learn from your experiences.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_445.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_446",
+    "word": "Sois curieux.",
+    "translation": "Be curious.",
+    "len": 12,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_446.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_447",
+    "word": "Pose des questions.",
+    "translation": "Ask questions.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_447.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_448",
+    "word": "N'aie pas peur de l'inconnu.",
+    "translation": "Don't be afraid of the unknown.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_448.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_449",
+    "word": "L'inconnu est une opportunité.",
+    "translation": "The unknown is an opportunity.",
+    "len": 26,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_449.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_450",
+    "word": "Ose sortir de ta zone de confort.",
+    "translation": "Dare to step out of your comfort zone.",
+    "len": 31,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_450.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_451",
+    "word": "C'est là que tout commence.",
+    "translation": "That is where everything begins.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_451.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_452",
+    "word": "Le changement est bon.",
+    "translation": "Change is good.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_452.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_453",
+    "word": "Accueille le nouveau.",
+    "translation": "Embrace the new.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_453.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_454",
+    "word": "L'avenir est devant toi.",
+    "translation": "The future is ahead of you.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_454.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_455",
+    "word": "Le passé est derrière.",
+    "translation": "The past is behind.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_455.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_456",
+    "word": "Vis le moment présent.",
+    "translation": "Live in the present moment.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_456.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_457",
+    "word": "Profite de chaque seconde.",
+    "translation": "Enjoy every second.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_457.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_458",
+    "word": "Sois reconnaissant.",
+    "translation": "Be grateful.",
+    "len": 15,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_458.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_459",
+    "word": "Remercie pour les petits détails.",
+    "translation": "Be thankful for the little details.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_459.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_460",
+    "word": "Le bonheur est dans les petites choses.",
+    "translation": "Happiness is in the little things.",
+    "len": 33,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_460.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_461",
+    "word": "Partage ton bonheur.",
+    "translation": "Share your happiness.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_461.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_462",
+    "word": "Sois généreux.",
+    "translation": "Be generous.",
+    "len": 14,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_462.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_463",
+    "word": "Aide ceux dans le besoin.",
+    "translation": "Help those in need.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_463.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_464",
+    "word": "La solidarité est vitale.",
+    "translation": "Solidarity is vital.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_464.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_465",
+    "word": "Ensemble, on est plus forts.",
+    "translation": "Together, we are stronger.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_465.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_466",
+    "word": "Ne laisse personne de côté.",
+    "translation": "Leave no one behind.",
+    "len": 23,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_466.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_467",
+    "word": "La bienveillance fait la différence.",
+    "translation": "Kindness makes the difference.",
+    "len": 27,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_467.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_468",
+    "word": "Écoute avec attention.",
+    "translation": "Listen carefully.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_468.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_469",
+    "word": "Comprends les autres.",
+    "translation": "Understand others.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_469.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_470",
+    "word": "La patience est une vertu.",
+    "translation": "Patience is a virtue.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_470.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_471",
+    "word": "Ne réagis pas avec colère.",
+    "translation": "Don't react with anger.",
+    "len": 22,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_471.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_472",
+    "word": "Respire un grand coup.",
+    "translation": "Take a deep breath.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_472.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_473",
+    "word": "Prends du recul.",
+    "translation": "Take a step back.",
+    "len": 14,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_473.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_474",
+    "word": "Analyse la situation.",
+    "translation": "Analyze the situation.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_474.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_475",
+    "word": "Trouve une solution calme.",
+    "translation": "Find a calm solution.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "work"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_475.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_476",
+    "word": "Le dialogue résout tout.",
+    "translation": "Dialogue solves everything.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_476.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_477",
+    "word": "Sois diplomate.",
+    "translation": "Be diplomatic.",
+    "len": 14,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_477.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_478",
+    "word": "Respecte les opinions des autres.",
+    "translation": "Respect others' opinions.",
+    "len": 28,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_478.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_479",
+    "word": "Même si tu n'es pas d'accord.",
+    "translation": "Even if you don't agree.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_479.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_480",
+    "word": "La tolérance est essentielle.",
+    "translation": "Tolerance is essential.",
+    "len": 21,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_480.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_481",
+    "word": "Apprends à pardonner.",
+    "translation": "Learn to forgive.",
+    "len": 16,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_481.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_482",
+    "word": "Le pardon libère l'esprit.",
+    "translation": "Forgiveness frees the mind.",
+    "len": 24,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_482.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_483",
+    "word": "Ne garde pas de rancœur.",
+    "translation": "Don't hold grudges.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_483.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_484",
+    "word": "Avance avec légèreté.",
+    "translation": "Move forward lightly.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_484.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_485",
+    "word": "Laisse les choses aller.",
+    "translation": "Let things go.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_485.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_486",
+    "word": "La paix est en toi.",
+    "translation": "Peace is within you.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "feelings"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_486.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_487",
+    "word": "Cherche l'équilibre.",
+    "translation": "Seek balance.",
+    "len": 15,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_487.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_488",
+    "word": "Cultive ton jardin intérieur.",
+    "translation": "Cultivate your inner garden.",
+    "len": 22,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_488.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_489",
+    "word": "La beauté est partout.",
+    "translation": "Beauty is everywhere.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_489.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_490",
+    "word": "Ouvre tes yeux.",
+    "translation": "Open your eyes.",
+    "len": 13,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_490.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_491",
+    "word": "Admire le monde.",
+    "translation": "Admire the world.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_491.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_492",
+    "word": "La terre est précieuse.",
+    "translation": "The Earth is precious.",
+    "len": 18,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_492.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_493",
+    "word": "Protégeons la nature.",
+    "translation": "Let's protect nature.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_493.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_494",
+    "word": "C'est notre maison commune.",
+    "translation": "It is our common home.",
+    "len": 22,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_494.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_495",
+    "word": "Agissons pour demain.",
+    "translation": "Let's act for tomorrow.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "rules"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_495.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_496",
+    "word": "Il n'est jamais trop tard.",
+    "translation": "It is never too late.",
+    "len": 19,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_496.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_497",
+    "word": "Chaque geste compte.",
+    "translation": "Every gesture counts.",
+    "len": 16,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_497.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_498",
+    "word": "Unissons nos forces.",
+    "translation": "Let's join forces.",
+    "len": 17,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_498.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_499",
+    "word": "Pour un avenir meilleur.",
+    "translation": "For a better future.",
+    "len": 20,
+    "tags": [
+      "growth",
+      "daily"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_499.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_500",
+    "word": "Merci de faire partie de ce voyage.",
+    "translation": "Thank you for being part of this journey.",
+    "len": 36,
+    "tags": [
+      "growth",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_500.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_301",
+    "word": "Où sont les toilettes ?",
+    "translation": "Where are the restrooms?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_301.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_302",
+    "word": "Où est la gare ?",
+    "translation": "Where is the station?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_302.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_303",
+    "word": "C'est par ici.",
+    "translation": "It's this way.",
+    "len": 13,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_303.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_304",
+    "word": "Tournez à droite.",
+    "translation": "Turn right.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_304.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_305",
+    "word": "Tournez à gauche.",
+    "translation": "Turn left.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_305.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_306",
+    "word": "Allez tout droit.",
+    "translation": "Go straight ahead.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_306.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_307",
+    "word": "Où est la sortie ?",
+    "translation": "Where is the exit?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_307.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_308",
+    "word": "Où est la gare ?",
+    "translation": "Where is the train station?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_308.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_309",
+    "word": "J'ai besoin d'un ticket.",
+    "translation": "I need a ticket.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_309.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_310",
+    "word": "Quel est le prochain arrêt ?",
+    "translation": "What is the next stop?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_310.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_311",
+    "word": "Je descends au prochain.",
+    "translation": "I am getting off at the next one.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_311.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_312",
+    "word": "Où est le métro ?",
+    "translation": "Where is the subway?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_312.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_313",
+    "word": "C'est loin d'ici ?",
+    "translation": "Is it far from here?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_313.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_314",
+    "word": "Il faut prendre le bus numéro 5.",
+    "translation": "You have to take bus number 5.",
+    "len": 33,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_314.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_315",
+    "word": "Où puis-je acheter un ticket ?",
+    "translation": "Where can I buy a ticket?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_315.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_316",
+    "word": "C'est à quelle distance d'ici ?",
+    "translation": "How far is it from here?",
+    "len": 29,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_316.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_317",
+    "word": "Ça prend environ dix minutes.",
+    "translation": "It takes about ten minutes.",
+    "len": 29,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_317.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_318",
+    "word": "Tu peux marcher jusqu'à là-bas.",
+    "translation": "You can walk until there.",
+    "len": 30,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_318.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_319",
+    "word": "Il y a beaucoup de trafic.",
+    "translation": "There is a lot of traffic.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_319.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_320",
+    "word": "Prends le chemin le plus court.",
+    "translation": "Take the shortest path.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_320.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_321",
+    "word": "On est presque arrivés.",
+    "translation": "We have almost arrived.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_321.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_322",
+    "word": "Où est ma voiture ?",
+    "translation": "Where is my car?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_322.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_323",
+    "word": "Elle est sur le parking.",
+    "translation": "It is in the parking lot.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_323.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_324",
+    "word": "J'ai besoin de mon passeport.",
+    "translation": "I need my passport.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_324.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_325",
+    "word": "Devant le cinéma.",
+    "translation": "In front of the cinema.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_325.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_326",
+    "word": "Quel est ce bâtiment ?",
+    "translation": "What is this building?",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_326.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_327",
+    "word": "C'est très beau ici.",
+    "translation": "It is very beautiful here.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_327.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_328",
+    "word": "On part en vacances ?",
+    "translation": "Are we going on vacation?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_328.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_329",
+    "word": "Où est-ce qu'on pourrait aller ?",
+    "translation": "Where could we go?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_329.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_330",
+    "word": "À la mer ou à la montagne ?",
+    "translation": "To the sea or to the mountains?",
+    "len": 25,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_330.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_331",
+    "word": "La montagne, c'est plus calme.",
+    "translation": "The mountains are calmer.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_331.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_332",
+    "word": "J'ai réservé les billets.",
+    "translation": "I have booked the tickets.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_332.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_333",
+    "word": "Il ne faut pas oublier les bagages.",
+    "translation": "One must not forget the luggage.",
+    "len": 31,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_333.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_334",
+    "word": "Je ferai les valises ce soir.",
+    "translation": "I will pack the suitcases tonight.",
+    "len": 28,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_334.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_335",
+    "word": "Quel est le programme ?",
+    "translation": "What is the program?",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_335.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_336",
+    "word": "Visiter les musées le matin.",
+    "translation": "Visit the museums in the morning.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_336.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_337",
+    "word": "Se reposer l'après-midi.",
+    "translation": "Rest in the afternoon.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_337.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_338",
+    "word": "Je t'attends à la gare.",
+    "translation": "I am waiting for you at the station.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_338.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_339",
+    "word": "Le train part à quelle heure ?",
+    "translation": "What time does the train leave?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_339.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_340",
+    "word": "À dix heures précises.",
+    "translation": "At ten o'clock sharp.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_340.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_341",
+    "word": "Vite, on va le rater !",
+    "translation": "Quick, we are going to miss it!",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_341.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_342",
+    "word": "On a encore quelques minutes.",
+    "translation": "We still have a few minutes.",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_342.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_343",
+    "word": "Ouf, on est à l'heure.",
+    "translation": "Phew, we are on time.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_343.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_344",
+    "word": "Tu as ton billet ?",
+    "translation": "Do you have your ticket?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_344.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_345",
+    "word": "Oui, il est là.",
+    "translation": "Yes, it is there.",
+    "len": 14,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_345.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_346",
+    "word": "Installe-toi confortablement.",
+    "translation": "Get comfortable.",
+    "len": 25,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_346.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_347",
+    "word": "Le voyage va être long.",
+    "translation": "The journey will be long.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_347.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_348",
+    "word": "Le paysage est magnifique.",
+    "translation": "The scenery is magnificent.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_348.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_349",
+    "word": "On est arrivés ?",
+    "translation": "Have we arrived?",
+    "len": 13,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_349.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_350",
+    "word": "C'est la destination finale.",
+    "translation": "It is the final destination.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_350.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_351",
+    "word": "Où est l'hôtel ?",
+    "translation": "Where is the hotel?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_351.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_352",
+    "word": "Il est près du centre.",
+    "translation": "It is near the center.",
+    "len": 19,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_352.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_353",
+    "word": "On doit faire le check-in.",
+    "translation": "We must check in.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_353.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_354",
+    "word": "Je voudrais une chambre.",
+    "translation": "I would like a room.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_354.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_355",
+    "word": "Avec vue sur mer ?",
+    "translation": "With a sea view?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_355.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_356",
+    "word": "Oui, si possible.",
+    "translation": "Yes, if possible.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_356.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_357",
+    "word": "C'est quel étage ?",
+    "translation": "Which floor is it?",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_357.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_358",
+    "word": "Au deuxième étage.",
+    "translation": "On the second floor.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_358.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_359",
+    "word": "Où est l'ascenseur ?",
+    "translation": "Where is the elevator?",
+    "len": 19,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_359.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_360",
+    "word": "Par ici, merci.",
+    "translation": "This way, thank you.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_360.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_361",
+    "word": "La ville est si vivante.",
+    "translation": "The city is so lively.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_361.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_362",
+    "word": "Il y a trop de monde ici.",
+    "translation": "There are too many people here.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_362.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_363",
+    "word": "On marche un peu ?",
+    "translation": "Shall we walk a little?",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_363.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_364",
+    "word": "Découvrons ce quartier.",
+    "translation": "Let's discover this neighborhood.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_364.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_365",
+    "word": "Il y a une boulangerie ici.",
+    "translation": "There is a bakery here.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_365.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_366",
+    "word": "L'odeur est délicieuse.",
+    "translation": "The smell is delicious.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_366.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_367",
+    "word": "On s'arrête pour manger ?",
+    "translation": "Shall we stop to eat?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_367.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_368",
+    "word": "C'est une bonne idée.",
+    "translation": "It is a good idea.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_368.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_369",
+    "word": "Je veux goûter ce plat.",
+    "translation": "I want to taste this dish.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_369.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_370",
+    "word": "C'est une spécialité locale.",
+    "translation": "It is a local specialty.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_370.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_371",
+    "word": "C'est très typique.",
+    "translation": "It is very typical.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_371.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_372",
+    "word": "J'aime beaucoup cet endroit.",
+    "translation": "I like this place very much.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_372.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_373",
+    "word": "On y retourne demain ?",
+    "translation": "Shall we go back there tomorrow?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_373.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_374",
+    "word": "Avec plaisir.",
+    "translation": "With pleasure.",
+    "len": 13,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_374.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_375",
+    "word": "Où est le bureau d'information ?",
+    "translation": "Where is the information desk?",
+    "len": 27,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_375.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_376",
+    "word": "Je voudrais une carte.",
+    "translation": "I would like a map.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_376.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_377",
+    "word": "Qu'est-ce qu'il faut visiter ?",
+    "translation": "What should one visit?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_377.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_378",
+    "word": "Ne manquez pas ce site.",
+    "translation": "Do not miss this site.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_378.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_379",
+    "word": "C'est un incontournable.",
+    "translation": "It is a must-see.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_379.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_380",
+    "word": "Le musée ferme à quelle heure ?",
+    "translation": "What time does the museum close?",
+    "len": 28,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_380.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_381",
+    "word": "À dix-huit heures.",
+    "translation": "At eighteen o'clock.",
+    "len": 16,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_381.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_382",
+    "word": "On a assez de temps.",
+    "translation": "We have enough time.",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_382.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_383",
+    "word": "Allons-y dès maintenant.",
+    "translation": "Let's go right now.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_383.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_384",
+    "word": "C'est la direction opposée.",
+    "translation": "It is the opposite direction.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_384.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_385",
+    "word": "Je me suis trompé.",
+    "translation": "I made a mistake.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_385.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_386",
+    "word": "Ce n'est pas grave.",
+    "translation": "It's not a problem.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_386.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_387",
+    "word": "On va trouver.",
+    "translation": "We will find it.",
+    "len": 13,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_387.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_388",
+    "word": "Demande le chemin.",
+    "translation": "Ask for the way.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_388.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_389",
+    "word": "Excusez-moi, monsieur.",
+    "translation": "Excuse me, sir.",
+    "len": 20,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_389.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_390",
+    "word": "Où est la place centrale ?",
+    "translation": "Where is the central square?",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_390.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_391",
+    "word": "C'est tout droit.",
+    "translation": "It is straight ahead.",
+    "len": 15,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_391.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_392",
+    "word": "Merci pour l'aide.",
+    "translation": "Thank you for the help.",
+    "len": 18,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_392.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_393",
+    "word": "On y est presque.",
+    "translation": "We are almost there.",
+    "len": 17,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_393.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_394",
+    "word": "Quel monument magnifique.",
+    "translation": "What a magnificent monument.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_394.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_395",
+    "word": "Prends une photo, s'il te plaît.",
+    "translation": "Take a photo, please.",
+    "len": 26,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_395.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_396",
+    "word": "C'est un souvenir précieux.",
+    "translation": "It is a precious memory.",
+    "len": 24,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_396.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_397",
+    "word": "On continue la balade ?",
+    "translation": "Shall we continue the walk?",
+    "len": 21,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_397.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_398",
+    "word": "Oui, explorons tout.",
+    "translation": "Yes, let's explore everything.",
+    "len": 22,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_398.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_399",
+    "word": "C'est une ville incroyable.",
+    "translation": "It is an incredible city.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_399.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_400",
+    "word": "Je ne veux jamais partir.",
+    "translation": "I never want to leave.",
+    "len": 23,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_400.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_101",
+    "word": "Bonjour, comment allez-vous ?",
+    "translation": "Hello, how are you?",
+    "len": 26,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_101.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_102",
+    "word": "Je m'appelle Adem.",
+    "translation": "My name is Adem.",
+    "len": 18,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_102.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_103",
+    "word": "Enchanté de vous rencontrer.",
+    "translation": "Nice to meet you.",
+    "len": 28,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_103.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_104",
+    "word": "Quel est votre nom ?",
+    "translation": "What is your name?",
+    "len": 19,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_104.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_105",
+    "word": "D'où venez-vous ?",
+    "translation": "Where are you from?",
+    "len": 17,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_105.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_106",
+    "word": "Je viens de Turquie.",
+    "translation": "I come from Turkey.",
+    "len": 20,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_106.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_107",
+    "word": "Parlez-vous français ?",
+    "translation": "Do you speak French?",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_107.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_108",
+    "word": "Je parle un peu français.",
+    "translation": "I speak a little French.",
+    "len": 25,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_108.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_109",
+    "word": "Je ne comprends pas.",
+    "translation": "I don't understand.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_109.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_110",
+    "word": "Pouvez-vous répéter ?",
+    "translation": "Can you repeat?",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_110.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_111",
+    "word": "Merci beaucoup.",
+    "translation": "Thank you very much.",
+    "len": 15,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_111.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_112",
+    "word": "S'il vous plaît.",
+    "translation": "Please.",
+    "len": 14,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_112.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_113",
+    "word": "De rien.",
+    "translation": "You're welcome.",
+    "len": 9,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_113.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_114",
+    "word": "Désolé pour le retard.",
+    "translation": "Sorry for the delay.",
+    "len": 23,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_114.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_115",
+    "word": "À plus tard.",
+    "translation": "See you later.",
+    "len": 12,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_115.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_116",
+    "word": "Au revoir.",
+    "translation": "Goodbye.",
+    "len": 10,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_116.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_117",
+    "word": "Pouvez-vous m'aider ?",
+    "translation": "Can you help me?",
+    "len": 22,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_117.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_118",
+    "word": "Bien sûr.",
+    "translation": "Of course.",
+    "len": 11,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_118.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_119",
+    "word": "On y va ?",
+    "translation": "Shall we go?",
+    "len": 10,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_119.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_120",
+    "word": "D'accord.",
+    "translation": "Agreed.",
+    "len": 9,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_120.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_121",
+    "word": "Avez-vous des frères ?",
+    "translation": "Do you have siblings?",
+    "len": 21,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_121.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_122",
+    "word": "Oui, j'ai une sœur.",
+    "translation": "Yes, I have a sister.",
+    "len": 19,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_122.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_123",
+    "word": "Je suis marié.",
+    "translation": "I am married.",
+    "len": 14,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_123.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_124",
+    "word": "Quel âge avez-vous ?",
+    "translation": "How old are you?",
+    "len": 20,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_124.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_125",
+    "word": "J'ai trente ans.",
+    "translation": "I am thirty years old.",
+    "len": 15,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_125.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_126",
+    "word": "On peut se voir ?",
+    "translation": "Can we meet?",
+    "len": 16,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_126.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_127",
+    "word": "À quelle heure ?",
+    "translation": "At what time?",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_127.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_128",
+    "word": "Ça me va.",
+    "translation": "That works for me.",
+    "len": 9,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_128.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_129",
+    "word": "Désolé, je ne peux pas.",
+    "translation": "Sorry, I can't.",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_129.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_130",
+    "word": "Appelez-moi demain.",
+    "translation": "Call me tomorrow.",
+    "len": 18,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_130.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_131",
+    "word": "C'est difficile à dire.",
+    "translation": "It is hard to say.",
+    "len": 23,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_131.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_132",
+    "word": "Je ne peux pas venir.",
+    "translation": "I can't come.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_132.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_133",
+    "word": "Peux-tu parler plus lentement ?",
+    "translation": "Can you speak more slowly?",
+    "len": 31,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_133.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_134",
+    "word": "Qu'est-ce que cela signifie ?",
+    "translation": "What does that mean?",
+    "len": 27,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_134.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_135",
+    "word": "Je suis d'accord avec toi.",
+    "translation": "I agree with you.",
+    "len": 25,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_135.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_136",
+    "word": "Peux-tu me donner un coup de main ?",
+    "translation": "Can you give me a hand?",
+    "len": 34,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_136.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_137",
+    "word": "Bien sûr, avec plaisir.",
+    "translation": "Of course, with pleasure.",
+    "len": 23,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_137.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_138",
+    "word": "Quel est ton numéro de téléphone ?",
+    "translation": "What is your phone number?",
+    "len": 32,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_138.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_139",
+    "word": "Appelle-moi quand tu es prêt.",
+    "translation": "Call me when you are ready.",
+    "len": 29,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_139.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_140",
+    "word": "Ne sois pas triste.",
+    "translation": "Don't be sad.",
+    "len": 18,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_140.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_141",
+    "word": "Prends soin de toi.",
+    "translation": "Take care of yourself.",
+    "len": 17,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_141.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_142",
+    "word": "Merci pour ta gentillesse.",
+    "translation": "Thank you for your kindness.",
+    "len": 26,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_142.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_143",
+    "word": "Est-ce qu'on se connaît ?",
+    "translation": "Do we know each other?",
+    "len": 24,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_143.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_144",
+    "word": "On s'est vus l'année dernière.",
+    "translation": "We saw each other last year.",
+    "len": 28,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_144.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_145",
+    "word": "C'est possible.",
+    "translation": "That's possible.",
+    "len": 14,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_145.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_146",
+    "word": "Je suis ravi de vous revoir.",
+    "translation": "I am delighted to see you again.",
+    "len": 27,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_146.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_147",
+    "word": "Comment va la famille ?",
+    "translation": "How is the family?",
+    "len": 21,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_147.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_148",
+    "word": "Tout le monde va bien.",
+    "translation": "Everyone is fine.",
+    "len": 20,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_148.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_149",
+    "word": "Merci de demander.",
+    "translation": "Thank you for asking.",
+    "len": 20,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_149.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_150",
+    "word": "Tu as beaucoup grandi.",
+    "translation": "You have grown a lot.",
+    "len": 20,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_150.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_151",
+    "word": "Tu ressembles à ton père.",
+    "translation": "You look like your father.",
+    "len": 24,
+    "tags": [
+      "social",
+      "family"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_151.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_152",
+    "word": "Ici, c'est mon ami.",
+    "translation": "Here, this is my friend.",
+    "len": 18,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_152.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_153",
+    "word": "Enchanté de faire ta connaissance.",
+    "translation": "Nice to make your acquaintance.",
+    "len": 29,
+    "tags": [
+      "social",
+      "introduction"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_153.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_154",
+    "word": "On peut se tutoyer ?",
+    "translation": "Can we speak informally?",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_154.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_155",
+    "word": "Oui, avec plaisir.",
+    "translation": "Yes, with pleasure.",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_155.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_156",
+    "word": "Qu'est-ce que tu racontes ?",
+    "translation": "What are you telling?",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_156.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_157",
+    "word": "Pas grand-chose.",
+    "translation": "Not much.",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_157.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_158",
+    "word": "Raconte-moi tout.",
+    "translation": "Tell me everything.",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_158.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_159",
+    "word": "Tu as des projets pour demain ?",
+    "translation": "Do you have plans for tomorrow?",
+    "len": 27,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_159.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_160",
+    "word": "Rien de prévu.",
+    "translation": "Nothing planned.",
+    "len": 16,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_160.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_161",
+    "word": "On pourrait se voir.",
+    "translation": "We could meet.",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_161.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_162",
+    "word": "C'est une bonne idée.",
+    "translation": "That's a good idea.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_162.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_163",
+    "word": "Quel endroit préfères-tu ?",
+    "translation": "Which place do you prefer?",
+    "len": 24,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_163.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_164",
+    "word": "Peu importe.",
+    "translation": "It doesn't matter.",
+    "len": 12,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_164.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_165",
+    "word": "Où est le café le plus proche ?",
+    "translation": "Where is the nearest cafe?",
+    "len": 27,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_165.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_166",
+    "word": "Je connais un endroit sympa.",
+    "translation": "I know a nice place.",
+    "len": 25,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_166.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_167",
+    "word": "Allons-y ensemble.",
+    "translation": "Let's go together.",
+    "len": 16,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_167.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_168",
+    "word": "Tu me manques.",
+    "translation": "I miss you.",
+    "len": 13,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_168.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_169",
+    "word": "À bientôt, j'espère.",
+    "translation": "See you soon, I hope.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_169.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_170",
+    "word": "Je pense souvent à toi.",
+    "translation": "I often think of you.",
+    "len": 23,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_170.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_171",
+    "word": "C'est réciproque.",
+    "translation": "It is mutual.",
+    "len": 14,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_171.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_172",
+    "word": "Tu as fait quoi ce week-end ?",
+    "translation": "What did you do this weekend?",
+    "len": 26,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_172.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_173",
+    "word": "Je suis allé me promener.",
+    "translation": "I went for a walk.",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_173.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_174",
+    "word": "C'était relaxant.",
+    "translation": "It was relaxing.",
+    "len": 15,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_174.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_175",
+    "word": "J'ai besoin d'une pause.",
+    "translation": "I need a break.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_175.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_176",
+    "word": "On prend un café ?",
+    "translation": "Shall we have a coffee?",
+    "len": 17,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_176.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_177",
+    "word": "Avec plaisir.",
+    "translation": "With pleasure.",
+    "len": 13,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_177.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_178",
+    "word": "Quoi de neuf ?",
+    "translation": "What's new?",
+    "len": 13,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_178.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_179",
+    "word": "Pas grand-chose de nouveau.",
+    "translation": "Not much new.",
+    "len": 23,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_179.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_180",
+    "word": "Et toi, comment ça va ?",
+    "translation": "And you, how are you?",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_180.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_181",
+    "word": "Je ne peux pas me plaindre.",
+    "translation": "I can't complain.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_181.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_182",
+    "word": "C'est la routine.",
+    "translation": "It is the routine.",
+    "len": 16,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_182.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_183",
+    "word": "Je travaille toujours.",
+    "translation": "I am still working.",
+    "len": 18,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_183.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_184",
+    "word": "C'est fatiguant.",
+    "translation": "It is tiring.",
+    "len": 14,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_184.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_185",
+    "word": "Tu as besoin de vacances.",
+    "translation": "You need a vacation.",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_185.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_186",
+    "word": "Tu as totalement raison.",
+    "translation": "You are totally right.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_186.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_187",
+    "word": "On prévoit quelque chose ?",
+    "translation": "Shall we plan something?",
+    "len": 24,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_187.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_188",
+    "word": "Pourquoi pas après-demain ?",
+    "translation": "Why not the day after tomorrow?",
+    "len": 25,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_188.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_189",
+    "word": "C'est noté.",
+    "translation": "It is noted.",
+    "len": 11,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_189.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_190",
+    "word": "On reste en contact.",
+    "translation": "Let's stay in touch.",
+    "len": 19,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_190.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_191",
+    "word": "J'ai hâte d'y être.",
+    "translation": "I can't wait for it.",
+    "len": 25,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_191.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_192",
+    "word": "Moi aussi.",
+    "translation": "Me too.",
+    "len": 10,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_192.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_193",
+    "word": "À très bientôt.",
+    "translation": "See you very soon.",
+    "len": 14,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_193.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_194",
+    "word": "Passe une bonne soirée.",
+    "translation": "Have a good evening.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_194.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_195",
+    "word": "Bonne fin de semaine.",
+    "translation": "Have a good weekend.",
+    "len": 20,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_195.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_196",
+    "word": "Au plaisir.",
+    "translation": "Looking forward to seeing you.",
+    "len": 11,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_196.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_197",
+    "word": "Salue tout le monde pour moi.",
+    "translation": "Say hello to everyone for me.",
+    "len": 29,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_197.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_198",
+    "word": "Je n'y manquerai pas.",
+    "translation": "I will certainly do so.",
+    "len": 21,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_198.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_199",
+    "word": "Merci, c'est gentil.",
+    "translation": "Thank you, that is kind.",
+    "len": 20,
+    "tags": [
+      "social",
+      "politeness"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_199.mp3"
+    }
+  },
+  {
+    "id": "fr_sent_200",
+    "word": "À une prochaine fois.",
+    "translation": "Until next time.",
+    "len": 22,
+    "tags": [
+      "social",
+      "conversation"
+    ],
+    "audio": {
+      "default": "/audio/sentences_fr/fr_sent_200.mp3"
+    }
+  }
+]
