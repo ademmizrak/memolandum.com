@@ -472,247 +472,263 @@ export default function RetroQuiz({
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
 
-    const update = () => {
-      const state = stateRef.current;
-      const entities = entitiesRef.current;
+    let lastTime = performance.now();
+    const fpsInterval = 1000 / 60; // 16.67ms per frame
 
-      if (state.activeScreen !== 'playing') {
-        animId = requestAnimationFrame(update);
-        return;
-      }
+    const update = (timestamp) => {
+      animId = requestAnimationFrame(update);
 
-      // 1. Tick Timer (Only if not transitioning)
-      if (!state.transitioning && state.currentQuestion) {
-        state.timeRemaining -= 1 / 60; // Approx 60fps
-        
-        // Push floating timer value to React state once per second
-        const sec = Math.max(0, Math.ceil(state.timeRemaining));
-        setTimeLeft(prev => prev !== sec ? sec : prev);
+      const elapsed = timestamp - lastTime;
 
-        if (state.timeRemaining <= 0) {
-          state.timeRemaining = 0;
-          handleTimeout();
+      // If enough time has passed, draw the next frame
+      if (elapsed >= fpsInterval) {
+        // Get ready for next frame by subtracting excess time
+        lastTime = timestamp - (elapsed % fpsInterval);
+
+        const state = stateRef.current;
+        const entities = entitiesRef.current;
+
+        if (state.activeScreen !== 'playing') {
+          return;
         }
-      }
 
-      // 2. Smoothly steer ship to target coordinates
-      const ship = entities.ship;
-      ship.x += (ship.targetX - ship.x) * 0.28;
-      // Clamp inside canvas bounds
-      ship.x = Math.max(25, Math.min(canvas.width - 25, ship.x));
+        // 1. Tick Timer (Only if not transitioning)
+        if (!state.transitioning && state.currentQuestion) {
+          state.timeRemaining -= 1 / 60; // Approx 60fps
+          
+          // Push floating timer value to React state once per second
+          const sec = Math.max(0, Math.ceil(state.timeRemaining));
+          setTimeLeft(prev => prev !== sec ? sec : prev);
 
-      // 3. Auto firing trigger (Every 400ms)
-      const now = Date.now();
-      if (!state.transitioning && now - entities.lastShootTime > 400) {
-        spawnLaser();
-        entities.lastShootTime = now;
-      }
-
-      // 4. Update Stars background (scrolling down)
-      entities.stars.forEach(s => {
-        s.y += s.speed;
-        if (s.y > canvas.height) {
-          s.y = -10;
-          s.x = Math.random() * canvas.width;
+          if (state.timeRemaining <= 0) {
+            state.timeRemaining = 0;
+            handleTimeout();
+          }
         }
-      });
 
-      // 5. Update Lasers
-      entities.lasers.forEach((l, idx) => {
-        l.y += l.vy;
-        // Collision with targets
-        entities.targets.forEach(t => {
-          if (t.active && !t.isHit && !state.transitioning) {
-            const left = t.x - t.width / 2;
-            const right = t.x + t.width / 2;
-            const top = t.y - t.height / 2;
-            const bottom = t.y + t.height / 2;
+        // 2. Smoothly steer ship to target coordinates
+        const ship = entities.ship;
+        ship.x += (ship.targetX - ship.x) * 0.28;
+        // Clamp inside canvas bounds
+        ship.x = Math.max(25, Math.min(canvas.width - 25, ship.x));
 
-            if (l.x >= left && l.x <= right && l.y >= top && l.y <= bottom) {
-              // Collide! Remove laser, mark target hit
-              entities.lasers.splice(idx, 1);
-              t.isHit = true;
-              t.hitAnimationTimer = 18; // Frames of flash
-              
-              if (t.isCorrect) {
-                // Correct Choice hit!
-                spawnParticles(t.x, t.y, 25, true);
-                handleCorrectAnswer(t.x, t.y);
-              } else {
-                // Wrong Choice hit!
-                spawnParticles(t.x, t.y, 15, false);
-                t.active = false;
-                handleIncorrectAnswer();
+        // 3. Auto firing trigger (Every 400ms)
+        const now = Date.now();
+        if (!state.transitioning && now - entities.lastShootTime > 400) {
+          spawnLaser();
+          entities.lastShootTime = now;
+        }
+
+        // 4. Update Stars background (scrolling down)
+        entities.stars.forEach(s => {
+          s.y += s.speed;
+          if (s.y > canvas.height) {
+            s.y = -10;
+            s.x = Math.random() * canvas.width;
+          }
+        });
+
+        // 5. Update Lasers & Collisions (Safe backward loop)
+        for (let i = entities.lasers.length - 1; i >= 0; i--) {
+          const l = entities.lasers[i];
+          l.y += l.vy;
+
+          let hit = false;
+          for (let j = 0; j < entities.targets.length; j++) {
+            const t = entities.targets[j];
+            if (t.active && !t.isHit && !state.transitioning) {
+              const left = t.x - t.width / 2;
+              const right = t.x + t.width / 2;
+              const top = t.y - t.height / 2;
+              const bottom = t.y + t.height / 2;
+
+              if (l.x >= left && l.x <= right && l.y >= top && l.y <= bottom) {
+                hit = true;
+                t.isHit = true;
+                t.hitAnimationTimer = 18; // Frames of flash
+                
+                if (t.isCorrect) {
+                  // Correct Choice hit!
+                  spawnParticles(t.x, t.y, 25, true);
+                  handleCorrectAnswer(t.x, t.y);
+                } else {
+                  // Wrong Choice hit!
+                  spawnParticles(t.x, t.y, 15, false);
+                  t.active = false;
+                  handleIncorrectAnswer();
+                }
+                break; // Stop checking other targets for this laser
               }
             }
           }
-        });
-      });
-      // Remove out of bounds lasers
-      entities.lasers = entities.lasers.filter(l => l.y > -20);
 
-      // 6. Update Targets y-coordinates in sync with Timer
-      if (!state.transitioning && state.currentQuestion) {
-        const spawnY = entities.spawnY;
-        const limitY = entities.dangerZoneY;
-        const progress = 1.0 - (state.timeRemaining / 10.0); // 0 to 1
-        const currentY = spawnY + progress * (limitY - spawnY);
-
-        entities.targets.forEach(t => {
-          if (t.active && !t.isHit) {
-            t.y = currentY;
+          if (hit || l.y < -20) {
+            entities.lasers.splice(i, 1);
           }
+        }
+
+        // 6. Update Targets y-coordinates in sync with Timer
+        if (!state.transitioning && state.currentQuestion) {
+          const spawnY = entities.spawnY;
+          const limitY = entities.dangerZoneY;
+          const progress = 1.0 - (state.timeRemaining / 10.0); // 0 to 1
+          const currentY = spawnY + progress * (limitY - spawnY);
+
+          entities.targets.forEach(t => {
+            if (t.active && !t.isHit) {
+              t.y = currentY;
+            }
+          });
+        }
+
+        // 7. Update Particles (Safe backward loop)
+        for (let i = entities.particles.length - 1; i >= 0; i--) {
+          const p = entities.particles[i];
+          p.x += p.vx;
+          p.y += p.vy;
+          p.alpha -= p.decay;
+          if (p.alpha <= 0) {
+            entities.particles.splice(i, 1);
+          }
+        }
+
+        // 8. Timers decay
+        if (entities.flashRedTimer > 0) entities.flashRedTimer--;
+        if (entities.flashGreenTimer > 0) entities.flashGreenTimer--;
+        if (entities.successTextTimer > 0) entities.successTextTimer--;
+
+        // --- RENDERING ---
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // 1. Draw Starfield
+        ctx.fillStyle = '#ffffff';
+        entities.stars.forEach(s => {
+          ctx.globalAlpha = s.speed / 1.5;
+          ctx.fillRect(s.x, s.y, s.size, s.size);
         });
-      }
+        ctx.globalAlpha = 1.0;
 
-      // 7. Update Particles
-      entities.particles.forEach((p, idx) => {
-        p.x += p.vx;
-        p.y += p.vy;
-        p.alpha -= p.decay;
-        if (p.alpha <= 0) {
-          entities.particles.splice(idx, 1);
-        }
-      });
-
-      // 8. Timers decay
-      if (entities.flashRedTimer > 0) entities.flashRedTimer--;
-      if (entities.flashGreenTimer > 0) entities.flashGreenTimer--;
-      if (entities.successTextTimer > 0) entities.successTextTimer--;
-
-      // --- RENDERING ---
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-      // 1. Draw Starfield
-      ctx.fillStyle = '#ffffff';
-      entities.stars.forEach(s => {
-        ctx.globalAlpha = s.speed / 1.5;
-        ctx.fillRect(s.x, s.y, s.size, s.size);
-      });
-      ctx.globalAlpha = 1.0;
-
-      // 2. Draw Danger Line (Flashing red warning zone)
-      ctx.save();
-      ctx.strokeStyle = `rgba(239, 68, 68, ${0.25 + Math.sin(Date.now() / 150) * 0.15})`;
-      ctx.shadowColor = '#ef4444';
-      ctx.shadowBlur = 12;
-      ctx.lineWidth = 3;
-      ctx.setLineDash([8, 6]);
-      ctx.beginPath();
-      ctx.moveTo(0, entities.dangerZoneY);
-      ctx.lineTo(canvas.width, entities.dangerZoneY);
-      ctx.stroke();
-      ctx.restore();
-
-      // Danger Text warning
-      if (!state.transitioning && state.timeRemaining < 3.5) {
+        // 2. Draw Danger Line (Flashing red warning zone)
         ctx.save();
-        ctx.fillStyle = '#f87171';
-        ctx.font = 'bold 11px monospace';
-        ctx.textAlign = 'center';
-        ctx.fillText('⚡ CRITICAL DANGER ZONE // YAKLAŞIYOR ⚡', canvas.width / 2, entities.dangerZoneY - 12);
-        ctx.restore();
-      }
-
-      // 3. Draw Lasers
-      entities.lasers.forEach(l => {
-        ctx.save();
-        ctx.fillStyle = '#22d3ee';
-        ctx.shadowColor = '#22d3ee';
-        ctx.shadowBlur = 8;
-        ctx.fillRect(l.x - l.width / 2, l.y, l.width, l.height);
-        ctx.restore();
-      });
-
-      // 4. Draw Targets (Option Boxes)
-      entities.targets.forEach(t => {
-        if (!t.active) return;
-
-        ctx.save();
-        let borderGlow = '#06b6d4'; // Cyan default
-        let fillStyle = 'rgba(15, 23, 42, 0.85)';
-        let textColor = '#e2e8f0';
-
-        if (t.isHit) {
-          borderGlow = t.isCorrect ? '#10b981' : '#f43f5e';
-          fillStyle = t.isCorrect ? 'rgba(16, 185, 129, 0.4)' : 'rgba(244, 63, 94, 0.4)';
-          textColor = '#ffffff';
-        }
-
-        // Draw outer glow shadow
-        ctx.shadowColor = borderGlow;
+        ctx.strokeStyle = `rgba(239, 68, 68, ${0.25 + Math.sin(Date.now() / 150) * 0.15})`;
+        ctx.shadowColor = '#ef4444';
         ctx.shadowBlur = 12;
-
-        // Rounded box shape
-        drawRoundedRect(
-          ctx, 
-          t.x - t.width / 2, 
-          t.y - t.height / 2, 
-          t.width, 
-          t.height, 
-          10, 
-          fillStyle, 
-          borderGlow, 
-          2
-        );
-
-        // Clear shadow for text rendering
-        ctx.shadowBlur = 0;
-
-        // Text inside option box
-        ctx.fillStyle = textColor;
-        drawTextFit(ctx, t.value.toUpperCase(), t.x, t.y, t.width - 15, 14);
-        ctx.restore();
-      });
-
-      // 5. Draw Particles
-      entities.particles.forEach(p => {
-        ctx.save();
-        ctx.fillStyle = p.color;
-        ctx.globalAlpha = p.alpha;
-        ctx.shadowColor = p.color;
-        ctx.shadowBlur = 6;
+        ctx.lineWidth = 3;
+        ctx.setLineDash([8, 6]);
         ctx.beginPath();
-        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-        ctx.fill();
+        ctx.moveTo(0, entities.dangerZoneY);
+        ctx.lineTo(canvas.width, entities.dangerZoneY);
+        ctx.stroke();
         ctx.restore();
-      });
-      ctx.globalAlpha = 1.0;
 
-      // 6. Draw Spaceship Fighter
-      ctx.save();
-      // Apply screen shaking on red flash
-      if (entities.flashRedTimer > 0) {
-        const shakeX = (Math.random() - 0.5) * 6;
-        const shakeY = (Math.random() - 0.5) * 6;
-        ctx.translate(shakeX, shakeY);
-      }
-      drawShip(ctx, ship.x, ship.y, state.shields);
-      ctx.restore();
+        // Danger Text warning
+        if (!state.transitioning && state.timeRemaining < 3.5) {
+          ctx.save();
+          ctx.fillStyle = '#f87171';
+          ctx.font = 'bold 11px monospace';
+          ctx.textAlign = 'center';
+          ctx.fillText('⚡ CRITICAL DANGER ZONE // YAKLAŞIYOR ⚡', canvas.width / 2, entities.dangerZoneY - 12);
+          ctx.restore();
+        }
 
-      // 7. Screen overlays (Damage flash, victory flash)
-      if (entities.flashRedTimer > 0) {
-        ctx.fillStyle = `rgba(244, 63, 94, ${entities.flashRedTimer / 45})`;
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-      }
-      if (entities.flashGreenTimer > 0) {
-        ctx.fillStyle = `rgba(16, 185, 129, ${entities.flashGreenTimer / 45})`;
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-      }
+        // 3. Draw Lasers
+        entities.lasers.forEach(l => {
+          ctx.save();
+          ctx.fillStyle = '#22d3ee';
+          ctx.shadowColor = '#22d3ee';
+          ctx.shadowBlur = 8;
+          ctx.fillRect(l.x - l.width / 2, l.y, l.width, l.height);
+          ctx.restore();
+        });
 
-      // Success feedback texts
-      if (entities.successTextTimer > 0) {
+        // 4. Draw Targets (Option Boxes)
+        entities.targets.forEach(t => {
+          if (!t.active) return;
+
+          ctx.save();
+          let borderGlow = '#06b6d4'; // Cyan default
+          let fillStyle = 'rgba(15, 23, 42, 0.85)';
+          let textColor = '#e2e8f0';
+
+          if (t.isHit) {
+            borderGlow = t.isCorrect ? '#10b981' : '#f43f5e';
+            fillStyle = t.isCorrect ? 'rgba(16, 185, 129, 0.4)' : 'rgba(244, 63, 94, 0.4)';
+            textColor = '#ffffff';
+          }
+
+          // Draw outer glow shadow
+          ctx.shadowColor = borderGlow;
+          ctx.shadowBlur = 12;
+
+          // Rounded box shape
+          drawRoundedRect(
+            ctx, 
+            t.x - t.width / 2, 
+            t.y - t.height / 2, 
+            t.width, 
+            t.height, 
+            10, 
+            fillStyle, 
+            borderGlow, 
+            2
+          );
+
+          // Clear shadow for text rendering
+          ctx.shadowBlur = 0;
+
+          // Text inside option box
+          ctx.fillStyle = textColor;
+          drawTextFit(ctx, t.value.toUpperCase(), t.x, t.y, t.width - 15, 14);
+          ctx.restore();
+        });
+
+        // 5. Draw Particles
+        entities.particles.forEach(p => {
+          ctx.save();
+          ctx.fillStyle = p.color;
+          ctx.globalAlpha = p.alpha;
+          ctx.shadowColor = p.color;
+          ctx.shadowBlur = 6;
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.restore();
+        });
+        ctx.globalAlpha = 1.0;
+
+        // 6. Draw Spaceship Fighter
         ctx.save();
-        ctx.fillStyle = '#34d399';
-        ctx.font = 'black 22px monospace';
-        ctx.textAlign = 'center';
-        ctx.shadowColor = '#10b981';
-        ctx.shadowBlur = 10;
-        ctx.fillText('TARGET ACQUIRED! (+100)', canvas.width / 2, canvas.height / 2 - 20);
+        // Apply screen shaking on red flash
+        if (entities.flashRedTimer > 0) {
+          const shakeX = (Math.random() - 0.5) * 6;
+          const shakeY = (Math.random() - 0.5) * 6;
+          ctx.translate(shakeX, shakeY);
+        }
+        drawShip(ctx, ship.x, ship.y, state.shields);
         ctx.restore();
-      }
 
-      animId = requestAnimationFrame(update);
+        // 7. Screen overlays (Damage flash, victory flash)
+        if (entities.flashRedTimer > 0) {
+          ctx.fillStyle = `rgba(244, 63, 94, ${entities.flashRedTimer / 45})`;
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+        }
+        if (entities.flashGreenTimer > 0) {
+          ctx.fillStyle = `rgba(16, 185, 129, ${entities.flashGreenTimer / 45})`;
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+        }
+
+        // Success feedback texts
+        if (entities.successTextTimer > 0) {
+          ctx.save();
+          ctx.fillStyle = '#34d399';
+          ctx.font = 'black 22px monospace';
+          ctx.textAlign = 'center';
+          ctx.shadowColor = '#10b981';
+          ctx.shadowBlur = 10;
+          ctx.fillText('TARGET ACQUIRED! (+100)', canvas.width / 2, canvas.height / 2 - 20);
+          ctx.restore();
+        }
+      }
     };
 
     animId = requestAnimationFrame(update);
