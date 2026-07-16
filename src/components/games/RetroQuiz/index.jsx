@@ -742,6 +742,8 @@ export default function RetroQuiz({
   // Touch/Mouse move handler (Ship steering)
   const handlePointerMove = (e) => {
     if (activeScreen !== 'playing') return;
+    if (!entitiesRef.current.isPointerDown) return; // Ignore steering if not dragging/clicking
+    
     const canvas = canvasRef.current;
     if (!canvas) return;
 
