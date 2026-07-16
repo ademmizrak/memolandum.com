@@ -140,13 +140,13 @@ export default function Header() {
                 </div>
                 <button 
                   onClick={() => openAuthModal('login')}
-                  className="text-sm font-bold text-gray-300 hover:text-white px-3 py-1.5 rounded-lg transition-colors hover:bg-white/5 border border-dark-600"
+                  className="desktop-only-btn text-sm font-bold text-gray-300 hover:text-white px-3 py-1.5 rounded-lg transition-colors hover:bg-white/5 border border-dark-600"
                 >
                   Giriş
                 </button>
                 <button 
                   onClick={() => openAuthModal('register')}
-                  className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 text-white text-sm font-bold px-4 py-1.5 rounded-lg transition-colors shadow-lg shadow-cyan-500/20"
+                  className="desktop-only-btn bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 text-white text-sm font-bold px-4 py-1.5 rounded-lg transition-colors shadow-lg shadow-cyan-500/20"
                 >
                   Üye Ol
                 </button>
@@ -188,6 +188,36 @@ export default function Header() {
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
               {t("nav.support")}
             </a>
+
+            <div className="mobile-dropdown-divider border-t border-white/5 my-2" />
+            
+            {isAuthenticated ? (
+              <Link href="/profile" className="mobile-nav-item" onClick={() => setIsMobileMenuOpen(false)}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+                {t("nav.profile") || "Profilim"}
+              </Link>
+            ) : (
+              <div className="flex flex-col gap-2 p-3">
+                <button
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    openAuthModal('login');
+                  }}
+                  className="w-full text-center text-sm font-bold text-gray-200 bg-slate-800 hover:bg-slate-700 border border-slate-700 py-2 rounded-lg transition-colors"
+                >
+                  Giriş Yap
+                </button>
+                <button
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    openAuthModal('register');
+                  }}
+                  className="w-full text-center text-sm font-bold text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 py-2 rounded-lg transition-colors shadow-lg shadow-cyan-500/10"
+                >
+                  Üye Ol
+                </button>
+              </div>
+            )}
           </div>
         )}
         
@@ -482,6 +512,9 @@ export default function Header() {
   }
   .xp-text {
     font-size: 12px;
+  }
+  .desktop-only-btn {
+    display: none !important;
   }
 }
 
