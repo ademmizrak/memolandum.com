@@ -984,7 +984,7 @@ export default function RetroQuiz({
         {/* Footer info/controls on mobile */}
         {activeScreen === 'playing' && (
           <div className="w-full text-center text-[9px] font-mono text-slate-500 tracking-widest mt-0">
-            TRIVIA SHOOTER ENGINE v2.0 // DIRECT STEERING READY
+            MEMOLANDUM TRIVIA ENGINE v2.0 // DIRECT STEERING READY
           </div>
         )}
 
