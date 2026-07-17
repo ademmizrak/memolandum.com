@@ -36,7 +36,12 @@ const THEME_COLORS = [
 ];
 
 export default function ProfilePage() {
-  const { profile, changeAvatar, isAuthenticated, isAuthLoading, uid, globalStats: localStats } = useMemolandumStore();
+  const profile = useMemolandumStore((s) => s.profile);
+  const changeAvatar = useMemolandumStore((s) => s.changeAvatar);
+  const isAuthenticated = useMemolandumStore((s) => s.isAuthenticated);
+  const uid = useMemolandumStore((s) => s.uid);
+  const localStats = useMemolandumStore((s) => s.globalStats);
+
   const [globalStats, setGlobalStats] = useState(null);
   const [mounted, setMounted] = useState(false);
   const [isEditingUsername, setIsEditingUsername] = useState(false);
@@ -97,6 +102,9 @@ export default function ProfilePage() {
           } else {
             setGlobalStats(localStats);
           }
+        }, (err) => {
+          console.warn("Profile stats snapshot error:", err);
+          setGlobalStats(localStats);
         });
         return () => unsub();
       } else {
@@ -106,7 +114,7 @@ export default function ProfilePage() {
     }
   }, [mounted, isAuthenticated, uid, localStats]);
 
-  if (!mounted || isAuthLoading) {
+  if (!mounted) {
     return (
       <div className="min-h-screen bg-[#0b101a] flex items-center justify-center">
         <div className="w-10 h-10 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin"></div>
