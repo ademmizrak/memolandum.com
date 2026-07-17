@@ -12,12 +12,15 @@ export default function sitemap() {
     "invaders",
     "wordascent",
     "worddrop",
+    "quiz",
   ];
 
   const staticRoutes = [
-    { path: "/", priority: 1.0, changeFrequency: "daily" },
-    { path: "/leaderboard/", priority: 0.9, changeFrequency: "hourly" },
-    { path: "/vocabulary/", priority: 0.85, changeFrequency: "weekly" },
+    { path: "/",            priority: 1.0,  changeFrequency: "daily"   },
+    { path: "/leaderboard/",priority: 0.9,  changeFrequency: "hourly"  },
+    { path: "/vocabulary/", priority: 0.85, changeFrequency: "weekly"  },
+    { path: "/profile/",    priority: 0.7,  changeFrequency: "monthly" },
+    { path: "/about/",      priority: 0.9,  changeFrequency: "weekly"  },
   ].map((r) => ({
     url: absoluteUrl(r.path),
     lastModified: now,
@@ -29,17 +32,11 @@ export default function sitemap() {
     url: absoluteUrl(`/games/${slug}/`),
     lastModified: now,
     changeFrequency: "weekly",
-    priority: 0.8,
+    priority: 0.85,
   }));
 
   return [
     ...staticRoutes,
     ...gameRoutes,
-    {
-      url: absoluteUrl("/about/"),
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.85,
-    },
   ];
 }
