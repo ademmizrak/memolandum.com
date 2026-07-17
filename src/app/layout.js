@@ -18,6 +18,7 @@ import {
   buildSoftwareAppJsonLd,
   buildVideoGameJsonLd,
   buildLearningListJsonLd,
+  buildLearningResourceJsonLd,
 } from "../lib/seo/jsonLd";
 
 const geistSans = Geist({
@@ -56,15 +57,21 @@ export const metadata = {
   alternates: {
     canonical: absoluteUrl("/"),
     languages: {
-      tr: absoluteUrl("/"),
-      en: `${SITE_URL}/?lang=en`,
+      "tr": absoluteUrl("/"),
+      "en": `${SITE_URL}/?lang=en`,
+      "de": `${SITE_URL}/?lang=de`,
+      "fr": `${SITE_URL}/?lang=fr`,
+      "es": `${SITE_URL}/?lang=es`,
+      "ja": `${SITE_URL}/?lang=ja`,
+      "zh": `${SITE_URL}/?lang=zh`,
+      "ar": `${SITE_URL}/?lang=ar`,
       "x-default": absoluteUrl("/"),
     },
   },
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    alternateLocale: ["en_US"],
+    alternateLocale: ["en_US", "de_DE", "fr_FR", "es_ES", "ja_JP", "zh_CN", "ar_SA"],
     url: absoluteUrl("/"),
     title: DEFAULT_TITLE,
     description: DEFAULT_DESCRIPTION,
@@ -74,7 +81,7 @@ export const metadata = {
         url: OG_IMAGE,
         width: 1200,
         height: 630,
-        alt: "Memolandum — Oyna, Ezberle",
+        alt: "Memolandum — Kelime Ezberleme Oyunu | Vocabulary Game",
       },
     ],
   },
@@ -89,7 +96,20 @@ export const metadata = {
   },
   other: {
     "geo.region": "TR",
-    "content-language": "tr",
+    "geo.placename": "Ankara, Türkiye",
+    "geo.position": "39.9208;32.8541",
+    "ICBM": "39.9208, 32.8541",
+    "content-language": "tr, en, de, fr, es, ja, zh, ar",
+    "rating": "general",
+    "revisit-after": "3 days",
+    "language": "tr, en",
+    "DC.title": DEFAULT_TITLE,
+    "DC.description": DEFAULT_DESCRIPTION,
+    "DC.subject": "vocabulary learning, spaced repetition, language game, kelime ezberleme",
+    "DC.type": "InteractiveResource",
+    "DC.format": "text/html",
+    "DC.language": "tr, en",
+    "DC.relation": "https://memolandum.com",
   },
 };
 
@@ -105,6 +125,7 @@ const jsonLdBlocks = [
   buildWebSiteJsonLd(),
   buildSoftwareAppJsonLd(),
   buildVideoGameJsonLd(),
+  buildLearningResourceJsonLd(),
   buildFaqJsonLd(),
   buildLearningListJsonLd(),
 ];
