@@ -479,6 +479,9 @@ export default function AboutClient() {
           </div>
 
           {/* ── 14 Dil Seçici ──────────────────────────────────── */}
+          <div style={{ fontSize: 11, fontWeight: 700, color: "#475569", letterSpacing: "0.15em", textTransform: "uppercase", marginBottom: 12, textAlign: "center", fontFamily: "monospace" }}>
+            {activeLang === "tr" ? "Açıklama Dilini Seçin" : activeLang === "ar" ? "اختر لغة الشرح" : activeLang === "ru" ? "Выберите язык описания" : activeLang === "ko" ? "설명 언어 선택" : activeLang === "zh" ? "选择说明语言" : activeLang === "el" ? "Επιλέξτε γλώσσα επεξήγησης" : activeLang === "osm" ? "Lisân-ı Beyânı İntihâb Ediniz" : "Select Explanation Language"}
+          </div>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 7, marginBottom: 44 }}>
             {ALL_LANGS.map((l) => (
               <button
