@@ -6,368 +6,441 @@ import Header from "../../components/Header";
 import { useT } from "../../lib/i18n/LocaleProvider";
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   Bilimsel İçerik — 8 dil, araştırma & bilim insanı atıflarıyla
+   12 Dil + Bilimsel İçerik
+   Desteklenen çiftler: TR-EN, DE, FR, ES, IT, JA, ZH, AR, RU, KO, PT, EL, OSM
 ───────────────────────────────────────────────────────────────────────────── */
 
 const SCIENCE_POINTS = [
   {
-    id: "subliminal",
-    accent: "#22d3ee",
-    icon: "🧠",
+    id: "subliminal", accent: "#22d3ee", icon: "🧠",
     labels: {
       tr: "01. Subliminal & Örtük Öğrenme",
       en: "01. Subliminal & Implicit Learning",
       de: "01. Subliminal- & Implizites Lernen",
       fr: "01. Apprentissage Subliminal & Implicite",
       es: "01. Aprendizaje Subliminal & Implícito",
+      it: "01. Apprendimento Subliminale & Implicito",
       ja: "01. 潜在的・暗示的学習",
       zh: "01. 潜意识与隐式学习",
       ar: "01. التعلم تحت الواعي والضمني",
+      ru: "01. Сублиминальное и неявное обучение",
+      ko: "01. 잠재의식 & 암묵적 학습",
+      pt: "01. Aprendizagem Subliminar & Implícita",
+      el: "01. Υποσυνείδητη & Σιωπηρή Μάθηση",
+      osm: "01. Bilinçdışı & Örtük Öğrenme",
     },
     theory: {
       tr: "Araştırmacı Arthur Reber'in 1967'de keşfettiği örtük öğrenme teorisi; insan beyninin farkında olmadığı uyaranlar aracılığıyla karmaşık örüntüleri sessizce içselleştirebildiğini kanıtlar.",
-      en: "Researcher Arthur Reber's 1967 discovery of implicit learning theory proves that the human brain can silently internalize complex patterns through stimuli it isn't consciously aware of.",
-      de: "Arthur Rebers 1967 entdeckte Theorie des impliziten Lernens beweist, dass das menschliche Gehirn komplexe Muster durch unbewusste Reize still verinnerlichen kann.",
-      fr: "La théorie de l'apprentissage implicite, découverte par Arthur Reber en 1967, prouve que le cerveau humain peut intérioriser silencieusement des schémas complexes à travers des stimuli non conscients.",
-      es: "La teoría del aprendizaje implícito, descubierta por Arthur Reber en 1967, demuestra que el cerebro humano puede internalizar silenciosamente patrones complejos a través de estímulos de los que no es consciente.",
-      ja: "アーサー・レーバーが1967年に発見した暗示的学習理論は、人間の脳が意識的に気づかない刺激を通じて複雑なパターンを静かに内在化できることを証明しています。",
-      zh: "研究员阿瑟·雷伯1967年发现的隐式学习理论证明，人类大脑可以通过无意识刺激静默地内化复杂模式。",
-      ar: "تُثبت نظرية التعلم الضمني التي اكتشفها الباحث آرثر ريبر عام 1967 أن الدماغ البشري قادر على استيعاب أنماط معقدة بصمت عبر مثيرات غير واعية.",
+      en: "Researcher Arthur Reber's 1967 discovery proves the brain silently internalizes complex patterns through stimuli it isn't consciously aware of — the foundation of game-based vocabulary encoding.",
+      de: "Arthur Rebers 1967 entdeckte Theorie des impliziten Lernens beweist, dass das Gehirn Muster durch unbewusste Reize verinnerlichen kann.",
+      fr: "La théorie de l'apprentissage implicite d'Arthur Reber (1967) prouve que le cerveau peut intérioriser des schémas complexes à travers des stimuli non conscients.",
+      es: "La teoría del aprendizaje implícito de Arthur Reber (1967) demuestra que el cerebro internaliza patrones complejos a través de estímulos inconscientes.",
+      it: "La teoria dell'apprendimento implicito di Arthur Reber (1967) dimostra che il cervello può interiorizzare silenziosamente schemi complessi attraverso stimoli inconsci.",
+      ja: "アーサー・レーバーの1967年の発見は、脳が意識的に気づかない刺激を通じて複雑なパターンを静かに内在化できることを証明しています。",
+      zh: "阿瑟·雷伯1967年的发现证明，大脑可以通过无意识刺激静默地内化复杂模式。",
+      ar: "تُثبت نظرية آرثر ريبر (1967) أن الدماغ يستوعب أنماطًا معقدة عبر مثيرات غير واعية.",
+      ru: "Исследование Артура Ребера (1967) доказывает, что мозг бессознательно усваивает сложные паттерны через неосознаваемые стимулы.",
+      ko: "아서 레버의 1967년 연구는 뇌가 의식하지 못하는 자극을 통해 복잡한 패턴을 조용히 내면화할 수 있음을 증명합니다.",
+      pt: "A descoberta de Arthur Reber em 1967 prova que o cérebro internaliza silenciosamente padrões complexos através de estímulos inconscientes.",
+      el: "Η ανακάλυψη του Arthur Reber (1967) αποδεικνύει ότι ο εγκέφαλος εσωτερικεύει αθόρυβα σύνθετα μοτίβα μέσα από ασυνείδητα ερεθίσματα.",
+      osm: "Reber'in 1967'deki keşfi; zihnin, şuurun dışındaki uyarılarla karmaşık örüntüleri sessizce içine sindirebildiğini ispat eder.",
     },
     solution: {
-      tr: "memolandum.com'un oyun motorlarında, siz ana hedefe odaklanmışken periferik vizyon alanınızda hedef dildeki kelime kalıpları beyninize servis edilir. Skor üretmeye çalışırken, beyniniz arka planda dili doğal kodlarıyla öğrenir.",
-      en: "In memolandum.com's game engines, while you focus on the main target, word patterns in the target language are served to your brain in your peripheral vision. While trying to score, your brain learns the language with its natural codes in the background.",
-      de: "In den Spielmotoren von memolandum.com werden Ihnen Wortmuster der Zielsprache im peripheren Sichtfeld präsentiert, während Sie sich auf das Hauptziel konzentrieren. Beim Punktesammeln lernt Ihr Gehirn die Sprache mit ihren natürlichen Codes.",
-      fr: "Dans les moteurs de jeu de memolandum.com, pendant que vous vous concentrez sur la cible principale, des modèles de mots dans la langue cible sont transmis à votre cerveau dans votre vision périphérique. En essayant de marquer des points, votre cerveau apprend la langue en arrière-plan.",
-      es: "En los motores de juego de memolandum.com, mientras te concentras en el objetivo principal, los patrones de palabras en el idioma objetivo se sirven a tu cerebro en tu visión periférica. Mientras intentas hacer puntuación, tu cerebro aprende el idioma con sus códigos naturales en segundo plano.",
-      ja: "memolandum.comのゲームエンジンでは、メインターゲットに集中している間、周辺視野でターゲット言語の単語パターンが脳に提供されます。スコアを出しながら、脳はバックグラウンドで言語を自然なコードで学習します。",
-      zh: "在memolandum.com的游戏引擎中，当您专注于主要目标时，目标语言的单词模式会在您的周边视野中传递给您的大脑。在尝试得分的同时，您的大脑在后台用其自然代码学习语言。",
-      ar: "في محركات الألعاب لـ memolandum.com، بينما تركّز على الهدف الرئيسي، تُغذَّى الأنماط اللغوية للغة المستهدفة إلى دماغك عبر مجال الرؤية المحيطية. وأثناء سعيك لتسجيل النقاط، يتعلم دماغك اللغة بشفراتها الطبيعية في الخلفية.",
+      tr: "Oyun motorlarında, siz ana hedefe odaklanmışken periferik vizyon alanınızda hedef dildeki kelime kalıpları beyninize servis edilir.",
+      en: "While you focus on the game target, word patterns in the target language are delivered to your brain in the peripheral visual field — encoding without effort.",
+      de: "Während Sie sich auf das Spielziel konzentrieren, werden Zielsprachen-Wortmuster in Ihrem peripheren Sichtfeld verarbeitet.",
+      fr: "Pendant que vous vous concentrez sur l'objectif du jeu, des modèles de mots sont transmis à votre cerveau dans votre vision périphérique.",
+      es: "Mientras te concentras en el objetivo del juego, los patrones de palabras se entregan a tu cerebro en tu campo visual periférico.",
+      it: "Mentre ti concentri sull'obiettivo di gioco, i modelli di parole vengono consegnati al tuo cervello nel campo visivo periferico.",
+      ja: "ゲームのターゲットに集中している間、周辺視野でターゲット言語の単語パターンが脳に提供されます。",
+      zh: "当您专注于游戏目标时，目标语言的单词模式会在您的周边视野中传递给您的大脑。",
+      ar: "بينما تركّز على هدف اللعبة، تُغذَّى الأنماط اللغوية إلى دماغك عبر مجال الرؤية المحيطية.",
+      ru: "Пока вы сосредоточены на игровой цели, словесные паттерны целевого языка поступают в мозг через периферийное зрение.",
+      ko: "게임 목표에 집중하는 동안, 목표 언어의 단어 패턴이 주변 시야를 통해 뇌에 전달됩니다.",
+      pt: "Enquanto você se concentra no objetivo do jogo, padrões de palavras no idioma alvo são entregues ao seu cérebro no campo visual periférico.",
+      el: "Ενώ εστιάζετε στον στόχο του παιχνιδιού, μοτίβα λέξεων στοχεύονται στον εγκέφαλό σας μέσω της περιφερικής όρασης.",
+      osm: "Oyunun hedefine odaklanmışken, hedef dilin kelime kalıpları muhit-i beser sahasında zihninize nakşedilir.",
     },
   },
   {
-    id: "ebbinghaus",
-    accent: "#facc15",
-    icon: "📈",
+    id: "ebbinghaus", accent: "#facc15", icon: "📈",
     labels: {
       tr: "02. Ebbinghaus Unutma Eğrisi & Aralıklı Tekrar",
       en: "02. Ebbinghaus Forgetting Curve & Spaced Repetition",
       de: "02. Ebbinghaus'sche Vergessenskurve & Verteiltes Lernen",
       fr: "02. Courbe de l'Oubli d'Ebbinghaus & Répétition Espacée",
       es: "02. Curva del Olvido de Ebbinghaus & Repetición Espaciada",
+      it: "02. Curva dell'Oblio di Ebbinghaus & Ripetizione Spaziata",
       ja: "02. エビングハウスの忘却曲線と間隔反復",
       zh: "02. 艾宾浩斯遗忘曲线与间隔重复",
       ar: "02. منحنى النسيان لإيبنغهاوس والتكرار المتباعد",
+      ru: "02. Кривая забывания Эббингауза & Интервальные повторения",
+      ko: "02. 에빙하우스 망각 곡선 & 간격 반복",
+      pt: "02. Curva do Esquecimento de Ebbinghaus & Repetição Espaçada",
+      el: "02. Καμπύλη망각ής Ebbinghaus & Διαστηματική Επανάληψη",
+      osm: "02. Ebbinghaus Nisyan Eğrisi & Fasılalı Tekrar",
     },
     theory: {
-      tr: "1885'te psikolog Hermann Ebbinghaus tarafından keşfedilen Unutma Eğrisi, yeni öğrenilen bilgilerin tekrar edilmediği takdirde saatler içinde %60'ından fazlasının kaybolduğunu gösterir. Wozniak & Leitner'ın geliştirdiği aralıklı tekrar yöntemi bu eğriye karşı en güçlü silah olarak kabul edilir.",
-      en: "The Forgetting Curve, discovered by psychologist Hermann Ebbinghaus in 1885, shows that over 60% of newly learned information is lost within hours if not repeated. The spaced repetition method developed by Wozniak & Leitner is considered the most powerful weapon against this curve.",
-      de: "Die 1885 vom Psychologen Hermann Ebbinghaus entdeckte Vergessenskurve zeigt, dass über 60% neu gelernter Informationen innerhalb von Stunden verloren gehen, wenn sie nicht wiederholt werden. Die von Wozniak & Leitner entwickelte Methode des verteilten Lernens gilt als die wirksamste Gegenmaßnahme.",
-      fr: "La courbe de l'oubli, découverte par le psychologue Hermann Ebbinghaus en 1885, montre que plus de 60% des informations nouvellement apprises sont perdues en quelques heures si elles ne sont pas répétées. La méthode de répétition espacée développée par Wozniak & Leitner est considérée comme l'arme la plus puissante contre cette courbe.",
-      es: "La Curva del Olvido, descubierta por el psicólogo Hermann Ebbinghaus en 1885, muestra que más del 60% de la información recién aprendida se pierde en horas si no se repite. El método de repetición espaciada desarrollado por Wozniak & Leitner se considera el arma más poderosa contra esta curva.",
-      ja: "1885年に心理学者ヘルマン・エビングハウスが発見した忘却曲線は、新しく学んだ情報の60%以上が繰り返しなしで数時間以内に失われることを示しています。ウォズニアックとライトナーが開発した間隔反復法がこの曲線に対する最も強力な武器とされています。",
-      zh: "1885年心理学家赫尔曼·艾宾浩斯发现的遗忘曲线表明，如果不重复，超过60%的新学信息会在几小时内丢失。沃兹尼亚克和莱特纳开发的间隔重复法被认为是对抗这条曲线最有力的武器。",
-      ar: "تُظهر منحنى النسيان، الذي اكتشفه عالم النفس هيرمان إيبنغهاوس عام 1885، أن أكثر من 60% من المعلومات المتعلمة حديثًا تُفقد في غضون ساعات إن لم تُكرَّر. تُعدّ طريقة التكرار المتباعد التي طوّرها وزنياك وليتنر أقوى سلاح ضد هذا المنحنى.",
+      tr: "1885'te Hermann Ebbinghaus tarafından keşfedilen Unutma Eğrisi, yeni öğrenilen bilgilerin tekrar edilmediği takdirde saatler içinde %60'ından fazlasının kaybolduğunu gösterir. Wozniak & Leitner'ın aralıklı tekrar yöntemi bu eğriye karşı en güçlü bilimsel silahtır.",
+      en: "Hermann Ebbinghaus (1885) showed over 60% of new information is lost within hours if not repeated. Wozniak & Leitner's spaced repetition method is the most powerful scientific countermeasure.",
+      de: "Hermann Ebbinghaus (1885) zeigte, dass über 60% neuer Informationen ohne Wiederholung verloren gehen. Die Methode des verteilten Lernens ist das wirksamste Gegenmittel.",
+      fr: "Hermann Ebbinghaus (1885) a démontré que plus de 60% des nouvelles informations sont perdues en quelques heures sans répétition.",
+      es: "Hermann Ebbinghaus (1885) mostró que más del 60% de la información nueva se pierde en horas sin repetición.",
+      it: "Hermann Ebbinghaus (1885) dimostrò che oltre il 60% delle nuove informazioni viene perso in poche ore senza ripetizione.",
+      ja: "ヘルマン・エビングハウス（1885年）は、繰り返しなしで新しい情報の60%以上が数時間以内に失われることを示しました。",
+      zh: "赫尔曼·艾宾浩斯（1885年）表明，新信息如果不重复，超过60%会在几小时内丢失。",
+      ar: "أثبت هيرمان إيبنغهاوس (1885) أن أكثر من 60% من المعلومات الجديدة تُفقد في ساعات دون تكرار.",
+      ru: "Герман Эббингауз (1885) показал, что более 60% новой информации теряется в течение часов без повторения.",
+      ko: "헤르만 에빙하우스(1885)는 반복 없이 새로운 정보의 60% 이상이 몇 시간 내에 사라진다는 것을 보여주었습니다.",
+      pt: "Hermann Ebbinghaus (1885) demonstrou que mais de 60% das novas informações são perdidas em horas sem repetição.",
+      el: "Ο Hermann Ebbinghaus (1885) έδειξε ότι πάνω από το 60% των νέων πληροφοριών χάνεται μέσα σε ώρες χωρίς επανάληψη.",
+      osm: "Ebbinghaus (1885), yeni öğrenilen malumatın tekrarsız birkaç saat zarfında yüzde altmışından fazlasının zihinden silindiğini ispat eyledi.",
     },
     solution: {
-      tr: "memolandum.com algoritmaları, bir kelimeyi tam unutmak üzere olduğunuz o kritik 'kırılma anını' hesaplar. Oyun modülleri, bu kelimeleri tam zamanında karşınıza çıkararak bilginin kısa süreli bellekten kalıcı hafızaya (long-term memory) transfer edilmesini sağlar.",
-      en: "memolandum.com algorithms calculate that critical 'breaking point' when you are about to completely forget a word. The game modules present these words to you right on time, ensuring that the information is transferred from short-term memory to long-term memory.",
-      de: "Die Algorithmen von memolandum.com berechnen den kritischen 'Kipppunkt', an dem Sie ein Wort vollständig vergessen würden. Die Spielmodule präsentieren diese Wörter genau zur richtigen Zeit und sorgen so für den Transfer vom Kurzzeit- ins Langzeitgedächtnis.",
-      fr: "Les algorithmes de memolandum.com calculent ce 'point critique' où vous êtes sur le point d'oublier complètement un mot. Les modules de jeu vous présentent ces mots au bon moment, assurant le transfert de la mémoire à court terme vers la mémoire à long terme.",
-      es: "Los algoritmos de memolandum.com calculan ese 'punto crítico' cuando estás a punto de olvidar completamente una palabra. Los módulos de juego te presentan estas palabras justo a tiempo, asegurando que la información sea transferida de la memoria a corto plazo a la memoria a largo plazo.",
-      ja: "memolandum.comのアルゴリズムは、単語を完全に忘れそうになる臨界「ブレークポイント」を計算します。ゲームモジュールはこれらの単語をちょうどよいタイミングで提示し、情報が短期記憶から長期記憶に転送されることを保証します。",
-      zh: "memolandum.com的算法计算出您即将完全忘记某个单词的关键'临界点'。游戏模块在恰当的时机向您呈现这些单词，确保信息从短期记忆转移到长期记忆。",
-      ar: "تحسب خوارزميات memolandum.com 'نقطة الانكسار' الحرجة التي على وشك أن تنسى فيها الكلمة نهائيًا. تعرض وحدات الألعاب هذه الكلمات في الوقت المناسب تمامًا، مما يضمن انتقال المعلومات من الذاكرة قصيرة المدى إلى الذاكرة طويلة المدى.",
+      tr: "memolandum.com algoritmaları, bir kelimeyi unutmak üzere olduğunuz kritik anda tekrar karşınıza çıkararak bilginin kalıcı hafızaya geçişini sağlar.",
+      en: "memolandum.com algorithms calculate the critical breaking point and present words right before you forget them — transferring vocabulary to long-term memory.",
+      de: "Die Algorithmen von memolandum.com berechnen den kritischen Kipppunkt und präsentieren Wörter kurz vor dem Vergessen.",
+      fr: "Les algorithmes de memolandum.com calculent le point critique et vous présentent les mots juste avant que vous les oubliiez.",
+      es: "Los algoritmos de memolandum.com calculan el punto crítico y te presentan las palabras justo antes de que las olvides.",
+      it: "Gli algoritmi di memolandum.com calcolano il punto critico e presentano le parole giusto prima che le dimentichi.",
+      ja: "memolandum.comのアルゴリズムは、忘れる直前のタイミングで単語を提示し、長期記憶への転送を保証します。",
+      zh: "memolandum.com的算法在您即将忘记时恰好呈现单词，确保其转移到长期记忆。",
+      ar: "تحسب خوارزميات memolandum.com النقطة الحرجة وتعرض الكلمات قبيل نسيانها مباشرة.",
+      ru: "Алгоритмы memolandum.com рассчитывают критический момент и показывают слова прямо перед забыванием.",
+      ko: "memolandum.com의 알고리즘은 잊기 직전의 임계점을 계산하고 단어를 정확한 타이밍에 제시합니다.",
+      pt: "Os algoritmos do memolandum.com calculam o ponto crítico e apresentam as palavras exatamente antes de você esquecê-las.",
+      el: "Οι αλγόριθμοι του memolandum.com υπολογίζουν το κρίσιμο σημείο και παρουσιάζουν λέξεις ακριβώς πριν τις ξεχάσετε.",
+      osm: "Memolandum'un hesap makineleri, bir kelimeyi neredeyse nisyana terk etmek üzere olduğunuz o nazik anda onu yeniden huzurunuza çıkarır.",
     },
   },
   {
-    id: "paivio",
-    accent: "#4ade80",
-    icon: "🎨",
+    id: "paivio", accent: "#4ade80", icon: "🎨",
     labels: {
-      tr: "03. İkili Kodlama Teorisi — Allan Paivio",
-      en: "03. Dual-Coding Theory — Allan Paivio",
-      de: "03. Duale Kodierungstheorie — Allan Paivio",
-      fr: "03. Théorie du Double Codage — Allan Paivio",
-      es: "03. Teoría de la Codificación Dual — Allan Paivio",
-      ja: "03. デュアルコーディング理論 — アラン・パイヴィオ",
-      zh: "03. 双重编码理论 — 阿兰·佩维奥",
-      ar: "03. نظرية الترميز المزدوج — ألان بايفيو",
+      tr: "03. İkili Kodlama Teorisi — Allan Paivio (1971)",
+      en: "03. Dual-Coding Theory — Allan Paivio (1971)",
+      de: "03. Duale Kodierungstheorie — Allan Paivio (1971)",
+      fr: "03. Théorie du Double Codage — Allan Paivio (1971)",
+      es: "03. Teoría de la Codificación Dual — Allan Paivio (1971)",
+      it: "03. Teoria della Codifica Duale — Allan Paivio (1971)",
+      ja: "03. デュアルコーディング理論 — アラン・パイヴィオ（1971年）",
+      zh: "03. 双重编码理论 — 阿兰·佩维奥（1971年）",
+      ar: "03. نظرية الترميز المزدوج — ألان بايفيو (1971)",
+      ru: "03. Теория двойного кодирования — Аллан Пайвио (1971)",
+      ko: "03. 이중 코딩 이론 — 앨런 파이비오 (1971)",
+      pt: "03. Teoria da Codificação Dupla — Allan Paivio (1971)",
+      el: "03. Θεωρία Διπλής Κωδικοποίησης — Allan Paivio (1971)",
+      osm: "03. Çifte Tahrir Nazariyesi — Allan Paivio (1971)",
     },
     theory: {
-      tr: "Allan Paivio'nun İkili Kodlama Teorisi (1971), insan beyninin bilgiyi hem görsel hem de sözel kanallardan ayrı ayrı işlediğini ortaya koyar. Bu iki kanaldan aynı anda bilgi girdiğinde, akılda kalıcılık oranı tek kanalla kıyaslandığında katlanarak artar.",
-      en: "Allan Paivio's Dual-Coding Theory (1971) reveals that the human brain processes information separately from both visual and verbal channels. When information enters from both channels simultaneously, the retention rate increases exponentially compared to a single channel.",
-      de: "Allan Paivios Theorie der dualen Kodierung (1971) zeigt, dass das menschliche Gehirn Informationen sowohl über visuelle als auch über verbale Kanäle separat verarbeitet. Wenn Informationen gleichzeitig über beide Kanäle eingehen, steigt die Behaltenrate exponentiell an.",
-      fr: "La théorie du double codage d'Allan Paivio (1971) révèle que le cerveau humain traite les informations séparément à partir des canaux visuels et verbaux. Lorsque les informations entrent simultanément par les deux canaux, le taux de rétention augmente de façon exponentielle.",
-      es: "La Teoría de la Codificación Dual de Allan Paivio (1971) revela que el cerebro humano procesa información por separado desde canales tanto visuales como verbales. Cuando la información entra por ambos canales simultáneamente, la tasa de retención aumenta exponencialmente.",
-      ja: "アラン・パイヴィオの双対符号化理論（1971年）は、人間の脳が視覚チャンネルと言語チャンネルの両方から別々に情報を処理することを明らかにしています。両方のチャンネルから同時に情報が入ると、保持率が指数関数的に増加します。",
-      zh: "阿兰·佩维奥的双重编码理论（1971年）揭示了人类大脑分别通过视觉和语言两个通道处理信息。当信息同时从两个通道进入时，保留率呈指数级增长。",
-      ar: "تكشف نظرية الترميز المزدوج لألان بايفيو (1971) أن الدماغ البشري يعالج المعلومات بشكل منفصل عبر قنوات بصرية ولفظية. عندما تدخل المعلومات من كلا القناتين في آنٍ واحد، يرتفع معدل الاحتفاظ بها بصورة أسية.",
+      tr: "Allan Paivio'nun İkili Kodlama Teorisi (1971), insan beyninin bilgiyi hem görsel hem de sözel kanallardan ayrı ayrı işlediğini ortaya koyar. İki kanaldan aynı anda bilgi girdiğinde akılda kalıcılık katlanarak artar.",
+      en: "Allan Paivio's Dual-Coding Theory (1971) reveals the brain processes information separately via visual and verbal channels. When both channels are activated simultaneously, retention increases exponentially.",
+      de: "Paivios Theorie (1971) zeigt, dass das Gehirn Informationen über visuelle und verbale Kanäle separat verarbeitet. Bei gleichzeitiger Aktivierung steigt die Behaltensleistung exponentiell.",
+      fr: "La théorie de Paivio (1971) révèle que le cerveau traite les informations séparément via des canaux visuels et verbaux. La rétention augmente exponentiellement lorsque les deux canaux sont activés.",
+      es: "La teoría de Paivio (1971) revela que el cerebro procesa información por separado a través de canales visuales y verbales. La retención aumenta exponencialmente cuando ambos canales se activan simultáneamente.",
+      it: "La teoria di Paivio (1971) rivela che il cervello elabora le informazioni separatamente attraverso canali visivi e verbali, con ritenzione esponenzialmente maggiore se entrambi i canali sono attivati.",
+      ja: "パイヴィオの理論（1971年）は、脳が視覚チャンネルと言語チャンネルを別々に処理することを示し、両方が同時に活性化されると保持率が指数関数的に増加します。",
+      zh: "佩维奥的理论（1971年）揭示大脑通过视觉和语言通道分别处理信息，两者同时激活时保留率指数级增长。",
+      ar: "تكشف نظرية بايفيو (1971) أن الدماغ يعالج المعلومات عبر قناتين بصرية ولفظية، ويرتفع الاحتفاظ بشكل أسي حين تُنشَّط القناتان معاً.",
+      ru: "Теория Пайвио (1971) показывает, что мозг обрабатывает информацию отдельно через визуальные и вербальные каналы — запоминание экспоненциально растёт при активации обоих.",
+      ko: "파이비오의 이론(1971)은 뇌가 시각 및 언어 채널을 통해 별도로 정보를 처리하며, 두 채널이 동시에 활성화되면 보유율이 기하급수적으로 증가함을 보여줍니다.",
+      pt: "A teoria de Paivio (1971) revela que o cérebro processa informações separadamente através de canais visuais e verbais, com retenção aumentando exponencialmente quando ambos são ativados.",
+      el: "Η θεωρία Paivio (1971) αποκαλύπτει ότι ο εγκέφαλος επεξεργάζεται πληροφορίες ξεχωριστά μέσω οπτικών και λεκτικών καναλιών.",
+      osm: "Paivio'nun 1971 nazariyesi; zihnin malumatı göz ve kelam kanallarından ayrıca işlediğini, her ikisi birden devreye girince hıfz kuvvetinin misliyle arttığını beyan eder.",
     },
     solution: {
-      tr: "Platformumuzdaki özel HTML5 Canvas tabanlı görsel oyun motorları, metinsel veriyi dinamik görsel uyaranlarla birleştirir. Sadece okumaz, aynı zamanda görür, tepki verir ve mekansal hafızanızı (spatial memory) tetiklersiniz.",
-      en: "Our special HTML5 Canvas-based visual game engines combine textual data with dynamic visual stimuli. You not only read but also see, react, and trigger your spatial memory.",
-      de: "Unsere speziellen auf HTML5-Canvas basierenden visuellen Spielmotoren kombinieren Textdaten mit dynamischen visuellen Reizen. Sie lesen nicht nur, sondern sehen, reagieren und aktivieren Ihr räumliches Gedächtnis.",
-      fr: "Nos moteurs de jeu visuels spéciaux basés sur HTML5 Canvas combinent des données textuelles avec des stimuli visuels dynamiques. Vous ne lisez pas seulement, mais voyez également, réagissez et déclenchez votre mémoire spatiale.",
-      es: "Nuestros motores de juego visuales especiales basados en HTML5 Canvas combinan datos textuales con estímulos visuales dinámicos. No solo lees, sino que también ves, reaccionas y activas tu memoria espacial.",
-      ja: "HTML5 Canvasベースの特別な視覚ゲームエンジンは、テキストデータと動的な視覚刺激を組み合わせます。読むだけでなく、見て、反応し、空間記憶を起動させます。",
-      zh: "我们基于HTML5 Canvas的特殊视觉游戏引擎将文本数据与动态视觉刺激相结合。您不只是阅读，还会看到、反应并激活您的空间记忆。",
-      ar: "تجمع محركات الألعاب المرئية الخاصة بنا المستندة إلى HTML5 Canvas بين البيانات النصية والمحفّزات البصرية الديناميكية. لا تقرأ فحسب، بل ترى وتتفاعل وتُنشّط ذاكرتك المكانية أيضًا.",
+      tr: "Platformumuzun HTML5 Canvas tabanlı oyun motorları, metinsel veriyi dinamik görsel uyaranlarla birleştirir. Sadece okumaz, aynı zamanda görür ve mekansal hafızanızı tetiklersiniz.",
+      en: "Our HTML5 Canvas-based game engines pair text with dynamic visual stimuli. You don't just read — you see, react, and trigger spatial memory simultaneously.",
+      de: "Unsere Spielmotoren kombinieren Text mit visuellen Reizen. Sie lesen nicht nur — Sie sehen, reagieren und aktivieren räumliches Gedächtnis.",
+      fr: "Nos moteurs combinent texte et stimuli visuels. Vous ne lisez pas seulement — vous voyez, réagissez et activez la mémoire spatiale.",
+      es: "Nuestros motores combinan texto con estímulos visuales. No solo lees — ves, reaccionas y activas la memoria espacial.",
+      it: "I nostri motori combinano testo con stimoli visivi. Non leggi solo — vedi, reagisci e attivi la memoria spaziale.",
+      ja: "ゲームエンジンはテキストと動的視覚刺激を組み合わせます。読むだけでなく、見て反応し空間記憶を起動させます。",
+      zh: "游戏引擎将文本与动态视觉刺激相结合。您不只是阅读——您看到、反应并激活空间记忆。",
+      ar: "تجمع محركاتنا بين النص والمحفّزات البصرية الديناميكية. لا تقرأ فحسب، بل ترى وتتفاعل وتُنشّط الذاكرة المكانية.",
+      ru: "Наши игровые движки сочетают текст с динамическими визуальными стимулами. Вы не просто читаете — вы видите, реагируете и активируете пространственную память.",
+      ko: "게임 엔진은 텍스트와 동적 시각 자극을 결합합니다. 읽기만 하는 것이 아니라 보고, 반응하고, 공간 기억을 활성화합니다.",
+      pt: "Nossos motores combinam texto com estímulos visuais dinâmicos. Você não apenas lê — vê, reage e ativa a memória espacial.",
+      el: "Οι κινητήρες παιχνιδιών μας συνδυάζουν κείμενο με δυναμικά οπτικά ερεθίσματα. Δεν διαβάζετε μόνο — βλέπετε και ενεργοποιείτε τη χωρική μνήμη.",
+      osm: "Oyun motorlarımız metni görsel uyarıcılarla buluşturur. Yalnızca okumakla kalmaz; görür, irkilir ve mekânî hafızanızı işletirsiniz.",
     },
   },
   {
-    id: "csikszentmihalyi",
-    accent: "#a78bfa",
-    icon: "🌊",
+    id: "csikszentmihalyi", accent: "#a78bfa", icon: "🌊",
     labels: {
       tr: "04. Akış Teorisi & Oyunlaştırma — Csikszentmihalyi",
       en: "04. Flow Theory & Gamification — Csikszentmihalyi",
       de: "04. Flow-Theorie & Gamification — Csikszentmihalyi",
       fr: "04. Théorie du Flow & Gamification — Csikszentmihalyi",
       es: "04. Teoría del Flow & Gamificación — Csikszentmihalyi",
+      it: "04. Teoria del Flow & Gamificazione — Csikszentmihalyi",
       ja: "04. フロー理論 & ゲーミフィケーション — チクセントミハイ",
       zh: "04. 心流理论 & 游戏化 — 契克森米哈伊",
       ar: "04. نظرية التدفق والتلعيب — تشيكسينتميهالي",
+      ru: "04. Теория потока & Геймификация — Чиксентмихайи",
+      ko: "04. 몰입 이론 & 게이미피케이션 — 칙센트미하이",
+      pt: "04. Teoria do Fluxo & Gamificação — Csikszentmihalyi",
+      el: "04. Θεωρία Ροής & Εκπαιδευτική Παιχνιδοποίηση — Csikszentmihalyi",
+      osm: "04. Akış Nazariyesi & Oyunlaştırma — Csikszentmihalyi",
     },
     theory: {
-      tr: "Mihaly Csikszentmihalyi tarafından ortaya konan Akış (Flow) Teorisi, bir bireyin beceri düzeyi ile karşılaştığı zorluk dengelendiğinde 'pürüzsüz bir odaklanma' evresine girdiğini kanıtlar. Bu evrede dopamin salgısı artar, zaman kavramı yok olur ve öğrenme çarpanı katlanır.",
-      en: "The Flow Theory put forward by Mihaly Csikszentmihalyi proves that when an individual's skill level and the difficulty they face are balanced, they enter a phase of 'smooth focus.' In this phase, dopamine release increases, the sense of time disappears, and the learning multiplier compounds.",
-      de: "Die von Mihaly Csikszentmihalyi entwickelte Flow-Theorie beweist, dass eine Person eine Phase des 'reibungslosen Fokus' erreicht, wenn ihr Fähigkeitsniveau und der Schwierigkeitsgrad ausgewogen sind. In dieser Phase steigt die Dopaminausschüttung, das Zeitgefühl schwindet und der Lernmultiplikator vervielfacht sich.",
-      fr: "La théorie du Flow mise en avant par Mihaly Csikszentmihalyi prouve que lorsque le niveau de compétence d'un individu et la difficulté à laquelle il fait face sont équilibrés, il entre dans une phase de 'concentration fluide.' Dans cette phase, la libération de dopamine augmente, la notion du temps disparaît et le multiplicateur d'apprentissage se compose.",
-      es: "La Teoría del Flow presentada por Mihaly Csikszentmihalyi prueba que cuando el nivel de habilidad de un individuo y la dificultad que enfrenta están equilibrados, entra en una fase de 'enfoque fluido.' En esta fase, la liberación de dopamina aumenta, el sentido del tiempo desaparece y el multiplicador de aprendizaje se compone.",
-      ja: "ミハイ・チクセントミハイが提唱するフロー理論は、個人のスキルレベルと直面する困難のバランスが取れているとき、「スムーズな集中」の段階に入ることを証明しています。この段階でドーパミン分泌が増加し、時間感覚が消え、学習乗数が増加します。",
-      zh: "米哈里·契克森米哈伊提出的心流理论证明，当个人技能水平与面临的困难平衡时，会进入'顺畅专注'的阶段。在这个阶段，多巴胺释放增加，时间感消失，学习乘数复合增长。",
-      ar: "تُثبت نظرية التدفق التي طرحها ميهالي تشيكسينتميهالي أن الفرد يدخل مرحلة 'التركيز السلس' عندما يتوازن مستوى مهارته مع درجة الصعوبة التي يواجهها. في هذه المرحلة يزداد إفراز الدوبامين، ويختفي الإحساس بالوقت، ويتضاعف معامل التعلم.",
+      tr: "Mihaly Csikszentmihalyi'nin Flow Teorisi, beceri düzeyi ile zorluk dengelendiğinde 'pürüzsüz odaklanma' evresine girildiğini ve dopamin salınımının arttığını kanıtlar.",
+      en: "Csikszentmihalyi's Flow Theory proves that when skill and challenge are balanced, the learner enters a 'smooth focus' state with increased dopamine — making learning effortless.",
+      de: "Die Flow-Theorie beweist, dass beim Gleichgewicht von Fähigkeit und Schwierigkeit ein 'reibungsloser Fokus' mit erhöhtem Dopamin eintritt.",
+      fr: "La théorie du Flow prouve que lorsque compétence et défi sont équilibrés, l'apprenant entre dans un état de 'concentration fluide' avec augmentation de la dopamine.",
+      es: "La Teoría del Flow prueba que cuando habilidad y desafío están equilibrados, el aprendiz entra en un estado de 'enfoque fluido' con mayor dopamina.",
+      it: "La Teoria del Flow dimostra che quando abilità e sfida sono bilanciate, si entra in uno stato di 'concentrazione fluida' con aumento della dopamina.",
+      ja: "フロー理論は、スキルと課題のバランスが取れているとき、学習者がドーパミンの増加とともに「スムーズな集中」状態に入ることを証明します。",
+      zh: "心流理论证明，当技能与挑战平衡时，学习者进入多巴胺增加的'顺畅专注'状态。",
+      ar: "تُثبت نظرية التدفق أنه حين يتوازن المهارة مع الصعوبة، يدخل المتعلم في حالة 'تركيز سلس' مع ارتفاع الدوبامين.",
+      ru: "Теория потока доказывает, что при балансе навыков и сложности учащийся входит в состояние «плавного фокуса» с повышением дофамина.",
+      ko: "몰입 이론은 기술과 도전이 균형을 이룰 때 학습자가 도파민 증가와 함께 '부드러운 집중' 상태에 들어감을 증명합니다.",
+      pt: "A Teoria do Fluxo prova que quando habilidade e desafio estão equilibrados, o aprendiz entra em um estado de 'foco fluido' com dopamina aumentada.",
+      el: "Η Θεωρία Ροής αποδεικνύει ότι όταν δεξιότητα και πρόκληση ισορροπούν, ο μαθητής εισέρχεται σε κατάσταση 'ρέουσας εστίασης' με αύξηση της ντοπαμίνης.",
+      osm: "Csikszentmihalyi'nin Akış Nazariyesi, maharet ve güçlük dengelenince 'pürüzsüz bir teksif' haline girildiğini ve dopaminin arttığını ispat eder.",
     },
     solution: {
-      tr: "Oyun modüllerimiz, kullanıcının anlık kelime hakimiyetine göre dinamik olarak zorlaşır veya kolaylaşır. Bu sayede beyin dopamin salınımını dengede tutarak öğrenme sürecini bir 'yük' olarak değil, sürdürülebilir bir 'pozitif bağımlılık' olarak algılar.",
-      en: "Our game modules dynamically become harder or easier according to the user's instant word mastery. This way, the brain keeps dopamine release balanced and perceives the learning process not as a 'burden' but as a sustainable 'positive addiction.'",
-      de: "Unsere Spielmodule werden dynamisch schwerer oder leichter, je nach dem momentanen Wortschatz-Kenntnisstand des Nutzers. So hält das Gehirn die Dopaminausschüttung ausgeglichen und nimmt den Lernprozess nicht als 'Belastung', sondern als nachhaltige 'positive Sucht' wahr.",
-      fr: "Nos modules de jeu deviennent dynamiquement plus difficiles ou plus faciles selon la maîtrise instantanée des mots de l'utilisateur. Ainsi, le cerveau maintient la libération de dopamine équilibrée et perçoit le processus d'apprentissage non comme un 'fardeau' mais comme une 'addiction positive' durable.",
-      es: "Nuestros módulos de juego se vuelven dinámicamente más difíciles o más fáciles según el dominio instantáneo de palabras del usuario. De esta manera, el cerebro mantiene equilibrada la liberación de dopamina y percibe el proceso de aprendizaje no como una 'carga' sino como una 'adicción positiva' sostenible.",
-      ja: "ゲームモジュールはユーザーの即時語彙習熟度に応じて動的に難しくなったり簡単になったりします。これにより、脳はドーパミン分泌を均衡に保ち、学習プロセスを「負担」としてではなく、持続可能な「ポジティブな依存性」として認識します。",
-      zh: "我们的游戏模块根据用户即时词汇掌握程度动态变难或变简单。这样，大脑保持多巴胺释放平衡，将学习过程视为可持续的「正向依赖」而非「负担」。",
-      ar: "تصبح وحدات ألعابنا أصعب أو أسهل ديناميكيًا وفقًا لمستوى إتقان المستخدم الفوري للمفردات. وبهذا يُبقي الدماغ إفراز الدوبامين متوازنًا ويرى في عملية التعلم 'إدمانًا إيجابيًا' مستدامًا لا 'عبئًا'.",
+      tr: "Oyun modüllerimiz kullanıcının anlık kelime hakimiyetine göre dinamik olarak zorlaşır veya kolaylaşır. Öğrenme bir 'yük' değil, sürdürülebilir bir 'pozitif bağımlılık' haline gelir.",
+      en: "Our game modules dynamically adjust difficulty to your live vocabulary mastery. Learning becomes not a burden but a sustainable positive engagement.",
+      de: "Unsere Spielmodule passen die Schwierigkeit dynamisch an. Lernen wird zur nachhaltigen positiven Beschäftigung statt zur Last.",
+      fr: "Nos modules s'adaptent dynamiquement à votre maîtrise. L'apprentissage devient un engagement positif durable, pas une charge.",
+      es: "Nuestros módulos se adaptan dinámicamente a tu dominio. El aprendizaje se convierte en un compromiso positivo sostenible, no en una carga.",
+      it: "I nostri moduli si adattano dinamicamente. L'apprendimento diventa un impegno positivo sostenibile, non un peso.",
+      ja: "モジュールは習熟度に応じて動的に調整されます。学習が負担ではなく持続可能なポジティブな関与になります。",
+      zh: "我们的模块根据掌握程度动态调整。学习成为可持续的积极参与，而非负担。",
+      ar: "تتكيّف وحداتنا ديناميكيًا مع مستوى إتقانك. يصبح التعلم انخراطًا إيجابيًا مستدامًا لا عبئًا.",
+      ru: "Наши модули динамически адаптируются к уровню владения. Обучение становится устойчивым позитивным вовлечением.",
+      ko: "모듈은 숙달 수준에 따라 동적으로 조정됩니다. 학습이 부담이 아닌 지속 가능한 긍정적 참여가 됩니다.",
+      pt: "Nossos módulos se adaptam dinamicamente ao seu domínio. O aprendizado torna-se um engajamento positivo sustentável, não um fardo.",
+      el: "Οι ενότητες μας προσαρμόζονται δυναμικά στη γνωστική σας ικανότητα. Η μάθηση γίνεται βιώσιμη θετική εμπλοκή.",
+      osm: "Oyun birimlerimiz kullanıcının anlık kelime hâkimiyetine nazaran zorlaşıp kolaylaşır. Tahsil bir yük olmaktan çıkıp müspet bir alışkanlığa dönüşür.",
     },
   },
   {
-    id: "recall",
-    accent: "#f472b6",
-    icon: "⚡",
+    id: "recall", accent: "#f472b6", icon: "⚡",
     labels: {
-      tr: "05. Aktif Hatırlama (Active Recall)",
-      en: "05. Active Recall",
-      de: "05. Aktives Erinnern (Active Recall)",
-      fr: "05. Rappel Actif (Active Recall)",
-      es: "05. Recuerdo Activo (Active Recall)",
-      ja: "05. アクティブリコール",
-      zh: "05. 主动回忆",
-      ar: "05. الاستذكار النشط",
+      tr: "05. Aktif Hatırlama — Roediger & Karpicke (Science, 2006)",
+      en: "05. Active Recall — Roediger & Karpicke (Science, 2006)",
+      de: "05. Aktives Erinnern — Roediger & Karpicke (Science, 2006)",
+      fr: "05. Rappel Actif — Roediger & Karpicke (Science, 2006)",
+      es: "05. Recuerdo Activo — Roediger & Karpicke (Science, 2006)",
+      it: "05. Richiamo Attivo — Roediger & Karpicke (Science, 2006)",
+      ja: "05. アクティブリコール — ロディガー & カーピッケ（Science, 2006）",
+      zh: "05. 主动回忆 — 罗迪格 & 卡尔皮克（Science, 2006）",
+      ar: "05. الاستذكار النشط — رودجر وكاربيكي (Science, 2006)",
+      ru: "05. Активное воспроизведение — Роедигер & Карпике (Science, 2006)",
+      ko: "05. 능동적 회상 — 로디거 & 카피키 (Science, 2006)",
+      pt: "05. Recuperação Ativa — Roediger & Karpicke (Science, 2006)",
+      el: "05. Ενεργή Ανάκληση — Roediger & Karpicke (Science, 2006)",
+      osm: "05. Etkin Hatırlama — Roediger & Karpicke (Science, 2006)",
     },
     theory: {
-      tr: "Roediger & Karpicke'nin 2006 yılında Science dergisinde yayımlanan araştırması, 'test etkisi'ni (testing effect) bilimsel olarak kanıtladı: Beyin bilgiyi pasif biçimde okuduğunda değil, aktif olarak geri çağırmaya zorlandığında güçlü sinaptik bağlar inşa eder. Bu strateji pasif çalışmaya kıyasla %50'ye varan öğrenme artışı sağlar.",
-      en: "Roediger & Karpicke's 2006 research published in Science proved the 'testing effect' scientifically: The brain builds strong synaptic connections not when passively reading information, but when forced to actively recall it. This strategy provides up to 50% learning increase compared to passive study.",
-      de: "Die 2006 in Science veröffentlichte Forschung von Roediger & Karpicke bewies den 'Testeffekt' wissenschaftlich: Das Gehirn baut starke synaptische Verbindungen nicht beim passiven Lesen, sondern wenn es gezwungen wird, Informationen aktiv abzurufen. Diese Strategie bietet bis zu 50% Lernzuwachs im Vergleich zu passivem Lernen.",
-      fr: "La recherche de Roediger & Karpicke publiée dans Science en 2006 a prouvé scientifiquement l''effet de test': Le cerveau construit de solides connexions synaptiques non pas lors de la lecture passive, mais lorsqu'il est forcé de rappeler activement les informations. Cette stratégie offre jusqu'à 50% d'augmentation de l'apprentissage par rapport à l'étude passive.",
-      es: "La investigación de Roediger & Karpicke publicada en Science en 2006 demostró científicamente el 'efecto de prueba': El cerebro construye fuertes conexiones sinápticas no cuando lee información pasivamente, sino cuando se le obliga a recordarla activamente. Esta estrategia proporciona hasta un 50% de aumento en el aprendizaje en comparación con el estudio pasivo.",
-      ja: "2006年にScience誌に掲載されたロディガーとカーピッケの研究は「テスト効果」を科学的に証明しました：脳は受動的に情報を読むのではなく、積極的に思い出すよう強いられたときに強いシナプス結合を構築します。この戦略は受動的学習と比較して最大50%の学習向上を提供します。",
-      zh: "罗迪格和卡尔皮克2006年发表在《科学》杂志上的研究科学地证明了'测试效应'：大脑不是在被动阅读信息时，而是在被迫主动回忆时建立强大的突触连接。与被动学习相比，这种策略可提供高达50%的学习增长。",
-      ar: "أثبت بحث رودجر وكاربيكي المنشور في مجلة Science عام 2006 'أثر الاختبار' علميًا: يبني الدماغ روابط عصبية قوية لا حين يقرأ المعلومات بشكل سلبي، بل حين يُضطرّ إلى استدعائها بنشاط. توفّر هذه الاستراتيجية زيادة في التعلم تصل إلى 50% مقارنة بالدراسة السلبية.",
+      tr: "2006'da Science dergisinde yayımlanan bu araştırma, bilgiyi aktif olarak geri çağırmanın pasif okumaya göre %50 daha kalıcı öğrenme sağladığını bilimsel olarak kanıtladı.",
+      en: "This landmark 2006 Science paper proved scientifically that actively recalling information produces up to 50% stronger memory retention versus passive re-reading.",
+      de: "Diese wegweisende Studie in Science (2006) bewies, dass aktives Abrufen bis zu 50% stärkere Gedächtnisleistung erzeugt als passives Lesen.",
+      fr: "Cette étude phare de Science (2006) a prouvé que le rappel actif produit jusqu'à 50% de rétention mémorielle plus forte que la relecture passive.",
+      es: "Este estudio en Science (2006) demostró que el recuerdo activo produce hasta un 50% más de retención que la relectura pasiva.",
+      it: "Questo studio su Science (2006) ha dimostrato che il richiamo attivo produce fino al 50% in più di ritenzione della memoria rispetto alla rilettura passiva.",
+      ja: "Science誌のこの2006年論文は、能動的な想起が受動的な再読と比較して最大50%強い記憶保持をもたらすことを科学的に証明しました。",
+      zh: "这篇2006年的Science论文科学地证明，主动回忆与被动重读相比，可产生高达50%更强的记忆保留。",
+      ar: "أثبت هذا البحث الرائد في Science (2006) علميًا أن استدعاء المعلومات بنشاط ينتج احتفاظًا بالذاكرة أقوى بنسبة تصل إلى 50% مقارنة بإعادة القراءة السلبية.",
+      ru: "Это знаковое исследование в Science (2006) научно доказало, что активное воспроизведение информации обеспечивает до 50% более устойчивое запоминание по сравнению с пассивным перечитыванием.",
+      ko: "Science지(2006)의 이 획기적인 연구는 능동적 회상이 수동적 재독과 비교해 최대 50% 더 강한 기억 보유를 생성함을 과학적으로 증명했습니다.",
+      pt: "Este estudo pioneiro na Science (2006) provou cientificamente que a recuperação ativa produz até 50% mais retenção de memória do que a releitura passiva.",
+      el: "Αυτή η ορόσημο μελέτη στο Science (2006) απέδειξε επιστημονικά ότι η ενεργή ανάκληση παράγει έως 50% ισχυρότερη μνήμη σε σχέση με την παθητική επανανάγνωση.",
+      osm: "Science dergisindeki bu mühim araştırma (2006), bilginin etkin hatırlanmasının pasif okumaya kıyasla yüzde elliye varan nispette daha kalıcı hıfzı sağladığını ispat eyledi.",
     },
     solution: {
-      tr: "memolandum.com size kelimeleri ezberletmez; arcade mekanikleriyle sizi o bilgiyi refleksif olarak geri çağırmaya (Active Recall) zorlar. Skor üretme ve zamana karşı yarışma içgüdüsü, nöral yolları hızlandırır.",
-      en: "memolandum.com doesn't make you memorize words; with arcade mechanics, it forces you to reflexively recall that information (Active Recall). The instinct to score and race against time accelerates neural pathways.",
-      de: "memolandum.com lässt Sie keine Wörter auswendig lernen; mit Arcade-Mechaniken zwingt es Sie, diese Informationen reflexartig abzurufen (Active Recall). Der Instinkt zu punkten und gegen die Zeit zu kämpfen beschleunigt neuronale Bahnen.",
-      fr: "memolandum.com ne vous fait pas mémoriser des mots ; avec les mécaniques d'arcade, il vous force à rappeler réflexivement ces informations (Active Recall). L'instinct de marquer des points et de courir contre la montre accélère les voies neuronales.",
-      es: "memolandum.com no te hace memorizar palabras; con mecánicas de arcade, te obliga a recordar reflexivamente esa información (Active Recall). El instinto de puntuar y competir contra el tiempo acelera las vías neuronales.",
-      ja: "memolandum.comは単語を暗記させるのではなく、アーケードメカニクスを使って反射的にその情報をリコール（アクティブリコール）するよう強います。スコアを出し、時間と競争する本能が神経経路を加速させます。",
-      zh: "memolandum.com不会让您死记硬背单词；通过街机游戏机制，它迫使您反射性地回忆那些信息（主动回忆）。得分和与时间赛跑的本能加速了神经通路。",
-      ar: "لا يجعلك memolandum.com تحفظ الكلمات عن ظهر قلب؛ بل يُرغمك بميكانيكيات الألعاب على استدعاء تلك المعلومات بشكل انعكاسي (الاستذكار النشط). يُسرّع غريزة تسجيل النقاط والتسابق مع الوقت المسارات العصبية.",
-    },
-  },
-  {
-    id: "cognitive",
-    accent: "#fb923c",
-    icon: "🔗",
-    labels: {
-      tr: "06. Bilişsel Ağlar vs. Yapay Zeka Asistanları",
-      en: "06. Cognitive Networks vs. AI Translation Assistants",
-      de: "06. Kognitive Netzwerke vs. KI-Übersetzungsassistenten",
-      fr: "06. Réseaux Cognitifs vs. Assistants de Traduction IA",
-      es: "06. Redes Cognitivas vs. Asistentes de Traducción IA",
-      ja: "06. 認知ネットワーク対AI翻訳アシスタント",
-      zh: "06. 认知网络与AI翻译助手",
-      ar: "06. الشبكات المعرفية مقابل مساعدي الترجمة بالذكاء الاصطناعي",
-    },
-    theory: {
-      tr: "Sürekli dış çevirmene (AI, sözlük) yaslanmak, 'bilişsel boşaltma' (cognitive offloading) yaratır; dil işleme kasları körelir. Anderson & Reder'ın araştırmaları, zorlu ortamlarda kendi bilişsel ağlarından üretilen dilin, yardımlı dile kıyasla çok daha güçlü sinaptik izler bıraktığını ortaya koyar.",
-      en: "Continuously relying on external translators (AI, dictionaries) creates 'cognitive offloading'; language-processing muscles atrophy. Research by Anderson & Reder reveals that language produced from one's own cognitive networks in challenging environments leaves far stronger synaptic traces compared to assisted language.",
-      de: "Die ständige Abhängigkeit von externen Übersetzern (KI, Wörterbücher) erzeugt 'kognitives Auslagern'; die Sprachverarbeitungsmuskeln verkümmern. Forschungen von Anderson & Reder zeigen, dass Sprache, die in herausfordernden Umgebungen aus den eigenen kognitiven Netzwerken produziert wird, weitaus stärkere synaptische Spuren hinterlässt.",
-      fr: "Le fait de s'appuyer continuellement sur des traducteurs externes (IA, dictionnaires) crée un 'déchargement cognitif'; les muscles de traitement du langage s'atrophient. Les recherches d'Anderson & Reder révèlent que le langage produit à partir de ses propres réseaux cognitifs dans des environnements difficiles laisse des traces synaptiques bien plus fortes.",
-      es: "Depender continuamente de traductores externos (IA, diccionarios) crea una 'descarga cognitiva'; los músculos de procesamiento del lenguaje se atrofian. La investigación de Anderson & Reder revela que el lenguaje producido desde las propias redes cognitivas en entornos desafiantes deja huellas sinápticas mucho más fuertes.",
-      ja: "外部翻訳者（AI、辞書）に常に頼ることは「認知オフローディング」を生み出します。言語処理の筋肉が萎縮します。アンダーソンとレーダーの研究は、困難な環境で自分の認知ネットワークから生成された言語が、支援された言語と比較してはるかに強いシナプス痕跡を残すことを明らかにしています。",
-      zh: "持续依赖外部翻译工具（AI、字典）会产生'认知卸载'；语言处理肌肉萎缩。安德森和雷德的研究揭示，在挑战性环境中从自己的认知网络产生的语言比辅助语言留下更强的突触痕迹。",
-      ar: "يُولّد الاعتماد المستمر على المترجمات الخارجية (الذكاء الاصطناعي، المعاجم) 'إفراغًا معرفيًا'؛ تضمر عضلات معالجة اللغة. تكشف أبحاث أندرسون وريدر أن اللغة المنتجة من الشبكات المعرفية الذاتية في البيئات الصعبة تترك آثارًا عصبية أقوى بكثير مقارنة باللغة المُساعَدة.",
-    },
-    solution: {
-      tr: "memolandum.com'da AI çeviri, büyük baskı altında çalışan bir yedek sigortadır — koltuk değneği değil. Platform, sizi önce kendi bilişsel ağlarınızı devreye sokarak düşünmeye, sonra ödüllendirilmeye koşullar; dil bir refleks haline gelene kadar.",
-      en: "On memolandum.com, AI translation is a backup safety net that works under great pressure — not a crutch. The platform conditions you to first activate your own cognitive networks to think, then be rewarded; until the language becomes a reflex.",
-      de: "Auf memolandum.com ist die KI-Übersetzung ein Sicherheitsnetz unter großem Druck — keine Krücke. Die Plattform konditioniert Sie, zuerst Ihre eigenen kognitiven Netzwerke zu aktivieren, dann belohnt zu werden; bis die Sprache zum Reflex wird.",
-      fr: "Sur memolandum.com, la traduction IA est un filet de sécurité qui fonctionne sous grande pression — pas une béquille. La plateforme vous conditionne à d'abord activer vos propres réseaux cognitifs pour penser, puis être récompensé; jusqu'à ce que la langue devienne un réflexe.",
-      es: "En memolandum.com, la traducción IA es una red de seguridad de respaldo que funciona bajo gran presión — no una muleta. La plataforma te condiciona a primero activar tus propias redes cognitivas para pensar, luego ser recompensado; hasta que el idioma se convierta en un reflejo.",
-      ja: "memolandum.comでは、AI翻訳は大きなプレッシャー下で機能するバックアップセーフティネットであり、松葉杖ではありません。プラットフォームは、まず自分の認知ネットワークを活性化して考え、次に報酬を得るよう条件づけます。言語が反射になるまで。",
-      zh: "在memolandum.com上，AI翻译是在巨大压力下工作的后备安全网——而非拐杖。该平台条件训练您首先激活自己的认知网络来思考，然后得到奖励；直到语言成为反射。",
-      ar: "في memolandum.com، تُمثّل الترجمة بالذكاء الاصطناعي شبكة أمان احتياطية تعمل تحت ضغط كبير — لا عُكّازًا. تُهيّئك المنصة أولًا لتنشيط شبكاتك المعرفية الخاصة والتفكير، ثم تُكافئك؛ حتى تصبح اللغة انعكاسًا تلقائيًا.",
+      tr: "memolandum.com sizi kelimeleri ezberletmez; arcade mekanikleriyle bilgiyi içeriden aktif olarak çağırmaya zorlar. Skor üretme ve zamana karşı yarışma nöral yolları hızlandırır.",
+      en: "memolandum.com doesn't make you memorize — arcade mechanics force active recall. The drive to score and race time accelerates neural pathways.",
+      de: "memolandum.com lässt Sie nicht auswendig lernen — Arcade-Mechaniken erzwingen aktives Abrufen. Punktesammeln und Zeitrennen beschleunigen neuronale Pfade.",
+      fr: "memolandum.com ne vous fait pas mémoriser — les mécaniques d'arcade forcent le rappel actif. La course aux points accélère les voies neuronales.",
+      es: "memolandum.com no te hace memorizar — la mecánica arcade fuerza el recuerdo activo. La carrera por puntos acelera las vías neuronales.",
+      it: "memolandum.com non ti fa memorizzare — le meccaniche arcade forzano il richiamo attivo. La corsa ai punti accelera i percorsi neurali.",
+      ja: "memolandum.comは暗記させるのではなく、アーケードメカニクスが能動的な想起を強制します。スコアと時間の競争が神経経路を加速させます。",
+      zh: "memolandum.com不会让您死记硬背——街机游戏机制强制主动回忆。得分和时间竞争加速神经通路。",
+      ar: "لا يجعلك memolandum.com تحفظ — ميكانيكيات الألعاب تُرغمك على الاستذكار النشط. المسابقة على النقاط والوقت تُسرّع المسارات العصبية.",
+      ru: "memolandum.com не заставляет зубрить — игровые механики вынуждают активно воспроизводить. Гонка за очками ускоряет нейронные пути.",
+      ko: "memolandum.com은 암기를 강요하지 않습니다 — 아케이드 메카닉이 능동적 회상을 강제합니다. 점수와 시간 경쟁이 신경 경로를 가속화합니다.",
+      pt: "memolandum.com não faz você memorizar — mecânicas arcade forçam a recuperação ativa. A corrida por pontos acelera os caminhos neurais.",
+      el: "Το memolandum.com δεν σε κάνει να απομνημονεύεις — οι μηχανισμοί arcade αναγκάζουν την ενεργή ανάκληση. Η κούρσα για πόντους επιταχύνει τα νευρικά μονοπάτια.",
+      osm: "Memolandum oyun mekanizmaları yalnızca hıfzettirmez; bilginin içeriden etkin hatırlanmasını zorunlu kılar. Skor yarışı ve zaman baskısı sinir yollarını hızlandırır.",
     },
   },
 ];
 
+/* ── 12 dil + Osmanlıca tanımları ─────────────────────────────────────────── */
 const ALL_LANGS = [
   {
     code: "tr", flag: "🇹🇷", name: "Türkçe",
-    intro: "memolandum.com, geleneksel ve sıkıcı öğrenme metotlarını geride bırakarak kalıcı hafıza yönetimini küresel bir oyun ekosistemine dönüştüren yeni nesil bir platformdur. Nörobilim, bilişsel psikoloji ve oyun teknolojilerinin kesişiminde çalışıyoruz.",
-    vision: "Öğrendiğiniz her yeni dil, dünya bilişim ve iş ekosisteminde size yeni bir kapı açar. memolandum.com'un bilimsel altyapısıyla bir dili bitirip diğerine geçebilir, bilişsel sınırlarınızı esnetebilir ve kişisel gelişiminizi global standartların üzerine çıkarabilirsiniz. Tıpkı sıfır noktasından başlayan atari piksellerinin bugün dünyayı yönetmesi gibi, siz de sıfırdan başlayarak dünya dillerine hakim olacak ve geleceğinizi kendiniz inşa edeceksiniz.",
-    whyTitle: "Neden memolandum.com?",
-    whyItems: [
-      { bold: "Eşik Altı (Subliminal) Güç:", text: "Oyun oynarken farkında olmadan, örtük öğrenme mekanizmalarıyla kalıcı dil edinimi." },
-      { bold: "Genişleyen Arcade Kütüphanesi:", text: "6 oyunla sınırlı kalmayan, sürekli büyüyen retro oyun modülleri." },
-      { bold: "Küresel Dil Havuzu:", text: "Zaman içinde eklenecek tüm dünya dilleriyle entelektüel ve profesyonel yaşamı domine etme fırsatı." },
-      { bold: "Kalıcı Kelime Edinimi:", text: "Günde sadece 10 dakika oynayarak, geleneksel yöntemlere göre %50'ye varan daha kalıcı öğrenme." },
-      { bold: "Maksimum Odaklanma:", text: "Sıkıcı flashcard'lar yerine, 90'ların atari salonlarındaki o yüksek odaklanmayı bilimsel algoritmalarla yakalayın." },
+    speakers: "85M",
+    intro: "memolandum.com, geleneksel ve sıkıcı öğrenme metotlarını geride bırakarak kalıcı hafıza yönetimini küresel bir oyun ekosistemine dönüştüren yeni nesil bir platformdur.",
+    vision: "Her yeni dil dünya bilişim ve iş ekosisteminde size yeni bir kapı açar. memolandum.com'un bilimsel altyapısıyla bir dili bitirip diğerine geçebilir, tıpkı sıfır noktasından başlayan atari piksellerinin bugün dünyayı yönetmesi gibi kendinizi inşa edebilirsiniz.",
+    why: [
+      { b: "Örtük öğrenme gücü:", t: "Oyun oynarken, farkında olmadan kalıcı dil edinimi." },
+      { b: "Genişleyen Arcade Kütüphanesi:", t: "6 oyunla sınırlı kalmayan, büyüyen retro modüller." },
+      { b: "Kalıcı kelime edinimi:", t: "Günde 10 dakika, geleneksel yöntemlere göre %50 daha kalıcı." },
+      { b: "YDS / YKS hazırlık:", t: "Sınav odaklı kelime setleri, seviye bazlı listeler." },
     ],
-    scienceLabel: "Bilimsel Temeller",
-    theoryLabel: "📖 Teorik Dayanak",
-    solutionLabel: "🎮 Çözümümüz",
-    visionLabel: "Küresel Vizyon",
-    whyLabel: "Neden memolandum.com?",
   },
   {
     code: "en", flag: "🇬🇧", name: "English",
-    intro: "memolandum.com is a next-generation platform leaving behind boring traditional learning methods and transforming permanent memory management into a global game ecosystem. We operate at the intersection of neuroscience, cognitive psychology, and game technology.",
-    vision: "Every new language you learn opens a new door for you in the global tech and business ecosystem. With memolandum.com's scientific infrastructure, you can finish one language and move on to the next, stretch your cognitive boundaries, and raise your personal development above global standards. Just as arcade pixels starting from ground zero rule the world today, you will start from scratch and master world languages.",
-    whyTitle: "Why memolandum.com?",
-    whyItems: [
-      { bold: "Subliminal Power:", text: "Permanent language acquisition through implicit learning mechanisms while playing, without even realizing it." },
-      { bold: "Ever-Expanding Arcade Library:", text: "Retro game modules constantly growing beyond 6 games." },
-      { bold: "Global Language Pool:", text: "The opportunity to dominate intellectual and professional life with all world languages to be added over time." },
-      { bold: "Permanent Vocabulary Acquisition:", text: "Up to 50% more permanent learning compared to traditional methods by playing just 10 minutes a day." },
-      { bold: "Maximum Focus:", text: "Scientific algorithms that capture that high focus of 90s arcade halls instead of boring flashcards." },
+    speakers: "1.5B",
+    intro: "memolandum.com is a next-generation platform transforming memory management into a global game ecosystem — leaving boring traditional methods behind.",
+    vision: "Every language you learn opens a new door in the global tech and business world. With memolandum.com's scientific infrastructure, master world languages from zero — just as the arcade pixels of yesterday now rule the world.",
+    why: [
+      { b: "Implicit learning power:", t: "Permanent language acquisition through gameplay, without realizing it." },
+      { b: "Ever-expanding Arcade Library:", t: "Retro game modules growing beyond 6 games." },
+      { b: "Permanent vocabulary:", t: "10 minutes a day — up to 50% more lasting than traditional methods." },
+      { b: "Exam preparation:", t: "Level-based and exam-focused word sets." },
     ],
-    scienceLabel: "Scientific Foundations",
-    theoryLabel: "📖 Theory",
-    solutionLabel: "🎮 Our Solution",
-    visionLabel: "Global Vision",
-    whyLabel: "Why memolandum.com?",
+  },
+  {
+    code: "ru", flag: "🇷🇺", name: "Русский",
+    speakers: "260M",
+    intro: "memolandum.com — платформа нового поколения, превращающая управление памятью в глобальную игровую экосистему на основе нейронауки и когнитивной психологии.",
+    vision: "Каждый новый язык открывает новые возможности в мировой экономике. С научной инфраструктурой memolandum.com вы можете освоить мировые языки с нуля — как аркадные пиксели прошлого стали управлять миром сегодня.",
+    why: [
+      { b: "Неявное обучение:", t: "Постоянное усвоение языка во время игры, без осознанных усилий." },
+      { b: "Растущая Arcade-библиотека:", t: "Ретро-игровые модули, не ограниченные 6 играми." },
+      { b: "Устойчивый словарный запас:", t: "10 минут в день — до 50% более устойчивое запоминание." },
+      { b: "Подготовка к экзаменам:", t: "Наборы слов по уровням и для подготовки к экзаменам." },
+    ],
+  },
+  {
+    code: "pt", flag: "🇧🇷", name: "Português",
+    speakers: "260M",
+    intro: "memolandum.com é uma plataforma de nova geração que transforma o gerenciamento da memória em um ecossistema de jogos global, deixando para trás os métodos tradicionais e entediantes.",
+    vision: "Cada novo idioma abre uma nova porta no ecossistema global de tecnologia e negócios. Com a infraestrutura científica do memolandum.com, você pode dominar os idiomas do mundo a partir do zero.",
+    why: [
+      { b: "Poder do aprendizado implícito:", t: "Aquisição permanente de idiomas durante o jogo, sem perceber." },
+      { b: "Biblioteca Arcade em expansão:", t: "Módulos de jogos retrô crescendo além de 6 jogos." },
+      { b: "Vocabulário permanente:", t: "10 minutos por dia — até 50% mais duradouro que métodos tradicionais." },
+      { b: "Preparação para exames:", t: "Conjuntos de palavras por nível e focados em exames." },
+    ],
+  },
+  {
+    code: "ko", flag: "🇰🇷", name: "한국어",
+    speakers: "80M",
+    intro: "memolandum.com은 기억 관리를 글로벌 게임 생태계로 변환하는 차세대 플랫폼으로, 신경과학, 인지심리학, 게임 기술의 교차점에서 운영됩니다.",
+    vision: "배우는 모든 새로운 언어는 글로벌 기술 및 비즈니스 생태계에서 새로운 문을 열어줍니다. memolandum.com의 과학적 인프라로 세계 언어를 제로에서 마스터할 수 있습니다.",
+    why: [
+      { b: "암묵적 학습의 힘:", t: "게임을 하는 동안 인식하지 못하면서 영구적인 언어 습득." },
+      { b: "확장되는 아케이드 라이브러리:", t: "6개 게임을 넘어 계속 성장하는 레트로 게임 모듈." },
+      { b: "영구적인 어휘:", t: "하루 10분 — 전통적인 방법보다 최대 50% 더 지속적." },
+      { b: "시험 준비:", t: "레벨 기반 및 시험 중심 단어 세트." },
+    ],
   },
   {
     code: "de", flag: "🇩🇪", name: "Deutsch",
-    intro: "memolandum.com ist eine Plattform der nächsten Generation, die traditionelle und langweilige Lernmethoden hinter sich lässt und das dauerhafte Gedächtnismanagement in ein globales Spiel-Ökosystem verwandelt. Wir arbeiten an der Schnittstelle von Neurowissenschaft, kognitiver Psychologie und Spieltechnologie.",
-    vision: "Jede neue Sprache, die Sie lernen, öffnet Ihnen eine neue Tür im globalen Technologie- und Geschäftsökosystem. Mit der wissenschaftlichen Infrastruktur von memolandum.com können Sie eine Sprache abschließen und zur nächsten übergehen, Ihre kognitiven Grenzen erweitern und Ihre persönliche Entwicklung auf globale Standards heben.",
-    whyTitle: "Warum memolandum.com?",
-    whyItems: [
-      { bold: "Subliminale Kraft:", text: "Dauerhafter Spracherwerb durch implizite Lernmechanismen beim Spielen, ohne es zu merken." },
-      { bold: "Ständig wachsende Arcade-Bibliothek:", text: "Retro-Spielmodule, die über 6 Spiele hinaus wachsen." },
-      { bold: "Globaler Sprachpool:", text: "Die Chance, intellektuelles und berufliches Leben mit allen Weltsprachen zu dominieren." },
-      { bold: "Dauerhafter Wortschatzerwerb:", text: "Bis zu 50% dauerhafteres Lernen im Vergleich zu traditionellen Methoden." },
-      { bold: "Maximale Konzentration:", text: "Wissenschaftliche Algorithmen, die die hohe Konzentration der Arcade-Hallen der 90er reproduzieren." },
+    speakers: "130M",
+    intro: "memolandum.com ist eine Plattform der nächsten Generation, die Gedächtnismanagement in ein globales Spiel-Ökosystem verwandelt — an der Schnittstelle von Neurowissenschaft und Spieltechnologie.",
+    vision: "Jede neue Sprache öffnet eine neue Tür im globalen Technologie- und Geschäftsökosystem. Mit der wissenschaftlichen Infrastruktur von memolandum.com können Sie Weltsprachen von null an beherrschen.",
+    why: [
+      { b: "Implizites Lernen:", t: "Dauerhafter Spracherwerb beim Spielen, ohne es zu merken." },
+      { b: "Wachsende Arcade-Bibliothek:", t: "Retro-Spielmodule, die über 6 Spiele hinauswachsen." },
+      { b: "Dauerhafter Wortschatz:", t: "10 Minuten täglich — bis zu 50% dauerhafter als traditionelle Methoden." },
+      { b: "Prüfungsvorbereitung:", t: "Level-basierte und prüfungsorientierte Wortlisten." },
     ],
-    scienceLabel: "Wissenschaftliche Grundlagen",
-    theoryLabel: "📖 Theorie",
-    solutionLabel: "🎮 Unsere Lösung",
-    visionLabel: "Globale Vision",
-    whyLabel: "Warum memolandum.com?",
   },
   {
     code: "fr", flag: "🇫🇷", name: "Français",
-    intro: "memolandum.com est une plateforme de nouvelle génération qui laisse derrière les méthodes d'apprentissage traditionnelles et ennuyeuses, transformant la gestion permanente de la mémoire en un écosystème de jeu mondial. Nous opérons à l'intersection des neurosciences, de la psychologie cognitive et de la technologie du jeu.",
-    vision: "Chaque nouvelle langue que vous apprenez vous ouvre une nouvelle porte dans l'écosystème technologique et commercial mondial. Avec l'infrastructure scientifique de memolandum.com, vous pouvez terminer une langue et passer à la suivante, étirer vos limites cognitives et élever votre développement personnel au-dessus des standards mondiaux.",
-    whyTitle: "Pourquoi memolandum.com?",
-    whyItems: [
-      { bold: "Puissance Subliminale:", text: "Acquisition permanente de la langue grâce aux mécanismes d'apprentissage implicite en jouant, sans s'en rendre compte." },
-      { bold: "Bibliothèque Arcade en Expansion:", text: "Modules de jeux rétro en croissance constante au-delà de 6 jeux." },
-      { bold: "Pool Mondial de Langues:", text: "L'opportunité de dominer la vie intellectuelle et professionnelle avec toutes les langues du monde." },
-      { bold: "Acquisition Permanente de Vocabulaire:", text: "Jusqu'à 50% d'apprentissage plus permanent comparé aux méthodes traditionnelles." },
-      { bold: "Concentration Maximale:", text: "Algorithmes scientifiques qui capturent cette haute concentration des salles d'arcade des années 90." },
+    speakers: "280M",
+    intro: "memolandum.com est une plateforme de nouvelle génération transformant la gestion de la mémoire en un écosystème de jeu mondial, à l'intersection des neurosciences et de la psychologie cognitive.",
+    vision: "Chaque nouvelle langue ouvre une nouvelle porte dans l'écosystème mondial. Avec l'infrastructure scientifique de memolandum.com, maîtrisez les langues du monde depuis zéro.",
+    why: [
+      { b: "Apprentissage implicite:", t: "Acquisition permanente de la langue en jouant, sans s'en rendre compte." },
+      { b: "Bibliothèque Arcade en expansion:", t: "Modules rétro croissant au-delà de 6 jeux." },
+      { b: "Vocabulaire permanent:", t: "10 minutes par jour — jusqu'à 50% plus durable que les méthodes traditionnelles." },
+      { b: "Préparation aux examens:", t: "Listes de mots par niveau et orientées examens." },
     ],
-    scienceLabel: "Fondements Scientifiques",
-    theoryLabel: "📖 Théorie",
-    solutionLabel: "🎮 Notre Solution",
-    visionLabel: "Vision Mondiale",
-    whyLabel: "Pourquoi memolandum.com?",
   },
   {
     code: "es", flag: "🇪🇸", name: "Español",
-    intro: "memolandum.com es una plataforma de nueva generación que deja atrás los métodos de aprendizaje tradicionales y aburridos, transformando la gestión permanente de la memoria en un ecosistema de juego global. Operamos en la intersección de la neurociencia, la psicología cognitiva y la tecnología del juego.",
-    vision: "Cada nuevo idioma que aprendes te abre una nueva puerta en el ecosistema tecnológico y empresarial global. Con la infraestructura científica de memolandum.com, puedes terminar un idioma y pasar al siguiente, estirar tus límites cognitivos y elevar tu desarrollo personal por encima de los estándares globales.",
-    whyTitle: "¿Por qué memolandum.com?",
-    whyItems: [
-      { bold: "Poder Subliminal:", text: "Adquisición permanente del idioma a través de mecanismos de aprendizaje implícito mientras juegas, sin darte cuenta." },
-      { bold: "Biblioteca Arcade en Expansión:", text: "Módulos de juegos retro que crecen constantemente más allá de 6 juegos." },
-      { bold: "Pool Global de Idiomas:", text: "La oportunidad de dominar la vida intelectual y profesional con todos los idiomas del mundo." },
-      { bold: "Adquisición Permanente de Vocabulario:", text: "Hasta un 50% de aprendizaje más permanente comparado con los métodos tradicionales." },
-      { bold: "Máxima Concentración:", text: "Algoritmos científicos que capturan esa alta concentración de los salones de arcade de los 90." },
+    speakers: "500M",
+    intro: "memolandum.com es una plataforma de nueva generación que transforma la gestión de la memoria en un ecosistema de juego global, en la intersección de la neurociencia y la psicología cognitiva.",
+    vision: "Cada nuevo idioma abre una nueva puerta en el ecosistema global. Con la infraestructura científica de memolandum.com, domina los idiomas del mundo desde cero.",
+    why: [
+      { b: "Aprendizaje implícito:", t: "Adquisición permanente del idioma mientras juegas, sin darte cuenta." },
+      { b: "Biblioteca Arcade en expansión:", t: "Módulos retro que crecen más allá de 6 juegos." },
+      { b: "Vocabulario permanente:", t: "10 minutos al día — hasta un 50% más duradero." },
+      { b: "Preparación para exámenes:", t: "Listas de palabras por nivel y orientadas a exámenes." },
     ],
-    scienceLabel: "Fundamentos Científicos",
-    theoryLabel: "📖 Teoría",
-    solutionLabel: "🎮 Nuestra Solución",
-    visionLabel: "Visión Global",
-    whyLabel: "¿Por qué memolandum.com?",
+  },
+  {
+    code: "it", flag: "🇮🇹", name: "Italiano",
+    speakers: "85M",
+    intro: "memolandum.com è una piattaforma di nuova generazione che trasforma la gestione della memoria in un ecosistema di gioco globale, all'incrocio tra neuroscienze e psicologia cognitiva.",
+    vision: "Ogni nuova lingua apre una nuova porta nell'ecosistema globale. Con l'infrastruttura scientifica di memolandum.com, padroneggia le lingue del mondo da zero.",
+    why: [
+      { b: "Apprendimento implicito:", t: "Acquisizione permanente della lingua durante il gioco, senza accorgersene." },
+      { b: "Biblioteca Arcade in espansione:", t: "Moduli retro che crescono oltre 6 giochi." },
+      { b: "Vocabolario permanente:", t: "10 minuti al giorno — fino al 50% più duraturo." },
+      { b: "Preparazione agli esami:", t: "Liste di parole per livello e orientate agli esami." },
+    ],
   },
   {
     code: "ja", flag: "🇯🇵", name: "日本語",
-    intro: "memolandum.comは、退屈な従来の学習方法を打破し、永続的な記憶管理をグローバルなゲームエコシステムに変革する次世代プラットフォームです。神経科学、認知心理学、ゲームテクノロジーの交差点で運営しています。",
-    vision: "学ぶ新しい言語ごとに、グローバルなテクノロジーとビジネスエコシステムへの新しい扉が開きます。memolandum.comの科学的インフラを使えば、一つの言語を終えて次へと進み、認知的限界を広げ、個人的成長をグローバル基準を超えたレベルへと引き上げることができます。",
-    whyTitle: "なぜmemolandum.comなのか？",
-    whyItems: [
-      { bold: "潜在的な力:", text: "気づかないうちにゲームをしながら、暗示的学習メカニズムによる永続的な言語習得。" },
-      { bold: "拡大するアーケードライブラリ:", text: "6ゲームを超えて常に成長するレトロゲームモジュール。" },
-      { bold: "グローバル言語プール:", text: "時間をかけて追加される世界すべての言語で知的・職業的生活を支配する機会。" },
-      { bold: "永続的な語彙習得:", text: "1日わずか10分のプレイで、従来の方法と比べて最大50%より永続的な学習。" },
-      { bold: "最大集中:", text: "退屈なフラッシュカードの代わりに、90年代アーケードホールの高い集中力を科学的アルゴリズムで実現。" },
+    speakers: "125M",
+    intro: "memolandum.comは、神経科学、認知心理学、ゲームテクノロジーの交差点で、記憶管理をグローバルなゲームエコシステムに変革する次世代プラットフォームです。",
+    vision: "学ぶすべての新しい言語が、グローバルな技術・ビジネス生態系への新しい扉を開きます。memolandum.comの科学的インフラで、世界言語をゼロから習得できます。",
+    why: [
+      { b: "暗示的学習の力:", t: "気づかないうちにゲームで永続的な言語習得。" },
+      { b: "拡大するアーケードライブラリ:", t: "6ゲームを超えて成長するレトロゲームモジュール。" },
+      { b: "永続的な語彙:", t: "1日10分 — 従来の方法より最大50%持続的。" },
+      { b: "試験準備:", t: "レベル別および試験向けの単語セット。" },
     ],
-    scienceLabel: "科学的基盤",
-    theoryLabel: "📖 理論",
-    solutionLabel: "🎮 私たちのソリューション",
-    visionLabel: "グローバルビジョン",
-    whyLabel: "なぜmemolandum.comなのか？",
   },
   {
     code: "zh", flag: "🇨🇳", name: "中文",
-    intro: "memolandum.com是下一代平台，抛开传统枯燥的学习方式，将永久记忆管理转变为全球游戏生态系统。我们在神经科学、认知心理学和游戏技术的交汇处运营。",
-    vision: "您学习的每种新语言都为您打开全球技术和商业生态系统的新大门。借助memolandum.com的科学基础设施，您可以完成一种语言后进入下一种，拓展认知边界，将个人发展提升到全球标准之上。",
-    whyTitle: "为什么选择memolandum.com？",
-    whyItems: [
-      { bold: "潜意识力量:", text: "在玩游戏时不知不觉地通过隐式学习机制实现永久语言习得。" },
-      { bold: "不断扩展的街机库:", text: "超越6款游戏持续增长的复古游戏模块。" },
-      { bold: "全球语言池:", text: "随着时间推移添加的所有世界语言主导智力和职业生活的机会。" },
-      { bold: "永久词汇习得:", text: "每天仅玩10分钟，与传统方法相比可实现高达50%的更持久学习。" },
-      { bold: "最大专注:", text: "用科学算法捕捉90年代街机厅的高专注状态，而非枯燥的闪卡。" },
+    speakers: "1.1B",
+    intro: "memolandum.com是下一代平台，在神经科学、认知心理学和游戏技术的交汇处，将记忆管理转变为全球游戏生态系统。",
+    vision: "您学习的每种新语言都为全球生态系统打开新大门。借助memolandum.com的科学基础设施，从零开始掌握世界语言。",
+    why: [
+      { b: "隐式学习的力量:", t: "在游戏中不知不觉地永久习得语言。" },
+      { b: "不断扩展的街机库:", t: "超越6款游戏持续增长的复古模块。" },
+      { b: "永久词汇:", t: "每天10分钟 — 比传统方法持久50%。" },
+      { b: "考试准备:", t: "按级别和考试导向的单词集。" },
     ],
-    scienceLabel: "科学基础",
-    theoryLabel: "📖 理论",
-    solutionLabel: "🎮 我们的解决方案",
-    visionLabel: "全球愿景",
-    whyLabel: "为什么选择memolandum.com？",
   },
   {
     code: "ar", flag: "🇸🇦", name: "العربية",
-    intro: "memolandum.com منصة من الجيل القادم تتجاوز أساليب التعلم التقليدية الممللة، وتحوّل إدارة الذاكرة الدائمة إلى نظام بيئي للألعاب العالمية. نعمل عند تقاطع علم الأعصاب وعلم النفس المعرفي وتكنولوجيا الألعاب.",
-    vision: "كل لغة جديدة تتعلمها تفتح أمامك بابًا جديدًا في النظام البيئي التقني والتجاري العالمي. بفضل البنية التحتية العلمية لـ memolandum.com، يمكنك إتقان لغة والانتقال إلى التالية، وتوسيع حدودك المعرفية، ورفع تطورك الشخصي فوق المعايير العالمية.",
-    whyTitle: "لماذا memolandum.com؟",
-    whyItems: [
-      { bold: "القوة تحت الواعية:", text: "اكتساب دائم للغة عبر آليات التعلم الضمني أثناء اللعب دون أن تدرك ذلك." },
-      { bold: "مكتبة ألعاب متنامية:", text: "وحدات ألعاب ريترو تتجاوز 6 ألعاب وتنمو باستمرار." },
-      { bold: "مجمع لغات عالمي:", text: "فرصة السيطرة على الحياة الفكرية والمهنية بجميع لغات العالم." },
-      { bold: "اكتساب مفردات دائم:", text: "تعلم أكثر ديمومة بنسبة تصل إلى 50% مقارنة بالطرق التقليدية باللعب 10 دقائق يوميًا فقط." },
-      { bold: "تركيز أقصى:", text: "خوارزميات علمية تستعيد التركيز العالي لصالات الألعاب في التسعينيات بدلًا من البطاقات الممللة." },
+    speakers: "420M",
+    intro: "memolandum.com منصة الجيل القادم التي تحوّل إدارة الذاكرة إلى نظام بيئي للألعاب العالمية عند تقاطع علم الأعصاب وعلم النفس المعرفي.",
+    vision: "كل لغة جديدة تتعلمها تفتح بابًا جديدًا في النظام البيئي العالمي. بفضل البنية التحتية العلمية لـ memolandum.com، أتقن لغات العالم من الصفر.",
+    why: [
+      { b: "قوة التعلم الضمني:", t: "اكتساب دائم للغة أثناء اللعب دون إدراك." },
+      { b: "مكتبة ألعاب متنامية:", t: "وحدات ألعاب ريترو تتجاوز 6 ألعاب." },
+      { b: "مفردات دائمة:", t: "10 دقائق يوميًا — أكثر ديمومة بنسبة 50%." },
+      { b: "التحضير للامتحانات:", t: "قوائم كلمات حسب المستوى والامتحانات." },
     ],
-    scienceLabel: "الأسس العلمية",
-    theoryLabel: "📖 النظرية",
-    solutionLabel: "🎮 حلّنا",
-    visionLabel: "رؤية عالمية",
-    whyLabel: "لماذا memolandum.com؟",
+  },
+  {
+    code: "el", flag: "🇬🇷", name: "Ελληνικά",
+    speakers: "13M",
+    intro: "Το memolandum.com είναι μια πλατφόρμα νέας γενιάς που μετατρέπει τη διαχείριση μνήμης σε ένα παγκόσμιο οικοσύστημα παιχνιδιών, στη διασταύρωση νευροεπιστήμης και γνωστικής ψυχολογίας.",
+    vision: "Κάθε νέα γλώσσα που μαθαίνεις ανοίγει μια νέα πόρτα. Με την επιστημονική υποδομή του memolandum.com, κατακτήστε τις γλώσσες του κόσμου από το μηδέν.",
+    why: [
+      { b: "Σιωπηρή μάθηση:", t: "Μόνιμη γλωσσική απόκτηση κατά τη διάρκεια του παιχνιδιού, χωρίς συνείδηση." },
+      { b: "Βιβλιοθήκη Arcade σε επέκταση:", t: "Ρετρό ενότητες παιχνιδιών που αναπτύσσονται πέρα από 6 παιχνίδια." },
+      { b: "Μόνιμο λεξιλόγιο:", t: "10 λεπτά την ημέρα — έως 50% πιο ανθεκτικό." },
+      { b: "Προετοιμασία εξετάσεων:", t: "Λίστες λέξεων ανά επίπεδο και εξετασιακές." },
+    ],
+  },
+  {
+    code: "osm", flag: "☽", name: "Osmanlıca",
+    speakers: "Heritage",
+    intro: "memolandum.com, asrın usulden uzak ve mülâl verici tahsil yollarını geride bırakarak hafıza-yı dâimi idâresini küresel bir oyun ekosistemine tahvil eden yeni nesil bir bârgâh-ı irfandır.",
+    vision: "Her yeni dil, dünya ticaret ve ilim muhitinde size yeni bir kapı açar. Memolandum'un bilimsel altyapısıyla bir dili ikmal edip diğerine geçebilir, sıfırdan başlayarak dünya lisanlarına hâkim olabilirsiniz.",
+    why: [
+      { b: "Örtük öğrenme kudreti:", t: "Oyun zevkiyle, farkında olmaksızın, kalıcı dil tahsili." },
+      { b: "Büyüyen Arcade kütüphanesi:", t: "Altı oyunla sınırlı kalmayan, devamlı gelişen retro birimler." },
+      { b: "Kalıcı kelime edinimi:", t: "Günde on dakika oynayarak geleneksel yöntemlere göre yüzde elli daha derin hıfz." },
+      { b: "Sınav hazırlığı:", t: "Seviye bazlı ve sınav odaklı kelime listeleri." },
+    ],
   },
 ];
+
+const SCIENCE_ACCENT_DEF = ["#22d3ee", "#facc15", "#4ade80", "#a78bfa", "#f472b6"];
 
 export default function AboutClient() {
   const t = useT();
@@ -387,27 +460,16 @@ export default function AboutClient() {
           position: "absolute", inset: 0, pointerEvents: "none",
           background: "radial-gradient(ellipse 80% 60% at 50% -10%, rgba(34,211,238,0.10) 0%, transparent 70%), radial-gradient(ellipse 60% 40% at 80% 50%, rgba(168,85,247,0.07) 0%, transparent 60%)",
         }} />
-        <div style={{ position: "relative", maxWidth: 900, margin: "0 auto", padding: "56px 16px 0" }}>
-          <Link
-            href="/"
-            style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "#22d3ee", fontWeight: 700, fontSize: 13, letterSpacing: "0.1em", textTransform: "uppercase", textDecoration: "none", marginBottom: 36 }}
-          >
+        <div style={{ position: "relative", maxWidth: 940, margin: "0 auto", padding: "56px 16px 0" }}>
+          <Link href="/" style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "#22d3ee", fontWeight: 700, fontSize: 13, letterSpacing: "0.1em", textTransform: "uppercase", textDecoration: "none", marginBottom: 36 }}>
             ← {t("common.back")}
           </Link>
 
-          <div style={{ textAlign: "center", marginBottom: 36 }}>
-            <span style={{
-              display: "inline-block", fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", color: "#22d3ee",
-              border: "1px solid rgba(34,211,238,0.3)", borderRadius: 999, padding: "4px 14px", marginBottom: 16,
-              background: "rgba(34,211,238,0.05)", fontFamily: "monospace",
-            }}>
+          <div style={{ textAlign: "center", marginBottom: 28 }}>
+            <span style={{ display: "inline-block", fontSize: 11, fontWeight: 700, letterSpacing: "0.15em", color: "#22d3ee", border: "1px solid rgba(34,211,238,0.3)", borderRadius: 999, padding: "4px 14px", marginBottom: 14, background: "rgba(34,211,238,0.05)", fontFamily: "monospace" }}>
               🧬 SCIENCE · MISSION · VISION
             </span>
-            <h1 style={{
-              fontSize: "clamp(2.2rem, 7vw, 4rem)", fontWeight: 900, letterSpacing: "-0.02em", lineHeight: 1.1,
-              background: "linear-gradient(135deg, #22d3ee 0%, #a78bfa 50%, #f472b6 100%)",
-              WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", margin: "0 0 12px",
-            }}>
+            <h1 style={{ fontSize: "clamp(2.2rem,7vw,4rem)", fontWeight: 900, letterSpacing: "-0.02em", lineHeight: 1.1, background: "linear-gradient(135deg,#22d3ee 0%,#a78bfa 50%,#f472b6 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", margin: "0 0 12px" }}>
               MEMOLANDUM
             </h1>
             <p style={{ color: "#64748b", fontSize: 14, maxWidth: 560, margin: "0 auto", lineHeight: 1.7 }}>
@@ -416,24 +478,31 @@ export default function AboutClient() {
             </p>
           </div>
 
-          {/* Language Tabs */}
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 8, marginBottom: 48 }}>
+          {/* ── 14 Dil Seçici ──────────────────────────────────── */}
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 7, marginBottom: 44 }}>
             {ALL_LANGS.map((l) => (
               <button
                 key={l.code}
                 onClick={() => { setActiveLang(l.code); setExpandedCard(null); }}
+                title={`${l.name} — ${l.speakers} konuşucu`}
                 style={{
-                  padding: "7px 16px", borderRadius: 999, fontWeight: 700, fontSize: 13, cursor: "pointer",
-                  border: activeLang === l.code ? "1px solid rgba(34,211,238,0.6)" : "1px solid rgba(255,255,255,0.08)",
-                  background: activeLang === l.code ? "rgba(34,211,238,0.12)" : "rgba(255,255,255,0.03)",
+                  padding: "6px 14px", borderRadius: 999, fontWeight: 700, fontSize: 12.5, cursor: "pointer",
+                  border: activeLang === l.code ? "1px solid rgba(34,211,238,0.6)" : "1px solid rgba(255,255,255,0.07)",
+                  background: activeLang === l.code ? "rgba(34,211,238,0.12)" : "rgba(255,255,255,0.02)",
                   color: activeLang === l.code ? "#22d3ee" : "#94a3b8",
-                  transition: "all 0.2s", whiteSpace: "nowrap",
+                  transition: "all 0.18s", whiteSpace: "nowrap",
                 }}
               >
                 {l.flag} {l.name}
+                <span style={{ fontSize: 10, color: activeLang === l.code ? "rgba(34,211,238,0.6)" : "#475569", marginLeft: 4 }}>{l.speakers}</span>
               </button>
             ))}
           </div>
+
+          {/* Global speaker count */}
+          <p style={{ textAlign: "center", fontSize: 12, color: "#334155", fontFamily: "monospace", marginBottom: 40, letterSpacing: "0.08em" }}>
+            🌍 Bu içerik toplamda <span style={{ color: "#22d3ee", fontWeight: 700 }}>4+ milyar</span> konuşucuya ulaşıyor
+          </p>
         </div>
       </div>
 
@@ -443,79 +512,49 @@ export default function AboutClient() {
         dir={isRTL ? "rtl" : "ltr"}
         style={{ maxWidth: 860, margin: "0 auto", padding: "0 16px 80px", animation: "fadeUp 0.35s ease" }}
       >
-        {/* Intro */}
-        <div style={{
-          borderRadius: 16, border: "1px solid rgba(34,211,238,0.12)",
-          background: "linear-gradient(135deg, rgba(15,23,42,0.9) 0%, rgba(30,41,59,0.5) 100%)",
-          padding: "20px 24px", marginBottom: 36, backdropFilter: "blur(8px)",
-        }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
+        {/* Intro card */}
+        <div style={{ borderRadius: 16, border: "1px solid rgba(34,211,238,0.12)", background: "linear-gradient(135deg,rgba(15,23,42,0.9) 0%,rgba(30,41,59,0.5) 100%)", padding: "20px 24px", marginBottom: 32 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
             <span style={{ fontSize: 28 }}>{lang.flag}</span>
             <div>
               <div style={{ fontWeight: 900, fontSize: 18, color: "#f1f5f9" }}>{lang.name}</div>
-              <div style={{ fontSize: 11, fontFamily: "monospace", color: "#475569", letterSpacing: "0.1em" }}>ABOUT MEMOLANDUM</div>
+              <div style={{ fontSize: 11, fontFamily: "monospace", color: "#475569", letterSpacing: "0.1em" }}>ABOUT MEMOLANDUM · {lang.speakers} SPEAKERS</div>
             </div>
           </div>
           <p style={{ color: "#94a3b8", fontSize: 14, lineHeight: 1.75, margin: 0 }}>{lang.intro}</p>
         </div>
 
         {/* Science Cards */}
-        <div style={{
-          fontSize: 11, fontFamily: "monospace", fontWeight: 700, color: "#475569",
-          letterSpacing: "0.15em", textTransform: "uppercase", marginBottom: 16,
-        }}>
-          ⚗️ {lang.scienceLabel}
+        <div style={{ fontSize: 11, fontFamily: "monospace", fontWeight: 700, color: "#475569", letterSpacing: "0.15em", textTransform: "uppercase", marginBottom: 14 }}>
+          ⚗️ {activeLang === "tr" ? "Bilimsel Temeller" : activeLang === "ar" ? "الأسس العلمية" : activeLang === "ru" ? "Научные основы" : activeLang === "ko" ? "과학적 기반" : activeLang === "zh" ? "科学基础" : activeLang === "el" ? "Επιστημονικές Βάσεις" : activeLang === "osm" ? "İlmî Esaslar" : "Scientific Foundations"}
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 40 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 9, marginBottom: 36 }}>
           {SCIENCE_POINTS.map((pt) => {
             const cardKey = `${activeLang}-${pt.id}`;
             const isOpen = expandedCard === cardKey;
             return (
-              <div
-                key={pt.id}
-                onClick={() => setExpandedCard(isOpen ? null : cardKey)}
-                style={{
-                  borderRadius: 14, cursor: "pointer", overflow: "hidden",
-                  border: `1px solid ${isOpen ? pt.accent + "33" : "rgba(255,255,255,0.06)"}`,
-                  background: isOpen
-                    ? `linear-gradient(135deg, ${pt.accent}0a 0%, rgba(15,23,42,0.95) 100%)`
-                    : "rgba(15,23,42,0.7)",
-                  boxShadow: isOpen ? `0 0 24px ${pt.accent}12` : "none",
-                  transition: "all 0.25s",
-                }}
+              <div key={pt.id} onClick={() => setExpandedCard(isOpen ? null : cardKey)}
+                style={{ borderRadius: 13, cursor: "pointer", overflow: "hidden", border: `1px solid ${isOpen ? pt.accent + "33" : "rgba(255,255,255,0.06)"}`, background: isOpen ? `linear-gradient(135deg,${pt.accent}0a 0%,rgba(15,23,42,.95) 100%)` : "rgba(15,23,42,0.7)", boxShadow: isOpen ? `0 0 24px ${pt.accent}12` : "none", transition: "all 0.22s" }}
               >
-                {/* Header row */}
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "14px 18px", gap: 12 }}>
-                  <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                    <span style={{ fontSize: 18 }}>{pt.icon}</span>
-                    <span style={{ fontWeight: 800, fontSize: 13, color: pt.accent, letterSpacing: "0.01em" }}>
-                      {pt.labels[activeLang]}
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "13px 18px", gap: 12 }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
+                    <span style={{ fontSize: 17 }}>{pt.icon}</span>
+                    <span style={{ fontWeight: 800, fontSize: 12.5, color: pt.accent, letterSpacing: "0.01em" }}>
+                      {pt.labels[activeLang] || pt.labels["en"]}
                     </span>
                   </div>
-                  <span style={{ color: pt.accent, fontSize: 20, transition: "transform 0.25s", transform: isOpen ? "rotate(90deg)" : "rotate(0deg)", flexShrink: 0 }}>›</span>
+                  <span style={{ color: pt.accent, fontSize: 20, transition: "transform 0.22s", transform: isOpen ? "rotate(90deg)" : "none", flexShrink: 0 }}>›</span>
                 </div>
-
-                {/* Expandable body */}
                 {isOpen && (
-                  <div style={{ padding: "0 18px 18px", display: "flex", flexDirection: "column", gap: 12 }}>
-                    {/* Theory */}
-                    <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: 10, padding: "12px 14px", border: `1px solid ${pt.accent}18` }}>
-                      <div style={{ fontSize: 11, fontWeight: 700, color: pt.accent, letterSpacing: "0.1em", marginBottom: 6, fontFamily: "monospace" }}>
-                        {lang.theoryLabel}
-                      </div>
-                      <p style={{ color: "#94a3b8", fontSize: 13, lineHeight: 1.7, margin: 0 }}>
-                        {pt.theory[activeLang]}
-                      </p>
+                  <div style={{ padding: "0 18px 16px", display: "flex", flexDirection: "column", gap: 10 }}>
+                    <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: 10, padding: "11px 14px", border: `1px solid ${pt.accent}18` }}>
+                      <div style={{ fontSize: 10, fontWeight: 700, color: pt.accent, letterSpacing: "0.1em", marginBottom: 5, fontFamily: "monospace" }}>📖 THEORY</div>
+                      <p style={{ color: "#94a3b8", fontSize: 13, lineHeight: 1.7, margin: 0 }}>{pt.theory[activeLang] || pt.theory["en"]}</p>
                     </div>
-                    {/* Solution */}
-                    <div style={{ background: "rgba(255,255,255,0.02)", borderRadius: 10, padding: "12px 14px", border: "1px solid rgba(168,85,247,0.12)" }}>
-                      <div style={{ fontSize: 11, fontWeight: 700, color: "#a78bfa", letterSpacing: "0.1em", marginBottom: 6, fontFamily: "monospace" }}>
-                        {lang.solutionLabel}
-                      </div>
-                      <p style={{ color: "#94a3b8", fontSize: 13, lineHeight: 1.7, margin: 0 }}>
-                        {pt.solution[activeLang]}
-                      </p>
+                    <div style={{ background: "rgba(255,255,255,0.02)", borderRadius: 10, padding: "11px 14px", border: "1px solid rgba(168,85,247,0.12)" }}>
+                      <div style={{ fontSize: 10, fontWeight: 700, color: "#a78bfa", letterSpacing: "0.1em", marginBottom: 5, fontFamily: "monospace" }}>🎮 SOLUTION</div>
+                      <p style={{ color: "#94a3b8", fontSize: 13, lineHeight: 1.7, margin: 0 }}>{pt.solution[activeLang] || pt.solution["en"]}</p>
                     </div>
                   </div>
                 )}
@@ -524,104 +563,65 @@ export default function AboutClient() {
           })}
         </div>
 
-        {/* Why memolandum */}
-        <div style={{
-          borderRadius: 16, border: "1px solid rgba(250,204,21,0.2)",
-          background: "linear-gradient(135deg, rgba(250,204,21,0.05) 0%, rgba(15,23,42,0.9) 100%)",
-          padding: "20px 24px", marginBottom: 24,
-        }}>
-          <div style={{ fontSize: 11, fontWeight: 700, color: "#facc15", letterSpacing: "0.12em", textTransform: "uppercase", fontFamily: "monospace", marginBottom: 14 }}>
-            ✓ {lang.whyTitle}
+        {/* Why */}
+        {lang.why && (
+          <div style={{ borderRadius: 16, border: "1px solid rgba(250,204,21,0.18)", background: "linear-gradient(135deg,rgba(250,204,21,0.05) 0%,rgba(15,23,42,.9) 100%)", padding: "18px 22px", marginBottom: 22 }}>
+            <div style={{ fontSize: 10, fontWeight: 700, color: "#facc15", letterSpacing: "0.12em", textTransform: "uppercase", fontFamily: "monospace", marginBottom: 12 }}>✓ {lang.code === "tr" ? "Neden Memolandum?" : "Why Memolandum?"}</div>
+            <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 9 }}>
+              {lang.why.map((item, i) => (
+                <li key={i} style={{ display: "flex", gap: 9, alignItems: "flex-start" }}>
+                  <span style={{ color: "#22d3ee", marginTop: 2, flexShrink: 0 }}>✓</span>
+                  <span style={{ color: "#94a3b8", fontSize: 13, lineHeight: 1.6 }}><strong style={{ color: "#f1f5f9" }}>{item.b}</strong> {item.t}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-          <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 10 }}>
-            {lang.whyItems.map((item, i) => (
-              <li key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start" }}>
-                <span style={{ color: "#22d3ee", marginTop: 2, flexShrink: 0 }}>✓</span>
-                <span style={{ color: "#94a3b8", fontSize: 13, lineHeight: 1.6 }}>
-                  <strong style={{ color: "#f1f5f9" }}>{item.bold}</strong> {item.text}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        )}
 
         {/* Vision */}
-        <div style={{
-          borderRadius: 16, border: "1px solid rgba(168,85,247,0.2)",
-          background: "linear-gradient(135deg, rgba(168,85,247,0.07) 0%, rgba(34,211,238,0.04) 100%)",
-          padding: "20px 24px", marginBottom: 32,
-        }}>
-          <div style={{ fontSize: 11, fontWeight: 700, color: "#a78bfa", letterSpacing: "0.12em", textTransform: "uppercase", fontFamily: "monospace", marginBottom: 10 }}>
-            🌌 {lang.visionLabel}
+        <div style={{ borderRadius: 16, border: "1px solid rgba(168,85,247,0.2)", background: "linear-gradient(135deg,rgba(168,85,247,.07) 0%,rgba(34,211,238,.04) 100%)", padding: "18px 22px", marginBottom: 28 }}>
+          <div style={{ fontSize: 10, fontWeight: 700, color: "#a78bfa", letterSpacing: "0.12em", textTransform: "uppercase", fontFamily: "monospace", marginBottom: 8 }}>
+            🌌 {activeLang === "tr" ? "Küresel Vizyon" : activeLang === "ar" ? "رؤية عالمية" : activeLang === "ru" ? "Глобальное видение" : activeLang === "ko" ? "글로벌 비전" : activeLang === "el" ? "Παγκόσμιο Όραμα" : activeLang === "osm" ? "Küresel Vizyon" : "Global Vision"}
           </div>
           <p style={{ color: "#94a3b8", fontSize: 13, lineHeight: 1.75, margin: 0 }}>{lang.vision}</p>
-          <p style={{ color: "#475569", fontSize: 12, fontStyle: "italic", textAlign: "center", marginTop: 14, marginBottom: 0 }}>
-            &ldquo;{activeLang === "tr"
-              ? "Geleceğin öğrenme teknolojisini, bilişimin sıfır noktası olan retro ruhuyla inşa ediyoruz."
-              : "We build the learning technology of the future with the retro spirit, the ground zero of computing."}&rdquo;
-          </p>
         </div>
 
         {/* Stats */}
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 12, marginBottom: 40 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 10, marginBottom: 36 }}>
           {[
-            { n: "8+", label: activeLang === "tr" ? "Desteklenen Dil" : "Languages" },
-            { n: "6", label: activeLang === "tr" ? "Arcade Oyun" : "Arcade Games" },
+            { n: "14", label: activeLang === "tr" ? "Dil" : "Languages" },
+            { n: "6+", label: activeLang === "tr" ? "Arcade Oyun" : "Arcade Games" },
             { n: "AI", label: "Gemini Powered" },
-            { n: "+%50", label: activeLang === "tr" ? "Öğrenme Artışı" : "Learning Boost" },
+            { n: "4B+", label: activeLang === "tr" ? "Konuşucu" : "Speakers" },
           ].map((s) => (
-            <div key={s.label} style={{
-              textAlign: "center", borderRadius: 12, padding: "20px 8px",
-              background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.05)",
-            }}>
-              <div style={{
-                fontSize: 22, fontWeight: 900,
-                background: "linear-gradient(135deg, #22d3ee, #a78bfa)",
-                WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
-              }}>{s.n}</div>
-              <div style={{ fontSize: 11, color: "#475569", marginTop: 4, fontWeight: 600 }}>{s.label}</div>
+            <div key={s.label} style={{ textAlign: "center", borderRadius: 12, padding: "18px 8px", background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.05)" }}>
+              <div style={{ fontSize: 20, fontWeight: 900, background: "linear-gradient(135deg,#22d3ee,#a78bfa)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>{s.n}</div>
+              <div style={{ fontSize: 10, color: "#475569", marginTop: 3, fontWeight: 600 }}>{s.label}</div>
             </div>
           ))}
         </div>
 
         {/* Contact */}
-        <div style={{
-          borderRadius: 14, border: "1px solid rgba(16,185,129,0.2)",
-          background: "rgba(16,185,129,0.04)", padding: "18px 22px", textAlign: "center",
-        }}>
-          <div style={{ fontSize: 11, fontWeight: 700, color: "#10b981", letterSpacing: "0.12em", textTransform: "uppercase", fontFamily: "monospace", marginBottom: 8 }}>
+        <div style={{ borderRadius: 14, border: "1px solid rgba(16,185,129,0.2)", background: "rgba(16,185,129,0.03)", padding: "16px 20px", textAlign: "center" }}>
+          <div style={{ fontSize: 10, fontWeight: 700, color: "#10b981", letterSpacing: "0.12em", textTransform: "uppercase", fontFamily: "monospace", marginBottom: 7 }}>
             {activeLang === "tr" ? "İletişim & İş Birliği" : "Contact & Collaboration"}
           </div>
-          <p style={{ color: "#64748b", fontSize: 12, marginBottom: 10 }}>
-            {activeLang === "tr"
-              ? "Bilişsel algoritmalarımız veya kurumsal iş birlikleri için her zaman ulaşabilirsiniz."
-              : "For our cognitive algorithms or corporate collaborations, feel free to reach out anytime."}
-          </p>
-          <a href="mailto:info@memolandum.com" style={{ color: "#22d3ee", fontWeight: 700, fontSize: 13, textDecoration: "none" }}>
-            info@memolandum.com
-          </a>
-          <div style={{ color: "#475569", fontSize: 12, marginTop: 4 }}>
-            {activeLang === "tr" ? "Merkez: Ankara, Türkiye" : "HQ: Ankara, Turkey"}
-          </div>
+          <a href="mailto:info@memolandum.com" style={{ color: "#22d3ee", fontWeight: 700, fontSize: 13, textDecoration: "none" }}>info@memolandum.com</a>
+          <div style={{ color: "#475569", fontSize: 11, marginTop: 3 }}>HQ: Ankara, Türkiye</div>
         </div>
       </div>
 
-      {/* Bottom lang strip */}
+      {/* ── Bottom language strip ─────────────────────────────── */}
       <div style={{ background: "rgba(255,255,255,0.015)", borderTop: "1px solid rgba(255,255,255,0.04)" }}>
-        <div style={{ maxWidth: 860, margin: "0 auto", padding: "28px 16px", textAlign: "center" }}>
-          <div style={{ fontSize: 11, color: "#334155", fontFamily: "monospace", letterSpacing: "0.1em", marginBottom: 14, textTransform: "uppercase" }}>
-            Available in / Şu dillerde mevcut
+        <div style={{ maxWidth: 940, margin: "0 auto", padding: "24px 16px", textAlign: "center" }}>
+          <div style={{ fontSize: 10, color: "#334155", fontFamily: "monospace", letterSpacing: "0.1em", marginBottom: 12, textTransform: "uppercase" }}>
+            14 Languages / 14 Dil / 14 Langues / 14 Idiomas
           </div>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 8 }}>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 7 }}>
             {ALL_LANGS.map((l) => (
-              <button
-                key={l.code}
+              <button key={l.code}
                 onClick={() => { setActiveLang(l.code); setExpandedCard(null); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-                style={{
-                  padding: "5px 12px", borderRadius: 8, fontSize: 12, fontWeight: 700, cursor: "pointer",
-                  background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.05)",
-                  color: "#475569", transition: "all 0.2s",
-                }}
+                style={{ padding: "4px 11px", borderRadius: 7, fontSize: 11, fontWeight: 700, cursor: "pointer", background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.05)", color: "#475569", transition: "all 0.18s" }}
                 onMouseOver={(e) => { e.currentTarget.style.color = "#94a3b8"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)"; }}
                 onMouseOut={(e) => { e.currentTarget.style.color = "#475569"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.05)"; }}
               >
@@ -632,7 +632,7 @@ export default function AboutClient() {
         </div>
       </div>
 
-      <style dangerouslySetInnerHTML={{ __html: `@keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }` }} />
+      <style dangerouslySetInnerHTML={{ __html: "@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}" }} />
     </div>
   );
 }

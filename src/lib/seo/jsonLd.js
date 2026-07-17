@@ -116,7 +116,7 @@ export function buildSoftwareAppJsonLd() {
       "A1–Advanced Level Word Sets",
       "YDS / YKS Exam Word Lists",
     ],
-    inLanguage: ["tr", "en", "de", "fr", "es", "ru", "ko", "pt", "el", "it", "ja", "ar", "zh"],
+    inLanguage: ["tr", "en", "de", "fr", "es", "it", "ru", "pt", "ko", "ja", "zh", "ar", "el"],
     educationalLevel: "Beginner to Advanced, Exam prep",
     audience: {
       "@type": "Audience",

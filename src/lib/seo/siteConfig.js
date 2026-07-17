@@ -32,19 +32,18 @@ export const KEYWORDS = [
   "dil öğrenme oyunu",
   "oyna ezberle",
 
-  // 🇹🇷 Türkçe — Uzun kuyruk (long-tail) — düşük rekabet, yüksek dönüşüm
+  // 🇹🇷 Türkçe — Uzun kuyruk
   "YDS kelime ezberleme",
   "YKS ingilizce kelimeler",
   "A1 A2 B1 B2 ingilizce kelimeler",
   "ingilizce kelime tekrar yöntemi",
   "oyunla ingilizce öğrenme",
   "ücretsiz kelime ezberleme sitesi",
-  "ingilizce kelime listesi oyun",
-  "hızlı kelime ezberleme tekniği",
   "aralıklı tekrar yöntemi türkçe",
   "spaced repetition türkçe uygulama",
+  "Anki alternatifi Türkçe",
 
-  // 🇬🇧 İngilizce — Yüksek hacimli
+  // 🇬🇧 İngilizce
   "vocabulary game",
   "word memorization game",
   "learn vocabulary with games",
@@ -52,28 +51,26 @@ export const KEYWORDS = [
   "active recall vocabulary",
   "free vocabulary learning app",
   "english vocabulary game online",
-
-  // 🇬🇧 İngilizce — Uzun kuyruk (Duolingo/Anki/Quizlet boşlukları)
-  "play games to learn english words",
   "vocabulary arcade game online free",
-  "spaced repetition english words free",
-  "vocabulary game instead of duolingo",
   "gamified vocabulary learning",
-  "retro vocabulary game",
   "memorize english words fast",
   "implicit learning vocabulary",
   "cognitive vocabulary training",
   "memory science language learning",
-  "arcade english learning game",
-  "AI instant translation vocabulary",
-  "vocabulary game with translation",
+  "play games to learn english words",
 
   // 🌍 Çoklu dil hedef kitleleri
   "english turkish vocabulary",
   "german vocabulary game",
   "french vocabulary game online",
+  "russian vocabulary game",
+  "portuguese vocabulary learning",
+  "korean vocabulary game online",
+  "italian vocabulary game",
+  "greek vocabulary learning app",
   "japanese vocabulary arcade",
   "arabic english vocabulary learning",
+  "chinese vocabulary game free",
 
   // 🧠 Akademik/Bilimsel — SEO & GEO (TikTok güvenli)
   "spaced repetition app free",
