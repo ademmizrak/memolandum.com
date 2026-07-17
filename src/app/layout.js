@@ -20,6 +20,7 @@ import {
   buildLearningListJsonLd,
   buildLearningResourceJsonLd,
 } from "../lib/seo/jsonLd";
+import GoogleAnalytics from "../components/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -104,10 +105,15 @@ export const metadata = {
     "geo.placename": "Ankara, Türkiye",
     "geo.position": "39.9208;32.8541",
     "ICBM": "39.9208, 32.8541",
-    "content-language": "tr, en, de, fr, es, ja, zh, ar",
+    "content-language": "tr, en, de, fr, es, it, ru, pt, ko, ja, zh, ar, el",
     "rating": "general",
     "revisit-after": "3 days",
     "language": "tr, en",
+    // Google Search Console site doğrulaması
+    // NEXT_PUBLIC_GSC_VERIFICATION env'den okunur — tanımlı değilse boş string gönderir
+    ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION
+      ? { "google-site-verification": process.env.NEXT_PUBLIC_GSC_VERIFICATION }
+      : {}),
     "DC.title": DEFAULT_TITLE,
     "DC.description": DEFAULT_DESCRIPTION,
     "DC.subject": "vocabulary learning, spaced repetition, language game, kelime ezberleme",
@@ -207,7 +213,10 @@ export default function RootLayout({ children }) {
         ))}
 
         <LocaleProvider>
-          <AuthProvider>{children}</AuthProvider>
+          <AuthProvider>
+            <GoogleAnalytics />
+            {children}
+          </AuthProvider>
         </LocaleProvider>
       </body>
     </html>
