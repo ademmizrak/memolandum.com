@@ -1,0 +1,10 @@
+# Memolandum ads.txt
+# Google AdSense yayıncı ID'niz buraya eklenecek
+# Format: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+#
+# Google AdSense hesabı açıldığında:
+# 1. https://www.google.com/adsense adresine gidin
+# 2. Hesap → Publisher ID'nizi kopyalayın
+# 3. Aşağıdaki satırı doldurun:
+
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { signInWithGoogle, registerWithEmail, loginWithEmail, setUsername, checkUsernameAvailability } from '../lib/firebase/authService';
 import { useMemolandumStore } from '../store/useMemolandumStore';
 import { sendEmailVerification } from 'firebase/auth';
+import { useAnalytics } from '../hooks/useAnalytics';
 
 export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
   // 'login', 'register', 'verify', 'username'
@@ -14,6 +15,7 @@ export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
   const [successMsg, setSuccessMsg] = useState(null);
+  const { trackSignUp, trackLogin } = useAnalytics();
   
   const { profile, isAuthenticated, isEmailVerified } = useMemolandumStore();
 
@@ -47,6 +49,8 @@ export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
       const user = await signInWithGoogle();
       // Redirect akışında user null döner — sayfa Google'a gider
       if (!user) return;
+      // Google ile başarılı giriş/kayıt conversion event
+      trackLogin('google');
     } catch (err) {
       const code = err?.code || '';
       let msg = err?.message || 'Google ile giriş başarısız.';
@@ -69,8 +73,10 @@ export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
       setError(null);
       if (view === 'login') {
         await loginWithEmail(email, password);
+        trackLogin('email'); // ← Conversion: Email giriş
       } else {
         await registerWithEmail(email, password);
+        trackSignUp('email'); // ← Conversion: Yeni kayıt
       }
       // useEffect will handle routing to 'verify' or 'username'
     } catch (err) {
