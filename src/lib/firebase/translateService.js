@@ -57,9 +57,9 @@ function languageLabel(code) {
 }
 
 const CANDIDATE_MODELS = [
+  "gemini-3.5-flash",
   "gemini-2.5-flash",
   "gemini-2.0-flash",
-  "gemini-1.5-flash",
 ];
 
 async function fetchGeminiDirect(promptParts, modelName = CANDIDATE_MODELS[0]) {
