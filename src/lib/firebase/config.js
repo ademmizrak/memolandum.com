@@ -8,7 +8,6 @@ import {
 import { getFirestore } from "firebase/firestore";
 import { getFunctions, httpsCallable } from "firebase/functions";
 import { getAI, GoogleAIBackend } from "firebase/ai";
-import { initializeAppCheck, ReCaptchaEnterpriseProvider } from "firebase/app-check";
 import { getAnalytics, isSupported as isAnalyticsSupported } from "firebase/analytics";
 
 // Your web app's Firebase configuration
@@ -21,33 +20,11 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:539033091302:web:1e4c4763aff1da0c2bcf27"
 };
 
-let app, auth, db, cloudFuncs, syncProgressCall, googleProvider, ai, appCheck, analytics;
+let app, auth, db, cloudFuncs, syncProgressCall, googleProvider, ai, appCheck = null, analytics;
 
 try {
   if (firebaseConfig.apiKey && firebaseConfig.apiKey !== "AIzaSyDummyKeyForTestingPurposesOnly123") {
     app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
-
-    // App Check — Yalnızca ortam değişkeninde GERÇEK bir reCAPTCHA Enterprise Site Key tanımlıysa başlatılır.
-    // Placeholder / dummy anahtar varlığında reCAPTCHA script enjeksiyonu ve 'recaptcha placeholder element' hataları engellenir.
-    if (typeof window !== "undefined") {
-      const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_ENTERPRISE_SITE_KEY;
-      const isRealKey = siteKey && !siteKey.startsWith("6LeJnFQt") && siteKey.length > 20;
-
-      if (isRealKey) {
-        try {
-          if (process.env.NODE_ENV === "development") {
-            globalThis.FIREBASE_APPCHECK_DEBUG_TOKEN =
-              process.env.NEXT_PUBLIC_APPCHECK_DEBUG_TOKEN || true;
-          }
-          appCheck = initializeAppCheck(app, {
-            provider: new ReCaptchaEnterpriseProvider(siteKey),
-            isTokenAutoRefreshEnabled: true,
-          });
-        } catch (appCheckError) {
-          console.warn("App Check init skipped:", appCheckError?.message || appCheckError);
-        }
-      }
-    }
 
     auth = getAuth(app);
     if (typeof window !== "undefined") {

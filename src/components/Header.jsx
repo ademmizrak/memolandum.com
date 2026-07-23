@@ -3,24 +3,31 @@
 import React, { useState, useEffect } from "react";
 import AuthModal from "./AuthModal";
 import { useMemolandumStore } from "../store/useMemolandumStore";
-import { peekAuthOpenModal } from "../lib/firebase/authService";
+import { peekAuthOpenModal, logoutUser } from "../lib/firebase/authService";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import MemolandumIcon from "./MemolandumIcon";
-import QuickTranslateBar from "./QuickTranslateBar";
 import LocaleSwitcher from "./LocaleSwitcher";
 import { useT } from "../lib/i18n/LocaleProvider";
+import { PremiumNavChip, PremiumValueStrip } from "./premium/PremiumVisibility";
+import PremiumCheckoutModal from "./premium/PremiumCheckoutModal";
+
+const QuickTranslateBar = dynamic(() => import("./QuickTranslateBar"), { ssr: false });
 
 export default function Header() {
   const t = useT();
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [authModalView, setAuthModalView] = useState('login');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [premiumOpen, setPremiumOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   
   const { isAuthenticated, profile, globalStats, isEmailVerified, studyProfiles, activeStudyProfileId, ensureDefaultStudyProfile } = useMemolandumStore();
   const totalXp = globalStats?.total_xp || 0;
   const activeStudy = studyProfiles?.find((p) => p.id === activeStudyProfileId) || null;
 
   useEffect(() => {
+    setMounted(true);
     ensureDefaultStudyProfile?.();
   }, [ensureDefaultStudyProfile]);
 
@@ -42,32 +49,63 @@ export default function Header() {
       <div className="sticky-chrome">
       <header className="modern-header">
         <div className="header-container">
-          {/* Sol Bölüm: Logo ve Slogan */}
-          <Link href="/" className="logo-area">
-            <MemolandumIcon size={52} />
-            <div className="logo-text">
-              <span className="brand-name">MEMOLANDUM</span>
-              <span className="brand-slogan hover:text-cyan-400 transition-colors" onClick={(e) => {e.preventDefault(); window.open('/about/', '_blank');}}>{t("brand.slogan")}</span>
-            </div>
-          </Link>
+          {/* Sol Bölüm: Logo — slogan oyuna, bilim ayrı küçük link */}
+          <div className="logo-area">
+            <Link href="/" className="logo-area-link" style={{ display: "flex", alignItems: "center", gap: "inherit", textDecoration: "none", color: "inherit" }}>
+              <MemolandumIcon size={52} />
+              <div className="logo-text">
+                <span className="brand-name">MEMOLANDUM</span>
+                <button
+                  type="button"
+                  className="brand-slogan hover:text-cyan-400 transition-colors"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const go = () => {
+                      const el = document.getElementById("basla");
+                      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+                      else window.location.href = "/#basla";
+                    };
+                    if (window.location.pathname === "/" || window.location.pathname === "") go();
+                    else window.location.href = "/#basla";
+                  }}
+                >
+                  {t("brand.slogan")}
+                </button>
+              </div>
+            </Link>
+          </div>
 
           {/* Orta Bölüm: Navigasyon Linkleri (Masaüstü) */}
-          <nav className="nav-menu">
-            <Link href="/" className="nav-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="nav-icon"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-              {t("nav.home")}
-            </Link>
+          <nav className="nav-menu" aria-label="Ana menü">
             <Link href="/leaderboard" className="nav-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="nav-icon"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-              {t("nav.leaderboard")}
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="nav-icon" aria-hidden><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <span>{t("nav.leaderboard")}</span>
             </Link>
             <Link href="/vocabulary" className="nav-item">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="nav-icon"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-              {t("nav.vault")}
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="nav-icon" aria-hidden><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <span>{t("nav.vault")}</span>
             </Link>
-            <a href="https://kreosus.com/httpsmemolandumcom/about" target="_blank" rel="noopener noreferrer" className="nav-item !text-pink-400 hover:!text-pink-300">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="nav-icon"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              {t("nav.support")}
+            <Link href="/translate" className="nav-item nav-item--cyan">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="nav-icon" aria-hidden><path d="M5 8l6 6M4 14l6-6 2 3M2 5h12M7 2v3M22 22l-5-10-5 10M14 18h6"/></svg>
+              <span>AI Çeviri</span>
+            </Link>
+            <Link href="/premium/" className="nav-item nav-item--amber">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="nav-icon" aria-hidden><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <span>Premium</span>
+            </Link>
+            <Link href="/about/" className="nav-item" title={t("nav.science")}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="nav-icon" aria-hidden><path d="M9 3h6v2H9zM8 7h8l-1 12a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2L8 7z"/></svg>
+              <span>{t("nav.science")}</span>
+            </Link>
+            <a
+              href="https://kreosus.com/httpsmemolandumcom/about"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-item nav-item--pink"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="nav-icon" aria-hidden><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+              <span>{t("nav.support")}</span>
             </a>
           </nav>
 
@@ -88,7 +126,7 @@ export default function Header() {
               </Link>
             )}
             
-            {isAuthenticated ? (
+            {(mounted && isAuthenticated) ? (
               <div className="flex items-center gap-3">
                 {(!isEmailVerified || !profile?.displayName) && (
                   <button 
@@ -101,12 +139,12 @@ export default function Header() {
                   </button>
                 )}
                 
-                <div className="user-profile-dropdown relative">
+                <div className="user-profile-dropdown flex items-center gap-2">
                   <Link href="/profile" style={{ textDecoration: 'none' }}>
                     <div className="profile-trigger">
                       <div className="user-info">
                         <span className="user-welcome">{t("nav.welcome")}</span>
-                        <span className="user-name truncate max-w-[100px]">{profile?.displayName || profile?.email?.split('@')[0]}</span>
+                        <span className="user-name truncate max-w-[120px]">{profile?.displayName || profile?.email?.split('@')[0]}</span>
                       </div>
                       {profile?.photoURL ? (
                         <img src={profile.photoURL} alt="Profil" className="avatar-image-circle" />
@@ -117,6 +155,21 @@ export default function Header() {
                       )}
                     </div>
                   </Link>
+
+                  <button
+                    type="button"
+                    onClick={async () => {
+                      await logoutUser();
+                      window.location.href = "/";
+                    }}
+                    className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 bg-red-500/10 hover:bg-red-500/20 border border-red-500/30 hover:border-red-500/60 text-red-400 hover:text-red-300 rounded-xl text-xs font-bold transition-all shadow-sm cursor-pointer whitespace-nowrap"
+                    title="Çıkış Yap / Başka Profil Ekle"
+                  >
+                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                    </svg>
+                    <span>Çıkış Yap</span>
+                  </button>
                 </div>
               </div>
             ) : (
@@ -153,6 +206,7 @@ export default function Header() {
               </div>
             )}
 
+            <PremiumNavChip onOpen={() => setPremiumOpen(true)} />
             <LocaleSwitcher compact />
 
             {/* Mobil Menü Butonu (Hamburger) */}
@@ -172,10 +226,6 @@ export default function Header() {
         {/* Mobil Dropdown Menü */}
         {isMobileMenuOpen && (
           <div className="mobile-dropdown-menu">
-            <Link href="/" className="mobile-nav-item" onClick={() => setIsMobileMenuOpen(false)}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-              {t("nav.home")}
-            </Link>
             <Link href="/leaderboard" className="mobile-nav-item" onClick={() => setIsMobileMenuOpen(false)}>
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
               {t("nav.leaderboard")}
@@ -184,7 +234,29 @@ export default function Header() {
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
               {t("nav.vault")}
             </Link>
-            <a href="https://kreosus.com/httpsmemolandumcom/about" target="_blank" rel="noopener noreferrer" className="mobile-nav-item text-pink-400" onClick={() => setIsMobileMenuOpen(false)}>
+            <Link href="/translate" className="mobile-nav-item text-cyan-400" onClick={() => setIsMobileMenuOpen(false)}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 8l6 6M4 14l6-6 2 3M2 5h12M7 2v3M22 22l-5-10-5 10M14 18h6"/></svg>
+              AI Çeviri Stüdyosu
+            </Link>
+            <Link href="/premium/" className="mobile-nav-item text-amber-300" onClick={() => setIsMobileMenuOpen(false)}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              Premium — Üyelik
+            </Link>
+            <Link href="/#basla" className="mobile-nav-item text-emerald-300" onClick={() => setIsMobileMenuOpen(false)}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              {t("common.playNow")}
+            </Link>
+            <Link href="/about/" className="mobile-nav-item" onClick={() => setIsMobileMenuOpen(false)}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 3h6v2H9zM8 7h8l-1 12a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2L8 7z"/></svg>
+              {t("nav.science")}
+            </Link>
+            <a
+              href="https://kreosus.com/httpsmemolandumcom/about"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mobile-nav-item text-pink-400"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
               {t("nav.support")}
             </a>
@@ -192,10 +264,24 @@ export default function Header() {
             <div className="mobile-dropdown-divider border-t border-white/5 my-2" />
             
             {isAuthenticated ? (
-              <Link href="/profile" className="mobile-nav-item" onClick={() => setIsMobileMenuOpen(false)}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
-                {t("nav.profile") || "Profilim"}
-              </Link>
+              <div className="flex flex-col gap-1">
+                <Link href="/profile" className="mobile-nav-item" onClick={() => setIsMobileMenuOpen(false)}>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+                  {t("nav.profile") || "Profilim"}
+                </Link>
+                <button
+                  type="button"
+                  onClick={async () => {
+                    setIsMobileMenuOpen(false);
+                    await logoutUser();
+                    window.location.href = "/";
+                  }}
+                  className="mobile-nav-item text-red-400 hover:text-red-300 w-full text-left font-bold"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                  🚪 Çıkış Yap / Başka Hesap Ekle
+                </button>
+              </div>
             ) : (
               <div className="flex flex-col gap-2 p-3">
                 <button
@@ -297,30 +383,46 @@ export default function Header() {
   font-weight: 600;
   letter-spacing: 0.5px;
   margin-top: 2px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
 }
 
 /* --- ORTA MENÜ --- */
 .nav-menu {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 8px;
+  gap: 2px;
   background: rgba(30, 41, 59, 0.5);
-  padding: 6px;
+  padding: 4px;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,0.05);
 }
 
 .nav-item {
-  display: flex;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
+  gap: 6px;
+  padding: 7px 11px;
   color: #cbd5e1;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
   border-radius: 8px;
   transition: all 0.2s ease;
+}
+
+.nav-item span {
+  white-space: nowrap;
 }
 
 .nav-item:hover {
@@ -334,8 +436,24 @@ export default function Header() {
   border: 1px solid rgba(6, 182, 212, 0.2);
 }
 
+.nav-item--cyan { color: #22d3ee; }
+.nav-item--cyan:hover { color: #67e8f9; }
+.nav-item--amber { color: #fcd34d; }
+.nav-item--amber:hover { color: #fde68a; }
+.nav-item--pink { color: #f472b6; }
+.nav-item--pink:hover { color: #f9a8d4; }
+
 .nav-icon {
-  opacity: 0.8;
+  opacity: 0.85;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1180px) {
+  .nav-item {
+    padding: 6px 8px;
+    font-size: 12px;
+    gap: 5px;
+  }
 }
 
 /* --- KULLANICI / SAĞ BÖLÜM --- */
@@ -552,10 +670,12 @@ export default function Header() {
 }
         `}} />
       </header>
-      <QuickTranslateBar />
+      <PremiumValueStrip onOpenPremium={() => setPremiumOpen(true)} />
+      <QuickTranslateBar onOpenPremium={() => setPremiumOpen(true)} />
       </div>
       
       <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} initialView={authModalView} />
+      <PremiumCheckoutModal open={premiumOpen} onClose={() => setPremiumOpen(false)} />
     </>
   );
 }

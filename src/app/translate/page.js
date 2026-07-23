@@ -5,7 +5,7 @@ import {
   SITE_NAME,
   SITE_URL,
 } from "../../lib/seo/siteConfig";
-import TranslateStudioClient from "./TranslateStudioClient";
+import TranslateStudioWrapper from "./TranslateStudioWrapper";
 
 const meta = PAGE_SEO.translate;
 
@@ -113,7 +113,7 @@ export default function TranslatePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(translateFaqJsonLd) }}
       />
-      <TranslateStudioClient />
+      <TranslateStudioWrapper />
     </>
   );
 }
