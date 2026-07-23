@@ -8,7 +8,7 @@ import {
 import { getFirestore } from "firebase/firestore";
 import { getFunctions, httpsCallable } from "firebase/functions";
 import { getAI, GoogleAIBackend } from "firebase/ai";
-import { initializeAppCheck, ReCaptchaEnterpriseProvider, CustomProvider } from "firebase/app-check";
+import { initializeAppCheck, ReCaptchaEnterpriseProvider } from "firebase/app-check";
 import { getAnalytics, isSupported as isAnalyticsSupported } from "firebase/analytics";
 
 // Your web app's Firebase configuration
@@ -27,38 +27,25 @@ try {
   if (firebaseConfig.apiKey && firebaseConfig.apiKey !== "AIzaSyDummyKeyForTestingPurposesOnly123") {
     app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
-    // App Check — AI Logic / Firestore kotasını korur
+    // App Check — Yalnızca ortam değişkeninde GERÇEK bir reCAPTCHA Enterprise Site Key tanımlıysa başlatılır.
+    // Placeholder / dummy anahtar varlığında reCAPTCHA script enjeksiyonu ve 'recaptcha placeholder element' hataları engellenir.
     if (typeof window !== "undefined") {
-      try {
-        const isDev = process.env.NODE_ENV === "development";
-        const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_ENTERPRISE_SITE_KEY;
-        const isPlaceholderKey = !siteKey || siteKey.startsWith("6LeJnFQt");
+      const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_ENTERPRISE_SITE_KEY;
+      const isRealKey = siteKey && !siteKey.startsWith("6LeJnFQt") && siteKey.length > 20;
 
-        if (isDev || isPlaceholderKey) {
-          // Dev / Debug mode: CustomProvider (recaptcha__tr.js enjeksiyonunu engelleyerek hataları çözer)
-          globalThis.FIREBASE_APPCHECK_DEBUG_TOKEN =
-            process.env.NEXT_PUBLIC_APPCHECK_DEBUG_TOKEN || true;
-
-          appCheck = initializeAppCheck(app, {
-            provider: new CustomProvider({
-              getToken: () =>
-                Promise.resolve({
-                  token: typeof globalThis.FIREBASE_APPCHECK_DEBUG_TOKEN === "string"
-                    ? globalThis.FIREBASE_APPCHECK_DEBUG_TOKEN
-                    : "DEBUG_APPCHECK_TOKEN",
-                  expireTimeMillis: Date.now() + 3600 * 1000,
-                }),
-            }),
-            isTokenAutoRefreshEnabled: true,
-          });
-        } else {
+      if (isRealKey) {
+        try {
+          if (process.env.NODE_ENV === "development") {
+            globalThis.FIREBASE_APPCHECK_DEBUG_TOKEN =
+              process.env.NEXT_PUBLIC_APPCHECK_DEBUG_TOKEN || true;
+          }
           appCheck = initializeAppCheck(app, {
             provider: new ReCaptchaEnterpriseProvider(siteKey),
             isTokenAutoRefreshEnabled: true,
           });
+        } catch (appCheckError) {
+          console.warn("App Check init skipped:", appCheckError?.message || appCheckError);
         }
-      } catch (appCheckError) {
-        console.warn("App Check init skipped:", appCheckError?.message || appCheckError);
       }
     }
 

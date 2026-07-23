@@ -506,7 +506,7 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
   };
 
   return (
-    <div className="quick-translate-bar" role="region" aria-label={t("translate.region")}>
+    <div className="quick-translate-bar" role="region" aria-label={t("translate.region")} suppressHydrationWarning={true}>
       <div className="qt-inner">
         <div className="qt-row qt-row-primary">
           <div className="qt-label" title="Google Gemini ile anlık çeviri">

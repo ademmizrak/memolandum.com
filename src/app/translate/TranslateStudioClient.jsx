@@ -413,7 +413,7 @@ export default function TranslateStudioClient() {
   const leftQuota = remainingFreeTranslations(translationCount, isAuthenticated);
 
   return (
-    <div className="min-h-screen bg-slate-950 font-sans text-gray-100 flex flex-col">
+    <div className="min-h-screen bg-slate-950 font-sans text-gray-100 flex flex-col" suppressHydrationWarning={true}>
       <Header />
 
       <main className="flex-1 max-w-6xl w-full mx-auto px-4 py-8 flex flex-col gap-6">
