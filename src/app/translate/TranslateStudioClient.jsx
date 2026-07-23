@@ -11,11 +11,9 @@ import {
   Check,
   BookmarkPlus,
   Volume2,
-  VolumeX,
   Sparkles,
   ArrowRight,
   Globe,
-  Zap,
   Info,
   BookOpen,
   Tag,
@@ -64,31 +62,19 @@ const TTS_LANG_MAP = {
 };
 
 export default function TranslateStudioClient() {
+  const [mounted, setMounted] = useState(false);
   const [text, setText] = useState("");
   const [targetLang, setTargetLang] = useState("");
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    try {
-      const saved = localStorage.getItem(LANG_STORAGE_KEY);
-      if (saved && TRANSLATE_LANGUAGES.some((l) => l.code === saved)) {
-        setTargetLang(saved);
-      }
-    } catch {
-      /* ignore */
-    }
-  }, []);
   const [translation, setTranslation] = useState("");
   const [sourceHint, setSourceHint] = useState("");
   const [tone, setTone] = useState("");
   const [contextNotes, setContextNotes] = useState("");
   const [nuances, setNuances] = useState([]);
-  const [status, setStatus] = useState("idle"); // idle | loading | error
+  const [status, setStatus] = useState("idle");
   const [error, setError] = useState("");
   const [isRecording, setIsRecording] = useState(false);
   const [copied, setCopied] = useState(false);
-  const [vaultState, setVaultState] = useState("idle"); // idle | saving | saved | exists
+  const [vaultState, setVaultState] = useState("idle");
   const [isSpeaking, setIsSpeaking] = useState(false);
 
   const { addLearnedWords, vocabularyVault } = useMemolandumStore();
@@ -109,6 +95,18 @@ export default function TranslateStudioClient() {
   const isPremiumRef = useRef(isPremium);
   const translationCountRef = useRef(translationCount);
   const isAuthRef = useRef(isAuthenticated);
+
+  useEffect(() => {
+    setMounted(true);
+    try {
+      const saved = localStorage.getItem(LANG_STORAGE_KEY);
+      if (saved && TRANSLATE_LANGUAGES.some((l) => l.code === saved)) {
+        setTargetLang(saved);
+      }
+    } catch {
+      /* ignore */
+    }
+  }, []);
 
   useEffect(() => {
     isPremiumRef.current = isPremium;
@@ -167,8 +165,8 @@ export default function TranslateStudioClient() {
       setStatus("error");
       setError(
         isAuthRef.current
-          ? `Ücretsiz ${FREE_TRANSLATION_QUOTA} AI çeviri hakkınız doldu. Oyunlar ve seviyeler ücretsizdir — sınırsız çeviri için Premium'a geçin.`
-          : `Misafir hakkınız (${GUEST_TRANSLATION_QUOTA}) doldu. Üye olarak +${FREE_TRANSLATION_QUOTA} hak kazanın veya Premium'a bakın.`
+          ? `Ücretsiz ${FREE_TRANSLATION_QUOTA} AI çeviri hakkınız doldu. Sınırsız kullanım için Premium'a geçin.`
+          : `Misafir hakkınız (${GUEST_TRANSLATION_QUOTA}) doldu. Üye olarak +${FREE_TRANSLATION_QUOTA} hak kazanın.`
       );
       return false;
     }
@@ -401,7 +399,7 @@ export default function TranslateStudioClient() {
     setVaultState("saving");
     addLearnedWords([item], item.language);
 
-    const currentUid = uid || auth.currentUser?.uid;
+    const currentUid = uid || auth?.currentUser?.uid;
     if (currentUid) {
       await saveWordToCloud(currentUid, item.id, item);
     }
@@ -410,10 +408,24 @@ export default function TranslateStudioClient() {
     setTimeout(() => setVaultState("idle"), 2500);
   };
 
+  if (!mounted) {
+    return (
+      <div className="min-h-screen bg-slate-950 font-sans text-gray-100 flex flex-col">
+        <Header />
+        <main className="flex-1 max-w-6xl w-full mx-auto px-4 py-16 flex items-center justify-center">
+          <div className="flex items-center gap-3 text-cyan-400 font-mono text-sm animate-pulse">
+            <Loader2 className="w-5 h-5 animate-spin" />
+            <span>AI Çeviri Stüdyosu Yükleniyor...</span>
+          </div>
+        </main>
+      </div>
+    );
+  }
+
   const leftQuota = remainingFreeTranslations(translationCount, isAuthenticated);
 
   return (
-    <div className="min-h-screen bg-slate-950 font-sans text-gray-100 flex flex-col" suppressHydrationWarning={true}>
+    <div className="min-h-screen bg-slate-950 font-sans text-gray-100 flex flex-col">
       <Header />
 
       <main className="flex-1 max-w-6xl w-full mx-auto px-4 py-8 flex flex-col gap-6">
@@ -440,13 +452,9 @@ export default function TranslateStudioClient() {
 
           {/* Quota Badge */}
           <div className="shrink-0">
-            {!mounted ? (
-              <span className="px-3 py-1.5 rounded-full text-xs font-bold bg-cyan-500/10 text-cyan-300 border border-cyan-500/30">
-                ⚡ AI Çeviri Stüdyosu
-              </span>
-            ) : isPremium ? (
+            {isPremium ? (
               <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-black bg-amber-500/15 text-amber-300 border border-amber-500/30 shadow-[0_0_12px_rgba(245,158,11,0.2)]">
-                <Sparkles className="w-3.5 h-3.5" /> PREMIUM AKTİF (Sınırsız Zekâ)
+                <Sparkles className="w-3.5 h-3.5" /> PREMIUM AKTİF
               </span>
             ) : (
               <div className="flex items-center gap-2">
@@ -545,7 +553,7 @@ export default function TranslateStudioClient() {
               className="w-full flex-1 bg-transparent border-none text-slate-100 placeholder-slate-600 text-sm sm:text-base resize-none focus:outline-none leading-relaxed"
             />
 
-            {/* Sol Alt Aksiyonlar (Mikrofon & Dinle & Çevir) */}
+            {/* Sol Alt Aksiyonlar */}
             <div className="flex items-center justify-between border-t border-slate-800/80 pt-3 mt-2">
               <div className="flex items-center gap-2">
                 {isRecording ? (
@@ -635,7 +643,7 @@ export default function TranslateStudioClient() {
               )}
             </div>
 
-            {/* Sağ Alt Aksiyonlar (Kopyala, Dinle, Kasaya Ekle) */}
+            {/* Sağ Alt Aksiyonlar */}
             {translation && (
               <div className="flex items-center justify-between border-t border-slate-800/80 pt-3 mt-2">
                 <div className="flex items-center gap-2">
@@ -657,7 +665,6 @@ export default function TranslateStudioClient() {
                   </button>
                 </div>
 
-                {/* Single-Click Kasama Ekle Button */}
                 <button
                   onClick={handleAddToVault}
                   disabled={vaultState === "saving" || vaultState === "saved" || vaultState === "exists"}
@@ -683,9 +690,9 @@ export default function TranslateStudioClient() {
           </div>
         </div>
 
-        {/* Derin Bağlam & İpucu Kutusu (Context Notes & Nuances Card) */}
+        {/* Derin Bağlam & İpucu Kutusu */}
         {(contextNotes || (nuances && nuances.length > 0)) && (
-          <div className="bg-slate-900/90 border border-indigo-500/30 rounded-2xl p-5 shadow-[0_0_25px_rgba(99,102,241,0.1)] flex flex-col gap-4 animate-in fade-in duration-300">
+          <div className="bg-slate-900/90 border border-indigo-500/30 rounded-2xl p-5 shadow-[0_0_25px_rgba(99,102,241,0.1)] flex flex-col gap-4">
             {contextNotes && (
               <div className="flex items-start gap-3">
                 <div className="w-8 h-8 rounded-lg bg-indigo-500/20 border border-indigo-500/40 flex items-center justify-center text-indigo-400 shrink-0 mt-0.5">

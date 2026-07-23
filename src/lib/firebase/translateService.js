@@ -6,7 +6,7 @@ import { createPulseEntry } from "../learning/memolandumPulse";
 
 export { AbuseError };
 
-function translateAction(kind /* 'text' | 'audio' */) {
+function translateAction(kind) {
   const premium = !!useMemolandumStore.getState().isPremium;
   if (kind === "audio") {
     return premium ? "translate_audio_premium" : "translate_audio";
@@ -35,14 +35,13 @@ const LANG_PROMPT_LABEL = {
   osm: "Osmanlıca (Ottoman Turkish — prefer Arabic script with Ottoman orthography; add Latin transliteration in parentheses)",
 };
 
-const DEEP_CONTEXT_TRANSLATOR_SYSTEM_INSTRUCTION = `Sen dünya çapında kıdemli bir dilbilimci, edebiyat mütehassısı ve dil öğretim uzmanısın. Görevin, verilen metin ya da ses kaydını hedef dile SADECE KELİME KELİME ÇEVİRMEK DEĞİL, cümlenin arkasındaki TÜM DERİN BAĞLAMI, DUYGUYU, NÜANSLARI VE KÜLTÜREL DEYİMLERİ algılayarak en doğal ve mükemmel şekilde aktarmaktır.
+const DEEP_CONTEXT_TRANSLATOR_SYSTEM_INSTRUCTION = `Sen kıdemli bir dilbilimci ve kültür mütehassısısın. Görevin metni/sesi hedef dile çevirirken arkasındaki derin bağlamı, duyguyu, nüansları ve deyimleri algılayarak en doğal şekilde aktarmaktır.
 
-Temel İlkelerin:
-1) DERİN BAĞLAM & KÜLTÜREL DEYİMLER: Kaynak metindeki kültürel kalıpları, deyimleri ve argo/argo-dışı nüansları analiz et. Hedef dildeki tam birebir ruhdaş karşılığını bul. Asla mekanik veya ruhsuz çeviri yapma.
-2) TON VE DUYGU ANALİZİ: Konuşmanın/metnin tonunu belirle (Örn: Samimi/Günlük, Resmî/Profesyonel, Edebi/Şairane, Deyimsel, Duygusal, Esprili, Akademik).
-3) EĞİTİMCİ VE İPUCU NOTU (contextNotes): Kullanıcının dil öğrenimini destekleyecek şekilde; cümlenin neden böyle çevrildiğini, gizli anlamını veya hedef dildeki kullanım ipucunu 1-2 cümlelik harika bir açıklama ile sun.
-4) TERİM/KAVRAM NÜANSLARI (nuances): Metindeki kritik kelimeleri veya deyimleri ayrıştırıp kısa Türkçe açıklamalarını ekle.
-5) FORMAT Sadakati: Kaynak metindeki biçimlendirmeye ve imla ruhuna sadık kal.`;
+Kuralların:
+1) DERİN BAĞLAM: Motamot çeviri yapma. Deyimleri ve kültürel kalıpları hedef dildeki en doğal karşılığı ile çevir.
+2) TON HAKKIMDA: Metnin tonunu tespit et (Örn: Samimi/Günlük, Resmî, Deyimsel, Duygusal, Akademik).
+3) EĞİTİMCİ İPUCU (contextNotes): Kullanıcıya çevirinin neden böyle yapıldığını ve inceliğini açıklayan 1-2 cümlelik Türkçe ipucu ver.
+4) NÜANSLAR (nuances): Metindeki kilit kelime ve deyimleri Türkçe anlamlarıyla ayrıştır.`;
 
 const nuanceItemSchema = Schema.object({
   properties: {
@@ -71,20 +70,16 @@ function languageLabel(code) {
   return row?.label || row?.name || code;
 }
 
-// Tercih sırasına göre en güçlü Gemini Flash modelleri
 const CANDIDATE_MODELS = [
   "gemini-2.5-flash",
   "gemini-2.0-flash",
   "gemini-flash-latest",
 ];
 
-function getTranslateModel(preferredModel = null) {
+function getTranslateModel(modelName = CANDIDATE_MODELS[0]) {
   if (!ai) {
-    throw new Error("AI çeviri servisi yapılandırılmadı. Lütfen internet bağlantınızı ve Firebase ayarlarınızı kontrol edin.");
+    throw new Error("AI servisi bağlanamadı.");
   }
-
-  const modelName = preferredModel || CANDIDATE_MODELS[0];
-
   return getGenerativeModel(ai, {
     model: modelName,
     systemInstruction: DEEP_CONTEXT_TRANSLATOR_SYSTEM_INSTRUCTION,
@@ -117,9 +112,8 @@ function extractText(result) {
     const direct = result?.response?.text?.();
     if (direct) return direct;
   } catch {
-    /* fallback below */
+    /* ignore */
   }
-
   const parts = result?.response?.candidates?.[0]?.content?.parts || [];
   return parts
     .filter((p) => typeof p?.text === "string" && !p.thought)
@@ -128,36 +122,24 @@ function extractText(result) {
     .trim();
 }
 
-/**
-  Model isteğini dener, model adı hatası alması durumunda alt modellerle otomatik dener
- */
 async function generateWithFallback(promptParts) {
-  let lastError = null;
-
+  let lastErr = null;
   for (const modelName of CANDIDATE_MODELS) {
     try {
       const model = getTranslateModel(modelName);
-      const result = await model.generateContent(promptParts);
-      return result;
+      return await model.generateContent(promptParts);
     } catch (err) {
-      lastError = err;
+      lastErr = err;
       const msg = String(err?.message || "").toLowerCase();
-      // Model bulunamadıysa bir sonraki adayı dene
       if (msg.includes("not found") || msg.includes("invalid model") || msg.includes("404")) {
-        console.warn(`Gemini model ${modelName} kullanılamadı, alternatif deneniyor...`);
         continue;
       }
       throw err;
     }
   }
-
-  throw lastError || new Error("Gemini servisine erişilemedi.");
+  throw lastErr || new Error("Gemini servisi yanıt vermedi.");
 }
 
-/**
- * Metni hedef dile derin bağlamsal zekâ ile çevirir.
- * @returns {{ translation: string, sourceLang?: string, tone?: string, contextNotes?: string, nuances?: Array, transcript?: string }}
- */
 export async function translateText(text, targetLangCode) {
   const isAuthenticated = !!auth?.currentUser;
   const uid = auth?.currentUser?.uid || null;
@@ -169,35 +151,20 @@ export async function translateText(text, targetLangCode) {
   });
   const trimmed = ticket.text;
 
-  if (!trimmed) {
-    throw new Error("Çevrilecek bir metin girin.");
-  }
-  if (!targetLangCode) {
-    throw new Error("Hedef dil seçin.");
-  }
+  if (!trimmed) throw new Error("Çevrilecek bir metin girin.");
+  if (!targetLangCode) throw new Error("Hedef dil seçin.");
 
   const target = languageLabel(targetLangCode);
-  const prompt = `Task: Deep contextual translation into ${target} (code: ${targetLangCode}).
-1. Detect the source language.
-2. Translate with deep cultural context, natural native phrasing, and emotional resonance.
-3. Identify the tone of the sentence (e.g. Samimi/Günlük, Resmî, Deyimsel, Duygusal, Akademik).
-4. Provide a helpful context note (contextNotes in Turkish) explaining subtle meanings or usage tips.
-5. Extract key vocabulary/idiom nuances (nuances array with phrase, meaning, note).
-
-Return ONLY valid JSON matching schema with keys:
-translation, sourceLang, tone, contextNotes, nuances.
-
-User text:
-"""${trimmed}"""`;
+  const prompt = `Task: Deep contextual translation into ${target} (${targetLangCode}).
+Return JSON with keys: translation, sourceLang, tone, contextNotes, nuances.
+User text: """${trimmed}"""`;
 
   const result = await generateWithFallback(prompt);
   const raw = extractText(result);
   const parsed = parseModelJson(raw);
 
   if (!parsed?.translation) {
-    const finish = result?.response?.candidates?.[0]?.finishReason;
-    console.warn("translateText parse fail", { finish, rawLen: String(raw || "").length });
-    throw new Error("Çeviri alınamadı. Tekrar deneyin.");
+    throw new Error("Çeviri üretilemedi, lütfen tekrar deneyin.");
   }
 
   commitAbuse(ticket);
@@ -212,19 +179,10 @@ User text:
   };
 }
 
-/**
- * Ses kaydını yazıya döker ve hedef dile derin bağlamla çevirir (Gemini Multimodal).
- */
 export async function translateAudioBlob(audioBlob, targetLangCode) {
-  if (!audioBlob || audioBlob.size < 8) {
-    throw new Error("Ses kaydı boş görünüyor.");
-  }
-  if (audioBlob.size > 3_500_000) {
-    throw new Error("Ses kaydı çok uzun. Lütfen daha kısa konuşun.");
-  }
-  if (!targetLangCode) {
-    throw new Error("Hedef dil seçin.");
-  }
+  if (!audioBlob || audioBlob.size < 8) throw new Error("Ses kaydı boş.");
+  if (audioBlob.size > 3_500_000) throw new Error("Ses kaydı çok uzun.");
+  if (!targetLangCode) throw new Error("Hedef dil seçin.");
 
   const isAuthenticated = !!auth?.currentUser;
   const uid = auth?.currentUser?.uid || null;
@@ -239,30 +197,18 @@ export async function translateAudioBlob(audioBlob, targetLangCode) {
   const audioBase64 = await blobToBase64(audioBlob);
   const target = languageLabel(targetLangCode);
 
-  const prompt = `Task: Multimodal voice transcription & deep context translation into ${target} (code: ${targetLangCode}).
-1. Transcribe the spoken audio accurately into 'transcript'.
-2. Detect source language into 'sourceLang'.
-3. Translate the spoken message into 'translation' with natural native tone, idiom awareness, and cultural context.
-4. Provide 'tone' (e.g. Samimi, Resmî, Duygusal, Deyimsel).
-5. Provide 'contextNotes' (Turkish pedagogical tip explaining context).
-6. Provide 'nuances' array if key phrases exist.
-
-Return ONLY valid JSON with keys: transcript, translation, sourceLang, tone, contextNotes, nuances.`;
+  const prompt = `Task: Voice transcription & deep context translation into ${target} (${targetLangCode}).
+Return JSON with keys: transcript, translation, sourceLang, tone, contextNotes, nuances.`;
 
   const result = await generateWithFallback([
     { text: prompt },
-    {
-      inlineData: {
-        mimeType,
-        data: audioBase64,
-      },
-    },
+    { inlineData: { mimeType, data: audioBase64 } },
   ]);
 
   const raw = extractText(result);
   const parsed = parseModelJson(raw);
   if (!parsed?.translation && !parsed?.transcript) {
-    throw new Error("Ses anlaşılamadı. Daha net konuşup tekrar deneyin.");
+    throw new Error("Ses anlaşılamadı. Tekrar deneyin.");
   }
 
   commitAbuse(ticket);
@@ -281,35 +227,29 @@ function blobToBase64(blob) {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
     reader.onloadend = () => {
-      const result = reader.result;
-      if (typeof result !== "string") {
-        reject(new Error("Ses okunamadı."));
-        return;
-      }
-      const comma = result.indexOf(",");
-      resolve(comma >= 0 ? result.slice(comma + 1) : result);
+      const res = reader.result;
+      if (typeof res !== "string") return reject(new Error("Ses okunamadı."));
+      const comma = res.indexOf(",");
+      resolve(comma >= 0 ? res.slice(comma + 1) : res);
     };
     reader.onerror = () => reject(new Error("Ses okunamadı."));
     reader.readAsDataURL(blob);
   });
 }
 
-function slugifyPart(value) {
+function slugifyPart(v) {
   return (
-    String(value || "")
+    String(v || "")
       .trim()
       .toLowerCase()
       .normalize("NFKD")
       .replace(/[\u0300-\u036f]/g, "")
-      .replace(/[^a-z0-9\u00c0-\u024f]+/gi, "-")
+      .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "")
       .slice(0, 40) || "word"
   );
 }
 
-/**
- * Anlık çeviri sonucundan Kelime Kasası kaydı üretir (Pulse seed).
- */
 export function buildVaultWordFromTranslation({
   sourceText,
   translation,
@@ -320,13 +260,9 @@ export function buildVaultWordFromTranslation({
   const source = String(sourceText || "").trim();
   const target = String(translation || "").trim();
   if (!source || !target) {
-    throw new Error("Kasaya eklemek için metin ve çeviri gerekli.");
+    throw new Error("Metin ve çeviri gerekli.");
   }
-
-  const id = `ai_${slugifyPart(targetLang)}_${slugifyPart(source)}_${slugifyPart(target)}`.slice(
-    0,
-    120
-  );
+  const id = `ai_${slugifyPart(targetLang)}_${slugifyPart(source)}_${slugifyPart(target)}`.slice(0, 120);
 
   return createPulseEntry({
     id,
