@@ -8,7 +8,8 @@ import {
 import { getFirestore } from "firebase/firestore";
 import { getFunctions, httpsCallable } from "firebase/functions";
 import { getAI, GoogleAIBackend } from "firebase/ai";
-import { initializeAppCheck, ReCaptchaEnterpriseProvider } from "firebase/app-check";
+import { initializeAppCheck, ReCaptchaEnterpriseProvider, CustomProvider } from "firebase/app-check";
+import { getAnalytics, isSupported as isAnalyticsSupported } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -20,36 +21,48 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:539033091302:web:1e4c4763aff1da0c2bcf27"
 };
 
-const RECAPTCHA_ENTERPRISE_SITE_KEY =
-  process.env.NEXT_PUBLIC_RECAPTCHA_ENTERPRISE_SITE_KEY ||
-  "6LeJnFQtAAAAANSjNsXblEVQUCqQCZ6W6CSClm6y";
-
-let app, auth, db, cloudFuncs, syncProgressCall, googleProvider, ai, appCheck;
+let app, auth, db, cloudFuncs, syncProgressCall, googleProvider, ai, appCheck, analytics;
 
 try {
-  // Check if API key exists to avoid fatal crash
   if (firebaseConfig.apiKey && firebaseConfig.apiKey !== "AIzaSyDummyKeyForTestingPurposesOnly123") {
     app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
-    // App Check — AI Logic / Firestore kotasını korur (enforcement konsolda ayrı açılır)
-    if (typeof window !== "undefined" && RECAPTCHA_ENTERPRISE_SITE_KEY) {
+    // App Check — AI Logic / Firestore kotasını korur
+    if (typeof window !== "undefined") {
       try {
-        if (process.env.NODE_ENV === "development") {
-          // localhost debug token: Firebase Console → App Check → Manage debug tokens
+        const isDev = process.env.NODE_ENV === "development";
+        const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_ENTERPRISE_SITE_KEY;
+        const isPlaceholderKey = !siteKey || siteKey.startsWith("6LeJnFQt");
+
+        if (isDev || isPlaceholderKey) {
+          // Dev / Debug mode: CustomProvider (recaptcha__tr.js enjeksiyonunu engelleyerek hataları çözer)
           globalThis.FIREBASE_APPCHECK_DEBUG_TOKEN =
             process.env.NEXT_PUBLIC_APPCHECK_DEBUG_TOKEN || true;
+
+          appCheck = initializeAppCheck(app, {
+            provider: new CustomProvider({
+              getToken: () =>
+                Promise.resolve({
+                  token: typeof globalThis.FIREBASE_APPCHECK_DEBUG_TOKEN === "string"
+                    ? globalThis.FIREBASE_APPCHECK_DEBUG_TOKEN
+                    : "DEBUG_APPCHECK_TOKEN",
+                  expireTimeMillis: Date.now() + 3600 * 1000,
+                }),
+            }),
+            isTokenAutoRefreshEnabled: true,
+          });
+        } else {
+          appCheck = initializeAppCheck(app, {
+            provider: new ReCaptchaEnterpriseProvider(siteKey),
+            isTokenAutoRefreshEnabled: true,
+          });
         }
-        appCheck = initializeAppCheck(app, {
-          provider: new ReCaptchaEnterpriseProvider(RECAPTCHA_ENTERPRISE_SITE_KEY),
-          isTokenAutoRefreshEnabled: true,
-        });
       } catch (appCheckError) {
         console.warn("App Check init skipped:", appCheckError?.message || appCheckError);
       }
     }
 
     auth = getAuth(app);
-    // Oturum: tarayıcı verisi silinmedikçe / explicit çıkış yoksa yıllarca kalır
     if (typeof window !== "undefined") {
       setPersistence(auth, browserLocalPersistence).catch((e) => {
         console.warn("Auth persistence:", e?.message || e);
@@ -59,8 +72,15 @@ try {
     cloudFuncs = getFunctions(app, 'us-central1');
     syncProgressCall = httpsCallable(cloudFuncs, 'syncProgress');
     googleProvider = new GoogleAuthProvider();
-    // Firebase AI Logic — Gemini Developer API (Startup / MVP)
     ai = getAI(app, { backend: new GoogleAIBackend() });
+
+    if (typeof window !== "undefined") {
+      isAnalyticsSupported()
+        .then((ok) => {
+          if (ok) analytics = getAnalytics(app);
+        })
+        .catch(() => {});
+    }
   } else {
     console.warn("Firebase API Key is missing or dummy. Firebase services will be disabled.");
   }
@@ -68,4 +88,4 @@ try {
   console.error("Firebase initialization error:", error);
 }
 
-export { app, auth, db, cloudFuncs, syncProgressCall, googleProvider, ai, appCheck };
+export { app, auth, db, cloudFuncs, syncProgressCall, googleProvider, ai, appCheck, analytics };
