@@ -11,10 +11,7 @@ import {
   BookmarkPlus,
   Volume2,
   VolumeX,
-  X,
-  CreditCard,
-  Sparkles,
-  CheckCircle2,
+  ArrowRight,
 } from "lucide-react";
 import {
   TRANSLATE_LANGUAGES,
@@ -27,8 +24,20 @@ import { saveWordToCloud } from "../lib/firebase/authService";
 import { auth } from "../lib/firebase/config";
 import { useT } from "../lib/i18n/LocaleProvider";
 import { assertAllowed, commitAbuse, AbuseError } from "../lib/security";
+import {
+  FREE_TRANSLATION_QUOTA,
+  GUEST_TRANSLATION_QUOTA,
+  freeQuotaForUser,
+  remainingFreeTranslations,
+} from "../lib/premium/config";
+import {
+  fetchCloudTranslationCount,
+  incrementCloudTranslationCount,
+} from "../lib/premium/usageService";
 
-const DEBOUNCE_MS = 650;
+const SILENCE_MS = 3000;
+const SPEECH_RMS = 0.02;
+const SILENCE_RMS = 0.012;
 const LANG_STORAGE_KEY = "memolandum-translate-target";
 
 const TTS_LANG_MAP = {
@@ -45,23 +54,29 @@ const TTS_LANG_MAP = {
   zh: "zh-CN",
   el: "el-GR",
   it: "it-IT",
+  osm: "tr-TR",
 };
 
-export default function QuickTranslateBar() {
+export default function QuickTranslateBar({ onOpenPremium } = {}) {
   const t = useT();
   const [text, setText] = useState("");
-  const [targetLang, setTargetLang] = useState(() => {
-    if (typeof window === "undefined") return "";
+  const [targetLang, setTargetLang] = useState("");
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
     try {
       const saved = localStorage.getItem(LANG_STORAGE_KEY);
-      if (saved && TRANSLATE_LANGUAGES.some((l) => l.code === saved)) return saved;
+      if (saved && TRANSLATE_LANGUAGES.some((l) => l.code === saved)) {
+        setTargetLang(saved);
+      }
     } catch {
       /* ignore */
     }
-    return "";
-  });
+  }, []);
   const [translation, setTranslation] = useState("");
   const [sourceHint, setSourceHint] = useState("");
+  const [contextNotes, setContextNotes] = useState("");
   const [status, setStatus] = useState("idle"); // idle | loading | error
   const [error, setError] = useState("");
   const [isRecording, setIsRecording] = useState(false);
@@ -71,54 +86,72 @@ export default function QuickTranslateBar() {
 
   const { addLearnedWords, vocabularyVault } = useMemolandumStore();
   const isPremium = useMemolandumStore((state) => state.isPremium);
+  const isAuthenticated = useMemolandumStore((state) => state.isAuthenticated);
+  const uid = useMemolandumStore((state) => state.uid);
   const translationCount = useMemolandumStore((state) => state.translationCount) || 0;
   const incrementTranslationCount = useMemolandumStore((state) => state.incrementTranslationCount);
-  const setPremium = useMemolandumStore((state) => state.setPremium);
-
-  const [showPremiumModal, setShowPremiumModal] = useState(false);
-  const [checkoutProvider, setCheckoutProvider] = useState(null); // null | 'stripe' | 'iyzico'
-  const [paymentStep, setPaymentStep] = useState('select'); // select | form | processing | success
-  const [cardName, setCardName] = useState("");
-  const [cardNumber, setCardNumber] = useState("");
-  const [cardExpiry, setCardExpiry] = useState("");
-  const [cardCvc, setCardCvc] = useState("");
 
   const isPremiumRef = useRef(isPremium);
   const translationCountRef = useRef(translationCount);
+  const isAuthRef = useRef(isAuthenticated);
 
   useEffect(() => {
     isPremiumRef.current = isPremium;
     translationCountRef.current = translationCount;
-  }, [isPremium, translationCount]);
+    isAuthRef.current = isAuthenticated;
+  }, [isPremium, translationCount, isAuthenticated]);
 
-  const handleStartPayment = (provider) => {
-    setCheckoutProvider(provider);
-    setPaymentStep('form');
-  };
+  useEffect(() => {
+    if (!uid || !isAuthenticated) return undefined;
+    let cancelled = false;
+    (async () => {
+      const cloud = await fetchCloudTranslationCount(uid);
+      if (cancelled || cloud == null) return;
+      // Üyede Firestore kaynak — yerel (misafir/başka hesap) sayacı asla üstün gelmesin
+      useMemolandumStore.setState({ translationCount: cloud });
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [uid, isAuthenticated]);
 
-  const handleProcessPayment = (e) => {
-    e.preventDefault();
-    setPaymentStep('processing');
-    setTimeout(() => {
-      setPaymentStep('success');
-      setPremium(true);
-    }, 2200);
-  };
+  const openPremium = useCallback(() => {
+    if (typeof onOpenPremium === "function") onOpenPremium();
+  }, [onOpenPremium]);
 
-  const handleCloseModal = () => {
-    setShowPremiumModal(false);
-    setCheckoutProvider(null);
-    setPaymentStep('select');
-    setCardName("");
-    setCardNumber("");
-    setCardExpiry("");
-    setCardCvc("");
-  };
+  const consumeQuota = useCallback(async () => {
+    incrementTranslationCount();
+    if (uid && isAuthRef.current) {
+      const next = await incrementCloudTranslationCount(uid);
+      if (typeof next === "number") {
+        useMemolandumStore.setState({ translationCount: next });
+      }
+    }
+  }, [incrementTranslationCount, uid]);
+
+  const checkFreeQuotaOrUpsell = useCallback(() => {
+    if (isPremiumRef.current) return true;
+    const max = freeQuotaForUser(isAuthRef.current);
+    if (translationCountRef.current >= max) {
+      setStatus("error");
+      setError(
+        isAuthRef.current
+          ? `Ücretsiz ${FREE_TRANSLATION_QUOTA} AI çeviri hakkınız bitti. Tüm oyunlar ve seviyeler ücretsizdir — sınırsız çeviri için Premium.`
+          : `Misafir kotası (${GUEST_TRANSLATION_QUOTA}) doldu. Üye olun (${FREE_TRANSLATION_QUOTA} hak) veya Premium’a bakın.`
+      );
+      return false;
+    }
+    return true;
+  }, []);
 
   const mediaRecorderRef = useRef(null);
   const chunksRef = useRef([]);
-  const debounceRef = useRef(null);
   const requestIdRef = useRef(0);
+  const audioCtxRef = useRef(null);
+  const silenceTimerRef = useRef(null);
+  const rafRef = useRef(null);
+  const hasSpeechRef = useRef(false);
+  const stopRecordingRef = useRef(() => {});
 
   const stopSpeaking = useCallback(() => {
     if (typeof window !== "undefined" && window.speechSynthesis) {
@@ -132,6 +165,13 @@ export default function QuickTranslateBar() {
       if (typeof window !== "undefined" && window.speechSynthesis) {
         window.speechSynthesis.cancel();
       }
+      if (silenceTimerRef.current) clearTimeout(silenceTimerRef.current);
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      try {
+        audioCtxRef.current?.close();
+      } catch {
+        /* ignore */
+      }
     };
   }, []);
 
@@ -143,12 +183,7 @@ export default function QuickTranslateBar() {
     const trimmed = (value || "").trim();
     if (!trimmed || !lang) return;
 
-    if (!isPremiumRef.current && translationCountRef.current >= 10) {
-      setShowPremiumModal(true);
-      setStatus("error");
-      setError("AI Çeviri limitine ulaştınız. Devam etmek için Premium'a yükseltin!");
-      return;
-    }
+    if (!checkFreeQuotaOrUpsell()) return;
 
     const reqId = ++requestIdRef.current;
     setStatus("loading");
@@ -158,10 +193,11 @@ export default function QuickTranslateBar() {
       const result = await translateText(trimmed, lang);
       if (reqId !== requestIdRef.current) return;
 
-      incrementTranslationCount();
+      await consumeQuota();
 
       setTranslation(result.translation);
       setSourceHint(result.sourceLang || "");
+      setContextNotes(result.contextNotes || "");
       setVaultState("idle");
       setStatus("idle");
     } catch (err) {
@@ -172,32 +208,86 @@ export default function QuickTranslateBar() {
       setTranslation("");
       setVaultState("idle");
     }
+  }, [checkFreeQuotaOrUpsell, consumeQuota]);
+
+  const clearSilenceMonitor = useCallback(() => {
+    if (silenceTimerRef.current) {
+      clearTimeout(silenceTimerRef.current);
+      silenceTimerRef.current = null;
+    }
+    if (rafRef.current) {
+      cancelAnimationFrame(rafRef.current);
+      rafRef.current = null;
+    }
+    hasSpeechRef.current = false;
+    try {
+      audioCtxRef.current?.close();
+    } catch {
+      /* ignore */
+    }
+    audioCtxRef.current = null;
   }, []);
 
-  useEffect(() => {
-    if (debounceRef.current) clearTimeout(debounceRef.current);
+  const startSilenceMonitor = useCallback(
+    (stream) => {
+      clearSilenceMonitor();
+      const AudioCtx = window.AudioContext || window.webkitAudioContext;
+      if (!AudioCtx) return;
 
-    const trimmed = text.trim();
-    if (!trimmed || !targetLang) {
-      return;
-    }
+      try {
+        const ctx = new AudioCtx();
+        const source = ctx.createMediaStreamSource(stream);
+        const analyser = ctx.createAnalyser();
+        analyser.fftSize = 2048;
+        source.connect(analyser);
+        audioCtxRef.current = ctx;
+        const data = new Uint8Array(analyser.fftSize);
 
-    debounceRef.current = setTimeout(() => {
-      runTranslate(trimmed, targetLang);
-    }, DEBOUNCE_MS);
+        const tick = () => {
+          analyser.getByteTimeDomainData(data);
+          let sum = 0;
+          for (let i = 0; i < data.length; i++) {
+            const v = (data[i] - 128) / 128;
+            sum += v * v;
+          }
+          const rms = Math.sqrt(sum / data.length);
 
-    return () => {
-      if (debounceRef.current) clearTimeout(debounceRef.current);
-    };
-  }, [text, targetLang, runTranslate]);
+          if (rms >= SPEECH_RMS) {
+            hasSpeechRef.current = true;
+            if (silenceTimerRef.current) {
+              clearTimeout(silenceTimerRef.current);
+              silenceTimerRef.current = null;
+            }
+          } else if (hasSpeechRef.current && rms < SILENCE_RMS) {
+            if (!silenceTimerRef.current) {
+              silenceTimerRef.current = setTimeout(() => {
+                silenceTimerRef.current = null;
+                stopRecordingRef.current();
+              }, SILENCE_MS);
+            }
+          }
+          rafRef.current = requestAnimationFrame(tick);
+        };
+        rafRef.current = requestAnimationFrame(tick);
+      } catch (err) {
+        console.warn("Silence monitor skipped:", err?.message || err);
+      }
+    },
+    [clearSilenceMonitor]
+  );
 
   const stopRecording = useCallback(() => {
+    clearSilenceMonitor();
     const recorder = mediaRecorderRef.current;
     if (recorder && recorder.state !== "inactive") {
       recorder.stop();
     }
     setIsRecording(false);
-  }, []);
+  }, [clearSilenceMonitor]);
+
+  useEffect(() => {
+    stopRecordingRef.current = stopRecording;
+  }, [stopRecording]);
 
   const startRecording = useCallback(async () => {
     if (!targetLang) {
@@ -232,18 +322,14 @@ export default function QuickTranslateBar() {
       };
 
       recorder.onstop = async () => {
+        clearSilenceMonitor();
         stream.getTracks().forEach((t) => t.stop());
         const blob = new Blob(chunksRef.current, {
           type: recorder.mimeType || "audio/webm",
         });
         chunksRef.current = [];
 
-        if (!isPremiumRef.current && translationCountRef.current >= 10) {
-          setShowPremiumModal(true);
-          setStatus("error");
-          setError("Sesli AI Çeviri limitine ulaştınız. Devam etmek için Premium'a yükseltin!");
-          return;
-        }
+        if (!checkFreeQuotaOrUpsell()) return;
 
         const reqId = ++requestIdRef.current;
         setStatus("loading");
@@ -253,11 +339,12 @@ export default function QuickTranslateBar() {
           const result = await translateAudioBlob(blob, targetLang);
           if (reqId !== requestIdRef.current) return;
 
-          incrementTranslationCount();
+          await consumeQuota();
 
           if (result.transcript) setText(result.transcript);
           setTranslation(result.translation || "");
           setSourceHint(result.sourceLang || "");
+          setContextNotes(result.contextNotes || "");
           setVaultState("idle");
           setStatus("idle");
         } catch (err) {
@@ -273,16 +360,31 @@ export default function QuickTranslateBar() {
       setIsRecording(true);
       setError("");
       setStatus("idle");
+      startSilenceMonitor(stream);
     } catch (err) {
       console.error("Mic error:", err);
       setStatus("error");
       setError("Mikrofon izni gerekli. Lütfen izin verip tekrar deneyin.");
     }
-  }, [targetLang]);
+  }, [targetLang, checkFreeQuotaOrUpsell, consumeQuota, clearSilenceMonitor, startSilenceMonitor]);
 
   const handleMicClick = () => {
     if (isRecording) stopRecording();
     else startRecording();
+  };
+
+  const handleTranslateClick = () => {
+    if (status === "loading") return;
+    if (isRecording) {
+      stopRecording();
+      return;
+    }
+    if (!targetLang) {
+      setStatus("error");
+      setError("Önce hedef dili seçin.");
+      return;
+    }
+    runTranslate(text, targetLang);
   };
 
   const handleCopy = async () => {
@@ -373,6 +475,7 @@ export default function QuickTranslateBar() {
         translation,
         targetLang,
         sourceLang: sourceHint,
+        contextNotes,
       });
 
       if (vocabularyVault?.[word.id]) {
@@ -409,9 +512,18 @@ export default function QuickTranslateBar() {
           <div className="qt-label" title="Google Gemini ile anlık çeviri">
             <Languages size={15} strokeWidth={2.2} />
             <span className="qt-label-text">{t("translate.label")}</span>
-            <span className="premium-badge ml-2 px-1.5 py-0.5 rounded text-[9px] font-mono font-bold uppercase tracking-wider">
-              {isPremium ? "⭐ PREMIUM" : `${Math.max(0, 10 - translationCount)}/10 FREE`}
-            </span>
+            <button
+              type="button"
+              className="premium-badge ml-2 px-1.5 py-0.5 rounded text-[9px] font-mono font-bold uppercase tracking-wider"
+              onClick={openPremium}
+              title="Premium"
+            >
+              {!mounted
+                ? "FREE"
+                : isPremium
+                ? "⭐ PREMIUM"
+                : `${remainingFreeTranslations(translationCount, isAuthenticated)}/${freeQuotaForUser(isAuthenticated)} FREE`}
+            </button>
           </div>
 
           <button
@@ -432,14 +544,42 @@ export default function QuickTranslateBar() {
               setText(e.target.value);
               setVaultState("idle");
             }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                e.preventDefault();
+                handleTranslateClick();
+              }
+            }}
             placeholder={t("translate.placeholder")}
             aria-label="Çevrilecek metin"
             maxLength={280}
-            enterKeyHint="done"
+            enterKeyHint="go"
             autoComplete="off"
             autoCorrect="off"
             spellCheck={false}
           />
+
+          <button
+            type="button"
+            className="qt-go"
+            onClick={handleTranslateClick}
+            disabled={status === "loading" || (!isRecording && !text.trim())}
+            aria-label={t("translate.action")}
+            title={
+              isRecording
+                ? "Kaydı bitirip çevir"
+                : t("translate.action")
+            }
+          >
+            {status === "loading" ? (
+              <Loader2 size={14} className="qt-spin" />
+            ) : (
+              <>
+                <span className="qt-go-label">{t("translate.action")}</span>
+                <ArrowRight size={14} />
+              </>
+            )}
+          </button>
 
           <select
             className="qt-select"
@@ -472,7 +612,12 @@ export default function QuickTranslateBar() {
             {status === "loading" ? (
               <span className="qt-loading">
                 <Loader2 size={14} className="qt-spin" />
-                {isRecording ? t("translate.listening") : t("translate.translating")}
+                {t("translate.translating")}
+              </span>
+            ) : isRecording ? (
+              <span className="qt-loading">
+                <Loader2 size={14} className="qt-spin" />
+                {t("translate.listening")}
               </span>
             ) : error ? (
               <span className="qt-error">{error}</span>
@@ -538,182 +683,6 @@ export default function QuickTranslateBar() {
           </div>
         </div>
       </div>
-
-      {showPremiumModal && (
-        <div className="premium-modal-overlay">
-          <div className="premium-modal">
-            <button className="premium-modal-close" onClick={handleCloseModal}>
-              <X size={18} />
-            </button>
-
-            {paymentStep === 'select' && (
-              <div className="premium-modal-content">
-                <div className="premium-modal-header animate-pulse-glow">
-                  <Sparkles className="w-8 h-8 text-amber-400" />
-                  <h2>MEMOLANDUM PREMIUM</h2>
-                  <p>AI Çeviri Limitine Ulaştınız</p>
-                </div>
-                
-                <p className="premium-modal-desc">
-                  Deneme sürümündeki ilk 10 ücretsiz çeviri hakkınızı tamamladınız. 
-                  Devam etmek ve tüm özellikleri sınırsız kullanmak için premium üyeliğe yükseltin.
-                </p>
-
-                <div className="premium-features">
-                  <div className="feature-item">
-                    <span className="bullet">⚡</span>
-                    <div>
-                      <strong>Sınırsız Yapay Zeka Çevirisi</strong>
-                      <p>Gemini destekli anlık ve kesintisiz çeviri motoru</p>
-                    </div>
-                  </div>
-                  <div className="feature-item">
-                    <span className="bullet">🎙️</span>
-                    <div>
-                      <strong>Sınırsız Sesli Arama & Telaffuz</strong>
-                      <p>Doğal ses algılama ve telaffuz mekanizmaları</p>
-                    </div>
-                  </div>
-                  <div className="feature-item">
-                    <span className="bullet">🎮</span>
-                    <div>
-                      <strong>Reklamsız Arcade Deneyimi</strong>
-                      <p>Kelimeleri kesintisiz, odaklanmış ve akıcı öğrenin</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="premium-pricing-options">
-                  <button 
-                    onClick={() => handleStartPayment('iyzico')}
-                    className="pay-btn iyzico-btn"
-                  >
-                    <span>🇹🇷 iyzico ile Güvenli Öde</span>
-                    <strong>99 TL / Ay</strong>
-                  </button>
-                  <button 
-                    onClick={() => handleStartPayment('stripe')}
-                    className="pay-btn stripe-btn"
-                  >
-                    <span>💳 Stripe ile Güvenli Öde</span>
-                    <strong>$2.99 / Ay</strong>
-                  </button>
-                </div>
-              </div>
-            )}
-
-            {paymentStep === 'form' && (
-              <div className="premium-modal-content">
-                <div className="premium-checkout-header">
-                  <CreditCard className="w-6 h-6 text-cyan-400" />
-                  <h3>{checkoutProvider === 'iyzico' ? 'iyzico Sanal POS' : 'Stripe Secure Checkout'}</h3>
-                  <p className="price">
-                    {checkoutProvider === 'iyzico' ? '99.00 TL / Aylık' : '$2.99 / Monthly'}
-                  </p>
-                </div>
-
-                <form onSubmit={handleProcessPayment} className="checkout-form">
-                  <div className="form-group">
-                    <label>Kart Üzerindeki İsim</label>
-                    <input 
-                      type="text" 
-                      required 
-                      value={cardName} 
-                      onChange={(e) => setCardName(e.target.value)} 
-                      placeholder="John Doe" 
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label>Kart Numarası</label>
-                    <input 
-                      type="text" 
-                      required 
-                      maxLength="19"
-                      value={cardNumber} 
-                      onChange={(e) => {
-                        const val = e.target.value.replace(/\D/g, '').replace(/(\d{4})/g, '$1 ').trim();
-                        setCardNumber(val);
-                      }} 
-                      placeholder="4355 1200 4599 8812" 
-                    />
-                  </div>
-                  <div className="form-row">
-                    <div className="form-group flex-1">
-                      <label>Son Kullanma Tarihi</label>
-                      <input 
-                        type="text" 
-                        required 
-                        maxLength="5"
-                        value={cardExpiry} 
-                        onChange={(e) => {
-                          let val = e.target.value.replace(/\D/g, '');
-                          if (val.length > 2) val = val.slice(0,2) + '/' + val.slice(2);
-                          setCardExpiry(val);
-                        }} 
-                        placeholder="MM/YY" 
-                      />
-                    </div>
-                    <div className="form-group w-24">
-                      <label>CVC</label>
-                      <input 
-                        type="password" 
-                        required 
-                        maxLength="3"
-                        value={cardCvc} 
-                        onChange={(e) => setCardCvc(e.target.value.replace(/\D/g, ''))} 
-                        placeholder="***" 
-                      />
-                    </div>
-                  </div>
-
-                  <div className="checkout-actions">
-                    <button 
-                      type="button" 
-                      onClick={() => setPaymentStep('select')}
-                      className="checkout-back"
-                    >
-                      Geri
-                    </button>
-                    <button type="submit" className="checkout-submit">
-                      Güvenli Öde
-                    </button>
-                  </div>
-                </form>
-              </div>
-            )}
-
-            {paymentStep === 'processing' && (
-              <div className="premium-modal-content flex flex-col items-center py-12 justify-center">
-                <Loader2 className="w-12 h-12 text-cyan-400 animate-spin mb-4" />
-                <h4 className="text-lg font-mono font-bold tracking-wider text-slate-200">
-                  {checkoutProvider === 'iyzico' ? "iyzico POS'a Bağlanılıyor..." : "Stripe POS'a Bağlanılıyor..."}
-                </h4>
-                <p className="text-xs font-mono text-slate-400 mt-2">
-                  Lütfen tarayıcınızı kapatmayın veya yenilemeyin.
-                </p>
-              </div>
-            )}
-
-            {paymentStep === 'success' && (
-              <div className="premium-modal-content flex flex-col items-center text-center py-6 justify-center">
-                <CheckCircle2 className="w-16 h-16 text-emerald-400 animate-bounce mb-4" />
-                <h3 className="text-xl font-mono font-bold text-emerald-400 tracking-widest">
-                  ÖDEME BAŞARILI!
-                </h3>
-                <p className="text-sm font-mono text-slate-300 mt-2 max-w-xs">
-                  Memolandum Premium üyeliğiniz aktif edildi. Tüm limitler kaldırıldı!
-                </p>
-                <button 
-                  onClick={handleCloseModal}
-                  className="checkout-success-btn"
-                >
-                  Kullanmaya Başla 🚀
-                </button>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
 
       <style
         dangerouslySetInnerHTML={{
@@ -782,6 +751,35 @@ export default function QuickTranslateBar() {
   color: #fca5a5;
   animation: qtPulse 1.2s ease-in-out infinite;
 }
+.qt-go {
+  flex-shrink: 0;
+  height: 36px;
+  min-width: 72px;
+  padding: 0 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(52, 211, 153, 0.45);
+  background: rgba(16, 185, 129, 0.18);
+  color: #a7f3d0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  transition: all 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+.qt-go:hover:not(:disabled) {
+  background: rgba(16, 185, 129, 0.32);
+}
+.qt-go:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.qt-go-label { white-space: nowrap; }
 .qt-input {
   flex: 1 1 auto;
   min-width: 0;
@@ -941,12 +939,13 @@ export default function QuickTranslateBar() {
   .qt-inner { padding: 8px 12px 10px; gap: 8px; }
   .qt-row-primary {
     display: grid;
-    grid-template-columns: 40px minmax(0, 1fr) 92px;
+    grid-template-columns: 40px minmax(0, 1fr) 68px 88px;
     gap: 8px;
     align-items: center;
   }
   .qt-label { display: none; }
   .qt-mic { width: 40px; height: 40px; }
+  .qt-go { height: 40px; min-width: 0; width: 100%; padding: 0 6px; }
   .qt-input {
     width: 100%;
     height: 40px;
@@ -984,9 +983,10 @@ export default function QuickTranslateBar() {
 
 @media (max-width: 380px) {
   .qt-row-primary {
-    grid-template-columns: 40px minmax(0, 1fr) 78px;
+    grid-template-columns: 40px minmax(0, 1fr) 56px 72px;
     gap: 6px;
   }
+  .qt-go-label { display: none; }
   .qt-action-label { display: none; }
   .qt-inner { padding: 8px 10px 10px; }
 }
@@ -996,6 +996,10 @@ export default function QuickTranslateBar() {
   border: 1px solid rgba(245, 158, 11, 0.4);
   color: #fbbf24;
   box-shadow: 0 0 6px rgba(245, 158, 11, 0.2);
+  cursor: pointer;
+}
+.premium-badge:hover {
+  filter: brightness(1.15);
 }
 
 .premium-modal-overlay {
@@ -1295,15 +1299,23 @@ function humanizeAiError(err) {
   if (err instanceof AbuseError || err?.name === "AbuseError") {
     return err.message;
   }
+  const code = String(err?.code || "");
   const message = String(err?.message || err || "");
-  if (/permission|PERMISSION|403|API_KEY|not enabled|AI Logic|Vertex/i.test(message)) {
-    return "AI servisi henüz aktif değil (Firebase AI Logic).";
+  if (/401|403|PERMISSION|API_KEY|Unauthorized|ACCESS_TOKEN/i.test(code + message)) {
+    return "AI servisi şu an yanıt vermiyor. Biraz sonra tekrar deneyin.";
   }
-  if (/quota|429|resource.exhausted/i.test(message)) {
+  if (/404|not found|not supported|shut down|deprecated|2\.0-flash/i.test(message)) {
+    return "AI modeli güncelleniyor. Lütfen sayfayı yenileyip tekrar deneyin.";
+  }
+  if (/resource-exhausted|429|quota/i.test(code + message)) {
     return "Kota aşıldı, biraz sonra deneyin.";
   }
   if (/network|Failed to fetch|offline/i.test(message)) {
     return "Ağ hatası — bağlantıyı kontrol edin.";
   }
-  return message.slice(0, 80) || "Çeviri başarısız.";
+  if (/GoogleGenerativeAI|firebasevertexai|generativelanguage/i.test(message)) {
+    return "Çeviri servisine ulaşılamadı. Tekrar deneyin.";
+  }
+  const cleaned = message.replace(/^Firebase:\s*/i, "").replace(/\s*\(.*\)\s*$/, "");
+  return cleaned.slice(0, 120) || "Çeviri başarısız.";
 }

@@ -6,10 +6,14 @@ import {
   signInWithEmailAndPassword, 
   signOut,
   sendEmailVerification,
-  updateProfile
+  updateProfile,
+  reauthenticateWithPopup,
+  reauthenticateWithCredential,
+  EmailAuthProvider,
 } from "firebase/auth";
 import { doc, getDoc, setDoc, deleteDoc, collection, writeBatch } from "firebase/firestore";
-import { auth, db, googleProvider } from "./config";
+import { httpsCallable } from "firebase/functions";
+import { auth, db, googleProvider, cloudFuncs } from "./config";
 import { useMemolandumStore } from "../../store/useMemolandumStore";
 import GlobalStateSync from "./GlobalStateSync";
 
@@ -135,12 +139,23 @@ export const isGoogleRedirectPending = () => {
 export const registerWithEmail = async (email, password) => {
   try {
     const result = await createUserWithEmailAndPassword(auth, email, password);
-    // E-posta doğrulama linki gönder ve siteye geri dönmesi için ayar ekle
-    const actionCodeSettings = {
-      url: typeof window !== 'undefined' ? window.location.origin : 'http://localhost:3000',
-    };
-    await sendEmailVerification(result.user, actionCodeSettings);
-    await syncUserProgress(result.user);
+    
+    // E-posta doğrulama linkini güvenli şekilde gönder (ağ aksamalarında kayıt iptal olmasın)
+    try {
+      const actionCodeSettings = {
+        url: typeof window !== 'undefined' ? `${window.location.origin}/auth/action` : 'https://memolandum.com/auth/action',
+      };
+      await sendEmailVerification(result.user, actionCodeSettings);
+    } catch (verifyErr) {
+      console.warn("Verification email dispatch warning:", verifyErr);
+    }
+
+    try {
+      await syncUserProgress(result.user);
+    } catch (syncErr) {
+      console.warn("User progress sync warning:", syncErr);
+    }
+
     return result.user;
   } catch (error) {
     console.error("Email Registration Error:", error);
@@ -245,7 +260,11 @@ export const changeUsername = async (user, oldUsername, newUsername) => {
 export const loginWithEmail = async (email, password) => {
   try {
     const result = await signInWithEmailAndPassword(auth, email, password);
-    await syncUserProgress(result.user);
+    try {
+      await syncUserProgress(result.user);
+    } catch (syncErr) {
+      console.warn("User progress sync warning on login:", syncErr);
+    }
     return result.user;
   } catch (error) {
     console.error("Email Login Error:", error);
@@ -256,9 +275,72 @@ export const loginWithEmail = async (email, password) => {
 export const logoutUser = async () => {
   try {
     await signOut(auth);
+    const store = useMemolandumStore.getState();
+    store.setAuthUser(null);
+    if (store.setIsEmailVerified) store.setIsEmailVerified(false);
+    if (typeof window !== "undefined") {
+      localStorage.removeItem("memolandum-storage");
+      sessionStorage.clear();
+    }
   } catch (error) {
     console.error("Logout Error:", error);
+    const store = useMemolandumStore.getState();
+    store.setAuthUser(null);
+    if (typeof window !== "undefined") {
+      localStorage.removeItem("memolandum-storage");
+    }
+  }
+};
+
+/**
+ * Privacy Policy / Play Store — hesabı ve bulut verisini kalıcı siler.
+ * Önce yeniden kimlik doğrulama (5 dk kuralı), sonra Cloud Function (Admin).
+ * @param {{ password?: string }} [opts] — e-posta/şifre hesapları için zorunlu
+ */
+export const deleteUserAccount = async (opts = {}) => {
+  const user = auth?.currentUser;
+  if (!user) throw new Error("Oturum bulunamadı.");
+  if (!cloudFuncs) throw new Error("Cloud Functions yapılandırılmadı.");
+
+  const providers = (user.providerData || []).map((p) => p.providerId);
+  const isGoogle = providers.includes("google.com");
+  const isPassword = providers.includes("password");
+
+  try {
+    if (isGoogle) {
+      await reauthenticateWithPopup(user, googleProvider);
+    } else if (isPassword) {
+      if (!opts.password || !user.email) {
+        const err = new Error("password-required");
+        err.code = "password-required";
+        throw err;
+      }
+      const cred = EmailAuthProvider.credential(user.email, opts.password);
+      await reauthenticateWithCredential(user, cred);
+    } else {
+      // Diğer provider: Google popup ile dene veya şifre yoksa hata
+      if (googleProvider) {
+        await reauthenticateWithPopup(user, googleProvider);
+      } else {
+        throw new Error("Yeniden doğrulama desteklenmiyor. info@memolandum.com");
+      }
+    }
+  } catch (error) {
+    if (error?.code === "password-required") throw error;
+    console.error("Reauth before delete failed:", error);
     throw error;
+  }
+
+  const callDelete = httpsCallable(cloudFuncs, "deleteUserAccount");
+  await callDelete({});
+
+  try {
+    useMemolandumStore.getState().clearForAccountSwitch?.();
+    if (typeof localStorage !== "undefined") {
+      localStorage.removeItem("memolandum-storage");
+    }
+  } catch {
+    /* ignore */
   }
 };
 
@@ -392,7 +474,12 @@ export const syncUserProgress = async (user) => {
     }
 
   } catch (error) {
-    console.error("Progress Sync Error:", error);
+    const msg = String(error?.message || "");
+    if (msg.includes("offline") || msg.includes("could not reach")) {
+      console.warn("Progress sync offline — state preserved locally.");
+    } else {
+      console.error("Progress Sync Error:", error);
+    }
   }
 };
 
