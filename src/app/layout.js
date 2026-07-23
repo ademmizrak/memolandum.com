@@ -109,8 +109,6 @@ export const metadata = {
     "rating": "general",
     "revisit-after": "3 days",
     "language": "tr, en",
-    // Google Search Console site doğrulaması
-    // NEXT_PUBLIC_GSC_VERIFICATION env'den okunur — tanımlı değilse boş string gönderir
     ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION
       ? { "google-site-verification": process.env.NEXT_PUBLIC_GSC_VERIFICATION }
       : {}),
@@ -152,52 +150,45 @@ export default function RootLayout({ children }) {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-          // Catch chunk load / script load errors and reload the page automatically to pull the new version
+          // Auto-clear stale IndexedDB AppCheck tokens & service workers
+          try {
+            if ('indexedDB' in window) {
+              indexedDB.deleteDatabase('firebase-app-check-database');
+            }
+          } catch(e) {}
+
+          function handleChunkError() {
+            var lastReload = sessionStorage.getItem('last_chunk_reload');
+            var now = Date.now();
+            if (!lastReload || (now - parseInt(lastReload, 10) > 10000)) {
+              sessionStorage.setItem('last_chunk_reload', String(now));
+              console.warn('Stale build chunk 404 detected — auto refreshing to new version...');
+              window.location.reload();
+            }
+          }
+
+          window.addEventListener('unhandledrejection', function(e) {
+            var reason = e.reason;
+            var msg = (reason && reason.message) || '';
+            var isChunk = reason && (reason.name === 'ChunkLoadError' || /loading.*chunk/i.test(msg));
+            if (isChunk) handleChunkError();
+          });
+
           window.addEventListener('error', function(e) {
-            var target = e.target;
+            var target = e.target || e.srcElement;
             if (target && (target.tagName === 'SCRIPT' || target.tagName === 'LINK')) {
-              var src = target.src || target.href;
-              if (typeof src === 'string' && src.indexOf('_next/static') !== -1) {
-                // Prevent infinite reload loops
-                var lastReload = sessionStorage.getItem('last_chunk_reload');
-                var now = Date.now();
-                if (!lastReload || (now - parseInt(lastReload, 10) > 15000)) {
-                  sessionStorage.setItem('last_chunk_reload', String(now));
-                  console.warn('Resource load failed:', src, '- reloading page...');
-                  window.location.reload(true);
-                } else {
-                  console.error('Resource load failed consistently:', src, '- reload loop blocked.');
-                }
+              var url = target.src || target.href || '';
+              if (url.indexOf('_next/static') !== -1) {
+                handleChunkError();
               }
             }
           }, true);
 
-          window.addEventListener('unhandledrejection', function(e) {
-            if (e.reason && (e.reason.name === 'ChunkLoadError' || /loading.*chunk/i.test(e.reason.message || ''))) {
-              var lastReload = sessionStorage.getItem('last_chunk_reload');
-              var now = Date.now();
-              if (!lastReload || (now - parseInt(lastReload, 10) > 15000)) {
-                sessionStorage.setItem('last_chunk_reload', String(now));
-                console.warn('ChunkLoadError detected - reloading page...');
-                window.location.reload(true);
-              } else {
-                console.error('ChunkLoadError consistently thrown - reload loop blocked.');
-              }
-            }
-          });
-
           if ('serviceWorker' in navigator) {
             navigator.serviceWorker.getRegistrations().then(function(registrations) {
-              var hasUnregistered = false;
-              var promises = [];
               for (var i = 0; i < registrations.length; i++) {
-                promises.push(registrations[i].unregister().then(function() { hasUnregistered = true; }));
+                registrations[i].unregister();
               }
-              Promise.all(promises).then(function() {
-                if (hasUnregistered) {
-                  window.location.reload(true);
-                }
-              });
             });
           }
         `,
@@ -215,7 +206,9 @@ export default function RootLayout({ children }) {
         <LocaleProvider>
           <AuthProvider>
             <GoogleAnalytics />
-            {children}
+            <div className="flex-1 flex flex-col" suppressHydrationWarning={true}>
+              {children}
+            </div>
           </AuthProvider>
         </LocaleProvider>
       </body>
