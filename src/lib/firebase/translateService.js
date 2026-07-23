@@ -1,10 +1,17 @@
-import { getGenerativeModel, Schema } from "firebase/ai";
-import { ai, auth } from "./config";
 import { assertAllowed, commitAbuse, AbuseError } from "../security";
 import { useMemolandumStore } from "../../store/useMemolandumStore";
 import { createPulseEntry } from "../learning/memolandumPulse";
+import { auth } from "./config";
 
 export { AbuseError };
+
+function getGeminiKey() {
+  return (
+    process.env.NEXT_PUBLIC_GEMINI_API_KEY ||
+    process.env.GEMINI_API_KEY ||
+    ""
+  );
+}
 
 function translateAction(kind) {
   const premium = !!useMemolandumStore.getState().isPremium;
@@ -43,27 +50,6 @@ Kuralların:
 3) EĞİTİMCİ İPUCU (contextNotes): Kullanıcıya çevirinin neden böyle yapıldığını ve inceliğini açıklayan 1-2 cümlelik Türkçe ipucu ver.
 4) NÜANSLAR (nuances): Metindeki kilit kelime ve deyimleri Türkçe anlamlarıyla ayrıştır.`;
 
-const nuanceItemSchema = Schema.object({
-  properties: {
-    phrase: Schema.string(),
-    meaning: Schema.string(),
-    note: Schema.string(),
-  },
-  optionalProperties: ["note"],
-});
-
-const responseSchema = Schema.object({
-  properties: {
-    sourceLang: Schema.string(),
-    translation: Schema.string(),
-    tone: Schema.string(),
-    contextNotes: Schema.string(),
-    nuances: Schema.array(nuanceItemSchema),
-    transcript: Schema.string(),
-  },
-  optionalProperties: ["sourceLang", "tone", "contextNotes", "nuances", "transcript"],
-});
-
 function languageLabel(code) {
   if (LANG_PROMPT_LABEL[code]) return LANG_PROMPT_LABEL[code];
   const row = TRANSLATE_LANGUAGES.find((l) => l.code === code);
@@ -73,23 +59,76 @@ function languageLabel(code) {
 const CANDIDATE_MODELS = [
   "gemini-2.5-flash",
   "gemini-2.0-flash",
-  "gemini-flash-latest",
+  "gemini-1.5-flash",
 ];
 
-function getTranslateModel(modelName = CANDIDATE_MODELS[0]) {
-  if (!ai) {
-    throw new Error("AI servisi bağlanamadı.");
+async function fetchGeminiDirect(promptParts, modelName = CANDIDATE_MODELS[0]) {
+  const apiKey = getGeminiKey();
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
+
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 12000);
+
+  try {
+    const response = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      signal: controller.signal,
+      body: JSON.stringify({
+        contents: [{ parts: promptParts }],
+        systemInstruction: {
+          parts: [{ text: DEEP_CONTEXT_TRANSLATOR_SYSTEM_INSTRUCTION }],
+        },
+        generationConfig: {
+          temperature: 0.15,
+          maxOutputTokens: 2048,
+          responseMimeType: "application/json",
+        },
+      }),
+    });
+
+    clearTimeout(timeoutId);
+
+    if (!response.ok) {
+      const errText = await response.text();
+      throw new Error(`API HTTP ${response.status}: ${errText.slice(0, 150)}`);
+    }
+
+    const data = await response.json();
+    const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (!rawText) {
+      throw new Error("Gemini geçerli bir yanıt metni dönmedi.");
+    }
+    return rawText;
+  } catch (err) {
+    clearTimeout(timeoutId);
+    if (err.name === "AbortError") {
+      throw new Error("Gemini yanıt süresi aşıldı (12 sn).");
+    }
+    throw err;
   }
-  return getGenerativeModel(ai, {
-    model: modelName,
-    systemInstruction: DEEP_CONTEXT_TRANSLATOR_SYSTEM_INSTRUCTION,
-    generationConfig: {
-      temperature: 0.15,
-      maxOutputTokens: 4096,
-      responseMimeType: "application/json",
-      responseSchema,
-    },
-  });
+}
+
+async function generateWithFallback(promptParts) {
+  let lastErr = null;
+  for (const modelName of CANDIDATE_MODELS) {
+    try {
+      return await fetchGeminiDirect(promptParts, modelName);
+    } catch (err) {
+      lastErr = err;
+      const msg = String(err?.message || "").toLowerCase();
+      if (
+        msg.includes("not found") ||
+        msg.includes("404") ||
+        msg.includes("invalid") ||
+        msg.includes("unsupported")
+      ) {
+        continue;
+      }
+      throw err;
+    }
+  }
+  throw lastErr || new Error("Gemini AI servisinden yanıt alınamadı.");
 }
 
 function parseModelJson(text) {
@@ -107,42 +146,6 @@ function parseModelJson(text) {
   }
 }
 
-function extractText(result) {
-  try {
-    const direct = result?.response?.text?.();
-    if (direct) return direct;
-  } catch {
-    /* ignore */
-  }
-  const parts = result?.response?.candidates?.[0]?.content?.parts || [];
-  return parts
-    .filter((p) => typeof p?.text === "string" && !p.thought)
-    .map((p) => p.text)
-    .join("")
-    .trim();
-}
-
-async function generateWithFallback(promptParts) {
-  let lastErr = null;
-  for (const modelName of CANDIDATE_MODELS) {
-    try {
-      const model = getTranslateModel(modelName);
-      const timeoutPromise = new Promise((_, reject) =>
-        setTimeout(() => reject(new Error("Gemini AI yanıt süresi aşıldı (10 sn). Lütfen tekrar deneyin.")), 10000)
-      );
-      return await Promise.race([model.generateContent(promptParts), timeoutPromise]);
-    } catch (err) {
-      lastErr = err;
-      const msg = String(err?.message || "").toLowerCase();
-      if (msg.includes("not found") || msg.includes("invalid model") || msg.includes("404")) {
-        continue;
-      }
-      throw err;
-    }
-  }
-  throw lastErr || new Error("Gemini servisi yanıt vermedi.");
-}
-
 export async function translateText(text, targetLangCode) {
   const isAuthenticated = !!auth?.currentUser;
   const uid = auth?.currentUser?.uid || null;
@@ -158,16 +161,20 @@ export async function translateText(text, targetLangCode) {
   if (!targetLangCode) throw new Error("Hedef dil seçin.");
 
   const target = languageLabel(targetLangCode);
-  const prompt = `Task: Deep contextual translation into ${target} (${targetLangCode}).
+  const promptParts = [
+    {
+      text: `Task: Deep contextual translation into ${target} (${targetLangCode}).
 Return JSON with keys: translation, sourceLang, tone, contextNotes, nuances.
-User text: """${trimmed}"""`;
+nuances is an array of objects with keys: phrase, meaning, note.
+User text: """${trimmed}"""`,
+    },
+  ];
 
-  const result = await generateWithFallback(prompt);
-  const raw = extractText(result);
-  const parsed = parseModelJson(raw);
+  const rawJsonStr = await generateWithFallback(promptParts);
+  const parsed = parseModelJson(rawJsonStr);
 
   if (!parsed?.translation) {
-    throw new Error("Çeviri üretilemedi, lütfen tekrar deneyin.");
+    throw new Error("Çeviri yanıtı çözümlenemedi. Tekrar deneyin.");
   }
 
   commitAbuse(ticket);
@@ -200,16 +207,17 @@ export async function translateAudioBlob(audioBlob, targetLangCode) {
   const audioBase64 = await blobToBase64(audioBlob);
   const target = languageLabel(targetLangCode);
 
-  const prompt = `Task: Voice transcription & deep context translation into ${target} (${targetLangCode}).
-Return JSON with keys: transcript, translation, sourceLang, tone, contextNotes, nuances.`;
-
-  const result = await generateWithFallback([
-    { text: prompt },
+  const promptParts = [
+    {
+      text: `Task: Voice transcription & deep context translation into ${target} (${targetLangCode}).
+Return JSON with keys: transcript, translation, sourceLang, tone, contextNotes, nuances.`,
+    },
     { inlineData: { mimeType, data: audioBase64 } },
-  ]);
+  ];
 
-  const raw = extractText(result);
-  const parsed = parseModelJson(raw);
+  const rawJsonStr = await generateWithFallback(promptParts);
+  const parsed = parseModelJson(rawJsonStr);
+
   if (!parsed?.translation && !parsed?.transcript) {
     throw new Error("Ses anlaşılamadı. Tekrar deneyin.");
   }
