@@ -5,6 +5,22 @@ const admin = require("firebase-admin");
 
 admin.initializeApp();
 
+// Premium (Shopier PAT TR + Stripe global; iyzico/OSB opsiyonel)
+const premium = require("./premium");
+exports.createPremiumCheckout = premium.createPremiumCheckout;
+exports.shopierPremiumWebhook = premium.shopierPremiumWebhook;
+exports.shopierPremiumCallback = premium.shopierPremiumCallback;
+exports.iyzicoPremiumCallback = premium.iyzicoPremiumCallback;
+exports.stripePremiumWebhook = premium.stripePremiumWebhook;
+
+// Google AI (Gemini) — ücretli GEMINI_API_KEY ile sunucu tarafı çeviri
+const translate = require("./translate");
+exports.geminiTranslate = translate.geminiTranslate;
+
+// Google Cloud Translation API (v3) — Official Service Account Entegrasyonu
+const googleTranslate = require("./googleTranslate");
+exports.cloudTranslate = googleTranslate.cloudTranslate;
+
 exports.syncProgress = onCall({ region: "us-central1" }, async (request) => {
     // 1. Authenticate user
     if (!request.auth) {
@@ -355,6 +371,65 @@ exports.ssr = onRequest({ region: "us-central1" }, async (req, res) => {
 
     return res.status(200).send(html);
   });
+
+/**
+ * Privacy / GDPR / Play Store — hesap ve bulut verisi silme.
+ * Yalnızca çağıranın kendi uid'si; son 5 dk içinde yeniden kimlik doğrulama gerekir.
+ * Admin SDK ile recursiveDelete (client batch limitlerine takılmaz).
+ */
+exports.deleteUserAccount = onCall({ region: "us-central1" }, async (request) => {
+    if (!request.auth?.uid) {
+        throw new HttpsError("unauthenticated", "Hesap silmek için giriş gerekli.");
+    }
+
+    const uid = request.auth.uid;
+    const authTime = Number(request.auth.token?.auth_time) || 0;
+    const ageSec = Math.floor(Date.now() / 1000) - authTime;
+    if (ageSec > 5 * 60) {
+        throw new HttpsError(
+            "failed-precondition",
+            "Güvenlik için yeniden giriş gerekli (recent-login-required)."
+        );
+    }
+
+    // İstemci yanlışlıkla başka uid gönderemez — yalnızca token uid
+    const db = getFirestore();
+    const userRef = db.collection("users").doc(uid);
+
+    try {
+        await db.recursiveDelete(userRef);
+    } catch (err) {
+        console.error("deleteUserAccount recursiveDelete:", err);
+        throw new HttpsError("internal", "Kullanıcı verileri silinemedi.");
+    }
+
+    try {
+        await db.collection("leaderboard").doc(uid).delete();
+    } catch (err) {
+        console.warn("deleteUserAccount leaderboard:", err?.message || err);
+    }
+
+    try {
+        const usernameSnap = await db.collection("usernames").where("uid", "==", uid).limit(20).get();
+        const batch = db.batch();
+        usernameSnap.docs.forEach((d) => batch.delete(d.ref));
+        if (!usernameSnap.empty) await batch.commit();
+    } catch (err) {
+        console.warn("deleteUserAccount usernames:", err?.message || err);
+    }
+
+    try {
+        await admin.auth().deleteUser(uid);
+    } catch (err) {
+        console.error("deleteUserAccount auth.deleteUser:", err);
+        throw new HttpsError(
+            "internal",
+            "Veriler silindi ancak Auth hesabı kaldırılamadı. Destek: info@memolandum.com"
+        );
+    }
+
+    return { success: true, deletedUid: uid };
+});
 
 // Evrensel Döngü Engelleyici (Guard Clause) Şablonu
 exports.processUserProgress = onDocumentWritten("users/{userId}/progress/{progressId}", async (event) => {
