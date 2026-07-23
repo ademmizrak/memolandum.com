@@ -127,7 +127,10 @@ async function generateWithFallback(promptParts) {
   for (const modelName of CANDIDATE_MODELS) {
     try {
       const model = getTranslateModel(modelName);
-      return await model.generateContent(promptParts);
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("Gemini AI yanıt süresi aşıldı (10 sn). Lütfen tekrar deneyin.")), 10000)
+      );
+      return await Promise.race([model.generateContent(promptParts), timeoutPromise]);
     } catch (err) {
       lastErr = err;
       const msg = String(err?.message || "").toLowerCase();
