@@ -83,6 +83,29 @@ async function fetchGeminiDirect(promptParts, modelName = CANDIDATE_MODELS[0]) {
           temperature: 0.15,
           maxOutputTokens: 2048,
           responseMimeType: "application/json",
+          responseSchema: {
+            type: "OBJECT",
+            properties: {
+              translation: { type: "STRING" },
+              sourceLang: { type: "STRING" },
+              tone: { type: "STRING" },
+              contextNotes: { type: "STRING" },
+              transcript: { type: "STRING" },
+              nuances: {
+                type: "ARRAY",
+                items: {
+                  type: "OBJECT",
+                  properties: {
+                    phrase: { type: "STRING" },
+                    meaning: { type: "STRING" },
+                    note: { type: "STRING" }
+                  },
+                  required: ["phrase", "meaning"]
+                }
+              }
+            },
+            required: ["translation"]
+          }
         },
       }),
     });
@@ -173,14 +196,16 @@ User text: """${trimmed}"""`,
   const rawJsonStr = await generateWithFallback(promptParts);
   const parsed = parseModelJson(rawJsonStr);
 
-  if (!parsed?.translation) {
+  const translationVal = parsed?.translation || parsed?.translatedText || parsed?.translated_text || parsed?.translation_text || parsed?.translated;
+
+  if (!translationVal) {
     throw new Error("Çeviri yanıtı çözümlenemedi. Tekrar deneyin.");
   }
 
   commitAbuse(ticket);
 
   return {
-    translation: String(parsed.translation).trim(),
+    translation: String(translationVal).trim(),
     sourceLang: parsed.sourceLang ? String(parsed.sourceLang).trim() : undefined,
     tone: parsed.tone ? String(parsed.tone).trim() : undefined,
     contextNotes: parsed.contextNotes ? String(parsed.contextNotes).trim() : undefined,
@@ -218,14 +243,16 @@ Return JSON with keys: transcript, translation, sourceLang, tone, contextNotes, 
   const rawJsonStr = await generateWithFallback(promptParts);
   const parsed = parseModelJson(rawJsonStr);
 
-  if (!parsed?.translation && !parsed?.transcript) {
+  const translationVal = parsed?.translation || parsed?.translatedText || parsed?.translated_text || parsed?.translation_text || parsed?.translated;
+
+  if (!translationVal && !parsed?.transcript) {
     throw new Error("Ses anlaşılamadı. Tekrar deneyin.");
   }
 
   commitAbuse(ticket);
 
   return {
-    translation: String(parsed.translation || "").trim(),
+    translation: String(translationVal || "").trim(),
     transcript: String(parsed.transcript || "").trim(),
     sourceLang: parsed.sourceLang ? String(parsed.sourceLang).trim() : undefined,
     tone: parsed.tone ? String(parsed.tone).trim() : undefined,
