@@ -6,9 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:consistency": "node scripts/simulate-backend-consistency.mjs",
+    "yds:build": "node scripts/yds/build-yds-top500.mjs",
+    "yds:tts": "node scripts/yds/generate-yds-tts.mjs",
+    "yds:tts:dry": "node scripts/yds/generate-yds-tts.mjs --dry-run",
+    "data:repair": "node scripts/repair-and-sync-data.mjs",
+    "data:repair:dry": "node scripts/repair-and-sync-data.mjs --dry-run"
   },
   "dependencies": {
+    "@google-cloud/translate": "^9.4.2",
     "firebase": "^12.15.0",
     "lucide-react": "^1.21.0",
     "next": "16.2.9",
