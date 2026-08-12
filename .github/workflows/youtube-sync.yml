@@ -1,0 +1,47 @@
+name: YouTube Sync
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Runs every 6 hours
+  workflow_dispatch:      # Allows manual trigger in GitHub Actions UI
+
+permissions:
+  contents: write         # Allows committing and pushing back to repository
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run YouTube sync script
+        run: node scripts/sync-youtube.mjs
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: Write GCP Service Account key
+        run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MEMOLANDUM_33DC4 }}' > ${{ runner.temp }}/sa.json
+
+      - name: Deploy updated content to GCS
+        run: node scripts/deploy-content.mjs --only=data
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/sa.json
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/youtube_videos.json
+          git commit -m "chore(youtube): auto-sync playlist videos [skip ci]" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
