@@ -9,10 +9,12 @@ import { resolveDataUrl } from "@/lib/contentCdn";
 
 const CATEGORIES = [
   { id: "all", name: "Tüm Videolar", icon: Video },
+  { id: "1sınıf", name: "1. Sınıf", icon: GraduationCap },
   { id: "2sınıf", name: "2. Sınıf", icon: GraduationCap },
   { id: "3sınıf", name: "3. Sınıf", icon: GraduationCap },
   { id: "4sınıf", name: "4. Sınıf", icon: GraduationCap },
-  { id: "yds", name: "YDS Kelimeleri", icon: Trophy }
+  { id: "yds", name: "YDS Kelimeleri", icon: Trophy },
+  { id: "a2", name: "A2 English", icon: Trophy }
 ];
 
 export default function VideosClient() {
@@ -226,7 +228,7 @@ export default function VideosClient() {
 
       {/* Video Lightbox Modal */}
       {activeVideo && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/90 backdrop-blur-md animate-in fade-in duration-200">
+        <div className="fixed inset-0 z-[80] flex items-center justify-center p-4 bg-slate-950/90 backdrop-blur-md animate-in fade-in duration-200">
           <div className="absolute inset-0 cursor-pointer" onClick={() => setActiveVideo(null)} />
           
           <div className="relative z-10 w-full max-w-md bg-slate-900 rounded-3xl border border-slate-800 shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">

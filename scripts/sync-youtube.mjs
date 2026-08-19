@@ -25,14 +25,14 @@ if (!API_KEY) {
 
 const PLAYLISTS = [
   {
-    id: 'PLIPQg5gPlmjw',
-    category: 'yds',
-    name: 'YDS İngilizce Kelimeler'
+    id: 'PLCUnEnlWOZks',
+    category: '1sınıf',
+    name: '1. Sınıf İngilizce Kelimeler'
   },
   {
-    id: 'PLQcz8qT1zIlo',
-    category: '4sınıf',
-    name: '4. Sınıf İngilizce Kelimeler'
+    id: 'PLVJiYMmTRL6Q',
+    category: '2sınıf',
+    name: '2. Sınıf İngilizce Kelimeler'
   },
   {
     id: 'PLfBLrT1zXg5Q',
@@ -40,9 +40,19 @@ const PLAYLISTS = [
     name: '3. Sınıf İngilizce Kelimeler'
   },
   {
-    id: 'PLVJiYMmTRL6Q',
-    category: '2sınıf',
-    name: '2. Sınıf İngilizce Kelimeler'
+    id: 'PLQcz8qT1zIlo',
+    category: '4sınıf',
+    name: '4. Sınıf İngilizce Kelimeler'
+  },
+  {
+    id: 'PLIPQg5gPlmjw',
+    category: 'yds',
+    name: 'YDS İngilizce Kelimeler'
+  },
+  {
+    id: 'PLJeCMc56Po-U',
+    category: 'a2',
+    name: 'Learn English A2: Daily Routines'
   }
 ];
 
