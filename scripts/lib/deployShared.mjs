@@ -84,12 +84,12 @@ export async function initStorage() {
         console.warn(`⚠️ GOOGLE_APPLICATION_CREDENTIALS invalid JSON: ${e.message}`);
       }
       try {
-        const storage = new Storage({ projectId: PROJECT_ID });
+        const storage = new Storage({ projectId: PROJECT_ID, keyFilename: credPath });
         await storage.bucket(BUCKET_NAME).getMetadata();
-        console.log("✅ GCS auth: ADC (GOOGLE_APPLICATION_CREDENTIALS)");
+        console.log("✅ GCS auth: service account file (GOOGLE_APPLICATION_CREDENTIALS)");
         return storage;
       } catch (e) {
-        console.warn("⚠️ ADC failed:", e.message);
+        console.warn("⚠️ service account file auth failed:", e.message);
       }
     }
   }
