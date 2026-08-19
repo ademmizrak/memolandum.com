@@ -1,0 +1,46 @@
+# App Shell → Firebase Hosting (slim artifact, no content blobs)
+name: deploy-app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "public/**"
+      - "!public/data/**"
+      - "!public/assets/words/**"
+      - "!public/assets/sentences/**"
+      - "!public/assets/audio/**"
+      - "next.config.mjs"
+      - "package.json"
+      - "package-lock.json"
+      - "firebase.json"
+      - "scripts/deploy-app.mjs"
+      - "scripts/lib/deployShared.mjs"
+      - "scripts/generate-version.js"
+      - ".github/workflows/deploy-app.yml"
+  workflow_dispatch:
+
+jobs:
+  deploy_app:
+    runs-on: ubuntu-latest
+    env:
+      MEMOLANDUM_SLIM_APP: "1"
+      NEXT_PUBLIC_DATA_BASE_URL: https://storage.googleapis.com/memolandum-33dc4.firebasestorage.app/data
+      NEXT_PUBLIC_ASSETS_BASE_URL: https://storage.googleapis.com/memolandum-33dc4.firebasestorage.app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Slim Next.js build (no data/audio/words in out)
+        run: npm run deploy:app:build
+      - name: Deploy Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MEMOLANDUM_33DC4 }}
+          channelId: live
+          projectId: memolandum-33dc4

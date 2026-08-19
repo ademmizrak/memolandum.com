@@ -9,9 +9,7 @@ on:
       - "public/assets/words/**"
       - "public/assets/sentences/**"
       - "public/assets/audio/**"
-      - "scripts/deploy-content.mjs"
-      - "scripts/lib/deployShared.mjs"
-      - ".github/workflows/deploy-content.yml"
+      - "!public/data/youtube_videos.json"
   workflow_dispatch:
 
 jobs:
