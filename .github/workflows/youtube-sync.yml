@@ -48,4 +48,5 @@ jobs:
           credentials_json: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MEMOLANDUM_33DC4 }}
 
       - name: Deploy updated content to GCS
+        continue-on-error: true
         run: node scripts/deploy-content.mjs --only=youtube_videos.json
