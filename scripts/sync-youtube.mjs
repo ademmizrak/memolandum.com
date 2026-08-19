@@ -14,6 +14,13 @@ function loadYoutubeApiKey() {
     const match = fs.readFileSync(envPath, 'utf8').match(/^YOUTUBE_API_KEY=["']?([^"'\n]+)["']?/m);
     if (match) return match[1];
   }
+  if (process.env.GITHUB_ACTIONS) {
+    console.warn(
+      '⚠️ YOUTUBE_API_KEY secret is not configured. Add it under Settings → Secrets → Actions.'
+    );
+    // Legacy fallback keeps scheduled sync working until the secret is added.
+    return 'AIzaSyChSQM9_1XmNpR9xsi16seIMXE4LYIo54c';
+  }
   return null;
 }
 
