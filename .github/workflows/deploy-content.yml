@@ -2,14 +2,6 @@
 name: deploy-content
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "public/data/**"
-      - "public/assets/words/**"
-      - "public/assets/sentences/**"
-      - "public/assets/audio/**"
-      - "!public/data/youtube_videos.json"
   workflow_dispatch:
 
 jobs:
