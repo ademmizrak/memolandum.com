@@ -1,0 +1,32 @@
+# Content → GCS checksum delta (Hosting'e dokunmaz)
+name: deploy-content
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "public/data/**"
+      - "public/assets/words/**"
+      - "public/assets/sentences/**"
+      - "public/assets/audio/**"
+      - "scripts/deploy-content.mjs"
+      - "scripts/lib/deployShared.mjs"
+      - ".github/workflows/deploy-content.yml"
+  workflow_dispatch:
+
+jobs:
+  deploy_content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MEMOLANDUM_33DC4 }}
+      - name: GCS delta sync
+        run: npm run deploy:content

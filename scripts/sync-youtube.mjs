@@ -6,7 +6,22 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, '..');
 
-const API_KEY = process.env.YOUTUBE_API_KEY || 'AIzaSyChSQM9_1XmNpR9xsi16seIMXE4LYIo54c';
+function loadYoutubeApiKey() {
+  if (process.env.YOUTUBE_API_KEY) return process.env.YOUTUBE_API_KEY;
+  for (const envFile of ['.env.local', '.env']) {
+    const envPath = path.join(ROOT, envFile);
+    if (!fs.existsSync(envPath)) continue;
+    const match = fs.readFileSync(envPath, 'utf8').match(/^YOUTUBE_API_KEY=["']?([^"'\n]+)["']?/m);
+    if (match) return match[1];
+  }
+  return null;
+}
+
+const API_KEY = loadYoutubeApiKey();
+if (!API_KEY) {
+  console.error('YOUTUBE_API_KEY env var is required');
+  process.exit(1);
+}
 
 const PLAYLISTS = [
   {

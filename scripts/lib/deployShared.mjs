@@ -74,13 +74,23 @@ export function contentTypeFor(filePath) {
 export async function initStorage() {
   // CI / ADC
   if (process.env.GOOGLE_APPLICATION_CREDENTIALS) {
-    try {
-      const storage = new Storage({ projectId: PROJECT_ID });
-      await storage.bucket(BUCKET_NAME).getMetadata();
-      console.log("✅ GCS auth: ADC (GOOGLE_APPLICATION_CREDENTIALS)");
-      return storage;
-    } catch (e) {
-      console.warn("⚠️ ADC failed:", e.message);
+    const credPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+    if (!fs.existsSync(credPath)) {
+      console.warn(`⚠️ GOOGLE_APPLICATION_CREDENTIALS file missing: ${credPath}`);
+    } else {
+      try {
+        JSON.parse(fs.readFileSync(credPath, "utf8"));
+      } catch (e) {
+        console.warn(`⚠️ GOOGLE_APPLICATION_CREDENTIALS invalid JSON: ${e.message}`);
+      }
+      try {
+        const storage = new Storage({ projectId: PROJECT_ID });
+        await storage.bucket(BUCKET_NAME).getMetadata();
+        console.log("✅ GCS auth: ADC (GOOGLE_APPLICATION_CREDENTIALS)");
+        return storage;
+      } catch (e) {
+        console.warn("⚠️ ADC failed:", e.message);
+      }
     }
   }
 

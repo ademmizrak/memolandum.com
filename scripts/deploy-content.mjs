@@ -98,6 +98,9 @@ function matchesOnly(dest, local) {
   if (needle === "data") {
     return hay.startsWith("data/") || hay.includes("/public/data/");
   }
+  if (needle === "youtube_videos.json") {
+    return dest === "data/youtube_videos.json";
+  }
 
   return hay.includes(needle);
 }
@@ -116,6 +119,8 @@ function collectLocalObjects() {
     } else if (needle === "audio" || needle === "assets/audio") {
       if (treeKind !== "audio") return;
     } else if (needle === "data") {
+      if (treeKind !== "data") return;
+    } else if (needle === "youtube_videos.json") {
       if (treeKind !== "data") return;
     }
 
