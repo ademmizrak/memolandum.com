@@ -1,5 +1,5 @@
 export const LOCALES = ["tr", "en"];
-export const DEFAULT_LOCALE = "tr";
+export const DEFAULT_LOCALE = "en";
 export const LOCALE_STORAGE_KEY = "memolandum-ui-locale";
 
 export const LOCALE_LABELS = {
@@ -9,16 +9,32 @@ export const LOCALE_LABELS = {
 
 /** Tarayıcı dili → desteklenen UI dili */
 export function detectBrowserLocale() {
-  if (typeof navigator === "undefined") return DEFAULT_LOCALE;
+  if (typeof navigator === "undefined") return "en";
   const list = navigator.languages?.length
     ? navigator.languages
-    : [navigator.language || DEFAULT_LOCALE];
-  for (const raw of list) {
-    const code = String(raw || "").toLowerCase().slice(0, 2);
-    if (code === "tr") return "tr";
-    if (code === "en") return "en";
+    : [navigator.language || ""];
+
+  const trIndex = list.findIndex(raw => String(raw || "").toLowerCase().slice(0, 2) === "tr");
+  const enIndex = list.findIndex(raw => String(raw || "").toLowerCase().slice(0, 2) === "en");
+
+  if (trIndex !== -1 && (enIndex === -1 || trIndex < enIndex)) {
+    return "tr";
   }
-  return DEFAULT_LOCALE;
+  if (enIndex !== -1) {
+    return "en";
+  }
+
+  // Türkiye saat dilimi kontrolü
+  try {
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    if (tz && (tz === "Europe/Istanbul" || tz.startsWith("Asia/Istanbul") || tz === "Asia/Ankara")) {
+      return "tr";
+    }
+  } catch {
+    /* ignore */
+  }
+
+  return "en";
 }
 
 export function readStoredLocale() {

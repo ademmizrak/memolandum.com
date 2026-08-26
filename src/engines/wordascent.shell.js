@@ -928,7 +928,8 @@ export class WordAscentGame {
     }
 
     if (levelValEl) {
-      levelValEl.textContent = this.chunkIndex + 1;
+      const lvlNum = this.levelNumber || 1;
+      levelValEl.textContent = String(lvlNum).padStart(2, '0');
     }
 
     if (masteredValEl) {

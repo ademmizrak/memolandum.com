@@ -1,24 +1,112 @@
 [
-  { "word": "an", "translation": "bir" },
-  { "word": "as", "translation": "olarak" },
-  { "word": "at", "translation": "-de, -da" },
-  { "word": "be", "translation": "olmak" },
-  { "word": "by", "translation": "tarafından" },
-  { "word": "do", "translation": "yapmak" },
-  { "word": "go", "translation": "gitmek" },
-  { "word": "he", "translation": "o (erkek)" },
-  { "word": "if", "translation": "eğer" },
-  { "word": "in", "translation": "içinde" },
-  { "word": "is", "translation": "dir/dır" },
-  { "word": "it", "translation": "o (cansız/hayvan)" },
-  { "word": "me", "translation": "beni/bana" },
-  { "word": "my", "translation": "benim" },
-  { "word": "no", "translation": "hayır" },
-  { "word": "of", "translation": "nin/nın" },
-  { "word": "on", "translation": "üzerinde" },
-  { "word": "or", "translation": "veya" },
-  { "word": "so", "translation": "böylece" },
-  { "word": "to", "translation": "e doğru" },
-  { "word": "up", "translation": "yukarı" },
-  { "word": "we", "translation": "biz" }
+  {
+    "word": "an",
+    "translation": "bir",
+    "audioUrl": ""
+  },
+  {
+    "word": "as",
+    "translation": "olarak",
+    "audioUrl": ""
+  },
+  {
+    "word": "at",
+    "translation": "-de, -da",
+    "audioUrl": ""
+  },
+  {
+    "word": "be",
+    "translation": "olmak",
+    "audioUrl": ""
+  },
+  {
+    "word": "by",
+    "translation": "tarafından",
+    "audioUrl": ""
+  },
+  {
+    "word": "do",
+    "translation": "yapmak",
+    "audioUrl": ""
+  },
+  {
+    "word": "go",
+    "translation": "gitmek",
+    "audioUrl": ""
+  },
+  {
+    "word": "he",
+    "translation": "o (erkek)",
+    "audioUrl": ""
+  },
+  {
+    "word": "if",
+    "translation": "eğer",
+    "audioUrl": ""
+  },
+  {
+    "word": "in",
+    "translation": "içinde",
+    "audioUrl": ""
+  },
+  {
+    "word": "is",
+    "translation": "dir/dır",
+    "audioUrl": ""
+  },
+  {
+    "word": "it",
+    "translation": "o (cansız/hayvan)",
+    "audioUrl": ""
+  },
+  {
+    "word": "me",
+    "translation": "beni/bana",
+    "audioUrl": ""
+  },
+  {
+    "word": "my",
+    "translation": "benim",
+    "audioUrl": ""
+  },
+  {
+    "word": "no",
+    "translation": "hayır",
+    "audioUrl": ""
+  },
+  {
+    "word": "of",
+    "translation": "nin/nın",
+    "audioUrl": ""
+  },
+  {
+    "word": "on",
+    "translation": "üzerinde",
+    "audioUrl": ""
+  },
+  {
+    "word": "or",
+    "translation": "veya",
+    "audioUrl": ""
+  },
+  {
+    "word": "so",
+    "translation": "böylece",
+    "audioUrl": ""
+  },
+  {
+    "word": "to",
+    "translation": "e doğru",
+    "audioUrl": ""
+  },
+  {
+    "word": "up",
+    "translation": "yukarı",
+    "audioUrl": ""
+  },
+  {
+    "word": "we",
+    "translation": "biz",
+    "audioUrl": ""
+  }
 ]

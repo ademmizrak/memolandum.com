@@ -1,16 +1,17 @@
-import React, { useEffect, useRef, useState, useCallback } from 'react';
+import React, { useEffect, useRef, useState, useCallback, useMemo } from 'react';
 import { ShooterGame } from './RetroShooterEngine';
 import { useLessonLoader } from '../../../hooks/useLessonLoader';
 import { useMemolandumStore } from '../../../store/useMemolandumStore';
-import { saveWordToCloud } from '../../../lib/firebase/authService';
-import { auth } from '../../../lib/firebase/config';
 import { createSessionProgressTracker } from '../../../lib/progress/applySessionProgress';
 import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
 import { GameHeader } from '../shared/GameHeader';
+import { getLevelProgress } from '../../../lib/learning/studyContext';
 
 export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isAudioEnabled, setIsAudioEnabled, isFxEnabled, setIsFxEnabled }) {
   const canvasRef = useRef(null);
   const engineRef = useRef(null);
+
+  const levelProgress = useMemo(() => getLevelProgress(levelId, langId), [levelId, langId]);
   
   // Game State for UI
   const [activeScreen, setActiveScreen] = useState('playing'); // 'playing', 'pause', 'gameOver', 'victory', 'celebration'
@@ -51,7 +52,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
   }, [isFxEnabled, isAudioEnabled]);
 
   // Hooks
-  const { words, isLoading } = useLessonLoader(levelId, langId);
+  const { words, isLoading, reload } = useLessonLoader(levelId, langId);
 
   // Callbacks for Engine -> React
   const onScoreChange = useCallback((val) => {
@@ -94,15 +95,10 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
   // When engine fires wordsLearnedThisRun, add them to the Vocabulary Vault
   const onVictory = useCallback((learnedArr) => {
     if (!learnedArr || learnedArr.length === 0) return;
-    const { addLearnedWords } = useMemolandumStore.getState();
-    addLearnedWords(learnedArr, langId);
-    const uid = auth.currentUser?.uid;
-    if (uid) {
-      learnedArr.forEach(w => {
-        const id = w.id || w.word_id;
-        if (id) saveWordToCloud(uid, id, { id, english: w.english || w.word || '', turkish: w.turkish || w.translation || '', audioUrl: w.audioUrl || '', language: langId, strength: 1, lastSeen: Date.now() });
-      });
-    }
+    const { recordWordQuizResult } = useMemolandumStore.getState();
+    learnedArr.forEach((w) => {
+      recordWordQuizResult(w, true, 8, { language: langId });
+    });
   }, [langId]);
 
   // Engine Initialization
@@ -200,7 +196,8 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
 
   const handleRestart = () => {
     setActiveScreen('playing');
-    if (engineRef.current) engineRef.current.startGame();
+    if (typeof reload === 'function') reload();
+    else if (engineRef.current) engineRef.current.startGame();
   };
 
   if (isLoading) {
@@ -224,7 +221,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
           <GameHeader>
             <GameHeader.Left>
               <GameHeader.Shields max={3} current={parseInt(uiState.shields, 10) || 0} />
-              <GameHeader.Stage value={uiState.level || 1} max={10} />
+              <GameHeader.Stage value={levelProgress.current} max={levelProgress.total} />
             </GameHeader.Left>
 
             <GameHeader.Right>

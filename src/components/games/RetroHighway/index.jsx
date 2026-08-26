@@ -4,8 +4,6 @@ import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverla
 import { GameHeader } from '../shared/GameHeader';
 import { HighwayGame } from './engineCore';
 import { useMemolandumStore } from '../../../store/useMemolandumStore';
-import { saveWordToCloud } from '../../../lib/firebase/authService';
-import { auth } from '../../../lib/firebase/config';
 import { createSessionProgressTracker } from '../../../lib/progress/applySessionProgress';
 
 // Highway Survivor (Shell #4) - Canvas Integration
@@ -20,7 +18,7 @@ export default function RetroHighway({
   setIsFxEnabled 
 }) {
   // Hooks
-  const { words, isLoading } = useLessonLoader(levelId, langId);
+  const { words, isLoading, reload } = useLessonLoader(levelId, langId);
 
   // UI State
   const [activeScreen, setActiveScreen] = useState('playing'); // playing, pause, gameover, victory
@@ -80,15 +78,10 @@ export default function RetroHighway({
 
         // On victory, save learned words to Vocabulary Vault
         if (stateData.state === 'victory' && stateData.learnedWords?.length > 0) {
-          const { addLearnedWords } = useMemolandumStore.getState();
-          addLearnedWords(stateData.learnedWords, langId);
-          const uid = auth.currentUser?.uid;
-          if (uid) {
-            stateData.learnedWords.forEach(w => {
-              const id = w.id || w.word_id;
-              if (id) saveWordToCloud(uid, id, { id, english: w.english || w.word || '', turkish: w.turkish || w.translation || '', audioUrl: w.audioUrl || '', language: langId, strength: 1, lastSeen: Date.now() });
-            });
-          }
+          const { recordWordQuizResult } = useMemolandumStore.getState();
+          stateData.learnedWords.forEach((w) => {
+            recordWordQuizResult(w, true, 8, { language: langId });
+          });
         }
       }
     });
@@ -173,9 +166,9 @@ export default function RetroHighway({
     setLearnedCount(0);
     setLearnedWords([]);
     setActiveScreen('playing');
-    if (gameEngineRef.current) {
-      gameEngineRef.current.startGame();
-    }
+    // Yeni rastgele 12'lik oturum seti — words değişince motor yeniden kurulur
+    if (typeof reload === 'function') reload();
+    else if (gameEngineRef.current) gameEngineRef.current.startGame();
   };
 
   const handleNextLevel = () => {

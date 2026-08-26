@@ -6,15 +6,26 @@ import {
   signInWithEmailAndPassword, 
   signOut,
   sendEmailVerification,
+  sendPasswordResetEmail,
+  confirmPasswordReset,
+  verifyPasswordResetCode,
+  updatePassword,
   updateProfile,
   reauthenticateWithPopup,
   reauthenticateWithCredential,
   EmailAuthProvider,
+  signInWithCredential,
+  GoogleAuthProvider,
+  OAuthProvider,
 } from "firebase/auth";
-import { doc, getDoc, setDoc, deleteDoc, collection, writeBatch } from "firebase/firestore";
+import { doc, getDoc, setDoc, deleteDoc, writeBatch, serverTimestamp } from "firebase/firestore";
 import { httpsCallable } from "firebase/functions";
 import { auth, db, googleProvider, cloudFuncs } from "./config";
-import { useMemolandumStore } from "../../store/useMemolandumStore";
+import {
+  useMemolandumStore,
+  clearMemolandumPersistedStorage,
+} from "../../store/useMemolandumStore";
+import { resetRevenueCatSession } from "../premium/revenueCat";
 import GlobalStateSync from "./GlobalStateSync";
 
 const REDIRECT_FLAG = "mm_auth_redirect";
@@ -38,10 +49,43 @@ export function shouldUseGoogleRedirect() {
   return false;
 }
 
+let googleAuthInitialized = false;
+
+const initGoogleAuth = async () => {
+  if (googleAuthInitialized) return;
+  try {
+    const { GoogleAuth } = await import("@codetrix-studio/capacitor-google-auth");
+    // Web OAuth client (type 3) — Android/iOS native Google Sign-In serverClientId
+    const webClientId =
+      process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID ||
+      "539033091302-qu7mf8412emdeaihhemt1qku4fvuai3n.apps.googleusercontent.com";
+    await GoogleAuth.initialize({
+      clientId: webClientId,
+      scopes: ["profile", "email"],
+      grantOfflineAccess: true,
+    });
+    googleAuthInitialized = true;
+  } catch (e) {
+    console.warn("Google Auth Native Initialization failed:", e?.message || e);
+  }
+};
+
 export const signInWithGoogle = async () => {
   try {
-    if (!auth || !googleProvider) {
+    if (!auth) {
       throw new Error("Firebase Auth yapılandırılmadı.");
+    }
+
+    const { Capacitor } = await import("@capacitor/core");
+
+    if (Capacitor.isNativePlatform()) {
+      await initGoogleAuth();
+      const { GoogleAuth } = await import("@codetrix-studio/capacitor-google-auth");
+      const user = await GoogleAuth.signIn();
+      const credential = GoogleAuthProvider.credential(user.authentication.idToken);
+      const result = await signInWithCredential(auth, credential);
+      await syncUserProgress(result.user);
+      return result.user;
     }
 
     if (shouldUseGoogleRedirect()) {
@@ -62,21 +106,37 @@ export const signInWithGoogle = async () => {
     await syncUserProgress(result.user);
     return result.user;
   } catch (error) {
-    // Popup engellendiyse mobilde redirect'e düş
-    if (
-      error?.code === "auth/popup-blocked" ||
-      error?.code === "auth/popup-closed-by-user" ||
-      error?.code === "auth/cancelled-popup-request"
-    ) {
-      try {
-        sessionStorage.setItem(REDIRECT_FLAG, "google");
-      } catch {
-        /* ignore */
-      }
-      await signInWithRedirect(auth, googleProvider);
-      return null;
-    }
     console.error("Google Sign-In Error:", error);
+    throw error;
+  }
+};
+
+export const signInWithApple = async () => {
+  try {
+    if (!auth) throw new Error("Firebase Auth yapılandırılmadı.");
+
+    const { Capacitor } = await import("@capacitor/core");
+    if (!Capacitor.isNativePlatform()) {
+      throw new Error("Apple ile Giriş yalnızca mobil uygulamada desteklenir.");
+    }
+
+    const { SignInWithApple } = await import("@capacitor-community/apple-sign-in");
+    const result = await SignInWithApple.authorize({
+      clientId: "com.memolandum.app",
+      redirectURI: "https://memolandum-33dc4.firebaseapp.com/__/auth/handler",
+      scopes: "email name",
+    });
+
+    const provider = new OAuthProvider("apple.com");
+    const credential = provider.credential({
+      idToken: result.response.identityToken,
+    });
+
+    const authResult = await signInWithCredential(auth, credential);
+    await syncUserProgress(authResult.user);
+    return authResult.user;
+  } catch (error) {
+    console.error("Apple Sign-In Error:", error);
     throw error;
   }
 };
@@ -136,16 +196,40 @@ export const isGoogleRedirectPending = () => {
   }
 };
 
+/**
+ * Firebase e-posta linkleri önce authDomain üzerindeki /__/auth/action handler’ına gider;
+ * işlem bitince bu continue URL’ye yönlendirilir. Domain Authorized Domains listesinde olmalı.
+ */
+export const getEmailActionCodeSettings = (flow = "verifyEmail") => {
+  const origin =
+    typeof window !== "undefined" && window.location?.origin
+      ? window.location.origin
+      : "https://memolandum.com";
+  const safeFlow = String(flow || "verifyEmail").replace(/[^a-zA-Z]/g, "") || "verifyEmail";
+  return {
+    url: `${origin}/auth/action?flow=${safeFlow}`,
+    handleCodeInApp: false,
+  };
+};
+
+export const sendVerificationEmail = async (user = auth?.currentUser) => {
+  if (!user) throw new Error("Oturum bulunamadı.");
+  await sendEmailVerification(user, getEmailActionCodeSettings("verifyEmail"));
+  try {
+    await logAccountSecurityEvent(user.uid, "verification_email_sent");
+  } catch {
+    /* ignore */
+  }
+  return true;
+};
+
 export const registerWithEmail = async (email, password) => {
   try {
     const result = await createUserWithEmailAndPassword(auth, email, password);
     
     // E-posta doğrulama linkini güvenli şekilde gönder (ağ aksamalarında kayıt iptal olmasın)
     try {
-      const actionCodeSettings = {
-        url: typeof window !== 'undefined' ? `${window.location.origin}/auth/action` : 'https://memolandum.com/auth/action',
-      };
-      await sendEmailVerification(result.user, actionCodeSettings);
+      await sendVerificationEmail(result.user);
     } catch (verifyErr) {
       console.warn("Verification email dispatch warning:", verifyErr);
     }
@@ -186,21 +270,33 @@ export const setUsername = async (user, username) => {
   }
   
   try {
-    // 1. usernames koleksiyonuna ayır (Benzersizliği sağlamak için)
-    await setDoc(doc(db, 'usernames', lowerUsername), { uid: user.uid });
-    
-    // 2. Firebase Auth Profile güncelle
-    await updateProfile(user, { displayName: username });
-    
-    // 3. users koleksiyonuna username yaz (Eğer users/{uid} dökümanı varsa)
-    await setDoc(doc(db, 'users', user.uid), { 
-      displayName: username,
-      username: lowerUsername 
-    }, { merge: true });
+    const batch = writeBatch(db);
+    batch.set(doc(db, "usernames", lowerUsername), {
+      uid: user.uid,
+      createdAt: serverTimestamp(),
+    });
+    batch.set(
+      doc(db, "users", user.uid),
+      {
+        displayName: username,
+        username: lowerUsername,
+        email: user.email || null,
+        updatedAt: serverTimestamp(),
+      },
+      { merge: true }
+    );
+    batch.set(
+      doc(db, "users", user.uid, "stats", "global"),
+      { displayName: username },
+      { merge: true }
+    );
+    await batch.commit();
 
-    // Store update (trigger re-render)
+    await updateProfile(user, { displayName: username });
+
     const store = useMemolandumStore.getState();
     store.setAuthUser({ ...user, displayName: username });
+    await logAccountSecurityEvent(user.uid, "username_set", { username: lowerUsername });
 
     return true;
   } catch (error) {
@@ -224,31 +320,37 @@ export const changeUsername = async (user, oldUsername, newUsername) => {
   }
   
   try {
-    // 1. Yeni username dökümanını oluştur
-    await setDoc(doc(db, 'usernames', lowerNewUsername), { uid: user.uid });
-    
-    // 2. Eski username dökümanını sil
+    const batch = writeBatch(db);
+    batch.set(doc(db, "usernames", lowerNewUsername), {
+      uid: user.uid,
+      updatedAt: serverTimestamp(),
+    });
     if (oldUsername) {
-      await deleteDoc(doc(db, 'usernames', oldUsername.toLowerCase()));
+      batch.delete(doc(db, "usernames", oldUsername.toLowerCase()));
     }
-    
-    // 3. Auth Profile güncelle
+    batch.set(
+      doc(db, "users", user.uid),
+      {
+        displayName: newUsername,
+        username: lowerNewUsername,
+        updatedAt: serverTimestamp(),
+      },
+      { merge: true }
+    );
+    batch.set(
+      doc(db, "users", user.uid, "stats", "global"),
+      { displayName: newUsername },
+      { merge: true }
+    );
+    await batch.commit();
+
     await updateProfile(user, { displayName: newUsername });
-    
-    // 4. users koleksiyonunu güncelle
-    await setDoc(doc(db, 'users', user.uid), { 
-      displayName: newUsername,
-      username: lowerNewUsername 
-    }, { merge: true });
 
-    // 5. Liderlik tablosunda görünen stats/global adını da güncelle
-    await setDoc(doc(db, 'users', user.uid, 'stats', 'global'), {
-      displayName: newUsername
-    }, { merge: true });
-
-    // State'i güncelle
     const store = useMemolandumStore.getState();
     store.setAuthUser({ ...user, displayName: newUsername });
+    await logAccountSecurityEvent(user.uid, "username_changed", {
+      username: lowerNewUsername,
+    });
 
     return true;
   } catch (error) {
@@ -262,6 +364,7 @@ export const loginWithEmail = async (email, password) => {
     const result = await signInWithEmailAndPassword(auth, email, password);
     try {
       await syncUserProgress(result.user);
+      await logAccountSecurityEvent(result.user.uid, "login_email");
     } catch (syncErr) {
       console.warn("User progress sync warning on login:", syncErr);
     }
@@ -272,22 +375,190 @@ export const loginWithEmail = async (email, password) => {
   }
 };
 
+/**
+ * Giriş yapılmamış kullanıcı — “şifremi unuttum” e-postası.
+ * Güvenlik: e-posta yoksa da genel başarı mesajı dönülür (enumeration azaltma).
+ */
+export const requestPasswordReset = async (email) => {
+  const trimmed = String(email || "").trim().toLowerCase();
+  if (!trimmed || !trimmed.includes("@")) {
+    const err = new Error("invalid-email");
+    err.code = "auth/invalid-email";
+    throw err;
+  }
+  if (!auth) throw new Error("Firebase Auth yapılandırılmadı.");
+
+  try {
+    await sendPasswordResetEmail(
+      auth,
+      trimmed,
+      getEmailActionCodeSettings("passwordReset")
+    );
+  } catch (error) {
+    // Enumeration azaltma: user-not-found / invalid-credential için sessiz başarı
+    const code = error?.code || "";
+    if (
+      code !== "auth/user-not-found" &&
+      code !== "auth/invalid-email" &&
+      code !== "auth/missing-email"
+    ) {
+      console.error("Password reset email error:", error);
+      throw error;
+    }
+    if (code === "auth/invalid-email" || code === "auth/missing-email") {
+      throw error;
+    }
+  }
+
+  // Oturum açıksa ve e-posta eşleşiyorsa Firestore’a işaret bırak
+  try {
+    const uid = auth.currentUser?.uid;
+    if (uid && auth.currentUser?.email?.toLowerCase() === trimmed) {
+      await logAccountSecurityEvent(uid, "password_reset_requested", { email: trimmed });
+    }
+  } catch {
+    /* ignore */
+  }
+
+  return true;
+};
+
+/**
+ * Oturum açıkken mevcut şifre ile yeni şifre (e-posta/şifre hesapları).
+ */
+export const changeAccountPassword = async (currentPassword, newPassword) => {
+  const user = auth?.currentUser;
+  if (!user?.email) throw new Error("Oturum bulunamadı.");
+
+  const providers = (user.providerData || []).map((p) => p.providerId);
+  if (!providers.includes("password")) {
+    const err = new Error("password-provider-missing");
+    err.code = "password-provider-missing";
+    throw err;
+  }
+
+  if (!currentPassword || !newPassword) {
+    const err = new Error("missing-fields");
+    err.code = "missing-fields";
+    throw err;
+  }
+  if (newPassword.length < 6) {
+    const err = new Error("weak-password");
+    err.code = "auth/weak-password";
+    throw err;
+  }
+  if (currentPassword === newPassword) {
+    const err = new Error("same-password");
+    err.code = "same-password";
+    throw err;
+  }
+
+  const cred = EmailAuthProvider.credential(user.email, currentPassword);
+  await reauthenticateWithCredential(user, cred);
+  await updatePassword(user, newPassword);
+  await logAccountSecurityEvent(user.uid, "password_changed");
+  return true;
+};
+
+/**
+ * E-posta linkindeki oobCode ile yeni şifre belirleme.
+ */
+export const completePasswordReset = async (oobCode, newPassword) => {
+  if (!auth) throw new Error("Firebase Auth yapılandırılmadı.");
+  if (!oobCode || !newPassword) throw new Error("Eksik parametre.");
+  if (newPassword.length < 6) {
+    const err = new Error("weak-password");
+    err.code = "auth/weak-password";
+    throw err;
+  }
+
+  const email = await verifyPasswordResetCode(auth, oobCode);
+  await confirmPasswordReset(auth, oobCode, newPassword);
+
+  // Kod doğrulandıktan sonra kullanıcı henüz oturumda olmayabilir;
+  // e-posta bilgisini meta’ya yazamayız. Başarı UI’da yeter.
+  return { email };
+};
+
+/**
+ * Hesap güvenlik olayları — users/{uid}/meta/security
+ */
+export const logAccountSecurityEvent = async (uid, eventType, extra = {}) => {
+  if (!uid || !db || !eventType) return;
+  try {
+    const ref = doc(db, "users", uid, "meta", "security");
+    const entry = {
+      type: String(eventType).slice(0, 64),
+      at: new Date().toISOString(),
+      ...Object.fromEntries(
+        Object.entries(extra)
+          .filter(([, v]) => v != null && typeof v !== "object")
+          .map(([k, v]) => [k, typeof v === "string" ? v.slice(0, 120) : v])
+      ),
+    };
+    const snap = await getDoc(ref);
+    const prev = snap.exists() ? snap.data()?.recentEvents || [] : [];
+    const recentEvents = [entry, ...prev].slice(0, 20);
+
+    await setDoc(
+      ref,
+      {
+        lastEventType: entry.type,
+        lastEventAt: serverTimestamp(),
+        updatedAt: serverTimestamp(),
+        recentEvents,
+        ...(eventType === "password_changed"
+          ? { lastPasswordChangedAt: serverTimestamp() }
+          : {}),
+        ...(eventType === "password_reset_requested"
+          ? { lastPasswordResetRequestedAt: serverTimestamp() }
+          : {}),
+        ...(eventType === "login_email"
+          ? { lastEmailLoginAt: serverTimestamp() }
+          : {}),
+      },
+      { merge: true }
+    );
+
+    await setDoc(
+      doc(db, "users", uid),
+      {
+        securityUpdatedAt: serverTimestamp(),
+        ...(eventType === "password_changed"
+          ? { passwordUpdatedAt: serverTimestamp() }
+          : {}),
+      },
+      { merge: true }
+    );
+  } catch (e) {
+    console.warn("Security event log skipped:", e?.message || e);
+  }
+};
+
+/** E-posta/şifre provider’ı var mı? */
+export const userHasPasswordProvider = (user = auth?.currentUser) => {
+  if (!user) return false;
+  return (user.providerData || []).some((p) => p.providerId === "password");
+};
+
 export const logoutUser = async () => {
   try {
     await signOut(auth);
+  } catch (error) {
+    console.error("Logout Error:", error);
+  } finally {
     const store = useMemolandumStore.getState();
     store.setAuthUser(null);
     if (store.setIsEmailVerified) store.setIsEmailVerified(false);
+    store.clearForAccountSwitch?.();
+    resetRevenueCatSession();
     if (typeof window !== "undefined") {
-      localStorage.removeItem("memolandum-storage");
-      sessionStorage.clear();
-    }
-  } catch (error) {
-    console.error("Logout Error:", error);
-    const store = useMemolandumStore.getState();
-    store.setAuthUser(null);
-    if (typeof window !== "undefined") {
-      localStorage.removeItem("memolandum-storage");
+      try {
+        sessionStorage.clear();
+      } catch {
+        /* ignore */
+      }
+      await clearMemolandumPersistedStorage();
     }
   }
 };
@@ -336,9 +607,7 @@ export const deleteUserAccount = async (opts = {}) => {
 
   try {
     useMemolandumStore.getState().clearForAccountSwitch?.();
-    if (typeof localStorage !== "undefined") {
-      localStorage.removeItem("memolandum-storage");
-    }
+    await clearMemolandumPersistedStorage();
   } catch {
     /* ignore */
   }
@@ -433,15 +702,28 @@ export const syncUserProgress = async (user) => {
       useMemolandumStore.getState().clearGuestProgressPending();
     }
 
-    // Profil bilgisini liderlik dokümanına yaz (sıralama adları için)
+    // Profil bilgisini liderlik + users kök dokümanına yaz
     const displayName = user.displayName || store.profile?.displayName || null;
     const photoURL = user.photoURL || store.profile?.photoURL || null;
+    const providers = (user.providerData || []).map((p) => p.providerId);
     if (displayName || photoURL) {
       await setDoc(globalStatsRef, {
         ...(displayName ? { displayName } : {}),
         ...(photoURL ? { photoURL } : {}),
       }, { merge: true });
     }
+    await setDoc(
+      doc(db, "users", user.uid),
+      {
+        email: user.email || null,
+        emailVerified: !!user.emailVerified,
+        providers,
+        lastSyncedAt: serverTimestamp(),
+        ...(displayName ? { displayName } : {}),
+        ...(photoURL ? { photoURL } : {}),
+      },
+      { merge: true }
+    );
 
     // Sync guest vocabulary vault if any exists
     if (localVault && Object.keys(localVault).length > 0) {
@@ -518,3 +800,14 @@ export const syncVaultToCloud = async (uid, localVault) => {
     console.error("Error syncing local vault to cloud:", e);
   }
 };
+
+export const deleteWordFromCloud = async (uid, wordId) => {
+  if (!uid || !wordId) return;
+  try {
+    const docRef = doc(db, 'users', uid, 'vault', wordId);
+    await deleteDoc(docRef);
+  } catch (e) {
+    console.error("Error deleting word from cloud:", e);
+  }
+};
+

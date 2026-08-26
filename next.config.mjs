@@ -5,6 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  generateBuildId: async () => {
+    return "memolandum-stable-v1";
+  },
 };
 
 export default nextConfig;

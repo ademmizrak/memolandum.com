@@ -18,13 +18,23 @@ const DAY = 24 * HOUR;
 
 /** @type {Record<string, { guest: { max: number, windowMs: number }, user: { max: number, windowMs: number }, contentKind?: string }>} */
 export const ABUSE_POLICIES = {
+  // Ücretsiz kota düşük; günlük tavan bot/hesap çoğaltmayı keser (Premium fair-use ayrı)
   translate_text: {
-    guest: { max: 40, windowMs: DAY },
-    user: { max: 120, windowMs: DAY },
+    guest: { max: 5, windowMs: DAY },
+    user: { max: 15, windowMs: DAY },
     contentKind: "translate",
   },
   translate_audio: {
-    guest: { max: 12, windowMs: DAY },
+    guest: { max: 2, windowMs: DAY },
+    user: { max: 8, windowMs: DAY },
+  },
+  translate_text_premium: {
+    guest: { max: 5, windowMs: DAY },
+    user: { max: 80, windowMs: DAY },
+    contentKind: "translate",
+  },
+  translate_audio_premium: {
+    guest: { max: 2, windowMs: DAY },
     user: { max: 40, windowMs: DAY },
   },
   vault_add: {

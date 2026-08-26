@@ -122,6 +122,9 @@ async function run() {
     const filesToUpload = localFiles.filter(localPath => {
       const relativePath = path.relative(DATA_DIR, localPath).replace(/\\/g, '/');
       const gcsDestination = `data/${relativePath}`;
+      if (relativePath.endsWith('.json') && !relativePath.includes('manifest.json') && !relativePath.includes('audioMap.json')) {
+        return true; // Always upload JSON updates!
+      }
       return !existingFileNames.has(gcsDestination);
     });
 
@@ -152,6 +155,8 @@ async function run() {
           contentType = 'application/json; charset=utf-8';
         } else if (fileExtension === '.mp3') {
           contentType = 'audio/mpeg';
+        } else if (fileExtension === '.wav') {
+          contentType = 'audio/wav';
         }
 
         try {

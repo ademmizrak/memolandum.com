@@ -17,7 +17,7 @@ export default function WordAscent({
   setIsFxEnabled 
 }) {
   // Hooks
-  const { words, isLoading } = useLessonLoader(levelId, langId);
+  const { words, isLoading, reload } = useLessonLoader(levelId, langId);
 
   // UI State
   const [activeScreen, setActiveScreen] = useState('playing'); // playing, paused, gameover, victory
@@ -168,9 +168,8 @@ export default function WordAscent({
     setLearnedCount(0);
     setLearnedWords([]);
     setActiveScreen('playing');
-    if (gameEngineRef.current) {
-      gameEngineRef.current.startGame();
-    }
+    if (typeof reload === 'function') reload();
+    else if (gameEngineRef.current) gameEngineRef.current.startGame();
   };
 
   const handleNextLevel = () => {

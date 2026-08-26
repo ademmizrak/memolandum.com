@@ -21,6 +21,7 @@ import {
   buildLearningResourceJsonLd,
 } from "../lib/seo/jsonLd";
 import GoogleAnalytics from "../components/GoogleAnalytics";
+import VersionChecker from "../components/VersionChecker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,27 +58,17 @@ export const metadata = {
   },
   alternates: {
     canonical: absoluteUrl("/"),
+    // UI yalnızca TR/EN — sahte hreflang (?lang=de vb.) Google’a zarar verir
     languages: {
-      "tr": absoluteUrl("/"),
-      "en": `${SITE_URL}/?lang=en`,
-      "de": `${SITE_URL}/?lang=de`,
-      "fr": `${SITE_URL}/?lang=fr`,
-      "es": `${SITE_URL}/?lang=es`,
-      "it": `${SITE_URL}/?lang=it`,
-      "ru": `${SITE_URL}/?lang=ru`,
-      "pt": `${SITE_URL}/?lang=pt`,
-      "ko": `${SITE_URL}/?lang=ko`,
-      "ja": `${SITE_URL}/?lang=ja`,
-      "zh": `${SITE_URL}/?lang=zh`,
-      "ar": `${SITE_URL}/?lang=ar`,
-      "el": `${SITE_URL}/?lang=el`,
+      tr: absoluteUrl("/"),
+      en: `${SITE_URL}/?lang=en`,
       "x-default": absoluteUrl("/"),
     },
   },
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    alternateLocale: ["en_US", "de_DE", "fr_FR", "es_ES", "it_IT", "ru_RU", "pt_BR", "ko_KR", "ja_JP", "zh_CN", "ar_SA", "el_GR"],
+    alternateLocale: ["en_US"],
     url: absoluteUrl("/"),
     title: DEFAULT_TITLE,
     description: DEFAULT_DESCRIPTION,
@@ -87,7 +78,7 @@ export const metadata = {
         url: OG_IMAGE,
         width: 1200,
         height: 630,
-        alt: "Memolandum — Kelime Ezberleme Oyunu | Vocabulary Game",
+        alt: "Memolandum — 23 Dil Yolu · KPSS Sözlük · Anlık Çeviri",
       },
     ],
   },
@@ -104,17 +95,19 @@ export const metadata = {
     "geo.region": "TR",
     "geo.placename": "Ankara, Türkiye",
     "geo.position": "39.9208;32.8541",
-    "ICBM": "39.9208, 32.8541",
+    ICBM: "39.9208, 32.8541",
+    // Öğrenme içeriği dilleri (UI değil — içerik yolları)
     "content-language": "tr, en, de, fr, es, it, ru, pt, ko, ja, zh, ar, el",
-    "rating": "general",
+    rating: "general",
     "revisit-after": "3 days",
-    "language": "tr, en",
+    language: "tr, en",
     ...(process.env.NEXT_PUBLIC_GSC_VERIFICATION
       ? { "google-site-verification": process.env.NEXT_PUBLIC_GSC_VERIFICATION }
       : {}),
     "DC.title": DEFAULT_TITLE,
     "DC.description": DEFAULT_DESCRIPTION,
-    "DC.subject": "vocabulary learning, spaced repetition, language game, kelime ezberleme",
+    "DC.subject":
+      "vocabulary learning, 23 language pathways, KPSS glossary, instant translation, spaced repetition, kelime ezberleme, anlık çeviri",
     "DC.type": "InteractiveResource",
     "DC.format": "text/html",
     "DC.language": "tr, en",
@@ -162,8 +155,10 @@ export default function RootLayout({ children }) {
             var now = Date.now();
             if (!lastReload || (now - parseInt(lastReload, 10) > 10000)) {
               sessionStorage.setItem('last_chunk_reload', String(now));
-              console.warn('Stale build chunk 404 detected — auto refreshing to new version...');
-              window.location.reload();
+              console.warn('Stale build chunk 404 detected — hard refresh to new version...');
+              var url = window.location.pathname + window.location.search;
+              var sep = url.indexOf('?') >= 0 ? '&' : '?';
+              window.location.replace(url + sep + '_cb=' + now + window.location.hash);
             }
           }
 
@@ -206,6 +201,7 @@ export default function RootLayout({ children }) {
         <LocaleProvider>
           <AuthProvider>
             <GoogleAnalytics />
+            <VersionChecker />
             <div className="flex-1 flex flex-col" suppressHydrationWarning={true}>
               {children}
             </div>

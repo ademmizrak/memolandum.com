@@ -10,7 +10,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_acordo_cedo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_acordo_cedo.mp3"
   },
   {
     "id": "pt_sent_002",
@@ -23,7 +24,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_abro_a_janela.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_abro_a_janela.mp3"
   },
   {
     "id": "pt_sent_003",
@@ -36,7 +38,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_preparo_o_café_da_manhã.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_preparo_o_café_da_manhã.mp3"
   },
   {
     "id": "pt_sent_004",
@@ -49,7 +52,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_bebo_um_café.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_bebo_um_café.mp3"
   },
   {
     "id": "pt_sent_005",
@@ -62,7 +66,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_limpo_a_cozinha.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_limpo_a_cozinha.mp3"
   },
   {
     "id": "pt_sent_006",
@@ -75,7 +80,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_arrumo_a_cama.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_arrumo_a_cama.mp3"
   },
   {
     "id": "pt_sent_007",
@@ -88,7 +94,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_casa_está_limpa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_casa_está_limpa.mp3"
   },
   {
     "id": "pt_sent_008",
@@ -101,7 +108,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_preciso_lavar_a_roupa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_preciso_lavar_a_roupa.mp3"
   },
   {
     "id": "pt_sent_009",
@@ -114,7 +122,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_passo_as_camisas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_passo_as_camisas.mp3"
   },
   {
     "id": "pt_sent_010",
@@ -127,7 +136,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_acendo_a_luz.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_acendo_a_luz.mp3"
   },
   {
     "id": "pt_sent_011",
@@ -140,7 +150,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_desligo_a_televisão.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_desligo_a_televisão.mp3"
   },
   {
     "id": "pt_sent_012",
@@ -153,7 +164,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_fecho_a_porta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_fecho_a_porta.mp3"
   },
   {
     "id": "pt_sent_013",
@@ -166,7 +178,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_procuro_minhas_chaves.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_procuro_minhas_chaves.mp3"
   },
   {
     "id": "pt_sent_014",
@@ -179,7 +192,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_encontro_meus_óculos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_encontro_meus_óculos.mp3"
   },
   {
     "id": "pt_sent_015",
@@ -192,7 +206,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_ponho_a_mesa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_ponho_a_mesa.mp3"
   },
   {
     "id": "pt_sent_016",
@@ -205,7 +220,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_cozinho_algo_gostoso.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_cozinho_algo_gostoso.mp3"
   },
   {
     "id": "pt_sent_017",
@@ -218,7 +234,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_almoço_com_minha_família.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_almoço_com_minha_família.mp3"
   },
   {
     "id": "pt_sent_018",
@@ -231,7 +248,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_lavo_os_pratos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_lavo_os_pratos.mp3"
   },
   {
     "id": "pt_sent_019",
@@ -244,7 +262,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_preciso_de_mais_açúcar.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_preciso_de_mais_açúcar.mp3"
   },
   {
     "id": "pt_sent_020",
@@ -257,7 +276,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_passe_o_sal_por_favor.mp3"
   },
   {
     "id": "pt_sent_021",
@@ -270,7 +290,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_sopa_está_quente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_sopa_está_quente.mp3"
   },
   {
     "id": "pt_sent_022",
@@ -283,7 +304,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_gosto_de_café_puro.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_gosto_de_café_puro.mp3"
   },
   {
     "id": "pt_sent_023",
@@ -296,7 +318,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tem_leite_na_geladeira.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tem_leite_na_geladeira.mp3"
   },
   {
     "id": "pt_sent_024",
@@ -309,7 +332,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_muito_trabalho_hoje.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_muito_trabalho_hoje.mp3"
   },
   {
     "id": "pt_sent_025",
@@ -322,7 +346,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_trabalho_de_casa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_trabalho_de_casa.mp3"
   },
   {
     "id": "pt_sent_026",
@@ -335,7 +360,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_computador_não_funciona.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_computador_não_funciona.mp3"
   },
   {
     "id": "pt_sent_027",
@@ -348,7 +374,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_procuro_uma_caneta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_procuro_uma_caneta.mp3"
   },
   {
     "id": "pt_sent_028",
@@ -361,7 +388,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_escrevo_no_meu_caderno.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_escrevo_no_meu_caderno.mp3"
   },
   {
     "id": "pt_sent_029",
@@ -374,7 +402,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_casa_é_muito_aconchegante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_casa_é_muito_aconchegante.mp3"
   },
   {
     "id": "pt_sent_030",
@@ -387,7 +416,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_sala_é_grande.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_sala_é_grande.mp3"
   },
   {
     "id": "pt_sent_031",
@@ -400,7 +430,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_meu_quarto_é_pequeno.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_meu_quarto_é_pequeno.mp3"
   },
   {
     "id": "pt_sent_032",
@@ -413,7 +444,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_jardim_é_bonito.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_jardim_é_bonito.mp3"
   },
   {
     "id": "pt_sent_033",
@@ -426,7 +458,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tem_flores_frescas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tem_flores_frescas.mp3"
   },
   {
     "id": "pt_sent_034",
@@ -439,7 +472,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_ouço_música_suave.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_ouço_música_suave.mp3"
   },
   {
     "id": "pt_sent_035",
@@ -452,7 +486,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_leio_um_livro_interessante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_leio_um_livro_interessante.mp3"
   },
   {
     "id": "pt_sent_036",
@@ -465,7 +500,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_estou_cansado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_estou_cansado.mp3"
   },
   {
     "id": "pt_sent_037",
@@ -478,7 +514,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_quero_descansar_um_pouco.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quero_descansar_um_pouco.mp3"
   },
   {
     "id": "pt_sent_038",
@@ -491,7 +528,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_me_sinto_feliz_aqui.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_me_sinto_feliz_aqui.mp3"
   },
   {
     "id": "pt_sent_039",
@@ -504,7 +542,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_hora_de_dormir.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_hora_de_dormir.mp3"
   },
   {
     "id": "pt_sent_040",
@@ -517,7 +556,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_boa_noite_família.mp3"
   },
   {
     "id": "pt_sent_041",
@@ -530,7 +570,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_amanhã_será_outro_dia.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_amanhã_será_outro_dia.mp3"
   },
   {
     "id": "pt_sent_042",
@@ -543,7 +584,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tudo_está_no_lugar.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tudo_está_no_lugar.mp3"
   },
   {
     "id": "pt_sent_043",
@@ -556,7 +598,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_não_esqueça_de_regar_as_plantas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_não_esqueça_de_regar_as_plantas.mp3"
   },
   {
     "id": "pt_sent_044",
@@ -569,7 +612,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_luz_está_acesa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_luz_está_acesa.mp3"
   },
   {
     "id": "pt_sent_045",
@@ -582,7 +626,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_água_está_muito_fria.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_água_está_muito_fria.mp3"
   },
   {
     "id": "pt_sent_046",
@@ -595,7 +640,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_que_arrumar_meu_quarto.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_que_arrumar_meu_quarto.mp3"
   },
   {
     "id": "pt_sent_047",
@@ -608,7 +654,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_visto_o_pijama.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_visto_o_pijama.mp3"
   },
   {
     "id": "pt_sent_048",
@@ -621,7 +668,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_despertador_toca.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_despertador_toca.mp3"
   },
   {
     "id": "pt_sent_049",
@@ -634,7 +682,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_dia_ensolarado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_dia_ensolarado.mp3"
   },
   {
     "id": "pt_sent_050",
@@ -647,7 +696,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_onde_está_o_telefone.mp3"
   },
   {
     "id": "pt_sent_051",
@@ -660,7 +710,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_está_no_sofá.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_está_no_sofá.mp3"
   },
   {
     "id": "pt_sent_052",
@@ -673,7 +724,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_estou_com_fome.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_estou_com_fome.mp3"
   },
   {
     "id": "pt_sent_053",
@@ -686,7 +738,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_que_tem_para_jantar.mp3"
   },
   {
     "id": "pt_sent_054",
@@ -699,7 +752,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_preparo_uma_salada.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_preparo_uma_salada.mp3"
   },
   {
     "id": "pt_sent_055",
@@ -712,7 +766,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_carne_está_gostosa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_carne_está_gostosa.mp3"
   },
   {
     "id": "pt_sent_056",
@@ -725,7 +780,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quero_pão_por_favor.mp3"
   },
   {
     "id": "pt_sent_057",
@@ -738,7 +794,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_sobremesa_é_excelente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_sobremesa_é_excelente.mp3"
   },
   {
     "id": "pt_sent_058",
@@ -751,7 +808,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_guardo_a_comida_na_geladeira.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_guardo_a_comida_na_geladeira.mp3"
   },
   {
     "id": "pt_sent_059",
@@ -764,7 +822,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tem_muita_bagunça_aqui.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tem_muita_bagunça_aqui.mp3"
   },
   {
     "id": "pt_sent_060",
@@ -777,7 +836,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_devo_tirar_o_lixo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_devo_tirar_o_lixo.mp3"
   },
   {
     "id": "pt_sent_061",
@@ -790,7 +850,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_chave_não_entra_bem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_chave_não_entra_bem.mp3"
   },
   {
     "id": "pt_sent_062",
@@ -803,7 +864,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_preciso_de_um_martelo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_preciso_de_um_martelo.mp3"
   },
   {
     "id": "pt_sent_063",
@@ -816,7 +878,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_lâmpada_está_quebrada.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_lâmpada_está_quebrada.mp3"
   },
   {
     "id": "pt_sent_064",
@@ -829,7 +892,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_troco_a_lâmpada.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_troco_a_lâmpada.mp3"
   },
   {
     "id": "pt_sent_065",
@@ -842,7 +906,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_abro_o_guarda-roupa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_abro_o_guarda-roupa.mp3"
   },
   {
     "id": "pt_sent_066",
@@ -855,7 +920,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_procuro_meu_casaco.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_procuro_meu_casaco.mp3"
   },
   {
     "id": "pt_sent_067",
@@ -868,7 +934,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_está_atrás_da_porta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_está_atrás_da_porta.mp3"
   },
   {
     "id": "pt_sent_068",
@@ -881,7 +948,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_estou_com_frio.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_estou_com_frio.mp3"
   },
   {
     "id": "pt_sent_069",
@@ -894,7 +962,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_fecho_a_janela.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_fecho_a_janela.mp3"
   },
   {
     "id": "pt_sent_070",
@@ -907,7 +976,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_ligo_o_aquecedor.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_ligo_o_aquecedor.mp3"
   },
   {
     "id": "pt_sent_071",
@@ -920,7 +990,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_ambiente_está_quente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_ambiente_está_quente.mp3"
   },
   {
     "id": "pt_sent_072",
@@ -933,7 +1004,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_relaxo_um_pouco.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_relaxo_um_pouco.mp3"
   },
   {
     "id": "pt_sent_073",
@@ -946,7 +1018,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_assisto_a_um_filme.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_assisto_a_um_filme.mp3"
   },
   {
     "id": "pt_sent_074",
@@ -959,7 +1032,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_sofá_é_muito_confortável.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_sofá_é_muito_confortável.mp3"
   },
   {
     "id": "pt_sent_075",
@@ -972,7 +1046,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_bebo_um_suco_de_laranja.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_bebo_um_suco_de_laranja.mp3"
   },
   {
     "id": "pt_sent_076",
@@ -985,7 +1060,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_muito_refrescante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_muito_refrescante.mp3"
   },
   {
     "id": "pt_sent_077",
@@ -998,7 +1074,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_tiro_o_pó.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_tiro_o_pó.mp3"
   },
   {
     "id": "pt_sent_078",
@@ -1011,7 +1088,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_mesa_está_cheia.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_mesa_está_cheia.mp3"
   },
   {
     "id": "pt_sent_079",
@@ -1024,7 +1102,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_passo_o_aspirador.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_passo_o_aspirador.mp3"
   },
   {
     "id": "pt_sent_080",
@@ -1037,7 +1116,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_chão_brilha.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_chão_brilha.mp3"
   },
   {
     "id": "pt_sent_081",
@@ -1050,7 +1130,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tudo_está_em_ordem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tudo_está_em_ordem.mp3"
   },
   {
     "id": "pt_sent_082",
@@ -1063,7 +1144,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_me_sinto_orgulhoso.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_me_sinto_orgulhoso.mp3"
   },
   {
     "id": "pt_sent_083",
@@ -1076,7 +1158,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_vida_é_bela.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_vida_é_bela.mp3"
   },
   {
     "id": "pt_sent_084",
@@ -1089,7 +1172,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_amanhã_será_um_grande_dia.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_amanhã_será_um_grande_dia.mp3"
   },
   {
     "id": "pt_sent_085",
@@ -1102,7 +1186,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_nós_contamos_os_minutos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_nós_contamos_os_minutos.mp3"
   },
   {
     "id": "pt_sent_086",
@@ -1115,7 +1200,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_nós_estamos_juntos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_nós_estamos_juntos.mp3"
   },
   {
     "id": "pt_sent_087",
@@ -1128,7 +1214,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_casa_é_meu_refúgio.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_casa_é_meu_refúgio.mp3"
   },
   {
     "id": "pt_sent_088",
@@ -1141,7 +1228,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_amo_este_lugar.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_amo_este_lugar.mp3"
   },
   {
     "id": "pt_sent_089",
@@ -1154,7 +1242,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tudo_é_maravilhoso.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tudo_é_maravilhoso.mp3"
   },
   {
     "id": "pt_sent_090",
@@ -1167,7 +1256,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_família_é_o_mais_importante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_família_é_o_mais_importante.mp3"
   },
   {
     "id": "pt_sent_091",
@@ -1180,7 +1270,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_nós_nos_divertimos_muito.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_nós_nos_divertimos_muito.mp3"
   },
   {
     "id": "pt_sent_092",
@@ -1193,7 +1284,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_nós_compartilhamos_risadas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_nós_compartilhamos_risadas.mp3"
   },
   {
     "id": "pt_sent_093",
@@ -1206,7 +1298,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_conversar_é_importante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_conversar_é_importante.mp3"
   },
   {
     "id": "pt_sent_094",
@@ -1219,7 +1312,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_nós_ouvimos_a_todos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_nós_ouvimos_a_todos.mp3"
   },
   {
     "id": "pt_sent_095",
@@ -1232,7 +1326,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_respeito_é_a_base.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_respeito_é_a_base.mp3"
   },
   {
     "id": "pt_sent_096",
@@ -1245,7 +1340,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_obrigado_por_tudo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_obrigado_por_tudo.mp3"
   },
   {
     "id": "pt_sent_097",
@@ -1258,7 +1354,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_nós_continuamos_em_frente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_nós_continuamos_em_frente.mp3"
   },
   {
     "id": "pt_sent_098",
@@ -1271,7 +1368,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_nós_somos_um_time.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_nós_somos_um_time.mp3"
   },
   {
     "id": "pt_sent_099",
@@ -1284,7 +1382,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_paz_é_fundamental.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_paz_é_fundamental.mp3"
   },
   {
     "id": "pt_sent_100",
@@ -1297,7 +1396,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_lar_é_onde_o_coração_está.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_lar_é_onde_o_coração_está.mp3"
   },
   {
     "id": "pt_prof_001",
@@ -1310,7 +1410,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_uma_reunião_importante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_uma_reunião_importante.mp3"
   },
   {
     "id": "pt_prof_002",
@@ -1323,7 +1424,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_podemos_começar_a_apresentação.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_podemos_começar_a_apresentação.mp3"
   },
   {
     "id": "pt_prof_003",
@@ -1336,7 +1438,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_preciso_da_sua_opinião_profissional.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_preciso_da_sua_opinião_profissional.mp3"
   },
   {
     "id": "pt_prof_004",
@@ -1349,7 +1452,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_projeto_vai_bem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_projeto_vai_bem.mp3"
   },
   {
     "id": "pt_prof_005",
@@ -1362,7 +1466,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_envie-me_o_relatório_por_e-mail.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_envie-me_o_relatório_por_e-mail.mp3"
   },
   {
     "id": "pt_prof_006",
@@ -1375,7 +1480,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_estou_trabalhando_no_orçamento.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_estou_trabalhando_no_orçamento.mp3"
   },
   {
     "id": "pt_prof_007",
@@ -1388,7 +1494,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_temos_que_cumprir_o_prazo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_temos_que_cumprir_o_prazo.mp3"
   },
   {
     "id": "pt_prof_008",
@@ -1401,7 +1508,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_amanhã_tenho_uma_entrevista.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_amanhã_tenho_uma_entrevista.mp3"
   },
   {
     "id": "pt_prof_009",
@@ -1414,7 +1522,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_falar_sobre_os_objetivos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_falar_sobre_os_objetivos.mp3"
   },
   {
     "id": "pt_prof_010",
@@ -1427,7 +1536,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_uma_excelente_oportunidade.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_uma_excelente_oportunidade.mp3"
   },
   {
     "id": "pt_prof_011",
@@ -1440,7 +1550,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_devemos_melhorar_a_eficiência.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_devemos_melhorar_a_eficiência.mp3"
   },
   {
     "id": "pt_prof_012",
@@ -1453,7 +1564,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_confio_na_sua_equipe.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_confio_na_sua_equipe.mp3"
   },
   {
     "id": "pt_prof_013",
@@ -1466,7 +1578,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_contrato_está_pronto.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_contrato_está_pronto.mp3"
   },
   {
     "id": "pt_prof_014",
@@ -1479,7 +1592,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_analisar_os_resultados.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_analisar_os_resultados.mp3"
   },
   {
     "id": "pt_prof_015",
@@ -1492,7 +1606,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_não_há_nenhum_problema.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_não_há_nenhum_problema.mp3"
   },
   {
     "id": "pt_prof_016",
@@ -1505,7 +1620,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_recebi_sua_mensagem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_recebi_sua_mensagem.mp3"
   },
   {
     "id": "pt_prof_017",
@@ -1518,7 +1634,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_obrigado_pela_colaboração.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_obrigado_pela_colaboração.mp3"
   },
   {
     "id": "pt_prof_018",
@@ -1531,7 +1648,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_concordo_com_você.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_concordo_com_você.mp3"
   },
   {
     "id": "pt_prof_019",
@@ -1544,7 +1662,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_há_muito_trabalho_pendente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_há_muito_trabalho_pendente.mp3"
   },
   {
     "id": "pt_prof_020",
@@ -1557,7 +1676,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_prioridade_é_o_cliente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_prioridade_é_o_cliente.mp3"
   },
   {
     "id": "pt_prof_021",
@@ -1570,7 +1690,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_organize_a_agenda_por_favor.mp3"
   },
   {
     "id": "pt_prof_022",
@@ -1583,7 +1704,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_buscar_soluções_criativas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_buscar_soluções_criativas.mp3"
   },
   {
     "id": "pt_prof_023",
@@ -1596,7 +1718,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_relatório_é_confidencial.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_relatório_é_confidencial.mp3"
   },
   {
     "id": "pt_prof_024",
@@ -1609,7 +1732,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_passo_a_passo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_passo_a_passo.mp3"
   },
   {
     "id": "pt_prof_025",
@@ -1622,7 +1746,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_uma_equipe_muito_esforçada.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_uma_equipe_muito_esforçada.mp3"
   },
   {
     "id": "pt_prof_026",
@@ -1635,7 +1760,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_oferta_vence_hoje.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_oferta_vence_hoje.mp3"
   },
   {
     "id": "pt_prof_027",
@@ -1648,7 +1774,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenha_cuidado_com_os_detalhes.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenha_cuidado_com_os_detalhes.mp3"
   },
   {
     "id": "pt_prof_028",
@@ -1661,7 +1788,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_preciso_de_mais_recursos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_preciso_de_mais_recursos.mp3"
   },
   {
     "id": "pt_prof_029",
@@ -1674,7 +1802,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_estamos_em_contato.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_estamos_em_contato.mp3"
   },
   {
     "id": "pt_prof_030",
@@ -1687,7 +1816,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_lucro_aumentou.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_lucro_aumentou.mp3"
   },
   {
     "id": "pt_prof_031",
@@ -1700,7 +1830,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_compromisso_é_necessário.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_compromisso_é_necessário.mp3"
   },
   {
     "id": "pt_prof_032",
@@ -1713,7 +1844,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_avaliar_o_desempenho.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_avaliar_o_desempenho.mp3"
   },
   {
     "id": "pt_prof_033",
@@ -1726,7 +1858,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_mantenha_a_calma.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_mantenha_a_calma.mp3"
   },
   {
     "id": "pt_prof_034",
@@ -1739,7 +1872,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tudo_está_sob_controle.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tudo_está_sob_controle.mp3"
   },
   {
     "id": "pt_prof_035",
@@ -1752,7 +1886,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_ligue_para_o_escritório.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_ligue_para_o_escritório.mp3"
   },
   {
     "id": "pt_prof_036",
@@ -1765,7 +1900,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_temos_muita_experiência.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_temos_muita_experiência.mp3"
   },
   {
     "id": "pt_prof_037",
@@ -1778,7 +1914,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_qualidade_é_fundamental.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_qualidade_é_fundamental.mp3"
   },
   {
     "id": "pt_prof_038",
@@ -1791,7 +1928,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_devemos_sempre_inovar.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_devemos_sempre_inovar.mp3"
   },
   {
     "id": "pt_prof_039",
@@ -1804,7 +1942,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_fazer_um_esforço_extra.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_fazer_um_esforço_extra.mp3"
   },
   {
     "id": "pt_prof_040",
@@ -1817,7 +1956,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_mercado_global.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_mercado_global.mp3"
   },
   {
     "id": "pt_prof_041",
@@ -1830,7 +1970,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_assine_aqui_por_favor.mp3"
   },
   {
     "id": "pt_prof_042",
@@ -1843,7 +1984,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_estratégia_está_clara.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_estratégia_está_clara.mp3"
   },
   {
     "id": "pt_prof_043",
@@ -1856,7 +1998,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_precisamos_de_um_novo_plano.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_precisamos_de_um_novo_plano.mp3"
   },
   {
     "id": "pt_prof_044",
@@ -1869,7 +2012,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_cliente_exigente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_cliente_exigente.mp3"
   },
   {
     "id": "pt_prof_045",
@@ -1882,7 +2026,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_ouvir_o_cliente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_ouvir_o_cliente.mp3"
   },
   {
     "id": "pt_prof_046",
@@ -1895,7 +2040,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_comunicação_é_vital.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_comunicação_é_vital.mp3"
   },
   {
     "id": "pt_prof_047",
@@ -1907,7 +2053,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_gerencie_bem_o_seu_tempo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_gerencie_bem_o_seu_tempo.mp3"
   },
   {
     "id": "pt_prof_048",
@@ -1920,7 +2067,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_trabalho_é_gratificante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_trabalho_é_gratificante.mp3"
   },
   {
     "id": "pt_prof_049",
@@ -1933,7 +2081,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenha_uma_visão_clara.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenha_uma_visão_clara.mp3"
   },
   {
     "id": "pt_prof_050",
@@ -1946,7 +2095,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_devemos_liderar_o_mercado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_devemos_liderar_o_mercado.mp3"
   },
   {
     "id": "pt_prof_051",
@@ -1959,7 +2109,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_hora_de_crescer.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_hora_de_crescer.mp3"
   },
   {
     "id": "pt_prof_052",
@@ -1972,7 +2123,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_formação_é_constante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_formação_é_constante.mp3"
   },
   {
     "id": "pt_prof_053",
@@ -1985,7 +2137,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_valorize_o_talento.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_valorize_o_talento.mp3"
   },
   {
     "id": "pt_prof_054",
@@ -1998,7 +2151,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_ele_é_um_bom_líder.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_ele_é_um_bom_líder.mp3"
   },
   {
     "id": "pt_prof_055",
@@ -2011,7 +2165,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_honestidade_é_a_chave.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_honestidade_é_a_chave.mp3"
   },
   {
     "id": "pt_prof_056",
@@ -2024,7 +2179,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_estamos_comprometidos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_estamos_comprometidos.mp3"
   },
   {
     "id": "pt_prof_057",
@@ -2037,7 +2193,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_valor_agregado_é_este.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_valor_agregado_é_este.mp3"
   },
   {
     "id": "pt_prof_058",
@@ -2050,7 +2207,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_analise_os_dados.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_analise_os_dados.mp3"
   },
   {
     "id": "pt_prof_059",
@@ -2063,7 +2221,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_ser_mais_eficazes.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_ser_mais_eficazes.mp3"
   },
   {
     "id": "pt_prof_060",
@@ -2076,7 +2235,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_uma_grande_vantagem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_uma_grande_vantagem.mp3"
   },
   {
     "id": "pt_prof_061",
@@ -2089,7 +2249,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_evite_riscos_desnecessários.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_evite_riscos_desnecessários.mp3"
   },
   {
     "id": "pt_prof_062",
@@ -2102,7 +2263,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_visão_é_de_futuro.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_visão_é_de_futuro.mp3"
   },
   {
     "id": "pt_prof_063",
@@ -2115,7 +2277,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_trabalhar_com_entusiasmo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_trabalhar_com_entusiasmo.mp3"
   },
   {
     "id": "pt_prof_064",
@@ -2128,7 +2291,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_ordem_é_vital.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_ordem_é_vital.mp3"
   },
   {
     "id": "pt_prof_065",
@@ -2141,7 +2305,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_não_desista.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_não_desista.mp3"
   },
   {
     "id": "pt_prof_066",
@@ -2154,7 +2319,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_perseverança_é_boa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_perseverança_é_boa.mp3"
   },
   {
     "id": "pt_prof_067",
@@ -2167,7 +2333,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_ambiente_dinâmico.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_ambiente_dinâmico.mp3"
   },
   {
     "id": "pt_prof_068",
@@ -2180,7 +2347,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_cliente_vem_primeiro.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_cliente_vem_primeiro.mp3"
   },
   {
     "id": "pt_prof_069",
@@ -2193,7 +2361,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_devemos_nos_adaptar.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_devemos_nos_adaptar.mp3"
   },
   {
     "id": "pt_prof_070",
@@ -2206,7 +2375,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_feedback_é_útil.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_feedback_é_útil.mp3"
   },
   {
     "id": "pt_prof_071",
@@ -2219,7 +2389,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tome_as_rédeas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tome_as_rédeas.mp3"
   },
   {
     "id": "pt_prof_072",
@@ -2232,7 +2403,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_projeto_ambicioso.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_projeto_ambicioso.mp3"
   },
   {
     "id": "pt_prof_073",
@@ -2245,7 +2417,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_fomente_o_aprendizado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_fomente_o_aprendizado.mp3"
   },
   {
     "id": "pt_prof_074",
@@ -2258,7 +2431,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_planejamento_é_a_chave.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_planejamento_é_a_chave.mp3"
   },
   {
     "id": "pt_prof_075",
@@ -2271,7 +2445,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_aja_com_profissionalismo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_aja_com_profissionalismo.mp3"
   },
   {
     "id": "pt_prof_076",
@@ -2284,7 +2459,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_trabalho_em_equipe_soma.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_trabalho_em_equipe_soma.mp3"
   },
   {
     "id": "pt_prof_077",
@@ -2297,7 +2473,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_temos_metas_altas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_temos_metas_altas.mp3"
   },
   {
     "id": "pt_prof_078",
@@ -2310,7 +2487,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_busque_a_excelência.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_busque_a_excelência.mp3"
   },
   {
     "id": "pt_prof_079",
@@ -2323,7 +2501,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_disciplina_é_necessária.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_disciplina_é_necessária.mp3"
   },
   {
     "id": "pt_prof_080",
@@ -2336,7 +2515,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_valorize_o_seu_tempo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_valorize_o_seu_tempo.mp3"
   },
   {
     "id": "pt_prof_081",
@@ -2349,7 +2529,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_passo_à_frente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_passo_à_frente.mp3"
   },
   {
     "id": "pt_prof_082",
@@ -2362,7 +2543,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_solução_é_esta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_solução_é_esta.mp3"
   },
   {
     "id": "pt_prof_083",
@@ -2375,7 +2557,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_fale_de_forma_clara_e_direta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_fale_de_forma_clara_e_direta.mp3"
   },
   {
     "id": "pt_prof_084",
@@ -2388,7 +2571,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_ética_é_importante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_ética_é_importante.mp3"
   },
   {
     "id": "pt_prof_085",
@@ -2401,7 +2585,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_estamos_crescendo_muito.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_estamos_crescendo_muito.mp3"
   },
   {
     "id": "pt_prof_086",
@@ -2414,7 +2599,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_ambiente_seguro.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_ambiente_seguro.mp3"
   },
   {
     "id": "pt_prof_087",
@@ -2427,7 +2613,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_motivação_é_essencial.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_motivação_é_essencial.mp3"
   },
   {
     "id": "pt_prof_088",
@@ -2440,7 +2627,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_proponha_novas_ideias.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_proponha_novas_ideias.mp3"
   },
   {
     "id": "pt_prof_089",
@@ -2453,7 +2641,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_mantenha_o_foco.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_mantenha_o_foco.mp3"
   },
   {
     "id": "pt_prof_090",
@@ -2466,7 +2655,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_detalhe_faz_a_diferença.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_detalhe_faz_a_diferença.mp3"
   },
   {
     "id": "pt_prof_091",
@@ -2479,7 +2669,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_grande_compromisso.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_grande_compromisso.mp3"
   },
   {
     "id": "pt_prof_092",
@@ -2492,7 +2683,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_cultura_é_inclusiva.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_cultura_é_inclusiva.mp3"
   },
   {
     "id": "pt_prof_093",
@@ -2505,7 +2697,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_queremos_um_impacto_positivo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_queremos_um_impacto_positivo.mp3"
   },
   {
     "id": "pt_prof_094",
@@ -2518,7 +2711,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_seja_proativo_sempre.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_seja_proativo_sempre.mp3"
   },
   {
     "id": "pt_prof_095",
@@ -2531,7 +2725,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_cumpra_suas_promessas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_cumpra_suas_promessas.mp3"
   },
   {
     "id": "pt_prof_096",
@@ -2544,7 +2739,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_confiança_se_conquista.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_confiança_se_conquista.mp3"
   },
   {
     "id": "pt_prof_097",
@@ -2557,7 +2753,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_hora_de_se_destacar.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_hora_de_se_destacar.mp3"
   },
   {
     "id": "pt_prof_098",
@@ -2570,7 +2767,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenha_uma_mente_aberta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenha_uma_mente_aberta.mp3"
   },
   {
     "id": "pt_prof_099",
@@ -2583,7 +2781,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_sucesso_é_compartilhado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_sucesso_é_compartilhado.mp3"
   },
   {
     "id": "pt_prof_100",
@@ -2596,7 +2795,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_continuar_avançando.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_continuar_avançando.mp3"
   },
   {
     "id": "pt_learn_001",
@@ -2609,7 +2809,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_nunca_deixo_de_aprender.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_nunca_deixo_de_aprender.mp3"
   },
   {
     "id": "pt_learn_002",
@@ -2622,7 +2823,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_conhecimento_é_poder.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_conhecimento_é_poder.mp3"
   },
   {
     "id": "pt_learn_003",
@@ -2635,7 +2837,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_todo_dia_aprendo_algo_novo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_todo_dia_aprendo_algo_novo.mp3"
   },
   {
     "id": "pt_learn_004",
@@ -2648,7 +2851,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_curiosidade_é_fundamental.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_curiosidade_é_fundamental.mp3"
   },
   {
     "id": "pt_learn_005",
@@ -2661,7 +2865,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_gosto_de_superar_desafios.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_gosto_de_superar_desafios.mp3"
   },
   {
     "id": "pt_learn_006",
@@ -2674,7 +2879,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_uma_mente_aberta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_uma_mente_aberta.mp3"
   },
   {
     "id": "pt_learn_007",
@@ -2687,7 +2893,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_prática_leva_à_perfeição.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_prática_leva_à_perfeição.mp3"
   },
   {
     "id": "pt_learn_008",
@@ -2700,7 +2907,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_penso_antes_de_agir.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_penso_antes_de_agir.mp3"
   },
   {
     "id": "pt_learn_009",
@@ -2713,7 +2921,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_quero_melhorar_minhas_habilidades.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quero_melhorar_minhas_habilidades.mp3"
   },
   {
     "id": "pt_learn_010",
@@ -2726,7 +2935,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_leitura_expande_a_mente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_leitura_expande_a_mente.mp3"
   },
   {
     "id": "pt_learn_011",
@@ -2739,7 +2949,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_analiso_meus_erros.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_analiso_meus_erros.mp3"
   },
   {
     "id": "pt_learn_012",
@@ -2752,7 +2963,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_fracasso_é_aprendizado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_fracasso_é_aprendizado.mp3"
   },
   {
     "id": "pt_learn_013",
@@ -2765,7 +2977,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_busco_novas_perspectivas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_busco_novas_perspectivas.mp3"
   },
   {
     "id": "pt_learn_014",
@@ -2778,7 +2991,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_disciplina_é_a_chave.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_disciplina_é_a_chave.mp3"
   },
   {
     "id": "pt_learn_015",
@@ -2791,7 +3005,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_meus_objetivos_claros.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_meus_objetivos_claros.mp3"
   },
   {
     "id": "pt_learn_016",
@@ -2804,7 +3019,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_educação_é_um_caminho.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_educação_é_um_caminho.mp3"
   },
   {
     "id": "pt_learn_017",
@@ -2817,7 +3033,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_reflito_sobre_minhas_ações.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_reflito_sobre_minhas_ações.mp3"
   },
   {
     "id": "pt_learn_018",
@@ -2830,7 +3047,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_mudança_é_inevitável.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_mudança_é_inevitável.mp3"
   },
   {
     "id": "pt_learn_019",
@@ -2843,7 +3061,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_valorizo_a_opinião_alheia.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_valorizo_a_opinião_alheia.mp3"
   },
   {
     "id": "pt_learn_020",
@@ -2856,7 +3075,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sempre_sigo_em_frente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sempre_sigo_em_frente.mp3"
   },
   {
     "id": "pt_learn_021",
@@ -2869,7 +3089,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_foco_no_presente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_foco_no_presente.mp3"
   },
   {
     "id": "pt_learn_022",
@@ -2882,7 +3103,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_constante_nos_estudos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_constante_nos_estudos.mp3"
   },
   {
     "id": "pt_learn_023",
@@ -2895,7 +3117,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_aprendizado_é_contínuo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_aprendizado_é_contínuo.mp3"
   },
   {
     "id": "pt_learn_024",
@@ -2908,7 +3131,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_grande_determinação.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_grande_determinação.mp3"
   },
   {
     "id": "pt_learn_025",
@@ -2921,7 +3145,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_criatividade_não_tem_limites.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_criatividade_não_tem_limites.mp3"
   },
   {
     "id": "pt_learn_026",
@@ -2934,7 +3159,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_observo_e_compreendo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_observo_e_compreendo.mp3"
   },
   {
     "id": "pt_learn_027",
@@ -2947,7 +3173,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_supero_meus_limites.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_supero_meus_limites.mp3"
   },
   {
     "id": "pt_learn_028",
@@ -2960,7 +3187,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_sucesso_me_motiva.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_sucesso_me_motiva.mp3"
   },
   {
     "id": "pt_learn_029",
@@ -2973,7 +3201,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_ouço_para_aprender.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_ouço_para_aprender.mp3"
   },
   {
     "id": "pt_learn_030",
@@ -2986,7 +3215,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_paciência_é_uma_virtude.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_paciência_é_uma_virtude.mp3"
   },
   {
     "id": "pt_learn_031",
@@ -2999,7 +3229,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_busco_a_verdade.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_busco_a_verdade.mp3"
   },
   {
     "id": "pt_learn_032",
@@ -3012,7 +3243,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_esforço_traz_resultados.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_esforço_traz_resultados.mp3"
   },
   {
     "id": "pt_learn_033",
@@ -3025,7 +3257,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_uma_pessoa_proativa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_uma_pessoa_proativa.mp3"
   },
   {
     "id": "pt_learn_034",
@@ -3038,7 +3271,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_analiso_antes_de_decidir.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_analiso_antes_de_decidir.mp3"
   },
   {
     "id": "pt_learn_035",
@@ -3051,7 +3285,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_me_adapto_facilmente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_me_adapto_facilmente.mp3"
   },
   {
     "id": "pt_learn_036",
@@ -3064,7 +3299,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_conhecimento_é_infinito.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_conhecimento_é_infinito.mp3"
   },
   {
     "id": "pt_learn_037",
@@ -3077,7 +3313,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_desenvolvo_meu_potencial.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_desenvolvo_meu_potencial.mp3"
   },
   {
     "id": "pt_learn_038",
@@ -3090,7 +3327,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_grande_visão.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_grande_visão.mp3"
   },
   {
     "id": "pt_learn_039",
@@ -3103,7 +3341,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_aceito_críticas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_aceito_críticas.mp3"
   },
   {
     "id": "pt_learn_040",
@@ -3116,7 +3355,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_aprendo_com_todos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_aprendo_com_todos.mp3"
   },
   {
     "id": "pt_learn_041",
@@ -3129,7 +3369,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_verdade_me_guia.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_verdade_me_guia.mp3"
   },
   {
     "id": "pt_learn_042",
@@ -3142,7 +3383,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_muito_otimista.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_muito_otimista.mp3"
   },
   {
     "id": "pt_learn_043",
@@ -3155,7 +3397,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_vida_é_aprendizado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_vida_é_aprendizado.mp3"
   },
   {
     "id": "pt_learn_044",
@@ -3168,7 +3411,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_busco_novas_metas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_busco_novas_metas.mp3"
   },
   {
     "id": "pt_learn_045",
@@ -3181,7 +3425,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_mente_lógica.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_mente_lógica.mp3"
   },
   {
     "id": "pt_learn_046",
@@ -3194,7 +3439,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_tempo_é_valioso.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_tempo_é_valioso.mp3"
   },
   {
     "id": "pt_learn_047",
@@ -3207,7 +3453,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_fomento_meu_crescimento.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_fomento_meu_crescimento.mp3"
   },
   {
     "id": "pt_learn_048",
@@ -3220,7 +3467,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tudo_é_possível.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tudo_é_possível.mp3"
   },
   {
     "id": "pt_learn_049",
@@ -3233,7 +3481,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_autocrítico.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_autocrítico.mp3"
   },
   {
     "id": "pt_learn_050",
@@ -3246,7 +3495,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_avanço_dia_a_dia.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_avanço_dia_a_dia.mp3"
   },
   {
     "id": "pt_learn_051",
@@ -3259,7 +3509,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_sucesso_requer_tempo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_sucesso_requer_tempo.mp3"
   },
   {
     "id": "pt_learn_052",
@@ -3272,7 +3523,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_grande_clareza.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_grande_clareza.mp3"
   },
   {
     "id": "pt_learn_053",
@@ -3285,7 +3537,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_gosto_de_pesquisar.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_gosto_de_pesquisar.mp3"
   },
   {
     "id": "pt_learn_054",
@@ -3298,7 +3551,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_confiança_aumenta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_confiança_aumenta.mp3"
   },
   {
     "id": "pt_learn_055",
@@ -3311,7 +3565,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tomo_minhas_decisões.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tomo_minhas_decisões.mp3"
   },
   {
     "id": "pt_learn_056",
@@ -3324,7 +3579,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_responsável.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_responsável.mp3"
   },
   {
     "id": "pt_learn_057",
@@ -3337,7 +3593,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_sabedoria_se_adquire.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_sabedoria_se_adquire.mp3"
   },
   {
     "id": "pt_learn_058",
@@ -3350,7 +3607,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_busco_a_excelência.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_busco_a_excelência.mp3"
   },
   {
     "id": "pt_learn_059",
@@ -3363,7 +3621,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_meu_potencial_é_enorme.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_meu_potencial_é_enorme.mp3"
   },
   {
     "id": "pt_learn_060",
@@ -3376,7 +3635,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sempre_há_melhoria.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sempre_há_melhoria.mp3"
   },
   {
     "id": "pt_learn_061",
@@ -3389,7 +3649,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_uma_pessoa_reflexiva.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_uma_pessoa_reflexiva.mp3"
   },
   {
     "id": "pt_learn_062",
@@ -3402,7 +3663,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_meta_está_próxima.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_meta_está_próxima.mp3"
   },
   {
     "id": "pt_learn_063",
@@ -3415,7 +3677,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_disciplina_própria.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_disciplina_própria.mp3"
   },
   {
     "id": "pt_learn_064",
@@ -3428,7 +3691,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_honestidade_é_vital.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_honestidade_é_vital.mp3"
   },
   {
     "id": "pt_learn_065",
@@ -3441,7 +3705,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_cada_passo_conta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_cada_passo_conta.mp3"
   },
   {
     "id": "pt_learn_066",
@@ -3454,7 +3719,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_aprendo_com_experiências.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_aprendo_com_experiências.mp3"
   },
   {
     "id": "pt_learn_067",
@@ -3467,7 +3733,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_ideias_inovadoras.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_ideias_inovadoras.mp3"
   },
   {
     "id": "pt_learn_068",
@@ -3480,7 +3747,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_mudança_me_ensina.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_mudança_me_ensina.mp3"
   },
   {
     "id": "pt_learn_069",
@@ -3493,7 +3761,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_busco_sempre_a_qualidade.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_busco_sempre_a_qualidade.mp3"
   },
   {
     "id": "pt_learn_070",
@@ -3506,7 +3775,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_muito_apaixonado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_muito_apaixonado.mp3"
   },
   {
     "id": "pt_learn_071",
@@ -3519,7 +3789,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_lógica_é_fundamental.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_lógica_é_fundamental.mp3"
   },
   {
     "id": "pt_learn_072",
@@ -3532,7 +3803,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_grande_tenacidade.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_grande_tenacidade.mp3"
   },
   {
     "id": "pt_learn_073",
@@ -3545,7 +3817,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_cada_dia_é_diferente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_cada_dia_é_diferente.mp3"
   },
   {
     "id": "pt_learn_074",
@@ -3558,7 +3831,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_ouço_minha_voz_interior.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_ouço_minha_voz_interior.mp3"
   },
   {
     "id": "pt_learn_075",
@@ -3571,7 +3845,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_superação_é_minha_meta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_superação_é_minha_meta.mp3"
   },
   {
     "id": "pt_learn_076",
@@ -3584,7 +3859,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_uma_mente_brilhante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_uma_mente_brilhante.mp3"
   },
   {
     "id": "pt_learn_077",
@@ -3597,7 +3873,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_analiso_os_resultados.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_analiso_os_resultados.mp3"
   },
   {
     "id": "pt_learn_078",
@@ -3610,7 +3887,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_prática_é_necessária.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_prática_é_necessária.mp3"
   },
   {
     "id": "pt_learn_079",
@@ -3623,7 +3901,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_muito_persistente.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_muito_persistente.mp3"
   },
   {
     "id": "pt_learn_080",
@@ -3636,7 +3915,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_valorizo_o_aprendizado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_valorizo_o_aprendizado.mp3"
   },
   {
     "id": "pt_learn_081",
@@ -3649,7 +3929,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_visão_é_clara.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_visão_é_clara.mp3"
   },
   {
     "id": "pt_learn_082",
@@ -3662,7 +3943,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_uma_ideia_fixa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_uma_ideia_fixa.mp3"
   },
   {
     "id": "pt_learn_083",
@@ -3675,7 +3957,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_trabalho_dá_frutos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_trabalho_dá_frutos.mp3"
   },
   {
     "id": "pt_learn_084",
@@ -3688,7 +3971,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_muito_observador.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_muito_observador.mp3"
   },
   {
     "id": "pt_learn_085",
@@ -3701,7 +3985,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_mente_se_treina.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_mente_se_treina.mp3"
   },
   {
     "id": "pt_learn_086",
@@ -3714,7 +3999,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_grande_esperança.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_grande_esperança.mp3"
   },
   {
     "id": "pt_learn_087",
@@ -3727,7 +4013,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_busco_o_lado_positivo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_busco_o_lado_positivo.mp3"
   },
   {
     "id": "pt_learn_088",
@@ -3740,7 +4027,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_inteligência_cresce.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_inteligência_cresce.mp3"
   },
   {
     "id": "pt_learn_089",
@@ -3753,7 +4041,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_muito_detalhista.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_muito_detalhista.mp3"
   },
   {
     "id": "pt_learn_090",
@@ -3765,7 +4054,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_caminho_é_gratificante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_gratificante.mp3"
   },
   {
     "id": "pt_learn_091",
@@ -3778,7 +4068,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_novas_metas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_novas_metas.mp3"
   },
   {
     "id": "pt_learn_092",
@@ -3791,7 +4082,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_calma_é_necessária.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_calma_é_necessária.mp3"
   },
   {
     "id": "pt_learn_093",
@@ -3804,7 +4096,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_esforço_vale_a_pena.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_esforço_vale_a_pena.mp3"
   },
   {
     "id": "pt_learn_094",
@@ -3817,7 +4110,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_fiel_às_minhas_ideias.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_fiel_às_minhas_ideias.mp3"
   },
   {
     "id": "pt_learn_095",
@@ -3830,7 +4124,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_meta_é_alta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_meta_é_alta.mp3"
   },
   {
     "id": "pt_learn_096",
@@ -3843,7 +4138,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_aprendo_com_alegria.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_aprendo_com_alegria.mp3"
   },
   {
     "id": "pt_learn_097",
@@ -3856,7 +4152,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_uma_fé_cega.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_uma_fé_cega.mp3"
   },
   {
     "id": "pt_learn_098",
@@ -3869,7 +4166,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_mundo_é_uma_escola.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_mundo_é_uma_escola.mp3"
   },
   {
     "id": "pt_learn_099",
@@ -3882,7 +4180,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sou_muito_criativo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sou_muito_criativo.mp3"
   },
   {
     "id": "pt_learn_100",
@@ -3895,7 +4194,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sigo_aprendendo_sempre.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sigo_aprendendo_sempre.mp3"
   },
   {
     "id": "pt_trav_001",
@@ -3908,7 +4208,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_estou_procurando_o_hotel.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_estou_procurando_o_hotel.mp3"
   },
   {
     "id": "pt_trav_002",
@@ -3921,7 +4222,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_quero_comprar_uma_passagem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quero_comprar_uma_passagem.mp3"
   },
   {
     "id": "pt_trav_003",
@@ -3934,7 +4236,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_que_horas_sai_o_trem.mp3"
   },
   {
     "id": "pt_trav_004",
@@ -3947,7 +4250,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_preciso_de_um_táxi_por_favor.mp3"
   },
   {
     "id": "pt_trav_005",
@@ -3960,7 +4264,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_onde_fica_a_estação.mp3"
   },
   {
     "id": "pt_trav_006",
@@ -3973,7 +4278,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_uma_reserva.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_uma_reserva.mp3"
   },
   {
     "id": "pt_trav_007",
@@ -3986,7 +4292,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_voo_está_atrasado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_voo_está_atrasado.mp3"
   },
   {
     "id": "pt_trav_008",
@@ -3999,7 +4306,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_procuro_um_restaurante_típico.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_procuro_um_restaurante_típico.mp3"
   },
   {
     "id": "pt_trav_009",
@@ -4012,7 +4320,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quanto_custa_a_passagem.mp3"
   },
   {
     "id": "pt_trav_010",
@@ -4025,7 +4334,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_gosto_de_caminhar_pela_cidade.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_gosto_de_caminhar_pela_cidade.mp3"
   },
   {
     "id": "pt_trav_011",
@@ -4038,7 +4348,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vou_visitar_o_museu.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vou_visitar_o_museu.mp3"
   },
   {
     "id": "pt_trav_012",
@@ -4051,7 +4362,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tem_mapas_da_região.mp3"
   },
   {
     "id": "pt_trav_013",
@@ -4064,7 +4376,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_desculpe_estou_perdido.mp3"
   },
   {
     "id": "pt_trav_014",
@@ -4077,7 +4390,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_este_lugar_é_lindo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_este_lugar_é_lindo.mp3"
   },
   {
     "id": "pt_trav_015",
@@ -4090,7 +4404,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_quero_ver_o_nascer_do_sol.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quero_ver_o_nascer_do_sol.mp3"
   },
   {
     "id": "pt_trav_016",
@@ -4103,7 +4418,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_vista_é_espetacular.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_vista_é_espetacular.mp3"
   },
   {
     "id": "pt_trav_017",
@@ -4116,7 +4432,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_procuro_o_ponto_de_ônibus.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_procuro_o_ponto_de_ônibus.mp3"
   },
   {
     "id": "pt_trav_018",
@@ -4129,7 +4446,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_fica_longe_daqui.mp3"
   },
   {
     "id": "pt_trav_019",
@@ -4142,7 +4460,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_quarto_é_confortável.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_quarto_é_confortável.mp3"
   },
   {
     "id": "pt_trav_020",
@@ -4155,7 +4474,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_prefiro_viajar_leve.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_prefiro_viajar_leve.mp3"
   },
   {
     "id": "pt_trav_021",
@@ -4168,7 +4488,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_amanhã_pego_o_avião.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_amanhã_pego_o_avião.mp3"
   },
   {
     "id": "pt_trav_022",
@@ -4181,7 +4502,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_quero_provar_comida_local.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quero_provar_comida_local.mp3"
   },
   {
     "id": "pt_trav_023",
@@ -4194,7 +4516,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_aventura_começa_hoje.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_aventura_começa_hoje.mp3"
   },
   {
     "id": "pt_trav_024",
@@ -4207,7 +4530,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_qual_é_a_melhor_rota.mp3"
   },
   {
     "id": "pt_trav_025",
@@ -4220,7 +4544,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_estou_com_meu_passaporte.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_estou_com_meu_passaporte.mp3"
   },
   {
     "id": "pt_trav_026",
@@ -4233,7 +4558,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_procuro_um_guia_turístico.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_procuro_um_guia_turístico.mp3"
   },
   {
     "id": "pt_trav_027",
@@ -4246,7 +4572,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_destino_incrível.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_destino_incrível.mp3"
   },
   {
     "id": "pt_trav_028",
@@ -4259,7 +4586,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_trem_vai_muito_rápido.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_trem_vai_muito_rápido.mp3"
   },
   {
     "id": "pt_trav_029",
@@ -4272,7 +4600,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_adoro_explorar_caminhos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_adoro_explorar_caminhos.mp3"
   },
   {
     "id": "pt_trav_030",
@@ -4285,7 +4614,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_onde_tem_um_banco.mp3"
   },
   {
     "id": "pt_trav_031",
@@ -4298,7 +4628,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_preciso_trocar_dinheiro.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_preciso_trocar_dinheiro.mp3"
   },
   {
     "id": "pt_trav_032",
@@ -4311,7 +4642,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_centro_está_perto.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_centro_está_perto.mp3"
   },
   {
     "id": "pt_trav_033",
@@ -4324,7 +4656,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_quero_alugar_um_carro.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quero_alugar_um_carro.mp3"
   },
   {
     "id": "pt_trav_034",
@@ -4337,7 +4670,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_procuro_hospedagem_barata.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_procuro_hospedagem_barata.mp3"
   },
   {
     "id": "pt_trav_035",
@@ -4350,7 +4684,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_cidade_é_histórica.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_cidade_é_histórica.mp3"
   },
   {
     "id": "pt_trav_036",
@@ -4363,7 +4698,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_minha_primeira_vez_aqui.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_minha_primeira_vez_aqui.mp3"
   },
   {
     "id": "pt_trav_037",
@@ -4376,7 +4712,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tudo_está_sinalizado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tudo_está_sinalizado.mp3"
   },
   {
     "id": "pt_trav_038",
@@ -4389,7 +4726,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_as_pessoas_são_gentis.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_as_pessoas_são_gentis.mp3"
   },
   {
     "id": "pt_trav_039",
@@ -4402,7 +4740,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_quero_ver_a_catedral.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quero_ver_a_catedral.mp3"
   },
   {
     "id": "pt_trav_040",
@@ -4415,7 +4754,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_tour_dura_duas_horas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_tour_dura_duas_horas.mp3"
   },
   {
     "id": "pt_trav_041",
@@ -4428,7 +4768,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tem_wi-fi_aqui.mp3"
   },
   {
     "id": "pt_trav_042",
@@ -4441,7 +4782,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vou_tirar_fotos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vou_tirar_fotos.mp3"
   },
   {
     "id": "pt_trav_043",
@@ -4454,7 +4796,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_uma_viagem_de_negócios.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_uma_viagem_de_negócios.mp3"
   },
   {
     "id": "pt_trav_044",
@@ -4467,7 +4810,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_prefiro_trem_a_ônibus.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_prefiro_trem_a_ônibus.mp3"
   },
   {
     "id": "pt_trav_045",
@@ -4480,7 +4824,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_bagagem_é_pesada.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_bagagem_é_pesada.mp3"
   },
   {
     "id": "pt_trav_046",
@@ -4493,7 +4838,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_procuro_o_portão_de_embarque.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_procuro_o_portão_de_embarque.mp3"
   },
   {
     "id": "pt_trav_047",
@@ -4506,7 +4852,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_tempo_está_limpo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_tempo_está_limpo.mp3"
   },
   {
     "id": "pt_trav_048",
@@ -4519,7 +4866,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_gosto_de_turismo_cultural.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_gosto_de_turismo_cultural.mp3"
   },
   {
     "id": "pt_trav_049",
@@ -4532,7 +4880,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_cultura_é_fascinante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_cultura_é_fascinante.mp3"
   },
   {
     "id": "pt_trav_050",
@@ -4545,7 +4894,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_que_horas_fecham.mp3"
   },
   {
     "id": "pt_trav_051",
@@ -4558,7 +4908,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_preciso_descansar_um_pouco.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_preciso_descansar_um_pouco.mp3"
   },
   {
     "id": "pt_trav_052",
@@ -4571,7 +4922,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_um_bom_roteiro.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_um_bom_roteiro.mp3"
   },
   {
     "id": "pt_trav_053",
@@ -4584,7 +4936,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_cidade_nunca_dorme.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_cidade_nunca_dorme.mp3"
   },
   {
     "id": "pt_trav_054",
@@ -4597,7 +4950,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_paisagem_é_única.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_paisagem_é_única.mp3"
   },
   {
     "id": "pt_trav_055",
@@ -4610,7 +4964,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_estou_curtindo_a_viagem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_estou_curtindo_a_viagem.mp3"
   },
   {
     "id": "pt_trav_056",
@@ -4623,7 +4978,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_procuro_um_lugar_tranquilo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_procuro_um_lugar_tranquilo.mp3"
   },
   {
     "id": "pt_trav_057",
@@ -4636,7 +4992,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_gastronomia_é_ótima.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_gastronomia_é_ótima.mp3"
   },
   {
     "id": "pt_trav_058",
@@ -4649,7 +5006,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tem_muito_o_que_ver_hoje.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tem_muito_o_que_ver_hoje.mp3"
   },
   {
     "id": "pt_trav_059",
@@ -4662,7 +5020,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_clima_está_perfeito.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_clima_está_perfeito.mp3"
   },
   {
     "id": "pt_trav_060",
@@ -4675,7 +5034,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_para_outra_cidade.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_para_outra_cidade.mp3"
   },
   {
     "id": "pt_trav_061",
@@ -4688,7 +5048,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
   },
   {
     "id": "pt_trav_062",
@@ -4701,7 +5062,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_adoro_a_aventura.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_adoro_a_aventura.mp3"
   },
   {
     "id": "pt_trav_063",
@@ -4714,7 +5076,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_procuro_o_mirante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_procuro_o_mirante.mp3"
   },
   {
     "id": "pt_trav_064",
@@ -4727,7 +5090,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_meu_destino_favorito.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_meu_destino_favorito.mp3"
   },
   {
     "id": "pt_trav_065",
@@ -4740,7 +5104,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_viagem_é_longa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_viagem_é_longa.mp3"
   },
   {
     "id": "pt_trav_066",
@@ -4753,7 +5118,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_preciso_de_um_bom_mapa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_preciso_de_um_bom_mapa.mp3"
   },
   {
     "id": "pt_trav_067",
@@ -4766,7 +5132,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_aventura_me_chama.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_aventura_me_chama.mp3"
   },
   {
     "id": "pt_trav_068",
@@ -4779,7 +5146,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_espero_ver_muitas_coisas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_espero_ver_muitas_coisas.mp3"
   },
   {
     "id": "pt_trav_069",
@@ -4792,7 +5160,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_cidade_tem_charme.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_cidade_tem_charme.mp3"
   },
   {
     "id": "pt_trav_070",
@@ -4805,7 +5174,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_hotel_é_central.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_hotel_é_central.mp3"
   },
   {
     "id": "pt_trav_071",
@@ -4818,7 +5188,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_quero_comprar_lembranças.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quero_comprar_lembranças.mp3"
   },
   {
     "id": "pt_trav_072",
@@ -4831,7 +5202,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_artesanato_é_bonito.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_artesanato_é_bonito.mp3"
   },
   {
     "id": "pt_trav_073",
@@ -4844,7 +5216,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_tour_é_guiado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_tour_é_guiado.mp3"
   },
   {
     "id": "pt_trav_074",
@@ -4857,7 +5230,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_aproveito_cada_momento.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_aproveito_cada_momento.mp3"
   },
   {
     "id": "pt_trav_075",
@@ -4870,7 +5244,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_lugar_com_história.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_lugar_com_história.mp3"
   },
   {
     "id": "pt_trav_076",
@@ -4883,7 +5258,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_procuro_uma_experiência_única.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_procuro_uma_experiência_única.mp3"
   },
   {
     "id": "pt_trav_077",
@@ -4896,7 +5272,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_barco_sai_logo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_barco_sai_logo.mp3"
   },
   {
     "id": "pt_trav_078",
@@ -4909,7 +5286,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_gosto_da_arquitetura.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_gosto_da_arquitetura.mp3"
   },
   {
     "id": "pt_trav_079",
@@ -4922,7 +5300,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_igreja_é_antiga.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_igreja_é_antiga.mp3"
   },
   {
     "id": "pt_trav_080",
@@ -4935,7 +5314,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_sigo_meus_instintos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sigo_meus_instintos.mp3"
   },
   {
     "id": "pt_trav_081",
@@ -4948,7 +5328,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_viagem_nos_une.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_viagem_nos_une.mp3"
   },
   {
     "id": "pt_trav_082",
@@ -4961,7 +5342,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_muito_emocionante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_muito_emocionante.mp3"
   },
   {
     "id": "pt_trav_083",
@@ -4974,7 +5356,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_chegamos_na_hora.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_chegamos_na_hora.mp3"
   },
   {
     "id": "pt_trav_084",
@@ -4987,7 +5370,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_cultura_abre_mentes.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_cultura_abre_mentes.mp3"
   },
   {
     "id": "pt_trav_085",
@@ -5000,7 +5384,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_procuro_a_paz_interior.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_procuro_a_paz_interior.mp3"
   },
   {
     "id": "pt_trav_086",
@@ -5013,7 +5398,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_povo_é_acolhedor.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_povo_é_acolhedor.mp3"
   },
   {
     "id": "pt_trav_087",
@@ -5026,7 +5412,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_hora_de_explorar.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_hora_de_explorar.mp3"
   },
   {
     "id": "pt_trav_088",
@@ -5039,7 +5426,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_aventura_me_espera.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_aventura_me_espera.mp3"
   },
   {
     "id": "pt_trav_089",
@@ -5052,7 +5440,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_guia_é_muito_bom.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_guia_é_muito_bom.mp3"
   },
   {
     "id": "pt_trav_090",
@@ -5065,7 +5454,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_grandes_planos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_grandes_planos.mp3"
   },
   {
     "id": "pt_trav_091",
@@ -5078,7 +5468,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_cidade_está_acordada.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_cidade_está_acordada.mp3"
   },
   {
     "id": "pt_trav_092",
@@ -5091,7 +5482,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_amo_as_viagens_longas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_amo_as_viagens_longas.mp3"
   },
   {
     "id": "pt_trav_093",
@@ -5104,7 +5496,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_lugar_fascinante.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_lugar_fascinante.mp3"
   },
   {
     "id": "pt_trav_094",
@@ -5117,7 +5510,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_mapa_me_ajuda_muito.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_mapa_me_ajuda_muito.mp3"
   },
   {
     "id": "pt_trav_095",
@@ -5130,7 +5524,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_caminhamos_pela_praia.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_caminhamos_pela_praia.mp3"
   },
   {
     "id": "pt_trav_096",
@@ -5143,7 +5538,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_pôr_do_sol_é_lindo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_pôr_do_sol_é_lindo.mp3"
   },
   {
     "id": "pt_trav_097",
@@ -5156,7 +5552,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_estou_muito_animado.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_estou_muito_animado.mp3"
   },
   {
     "id": "pt_trav_098",
@@ -5169,7 +5566,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_a_viagem_ensina_muito.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_a_viagem_ensina_muito.mp3"
   },
   {
     "id": "pt_trav_099",
@@ -5182,7 +5580,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_uma_experiência_inesquecível.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_uma_experiência_inesquecível.mp3"
   },
   {
     "id": "pt_trav_100",
@@ -5195,7 +5594,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_continuamos_descobrindo_o_mundo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_continuamos_descobrindo_o_mundo.mp3"
   },
   {
     "id": "pt_soc_001",
@@ -5208,7 +5608,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_olá_tudo_bem.mp3"
   },
   {
     "id": "pt_soc_002",
@@ -5221,7 +5622,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_bom_dia.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_bom_dia.mp3"
   },
   {
     "id": "pt_soc_003",
@@ -5234,7 +5636,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_prazer_em_conhecer.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_prazer_em_conhecer.mp3"
   },
   {
     "id": "pt_soc_004",
@@ -5247,7 +5650,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_como_você_se_chama.mp3"
   },
   {
     "id": "pt_soc_005",
@@ -5260,7 +5664,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_me_chamo_adem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_me_chamo_adem.mp3"
   },
   {
     "id": "pt_soc_006",
@@ -5273,7 +5678,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_de_onde_você_é.mp3"
   },
   {
     "id": "pt_soc_007",
@@ -5286,7 +5692,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_sou_da_turquia.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_sou_da_turquia.mp3"
   },
   {
     "id": "pt_soc_008",
@@ -5299,7 +5706,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_que_você_faz.mp3"
   },
   {
     "id": "pt_soc_009",
@@ -5312,7 +5720,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tudo_bem_obrigado.mp3"
   },
   {
     "id": "pt_soc_010",
@@ -5325,7 +5734,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_desculpe_pode_repetir.mp3"
   },
   {
     "id": "pt_soc_011",
@@ -5338,7 +5748,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_não_entendo_muito_bem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_não_entendo_muito_bem.mp3"
   },
   {
     "id": "pt_soc_012",
@@ -5351,7 +5762,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_pode_falar_mais_devagar.mp3"
   },
   {
     "id": "pt_soc_013",
@@ -5364,7 +5776,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_falo_um_pouco_de_português.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_falo_um_pouco_de_português.mp3"
   },
   {
     "id": "pt_soc_014",
@@ -5377,7 +5790,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_prazer_em_te_conhecer.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_prazer_em_te_conhecer.mp3"
   },
   {
     "id": "pt_soc_015",
@@ -5390,7 +5804,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_como_vai_o_seu_dia.mp3"
   },
   {
     "id": "pt_soc_016",
@@ -5403,7 +5818,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tem_sido_um_bom_dia.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tem_sido_um_bom_dia.mp3"
   },
   {
     "id": "pt_soc_017",
@@ -5416,7 +5832,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_me_conte_mais.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_me_conte_mais.mp3"
   },
   {
     "id": "pt_soc_018",
@@ -5429,7 +5846,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_prazer_falar_com_você.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_prazer_falar_com_você.mp3"
   },
   {
     "id": "pt_soc_019",
@@ -5442,7 +5860,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_obrigado_por_tudo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_obrigado_por_tudo.mp3"
   },
   {
     "id": "pt_soc_020",
@@ -5455,7 +5874,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_de_nada.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_de_nada.mp3"
   },
   {
     "id": "pt_soc_021",
@@ -5468,7 +5888,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_por_favor_sente-se.mp3"
   },
   {
     "id": "pt_soc_022",
@@ -5481,7 +5902,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_quer_beber_algo.mp3"
   },
   {
     "id": "pt_soc_023",
@@ -5494,7 +5916,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_gostaria_de_um_café.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_gostaria_de_um_café.mp3"
   },
   {
     "id": "pt_soc_024",
@@ -5507,7 +5930,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_desta_vez_é_por_minha_conta.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_desta_vez_é_por_minha_conta.mp3"
   },
   {
     "id": "pt_soc_025",
@@ -5520,7 +5944,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_até_logo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_até_logo.mp3"
   },
   {
     "id": "pt_soc_026",
@@ -5533,7 +5958,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_nos_vemos_em_breve.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_nos_vemos_em_breve.mp3"
   },
   {
     "id": "pt_soc_027",
@@ -5546,7 +5972,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenha_um_bom_dia.mp3"
   },
   {
     "id": "pt_soc_028",
@@ -5559,7 +5986,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_você_vem_com_a_gente.mp3"
   },
   {
     "id": "pt_soc_029",
@@ -5572,7 +6000,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_adoraria.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_adoraria.mp3"
   },
   {
     "id": "pt_soc_030",
@@ -5585,7 +6014,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_talvez_em_outro_momento.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_talvez_em_outro_momento.mp3"
   },
   {
     "id": "pt_soc_031",
@@ -5598,7 +6028,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_estou_ocupado_hoje.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_estou_ocupado_hoje.mp3"
   },
   {
     "id": "pt_soc_032",
@@ -5611,7 +6042,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_que_boa_ideia.mp3"
   },
   {
     "id": "pt_soc_033",
@@ -5624,7 +6056,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_não_tenho_certeza.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_não_tenho_certeza.mp3"
   },
   {
     "id": "pt_soc_034",
@@ -5637,7 +6070,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_concordo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_concordo.mp3"
   },
   {
     "id": "pt_soc_035",
@@ -5650,7 +6084,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_isso_é_verdade.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_isso_é_verdade.mp3"
   },
   {
     "id": "pt_soc_036",
@@ -5663,7 +6098,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_não_acho.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_não_acho.mp3"
   },
   {
     "id": "pt_soc_037",
@@ -5676,7 +6112,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_você_tem_razão.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_você_tem_razão.mp3"
   },
   {
     "id": "pt_soc_038",
@@ -5689,7 +6126,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_que_você_pensa_disso.mp3"
   },
   {
     "id": "pt_soc_039",
@@ -5702,7 +6140,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_me_parece_ótimo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_me_parece_ótimo.mp3"
   },
   {
     "id": "pt_soc_040",
@@ -5715,7 +6154,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_desculpe_pelo_atraso.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_desculpe_pelo_atraso.mp3"
   },
   {
     "id": "pt_soc_041",
@@ -5728,7 +6168,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_não_tem_problema.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_não_tem_problema.mp3"
   },
   {
     "id": "pt_soc_042",
@@ -5741,7 +6182,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_foi_minha_culpa.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_foi_minha_culpa.mp3"
   },
   {
     "id": "pt_soc_043",
@@ -5754,7 +6196,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_perdão_pelo_incômodo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_perdão_pelo_incômodo.mp3"
   },
   {
     "id": "pt_soc_044",
@@ -5767,7 +6210,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_não_se_preocupe.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_não_se_preocupe.mp3"
   },
   {
     "id": "pt_soc_045",
@@ -5780,7 +6224,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_poderia_me_ajudar.mp3"
   },
   {
     "id": "pt_soc_046",
@@ -5793,7 +6238,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_claro_que_sim.mp3"
   },
   {
     "id": "pt_soc_047",
@@ -5806,7 +6252,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_obrigado_pela_sua_ajuda.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_obrigado_pela_sua_ajuda.mp3"
   },
   {
     "id": "pt_soc_048",
@@ -5819,7 +6266,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_de_nada_é_um_prazer.mp3"
   },
   {
     "id": "pt_soc_049",
@@ -5832,7 +6280,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_como_você_tem_passado.mp3"
   },
   {
     "id": "pt_soc_050",
@@ -5845,7 +6294,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tudo_bem_e_você.mp3"
   },
   {
     "id": "pt_soc_051",
@@ -5858,7 +6308,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenho_que_ir_agora.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenho_que_ir_agora.mp3"
   },
   {
     "id": "pt_soc_052",
@@ -5871,7 +6322,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_foi_um_prazer.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_foi_um_prazer.mp3"
   },
   {
     "id": "pt_soc_053",
@@ -5884,7 +6336,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_manter_contato.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_manter_contato.mp3"
   },
   {
     "id": "pt_soc_054",
@@ -5897,7 +6350,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenha_um_bom_dia.mp3"
   },
   {
     "id": "pt_soc_055",
@@ -5910,7 +6364,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_me_ligue_quando_puder.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_me_ligue_quando_puder.mp3"
   },
   {
     "id": "pt_soc_056",
@@ -5923,7 +6378,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_me_mande_uma_mensagem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_me_mande_uma_mensagem.mp3"
   },
   {
     "id": "pt_soc_057",
@@ -5936,7 +6392,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_você_tem_e-mail.mp3"
   },
   {
     "id": "pt_soc_058",
@@ -5949,7 +6406,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_te_escrevo_em_breve.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_te_escrevo_em_breve.mp3"
   },
   {
     "id": "pt_soc_059",
@@ -5962,7 +6420,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_cuide-se_bem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_cuide-se_bem.mp3"
   },
   {
     "id": "pt_soc_060",
@@ -5975,7 +6434,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_um_abraço.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_um_abraço.mp3"
   },
   {
     "id": "pt_soc_061",
@@ -5988,7 +6448,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_saudações_à_sua_família.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_saudações_à_sua_família.mp3"
   },
   {
     "id": "pt_soc_062",
@@ -6001,7 +6462,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_parabéns.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_parabéns.mp3"
   },
   {
     "id": "pt_soc_063",
@@ -6014,7 +6476,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_feliz_aniversário.mp3"
   },
   {
     "id": "pt_soc_064",
@@ -6027,7 +6490,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenha_sorte.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenha_sorte.mp3"
   },
   {
     "id": "pt_soc_065",
@@ -6040,7 +6504,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_boa_viagem.mp3"
   },
   {
     "id": "pt_soc_066",
@@ -6053,7 +6518,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_bom_apetite.mp3"
   },
   {
     "id": "pt_soc_067",
@@ -6066,7 +6532,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_saúde.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_saúde.mp3"
   },
   {
     "id": "pt_soc_068",
@@ -6079,7 +6546,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_desculpe_que_horas_são.mp3"
   },
   {
     "id": "pt_soc_069",
@@ -6092,7 +6560,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_são_três_horas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_são_três_horas.mp3"
   },
   {
     "id": "pt_soc_070",
@@ -6105,7 +6574,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_obrigado_por_avisar.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_obrigado_por_avisar.mp3"
   },
   {
     "id": "pt_soc_071",
@@ -6118,7 +6588,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_de_nada_estamos_aqui_para_isso.mp3"
   },
   {
     "id": "pt_soc_072",
@@ -6131,7 +6602,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_você_mora_aqui.mp3"
   },
   {
     "id": "pt_soc_073",
@@ -6144,7 +6616,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sim_há_pouco_tempo.mp3"
   },
   {
     "id": "pt_soc_074",
@@ -6157,7 +6630,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_você_trabalha_ou_estuda.mp3"
   },
   {
     "id": "pt_soc_075",
@@ -6170,7 +6644,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_ambas_as_coisas.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_ambas_as_coisas.mp3"
   },
   {
     "id": "pt_soc_076",
@@ -6183,7 +6658,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_que_interessante.mp3"
   },
   {
     "id": "pt_soc_077",
@@ -6196,7 +6672,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_me_conte_mais_sobre_isso.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_me_conte_mais_sobre_isso.mp3"
   },
   {
     "id": "pt_soc_078",
@@ -6209,7 +6686,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_não_tenho_muito_tempo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_não_tenho_muito_tempo.mp3"
   },
   {
     "id": "pt_soc_079",
@@ -6222,7 +6700,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_te_entendo.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_te_entendo.mp3"
   },
   {
     "id": "pt_soc_080",
@@ -6235,7 +6714,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_falamos_depois.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_falamos_depois.mp3"
   },
   {
     "id": "pt_soc_081",
@@ -6248,7 +6728,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_você_me_entende.mp3"
   },
   {
     "id": "pt_soc_082",
@@ -6261,7 +6742,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_sim_eu_te_entendo_bem.mp3"
   },
   {
     "id": "pt_soc_083",
@@ -6274,7 +6756,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_um_pouco_difícil.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_um_pouco_difícil.mp3"
   },
   {
     "id": "pt_soc_084",
@@ -6287,7 +6770,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_ânimo.mp3"
   },
   {
     "id": "pt_soc_085",
@@ -6300,7 +6784,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_você_está_indo_bem.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_você_está_indo_bem.mp3"
   },
   {
     "id": "pt_soc_086",
@@ -6313,7 +6798,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_não_desista.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_não_desista.mp3"
   },
   {
     "id": "pt_soc_087",
@@ -6326,7 +6812,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_você_é_muito_gentil.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_você_é_muito_gentil.mp3"
   },
   {
     "id": "pt_soc_088",
@@ -6339,7 +6826,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_que_atencioso_você_é.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_que_atencioso_você_é.mp3"
   },
   {
     "id": "pt_soc_089",
@@ -6352,7 +6840,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_você_é_muito_generoso.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_você_é_muito_generoso.mp3"
   },
   {
     "id": "pt_soc_090",
@@ -6365,7 +6854,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_valorizo_sua_opinião.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_valorizo_sua_opinião.mp3"
   },
   {
     "id": "pt_soc_091",
@@ -6378,7 +6868,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_fico_feliz_por_você.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_fico_feliz_por_você.mp3"
   },
   {
     "id": "pt_soc_092",
@@ -6391,7 +6882,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_isso_é_genial.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_isso_é_genial.mp3"
   },
   {
     "id": "pt_soc_093",
@@ -6404,7 +6896,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_é_importante_conversar.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_é_importante_conversar.mp3"
   },
   {
     "id": "pt_soc_094",
@@ -6417,7 +6910,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_vamos_comer_juntos.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_vamos_comer_juntos.mp3"
   },
   {
     "id": "pt_soc_095",
@@ -6430,7 +6924,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_eu_adoraria.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_eu_adoraria.mp3"
   },
   {
     "id": "pt_soc_096",
@@ -6443,7 +6938,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_te_ligarei_em_breve.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_te_ligarei_em_breve.mp3"
   },
   {
     "id": "pt_soc_097",
@@ -6456,7 +6952,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_espero_sua_ligação.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_espero_sua_ligação.mp3"
   },
   {
     "id": "pt_soc_098",
@@ -6469,7 +6966,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_tenha_uma_boa_tarde.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tenha_uma_boa_tarde.mp3"
   },
   {
     "id": "pt_soc_099",
@@ -6482,7 +6980,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_até_amanhã.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_até_amanhã.mp3"
   },
   {
     "id": "pt_soc_100",
@@ -6495,6 +6994,7 @@
     ],
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_foi_um_prazer.mp3"
-    }
+    },
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_foi_um_prazer.mp3"
   }
 ]

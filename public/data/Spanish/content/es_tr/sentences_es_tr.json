@@ -10,7 +10,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_despierto_temprano.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_despierto_temprano.mp3"
   },
   {
     "id": "es_sent_002",
@@ -23,7 +24,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_abro_la_ventana.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_abro_la_ventana.mp3"
   },
   {
     "id": "es_sent_003",
@@ -36,7 +38,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_preparo_el_desayuno.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_preparo_el_desayuno.mp3"
   },
   {
     "id": "es_sent_004",
@@ -49,7 +52,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_bebo_un_café.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_bebo_un_café.mp3"
   },
   {
     "id": "es_sent_005",
@@ -62,7 +66,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_limpio_la_cocina.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_limpio_la_cocina.mp3"
   },
   {
     "id": "es_sent_006",
@@ -75,7 +80,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hago_la_cama.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hago_la_cama.mp3"
   },
   {
     "id": "es_sent_007",
@@ -88,7 +94,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_casa_está_limpia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_casa_está_limpia.mp3"
   },
   {
     "id": "es_sent_008",
@@ -101,7 +108,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_necesito_lavar_la_ropa.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesito_lavar_la_ropa.mp3"
   },
   {
     "id": "es_sent_009",
@@ -114,7 +122,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_plancho_las_camisas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_plancho_las_camisas.mp3"
   },
   {
     "id": "es_sent_010",
@@ -127,7 +136,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_enciendo_la_luz.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_enciendo_la_luz.mp3"
   },
   {
     "id": "es_sent_011",
@@ -140,7 +150,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_apago_el_televisor.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_apago_el_televisor.mp3"
   },
   {
     "id": "es_sent_012",
@@ -153,7 +164,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cierro_la_puerta.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cierro_la_puerta.mp3"
   },
   {
     "id": "es_sent_013",
@@ -166,7 +178,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_mis_llaves.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_mis_llaves.mp3"
   },
   {
     "id": "es_sent_014",
@@ -179,7 +192,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_encuentro_mis_gafas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_encuentro_mis_gafas.mp3"
   },
   {
     "id": "es_sent_015",
@@ -192,7 +206,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_pongo_la_mesa.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_pongo_la_mesa.mp3"
   },
   {
     "id": "es_sent_016",
@@ -205,7 +220,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cocino_algo_rico.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cocino_algo_rico.mp3"
   },
   {
     "id": "es_sent_017",
@@ -218,7 +234,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_como_con_mi_familia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_como_con_mi_familia.mp3"
   },
   {
     "id": "es_sent_018",
@@ -231,7 +248,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_lavo_los_platos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_lavo_los_platos.mp3"
   },
   {
     "id": "es_sent_019",
@@ -244,7 +262,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_necesito_más_azúcar.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesito_más_azúcar.mp3"
   },
   {
     "id": "es_sent_020",
@@ -257,7 +276,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_pasa_la_sal_por_favor.mp3"
   },
   {
     "id": "es_sent_021",
@@ -270,7 +290,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_sopa_está_caliente.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_sopa_está_caliente.mp3"
   },
   {
     "id": "es_sent_022",
@@ -283,7 +304,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_gusta_el_café_solo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_gusta_el_café_solo.mp3"
   },
   {
     "id": "es_sent_023",
@@ -296,7 +318,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hay_leche_en_el_frigorífico.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hay_leche_en_el_frigorífico.mp3"
   },
   {
     "id": "es_sent_024",
@@ -309,7 +332,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_mucho_trabajo_hoy.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_mucho_trabajo_hoy.mp3"
   },
   {
     "id": "es_sent_025",
@@ -322,7 +346,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_trabajo_desde_casa.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_trabajo_desde_casa.mp3"
   },
   {
     "id": "es_sent_026",
@@ -335,7 +360,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_ordenador_no_funciona.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_ordenador_no_funciona.mp3"
   },
   {
     "id": "es_sent_027",
@@ -348,7 +374,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_un_bolígrafo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_un_bolígrafo.mp3"
   },
   {
     "id": "es_sent_028",
@@ -361,7 +388,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_escribo_en_mi_cuaderno.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_escribo_en_mi_cuaderno.mp3"
   },
   {
     "id": "es_sent_029",
@@ -374,7 +402,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_casa_es_muy_acogedora.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_casa_es_muy_acogedora.mp3"
   },
   {
     "id": "es_sent_030",
@@ -387,7 +416,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_salón_es_grande.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_salón_es_grande.mp3"
   },
   {
     "id": "es_sent_031",
@@ -400,7 +430,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mi_dormitorio_es_pequeño.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mi_dormitorio_es_pequeño.mp3"
   },
   {
     "id": "es_sent_032",
@@ -413,7 +444,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_jardín_es_bonito.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_jardín_es_bonito.mp3"
   },
   {
     "id": "es_sent_033",
@@ -426,7 +458,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hay_flores_frescas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hay_flores_frescas.mp3"
   },
   {
     "id": "es_sent_034",
@@ -439,7 +472,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_escucho_música_suave.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_escucho_música_suave.mp3"
   },
   {
     "id": "es_sent_035",
@@ -452,7 +486,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_leo_un_libro_interesante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_leo_un_libro_interesante.mp3"
   },
   {
     "id": "es_sent_036",
@@ -478,7 +513,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_quiero_descansar_un_poco.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quiero_descansar_un_poco.mp3"
   },
   {
     "id": "es_sent_038",
@@ -491,7 +527,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_siento_feliz_aquí.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_siento_feliz_aquí.mp3"
   },
   {
     "id": "es_sent_039",
@@ -504,7 +541,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hora_de_dormir.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hora_de_dormir.mp3"
   },
   {
     "id": "es_sent_040",
@@ -517,7 +555,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_buenas_noches_familia.mp3"
   },
   {
     "id": "es_sent_041",
@@ -530,7 +569,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mañana_será_otro_día.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mañana_será_otro_día.mp3"
   },
   {
     "id": "es_sent_042",
@@ -543,7 +583,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_todo_está_en_su_sitio.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_todo_está_en_su_sitio.mp3"
   },
   {
     "id": "es_sent_043",
@@ -556,7 +597,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_no_olvides_regar_las_plantas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_no_olvides_regar_las_plantas.mp3"
   },
   {
     "id": "es_sent_044",
@@ -569,7 +611,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_luz_está_encendida.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_luz_está_encendida.mp3"
   },
   {
     "id": "es_sent_045",
@@ -582,7 +625,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_agua_está_muy_fría.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_agua_está_muy_fría.mp3"
   },
   {
     "id": "es_sent_046",
@@ -595,7 +639,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_que_ordenar_mi_cuarto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_que_ordenar_mi_cuarto.mp3"
   },
   {
     "id": "es_sent_047",
@@ -608,7 +653,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_pongo_el_pijama.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_pongo_el_pijama.mp3"
   },
   {
     "id": "es_sent_048",
@@ -621,7 +667,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_despertador_suena.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_despertador_suena.mp3"
   },
   {
     "id": "es_sent_049",
@@ -634,7 +681,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_día_soleado.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_día_soleado.mp3"
   },
   {
     "id": "es_sent_050",
@@ -647,7 +695,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_dónde_está_el_teléfono.mp3"
   },
   {
     "id": "es_sent_051",
@@ -660,7 +709,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_está_en_el_sofá.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_está_en_el_sofá.mp3"
   },
   {
     "id": "es_sent_052",
@@ -673,7 +723,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_hambre.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_hambre.mp3"
   },
   {
     "id": "es_sent_053",
@@ -686,7 +737,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_qué_hay_para_cenar.mp3"
   },
   {
     "id": "es_sent_054",
@@ -699,7 +751,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_preparo_una_ensalada.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_preparo_una_ensalada.mp3"
   },
   {
     "id": "es_sent_055",
@@ -712,7 +765,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_carne_está_rica.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_carne_está_rica.mp3"
   },
   {
     "id": "es_sent_056",
@@ -725,7 +779,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quiero_pan_por_favor.mp3"
   },
   {
     "id": "es_sent_057",
@@ -738,7 +793,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_postre_es_excelente.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_postre_es_excelente.mp3"
   },
   {
     "id": "es_sent_058",
@@ -751,7 +807,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_guardo_la_comida_en_el_frío.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_guardo_la_comida_en_el_frío.mp3"
   },
   {
     "id": "es_sent_059",
@@ -764,7 +821,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hay_mucho_desorden_aquí.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hay_mucho_desorden_aquí.mp3"
   },
   {
     "id": "es_sent_060",
@@ -777,7 +835,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_debo_sacar_la_basura.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_debo_sacar_la_basura.mp3"
   },
   {
     "id": "es_sent_061",
@@ -790,7 +849,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_llave_no_entra_bien.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_llave_no_entra_bien.mp3"
   },
   {
     "id": "es_sent_062",
@@ -803,7 +863,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_necesito_un_martillo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesito_un_martillo.mp3"
   },
   {
     "id": "es_sent_063",
@@ -816,7 +877,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_lámpara_está_rota.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_lámpara_está_rota.mp3"
   },
   {
     "id": "es_sent_064",
@@ -829,7 +891,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cambio_la_bombilla.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cambio_la_bombilla.mp3"
   },
   {
     "id": "es_sent_065",
@@ -842,7 +905,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_abro_el_armario.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_abro_el_armario.mp3"
   },
   {
     "id": "es_sent_066",
@@ -855,7 +919,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_mi_abrigo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_mi_abrigo.mp3"
   },
   {
     "id": "es_sent_067",
@@ -868,7 +933,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_está_detrás_de_la_puerta.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_está_detrás_de_la_puerta.mp3"
   },
   {
     "id": "es_sent_068",
@@ -881,7 +947,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_frío.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_frío.mp3"
   },
   {
     "id": "es_sent_069",
@@ -894,7 +961,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cierro_la_ventana.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cierro_la_ventana.mp3"
   },
   {
     "id": "es_sent_070",
@@ -907,7 +975,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_pongo_la_calefacción.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_pongo_la_calefacción.mp3"
   },
   {
     "id": "es_sent_071",
@@ -920,7 +989,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_ambiente_es_caluroso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_ambiente_es_caluroso.mp3"
   },
   {
     "id": "es_sent_072",
@@ -933,7 +1003,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_relajo_un_poco.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_relajo_un_poco.mp3"
   },
   {
     "id": "es_sent_073",
@@ -946,7 +1017,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_veo_una_película.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_veo_una_película.mp3"
   },
   {
     "id": "es_sent_074",
@@ -959,7 +1031,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_sofá_es_muy_cómodo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_sofá_es_muy_cómodo.mp3"
   },
   {
     "id": "es_sent_075",
@@ -972,7 +1045,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_bebo_un_zumo_de_naranja.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_bebo_un_zumo_de_naranja.mp3"
   },
   {
     "id": "es_sent_076",
@@ -985,7 +1059,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_muy_refrescante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_muy_refrescante.mp3"
   },
   {
     "id": "es_sent_077",
@@ -998,7 +1073,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_limpio_el_polvo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_limpio_el_polvo.mp3"
   },
   {
     "id": "es_sent_078",
@@ -1011,7 +1087,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_mesa_está_llena.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_mesa_está_llena.mp3"
   },
   {
     "id": "es_sent_079",
@@ -1024,7 +1101,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_paso_la_aspiradora.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_paso_la_aspiradora.mp3"
   },
   {
     "id": "es_sent_080",
@@ -1037,7 +1115,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_suelo_brilla.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_suelo_brilla.mp3"
   },
   {
     "id": "es_sent_081",
@@ -1050,7 +1129,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_todo_está_en_orden.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_todo_está_en_orden.mp3"
   },
   {
     "id": "es_sent_082",
@@ -1076,7 +1156,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_vida_es_bella.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_vida_es_bella.mp3"
   },
   {
     "id": "es_sent_084",
@@ -1089,7 +1170,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mañana_será_un_gran_día.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mañana_será_un_gran_día.mp3"
   },
   {
     "id": "es_sent_085",
@@ -1102,7 +1184,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_contamos_los_minutos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_contamos_los_minutos.mp3"
   },
   {
     "id": "es_sent_086",
@@ -1115,7 +1198,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_estamos_juntos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_estamos_juntos.mp3"
   },
   {
     "id": "es_sent_087",
@@ -1128,7 +1212,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_casa_es_mi_refugio.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_casa_es_mi_refugio.mp3"
   },
   {
     "id": "es_sent_088",
@@ -1141,7 +1226,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_amo_este_lugar.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_amo_este_lugar.mp3"
   },
   {
     "id": "es_sent_089",
@@ -1154,7 +1240,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_todo_es_maravilloso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_todo_es_maravilloso.mp3"
   },
   {
     "id": "es_sent_090",
@@ -1167,7 +1254,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_familia_es_lo_primero.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_familia_es_lo_primero.mp3"
   },
   {
     "id": "es_sent_091",
@@ -1180,7 +1268,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_nos_divertimos_mucho.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_nos_divertimos_mucho.mp3"
   },
   {
     "id": "es_sent_092",
@@ -1193,7 +1282,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_compartimos_risas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_compartimos_risas.mp3"
   },
   {
     "id": "es_sent_093",
@@ -1206,7 +1296,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hablar_es_importante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hablar_es_importante.mp3"
   },
   {
     "id": "es_sent_094",
@@ -1219,7 +1310,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_escuchamos_a_todos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_escuchamos_a_todos.mp3"
   },
   {
     "id": "es_sent_095",
@@ -1232,7 +1324,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_respeto_es_la_base.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_respeto_es_la_base.mp3"
   },
   {
     "id": "es_sent_096",
@@ -1245,7 +1338,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_gracias_por_todo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_gracias_por_todo.mp3"
   },
   {
     "id": "es_sent_097",
@@ -1258,7 +1352,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_continuamos_adelante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_continuamos_adelante.mp3"
   },
   {
     "id": "es_sent_098",
@@ -1271,7 +1366,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_somos_un_equipo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_somos_un_equipo.mp3"
   },
   {
     "id": "es_sent_099",
@@ -1284,7 +1380,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_paz_es_fundamental.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_paz_es_fundamental.mp3"
   },
   {
     "id": "es_sent_100",
@@ -1297,7 +1394,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_hogar_está_donde_está_el_corazón.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_hogar_está_donde_está_el_corazón.mp3"
   },
   {
     "id": "es_prof_001",
@@ -1310,7 +1408,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_una_reunión_importante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_una_reunión_importante.mp3"
   },
   {
     "id": "es_prof_002",
@@ -1323,7 +1422,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_podemos_empezar_la_presentación.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_podemos_empezar_la_presentación.mp3"
   },
   {
     "id": "es_prof_003",
@@ -1336,7 +1436,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_necesito_su_opinión_profesional.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesito_su_opinión_profesional.mp3"
   },
   {
     "id": "es_prof_004",
@@ -1349,7 +1450,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_proyecto_va_bien.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_proyecto_va_bien.mp3"
   },
   {
     "id": "es_prof_005",
@@ -1362,7 +1464,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_envíeme_el_informe_por_correo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_envíeme_el_informe_por_correo.mp3"
   },
   {
     "id": "es_prof_006",
@@ -1375,7 +1478,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_estoy_trabajando_en_el_presupuesto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_estoy_trabajando_en_el_presupuesto.mp3"
   },
   {
     "id": "es_prof_007",
@@ -1388,7 +1492,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tenemos_que_cumplir_el_plazo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tenemos_que_cumplir_el_plazo.mp3"
   },
   {
     "id": "es_prof_008",
@@ -1401,7 +1506,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mañana_tengo_una_entrevista.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mañana_tengo_una_entrevista.mp3"
   },
   {
     "id": "es_prof_009",
@@ -1414,7 +1520,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hablemos_de_los_objetivos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hablemos_de_los_objetivos.mp3"
   },
   {
     "id": "es_prof_010",
@@ -1427,7 +1534,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_una_excelente_oportunidad.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_una_excelente_oportunidad.mp3"
   },
   {
     "id": "es_prof_011",
@@ -1440,7 +1548,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_debemos_mejorar_la_eficiencia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_debemos_mejorar_la_eficiencia.mp3"
   },
   {
     "id": "es_prof_012",
@@ -1453,7 +1562,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_confío_en_su_equipo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_confío_en_su_equipo.mp3"
   },
   {
     "id": "es_prof_013",
@@ -1466,7 +1576,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_contrato_está_listo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_contrato_está_listo.mp3"
   },
   {
     "id": "es_prof_014",
@@ -1479,7 +1590,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_vamos_a_analizar_los_resultados.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_vamos_a_analizar_los_resultados.mp3"
   },
   {
     "id": "es_prof_015",
@@ -1492,7 +1604,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_no_hay_ningún_problema.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_no_hay_ningún_problema.mp3"
   },
   {
     "id": "es_prof_016",
@@ -1505,7 +1618,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_he_recibido_su_mensaje.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_he_recibido_su_mensaje.mp3"
   },
   {
     "id": "es_prof_017",
@@ -1518,7 +1632,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_gracias_por_su_colaboración.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_gracias_por_su_colaboración.mp3"
   },
   {
     "id": "es_prof_018",
@@ -1531,7 +1646,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_estoy_de_acuerdo_con_usted.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_estoy_de_acuerdo_con_usted.mp3"
   },
   {
     "id": "es_prof_019",
@@ -1544,7 +1660,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hay_mucho_trabajo_pendiente.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hay_mucho_trabajo_pendiente.mp3"
   },
   {
     "id": "es_prof_020",
@@ -1557,7 +1674,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_prioridad_es_el_cliente.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_prioridad_es_el_cliente.mp3"
   },
   {
     "id": "es_prof_021",
@@ -1570,7 +1688,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_organice_la_agenda_por_favor.mp3"
   },
   {
     "id": "es_prof_022",
@@ -1583,7 +1702,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busquemos_soluciones_creativas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busquemos_soluciones_creativas.mp3"
   },
   {
     "id": "es_prof_023",
@@ -1596,7 +1716,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_informe_es_confidencial.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_informe_es_confidencial.mp3"
   },
   {
     "id": "es_prof_024",
@@ -1609,7 +1730,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_vamos_paso_a_paso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_vamos_paso_a_paso.mp3"
   },
   {
     "id": "es_prof_025",
@@ -1622,7 +1744,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_equipo_muy_trabajador.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_equipo_muy_trabajador.mp3"
   },
   {
     "id": "es_prof_026",
@@ -1635,7 +1758,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_oferta_vence_hoy.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_oferta_vence_hoy.mp3"
   },
   {
     "id": "es_prof_027",
@@ -1648,7 +1772,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tenga_cuidado_con_el_detalle.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tenga_cuidado_con_el_detalle.mp3"
   },
   {
     "id": "es_prof_028",
@@ -1661,7 +1786,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_necesito_más_recursos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesito_más_recursos.mp3"
   },
   {
     "id": "es_prof_029",
@@ -1674,7 +1800,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_estamos_en_contacto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_estamos_en_contacto.mp3"
   },
   {
     "id": "es_prof_030",
@@ -1687,7 +1814,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_beneficio_aumentó.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_beneficio_aumentó.mp3"
   },
   {
     "id": "es_prof_031",
@@ -1700,7 +1828,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_necesario_el_compromiso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesario_el_compromiso.mp3"
   },
   {
     "id": "es_prof_032",
@@ -1713,7 +1842,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_vamos_a_evaluar_el_desempeño.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_vamos_a_evaluar_el_desempeño.mp3"
   },
   {
     "id": "es_prof_033",
@@ -1726,7 +1856,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mantenga_la_calma.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mantenga_la_calma.mp3"
   },
   {
     "id": "es_prof_034",
@@ -1739,7 +1870,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_todo_está_bajo_control.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_todo_está_bajo_control.mp3"
   },
   {
     "id": "es_prof_035",
@@ -1752,7 +1884,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_llame_a_la_oficina.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_llame_a_la_oficina.mp3"
   },
   {
     "id": "es_prof_036",
@@ -1765,7 +1898,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tenemos_mucha_experiencia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tenemos_mucha_experiencia.mp3"
   },
   {
     "id": "es_prof_037",
@@ -1778,7 +1912,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_calidad_es_fundamental.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_calidad_es_fundamental.mp3"
   },
   {
     "id": "es_prof_038",
@@ -1791,7 +1926,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hay_que_innovar_siempre.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hay_que_innovar_siempre.mp3"
   },
   {
     "id": "es_prof_039",
@@ -1804,7 +1940,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hagamos_un_esfuerzo_extra.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hagamos_un_esfuerzo_extra.mp3"
   },
   {
     "id": "es_prof_040",
@@ -1817,7 +1954,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_mercado_global.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_mercado_global.mp3"
   },
   {
     "id": "es_prof_041",
@@ -1830,7 +1968,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_firme_aquí_por_favor.mp3"
   },
   {
     "id": "es_prof_042",
@@ -1843,7 +1982,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_estrategia_es_clara.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_estrategia_es_clara.mp3"
   },
   {
     "id": "es_prof_043",
@@ -1856,7 +1996,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_necesitamos_un_nuevo_plan.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesitamos_un_nuevo_plan.mp3"
   },
   {
     "id": "es_prof_044",
@@ -1869,7 +2010,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_cliente_exigente.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_cliente_exigente.mp3"
   },
   {
     "id": "es_prof_045",
@@ -1882,7 +2024,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_escuchemos_al_cliente.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_escuchemos_al_cliente.mp3"
   },
   {
     "id": "es_prof_046",
@@ -1895,7 +2038,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_comunicación_es_vital.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_comunicación_es_vital.mp3"
   },
   {
     "id": "es_prof_047",
@@ -1908,7 +2052,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_gestione_bien_su_tiempo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_gestione_bien_su_tiempo.mp3"
   },
   {
     "id": "es_prof_048",
@@ -1921,7 +2066,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_trabajo_es_gratificante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_trabajo_es_gratificante.mp3"
   },
   {
     "id": "es_prof_049",
@@ -1934,7 +2080,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tenga_una_visión_clara.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tenga_una_visión_clara.mp3"
   },
   {
     "id": "es_prof_050",
@@ -1947,7 +2094,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_debemos_liderar_el_mercado.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_debemos_liderar_el_mercado.mp3"
   },
   {
     "id": "es_prof_051",
@@ -1960,7 +2108,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hora_de_crecer.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hora_de_crecer.mp3"
   },
   {
     "id": "es_prof_052",
@@ -1973,7 +2122,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_formación_es_constante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_formación_es_constante.mp3"
   },
   {
     "id": "es_prof_053",
@@ -1986,7 +2136,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_valore_el_talento.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_valore_el_talento.mp3"
   },
   {
     "id": "es_prof_054",
@@ -1999,7 +2150,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_buen_líder.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_buen_líder.mp3"
   },
   {
     "id": "es_prof_055",
@@ -2012,7 +2164,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_honestidad_es_clave.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_honestidad_es_clave.mp3"
   },
   {
     "id": "es_prof_056",
@@ -2025,7 +2178,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_estamos_comprometidos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_estamos_comprometidos.mp3"
   },
   {
     "id": "es_prof_057",
@@ -2038,7 +2192,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_valor_añadido_es_esto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_valor_añadido_es_esto.mp3"
   },
   {
     "id": "es_prof_058",
@@ -2051,7 +2206,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_analice_los_datos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_analice_los_datos.mp3"
   },
   {
     "id": "es_prof_059",
@@ -2064,7 +2220,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_seamos_más_eficaces.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_seamos_más_eficaces.mp3"
   },
   {
     "id": "es_prof_060",
@@ -2077,7 +2234,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_una_gran_ventaja.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_una_gran_ventaja.mp3"
   },
   {
     "id": "es_prof_061",
@@ -2090,7 +2248,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_evite_riesgos_innecesarios.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_evite_riesgos_innecesarios.mp3"
   },
   {
     "id": "es_prof_062",
@@ -2103,7 +2262,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_visión_es_de_futuro.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_visión_es_de_futuro.mp3"
   },
   {
     "id": "es_prof_063",
@@ -2116,7 +2276,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_trabajemos_con_entusiasmo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_trabajemos_con_entusiasmo.mp3"
   },
   {
     "id": "es_prof_064",
@@ -2129,7 +2290,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_orden_es_vital.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_orden_es_vital.mp3"
   },
   {
     "id": "es_prof_065",
@@ -2142,7 +2304,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_no_se_rinda.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_no_se_rinda.mp3"
   },
   {
     "id": "es_prof_066",
@@ -2155,7 +2318,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_perseverancia_es_buena.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_perseverancia_es_buena.mp3"
   },
   {
     "id": "es_prof_067",
@@ -2168,7 +2332,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_entorno_dinámico.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_entorno_dinámico.mp3"
   },
   {
     "id": "es_prof_068",
@@ -2181,7 +2346,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_cliente_es_primero.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_cliente_es_primero.mp3"
   },
   {
     "id": "es_prof_069",
@@ -2194,7 +2360,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_debemos_adaptarnos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_debemos_adaptarnos.mp3"
   },
   {
     "id": "es_prof_070",
@@ -2207,7 +2374,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_feedback_es_útil.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_feedback_es_útil.mp3"
   },
   {
     "id": "es_prof_071",
@@ -2220,7 +2388,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tome_las_riendas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tome_las_riendas.mp3"
   },
   {
     "id": "es_prof_072",
@@ -2233,7 +2402,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_proyecto_ambicioso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_proyecto_ambicioso.mp3"
   },
   {
     "id": "es_prof_073",
@@ -2246,7 +2416,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_fomente_el_aprendizaje.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_fomente_el_aprendizaje.mp3"
   },
   {
     "id": "es_prof_074",
@@ -2259,7 +2430,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_planificación_es_clave.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_planificación_es_clave.mp3"
   },
   {
     "id": "es_prof_075",
@@ -2272,7 +2444,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_actúe_con_profesionalismo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_actúe_con_profesionalismo.mp3"
   },
   {
     "id": "es_prof_076",
@@ -2285,7 +2458,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_trabajo_en_equipo_suma.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_trabajo_en_equipo_suma.mp3"
   },
   {
     "id": "es_prof_077",
@@ -2298,7 +2472,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tenemos_metas_altas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tenemos_metas_altas.mp3"
   },
   {
     "id": "es_prof_078",
@@ -2311,7 +2486,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busque_la_excelencia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busque_la_excelencia.mp3"
   },
   {
     "id": "es_prof_079",
@@ -2324,7 +2500,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_disciplina_es_necesaria.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_disciplina_es_necesaria.mp3"
   },
   {
     "id": "es_prof_080",
@@ -2337,7 +2514,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_valore_su_tiempo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_valore_su_tiempo.mp3"
   },
   {
     "id": "es_prof_081",
@@ -2350,7 +2528,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_paso_adelante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_paso_adelante.mp3"
   },
   {
     "id": "es_prof_082",
@@ -2363,7 +2542,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_solución_es_esta.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_solución_es_esta.mp3"
   },
   {
     "id": "es_prof_083",
@@ -2376,7 +2556,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hable_claro_y_directo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hable_claro_y_directo.mp3"
   },
   {
     "id": "es_prof_084",
@@ -2389,7 +2570,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_ética_es_importante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_ética_es_importante.mp3"
   },
   {
     "id": "es_prof_085",
@@ -2402,7 +2584,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_estamos_creciendo_mucho.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_estamos_creciendo_mucho.mp3"
   },
   {
     "id": "es_prof_086",
@@ -2415,7 +2598,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_entorno_seguro.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_entorno_seguro.mp3"
   },
   {
     "id": "es_prof_087",
@@ -2428,7 +2612,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_motivación_es_esencial.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_motivación_es_esencial.mp3"
   },
   {
     "id": "es_prof_088",
@@ -2441,7 +2626,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_proponga_ideas_nuevas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_proponga_ideas_nuevas.mp3"
   },
   {
     "id": "es_prof_089",
@@ -2454,7 +2640,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mantenga_el_enfoque.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mantenga_el_enfoque.mp3"
   },
   {
     "id": "es_prof_090",
@@ -2467,7 +2654,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_detalle_marca_diferencia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_detalle_marca_diferencia.mp3"
   },
   {
     "id": "es_prof_091",
@@ -2480,7 +2668,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_gran_compromiso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_gran_compromiso.mp3"
   },
   {
     "id": "es_prof_092",
@@ -2493,7 +2682,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_cultura_es_inclusiva.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_cultura_es_inclusiva.mp3"
   },
   {
     "id": "es_prof_093",
@@ -2506,7 +2696,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_queremos_impacto_positivo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_queremos_impacto_positivo.mp3"
   },
   {
     "id": "es_prof_094",
@@ -2519,7 +2710,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_sea_proactivo_siempre.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_sea_proactivo_siempre.mp3"
   },
   {
     "id": "es_prof_095",
@@ -2532,7 +2724,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cumpla_sus_promesas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cumpla_sus_promesas.mp3"
   },
   {
     "id": "es_prof_096",
@@ -2545,7 +2738,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_confianza_se_gana.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_confianza_se_gana.mp3"
   },
   {
     "id": "es_prof_097",
@@ -2558,7 +2752,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hora_de_destacar.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hora_de_destacar.mp3"
   },
   {
     "id": "es_prof_098",
@@ -2571,7 +2766,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tenga_mente_abierta.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tenga_mente_abierta.mp3"
   },
   {
     "id": "es_prof_099",
@@ -2584,7 +2780,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_éxito_es_compartido.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_éxito_es_compartido.mp3"
   },
   {
     "id": "es_prof_100",
@@ -2597,7 +2794,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_sigamos_avanzando.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_sigamos_avanzando.mp3"
   },
   {
     "id": "es_learn_001",
@@ -2610,7 +2808,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_nunca_dejo_de_aprender.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_nunca_dejo_de_aprender.mp3"
   },
   {
     "id": "es_learn_002",
@@ -2623,7 +2822,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_conocimiento_es_poder.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_conocimiento_es_poder.mp3"
   },
   {
     "id": "es_learn_003",
@@ -2636,7 +2836,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cada_día_aprendo_algo_nuevo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cada_día_aprendo_algo_nuevo.mp3"
   },
   {
     "id": "es_learn_004",
@@ -2649,7 +2850,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_curiosidad_es_fundamental.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_curiosidad_es_fundamental.mp3"
   },
   {
     "id": "es_learn_005",
@@ -2662,7 +2864,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_gusta_superar_desafíos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_gusta_superar_desafíos.mp3"
   },
   {
     "id": "es_learn_006",
@@ -2675,7 +2878,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_una_mente_abierta.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_una_mente_abierta.mp3"
   },
   {
     "id": "es_learn_007",
@@ -2688,7 +2892,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_práctica_hace_al_maestro.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_práctica_hace_al_maestro.mp3"
   },
   {
     "id": "es_learn_008",
@@ -2701,7 +2906,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_pienso_antes_de_actuar.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_pienso_antes_de_actuar.mp3"
   },
   {
     "id": "es_learn_009",
@@ -2714,7 +2920,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_quiero_mejorar_mis_habilidades.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quiero_mejorar_mis_habilidades.mp3"
   },
   {
     "id": "es_learn_010",
@@ -2727,7 +2934,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_lectura_expande_la_mente.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_lectura_expande_la_mente.mp3"
   },
   {
     "id": "es_learn_011",
@@ -2740,7 +2948,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_analizo_mis_errores.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_analizo_mis_errores.mp3"
   },
   {
     "id": "es_learn_012",
@@ -2753,7 +2962,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_fracaso_es_aprendizaje.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_fracaso_es_aprendizaje.mp3"
   },
   {
     "id": "es_learn_013",
@@ -2766,7 +2976,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_nuevas_perspectivas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_nuevas_perspectivas.mp3"
   },
   {
     "id": "es_learn_014",
@@ -2779,7 +2990,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_disciplina_es_clave.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_disciplina_es_clave.mp3"
   },
   {
     "id": "es_learn_015",
@@ -2792,7 +3004,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_claros_mis_objetivos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_claros_mis_objetivos.mp3"
   },
   {
     "id": "es_learn_016",
@@ -2805,7 +3018,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_educación_es_un_camino.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_educación_es_un_camino.mp3"
   },
   {
     "id": "es_learn_017",
@@ -2818,7 +3032,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_reflexiono_sobre_mis_acciones.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_reflexiono_sobre_mis_acciones.mp3"
   },
   {
     "id": "es_learn_018",
@@ -2831,7 +3046,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_cambio_es_inevitable.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_cambio_es_inevitable.mp3"
   },
   {
     "id": "es_learn_019",
@@ -2844,7 +3060,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_valoro_la_opinión_ajena.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_valoro_la_opinión_ajena.mp3"
   },
   {
     "id": "es_learn_020",
@@ -2857,7 +3074,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_siempre_sigo_adelante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_siempre_sigo_adelante.mp3"
   },
   {
     "id": "es_learn_021",
@@ -2870,7 +3088,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_enfoco_en_el_presente.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_enfoco_en_el_presente.mp3"
   },
   {
     "id": "es_learn_022",
@@ -2883,7 +3102,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_constante_en_mi_estudio.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_constante_en_mi_estudio.mp3"
   },
   {
     "id": "es_learn_023",
@@ -2896,7 +3116,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_aprendizaje_es_continuo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_aprendizaje_es_continuo.mp3"
   },
   {
     "id": "es_learn_024",
@@ -2909,7 +3130,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_gran_determinación.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_gran_determinación.mp3"
   },
   {
     "id": "es_learn_025",
@@ -2922,7 +3144,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_creatividad_no_tiene_límites.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_creatividad_no_tiene_límites.mp3"
   },
   {
     "id": "es_learn_026",
@@ -2935,7 +3158,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_observo_y_comprendo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_observo_y_comprendo.mp3"
   },
   {
     "id": "es_learn_027",
@@ -2948,7 +3172,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_supero_mis_límites.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_supero_mis_límites.mp3"
   },
   {
     "id": "es_learn_028",
@@ -2961,7 +3186,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_motiva_el_éxito.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_motiva_el_éxito.mp3"
   },
   {
     "id": "es_learn_029",
@@ -2974,7 +3200,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_escucho_para_aprender.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_escucho_para_aprender.mp3"
   },
   {
     "id": "es_learn_030",
@@ -2987,7 +3214,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_paciencia_es_una_virtud.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_paciencia_es_una_virtud.mp3"
   },
   {
     "id": "es_learn_031",
@@ -3000,7 +3228,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_la_verdad.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_la_verdad.mp3"
   },
   {
     "id": "es_learn_032",
@@ -3013,7 +3242,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_esfuerzo_trae_resultados.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_esfuerzo_trae_resultados.mp3"
   },
   {
     "id": "es_learn_033",
@@ -3026,7 +3256,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_una_persona_proactiva.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_una_persona_proactiva.mp3"
   },
   {
     "id": "es_learn_034",
@@ -3039,7 +3270,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_analizo_antes_de_decidir.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_analizo_antes_de_decidir.mp3"
   },
   {
     "id": "es_learn_035",
@@ -3052,7 +3284,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_adapto_fácilmente.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_adapto_fácilmente.mp3"
   },
   {
     "id": "es_learn_036",
@@ -3065,7 +3298,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_conocimiento_es_infinito.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_conocimiento_es_infinito.mp3"
   },
   {
     "id": "es_learn_037",
@@ -3078,7 +3312,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_desarrollo_mi_potencial.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_desarrollo_mi_potencial.mp3"
   },
   {
     "id": "es_learn_038",
@@ -3091,7 +3326,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_gran_visión.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_gran_visión.mp3"
   },
   {
     "id": "es_learn_039",
@@ -3104,7 +3340,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_acepto_las_críticas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_acepto_las_críticas.mp3"
   },
   {
     "id": "es_learn_040",
@@ -3117,7 +3354,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_aprendo_de_todos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_aprendo_de_todos.mp3"
   },
   {
     "id": "es_learn_041",
@@ -3130,7 +3368,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_verdad_me_guía.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_verdad_me_guía.mp3"
   },
   {
     "id": "es_learn_042",
@@ -3143,7 +3382,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_muy_optimista.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_muy_optimista.mp3"
   },
   {
     "id": "es_learn_043",
@@ -3156,7 +3396,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_vida_es_aprendizaje.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_vida_es_aprendizaje.mp3"
   },
   {
     "id": "es_learn_044",
@@ -3169,7 +3410,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_nuevas_metas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_nuevas_metas.mp3"
   },
   {
     "id": "es_learn_045",
@@ -3182,7 +3424,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_mente_lógica.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_mente_lógica.mp3"
   },
   {
     "id": "es_learn_046",
@@ -3195,7 +3438,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_tiempo_es_valioso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_tiempo_es_valioso.mp3"
   },
   {
     "id": "es_learn_047",
@@ -3208,7 +3452,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_fomento_mi_crecimiento.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_fomento_mi_crecimiento.mp3"
   },
   {
     "id": "es_learn_048",
@@ -3221,7 +3466,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_todo_es_posible.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_todo_es_posible.mp3"
   },
   {
     "id": "es_learn_049",
@@ -3234,7 +3480,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_crítico_conmigo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_crítico_conmigo.mp3"
   },
   {
     "id": "es_learn_050",
@@ -3247,7 +3494,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_avanzo_día_a_día.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_avanzo_día_a_día.mp3"
   },
   {
     "id": "es_learn_051",
@@ -3260,7 +3508,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_éxito_requiere_tiempo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_éxito_requiere_tiempo.mp3"
   },
   {
     "id": "es_learn_052",
@@ -3273,7 +3522,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_gran_claridad.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_gran_claridad.mp3"
   },
   {
     "id": "es_learn_053",
@@ -3286,7 +3536,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_gusta_investigar.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_gusta_investigar.mp3"
   },
   {
     "id": "es_learn_054",
@@ -3299,7 +3550,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_confianza_aumenta.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_confianza_aumenta.mp3"
   },
   {
     "id": "es_learn_055",
@@ -3312,7 +3564,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tomo_mis_propias_decisiones.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tomo_mis_propias_decisiones.mp3"
   },
   {
     "id": "es_learn_056",
@@ -3325,7 +3578,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_responsable.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_responsable.mp3"
   },
   {
     "id": "es_learn_057",
@@ -3338,7 +3592,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_sabiduría_se_adquiere.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_sabiduría_se_adquiere.mp3"
   },
   {
     "id": "es_learn_058",
@@ -3351,7 +3606,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_la_excelencia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_la_excelencia.mp3"
   },
   {
     "id": "es_learn_059",
@@ -3364,7 +3620,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mi_potencial_es_enorme.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mi_potencial_es_enorme.mp3"
   },
   {
     "id": "es_learn_060",
@@ -3377,7 +3634,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_siempre_hay_mejora.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_siempre_hay_mejora.mp3"
   },
   {
     "id": "es_learn_061",
@@ -3390,7 +3648,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_una_persona_reflexiva.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_una_persona_reflexiva.mp3"
   },
   {
     "id": "es_learn_062",
@@ -3403,7 +3662,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_meta_está_cerca.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_meta_está_cerca.mp3"
   },
   {
     "id": "es_learn_063",
@@ -3416,7 +3676,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_disciplina_propia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_disciplina_propia.mp3"
   },
   {
     "id": "es_learn_064",
@@ -3429,7 +3690,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_honestidad_es_vital.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_honestidad_es_vital.mp3"
   },
   {
     "id": "es_learn_065",
@@ -3442,7 +3704,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cada_paso_cuenta.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cada_paso_cuenta.mp3"
   },
   {
     "id": "es_learn_066",
@@ -3455,7 +3718,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_aprendo_de_mis_vivencias.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_aprendo_de_mis_vivencias.mp3"
   },
   {
     "id": "es_learn_067",
@@ -3468,7 +3732,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_ideas_innovadoras.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_ideas_innovadoras.mp3"
   },
   {
     "id": "es_learn_068",
@@ -3481,7 +3746,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_cambio_me_enseña.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_cambio_me_enseña.mp3"
   },
   {
     "id": "es_learn_069",
@@ -3494,7 +3760,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_siempre_la_calidad.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_siempre_la_calidad.mp3"
   },
   {
     "id": "es_learn_070",
@@ -3507,7 +3774,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_muy_apasionado.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_muy_apasionado.mp3"
   },
   {
     "id": "es_learn_071",
@@ -3520,7 +3788,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_lógica_es_fundamental.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_lógica_es_fundamental.mp3"
   },
   {
     "id": "es_learn_072",
@@ -3533,7 +3802,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_gran_tenacidad.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_gran_tenacidad.mp3"
   },
   {
     "id": "es_learn_073",
@@ -3546,7 +3816,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cada_día_es_distinto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cada_día_es_distinto.mp3"
   },
   {
     "id": "es_learn_074",
@@ -3559,7 +3830,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_escucho_mi_voz_interior.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_escucho_mi_voz_interior.mp3"
   },
   {
     "id": "es_learn_075",
@@ -3572,7 +3844,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_superación_es_mi_meta.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_superación_es_mi_meta.mp3"
   },
   {
     "id": "es_learn_076",
@@ -3585,7 +3858,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_una_mente_brillante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_una_mente_brillante.mp3"
   },
   {
     "id": "es_learn_077",
@@ -3598,7 +3872,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_analizo_los_resultados.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_analizo_los_resultados.mp3"
   },
   {
     "id": "es_learn_078",
@@ -3611,7 +3886,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_práctica_es_necesaria.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_práctica_es_necesaria.mp3"
   },
   {
     "id": "es_learn_079",
@@ -3624,7 +3900,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_muy_persistente.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_muy_persistente.mp3"
   },
   {
     "id": "es_learn_080",
@@ -3637,7 +3914,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_valoro_el_aprendizaje.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_valoro_el_aprendizaje.mp3"
   },
   {
     "id": "es_learn_081",
@@ -3650,7 +3928,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_visión_es_clara.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_visión_es_clara.mp3"
   },
   {
     "id": "es_learn_082",
@@ -3663,7 +3942,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_una_idea_fija.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_una_idea_fija.mp3"
   },
   {
     "id": "es_learn_083",
@@ -3676,7 +3956,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_trabajo_da_frutos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_trabajo_da_frutos.mp3"
   },
   {
     "id": "es_learn_084",
@@ -3689,7 +3970,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_muy_observador.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_muy_observador.mp3"
   },
   {
     "id": "es_learn_085",
@@ -3702,7 +3984,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_mente_se_entrena.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_mente_se_entrena.mp3"
   },
   {
     "id": "es_learn_086",
@@ -3715,7 +3998,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_gran_esperanza.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_gran_esperanza.mp3"
   },
   {
     "id": "es_learn_087",
@@ -3728,7 +4012,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_el_lado_positivo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_el_lado_positivo.mp3"
   },
   {
     "id": "es_learn_088",
@@ -3741,7 +4026,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_inteligencia_crece.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_inteligencia_crece.mp3"
   },
   {
     "id": "es_learn_089",
@@ -3754,7 +4040,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_muy_detallista.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_muy_detallista.mp3"
   },
   {
     "id": "es_learn_090",
@@ -3767,7 +4054,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_camino_es_gratificante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_camino_es_gratificante.mp3"
   },
   {
     "id": "es_learn_091",
@@ -3780,7 +4068,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_nuevas_metas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_nuevas_metas.mp3"
   },
   {
     "id": "es_learn_092",
@@ -3793,7 +4082,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_calma_es_necesaria.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_calma_es_necesaria.mp3"
   },
   {
     "id": "es_learn_093",
@@ -3806,7 +4096,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_esfuerzo_vale_la_pena.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_esfuerzo_vale_la_pena.mp3"
   },
   {
     "id": "es_learn_094",
@@ -3819,7 +4110,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_fiel_a_mis_ideas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_fiel_a_mis_ideas.mp3"
   },
   {
     "id": "es_learn_095",
@@ -3832,7 +4124,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_meta_es_alta.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_meta_es_alta.mp3"
   },
   {
     "id": "es_learn_096",
@@ -3845,7 +4138,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_aprendo_con_alegría.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_aprendo_con_alegría.mp3"
   },
   {
     "id": "es_learn_097",
@@ -3858,7 +4152,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_una_fe_ciega.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_una_fe_ciega.mp3"
   },
   {
     "id": "es_learn_098",
@@ -3871,7 +4166,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_mundo_es_una_escuela.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_mundo_es_una_escuela.mp3"
   },
   {
     "id": "es_learn_099",
@@ -3884,7 +4180,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_muy_creativo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_muy_creativo.mp3"
   },
   {
     "id": "es_learn_100",
@@ -3897,7 +4194,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_sigo_aprendiendo_siempre.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_sigo_aprendiendo_siempre.mp3"
   },
   {
     "id": "es_trav_001",
@@ -3910,7 +4208,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_estoy_buscando_el_hotel.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_estoy_buscando_el_hotel.mp3"
   },
   {
     "id": "es_trav_002",
@@ -3923,7 +4222,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_quiero_comprar_un_billete.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quiero_comprar_un_billete.mp3"
   },
   {
     "id": "es_trav_003",
@@ -3936,7 +4236,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_a_qué_hora_sale_el_tren.mp3"
   },
   {
     "id": "es_trav_004",
@@ -3949,7 +4250,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesito_un_taxi_por_favor.mp3"
   },
   {
     "id": "es_trav_005",
@@ -3962,7 +4264,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_dónde_está_la_estación.mp3"
   },
   {
     "id": "es_trav_006",
@@ -3975,7 +4278,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_una_reserva.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_una_reserva.mp3"
   },
   {
     "id": "es_trav_007",
@@ -3988,7 +4292,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_vuelo_está_retrasado.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_vuelo_está_retrasado.mp3"
   },
   {
     "id": "es_trav_008",
@@ -4001,7 +4306,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_un_restaurante_típico.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_un_restaurante_típico.mp3"
   },
   {
     "id": "es_trav_009",
@@ -4014,7 +4320,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cuánto_cuesta_el_pasaje.mp3"
   },
   {
     "id": "es_trav_010",
@@ -4027,7 +4334,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_gusta_caminar_por_la_ciudad.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_gusta_caminar_por_la_ciudad.mp3"
   },
   {
     "id": "es_trav_011",
@@ -4040,7 +4348,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_voy_a_visitar_el_museo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_voy_a_visitar_el_museo.mp3"
   },
   {
     "id": "es_trav_012",
@@ -4053,7 +4362,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hay_mapas_de_la_zona.mp3"
   },
   {
     "id": "es_trav_013",
@@ -4066,7 +4376,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_perdone_estoy_perdido.mp3"
   },
   {
     "id": "es_trav_014",
@@ -4079,7 +4390,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_este_lugar_es_precioso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_este_lugar_es_precioso.mp3"
   },
   {
     "id": "es_trav_015",
@@ -4092,7 +4404,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_quiero_ver_el_amanecer.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quiero_ver_el_amanecer.mp3"
   },
   {
     "id": "es_trav_016",
@@ -4105,7 +4418,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_vista_es_espectacular.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_vista_es_espectacular.mp3"
   },
   {
     "id": "es_trav_017",
@@ -4118,7 +4432,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_la_parada_de_autobús.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_la_parada_de_autobús.mp3"
   },
   {
     "id": "es_trav_018",
@@ -4131,7 +4446,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_está_lejos_de_aquí.mp3"
   },
   {
     "id": "es_trav_019",
@@ -4144,7 +4460,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_habitación_es_cómoda.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_habitación_es_cómoda.mp3"
   },
   {
     "id": "es_trav_020",
@@ -4157,7 +4474,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_prefiero_viajar_ligero.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_prefiero_viajar_ligero.mp3"
   },
   {
     "id": "es_trav_021",
@@ -4170,7 +4488,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mañana_tomo_el_avión.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mañana_tomo_el_avión.mp3"
   },
   {
     "id": "es_trav_022",
@@ -4183,7 +4502,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_quiero_probar_comida_local.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quiero_probar_comida_local.mp3"
   },
   {
     "id": "es_trav_023",
@@ -4196,7 +4516,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_aventura_comienza_hoy.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_aventura_comienza_hoy.mp3"
   },
   {
     "id": "es_trav_024",
@@ -4209,7 +4530,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cuál_es_la_mejor_ruta.mp3"
   },
   {
     "id": "es_trav_025",
@@ -4222,7 +4544,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_mi_pasaporte_aquí.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_mi_pasaporte_aquí.mp3"
   },
   {
     "id": "es_trav_026",
@@ -4235,7 +4558,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_un_guía_turístico.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_un_guía_turístico.mp3"
   },
   {
     "id": "es_trav_027",
@@ -4248,7 +4572,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_destino_increíble.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_destino_increíble.mp3"
   },
   {
     "id": "es_trav_028",
@@ -4261,7 +4586,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_tren_va_muy_rápido.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_tren_va_muy_rápido.mp3"
   },
   {
     "id": "es_trav_029",
@@ -4274,7 +4600,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_encanta_explorar_caminos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_encanta_explorar_caminos.mp3"
   },
   {
     "id": "es_trav_030",
@@ -4287,7 +4614,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_dónde_hay_un_banco.mp3"
   },
   {
     "id": "es_trav_031",
@@ -4300,7 +4628,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_necesito_cambiar_dinero.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesito_cambiar_dinero.mp3"
   },
   {
     "id": "es_trav_032",
@@ -4313,7 +4642,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_centro_está_cerca.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_centro_está_cerca.mp3"
   },
   {
     "id": "es_trav_033",
@@ -4326,7 +4656,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_quiero_alquilar_un_coche.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quiero_alquilar_un_coche.mp3"
   },
   {
     "id": "es_trav_034",
@@ -4339,7 +4670,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_alojamiento_barato.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_alojamiento_barato.mp3"
   },
   {
     "id": "es_trav_035",
@@ -4352,7 +4684,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_ciudad_es_histórica.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_ciudad_es_histórica.mp3"
   },
   {
     "id": "es_trav_036",
@@ -4365,7 +4698,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mi_primera_vez_aquí.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mi_primera_vez_aquí.mp3"
   },
   {
     "id": "es_trav_037",
@@ -4378,7 +4712,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_todo_está_señalizado.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_todo_está_señalizado.mp3"
   },
   {
     "id": "es_trav_038",
@@ -4391,7 +4726,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_gente_es_amable.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_gente_es_amable.mp3"
   },
   {
     "id": "es_trav_039",
@@ -4404,7 +4740,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_quiero_ver_la_catedral.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quiero_ver_la_catedral.mp3"
   },
   {
     "id": "es_trav_040",
@@ -4417,7 +4754,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_tour_dura_dos_horas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_tour_dura_dos_horas.mp3"
   },
   {
     "id": "es_trav_041",
@@ -4430,7 +4768,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hay_wi-fi_aquí.mp3"
   },
   {
     "id": "es_trav_042",
@@ -4443,7 +4782,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_voy_a_hacer_fotos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_voy_a_hacer_fotos.mp3"
   },
   {
     "id": "es_trav_043",
@@ -4456,7 +4796,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_viaje_de_negocios.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_viaje_de_negocios.mp3"
   },
   {
     "id": "es_trav_044",
@@ -4469,7 +4810,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_prefiero_el_tren_al_autobús.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_prefiero_el_tren_al_autobús.mp3"
   },
   {
     "id": "es_trav_045",
@@ -4482,7 +4824,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_equipaje_es_pesado.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_equipaje_es_pesado.mp3"
   },
   {
     "id": "es_trav_046",
@@ -4495,7 +4838,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_la_puerta_de_embarque.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_la_puerta_de_embarque.mp3"
   },
   {
     "id": "es_trav_047",
@@ -4508,7 +4852,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_tiempo_está_despejado.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_tiempo_está_despejado.mp3"
   },
   {
     "id": "es_trav_048",
@@ -4521,7 +4866,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_gusta_el_turismo_cultural.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_gusta_el_turismo_cultural.mp3"
   },
   {
     "id": "es_trav_049",
@@ -4534,7 +4880,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_cultura_es_fascinante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_cultura_es_fascinante.mp3"
   },
   {
     "id": "es_trav_050",
@@ -4547,7 +4894,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_a_qué_hora_cierran.mp3"
   },
   {
     "id": "es_trav_051",
@@ -4560,7 +4908,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_necesito_descansar_un_poco.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesito_descansar_un_poco.mp3"
   },
   {
     "id": "es_trav_052",
@@ -4573,7 +4922,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_un_buen_itinerario.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_un_buen_itinerario.mp3"
   },
   {
     "id": "es_trav_053",
@@ -4586,7 +4936,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_ciudad_nunca_duerme.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_ciudad_nunca_duerme.mp3"
   },
   {
     "id": "es_trav_054",
@@ -4599,7 +4950,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_paisaje_es_único.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_paisaje_es_único.mp3"
   },
   {
     "id": "es_trav_055",
@@ -4612,7 +4964,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_estoy_disfrutando_el_viaje.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_estoy_disfrutando_el_viaje.mp3"
   },
   {
     "id": "es_trav_056",
@@ -4625,7 +4978,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_un_lugar_tranquilo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_un_lugar_tranquilo.mp3"
   },
   {
     "id": "es_trav_057",
@@ -4638,7 +4992,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_gastronomía_es_genial.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_gastronomía_es_genial.mp3"
   },
   {
     "id": "es_trav_058",
@@ -4651,7 +5006,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hay_mucho_que_ver_hoy.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hay_mucho_que_ver_hoy.mp3"
   },
   {
     "id": "es_trav_059",
@@ -4664,7 +5020,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_clima_es_perfecto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_clima_es_perfecto.mp3"
   },
   {
     "id": "es_trav_060",
@@ -4677,7 +5034,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_vamos_a_otra_ciudad.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_vamos_a_otra_ciudad.mp3"
   },
   {
     "id": "es_trav_061",
@@ -4690,7 +5048,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_camino_es_difícil.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_camino_es_difícil.mp3"
   },
   {
     "id": "es_trav_062",
@@ -4703,7 +5062,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_encanta_la_aventura.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_encanta_la_aventura.mp3"
   },
   {
     "id": "es_trav_063",
@@ -4716,7 +5076,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_el_mirador.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_el_mirador.mp3"
   },
   {
     "id": "es_trav_064",
@@ -4729,7 +5090,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mi_destino_favorito.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mi_destino_favorito.mp3"
   },
   {
     "id": "es_trav_065",
@@ -4742,7 +5104,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_viaje_es_largo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_viaje_es_largo.mp3"
   },
   {
     "id": "es_trav_066",
@@ -4755,7 +5118,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_necesito_un_buen_mapa.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_necesito_un_buen_mapa.mp3"
   },
   {
     "id": "es_trav_067",
@@ -4768,7 +5132,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_aventura_me_llama.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_aventura_me_llama.mp3"
   },
   {
     "id": "es_trav_068",
@@ -4781,7 +5146,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_espero_ver_muchas_cosas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_espero_ver_muchas_cosas.mp3"
   },
   {
     "id": "es_trav_069",
@@ -4794,7 +5160,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_ciudad_tiene_encanto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_ciudad_tiene_encanto.mp3"
   },
   {
     "id": "es_trav_070",
@@ -4807,7 +5174,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_hotel_está_céntrico.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_hotel_está_céntrico.mp3"
   },
   {
     "id": "es_trav_071",
@@ -4820,7 +5188,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_quiero_comprar_recuerdos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quiero_comprar_recuerdos.mp3"
   },
   {
     "id": "es_trav_072",
@@ -4833,7 +5202,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_artesanía_es_bonita.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_artesanía_es_bonita.mp3"
   },
   {
     "id": "es_trav_073",
@@ -4846,7 +5216,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_tour_es_guiado.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_tour_es_guiado.mp3"
   },
   {
     "id": "es_trav_074",
@@ -4859,7 +5230,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_disfruto_cada_momento.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_disfruto_cada_momento.mp3"
   },
   {
     "id": "es_trav_075",
@@ -4872,7 +5244,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_lugar_con_historia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_lugar_con_historia.mp3"
   },
   {
     "id": "es_trav_076",
@@ -4885,7 +5258,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_una_experiencia_única.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_una_experiencia_única.mp3"
   },
   {
     "id": "es_trav_077",
@@ -4898,7 +5272,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_barco_sale_pronto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_barco_sale_pronto.mp3"
   },
   {
     "id": "es_trav_078",
@@ -4911,7 +5286,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_gusta_la_arquitectura.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_gusta_la_arquitectura.mp3"
   },
   {
     "id": "es_trav_079",
@@ -4924,7 +5300,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_iglesia_es_antigua.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_iglesia_es_antigua.mp3"
   },
   {
     "id": "es_trav_080",
@@ -4937,7 +5314,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_sigo_mis_instintos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_sigo_mis_instintos.mp3"
   },
   {
     "id": "es_trav_081",
@@ -4950,7 +5328,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_viaje_nos_une.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_viaje_nos_une.mp3"
   },
   {
     "id": "es_trav_082",
@@ -4963,7 +5342,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_muy_emocionante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_muy_emocionante.mp3"
   },
   {
     "id": "es_trav_083",
@@ -4976,7 +5356,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_llegamos_a_tiempo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_llegamos_a_tiempo.mp3"
   },
   {
     "id": "es_trav_084",
@@ -4989,7 +5370,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_cultura_abre_mentes.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_cultura_abre_mentes.mp3"
   },
   {
     "id": "es_trav_085",
@@ -5002,7 +5384,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_busco_la_paz_interior.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_busco_la_paz_interior.mp3"
   },
   {
     "id": "es_trav_086",
@@ -5015,7 +5398,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_pueblo_es_acogedor.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_pueblo_es_acogedor.mp3"
   },
   {
     "id": "es_trav_087",
@@ -5028,7 +5412,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hora_de_explorar.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hora_de_explorar.mp3"
   },
   {
     "id": "es_trav_088",
@@ -5041,7 +5426,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_aventura_me_espera.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_aventura_me_espera.mp3"
   },
   {
     "id": "es_trav_089",
@@ -5054,7 +5440,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_guía_es_muy_bueno.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_guía_es_muy_bueno.mp3"
   },
   {
     "id": "es_trav_090",
@@ -5067,7 +5454,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_grandes_planes.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_grandes_planes.mp3"
   },
   {
     "id": "es_trav_091",
@@ -5080,7 +5468,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_la_ciudad_está_despierta.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_la_ciudad_está_despierta.mp3"
   },
   {
     "id": "es_trav_092",
@@ -5093,7 +5482,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_amo_los_viajes_largos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_amo_los_viajes_largos.mp3"
   },
   {
     "id": "es_trav_093",
@@ -5106,7 +5496,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_lugar_fascinante.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_lugar_fascinante.mp3"
   },
   {
     "id": "es_trav_094",
@@ -5119,7 +5510,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_mapa_me_ayuda_mucho.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_mapa_me_ayuda_mucho.mp3"
   },
   {
     "id": "es_trav_095",
@@ -5132,7 +5524,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_caminamos_por_la_playa.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_caminamos_por_la_playa.mp3"
   },
   {
     "id": "es_trav_096",
@@ -5145,7 +5538,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_atardecer_es_hermoso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_atardecer_es_hermoso.mp3"
   },
   {
     "id": "es_trav_097",
@@ -5158,7 +5552,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_mucha_ilusión.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_mucha_ilusión.mp3"
   },
   {
     "id": "es_trav_098",
@@ -5171,7 +5566,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_el_viaje_enseña_mucho.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_el_viaje_enseña_mucho.mp3"
   },
   {
     "id": "es_trav_099",
@@ -5184,7 +5580,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_una_experiencia_inolvidable.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_una_experiencia_inolvidable.mp3"
   },
   {
     "id": "es_trav_100",
@@ -5197,7 +5594,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_seguimos_descubriendo_el_mundo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_seguimos_descubriendo_el_mundo.mp3"
   },
   {
     "id": "es_soc_001",
@@ -5210,7 +5608,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hola_cómo_estás.mp3"
   },
   {
     "id": "es_soc_002",
@@ -5223,7 +5622,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_buenos_días.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_buenos_días.mp3"
   },
   {
     "id": "es_soc_003",
@@ -5236,7 +5636,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mucho_gusto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mucho_gusto.mp3"
   },
   {
     "id": "es_soc_004",
@@ -5249,7 +5650,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cómo_te_llamas.mp3"
   },
   {
     "id": "es_soc_005",
@@ -5262,7 +5664,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_llamo_adem.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_llamo_adem.mp3"
   },
   {
     "id": "es_soc_006",
@@ -5275,7 +5678,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_de_dónde_eres.mp3"
   },
   {
     "id": "es_soc_007",
@@ -5288,7 +5692,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_soy_de_turquía.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_soy_de_turquía.mp3"
   },
   {
     "id": "es_soc_008",
@@ -5301,7 +5706,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_qué_haces.mp3"
   },
   {
     "id": "es_soc_009",
@@ -5314,7 +5720,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_todo_bien_gracias.mp3"
   },
   {
     "id": "es_soc_010",
@@ -5327,7 +5734,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_perdona_puedes_repetir.mp3"
   },
   {
     "id": "es_soc_011",
@@ -5340,7 +5748,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_no_entiendo_muy_bien.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_no_entiendo_muy_bien.mp3"
   },
   {
     "id": "es_soc_012",
@@ -5353,7 +5762,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_puedes_hablar_más_lento.mp3"
   },
   {
     "id": "es_soc_013",
@@ -5366,7 +5776,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hablo_un_poco_de_español.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hablo_un_poco_de_español.mp3"
   },
   {
     "id": "es_soc_014",
@@ -5379,7 +5790,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_encantado_de_conocerte.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_encantado_de_conocerte.mp3"
   },
   {
     "id": "es_soc_015",
@@ -5392,7 +5804,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_qué_tal_tu_día.mp3"
   },
   {
     "id": "es_soc_016",
@@ -5405,7 +5818,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_ha_sido_un_buen_día.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_ha_sido_un_buen_día.mp3"
   },
   {
     "id": "es_soc_017",
@@ -5418,7 +5832,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cuéntame_más.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cuéntame_más.mp3"
   },
   {
     "id": "es_soc_018",
@@ -5431,7 +5846,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_placer_hablar_contigo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_placer_hablar_contigo.mp3"
   },
   {
     "id": "es_soc_019",
@@ -5444,7 +5860,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_gracias_por_todo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_gracias_por_todo.mp3"
   },
   {
     "id": "es_soc_020",
@@ -5457,7 +5874,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_de_nada.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_de_nada.mp3"
   },
   {
     "id": "es_soc_021",
@@ -5470,7 +5888,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_por_favor_siéntate.mp3"
   },
   {
     "id": "es_soc_022",
@@ -5483,7 +5902,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quieres_beber_algo.mp3"
   },
   {
     "id": "es_soc_023",
@@ -5496,7 +5916,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_gustaría_un_café.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_gustaría_un_café.mp3"
   },
   {
     "id": "es_soc_024",
@@ -5509,7 +5930,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_invito_yo_esta_vez.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_invito_yo_esta_vez.mp3"
   },
   {
     "id": "es_soc_025",
@@ -5522,7 +5944,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hasta_luego.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hasta_luego.mp3"
   },
   {
     "id": "es_soc_026",
@@ -5535,7 +5958,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_nos_vemos_pronto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_nos_vemos_pronto.mp3"
   },
   {
     "id": "es_soc_027",
@@ -5548,7 +5972,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_qué_tengas_un_buen_día.mp3"
   },
   {
     "id": "es_soc_028",
@@ -5561,7 +5986,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_vienes_con_nosotros.mp3"
   },
   {
     "id": "es_soc_029",
@@ -5574,7 +6000,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_encantaría.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_encantaría.mp3"
   },
   {
     "id": "es_soc_030",
@@ -5587,7 +6014,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_quizás_en_otro_momento.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_quizás_en_otro_momento.mp3"
   },
   {
     "id": "es_soc_031",
@@ -5600,7 +6028,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_estoy_ocupado_hoy.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_estoy_ocupado_hoy.mp3"
   },
   {
     "id": "es_soc_032",
@@ -5613,7 +6042,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_qué_buena_idea.mp3"
   },
   {
     "id": "es_soc_033",
@@ -5626,7 +6056,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_no_estoy_seguro.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_no_estoy_seguro.mp3"
   },
   {
     "id": "es_soc_034",
@@ -5639,7 +6070,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_estoy_de_acuerdo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_estoy_de_acuerdo.mp3"
   },
   {
     "id": "es_soc_035",
@@ -5652,7 +6084,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_eso_es_cierto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_eso_es_cierto.mp3"
   },
   {
     "id": "es_soc_036",
@@ -5665,7 +6098,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_no_lo_creo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_no_lo_creo.mp3"
   },
   {
     "id": "es_soc_037",
@@ -5678,7 +6112,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tienes_razón.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tienes_razón.mp3"
   },
   {
     "id": "es_soc_038",
@@ -5691,7 +6126,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_qué_piensas_de_esto.mp3"
   },
   {
     "id": "es_soc_039",
@@ -5704,7 +6140,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_parece_genial.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_parece_genial.mp3"
   },
   {
     "id": "es_soc_040",
@@ -5717,7 +6154,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_disculpa_el_retraso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_disculpa_el_retraso.mp3"
   },
   {
     "id": "es_soc_041",
@@ -5730,7 +6168,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_no_pasa_nada.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_no_pasa_nada.mp3"
   },
   {
     "id": "es_soc_042",
@@ -5743,7 +6182,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_fue_mi_culpa.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_fue_mi_culpa.mp3"
   },
   {
     "id": "es_soc_043",
@@ -5756,7 +6196,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_perdón_por_la_molestia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_perdón_por_la_molestia.mp3"
   },
   {
     "id": "es_soc_044",
@@ -5769,7 +6210,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_no_te_preocupes.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_no_te_preocupes.mp3"
   },
   {
     "id": "es_soc_045",
@@ -5782,7 +6224,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_podrías_ayudarme.mp3"
   },
   {
     "id": "es_soc_046",
@@ -5795,7 +6238,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_claro_que_sí.mp3"
   },
   {
     "id": "es_soc_047",
@@ -5808,7 +6252,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_gracias_por_tu_ayuda.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_gracias_por_tu_ayuda.mp3"
   },
   {
     "id": "es_soc_048",
@@ -5821,7 +6266,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_de_nada_es_un_placer.mp3"
   },
   {
     "id": "es_soc_049",
@@ -5834,7 +6280,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cómo_has_estado.mp3"
   },
   {
     "id": "es_soc_050",
@@ -5847,7 +6294,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_todo_bien_tú.mp3"
   },
   {
     "id": "es_soc_051",
@@ -5860,7 +6308,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_tengo_que_irme_ya.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tengo_que_irme_ya.mp3"
   },
   {
     "id": "es_soc_052",
@@ -5873,7 +6322,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_ha_sido_un_placer.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_ha_sido_un_placer.mp3"
   },
   {
     "id": "es_soc_053",
@@ -5886,7 +6336,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_nos_mantenemos_en_contacto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_nos_mantenemos_en_contacto.mp3"
   },
   {
     "id": "es_soc_054",
@@ -5899,7 +6350,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_qué_te_vaya_bien.mp3"
   },
   {
     "id": "es_soc_055",
@@ -5912,7 +6364,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_llámame_cuando_puedas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_llámame_cuando_puedas.mp3"
   },
   {
     "id": "es_soc_056",
@@ -5925,7 +6378,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_mándame_un_mensaje.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_mándame_un_mensaje.mp3"
   },
   {
     "id": "es_soc_057",
@@ -5938,7 +6392,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_tienes_correo.mp3"
   },
   {
     "id": "es_soc_058",
@@ -5951,7 +6406,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_te_escribo_pronto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_te_escribo_pronto.mp3"
   },
   {
     "id": "es_soc_059",
@@ -5964,7 +6420,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cuídate_mucho.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cuídate_mucho.mp3"
   },
   {
     "id": "es_soc_060",
@@ -5977,7 +6434,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_abrazo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_abrazo.mp3"
   },
   {
     "id": "es_soc_061",
@@ -5990,7 +6448,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_saludos_a_tu_familia.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_saludos_a_tu_familia.mp3"
   },
   {
     "id": "es_soc_062",
@@ -6003,7 +6462,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_felicidades.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_felicidades.mp3"
   },
   {
     "id": "es_soc_063",
@@ -6016,7 +6476,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_feliz_cumpleaños.mp3"
   },
   {
     "id": "es_soc_064",
@@ -6029,7 +6490,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_que_tengas_suerte.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_que_tengas_suerte.mp3"
   },
   {
     "id": "es_soc_065",
@@ -6042,7 +6504,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_buen_viaje.mp3"
   },
   {
     "id": "es_soc_066",
@@ -6055,7 +6518,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_que_aproveche.mp3"
   },
   {
     "id": "es_soc_067",
@@ -6068,7 +6532,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_salud.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_salud.mp3"
   },
   {
     "id": "es_soc_068",
@@ -6081,7 +6546,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_perdona_qué_hora_es.mp3"
   },
   {
     "id": "es_soc_069",
@@ -6094,7 +6560,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_son_las_tres.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_son_las_tres.mp3"
   },
   {
     "id": "es_soc_070",
@@ -6107,7 +6574,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_gracias_por_avisar.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_gracias_por_avisar.mp3"
   },
   {
     "id": "es_soc_071",
@@ -6120,7 +6588,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_de_nada_para_eso_estamos.mp3"
   },
   {
     "id": "es_soc_072",
@@ -6133,7 +6602,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_vives_aquí.mp3"
   },
   {
     "id": "es_soc_073",
@@ -6146,7 +6616,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_sí_desde_hace_poco.mp3"
   },
   {
     "id": "es_soc_074",
@@ -6159,7 +6630,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_trabajas_o_estudias.mp3"
   },
   {
     "id": "es_soc_075",
@@ -6172,7 +6644,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_ambas_cosas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_ambas_cosas.mp3"
   },
   {
     "id": "es_soc_076",
@@ -6185,7 +6658,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_qué_interesante.mp3"
   },
   {
     "id": "es_soc_077",
@@ -6198,7 +6672,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_cuéntame_más_sobre_eso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_cuéntame_más_sobre_eso.mp3"
   },
   {
     "id": "es_soc_078",
@@ -6211,7 +6686,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_no_tengo_mucho_tiempo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_no_tengo_mucho_tiempo.mp3"
   },
   {
     "id": "es_soc_079",
@@ -6224,7 +6700,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_te_entiendo.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_te_entiendo.mp3"
   },
   {
     "id": "es_soc_080",
@@ -6237,7 +6714,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hablamos_luego.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hablamos_luego.mp3"
   },
   {
     "id": "es_soc_081",
@@ -6250,7 +6728,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_entiendes.mp3"
   },
   {
     "id": "es_soc_082",
@@ -6263,7 +6742,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_sí_te_entiendo_bien.mp3"
   },
   {
     "id": "es_soc_083",
@@ -6276,7 +6756,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_un_poco_difícil.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_un_poco_difícil.mp3"
   },
   {
     "id": "es_soc_084",
@@ -6289,7 +6770,8 @@
     ],
     "audio": {
       "default": null
-    }
+    },
+    "audioUrl": ""
   },
   {
     "id": "es_soc_085",
@@ -6302,7 +6784,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_vas_bien.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_vas_bien.mp3"
   },
   {
     "id": "es_soc_086",
@@ -6315,7 +6798,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_no_te_rindas.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_no_te_rindas.mp3"
   },
   {
     "id": "es_soc_087",
@@ -6328,7 +6812,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_eres_muy_amable.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_eres_muy_amable.mp3"
   },
   {
     "id": "es_soc_088",
@@ -6341,7 +6826,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_qué_detalle_tienes.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_qué_detalle_tienes.mp3"
   },
   {
     "id": "es_soc_089",
@@ -6354,7 +6840,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_eres_muy_generoso.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_eres_muy_generoso.mp3"
   },
   {
     "id": "es_soc_090",
@@ -6367,7 +6854,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_valoro_tu_opinión.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_valoro_tu_opinión.mp3"
   },
   {
     "id": "es_soc_091",
@@ -6380,7 +6868,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_alegro_por_ti.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_alegro_por_ti.mp3"
   },
   {
     "id": "es_soc_092",
@@ -6393,7 +6882,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_eso_es_genial.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_eso_es_genial.mp3"
   },
   {
     "id": "es_soc_093",
@@ -6406,7 +6896,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_importante_hablar.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_importante_hablar.mp3"
   },
   {
     "id": "es_soc_094",
@@ -6419,7 +6910,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_vamos_a_comer_juntos.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_vamos_a_comer_juntos.mp3"
   },
   {
     "id": "es_soc_095",
@@ -6432,7 +6924,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_me_apetece_mucho.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_me_apetece_mucho.mp3"
   },
   {
     "id": "es_soc_096",
@@ -6445,7 +6938,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_te_llamaré_pronto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_te_llamaré_pronto.mp3"
   },
   {
     "id": "es_soc_097",
@@ -6458,7 +6952,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_espero_tu_llamada.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_espero_tu_llamada.mp3"
   },
   {
     "id": "es_soc_098",
@@ -6471,7 +6966,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_que_tengas_una_buena_tarde.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_que_tengas_una_buena_tarde.mp3"
   },
   {
     "id": "es_soc_099",
@@ -6484,7 +6980,8 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_hasta_mañana.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_hasta_mañana.mp3"
   },
   {
     "id": "es_soc_100",
@@ -6497,6 +6994,7 @@
     ],
     "audio": {
       "default": "/audio/sentences_es/es_fue_un_gusto.mp3"
-    }
+    },
+    "audioUrl": "/data/Spanish/audio/sentences_es/es_fue_un_gusto.mp3"
   }
 ]

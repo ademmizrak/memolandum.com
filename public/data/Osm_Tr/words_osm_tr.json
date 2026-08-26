@@ -6,7 +6,8 @@
     "guncel_turkce": "Hak ve hukuka uygunluk, türe",
     "audio": {
       "default": "/osm/osm_001_adalet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_001_adalet.mp3"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "guncel_turkce": "Uyum, düzen, makam",
     "audio": {
       "default": "/osm/osm_002_aheng.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_002_aheng.mp3"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "guncel_turkce": "Yansıma, yankı",
     "audio": {
       "default": "/osm/osm_003_akis.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_003_akis.mp3"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "guncel_turkce": "Akıllı, aklı başında olan",
     "audio": {
       "default": "/osm/osm_004_akil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_004_akil.mp3"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "guncel_turkce": "Yankı, ses yansıması",
     "audio": {
       "default": "/osm/osm_005_aksiseda.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_005_aksiseda.mp3"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "guncel_turkce": "İstek, dilek, heves",
     "audio": {
       "default": "/osm/osm_006_arzu.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_006_arzu.mp3"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "guncel_turkce": "Rahat, sakin, huzurlu",
     "audio": {
       "default": "/osm/osm_007_asude.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_007_asude.mp3"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "guncel_turkce": "Aşırı sevgi, bağlılık",
     "audio": {
       "default": "/osm/osm_008_ask.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_008_ask.mp3"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "guncel_turkce": "Halk, sıradan insanlar",
     "audio": {
       "default": "/osm/osm_009_avam.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_009_avam.mp3"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "guncel_turkce": "Değerli, saygın, sevgili",
     "audio": {
       "default": "/osm/osm_010_aziz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_010_aziz.mp3"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "guncel_turkce": "Sürekli, kalıcı, sonsuz",
     "audio": {
       "default": "/osm/osm_011_baki.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_011_baki.mp3"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "guncel_turkce": "Yağmur, barışma",
     "audio": {
       "default": "/osm/osm_012_baris.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_012_baris.mp3"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "guncel_turkce": "Sağduyu, uzağı görme becerisi",
     "audio": {
       "default": "/osm/osm_013_basiret.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_013_basiret.mp3"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "guncel_turkce": "Geçersiz, çürük, yalan",
     "audio": {
       "default": "/osm/osm_014_batil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_014_batil.mp3"
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "guncel_turkce": "Mutsuz, bahtsız, şanssız",
     "audio": {
       "default": "/osm/osm_015_bedbaht.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_015_bedbaht.mp3"
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "guncel_turkce": "Kötümser",
     "audio": {
       "default": "/osm/osm_016_bedbin.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_016_bedbin.mp3"
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "guncel_turkce": "Güzel ve etkili konuşma sanatı",
     "audio": {
       "default": "/osm/osm_017_belagat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_017_belagat.mp3"
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "guncel_turkce": "Kul, köle, hizmetkar",
     "audio": {
       "default": "/osm/osm_018_bende.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_018_bende.mp3"
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "guncel_turkce": "Birlikte, eşit",
     "audio": {
       "default": "/osm/osm_019_beraber.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_019_beraber.mp3"
   },
   {
     "id": 20,
@@ -177,7 +196,8 @@
     "guncel_turkce": "Aydınlık, duru, temiz",
     "audio": {
       "default": "/osm/osm_020_berrak.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_020_berrak.mp3"
   },
   {
     "id": 21,
@@ -186,7 +206,8 @@
     "guncel_turkce": "Açıklama, bildirme",
     "audio": {
       "default": "/osm/osm_021_beyan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_021_beyan.mp3"
   },
   {
     "id": 22,
@@ -195,7 +216,8 @@
     "guncel_turkce": "İnsan, insan oğlu",
     "audio": {
       "default": "/osm/osm_022_beser.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_022_beser.mp3"
   },
   {
     "id": 23,
@@ -204,7 +226,8 @@
     "guncel_turkce": "Habersiz, bilgisiz",
     "audio": {
       "default": "/osm/osm_023_bihaber.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_023_bihaber.mp3"
   },
   {
     "id": 24,
@@ -213,7 +236,8 @@
     "guncel_turkce": "Aksine, tersine",
     "audio": {
       "default": "/osm/osm_024_bilakis.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_024_bilakis.mp3"
   },
   {
     "id": 25,
@@ -222,7 +246,8 @@
     "guncel_turkce": "Dayanarak, -den dolayı",
     "audio": {
       "default": "/osm/osm_025_binaen.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_025_binaen.mp3"
   },
   {
     "id": 26,
@@ -231,7 +256,8 @@
     "guncel_turkce": "Çaresiz, zavallı",
     "audio": {
       "default": "/osm/osm_026_bicare.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_026_bicare.mp3"
   },
   {
     "id": 27,
@@ -240,7 +266,8 @@
     "guncel_turkce": "Delil, kanıt, güvenilir belge",
     "audio": {
       "default": "/osm/osm_027_burhan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_027_burhan.mp3"
   },
   {
     "id": 28,
@@ -249,7 +276,8 @@
     "guncel_turkce": "Öpücük, öpüş",
     "audio": {
       "default": "/osm/osm_028_buse.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_028_buse.mp3"
   },
   {
     "id": 29,
@@ -258,7 +286,8 @@
     "guncel_turkce": "Güzel sesli ötücü kuş",
     "audio": {
       "default": "/osm/osm_029_bulbul.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_029_bulbul.mp3"
   },
   {
     "id": 30,
@@ -267,7 +296,8 @@
     "guncel_turkce": "Bilgisiz, deneyimsiz",
     "audio": {
       "default": "/osm/osm_030_cahil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_030_cahil.mp3"
   },
   {
     "id": 31,
@@ -276,7 +306,8 @@
     "guncel_turkce": "Toplayan, bir araya getiren",
     "audio": {
       "default": "/osm/osm_031_cami.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_031_cami.mp3"
   },
   {
     "id": 32,
@@ -285,7 +316,8 @@
     "guncel_turkce": "Sevgili, gönül verilmiş kadın",
     "audio": {
       "default": "/osm/osm_032_canan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_032_canan.mp3"
   },
   {
     "id": 33,
@@ -294,7 +326,8 @@
     "guncel_turkce": "Geçerli olan, yürürlükte",
     "audio": {
       "default": "/osm/osm_033_cari.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_033_cari.mp3"
   },
   {
     "id": 34,
@@ -303,7 +336,8 @@
     "guncel_turkce": "Çekim gücü, alımlılık",
     "audio": {
       "default": "/osm/osm_034_cazibe.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_034_cazibe.mp3"
   },
   {
     "id": 35,
@@ -312,7 +346,8 @@
     "guncel_turkce": "Eziyet, sıkıntı, üzme",
     "audio": {
       "default": "/osm/osm_035_cefa.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_035_cefa.mp3"
   },
   {
     "id": 36,
@@ -321,7 +356,8 @@
     "guncel_turkce": "Öfke, kızgınlık, büyüklük",
     "audio": {
       "default": "/osm/osm_036_celal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_036_celal.mp3"
   },
   {
     "id": 37,
@@ -330,7 +366,8 @@
     "guncel_turkce": "Yüz güzelliği, estetik",
     "audio": {
       "default": "/osm/osm_037_cemal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_037_cemal.mp3"
   },
   {
     "id": 38,
@@ -339,7 +376,8 @@
     "guncel_turkce": "Topluluk, dernek",
     "audio": {
       "default": "/osm/osm_038_cemiyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_038_cemiyet.mp3"
   },
   {
     "id": 39,
@@ -348,7 +386,8 @@
     "guncel_turkce": "Saygıdeğer, hazret",
     "audio": {
       "default": "/osm/osm_039_cenap.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_039_cenap.mp3"
   },
   {
     "id": 40,
@@ -357,7 +396,8 @@
     "guncel_turkce": "Savaş, vuruşma",
     "audio": {
       "default": "/osm/osm_040_cenk.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_040_cenk.mp3"
   },
   {
     "id": 41,
@@ -366,7 +406,8 @@
     "guncel_turkce": "Yüreklilik, korkusuzluk",
     "audio": {
       "default": "/osm/osm_041_cesaret.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_041_cesaret.mp3"
   },
   {
     "id": 42,
@@ -375,7 +416,8 @@
     "guncel_turkce": "İzin, onay, müsaade",
     "audio": {
       "default": "/osm/osm_042_cevaz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_042_cevaz.mp3"
   },
   {
     "id": 43,
@@ -384,7 +426,8 @@
     "guncel_turkce": "Öz, değerli taş, yetenek",
     "audio": {
       "default": "/osm/osm_043_cevher.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_043_cevher.mp3"
   },
   {
     "id": 44,
@@ -393,7 +436,8 @@
     "guncel_turkce": "Dünya, alem",
     "audio": {
       "default": "/osm/osm_044_cihan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_044_cihan.mp3"
   },
   {
     "id": 45,
@@ -402,7 +446,8 @@
     "guncel_turkce": "Beden, gövde, hacim",
     "audio": {
       "default": "/osm/osm_045_cusse.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_045_cusse.mp3"
   },
   {
     "id": 46,
@@ -411,7 +456,8 @@
     "guncel_turkce": "Eli açık, ikramı seven",
     "audio": {
       "default": "/osm/osm_046_comert.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_046_comert.mp3"
   },
   {
     "id": 47,
@@ -420,7 +466,8 @@
     "guncel_turkce": "Yüreklilik, atılganlık",
     "audio": {
       "default": "/osm/osm_047_curet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_047_curet.mp3"
   },
   {
     "id": 48,
@@ -429,7 +476,8 @@
     "guncel_turkce": "Parça, kısım, bölüm",
     "audio": {
       "default": "/osm/osm_048_cuz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_048_cuz.mp3"
   },
   {
     "id": 49,
@@ -438,7 +486,8 @@
     "guncel_turkce": "Sürekli, kalıcı, kalımlı",
     "audio": {
       "default": "/osm/osm_049_daimi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_049_daimi.mp3"
   },
   {
     "id": 50,
@@ -447,7 +496,8 @@
     "guncel_turkce": "Üniversite, fenler evi",
     "audio": {
       "default": "/osm/osm_050_darulfunun.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_050_darulfunun.mp3"
   },
   {
     "id": 51,
@@ -456,7 +506,8 @@
     "guncel_turkce": "Çağrı, ağırlama",
     "audio": {
       "default": "/osm/osm_051_davet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_051_davet.mp3"
   },
   {
     "id": 52,
@@ -465,7 +516,8 @@
     "guncel_turkce": "Kez, kere, sefer",
     "audio": {
       "default": "/osm/osm_052_defa.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_052_defa.mp3"
   },
   {
     "id": 53,
@@ -474,7 +526,8 @@
     "guncel_turkce": "Üstün zeka, dahi olma durumu",
     "audio": {
       "default": "/osm/osm_053_deha.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_053_deha.mp3"
   },
   {
     "id": 54,
@@ -483,7 +536,8 @@
     "guncel_turkce": "İşaret etmek, kılavuzluk",
     "audio": {
       "default": "/osm/osm_054_delalet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_054_delalet.mp3"
   },
   {
     "id": 55,
@@ -492,7 +546,8 @@
     "guncel_turkce": "Sıkıntı, dert, keder",
     "audio": {
       "default": "/osm/osm_055_derd.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_055_derd.mp3"
   },
   {
     "id": 56,
@@ -501,7 +556,8 @@
     "guncel_turkce": "Üzerine alma, üstlenme",
     "audio": {
       "default": "/osm/osm_056_deruhte.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_056_deruhte.mp3"
   },
   {
     "id": 57,
@@ -510,7 +566,8 @@
     "guncel_turkce": "İçten, kalbi, ruhsal",
     "audio": {
       "default": "/osm/osm_057_deruni.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_057_deruni.mp3"
   },
   {
     "id": 58,
@@ -519,7 +576,8 @@
     "guncel_turkce": "Deniz, büyük nehir",
     "audio": {
       "default": "/osm/osm_058_derya.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_058_derya.mp3"
   },
   {
     "id": 59,
@@ -528,7 +586,8 @@
     "guncel_turkce": "Mülk, talih, siyasi organizasyon",
     "audio": {
       "default": "/osm/osm_059_devlet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_059_devlet.mp3"
   },
   {
     "id": 60,
@@ -537,7 +596,8 @@
     "guncel_turkce": "Zaman, dünya, dönüş",
     "audio": {
       "default": "/osm/osm_060_devran.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_060_devran.mp3"
   },
   {
     "id": 61,
@@ -546,7 +606,8 @@
     "guncel_turkce": "Özen, titizlik, zihni yoğunlaştırma",
     "audio": {
       "default": "/osm/osm_061_dikkat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_061_dikkat.mp3"
   },
   {
     "id": 62,
@@ -555,7 +616,8 @@
     "guncel_turkce": "Gönül alan, güzel kadın",
     "audio": {
       "default": "/osm/osm_062_dilber.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_062_dilber.mp3"
   },
   {
     "id": 63,
@@ -564,7 +626,8 @@
     "guncel_turkce": "Arzu, istek, temenni",
     "audio": {
       "default": "/osm/osm_063_dilek.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_063_dilek.mp3"
   },
   {
     "id": 64,
@@ -573,7 +636,8 @@
     "guncel_turkce": "Ülke, memleket, yurt",
     "audio": {
       "default": "/osm/osm_064_diyar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_064_diyar.mp3"
   },
   {
     "id": 65,
@@ -582,7 +646,8 @@
     "guncel_turkce": "Sonsuz, sonu olmayan",
     "audio": {
       "default": "/osm/osm_065_ebedi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_065_ebedi.mp3"
   },
   {
     "id": 66,
@@ -591,7 +656,8 @@
     "guncel_turkce": "Atalar, geçmiş nesiller",
     "audio": {
       "default": "/osm/osm_066_ecdat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_066_ecdat.mp3"
   },
   {
     "id": 67,
@@ -600,7 +666,8 @@
     "guncel_turkce": "Yabancı, başka milletten olan",
     "audio": {
       "default": "/osm/osm_067_ecnebi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_067_ecnebi.mp3"
   },
   {
     "id": 68,
@@ -609,7 +676,8 @@
     "guncel_turkce": "Tavır, tarz, yerine getirme",
     "audio": {
       "default": "/osm/osm_068_eda.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_068_eda.mp3"
   },
   {
     "id": 69,
@@ -618,7 +686,8 @@
     "guncel_turkce": "Düşünceler, fikirler, keder",
     "audio": {
       "default": "/osm/osm_069_efkar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_069_efkar.mp3"
   },
   {
     "id": 70,
@@ -627,7 +696,8 @@
     "guncel_turkce": "Yetkinlik, ustalık, uygunluk",
     "audio": {
       "default": "/osm/osm_070_ehliyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_070_ehliyet.mp3"
   },
   {
     "id": 71,
@@ -636,7 +706,8 @@
     "guncel_turkce": "Önem, değer",
     "audio": {
       "default": "/osm/osm_071_ehemmiyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_071_ehemmiyet.mp3"
   },
   {
     "id": 72,
@@ -645,7 +716,8 @@
     "guncel_turkce": "Çok gerekli, vazgeçilmez",
     "audio": {
       "default": "/osm/osm_072_elzem.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_072_elzem.mp3"
   },
   {
     "id": 73,
@@ -654,7 +726,8 @@
     "guncel_turkce": "Korunmak için bırakılan şey",
     "audio": {
       "default": "/osm/osm_073_emanet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_073_emanet.mp3"
   },
   {
     "id": 74,
@@ -663,7 +736,8 @@
     "guncel_turkce": "Ümit, ideal, büyük arzu",
     "audio": {
       "default": "/osm/osm_074_emel.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_074_emel.mp3"
   },
   {
     "id": 75,
@@ -672,7 +746,8 @@
     "guncel_turkce": "Güvenilir, inançlı, korkusuz",
     "audio": {
       "default": "/osm/osm_075_emin.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_075_emin.mp3"
   },
   {
     "id": 76,
@@ -681,7 +756,8 @@
     "guncel_turkce": "Buyruk, komut",
     "audio": {
       "default": "/osm/osm_076_emir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_076_emir.mp3"
   },
   {
     "id": 77,
@@ -690,7 +766,8 @@
     "guncel_turkce": "Dost, arkadaş, cana yakın",
     "audio": {
       "default": "/osm/osm_077_enis.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_077_enis.mp3"
   },
   {
     "id": 78,
@@ -699,7 +776,8 @@
     "guncel_turkce": "Işıklar, nurlar",
     "audio": {
       "default": "/osm/osm_078_envar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_078_envar.mp3"
   },
   {
     "id": 79,
@@ -708,7 +786,8 @@
     "guncel_turkce": "İşin uzmanı, ehli",
     "audio": {
       "default": "/osm/osm_079_erbab.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_079_erbab.mp3"
   },
   {
     "id": 80,
@@ -717,7 +796,8 @@
     "guncel_turkce": "Temel, köken, asıl",
     "audio": {
       "default": "/osm/osm_080_esas.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_080_esas.mp3"
   },
   {
     "id": 81,
@@ -726,7 +806,8 @@
     "guncel_turkce": "Sıra, an, esnasında",
     "audio": {
       "default": "/osm/osm_081_esna.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_081_esna.mp3"
   },
   {
     "id": 82,
@@ -735,7 +816,8 @@
     "guncel_turkce": "Sırlar, gizemler",
     "audio": {
       "default": "/osm/osm_082_esrar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_082_esrar.mp3"
   },
   {
     "id": 83,
@@ -744,7 +826,8 @@
     "guncel_turkce": "Şekiller, dış görünüş kalıbı",
     "audio": {
       "default": "/osm/osm_083_eskal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_083_eskal.mp3"
   },
   {
     "id": 84,
@@ -753,7 +836,8 @@
     "guncel_turkce": "Çevre, yanlar",
     "audio": {
       "default": "/osm/osm_084_etraf.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_084_etraf.mp3"
   },
   {
     "id": 85,
@@ -762,7 +846,8 @@
     "guncel_turkce": "Belgeler, yazılı kağıtlar",
     "audio": {
       "default": "/osm/osm_085_evrak.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_085_evrak.mp3"
   },
   {
     "id": 86,
@@ -771,7 +856,8 @@
     "guncel_turkce": "Önce, ilk",
     "audio": {
       "default": "/osm/osm_086_evvel.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_086_evvel.mp3"
   },
   {
     "id": 87,
@@ -780,7 +866,8 @@
     "guncel_turkce": "Başlangıcı olmayan geçmiş zaman",
     "audio": {
       "default": "/osm/osm_087_ezel.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_087_ezel.mp3"
   },
   {
     "id": 88,
@@ -789,7 +876,8 @@
     "guncel_turkce": "Övünme, kıvanç duyma",
     "audio": {
       "default": "/osm/osm_088_fahr.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_088_fahr.mp3"
   },
   {
     "id": 89,
@@ -798,7 +886,8 @@
     "guncel_turkce": "Ölümlü, geçici",
     "audio": {
       "default": "/osm/osm_089_fani.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_089_fani.mp3"
   },
   {
     "id": 90,
@@ -807,7 +896,8 @@
     "guncel_turkce": "Zorunlu, yapılması şart olan",
     "audio": {
       "default": "/osm/osm_090_farz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_090_farz.mp3"
   },
   {
     "id": 91,
@@ -816,7 +906,8 @@
     "guncel_turkce": "Açık, anlaşılır ve düzgün söz",
     "audio": {
       "default": "/osm/osm_091_fasih.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_091_fasih.mp3"
   },
   {
     "id": 92,
@@ -825,7 +916,8 @@
     "guncel_turkce": "Zeki, anlayışlı, uyanık",
     "audio": {
       "default": "/osm/osm_092_fatin.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_092_fatin.mp3"
   },
   {
     "id": 93,
@@ -834,7 +926,8 @@
     "guncel_turkce": "Erdem, ahlaki üstünlük",
     "audio": {
       "default": "/osm/osm_093_fazilet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_093_fazilet.mp3"
   },
   {
     "id": 94,
@@ -843,7 +936,8 @@
     "guncel_turkce": "Özverili, canını esirgemeyen",
     "audio": {
       "default": "/osm/osm_094_fedakar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_094_fedakar.mp3"
   },
   {
     "id": 95,
@@ -852,7 +946,8 @@
     "guncel_turkce": "Hakkından kendi isteğiyle vazgeçme",
     "audio": {
       "default": "/osm/osm_095_feragat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_095_feragat.mp3"
   },
   {
     "id": 96,
@@ -861,7 +956,8 @@
     "guncel_turkce": "Geniş, iç açıcı, bol",
     "audio": {
       "default": "/osm/osm_096_ferah.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_096_ferah.mp3"
   },
   {
     "id": 97,
@@ -870,7 +966,8 @@
     "guncel_turkce": "Çabuk anlama, sezgi gücü",
     "audio": {
       "default": "/osm/osm_097_feraset.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_097_feraset.mp3"
   },
   {
     "id": 98,
@@ -879,7 +976,8 @@
     "guncel_turkce": "Çığlık, yüksek sesle yakarış",
     "audio": {
       "default": "/osm/osm_098_feryat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_098_feryat.mp3"
   },
   {
     "id": 99,
@@ -888,7 +986,8 @@
     "guncel_turkce": "Düşünce, görüş",
     "audio": {
       "default": "/osm/osm_099_fikir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_099_fikir.mp3"
   },
   {
     "id": 100,
@@ -897,7 +996,8 @@
     "guncel_turkce": "Ayrılık, dostlardan uzak kalma",
     "audio": {
       "default": "/osm/osm_100_firkat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_100_firkat.mp3"
   },
   {
     "id": 101,
@@ -906,7 +1006,8 @@
     "guncel_turkce": "Yaratılış, doğal yapı, karakter",
     "audio": {
       "default": "/osm/osm_101_fitrat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_101_fitrat.mp3"
   },
   {
     "id": 102,
@@ -915,7 +1016,8 @@
     "guncel_turkce": "Habersiz, aymaz, dikkatsiz",
     "audio": {
       "default": "/osm/osm_102_gafil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_102_gafil.mp3"
   },
   {
     "id": 103,
@@ -924,7 +1026,8 @@
     "guncel_turkce": "Kin besleyen, garazı olan",
     "audio": {
       "default": "/osm/osm_103_garezkar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_103_garezkar.mp3"
   },
   {
     "id": 104,
@@ -933,7 +1036,8 @@
     "guncel_turkce": "Çaba, çalışma isteği",
     "audio": {
       "default": "/osm/osm_104_gayret.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_104_gayret.mp3"
   },
   {
     "id": 105,
@@ -942,7 +1046,8 @@
     "guncel_turkce": "Amaç, hedef, ülkü",
     "audio": {
       "default": "/osm/osm_105_gaye.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_105_gaye.mp3"
   },
   {
     "id": 106,
@@ -951,7 +1056,8 @@
     "guncel_turkce": "Bulunmama durumu, arkasından",
     "audio": {
       "default": "/osm/osm_106_giyap.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_106_giyap.mp3"
   },
   {
     "id": 107,
@@ -960,7 +1066,8 @@
     "guncel_turkce": "Yabancı yer, sıla özlemi",
     "audio": {
       "default": "/osm/osm_107_gurbet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_107_gurbet.mp3"
   },
   {
     "id": 108,
@@ -969,7 +1076,8 @@
     "guncel_turkce": "Gül bahçesi",
     "audio": {
       "default": "/osm/osm_108_gulzar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_108_gulzar.mp3"
   },
   {
     "id": 109,
@@ -978,7 +1086,8 @@
     "guncel_turkce": "Seçkin, seçilmiş, beğenilmiş",
     "audio": {
       "default": "/osm/osm_109_guzide.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_109_guzide.mp3"
   },
   {
     "id": 110,
@@ -987,7 +1096,8 @@
     "guncel_turkce": "Kötü, alçak, uğursuz",
     "audio": {
       "default": "/osm/osm_110_habis.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_110_habis.mp3"
   },
   {
     "id": 111,
@@ -996,7 +1106,8 @@
     "guncel_turkce": "İhtiyaç, gerekli olan şey",
     "audio": {
       "default": "/osm/osm_111_hacet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_111_hacet.mp3"
   },
   {
     "id": 112,
@@ -1005,7 +1116,8 @@
     "guncel_turkce": "Bellek, dağarcık",
     "audio": {
       "default": "/osm/osm_112_hafiza.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_112_hafiza.mp3"
   },
   {
     "id": 113,
@@ -1014,7 +1126,8 @@
     "guncel_turkce": "Büyük hükümdar, kağan",
     "audio": {
       "default": "/osm/osm_113_hakan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_113_hakan.mp3"
   },
   {
     "id": 114,
@@ -1023,7 +1136,8 @@
     "guncel_turkce": "Gerçek, asıl, doğru",
     "audio": {
       "default": "/osm/osm_114_hakikat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_114_hakikat.mp3"
   },
   {
     "id": 115,
@@ -1032,7 +1146,8 @@
     "guncel_turkce": "Yargıç, egemen olan",
     "audio": {
       "default": "/osm/osm_115_hakim.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_115_hakim.mp3"
   },
   {
     "id": 116,
@@ -1041,7 +1156,8 @@
     "guncel_turkce": "Katışıksız, saf, temiz",
     "audio": {
       "default": "/osm/osm_116_halis.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_116_halis.mp3"
   },
   {
     "id": 117,
@@ -1050,7 +1166,8 @@
     "guncel_turkce": "İyi ahlaklı, temiz huylu",
     "audio": {
       "default": "/osm/osm_117_haluk.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_117_haluk.mp3"
   },
   {
     "id": 118,
@@ -1059,7 +1176,8 @@
     "guncel_turkce": "Milli onur ve haysiyet duygusu",
     "audio": {
       "default": "/osm/osm_118_hamiyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_118_hamiyet.mp3"
   },
   {
     "id": 119,
@@ -1068,7 +1186,8 @@
     "guncel_turkce": "Sıcaklık, susuzluk, coşku",
     "audio": {
       "default": "/osm/osm_119_hararet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_119_hararet.mp3"
   },
   {
     "id": 120,
@@ -1077,7 +1196,8 @@
     "guncel_turkce": "Yıkık, bozuk, perişan",
     "audio": {
       "default": "/osm/osm_120_harap.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_120_harap.mp3"
   },
   {
     "id": 121,
@@ -1086,7 +1206,8 @@
     "guncel_turkce": "Özlem, kavuşma isteği",
     "audio": {
       "default": "/osm/osm_121_hasret.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_121_hasret.mp3"
   },
   {
     "id": 122,
@@ -1095,7 +1216,8 @@
     "guncel_turkce": "Duyarlılık, incelik",
     "audio": {
       "default": "/osm/osm_122_hassasiyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_122_hassasiyet.mp3"
   },
   {
     "id": 123,
@@ -1104,7 +1226,8 @@
     "guncel_turkce": "Yanlışlık, kusur, günah",
     "audio": {
       "default": "/osm/osm_123_hata.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_123_hata.mp3"
   },
   {
     "id": 124,
@@ -1113,7 +1236,8 @@
     "guncel_turkce": "Zihindeki canlandırma, imge",
     "audio": {
       "default": "/osm/osm_124_hayal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_124_hayal.mp3"
   },
   {
     "id": 125,
@@ -1122,7 +1246,8 @@
     "guncel_turkce": "Yaşam, canlılık",
     "audio": {
       "default": "/osm/osm_125_hayat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_125_hayat.mp3"
   },
   {
     "id": 126,
@@ -1131,7 +1256,8 @@
     "guncel_turkce": "Onur, şeref, saygınlık",
     "audio": {
       "default": "/osm/osm_126_haysiyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_126_haysiyet.mp3"
   },
   {
     "id": 127,
@@ -1140,7 +1266,8 @@
     "guncel_turkce": "Hüzünlü, acıklı, üzüntülü",
     "audio": {
       "default": "/osm/osm_127_hazin.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_127_hazin.mp3"
   },
   {
     "id": 128,
@@ -1149,7 +1276,8 @@
     "guncel_turkce": "Gömü, değerli şeylerin saklandığı yer",
     "audio": {
       "default": "/osm/osm_128_hazine.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_128_hazine.mp3"
   },
   {
     "id": 129,
@@ -1158,7 +1286,8 @@
     "guncel_turkce": "Armağan, ödül",
     "audio": {
       "default": "/osm/osm_129_hediyye.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_129_hediyye.mp3"
   },
   {
     "id": 130,
@@ -1167,7 +1296,8 @@
     "guncel_turkce": "Kız kardeş, sağlık görevlisi",
     "audio": {
       "default": "/osm/osm_130_hemsire.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_130_hemsire.mp3"
   },
   {
     "id": 131,
@@ -1176,7 +1306,8 @@
     "guncel_turkce": "Geçici istek, eğilim",
     "audio": {
       "default": "/osm/osm_131_heves.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_131_heves.mp3"
   },
   {
     "id": 132,
@@ -1185,7 +1316,8 @@
     "guncel_turkce": "Doğru yola erme, hak yolu",
     "audio": {
       "default": "/osm/osm_132_hidayet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_132_hidayet.mp3"
   },
   {
     "id": 133,
@@ -1194,7 +1326,8 @@
     "guncel_turkce": "Derin neden, gizli bilgelik",
     "audio": {
       "default": "/osm/osm_133_hikmet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_133_hikmet.mp3"
   },
   {
     "id": 134,
@@ -1203,7 +1336,8 @@
     "guncel_turkce": "Yeni ay, ayça",
     "audio": {
       "default": "/osm/osm_134_hilal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_134_hilal.mp3"
   },
   {
     "id": 135,
@@ -1212,7 +1346,8 @@
     "guncel_turkce": "Özel, kişisel",
     "audio": {
       "default": "/osm/osm_135_hususi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_135_hususi.mp3"
   },
   {
     "id": 136,
@@ -1221,7 +1356,8 @@
     "guncel_turkce": "Gönül rahatlığı, dirlik, makam",
     "audio": {
       "default": "/osm/osm_136_huzur.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_136_huzur.mp3"
   },
   {
     "id": 137,
@@ -1230,7 +1366,8 @@
     "guncel_turkce": "İyi niyet, temiz yüreklilik",
     "audio": {
       "default": "/osm/osm_137_husnuniyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_137_husnuniyet.mp3"
   },
   {
     "id": 138,
@@ -1239,7 +1376,8 @@
     "guncel_turkce": "Gönül üzüntüsü, keder",
     "audio": {
       "default": "/osm/osm_138_huzun.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_138_huzun.mp3"
   },
   {
     "id": 139,
@@ -1248,7 +1386,8 @@
     "guncel_turkce": "Tapınma, kulluk görevleri",
     "audio": {
       "default": "/osm/osm_139_i_badet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_139_i_badet.mp3"
   },
   {
     "id": 140,
@@ -1257,7 +1396,8 @@
     "guncel_turkce": "Söz dizisi, cümle, ifade",
     "audio": {
       "default": "/osm/osm_140_i_bare.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_140_i_bare.mp3"
   },
   {
     "id": 141,
@@ -1266,7 +1406,8 @@
     "guncel_turkce": "Ders alınacak durum, uyarı",
     "audio": {
       "default": "/osm/osm_141_i_bret.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_141_i_bret.mp3"
   },
   {
     "id": 142,
@@ -1275,7 +1416,8 @@
     "guncel_turkce": "Yasa hükmü çıkarma, görüş",
     "audio": {
       "default": "/osm/osm_142_i_ctihat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_142_i_ctihat.mp3"
   },
   {
     "id": 143,
@@ -1284,7 +1426,8 @@
     "guncel_turkce": "İsteme gücü, seçim yapabilme yetisi",
     "audio": {
       "default": "/osm/osm_143_i_rade.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_143_i_rade.mp3"
   },
   {
     "id": 144,
@@ -1293,7 +1436,8 @@
     "guncel_turkce": "Bilme, anlama, kültürel birikim",
     "audio": {
       "default": "/osm/osm_144_i_rfan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_144_i_rfan.mp3"
   },
   {
     "id": 145,
@@ -1302,7 +1446,8 @@
     "guncel_turkce": "Gelecek zaman, karşılama",
     "audio": {
       "default": "/osm/osm_145_i_stikbal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_145_i_stikbal.mp3"
   },
   {
     "id": 146,
@@ -1311,7 +1456,8 @@
     "guncel_turkce": "Bağımsızlık, özgürlük",
     "audio": {
       "default": "/osm/osm_146_i_stiklal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_146_i_stiklal.mp3"
   },
   {
     "id": 147,
@@ -1320,7 +1466,8 @@
     "guncel_turkce": "Güvenme, inanma",
     "audio": {
       "default": "/osm/osm_147_i_timat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_147_i_timat.mp3"
   },
   {
     "id": 148,
@@ -1329,7 +1476,8 @@
     "guncel_turkce": "Yetenek, güç, elverişlilik",
     "audio": {
       "default": "/osm/osm_148_kabiliyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_148_kabiliyet.mp3"
   },
   {
     "id": 149,
@@ -1338,7 +1486,8 @@
     "guncel_turkce": "Yazgı, alın yazısı, ölçü",
     "audio": {
       "default": "/osm/osm_149_kader.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_149_kader.mp3"
   },
   {
     "id": 150,
@@ -1347,7 +1496,8 @@
     "guncel_turkce": "Yürek, gönül, merkez",
     "audio": {
       "default": "/osm/osm_150_kalp.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_150_kalp.mp3"
   },
   {
     "id": 151,
@@ -1356,7 +1506,8 @@
     "guncel_turkce": "Ay, gök cismi",
     "audio": {
       "default": "/osm/osm_151_kamer.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_151_kamer.mp3"
   },
   {
     "id": 152,
@@ -1365,7 +1516,8 @@
     "guncel_turkce": "Yetenme, elindekini yeterli bulma",
     "audio": {
       "default": "/osm/osm_152_kanaat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_152_kanaat.mp3"
   },
   {
     "id": 153,
@@ -1374,7 +1526,8 @@
     "guncel_turkce": "Yasa, kural, düzen",
     "audio": {
       "default": "/osm/osm_153_kanun.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_153_kanun.mp3"
   },
   {
     "id": 154,
@@ -1383,7 +1536,8 @@
     "guncel_turkce": "Konuşan, söz söyleyen",
     "audio": {
       "default": "/osm/osm_154_kelim.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_154_kelim.mp3"
   },
   {
     "id": 155,
@@ -1392,7 +1546,8 @@
     "guncel_turkce": "Soylu cömertlik, lütuf",
     "audio": {
       "default": "/osm/osm_155_kerem.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_155_kerem.mp3"
   },
   {
     "id": 156,
@@ -1401,7 +1556,8 @@
     "guncel_turkce": "Gizli olanı açığa çıkarma, bulma",
     "audio": {
       "default": "/osm/osm_156_kesif.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_156_kesif.mp3"
   },
   {
     "id": 157,
@@ -1410,7 +1566,8 @@
     "guncel_turkce": "Yeterlilik, yetişme",
     "audio": {
       "default": "/osm/osm_157_kifayet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_157_kifayet.mp3"
   },
   {
     "id": 158,
@@ -1419,7 +1576,8 @@
     "guncel_turkce": "Yazılmış eser, kitap",
     "audio": {
       "default": "/osm/osm_158_kitab.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_158_kitab.mp3"
   },
   {
     "id": 159,
@@ -1428,7 +1586,8 @@
     "guncel_turkce": "Güç, kuvvet, yetenek",
     "audio": {
       "default": "/osm/osm_159_kudret.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_159_kudret.mp3"
   },
   {
     "id": 160,
@@ -1437,7 +1596,8 @@
     "guncel_turkce": "Söz, kelime, dış ses",
     "audio": {
       "default": "/osm/osm_160_lafiz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_160_lafiz.mp3"
   },
   {
     "id": 161,
@@ -1446,7 +1606,8 @@
     "guncel_turkce": "Yumuşak, hoş, nazik",
     "audio": {
       "default": "/osm/osm_161_latif.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_161_latif.mp3"
   },
   {
     "id": 162,
@@ -1455,7 +1616,8 @@
     "guncel_turkce": "Yaraşırlık, uygunluk, yetenek",
     "audio": {
       "default": "/osm/osm_162_liyakat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_162_liyakat.mp3"
   },
   {
     "id": 163,
@@ -1464,7 +1626,8 @@
     "guncel_turkce": "Hoşluk, iyilik, ikram",
     "audio": {
       "default": "/osm/osm_163_lutuf.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_163_lutuf.mp3"
   },
   {
     "id": 164,
@@ -1473,7 +1636,8 @@
     "guncel_turkce": "Eğitim ve öğretim sistemi, kültür",
     "audio": {
       "default": "/osm/osm_164_maarif.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_164_maarif.mp3"
   },
   {
     "id": 165,
@@ -1482,7 +1646,8 @@
     "guncel_turkce": "Mevki, rütbe, durak",
     "audio": {
       "default": "/osm/osm_165_makam.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_165_makam.mp3"
   },
   {
     "id": 166,
@@ -1491,7 +1656,8 @@
     "guncel_turkce": "Bilinen, belli olan",
     "audio": {
       "default": "/osm/osm_166_malum.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_166_malum.mp3"
   },
   {
     "id": 167,
@@ -1500,7 +1666,8 @@
     "guncel_turkce": "Anlamlı, düşündürücü",
     "audio": {
       "default": "/osm/osm_167_manidar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_167_manidar.mp3"
   },
   {
     "id": 168,
@@ -1509,7 +1676,8 @@
     "guncel_turkce": "Ustalık, hüner, bilme",
     "audio": {
       "default": "/osm/osm_168_marifet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_168_marifet.mp3"
   },
   {
     "id": 169,
@@ -1518,7 +1686,8 @@
     "guncel_turkce": "Basın, basılı eserler",
     "audio": {
       "default": "/osm/osm_169_matbuat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_169_matbuat.mp3"
   },
   {
     "id": 170,
@@ -1527,7 +1696,8 @@
     "guncel_turkce": "Zorunlu, yükümlü",
     "audio": {
       "default": "/osm/osm_170_mecbur.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_170_mecbur.mp3"
   },
   {
     "id": 171,
@@ -1536,7 +1706,8 @@
     "guncel_turkce": "Uygarlık",
     "audio": {
       "default": "/osm/osm_171_medeniyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_171_medeniyet.mp3"
   },
   {
     "id": 172,
@@ -1545,7 +1716,8 @@
     "guncel_turkce": "Hayran olmuş, tutkun, gönül vermiş",
     "audio": {
       "default": "/osm/osm_172_meftun.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_172_meftun.mp3"
   },
   {
     "id": 173,
@@ -1554,7 +1726,8 @@
     "guncel_turkce": "Hüzün, can sıkıntısı, iç ezikliği",
     "audio": {
       "default": "/osm/osm_173_melal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_173_melal.mp3"
   },
   {
     "id": 174,
@@ -1563,7 +1736,8 @@
     "guncel_turkce": "Ülke, yurt, memleket",
     "audio": {
       "default": "/osm/osm_174_memleket.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_174_memleket.mp3"
   },
   {
     "id": 175,
@@ -1572,7 +1746,8 @@
     "guncel_turkce": "Varılacak yer, hedef, konak",
     "audio": {
       "default": "/osm/osm_175_menzil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_175_menzil.mp3"
   },
   {
     "id": 176,
@@ -1581,7 +1756,8 @@
     "guncel_turkce": "Acıma, şefkat gösterme",
     "audio": {
       "default": "/osm/osm_176_merhamet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_176_merhamet.mp3"
   },
   {
     "id": 177,
@@ -1590,7 +1766,8 @@
     "guncel_turkce": "Ara, uzaklık",
     "audio": {
       "default": "/osm/osm_177_mesafe.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_177_mesafe.mp3"
   },
   {
     "id": 178,
@@ -1599,7 +1776,8 @@
     "guncel_turkce": "Mutlu, kutlu, sevinçli",
     "audio": {
       "default": "/osm/osm_178_mesut.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_178_mesut.mp3"
   },
   {
     "id": 179,
@@ -1608,7 +1786,8 @@
     "guncel_turkce": "Yasalara uygun, geçerli",
     "audio": {
       "default": "/osm/osm_179_mesru.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_179_mesru.mp3"
   },
   {
     "id": 180,
@@ -1617,7 +1796,8 @@
     "guncel_turkce": "Dönem, çağ, yılın dört bölümü",
     "audio": {
       "default": "/osm/osm_180_mevsim.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_180_mevsim.mp3"
   },
   {
     "id": 181,
@@ -1626,7 +1806,8 @@
     "guncel_turkce": "Açık alan, alan",
     "audio": {
       "default": "/osm/osm_181_meydan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_181_meydan.mp3"
   },
   {
     "id": 182,
@@ -1635,7 +1816,8 @@
     "guncel_turkce": "Ölenlerden kalan mal veya kültür",
     "audio": {
       "default": "/osm/osm_182_miras.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_182_miras.mp3"
   },
   {
     "id": 183,
@@ -1644,7 +1826,8 @@
     "guncel_turkce": "Terazi, ölçü, denge",
     "audio": {
       "default": "/osm/osm_183_mizan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_183_mizan.mp3"
   },
   {
     "id": 184,
@@ -1653,7 +1836,8 @@
     "guncel_turkce": "Çok büyük, görkemli",
     "audio": {
       "default": "/osm/osm_184_muazzam.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_184_muazzam.mp3"
   },
   {
     "id": 185,
@@ -1662,7 +1846,8 @@
     "guncel_turkce": "Sevgi, dostça konuşma",
     "audio": {
       "default": "/osm/osm_185_muhabbet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_185_muhabbet.mp3"
   },
   {
     "id": 186,
@@ -1671,7 +1856,8 @@
     "guncel_turkce": "Kutsal, kutsanmış",
     "audio": {
       "default": "/osm/osm_186_mukaddes.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_186_mukaddes.mp3"
   },
   {
     "id": 187,
@@ -1680,7 +1866,8 @@
     "guncel_turkce": "Saadet, ongunluk",
     "audio": {
       "default": "/osm/osm_187_mutluluk.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_187_mutluluk.mp3"
   },
   {
     "id": 188,
@@ -1689,7 +1876,8 @@
     "guncel_turkce": "Parlatılmış, parlak",
     "audio": {
       "default": "/osm/osm_188_mucella.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_188_mucella.mp3"
   },
   {
     "id": 189,
@@ -1698,7 +1886,8 @@
     "guncel_turkce": "Birleşmiş, yazı sıvısı",
     "audio": {
       "default": "/osm/osm_189_murekkep.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_189_murekkep.mp3"
   },
   {
     "id": 190,
@@ -1707,7 +1896,8 @@
     "guncel_turkce": "Şefkatli, sevecen",
     "audio": {
       "default": "/osm/osm_190_musfik.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_190_musfik.mp3"
   },
   {
     "id": 191,
@@ -1716,7 +1906,8 @@
     "guncel_turkce": "Ender, az bulunan",
     "audio": {
       "default": "/osm/osm_191_nadir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_191_nadir.mp3"
   },
   {
     "id": 192,
@@ -1725,7 +1916,8 @@
     "guncel_turkce": "Öğüt, tavsiye",
     "audio": {
       "default": "/osm/osm_192_nasihat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_192_nasihat.mp3"
   },
   {
     "id": 193,
@@ -1734,7 +1926,8 @@
     "guncel_turkce": "İnce, kibar, narin",
     "audio": {
       "default": "/osm/osm_193_nazik.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_193_nazik.mp3"
   },
   {
     "id": 194,
@@ -1743,7 +1936,8 @@
     "guncel_turkce": "Soluk, canlılık emaresi",
     "audio": {
       "default": "/osm/osm_194_nefes.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_194_nefes.mp3"
   },
   {
     "id": 195,
@@ -1752,7 +1946,8 @@
     "guncel_turkce": "İyilik, lütuf, rızık",
     "audio": {
       "default": "/osm/osm_195_nimet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_195_nimet.mp3"
   },
   {
     "id": 196,
@@ -1761,7 +1956,8 @@
     "guncel_turkce": "Maksat, tasarı, kalpteki amaç",
     "audio": {
       "default": "/osm/osm_196_niyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_196_niyet.mp3"
   },
   {
     "id": 197,
@@ -1770,7 +1966,8 @@
     "guncel_turkce": "Aydınlık, parıltı, kutsal ışık",
     "audio": {
       "default": "/osm/osm_197_nur.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_197_nur.mp3"
   },
   {
     "id": 198,
@@ -1779,7 +1976,8 @@
     "guncel_turkce": "Düş, uykudaki imge",
     "audio": {
       "default": "/osm/osm_198_ruya.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_198_ruya.mp3"
   },
   {
     "id": 199,
@@ -1788,7 +1986,8 @@
     "guncel_turkce": "Katlanma, dayanma gücü",
     "audio": {
       "default": "/osm/osm_199_sabir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_199_sabir.mp3"
   },
   {
     "id": 200,
@@ -1797,7 +1996,8 @@
     "guncel_turkce": "Vakit, dönem, süre",
     "audio": {
       "default": "/osm/osm_200_zaman.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_200_zaman.mp3"
   },
   {
     "id": 201,
@@ -1806,7 +2006,8 @@
     "guncel_turkce": "Boş, saçma, akla aykırı",
     "audio": {
       "default": "/osm/osm_201_abes.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_201_abes.mp3"
   },
   {
     "id": 202,
@@ -1815,7 +2016,8 @@
     "guncel_turkce": "Gücü yetmeyen, beceriksiz",
     "audio": {
       "default": "/osm/osm_202_aciz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_202_aciz.mp3"
   },
   {
     "id": 203,
@@ -1824,7 +2026,8 @@
     "guncel_turkce": "İnsan, insan oğlu, yokluk",
     "audio": {
       "default": "/osm/osm_203_adem.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_203_adem.mp3"
   },
   {
     "id": 204,
@@ -1833,7 +2036,8 @@
     "guncel_turkce": "Sayı, tane",
     "audio": {
       "default": "/osm/osm_204_adet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_204_adet.mp3"
   },
   {
     "id": 205,
@@ -1842,7 +2046,8 @@
     "guncel_turkce": "Büyük yıkım, çok güzel kadın",
     "audio": {
       "default": "/osm/osm_205_afet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_205_afet.mp3"
   },
   {
     "id": 206,
@@ -1851,7 +2056,8 @@
     "guncel_turkce": "Dostlar, tanıdıklar",
     "audio": {
       "default": "/osm/osm_206_ahbap.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_206_ahbap.mp3"
   },
   {
     "id": 207,
@@ -1860,7 +2066,8 @@
     "guncel_turkce": "Durumlar, haller",
     "audio": {
       "default": "/osm/osm_207_ahval.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_207_ahval.mp3"
   },
   {
     "id": 208,
@@ -1869,7 +2076,8 @@
     "guncel_turkce": "Sözleşme, bağlama, nikah",
     "audio": {
       "default": "/osm/osm_208_akit.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_208_akit.mp3"
   },
   {
     "id": 209,
@@ -1878,7 +2086,8 @@
     "guncel_turkce": "Zıt, ters, yansıma",
     "audio": {
       "default": "/osm/osm_209_aks.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_209_aks.mp3"
   },
   {
     "id": 210,
@@ -1887,7 +2096,8 @@
     "guncel_turkce": "İlgi, bağ, ilişki",
     "audio": {
       "default": "/osm/osm_210_alaka.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_210_alaka.mp3"
   },
   {
     "id": 211,
@@ -1896,7 +2106,8 @@
     "guncel_turkce": "İşaret, iz, nişan",
     "audio": {
       "default": "/osm/osm_211_alamet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_211_alamet.mp3"
   },
   {
     "id": 212,
@@ -1905,7 +2116,8 @@
     "guncel_turkce": "Sıradan, alışılmış",
     "audio": {
       "default": "/osm/osm_212_alelade.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_212_alelade.mp3"
   },
   {
     "id": 213,
@@ -1914,7 +2126,8 @@
     "guncel_turkce": "İş, davranış, niyetle yapılan eylem",
     "audio": {
       "default": "/osm/osm_213_amel.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_213_amel.mp3"
   },
   {
     "id": 214,
@@ -1923,7 +2136,8 @@
     "guncel_turkce": "Etken, sebep, yapan",
     "audio": {
       "default": "/osm/osm_214_amil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_214_amil.mp3"
   },
   {
     "id": 215,
@@ -1932,7 +2146,8 @@
     "guncel_turkce": "Bilen, sezgisi yüksek olan",
     "audio": {
       "default": "/osm/osm_215_arif.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_215_arif.mp3"
   },
   {
     "id": 216,
@@ -1941,7 +2156,8 @@
     "guncel_turkce": "Çağ, yüzyıl",
     "audio": {
       "default": "/osm/osm_216_asalardan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_216_asalardan.mp3"
   },
   {
     "id": 217,
@@ -1950,7 +2166,8 @@
     "guncel_turkce": "Soylu, köklü",
     "audio": {
       "default": "/osm/osm_217_asil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_217_asil.mp3"
   },
   {
     "id": 218,
@@ -1959,7 +2176,8 @@
     "guncel_turkce": "Ordu mensubu, savaşçı",
     "audio": {
       "default": "/osm/osm_218_asker.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_218_asker.mp3"
   },
   {
     "id": 219,
@@ -1968,7 +2186,8 @@
     "guncel_turkce": "Tanıdık, bildik",
     "audio": {
       "default": "/osm/osm_219_asina.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_219_asina.mp3"
   },
   {
     "id": 220,
@@ -1977,7 +2196,8 @@
     "guncel_turkce": "Açık, belli, meydanda",
     "audio": {
       "default": "/osm/osm_220_asikar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_220_asikar.mp3"
   },
   {
     "id": 221,
@@ -1986,7 +2206,8 @@
     "guncel_turkce": "Belli, açık, ileri gelenler",
     "audio": {
       "default": "/osm/osm_221_ayan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_221_ayan.mp3"
   },
   {
     "id": 222,
@@ -1995,7 +2216,8 @@
     "guncel_turkce": "Kusur, utanılacak durum",
     "audio": {
       "default": "/osm/osm_222_ayip.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_222_ayip.mp3"
   },
   {
     "id": 223,
@@ -2004,7 +2226,8 @@
     "guncel_turkce": "Üye, organ, parçalar",
     "audio": {
       "default": "/osm/osm_223_aza.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_223_aza.mp3"
   },
   {
     "id": 224,
@@ -2013,7 +2236,8 @@
     "guncel_turkce": "Büyüklük, ululuk, gurur",
     "audio": {
       "default": "/osm/osm_224_azamet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_224_azamet.mp3"
   },
   {
     "id": 225,
@@ -2022,7 +2246,8 @@
     "guncel_turkce": "Görevden alma",
     "audio": {
       "default": "/osm/osm_225_azil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_225_azil.mp3"
   },
   {
     "id": 226,
@@ -2031,7 +2256,8 @@
     "guncel_turkce": "Kararlılık, niyet",
     "audio": {
       "default": "/osm/osm_226_azim.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_226_azim.mp3"
   },
   {
     "id": 227,
@@ -2040,7 +2266,8 @@
     "guncel_turkce": "Çöl, kır",
     "audio": {
       "default": "/osm/osm_227_badiye.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_227_badiye.mp3"
   },
   {
     "id": 228,
@@ -2049,7 +2276,8 @@
     "guncel_turkce": "Göğüs, sine, iç",
     "audio": {
       "default": "/osm/osm_228_bagr.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_228_bagr.mp3"
   },
   {
     "id": 229,
@@ -2058,7 +2286,8 @@
     "guncel_turkce": "Konu, söz etme",
     "audio": {
       "default": "/osm/osm_229_bahis.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_229_bahis.mp3"
   },
   {
     "id": 230,
@@ -2067,7 +2296,8 @@
     "guncel_turkce": "Deniz, ölçü kalıbı",
     "audio": {
       "default": "/osm/osm_230_bahr.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_230_bahr.mp3"
   },
   {
     "id": 231,
@@ -2076,7 +2306,8 @@
     "guncel_turkce": "Şans, talih",
     "audio": {
       "default": "/osm/osm_231_baht.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_231_baht.mp3"
   },
   {
     "id": 232,
@@ -2085,7 +2316,8 @@
     "guncel_turkce": "Genişleten, ilim rütbesi",
     "audio": {
       "default": "/osm/osm_232_bakir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_232_bakir.mp3"
   },
   {
     "id": 233,
@@ -2094,7 +2326,8 @@
     "guncel_turkce": "Allah mübarek etsin",
     "audio": {
       "default": "/osm/osm_233_barekallah.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_233_barekallah.mp3"
   },
   {
     "id": 234,
@@ -2103,7 +2336,8 @@
     "guncel_turkce": "Yaratıcı, hiç olmazsa",
     "audio": {
       "default": "/osm/osm_234_bari.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_234_bari.mp3"
   },
   {
     "id": 235,
@@ -2112,7 +2346,8 @@
     "guncel_turkce": "Görme yetisi, göz",
     "audio": {
       "default": "/osm/osm_235_basar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_235_basar.mp3"
   },
   {
     "id": 236,
@@ -2121,7 +2356,8 @@
     "guncel_turkce": "İç yüz, gizli olan",
     "audio": {
       "default": "/osm/osm_236_batin.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_236_batin.mp3"
   },
   {
     "id": 237,
@@ -2130,7 +2366,8 @@
     "guncel_turkce": "Yerinde, uygun",
     "audio": {
       "default": "/osm/osm_237_beca.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_237_beca.mp3"
   },
   {
     "id": 238,
@@ -2139,7 +2376,8 @@
     "guncel_turkce": "Karşılık, fiyat",
     "audio": {
       "default": "/osm/osm_238_bedel.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_238_bedel.mp3"
   },
   {
     "id": 239,
@@ -2148,7 +2386,8 @@
     "guncel_turkce": "Vücut, gövde",
     "audio": {
       "default": "/osm/osm_239_beden.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_239_beden.mp3"
   },
   {
     "id": 240,
@@ -2157,7 +2396,8 @@
     "guncel_turkce": "Eşsiz, güzel, yeni",
     "audio": {
       "default": "/osm/osm_240_bedi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_240_bedi.mp3"
   },
   {
     "id": 241,
@@ -2166,7 +2406,8 @@
     "guncel_turkce": "Belli, aşikar",
     "audio": {
       "default": "/osm/osm_241_bedid.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_241_bedid.mp3"
   },
   {
     "id": 242,
@@ -2175,7 +2416,8 @@
     "guncel_turkce": "Kalıcılık, ölmezlik",
     "audio": {
       "default": "/osm/osm_242_beka.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_242_beka.mp3"
   },
   {
     "id": 243,
@@ -2184,7 +2426,8 @@
     "guncel_turkce": "Muhafız, koruyucu",
     "audio": {
       "default": "/osm/osm_243_bekci.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_243_bekci.mp3"
   },
   {
     "id": 244,
@@ -2193,7 +2436,8 @@
     "guncel_turkce": "Şehir, kasaba, memleket",
     "audio": {
       "default": "/osm/osm_244_belde.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_244_belde.mp3"
   },
   {
     "id": 245,
@@ -2202,7 +2446,8 @@
     "guncel_turkce": "Vesika, kanıt",
     "audio": {
       "default": "/osm/osm_245_belge.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_245_belge.mp3"
   },
   {
     "id": 246,
@@ -2211,7 +2456,8 @@
     "guncel_turkce": "İhtimal, muhtemelen",
     "audio": {
       "default": "/osm/osm_246_belki.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_246_belki.mp3"
   },
   {
     "id": 247,
@@ -2220,7 +2466,8 @@
     "guncel_turkce": "Afet, sıkıntı, imtihan",
     "audio": {
       "default": "/osm/osm_247_bela.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_247_bela.mp3"
   },
   {
     "id": 248,
@@ -2229,7 +2476,8 @@
     "guncel_turkce": "Eş, benzer",
     "audio": {
       "default": "/osm/osm_248_benzer.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_248_benzer.mp3"
   },
   {
     "id": 249,
@@ -2238,7 +2486,8 @@
     "guncel_turkce": "İmtiyaz belgesi, aklanma",
     "audio": {
       "default": "/osm/osm_249_berat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_249_berat.mp3"
   },
   {
     "id": 250,
@@ -2247,7 +2496,8 @@
     "guncel_turkce": "Bolluk, gürlük",
     "audio": {
       "default": "/osm/osm_250_bereket.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_250_bereket.mp3"
   },
   {
     "id": 251,
@@ -2256,7 +2506,8 @@
     "guncel_turkce": "Posta, elçi",
     "audio": {
       "default": "/osm/osm_251_berid.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_251_berid.mp3"
   },
   {
     "id": 252,
@@ -2265,7 +2516,8 @@
     "guncel_turkce": "Geçit, engel, iki dünya arası",
     "audio": {
       "default": "/osm/osm_252_berza.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_252_berza.mp3"
   },
   {
     "id": 253,
@@ -2274,7 +2526,8 @@
     "guncel_turkce": "Yiğitlik, cesaret",
     "audio": {
       "default": "/osm/osm_253_besalet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_253_besalet.mp3"
   },
   {
     "id": 254,
@@ -2283,7 +2536,8 @@
     "guncel_turkce": "Bağlanmış, müzik eseri",
     "audio": {
       "default": "/osm/osm_254_beste.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_254_beste.mp3"
   },
   {
     "id": 255,
@@ -2292,7 +2546,8 @@
     "guncel_turkce": "Müjde, iyi haber",
     "audio": {
       "default": "/osm/osm_255_besaret.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_255_besaret.mp3"
   },
   {
     "id": 256,
@@ -2301,7 +2556,8 @@
     "guncel_turkce": "Güler yüzlü",
     "audio": {
       "default": "/osm/osm_256_besus.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_256_besus.mp3"
   },
   {
     "id": 257,
@@ -2310,7 +2566,8 @@
     "guncel_turkce": "Ak, ak renk",
     "audio": {
       "default": "/osm/osm_257_beyaz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_257_beyaz.mp3"
   },
   {
     "id": 258,
@@ -2319,7 +2576,8 @@
     "guncel_turkce": "Ev, hane, iki mısra",
     "audio": {
       "default": "/osm/osm_258_beyt.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_258_beyt.mp3"
   },
   {
     "id": 259,
@@ -2328,7 +2586,8 @@
     "guncel_turkce": "Boşuna, yararsız",
     "audio": {
       "default": "/osm/osm_259_beyhude.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_259_beyhude.mp3"
   },
   {
     "id": 260,
@@ -2337,7 +2596,8 @@
     "guncel_turkce": "Açık delil, kanıt",
     "audio": {
       "default": "/osm/osm_260_beyyin.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_260_beyyin.mp3"
   },
   {
     "id": 261,
@@ -2346,7 +2606,8 @@
     "guncel_turkce": "Meclis, sohbet ortamı",
     "audio": {
       "default": "/osm/osm_261_bezm.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_261_bezm.mp3"
   },
   {
     "id": 262,
@@ -2355,7 +2616,8 @@
     "guncel_turkce": "Aman vermez, acımasız",
     "audio": {
       "default": "/osm/osm_262_biaman.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_262_biaman.mp3"
   },
   {
     "id": 263,
@@ -2364,7 +2626,8 @@
     "guncel_turkce": "Zavallı, çaresiz",
     "audio": {
       "default": "/osm/osm_263_bicare.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_263_bicare.mp3"
   },
   {
     "id": 264,
@@ -2373,7 +2636,8 @@
     "guncel_turkce": "Sonradan çıkan adet, yenilik",
     "audio": {
       "default": "/osm/osm_264_bidat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_264_bidat.mp3"
   },
   {
     "id": 265,
@@ -2382,7 +2646,8 @@
     "guncel_turkce": "Allah'a hamd olsun",
     "audio": {
       "default": "/osm/osm_265_bihamdillah.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_265_bihamdillah.mp3"
   },
   {
     "id": 266,
@@ -2391,7 +2656,8 @@
     "guncel_turkce": "Baygın, akılsız",
     "audio": {
       "default": "/osm/osm_266_bihus.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_266_bihus.mp3"
   },
   {
     "id": 267,
@@ -2400,7 +2666,8 @@
     "guncel_turkce": "Uyanık",
     "audio": {
       "default": "/osm/osm_267_bidar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_267_bidar.mp3"
   },
   {
     "id": 268,
@@ -2409,7 +2676,8 @@
     "guncel_turkce": "İşsiz",
     "audio": {
       "default": "/osm/osm_268_bikar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_268_bikar.mp3"
   },
   {
     "id": 269,
@@ -2418,7 +2686,8 @@
     "guncel_turkce": "-sız, -siz eki",
     "audio": {
       "default": "/osm/osm_269_bila.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_269_bila.mp3"
   },
   {
     "id": 270,
@@ -2427,7 +2696,8 @@
     "guncel_turkce": "Hasta",
     "audio": {
       "default": "/osm/osm_270_bimar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_270_bimar.mp3"
   },
   {
     "id": 271,
@@ -2436,7 +2706,8 @@
     "guncel_turkce": "Yapı",
     "audio": {
       "default": "/osm/osm_271_bina.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_271_bina.mp3"
   },
   {
     "id": 272,
@@ -2445,7 +2716,8 @@
     "guncel_turkce": "Eşsiz, benzersiz",
     "audio": {
       "default": "/osm/osm_272_binazir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_272_binazir.mp3"
   },
   {
     "id": 273,
@@ -2454,7 +2726,8 @@
     "guncel_turkce": "Korkusuz, çekinmez",
     "audio": {
       "default": "/osm/osm_273_biperva.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_273_biperva.mp3"
   },
   {
     "id": 274,
@@ -2463,7 +2736,8 @@
     "guncel_turkce": "Dış, dışarı",
     "audio": {
       "default": "/osm/osm_274_birun.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_274_birun.mp3"
   },
   {
     "id": 275,
@@ -2472,7 +2746,8 @@
     "guncel_turkce": "Allah'ın adıyla",
     "audio": {
       "default": "/osm/osm_275_bismillah.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_275_bismillah.mp3"
   },
   {
     "id": 276,
@@ -2481,7 +2756,8 @@
     "guncel_turkce": "Bezmîş, bıkmış",
     "audio": {
       "default": "/osm/osm_276_bizar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_276_bizar.mp3"
   },
   {
     "id": 277,
@@ -2490,7 +2766,8 @@
     "guncel_turkce": "Renk maddesi",
     "audio": {
       "default": "/osm/osm_277_boya.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_277_boya.mp3"
   },
   {
     "id": 278,
@@ -2499,7 +2776,8 @@
     "guncel_turkce": "Kin, gizli nefret",
     "audio": {
       "default": "/osm/osm_278_bugz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_278_bugz.mp3"
   },
   {
     "id": 279,
@@ -2508,7 +2786,8 @@
     "guncel_turkce": "Gaz hali, duman",
     "audio": {
       "default": "/osm/osm_279_buhar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_279_buhar.mp3"
   },
   {
     "id": 280,
@@ -2517,7 +2796,8 @@
     "guncel_turkce": "Kriz, bunalım",
     "audio": {
       "default": "/osm/osm_280_buhran.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_280_buhran.mp3"
   },
   {
     "id": 281,
@@ -2526,7 +2806,8 @@
     "guncel_turkce": "Bulut kümesi",
     "audio": {
       "default": "/osm/osm_281_bulut.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_281_bulut.mp3"
   },
   {
     "id": 282,
@@ -2535,7 +2816,8 @@
     "guncel_turkce": "Yüksek, yüce",
     "audio": {
       "default": "/osm/osm_282_bulend.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_282_bulend.mp3"
   },
   {
     "id": 283,
@@ -2544,7 +2826,8 @@
     "guncel_turkce": "Kesin delil",
     "audio": {
       "default": "/osm/osm_283_burhan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_283_burhan.mp3"
   },
   {
     "id": 284,
@@ -2553,7 +2836,8 @@
     "guncel_turkce": "Bedava, fazlalık",
     "audio": {
       "default": "/osm/osm_284_caba.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_284_caba.mp3"
   },
   {
     "id": 285,
@@ -2562,7 +2846,8 @@
     "guncel_turkce": "Ana yol",
     "audio": {
       "default": "/osm/osm_285_cadde.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_285_cadde.mp3"
   },
   {
     "id": 286,
@@ -2571,7 +2856,8 @@
     "guncel_turkce": "Uygun, yapılabilir",
     "audio": {
       "default": "/osm/osm_286_caiz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_286_caiz.mp3"
   },
   {
     "id": 287,
@@ -2580,7 +2866,8 @@
     "guncel_turkce": "Çekici, celb eden",
     "audio": {
       "default": "/osm/osm_287_calip.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_287_calip.mp3"
   },
   {
     "id": 288,
@@ -2589,7 +2876,8 @@
     "guncel_turkce": "Ruh, yaşam özü",
     "audio": {
       "default": "/osm/osm_288_can.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_288_can.mp3"
   },
   {
     "id": 289,
@@ -2598,7 +2886,8 @@
     "guncel_turkce": "Yan, taraf, yön",
     "audio": {
       "default": "/osm/osm_289_canip.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_289_canip.mp3"
   },
   {
     "id": 290,
@@ -2607,7 +2896,8 @@
     "guncel_turkce": "Hizmetçi kadın, savaş esiri kadın",
     "audio": {
       "default": "/osm/osm_290_cariye.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_290_cariye.mp3"
   },
   {
     "id": 291,
@@ -2616,7 +2906,8 @@
     "guncel_turkce": "Ajan, gizli haberci",
     "audio": {
       "default": "/osm/osm_291_casus.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_291_casus.mp3"
   },
   {
     "id": 292,
@@ -2625,7 +2916,8 @@
     "guncel_turkce": "Ölümsüz, kalıcı",
     "audio": {
       "default": "/osm/osm_292_cavidan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_292_cavidan.mp3"
   },
   {
     "id": 293,
@@ -2634,7 +2926,8 @@
     "guncel_turkce": "Ödeyen, karşılık veren",
     "audio": {
       "default": "/osm/osm_293_cazi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_293_cazi.mp3"
   },
   {
     "id": 294,
@@ -2643,7 +2936,8 @@
     "guncel_turkce": "Zorba, çok güçlü",
     "audio": {
       "default": "/osm/osm_294_cebbar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_294_cebbar.mp3"
   },
   {
     "id": 295,
@@ -2652,7 +2946,8 @@
     "guncel_turkce": "Zorlama, matematik dalı",
     "audio": {
       "default": "/osm/osm_295_cebir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_295_cebir.mp3"
   },
   {
     "id": 296,
@@ -2661,7 +2956,8 @@
     "guncel_turkce": "Yeni",
     "audio": {
       "default": "/osm/osm_296_cedid.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_296_cedid.mp3"
   },
   {
     "id": 297,
@@ -2670,7 +2966,8 @@
     "guncel_turkce": "Ata, büyükbaba",
     "audio": {
       "default": "/osm/osm_297_ced.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_297_ced.mp3"
   },
   {
     "id": 298,
@@ -2679,7 +2976,8 @@
     "guncel_turkce": "Sıkıntı verme",
     "audio": {
       "default": "/osm/osm_298_cefa.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_298_cefa.mp3"
   },
   {
     "id": 299,
@@ -2688,7 +2986,8 @@
     "guncel_turkce": "Çaba, azim",
     "audio": {
       "default": "/osm/osm_299_cehd.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_299_cehd.mp3"
   },
   {
     "id": 300,
@@ -2697,7 +2996,8 @@
     "guncel_turkce": "Azap yeri",
     "audio": {
       "default": "/osm/osm_300_cehennem.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_300_cehennem.mp3"
   },
   {
     "id": 301,
@@ -2706,7 +3006,8 @@
     "guncel_turkce": "Bilgisizlik",
     "audio": {
       "default": "/osm/osm_301_cehil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_301_cehil.mp3"
   },
   {
     "id": 302,
@@ -2715,7 +3016,8 @@
     "guncel_turkce": "Yüz, çehre",
     "audio": {
       "default": "/osm/osm_302_cehre.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_302_cehre.mp3"
   },
   {
     "id": 303,
@@ -2724,7 +3026,8 @@
     "guncel_turkce": "Yiğitlik, kahramanlık",
     "audio": {
       "default": "/osm/osm_303_celadet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_303_celadet.mp3"
   },
   {
     "id": 304,
@@ -2733,7 +3036,8 @@
     "guncel_turkce": "Açık, parlak yazı tarzı",
     "audio": {
       "default": "/osm/osm_304_celi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_304_celi.mp3"
   },
   {
     "id": 305,
@@ -2742,7 +3046,8 @@
     "guncel_turkce": "Kendi üstüne çekme, çağırma",
     "audio": {
       "default": "/osm/osm_305_celb.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_305_celb.mp3"
   },
   {
     "id": 306,
@@ -2751,7 +3056,8 @@
     "guncel_turkce": "Oturum",
     "audio": {
       "default": "/osm/osm_306_celse.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_306_celse.mp3"
   },
   {
     "id": 307,
@@ -2760,7 +3066,8 @@
     "guncel_turkce": "Topluluk",
     "audio": {
       "default": "/osm/osm_307_cemaat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_307_cemaat.mp3"
   },
   {
     "id": 308,
@@ -2769,7 +3076,8 @@
     "guncel_turkce": "Toplama, bir araya getirme",
     "audio": {
       "default": "/osm/osm_308_cem.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_308_cem.mp3"
   },
   {
     "id": 309,
@@ -2778,7 +3086,8 @@
     "guncel_turkce": "Kanat, taraf",
     "audio": {
       "default": "/osm/osm_309_cenah.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_309_cenah.mp3"
   },
   {
     "id": 310,
@@ -2787,7 +3096,8 @@
     "guncel_turkce": "Ölü bedeni",
     "audio": {
       "default": "/osm/osm_310_cenaze.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_310_cenaze.mp3"
   },
   {
     "id": 311,
@@ -2796,7 +3106,8 @@
     "guncel_turkce": "Bahçe, ödül yeri",
     "audio": {
       "default": "/osm/osm_311_cenet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_311_cenet.mp3"
   },
   {
     "id": 312,
@@ -2805,7 +3116,8 @@
     "guncel_turkce": "Güney",
     "audio": {
       "default": "/osm/osm_312_cenup.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_312_cenup.mp3"
   },
   {
     "id": 313,
@@ -2814,7 +3126,8 @@
     "guncel_turkce": "Para cezası, zarar",
     "audio": {
       "default": "/osm/osm_313_cereme.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_313_cereme.mp3"
   },
   {
     "id": 314,
@@ -2823,7 +3136,8 @@
     "guncel_turkce": "Yara, irin",
     "audio": {
       "default": "/osm/osm_314_cerahat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_314_cerahat.mp3"
   },
   {
     "id": 315,
@@ -2832,7 +3146,8 @@
     "guncel_turkce": "Akım, gidişat, akma",
     "audio": {
       "default": "/osm/osm_315_cereyan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_315_cereyan.mp3"
   },
   {
     "id": 316,
@@ -2841,7 +3156,8 @@
     "guncel_turkce": "Gazete, gazete kütüğü",
     "audio": {
       "default": "/osm/osm_316_ceride.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_316_ceride.mp3"
   },
   {
     "id": 317,
@@ -2850,7 +3166,8 @@
     "guncel_turkce": "Büyük, iri gövdeli",
     "audio": {
       "default": "/osm/osm_317_cesim.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_317_cesim.mp3"
   },
   {
     "id": 318,
@@ -2859,7 +3176,8 @@
     "guncel_turkce": "Yürekli",
     "audio": {
       "default": "/osm/osm_318_cesur.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_318_cesur.mp3"
   },
   {
     "id": 319,
@@ -2868,7 +3186,8 @@
     "guncel_turkce": "Yanıt",
     "audio": {
       "default": "/osm/osm_319_cevab.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_319_cevab.mp3"
   },
   {
     "id": 320,
@@ -2877,7 +3196,8 @@
     "guncel_turkce": "Hareketli, atik",
     "audio": {
       "default": "/osm/osm_320_cevval.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_320_cevval.mp3"
   },
   {
     "id": 321,
@@ -2886,7 +3206,8 @@
     "guncel_turkce": "Eziyet, cefa",
     "audio": {
       "default": "/osm/osm_321_cevr.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_321_cevr.mp3"
   },
   {
     "id": 322,
@@ -2895,7 +3216,8 @@
     "guncel_turkce": "Ordu, asker topluluğu",
     "audio": {
       "default": "/osm/osm_322_ceys.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_322_ceys.mp3"
   },
   {
     "id": 323,
@@ -2904,7 +3226,8 @@
     "guncel_turkce": "Kendinden geçme durumu, çekim",
     "audio": {
       "default": "/osm/osm_323_cezba.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_323_cezba.mp3"
   },
   {
     "id": 324,
@@ -2913,7 +3236,8 @@
     "guncel_turkce": "Karşılık, yaptırım",
     "audio": {
       "default": "/osm/osm_324_ceza.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_324_ceza.mp3"
   },
   {
     "id": 325,
@@ -2922,7 +3246,8 @@
     "guncel_turkce": "Kesin karar, harf işareti",
     "audio": {
       "default": "/osm/osm_325_cezm.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_325_cezm.mp3"
   },
   {
     "id": 326,
@@ -2931,7 +3256,8 @@
     "guncel_turkce": "Yaratılış, maya, köken",
     "audio": {
       "default": "/osm/osm_326_cibilliyet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_326_cibilliyet.mp3"
   },
   {
     "id": 327,
@@ -2940,7 +3266,8 @@
     "guncel_turkce": "Kavga, savaş",
     "audio": {
       "default": "/osm/osm_327_cidal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_327_cidal.mp3"
   },
   {
     "id": 328,
@@ -2949,7 +3276,8 @@
     "guncel_turkce": "Ciddi, titiz",
     "audio": {
       "default": "/osm/osm_328_cidde.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_328_cidde.mp3"
   },
   {
     "id": 329,
@@ -2958,7 +3286,8 @@
     "guncel_turkce": "Parlaklık verme maddesi",
     "audio": {
       "default": "/osm/osm_329_cila.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_329_cila.mp3"
   },
   {
     "id": 330,
@@ -2967,7 +3296,8 @@
     "guncel_turkce": "Deri, kitap kaplaması",
     "audio": {
       "default": "/osm/osm_330_cilt.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_330_cilt.mp3"
   },
   {
     "id": 331,
@@ -2976,7 +3306,8 @@
     "guncel_turkce": "Görünme, kırıtma, naz",
     "audio": {
       "default": "/osm/osm_331_cilve.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_331_cilve.mp3"
   },
   {
     "id": 332,
@@ -2985,7 +3316,8 @@
     "guncel_turkce": "Cinsel birleşme",
     "audio": {
       "default": "/osm/osm_332_cima.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_332_cima.mp3"
   },
   {
     "id": 333,
@@ -2994,7 +3326,8 @@
     "guncel_turkce": " cana kıyma, ağır suç",
     "audio": {
       "default": "/osm/osm_333_cinayet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_333_cinayet.mp3"
   },
   {
     "id": 334,
@@ -3003,7 +3336,8 @@
     "guncel_turkce": "Tür, soy",
     "audio": {
       "default": "/osm/osm_334_cinis.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_334_cinis.mp3"
   },
   {
     "id": 335,
@@ -3012,7 +3346,8 @@
     "guncel_turkce": "Gizli varlık",
     "audio": {
       "default": "/osm/osm_335_cinn.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_335_cinn.mp3"
   },
   {
     "id": 336,
@@ -3021,7 +3356,8 @@
     "guncel_turkce": "Devir işlemi, hasılat",
     "audio": {
       "default": "/osm/osm_336_ciro.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_336_ciro.mp3"
   },
   {
     "id": 337,
@@ -3030,7 +3366,8 @@
     "guncel_turkce": "Beden, madde",
     "audio": {
       "default": "/osm/osm_337_cism.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_337_cism.mp3"
   },
   {
     "id": 338,
@@ -3039,7 +3376,8 @@
     "guncel_turkce": "Çevre, yakın yer",
     "audio": {
       "default": "/osm/osm_338_civar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_338_civar.mp3"
   },
   {
     "id": 339,
@@ -3048,7 +3386,8 @@
     "guncel_turkce": "Gayrimüslim vergisi",
     "audio": {
       "default": "/osm/osm_339_cizye.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_339_cizye.mp3"
   },
   {
     "id": 340,
@@ -3057,7 +3396,8 @@
     "guncel_turkce": "Taşkın, heyecanlı",
     "audio": {
       "default": "/osm/osm_340_coskun.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_340_coskun.mp3"
   },
   {
     "id": 341,
@@ -3066,7 +3406,8 @@
     "guncel_turkce": "Toplanma günü",
     "audio": {
       "default": "/osm/osm_341_cuma.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_341_cuma.mp3"
   },
   {
     "id": 342,
@@ -3075,7 +3416,8 @@
     "guncel_turkce": "Küçük suç, kabahat",
     "audio": {
       "default": "/osm/osm_342_cunha.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_342_cunha.mp3"
   },
   {
     "id": 343,
@@ -3084,7 +3426,8 @@
     "guncel_turkce": "Delilik",
     "audio": {
       "default": "/osm/osm_343_cunun.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_343_cunun.mp3"
   },
   {
     "id": 344,
@@ -3093,7 +3436,8 @@
     "guncel_turkce": "İhbar yazısı, rapor",
     "audio": {
       "default": "/osm/osm_344_curnal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_344_curnal.mp3"
   },
   {
     "id": 345,
@@ -3102,7 +3446,8 @@
     "guncel_turkce": "Cömertlikle ilgili",
     "audio": {
       "default": "/osm/osm_345_cudi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_345_cudi.mp3"
   },
   {
     "id": 346,
@@ -3111,7 +3456,8 @@
     "guncel_turkce": "Tahta çıkma töreni",
     "audio": {
       "default": "/osm/osm_346_culus.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_346_culus.mp3"
   },
   {
     "id": 347,
@@ -3120,7 +3466,8 @@
     "guncel_turkce": "Söz dizimi, hep, bütün",
     "audio": {
       "default": "/osm/osm_347_cumle.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_347_cumle.mp3"
   },
   {
     "id": 348,
@@ -3129,7 +3476,8 @@
     "guncel_turkce": "Suç, kusur",
     "audio": {
       "default": "/osm/osm_348_curm.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_348_curm.mp3"
   },
   {
     "id": 349,
@@ -3138,7 +3486,8 @@
     "guncel_turkce": "Para kabı, belge kılıfı",
     "audio": {
       "default": "/osm/osm_349_cuzdan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_349_cuzdan.mp3"
   },
   {
     "id": 350,
@@ -3147,7 +3496,8 @@
     "guncel_turkce": "Az, azıcık",
     "audio": {
       "default": "/osm/osm_350_cuzi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_350_cuzi.mp3"
   },
   {
     "id": 351,
@@ -3156,7 +3506,8 @@
     "guncel_turkce": "Defeden, ortadan kaldıran",
     "audio": {
       "default": "/osm/osm_351_dafi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_351_dafi.mp3"
   },
   {
     "id": 352,
@@ -3165,7 +3516,8 @@
     "guncel_turkce": "İç, içeri, ait",
     "audio": {
       "default": "/osm/osm_352_dahil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_352_dahil.mp3"
   },
   {
     "id": 353,
@@ -3174,7 +3526,8 @@
     "guncel_turkce": "Üstün zekalı kimse",
     "audio": {
       "default": "/osm/osm_353_dahi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_353_dahi.mp3"
   },
   {
     "id": 354,
@@ -3183,7 +3536,8 @@
     "guncel_turkce": "İlgili, üzerine",
     "audio": {
       "default": "/osm/osm_354_dair.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_354_dair.mp3"
   },
   {
     "id": 355,
@@ -3192,7 +3546,8 @@
     "guncel_turkce": "Çember, ev bölümü, ofis",
     "audio": {
       "default": "/osm/osm_355_daire.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_355_daire.mp3"
   },
   {
     "id": 356,
@@ -3201,7 +3556,8 @@
     "guncel_turkce": "İnce, titiz, zamanı kollayan",
     "audio": {
       "default": "/osm/osm_356_dakik.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_356_dakik.mp3"
   },
   {
     "id": 357,
@@ -3210,7 +3566,8 @@
     "guncel_turkce": "Yazı makinesi",
     "audio": {
       "default": "/osm/osm_357_daktilo.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_357_daktilo.mp3"
   },
   {
     "id": 358,
@@ -3219,7 +3576,8 @@
     "guncel_turkce": "Ağaç parçası, branş",
     "audio": {
       "default": "/osm/osm_358_dal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_358_dal.mp3"
   },
   {
     "id": 359,
@@ -3228,7 +3586,8 @@
     "guncel_turkce": "Sapkınlık, doğru yoldan çıkma",
     "audio": {
       "default": "/osm/osm_359_dalalet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_359_dalalet.mp3"
   },
   {
     "id": 360,
@@ -3237,7 +3596,8 @@
     "guncel_turkce": "Aracı kadın, kılavuzluk",
     "audio": {
       "default": "/osm/osm_360_dalla.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_360_dalla.mp3"
   },
   {
     "id": 361,
@@ -3246,7 +3606,8 @@
     "guncel_turkce": "Gelin kocası",
     "audio": {
       "default": "/osm/osm_361_damad.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_361_damad.mp3"
   },
   {
     "id": 362,
@@ -3255,7 +3616,8 @@
     "guncel_turkce": "İz, mühür",
     "audio": {
       "default": "/osm/osm_362_damga.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_362_damga.mp3"
   },
   {
     "id": 363,
@@ -3264,7 +3626,8 @@
     "guncel_turkce": "Bilen, bilgili",
     "audio": {
       "default": "/osm/osm_363_dana.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_363_dana.mp3"
   },
   {
     "id": 364,
@@ -3273,7 +3636,8 @@
     "guncel_turkce": "Bilge kişi ismi",
     "audio": {
       "default": "/osm/osm_364_danyal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_364_danyal.mp3"
   },
   {
     "id": 365,
@@ -3282,7 +3646,8 @@
     "guncel_turkce": "Ev, yer, yurt, geniş olmayan",
     "audio": {
       "default": "/osm/osm_365_dar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_365_dar.mp3"
   },
   {
     "id": 366,
@@ -3291,7 +3656,8 @@
     "guncel_turkce": "Hükümdar, kap ağırlığı",
     "audio": {
       "default": "/osm/osm_366_dara.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_366_dara.mp3"
   },
   {
     "id": 367,
@@ -3300,7 +3666,8 @@
     "guncel_turkce": "Vurma, çarpma",
     "audio": {
       "default": "/osm/osm_367_darb.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_367_darb.mp3"
   },
   {
     "id": 368,
@@ -3309,7 +3676,8 @@
     "guncel_turkce": "Para basılan yer",
     "audio": {
       "default": "/osm/osm_368_darphane.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_368_darphane.mp3"
   },
   {
     "id": 369,
@@ -3318,7 +3686,8 @@
     "guncel_turkce": "Düşkünler evi",
     "audio": {
       "default": "/osm/osm_369_darulaceze.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_369_darulaceze.mp3"
   },
   {
     "id": 370,
@@ -3327,7 +3696,8 @@
     "guncel_turkce": "Şefkat evi, okul",
     "audio": {
       "default": "/osm/osm_370_darussafaka.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_370_darussafaka.mp3"
   },
   {
     "id": 371,
@@ -3336,7 +3706,8 @@
     "guncel_turkce": "Hukuki iddia, ideal",
     "audio": {
       "default": "/osm/osm_371_dava.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_371_dava.mp3"
   },
   {
     "id": 372,
@@ -3345,7 +3716,8 @@
     "guncel_turkce": "Anne kardeşi",
     "audio": {
       "default": "/osm/osm_372_dayi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_372_dayi.mp3"
   },
   {
     "id": 373,
@@ -3354,7 +3726,8 @@
     "guncel_turkce": "Görkem, gösteriş, şatafat",
     "audio": {
       "default": "/osm/osm_373_debdebe.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_373_debdebe.mp3"
   },
   {
     "id": 374,
@@ -3363,7 +3736,8 @@
     "guncel_turkce": "Büyük baba",
     "audio": {
       "default": "/osm/osm_374_dede.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_374_dede.mp3"
   },
   {
     "id": 375,
@@ -3372,7 +3746,8 @@
     "guncel_turkce": "Savma, uzaklaştırma, çalgı",
     "audio": {
       "default": "/osm/osm_375_def.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_375_def.mp3"
   },
   {
     "id": 376,
@@ -3381,7 +3756,8 @@
     "guncel_turkce": "Gömme, cenaze gömülmesi",
     "audio": {
       "default": "/osm/osm_376_defin.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_376_defin.mp3"
   },
   {
     "id": 377,
@@ -3390,7 +3766,8 @@
     "guncel_turkce": "Gömülü hazine",
     "audio": {
       "default": "/osm/osm_377_define.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_377_define.mp3"
   },
   {
     "id": 378,
@@ -3399,7 +3776,8 @@
     "guncel_turkce": "Kayıt kitabı",
     "audio": {
       "default": "/osm/osm_378_defter.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_378_defter.mp3"
   },
   {
     "id": 379,
@@ -3408,7 +3786,8 @@
     "guncel_turkce": "Yer altı koridoru, geçit",
     "audio": {
       "default": "/osm/osm_379_dehliz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_379_dehliz.mp3"
   },
   {
     "id": 380,
@@ -3417,7 +3796,8 @@
     "guncel_turkce": "Büyük korku, şaşkınlık",
     "audio": {
       "default": "/osm/osm_380_dehset.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_380_dehset.mp3"
   },
   {
     "id": 381,
@@ -3426,7 +3806,8 @@
     "guncel_turkce": "Kanıt, kılavuz",
     "audio": {
       "default": "/osm/osm_381_delil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_381_delil.mp3"
   },
   {
     "id": 382,
@@ -3435,7 +3816,8 @@
     "guncel_turkce": "Bağlam, deste",
     "audio": {
       "default": "/osm/osm_382_demet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_382_demet.mp3"
   },
   {
     "id": 383,
@@ -3444,7 +3826,8 @@
     "guncel_turkce": "Metal maden",
     "audio": {
       "default": "/osm/osm_383_demir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_383_demir.mp3"
   },
   {
     "id": 384,
@@ -3453,7 +3836,8 @@
     "guncel_turkce": "Halk iradesi",
     "audio": {
       "default": "/osm/osm_384_demokrasi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_384_demokrasi.mp3"
   },
   {
     "id": 385,
@@ -3462,7 +3846,8 @@
     "guncel_turkce": "Büyük su kütlesi",
     "audio": {
       "default": "/osm/osm_385_deniz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_385_deniz.mp3"
   },
   {
     "id": 386,
@@ -3471,7 +3856,8 @@
     "guncel_turkce": "Yer sarsıntısı",
     "audio": {
       "default": "/osm/osm_386_deprem.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_386_deprem.mp3"
   },
   {
     "id": 387,
@@ -3480,7 +3866,8 @@
     "guncel_turkce": "Hemen arkasından, anında",
     "audio": {
       "default": "/osm/osm_387_derakap.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_387_derakap.mp3"
   },
   {
     "id": 388,
@@ -3489,7 +3876,8 @@
     "guncel_turkce": "Basamak, rütbe",
     "audio": {
       "default": "/osm/osm_388_derce.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_388_derce.mp3"
   },
   {
     "id": 389,
@@ -3498,7 +3886,8 @@
     "guncel_turkce": "Süreli yayın",
     "audio": {
       "default": "/osm/osm_389_dergi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_389_dergi.mp3"
   },
   {
     "id": 390,
@@ -3507,7 +3896,8 @@
     "guncel_turkce": "Ten, cilt",
     "audio": {
       "default": "/osm/osm_390_deri.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_390_deri.mp3"
   },
   {
     "id": 391,
@@ -3516,7 +3906,8 @@
     "guncel_turkce": "Çare, ilaç, güç",
     "audio": {
       "default": "/osm/osm_391_derman.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_391_derman.mp3"
   },
   {
     "id": 392,
@@ -3525,7 +3916,8 @@
     "guncel_turkce": "Ortada, ortaya koyarak",
     "audio": {
       "default": "/osm/osm_392_dermiyan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_392_dermiyan.mp3"
   },
   {
     "id": 393,
@@ -3534,7 +3926,8 @@
     "guncel_turkce": "Öğreti, ibret",
     "audio": {
       "default": "/osm/osm_393_ders.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_393_ders.mp3"
   },
   {
     "id": 394,
@@ -3543,7 +3936,8 @@
     "guncel_turkce": "Keder, ağrı",
     "audio": {
       "default": "/osm/osm_394_dert.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_394_dert.mp3"
   },
   {
     "id": 395,
@@ -3552,7 +3946,8 @@
     "guncel_turkce": "Alçakgönüllü tarikat eri",
     "audio": {
       "default": "/osm/osm_395_dervis.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_395_dervis.mp3"
   },
   {
     "id": 396,
@@ -3561,7 +3956,8 @@
     "guncel_turkce": "Hile, tuzak, entrika",
     "audio": {
       "default": "/osm/osm_396_desise.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_396_desise.mp3"
   },
   {
     "id": 397,
@@ -3570,7 +3966,8 @@
     "guncel_turkce": "Efsanevi hikaye",
     "audio": {
       "default": "/osm/osm_397_destan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_397_destan.mp3"
   },
   {
     "id": 398,
@@ -3579,7 +3976,8 @@
     "guncel_turkce": "Onlu grup, kulp, demet",
     "audio": {
       "default": "/osm/osm_398_deste.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_398_deste.mp3"
   },
   {
     "id": 399,
@@ -3588,7 +3986,8 @@
     "guncel_turkce": "İzin, kural, müsaade",
     "audio": {
       "default": "/osm/osm_399_destur.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_399_destur.mp3"
   },
   {
     "id": 400,
@@ -3597,7 +3996,8 @@
     "guncel_turkce": "Devletler",
     "audio": {
       "default": "/osm/osm_400_deval.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_400_deval.mp3"
   },
   {
     "id": 401,
@@ -3606,7 +4006,8 @@
     "guncel_turkce": "Süreklilik",
     "audio": {
       "default": "/osm/osm_401_devam.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_401_devam.mp3"
   },
   {
     "id": 402,
@@ -3615,7 +4016,8 @@
     "guncel_turkce": "Yük hayvanı",
     "audio": {
       "default": "/osm/osm_402_deve.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_402_deve.mp3"
   },
   {
     "id": 403,
@@ -3624,7 +4026,8 @@
     "guncel_turkce": "Çağ, dönüş, aktarma",
     "audio": {
       "default": "/osm/osm_403_devir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_403_devir.mp3"
   },
   {
     "id": 404,
@@ -3633,7 +4036,8 @@
     "guncel_turkce": "İhtilal, köklü değişim",
     "audio": {
       "default": "/osm/osm_404_devrim.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_404_devrim.mp3"
   },
   {
     "id": 405,
@@ -3642,7 +4046,8 @@
     "guncel_turkce": "Ada",
     "audio": {
       "default": "/osm/osm_405_cezire.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_405_cezire.mp3"
   },
   {
     "id": 406,
@@ -3651,7 +4056,8 @@
     "guncel_turkce": "Dışarı, hariç",
     "audio": {
       "default": "/osm/osm_406_dis.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_406_dis.mp3"
   },
   {
     "id": 407,
@@ -3660,7 +4066,8 @@
     "guncel_turkce": "Yüz, güzel çehre, görüşme",
     "audio": {
       "default": "/osm/osm_407_didar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_407_didar.mp3"
   },
   {
     "id": 408,
@@ -3669,7 +4076,8 @@
     "guncel_turkce": "Göz, görülmüş",
     "audio": {
       "default": "/osm/osm_408_dide.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_408_dide.mp3"
   },
   {
     "id": 409,
@@ -3678,7 +4086,8 @@
     "guncel_turkce": "Başka, öbür",
     "audio": {
       "default": "/osm/osm_409_diger.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_409_diger.mp3"
   },
   {
     "id": 410,
@@ -3687,7 +4096,8 @@
     "guncel_turkce": "Düz, eğik olmayan",
     "audio": {
       "default": "/osm/osm_410_dik.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_410_dik.mp3"
   },
   {
     "id": 411,
@@ -3696,7 +4106,8 @@
     "guncel_turkce": "Gönül, konuşma organı, lisan",
     "audio": {
       "default": "/osm/osm_411_dil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_411_dil.mp3"
   },
   {
     "id": 412,
@@ -3705,7 +4116,8 @@
     "guncel_turkce": "Konuşamayan",
     "audio": {
       "default": "/osm/osm_412_dilsiz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_412_dilsiz.mp3"
   },
   {
     "id": 413,
@@ -3714,7 +4126,8 @@
     "guncel_turkce": "Beyin, zihin",
     "audio": {
       "default": "/osm/osm_413_dimag.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_413_dimag.mp3"
   },
   {
     "id": 414,
@@ -3723,7 +4136,8 @@
     "guncel_turkce": "İnanç sistemi",
     "audio": {
       "default": "/osm/osm_414_din.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_414_din.mp3"
   },
   {
     "id": 415,
@@ -3732,7 +4146,8 @@
     "guncel_turkce": "Altın para",
     "audio": {
       "default": "/osm/osm_415_dinar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_415_dinar.mp3"
   },
   {
     "id": 416,
@@ -3741,7 +4156,8 @@
     "guncel_turkce": "Taban, en alt kısım",
     "audio": {
       "default": "/osm/osm_416_dip.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_416_dip.mp3"
   },
   {
     "id": 417,
@@ -3750,7 +4166,8 @@
     "guncel_turkce": "Zekâ, kavrayış, idare gücü",
     "audio": {
       "default": "/osm/osm_417_dirayet.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_417_dirayet.mp3"
   },
   {
     "id": 418,
@@ -3759,7 +4176,8 @@
     "guncel_turkce": "Buyruk, talimat",
     "audio": {
       "default": "/osm/osm_418_direktif.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_418_direktif.mp3"
   },
   {
     "id": 419,
@@ -3768,7 +4186,8 @@
     "guncel_turkce": "Canlılık",
     "audio": {
       "default": "/osm/osm_419_dirilik.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_419_dirilik.mp3"
   },
   {
     "id": 420,
@@ -3777,7 +4196,8 @@
     "guncel_turkce": "Meclis, şiir kitabı, koltuk",
     "audio": {
       "default": "/osm/osm_420_divan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_420_divan.mp3"
   },
   {
     "id": 421,
@@ -3786,7 +4206,8 @@
     "guncel_turkce": "Deli, çılgın, tutkun",
     "audio": {
       "default": "/osm/osm_421_divane.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_421_divane.mp3"
   },
   {
     "id": 422,
@@ -3795,7 +4216,8 @@
     "guncel_turkce": "Gerçek, düzgün, hakikat",
     "audio": {
       "default": "/osm/osm_422_dogru.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_422_dogru.mp3"
   },
   {
     "id": 423,
@@ -3804,7 +4226,8 @@
     "guncel_turkce": "Şark",
     "audio": {
       "default": "/osm/osm_423_dogu.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_423_dogu.mp3"
   },
   {
     "id": 424,
@@ -3813,7 +4236,8 @@
     "guncel_turkce": "Hekim",
     "audio": {
       "default": "/osm/osm_424_doktor.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_424_doktor.mp3"
   },
   {
     "id": 425,
@@ -3822,7 +4246,8 @@
     "guncel_turkce": "Kumaş imalatı",
     "audio": {
       "default": "/osm/osm_425_dokuma.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_425_dokuma.mp3"
   },
   {
     "id": 426,
@@ -3831,7 +4256,8 @@
     "guncel_turkce": "Para birimi",
     "audio": {
       "default": "/osm/osm_426_dolar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_426_dolar.mp3"
   },
   {
     "id": 427,
@@ -3840,7 +4266,8 @@
     "guncel_turkce": "Arkadaş, sevgili",
     "audio": {
       "default": "/osm/osm_427_dost.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_427_dost.mp3"
   },
   {
     "id": 428,
@@ -3849,7 +4276,8 @@
     "guncel_turkce": "Yakarış, dilek",
     "audio": {
       "default": "/osm/osm_428_dua.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_428_dua.mp3"
   },
   {
     "id": 429,
@@ -3858,7 +4286,8 @@
     "guncel_turkce": "Duman, tütün",
     "audio": {
       "default": "/osm/osm_429_duhan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_429_duhan.mp3"
   },
   {
     "id": 430,
@@ -3867,7 +4296,8 @@
     "guncel_turkce": "Soylu unvanı",
     "audio": {
       "default": "/osm/osm_430_duka.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_430_duka.mp3"
   },
   {
     "id": 431,
@@ -3876,7 +4306,8 @@
     "guncel_turkce": "Tütme isi",
     "audio": {
       "default": "/osm/osm_431_duman.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_431_duman.mp3"
   },
   {
     "id": 432,
@@ -3885,7 +4316,8 @@
     "guncel_turkce": "Menzil, istasyon",
     "audio": {
       "default": "/osm/osm_432_durak.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_432_durak.mp3"
   },
   {
     "id": 433,
@@ -3894,7 +4326,8 @@
     "guncel_turkce": "Genel kural, kaide",
     "audio": {
       "default": "/osm/osm_433_dustur.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_433_dustur.mp3"
   },
   {
     "id": 434,
@@ -3903,7 +4336,8 @@
     "guncel_turkce": "Uğramış, yakalanmış",
     "audio": {
       "default": "/osm/osm_434_ducar.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_434_ducar.mp3"
   },
   {
     "id": 435,
@@ -3912,7 +4346,8 @@
     "guncel_turkce": "Evlilik töreni",
     "audio": {
       "default": "/osm/osm_435_dugun.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_435_dugun.mp3"
   },
   {
     "id": 436,
@@ -3921,7 +4356,8 @@
     "guncel_turkce": "Mağaza, esnaf yeri",
     "audio": {
       "default": "/osm/osm_436_dukkan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_436_dukkan.mp3"
   },
   {
     "id": 437,
@@ -3930,7 +4366,8 @@
     "guncel_turkce": "Kuyruk, arka",
     "audio": {
       "default": "/osm/osm_437_dum.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_437_dum.mp3"
   },
   {
     "id": 438,
@@ -3939,7 +4376,8 @@
     "guncel_turkce": "Cihan, yeryüzü",
     "audio": {
       "default": "/osm/osm_438_dunya.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_438_dunya.mp3"
   },
   {
     "id": 439,
@@ -3948,7 +4386,8 @@
     "guncel_turkce": "İnci",
     "audio": {
       "default": "/osm/osm_439_durr.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_439_durr.mp3"
   },
   {
     "id": 440,
@@ -3957,7 +4396,8 @@
     "guncel_turkce": "Doğru, hilesiz",
     "audio": {
       "default": "/osm/osm_440_durust.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_440_durust.mp3"
   },
   {
     "id": 441,
@@ -3966,7 +4406,8 @@
     "guncel_turkce": "Hasım, yağı",
     "audio": {
       "default": "/osm/osm_441_dusman.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_441_dusman.mp3"
   },
   {
     "id": 442,
@@ -3975,7 +4416,8 @@
     "guncel_turkce": "Fikir",
     "audio": {
       "default": "/osm/osm_442_dusunce.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_442_dusunce.mp3"
   },
   {
     "id": 443,
@@ -3984,7 +4426,8 @@
     "guncel_turkce": "Engebesiz",
     "audio": {
       "default": "/osm/osm_443_duz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_443_duz.mp3"
   },
   {
     "id": 444,
@@ -3993,7 +4436,8 @@
     "guncel_turkce": "Nizam, tertip",
     "audio": {
       "default": "/osm/osm_444_duzen.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_444_duzen.mp3"
   },
   {
     "id": 445,
@@ -4002,7 +4446,8 @@
     "guncel_turkce": "Boyutlar, ölçüler",
     "audio": {
       "default": "/osm/osm_445_ebad.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_445_ebad.mp3"
   },
   {
     "id": 446,
@@ -4011,7 +4456,8 @@
     "guncel_turkce": "Doğum yaptıran kadın",
     "audio": {
       "default": "/osm/osm_446_ebe.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_446_ebe.mp3"
   },
   {
     "id": 447,
@@ -4020,7 +4466,8 @@
     "guncel_turkce": "Anne ve baba",
     "audio": {
       "default": "/osm/osm_447_ebeveyn.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_447_ebeveyn.mp3"
   },
   {
     "id": 448,
@@ -4029,7 +4476,8 @@
     "guncel_turkce": "Babama ait",
     "audio": {
       "default": "/osm/osm_448_ebi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_448_ebi.mp3"
   },
   {
     "id": 449,
@@ -4038,7 +4486,8 @@
     "guncel_turkce": "Budala, akılsız",
     "audio": {
       "default": "/osm/osm_449_ebleh.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_449_ebleh.mp3"
   },
   {
     "id": 450,
@@ -4047,7 +4496,8 @@
     "guncel_turkce": "Bulut",
     "audio": {
       "default": "/osm/osm_450_ebr.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_450_ebr.mp3"
   },
   {
     "id": 451,
@@ -4056,7 +4506,8 @@
     "guncel_turkce": "Kaş, bulut rengi kağıt sanatı",
     "audio": {
       "default": "/osm/osm_451_ebru.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_451_ebru.mp3"
   },
   {
     "id": 452,
@@ -4065,7 +4516,8 @@
     "guncel_turkce": "Beyitler, şiirler",
     "audio": {
       "default": "/osm/osm_452_ebyat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_452_ebyat.mp3"
   },
   {
     "id": 453,
@@ -4074,7 +4526,8 @@
     "guncel_turkce": "Çok beyaz, ak",
     "audio": {
       "default": "/osm/osm_453_ebyaz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_453_ebyaz.mp3"
   },
   {
     "id": 454,
@@ -4083,7 +4536,8 @@
     "guncel_turkce": "Sevap, ödül, ücret",
     "audio": {
       "default": "/osm/osm_454_ecir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_454_ecir.mp3"
   },
   {
     "id": 455,
@@ -4092,7 +4546,8 @@
     "guncel_turkce": "Çok parlak, net",
     "audio": {
       "default": "/osm/osm_455_ecla.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_455_ecla.mp3"
   },
   {
     "id": 456,
@@ -4101,7 +4556,8 @@
     "guncel_turkce": "Çok güzel, en estetik",
     "audio": {
       "default": "/osm/osm_456_ecmel.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_456_ecmel.mp3"
   },
   {
     "id": 457,
@@ -4110,7 +4566,8 @@
     "guncel_turkce": "Parçalar, kimyasal maddeler",
     "audio": {
       "default": "/osm/osm_457_ecza.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_457_ecza.mp3"
   },
   {
     "id": 458,
@@ -4119,7 +4576,8 @@
     "guncel_turkce": "Yerine getirme, ödeme, tavır",
     "audio": {
       "default": "/osm/osm_458_eda.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_458_eda.mp3"
   },
   {
     "id": 459,
@@ -4128,7 +4586,8 @@
     "guncel_turkce": "İlaç, araç, dil bilgisi bağı",
     "audio": {
       "default": "/osm/osm_459_edat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_459_edat.mp3"
   },
   {
     "id": 460,
@@ -4137,7 +4596,8 @@
     "guncel_turkce": "Terbiye, ahlak, kural",
     "audio": {
       "default": "/osm/osm_460_edeb.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_460_edeb.mp3"
   },
   {
     "id": 461,
@@ -4146,7 +4606,8 @@
     "guncel_turkce": "Yazınsal, edebiyatla ilgili",
     "audio": {
       "default": "/osm/osm_461_edebi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_461_edebi.mp3"
   },
   {
     "id": 462,
@@ -4155,7 +4616,8 @@
     "guncel_turkce": "Yazın sanatı",
     "audio": {
       "default": "/osm/osm_462_edebiyat.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_462_edebiyat.mp3"
   },
   {
     "id": 463,
@@ -4164,7 +4626,8 @@
     "guncel_turkce": "Edebiyatçı, terbiyeli",
     "audio": {
       "default": "/osm/osm_463_edip.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_463_edip.mp3"
   },
   {
     "id": 464,
@@ -4173,7 +4636,8 @@
     "guncel_turkce": "En aşağı, en küçük, değersiz",
     "audio": {
       "default": "/osm/osm_464_edna.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_464_edna.mp3"
   },
   {
     "id": 465,
@@ -4182,7 +4646,8 @@
     "guncel_turkce": "Fiiller, işler",
     "audio": {
       "default": "/osm/osm_465_efal.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_465_efal.mp3"
   },
   {
     "id": 466,
@@ -4191,7 +4656,8 @@
     "guncel_turkce": "Saygın kişi, usta",
     "audio": {
       "default": "/osm/osm_466_efendi.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_466_efendi.mp3"
   },
   {
     "id": 467,
@@ -4200,7 +4666,8 @@
     "guncel_turkce": "Gökler, evrenler",
     "audio": {
       "default": "/osm/osm_467_eflak.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_467_eflak.mp3"
   },
   {
     "id": 468,
@@ -4209,7 +4676,8 @@
     "guncel_turkce": "Platon, leylak rengi",
     "audio": {
       "default": "/osm/osm_468_eflatun.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_468_eflatun.mp3"
   },
   {
     "id": 469,
@@ -4218,7 +4686,8 @@
     "guncel_turkce": "Bireyler, fertler",
     "audio": {
       "default": "/osm/osm_469_efrad.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_469_efrad.mp3"
   },
   {
     "id": 470,
@@ -4227,7 +4696,8 @@
     "guncel_turkce": "Mitolojik hikaye, destan",
     "audio": {
       "default": "/osm/osm_470_efsane.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_470_efsane.mp3"
   },
   {
     "id": 471,
@@ -4236,7 +4706,8 @@
     "guncel_turkce": "Büyü, sihir",
     "audio": {
       "default": "/osm/osm_471_efsun.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_471_efsun.mp3"
   },
   {
     "id": 472,
@@ -4245,7 +4716,8 @@
     "guncel_turkce": "Giysi parçası, alt etraf",
     "audio": {
       "default": "/osm/osm_472_etek.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_472_etek.mp3"
   },
   {
     "id": 473,
@@ -4254,7 +4726,8 @@
     "guncel_turkce": "Arka, sırt",
     "audio": {
       "default": "/osm/osm_473_egin.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_473_egin.mp3"
   },
   {
     "id": 474,
@@ -4263,7 +4736,8 @@
     "guncel_turkce": "Sefa, oyun",
     "audio": {
       "default": "/osm/osm_474_eglence.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_474_eglence.mp3"
   },
   {
     "id": 475,
@@ -4272,7 +4746,8 @@
     "guncel_turkce": "En önemli",
     "audio": {
       "default": "/osm/osm_475_ehem.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_475_ehem.mp3"
   },
   {
     "id": 476,
@@ -4281,7 +4756,8 @@
     "guncel_turkce": "Uzman, usta, aile",
     "audio": {
       "default": "/osm/osm_476_ehil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_476_ehil.mp3"
   },
   {
     "id": 477,
@@ -4290,7 +4766,8 @@
     "guncel_turkce": "Evcil, uysal",
     "audio": {
       "default": "/osm/osm_477_ehli.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_477_ehli.mp3"
   },
   {
     "id": 478,
@@ -4299,7 +4776,8 @@
     "guncel_turkce": "Ejderha, büyük yılan",
     "audio": {
       "default": "/osm/osm_478_ejder.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_478_ejder.mp3"
   },
   {
     "id": 479,
@@ -4308,7 +4786,8 @@
     "guncel_turkce": "Devlet büyükleri, ileri gelenler",
     "audio": {
       "default": "/osm/osm_479_ekabir.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_479_ekabir.mp3"
   },
   {
     "id": 480,
@@ -4317,7 +4796,8 @@
     "guncel_turkce": "En büyük",
     "audio": {
       "default": "/osm/osm_480_ekber.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_480_ekber.mp3"
   },
   {
     "id": 481,
@@ -4326,7 +4806,8 @@
     "guncel_turkce": "Yemek yeme",
     "audio": {
       "default": "/osm/osm_481_ekil.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_481_ekil.mp3"
   },
   {
     "id": 482,
@@ -4335,7 +4816,8 @@
     "guncel_turkce": "En kusursuz, tam",
     "audio": {
       "default": "/osm/osm_482_ekmel.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_482_ekmel.mp3"
   },
   {
     "id": 483,
@@ -4344,7 +4826,8 @@
     "guncel_turkce": "Yaşıtlar, akranlar",
     "audio": {
       "default": "/osm/osm_483_ekran.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_483_ekran.mp3"
   },
   {
     "id": 484,
@@ -4353,7 +4836,8 @@
     "guncel_turkce": "Soyluluk unvanı",
     "audio": {
       "default": "/osm/osm_484_ekselans.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_484_ekselans.mp3"
   },
   {
     "id": 485,
@@ -4362,7 +4846,8 @@
     "guncel_turkce": "Kusurlu, tam olmayan",
     "audio": {
       "default": "/osm/osm_485_eksik.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_485_eksik.mp3"
   },
   {
     "id": 486,
@@ -4371,7 +4856,8 @@
     "guncel_turkce": "Bütün, eklenmemiş",
     "audio": {
       "default": "/osm/osm_486_eksiz.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_486_eksiz.mp3"
   },
   {
     "id": 487,
@@ -4380,7 +4866,8 @@
     "guncel_turkce": "Şu anda, henüz",
     "audio": {
       "default": "/osm/osm_487_elan.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_487_elan.mp3"
   },
   {
     "id": 488,
@@ -4389,7 +4876,8 @@
     "guncel_turkce": "Esnek",
     "audio": {
       "default": "/osm/osm_488_elastik.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_488_elastik.mp3"
   },
   {
     "id": 489,
@@ -4398,7 +4886,8 @@
     "guncel_turkce": "Sefir, resul",
     "audio": {
       "default": "/osm/osm_489_elci.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_489_elci.mp3"
   },
   {
     "id": 490,
@@ -4407,7 +4896,8 @@
     "guncel_turkce": "El giysisi",
     "audio": {
       "default": "/osm/osm_490_eldiven.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_490_eldiven.mp3"
   },
   {
     "id": 491,
@@ -4416,7 +4906,8 @@
     "guncel_turkce": "Ayırma aracı",
     "audio": {
       "default": "/osm/osm_491_elek.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_491_elek.mp3"
   },
   {
     "id": 492,
@@ -4425,7 +4916,8 @@
     "guncel_turkce": "Keder, acı, dert",
     "audio": {
       "default": "/osm/osm_492_elem.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_492_elem.mp3"
   },
   {
     "id": 493,
@@ -4434,7 +4926,8 @@
     "guncel_turkce": "Unsur, parça, çalışan",
     "audio": {
       "default": "/osm/osm_493_eleman.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_493_eleman.mp3"
   },
   {
     "id": 494,
@@ -4443,7 +4936,8 @@
     "guncel_turkce": "İlk harf, dost, düzgün boylu",
     "audio": {
       "default": "/osm/osm_494_elif.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_494_elif.mp3"
   },
   {
     "id": 495,
@@ -4452,7 +4946,8 @@
     "guncel_turkce": "Oval şekil",
     "audio": {
       "default": "/osm/osm_495_elips.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_495_elips.mp3"
   },
   {
     "id": 496,
@@ -4461,7 +4956,8 @@
     "guncel_turkce": "Değerli taş, kristal",
     "audio": {
       "default": "/osm/osm_496_elmas.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_496_elmas.mp3"
   },
   {
     "id": 497,
@@ -4470,7 +4966,8 @@
     "guncel_turkce": "Hoşça kalın, ayrılık sözü",
     "audio": {
       "default": "/osm/osm_497_elveda.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_497_elveda.mp3"
   },
   {
     "id": 498,
@@ -4479,7 +4976,8 @@
     "guncel_turkce": "Güvenlik, koruma dileyiş",
     "audio": {
       "default": "/osm/osm_498_eman.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_498_eman.mp3"
   },
   {
     "id": 499,
@@ -4488,7 +4986,8 @@
     "guncel_turkce": "Belirti, iz, işaret",
     "audio": {
       "default": "/osm/osm_499_emare.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_499_emare.mp3"
   },
   {
     "id": 500,
@@ -4497,6 +4996,7 @@
     "guncel_turkce": "Işık, aydınlık, parlaklık",
     "audio": {
       "default": "/osm/osm_500_ziya.mp3"
-    }
+    },
+    "audioUrl": "/data/Osm_Tr/osm/osm_500_ziya.mp3"
   }
 ]

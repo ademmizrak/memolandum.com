@@ -5,14 +5,15 @@ import {
   setPersistence,
   browserLocalPersistence,
 } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { getFirestore, initializeFirestore, persistentLocalCache, persistentMultipleTabManager } from "firebase/firestore";
 import { getFunctions, httpsCallable } from "firebase/functions";
 import { getAI, GoogleAIBackend } from "firebase/ai";
 import { getAnalytics, isSupported as isAnalyticsSupported } from "firebase/analytics";
+import { initializeAppCheck, ReCaptchaEnterpriseProvider } from "firebase/app-check";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "AIzaSyC0DInTuffWT5x6DcbUqk7jlOP_kmM5fkw",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "memolandum.com",
   projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "memolandum-33dc4",
   storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "memolandum-33dc4.firebasestorage.app",
@@ -27,12 +28,38 @@ try {
     app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
     auth = getAuth(app);
+
+    if (typeof window !== "undefined") {
+      const recaptchaKey = process.env.NEXT_PUBLIC_RECAPTCHA_ENTERPRISE_SITE_KEY;
+      if (recaptchaKey) {
+        try {
+          if (process.env.NODE_ENV === "development") {
+            self.FIREBASE_APPCHECK_DEBUG_TOKEN = process.env.NEXT_PUBLIC_FIREBASE_APPCHECK_DEBUG_TOKEN || true;
+          }
+          appCheck = initializeAppCheck(app, {
+            provider: new ReCaptchaEnterpriseProvider(recaptchaKey),
+            isTokenAutoRefreshEnabled: true,
+          });
+        } catch (e) {
+          console.warn("Firebase App Check initialization failed:", e?.message || e);
+        }
+      }
+    }
+
     if (typeof window !== "undefined") {
       setPersistence(auth, browserLocalPersistence).catch((e) => {
         console.warn("Auth persistence:", e?.message || e);
       });
     }
-    db = getFirestore(app);
+    if (typeof window !== "undefined") {
+      db = initializeFirestore(app, {
+        localCache: persistentLocalCache({
+          tabManager: persistentMultipleTabManager(),
+        }),
+      });
+    } else {
+      db = getFirestore(app);
+    }
     cloudFuncs = getFunctions(app, 'us-central1');
     syncProgressCall = httpsCallable(cloudFuncs, 'syncProgress');
     googleProvider = new GoogleAuthProvider();

@@ -1,4 +1,7 @@
 import { gameManifest } from "../config/manifest";
+import { sanitizeWordData } from "../lib/learning/levelSterilizer";
+import { selectAdaptiveWords, SESSION_WORD_TARGET } from "../lib/learning/adaptiveWordSelector";
+import { useMemolandumStore } from "../store/useMemolandumStore";
 import { HighwayGame } from "./highway.shell";
 import { BreakoutGame } from "./breakout.shell";
 import { InvadersGame } from "./invaders.shell";
@@ -38,7 +41,6 @@ export class EngineController {
       
       // 1. Manifest üzerinden ilgili verileri bul
       let levelConfig = null;
-      let mainCategoryId = null;
 
       for (const mainCat of gameManifest.mainCategories) {
         for (const subCat of mainCat.subCategories) {
@@ -74,22 +76,31 @@ export class EngineController {
         return false;
       }
 
-      // 2. Statik verileri (JSON) çek
-      const response = await fetch(`/data/${levelConfig.path}`);
-      let wordsData = await response.json();
+      // Check if user launched game with custom selected words
+      const customWords = useMemolandumStore.getState().activeCustomWords;
+      let wordsData = [];
 
-      // Diller Arası Ortak Mekanizma (Veri Normalizasyonu)
-      // Vanilla JS oyun motorlarının tümü eski API sebebiyle 'english' ve 'turkish' özelliklerini arar.
-      // Farklı dil paketlerinde (Almanca, Fransızca vb.) 'word' ve 'translation' özellikleri bulunduğu için,
-      // React katmanında (burada) veriyi oyun motorlarına göndermeden önce ortak formata çeviriyoruz.
-      wordsData = wordsData.map(item => ({
-        ...item,
-        english: item.english || item.word || item.original_script || "",
-        turkish: item.turkish || item.translation || item.meaning || "",
-        romanized: item.romanized_script || item.romanized || ""
-      }));
+      if (Array.isArray(customWords) && customWords.length > 0) {
+        console.log(`[EngineController] 🎯 Kendi Seçtiğin Kelimeler Yükleniyor: ${customWords.length} adet kelime`);
+        wordsData = sanitizeWordData(customWords);
+      } else {
+        // 2. Statik verileri (JSON) çek
+        const response = await fetch(`/data/${levelConfig.path}`);
+        let rawData = await response.json();
 
-      console.log(`[EngineController] Kelimeler yüklendi: ${wordsData.length} adet.`);
+        // Diller Arası Ortak Mekanizma (Veri Sterilizasyonu & Adaptif Seçim)
+        const sterilizedData = sanitizeWordData(Array.isArray(rawData) ? rawData : (rawData.words || Object.values(rawData)));
+        const vocabularyVault = useMemolandumStore.getState().vocabularyVault || {};
+
+        wordsData = selectAdaptiveWords(sterilizedData, vocabularyVault, {
+          shuffle: true,
+          targetCount: Math.min(SESSION_WORD_TARGET, sterilizedData.length),
+          learnedWeightScale: 0.2,
+          dueBias: 0.55,
+        });
+      }
+
+      console.log(`[EngineController] Oturum seti: ${wordsData.length} kelime yüklendi.`);
       
       // Ses Çalma Fonksiyonu (Motor tetiklediğinde çalışır)
       const playAudioCallback = (word) => {

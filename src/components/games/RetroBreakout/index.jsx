@@ -33,7 +33,7 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
   // We will assume soundManager integration in the future, for now rely on callbacks.
 
   // Hooks
-  const { words, isLoading } = useLessonLoader(levelId, langId);
+  const { words, isLoading, reload } = useLessonLoader(levelId, langId);
 
   // Callbacks for Engine -> React
   const onScore = useCallback((val) => {
@@ -177,7 +177,8 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
 
   const restartGame = () => {
     setActiveScreen('playing');
-    if (engineRef.current) engineRef.current.startGame();
+    if (typeof reload === 'function') reload();
+    else if (engineRef.current) engineRef.current.startGame();
   };
 
   if (isLoading) {
@@ -201,6 +202,7 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
           <GameHeader>
             <GameHeader.Left>
               <GameHeader.Shields max={3} current={uiState.shields} />
+              <GameHeader.Stage value={1} />
               <GameHeader.TargetWord value={uiState.targetWord} />
             </GameHeader.Left>
 

@@ -1,6 +1,217 @@
 {
   "singleLanguages": [
     {
+      "name": "academic",
+      "folder": "academic",
+      "files": [
+        {
+          "path": "academic/astronomi_uzay_havaciligi_001_100_kavram.json",
+          "label": "academic - astronomi uzay havaciligi 001 100 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/astronomi_uzay_havaciligi_100-200_kavram.json",
+          "label": "academic - astronomi uzay havaciligi 100-200 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/astronomi_uzay_havaciligi_201_300_kavram.json",
+          "label": "academic - astronomi uzay havaciligi 201 300 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/astronomi_uzay_havaciligi_301_400_kavram.json",
+          "label": "academic - astronomi uzay havaciligi 301 400 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/glossary-index.json",
+          "label": "academic - glossary-index",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/hukuk_fakultesi_001_100_kavram.json",
+          "label": "academic - hukuk fakultesi 001 100 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/hukuk_fakultesi_101_200_kavram.json",
+          "label": "academic - hukuk fakultesi 101 200 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/hukuk_fakultesi_201_300_kavram.json",
+          "label": "academic - hukuk fakultesi 201 300 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/hukuk_fakultesi_301_400_kavram.json",
+          "label": "academic - hukuk fakultesi 301 400 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Cografya_001_100.json",
+          "label": "academic - KPSS Cografya 001 100",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Cografya_101_200.json",
+          "label": "academic - KPSS Cografya 101 200",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Cografya_201_300.json",
+          "label": "academic - KPSS Cografya 201 300",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Cografya_301_400.json",
+          "label": "academic - KPSS Cografya 301 400",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Genel_Kultur_001_100.json",
+          "label": "academic - KPSS Genel Kultur 001 100",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Genel_Kultur_101_200.json",
+          "label": "academic - KPSS Genel Kultur 101 200",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Genel_Kultur_201_300.json",
+          "label": "academic - KPSS Genel Kultur 201 300",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Genel_Kultur_301_400.json",
+          "label": "academic - KPSS Genel Kultur 301 400",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Matematik_Geometri_001_100.json",
+          "label": "academic - KPSS Matematik Geometri 001 100",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Matematik_Geometri_101_200.json",
+          "label": "academic - KPSS Matematik Geometri 101 200",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Matematik_Geometri_201_300.json",
+          "label": "academic - KPSS Matematik Geometri 201 300",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Matematik_Geometri_301_400.json",
+          "label": "academic - KPSS Matematik Geometri 301 400",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Tarih_001_100.json",
+          "label": "academic - KPSS Tarih 001 100",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Tarih_101_200.json",
+          "label": "academic - KPSS Tarih 101 200",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Tarih_201_300.json",
+          "label": "academic - KPSS Tarih 201 300",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Tarih_301_400.json",
+          "label": "academic - KPSS Tarih 301 400",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Turkce_001_100.json",
+          "label": "academic - KPSS Turkce 001 100",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Turkce_101_200.json",
+          "label": "academic - KPSS Turkce 101 200",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Turkce_201_300.json",
+          "label": "academic - KPSS Turkce 201 300",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Turkce_301_400.json",
+          "label": "academic - KPSS Turkce 301 400",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Vatandaslik_001_100.json",
+          "label": "academic - KPSS Vatandaslik 001 100",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Vatandaslik_101_200.json",
+          "label": "academic - KPSS Vatandaslik 101 200",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Vatandaslik_201_300.json",
+          "label": "academic - KPSS Vatandaslik 201 300",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/KPSS_Vatandaslik_301_400.json",
+          "label": "academic - KPSS Vatandaslik 301 400",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/mimari_kavramlar_001_100.json",
+          "label": "academic - mimari kavramlar 001 100",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/mimari_kavramlar_101_200.json",
+          "label": "academic - mimari kavramlar 101 200",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/mimari_kavramlar_201_300.json",
+          "label": "academic - mimari kavramlar 201 300",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/mimari_kavramlar_301_400.json",
+          "label": "academic - mimari kavramlar 301 400",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/tip_fakultesi_001_100_kavram.json",
+          "label": "academic - tip fakultesi 001 100 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/tip_fakultesi_101_200_kavram.json",
+          "label": "academic - tip fakultesi 101 200 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/tip_fakultesi_201_300_kavram.json",
+          "label": "academic - tip fakultesi 201 300 kavram",
+          "directionLabel": "academic"
+        },
+        {
+          "path": "academic/tip_fakultesi_301_400_kavram.json",
+          "label": "academic - tip fakultesi 301 400 kavram",
+          "directionLabel": "academic"
+        }
+      ]
+    },
+    {
       "name": "Almanca - İngilizce",
       "folder": "Almanca",
       "files": [
@@ -2815,7 +3026,17 @@
         },
         {
           "path": "Korean/content/ko_en/words_kpop_ko_en.json",
-          "label": "Korece - İngilizce - 🎵 K-Pop & Fandom Kelimeleri",
+          "label": "Korece - İngilizce - Kpop_Group1 Kelimeleri",
+          "directionLabel": "Korece - İngilizce"
+        },
+        {
+          "path": "Korean/content/ko_en/words_kpop_ko_en.json",
+          "label": "Korece - İngilizce - Kpop_Group2 Kelimeleri",
+          "directionLabel": "Korece - İngilizce"
+        },
+        {
+          "path": "Korean/content/ko_en/words_kpop_ko_en.json",
+          "label": "Korece - İngilizce - Kpop_Group3 Kelimeleri",
           "directionLabel": "Korece - İngilizce"
         },
         {
@@ -3171,7 +3392,17 @@
         },
         {
           "path": "Korean/content/ko_tr/words_kpop_ko_tr.json",
-          "label": "Korece - Türkçe - 🎵 K-Pop & Fandom Kelimeleri",
+          "label": "Korece - Türkçe - Kpop_Group1 Kelimeleri",
+          "directionLabel": "Korece - Türkçe"
+        },
+        {
+          "path": "Korean/content/ko_tr/words_kpop_ko_tr.json",
+          "label": "Korece - Türkçe - Kpop_Group2 Kelimeleri",
+          "directionLabel": "Korece - Türkçe"
+        },
+        {
+          "path": "Korean/content/ko_tr/words_kpop_ko_tr.json",
+          "label": "Korece - Türkçe - Kpop_Group3 Kelimeleri",
           "directionLabel": "Korece - Türkçe"
         },
         {
@@ -5601,21 +5832,6 @@
           "directionLabel": "İngilizce - Türkçe"
         },
         {
-          "path": "Tr_Eng_Sinav_Ozel/baglaclar_ozel/ozel_liste_001_100.json",
-          "label": "ozel liste 001 100",
-          "directionLabel": "İngilizce - Türkçe"
-        },
-        {
-          "path": "Tr_Eng_Sinav_Ozel/baglaclar_ozel/ozel_liste_101_200.json",
-          "label": "ozel liste 101 200",
-          "directionLabel": "İngilizce - Türkçe"
-        },
-        {
-          "path": "Tr_Eng_Sinav_Ozel/baglaclar_ozel/ozel_liste_201_300.json",
-          "label": "ozel liste 201 300",
-          "directionLabel": "İngilizce - Türkçe"
-        },
-        {
           "path": "Tr_Eng_Sinav_Ozel/Collocations/En_Collocations_001_100.json",
           "label": "En Collocations 001 100",
           "directionLabel": "İngilizce - Türkçe"
@@ -5646,6 +5862,31 @@
           "directionLabel": "İngilizce - Türkçe"
         },
         {
+          "path": "Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/En_Tematik_Kelimeler_001_100.json",
+          "label": "En Tematik Kelimeler 001 100",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/En_Tematik_Kelimeler_101_200.json",
+          "label": "En Tematik Kelimeler 101 200",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/En_Tematik_Kelimeler_201_300.json",
+          "label": "En Tematik Kelimeler 201 300",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/En_Tematik_Kelimeler_301_400.json",
+          "label": "En Tematik Kelimeler 301 400",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/En_Tematik_Kelimeler_401_500.json",
+          "label": "En Tematik Kelimeler 401 500",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
           "path": "Tr_Eng_Sinav_Ozel/Synonym_Antonym/en_tr_eşanlamlı_100kelime_001_101.json",
           "label": "en tr eşanlamlı 100kelime 001 101",
           "directionLabel": "İngilizce - Türkçe"
@@ -5671,28 +5912,18 @@
           "directionLabel": "İngilizce - Türkçe"
         },
         {
-          "path": "Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/En_Tematik_Kelimeler_001_100.json",
-          "label": "En Tematik Kelimeler 001 100",
+          "path": "Tr_Eng_Sinav_Ozel/baglaclar_ozel/ozel_liste_001_100.json",
+          "label": "ozel liste 001 100",
           "directionLabel": "İngilizce - Türkçe"
         },
         {
-          "path": "Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/En_Tematik_Kelimeler_101_200.json",
-          "label": "En Tematik Kelimeler 101 200",
+          "path": "Tr_Eng_Sinav_Ozel/baglaclar_ozel/ozel_liste_101_200.json",
+          "label": "ozel liste 101 200",
           "directionLabel": "İngilizce - Türkçe"
         },
         {
-          "path": "Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/En_Tematik_Kelimeler_201_300.json",
-          "label": "En Tematik Kelimeler 201 300",
-          "directionLabel": "İngilizce - Türkçe"
-        },
-        {
-          "path": "Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/En_Tematik_Kelimeler_301_400.json",
-          "label": "En Tematik Kelimeler 301 400",
-          "directionLabel": "İngilizce - Türkçe"
-        },
-        {
-          "path": "Tr_Eng_Sinav_Ozel/Tematik_Kelimeler/En_Tematik_Kelimeler_401_500.json",
-          "label": "En Tematik Kelimeler 401 500",
+          "path": "Tr_Eng_Sinav_Ozel/baglaclar_ozel/ozel_liste_201_300.json",
+          "label": "ozel liste 201 300",
           "directionLabel": "İngilizce - Türkçe"
         }
       ]
@@ -5774,13 +6005,8 @@
           "directionLabel": "İngilizce - Türkçe"
         },
         {
-          "path": "Tr_Eng_YDS_kelimeleri/YDS_Grup6_en_tr_v2.json",
-          "label": "YDS Grup6 en tr v2",
-          "directionLabel": "İngilizce - Türkçe"
-        },
-        {
-          "path": "Tr_Eng_YDS_kelimeleri/YDS_Grup7_en_tr_v2.json",
-          "label": "YDS Grup7 en tr v2",
+          "path": "Tr_Eng_YDS_kelimeleri/YDS_Top500_master.json",
+          "label": "YDS Top500 master",
           "directionLabel": "İngilizce - Türkçe"
         }
       ]
@@ -5789,16 +6015,6 @@
       "name": "YKS Kelimeleri",
       "folder": "Tr_Eng_YKS_Kelimeleri",
       "files": [
-        {
-          "path": "Tr_Eng_YKS_Kelimeleri/YKS-DIL_Group10_en-tr_v2.json",
-          "label": "YKS-DIL Group10 en-tr v2",
-          "directionLabel": "İngilizce - Türkçe"
-        },
-        {
-          "path": "Tr_Eng_YKS_Kelimeleri/YKS-DIL_Group11_en-tr_v2.json",
-          "label": "YKS-DIL Group11 en-tr v2",
-          "directionLabel": "İngilizce - Türkçe"
-        },
         {
           "path": "Tr_Eng_YKS_Kelimeleri/YKS-DIL_Group1_en-tr_v2.json",
           "label": "YKS-DIL Group1 en-tr v2",
@@ -5842,6 +6058,57 @@
         {
           "path": "Tr_Eng_YKS_Kelimeleri/YKS-DIL_Group9_en-tr_v2.json",
           "label": "YKS-DIL Group9 en-tr v2",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_YKS_Kelimeleri/YKS-DIL_Group10_en-tr_v2.json",
+          "label": "YKS-DIL Group10 en-tr v2",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_YKS_Kelimeleri/YKS-DIL_Group11_en-tr_v2.json",
+          "label": "YKS-DIL Group11 en-tr v2",
+          "directionLabel": "İngilizce - Türkçe"
+        }
+      ]
+    },
+    {
+      "name": "İlkokul",
+      "folder": "Tr_Eng_Ilkokul",
+      "files": [
+        {
+          "path": "Tr_Eng_Ilkokul/Ilkokul_1_Sinif_Kelimeleri.json",
+          "label": "Ilkokul 1 Sinif Kelimeleri",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Ilkokul/Ilkokul_2_Sinif_Cumleleri.json",
+          "label": "Ilkokul 2 Sinif Cumleleri",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Ilkokul/Ilkokul_2_Sinif_Kelimeleri.json",
+          "label": "Ilkokul 2 Sinif Kelimeleri",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Ilkokul/Ilkokul_3_Sinif_Cumleleri.json",
+          "label": "Ilkokul 3 Sinif Cumleleri",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Ilkokul/Ilkokul_3_Sinif_Kelimeleri.json",
+          "label": "Ilkokul 3 Sinif Kelimeleri",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Ilkokul/Ilkokul_4_Sinif_Cumleleri.json",
+          "label": "Ilkokul 4 Sinif Cumleleri",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Ilkokul/Ilkokul_4_Sinif_Kelimeleri.json",
+          "label": "Ilkokul 4 Sinif Kelimeleri",
           "directionLabel": "İngilizce - Türkçe"
         }
       ]

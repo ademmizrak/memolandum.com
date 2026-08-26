@@ -1,102 +1,702 @@
 [
-  {"id": 301, "en": "I have a meeting.", "tr": "Bir toplantım var.", "category": "İş"},
-  {"id": 302, "en": "She is my boss.", "tr": "O benim patronum.", "category": "İş"},
-  {"id": 303, "en": "I am working from home.", "tr": "Evden çalışıyorum.", "category": "İş"},
-  {"id": 304, "en": "What is your profession?", "tr": "Mesleğin nedir?", "category": "İş"},
-  {"id": 305, "en": "I need a vacation.", "tr": "Tatile ihtiyacım var.", "category": "İş / Dinlenme"},
-  {"id": 306, "en": "The project is finished.", "tr": "Proje bitti.", "category": "İş"},
-  {"id": 307, "en": "Please sign here.", "tr": "Lütfen burayı imzalayın.", "category": "İş"},
-  {"id": 308, "en": "Can you print this?", "tr": "Bunu yazdırabilir misin?", "category": "İş"},
-  {"id": 309, "en": "My computer crashed.", "tr": "Bilgisayarım çöktü.", "category": "Teknoloji"},
-  {"id": 310, "en": "Let's take a break.", "tr": "Hadi mola verelim.", "category": "İş"},
-  {"id": 311, "en": "Drive carefully.", "tr": "Dikkatli sür.", "category": "Trafik"},
-  {"id": 312, "en": "Put on your seatbelt.", "tr": "Emniyet kemerini tak.", "category": "Trafik"},
-  {"id": 313, "en": "There is a lot of traffic.", "tr": "Çok trafik var.", "category": "Trafik"},
-  {"id": 314, "en": "I need gas.", "tr": "Benzine ihtiyacım var.", "category": "Trafik"},
-  {"id": 315, "en": "Turn the engine on.", "tr": "Motoru çalıştır.", "category": "Trafik"},
-  {"id": 316, "en": "Park the car here.", "tr": "Arabayı buraya park et.", "category": "Trafik"},
-  {"id": 317, "en": "Where is the train station?", "tr": "Tren istasyonu nerede?", "category": "Ulaşım"},
-  {"id": 318, "en": "The bus is coming.", "tr": "Otobüs geliyor.", "category": "Ulaşım"},
-  {"id": 319, "en": "I missed the train.", "tr": "Treni kaçırdım.", "category": "Ulaşım"},
-  {"id": 320, "en": "Buy a ticket.", "tr": "Bir bilet al.", "category": "Ulaşım"},
-  {"id": 321, "en": "I am cleaning the house.", "tr": "Evi temizliyorum.", "category": "Ev İşleri"},
-  {"id": 322, "en": "Wash the dishes.", "tr": "Bulaşıkları yıka.", "category": "Ev İşleri"},
-  {"id": 323, "en": "Do the laundry.", "tr": "Çamaşırları yıka.", "category": "Ev İşleri"},
-  {"id": 324, "en": "Take out the trash.", "tr": "Çöpü çıkar.", "category": "Ev İşleri"},
-  {"id": 325, "en": "Sweep the floor.", "tr": "Yeri süpür.", "category": "Ev İşleri"},
-  {"id": 326, "en": "Make the bed.", "tr": "Yatağı topla.", "category": "Ev İşleri"},
-  {"id": 327, "en": "Open the window.", "tr": "Pencereyi aç.", "category": "Ev İçi"},
-  {"id": 328, "en": "Close the door.", "tr": "Kapıyı kapat.", "category": "Ev İçi"},
-  {"id": 329, "en": "Lock the door.", "tr": "Kapıyı kilitle.", "category": "Ev İçi"},
-  {"id": 330, "en": "The house is dirty.", "tr": "Ev kirli.", "category": "Ev"},
-  {"id": 331, "en": "I have a stomachache.", "tr": "Karnım ağrıyor.", "category": "Sağlık"},
-  {"id": 332, "en": "I have a toothache.", "tr": "Dişim ağrıyor.", "category": "Sağlık"},
-  {"id": 333, "en": "I have a cold.", "tr": "Soğuk algınlığım var.", "category": "Sağlık"},
-  {"id": 334, "en": "I need medicine.", "tr": "İlaca ihtiyacım var.", "category": "Sağlık"},
-  {"id": 335, "en": "Go to the hospital.", "tr": "Hastaneye git.", "category": "Sağlık"},
-  {"id": 336, "en": "Open your mouth.", "tr": "Ağzını aç.", "category": "Sağlık"},
-  {"id": 337, "en": "Breathe deeply.", "tr": "Derin nefes al.", "category": "Sağlık"},
-  {"id": 338, "en": "Drink plenty of water.", "tr": "Bol su iç.", "category": "Sağlık"},
-  {"id": 339, "en": "Wash your hands.", "tr": "Ellerini yıka.", "category": "Sağlık"},
-  {"id": 340, "en": "Stay in bed.", "tr": "Yatakta kal.", "category": "Sağlık"},
-  {"id": 341, "en": "She is very beautiful.", "tr": "O çok güzel.", "category": "Görünüm"},
-  {"id": 342, "en": "He is very handsome.", "tr": "O çok yakışıklı.", "category": "Görünüm"},
-  {"id": 343, "en": "You look great.", "tr": "Harika görünüyorsun.", "category": "Övgü"},
-  {"id": 344, "en": "I trust you.", "tr": "Sana güveniyorum.", "category": "İlişki"},
-  {"id": 345, "en": "I miss you.", "tr": "Seni özledim.", "category": "Duygu"},
-  {"id": 346, "en": "Don't lie to me.", "tr": "Bana yalan söyleme.", "category": "İlişki"},
-  {"id": 347, "en": "Are you angry?", "tr": "Kızgın mısın?", "category": "Duygu"},
-  {"id": 348, "en": "Calm down.", "tr": "Sakin ol.", "category": "Duygu"},
-  {"id": 349, "en": "I am surprised.", "tr": "Şaşırdım.", "category": "Duygu"},
-  {"id": 350, "en": "Don't cry.", "tr": "Ağlama.", "category": "Duygu"},
-  {"id": 351, "en": "Can I borrow money?", "tr": "Borç para alabilir miyim?", "category": "Para"},
-  {"id": 352, "en": "I have no money.", "tr": "Hiç param yok.", "category": "Para"},
-  {"id": 353, "en": "I am rich.", "tr": "Ben zenginim.", "category": "Para"},
-  {"id": 354, "en": "I am poor.", "tr": "Ben fakirim.", "category": "Para"},
-  {"id": 355, "en": "Save your money.", "tr": "Paranı biriktir.", "category": "Para"},
-  {"id": 356, "en": "Don't spend too much.", "tr": "Çok fazla harcama.", "category": "Para"},
-  {"id": 357, "en": "It is on sale.", "tr": "İndirimde.", "category": "Alışveriş"},
-  {"id": 358, "en": "It is cheap.", "tr": "Bu ucuz.", "category": "Alışveriş"},
-  {"id": 359, "en": "Here is your receipt.", "tr": "İşte fişiniz.", "category": "Alışveriş"},
-  {"id": 360, "en": "Keep the receipt.", "tr": "Fişi sakla.", "category": "Alışveriş"},
-  {"id": 361, "en": "I am learning English.", "tr": "İngilizce öğreniyorum.", "category": "Eğitim"},
-  {"id": 362, "en": "Read this book.", "tr": "Bu kitabı oku.", "category": "Eğitim"},
-  {"id": 363, "en": "Write a paragraph.", "tr": "Bir paragraf yaz.", "category": "Eğitim"},
-  {"id": 364, "en": "Ask a question.", "tr": "Bir soru sor.", "category": "Eğitim"},
-  {"id": 365, "en": "Answer the question.", "tr": "Soruyu cevapla.", "category": "Eğitim"},
-  {"id": 366, "en": "Listen carefully.", "tr": "Dikkatlice dinle.", "category": "Eğitim"},
-  {"id": 367, "en": "Take notes.", "tr": "Not al.", "category": "Eğitim"},
-  {"id": 368, "en": "Do your best.", "tr": "Elinden gelenin en iyisini yap.", "category": "Motivasyon"},
-  {"id": 369, "en": "Don't be late.", "tr": "Geç kalma.", "category": "Uyarı"},
-  {"id": 370, "en": "The class is over.", "tr": "Ders bitti.", "category": "Eğitim"},
-  {"id": 371, "en": "Let's have a party.", "tr": "Hadi parti yapalım.", "category": "Eğlence"},
-  {"id": 372, "en": "Dance with me.", "tr": "Benimle dans et.", "category": "Eğlence"},
-  {"id": 373, "en": "Sing a song.", "tr": "Bir şarkı söyle.", "category": "Eğlence"},
-  {"id": 374, "en": "It is a secret.", "tr": "Bu bir sır.", "category": "İletişim"},
-  {"id": 375, "en": "Don't tell anyone.", "tr": "Kimseye söyleme.", "category": "İletişim"},
-  {"id": 376, "en": "You are so funny.", "tr": "Çok komiksin.", "category": "Övgü"},
-  {"id": 377, "en": "Stop laughing.", "tr": "Gülmeyi bırak.", "category": "Eylem"},
-  {"id": 378, "en": "Tell me a story.", "tr": "Bana bir hikaye anlat.", "category": "İletişim"},
-  {"id": 379, "en": "Let's play a game.", "tr": "Hadi oyun oynayalım.", "category": "Eğlence"},
-  {"id": 380, "en": "Are you having fun?", "tr": "Eğleniyor musun?", "category": "Soru"},
-  {"id": 381, "en": "The sky is blue.", "tr": "Gökyüzü mavi.", "category": "Doğa"},
-  {"id": 382, "en": "The sun is shining.", "tr": "Güneş parlıyor.", "category": "Doğa"},
-  {"id": 383, "en": "It is snowing.", "tr": "Kar yağıyor.", "category": "Hava Durumu"},
-  {"id": 384, "en": "Look at the stars.", "tr": "Yıldızlara bak.", "category": "Doğa"},
-  {"id": 385, "en": "The moon is bright.", "tr": "Ay parlak.", "category": "Doğa"},
-  {"id": 386, "en": "Look at that bird.", "tr": "Şu kuşa bak.", "category": "Doğa"},
-  {"id": 387, "en": "The water is deep.", "tr": "Su derin.", "category": "Doğa"},
-  {"id": 388, "en": "Don't swim here.", "tr": "Burada yüzme.", "category": "Uyarı"},
-  {"id": 389, "en": "Let's go to the beach.", "tr": "Hadi plaja gidelim.", "category": "Seyahat"},
-  {"id": 390, "en": "I like the mountains.", "tr": "Dağları severim.", "category": "Tercih"},
-  {"id": 391, "en": "Use your brain.", "tr": "Aklını kullan.", "category": "Eylem"},
-  {"id": 392, "en": "Follow me.", "tr": "Beni takip et.", "category": "Eylem"},
-  {"id": 393, "en": "Go away.", "tr": "Git buradan.", "category": "Eylem"},
-  {"id": 394, "en": "Push the button.", "tr": "Düğmeye bas.", "category": "Eylem"},
-  {"id": 395, "en": "Pull the door.", "tr": "Kapıyı çek.", "category": "Eylem"},
-  {"id": 396, "en": "Hold this.", "tr": "Bunu tut.", "category": "Eylem"},
-  {"id": 397, "en": "Drop it.", "tr": "Onu bırak/düşür.", "category": "Eylem"},
-  {"id": 398, "en": "Pick it up.", "tr": "Onu yerden al.", "category": "Eylem"},
-  {"id": 399, "en": "It is broken.", "tr": "O kırık/bozuk.", "category": "Durum"},
-  {"id": 400, "en": "Fix it.", "tr": "Onu tamir et.", "category": "Eylem"}
+  {
+    "id": 301,
+    "en": "I have a meeting.",
+    "tr": "Bir toplantım var.",
+    "category": "İş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_301_i_have_a_meeting.mp3"
+  },
+  {
+    "id": 302,
+    "en": "She is my boss.",
+    "tr": "O benim patronum.",
+    "category": "İş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_302_she_is_my_boss.mp3"
+  },
+  {
+    "id": 303,
+    "en": "I am working from home.",
+    "tr": "Evden çalışıyorum.",
+    "category": "İş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_303_i_am_working_from_home.mp3"
+  },
+  {
+    "id": 304,
+    "en": "What is your profession?",
+    "tr": "Mesleğin nedir?",
+    "category": "İş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_304_what_is_your_profession.mp3"
+  },
+  {
+    "id": 305,
+    "en": "I need a vacation.",
+    "tr": "Tatile ihtiyacım var.",
+    "category": "İş / Dinlenme",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_305_i_need_a_vacation.mp3"
+  },
+  {
+    "id": 306,
+    "en": "The project is finished.",
+    "tr": "Proje bitti.",
+    "category": "İş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_306_the_project_is_finished.mp3"
+  },
+  {
+    "id": 307,
+    "en": "Please sign here.",
+    "tr": "Lütfen burayı imzalayın.",
+    "category": "İş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_307_please_sign_here.mp3"
+  },
+  {
+    "id": 308,
+    "en": "Can you print this?",
+    "tr": "Bunu yazdırabilir misin?",
+    "category": "İş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_308_can_you_print_this.mp3"
+  },
+  {
+    "id": 309,
+    "en": "My computer crashed.",
+    "tr": "Bilgisayarım çöktü.",
+    "category": "Teknoloji",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_309_my_computer_crashed.mp3"
+  },
+  {
+    "id": 310,
+    "en": "Let's take a break.",
+    "tr": "Hadi mola verelim.",
+    "category": "İş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_310_let_s_take_a_break.mp3"
+  },
+  {
+    "id": 311,
+    "en": "Drive carefully.",
+    "tr": "Dikkatli sür.",
+    "category": "Trafik",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_311_drive_carefully.mp3"
+  },
+  {
+    "id": 312,
+    "en": "Put on your seatbelt.",
+    "tr": "Emniyet kemerini tak.",
+    "category": "Trafik",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_312_put_on_your_seatbelt.mp3"
+  },
+  {
+    "id": 313,
+    "en": "There is a lot of traffic.",
+    "tr": "Çok trafik var.",
+    "category": "Trafik",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_313_there_is_a_lot_of_traffic.mp3"
+  },
+  {
+    "id": 314,
+    "en": "I need gas.",
+    "tr": "Benzine ihtiyacım var.",
+    "category": "Trafik",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_314_i_need_gas.mp3"
+  },
+  {
+    "id": 315,
+    "en": "Turn the engine on.",
+    "tr": "Motoru çalıştır.",
+    "category": "Trafik",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_315_turn_the_engine_on.mp3"
+  },
+  {
+    "id": 316,
+    "en": "Park the car here.",
+    "tr": "Arabayı buraya park et.",
+    "category": "Trafik",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_316_park_the_car_here.mp3"
+  },
+  {
+    "id": 317,
+    "en": "Where is the train station?",
+    "tr": "Tren istasyonu nerede?",
+    "category": "Ulaşım",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_317_where_is_the_train_station.mp3"
+  },
+  {
+    "id": 318,
+    "en": "The bus is coming.",
+    "tr": "Otobüs geliyor.",
+    "category": "Ulaşım",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_318_the_bus_is_coming.mp3"
+  },
+  {
+    "id": 319,
+    "en": "I missed the train.",
+    "tr": "Treni kaçırdım.",
+    "category": "Ulaşım",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_319_i_missed_the_train.mp3"
+  },
+  {
+    "id": 320,
+    "en": "Buy a ticket.",
+    "tr": "Bir bilet al.",
+    "category": "Ulaşım",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_320_buy_a_ticket.mp3"
+  },
+  {
+    "id": 321,
+    "en": "I am cleaning the house.",
+    "tr": "Evi temizliyorum.",
+    "category": "Ev İşleri",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_321_i_am_cleaning_the_house.mp3"
+  },
+  {
+    "id": 322,
+    "en": "Wash the dishes.",
+    "tr": "Bulaşıkları yıka.",
+    "category": "Ev İşleri",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_322_wash_the_dishes.mp3"
+  },
+  {
+    "id": 323,
+    "en": "Do the laundry.",
+    "tr": "Çamaşırları yıka.",
+    "category": "Ev İşleri",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_323_do_the_laundry.mp3"
+  },
+  {
+    "id": 324,
+    "en": "Take out the trash.",
+    "tr": "Çöpü çıkar.",
+    "category": "Ev İşleri",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_324_take_out_the_trash.mp3"
+  },
+  {
+    "id": 325,
+    "en": "Sweep the floor.",
+    "tr": "Yeri süpür.",
+    "category": "Ev İşleri",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_325_sweep_the_floor.mp3"
+  },
+  {
+    "id": 326,
+    "en": "Make the bed.",
+    "tr": "Yatağı topla.",
+    "category": "Ev İşleri",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_326_make_the_bed.mp3"
+  },
+  {
+    "id": 327,
+    "en": "Open the window.",
+    "tr": "Pencereyi aç.",
+    "category": "Ev İçi",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_327_open_the_window.mp3"
+  },
+  {
+    "id": 328,
+    "en": "Close the door.",
+    "tr": "Kapıyı kapat.",
+    "category": "Ev İçi",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_328_close_the_door.mp3"
+  },
+  {
+    "id": 329,
+    "en": "Lock the door.",
+    "tr": "Kapıyı kilitle.",
+    "category": "Ev İçi",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_329_lock_the_door.mp3"
+  },
+  {
+    "id": 330,
+    "en": "The house is dirty.",
+    "tr": "Ev kirli.",
+    "category": "Ev",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_330_the_house_is_dirty.mp3"
+  },
+  {
+    "id": 331,
+    "en": "I have a stomachache.",
+    "tr": "Karnım ağrıyor.",
+    "category": "Sağlık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_331_i_have_a_stomachache.mp3"
+  },
+  {
+    "id": 332,
+    "en": "I have a toothache.",
+    "tr": "Dişim ağrıyor.",
+    "category": "Sağlık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_332_i_have_a_toothache.mp3"
+  },
+  {
+    "id": 333,
+    "en": "I have a cold.",
+    "tr": "Soğuk algınlığım var.",
+    "category": "Sağlık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_333_i_have_a_cold.mp3"
+  },
+  {
+    "id": 334,
+    "en": "I need medicine.",
+    "tr": "İlaca ihtiyacım var.",
+    "category": "Sağlık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_334_i_need_medicine.mp3"
+  },
+  {
+    "id": 335,
+    "en": "Go to the hospital.",
+    "tr": "Hastaneye git.",
+    "category": "Sağlık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_335_go_to_the_hospital.mp3"
+  },
+  {
+    "id": 336,
+    "en": "Open your mouth.",
+    "tr": "Ağzını aç.",
+    "category": "Sağlık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_336_open_your_mouth.mp3"
+  },
+  {
+    "id": 337,
+    "en": "Breathe deeply.",
+    "tr": "Derin nefes al.",
+    "category": "Sağlık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_337_breathe_deeply.mp3"
+  },
+  {
+    "id": 338,
+    "en": "Drink plenty of water.",
+    "tr": "Bol su iç.",
+    "category": "Sağlık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_338_drink_plenty_of_water.mp3"
+  },
+  {
+    "id": 339,
+    "en": "Wash your hands.",
+    "tr": "Ellerini yıka.",
+    "category": "Sağlık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_339_wash_your_hands.mp3"
+  },
+  {
+    "id": 340,
+    "en": "Stay in bed.",
+    "tr": "Yatakta kal.",
+    "category": "Sağlık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_340_stay_in_bed.mp3"
+  },
+  {
+    "id": 341,
+    "en": "She is very beautiful.",
+    "tr": "O çok güzel.",
+    "category": "Görünüm",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_341_she_is_very_beautiful.mp3"
+  },
+  {
+    "id": 342,
+    "en": "He is very handsome.",
+    "tr": "O çok yakışıklı.",
+    "category": "Görünüm",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_342_he_is_very_handsome.mp3"
+  },
+  {
+    "id": 343,
+    "en": "You look great.",
+    "tr": "Harika görünüyorsun.",
+    "category": "Övgü",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_343_you_look_great.mp3"
+  },
+  {
+    "id": 344,
+    "en": "I trust you.",
+    "tr": "Sana güveniyorum.",
+    "category": "İlişki",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_344_i_trust_you.mp3"
+  },
+  {
+    "id": 345,
+    "en": "I miss you.",
+    "tr": "Seni özledim.",
+    "category": "Duygu",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_345_i_miss_you.mp3"
+  },
+  {
+    "id": 346,
+    "en": "Don't lie to me.",
+    "tr": "Bana yalan söyleme.",
+    "category": "İlişki",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_346_don_t_lie_to_me.mp3"
+  },
+  {
+    "id": 347,
+    "en": "Are you angry?",
+    "tr": "Kızgın mısın?",
+    "category": "Duygu",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_347_are_you_angry.mp3"
+  },
+  {
+    "id": 348,
+    "en": "Calm down.",
+    "tr": "Sakin ol.",
+    "category": "Duygu",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_348_calm_down.mp3"
+  },
+  {
+    "id": 349,
+    "en": "I am surprised.",
+    "tr": "Şaşırdım.",
+    "category": "Duygu",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_349_i_am_surprised.mp3"
+  },
+  {
+    "id": 350,
+    "en": "Don't cry.",
+    "tr": "Ağlama.",
+    "category": "Duygu",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_350_don_t_cry.mp3"
+  },
+  {
+    "id": 351,
+    "en": "Can I borrow money?",
+    "tr": "Borç para alabilir miyim?",
+    "category": "Para",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_351_can_i_borrow_money.mp3"
+  },
+  {
+    "id": 352,
+    "en": "I have no money.",
+    "tr": "Hiç param yok.",
+    "category": "Para",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_352_i_have_no_money.mp3"
+  },
+  {
+    "id": 353,
+    "en": "I am rich.",
+    "tr": "Ben zenginim.",
+    "category": "Para",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_353_i_am_rich.mp3"
+  },
+  {
+    "id": 354,
+    "en": "I am poor.",
+    "tr": "Ben fakirim.",
+    "category": "Para",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_354_i_am_poor.mp3"
+  },
+  {
+    "id": 355,
+    "en": "Save your money.",
+    "tr": "Paranı biriktir.",
+    "category": "Para",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_355_save_your_money.mp3"
+  },
+  {
+    "id": 356,
+    "en": "Don't spend too much.",
+    "tr": "Çok fazla harcama.",
+    "category": "Para",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_356_don_t_spend_too_much.mp3"
+  },
+  {
+    "id": 357,
+    "en": "It is on sale.",
+    "tr": "İndirimde.",
+    "category": "Alışveriş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_357_it_is_on_sale.mp3"
+  },
+  {
+    "id": 358,
+    "en": "It is cheap.",
+    "tr": "Bu ucuz.",
+    "category": "Alışveriş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_358_it_is_cheap.mp3"
+  },
+  {
+    "id": 359,
+    "en": "Here is your receipt.",
+    "tr": "İşte fişiniz.",
+    "category": "Alışveriş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_359_here_is_your_receipt.mp3"
+  },
+  {
+    "id": 360,
+    "en": "Keep the receipt.",
+    "tr": "Fişi sakla.",
+    "category": "Alışveriş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_360_keep_the_receipt.mp3"
+  },
+  {
+    "id": 361,
+    "en": "I am learning English.",
+    "tr": "İngilizce öğreniyorum.",
+    "category": "Eğitim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_361_i_am_learning_english.mp3"
+  },
+  {
+    "id": 362,
+    "en": "Read this book.",
+    "tr": "Bu kitabı oku.",
+    "category": "Eğitim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_362_read_this_book.mp3"
+  },
+  {
+    "id": 363,
+    "en": "Write a paragraph.",
+    "tr": "Bir paragraf yaz.",
+    "category": "Eğitim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_363_write_a_paragraph.mp3"
+  },
+  {
+    "id": 364,
+    "en": "Ask a question.",
+    "tr": "Bir soru sor.",
+    "category": "Eğitim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_364_ask_a_question.mp3"
+  },
+  {
+    "id": 365,
+    "en": "Answer the question.",
+    "tr": "Soruyu cevapla.",
+    "category": "Eğitim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_365_answer_the_question.mp3"
+  },
+  {
+    "id": 366,
+    "en": "Listen carefully.",
+    "tr": "Dikkatlice dinle.",
+    "category": "Eğitim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_366_listen_carefully.mp3"
+  },
+  {
+    "id": 367,
+    "en": "Take notes.",
+    "tr": "Not al.",
+    "category": "Eğitim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_367_take_notes.mp3"
+  },
+  {
+    "id": 368,
+    "en": "Do your best.",
+    "tr": "Elinden gelenin en iyisini yap.",
+    "category": "Motivasyon",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_368_do_your_best.mp3"
+  },
+  {
+    "id": 369,
+    "en": "Don't be late.",
+    "tr": "Geç kalma.",
+    "category": "Uyarı",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_369_don_t_be_late.mp3"
+  },
+  {
+    "id": 370,
+    "en": "The class is over.",
+    "tr": "Ders bitti.",
+    "category": "Eğitim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_370_the_class_is_over.mp3"
+  },
+  {
+    "id": 371,
+    "en": "Let's have a party.",
+    "tr": "Hadi parti yapalım.",
+    "category": "Eğlence",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_371_let_s_have_a_party.mp3"
+  },
+  {
+    "id": 372,
+    "en": "Dance with me.",
+    "tr": "Benimle dans et.",
+    "category": "Eğlence",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_372_dance_with_me.mp3"
+  },
+  {
+    "id": 373,
+    "en": "Sing a song.",
+    "tr": "Bir şarkı söyle.",
+    "category": "Eğlence",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_373_sing_a_song.mp3"
+  },
+  {
+    "id": 374,
+    "en": "It is a secret.",
+    "tr": "Bu bir sır.",
+    "category": "İletişim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_374_it_is_a_secret.mp3"
+  },
+  {
+    "id": 375,
+    "en": "Don't tell anyone.",
+    "tr": "Kimseye söyleme.",
+    "category": "İletişim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_375_don_t_tell_anyone.mp3"
+  },
+  {
+    "id": 376,
+    "en": "You are so funny.",
+    "tr": "Çok komiksin.",
+    "category": "Övgü",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_376_you_are_so_funny.mp3"
+  },
+  {
+    "id": 377,
+    "en": "Stop laughing.",
+    "tr": "Gülmeyi bırak.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_377_stop_laughing.mp3"
+  },
+  {
+    "id": 378,
+    "en": "Tell me a story.",
+    "tr": "Bana bir hikaye anlat.",
+    "category": "İletişim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_378_tell_me_a_story.mp3"
+  },
+  {
+    "id": 379,
+    "en": "Let's play a game.",
+    "tr": "Hadi oyun oynayalım.",
+    "category": "Eğlence",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_379_let_s_play_a_game.mp3"
+  },
+  {
+    "id": 380,
+    "en": "Are you having fun?",
+    "tr": "Eğleniyor musun?",
+    "category": "Soru",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_380_are_you_having_fun.mp3"
+  },
+  {
+    "id": 381,
+    "en": "The sky is blue.",
+    "tr": "Gökyüzü mavi.",
+    "category": "Doğa",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_381_the_sky_is_blue.mp3"
+  },
+  {
+    "id": 382,
+    "en": "The sun is shining.",
+    "tr": "Güneş parlıyor.",
+    "category": "Doğa",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_382_the_sun_is_shining.mp3"
+  },
+  {
+    "id": 383,
+    "en": "It is snowing.",
+    "tr": "Kar yağıyor.",
+    "category": "Hava Durumu",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_383_it_is_snowing.mp3"
+  },
+  {
+    "id": 384,
+    "en": "Look at the stars.",
+    "tr": "Yıldızlara bak.",
+    "category": "Doğa",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_384_look_at_the_stars.mp3"
+  },
+  {
+    "id": 385,
+    "en": "The moon is bright.",
+    "tr": "Ay parlak.",
+    "category": "Doğa",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_385_the_moon_is_bright.mp3"
+  },
+  {
+    "id": 386,
+    "en": "Look at that bird.",
+    "tr": "Şu kuşa bak.",
+    "category": "Doğa",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_386_look_at_that_bird.mp3"
+  },
+  {
+    "id": 387,
+    "en": "The water is deep.",
+    "tr": "Su derin.",
+    "category": "Doğa",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_387_the_water_is_deep.mp3"
+  },
+  {
+    "id": 388,
+    "en": "Don't swim here.",
+    "tr": "Burada yüzme.",
+    "category": "Uyarı",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_388_don_t_swim_here.mp3"
+  },
+  {
+    "id": 389,
+    "en": "Let's go to the beach.",
+    "tr": "Hadi plaja gidelim.",
+    "category": "Seyahat",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_389_let_s_go_to_the_beach.mp3"
+  },
+  {
+    "id": 390,
+    "en": "I like the mountains.",
+    "tr": "Dağları severim.",
+    "category": "Tercih",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_390_i_like_the_mountains.mp3"
+  },
+  {
+    "id": 391,
+    "en": "Use your brain.",
+    "tr": "Aklını kullan.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_391_use_your_brain.mp3"
+  },
+  {
+    "id": 392,
+    "en": "Follow me.",
+    "tr": "Beni takip et.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_392_follow_me.mp3"
+  },
+  {
+    "id": 393,
+    "en": "Go away.",
+    "tr": "Git buradan.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_393_go_away.mp3"
+  },
+  {
+    "id": 394,
+    "en": "Push the button.",
+    "tr": "Düğmeye bas.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_394_push_the_button.mp3"
+  },
+  {
+    "id": 395,
+    "en": "Pull the door.",
+    "tr": "Kapıyı çek.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_395_pull_the_door.mp3"
+  },
+  {
+    "id": 396,
+    "en": "Hold this.",
+    "tr": "Bunu tut.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_396_hold_this.mp3"
+  },
+  {
+    "id": 397,
+    "en": "Drop it.",
+    "tr": "Onu bırak/düşür.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_397_drop_it.mp3"
+  },
+  {
+    "id": 398,
+    "en": "Pick it up.",
+    "tr": "Onu yerden al.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_398_pick_it_up.mp3"
+  },
+  {
+    "id": 399,
+    "en": "It is broken.",
+    "tr": "O kırık/bozuk.",
+    "category": "Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_399_it_is_broken.mp3"
+  },
+  {
+    "id": 400,
+    "en": "Fix it.",
+    "tr": "Onu tamir et.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_400_fix_it.mp3"
+  }
 ]

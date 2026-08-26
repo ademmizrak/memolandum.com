@@ -1,102 +1,702 @@
 [
-  {"id": 1, "en": "Hello.", "tr": "Merhaba.", "category": "Selamlama"},
-  {"id": 2, "en": "Good morning.", "tr": "Günaydın.", "category": "Selamlama"},
-  {"id": 3, "en": "Good night.", "tr": "İyi geceler.", "category": "Selamlama"},
-  {"id": 4, "en": "How are you?", "tr": "Nasılsın?", "category": "Selamlama"},
-  {"id": 5, "en": "I am fine.", "tr": "İyiyim.", "category": "Durum"},
-  {"id": 6, "en": "Thank you.", "tr": "Teşekkür ederim.", "category": "Nezaket"},
-  {"id": 7, "en": "You are welcome.", "tr": "Rica ederim.", "category": "Nezaket"},
-  {"id": 8, "en": "Please.", "tr": "Lütfen.", "category": "Nezaket"},
-  {"id": 9, "en": "Yes.", "tr": "Evet.", "category": "Onay"},
-  {"id": 10, "en": "No.", "tr": "Hayır.", "category": "Red"},
-  {"id": 11, "en": "Excuse me.", "tr": "Afedersiniz.", "category": "Nezaket"},
-  {"id": 12, "en": "I am sorry.", "tr": "Özür dilerim.", "category": "Nezaket"},
-  {"id": 13, "en": "See you later.", "tr": "Sonra görüşürüz.", "category": "Vedalaşma"},
-  {"id": 14, "en": "Goodbye.", "tr": "Hoşça kal.", "category": "Vedalaşma"},
-  {"id": 15, "en": "What is your name?", "tr": "Adın ne?", "category": "Tanışma"},
-  {"id": 16, "en": "My name is...", "tr": "Benim adım...", "category": "Tanışma"},
-  {"id": 17, "en": "Nice to meet you.", "tr": "Tanıştığıma memnun oldum.", "category": "Tanışma"},
-  {"id": 18, "en": "I understand.", "tr": "Anlıyorum.", "category": "İletişim"},
-  {"id": 19, "en": "I don't understand.", "tr": "Anlamıyorum.", "category": "İletişim"},
-  {"id": 20, "en": "I know.", "tr": "Biliyorum.", "category": "Bilgi"},
-  {"id": 21, "en": "I don't know.", "tr": "Bilmiyorum.", "category": "Bilgi"},
-  {"id": 22, "en": "Can you help me?", "tr": "Bana yardım edebilir misin?", "category": "İhtiyaç"},
-  {"id": 23, "en": "I need help.", "tr": "Yardıma ihtiyacım var.", "category": "İhtiyaç"},
-  {"id": 24, "en": "Please speak slowly.", "tr": "Lütfen yavaş konuşun.", "category": "İletişim"},
-  {"id": 25, "en": "What does this mean?", "tr": "Bu ne anlama geliyor?", "category": "Soru"},
-  {"id": 26, "en": "What is this?", "tr": "Bu nedir?", "category": "Soru"},
-  {"id": 27, "en": "Where are you?", "tr": "Neredesin?", "category": "Soru"},
-  {"id": 28, "en": "Where is the bathroom?", "tr": "Tuvalet nerede?", "category": "Soru"},
-  {"id": 29, "en": "What time is it?", "tr": "Saat kaç?", "category": "Zaman"},
-  {"id": 30, "en": "How much is this?", "tr": "Bu ne kadar?", "category": "Alışveriş"},
-  {"id": 31, "en": "Who are you?", "tr": "Sen kimsin?", "category": "Soru"},
-  {"id": 32, "en": "Why not?", "tr": "Neden olmasın?", "category": "Soru"},
-  {"id": 33, "en": "Are you sure?", "tr": "Emin misin?", "category": "Soru"},
-  {"id": 34, "en": "Are you ready?", "tr": "Hazır mısın?", "category": "Durum"},
-  {"id": 35, "en": "I am happy.", "tr": "Mutluyum.", "category": "Duygu"},
-  {"id": 36, "en": "I am sad.", "tr": "Üzgünüm.", "category": "Duygu"},
-  {"id": 37, "en": "I am tired.", "tr": "Yorgunum.", "category": "Fiziksel Durum"},
-  {"id": 38, "en": "I am hungry.", "tr": "Açım.", "category": "Fiziksel Durum"},
-  {"id": 39, "en": "I am thirsty.", "tr": "Susamışım.", "category": "Fiziksel Durum"},
-  {"id": 40, "en": "I am sick.", "tr": "Hastayım.", "category": "Fiziksel Durum"},
-  {"id": 41, "en": "I am cold.", "tr": "Üşüdüm.", "category": "Fiziksel Durum"},
-  {"id": 42, "en": "I am hot.", "tr": "Sıcakladım.", "category": "Fiziksel Durum"},
-  {"id": 43, "en": "I am lost.", "tr": "Kayboldum.", "category": "Durum"},
-  {"id": 44, "en": "I am busy.", "tr": "Meşgulüm.", "category": "Durum"},
-  {"id": 45, "en": "I want this.", "tr": "Bunu istiyorum.", "category": "İstek"},
-  {"id": 46, "en": "I don't want it.", "tr": "Onu istemiyorum.", "category": "İstek"},
-  {"id": 47, "en": "I like it.", "tr": "Bunu beğendim.", "category": "Tercih"},
-  {"id": 48, "en": "I don't like it.", "tr": "Bunu beğenmedim.", "category": "Tercih"},
-  {"id": 49, "en": "Let's go.", "tr": "Hadi gidelim.", "category": "Eylem"},
-  {"id": 50, "en": "Come here.", "tr": "Buraya gel.", "category": "Eylem"},
-  {"id": 51, "en": "Look at this.", "tr": "Buna bak.", "category": "Eylem"},
-  {"id": 52, "en": "Listen to me.", "tr": "Beni dinle.", "category": "Eylem"},
-  {"id": 53, "en": "Wait a minute.", "tr": "Bir dakika bekle.", "category": "Eylem"},
-  {"id": 54, "en": "Stop.", "tr": "Dur.", "category": "Eylem"},
-  {"id": 55, "en": "Try again.", "tr": "Tekrar dene.", "category": "Eylem"},
-  {"id": 56, "en": "I can do it.", "tr": "Bunu yapabilirim.", "category": "Yetenek"},
-  {"id": 57, "en": "I can't do it.", "tr": "Bunu yapamam.", "category": "Yetenek"},
-  {"id": 58, "en": "I need to go.", "tr": "Gitmem gerek.", "category": "Eylem"},
-  {"id": 59, "en": "Take care.", "tr": "Kendine iyi bak.", "category": "Vedalaşma"},
-  {"id": 60, "en": "It is good.", "tr": "Bu iyi.", "category": "Değerlendirme"},
-  {"id": 61, "en": "It is bad.", "tr": "Bu kötü.", "category": "Değerlendirme"},
-  {"id": 62, "en": "It is big.", "tr": "Bu büyük.", "category": "Tanımlama"},
-  {"id": 63, "en": "It is small.", "tr": "Bu küçük.", "category": "Tanımlama"},
-  {"id": 64, "en": "It is hot.", "tr": "Bu sıcak.", "category": "Tanımlama"},
-  {"id": 65, "en": "It is cold.", "tr": "Bu soğuk.", "category": "Tanımlama"},
-  {"id": 66, "en": "This is my friend.", "tr": "Bu benim arkadaşım.", "category": "Tanıtma"},
-  {"id": 67, "en": "I love you.", "tr": "Seni seviyorum.", "category": "Duygu"},
-  {"id": 68, "en": "Call me.", "tr": "Beni ara.", "category": "İletişim"},
-  {"id": 69, "en": "Text me.", "tr": "Bana mesaj at.", "category": "İletişim"},
-  {"id": 70, "en": "What are you doing?", "tr": "Ne yapıyorsun?", "category": "Soru"},
-  {"id": 71, "en": "Nothing much.", "tr": "Pek bir şey yok.", "category": "Durum"},
-  {"id": 72, "en": "Where do you live?", "tr": "Nerede yaşıyorsun?", "category": "Soru"},
-  {"id": 73, "en": "I live here.", "tr": "Burada yaşıyorum.", "category": "Durum"},
-  {"id": 74, "en": "I have a problem.", "tr": "Bir sorunum var.", "category": "Durum"},
-  {"id": 75, "en": "No problem.", "tr": "Sorun değil.", "category": "Çözüm"},
-  {"id": 76, "en": "Be careful.", "tr": "Dikkatli ol.", "category": "Uyarı"},
-  {"id": 77, "en": "Don't worry.", "tr": "Endişelenme.", "category": "Rahatlatma"},
-  {"id": 78, "en": "It's okay.", "tr": "Sorun yok.", "category": "Onay"},
-  {"id": 79, "en": "That's right.", "tr": "Bu doğru.", "category": "Onay"},
-  {"id": 80, "en": "That's wrong.", "tr": "Bu yanlış.", "category": "Red"},
-  {"id": 81, "en": "Forget it.", "tr": "Unut gitsin.", "category": "Durum"},
-  {"id": 82, "en": "Exactly.", "tr": "Kesinlikle.", "category": "Onay"},
-  {"id": 83, "en": "Of course.", "tr": "Tabii ki.", "category": "Onay"},
-  {"id": 84, "en": "Maybe.", "tr": "Belki.", "category": "Olasılık"},
-  {"id": 85, "en": "Good idea.", "tr": "İyi fikir.", "category": "Onay"},
-  {"id": 86, "en": "Happy birthday.", "tr": "İyi ki doğdun.", "category": "Kutlama"},
-  {"id": 87, "en": "Good luck.", "tr": "İyi şanslar.", "category": "Dilek"},
-  {"id": 88, "en": "Have a nice day.", "tr": "İyi günler.", "category": "Vedalaşma"},
-  {"id": 89, "en": "Welcome.", "tr": "Hoş geldiniz.", "category": "Selamlama"},
-  {"id": 90, "en": "Today is Monday.", "tr": "Bugün Pazartesi.", "category": "Zaman"},
-  {"id": 91, "en": "See you tomorrow.", "tr": "Yarın görüşürüz.", "category": "Vedalaşma"},
-  {"id": 92, "en": "I work every day.", "tr": "Her gün çalışırım.", "category": "Rutin"},
-  {"id": 93, "en": "I am at home.", "tr": "Evdeyim.", "category": "Konum"},
-  {"id": 94, "en": "I am at work.", "tr": "İşteyim.", "category": "Konum"},
-  {"id": 95, "en": "Time is up.", "tr": "Süre doldu.", "category": "Zaman"},
-  {"id": 96, "en": "Hurry up.", "tr": "Acele et.", "category": "Eylem"},
-  {"id": 97, "en": "Take your time.", "tr": "Acele etme.", "category": "Rahatlatma"},
-  {"id": 98, "en": "It is too late.", "tr": "Çok geç.", "category": "Zaman"},
-  {"id": 99, "en": "It is early.", "tr": "Erken.", "category": "Zaman"},
-  {"id": 100, "en": "Let's start.", "tr": "Hadi başlayalım.", "category": "Eylem"}
+  {
+    "id": 1,
+    "en": "Hello.",
+    "tr": "Merhaba.",
+    "category": "Selamlama",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_001_hello.mp3"
+  },
+  {
+    "id": 2,
+    "en": "Good morning.",
+    "tr": "Günaydın.",
+    "category": "Selamlama",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_002_good_morning.mp3"
+  },
+  {
+    "id": 3,
+    "en": "Good night.",
+    "tr": "İyi geceler.",
+    "category": "Selamlama",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_003_good_night.mp3"
+  },
+  {
+    "id": 4,
+    "en": "How are you?",
+    "tr": "Nasılsın?",
+    "category": "Selamlama",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_004_how_are_you.mp3"
+  },
+  {
+    "id": 5,
+    "en": "I am fine.",
+    "tr": "İyiyim.",
+    "category": "Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_005_i_am_fine.mp3"
+  },
+  {
+    "id": 6,
+    "en": "Thank you.",
+    "tr": "Teşekkür ederim.",
+    "category": "Nezaket",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_006_thank_you.mp3"
+  },
+  {
+    "id": 7,
+    "en": "You are welcome.",
+    "tr": "Rica ederim.",
+    "category": "Nezaket",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_007_you_are_welcome.mp3"
+  },
+  {
+    "id": 8,
+    "en": "Please.",
+    "tr": "Lütfen.",
+    "category": "Nezaket",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_008_please.mp3"
+  },
+  {
+    "id": 9,
+    "en": "Yes.",
+    "tr": "Evet.",
+    "category": "Onay",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_009_yes.mp3"
+  },
+  {
+    "id": 10,
+    "en": "No.",
+    "tr": "Hayır.",
+    "category": "Red",
+    "audioUrl": ""
+  },
+  {
+    "id": 11,
+    "en": "Excuse me.",
+    "tr": "Afedersiniz.",
+    "category": "Nezaket",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_011_excuse_me.mp3"
+  },
+  {
+    "id": 12,
+    "en": "I am sorry.",
+    "tr": "Özür dilerim.",
+    "category": "Nezaket",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_012_i_am_sorry.mp3"
+  },
+  {
+    "id": 13,
+    "en": "See you later.",
+    "tr": "Sonra görüşürüz.",
+    "category": "Vedalaşma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_013_see_you_later.mp3"
+  },
+  {
+    "id": 14,
+    "en": "Goodbye.",
+    "tr": "Hoşça kal.",
+    "category": "Vedalaşma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_014_goodbye.mp3"
+  },
+  {
+    "id": 15,
+    "en": "What is your name?",
+    "tr": "Adın ne?",
+    "category": "Tanışma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_015_what_is_your_name.mp3"
+  },
+  {
+    "id": 16,
+    "en": "My name is...",
+    "tr": "Benim adım...",
+    "category": "Tanışma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_016_my_name_is.mp3"
+  },
+  {
+    "id": 17,
+    "en": "Nice to meet you.",
+    "tr": "Tanıştığıma memnun oldum.",
+    "category": "Tanışma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_017_nice_to_meet_you.mp3"
+  },
+  {
+    "id": 18,
+    "en": "I understand.",
+    "tr": "Anlıyorum.",
+    "category": "İletişim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_018_i_understand.mp3"
+  },
+  {
+    "id": 19,
+    "en": "I don't understand.",
+    "tr": "Anlamıyorum.",
+    "category": "İletişim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_019_i_don_t_understand.mp3"
+  },
+  {
+    "id": 20,
+    "en": "I know.",
+    "tr": "Biliyorum.",
+    "category": "Bilgi",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_020_i_know.mp3"
+  },
+  {
+    "id": 21,
+    "en": "I don't know.",
+    "tr": "Bilmiyorum.",
+    "category": "Bilgi",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_021_i_don_t_know.mp3"
+  },
+  {
+    "id": 22,
+    "en": "Can you help me?",
+    "tr": "Bana yardım edebilir misin?",
+    "category": "İhtiyaç",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_022_can_you_help_me.mp3"
+  },
+  {
+    "id": 23,
+    "en": "I need help.",
+    "tr": "Yardıma ihtiyacım var.",
+    "category": "İhtiyaç",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_023_i_need_help.mp3"
+  },
+  {
+    "id": 24,
+    "en": "Please speak slowly.",
+    "tr": "Lütfen yavaş konuşun.",
+    "category": "İletişim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_024_please_speak_slowly.mp3"
+  },
+  {
+    "id": 25,
+    "en": "What does this mean?",
+    "tr": "Bu ne anlama geliyor?",
+    "category": "Soru",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_025_what_does_this_mean.mp3"
+  },
+  {
+    "id": 26,
+    "en": "What is this?",
+    "tr": "Bu nedir?",
+    "category": "Soru",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_026_what_is_this.mp3"
+  },
+  {
+    "id": 27,
+    "en": "Where are you?",
+    "tr": "Neredesin?",
+    "category": "Soru",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_027_where_are_you.mp3"
+  },
+  {
+    "id": 28,
+    "en": "Where is the bathroom?",
+    "tr": "Tuvalet nerede?",
+    "category": "Soru",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_028_where_is_the_bathroom.mp3"
+  },
+  {
+    "id": 29,
+    "en": "What time is it?",
+    "tr": "Saat kaç?",
+    "category": "Zaman",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_029_what_time_is_it.mp3"
+  },
+  {
+    "id": 30,
+    "en": "How much is this?",
+    "tr": "Bu ne kadar?",
+    "category": "Alışveriş",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_030_how_much_is_this.mp3"
+  },
+  {
+    "id": 31,
+    "en": "Who are you?",
+    "tr": "Sen kimsin?",
+    "category": "Soru",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_031_who_are_you.mp3"
+  },
+  {
+    "id": 32,
+    "en": "Why not?",
+    "tr": "Neden olmasın?",
+    "category": "Soru",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_032_why_not.mp3"
+  },
+  {
+    "id": 33,
+    "en": "Are you sure?",
+    "tr": "Emin misin?",
+    "category": "Soru",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_033_are_you_sure.mp3"
+  },
+  {
+    "id": 34,
+    "en": "Are you ready?",
+    "tr": "Hazır mısın?",
+    "category": "Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_034_are_you_ready.mp3"
+  },
+  {
+    "id": 35,
+    "en": "I am happy.",
+    "tr": "Mutluyum.",
+    "category": "Duygu",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_035_i_am_happy.mp3"
+  },
+  {
+    "id": 36,
+    "en": "I am sad.",
+    "tr": "Üzgünüm.",
+    "category": "Duygu",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_036_i_am_sad.mp3"
+  },
+  {
+    "id": 37,
+    "en": "I am tired.",
+    "tr": "Yorgunum.",
+    "category": "Fiziksel Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_037_i_am_tired.mp3"
+  },
+  {
+    "id": 38,
+    "en": "I am hungry.",
+    "tr": "Açım.",
+    "category": "Fiziksel Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_038_i_am_hungry.mp3"
+  },
+  {
+    "id": 39,
+    "en": "I am thirsty.",
+    "tr": "Susamışım.",
+    "category": "Fiziksel Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_039_i_am_thirsty.mp3"
+  },
+  {
+    "id": 40,
+    "en": "I am sick.",
+    "tr": "Hastayım.",
+    "category": "Fiziksel Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_040_i_am_sick.mp3"
+  },
+  {
+    "id": 41,
+    "en": "I am cold.",
+    "tr": "Üşüdüm.",
+    "category": "Fiziksel Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_041_i_am_cold.mp3"
+  },
+  {
+    "id": 42,
+    "en": "I am hot.",
+    "tr": "Sıcakladım.",
+    "category": "Fiziksel Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_042_i_am_hot.mp3"
+  },
+  {
+    "id": 43,
+    "en": "I am lost.",
+    "tr": "Kayboldum.",
+    "category": "Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_043_i_am_lost.mp3"
+  },
+  {
+    "id": 44,
+    "en": "I am busy.",
+    "tr": "Meşgulüm.",
+    "category": "Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_044_i_am_busy.mp3"
+  },
+  {
+    "id": 45,
+    "en": "I want this.",
+    "tr": "Bunu istiyorum.",
+    "category": "İstek",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_045_i_want_this.mp3"
+  },
+  {
+    "id": 46,
+    "en": "I don't want it.",
+    "tr": "Onu istemiyorum.",
+    "category": "İstek",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_046_i_don_t_want_it.mp3"
+  },
+  {
+    "id": 47,
+    "en": "I like it.",
+    "tr": "Bunu beğendim.",
+    "category": "Tercih",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_047_i_like_it.mp3"
+  },
+  {
+    "id": 48,
+    "en": "I don't like it.",
+    "tr": "Bunu beğenmedim.",
+    "category": "Tercih",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_048_i_don_t_like_it.mp3"
+  },
+  {
+    "id": 49,
+    "en": "Let's go.",
+    "tr": "Hadi gidelim.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_049_let_s_go.mp3"
+  },
+  {
+    "id": 50,
+    "en": "Come here.",
+    "tr": "Buraya gel.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_050_come_here.mp3"
+  },
+  {
+    "id": 51,
+    "en": "Look at this.",
+    "tr": "Buna bak.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_051_look_at_this.mp3"
+  },
+  {
+    "id": 52,
+    "en": "Listen to me.",
+    "tr": "Beni dinle.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_052_listen_to_me.mp3"
+  },
+  {
+    "id": 53,
+    "en": "Wait a minute.",
+    "tr": "Bir dakika bekle.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_053_wait_a_minute.mp3"
+  },
+  {
+    "id": 54,
+    "en": "Stop.",
+    "tr": "Dur.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_054_stop.mp3"
+  },
+  {
+    "id": 55,
+    "en": "Try again.",
+    "tr": "Tekrar dene.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_055_try_again.mp3"
+  },
+  {
+    "id": 56,
+    "en": "I can do it.",
+    "tr": "Bunu yapabilirim.",
+    "category": "Yetenek",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_056_i_can_do_it.mp3"
+  },
+  {
+    "id": 57,
+    "en": "I can't do it.",
+    "tr": "Bunu yapamam.",
+    "category": "Yetenek",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_057_i_can_t_do_it.mp3"
+  },
+  {
+    "id": 58,
+    "en": "I need to go.",
+    "tr": "Gitmem gerek.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_058_i_need_to_go.mp3"
+  },
+  {
+    "id": 59,
+    "en": "Take care.",
+    "tr": "Kendine iyi bak.",
+    "category": "Vedalaşma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_059_take_care.mp3"
+  },
+  {
+    "id": 60,
+    "en": "It is good.",
+    "tr": "Bu iyi.",
+    "category": "Değerlendirme",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_060_it_is_good.mp3"
+  },
+  {
+    "id": 61,
+    "en": "It is bad.",
+    "tr": "Bu kötü.",
+    "category": "Değerlendirme",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_061_it_is_bad.mp3"
+  },
+  {
+    "id": 62,
+    "en": "It is big.",
+    "tr": "Bu büyük.",
+    "category": "Tanımlama",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_062_it_is_big.mp3"
+  },
+  {
+    "id": 63,
+    "en": "It is small.",
+    "tr": "Bu küçük.",
+    "category": "Tanımlama",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_063_it_is_small.mp3"
+  },
+  {
+    "id": 64,
+    "en": "It is hot.",
+    "tr": "Bu sıcak.",
+    "category": "Tanımlama",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_064_it_is_hot.mp3"
+  },
+  {
+    "id": 65,
+    "en": "It is cold.",
+    "tr": "Bu soğuk.",
+    "category": "Tanımlama",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_065_it_is_cold.mp3"
+  },
+  {
+    "id": 66,
+    "en": "This is my friend.",
+    "tr": "Bu benim arkadaşım.",
+    "category": "Tanıtma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_066_this_is_my_friend.mp3"
+  },
+  {
+    "id": 67,
+    "en": "I love you.",
+    "tr": "Seni seviyorum.",
+    "category": "Duygu",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_067_i_love_you.mp3"
+  },
+  {
+    "id": 68,
+    "en": "Call me.",
+    "tr": "Beni ara.",
+    "category": "İletişim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_068_call_me.mp3"
+  },
+  {
+    "id": 69,
+    "en": "Text me.",
+    "tr": "Bana mesaj at.",
+    "category": "İletişim",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_069_text_me.mp3"
+  },
+  {
+    "id": 70,
+    "en": "What are you doing?",
+    "tr": "Ne yapıyorsun?",
+    "category": "Soru",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_070_what_are_you_doing.mp3"
+  },
+  {
+    "id": 71,
+    "en": "Nothing much.",
+    "tr": "Pek bir şey yok.",
+    "category": "Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_071_nothing_much.mp3"
+  },
+  {
+    "id": 72,
+    "en": "Where do you live?",
+    "tr": "Nerede yaşıyorsun?",
+    "category": "Soru",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_072_where_do_you_live.mp3"
+  },
+  {
+    "id": 73,
+    "en": "I live here.",
+    "tr": "Burada yaşıyorum.",
+    "category": "Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_073_i_live_here.mp3"
+  },
+  {
+    "id": 74,
+    "en": "I have a problem.",
+    "tr": "Bir sorunum var.",
+    "category": "Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_074_i_have_a_problem.mp3"
+  },
+  {
+    "id": 75,
+    "en": "No problem.",
+    "tr": "Sorun değil.",
+    "category": "Çözüm",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_075_no_problem.mp3"
+  },
+  {
+    "id": 76,
+    "en": "Be careful.",
+    "tr": "Dikkatli ol.",
+    "category": "Uyarı",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_076_be_careful.mp3"
+  },
+  {
+    "id": 77,
+    "en": "Don't worry.",
+    "tr": "Endişelenme.",
+    "category": "Rahatlatma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_077_don_t_worry.mp3"
+  },
+  {
+    "id": 78,
+    "en": "It's okay.",
+    "tr": "Sorun yok.",
+    "category": "Onay",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_078_it_s_okay.mp3"
+  },
+  {
+    "id": 79,
+    "en": "That's right.",
+    "tr": "Bu doğru.",
+    "category": "Onay",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_079_that_s_right.mp3"
+  },
+  {
+    "id": 80,
+    "en": "That's wrong.",
+    "tr": "Bu yanlış.",
+    "category": "Red",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_080_that_s_wrong.mp3"
+  },
+  {
+    "id": 81,
+    "en": "Forget it.",
+    "tr": "Unut gitsin.",
+    "category": "Durum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_081_forget_it.mp3"
+  },
+  {
+    "id": 82,
+    "en": "Exactly.",
+    "tr": "Kesinlikle.",
+    "category": "Onay",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_082_exactly.mp3"
+  },
+  {
+    "id": 83,
+    "en": "Of course.",
+    "tr": "Tabii ki.",
+    "category": "Onay",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_083_of_course.mp3"
+  },
+  {
+    "id": 84,
+    "en": "Maybe.",
+    "tr": "Belki.",
+    "category": "Olasılık",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_084_maybe.mp3"
+  },
+  {
+    "id": 85,
+    "en": "Good idea.",
+    "tr": "İyi fikir.",
+    "category": "Onay",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_085_good_idea.mp3"
+  },
+  {
+    "id": 86,
+    "en": "Happy birthday.",
+    "tr": "İyi ki doğdun.",
+    "category": "Kutlama",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_086_happy_birthday.mp3"
+  },
+  {
+    "id": 87,
+    "en": "Good luck.",
+    "tr": "İyi şanslar.",
+    "category": "Dilek",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_087_good_luck.mp3"
+  },
+  {
+    "id": 88,
+    "en": "Have a nice day.",
+    "tr": "İyi günler.",
+    "category": "Vedalaşma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_088_have_a_nice_day.mp3"
+  },
+  {
+    "id": 89,
+    "en": "Welcome.",
+    "tr": "Hoş geldiniz.",
+    "category": "Selamlama",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_089_welcome.mp3"
+  },
+  {
+    "id": 90,
+    "en": "Today is Monday.",
+    "tr": "Bugün Pazartesi.",
+    "category": "Zaman",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_090_today_is_monday.mp3"
+  },
+  {
+    "id": 91,
+    "en": "See you tomorrow.",
+    "tr": "Yarın görüşürüz.",
+    "category": "Vedalaşma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_091_see_you_tomorrow.mp3"
+  },
+  {
+    "id": 92,
+    "en": "I work every day.",
+    "tr": "Her gün çalışırım.",
+    "category": "Rutin",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_092_i_work_every_day.mp3"
+  },
+  {
+    "id": 93,
+    "en": "I am at home.",
+    "tr": "Evdeyim.",
+    "category": "Konum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_093_i_am_at_home.mp3"
+  },
+  {
+    "id": 94,
+    "en": "I am at work.",
+    "tr": "İşteyim.",
+    "category": "Konum",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_094_i_am_at_work.mp3"
+  },
+  {
+    "id": 95,
+    "en": "Time is up.",
+    "tr": "Süre doldu.",
+    "category": "Zaman",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_095_time_is_up.mp3"
+  },
+  {
+    "id": 96,
+    "en": "Hurry up.",
+    "tr": "Acele et.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_096_hurry_up.mp3"
+  },
+  {
+    "id": 97,
+    "en": "Take your time.",
+    "tr": "Acele etme.",
+    "category": "Rahatlatma",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_097_take_your_time.mp3"
+  },
+  {
+    "id": 98,
+    "en": "It is too late.",
+    "tr": "Çok geç.",
+    "category": "Zaman",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_098_it_is_too_late.mp3"
+  },
+  {
+    "id": 99,
+    "en": "It is early.",
+    "tr": "Erken.",
+    "category": "Zaman",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_099_it_is_early.mp3"
+  },
+  {
+    "id": 100,
+    "en": "Let's start.",
+    "tr": "Hadi başlayalım.",
+    "category": "Eylem",
+    "audioUrl": "/data/Tr_Eng_Temel_Cumleler/Audio/sentence_100_let_s_start.mp3"
+  }
 ]

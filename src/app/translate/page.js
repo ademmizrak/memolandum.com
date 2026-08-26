@@ -35,7 +35,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Gemini AI Translation Studio | Memolandum",
     description:
-      "Instant text & voice translation in 13+ languages. Listen, then save to your Word Vault.",
+      "Instant text & voice translation (Anlık Çeviri) in 14 languages including Ottoman Turkish. Listen, then save to your Word Vault.",
     images: [OG_IMAGE],
   },
   robots: { index: true, follow: true },
@@ -60,11 +60,12 @@ const webAppJsonLd = {
     description: "Free translation quota; Premium for heavy AI use",
   },
   featureList: [
-    "Google Gemini AI translation",
+    "Google Gemini Anlık Çeviri / Instant Translation",
     "Text and voice input",
+    "14 target languages including Ottoman Turkish",
     "Pronunciation / TTS playback",
     "Save translations to Word Vault",
-    "13+ language pairs",
+    "Free quota then Premium",
   ],
   publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
 };
@@ -77,18 +78,18 @@ const translateFaqJsonLd = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Memolandum AI çeviri nasıl çalışır?",
+      name: "Anlık çeviri nasıl çalışır?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Metin yazın veya mikrofonla konuşun; Google Gemini AI hedef dile çeviri üretir. Sonucu sesli dinleyebilir ve Kelime Kasanıza kaydedebilirsiniz.",
+        text: "Metin yazın veya mikrofonla konuşun; Google Gemini AI 14 hedef dile (Osmanlıca dahil) anlık çeviri üretir. Sonucu sesli dinleyebilir ve Kelime Kasanıza kaydedebilirsiniz.",
       },
     },
     {
       "@type": "Question",
-      name: "Is Memolandum translation free?",
+      name: "Is Memolandum Instant Translation free?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. A free AI translation quota is included for everyone. Heavy ongoing use continues with Memolandum Premium; arcade vocabulary games remain free.",
+        text: "Members get 10 free AI translations once per account; guests get 3 tries. Heavy ongoing use continues with Memolandum Premium; arcade vocabulary games and KPSS glossary remain free.",
       },
     },
     {
@@ -96,7 +97,7 @@ const translateFaqJsonLd = {
       name: "Çeviriyi kelime kasasına kaydedebilir miyim?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Evet. Çeviri stüdyosundan tek tıkla Kelime Kasanıza ekleyebilirsiniz; Pulse tekrar ritmi bu kelimeleri de takip eder.",
+        text: "Evet. Anlık Çeviri stüdyosundan tek tıkla Kelime Kasanıza ekleyebilirsiniz; Pulse tekrar ritmi bu kelimeleri de takip eder.",
       },
     },
   ],

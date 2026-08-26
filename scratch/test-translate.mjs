@@ -2,10 +2,10 @@ import { initializeApp } from "firebase/app";
 import { getAI, getGenerativeModel, GoogleAIBackend, Schema } from "firebase/ai";
 
 const app = initializeApp({
-  apiKey: "AIzaSyC0DInTuffWT5x6DcbUqk7jlOP_kmM5fkw",
-  authDomain: "memolandum.com",
-  projectId: "memolandum-33dc4",
-  appId: "1:539033091302:web:1e4c4763aff1da0c2bcf27",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "memolandum.com",
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "memolandum-33dc4",
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:539033091302:web:1e4c4763aff1da0c2bcf27",
 });
 
 const ai = getAI(app, { backend: new GoogleAIBackend() });

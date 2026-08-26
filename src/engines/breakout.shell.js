@@ -362,9 +362,8 @@ class BreakoutGame {
             shieldsEl.textContent = shieldsStr;
         }
         if (levelValEl) {
-            const code = this.getSectorShortCode(this.jsonFileName);
-            const totalChunks = Math.max(1, Math.ceil(this.vocabulary.length / this.wordsPerLevel));
-            levelValEl.textContent = `${code} (${this.chunkIndex + 1}/${totalChunks})`;
+            const lvlNum = this.levelNumber || 1;
+            levelValEl.textContent = String(lvlNum).padStart(2, '0');
         }
         if (masteredValEl && this.activeChunk) {
             const masteredCount = this.activeChunk.filter((w)=>w.hitCount >= 2).length;

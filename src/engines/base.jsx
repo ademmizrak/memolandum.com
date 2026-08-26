@@ -36,8 +36,34 @@ const RetroQuiz = dynamic(() => import('../components/games/RetroQuiz'), {
   ssr: false,
   loading: () => <SkeletonLoader gameType="quiz" />
 });
+const RetroLexicon = dynamic(() => import('../components/games/RetroLexicon'), {
+  ssr: false,
+  loading: () => <SkeletonLoader gameType="lexicon" />
+});
+const RetroHangman = dynamic(() => import('../components/games/RetroHangman'), {
+  ssr: false,
+  loading: () => <SkeletonLoader gameType="hangman" />
+});
+const WordSnake = dynamic(() => import('../components/games/WordSnake'), {
+  ssr: false,
+  loading: () => <SkeletonLoader gameType="word-snake" />
+});
+const AcademicShooter = dynamic(() => import('../components/games/AcademicShooter'), {
+  ssr: false,
+  loading: () => <SkeletonLoader gameType="shooter" />
+});
+const AcademicLexicon = dynamic(() => import('../components/games/AcademicLexicon'), {
+  ssr: false,
+  loading: () => <SkeletonLoader gameType="lexicon" />
+});
+const WordCard = dynamic(() => import('../components/games/WordCard'), {
+  ssr: false,
+  loading: () => <SkeletonLoader gameType="lexicon" />
+});
+
 
 import { gameManifest } from "../config/manifest";
+import { findNextLevelId } from "../lib/learning/studyContext";
 
 const GAME_THEMES = {
   highway: {
@@ -95,6 +121,46 @@ const GAME_THEMES = {
     gameOverTitle: "ANALİZ BAŞARISIZ",
     victoryTitle: "ANALİZ TAMAMLANDI",
     rebootBtn: "YENİDEN DENE",
+  },
+  lexicon: {
+    pauseTitle: "TOKEN DECK PAUSED",
+    resumeBtn: "RESUME DECK (P)",
+    restartBtn: "RESHUFFLE TOKENS",
+    gameOverTitle: "TOKENS DEPLETED",
+    victoryTitle: "DECK CLEARED",
+    rebootBtn: "NEW DECK",
+  },
+  hangman: {
+    pauseTitle: "TAHMİNLER DURDURULDU",
+    resumeBtn: "HARF TAHMİNİNE DÖN (P)",
+    restartBtn: "KELİMELERİ SIFIRLA",
+    gameOverTitle: "HAKLARINIZ TÜKENDİ",
+    victoryTitle: "BÖLÜM TAMAMLANDI",
+    rebootBtn: "YENİDEN BAŞLAT",
+  },
+  "word-snake": {
+    pauseTitle: "YILAN BEKLEMEDE",
+    resumeBtn: "AVLANMAYA DEVAM ET (P)",
+    restartBtn: "BÖLÜMÜ SIFIRLA",
+    gameOverTitle: "YILAN EZİLDİ",
+    victoryTitle: "TÜM KELİMELER TOPLANDI",
+    rebootBtn: "YENİDEN SÜRÜN",
+  },
+  "word-card": {
+    pauseTitle: "ÇALIŞMA DURAKLATILDI",
+    resumeBtn: "KARTLARA DÖN (P)",
+    restartBtn: "KARTLARI KARIŞTIR",
+    gameOverTitle: "ÇALIŞMA BİTTİ",
+    victoryTitle: "TÜM KARTLAR TAMAMLANDI!",
+    rebootBtn: "YENİDEN BAŞLA",
+  },
+  "kelime-karti": {
+    pauseTitle: "ÇALIŞMA DURAKLATILDI",
+    resumeBtn: "KARTLARA DÖN (P)",
+    restartBtn: "KARTLARI KARIŞTIR",
+    gameOverTitle: "ÇALIŞMA BİTTİ",
+    victoryTitle: "TÜM KARTLAR TAMAMLANDI!",
+    rebootBtn: "YENİDEN BAŞLA",
   }
 };
 
@@ -177,23 +243,8 @@ export default function GameEngineWrapper({ gameType, levelId, langId, onExit, o
   }, [isFxEnabled]);
 
   const handleNextLevel = () => {
-    let nextLevelId = null;
-    let foundCurrent = false;
-
-    for (const mainCat of gameManifest.mainCategories) {
-      for (const subCat of mainCat.subCategories) {
-        if (subCat.id === langId) {
-          for (let i = 0; i < subCat.levels.length; i++) {
-            if (subCat.levels[i].id === levelId) {
-              if (i + 1 < subCat.levels.length) {
-                nextLevelId = subCat.levels[i + 1].id;
-              }
-              break;
-            }
-          }
-        }
-      }
-    }
+    useMemolandumStore.getState().clearActiveCustomWords();
+    const nextLevelId = findNextLevelId(langId, levelId);
 
     if (nextLevelId && onNextLevel) {
       onNextLevel(nextLevelId);
@@ -223,6 +274,40 @@ export default function GameEngineWrapper({ gameType, levelId, langId, onExit, o
     return (
       <div className="w-full h-full absolute inset-0">
         <RetroShooter 
+          levelId={levelId} 
+          langId={langId} 
+          onExit={onExit}
+          onNextLevel={handleNextLevel}
+          isAudioEnabled={isAudioEnabled}
+          setIsAudioEnabled={setIsAudioEnabled}
+          isFxEnabled={isFxEnabled}
+          setIsFxEnabled={setIsFxEnabled}
+        />
+      </div>
+    );
+  }
+
+  if (gameType === 'academic-shooter') {
+    return (
+      <div className="w-full h-full absolute inset-0">
+        <AcademicShooter 
+          levelId={levelId} 
+          langId={langId} 
+          onExit={onExit}
+          onNextLevel={handleNextLevel}
+          isAudioEnabled={isAudioEnabled}
+          setIsAudioEnabled={setIsAudioEnabled}
+          isFxEnabled={isFxEnabled}
+          setIsFxEnabled={setIsFxEnabled}
+        />
+      </div>
+    );
+  }
+
+  if (gameType === 'academic-lexicon') {
+    return (
+      <div className="w-full h-full absolute inset-0">
+        <AcademicLexicon 
           levelId={levelId} 
           langId={langId} 
           onExit={onExit}
@@ -310,6 +395,74 @@ export default function GameEngineWrapper({ gameType, levelId, langId, onExit, o
         <RetroQuiz 
           levelId={levelId} 
           langId={langId} 
+          onExit={onExit}
+          onNextLevel={handleNextLevel}
+          isAudioEnabled={isAudioEnabled}
+          setIsAudioEnabled={setIsAudioEnabled}
+          isFxEnabled={isFxEnabled}
+          setIsFxEnabled={setIsFxEnabled}
+        />
+      </div>
+    );
+  }
+
+  if (gameType === 'lexicon') {
+    return (
+      <div className="w-full h-full absolute inset-0">
+        <RetroLexicon
+          levelId={levelId}
+          langId={langId}
+          onExit={onExit}
+          onNextLevel={handleNextLevel}
+          isAudioEnabled={isAudioEnabled}
+          setIsAudioEnabled={setIsAudioEnabled}
+          isFxEnabled={isFxEnabled}
+          setIsFxEnabled={setIsFxEnabled}
+        />
+      </div>
+    );
+  }
+
+  if (gameType === 'word-card' || gameType === 'kelime-karti') {
+    return (
+      <div className="w-full h-full absolute inset-0">
+        <WordCard
+          levelId={levelId}
+          langId={langId}
+          onExit={onExit}
+          onNextLevel={handleNextLevel}
+          isAudioEnabled={isAudioEnabled}
+          setIsAudioEnabled={setIsAudioEnabled}
+          isFxEnabled={isFxEnabled}
+          setIsFxEnabled={setIsFxEnabled}
+        />
+      </div>
+    );
+  }
+
+  if (gameType === 'hangman') {
+    return (
+      <div className="w-full h-full absolute inset-0">
+        <RetroHangman
+          levelId={levelId}
+          langId={langId}
+          onExit={onExit}
+          onNextLevel={handleNextLevel}
+          isAudioEnabled={isAudioEnabled}
+          setIsAudioEnabled={setIsAudioEnabled}
+          isFxEnabled={isFxEnabled}
+          setIsFxEnabled={setIsFxEnabled}
+        />
+      </div>
+    );
+  }
+
+  if (gameType === 'word-snake') {
+    return (
+      <div className="w-full h-full absolute inset-0">
+        <WordSnake
+          levelId={levelId}
+          langId={langId}
           onExit={onExit}
           onNextLevel={handleNextLevel}
           isAudioEnabled={isAudioEnabled}

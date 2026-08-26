@@ -16,6 +16,10 @@ export default function SkeletonLoader({ gameType }) {
           {gameType === 'invaders' && '👾'}
           {gameType === 'wordascent' && '🧗'}
           {gameType === 'worddrop' && '📦'}
+          {gameType === 'lexicon' && '🃏'}
+          {gameType === 'hangman' && '👤'}
+          {gameType === 'word-snake' && '🐍'}
+          {gameType === 'quiz' && '❓'}
           {!gameType && '🎮'}
         </div>
       </div>

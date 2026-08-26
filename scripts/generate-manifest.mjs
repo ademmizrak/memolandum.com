@@ -13,7 +13,8 @@ const ENGLISH_LEGACY_CATEGORIES = {
   'Tr_Eng_Temel_Cumleler': 'Temel Cümleler',
   'Tr_Eng_Yaz_Cumleleri': 'Yaz Cümleleri',
   'Tr_Eng_YDS_kelimeleri': 'YDS Kelimeleri',
-  'Tr_Eng_YKS_Kelimeleri': 'YKS Kelimeleri'
+  'Tr_Eng_YKS_Kelimeleri': 'YKS Kelimeleri',
+  'Tr_Eng_Ilkokul': 'İlkokul'
 };
 
 const LANG_CODE_NAMES = {
@@ -87,6 +88,7 @@ async function scanLegacyDirectory(dirPath, basePath = '') {
   
   for (const entry of entries) {
     if (entry.name === 'node_modules') continue;
+    if (entry.name.startsWith('_') || entry.name.toLowerCase().includes('archive')) continue;
     if (entry.isDirectory() && entry.name.toLowerCase().includes('audio')) continue;
     
     const fullPath = path.join(dirPath, entry.name);
@@ -242,6 +244,8 @@ async function generateManifest() {
     try {
       const jsonFiles = await scanLegacyDirectory(folderPath);
       if (jsonFiles.length > 0) {
+        // Sort files naturally so e.g. Group 2 comes before Group 10
+        jsonFiles.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' }));
         const levels = [];
         const sentenceLevels = [];
         
@@ -295,6 +299,8 @@ async function generateManifest() {
       try {
         const jsonFiles = await scanLegacyDirectory(folderPath);
         if (jsonFiles.length > 0) {
+          // Sort files naturally so e.g. Group 2 comes before Group 10
+          jsonFiles.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: 'base' }));
           const levels = jsonFiles.map((file, index) => {
             const relativePath = `${dir.name}/${file.name}`;
             return {
@@ -331,6 +337,8 @@ async function generateManifest() {
       const sentenceLevels = [];
       
       const files = await fs.readdir(pairPath);
+      // Sort files naturally so e.g. Group 2 comes before Group 10
+      files.sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
       for (const file of files) {
         if (!file.endsWith('.json')) continue;
         

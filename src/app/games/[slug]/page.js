@@ -1,5 +1,7 @@
 // Server Component for Static Params
+import { Suspense } from "react";
 import GamePageClient from "./GamePageClient";
+import SkeletonLoader from "../../../components/SkeletonLoader";
 import { GAME_META, absoluteUrl, OG_IMAGE } from "../../../lib/seo/siteConfig";
 
 export function generateStaticParams() {
@@ -11,6 +13,12 @@ export function generateStaticParams() {
     { slug: "wordascent" },
     { slug: "worddrop" },
     { slug: "quiz" },
+    { slug: "lexicon" },
+    { slug: "hangman" },
+    { slug: "word-snake" },
+    { slug: "academic-shooter" },
+    { slug: "academic-lexicon" },
+    { slug: "word-card" },
   ];
 }
 
@@ -36,5 +44,9 @@ export async function generateMetadata({ params }) {
 
 export default async function GamePage({ params }) {
   const resolvedParams = await params;
-  return <GamePageClient slug={resolvedParams.slug} />;
+  return (
+    <Suspense fallback={<SkeletonLoader gameType={resolvedParams.slug} />}>
+      <GamePageClient slug={resolvedParams.slug} />
+    </Suspense>
+  );
 }

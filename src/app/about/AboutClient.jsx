@@ -268,30 +268,44 @@ const SCIENCE_POINTS = [
   },
 ];
 
-/* ── 12 dil + Osmanlıca tanımları ─────────────────────────────────────────── */
+/* ── TR/EN ürün metinleri (23 dil yolu · KPSS · Anlık Çeviri) ─────────── */
 const ALL_LANGS = [
   {
     code: "tr", flag: "🇹🇷", name: "Türkçe",
     speakers: "85M",
-    intro: "memolandum.com, geleneksel ve sıkıcı öğrenme metotlarını geride bırakarak kalıcı hafıza yönetimini küresel bir oyun ekosistemine dönüştüren yeni nesil bir platformdur.",
-    vision: "Her yeni dil dünya bilişim ve iş ekosisteminde size yeni bir kapı açar. memolandum.com'un bilimsel altyapısıyla bir dili bitirip diğerine geçebilir, tıpkı sıfır noktasından başlayan atari piksellerinin bugün dünyayı yönetmesi gibi kendinizi inşa edebilirsiniz.",
+    intro: "memolandum.com, kelime ezberlemeyi 8 arcade oyunla birleştiren küresel bir platformdur. Tüm oyunlar ücretsizdir. 23 dil yolunda çalışın; KPSS sözlük ve Gemini Anlık Çeviri dahildir. Kuzey yıldızımız: bu temel üzerine branş AI öğretmenleri (dil, KPSS, akademik) — Google Gemini + kişisel lexikon.",
+    vision: "Öğrenme bedava kalsın; AI API Premium ile şeffaf finanse edilsin. Canlı temel (oyun · /learn · sözlük · Pulse) üzerine her branş için Gemini öğretmenleri: zayıf noktayı okur, bir sonraki antrenmanı kurar, kelimeleri kişisel grafe kazandırır. Ölçeklenebilir, ölçülebilir, dünya çapında keşfedilebilir bir AI öğrenme işletmesi.",
+    roadmapTitle: "Ürün yolu",
+    roadmap: [
+      { b: "Şimdi:", t: "23 dil yolu, KPSS sözlük, Anlık Çeviri, Pulse — canlı ve indeksleniyor." },
+      { b: "Sonraki:", t: "AI branş öğretmenleri (Gemini) — dil + sınav + akademik alanlar." },
+      { b: "Kuzey yıldızı:", t: "Kişisel kelime grafiği: her ziyarette senin kelimelerin + adaptive antrenman." },
+    ],
     why: [
-      { b: "Örtük öğrenme gücü:", t: "Oyun oynarken, farkında olmadan kalıcı dil edinimi." },
-      { b: "Genişleyen Arcade Kütüphanesi:", t: "6 oyunla sınırlı kalmayan, büyüyen retro modüller." },
-      { b: "Kalıcı kelime edinimi:", t: "Günde 10 dakika, geleneksel yöntemlere göre %50 daha kalıcı." },
-      { b: "YDS / YKS hazırlık:", t: "Sınav odaklı kelime setleri, seviye bazlı listeler." },
+      { b: "Oyunlar ücretsiz:", t: "8 arcade mod ve tüm seviyeler — üye veya misafir, öğrenme bedava." },
+      { b: "23 dil yolu:", t: "/learn altında SSG landing’ler; oyuna deep-link." },
+      { b: "KPSS ve sözlük:", t: "10 kategoride yaklaşık 4.000 akademik kavram." },
+      { b: "Anlık Çeviri:", t: "Gemini — üye ilk 10 ücretsiz · sonrası Premium." },
+      { b: "Bilimsel tekrar:", t: "Spaced repetition ve active recall — Memolandum Pulse." },
     ],
   },
   {
     code: "en", flag: "🇬🇧", name: "English",
     speakers: "1.5B",
-    intro: "memolandum.com is a next-generation platform transforming memory management into a global game ecosystem — leaving boring traditional methods behind.",
-    vision: "Every language you learn opens a new door in the global tech and business world. With memolandum.com's scientific infrastructure, master world languages from zero — just as the arcade pixels of yesterday now rule the world.",
+    intro: "memolandum.com turns vocabulary into 8 arcade games across 23 language pathways. All games are free. KPSS glossary and Gemini Instant Translation included. North star: AI branch teachers on this foundation — Google Gemini + personal lexicon graphs.",
+    vision: "Learning stays free; AI API is funded transparently via Premium. On the live stack (games · /learn · glossary · Pulse) we build Gemini teachers per domain: they read weak spots, configure the next drill, and grow a personal vocabulary graph. A scalable, measurable, globally discoverable AI learning business.",
+    roadmapTitle: "Product path",
+    roadmap: [
+      { b: "Now:", t: "23 pathways, KPSS glossary, Instant Translation, Pulse — live and indexed." },
+      { b: "Next:", t: "AI branch teachers (Gemini) — language + exam + academic domains." },
+      { b: "North star:", t: "Personal vocabulary graph: your words + adaptive training every visit." },
+    ],
     why: [
-      { b: "Implicit learning power:", t: "Permanent language acquisition through gameplay, without realizing it." },
-      { b: "Ever-expanding Arcade Library:", t: "Retro game modules growing beyond 6 games." },
-      { b: "Permanent vocabulary:", t: "10 minutes a day — up to 50% more lasting than traditional methods." },
-      { b: "Exam preparation:", t: "Level-based and exam-focused word sets." },
+      { b: "Games free forever:", t: "8 arcade modes and every level — guest or member." },
+      { b: "23 language pathways:", t: "SSG landings under /learn; deep-link into games." },
+      { b: "KPSS glossary:", t: "About 4,000 academic concepts in 10 categories." },
+      { b: "Instant Translation:", t: "Gemini — 10 free per account · then Premium." },
+      { b: "Science-backed review:", t: "Spaced repetition and active recall — Memolandum Pulse." },
     ],
   },
   {
@@ -473,8 +487,8 @@ export default function AboutClient() {
               MEMOLANDUM
             </h1>
             <p style={{ color: "#64748b", fontSize: 14, maxWidth: 560, margin: "0 auto", lineHeight: 1.7 }}>
-              Dünya genelinde öğrencilere bilimsel temelli, oyun destekli dil öğrenme deneyimi sunuyoruz.<br />
-              <span style={{ fontSize: 12 }}>Building the world&apos;s most engaging vocabulary acquisition ecosystem.</span>
+              8 arcade oyun · 23 dil yolu · KPSS sözlük · Anlık Çeviri — dünyanın her yerinden.<br />
+              <span style={{ fontSize: 12 }}>8 arcade games · 23 language pathways · KPSS glossary · Instant Translation — worldwide.</span>
             </p>
           </div>
 
@@ -582,20 +596,45 @@ export default function AboutClient() {
         )}
 
         {/* Vision */}
-        <div style={{ borderRadius: 16, border: "1px solid rgba(168,85,247,0.2)", background: "linear-gradient(135deg,rgba(168,85,247,.07) 0%,rgba(34,211,238,.04) 100%)", padding: "18px 22px", marginBottom: 28 }}>
+        <div style={{ borderRadius: 16, border: "1px solid rgba(168,85,247,0.2)", background: "linear-gradient(135deg,rgba(168,85,247,.07) 0%,rgba(34,211,238,.04) 100%)", padding: "18px 22px", marginBottom: 22 }}>
           <div style={{ fontSize: 10, fontWeight: 700, color: "#a78bfa", letterSpacing: "0.12em", textTransform: "uppercase", fontFamily: "monospace", marginBottom: 8 }}>
             🌌 {activeLang === "tr" ? "Küresel Vizyon" : activeLang === "ar" ? "رؤية عالمية" : activeLang === "ru" ? "Глобальное видение" : activeLang === "ko" ? "글로벌 비전" : activeLang === "el" ? "Παγκόσμιο Όραμα" : activeLang === "osm" ? "Küresel Vizyon" : "Global Vision"}
           </div>
           <p style={{ color: "#94a3b8", fontSize: 13, lineHeight: 1.75, margin: 0 }}>{lang.vision}</p>
         </div>
 
+        {/* Roadmap — TR/EN rich; others fall back to EN */}
+        {(lang.roadmap || ALL_LANGS.find((l) => l.code === "en")?.roadmap) && (
+          <div style={{ borderRadius: 16, border: "1px solid rgba(34,211,238,0.25)", background: "linear-gradient(135deg,rgba(34,211,238,.06) 0%,rgba(15,23,42,.95) 100%)", padding: "18px 22px", marginBottom: 22 }}>
+            <div style={{ fontSize: 10, fontWeight: 700, color: "#22d3ee", letterSpacing: "0.12em", textTransform: "uppercase", fontFamily: "monospace", marginBottom: 12 }}>
+              🗺 {lang.roadmapTitle || ALL_LANGS.find((l) => l.code === "en")?.roadmapTitle || "Roadmap"}
+            </div>
+            <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "flex", flexDirection: "column", gap: 9 }}>
+              {(lang.roadmap || ALL_LANGS.find((l) => l.code === "en").roadmap).map((item, i) => (
+                <li key={i} style={{ display: "flex", gap: 9, alignItems: "flex-start" }}>
+                  <span style={{ color: "#a78bfa", marginTop: 2, flexShrink: 0 }}>→</span>
+                  <span style={{ color: "#94a3b8", fontSize: 13, lineHeight: 1.6 }}>
+                    <strong style={{ color: "#f1f5f9" }}>{item.b}</strong> {item.t}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <a
+              href="/roadmap/"
+              style={{ display: "inline-block", marginTop: 14, fontSize: 12, fontWeight: 800, color: "#22d3ee", textDecoration: "none" }}
+            >
+              {activeLang === "tr" ? "Tam roadmap →" : "Full roadmap →"}
+            </a>
+          </div>
+        )}
+
         {/* Stats */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 10, marginBottom: 36 }}>
           {[
-            { n: "14", label: activeLang === "tr" ? "Dil" : "Languages" },
-            { n: "6+", label: activeLang === "tr" ? "Arcade Oyun" : "Arcade Games" },
-            { n: "AI", label: "Gemini Powered" },
-            { n: "4B+", label: activeLang === "tr" ? "Konuşucu" : "Speakers" },
+            { n: "23", label: activeLang === "tr" ? "Dil yolu" : "Pathways" },
+            { n: "8", label: activeLang === "tr" ? "Arcade" : "Arcade" },
+            { n: "AI", label: "Gemini" },
+            { n: "4K", label: activeLang === "tr" ? "KPSS+" : "KPSS+" },
           ].map((s) => (
             <div key={s.label} style={{ textAlign: "center", borderRadius: 12, padding: "18px 8px", background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.05)" }}>
               <div style={{ fontSize: 20, fontWeight: 900, background: "linear-gradient(135deg,#22d3ee,#a78bfa)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>{s.n}</div>
@@ -618,7 +657,7 @@ export default function AboutClient() {
       <div style={{ background: "rgba(255,255,255,0.015)", borderTop: "1px solid rgba(255,255,255,0.04)" }}>
         <div style={{ maxWidth: 940, margin: "0 auto", padding: "24px 16px", textAlign: "center" }}>
           <div style={{ fontSize: 10, color: "#334155", fontFamily: "monospace", letterSpacing: "0.1em", marginBottom: 12, textTransform: "uppercase" }}>
-            14 Languages / 14 Dil / 14 Langues / 14 Idiomas
+            23 language pathways · KPSS glossary · Instant Translation · 8 arcade games
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 7 }}>
             {ALL_LANGS.map((l) => (

@@ -1,17 +1,10 @@
+import { getGenerativeModel, Schema } from "firebase/ai";
+import { ai, auth } from "./config";
 import { assertAllowed, commitAbuse, AbuseError } from "../security";
 import { useMemolandumStore } from "../../store/useMemolandumStore";
 import { createPulseEntry } from "../learning/memolandumPulse";
-import { auth } from "./config";
 
 export { AbuseError };
-
-function getGeminiKey() {
-  return (
-    process.env.NEXT_PUBLIC_GEMINI_API_KEY ||
-    process.env.GEMINI_API_KEY ||
-    ""
-  );
-}
 
 function translateAction(kind) {
   const premium = !!useMemolandumStore.getState().isPremium;
@@ -42,13 +35,35 @@ const LANG_PROMPT_LABEL = {
   osm: "Osmanlıca (Ottoman Turkish — prefer Arabic script with Ottoman orthography; add Latin transliteration in parentheses)",
 };
 
-const DEEP_CONTEXT_TRANSLATOR_SYSTEM_INSTRUCTION = `Sen kıdemli bir dilbilimci ve kültür mütehassısısın. Görevin metni/sesi hedef dile çevirirken arkasındaki derin bağlamı, duyguyu, nüansları ve deyimleri algılayarak en doğal şekilde aktarmaktır.
+const DEEP_CONTEXT_TRANSLATOR_SYSTEM_INSTRUCTION = `Sen Memolandum dil öğrenme platformunun hızlı çeviri asistanısın. Görevin metni/sesi hedef dile açık, doğru ve günlük dile uygun şekilde çevirmektir — roman/şiir çevirmeni gibi değil.
 
 Kuralların:
-1) DERİN BAĞLAM: Motamot çeviri yapma. Deyimleri ve kültürel kalıpları hedef dildeki en doğal karşılığı ile çevir.
-2) TON HAKKIMDA: Metnin tonunu tespit et (Örn: Samimi/Günlük, Resmî, Deyimsel, Duygusal, Akademik).
-3) EĞİTİMCİ İPUCU (contextNotes): Kullanıcıya çevirinin neden böyle yapıldığını ve inceliğini açıklayan 1-2 cümlelik Türkçe ipucu ver.
-4) NÜANSLAR (nuances): Metindeki kilit kelime ve deyimleri Türkçe anlamlarıyla ayrıştır.`;
+1) YALIN VE DOĞAL (ÖNCELİK): Sade, standart, günlük dil kullan. Aşırı şiirsel, edebi (literary), lirik veya dramatize çevirilerden kaçın.
+2) DEYİM: Motamot kalma. Gerçek deyimleri hedef dildeki en doğal günlük karşılığıyla ver.
+3) TON: Tonu tespit et (Samimi/Günlük, Resmî, Duygusal, Akademik). Duygusal metinde bile abartma; öğrenen için net kal.
+4) EĞİTİMCİ İPUCU (contextNotes): 1-2 cümle Türkçe — neden bu karşılık, kısa ve net.
+5) NÜANSLAR (nuances): Kilit kelime/deyimleri Türkçe anlamlarıyla ayrıştır.`;
+
+const nuanceItemSchema = Schema.object({
+  properties: {
+    phrase: Schema.string(),
+    meaning: Schema.string(),
+    note: Schema.string(),
+  },
+  optionalProperties: ["note"],
+});
+
+const responseSchema = Schema.object({
+  properties: {
+    sourceLang: Schema.string(),
+    translation: Schema.string(),
+    tone: Schema.string(),
+    contextNotes: Schema.string(),
+    nuances: Schema.array(nuanceItemSchema),
+    transcript: Schema.string(),
+  },
+  optionalProperties: ["sourceLang", "tone", "contextNotes", "nuances", "transcript"],
+});
 
 function languageLabel(code) {
   if (LANG_PROMPT_LABEL[code]) return LANG_PROMPT_LABEL[code];
@@ -56,23 +71,166 @@ function languageLabel(code) {
   return row?.label || row?.name || code;
 }
 
-const CANDIDATE_MODELS = [
-  "gemini-3.5-flash",
-  "gemini-2.5-flash",
-  "gemini-2.0-flash",
-];
+/** Firebase AI Logic + REST için canlı adaylar (ölü 1.5 / 2.0 / 2.5 yok) */
+const CANDIDATE_MODELS = ["gemini-3.5-flash", "gemini-flash-latest"];
 
+const REQUEST_TIMEOUT_MS = 28000;
+
+function getGeminiKey() {
+  return (
+    process.env.NEXT_PUBLIC_GEMINI_API_KEY ||
+    process.env.GEMINI_API_KEY ||
+    ""
+  );
+}
+
+function getTranslateModel(modelName = CANDIDATE_MODELS[0]) {
+  if (!ai) {
+    throw new Error("AI servisi bağlanamadı.");
+  }
+  return getGenerativeModel(ai, {
+    model: modelName,
+    systemInstruction: DEEP_CONTEXT_TRANSLATOR_SYSTEM_INSTRUCTION,
+    generationConfig: {
+      temperature: 0.2,
+      maxOutputTokens: 4096,
+      responseMimeType: "application/json",
+      responseSchema,
+    },
+  });
+}
+
+function parseModelJson(text) {
+  if (!text) return null;
+  const raw = String(text).trim();
+  const cleaned = raw
+    .replace(/^```(?:json)?\s*/i, "")
+    .replace(/\s*```$/i, "")
+    .trim();
+
+  const tryParse = (s) => {
+    try {
+      return JSON.parse(s);
+    } catch {
+      return null;
+    }
+  };
+
+  let parsed = tryParse(cleaned);
+  if (parsed) return parsed;
+
+  const match = cleaned.match(/\{[\s\S]*\}/);
+  if (match) {
+    parsed = tryParse(match[0]);
+    if (parsed) return parsed;
+  }
+
+  const translationMatch = cleaned.match(
+    /"translation"\s*:\s*"((?:\\.|[^"\\])*)"/
+  );
+  if (translationMatch?.[1]) {
+    try {
+      return { translation: JSON.parse(`"${translationMatch[1]}"`) };
+    } catch {
+      return { translation: translationMatch[1] };
+    }
+  }
+  return null;
+}
+
+function extractText(result) {
+  try {
+    const direct = result?.response?.text?.();
+    if (direct) return direct;
+  } catch {
+    /* fallback below */
+  }
+  const parts = result?.response?.candidates?.[0]?.content?.parts || [];
+  return parts
+    .filter((p) => typeof p?.text === "string" && !p.thought)
+    .map((p) => p.text)
+    .join("")
+    .trim();
+}
+
+function isRetryableModelError(err) {
+  const msg = String(err?.message || "").toLowerCase();
+  return (
+    msg.includes("not found") ||
+    msg.includes("404") ||
+    msg.includes("invalid model") ||
+    msg.includes("is no longer available") ||
+    msg.includes("not available to new users")
+  );
+}
+
+function withTimeout(promise, ms, label = "Gemini") {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => {
+      reject(new Error(`${label} yanıt süresi aşıldı (${Math.round(ms / 1000)} sn).`));
+    }, ms);
+    promise.then(
+      (v) => {
+        clearTimeout(timer);
+        resolve(v);
+      },
+      (err) => {
+        clearTimeout(timer);
+        reject(err);
+      }
+    );
+  });
+}
+
+/** Firebase AI Logic (GoogleAIBackend) — birincil yol */
+async function generateViaFirebaseAi(promptParts) {
+  if (!ai) throw new Error("Firebase AI yapılandırılmadı.");
+  let lastErr = null;
+  for (const modelName of CANDIDATE_MODELS) {
+    try {
+      const model = getTranslateModel(modelName);
+      const result = await withTimeout(
+        model.generateContent(promptParts),
+        REQUEST_TIMEOUT_MS,
+        modelName
+      );
+      const raw = extractText(result);
+      if (!raw) {
+        throw new Error("Gemini geçerli bir yanıt metni dönmedi.");
+      }
+      return raw;
+    } catch (err) {
+      lastErr = err;
+      if (isRetryableModelError(err)) continue;
+      // timeout / network → REST'e düş
+      const msg = String(err?.message || "").toLowerCase();
+      if (msg.includes("süresi aşıldı") || msg.includes("network") || msg.includes("fetch")) {
+        throw err;
+      }
+      throw err;
+    }
+  }
+  throw lastErr || new Error("Gemini AI servisinden yanıt alınamadı.");
+}
+
+/** Doğrudan Google AI REST — yedek yol */
 async function fetchGeminiDirect(promptParts, modelName = CANDIDATE_MODELS[0]) {
   const apiKey = getGeminiKey();
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
+  if (!apiKey) {
+    throw new Error("Gemini API anahtarı eksik (NEXT_PUBLIC_GEMINI_API_KEY).");
+  }
 
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${encodeURIComponent(apiKey)}`;
   const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 12000);
+  const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
 
   try {
     const response = await fetch(url, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        "x-goog-api-key": apiKey,
+      },
       signal: controller.signal,
       body: JSON.stringify({
         contents: [{ parts: promptParts }],
@@ -80,8 +238,8 @@ async function fetchGeminiDirect(promptParts, modelName = CANDIDATE_MODELS[0]) {
           parts: [{ text: DEEP_CONTEXT_TRANSLATOR_SYSTEM_INSTRUCTION }],
         },
         generationConfig: {
-          temperature: 0.15,
-          maxOutputTokens: 2048,
+          temperature: 0.2,
+          maxOutputTokens: 4096,
           responseMimeType: "application/json",
           responseSchema: {
             type: "OBJECT",
@@ -98,14 +256,13 @@ async function fetchGeminiDirect(promptParts, modelName = CANDIDATE_MODELS[0]) {
                   properties: {
                     phrase: { type: "STRING" },
                     meaning: { type: "STRING" },
-                    note: { type: "STRING" }
+                    note: { type: "STRING" },
                   },
-                  required: ["phrase", "meaning"]
-                }
-              }
+                },
+              },
             },
-            required: ["translation"]
-          }
+            required: ["translation"],
+          },
         },
       }),
     });
@@ -118,55 +275,91 @@ async function fetchGeminiDirect(promptParts, modelName = CANDIDATE_MODELS[0]) {
     }
 
     const data = await response.json();
-    const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+    const candidate = data?.candidates?.[0];
+    const finish = String(candidate?.finishReason || "");
+    const parts = candidate?.content?.parts;
+    const rawText = Array.isArray(parts)
+      ? parts.map((p) => p?.text || "").filter(Boolean).join("\n").trim()
+      : String(candidate?.content?.parts?.[0]?.text || "").trim();
+
     if (!rawText) {
+      if (/SAFETY|BLOCK|RECITATION/i.test(finish)) {
+        throw new Error("Çeviri güvenlik filtresine takıldı. Metni sadeleştirip tekrar deneyin.");
+      }
+      if (/MAX_TOKENS/i.test(finish)) {
+        throw new Error("Çeviri yanıtı kesildi. Daha kısa metin deneyin.");
+      }
       throw new Error("Gemini geçerli bir yanıt metni dönmedi.");
     }
     return rawText;
   } catch (err) {
     clearTimeout(timeoutId);
-    if (err.name === "AbortError") {
-      throw new Error("Gemini yanıt süresi aşıldı (12 sn).");
+    if (err?.name === "AbortError") {
+      throw new Error(`Gemini yanıt süresi aşıldı (${Math.round(REQUEST_TIMEOUT_MS / 1000)} sn).`);
     }
     throw err;
   }
 }
 
-async function generateWithFallback(promptParts) {
+async function generateViaRest(promptParts) {
   let lastErr = null;
   for (const modelName of CANDIDATE_MODELS) {
     try {
       return await fetchGeminiDirect(promptParts, modelName);
     } catch (err) {
       lastErr = err;
-      const msg = String(err?.message || "").toLowerCase();
-      if (
-        msg.includes("not found") ||
-        msg.includes("404") ||
-        msg.includes("invalid") ||
-        msg.includes("unsupported")
-      ) {
-        continue;
-      }
+      if (isRetryableModelError(err)) continue;
       throw err;
     }
   }
   throw lastErr || new Error("Gemini AI servisinden yanıt alınamadı.");
 }
 
-function parseModelJson(text) {
-  if (!text) return null;
-  try {
-    return JSON.parse(text);
-  } catch {
-    const match = String(text).match(/\{[\s\S]*\}/);
-    if (!match) return null;
+async function generateWithFallback(promptParts) {
+  const hasRestKey = !!getGeminiKey();
+
+  // REST önce: anlık çeviride genelde daha hızlı; key yoksa Firebase AI
+  if (hasRestKey) {
     try {
-      return JSON.parse(match[0]);
-    } catch {
-      return null;
+      return await generateViaRest(promptParts);
+    } catch (restErr) {
+      console.warn(
+        "[translate] REST başarısız, Firebase AI deneniyor:",
+        restErr?.message || restErr
+      );
     }
   }
+
+  try {
+    return await generateViaFirebaseAi(promptParts);
+  } catch (firebaseErr) {
+    if (!hasRestKey) throw firebaseErr;
+    console.warn(
+      "[translate] Firebase AI da başarısız:",
+      firebaseErr?.message || firebaseErr
+    );
+    throw firebaseErr;
+  }
+}
+
+function normalizeResult(parsed) {
+  const translationVal =
+    parsed?.translation ||
+    parsed?.translatedText ||
+    parsed?.translated_text ||
+    parsed?.translation_text ||
+    parsed?.translated;
+
+  if (!translationVal) return null;
+
+  return {
+    translation: String(translationVal).trim(),
+    sourceLang: parsed.sourceLang ? String(parsed.sourceLang).trim() : undefined,
+    tone: parsed.tone ? String(parsed.tone).trim() : undefined,
+    contextNotes: parsed.contextNotes ? String(parsed.contextNotes).trim() : undefined,
+    nuances: Array.isArray(parsed.nuances) ? parsed.nuances : [],
+    transcript: parsed.transcript ? String(parsed.transcript).trim() : undefined,
+  };
 }
 
 export async function translateText(text, targetLangCode) {
@@ -186,7 +379,8 @@ export async function translateText(text, targetLangCode) {
   const target = languageLabel(targetLangCode);
   const promptParts = [
     {
-      text: `Task: Deep contextual translation into ${target} (${targetLangCode}).
+      text: `Task: Natural, plain translation for language learners into ${target} (${targetLangCode}).
+Prefer everyday wording; avoid literary/poetic phrasing.
 Return JSON with keys: translation, sourceLang, tone, contextNotes, nuances.
 nuances is an array of objects with keys: phrase, meaning, note.
 User text: """${trimmed}"""`,
@@ -195,23 +389,14 @@ User text: """${trimmed}"""`,
 
   const rawJsonStr = await generateWithFallback(promptParts);
   const parsed = parseModelJson(rawJsonStr);
+  const result = normalizeResult(parsed);
 
-  const translationVal = parsed?.translation || parsed?.translatedText || parsed?.translated_text || parsed?.translation_text || parsed?.translated;
-
-  if (!translationVal) {
+  if (!result) {
     throw new Error("Çeviri yanıtı çözümlenemedi. Tekrar deneyin.");
   }
 
   commitAbuse(ticket);
-
-  return {
-    translation: String(translationVal).trim(),
-    sourceLang: parsed.sourceLang ? String(parsed.sourceLang).trim() : undefined,
-    tone: parsed.tone ? String(parsed.tone).trim() : undefined,
-    contextNotes: parsed.contextNotes ? String(parsed.contextNotes).trim() : undefined,
-    nuances: Array.isArray(parsed.nuances) ? parsed.nuances : [],
-    transcript: parsed.transcript ? String(parsed.transcript).trim() : undefined,
-  };
+  return result;
 }
 
 export async function translateAudioBlob(audioBlob, targetLangCode) {
@@ -234,7 +419,8 @@ export async function translateAudioBlob(audioBlob, targetLangCode) {
 
   const promptParts = [
     {
-      text: `Task: Voice transcription & deep context translation into ${target} (${targetLangCode}).
+      text: `Task: Voice transcription & natural plain translation for language learners into ${target} (${targetLangCode}).
+Prefer everyday wording; avoid literary/poetic phrasing.
 Return JSON with keys: transcript, translation, sourceLang, tone, contextNotes, nuances.`,
     },
     { inlineData: { mimeType, data: audioBase64 } },
@@ -242,22 +428,21 @@ Return JSON with keys: transcript, translation, sourceLang, tone, contextNotes, 
 
   const rawJsonStr = await generateWithFallback(promptParts);
   const parsed = parseModelJson(rawJsonStr);
+  const result = normalizeResult(parsed);
 
-  const translationVal = parsed?.translation || parsed?.translatedText || parsed?.translated_text || parsed?.translation_text || parsed?.translated;
-
-  if (!translationVal && !parsed?.transcript) {
+  if (!result && !parsed?.transcript) {
     throw new Error("Ses anlaşılamadı. Tekrar deneyin.");
   }
 
   commitAbuse(ticket);
 
   return {
-    translation: String(translationVal || "").trim(),
-    transcript: String(parsed.transcript || "").trim(),
-    sourceLang: parsed.sourceLang ? String(parsed.sourceLang).trim() : undefined,
-    tone: parsed.tone ? String(parsed.tone).trim() : undefined,
-    contextNotes: parsed.contextNotes ? String(parsed.contextNotes).trim() : undefined,
-    nuances: Array.isArray(parsed.nuances) ? parsed.nuances : [],
+    translation: result?.translation || "",
+    transcript: String(parsed?.transcript || result?.transcript || "").trim(),
+    sourceLang: result?.sourceLang,
+    tone: result?.tone,
+    contextNotes: result?.contextNotes,
+    nuances: result?.nuances || [],
   };
 }
 
@@ -300,7 +485,10 @@ export function buildVaultWordFromTranslation({
   if (!source || !target) {
     throw new Error("Metin ve çeviri gerekli.");
   }
-  const id = `ai_${slugifyPart(targetLang)}_${slugifyPart(source)}_${slugifyPart(target)}`.slice(0, 120);
+  const id = `ai_${slugifyPart(targetLang)}_${slugifyPart(source)}_${slugifyPart(target)}`.slice(
+    0,
+    120
+  );
 
   return createPulseEntry({
     id,

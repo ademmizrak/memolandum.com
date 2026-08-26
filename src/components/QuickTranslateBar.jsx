@@ -7,10 +7,8 @@ import {
   Volume2,
   Copy,
   Check,
-  BookmarkPlus,
   Loader2,
   Sparkles,
-  ArrowRight,
 } from "lucide-react";
 import {
   TRANSLATE_LANGUAGES,
@@ -32,6 +30,23 @@ const SILENCE_MS = 3000;
 const SPEECH_RMS = 0.02;
 const SILENCE_RMS = 0.012;
 const LANG_STORAGE_KEY = "memolandum-translate-target";
+
+const TTS_LANG_MAP = {
+  tr: "tr-TR",
+  en: "en-US",
+  de: "de-DE",
+  fr: "fr-FR",
+  es: "es-ES",
+  ru: "ru-RU",
+  ko: "ko-KR",
+  pt: "pt-BR",
+  ar: "ar-SA",
+  ja: "ja-JP",
+  zh: "zh-CN",
+  el: "el-GR",
+  it: "it-IT",
+  osm: "tr-TR",
+};
 
 export default function QuickTranslateBar({ onOpenPremium } = {}) {
   const [mounted, setMounted] = useState(false);
@@ -64,6 +79,7 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
   const isPremiumRef = useRef(isPremium);
   const translationCountRef = useRef(translationCount);
   const isAuthRef = useRef(isAuthenticated);
+  const isTranslatingRef = useRef(false);
 
   useEffect(() => {
     setMounted(true);
@@ -143,8 +159,10 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
         setVaultState("idle");
         return;
       }
+      if (isTranslatingRef.current) return;
       if (!checkFreeQuota()) return;
 
+      isTranslatingRef.current = true;
       setStatus("loading");
       setError("");
       setVaultState("idle");
@@ -159,6 +177,8 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
       } catch (err) {
         setStatus("error");
         setError(err?.message || "Çeviri başarısız.");
+      } finally {
+        isTranslatingRef.current = false;
       }
     },
     [targetLang, checkFreeQuota, consumeQuota]
@@ -189,6 +209,9 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
       if (!AudioCtx) return;
       try {
         const ctx = new AudioCtx();
+        if (ctx.state === "suspended") {
+          ctx.resume();
+        }
         const source = ctx.createMediaStreamSource(stream);
         const analyser = ctx.createAnalyser();
         analyser.fftSize = 2048;
@@ -255,10 +278,13 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
 
       recorder.onstop = async () => {
         clearSilenceMonitor();
-        const audioBlob = new Blob(audioChunksRef.current, { type: "audio/webm" });
+        const mimeType = mediaRecorderRef.current?.mimeType || "audio/webm";
+        const audioBlob = new Blob(audioChunksRef.current, { type: mimeType });
         stream.getTracks().forEach((track) => track.stop());
         setIsRecording(false);
 
+        if (isTranslatingRef.current) return;
+        isTranslatingRef.current = true;
         setStatus("loading");
         setError("");
         try {
@@ -272,6 +298,8 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
         } catch (err) {
           setStatus("error");
           setError(err?.message || "Sesli çeviri başarısız.");
+        } finally {
+          isTranslatingRef.current = false;
         }
       };
 
@@ -297,7 +325,7 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
     if (!textToSpeak || typeof window === "undefined" || !("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(textToSpeak);
-    utterance.lang = "en-US";
+    utterance.lang = TTS_LANG_MAP[targetLang] || "en-US";
     window.speechSynthesis.speak(utterance);
   };
 
@@ -333,79 +361,131 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
   if (!mounted) return null;
 
   return (
-    <div className="bg-slate-900/90 border-y border-cyan-500/20 py-2.5 px-4">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-3 justify-between">
-        <div className="flex items-center gap-2 w-full md:w-auto">
-          <div className="flex items-center gap-1.5 text-cyan-400 font-bold text-xs shrink-0">
-            <Sparkles className="w-3.5 h-3.5" /> Gemini Hızlı Çeviri:
+    <div className="mm-qtb">
+      <div className="mm-qtb__inner">
+        <div className="mm-qtb__row">
+          <div className="mm-qtb__label">
+            <Sparkles className="w-3.5 h-3.5 shrink-0" />
+            <span>Gemini Hızlı Çeviri</span>
+            <select
+              value={targetLang}
+              onChange={handleTargetChange}
+              className="bg-slate-950 border border-slate-800 text-[11px] font-bold text-slate-200 rounded-lg px-2 py-1 focus:outline-none focus:border-cyan-500"
+              aria-label="Hedef dil"
+            >
+              {TRANSLATE_LANGUAGES.map((l) => (
+                <option key={l.code} value={l.code}>
+                  {l.name}
+                </option>
+              ))}
+            </select>
           </div>
-          <select
-            value={targetLang}
-            onChange={handleTargetChange}
-            className="bg-slate-950 border border-slate-800 text-xs font-bold text-slate-200 rounded-lg px-2 py-1 focus:outline-none focus:border-cyan-500"
-          >
-            {TRANSLATE_LANGUAGES.map((l) => (
-              <option key={l.code} value={l.code}>
-                {l.name}
-              </option>
-            ))}
-          </select>
+
+          <div className="mm-qtb__field">
+            <input
+              type="text"
+              name="mm-quick-translate"
+              autoComplete="off"
+              autoCorrect="off"
+              spellCheck={false}
+              value={inputText}
+              onChange={(e) => {
+                setInputText(e.target.value);
+                if (status === "error") {
+                  setStatus("idle");
+                  setError("");
+                }
+              }}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  e.preventDefault();
+                  runTranslation(inputText);
+                }
+              }}
+              placeholder="Kelime veya cümle yazın..."
+              className="mm-qtb__input placeholder-slate-500"
+              style={{ pointerEvents: "auto", minWidth: 0, flex: 1 }}
+            />
+
+            {isRecording ? (
+              <button
+                type="button"
+                onClick={stopRecording}
+                className="p-1 rounded bg-red-500/20 text-red-400 animate-pulse shrink-0"
+                aria-label="Kaydı durdur"
+              >
+                <Square className="w-3 h-3 fill-current" />
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={startRecording}
+                className="p-1 text-slate-400 hover:text-cyan-400 transition-colors shrink-0"
+                aria-label="Sesli çeviri"
+              >
+                <Mic className="w-3.5 h-3.5" />
+              </button>
+            )}
+
+            <button
+              type="button"
+              onClick={() => runTranslation(inputText)}
+              disabled={status === "loading" || !inputText.trim()}
+              className="px-2.5 py-1 rounded-lg bg-cyan-500 text-slate-950 font-black text-xs hover:bg-cyan-400 transition-colors disabled:opacity-40 shrink-0"
+            >
+              {status === "loading" ? <Loader2 className="w-3 h-3 animate-spin" /> : "Çevir"}
+            </button>
+          </div>
+
+          {translation ? (
+            <div className="mm-qtb__result">
+              <span className="mm-qtb__result-text" title={translation}>
+                {translation}
+              </span>
+              <button
+                type="button"
+                onClick={() => handleSpeak(translation)}
+                className="text-slate-400 hover:text-cyan-400 shrink-0"
+                aria-label="Sesli oku"
+              >
+                <Volume2 className="w-3.5 h-3.5" />
+              </button>
+              <button
+                type="button"
+                onClick={handleCopy}
+                className="text-slate-400 hover:text-cyan-400 shrink-0"
+                aria-label="Kopyala"
+              >
+                {copied ? (
+                  <Check className="w-3.5 h-3.5 text-emerald-400" />
+                ) : (
+                  <Copy className="w-3.5 h-3.5" />
+                )}
+              </button>
+              <button
+                type="button"
+                onClick={handleAddToVault}
+                className="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-bold text-[10px] hover:bg-cyan-500/30 shrink-0"
+              >
+                {vaultState === "saved"
+                  ? "Eklendi"
+                  : vaultState === "exists"
+                    ? "Var"
+                    : "+ Kasa"}
+              </button>
+            </div>
+          ) : null}
         </div>
 
-        <div className="flex-1 w-full flex items-center gap-2 bg-slate-950 border border-slate-800 rounded-xl px-3 py-1.5 focus-within:border-cyan-500/50">
-          <input
-            type="text"
-            value={inputText}
-            onChange={(e) => setInputText(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                e.preventDefault();
-                runTranslation(inputText);
-              }
-            }}
-            placeholder="Kelime veya cümle yazın..."
-            className="w-full bg-transparent text-xs text-slate-100 placeholder-slate-500 focus:outline-none"
-          />
-
-          {isRecording ? (
+        {status === "error" && error && (
+          <div className="text-xs text-red-400 font-semibold bg-red-950/40 border border-red-500/20 rounded-lg px-3 py-1.5 flex items-center justify-between gap-2 min-w-0">
+            <span className="min-w-0 break-words">⚠️ {error}</span>
             <button
-              onClick={stopRecording}
-              className="p-1 rounded bg-red-500/20 text-red-400 animate-pulse text-[10px] font-bold"
+              type="button"
+              onClick={() => setError("")}
+              className="text-red-400 hover:text-red-300 font-bold px-1 cursor-pointer shrink-0"
             >
-              <Square className="w-3 h-3 fill-current" />
-            </button>
-          ) : (
-            <button
-              onClick={startRecording}
-              className="p-1 text-slate-400 hover:text-cyan-400 transition-colors"
-            >
-              <Mic className="w-3.5 h-3.5" />
-            </button>
-          )}
-
-          <button
-            onClick={() => runTranslation(inputText)}
-            disabled={status === "loading" || !inputText.trim()}
-            className="px-2.5 py-1 rounded-lg bg-cyan-500 text-slate-950 font-black text-xs hover:bg-cyan-400 transition-colors disabled:opacity-40"
-          >
-            {status === "loading" ? <Loader2 className="w-3 h-3 animate-spin" /> : "Çevir"}
-          </button>
-        </div>
-
-        {translation && (
-          <div className="flex items-center gap-2 bg-slate-950/80 border border-cyan-500/30 rounded-xl px-3 py-1.5 text-xs text-cyan-200">
-            <span className="font-bold">{translation}</span>
-            <button onClick={() => handleSpeak(translation)} className="text-slate-400 hover:text-cyan-400">
-              <Volume2 className="w-3.5 h-3.5" />
-            </button>
-            <button onClick={handleCopy} className="text-slate-400 hover:text-cyan-400">
-              {copied ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
-            </button>
-            <button
-              onClick={handleAddToVault}
-              className="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-bold text-[10px] hover:bg-cyan-500/30"
-            >
-              {vaultState === "saved" ? "Eklendi" : "+ Kasa"}
+              ×
             </button>
           </div>
         )}

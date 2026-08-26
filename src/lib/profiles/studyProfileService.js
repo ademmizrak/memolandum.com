@@ -26,6 +26,8 @@ export function emptyProfileStats() {
     game_breakdown: {},
     lastPlayedLang: null,
     lastPlayedLevel: null,
+    lastPlayedGame: null,
+    lastPlayedAt: 0,
   };
 }
 
@@ -71,6 +73,8 @@ export async function fetchProfileStats(uid, profileId) {
     game_breakdown: data.game_breakdown && typeof data.game_breakdown === "object" ? data.game_breakdown : {},
     lastPlayedLang: data.lastPlayedLang || null,
     lastPlayedLevel: data.lastPlayedLevel || null,
+    lastPlayedGame: data.lastPlayedGame || null,
+    lastPlayedAt: Number(data.lastPlayedAt) || 0,
   };
 }
 
@@ -132,6 +136,7 @@ export async function ensureCloudStudyProfiles(uid, { langPair, label } = {}) {
           game_breakdown: g.game_breakdown || {},
           lastPlayedLang: null,
           lastPlayedLevel: null,
+          lastPlayedGame: null,
           migratedFromGlobal: true,
           updatedAt: serverTimestamp(),
         },

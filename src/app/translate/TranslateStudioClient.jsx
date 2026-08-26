@@ -64,7 +64,7 @@ const TTS_LANG_MAP = {
 export default function TranslateStudioClient() {
   const [mounted, setMounted] = useState(false);
   const [text, setText] = useState("");
-  const [targetLang, setTargetLang] = useState("");
+  const [targetLang, setTargetLang] = useState("tr");
   const [translation, setTranslation] = useState("");
   const [sourceHint, setSourceHint] = useState("");
   const [tone, setTone] = useState("");
@@ -95,6 +95,7 @@ export default function TranslateStudioClient() {
   const isPremiumRef = useRef(isPremium);
   const translationCountRef = useRef(translationCount);
   const isAuthRef = useRef(isAuthenticated);
+  const isTranslatingRef = useRef(false);
 
   useEffect(() => {
     setMounted(true);
@@ -193,8 +194,10 @@ export default function TranslateStudioClient() {
         return;
       }
 
+      if (isTranslatingRef.current) return;
       if (!checkFreeQuota()) return;
 
+      isTranslatingRef.current = true;
       setStatus("loading");
       setError("");
       setVaultState("idle");
@@ -211,6 +214,8 @@ export default function TranslateStudioClient() {
       } catch (err) {
         setStatus("error");
         setError(err?.message || "Çeviri sırasında bir hata oluştu.");
+      } finally {
+        isTranslatingRef.current = false;
       }
     },
     [targetLang, checkFreeQuota, consumeQuota]
@@ -241,6 +246,9 @@ export default function TranslateStudioClient() {
       if (!AudioCtx) return;
       try {
         const ctx = new AudioCtx();
+        if (ctx.state === "suspended") {
+          ctx.resume();
+        }
         const source = ctx.createMediaStreamSource(stream);
         const analyser = ctx.createAnalyser();
         analyser.fftSize = 2048;
@@ -312,10 +320,13 @@ export default function TranslateStudioClient() {
 
       recorder.onstop = async () => {
         clearSilenceMonitor();
-        const audioBlob = new Blob(audioChunksRef.current, { type: "audio/webm" });
+        const mimeType = mediaRecorderRef.current?.mimeType || "audio/webm";
+        const audioBlob = new Blob(audioChunksRef.current, { type: mimeType });
         stream.getTracks().forEach((track) => track.stop());
         setIsRecording(false);
 
+        if (isTranslatingRef.current) return;
+        isTranslatingRef.current = true;
         setStatus("loading");
         setError("");
         try {
@@ -331,6 +342,8 @@ export default function TranslateStudioClient() {
         } catch (err) {
           setStatus("error");
           setError(err?.message || "Sesli çeviri alınamadı.");
+        } finally {
+          isTranslatingRef.current = false;
         }
       };
 
@@ -441,7 +454,7 @@ export default function TranslateStudioClient() {
                   Derin Bağlam AI Çeviri Stüdyosu
                 </h1>
                 <span className="px-2 py-0.5 rounded text-[10px] font-mono font-extrabold bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 uppercase tracking-wider">
-                  Gemini 2.5 Flash
+                  Gemini 3.5 Flash
                 </span>
               </div>
               <p className="text-xs sm:text-sm text-slate-400 mt-1 m-0">
@@ -478,16 +491,6 @@ export default function TranslateStudioClient() {
             <Globe className="w-4 h-4 text-cyan-400" /> Hedef Dil Seçin:
           </div>
           <div className="flex flex-wrap items-center gap-1.5">
-            <button
-              onClick={() => handleTargetChange("")}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                targetLang === ""
-                  ? "bg-cyan-500 text-slate-950 font-black shadow-[0_0_10px_rgba(6,182,212,0.3)]"
-                  : "bg-slate-800 text-slate-300 hover:bg-slate-700"
-              }`}
-            >
-              Otomatik (Türkçe / İngilizce)
-            </button>
             {TRANSLATE_LANGUAGES.map((l) => (
               <button
                 key={l.code}

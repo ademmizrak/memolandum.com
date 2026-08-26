@@ -4,9 +4,26 @@ import { useMemolandumStore } from "../../store/useMemolandumStore";
 import Header from "../../components/Header";
 import AuthModal from "../../components/AuthModal";
 import StudyProfilesPanel from "../../components/StudyProfilesPanel";
-import { changeUsername, logoutUser } from "../../lib/firebase/authService";
+import {
+  changeUsername,
+  logoutUser,
+  deleteUserAccount,
+  changeAccountPassword,
+  requestPasswordReset,
+  userHasPasswordProvider,
+} from "../../lib/firebase/authService";
 import { auth, db } from "../../lib/firebase/config";
 import { doc, onSnapshot } from "firebase/firestore";
+import {
+  FREE_TRANSLATION_QUOTA,
+  PAYMENTS_LIVE,
+  PREMIUM_PRODUCT,
+  remainingFreeTranslations,
+} from "../../lib/premium/config";
+import PremiumCheckoutModal from "../../components/premium/PremiumCheckoutModal";
+import { RetroLineChart } from "../../components/ui/charts/RetroLineChart";
+import { RetroBarChart } from "../../components/ui/charts/RetroBarChart";
+import { RetroRadialChart } from "../../components/ui/charts/RetroRadialChart";
 
 const PRESET_AVATARS = [
   "https://api.dicebear.com/9.x/bottts/svg?seed=Felix",
@@ -41,6 +58,75 @@ export default function ProfilePage() {
   const isAuthenticated = useMemolandumStore((s) => s.isAuthenticated);
   const uid = useMemolandumStore((s) => s.uid);
   const localStats = useMemolandumStore((s) => s.globalStats);
+  const vocabularyVault = useMemolandumStore((s) => s.vocabularyVault) || {};
+  const quizHistory = useMemolandumStore((s) => s.quizHistory) || [];
+
+  const allWords = React.useMemo(() => {
+    return Object.values(vocabularyVault);
+  }, [vocabularyVault]);
+
+  const stageCounts = React.useMemo(() => {
+    let firstTry = 0;
+    let p100 = 0;
+    let p75 = 0;
+    let p50 = 0;
+    let p25 = 0;
+
+    allWords.forEach((w) => {
+      if (w.firstTryCorrect === true) {
+        firstTry++;
+      } else if (w.learningProgressPct === 100) {
+        p100++;
+      } else if (w.learningProgressPct === 75) {
+        p75++;
+      } else if (w.learningProgressPct === 50) {
+        p50++;
+      } else if (w.learningProgressPct === 25) {
+        p25++;
+      } else {
+        // Fallback mapping based on word strength level (1..5) for vault words
+        const s = w.strength || 1;
+        if (s >= 4) firstTry++;
+        else if (s === 3) p75++;
+        else if (s === 2) p50++;
+        else p25++;
+      }
+    });
+
+    return { firstTry, p100, p75, p50, p25 };
+  }, [allWords]);
+
+  const dailyHistory = React.useMemo(() => {
+    const daysMap = {};
+    const dayNames = ["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"];
+    const today = new Date();
+
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date(today);
+      d.setDate(d.getDate() - i);
+      const key = d.toISOString().split("T")[0];
+      const label = dayNames[d.getDay()];
+      daysMap[key] = { label, correct: 0, wrong: 0 };
+    }
+
+    quizHistory.forEach((h) => {
+      const dStr = new Date(h.timestamp || Date.now()).toISOString().split("T")[0];
+      if (daysMap[dStr]) {
+        if (h.isCorrect) daysMap[dStr].correct++;
+        else daysMap[dStr].wrong++;
+      }
+    });
+
+    return Object.values(daysMap);
+  }, [quizHistory]);
+
+  const vaultStrengthStats = React.useMemo(() => {
+    const s = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+    allWords.forEach((w) => {
+      s[w.strength || 1] = (s[w.strength || 1] || 0) + 1;
+    });
+    return s;
+  }, [allWords]);
 
   const [globalStats, setGlobalStats] = useState(null);
   const [mounted, setMounted] = useState(false);
@@ -61,6 +147,89 @@ export default function ProfilePage() {
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [showLogoutConfirm, setShowLogoutConfirm] = useState(false);
   const [isLoggingOut, setIsLoggingOut] = useState(false);
+  const [premiumOpen, setPremiumOpen] = useState(false);
+  const isPremium = useMemolandumStore((s) => s.isPremium);
+  const translationCount = useMemolandumStore((s) => s.translationCount) || 0;
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
+  const [deletePassword, setDeletePassword] = useState("");
+  const [deleteAck, setDeleteAck] = useState(false);
+  const [isDeletingAccount, setIsDeletingAccount] = useState(false);
+  const [deleteError, setDeleteError] = useState("");
+
+  // Şifre yönetimi
+  const [currentPassword, setCurrentPassword] = useState("");
+  const [newPassword, setNewPassword] = useState("");
+  const [confirmNewPassword, setConfirmNewPassword] = useState("");
+  const [passwordBusy, setPasswordBusy] = useState(false);
+  const [passwordMsg, setPasswordMsg] = useState("");
+  const [passwordErr, setPasswordErr] = useState("");
+  const [resetBusy, setResetBusy] = useState(false);
+  const hasPasswordProvider = isAuthenticated && userHasPasswordProvider(auth?.currentUser);
+
+  const handleChangePassword = async (e) => {
+    e?.preventDefault?.();
+    setPasswordErr("");
+    setPasswordMsg("");
+    if (newPassword.length < 6) {
+      setPasswordErr("Yeni şifre en az 6 karakter olmalı.");
+      return;
+    }
+    if (newPassword !== confirmNewPassword) {
+      setPasswordErr("Yeni şifreler eşleşmiyor.");
+      return;
+    }
+    try {
+      setPasswordBusy(true);
+      await changeAccountPassword(currentPassword, newPassword);
+      setCurrentPassword("");
+      setNewPassword("");
+      setConfirmNewPassword("");
+      setPasswordMsg("Şifreniz güncellendi. Firestore güvenlik kaydı da yazıldı.");
+    } catch (err) {
+      const code = err?.code || "";
+      if (code === "auth/wrong-password" || code === "auth/invalid-credential") {
+        setPasswordErr("Mevcut şifre hatalı.");
+      } else if (code === "auth/weak-password") {
+        setPasswordErr("Yeni şifre çok zayıf (en az 6 karakter).");
+      } else if (code === "same-password") {
+        setPasswordErr("Yeni şifre mevcut şifreyle aynı olamaz.");
+      } else if (code === "password-provider-missing") {
+        setPasswordErr("Bu hesapta e-posta/şifre girişi yok (ör. yalnızca Google).");
+      } else if (String(code).includes("requires-recent-login")) {
+        setPasswordErr("Güvenlik için yeniden giriş yapıp tekrar deneyin.");
+      } else {
+        setPasswordErr(err?.message || "Şifre değiştirilemedi.");
+      }
+    } finally {
+      setPasswordBusy(false);
+    }
+  };
+
+  const handleSendPasswordReset = async () => {
+    setPasswordErr("");
+    setPasswordMsg("");
+    const email = auth?.currentUser?.email || profile?.email;
+    if (!email) {
+      setPasswordErr("Hesap e-postası bulunamadı.");
+      return;
+    }
+    try {
+      setResetBusy(true);
+      await requestPasswordReset(email);
+      setPasswordMsg(
+        `Sıfırlama bağlantısı ${email} adresine gönderildi. Gelen kutusu ve spam klasörünü kontrol edin.`
+      );
+    } catch (err) {
+      const code = err?.code || "";
+      if (code === "auth/too-many-requests") {
+        setPasswordErr("Çok fazla deneme. Bir süre sonra tekrar deneyin.");
+      } else {
+        setPasswordErr(err?.message || "Sıfırlama e-postası gönderilemedi.");
+      }
+    } finally {
+      setResetBusy(false);
+    }
+  };
 
   const handleLogout = async () => {
     try {
@@ -71,6 +240,48 @@ export default function ProfilePage() {
     } catch (e) {
       console.error(e);
       setIsLoggingOut(false);
+    }
+  };
+
+  const needsPasswordForDelete = () => {
+    const user = auth?.currentUser;
+    if (!user) return false;
+    return (user.providerData || []).some((p) => p.providerId === "password")
+      && !(user.providerData || []).some((p) => p.providerId === "google.com");
+  };
+
+  const handleDeleteAccount = async () => {
+    setDeleteError("");
+    if (!deleteAck) {
+      setDeleteError("Devam etmek için onayı işaretleyin.");
+      return;
+    }
+    try {
+      setIsDeletingAccount(true);
+      const opts = {};
+      if (needsPasswordForDelete()) {
+        if (!deletePassword) {
+          setDeleteError("E-posta hesabı için şifrenizi girin.");
+          setIsDeletingAccount(false);
+          return;
+        }
+        opts.password = deletePassword;
+      }
+      await deleteUserAccount(opts);
+      window.location.href = "/?account=deleted";
+    } catch (e) {
+      console.error(e);
+      const code = e?.code || e?.message || "";
+      if (code === "password-required" || String(code).includes("password-required")) {
+        setDeleteError("E-posta hesabı için şifrenizi girin.");
+      } else if (String(code).includes("recent-login") || String(e?.message || "").includes("recent-login")) {
+        setDeleteError("Güvenlik için yeniden giriş yapıp tekrar deneyin.");
+      } else if (String(code).includes("popup-closed") || String(code).includes("cancelled")) {
+        setDeleteError("Doğrulama iptal edildi.");
+      } else {
+        setDeleteError(e?.message || "Silme başarısız. info@memolandum.com");
+      }
+      setIsDeletingAccount(false);
     }
   };
 
@@ -97,11 +308,31 @@ export default function ProfilePage() {
       if (isAuthenticated && uid) {
         const userRef = doc(db, 'users', uid, 'stats', 'global');
         const unsub = onSnapshot(userRef, (docSnap) => {
-          if (docSnap.exists()) {
-            setGlobalStats(docSnap.data());
-          } else {
-            setGlobalStats(localStats);
-          }
+          const data = docSnap.exists() ? docSnap.data() : {};
+          const local = localStats || {};
+          const localBreakdown = local.game_breakdown || {};
+          const firestoreBreakdown = data.game_breakdown || {};
+
+          const mergedBreakdown = { ...localBreakdown };
+          Object.keys(firestoreBreakdown).forEach((gId) => {
+            const l = localBreakdown[gId] || { score: 0, xp: 0, gems: 0 };
+            const f = firestoreBreakdown[gId] || { score: 0, xp: 0, gems: 0 };
+            mergedBreakdown[gId] = {
+              score: Math.max(l.score || 0, f.score || 0),
+              xp: Math.max(l.xp || 0, f.xp || 0),
+              gems: Math.max(l.gems || 0, f.gems || 0),
+            };
+          });
+
+          const merged = {
+            total_score: Math.max(local.total_score || 0, Number(data.total_score) || 0),
+            total_xp: Math.max(local.total_xp || 0, Number(data.total_xp) || 0),
+            gems: Math.max(local.gems || 0, Number(data.gems) || 0),
+            level: Math.max(local.level || 1, Number(data.level) || 1),
+            game_breakdown: mergedBreakdown,
+          };
+
+          setGlobalStats(merged);
         }, (err) => {
           console.warn("Profile stats snapshot error:", err);
           setGlobalStats(localStats);
@@ -493,42 +724,261 @@ export default function ProfilePage() {
           </div>
         </section>
 
-        {/* Çıkış — bilerek gömülü; tek tıkta header'dan değil */}
+        {/* Bireysel Gelişim ve Öğrenme Grafikleri */}
+        <section className="profile-section">
+          <h2>📊 Bireysel Gelişim ve Öğrenme Analitiği</h2>
+          <p className="text-gray-400 text-sm mb-6">
+            Spaced Repetition (Aralıklı Tekrar) algoritması ve quiz pratik geçmişinize göre oluşan kişisel öğrenme profiliniz.
+          </p>
+
+          <div className="flex flex-col gap-6">
+            {/* 7-Günlük Pratik Aktivitesi */}
+            <RetroLineChart data={dailyHistory} />
+
+            {/* Donut & Bar Charts */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <RetroRadialChart stageCounts={stageCounts} />
+              <RetroBarChart stats={vaultStrengthStats} />
+            </div>
+          </div>
+        </section>
+
+        {/* Şifre & güvenlik */}
         {isAuthenticated && (
-          <section className="profile-section border border-white/5 opacity-80">
-            <h2 className="!text-slate-500 !text-sm">Hesap</h2>
-            <p className="text-slate-500 text-sm mb-4 leading-relaxed">
-              Oturumun bu cihazda kalıcıdır. Çıkış yaparsan XP, kasa ve ilerleme bulutta kalır;
-              yeniden giriş yapman gerekir.
-            </p>
-            {!showLogoutConfirm ? (
+          <section className="profile-section border border-violet-500/20 bg-slate-900/60 p-6 rounded-2xl">
+            <div className="border-b border-slate-800 pb-4 mb-4">
+              <h2 className="!text-violet-300 !text-base !font-extrabold flex items-center gap-2 m-0">
+                <span>🔐</span> ŞİFRE & GÜVENLİK
+              </h2>
+              <p className="text-gray-400 text-xs mt-1 leading-relaxed">
+                Şifre değiştirme Firebase Auth üzerinden yapılır; olay kaydı Firestore{" "}
+                <code className="text-violet-300/80">users/…/meta/security</code> altına yazılır.
+              </p>
+            </div>
+
+            {hasPasswordProvider ? (
+              <form onSubmit={handleChangePassword} className="space-y-3 max-w-md">
+                <p className="text-xs text-slate-400 mb-1">
+                  Oturum açıkken mevcut şifrenizle yeni şifre belirleyin.
+                </p>
+                <input
+                  type="password"
+                  autoComplete="current-password"
+                  placeholder="Mevcut şifre"
+                  value={currentPassword}
+                  onChange={(e) => setCurrentPassword(e.target.value)}
+                  className="w-full rounded-lg bg-slate-950 border border-white/10 px-3 py-2.5 text-sm text-white"
+                  required
+                />
+                <input
+                  type="password"
+                  autoComplete="new-password"
+                  placeholder="Yeni şifre (min. 6)"
+                  value={newPassword}
+                  onChange={(e) => setNewPassword(e.target.value)}
+                  className="w-full rounded-lg bg-slate-950 border border-white/10 px-3 py-2.5 text-sm text-white"
+                  required
+                  minLength={6}
+                />
+                <input
+                  type="password"
+                  autoComplete="new-password"
+                  placeholder="Yeni şifre (tekrar)"
+                  value={confirmNewPassword}
+                  onChange={(e) => setConfirmNewPassword(e.target.value)}
+                  className="w-full rounded-lg bg-slate-950 border border-white/10 px-3 py-2.5 text-sm text-white"
+                  required
+                  minLength={6}
+                />
+                <button
+                  type="submit"
+                  disabled={passwordBusy}
+                  className="px-5 py-2.5 bg-violet-600 hover:bg-violet-500 text-white font-bold rounded-xl text-xs transition-colors disabled:opacity-50"
+                >
+                  {passwordBusy ? "Güncelleniyor…" : "Şifreyi Değiştir"}
+                </button>
+              </form>
+            ) : (
+              <p className="text-sm text-slate-400 leading-relaxed mb-3">
+                Bu hesapta e-posta/şifre girişi yok
+                {auth?.currentUser?.providerData?.some((p) => p.providerId === "google.com")
+                  ? " (Google ile giriş)."
+                  : "."}{" "}
+                Şifre Google / Apple hesabınızdan yönetilir. İsterseniz yine de sıfırlama
+                e-postası deneyebilirsiniz (yalnızca e-posta/şifre bağlıysa işe yarar).
+              </p>
+            )}
+
+            <div className="mt-5 pt-4 border-t border-slate-800/80 space-y-3">
+              <p className="text-xs text-slate-500">
+                Şifrenizi unuttuysanız e-posta ile sıfırlama bağlantısı gönderin. Bağlantı{" "}
+                <span className="text-slate-400">/auth/action</span> sayfasında yeni şifre
+                belirlemenizi ister.
+              </p>
               <button
                 type="button"
-                onClick={() => setShowLogoutConfirm(true)}
-                className="text-xs text-slate-500 hover:text-slate-300 underline underline-offset-4 transition-colors"
+                disabled={resetBusy || !auth?.currentUser?.email}
+                onClick={handleSendPasswordReset}
+                className="px-5 py-2.5 bg-slate-800 hover:bg-slate-700 border border-violet-500/30 text-violet-200 font-bold rounded-xl text-xs transition-colors disabled:opacity-40"
               >
-                Bu cihazdan çıkış yap…
+                {resetBusy ? "Gönderiliyor…" : "Şifre sıfırlama e-postası gönder"}
+              </button>
+              {passwordMsg && (
+                <p className="text-xs text-emerald-300/90 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-3 py-2">
+                  {passwordMsg}
+                </p>
+              )}
+              {passwordErr && (
+                <p className="text-xs text-red-300 bg-red-500/10 border border-red-500/30 rounded-lg px-3 py-2">
+                  {passwordErr}
+                </p>
+              )}
+            </div>
+          </section>
+        )}
+
+        {/* Oturum & Çıkış Yap / Başka Profil Ekle */}
+        {isAuthenticated && (
+          <section className="profile-section border border-cyan-500/20 bg-slate-900/60 p-6 rounded-2xl mt-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 pb-4 mb-4">
+              <div>
+                <h2 className="!text-cyan-300 !text-base !font-extrabold flex items-center gap-2 m-0">
+                  <span>🔑</span> HESAP & PROFİL YÖNETİMİ
+                </h2>
+                <p className="text-gray-400 text-xs mt-1 leading-relaxed">
+                  Şu anda <strong className="text-white">{profile?.displayName || profile?.email}</strong> hesabıyla giriş yapılmış durumda. Başka bir profil ile girmek veya yeni bir hesap eklemek için çıkış yapabilirsiniz.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-3">
+              <button
+                type="button"
+                disabled={isLoggingOut}
+                onClick={handleLogout}
+                className="px-5 py-2.5 bg-gradient-to-r from-red-600 to-rose-700 hover:from-red-500 hover:to-rose-600 text-white font-bold rounded-xl text-xs shadow-md shadow-red-900/30 transition-all flex items-center gap-2 active:scale-95 cursor-pointer"
+              >
+                <span>🚪</span>
+                <span>{isLoggingOut ? "Çıkış Yapılıyor..." : "Güvenli Çıkış Yap"}</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={async () => {
+                  await handleLogout();
+                }}
+                className="px-5 py-2.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-cyan-300 font-bold rounded-xl text-xs transition-colors flex items-center gap-2 cursor-pointer"
+              >
+                <span>➕</span>
+                <span>Başka Bir Profil / Hesap Ekle</span>
+              </button>
+            </div>
+          </section>
+        )}
+
+        {/* Premium — öğrenme bedava, AI çeviri ücretli */}
+        <section className="profile-section border border-amber-500/20 mt-4">
+          <h2 className="!text-amber-200/90 !text-sm">Premium · AI çeviri</h2>
+          <p className="text-slate-400 text-sm mb-3 leading-relaxed">
+            <strong className="text-emerald-300/90">Tüm Oyunlar & Seviyeler Ücretsiz</strong>.
+            Gemini AI çeviri API maliyetli olduğu için üye hesabına özel ilk{" "}
+            <strong>{FREE_TRANSLATION_QUOTA}</strong> çeviri ücretsiz; sonrası Premium.
+          </p>
+          {isPremium ? (
+            <p className="text-amber-200 text-sm font-bold m-0">⭐ Premium aktif — AI çeviri fair-use kotanız açık.</p>
+          ) : (
+            <>
+              <p className="text-slate-500 text-xs mb-3">
+                Kalan ücretsiz çeviri:{" "}
+                <strong className="text-cyan-300">
+                  {remainingFreeTranslations(translationCount, isAuthenticated)}/{FREE_TRANSLATION_QUOTA}
+                </strong>
+                {" · "}
+                {PREMIUM_PRODUCT.try.label} / {PREMIUM_PRODUCT.usd.label}
+                {!PAYMENTS_LIVE && " · Shopier bağlantısı bekleniyor"}
+              </p>
+              <button
+                type="button"
+                onClick={() => setPremiumOpen(true)}
+                className="px-4 py-2 rounded-lg text-sm font-black bg-amber-500/20 text-amber-100 border border-amber-400/40 hover:bg-amber-500/30"
+              >
+                Premium’u incele
+              </button>
+            </>
+          )}
+        </section>
+
+        {/* Hesap silme — Privacy Policy / Play Store */}
+        {isAuthenticated && (
+          <section className="profile-section border border-red-500/10 mt-4">
+            <h2 className="!text-red-300/80 !text-sm">Tehlikeli bölge</h2>
+            <p className="text-slate-500 text-sm mb-4 leading-relaxed">
+              Hesabınızı kalıcı silmek; kelime kasası, XP, dil profilleri, liderlik kaydı ve
+              giriş bilginizi buluttan kaldırır. Bu işlem geri alınamaz.{" "}
+              <a href="/legal/privacy/" className="text-cyan-500/80 hover:text-cyan-400 underline">
+                Gizlilik Politikası
+              </a>
+            </p>
+            {!showDeleteConfirm ? (
+              <button
+                type="button"
+                onClick={() => {
+                  setShowDeleteConfirm(true);
+                  setDeleteError("");
+                  setDeleteAck(false);
+                  setDeletePassword("");
+                }}
+                className="text-xs text-red-400/80 hover:text-red-300 underline underline-offset-4 transition-colors"
+              >
+                Hesabımı kalıcı olarak sil…
               </button>
             ) : (
-              <div className="rounded-xl border border-red-500/20 bg-red-500/5 p-4 flex flex-col sm:flex-row sm:items-center gap-3">
-                <p className="text-sm text-red-200/90 flex-1">
-                  Emin misin? Tekrar girene kadar bu tarayıcıda misafir gibi görünürsün.
-                </p>
-                <div className="flex gap-2">
+              <div className="rounded-xl border border-red-500/30 bg-red-950/40 p-4 space-y-3">
+                <label className="flex items-start gap-2 text-sm text-red-100/90 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={deleteAck}
+                    onChange={(e) => setDeleteAck(e.target.checked)}
+                    className="mt-1"
+                  />
+                  <span>
+                    Anlıyorum: tüm bulut verim ve hesabım silinecek; bu geri alınamaz.
+                  </span>
+                </label>
+                {needsPasswordForDelete() && (
+                  <input
+                    type="password"
+                    autoComplete="current-password"
+                    placeholder="Hesap şifreniz"
+                    value={deletePassword}
+                    onChange={(e) => setDeletePassword(e.target.value)}
+                    className="w-full rounded-lg bg-slate-900 border border-white/10 px-3 py-2 text-sm text-white"
+                  />
+                )}
+                {!needsPasswordForDelete() && (
+                  <p className="text-xs text-slate-400">
+                    Google hesabı kullanıyorsanız onay penceresi açılacak (yeniden doğrulama).
+                  </p>
+                )}
+                {deleteError && (
+                  <p className="text-xs text-red-300">{deleteError}</p>
+                )}
+                <div className="flex flex-wrap gap-2">
                   <button
                     type="button"
-                    onClick={() => setShowLogoutConfirm(false)}
-                    className="px-3 py-2 rounded-lg text-sm font-bold bg-slate-700 text-white hover:bg-slate-600"
+                    onClick={() => setShowDeleteConfirm(false)}
+                    disabled={isDeletingAccount}
+                    className="px-3 py-2 rounded-lg text-sm font-bold bg-slate-700 text-white hover:bg-slate-600 disabled:opacity-50"
                   >
                     Vazgeç
                   </button>
                   <button
                     type="button"
-                    disabled={isLoggingOut}
-                    onClick={handleLogout}
-                    className="px-3 py-2 rounded-lg text-sm font-bold bg-red-600/80 text-white hover:bg-red-500 disabled:opacity-50"
+                    disabled={isDeletingAccount || !deleteAck}
+                    onClick={handleDeleteAccount}
+                    className="px-3 py-2 rounded-lg text-sm font-bold bg-red-600 text-white hover:bg-red-500 disabled:opacity-40"
                   >
-                    {isLoggingOut ? "…" : "Evet, çıkış yap"}
+                    {isDeletingAccount ? "Siliniyor…" : "Evet, hesabımı sil"}
                   </button>
                 </div>
               </div>
@@ -536,10 +986,25 @@ export default function ProfilePage() {
           </section>
         )}
 
+        <p className="text-center text-xs text-slate-600 mt-8 mb-2">
+          <a href="/legal/privacy/" className="text-slate-500 hover:text-cyan-400 mx-2">
+            Gizlilik
+          </a>
+          <span className="text-slate-700">·</span>
+          <a href="/legal/terms/" className="text-slate-500 hover:text-cyan-400 mx-2">
+            Koşullar
+          </a>
+          <span className="text-slate-700">·</span>
+          <a href="/legal/" className="text-slate-500 hover:text-cyan-400 mx-2">
+            Yasal
+          </a>
+        </p>
+
       </div>
 
       {/* Auth Modal for Guests */}
       <AuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} initialView="register" />
+      <PremiumCheckoutModal open={premiumOpen} onClose={() => setPremiumOpen(false)} />
 
       <style jsx>{`
         .profile-section { 

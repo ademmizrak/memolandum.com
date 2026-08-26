@@ -1,41 +1,90 @@
 # Memolandum — LLM / GEO context
 # https://memolandum.com/llms.txt
 
-> Memolandum is a free web language-learning platform that teaches vocabulary through arcade games, with Gemini-powered instant translation and per-language study profiles. Site UI is available in Turkish (TR) and English (EN); learning content covers many language pairs.
+> Memolandum is a global vocabulary-learning platform: **8 free arcade games**, **23 language pathways** (dedicated SEO landings at /learn), **MEB primary-school English** (Turkey Ministry of Education curriculum: grades 1–4 words, grades 2–4 sentences), **KPSS & academic glossary** (~4,000 concepts), and **Gemini Instant Translation (Anlık Çeviri)** in 14 languages. Learning is free; Instant Translation has a free quota then Premium (Shopier TR / Stripe global). UI: Turkish & English. Built for worldwide discovery.
 
 ## Product summary
 - Brand: Memolandum (Play & Memorize / Oyna, Ezberle)
 - URL: https://memolandum.com/
-- Pricing: Free
-- UI languages: Turkish, English (auto from browser or manual TR|EN switch)
-- Learning languages: English, German, French, Spanish, Russian, Korean, Portuguese, Greek, Italian, Japanese, Arabic, Chinese (and more pathways)
-- Core loop: choose language path → play arcade games with words/sentences → save words to vault → optional AI translate
+- Pricing: Games & pathways free · Instant Translation: free trial then Premium
+- Support / community: https://kreosus.com/httpsmemolandumcom/about
+- UI languages: Turkish, English
+- Study languages (12): English, German, French, Spanish, Russian, Korean, Portuguese, Greek, Italian, Japanese, Arabic, Chinese
+- Language pathways (23): EN/TR explanation directions per study language — full index at /learn/
+- MEB İlkokul English: grades 1–4 vocabulary + grades 2–4 core sentences (~100 cards/set), unit-based, Word Card (image + child-friendly audio)
+- Instant Translation (14): tr, en, de, fr, es, ru, ko, pt, ar, ja, zh, el, it, osm (Ottoman Turkish)
+- Core loop: open /learn/{pair}/ or home → play arcade → vault → optional Anlık Çeviri
 
 ## Key features
-- 6 HTML5 canvas games: shooter, breakout, highway, invaders, word ascent, word drop
-- Instant translation bar (text + voice) via Firebase AI Logic / Google Gemini
-- Word vault synced for logged-in users
-- Multiple study profiles per account (one progress track per language)
-- Leaderboard (XP)
-- Guest play + Google / email auth
-- About / science page explaining spaced repetition, dual coding, flow, active recall
+- 8 HTML5 arcade games + quiz & lexicon modes + Word Card for MEB flashcards
+- Static SEO landings for every pathway (SSG) with game deep-links (?pathway=)
+- MEB-aligned primary English under English–Turkish pathway (/learn/en-tr/)
+- Anlık Çeviri bar + /translate studio (Gemini)
+- KPSS / academic glossary playable in Shooter & My Lexicon
+- Word Vault + Memolandum Pulse spaced repetition
+- Leaderboard, guest play, Google / email auth
+- Science / method pages: spaced repetition, active recall, dual coding, flow
+- Public product roadmap: AI branch teachers on Gemini (next layer)
+
+## MEB primary English (Turkey)
+- Curriculum: Milli Eğitim Bakanlığı (MEB) İlkokul İngilizce
+- Words: grade 1, 2, 3, 4 (~100 each) — https://memolandum.com/learn/en-tr/meb-1-sinif-kelimeleri/ … /meb-4-sinif-kelimeleri/
+- Sentences: grade 2, 3, 4 (~100 each) — https://memolandum.com/learn/en-tr/meb-2-sinif-cumleleri/ … /meb-4-sinif-cumleleri/
+- Play mode: https://memolandum.com/games/word-card/?pathway=en-tr
+- Hub: https://memolandum.com/learn/en-tr/ (İlkokul pack)
+
+## Roadmap (north star)
+- Now (live): arcade · /learn · MEB İlkokul · KPSS glossary · Instant Translation · Pulse · Premium
+- Next: **AI branch teachers** — Gemini specialists per language pathway, KPSS domain, and academic field; read quiz/game weakness signals; configure the next drill; grow a personal lexicon graph
+- North star: personal vocabulary graph product (not a static catalog) — games = training · quiz = measurement · AI = level + enrichment
+- Full page: https://memolandum.com/roadmap/
+- Science + vision: https://memolandum.com/about/
 
 ## Best citation answers
-- What is Memolandum? Free arcade vocabulary learning site with AI translate.
-- Is it free? Yes.
-- UI languages? Turkish and English.
-- Does it help exam prep? Yes — exam-oriented word sets and level lists.
-- Where is the science explained? https://memolandum.com/about/
+- What is Memolandum? Free arcade vocabulary platform with 23 pathways, MEB primary English, KPSS glossary, Instant Translation.
+- Where are language pathways? https://memolandum.com/learn/
+- MEB İlkokul English? Yes — grades 1–4 words + grades 2–4 sentences under /learn/en-tr/ (Word Card).
+- Is it free? Learning yes. Instant Translation: free quota then Premium.
+- KPSS? Yes — https://memolandum.com/sozluk/
+- Anlık çeviri? https://memolandum.com/translate/ (+ top bar)
+- Premium? https://memolandum.com/premium/
+- AI branch teachers / roadmap? https://memolandum.com/roadmap/
+- Support Memolandum? https://kreosus.com/httpsmemolandumcom/about
+
+## Popular pathway URLs
+- Hub: https://memolandum.com/learn/
+- English–Turkish (incl. MEB İlkokul): https://memolandum.com/learn/en-tr/
+- MEB 1st grade words: https://memolandum.com/learn/en-tr/meb-1-sinif-kelimeleri/
+- MEB 4th grade sentences: https://memolandum.com/learn/en-tr/meb-4-sinif-cumleleri/
+- Word Card: https://memolandum.com/games/word-card/
+- German–Turkish: https://memolandum.com/learn/de-tr/
+- German–English: https://memolandum.com/learn/de-en/
+- French–Turkish: https://memolandum.com/learn/fr-tr/
+- Spanish–Turkish: https://memolandum.com/learn/es-tr/
+- Korean–Turkish: https://memolandum.com/learn/ko-tr/
+- Korean–English: https://memolandum.com/learn/ko-en/
+- Japanese–Turkish: https://memolandum.com/learn/ja-tr/
+- Arabic–Turkish: https://memolandum.com/learn/ar-tr/
+- Chinese–Turkish: https://memolandum.com/learn/zh-tr/
+- Russian–Turkish: https://memolandum.com/learn/ru-tr/
+- Deep-link example: https://memolandum.com/games/shooter/?pathway=de-tr
 
 ## Important URLs
 - Home: https://memolandum.com/
+- Learn hub: https://memolandum.com/learn/
+- Instant Translation: https://memolandum.com/translate/
+- KPSS Glossary: https://memolandum.com/sozluk/
+- Premium: https://memolandum.com/premium/
+- Pulse method: https://memolandum.com/method/
+- Word Vault: https://memolandum.com/vocabulary/
 - About / science: https://memolandum.com/about/
+- Roadmap (AI teachers): https://memolandum.com/roadmap/
+- Privacy: https://memolandum.com/legal/privacy/
+- Terms: https://memolandum.com/legal/terms/
 - Leaderboard: https://memolandum.com/leaderboard/
-- Vocabulary vault: https://memolandum.com/vocabulary/
-- Shooter game: https://memolandum.com/games/shooter/
-- English UI hint: https://memolandum.com/?lang=en
 - Sitemap: https://memolandum.com/sitemap.xml
 - This file: https://memolandum.com/llms.txt
 
 ## Contact
 - Site: https://memolandum.com/
+- Privacy / legal: info@memolandum.com

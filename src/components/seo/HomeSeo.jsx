@@ -40,7 +40,7 @@ export default function HomeSeo() {
       </h1>
       <p style={{ marginBottom: "1rem", maxWidth: "48rem" }}>
         {locale === "en"
-          ? "Learn vocabulary with arcade games, use Gemini-powered instant translation, and track progress with per-language study profiles — free on the web."
+          ? "23 language pathways at /learn — 8 arcade games free. KPSS & academic glossary (~4,000 concepts). Gemini Instant Translation in 14 languages. Spaced repetition. Start worldwide."
           : DEFAULT_DESCRIPTION}
       </p>
 
@@ -83,21 +83,57 @@ export default function HomeSeo() {
         <a href={absoluteUrl("/")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
           {t("seo.linkHome")}
         </a>
-        <a href={absoluteUrl("/leaderboard")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
-          {t("seo.linkBoard")}
+        <a href={absoluteUrl("/learn")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          {t("seo.linkLearn")}
+        </a>
+        <a href={absoluteUrl("/learn/en-tr/meb-1-sinif-kelimeleri")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          {t("seo.linkMeb")}
+        </a>
+        <a href={absoluteUrl("/games/word-card")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          {t("seo.linkWordCard")}
+        </a>
+        <a href={absoluteUrl("/games")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          Oyun Kabukları
+        </a>
+        <a href={absoluteUrl("/translate")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          {t("seo.linkTranslate")}
+        </a>
+        <a href={absoluteUrl("/sozluk")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          {t("seo.linkGlossary")}
         </a>
         <a href={absoluteUrl("/vocabulary")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
           {t("seo.linkVault")}
         </a>
+        <a href={absoluteUrl("/method")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          {t("seo.linkMethod")}
+        </a>
+        <a href={absoluteUrl("/leaderboard")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          {t("seo.linkBoard")}
+        </a>
         <a href={absoluteUrl("/games/shooter")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
           {t("seo.linkShooter")}
         </a>
-        <a href={absoluteUrl("/about")} style={{ color: "#22d3ee" }}>
+        <a href={absoluteUrl("/premium")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          {t("seo.linkPremium")}
+        </a>
+        <a href={absoluteUrl("/about")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
           {t("seo.linkAbout")}
+        </a>
+        <a href={absoluteUrl("/roadmap")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          Roadmap
+        </a>
+        <a href={absoluteUrl("/legal/privacy")} style={{ color: "#22d3ee", marginRight: "1rem" }}>
+          {t("seo.linkPrivacy")}
+        </a>
+        <a href={absoluteUrl("/legal/terms")} style={{ color: "#22d3ee" }}>
+          {t("seo.linkTerms")}
         </a>
       </nav>
       <p style={{ marginTop: "1rem", fontSize: "0.75rem", color: "#64748b" }}>
-        Memolandum · {SITE_URL} · UI: TR / EN
+        Memolandum · {SITE_URL} · 23 dil yolu · KPSS · Anlık Çeviri · AI roadmap · UI: TR / EN ·{" "}
+        <a href={absoluteUrl("/legal/")} style={{ color: "#64748b" }}>
+          {t("seo.linkLegal")}
+        </a>
       </p>
     </section>
   );

@@ -1,8 +1,16 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
-import { Volume2, Gamepad2, BookOpen, HelpCircle, Shield, Award, ArrowRight, Play, Home } from 'lucide-react';
+import { Volume2, Gamepad2, BookOpen, HelpCircle, Shield, Award, ArrowRight, Play, Home, Zap } from 'lucide-react';
+import { useMemolandumStore } from '../../../store/useMemolandumStore';
+import { resolveResumeContext } from '../../../lib/learning/studyContext';
+import {
+  saveQuizReturnContext,
+  readQuizReturnContext,
+  clearQuizReturnContext,
+  gameDisplayName,
+} from '../../../lib/learning/quizReturn';
 
 const GAMES_LIST = [
   { id: 'shooter', name: 'Retro Shooter', label: 'SHOOTER', color: 'text-cyan-400 border-cyan-500/30 hover:border-cyan-400' },
@@ -11,8 +19,93 @@ const GAMES_LIST = [
   { id: 'invaders', name: 'Siberian Invaders', label: 'INVADERS', color: 'text-purple-500 border-purple-500/30 hover:border-purple-500' },
   { id: 'wordascent', name: 'The Word Ascent', label: 'ASCENT', color: 'text-emerald-500 border-emerald-500/30 hover:border-emerald-500' },
   { id: 'worddrop', name: 'Reverse Word Drop', label: 'TETRIS', color: 'text-rose-500 border-rose-500/30 hover:border-rose-500' },
+  { id: 'lexicon', name: 'Lexicon Tokens', label: 'TOKENS', color: 'text-lime-400 border-lime-500/30 hover:border-lime-400' },
+  { id: 'hangman', name: 'Retro Hangman', label: 'HANGMAN', color: 'text-amber-400 border-amber-500/30 hover:border-amber-400' },
+  { id: 'word-snake', name: 'Retro Yılan', label: 'SNAKE', color: 'text-emerald-400 border-emerald-500/30 hover:border-emerald-400' },
   { id: 'quiz', name: 'Retro Quiz', label: 'QUIZ', color: 'text-amber-400 border-amber-500/30 hover:border-amber-400' }
 ];
+
+/**
+ * Anasayfadaki "Kaldığın yerden devam et" — Quiz overlay'lerinde.
+ * Önce Quiz'e gelmeden önceki arcade oyunu; yoksa store resume (quiz değilse).
+ */
+function ResumeWhereLeftOffButton({ levelId, langId }) {
+  const router = useRouter();
+  const setLastPlayed = useMemolandumStore((s) => s.setLastPlayed);
+  const lastPlayedLang = useMemolandumStore((s) => s.lastPlayedLang);
+  const lastPlayedLevel = useMemolandumStore((s) => s.lastPlayedLevel);
+  const lastPlayedGame = useMemolandumStore((s) => s.lastPlayedGame);
+  const lastPlayedAt = useMemolandumStore((s) => s.lastPlayedAt);
+
+  const resume = useMemo(
+    () =>
+      resolveResumeContext({
+        lastPlayedLang,
+        lastPlayedLevel,
+        lastPlayedGame,
+        lastPlayedAt,
+      }),
+    [lastPlayedLang, lastPlayedLevel, lastPlayedGame, lastPlayedAt]
+  );
+
+  const returnCtx = useMemo(() => readQuizReturnContext(), []);
+
+  const targetGame =
+    returnCtx?.gameId ||
+    (resume.gameId && resume.gameId !== 'quiz' ? resume.gameId : null);
+  const targetLevel = returnCtx?.levelId || resume.levelId || levelId;
+  const targetLang = returnCtx?.langId || resume.langId || langId;
+
+  const handleContinue = useCallback(() => {
+    if (!targetGame || !targetLevel || !targetLang) return;
+    setLastPlayed(targetLang, targetLevel, targetGame);
+    clearQuizReturnContext();
+    router.push(`/games/${targetGame}`);
+  }, [targetGame, targetLevel, targetLang, setLastPlayed, router]);
+
+  if (!targetGame || !targetLevel) return null;
+
+  const langLabel = resume.langName || targetLang;
+  const levelLabel = resume.levelName || targetLevel;
+  const gameLabel = gameDisplayName(targetGame);
+
+  return (
+    <div className="w-full bg-gradient-to-r from-slate-950 via-cyan-950/40 to-slate-950 border border-cyan-500/30 rounded-2xl p-3.5 flex flex-col gap-3 shadow-[0_0_20px_rgba(6,182,212,0.12)]">
+      <div className="flex items-center gap-3">
+        <div className="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 flex-shrink-0">
+          <Zap className="w-4 h-4 fill-cyan-400 text-cyan-400" />
+        </div>
+        <div className="min-w-0 text-left">
+          <span className="text-[9px] font-mono font-bold tracking-widest text-cyan-400 uppercase bg-cyan-950/60 border border-cyan-500/30 px-2 py-0.5 rounded-full">
+            KALDIĞIN YERDEN DEVAM ET
+          </span>
+          <h3 className="text-xs sm:text-sm font-bold text-gray-200 mt-1.5 truncate">
+            <span className="text-white font-extrabold">{langLabel}</span>
+            <span className="text-slate-500"> • </span>
+            <span className="text-cyan-300">{levelLabel}</span>
+          </h3>
+          <p className="text-[10px] font-mono text-violet-300/90 mt-0.5 truncate">
+            {gameLabel}
+          </p>
+        </div>
+      </div>
+      <button
+        type="button"
+        onClick={handleContinue}
+        className="w-full px-4 py-3 bg-slate-900 border-2 border-red-500/60 text-red-500 font-black text-xs rounded-xl hover:bg-slate-800 hover:border-red-500 hover:scale-[1.01] active:scale-95 transition-all shadow-[0_0_16px_rgba(239,68,68,0.25)] flex items-center justify-center gap-2"
+      >
+        <Play className="w-4 h-4 fill-red-500 text-red-500" />
+        <span className="tracking-wider uppercase">KALDIĞIN YERDEN DEVAM ET</span>
+      </button>
+    </div>
+  );
+}
+
+function rememberArcadeBeforeQuiz(fromGameType, levelId, langId, targetGameId) {
+  if (targetGameId === 'quiz' && fromGameType && fromGameType !== 'quiz') {
+    saveQuizReturnContext({ gameId: fromGameType, levelId, langId });
+  }
+}
 
 // Helper to pronounce a word
 const speakWord = (text, isAudioEnabled = true) => {
@@ -41,6 +134,8 @@ export const PauseScreen = ({
   // Mini quiz state
   const [quizQuestion, setQuizQuestion] = useState(null);
   const [selectedChoiceIdx, setSelectedChoiceIdx] = useState(null);
+  const [wrongChoiceIndices, setWrongChoiceIndices] = useState([]);
+  const [attempts, setAttempts] = useState(1);
   const [isQuizAnswered, setIsQuizAnswered] = useState(false);
   const [quizCorrect, setQuizCorrect] = useState(false);
   const [miniQuizScore, setMiniQuizScore] = useState(0);
@@ -70,23 +165,37 @@ export const PauseScreen = ({
         choices,
         correctAnswerIndex: choices.findIndex(c => c.isCorrect)
       });
+      setAttempts(1);
+      setWrongChoiceIndices([]);
+      setIsQuizAnswered(false);
+      setQuizCorrect(false);
     }
   }, [words]);
 
   const handleMiniQuizAnswer = (idx) => {
-    if (isQuizAnswered) return;
-    setIsQuizAnswered(true);
+    if (isQuizAnswered || wrongChoiceIndices.includes(idx)) return;
     setSelectedChoiceIdx(idx);
     const choice = quizQuestion.choices[idx];
+    const recordWordQuizResult = useMemolandumStore.getState().recordWordQuizResult;
     
     if (choice.isCorrect) {
+      setIsQuizAnswered(true);
       setQuizCorrect(true);
       setMiniQuizScore(50);
       speakWord(quizQuestion.wordObj.english, isAudioEnabled);
+
+      if (recordWordQuizResult && quizQuestion?.wordObj) {
+        recordWordQuizResult(quizQuestion.wordObj, true, 5, {
+          language: langId,
+          attempts,
+          gameId: currentGameType || 'quickquiz'
+        });
+      }
+
       // Trigger callback if defined
       if (onMiniQuizCorrect) onMiniQuizCorrect();
       
-      // Simple web audio pop/coin sound
+      // Web audio pop/coin sound
       try {
         const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
         const osc = audioCtx.createOscillator();
@@ -102,8 +211,19 @@ export const PauseScreen = ({
         osc.stop(audioCtx.currentTime + 0.25);
       } catch(e) {}
     } else {
-      setQuizCorrect(false);
-      // Simple web audio error sound
+      setWrongChoiceIndices(prev => [...prev, idx]);
+      const nextAttempts = attempts + 1;
+      setAttempts(nextAttempts);
+
+      if (recordWordQuizResult && quizQuestion?.wordObj) {
+        recordWordQuizResult(quizQuestion.wordObj, false, 5, {
+          language: langId,
+          attempts: nextAttempts,
+          gameId: currentGameType || 'quickquiz'
+        });
+      }
+
+      // Web audio error sound
       try {
         const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
         const osc = audioCtx.createOscillator();
@@ -122,6 +242,7 @@ export const PauseScreen = ({
 
   const handleSwitchGame = (gameId) => {
     if (gameId === currentGameType) return;
+    rememberArcadeBeforeQuiz(currentGameType, levelId, langId, gameId);
     router.push(`/games/${gameId}`);
   };
 
@@ -172,6 +293,9 @@ export const PauseScreen = ({
                 >
                   <Play className="w-4 h-4 fill-slate-950" /> DEVAM ET (P)
                 </button>
+                {currentGameType === 'quiz' && (
+                  <ResumeWhereLeftOffButton levelId={levelId} langId={langId} />
+                )}
                 <button 
                   onClick={onRestart}
                   className="w-full py-3 bg-slate-900 border border-slate-700 text-cyan-400 font-black text-sm rounded-xl hover:bg-slate-800 transition-colors"
@@ -184,12 +308,21 @@ export const PauseScreen = ({
                 >
                   <Home className="w-4 h-4" /> ANA PORTAL
                 </button>
+                <button 
+                  onClick={() => {
+                    useMemolandumStore.getState().clearActiveCustomWords();
+                    router.push('/vocabulary');
+                  }}
+                  className="w-full py-3 bg-gradient-to-r from-cyan-950 via-slate-900 to-slate-950 border border-cyan-500/50 text-cyan-300 font-bold text-sm rounded-xl hover:bg-cyan-900/30 hover:border-cyan-400 transition-all flex items-center justify-center gap-2 shadow-[0_0_12px_rgba(6,182,212,0.2)]"
+                >
+                  <BookOpen className="w-4 h-4 text-cyan-400" /> KELİME KASASINA DÖN
+                </button>
               </div>
 
               {/* Game Switcher */}
               <div className="border-t border-slate-800/80 pt-4">
-                <h3 className="text-xs font-mono font-bold text-cyan-500/70 tracking-widest uppercase mb-3 text-center">
-                  ARAYÜZ DEĞİŞTİR (GAME MODES)
+                <h3 className="text-xs font-mono font-bold text-cyan-400/80 tracking-widest uppercase mb-3 text-center">
+                  AYNI SEVİYEYİ BAŞKA OYUNLA DENE
                 </h3>
                 <div className="grid grid-cols-2 gap-2">
                   {GAMES_LIST.map((g) => {
@@ -229,8 +362,8 @@ export const PauseScreen = ({
                       className="p-3 bg-slate-900/60 border border-slate-800/80 rounded-xl flex items-center justify-between gap-3 hover:border-slate-700 transition-colors"
                     >
                       <div className="flex-1 min-w-0">
-                        <div className="text-cyan-400 font-bold text-sm truncate">{w.english}</div>
-                        <div className="text-gray-400 text-xs truncate mt-0.5">{w.turkish}</div>
+                        <div className="text-cyan-400 font-bold text-sm whitespace-normal break-words">{w.english}</div>
+                        <div className="text-gray-400 text-xs whitespace-normal break-words mt-0.5">{w.turkish}</div>
                         {w.romanized && (
                           <div className="text-gray-500 text-[10px] font-mono mt-0.5">[{w.romanized}]</div>
                         )}
@@ -279,24 +412,26 @@ export const PauseScreen = ({
                 {quizQuestion.choices.map((choice, i) => {
                   let btnClass = 'bg-slate-900/60 border-slate-800 text-gray-300 hover:border-amber-500/40 hover:bg-slate-800';
                   
-                  if (isQuizAnswered) {
+                  if (wrongChoiceIndices.includes(i)) {
+                    btnClass = 'bg-rose-950/40 border-rose-500/50 text-rose-400 line-through opacity-60 cursor-not-allowed';
+                  } else if (isQuizAnswered) {
                     if (choice.isCorrect) {
                       btnClass = 'bg-emerald-950/80 border-emerald-500 text-white shadow-[0_0_15px_rgba(16,185,129,0.3)] scale-[1.01]';
-                    } else if (i === selectedChoiceIdx) {
-                      btnClass = 'bg-rose-950/80 border-rose-500 text-white shadow-[0_0_15px_rgba(244,63,94,0.3)]';
                     } else {
                       btnClass = 'bg-slate-950/40 border-slate-900 text-gray-600 opacity-40 cursor-default';
                     }
                   }
 
+                  const isDisabled = isQuizAnswered || wrongChoiceIndices.includes(i);
+
                   return (
                     <button
                       key={i}
-                      disabled={isQuizAnswered}
+                      disabled={isDisabled}
                       onClick={() => handleMiniQuizAnswer(i)}
                       className={`w-full py-3 px-4 border-2 rounded-xl text-left font-bold text-sm md:text-base transition-all flex items-center justify-between ${btnClass}`}
                     >
-                      <span className="truncate pr-2">{choice.value}</span>
+                      <span className="whitespace-normal break-words pr-2">{choice.value}</span>
                       <span className="text-[10px] font-mono text-gray-500 bg-slate-950/30 px-1.5 py-0.5 rounded">
                         {i + 1}
                       </span>
@@ -358,6 +493,7 @@ export const GameOverScreen = ({
 
   const handleSwitchGame = (gameId) => {
     if (gameId === currentGameType) return;
+    rememberArcadeBeforeQuiz(currentGameType, levelId, langId, gameId);
     router.push(`/games/${gameId}`);
   };
 
@@ -408,11 +544,23 @@ export const GameOverScreen = ({
                 >
                   TEKRAR DENE
                 </button>
+                {currentGameType === 'quiz' && (
+                  <ResumeWhereLeftOffButton levelId={levelId} langId={langId} />
+                )}
                 <button 
                   onClick={onMainMenu}
                   className="w-full py-3 bg-slate-900 border border-slate-800 text-purple-400 hover:text-purple-300 font-bold text-sm rounded-xl hover:bg-slate-800/50 transition-colors flex items-center justify-center gap-2"
                 >
                   <Home className="w-4 h-4" /> ANA PORTAL
+                </button>
+                <button 
+                  onClick={() => {
+                    useMemolandumStore.getState().clearActiveCustomWords();
+                    router.push('/vocabulary');
+                  }}
+                  className="w-full py-3 bg-gradient-to-r from-red-950 via-slate-900 to-slate-950 border border-red-500/50 text-red-300 font-bold text-sm rounded-xl hover:bg-red-900/30 hover:border-red-400 transition-all flex items-center justify-center gap-2 shadow-[0_0_12px_rgba(239,68,68,0.2)]"
+                >
+                  <BookOpen className="w-4 h-4 text-red-400" /> KELİME KASASINA DÖN
                 </button>
               </div>
 
@@ -459,8 +607,8 @@ export const GameOverScreen = ({
                       className="p-3 bg-slate-900/60 border border-slate-800/80 rounded-xl flex items-center justify-between gap-3 hover:border-slate-700 transition-colors"
                     >
                       <div className="flex-1 min-w-0">
-                        <div className="text-red-400 font-bold text-sm truncate">{w.english}</div>
-                        <div className="text-gray-400 text-xs truncate mt-0.5">{w.turkish}</div>
+                        <div className="text-red-400 font-bold text-sm whitespace-normal break-words">{w.english}</div>
+                        <div className="text-gray-400 text-xs whitespace-normal break-words mt-0.5">{w.turkish}</div>
                         {w.romanized && (
                           <div className="text-gray-500 text-[10px] font-mono mt-0.5">[{w.romanized}]</div>
                         )}
@@ -497,6 +645,7 @@ export const VictoryScreen = ({
   score, 
   onNextLevel, 
   onMainMenu, 
+  onStartQuiz,
   words = [],
   levelId,
   langId,
@@ -508,7 +657,17 @@ export const VictoryScreen = ({
 
   const handleSwitchGame = (gameId) => {
     if (gameId === currentGameType) return;
+    rememberArcadeBeforeQuiz(currentGameType, levelId, langId, gameId);
     router.push(`/games/${gameId}`);
+  };
+
+  const handleStartQuiz = () => {
+    rememberArcadeBeforeQuiz(currentGameType, levelId, langId, 'quiz');
+    if (onStartQuiz) {
+      onStartQuiz();
+    } else {
+      router.push('/games/quiz');
+    }
   };
 
   return (
@@ -549,12 +708,26 @@ export const VictoryScreen = ({
 
               {/* Primary Actions */}
               <div className="flex flex-col gap-2.5">
+                {currentGameType !== 'quiz' && (
+                  <button 
+                    onClick={handleStartQuiz}
+                    className="w-full py-3 bg-gradient-to-r from-amber-500 to-yellow-600 text-slate-950 font-black text-sm rounded-xl hover:opacity-95 hover:scale-[1.01] active:scale-95 transition-all shadow-[0_0_15px_rgba(245,158,11,0.3)] flex items-center justify-center gap-2"
+                  >
+                    <Award className="w-4 h-4 fill-slate-950" /> PEKİŞTİRME QUIZ'İ (QUIZ)
+                  </button>
+                )}
+                {currentGameType === 'quiz' && (
+                  <ResumeWhereLeftOffButton levelId={levelId} langId={langId} />
+                )}
                 {onNextLevel && (
                   <button 
-                    onClick={onNextLevel}
-                    className="w-full py-3 bg-gradient-to-r from-green-500 to-emerald-600 text-slate-950 font-black text-sm rounded-xl hover:opacity-95 hover:scale-[1.01] active:scale-95 transition-all shadow-[0_0_15px_rgba(34,197,94,0.3)]"
+                    onClick={() => {
+                      useMemolandumStore.getState().clearActiveCustomWords();
+                      onNextLevel();
+                    }}
+                    className="w-full py-3 bg-gradient-to-r from-green-500 to-emerald-600 text-slate-950 font-black text-sm rounded-xl hover:opacity-95 hover:scale-[1.01] active:scale-95 transition-all shadow-[0_0_15px_rgba(34,197,94,0.3)] flex items-center justify-center gap-2"
                   >
-                    SONRAKİ SEKTÖR (LEVEL)
+                    <Play className="w-4 h-4 fill-slate-950" /> SONRAKİ SEKTÖR (LEVEL)
                   </button>
                 )}
                 <button 
@@ -562,6 +735,15 @@ export const VictoryScreen = ({
                   className="w-full py-3 bg-slate-900 border border-slate-800 text-purple-400 hover:text-purple-300 font-bold text-sm rounded-xl hover:bg-slate-800/50 transition-colors flex items-center justify-center gap-2"
                 >
                   <Home className="w-4 h-4" /> ANA PORTAL
+                </button>
+                <button 
+                  onClick={() => {
+                    useMemolandumStore.getState().clearActiveCustomWords();
+                    router.push('/vocabulary');
+                  }}
+                  className="w-full py-3 bg-gradient-to-r from-emerald-950 via-slate-900 to-slate-950 border border-emerald-500/50 text-emerald-300 font-bold text-sm rounded-xl hover:bg-emerald-900/30 hover:border-emerald-400 transition-all flex items-center justify-center gap-2 shadow-[0_0_12px_rgba(16,185,129,0.2)]"
+                >
+                  <BookOpen className="w-4 h-4 text-emerald-400" /> KELİME KASASINA DÖN
                 </button>
               </div>
 
@@ -608,8 +790,8 @@ export const VictoryScreen = ({
                       className="p-3 bg-slate-900/60 border border-slate-800/80 rounded-xl flex items-center justify-between gap-3 hover:border-slate-700 transition-colors"
                     >
                       <div className="flex-1 min-w-0">
-                        <div className="text-green-400 font-bold text-sm truncate">{w.english}</div>
-                        <div className="text-gray-400 text-xs truncate mt-0.5">{w.turkish}</div>
+                        <div className="text-green-400 font-bold text-sm whitespace-normal break-words">{w.english}</div>
+                        <div className="text-gray-400 text-xs whitespace-normal break-words mt-0.5">{w.turkish}</div>
                         {w.romanized && (
                           <div className="text-gray-500 text-[10px] font-mono mt-0.5">[{w.romanized}]</div>
                         )}

@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import { useMemolandumStore } from '../../../store/useMemolandumStore';
 
 /**
  * GameHeader - Universal responsive HUD for all games
@@ -28,15 +29,45 @@ import React from 'react';
 
 export function GameHeader({ children }) {
   return (
-    <div className="w-full max-w-[800px] mx-auto bg-gradient-to-b from-slate-900/95 to-slate-900/60 border-b border-white/10 pb-2 sm:px-4 sm:py-3 flex flex-row items-center justify-between shadow-lg rounded-b-lg sm:rounded-b-xl z-50 pointer-events-auto font-mono select-none overflow-hidden game-header-safe">
-      {children}
+    <div className="w-full max-w-[800px] mx-auto z-50 flex flex-col font-mono pointer-events-auto select-none">
+      {/* Memolandum Brand Strip */}
+      <div 
+        className="w-full bg-slate-950/90 border-x border-t border-white/10 px-3 sm:px-4 flex justify-between items-center rounded-t-lg sm:rounded-t-xl text-[9px] sm:text-[10px] uppercase font-bold tracking-[0.25em] text-slate-400"
+        style={{
+          paddingTop: 'calc(0.4rem + env(safe-area-inset-top, 0px))',
+          paddingBottom: '0.4rem'
+        }}
+      >
+        <div className="flex items-center gap-1.5">
+          <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse shadow-[0_0_8px_#22d3ee]"></span>
+          <a href="/" className="text-white font-black cursor-pointer hover:text-cyan-300 transition-colors duration-200" title="Ana Sayfaya Dön">
+            MEMOLANDUM
+          </a>
+          <span className="text-slate-500 font-medium hidden sm:inline">|</span>
+          <span className="text-cyan-400 font-semibold hidden sm:inline">ENTERPRISE SYSTEM</span>
+        </div>
+        <div className="text-slate-500 text-[8px] sm:text-[9px] tracking-[0.15em] font-medium">
+          SECURE PROTOCOL v3.0
+        </div>
+      </div>
+      
+      {/* Main Game Header */}
+      <div 
+        className="w-full bg-gradient-to-b from-slate-900/95 to-slate-900/60 border-x border-b border-white/10 px-1.5 py-1.5 sm:px-4 sm:py-3 flex flex-row items-center justify-between gap-1.5 shadow-lg rounded-b-lg sm:rounded-b-xl overflow-hidden"
+        style={{
+          paddingLeft: 'calc(0.5rem + env(safe-area-inset-left, 0px))',
+          paddingRight: 'calc(0.5rem + env(safe-area-inset-right, 0px))'
+        }}
+      >
+        {children}
+      </div>
     </div>
   );
 }
 
 GameHeader.Left = function GameHeaderLeft({ children }) {
   return (
-    <div className="flex items-center gap-1 sm:gap-4 overflow-x-auto no-scrollbar min-w-0 max-w-[45%] sm:max-w-none">
+    <div className="flex items-center gap-1 sm:gap-3 min-w-0 flex-1 overflow-hidden">
       {children}
     </div>
   );
@@ -44,7 +75,7 @@ GameHeader.Left = function GameHeaderLeft({ children }) {
 
 GameHeader.Right = function GameHeaderRight({ children }) {
   return (
-    <div className="flex items-center gap-1 sm:gap-4 shrink-0">
+    <div className="flex items-center gap-1 sm:gap-3 shrink-0 max-w-[58%] sm:max-w-none overflow-hidden justify-end">
       {children}
     </div>
   );
@@ -74,6 +105,23 @@ GameHeader.Shields = function GameHeaderShields({ max = 3, current = 0, customId
 };
 
 GameHeader.Stage = function GameHeaderStage({ value, max, label = "STAGE", icon = "🚀", customIdValues = {} }) {
+  const activeCustomWords = useMemolandumStore((s) => s.activeCustomWords);
+  const isCustomLevel = Array.isArray(activeCustomWords) && activeCustomWords.length > 0;
+
+  if (isCustomLevel) {
+    return (
+      <div className="flex items-center gap-1 sm:gap-2 bg-emerald-950/80 border border-emerald-400/80 rounded-lg px-2 py-0.5 sm:px-3 sm:py-1.5 shadow-[0_0_20px_rgba(16,185,129,0.5)] animate-pulse">
+        <span className="text-xs sm:text-lg drop-shadow-[0_0_8px_#34d399]">⭐</span>
+        <div className="flex flex-col">
+          <span className="text-[8px] sm:text-[9px] text-emerald-400 font-black tracking-wider hidden sm:block">KASA SEVİYESİ</span>
+          <span className="text-[10px] sm:text-xs font-black text-emerald-200 leading-none mt-0 sm:mt-0.5 tracking-wider uppercase">
+            ÖZEL SEVİYE ({activeCustomWords.length})
+          </span>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="flex items-center gap-1 sm:gap-2 bg-slate-800/80 border border-white/10 rounded-lg px-1 py-0.5 sm:px-3 sm:py-1.5 shadow-[inset_0_0_8px_rgba(0,0,0,0.6)]">
       <span className="text-xs sm:text-xl drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">{icon}</span>

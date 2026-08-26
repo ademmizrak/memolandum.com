@@ -6,11 +6,72 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**",
-      "data/**"
+      "data/**",
+      "**/sozluk/*/*/index.html",
+      "**/sozluk/*/*/__next.*",
+      "**/sozluk/*/*/*.txt",
+      "assets/audio/**",
+      "assets/words/**",
+      "assets/sentences/**",
+      "assets/_slim_skip_*/**",
+      "_slim_skip_data/**",
+      "data/**/audio*/**",
+      "data/**/Audio/**",
+      "data/**/Audio_*/**",
+      "data/**/*_deploy_skip_audio/**",
+      "**/*.mp3",
+      "**/*.wav",
+      "**/*.ogg",
+      "data/**/_archive*/**"
     ],
     "headers": [
       {
-        "source": "**/*.@(js|css|html)",
+        "source": "/_next/static/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "/learn",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0, s-maxage=86400, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "/learn/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0, s-maxage=86400, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "/sozluk",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0, s-maxage=86400, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "/sozluk/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0, s-maxage=86400, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "**",
         "headers": [
           {
             "key": "Cache-Control",
@@ -19,7 +80,68 @@
         ]
       }
     ],
+    "redirects": [
+      {
+        "source": "/learn/en-tr/ingilizce-i-lkokul-ilkokul-1-sinif-kelimeleri{,/**}",
+        "destination": "/learn/en-tr/meb-1-sinif-kelimeleri/",
+        "type": 301
+      },
+      {
+        "source": "/learn/en-tr/ingilizce-i-lkokul-ilkokul-2-sinif-kelimeleri{,/**}",
+        "destination": "/learn/en-tr/meb-2-sinif-kelimeleri/",
+        "type": 301
+      },
+      {
+        "source": "/learn/en-tr/ingilizce-i-lkokul-ilkokul-3-sinif-kelimeleri{,/**}",
+        "destination": "/learn/en-tr/meb-3-sinif-kelimeleri/",
+        "type": 301
+      },
+      {
+        "source": "/learn/en-tr/ingilizce-i-lkokul-ilkokul-4-sinif-kelimeleri{,/**}",
+        "destination": "/learn/en-tr/meb-4-sinif-kelimeleri/",
+        "type": 301
+      },
+      {
+        "source": "/learn/en-tr/ingilizce-i-lkokul-ilkokul-2-sinif-cumleleri{,/**}",
+        "destination": "/learn/en-tr/meb-2-sinif-cumleleri/",
+        "type": 301
+      },
+      {
+        "source": "/learn/en-tr/ingilizce-i-lkokul-ilkokul-3-sinif-cumleleri{,/**}",
+        "destination": "/learn/en-tr/meb-3-sinif-cumleleri/",
+        "type": 301
+      },
+      {
+        "source": "/learn/en-tr/ingilizce-i-lkokul-ilkokul-4-sinif-cumleleri{,/**}",
+        "destination": "/learn/en-tr/meb-4-sinif-cumleleri/",
+        "type": 301
+      }
+    ],
     "rewrites": [
+      {
+        "source": "/sozluk/*/*",
+        "destination": "/sozluk/_concept/index.html"
+      },
+      {
+        "source": "/sozluk/*/*/**",
+        "destination": "/sozluk/_concept/index.html"
+      },
+      {
+        "source": "/games/__next.games.__PAGE__.txt",
+        "destination": "/games/__next.games/__PAGE__.txt"
+      },
+      {
+        "source": "/roadmap/__next.roadmap.__PAGE__.txt",
+        "destination": "/roadmap/__next.roadmap/__PAGE__.txt"
+      },
+      {
+        "source": "/learn/__next.learn.__PAGE__.txt",
+        "destination": "/learn/__next.learn/__PAGE__.txt"
+      },
+      {
+        "source": "/sozluk/__next.sozluk.__PAGE__.txt",
+        "destination": "/sozluk/__next.sozluk/__PAGE__.txt"
+      },
       {
         "source": "/leaderboard/__next.leaderboard.__PAGE__.txt",
         "destination": "/leaderboard/__next.leaderboard/__PAGE__.txt"
@@ -31,6 +153,38 @@
       {
         "source": "/vocabulary/__next.vocabulary.__PAGE__.txt",
         "destination": "/vocabulary/__next.vocabulary/__PAGE__.txt"
+      },
+      {
+        "source": "/my-lexicon/__next.my-lexicon.__PAGE__.txt",
+        "destination": "/my-lexicon/__next.my-lexicon/__PAGE__.txt"
+      },
+      {
+        "source": "/premium/__next.premium.__PAGE__.txt",
+        "destination": "/premium/__next.premium/__PAGE__.txt"
+      },
+      {
+        "source": "/translate/__next.translate.__PAGE__.txt",
+        "destination": "/translate/__next.translate/__PAGE__.txt"
+      },
+      {
+        "source": "/method/__next.method.__PAGE__.txt",
+        "destination": "/method/__next.method/__PAGE__.txt"
+      },
+      {
+        "source": "/about/__next.about.__PAGE__.txt",
+        "destination": "/about/__next.about/__PAGE__.txt"
+      },
+      {
+        "source": "/legal/__next.legal.__PAGE__.txt",
+        "destination": "/legal/__next.legal/__PAGE__.txt"
+      },
+      {
+        "source": "/legal/privacy/__next.privacy.__PAGE__.txt",
+        "destination": "/legal/privacy/__next.privacy/__PAGE__.txt"
+      },
+      {
+        "source": "/legal/terms/__next.terms.__PAGE__.txt",
+        "destination": "/legal/terms/__next.terms/__PAGE__.txt"
       },
       {
         "source": "/_not-found/__next._not-found.__PAGE__.txt",

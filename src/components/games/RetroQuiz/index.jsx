@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { useLessonLoader } from '../../../hooks/useLessonLoader';
+import { useMemolandumStore } from '../../../store/useMemolandumStore';
 import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
 import { GameHeader } from '../shared/GameHeader';
 import { SoundManager } from '../../../engines/soundManager';
@@ -18,7 +19,8 @@ export default function RetroQuiz({
   isFxEnabled,
   setIsFxEnabled
 }) {
-  const { words, isLoading } = useLessonLoader(levelId, langId);
+  const { words, isLoading, reload } = useLessonLoader(levelId, langId);
+  const recordWordQuizResult = useMemolandumStore(state => state.recordWordQuizResult);
   const [activeScreen, setActiveScreen] = useState('playing'); // playing, paused, gameover, victory
   
   // Game metrics (state for UI/Header)
@@ -27,9 +29,11 @@ export default function RetroQuiz({
   const [questionIndex, setQuestionIndex] = useState(0);
   const [totalQuestions, setTotalQuestions] = useState(10);
   const [combo, setCombo] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(10);
+  const [timeLeft, setTimeLeft] = useState(20);
   const [hintUsedForQuestion, setHintUsedForQuestion] = useState(false);
   const [learnedWords, setLearnedWords] = useState([]);
+  /** Doğru cevap sonrası kelime çifti — okuma süresi için HUD'da tutulur */
+  const [answerReveal, setAnswerReveal] = useState(null);
 
   // Canvas Refs & Game States
   const canvasRef = useRef(null);
@@ -46,7 +50,7 @@ export default function RetroQuiz({
     totalQuestions: 10,
     combo: 0,
     currentQuestion: null,
-    timeRemaining: 10.0,
+    timeRemaining: 20.0,
     hintUsed: false,
     learnedWords: [],
     wordsList: [],
@@ -75,6 +79,7 @@ export default function RetroQuiz({
     lasers: [],
     targets: [],
     particles: [],
+    floatingTexts: [],
     stars: [],
     dangerZoneY: 0,
     spawnY: 100,
@@ -170,16 +175,24 @@ export default function RetroQuiz({
       choices: choicesList,
       correctAnswerIndex: correctIdx,
       targetType,
-      romanization
+      romanization,
+      attempts: 1
     };
 
     stateRef.current.currentQuestion = question;
-    stateRef.current.timeRemaining = 10.0;
+    stateRef.current.timeRemaining = 20.0;
     stateRef.current.hintUsed = false;
     stateRef.current.transitioning = false;
 
-    setTimeLeft(10);
+    // Reset input firing states on new question to prevent auto-firing loops
+    entitiesRef.current.isPointerDown = false;
+    if (keysPressedRef.current) {
+      keysPressedRef.current.shoot = false;
+    }
+
+    setTimeLeft(20);
     setHintUsedForQuestion(false);
+    setAnswerReveal(null);
 
     // Canvas targets setup
     const canvas = canvasRef.current;
@@ -195,25 +208,25 @@ export default function RetroQuiz({
       height: 42,
       active: true,
       isHit: false,
+      isWarping: false,
+      warpScaleY: 1.0,
+      warpAlpha: 1.0,
+      hitsCount: 0, // Wrong choices require 3 hits to explode
+      maxHits: choice.isCorrect ? 1 : 3,
       hitAnimationTimer: 0
     }));
   }, []);
 
-  // Initialize Lesson Words
+  // Update wordsList when loaded from useLessonLoader
   useEffect(() => {
-    if (!isLoading && words && words.length > 0) {
-      const qCount = Math.min(10, words.length);
+    if (words && words.length > 0) {
+      stateRef.current.wordsList = words;
+      const qCount = Math.min(12, words.length);
       setTotalQuestions(qCount);
       stateRef.current.totalQuestions = qCount;
-      stateRef.current.wordsList = words;
-      setQuestionIndex(0);
-      setScore(0);
-      setShields(3);
-      setLearnedWords([]);
-      
       generateQuestion(0, words);
     }
-  }, [isLoading, words, generateQuestion]);
+  }, [words, generateQuestion]);
 
   // Clean timeouts on unmount
   useEffect(() => {
@@ -223,41 +236,45 @@ export default function RetroQuiz({
   }, []);
 
   // Spawn retro neon particles
-  const spawnParticles = (x, y, count = 15, isGreen = true) => {
+  const spawnParticles = (x, y, count, isSuccess = true) => {
     const particles = entitiesRef.current.particles;
-    const colors = isGreen 
-      ? ['#10b981', '#34d399', '#059669', '#6ee7b7', '#a7f3d0'] // Emerald theme
-      : ['#f43f5e', '#fb7185', '#e11d48', '#fda4af', '#fecdd3']; // Rose theme
-      
+    const colors = isSuccess 
+      ? ['#10b981', '#34d399', '#6ee7b7', '#fef08a'] 
+      : ['#ef4444', '#f87171', '#fca5a5', '#fdba74'];
+
     for (let i = 0; i < count; i++) {
       const angle = Math.random() * Math.PI * 2;
-      const speed = 1.5 + Math.random() * 4.5;
+      const speed = 1 + Math.random() * 4.5;
       particles.push({
         x,
         y,
         vx: Math.cos(angle) * speed,
         vy: Math.sin(angle) * speed,
+        size: 2 + Math.random() * 3,
         color: colors[Math.floor(Math.random() * colors.length)],
-        size: 2.5 + Math.random() * 3.5,
-        alpha: 1.0,
-        decay: 0.02 + Math.random() * 0.02
+        alpha: 1,
+        decay: 0.05
       });
     }
   };
 
-  // Spark/laser flash effect
-  const spawnLaserSpark = (x, y) => {
+  // Spawn dramatic green neon Star Wars hyperdrive particle burst on correct answer hit
+  const spawnStarWarsParticles = (x, y) => {
     const particles = entitiesRef.current.particles;
-    for (let i = 0; i < 4; i++) {
+    const colors = ['#10b981', '#34d399', '#6ee7b7', '#059669', '#a7f3d0', '#fef08a', '#ffffff'];
+
+    for (let i = 0; i < 55; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const speed = 4.5 + Math.random() * 10; // High speed hyperdrive beams
       particles.push({
         x,
         y,
-        vx: (Math.random() - 0.5) * 3,
-        vy: (Math.random() - 0.5) * 3,
-        color: '#22d3ee',
-        size: 1.5,
-        alpha: 0.8,
-        decay: 0.05
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed,
+        size: 2.5 + Math.random() * 4,
+        color: colors[Math.floor(Math.random() * colors.length)],
+        alpha: 1,
+        decay: 0.035
       });
     }
   };
@@ -277,15 +294,24 @@ export default function RetroQuiz({
   };
 
   // Trigger correct answer transition
-  const handleCorrectAnswer = (hitX, hitY) => {
+  const handleCorrectAnswer = (hitX, hitY, hitTarget) => {
     if (stateRef.current.transitioning) return;
     stateRef.current.transitioning = true;
-    entitiesRef.current.flashGreenTimer = 15;
-    entitiesRef.current.successTextTimer = 60;
+    entitiesRef.current.isPointerDown = false;
+    if (keysPressedRef.current) keysPressedRef.current.shoot = false;
+
+    // Trigger Star Wars hyperdrive warp exit on hit target
+    if (hitTarget) {
+      hitTarget.isWarping = true;
+      hitTarget.warpScaleY = 1.0;
+      hitTarget.warpAlpha = 1.0;
+    }
     
     // Add points
     const basePoints = 100;
-    const timeBonus = Math.floor(stateRef.current.timeRemaining * 10);
+    const timeRemaining = stateRef.current.timeRemaining;
+    const responseTimeSec = Math.max(0, 20 - timeRemaining);
+    const timeBonus = Math.floor(timeRemaining * 10);
     const comboBonus = stateRef.current.combo * 15;
     const totalGained = basePoints + timeBonus + comboBonus;
 
@@ -296,19 +322,55 @@ export default function RetroQuiz({
       soundManagerRef.current.playCoinCollect();
     }
 
-    // Add to vocabulary list
+    // Add to vocabulary list & store AI metric update
     const currentQ = stateRef.current.currentQuestion;
-    if (currentQ) {
-      const pair = `${currentQ.wordObj.english}: ${currentQ.wordObj.turkish}`;
-      setLearnedWords(prev => {
-        if (!prev.includes(pair)) return [...prev, pair];
-        return prev;
+    if (currentQ && currentQ.wordObj) {
+      const qText = currentQ.questionText.toUpperCase();
+      const aText = (currentQ.choices[currentQ.correctAnswerIndex]?.value || "").toUpperCase();
+      const fullPair = `${qText} = ${aText}`;
+
+      // Yavaş yükselen / yavaş sönen metin — kullanıcı okuyabilsin
+      entitiesRef.current.floatingTexts.push({
+        x: hitX,
+        y: hitY - 10,
+        text: `✓ ${fullPair}`,
+        subText: `+${totalGained}`,
+        vy: -0.42,
+        alpha: 1.0,
+        hold: 75, // ~1.25 sn tam opak
+        decay: 0.006,
+        color: '#34d399'
       });
+
+      setAnswerReveal({
+        english: currentQ.wordObj.english,
+        turkish: currentQ.wordObj.turkish,
+        romanization: currentQ.wordObj.romanized || currentQ.romanization || '',
+        points: totalGained
+      });
+
+      const isCorrectFirstTry = currentQ.attempts === 1;
+      setLearnedWords(prev => {
+        if (prev.some(w => w.english === currentQ.wordObj.english)) return prev;
+        return [...prev, {
+          english: currentQ.wordObj.english,
+          turkish: currentQ.wordObj.turkish,
+          isCorrect: isCorrectFirstTry
+        }];
+      });
+      if (recordWordQuizResult) {
+        recordWordQuizResult(currentQ.wordObj, true, responseTimeSec, { 
+          language: langId, 
+          attempts: currentQ.attempts || 1,
+          gameId: 'quiz'
+        });
+      }
       playPronunciation(currentQ.wordObj);
     }
 
-    // Advance next question
+    // Kelimeyi okumak için yeterli süre (warp + okuma)
     nextQuestionTimeoutRef.current = setTimeout(() => {
+      setAnswerReveal(null);
       setQuestionIndex(prevIdx => {
         const nextIdx = prevIdx + 1;
         if (nextIdx >= stateRef.current.totalQuestions) {
@@ -319,13 +381,40 @@ export default function RetroQuiz({
         }
         return nextIdx;
       });
-    }, 1200);
+    }, 2600);
   };
 
   // Trigger incorrect answer impact
   const handleIncorrectAnswer = () => {
     entitiesRef.current.flashRedTimer = 18;
+    entitiesRef.current.isPointerDown = false;
+    if (keysPressedRef.current) keysPressedRef.current.shoot = false;
     setCombo(0);
+
+    const currentQ = stateRef.current.currentQuestion;
+    if (currentQ) {
+      currentQ.attempts = (currentQ.attempts || 1) + 1;
+    }
+    if (currentQ && currentQ.wordObj && recordWordQuizResult) {
+      recordWordQuizResult(currentQ.wordObj, false, 10, { 
+        language: langId, 
+        attempts: currentQ?.attempts || 2,
+        gameId: 'quiz'
+      });
+    }
+
+    if (currentQ && currentQ.wordObj) {
+      setLearnedWords(prev => {
+        if (prev.some(w => w.english === currentQ.wordObj.english)) {
+          return prev.map(w => w.english === currentQ.wordObj.english ? { ...w, isCorrect: false } : w);
+        }
+        return [...prev, {
+          english: currentQ.wordObj.english,
+          turkish: currentQ.wordObj.turkish,
+          isCorrect: false
+        }];
+      });
+    }
 
     if (soundManagerRef.current) {
       soundManagerRef.current.playDamage();
@@ -347,8 +436,34 @@ export default function RetroQuiz({
   const handleTimeout = () => {
     if (stateRef.current.transitioning) return;
     stateRef.current.transitioning = true;
+    entitiesRef.current.isPointerDown = false;
+    if (keysPressedRef.current) keysPressedRef.current.shoot = false;
+
     entitiesRef.current.flashRedTimer = 25;
     setCombo(0);
+
+    const currentQ = stateRef.current.currentQuestion;
+    if (currentQ) {
+      currentQ.attempts = (currentQ.attempts || 1) + 1;
+    }
+    if (currentQ && currentQ.wordObj && recordWordQuizResult) {
+      recordWordQuizResult(currentQ.wordObj, false, 10, { 
+        language: langId, 
+        attempts: currentQ?.attempts || 2,
+        gameId: 'quiz'
+      });
+    }
+
+    if (currentQ && currentQ.wordObj) {
+      setLearnedWords(prev => {
+        if (prev.some(w => w.english === currentQ.wordObj.english)) return prev;
+        return [...prev, {
+          english: currentQ.wordObj.english,
+          turkish: currentQ.wordObj.turkish,
+          isCorrect: false
+        }];
+      });
+    }
 
     if (soundManagerRef.current) {
       soundManagerRef.current.playDamage();
@@ -381,7 +496,7 @@ export default function RetroQuiz({
             }
             return nextIdx;
           });
-        }, 1500);
+        }, 1200);
       }
       return nextShields;
     });
@@ -523,9 +638,9 @@ export default function RetroQuiz({
         ship.x += (ship.targetX - ship.x) * 0.28;
         ship.x = Math.max(25, Math.min(canvas.width - 25, ship.x));
 
-        // 3. Firing trigger (Only when holding touch/click or Space/Up key, every 300ms)
+        // 3. Firing trigger (Only when pressing Space/Up key or FIRE button)
         const now = Date.now();
-        const wantsToShoot = entities.isPointerDown || keys.shoot;
+        const wantsToShoot = keys.shoot;
         if (!state.transitioning && wantsToShoot && now - entities.lastShootTime > 300) {
           spawnLaser();
           entities.lastShootTime = now;
@@ -544,11 +659,10 @@ export default function RetroQuiz({
         for (let i = entities.lasers.length - 1; i >= 0; i--) {
           const l = entities.lasers[i];
           l.y += l.vy;
-
           let hit = false;
           for (let j = 0; j < entities.targets.length; j++) {
             const t = entities.targets[j];
-            if (t.active && !t.isHit && !state.transitioning) {
+            if (t.active && !state.transitioning) {
               const left = t.x - t.width / 2;
               const right = t.x + t.width / 2;
               const top = t.y - t.height / 2;
@@ -556,18 +670,27 @@ export default function RetroQuiz({
 
               if (l.x >= left && l.x <= right && l.y >= top && l.y <= bottom) {
                 hit = true;
+                t.hitsCount = (t.hitsCount || 0) + 1;
                 t.isHit = true;
                 t.hitAnimationTimer = 18; // Frames of flash
                 
                 if (t.isCorrect) {
-                  // Correct Choice hit!
-                  spawnParticles(t.x, t.y, 25, true);
-                  handleCorrectAnswer(t.x, t.y);
+                  // Correct Choice hit! Trigger Star Wars hyperdrive warp exit on target!
+                  spawnStarWarsParticles(t.x, t.y);
+                  handleCorrectAnswer(t.x, t.y, t);
                 } else {
-                  // Wrong Choice hit!
-                  spawnParticles(t.x, t.y, 15, false);
-                  t.active = false;
-                  handleIncorrectAnswer();
+                  // Wrong Choice hit! Requires 3 hits to explode
+                  if (t.hitsCount >= t.maxHits) {
+                    spawnParticles(t.x, t.y, 25, false);
+                    t.active = false;
+                    handleIncorrectAnswer();
+                  } else {
+                    // Small impact spark on 1st & 2nd hit
+                    spawnParticles(t.x, t.y, 10, false);
+                    if (soundManagerRef.current) {
+                      soundManagerRef.current.playDamage();
+                    }
+                  }
                 }
                 break; // Stop checking other targets for this laser
               }
@@ -579,11 +702,11 @@ export default function RetroQuiz({
           }
         }
 
-        // 6. Update Targets y-coordinates in sync with Timer
+        // 6. Update Targets y-coordinates in sync with 20s Timer (30% slower pace)
         if (!state.transitioning && state.currentQuestion) {
           const spawnY = entities.spawnY;
           const limitY = entities.dangerZoneY;
-          const progress = 1.0 - (state.timeRemaining / 10.0); // 0 to 1
+          const progress = 1.0 - (state.timeRemaining / 20.0); // 0 to 1 over 20 seconds
           const currentY = spawnY + progress * (limitY - spawnY);
 
           entities.targets.forEach(t => {
@@ -592,6 +715,18 @@ export default function RetroQuiz({
             }
           });
         }
+
+        // Update warping targets — biraz daha yavaş çıkış (kelime okunabilsin)
+        entities.targets.forEach(t => {
+          if (t.active && t.isWarping) {
+            t.warpScaleY = (t.warpScaleY || 1.0) + 0.18;
+            t.y -= 7;
+            t.warpAlpha = Math.max(0, (t.warpAlpha || 1.0) - 0.022);
+            if (t.warpAlpha <= 0) {
+              t.active = false;
+            }
+          }
+        });
 
         // 7. Update Particles (Safe backward loop)
         for (let i = entities.particles.length - 1; i >= 0; i--) {
@@ -604,19 +739,30 @@ export default function RetroQuiz({
           }
         }
 
-        // 8. Timers decay
-        if (entities.flashRedTimer > 0) entities.flashRedTimer--;
-        if (entities.flashGreenTimer > 0) entities.flashGreenTimer--;
-        if (entities.successTextTimer > 0) entities.successTextTimer--;
+        // 8. Floating kelime metni — hold sonra yavaş fade
+        for (let i = entities.floatingTexts.length - 1; i >= 0; i--) {
+          const ft = entities.floatingTexts[i];
+          ft.y += ft.vy;
+          if (ft.hold > 0) {
+            ft.hold -= 1;
+          } else {
+            ft.alpha -= ft.decay != null ? ft.decay : 0.006;
+          }
+          if (ft.alpha <= 0) {
+            entities.floatingTexts.splice(i, 1);
+          }
+        }
 
-        // --- RENDERING ---
+        // --- RENDER PHASE ---
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
         // 1. Draw Starfield
         ctx.fillStyle = '#ffffff';
         entities.stars.forEach(s => {
-          ctx.globalAlpha = s.speed / 1.5;
-          ctx.fillRect(s.x, s.y, s.size, s.size);
+          ctx.globalAlpha = 0.2 + (s.size / 2) * 0.5;
+          ctx.beginPath();
+          ctx.arc(s.x, s.y, s.size, 0, Math.PI * 2);
+          ctx.fill();
         });
         ctx.globalAlpha = 1.0;
 
@@ -653,7 +799,7 @@ export default function RetroQuiz({
           ctx.restore();
         });
 
-        // 4. Draw Targets (Option Boxes)
+        // 4. Draw Targets (Option Boxes) with Progressive Red Color on Hits & Star Wars Warp Exit
         entities.targets.forEach(t => {
           if (!t.active) return;
 
@@ -662,35 +808,55 @@ export default function RetroQuiz({
           let fillStyle = 'rgba(15, 23, 42, 0.85)';
           let textColor = '#e2e8f0';
 
-          if (t.isHit) {
-            borderGlow = t.isCorrect ? '#10b981' : '#f43f5e';
-            fillStyle = t.isCorrect ? 'rgba(16, 185, 129, 0.4)' : 'rgba(244, 63, 94, 0.4)';
+          if (t.isWarping) {
+            borderGlow = '#34d399'; // Emerald Star Wars hyperdrive light beam
+            fillStyle = 'rgba(52, 211, 153, 0.5)';
             textColor = '#ffffff';
+            ctx.globalAlpha = t.warpAlpha || 1.0;
+          } else if (t.isCorrect && t.isHit) {
+            borderGlow = '#10b981'; // Green for correct answer hit
+            fillStyle = 'rgba(16, 185, 129, 0.4)';
+            textColor = '#ffffff';
+          } else if (!t.isCorrect) {
+            // Progressive Red shift on each hit (Hit 1: Amber, Hit 2: Deep Red)
+            if (t.hitsCount === 1) {
+              borderGlow = '#f59e0b'; // Amber / Orange on 1st hit
+              fillStyle = 'rgba(245, 158, 11, 0.35)';
+              textColor = '#fef08a';
+            } else if (t.hitsCount >= 2) {
+              borderGlow = '#ef4444'; // Bright Red alert on 2nd hit
+              fillStyle = 'rgba(239, 68, 68, 0.45)';
+              textColor = '#fca5a5';
+            }
           }
 
           // Draw outer glow shadow
           ctx.shadowColor = borderGlow;
-          ctx.shadowBlur = 12;
+          ctx.shadowBlur = t.isWarping ? 25 : 12;
+
+          const renderHeight = t.isWarping ? t.height * (t.warpScaleY || 1.0) : t.height;
 
           // Rounded box shape
           drawRoundedRect(
             ctx, 
             t.x - t.width / 2, 
-            t.y - t.height / 2, 
+            t.y - renderHeight / 2, 
             t.width, 
-            t.height, 
+            renderHeight, 
             10, 
             fillStyle, 
             borderGlow, 
-            2
+            t.isWarping ? 3 : 2
           );
 
           // Clear shadow for text rendering
           ctx.shadowBlur = 0;
 
-          // Text inside option box
-          ctx.fillStyle = textColor;
-          drawTextFit(ctx, t.value.toUpperCase(), t.x, t.y, t.width - 15, 14);
+          // Text inside option box (Only when not fully warped out)
+          if (!t.isWarping || (t.warpScaleY || 1.0) < 2.5) {
+            ctx.fillStyle = textColor;
+            drawTextFit(ctx, t.value.toUpperCase(), t.x, t.y, t.width - 15, 14);
+          }
           ctx.restore();
         });
 
@@ -708,7 +874,25 @@ export default function RetroQuiz({
         });
         ctx.globalAlpha = 1.0;
 
-        // 6. Draw Spaceship Fighter
+        // 6. Draw Floating Score/Word Texts (Rising upward from hit target)
+        entities.floatingTexts.forEach(ft => {
+          ctx.save();
+          ctx.globalAlpha = Math.max(0, ft.alpha);
+          ctx.fillStyle = ft.color;
+          ctx.textAlign = 'center';
+          ctx.shadowColor = ft.color;
+          ctx.shadowBlur = 14;
+          ctx.font = 'bold 17px monospace';
+          ctx.fillText(ft.text, ft.x, ft.y);
+          if (ft.subText) {
+            ctx.font = 'bold 12px monospace';
+            ctx.fillStyle = '#fef08a';
+            ctx.fillText(ft.subText, ft.x, ft.y + 18);
+          }
+          ctx.restore();
+        });
+
+        // 7. Draw Spaceship Fighter
         ctx.save();
         // Apply screen shaking on red flash
         if (entities.flashRedTimer > 0) {
@@ -719,27 +903,8 @@ export default function RetroQuiz({
         drawShip(ctx, ship.x, ship.y, state.shields);
         ctx.restore();
 
-        // 7. Screen overlays (Damage flash, victory flash)
-        if (entities.flashRedTimer > 0) {
-          ctx.fillStyle = `rgba(244, 63, 94, ${entities.flashRedTimer / 45})`;
-          ctx.fillRect(0, 0, canvas.width, canvas.height);
-        }
-        if (entities.flashGreenTimer > 0) {
-          ctx.fillStyle = `rgba(16, 185, 129, ${entities.flashGreenTimer / 45})`;
-          ctx.fillRect(0, 0, canvas.width, canvas.height);
-        }
-
-        // Success feedback texts
-        if (entities.successTextTimer > 0) {
-          ctx.save();
-          ctx.fillStyle = '#34d399';
-          ctx.font = 'black 22px monospace';
-          ctx.textAlign = 'center';
-          ctx.shadowColor = '#10b981';
-          ctx.shadowBlur = 10;
-          ctx.fillText('TARGET ACQUIRED! (+100)', canvas.width / 2, canvas.height / 2 - 20);
-          ctx.restore();
-        }
+        // 8. Timers decay per frame
+        if (entities.flashRedTimer > 0) entities.flashRedTimer--;
       }
     };
 
@@ -807,6 +972,32 @@ export default function RetroQuiz({
     };
   }, [activeScreen]);
 
+  // Global Pointer & Touch Release Safety Net (Prevents stuck shooting loops)
+  useEffect(() => {
+    const handleGlobalRelease = () => {
+      entitiesRef.current.isPointerDown = false;
+      if (keysPressedRef.current) {
+        keysPressedRef.current.shoot = false;
+        keysPressedRef.current.left = false;
+        keysPressedRef.current.right = false;
+      }
+    };
+
+    window.addEventListener('pointerup', handleGlobalRelease);
+    window.addEventListener('pointercancel', handleGlobalRelease);
+    window.addEventListener('touchend', handleGlobalRelease);
+    window.addEventListener('touchcancel', handleGlobalRelease);
+    window.addEventListener('blur', handleGlobalRelease);
+
+    return () => {
+      window.removeEventListener('pointerup', handleGlobalRelease);
+      window.removeEventListener('pointercancel', handleGlobalRelease);
+      window.removeEventListener('touchend', handleGlobalRelease);
+      window.removeEventListener('touchcancel', handleGlobalRelease);
+      window.removeEventListener('blur', handleGlobalRelease);
+    };
+  }, []);
+
   // Rounded Rect helper
   const drawRoundedRect = (ctx, x, y, width, height, radius, fill, stroke, strokeWidth) => {
     ctx.save();
@@ -834,18 +1025,81 @@ export default function RetroQuiz({
     ctx.restore();
   };
 
-  // Fit text inside option block
+  // Fit text inside option block with multi-line wrapping and readability protection
   const drawTextFit = (ctx, text, x, y, maxWidth, fontBaseSize) => {
     ctx.save();
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
+    
+    const minSize = 10; // Don't let font size drop below 10px for readability
     let size = fontBaseSize;
-    ctx.font = `bold ${size}px monospace`;
-    while (ctx.measureText(text).width > maxWidth && size > 8) {
-      size -= 1;
-      ctx.font = `bold ${size}px monospace`;
+    
+    // Helper to split text into lines at a specific font size
+    const getLines = (txt, maxW, fontSize) => {
+      ctx.font = `bold ${fontSize}px monospace`;
+      const words = txt.split(' ');
+      const lines = [];
+      let currentLine = '';
+      
+      for (let i = 0; i < words.length; i++) {
+        const word = words[i];
+        const testLine = currentLine ? currentLine + ' ' + word : word;
+        if (ctx.measureText(testLine).width <= maxW) {
+          currentLine = testLine;
+        } else {
+          if (currentLine) {
+            lines.push(currentLine);
+          }
+          currentLine = word;
+        }
+      }
+      if (currentLine) {
+        lines.push(currentLine);
+      }
+      return lines;
+    };
+
+    // 1. Try to fit on 1 line by scaling down slightly (but no lower than 12px)
+    let lines = [text];
+    let fitsOnOneLine = false;
+    for (let s = fontBaseSize; s >= 12; s--) {
+      ctx.font = `bold ${s}px monospace`;
+      if (ctx.measureText(text).width <= maxWidth) {
+        size = s;
+        lines = [text];
+        fitsOnOneLine = true;
+        break;
+      }
     }
-    ctx.fillText(text, x, y);
+
+    // 2. If it doesn't fit on 1 line, find the largest font size (>= 10px) that fits in 2 lines
+    if (!fitsOnOneLine) {
+      let bestSize = minSize;
+      let bestLines = getLines(text, maxWidth, minSize);
+      
+      for (let s = fontBaseSize; s >= minSize; s--) {
+        const testLines = getLines(text, maxWidth, s);
+        if (testLines.length <= 2 && testLines.every(l => ctx.measureText(l).width <= maxWidth)) {
+          bestSize = s;
+          bestLines = testLines;
+          break; // Found the largest size that fits in 2 lines!
+        }
+      }
+      
+      size = bestSize;
+      lines = bestLines;
+    }
+    
+    // Draw lines centered vertically around y
+    ctx.font = `bold ${size}px monospace`;
+    const lineHeight = size + 2;
+    const totalHeight = lines.length * lineHeight;
+    const startY = y - (totalHeight / 2) + (lineHeight / 2);
+    
+    lines.forEach((line, index) => {
+      ctx.fillText(line, x, startY + index * lineHeight);
+    });
+    
     ctx.restore();
   };
 
@@ -920,7 +1174,9 @@ export default function RetroQuiz({
     stateRef.current.learnedWords = [];
     
     setActiveScreen('playing');
-    generateQuestion(0, words);
+    // Yeni rastgele 12'lik oturum seti
+    if (typeof reload === 'function') reload();
+    else generateQuestion(0, words);
   };
 
   const handleExit = () => {
@@ -931,7 +1187,7 @@ export default function RetroQuiz({
     return (
       <div className="w-full h-full flex items-center justify-center bg-[#070510] text-amber-400">
         <div className="text-xl font-mono tracking-widest animate-pulse">
-          LOADING TRIVIA PROTOCOL...
+          MEMOLANDUM YÜKLENİYOR...
         </div>
       </div>
     );
@@ -981,23 +1237,46 @@ export default function RetroQuiz({
 
         {/* Floating Holographic Target display */}
         {activeScreen === 'playing' && currentQuestion && (
-          <div className="absolute top-18 left-1/2 -translate-x-1/2 w-[90%] max-w-[400px] flex flex-col items-center justify-center py-2.5 px-4 rounded-2xl bg-slate-950/85 border border-amber-500/25 shadow-[0_0_20px_rgba(245,158,11,0.12),inset_0_0_10px_rgba(245,158,11,0.08)] text-center z-20 pointer-events-auto">
-            <div className="text-[8px] font-mono text-amber-500/40 tracking-widest uppercase">
-              TARGET WORD // HEDEF KELİME
+          <div className={`absolute top-18 left-1/2 -translate-x-1/2 w-[90%] max-w-[400px] flex flex-col items-center justify-center py-2.5 px-4 rounded-2xl text-center z-20 pointer-events-auto ${
+            answerReveal
+              ? 'bg-emerald-950/90 border border-emerald-400/40 shadow-[0_0_24px_rgba(16,185,129,0.25)]'
+              : 'bg-slate-950/85 border border-amber-500/25 shadow-[0_0_20px_rgba(245,158,11,0.12),inset_0_0_10px_rgba(245,158,11,0.08)]'
+          }`}>
+            <div className={`text-[8px] font-mono tracking-widest uppercase ${answerReveal ? 'text-emerald-400/70' : 'text-amber-500/40'}`}>
+              {answerReveal ? 'CORRECT // DOĞRU CEVAP' : 'TARGET WORD // HEDEF KELİME'}
             </div>
             
-            <h2 className="text-xl sm:text-2xl font-black text-white tracking-wide drop-shadow-[0_0_8px_rgba(255,255,255,0.45)] break-all px-2 mt-0.5 leading-tight">
-              {currentQuestion.questionText}
-            </h2>
-            
-            {currentQuestion.romanization && (
-              <div className="text-[10px] font-mono text-cyan-400 mt-0.5 tracking-wider animate-pulse">
-                [{currentQuestion.romanization}]
-              </div>
-            )}
+            {answerReveal ? (
+              <>
+                <h2 className="text-xl sm:text-2xl font-black text-white tracking-wide drop-shadow-[0_0_8px_rgba(52,211,153,0.5)] break-all px-2 mt-0.5 leading-tight">
+                  {answerReveal.english}
+                </h2>
+                <p className="text-base sm:text-lg font-bold text-emerald-300 m-0 mt-1 tracking-wide">
+                  = {answerReveal.turkish}
+                </p>
+                {answerReveal.romanization && (
+                  <div className="text-[10px] font-mono text-cyan-300 mt-0.5 tracking-wider">
+                    [{answerReveal.romanization}]
+                  </div>
+                )}
+                <p className="text-[10px] font-mono text-amber-300/80 m-0 mt-1">+{answerReveal.points} XP</p>
+              </>
+            ) : (
+              <>
+                <h2 className="text-xl sm:text-2xl font-black text-white tracking-wide drop-shadow-[0_0_8px_rgba(255,255,255,0.45)] break-all px-2 mt-0.5 leading-tight">
+                  {currentQuestion.questionText}
+                </h2>
+                
+                {currentQuestion.romanization && (
+                  <div className="text-[10px] font-mono text-cyan-400 mt-0.5 tracking-wider animate-pulse">
+                    [{currentQuestion.romanization}]
+                  </div>
+                )}
 
-            {/* Time progress bar */}
-            <div className="absolute bottom-0 left-0 h-1 bg-amber-500/80 transition-all duration-100" style={{ width: `${timeLeft * 10}%`, boxShadow: '0 0 8px #f59e0b' }} />
+                {/* Time progress bar */}
+                <div className="absolute bottom-0 left-0 h-1 bg-amber-500/80 transition-all duration-100" style={{ width: `${(timeLeft / 20) * 100}%`, boxShadow: '0 0 8px #f59e0b' }} />
+              </>
+            )}
           </div>
         )}
 
@@ -1010,7 +1289,6 @@ export default function RetroQuiz({
               handleWarmUp();
               entitiesRef.current.isPointerDown = true;
               handlePointerMove(e);
-              spawnLaser();
             }}
             onPointerMove={handlePointerMove}
             onPointerUp={() => {
@@ -1033,10 +1311,53 @@ export default function RetroQuiz({
           )}
         </div>
 
-        {/* Footer info/controls on mobile */}
+        {/* Dedicated Mobile / Touch Controls (Separate Steering & Fire) */}
         {activeScreen === 'playing' && (
-          <div className="w-full text-center text-[9px] font-mono text-slate-500 tracking-widest mt-0">
-            MEMOLANDUM TRIVIA ENGINE v2.0 // DIRECT STEERING READY
+          <div className="w-full flex items-center justify-between gap-3 my-1.5 px-1 pointer-events-auto font-mono select-none">
+            {/* Steering Left/Right Buttons */}
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onPointerDown={(e) => {
+                  e.preventDefault();
+                  handleWarmUp();
+                  const ship = entitiesRef.current.ship;
+                  ship.targetX = Math.max(30, ship.targetX - 70);
+                }}
+                className="w-14 h-12 bg-slate-900/90 border-2 border-cyan-500/50 hover:border-cyan-400 text-cyan-300 active:bg-cyan-950 rounded-2xl flex items-center justify-center text-xl font-black shadow-[0_0_15px_rgba(6,182,212,0.3)] active:scale-95 transition-all cursor-pointer"
+                title="Sola Git"
+              >
+                ◀
+              </button>
+
+              <button
+                type="button"
+                onPointerDown={(e) => {
+                  e.preventDefault();
+                  handleWarmUp();
+                  const ship = entitiesRef.current.ship;
+                  const maxW = canvasRef.current?.width || 500;
+                  ship.targetX = Math.min(maxW - 30, ship.targetX + 70);
+                }}
+                className="w-14 h-12 bg-slate-900/90 border-2 border-cyan-500/50 hover:border-cyan-400 text-cyan-300 active:bg-cyan-950 rounded-2xl flex items-center justify-center text-xl font-black shadow-[0_0_15px_rgba(6,182,212,0.3)] active:scale-95 transition-all cursor-pointer"
+                title="Sağa Git"
+              >
+                ▶
+              </button>
+            </div>
+
+            {/* Separate FIRE Button */}
+            <button
+              type="button"
+              onPointerDown={(e) => {
+                e.preventDefault();
+                handleWarmUp();
+                spawnLaser();
+              }}
+              className="flex-1 max-w-[220px] h-12 bg-gradient-to-r from-pink-600 via-rose-500 to-red-600 border-2 border-pink-400 text-white font-black text-sm tracking-wider rounded-2xl flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(244,63,94,0.5)] active:scale-95 transition-all uppercase cursor-pointer"
+            >
+              🔥 ATEŞ ET (FIRE)
+            </button>
           </div>
         )}
 
@@ -1083,9 +1404,16 @@ export default function RetroQuiz({
             <div className="flex flex-col items-center w-full bg-slate-950/60 p-4 rounded-2xl border border-amber-500/30 max-h-48 overflow-y-auto custom-scrollbar">
               <h3 className="text-amber-400 mb-3 text-xs tracking-widest font-mono uppercase">LEARNED VOCABULARY</h3>
               <ul className="flex flex-wrap gap-2 justify-center">
-                 {learnedWords.map((wordPair, idx) => (
-                    <li key={idx} className="text-emerald-400 bg-emerald-950/30 px-3 py-1 rounded-full border border-emerald-500/50 text-xs font-mono font-bold">
-                      {wordPair}
+                 {learnedWords.map((wordItem, idx) => (
+                    <li 
+                      key={idx} 
+                      className={`${
+                        wordItem.isCorrect 
+                          ? 'text-emerald-400 bg-emerald-950/30 border-emerald-500/50' 
+                          : 'text-red-400 bg-red-950/30 border-red-500/50'
+                      } px-3 py-1 rounded-full border text-xs font-mono font-bold`}
+                    >
+                      {wordItem.english}: {wordItem.turkish}
                     </li>
                  ))}
               </ul>

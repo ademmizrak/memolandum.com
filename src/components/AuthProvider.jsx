@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { onAuthStateChanged } from 'firebase/auth';
 import { doc, onSnapshot, collection } from 'firebase/firestore';
 import { auth, db } from '../lib/firebase/config';
@@ -16,46 +16,80 @@ import {
   fetchProfileStats,
   saveStudyProfileCloud,
 } from '../lib/profiles/studyProfileService';
+import { subscribeToPremiumStatus } from '../lib/premium/premiumService';
+import {
+  ensureRevenueCatConfigured,
+  isNativeIapPlatform,
+  resetRevenueCatSession,
+  syncPremiumFromRevenueCat,
+} from '../lib/premium/revenueCat';
 
 const AUTH_BOOT_TIMEOUT_MS = 4000;
 const AUTH_REDIRECT_BOOT_MS = 20000;
+/** Auth takılsa bile splash sonsuz kalmasın (L2 — L1 RC/auth'u bozmaz) */
+const SPLASH_HARD_FALLBACK_MS = 6500;
 
 export default function AuthProvider({ children }) {
-  const { setAuthUser, isAuthLoading, syncGlobalStats, setVocabularyVault, resetLocalProgress, clearForAccountSwitch } = useMemolandumStore();
-  const [initialCheckDone, setInitialCheckDone] = useState(false);
+  const { setAuthUser, syncGlobalStats, setVocabularyVault, resetLocalProgress, clearForAccountSwitch, setPremium } = useMemolandumStore();
 
   useEffect(() => {
     let unsubVault = null;
+    let unsubPremium = null;
     let syncInFlight = false;
     let unsubscribe = null;
     let settled = false;
     let cancelled = false;
+    let splashHidden = false;
+
+    const hideSplashScreen = async () => {
+      if (splashHidden || cancelled) return;
+      splashHidden = true;
+      try {
+        const { Capacitor } = await import("@capacitor/core");
+        if (Capacitor.isNativePlatform()) {
+          const { SplashScreen } = await import("@capacitor/splash-screen");
+          await SplashScreen.hide();
+        }
+      } catch (e) {
+        /* ignore */
+      }
+    };
 
     const finishBoot = (asGuest = false) => {
       if (settled || cancelled) return;
       settled = true;
-      // Redirect dönüşünde timeout, currentUser varken misafire düşmesin
-      if (asGuest && !auth?.currentUser) {
+      // Boot tamamlandı — eğer lokalde authenticated bir kullanıcı varsa asla misafire düşürme
+      const storeState = useMemolandumStore.getState();
+      if (asGuest && !auth?.currentUser && !storeState.isAuthenticated) {
         setAuthUser(null);
       }
-      setInitialCheckDone(true);
+      hideSplashScreen();
     };
+
+    // Hard fallback: finishBoot hiç gelmese bile splash kapanır
+    const splashFallbackTimer = setTimeout(() => {
+      hideSplashScreen();
+    }, SPLASH_HARD_FALLBACK_MS);
 
     const pendingRedirect = isGoogleRedirectPending();
     const bootMs = pendingRedirect ? AUTH_REDIRECT_BOOT_MS : AUTH_BOOT_TIMEOUT_MS;
 
     const bootTimer = setTimeout(() => {
       if (!settled) {
-        console.warn('Auth boot timeout — misafir olarak devam');
+        console.warn('Auth boot timeout — mevcut oturum korunuyor');
         finishBoot(true);
       }
     }, bootMs);
 
     if (!auth) {
-      console.warn('Firebase Auth yok — misafir modunda devam');
+      console.warn('Firebase Auth yok — yerel oturumla devam');
       clearTimeout(bootTimer);
+      clearTimeout(splashFallbackTimer);
       finishBoot(true);
-      return () => clearTimeout(bootTimer);
+      return () => {
+        clearTimeout(bootTimer);
+        clearTimeout(splashFallbackTimer);
+      };
     }
 
     (async () => {
@@ -66,12 +100,34 @@ export default function AuthProvider({ children }) {
       }
     })();
 
+    const bootNativePremium = async (user) => {
+      try {
+        if (!(await isNativeIapPlatform()) || !user?.uid) return;
+        await ensureRevenueCatConfigured(user.uid);
+        await syncPremiumFromRevenueCat();
+      } catch (e) {
+        console.warn("RevenueCat Initialization failed:", e?.message || e);
+      }
+    };
+
     try {
       unsubscribe = onAuthStateChanged(auth, async (user) => {
         const previousUid = useMemolandumStore.getState().uid;
-        setAuthUser(user);
-
+        
         if (user) {
+          setAuthUser(user);
+
+          // Sadece farklı bir kullanıcı hesabına geçiş yapılıyorsa verileri temizle
+          const lastAuthenticatedUid = useMemolandumStore.getState().lastAuthenticatedUid;
+          if (lastAuthenticatedUid && lastAuthenticatedUid !== user.uid) {
+            (clearForAccountSwitch || resetLocalProgress)();
+            setVocabularyVault({});
+            resetRevenueCatSession();
+          }
+
+          // Configure bitmeden satın alma açılmasın — await
+          await bootNativePremium(user);
+
           if (!syncInFlight) {
             syncInFlight = true;
             try {
@@ -125,17 +181,26 @@ export default function AuthProvider({ children }) {
               },
               (err) => console.warn('vault snapshot error:', err?.message || err)
             );
+            unsubPremium = subscribeToPremiumStatus(user.uid, (active) => {
+              // Native'de RC premium'u boş Firestore billing false ile ezilmez (store koruması)
+              setPremium(!!active, { source: "firestore" });
+            });
           }
         } else {
+          // Firebase oturumu kapandıysa: Sadece internet varsa ve kullanıcı gerçekten çıkış yaptıysa yerel oturumu bitir (verileri sıfırlamadan!)
+          if (typeof window !== "undefined" && window.navigator && window.navigator.onLine) {
+            setAuthUser(null);
+          }
           if (unsubVault) {
             unsubVault();
             unsubVault = null;
           }
-
-          if (previousUid) {
-            (clearForAccountSwitch || resetLocalProgress)();
-            setVocabularyVault({});
+          if (unsubPremium) {
+            unsubPremium();
+            unsubPremium = null;
           }
+          resetRevenueCatSession();
+          setPremium(false, { source: "manual" });
         }
 
         finishBoot();
@@ -148,10 +213,12 @@ export default function AuthProvider({ children }) {
     return () => {
       cancelled = true;
       clearTimeout(bootTimer);
+      clearTimeout(splashFallbackTimer);
       if (unsubscribe) unsubscribe();
       if (unsubVault) unsubVault();
+      if (unsubPremium) unsubPremium();
     };
-  }, [setAuthUser, syncGlobalStats, setVocabularyVault, resetLocalProgress, clearForAccountSwitch]);
+  }, [setAuthUser, syncGlobalStats, setVocabularyVault, resetLocalProgress, clearForAccountSwitch, setPremium]);
 
   // Aktif dil profilinin stats dinleyicisi (profil değişince yeniden bağlanır)
   const activeStudyProfileId = useMemolandumStore((s) => s.activeStudyProfileId);
@@ -189,13 +256,9 @@ export default function AuthProvider({ children }) {
     return () => clearInterval(backupInterval);
   }, [isAuthenticated, uid]);
 
-  if (!initialCheckDone || isAuthLoading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-[#0a0a0a]">
-        <div className="w-10 h-10 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin"></div>
-      </div>
-    );
-  }
+  // Bildirim izni cold-boot'ta istenmez (L2) — kasa güncellenince scheduleDailySrsReminder bağlamsal ister.
 
+  // Auth arka planda bitsin; çocukları asla tam ekran spinner ile unmount etme.
+  // (Eski davranış: SSG spinner → hydrate → anasayfa = yanıp sönme / çift yükleme hissi)
   return <>{children}</>;
 }

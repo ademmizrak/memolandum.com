@@ -12,7 +12,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_001_a.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_001_a.mp3"
   },
   {
     "id": "jap_hira_002",
@@ -27,7 +28,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_002_i.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_002_i.mp3"
   },
   {
     "id": "jap_hira_003",
@@ -42,7 +44,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_003_u.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_003_u.mp3"
   },
   {
     "id": "jap_hira_004",
@@ -57,7 +60,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_004_e.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_004_e.mp3"
   },
   {
     "id": "jap_hira_005",
@@ -72,7 +76,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_005_o.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_005_o.mp3"
   },
   {
     "id": "jap_hira_006",
@@ -87,7 +92,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_006_ka.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_006_ka.mp3"
   },
   {
     "id": "jap_hira_007",
@@ -102,7 +108,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_007_ki.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_007_ki.mp3"
   },
   {
     "id": "jap_hira_008",
@@ -117,7 +124,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_008_ku.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_008_ku.mp3"
   },
   {
     "id": "jap_hira_009",
@@ -132,7 +140,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_009_ke.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_009_ke.mp3"
   },
   {
     "id": "jap_hira_010",
@@ -147,7 +156,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_010_ko.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_010_ko.mp3"
   },
   {
     "id": "jap_hira_011",
@@ -162,7 +172,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_011_sa.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_011_sa.mp3"
   },
   {
     "id": "jap_hira_012",
@@ -177,7 +188,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_012_shi.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_012_shi.mp3"
   },
   {
     "id": "jap_hira_013",
@@ -192,7 +204,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_013_su.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_013_su.mp3"
   },
   {
     "id": "jap_hira_014",
@@ -207,7 +220,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_014_se.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_014_se.mp3"
   },
   {
     "id": "jap_hira_015",
@@ -222,7 +236,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_015_so.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_015_so.mp3"
   },
   {
     "id": "jap_hira_016",
@@ -237,7 +252,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_016_ta.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_016_ta.mp3"
   },
   {
     "id": "jap_hira_017",
@@ -252,7 +268,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_017_chi.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_017_chi.mp3"
   },
   {
     "id": "jap_hira_018",
@@ -267,7 +284,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_018_tsu.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_018_tsu.mp3"
   },
   {
     "id": "jap_hira_019",
@@ -282,7 +300,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_019_te.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_019_te.mp3"
   },
   {
     "id": "jap_hira_020",
@@ -297,7 +316,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_020_to.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_020_to.mp3"
   },
   {
     "id": "jap_hira_021",
@@ -312,7 +332,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_021_na.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_021_na.mp3"
   },
   {
     "id": "jap_hira_022",
@@ -327,7 +348,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_022_ni.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_022_ni.mp3"
   },
   {
     "id": "jap_hira_023",
@@ -342,7 +364,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_023_nu.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_023_nu.mp3"
   },
   {
     "id": "jap_hira_024",
@@ -357,7 +380,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_024_ne.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_024_ne.mp3"
   },
   {
     "id": "jap_hira_025",
@@ -372,7 +396,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_025_no.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_025_no.mp3"
   },
   {
     "id": "jap_hira_026",
@@ -387,7 +412,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_026_ha.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_026_ha.mp3"
   },
   {
     "id": "jap_hira_027",
@@ -402,7 +428,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_027_hi.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_027_hi.mp3"
   },
   {
     "id": "jap_hira_028",
@@ -417,7 +444,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_028_fu.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_028_fu.mp3"
   },
   {
     "id": "jap_hira_029",
@@ -432,7 +460,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_029_he.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_029_he.mp3"
   },
   {
     "id": "jap_hira_030",
@@ -447,7 +476,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_030_ho.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_030_ho.mp3"
   },
   {
     "id": "jap_hira_031",
@@ -462,7 +492,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_031_ma.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_031_ma.mp3"
   },
   {
     "id": "jap_hira_032",
@@ -477,7 +508,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_032_mi.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_032_mi.mp3"
   },
   {
     "id": "jap_hira_033",
@@ -492,7 +524,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_033_mu.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_033_mu.mp3"
   },
   {
     "id": "jap_hira_034",
@@ -507,7 +540,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_034_me.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_034_me.mp3"
   },
   {
     "id": "jap_hira_035",
@@ -522,7 +556,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_035_mo.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_035_mo.mp3"
   },
   {
     "id": "jap_hira_036",
@@ -537,7 +572,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_036_ya.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_036_ya.mp3"
   },
   {
     "id": "jap_hira_037",
@@ -552,7 +588,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_037_yu.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_037_yu.mp3"
   },
   {
     "id": "jap_hira_038",
@@ -567,7 +604,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_038_yo.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_038_yo.mp3"
   },
   {
     "id": "jap_hira_039",
@@ -582,7 +620,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_039_ra.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_039_ra.mp3"
   },
   {
     "id": "jap_hira_040",
@@ -597,7 +636,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_040_ri.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_040_ri.mp3"
   },
   {
     "id": "jap_hira_041",
@@ -612,7 +652,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_041_ru.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_041_ru.mp3"
   },
   {
     "id": "jap_hira_042",
@@ -627,7 +668,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_042_re.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_042_re.mp3"
   },
   {
     "id": "jap_hira_043",
@@ -642,7 +684,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_043_ro.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_043_ro.mp3"
   },
   {
     "id": "jap_hira_044",
@@ -657,7 +700,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_044_wa.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_044_wa.mp3"
   },
   {
     "id": "jap_hira_045",
@@ -672,7 +716,8 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_045_wo.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_045_wo.mp3"
   },
   {
     "id": "jap_hira_046",
@@ -687,6 +732,7 @@
     },
     "audio": {
       "default": "/audio/alphabet_ja/jap_hira_046_n.mp3"
-    }
+    },
+    "audioUrl": "/data/Japan/audio/alphabet_ja/jap_hira_046_n.mp3"
   }
 ]

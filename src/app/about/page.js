@@ -4,9 +4,9 @@ import { absoluteUrl, OG_IMAGE, SITE_URL, SITE_NAME } from "../../lib/seo/siteCo
 /* ── Page Metadata ──────────────────────────────────────────────────── */
 export const metadata = {
   title:
-    "Memolandum'un Bilimsel Temelleri | Spaced Repetition, Active Recall & Vocabulary Science",
+    "Memolandum — Bilim, Vizyon & AI Branş Öğretmenleri | About",
   description:
-    "Memolandum'da kelime ezberleme nasıl çalışır? Ebbinghaus unutma eğrisi, Allan Paivio'nun çift kodlama teorisi, Csikszentmihalyi'nin flow teorisi ve Roediger & Karpicke active recall araştırması — 8 dilde anlatım.",
+    "Bilimsel temeller + ürün yolu: 23 dil yolu, KPSS, Gemini Anlık Çeviri bugün canlı. Sonraki katman: AI branş öğretmenleri (dil, KPSS, akademik) — kişisel lexikon + adaptive öğrenme.",
   keywords: [
     // TR
     "kelime ezberleme bilimi",
@@ -19,6 +19,10 @@ export const metadata = {
     "implicit learning türkçe",
     "bilimsel kelime ezberleme",
     "memolandum hakkında",
+    "KPSS kelime ezberleme bilimi",
+    "anlık çeviri öğrenme",
+    "AI branş öğretmeni",
+    "memolandum roadmap",
     // EN
     "spaced repetition vocabulary science",
     "active recall language learning",
@@ -30,26 +34,24 @@ export const metadata = {
     "about memolandum",
     "memory science language learning",
     "cognitive vocabulary training",
+    "23 language pathways",
+    "KPSS glossary science",
+    "AI branch teachers Gemini",
+    "adaptive learning roadmap",
   ],
   alternates: {
     canonical: absoluteUrl("/about"),
     languages: {
-      "tr": absoluteUrl("/about"),
-      "en": `${SITE_URL}/about/?lang=en`,
-      "de": `${SITE_URL}/about/?lang=de`,
-      "fr": `${SITE_URL}/about/?lang=fr`,
-      "es": `${SITE_URL}/about/?lang=es`,
-      "ja": `${SITE_URL}/about/?lang=ja`,
-      "zh": `${SITE_URL}/about/?lang=zh`,
-      "ar": `${SITE_URL}/about/?lang=ar`,
+      tr: absoluteUrl("/about"),
+      en: `${SITE_URL}/about/?lang=en`,
       "x-default": absoluteUrl("/about"),
     },
   },
   openGraph: {
     title:
-      "Memolandum — Bilimsel Temeller | Spaced Repetition, Active Recall, Dual Coding",
+      "Memolandum — Bilimsel Temeller | 23 Dil · KPSS · Anlık Çeviri",
     description:
-      "Ebbinghaus (1885), Allan Paivio (1971), Csikszentmihalyi (Flow), Roediger & Karpicke (2006) araştırmaları — 8 dilde açıklanan kelime ezberleme bilimi. Cognitive vocabulary training, memory science, gamified learning.",
+      "Ebbinghaus (1885), Allan Paivio (1971), Csikszentmihalyi (Flow), Roediger & Karpicke (2006) — 23 dil yolunda kelime ezberleme bilimi. KPSS sözlük & Gemini Instant Translation.",
     url: absoluteUrl("/about"),
     images: [
       {
@@ -60,15 +62,15 @@ export const metadata = {
       },
     ],
     locale: "tr_TR",
-    alternateLocale: ["en_US", "de_DE", "fr_FR", "es_ES", "ja_JP", "zh_CN", "ar_SA"],
+    alternateLocale: ["en_US"],
     type: "article",
     siteName: SITE_NAME,
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Science Behind Memolandum — Vocabulary Learning Neuroscience",
+    title: "The Science Behind Memolandum — 23 Pathways · KPSS · Instant Translation",
     description:
-      "Spaced repetition, active recall, dual coding & flow theory — proven memory science embedded in arcade games. Available in 8 languages.",
+      "Spaced repetition, active recall, dual coding & flow theory — proven memory science in arcade games. 23 language pathways, KPSS glossary, Instant Translation.",
     images: [OG_IMAGE],
   },
 };
@@ -80,9 +82,9 @@ const aboutJsonLd = {
   "@id": `${SITE_URL}/about/#aboutpage`,
   name: "Memolandum — Bilimsel Temeller / Scientific Foundations",
   url: absoluteUrl("/about"),
-  inLanguage: ["tr", "en", "de", "fr", "es", "ja", "zh", "ar"],
+  inLanguage: ["tr", "en"],
   description:
-    "Scientific foundations of Memolandum vocabulary learning platform: implicit learning (Reber, 1967), Ebbinghaus Forgetting Curve (1885), Dual Coding Theory (Paivio, 1971), Flow Theory (Csikszentmihalyi), Active Recall (Roediger & Karpicke, 2006), and cognitive network training versus AI dependency (Anderson & Reder).",
+    "Scientific foundations of Memolandum: 23 language pathways, KPSS academic glossary, Instant Translation (Anlık Çeviri), spaced repetition, active recall, dual coding, and flow theory.",
   isPartOf: {
     "@type": "WebSite",
     name: SITE_NAME,
@@ -97,7 +99,7 @@ const aboutJsonLd = {
     "@type": "EducationalOrganization",
     name: SITE_NAME,
     description:
-      "Free arcade vocabulary learning platform using spaced repetition, active recall, dual coding theory, and Gemini AI translation. Supports 13+ language pairs. Available in Turkish, English, German, French, Spanish, Japanese, Chinese, and Arabic.",
+      "Free arcade vocabulary platform with 23 language pathways, KPSS & academic glossary (~4,000 concepts), and Gemini Instant Translation in 14 languages. UI in Turkish and English.",
     url: `${SITE_URL}/`,
     sameAs: [`${SITE_URL}/about/`],
   },

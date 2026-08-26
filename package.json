@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/generate-version.js && next build",
+    "build:app": "node scripts/deploy-app.mjs --build-only",
     "start": "next start",
     "lint": "eslint",
     "test:consistency": "node scripts/simulate-backend-consistency.mjs",
@@ -12,10 +13,23 @@
     "yds:tts": "node scripts/yds/generate-yds-tts.mjs",
     "yds:tts:dry": "node scripts/yds/generate-yds-tts.mjs --dry-run",
     "data:repair": "node scripts/repair-and-sync-data.mjs",
-    "data:repair:dry": "node scripts/repair-and-sync-data.mjs --dry-run"
+    "data:repair:dry": "node scripts/repair-and-sync-data.mjs --dry-run",
+    "deploy:content": "node scripts/deploy-content.mjs",
+    "deploy:content:dry": "node scripts/deploy-content.mjs --dry-run",
+    "deploy:app": "node scripts/deploy-app.mjs",
+    "deploy:app:build": "node scripts/deploy-app.mjs --build-only"
   },
   "dependencies": {
+    "@capacitor-community/apple-sign-in": "^7.1.0",
+    "@capacitor/core": "^8.4.2",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/keyboard": "^8.0.5",
+    "@capacitor/local-notifications": "^8.2.1",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@codetrix-studio/capacitor-google-auth": "^3.4.0-rc.4",
     "@google-cloud/translate": "^9.4.2",
+    "@revenuecat/purchases-capacitor": "^13.2.4",
     "firebase": "^12.15.0",
     "lucide-react": "^1.21.0",
     "next": "16.2.9",
@@ -24,6 +38,9 @@
     "zustand": "^5.0.14"
   },
   "devDependencies": {
+    "@capacitor/android": "^8.4.2",
+    "@capacitor/cli": "^8.4.2",
+    "@capacitor/ios": "^8.4.2",
     "@google-cloud/storage": "^7.21.0",
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",

@@ -1,5 +1,22 @@
 {
   "appId": "com.memolandum.app",
   "appName": "Memolandum",
-  "webDir": "out"
+  "webDir": "out",
+  "plugins": {
+    "Keyboard": {
+      "resize": "body",
+      "style": "dark"
+    },
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": false,
+      "backgroundColor": "#0f172a",
+      "showSpinner": false
+    },
+    "GoogleAuth": {
+      "scopes": ["profile", "email"],
+      "serverClientId": "539033091302-qu7mf8412emdeaihhemt1qku4fvuai3n.apps.googleusercontent.com",
+      "forceCodeForRefreshToken": true
+    }
+  }
 }

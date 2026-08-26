@@ -42,5 +42,19 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Uygulama, sesli çeviri özelliği için mikrofonunuzu kullanacaktır.</string>
+	<!-- Google Sign-In (Codetrix) — REVERSED_CLIENT_ID from GoogleService-Info.plist -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.539033091302-u7tblpd23282adakrcu7d2bcmg5m1sev</string>
+			</array>
+		</dict>
+	</array>
+	<key>GIDClientID</key>
+	<string>539033091302-u7tblpd23282adakrcu7d2bcmg5m1sev.apps.googleusercontent.com</string>
 </dict>
 </plist>
