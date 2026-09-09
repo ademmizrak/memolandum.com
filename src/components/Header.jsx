@@ -90,6 +90,15 @@ function IconBookOpen(props) {
   );
 }
 
+function IconSchool(props) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden {...props}>
+      <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+      <path d="M6 12v5c3 3 9 3 12 0v-5" />
+    </svg>
+  );
+}
+
 function goPlay() {
   const el = document.getElementById("basla");
   if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -246,6 +255,10 @@ export default function Header() {
                   <IconTranslate />
                   <span>{t("translate.label")}</span>
                 </Link>
+                <Link href="/schools" className="mm-nav-link text-indigo-300 hover:text-indigo-200">
+                  <IconSchool />
+                  <span>Okullar</span>
+                </Link>
                 <Link href="/about/" className="mm-nav-link" title={t("nav.science")}>
                   <IconFlask />
                   <span>{t("nav.science")}</span>
@@ -377,6 +390,13 @@ export default function Header() {
               onClick={closeMenu}
             >
               <IconStar /> Premium
+            </Link>
+            <Link
+              href="/schools"
+              className="mm-drawer__link text-indigo-400"
+              onClick={closeMenu}
+            >
+              <IconSchool /> Okullar & Öğretmenler
             </Link>
             <Link href="/about/" className="mm-drawer__link" onClick={closeMenu}>
               <IconFlask /> {t("nav.science")}

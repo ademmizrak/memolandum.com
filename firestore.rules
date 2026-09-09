@@ -98,5 +98,18 @@ service cloud.firestore {
     match /{path=**}/stats/{statId} {
       allow read: if true;
     }
+
+    // Memolandum for Schools (Öğretmen, Sınıf ve B2B Lisans Kuralları)
+    match /classrooms/{classCode} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      allow update: if true;
+      allow delete: if request.auth != null && resource.data.teacherUid == request.auth.uid;
+    }
+
+    match /b2bLeads/{leadId} {
+      allow create: if request.resource.data.keys().hasAll(['schoolName', 'contactName']);
+      allow read, update, delete: if false;
+    }
   }
 }

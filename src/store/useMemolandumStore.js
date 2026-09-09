@@ -212,6 +212,7 @@ export const useMemolandumStore = create(
       childrenProfiles: [],
       activeChildId: null,
       parentActivityLog: [],
+      joinedClassroom: null,
 
       isAuthenticated: false,
       isAuthLoading: false,
@@ -402,6 +403,7 @@ export const useMemolandumStore = create(
         childrenProfiles: [],
         activeChildId: null,
         parentActivityLog: [],
+        joinedClassroom: null,
       }),
 
       clearGuestProgressPending: () => set({ guestProgressPending: false }),
@@ -719,6 +721,8 @@ export const useMemolandumStore = create(
           }).catch(() => {});
         }
       },
+
+      setJoinedClassroom: (classroom) => set({ joinedClassroom: classroom }),
 
       addLocalProgress: (gameId, delta) => set((state) => {
         const s = parseInt(delta.score, 10) || 0;
@@ -1132,6 +1136,7 @@ export const useMemolandumStore = create(
         childrenProfiles: state.childrenProfiles,
         activeChildId: state.activeChildId,
         parentActivityLog: state.parentActivityLog,
+        joinedClassroom: state.joinedClassroom,
       }),
       onRehydrateStorage: () => (state) => {
         if (state?.vocabularyVault) {
