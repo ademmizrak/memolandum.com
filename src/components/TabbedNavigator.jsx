@@ -22,6 +22,7 @@ function getPlaylistCategory(levelId) {
   if (!levelId) return null;
   const idLower = levelId.toLowerCase();
   if (idLower.includes("yds")) return "yds";
+  if (idLower.includes("ilkokul-0")) return "1sınıf";
   if (idLower.includes("ilkokul-1") || idLower.includes("ilkokul-2")) return "2sınıf";
   if (idLower.includes("ilkokul-3") || idLower.includes("ilkokul-4")) return "3sınıf";
   if (idLower.includes("ilkokul-5") || idLower.includes("ilkokul-6")) return "4sınıf";

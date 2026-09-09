@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: "22"
           cache: npm
-      - run: npm ci
+      - run: npm ci --legacy-peer-deps
       - name: Slim Next.js build (no data/audio/words in out)
         run: npm run deploy:app:build
       - name: Deploy Hosting

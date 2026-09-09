@@ -175,20 +175,40 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
       let levelConfig = null;
 
       // 1. Locate level in the manifest
-      for (const mainCat of gameManifest.mainCategories) {
-        for (const subCat of mainCat.subCategories) {
-          if (subCat.id === langId) {
-            let lvl = subCat.levels?.find(l => l.id === levelId);
-            if (!lvl && subCat.sentenceLevels) {
-              lvl = subCat.sentenceLevels.find(l => l.id === levelId);
-            }
-            if (lvl) {
-              levelConfig = lvl;
-              break;
+      if (levelId) {
+        // A. Primary: Look within matching subcategory or main category
+        for (const mainCat of gameManifest.mainCategories || []) {
+          for (const subCat of mainCat.subCategories || []) {
+            if (!langId || subCat.id === langId || mainCat.id === langId) {
+              let lvl = subCat.levels?.find(l => l.id === levelId || l.slug === levelId);
+              if (!lvl && subCat.sentenceLevels) {
+                lvl = subCat.sentenceLevels.find(l => l.id === levelId || l.slug === levelId);
+              }
+              if (lvl) {
+                levelConfig = lvl;
+                break;
+              }
             }
           }
+          if (levelConfig) break;
         }
-        if (levelConfig) break;
+
+        // B. Robust fallback: Scan ALL categories by levelId or slug
+        if (!levelConfig) {
+          for (const mainCat of gameManifest.mainCategories || []) {
+            for (const subCat of mainCat.subCategories || []) {
+              let lvl = subCat.levels?.find(l => l.id === levelId || l.slug === levelId);
+              if (!lvl && subCat.sentenceLevels) {
+                lvl = subCat.sentenceLevels.find(l => l.id === levelId || l.slug === levelId);
+              }
+              if (lvl) {
+                levelConfig = lvl;
+                break;
+              }
+            }
+            if (levelConfig) break;
+          }
+        }
       }
 
       // FALLBACK

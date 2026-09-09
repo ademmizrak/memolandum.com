@@ -2,6 +2,7 @@ import { gameManifest } from "../config/manifest";
 import { sanitizeWordData } from "../lib/learning/levelSterilizer";
 import { selectAdaptiveWords, SESSION_WORD_TARGET } from "../lib/learning/adaptiveWordSelector";
 import { useMemolandumStore } from "../store/useMemolandumStore";
+import { resolveLessonJsonUrls } from "../lib/contentCdn";
 import { HighwayGame } from "./highway.shell";
 import { BreakoutGame } from "./breakout.shell";
 import { InvadersGame } from "./invaders.shell";
@@ -85,8 +86,23 @@ export class EngineController {
         wordsData = sanitizeWordData(customWords);
       } else {
         // 2. Statik verileri (JSON) çek
-        const response = await fetch(`/data/${levelConfig.path}`);
-        let rawData = await response.json();
+        const urls = resolveLessonJsonUrls(levelConfig.path);
+        let rawData = null;
+        for (const u of urls) {
+          try {
+            const res = await fetch(u);
+            if (res.ok) {
+              rawData = await res.json();
+              break;
+            }
+          } catch (e) {
+            // try next url
+          }
+        }
+
+        if (!rawData) {
+          throw new Error(`Veritabanından kelime çekilemedi: ${levelConfig.path}`);
+        }
 
         // Diller Arası Ortak Mekanizma (Veri Sterilizasyonu & Adaptif Seçim)
         const sterilizedData = sanitizeWordData(Array.isArray(rawData) ? rawData : (rawData.words || Object.values(rawData)));

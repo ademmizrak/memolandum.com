@@ -1067,43 +1067,43 @@ export const gameManifest = {
               "id": "en-tr_eng_ilkokul-0",
               "name": "Ilkokul 1 Sinif Kelimeleri",
               "path": "Tr_Eng_Ilkokul/Ilkokul_1_Sinif_Kelimeleri.json",
-              "slug": "ingilizce-i-lkokul-ilkokul-1-sinif-kelimeleri"
+              "slug": "meb-1-sinif-kelimeleri"
             },
             {
               "id": "en-tr_eng_ilkokul-1",
               "name": "Ilkokul 2 Sinif Cumleleri",
               "path": "Tr_Eng_Ilkokul/Ilkokul_2_Sinif_Cumleleri.json",
-              "slug": "ingilizce-i-lkokul-ilkokul-2-sinif-cumleleri"
+              "slug": "meb-2-sinif-cumleleri"
             },
             {
               "id": "en-tr_eng_ilkokul-2",
               "name": "Ilkokul 2 Sinif Kelimeleri",
               "path": "Tr_Eng_Ilkokul/Ilkokul_2_Sinif_Kelimeleri.json",
-              "slug": "ingilizce-i-lkokul-ilkokul-2-sinif-kelimeleri"
+              "slug": "meb-2-sinif-kelimeleri"
             },
             {
               "id": "en-tr_eng_ilkokul-3",
               "name": "Ilkokul 3 Sinif Cumleleri",
               "path": "Tr_Eng_Ilkokul/Ilkokul_3_Sinif_Cumleleri.json",
-              "slug": "ingilizce-i-lkokul-ilkokul-3-sinif-cumleleri"
+              "slug": "meb-3-sinif-cumleleri"
             },
             {
               "id": "en-tr_eng_ilkokul-4",
               "name": "Ilkokul 3 Sinif Kelimeleri",
               "path": "Tr_Eng_Ilkokul/Ilkokul_3_Sinif_Kelimeleri.json",
-              "slug": "ingilizce-i-lkokul-ilkokul-3-sinif-kelimeleri"
+              "slug": "meb-3-sinif-kelimeleri"
             },
             {
               "id": "en-tr_eng_ilkokul-5",
               "name": "Ilkokul 4 Sinif Cumleleri",
               "path": "Tr_Eng_Ilkokul/Ilkokul_4_Sinif_Cumleleri.json",
-              "slug": "ingilizce-i-lkokul-ilkokul-4-sinif-cumleleri"
+              "slug": "meb-4-sinif-cumleleri"
             },
             {
               "id": "en-tr_eng_ilkokul-6",
               "name": "Ilkokul 4 Sinif Kelimeleri",
               "path": "Tr_Eng_Ilkokul/Ilkokul_4_Sinif_Kelimeleri.json",
-              "slug": "ingilizce-i-lkokul-ilkokul-4-sinif-kelimeleri"
+              "slug": "meb-4-sinif-kelimeleri"
             }
           ],
           "sentenceLevels": []

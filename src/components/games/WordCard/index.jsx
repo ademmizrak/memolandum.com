@@ -16,6 +16,7 @@ function getPlaylistCategory(levelId) {
   if (!levelId) return null;
   const idLower = levelId.toLowerCase();
   if (idLower.includes("yds")) return "yds";
+  if (idLower.includes("ilkokul-0")) return "1sınıf";
   if (idLower.includes("ilkokul-1") || idLower.includes("ilkokul-2")) return "2sınıf";
   if (idLower.includes("ilkokul-3") || idLower.includes("ilkokul-4")) return "3sınıf";
   if (idLower.includes("ilkokul-5") || idLower.includes("ilkokul-6")) return "4sınıf";
@@ -335,10 +336,10 @@ export default function WordCard({
       if (!isAudioEnabled || !wordObj) return;
       const text = wordObj.english || wordObj.word || "";
       const id = String(wordObj.sentence_id || wordObj.word_id || wordObj.id || "");
-      const isSentence = id.startsWith("s_") || Boolean(wordObj.sentence_id);
-      // Cümle ses dosyaları henüz yoksa TTS; kelimelerde kayıtlı audioUrl kullan
-      if (!isSentence && soundManagerRef.current && wordObj.audioUrl) {
-        soundManagerRef.current.playWordAudio(wordObj.audioUrl);
+      const audioUrl = wordObj.audioUrl || wordObj.audio_url;
+      // Ses dosyası varsa soundManager ile çal, yoksa tarayıcı TTS'e başvur
+      if (soundManagerRef.current && audioUrl) {
+        soundManagerRef.current.playWordAudio(audioUrl);
       } else {
         speakTts(text);
       }

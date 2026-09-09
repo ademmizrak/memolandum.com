@@ -21,7 +21,7 @@ exports.geminiTranslate = translate.geminiTranslate;
 const googleTranslate = require("./googleTranslate");
 exports.cloudTranslate = googleTranslate.cloudTranslate;
 
-exports.syncProgress = onCall({ region: "us-central1" }, async (request) => {
+exports.syncProgress = onCall({ region: "us-central1", enforceAppCheck: true }, async (request) => {
     // 1. Authenticate user
     if (!request.auth) {
         throw new HttpsError('unauthenticated', 'Kullanıcı girişi yapılmalı.');
@@ -77,7 +77,7 @@ exports.syncProgress = onCall({ region: "us-central1" }, async (request) => {
     }
 });
 
-exports.updateScore = onCall({ region: "us-central1" }, async (request) => {
+exports.updateScore = onCall({ region: "us-central1", enforceAppCheck: true }, async (request) => {
     if (!request.auth) {
         throw new HttpsError('unauthenticated', 'Kullanıcı girişi yapılmalı.');
     }
@@ -377,7 +377,7 @@ exports.ssr = onRequest({ region: "us-central1" }, async (req, res) => {
  * Yalnızca çağıranın kendi uid'si; son 5 dk içinde yeniden kimlik doğrulama gerekir.
  * Admin SDK ile recursiveDelete (client batch limitlerine takılmaz).
  */
-exports.deleteUserAccount = onCall({ region: "us-central1" }, async (request) => {
+exports.deleteUserAccount = onCall({ region: "us-central1", enforceAppCheck: true }, async (request) => {
     if (!request.auth?.uid) {
         throw new HttpsError("unauthenticated", "Hesap silmek için giriş gerekli.");
     }

@@ -91,17 +91,15 @@ export default function GamePageClient({ slug }) {
       return;
     }
     const raw =
-      searchParams?.get("pathway") ||
       searchParams?.get("lang") ||
+      searchParams?.get("pathway") ||
       searchParams?.get("langPair");
-    if (!raw) return;
+    const levelParam = searchParams?.get("level");
+    if (!raw && !levelParam) return;
 
     const manifestLangId = resolveManifestLangId(raw);
-    if (!manifestLangId) return;
-
-    const levelParam = searchParams?.get("level");
     const ctx = normalizeStudyContext({
-      langId: manifestLangId,
+      langId: manifestLangId || undefined,
       levelId: levelParam || undefined,
       gameId: slug,
       lastPlayedAt: Date.now(),

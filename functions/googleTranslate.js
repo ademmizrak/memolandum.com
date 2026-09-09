@@ -31,7 +31,7 @@ async function translateText({ text, targetLanguage, sourceLanguage = null, proj
 /**
  * Firebase Cloud Function Endpoint: cloudTranslate
  */
-exports.cloudTranslate = onCall({ region: "us-central1" }, async (request) => {
+exports.cloudTranslate = onCall({ region: "us-central1", enforceAppCheck: true }, async (request) => {
   if (!request.auth) {
     throw new HttpsError("unauthenticated", "Çeviri yapmak için giriş yapmalısınız.");
   }
