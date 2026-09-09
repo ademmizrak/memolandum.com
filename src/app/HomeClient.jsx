@@ -8,6 +8,7 @@ import PathwayQuickGrid from "../components/home/PathwayQuickGrid";
 import KpssQuickGrid from "../components/home/KpssQuickGrid";
 import { useT } from "../lib/i18n/LocaleProvider";
 import ParentReportModal from "../components/profile/ParentReportModal";
+import ParentComparisonTable from "../components/home/ParentComparisonTable";
 import { calculateParentReportData } from "../lib/reports/reportGenerator";
 import { useMemolandumStore } from "../store/useMemolandumStore";
 import {
@@ -317,6 +318,9 @@ export default function HomeClient() {
             </Link>
           </div>
         </div>
+
+        {/* 4.1. "Neden Memolandum?" Veli Karşılaştırma & Güven Tablosu */}
+        <ParentComparisonTable onOpenReport={() => setParentReportOpen(true)} />
 
         {/* 5. Kurumsal Güven Sayaçları Şeridi */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3.5 mb-12">
