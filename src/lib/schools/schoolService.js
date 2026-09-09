@@ -26,7 +26,7 @@ export function generateClassCode(prefix = "MEM") {
 /**
  * Öğretmen için yeni bir sınıf oluşturur
  */
-export async function createClassroom(teacherUid, { className, schoolName, grade, teacherName }) {
+export async function createClassroom(teacherUid, { className, schoolName, province, district, grade, teacherName }) {
   if (!db) throw new Error("Veritabanı bağlantısı hazır değil.");
   if (!teacherUid) throw new Error("Öğretmen oturumu bulunamadı.");
 
@@ -47,6 +47,8 @@ export async function createClassroom(teacherUid, { className, schoolName, grade
     teacherUid,
     teacherName: teacherName || "Öğretmen",
     schoolName: schoolName || "Okul",
+    province: province || "",
+    district: district || "",
     className: className || "İngilizce Sınıfı",
     grade: grade || "2. Sınıf",
     createdAt: serverTimestamp(),
@@ -209,7 +211,7 @@ export async function updateStudentClassProgress(classCode, studentUid, progress
 /**
  * Kurumsal Okul & Kolej B2B Demo / Lisans Talebi Formu Kaydı
  */
-export async function submitB2BLead({ schoolName, contactName, role, email, phone, studentCount, note }) {
+export async function submitB2BLead({ schoolName, province, district, contactName, role, email, phone, studentCount, note }) {
   if (!db) throw new Error("Veritabanı bağlantısı kurulamadı.");
   if (!schoolName || !contactName || (!email && !phone)) {
     throw new Error("Lütfen okul adı, yetkili adı ve iletişim bilgilerinizi eksiksiz girin.");
@@ -217,6 +219,8 @@ export async function submitB2BLead({ schoolName, contactName, role, email, phon
 
   const leadEntry = {
     schoolName: schoolName.trim(),
+    province: province ? province.trim() : "",
+    district: district ? district.trim() : "",
     contactName: contactName.trim(),
     role: role || "İngilizce Zümre Başkanı",
     email: email ? email.trim() : null,

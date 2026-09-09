@@ -5,6 +5,7 @@ import Header from "../Header";
 import TeacherDashboard from "./TeacherDashboard";
 import JoinClassModal from "./JoinClassModal";
 import { submitB2BLead } from "../../lib/schools/schoolService";
+import { TURKEY_PROVINCES, getDistrictsForProvince } from "../../lib/schools/turkeyLocations";
 import {
   School,
   Users,
@@ -27,6 +28,8 @@ export default function SchoolsClient() {
   const [joinModalOpen, setJoinModalOpen] = useState(false);
 
   // B2B Lead Form State
+  const [province, setProvince] = useState("İstanbul");
+  const [district, setDistrict] = useState("Kadıköy");
   const [schoolName, setSchoolName] = useState("");
   const [contactName, setContactName] = useState("");
   const [role, setRole] = useState("İngilizce Zümre Başkanı");
@@ -38,6 +41,12 @@ export default function SchoolsClient() {
   const [submitted, setSubmitted] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
 
+  const handleProvinceChange = (prov) => {
+    setProvince(prov);
+    const dists = getDistrictsForProvince(prov);
+    setDistrict(dists[0] || "");
+  };
+
   const handleSubmitLead = async (e) => {
     e.preventDefault();
     setErrorMsg("");
@@ -45,6 +54,8 @@ export default function SchoolsClient() {
       setSubmitting(true);
       await submitB2BLead({
         schoolName,
+        province,
+        district,
         contactName,
         role,
         email,
@@ -222,34 +233,69 @@ export default function SchoolsClient() {
                       </div>
                     )}
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div>
+                    {/* İl, İlçe ve Okul Adı */}
+                    <div className="grid grid-cols-1 sm:grid-cols-12 gap-3">
+                      <div className="sm:col-span-3">
                         <label className="block text-xs font-bold text-slate-300 mb-1">
-                          Okul / Kurum Adı:
+                          İl:
+                        </label>
+                        <select
+                          value={province}
+                          onChange={(e) => handleProvinceChange(e.target.value)}
+                          className="w-full bg-slate-800/80 border border-slate-700 text-white rounded-xl px-3 py-2.5 text-xs sm:text-sm focus:border-cyan-400 focus:outline-none"
+                        >
+                          {TURKEY_PROVINCES.map((prov) => (
+                            <option key={prov} value={prov}>
+                              {prov}
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+
+                      <div className="sm:col-span-3">
+                        <label className="block text-xs font-bold text-slate-300 mb-1">
+                          İlçe:
+                        </label>
+                        <select
+                          value={district}
+                          onChange={(e) => setDistrict(e.target.value)}
+                          className="w-full bg-slate-800/80 border border-slate-700 text-white rounded-xl px-3 py-2.5 text-xs sm:text-sm focus:border-cyan-400 focus:outline-none"
+                        >
+                          {getDistrictsForProvince(province).map((dist) => (
+                            <option key={dist} value={dist}>
+                              {dist}
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+
+                      <div className="sm:col-span-6">
+                        <label className="block text-xs font-bold text-slate-300 mb-1">
+                          Okul Adı:
                         </label>
                         <input
                           type="text"
-                          placeholder="Örn: TED Koleji, Bahçeşehir..."
+                          placeholder="Örn: Atatürk İlkokulu, TED Koleji..."
                           value={schoolName}
                           onChange={(e) => setSchoolName(e.target.value)}
                           className="w-full bg-slate-800/80 border border-slate-700 text-white rounded-xl px-4 py-2.5 text-xs sm:text-sm focus:border-cyan-400 focus:outline-none"
                           required
                         />
                       </div>
+                    </div>
 
-                      <div>
-                        <label className="block text-xs font-bold text-slate-300 mb-1">
-                          Yetkili / Öğretmen Adı:
-                        </label>
-                        <input
-                          type="text"
-                          placeholder="Adınız ve Soyadınız"
-                          value={contactName}
-                          onChange={(e) => setContactName(e.target.value)}
-                          className="w-full bg-slate-800/80 border border-slate-700 text-white rounded-xl px-4 py-2.5 text-xs sm:text-sm focus:border-cyan-400 focus:outline-none"
-                          required
-                        />
-                      </div>
+                    <div>
+                      <label className="block text-xs font-bold text-slate-300 mb-1">
+                        Yetkili / Öğretmen Adı:
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Adınız ve Soyadınız"
+                        value={contactName}
+                        onChange={(e) => setContactName(e.target.value)}
+                        className="w-full bg-slate-800/80 border border-slate-700 text-white rounded-xl px-4 py-2.5 text-xs sm:text-sm focus:border-cyan-400 focus:outline-none"
+                        required
+                      />
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

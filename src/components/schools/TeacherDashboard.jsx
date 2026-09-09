@@ -25,6 +25,7 @@ import {
   getTeacherClassrooms,
   assignHomework,
 } from "../../lib/schools/schoolService";
+import { TURKEY_PROVINCES, getDistrictsForProvince } from "../../lib/schools/turkeyLocations";
 import { useMemolandumStore } from "../../store/useMemolandumStore";
 
 const MEB_UNITS = [
@@ -54,8 +55,16 @@ export default function TeacherDashboard() {
   // Modal: Yeni Sınıf
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [newClassName, setNewClassName] = useState("");
+  const [newProvince, setNewProvince] = useState("İstanbul");
+  const [newDistrict, setNewDistrict] = useState("Kadıköy");
   const [newSchoolName, setNewSchoolName] = useState("");
   const [newClassGrade, setNewClassGrade] = useState("4. Sınıf");
+
+  const handleProvinceChange = (prov) => {
+    setNewProvince(prov);
+    const dists = getDistrictsForProvince(prov);
+    setNewDistrict(dists[0] || "");
+  };
 
   // Modal: Ödev Değiştir
   const [showAssignModal, setShowAssignModal] = useState(false);
@@ -74,7 +83,9 @@ export default function TeacherDashboard() {
         const demoClass = {
           classCode: "M4-8K2",
           className: "4-A İngilizce",
-          schoolName: "Örnek İlkokul / Kolej",
+          schoolName: "Örnek İlkokul",
+          province: "İstanbul",
+          district: "Kadıköy",
           teacherName,
           grade: "4. Sınıf",
           currentAssignment: {
@@ -132,7 +143,9 @@ export default function TeacherDashboard() {
     try {
       const created = await createClassroom(uid || "teacher_guest", {
         className: newClassName.trim(),
-        schoolName: newSchoolName.trim() || "Kolej / İlkokul",
+        schoolName: newSchoolName.trim() || "İlkokul",
+        province: newProvince,
+        district: newDistrict,
         grade: newClassGrade,
         teacherName,
       });
@@ -142,6 +155,7 @@ export default function TeacherDashboard() {
       setActiveClass(created);
       setShowCreateModal(false);
       setNewClassName("");
+      setNewSchoolName("");
     } catch (err) {
       alert(err.message || "Sınıf oluşturulamadı.");
     }
@@ -258,6 +272,7 @@ Giriş: https://memolandum.com/schools/`;
                   </span>
                   <span className="text-xs text-slate-400">
                     {activeClass.schoolName}
+                    {activeClass.district && activeClass.province && ` · ${activeClass.district} / ${activeClass.province}`}
                   </span>
                 </div>
                 <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
@@ -464,9 +479,46 @@ Giriş: https://memolandum.com/schools/`;
                 />
               </div>
 
+              {/* İl & İlçe Seçimi */}
+              <div className="grid grid-cols-2 gap-3">
+                <div>
+                  <label className="block text-xs font-bold text-slate-300 mb-1">
+                    İl:
+                  </label>
+                  <select
+                    value={newProvince}
+                    onChange={(e) => handleProvinceChange(e.target.value)}
+                    className="w-full bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-2.5 text-xs sm:text-sm focus:border-cyan-400 focus:outline-none"
+                  >
+                    {TURKEY_PROVINCES.map((prov) => (
+                      <option key={prov} value={prov}>
+                        {prov}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-slate-300 mb-1">
+                    İlçe:
+                  </label>
+                  <select
+                    value={newDistrict}
+                    onChange={(e) => setNewDistrict(e.target.value)}
+                    className="w-full bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-2.5 text-xs sm:text-sm focus:border-cyan-400 focus:outline-none"
+                  >
+                    {getDistrictsForProvince(newProvince).map((dist) => (
+                      <option key={dist} value={dist}>
+                        {dist}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+
               <div>
                 <label className="block text-xs font-bold text-slate-300 mb-1">
-                  Okul / Kolej Adı:
+                  Okul Adı:
                 </label>
                 <input
                   type="text"
@@ -474,6 +526,7 @@ Giriş: https://memolandum.com/schools/`;
                   value={newSchoolName}
                   onChange={(e) => setNewSchoolName(e.target.value)}
                   className="w-full bg-slate-800 border border-slate-700 text-white rounded-xl px-4 py-2.5 text-sm focus:border-cyan-400 focus:outline-none"
+                  required
                 />
               </div>
 
