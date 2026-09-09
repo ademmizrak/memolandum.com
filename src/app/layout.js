@@ -22,6 +22,7 @@ import {
 } from "../lib/seo/jsonLd";
 import GoogleAnalytics from "../components/GoogleAnalytics";
 import VersionChecker from "../components/VersionChecker";
+import NotificationPrompt from "../components/learning/NotificationPrompt";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -205,6 +206,7 @@ export default function RootLayout({ children }) {
             <div className="flex-1 flex flex-col" suppressHydrationWarning={true}>
               {children}
             </div>
+            <NotificationPrompt />
           </AuthProvider>
         </LocaleProvider>
       </body>

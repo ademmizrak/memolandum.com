@@ -93,10 +93,15 @@ export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
     try {
       setLoading(true);
       setError(null);
-      setSuccessMsg('Google hesabına yönlendiriliyorsunuz…');
       const user = await signInWithGoogle();
       if (!user) return;
-      trackLogin('google');
+      const isNew = user?.metadata?.creationTime && user?.metadata?.lastSignInTime &&
+        Math.abs(new Date(user.metadata.creationTime).getTime() - new Date(user.metadata.lastSignInTime).getTime()) < 5000;
+      if (isNew) {
+        trackSignUp('google'); // ← Conversion: Google ile yeni kayıt
+      } else {
+        trackLogin('google');
+      }
     } catch (err) {
       const code = err?.code || '';
       let msg = err?.message || 'Google ile giriş başarısız.';

@@ -16,6 +16,7 @@ import {
   clearQuizReturnContext,
 } from "../../../lib/learning/quizReturn";
 import { resolveManifestLangId, getSlugFromManifestLangId } from "../../../lib/seo/learnPathwayResolve";
+import { useAnalytics } from "../../../hooks/useAnalytics";
 
 const GameEngineWrapper = dynamic(() => import("../../../engines/base"), {
   ssr: false,
@@ -62,10 +63,14 @@ export default function GamePageClient({ slug }) {
     [lastPlayedLang, lastPlayedLevel, lastPlayedGame, lastPlayedAt]
   );
 
+  const { trackGameStart, trackGameComplete } = useAnalytics();
+
   useEffect(() => {
     setMounted(true);
     if (!VALID_SLUGS.includes(slug)) {
       router.push("/");
+    } else {
+      trackGameStart(slug, resume.langId || "");
     }
   }, [slug, router]);
 
@@ -149,6 +154,7 @@ export default function GamePageClient({ slug }) {
             window.location.href = "/";
           }}
           onNextLevel={(nextLvl) => {
+            trackGameComplete(slug, 100);
             useMemolandumStore.getState().clearActiveCustomWords();
             const returnCtx = readQuizReturnContext();
 

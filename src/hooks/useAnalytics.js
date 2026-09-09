@@ -18,9 +18,10 @@ import { useCallback } from "react";
 // ─── Google Ads Conversion Label'ları (Google Ads konsolundan alınır) ─────────
 // Format: "AW-CONVERSION_ID/CONVERSION_LABEL"
 const CONVERSION_LABELS = {
-  signup:     process.env.NEXT_PUBLIC_ADS_CONV_SIGNUP     || null, // e.g. "AW-123456789/AbCdEfGhIj"
-  game_start: process.env.NEXT_PUBLIC_ADS_CONV_GAME_START || null,
-  premium:    process.env.NEXT_PUBLIC_ADS_CONV_PREMIUM    || null,
+  signup:        process.env.NEXT_PUBLIC_ADS_CONV_SIGNUP        || null, // e.g. "AW-123456789/AbCdEfGhIj"
+  game_start:    process.env.NEXT_PUBLIC_ADS_CONV_GAME_START    || null,
+  game_complete: process.env.NEXT_PUBLIC_ADS_CONV_GAME_COMPLETE || null,
+  premium:       process.env.NEXT_PUBLIC_ADS_CONV_PREMIUM       || null,
 };
 
 // ─── Güvenli gtag wrapper ──────────────────────────────────────────────────────
@@ -78,13 +79,18 @@ export function useAnalytics() {
     fireConversion(CONVERSION_LABELS.game_start);
   }, []);
 
-  /** Oyun tamamlandı */
+  /** Oyun tamamlandı (Google Ads ve GA4 Dönüşüm: İlk Dersi/Oyunu Bitirdi) */
   const trackGameComplete = useCallback((gameSlug, score = 0) => {
     fireEvent("level_end", {
       level_name: gameSlug,
       success: true,
       score,
     });
+    fireEvent("tutorial_complete", {
+      content_type: "game",
+      item_id: gameSlug,
+    });
+    fireConversion(CONVERSION_LABELS.game_complete || CONVERSION_LABELS.game_start);
   }, []);
 
   /** Anlık çeviri kullanıldı */
