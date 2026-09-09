@@ -20,9 +20,12 @@ import {
   X,
   Smartphone,
   School,
+  AlertTriangle,
 } from "lucide-react";
 import { getWhatsAppParentDigestUrl } from "../../lib/reports/reportGenerator";
 import JoinClassModal from "../schools/JoinClassModal";
+import WeakWordsModal from "../learning/WeakWordsModal";
+import { getWeakWords } from "../../lib/learning/weakWordsService";
 
 const GRADE_PRESETS = [
   { id: "meb-1-sinif-kelimeleri", label: "🎒 1. Sınıf MEB İngilizce", path: "/learn/en-tr/meb-1-sinif-kelimeleri/" },
@@ -41,6 +44,7 @@ export default function ParentStudentHub({ onOpenReport }) {
   const parentActivityLog = useMemolandumStore((s) => s.parentActivityLog) || [];
   const profile = useMemolandumStore((s) => s.profile);
   const vocabularyVault = useMemolandumStore((s) => s.vocabularyVault) || {};
+  const quizHistory = useMemolandumStore((s) => s.quizHistory) || [];
   const joinedClassroom = useMemolandumStore((s) => s.joinedClassroom);
 
   const setIsParentAccount = useMemolandumStore((s) => s.setIsParentAccount);
@@ -51,10 +55,15 @@ export default function ParentStudentHub({ onOpenReport }) {
 
   const [showAddModal, setShowAddModal] = useState(false);
   const [joinModalOpen, setJoinModalOpen] = useState(false);
+  const [weakWordsModalOpen, setWeakWordsModalOpen] = useState(false);
   const [newChildName, setNewChildName] = useState("");
   const [newChildGrade, setNewChildGrade] = useState("meb-2-sinif-kelimeleri");
   const [newChildDailyTarget, setNewChildDailyTarget] = useState(15);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(null);
+
+  const weakWords = React.useMemo(() => {
+    return getWeakWords(vocabularyVault, quizHistory);
+  }, [vocabularyVault, quizHistory]);
 
   const activeChild =
     childrenProfiles.find((c) => c.id === activeChildId) ||
@@ -429,6 +438,31 @@ export default function ParentStudentHub({ onOpenReport }) {
                   <ExternalLink className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                 </a>
               )}
+
+              {/* Zayıf Kelime & Hata Defteri Aksiyon Çubuğu */}
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30">
+                <div className="flex items-center gap-2.5">
+                  <AlertTriangle className="w-4 h-4 text-amber-400 shrink-0" />
+                  <div>
+                    <div className="text-xs font-bold text-amber-300">
+                      Hata Defteri & Zayıf Kelime Takibi
+                    </div>
+                    <div className="text-[11px] text-slate-400">
+                      {weakWords.length > 0 
+                        ? `${weakWords.length} kelimede takıldı veya pekiştirme zamanı geldi.`
+                        : "Öğrencinin zorlandığı kelime bulunmuyor (%100 başarı)."}
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={() => setWeakWordsModalOpen(true)}
+                  className="w-full sm:w-auto px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs transition-all cursor-pointer whitespace-nowrap shadow-sm shadow-amber-500/20"
+                >
+                  {weakWords.length > 0 ? `🎯 Hataları Pekiştir (${weakWords.length})` : "📖 Hata Defteri"}
+                </button>
+              </div>
             </div>
 
           </div>
@@ -592,6 +626,12 @@ export default function ParentStudentHub({ onOpenReport }) {
       <JoinClassModal
         isOpen={joinModalOpen}
         onClose={() => setJoinModalOpen(false)}
+      />
+
+      {/* Hata Defteri Modalı */}
+      <WeakWordsModal
+        isOpen={weakWordsModalOpen}
+        onClose={() => setWeakWordsModalOpen(false)}
       />
     </div>
   );

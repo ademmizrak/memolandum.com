@@ -18,6 +18,7 @@ import {
 import { RetroLineChart } from "../../components/ui/charts/RetroLineChart";
 import { RetroBarChart } from "../../components/ui/charts/RetroBarChart";
 import { RetroRadialChart } from "../../components/ui/charts/RetroRadialChart";
+import WeakWordsModal from "../../components/learning/WeakWordsModal";
 
 const STRENGTH_CONFIG = {
   1: { label: "Yeni", color: "#ef4444", glow: "rgba(239,68,68,0.3)", emoji: "🔴" },
@@ -30,6 +31,7 @@ const STRENGTH_CONFIG = {
 const SOURCE_TABS = [
   { id: "all", label: "Tümü" },
   { id: "due", label: "Tekrar bekleyen" },
+  { id: "weak", label: "⚠️ Hata Defterim" },
   { id: "learned", label: "Oyundan öğrenilen" },
   { id: "added", label: "Senin eklediklerin" },
   { id: "mastered", label: "Usta" },
@@ -303,6 +305,7 @@ export default function VocabularyPage() {
   const [searchQ, setSearchQ] = useState("");
   const [reviewMode, setReviewMode] = useState(false);
   const [reviewWords, setReviewWords] = useState([]);
+  const [weakWordsModalOpen, setWeakWordsModalOpen] = useState(false);
 
   // Multi-select & Custom Level Creation State
   const createCustomLevel = useMemolandumStore((s) => s.createCustomLevel);
@@ -412,6 +415,7 @@ export default function VocabularyPage() {
   /** Önce kaynak sekmesi — dil listesi buna göre üretilir (boş filtre tuzağı olmasın) */
   const sourceScopedWords = useMemo(() => {
     if (sourceTab === "due") return allWords.filter((w) => isDue(w, now));
+    if (sourceTab === "weak") return allWords.filter((w) => (w.lapses || 0) > 0 || (w.strength || 1) <= 2 || (w.easiness || 2.5) < 2.2);
     if (sourceTab === "learned") return allWords.filter(isGameLearnedWord);
     if (sourceTab === "added") return allWords.filter(isUserAddedWord);
     if (sourceTab === "mastered") return allWords.filter((w) => (w.strength || 1) >= 5);
@@ -459,12 +463,14 @@ export default function VocabularyPage() {
 
   const sourceCounts = useMemo(() => {
     const due = allWords.filter((w) => isDue(w, now)).length;
+    const weak = allWords.filter((w) => (w.lapses || 0) > 0 || (w.strength || 1) <= 2 || (w.easiness || 2.5) < 2.2).length;
     const learned = allWords.filter(isGameLearnedWord).length;
     const added = allWords.filter(isUserAddedWord).length;
     const mastered = allWords.filter((w) => (w.strength || 1) >= 5).length;
     return {
       all: allWords.length,
       due,
+      weak,
       learned,
       added,
       mastered,
@@ -629,6 +635,23 @@ export default function VocabularyPage() {
             </Link>
             {allWords.length > 0 && (
               <>
+                <button
+                  onClick={() => setWeakWordsModalOpen(true)}
+                  disabled={sourceCounts.weak === 0}
+                  style={{
+                    padding: "10px 20px",
+                    background: "rgba(244,63,94,0.15)",
+                    border: "1.5px solid rgba(244,63,94,0.4)",
+                    borderRadius: 10,
+                    color: "#f43f5e",
+                    fontWeight: 700,
+                    cursor: "pointer",
+                    fontSize: 14,
+                    opacity: sourceCounts.weak === 0 ? 0.4 : 1,
+                  }}
+                >
+                  ⚠️ Hata Defteri ({sourceCounts.weak})
+                </button>
                 <button
                   onClick={() => startReview(allWords.filter((w) => isDue(w, now)))}
                   disabled={sourceCounts.due === 0}
@@ -1559,6 +1582,12 @@ export default function VocabularyPage() {
             </div>
           </div>
         )}
+
+        {/* Kişiselleştirilmiş Hata Defteri Modalı */}
+        <WeakWordsModal
+          isOpen={weakWordsModalOpen}
+          onClose={() => setWeakWordsModalOpen(false)}
+        />
       </main>
     </div>
   );
