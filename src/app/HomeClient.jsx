@@ -1,20 +1,54 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import TabbedNavigator from "../components/TabbedNavigator";
 import Header from "../components/Header";
 import PathwayQuickGrid from "../components/home/PathwayQuickGrid";
 import KpssQuickGrid from "../components/home/KpssQuickGrid";
 import { useT } from "../lib/i18n/LocaleProvider";
+import ParentReportModal from "../components/profile/ParentReportModal";
+import { calculateParentReportData } from "../lib/reports/reportGenerator";
+import { useMemolandumStore } from "../store/useMemolandumStore";
+import {
+  Award,
+  BookOpen,
+  Brain,
+  Sparkles,
+  Gamepad2,
+  Volume2,
+  ShieldCheck,
+  ChevronRight,
+  Zap,
+} from "lucide-react";
 
 export default function HomeClient() {
   const t = useT();
+  const [parentReportOpen, setParentReportOpen] = useState(false);
+
+  // Store data for sample/actual parent report
+  const vocabularyVault = useMemolandumStore((s) => s.vocabularyVault) || {};
+  const quizHistory = useMemolandumStore((s) => s.quizHistory) || [];
+  const globalStats = useMemolandumStore((s) => s.globalStats);
+  const profile = useMemolandumStore((s) => s.profile);
+  const activeStudyProfile = useMemolandumStore((s) => s.getActiveStudyProfile?.() || null);
+  const lastPlayedLevel = useMemolandumStore((s) => s.lastPlayedLevel);
+
+  const reportData = useMemo(() => {
+    return calculateParentReportData({
+      vocabularyVault,
+      quizHistory,
+      globalStats,
+      profile,
+      activeStudyProfile,
+      lastPlayedLevel: lastPlayedLevel || "meb-2-sinif-kelimeleri",
+    });
+  }, [vocabularyVault, quizHistory, globalStats, profile, activeStudyProfile, lastPlayedLevel]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
     const hash = window.location.hash;
-    if (hash === "#basla" || hash === "#kpss") {
+    if (hash === "#basla" || hash === "#kpss" || hash === "#meb-grades") {
       requestAnimationFrame(() => {
         document.getElementById(hash.slice(1))?.scrollIntoView({
           behavior: "smooth",
@@ -33,8 +67,31 @@ export default function HomeClient() {
     <div className="min-h-screen bg-dark-900 text-gray-200 font-sans selection:bg-primary-500/30">
       <Header />
 
-      <main className="relative pt-4 pb-16 px-6 max-w-6xl mx-auto min-h-screen flex flex-col justify-start">
-        <div className="block mb-4">
+      <main className="relative pt-3 pb-16 px-4 sm:px-6 max-w-6xl mx-auto min-h-screen flex flex-col justify-start">
+        {/* 1. Okula Dönüş 2026-2027 Primetime Duyuru Çubuğu */}
+        <div className="mb-4 py-2.5 px-4 rounded-xl bg-gradient-to-r from-cyan-950/90 via-indigo-950/90 to-amber-950/90 border border-cyan-500/40 flex flex-wrap items-center justify-between gap-3 shadow-lg backdrop-blur-md">
+          <div className="flex items-center gap-2.5">
+            <span className="text-xl animate-bounce">🎒</span>
+            <div>
+              <span className="text-xs sm:text-sm font-black text-white">
+                2026-2027 MEB Okula Dönüş Özel:
+              </span>
+              <span className="text-xs text-cyan-300 ml-1.5 hidden md:inline">
+                İlkokul 1, 2, 3 ve 4. Sınıf İngilizce Kelimeleri & Sesli Cümleleri Yayında!
+              </span>
+            </div>
+          </div>
+          <a
+            href="#meb-grades"
+            className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-300 hover:text-white bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 px-3.5 py-1.5 rounded-lg transition-all shadow-sm cursor-pointer"
+          >
+            <span>Sınıfını Seç & Başla</span>
+            <ChevronRight className="w-3.5 h-3.5" />
+          </a>
+        </div>
+
+        {/* 2. Ana Banner */}
+        <div className="block mb-6">
           <div className="gamified-banner-container">
             <div className="banner-glow-effect"></div>
             <div className="banner-content">
@@ -50,29 +107,18 @@ export default function HomeClient() {
                 </Link>
               </div>
 
-              <Link
-                href="/#kpss"
-                className="banner-coming-soon cursor-pointer hover:scale-[1.02] transition-all duration-300"
-                aria-label={t("home.kpssAria")}
-                onClick={(e) => {
-                  if (typeof window === "undefined") return;
-                  if (window.location.pathname === "/" || window.location.pathname === "") {
-                    e.preventDefault();
-                    document.getElementById("kpss")?.scrollIntoView({
-                      behavior: "smooth",
-                      block: "start",
-                    });
-                  }
-                }}
-              >
+              {/* Orta Öne Çıkan Kart: MEB Okula Dönüş & KPSS */}
+              <div className="banner-coming-soon hover:scale-[1.02] transition-all duration-300">
                 <span className="coming-soon-pulse" aria-hidden />
                 <span className="coming-soon-badge !border-amber-400/60 !text-amber-200">
-                  {t("home.kpssLiveBadge")}
+                  ⚡ 2026-2027 YENİ DÖNEM
                 </span>
-                <div className="coming-soon-main-title">{t("home.topicExam")}</div>
-                <p className="coming-soon-sub-topics">{t("home.bannerSubTopics")}</p>
-                <p className="coming-soon-tagline">{t("home.kpssTagline")}</p>
-              </Link>
+                <div className="coming-soon-main-title">MEB İLKOKUL</div>
+                <p className="coming-soon-sub-topics">1 · 2 · 3 · 4. SINIF İNGİLİZCE</p>
+                <p className="coming-soon-tagline">
+                  Sesli Cümleler, Oyunlar ve Resimli Kelime Kartlarıyla Kalıcı Ezber
+                </p>
+              </div>
 
               <div className="banner-action-side">
                 <div className="floating-game-icons">
@@ -103,12 +149,214 @@ export default function HomeClient() {
                       <polyline points="12 5 19 12 12 19"></polyline>
                     </svg>
                   </button>
-                  <Link href="/my-lexicon/" className="banner-btn-lexicon">
-                    <span>{t("home.myLexiconCta")}</span>
-                    <span className="banner-lexicon-sub">{t("home.myLexiconHint")}</span>
-                  </Link>
+                  <button
+                    type="button"
+                    onClick={() => setParentReportOpen(true)}
+                    className="banner-btn-lexicon cursor-pointer"
+                  >
+                    <span>🎓 Veli Başarı Karnesi</span>
+                    <span className="banner-lexicon-sub">Öğrenci karnesini WhatsApp ile al</span>
+                  </button>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* 3. MEB İlkokul & Sınav Hızlı Sınıf Seçici (#meb-grades) */}
+        <section id="meb-grades" className="mb-10 scroll-mt-24">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+            <div>
+              <span className="text-[11px] font-mono font-bold tracking-widest uppercase text-cyan-400 bg-cyan-950/60 px-2.5 py-0.5 rounded-md border border-cyan-500/30">
+                MEB İngilizce Müfredatı
+              </span>
+              <h2 className="text-xl sm:text-2xl font-black text-white mt-1">
+                Sınıfını Seç, Hemen Kelime Oyununa Başla
+              </h2>
+            </div>
+            <span className="text-xs text-slate-400">
+              Okul başlamadan kelimeleri refleks haline getir!
+            </span>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5">
+            {/* 1. Sınıf */}
+            <Link
+              href="/learn/en-tr/meb-1-sinif-kelimeleri/"
+              className="group p-4 rounded-2xl bg-gradient-to-b from-slate-900/90 to-slate-950 border border-slate-800 hover:border-cyan-400 transition-all duration-300 hover:scale-105 shadow-md flex flex-col justify-between"
+            >
+              <div>
+                <div className="w-9 h-9 rounded-xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-300 font-black text-sm mb-2 group-hover:scale-110 transition-transform">
+                  1
+                </div>
+                <h3 className="font-bold text-white text-sm group-hover:text-cyan-300 transition-colors">
+                  1. Sınıf MEB
+                </h3>
+                <p className="text-[11px] text-slate-400 mt-1">Temel 100 Kelime (Görsel & Sesli)</p>
+              </div>
+              <span className="text-[10px] font-bold text-cyan-400 mt-3 inline-flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                Başla →
+              </span>
+            </Link>
+
+            {/* 2. Sınıf */}
+            <Link
+              href="/learn/en-tr/meb-2-sinif-kelimeleri/"
+              className="group p-4 rounded-2xl bg-gradient-to-b from-slate-900/90 to-slate-950 border border-slate-800 hover:border-emerald-400 transition-all duration-300 hover:scale-105 shadow-md flex flex-col justify-between"
+            >
+              <div>
+                <div className="w-9 h-9 rounded-xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-300 font-black text-sm mb-2 group-hover:scale-110 transition-transform">
+                  2
+                </div>
+                <h3 className="font-bold text-white text-sm group-hover:text-emerald-300 transition-colors">
+                  2. Sınıf MEB
+                </h3>
+                <p className="text-[11px] text-slate-400 mt-1">Kelimeler + 100 Sesli Cümle</p>
+              </div>
+              <span className="text-[10px] font-bold text-emerald-400 mt-3 inline-flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                Başla →
+              </span>
+            </Link>
+
+            {/* 3. Sınıf */}
+            <Link
+              href="/learn/en-tr/meb-3-sinif-kelimeleri/"
+              className="group p-4 rounded-2xl bg-gradient-to-b from-slate-900/90 to-slate-950 border border-slate-800 hover:border-amber-400 transition-all duration-300 hover:scale-105 shadow-md flex flex-col justify-between"
+            >
+              <div>
+                <div className="w-9 h-9 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-300 font-black text-sm mb-2 group-hover:scale-110 transition-transform">
+                  3
+                </div>
+                <h3 className="font-bold text-white text-sm group-hover:text-amber-300 transition-colors">
+                  3. Sınıf MEB
+                </h3>
+                <p className="text-[11px] text-slate-400 mt-1">Tüm Üniteler & Kalıp Cümleler</p>
+              </div>
+              <span className="text-[10px] font-bold text-amber-400 mt-3 inline-flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                Başla →
+              </span>
+            </Link>
+
+            {/* 4. Sınıf */}
+            <Link
+              href="/learn/en-tr/meb-4-sinif-kelimeleri/"
+              className="group p-4 rounded-2xl bg-gradient-to-b from-slate-900/90 to-slate-950 border border-slate-800 hover:border-purple-400 transition-all duration-300 hover:scale-105 shadow-md flex flex-col justify-between"
+            >
+              <div>
+                <div className="w-9 h-9 rounded-xl bg-purple-500/15 border border-purple-500/30 flex items-center justify-center text-purple-300 font-black text-sm mb-2 group-hover:scale-110 transition-transform">
+                  4
+                </div>
+                <h3 className="font-bold text-white text-sm group-hover:text-purple-300 transition-colors">
+                  4. Sınıf MEB
+                </h3>
+                <p className="text-[11px] text-slate-400 mt-1">Ortaokula Hazırlık & Gramer</p>
+              </div>
+              <span className="text-[10px] font-bold text-purple-400 mt-3 inline-flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                Başla →
+              </span>
+            </Link>
+
+            {/* YDS / Sınav */}
+            <Link
+              href="/learn/en-tr/ingilizce-yds-kelimeleri-yds-grup1-en-tr-v2/"
+              className="group p-4 rounded-2xl bg-gradient-to-b from-slate-900/90 to-slate-950 border border-slate-800 hover:border-rose-400 transition-all duration-300 hover:scale-105 shadow-md flex flex-col justify-between col-span-2 sm:col-span-1"
+            >
+              <div>
+                <div className="w-9 h-9 rounded-xl bg-rose-500/15 border border-rose-500/30 flex items-center justify-center text-rose-300 font-black text-xs mb-2 group-hover:scale-110 transition-transform">
+                  YDS
+                </div>
+                <h3 className="font-bold text-white text-sm group-hover:text-rose-300 transition-colors">
+                  YDS & YÖKDİL
+                </h3>
+                <p className="text-[11px] text-slate-400 mt-1">Top 500 Sınav Kelimesi</p>
+              </div>
+              <span className="text-[10px] font-bold text-rose-400 mt-3 inline-flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                Başla →
+              </span>
+            </Link>
+          </div>
+        </section>
+
+        {/* 4. Veli Başarı Takibi & Karne Vitrini Banner */}
+        <div className="mb-10 p-6 rounded-2xl border-2 border-amber-500/40 bg-gradient-to-r from-amber-950/30 via-slate-900/90 to-indigo-950/40 shadow-xl backdrop-blur-md flex flex-col md:flex-row items-center justify-between gap-6 transition-all duration-300 hover:border-amber-400/70">
+          <div className="flex items-center gap-4 text-center md:text-left">
+            <div className="w-14 h-14 rounded-2xl bg-amber-500/15 border border-amber-500/40 flex items-center justify-center text-3xl shadow-inner shrink-0">
+              🎓
+            </div>
+            <div>
+              <div className="flex items-center gap-2 justify-center md:justify-start">
+                <span className="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                  Veliler İçin Özel
+                </span>
+                <span className="text-[10px] text-slate-400 font-mono">
+                  Otomatik Karne & Raporlama
+                </span>
+              </div>
+              <h3 className="text-lg sm:text-xl font-black text-white mt-1">
+                Çocuğunuzun İngilizce Başarısını Günlük Takip Edin
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-300 max-w-xl mt-0.5 leading-relaxed">
+                Ezberlenen kelimeleri, başarı oranını ve pedagojik gelişim notunu resmi karne olarak görüntüleyin, yüksek çözünürlüklü indirin veya WhatsApp aile grubunda paylaşın.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3 w-full md:w-auto justify-center">
+            <button
+              onClick={() => setParentReportOpen(true)}
+              className="flex-1 md:flex-none inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-sm tracking-wide shadow-lg shadow-amber-500/25 hover:scale-105 active:scale-95 transition-all whitespace-nowrap cursor-pointer"
+            >
+              <span>Veli Karnesini Gör</span>
+              <Award className="w-4 h-4" />
+            </button>
+            <Link
+              href="/profile/"
+              className="flex-1 md:flex-none inline-flex items-center justify-center gap-1.5 px-4 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-sm transition-all whitespace-nowrap"
+            >
+              <span>Profilim</span>
+            </Link>
+          </div>
+        </div>
+
+        {/* 5. Kurumsal Güven Sayaçları Şeridi */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3.5 mb-12">
+          <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
+            <div className="p-2.5 rounded-lg bg-cyan-500/10 text-cyan-400 shrink-0">
+              <BookOpen className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="text-base sm:text-lg font-black text-white">%100 MEB Uyumlu</div>
+              <div className="text-[11px] text-slate-400">1-4. Sınıf Tam Müfredat</div>
+            </div>
+          </div>
+
+          <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
+            <div className="p-2.5 rounded-lg bg-emerald-500/10 text-emerald-400 shrink-0">
+              <Volume2 className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="text-base sm:text-lg font-black text-white">Stüdyo Telaffuz</div>
+              <div className="text-[11px] text-slate-400">+10.000 Doğal Seslendirme</div>
+            </div>
+          </div>
+
+          <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
+            <div className="p-2.5 rounded-lg bg-amber-500/10 text-amber-400 shrink-0">
+              <Brain className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="text-base sm:text-lg font-black text-white">Aralıklı Tekrar</div>
+              <div className="text-[11px] text-slate-400">Memolandum Pulse™ SM-2</div>
+            </div>
+          </div>
+
+          <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
+            <div className="p-2.5 rounded-lg bg-purple-500/10 text-purple-400 shrink-0">
+              <ShieldCheck className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="text-base sm:text-lg font-black text-white">Çocuk Dostu</div>
+              <div className="text-[11px] text-slate-400">Reklamsız & Güvenli Ortam</div>
             </div>
           </div>
         </div>
@@ -236,7 +484,7 @@ export default function HomeClient() {
 .coming-soon-main-title {
   position: relative;
   z-index: 1;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 950;
   letter-spacing: 0.15em;
   color: #fbbf24;
@@ -261,23 +509,23 @@ export default function HomeClient() {
   position: relative;
   z-index: 1;
   margin: 0;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   line-height: 1.35;
   color: #a5f3fc;
-  max-width: 200px;
+  max-width: 220px;
 }
 .banner-action-side { position: relative; display: flex; align-items: center; justify-content: flex-end; }
-.banner-cta-stack { display: flex; flex-direction: column; align-items: stretch; gap: 10px; width: min(100%, 280px); z-index: 2; }
+.banner-cta-stack { display: flex; flex-direction: column; align-items: stretch; gap: 8px; width: min(100%, 280px); z-index: 2; }
 .banner-btn {
-  background: linear-gradient(90deg, #4f46e5, #7c3aed); color: #ffffff; border: none; padding: 14px 28px;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed); color: #ffffff; border: none; padding: 12px 24px;
   font-size: 14px; font-weight: 700; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px;
   box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4); transition: all 0.3s ease;
 }
 .banner-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(124, 58, 237, 0.6); background: linear-gradient(90deg, #5b52f9, #8b4cfc); }
 .banner-btn-pathway {
   display: flex; flex-direction: column; align-items: flex-start; gap: 2px; text-decoration: none;
-  padding: 12px 16px; border-radius: 8px; border: 1.5px solid rgba(34, 211, 238, 0.55);
+  padding: 10px 14px; border-radius: 8px; border: 1.5px solid rgba(34, 211, 238, 0.55);
   background: linear-gradient(135deg, rgba(8, 47, 73, 0.9), rgba(15, 23, 42, 0.95));
   color: #e0f2fe; box-shadow: 0 4px 18px rgba(34, 211, 238, 0.2); transition: all 0.25s ease;
 }
@@ -285,13 +533,13 @@ export default function HomeClient() {
 .banner-btn-pathway:hover { transform: translateY(-2px); border-color: #22d3ee; box-shadow: 0 6px 22px rgba(34, 211, 238, 0.35); }
 .banner-btn-lexicon {
   display: flex; flex-direction: column; align-items: flex-start; gap: 2px; text-decoration: none;
-  padding: 12px 16px; border-radius: 8px; border: 1.5px solid rgba(163, 230, 53, 0.55);
-  background: linear-gradient(135deg, rgba(20, 83, 45, 0.85), rgba(15, 23, 42, 0.95));
-  color: #ecfccb; box-shadow: 0 4px 18px rgba(132, 204, 22, 0.22); transition: all 0.25s ease;
+  padding: 10px 14px; border-radius: 8px; border: 1.5px solid rgba(251, 191, 36, 0.55);
+  background: linear-gradient(135deg, rgba(120, 53, 15, 0.75), rgba(15, 23, 42, 0.95));
+  color: #fef3c7; box-shadow: 0 4px 18px rgba(245, 158, 11, 0.22); transition: all 0.25s ease; text-align: left;
 }
-.banner-btn-lexicon span:first-child { font-size: 13px; font-weight: 800; letter-spacing: 0.02em; }
-.banner-lexicon-sub { font-size: 11px; font-weight: 600; color: #a3e635; opacity: 0.9; line-height: 1.3; }
-.banner-btn-lexicon:hover { transform: translateY(-2px); border-color: #a3e635; box-shadow: 0 6px 22px rgba(163, 230, 53, 0.35); }
+.banner-btn-lexicon span:first-child { font-size: 13px; font-weight: 800; letter-spacing: 0.02em; color: #fbbf24; }
+.banner-lexicon-sub { font-size: 11px; font-weight: 600; color: #fde68a; opacity: 0.9; line-height: 1.3; }
+.banner-btn-lexicon:hover { transform: translateY(-2px); border-color: #fbbf24; box-shadow: 0 6px 22px rgba(245, 158, 11, 0.35); }
 .btn-arrow { transition: transform 0.3s ease; }
 .banner-btn:hover .btn-arrow { transform: translateX(4px); }
 .floating-game-icons { position: absolute; top: -40px; left: -20px; width: 100%; height: 100%; pointer-events: none; }
@@ -350,10 +598,15 @@ export default function HomeClient() {
           }}
         />
 
-        <div id="basla" className="mt-16 scroll-mt-28">
-          <p className="mb-3 text-[10px] font-bold uppercase tracking-[0.16em] text-slate-500">
-            {t("home.step1")} · {t("home.step1Title")}
-          </p>
+        <div id="basla" className="mt-8 scroll-mt-28">
+          <div className="flex items-center justify-between mb-3">
+            <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-slate-500">
+              {t("home.step1")} · {t("home.step1Title")}
+            </p>
+            <span className="text-[11px] font-bold text-cyan-400 bg-cyan-950/40 border border-cyan-500/20 px-2 py-0.5 rounded-full">
+              ⚡ İnteraktif Öğrenme Masası
+            </span>
+          </div>
           <TabbedNavigator />
 
           <div className="mt-10 grid gap-4 lg:grid-cols-2 lg:items-stretch">
@@ -366,6 +619,13 @@ export default function HomeClient() {
           </div>
         </div>
       </main>
+
+      {/* Veli Başarı Karnesi Modalı */}
+      <ParentReportModal
+        isOpen={parentReportOpen}
+        onClose={() => setParentReportOpen(false)}
+        reportData={reportData}
+      />
     </div>
   );
 }

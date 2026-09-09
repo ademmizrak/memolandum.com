@@ -13,6 +13,15 @@ import {
 import { useMemolandumStore } from '../store/useMemolandumStore';
 import { useAnalytics } from '../hooks/useAnalytics';
 
+const PARENT_GRADE_OPTIONS = [
+  { id: "meb-1-sinif-kelimeleri", label: "🎒 1. Sınıf MEB" },
+  { id: "meb-2-sinif-kelimeleri", label: "🎒 2. Sınıf MEB" },
+  { id: "meb-3-sinif-kelimeleri", label: "🎒 3. Sınıf MEB" },
+  { id: "meb-4-sinif-kelimeleri", label: "🎒 4. Sınıf MEB" },
+  { id: "ortaokul-5", label: "🎓 5. Sınıf Ortaokul" },
+  { id: "genel-sinav", label: "🎯 Sınav & Genel" },
+];
+
 export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
   // 'login', 'register', 'verify', 'username', 'forgot'
   const [view, setView] = useState(initialView);
@@ -23,6 +32,13 @@ export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
   const [loading, setLoading] = useState(false);
   const [successMsg, setSuccessMsg] = useState(null);
   const { trackSignUp, trackLogin } = useAnalytics();
+
+  // Veli ve Öğrenci Bilgisi Girişi
+  const [isParentAccountChecked, setIsParentAccountChecked] = useState(false);
+  const [childNameInput, setChildNameInput] = useState('');
+  const [childGradeInput, setChildGradeInput] = useState('meb-2-sinif-kelimeleri');
+  const [childGradeLabel, setChildGradeLabel] = useState('2. Sınıf MEB İngilizce');
+  const [parentEmailDigestChecked, setParentEmailDigestChecked] = useState(true);
   
   const { profile, isAuthenticated, isEmailVerified } = useMemolandumStore();
   const [isIosApp, setIsIosApp] = useState(false);
@@ -162,6 +178,22 @@ export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
       if (!auth.currentUser) throw new Error("Giriş yapılmış hesap bulunamadı.");
       
       await setUsername(auth.currentUser, usernameInput);
+
+      if (isParentAccountChecked && childNameInput.trim()) {
+        const store = useMemolandumStore.getState();
+        store.setIsParentAccount?.(true);
+        store.setParentEmailDigest?.(parentEmailDigestChecked);
+        store.addChildProfile?.({
+          name: childNameInput.trim(),
+          grade: childGradeInput,
+          gradeLabel: childGradeLabel,
+          emailDigest: parentEmailDigestChecked,
+        });
+        if (childGradeInput.startsWith("meb-")) {
+          store.setLastPlayed?.("en-tr", childGradeInput, "word-card");
+        }
+      }
+
       onClose();
     } catch (err) {
       setError(err.message || 'Kullanıcı adı ayarlanamadı.');
@@ -192,8 +224,8 @@ export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm px-4">
       <div 
-        className="bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl p-8 relative overflow-hidden"
-        style={{ width: '100%', maxWidth: '450px' }}
+        className="bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl p-6 sm:p-8 relative overflow-y-auto max-h-[92vh]"
+        style={{ width: '100%', maxWidth: '480px' }}
       >
         
         {/* Close Button */}
@@ -396,35 +428,129 @@ export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
           </div>
         )}
 
-        {/* View: Set Username */}
+        {/* View: Set Username & Optional Parent Onboarding */}
         {view === 'username' && (
           <div>
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-white mb-2">Sizi Nasıl Çağıralım?</h2>
-              <p className="text-gray-400 text-sm">
-                Liderlik tablosunda görünecek eşsiz kullanıcı adınızı belirleyin.
+            <div className="text-center mb-5">
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-1.5">
+                {isParentAccountChecked ? "Veli ve Öğrenci Kaydı" : "Sizi Nasıl Çağıralım?"}
+              </h2>
+              <p className="text-gray-400 text-xs sm:text-sm">
+                {isParentAccountChecked 
+                  ? "Çocuğunuzun İngilizce gelişimini takip etmek için bilgilerinizi tamamlayın."
+                  : "Liderlik tablosunda görünecek eşsiz kullanıcı adınızı belirleyin."}
               </p>
             </div>
-            <form onSubmit={handleSetUsername} className="space-y-6">
+            <form onSubmit={handleSetUsername} className="space-y-4">
               <div>
+                <label className="block text-xs font-semibold text-gray-300 mb-1">
+                  {isParentAccountChecked ? "Veli Kullanıcı Adı / Hitap" : "Kullanıcı Adı"}
+                </label>
                 <input
                   type="text"
-                  placeholder="Kullanıcı Adı"
+                  placeholder={isParentAccountChecked ? "Örn: Selin Hanım, Ahmet Bey..." : "Kullanıcı Adı"}
                   value={usernameInput}
                   onChange={(e) => setUsernameInput(e.target.value.replace(/[^a-zA-Z0-9_ çÇğĞıİöÖşŞüÜ.-]/g, ''))}
-                  className="w-full bg-gray-800 border border-gray-700 text-white rounded-xl px-4 py-3 focus:outline-none focus:border-cyan-500 transition-colors"
+                  className="w-full bg-gray-800 border border-gray-700 text-white rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-cyan-500 transition-colors"
                   required
                   minLength={3}
                   maxLength={20}
                 />
-                <p className="text-xs text-gray-500 mt-2">Sadece harf, rakam ve alt çizgi (_) kullanabilirsiniz.</p>
+                <p className="text-[11px] text-gray-500 mt-1">Sadece harf, rakam ve alt çizgi (_) kullanabilirsiniz.</p>
               </div>
+
+              {/* Veli Modu Seçim Kartı */}
+              <div 
+                onClick={() => setIsParentAccountChecked(!isParentAccountChecked)}
+                className={`p-3.5 rounded-xl border transition-all cursor-pointer flex items-start gap-3 select-none ${
+                  isParentAccountChecked 
+                    ? 'bg-amber-500/10 border-amber-500/50 shadow-md shadow-amber-500/10' 
+                    : 'bg-gray-800/40 border-gray-700/80 hover:border-gray-600'
+                }`}
+              >
+                <input 
+                  type="checkbox" 
+                  checked={isParentAccountChecked} 
+                  onChange={(e) => setIsParentAccountChecked(e.target.checked)}
+                  onClick={(e) => e.stopPropagation()}
+                  className="mt-0.5 w-4 h-4 rounded text-amber-500 accent-amber-500 shrink-0 cursor-pointer"
+                />
+                <div>
+                  <div className="flex items-center gap-1.5 text-xs sm:text-sm font-bold text-white">
+                    <span>👨‍👩‍👧 Veli Olarak Kaydoluyorum</span>
+                    <span className="text-[9px] uppercase font-mono px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                      Çocuğum İçin
+                    </span>
+                  </div>
+                  <p className="text-[11px] sm:text-xs text-gray-400 mt-0.5 leading-snug">
+                    Çocuğumun sınıfına uygun kelimeleri takip etmek, haftalık karne ve bildirim almak istiyorum.
+                  </p>
+                </div>
+              </div>
+
+              {/* Veli Seçildiyse Açılan Çocuk Bilgi Alanı */}
+              {isParentAccountChecked && (
+                <div className="p-3.5 rounded-xl bg-slate-950/80 border border-amber-500/30 space-y-3 animate-in fade-in slide-in-from-top-2 duration-200">
+                  <div>
+                    <label className="block text-xs font-bold text-slate-300 mb-1">
+                      Öğrenci / Çocuk Adı:
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Örn: Kerem, Zeynep..."
+                      value={childNameInput}
+                      onChange={(e) => setChildNameInput(e.target.value)}
+                      className="w-full bg-gray-800 border border-gray-700 text-white rounded-lg px-3 py-2 text-xs sm:text-sm focus:outline-none focus:border-amber-400 transition-colors"
+                      required={isParentAccountChecked}
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-bold text-slate-300 mb-1.5">
+                      Öğrencinin Sınıfı / Düzeyi:
+                    </label>
+                    <div className="grid grid-cols-2 gap-1.5">
+                      {PARENT_GRADE_OPTIONS.map((g) => (
+                        <button
+                          type="button"
+                          key={g.id}
+                          onClick={() => {
+                            setChildGradeInput(g.id);
+                            setChildGradeLabel(g.label);
+                          }}
+                          className={`p-2 rounded-lg text-xs font-bold border transition-all text-left flex items-center justify-between ${
+                            childGradeInput === g.id
+                              ? 'bg-amber-500/20 border-amber-400 text-amber-300 shadow-sm'
+                              : 'bg-gray-800/60 border-gray-700/80 text-gray-400 hover:text-white hover:bg-gray-800'
+                          }`}
+                        >
+                          <span className="truncate">{g.label}</span>
+                          {childGradeInput === g.id && <span className="text-[10px] shrink-0 ml-1">✓</span>}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  <label className="flex items-center gap-2 cursor-pointer pt-1">
+                    <input
+                      type="checkbox"
+                      checked={parentEmailDigestChecked}
+                      onChange={(e) => setParentEmailDigestChecked(e.target.checked)}
+                      className="w-3.5 h-3.5 rounded text-amber-500 accent-amber-500 cursor-pointer"
+                    />
+                    <span className="text-[11px] text-slate-300">
+                      Haftalık başarı karnesi ve çalışma bildirimlerini e-posta ile al
+                    </span>
+                  </label>
+                </div>
+              )}
+
               <button
                 type="submit"
-                disabled={loading || usernameInput.length < 3}
-                className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-3 px-4 rounded-xl transition-colors disabled:opacity-50"
+                disabled={loading || usernameInput.length < 3 || (isParentAccountChecked && !childNameInput.trim())}
+                className="w-full bg-gradient-to-r from-cyan-600 to-cyan-500 hover:from-cyan-500 hover:to-cyan-400 text-white font-bold py-3 px-4 rounded-xl transition-all shadow-lg shadow-cyan-600/20 disabled:opacity-50 text-sm cursor-pointer"
               >
-                {loading ? 'Kontrol Ediliyor...' : 'Kaydet ve Başla'}
+                {loading ? 'İşleniyor...' : (isParentAccountChecked ? '👨‍👩‍👧 Veli & Öğrenci Profilini Başlat' : 'Kaydet ve Başla')}
               </button>
             </form>
           </div>

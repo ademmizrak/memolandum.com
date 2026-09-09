@@ -24,6 +24,9 @@ import PremiumCheckoutModal from "../../components/premium/PremiumCheckoutModal"
 import { RetroLineChart } from "../../components/ui/charts/RetroLineChart";
 import { RetroBarChart } from "../../components/ui/charts/RetroBarChart";
 import { RetroRadialChart } from "../../components/ui/charts/RetroRadialChart";
+import ParentReportModal from "../../components/profile/ParentReportModal";
+import ParentStudentHub from "../../components/profile/ParentStudentHub";
+import { calculateParentReportData } from "../../lib/reports/reportGenerator";
 
 const PRESET_AVATARS = [
   "https://api.dicebear.com/9.x/bottts/svg?seed=Felix",
@@ -60,6 +63,10 @@ export default function ProfilePage() {
   const localStats = useMemolandumStore((s) => s.globalStats);
   const vocabularyVault = useMemolandumStore((s) => s.vocabularyVault) || {};
   const quizHistory = useMemolandumStore((s) => s.quizHistory) || [];
+  const activeStudyProfile = useMemolandumStore((s) => s.getActiveStudyProfile?.() || null);
+  const lastPlayedLevel = useMemolandumStore((s) => s.lastPlayedLevel);
+  const childrenProfiles = useMemolandumStore((s) => s.childrenProfiles) || [];
+  const activeChildId = useMemolandumStore((s) => s.activeChildId);
 
   const allWords = React.useMemo(() => {
     return Object.values(vocabularyVault);
@@ -129,6 +136,21 @@ export default function ProfilePage() {
   }, [allWords]);
 
   const [globalStats, setGlobalStats] = useState(null);
+  const [selectedChildForReport, setSelectedChildForReport] = useState(null);
+
+  const currentSelectedChild = selectedChildForReport || childrenProfiles.find((c) => c.id === activeChildId) || childrenProfiles[0] || null;
+
+  const parentReportData = React.useMemo(() => {
+    return calculateParentReportData({
+      vocabularyVault,
+      quizHistory,
+      globalStats: globalStats || localStats,
+      profile,
+      activeStudyProfile,
+      lastPlayedLevel,
+      selectedChild: currentSelectedChild,
+    });
+  }, [vocabularyVault, quizHistory, globalStats, localStats, profile, activeStudyProfile, lastPlayedLevel, currentSelectedChild]);
   const [mounted, setMounted] = useState(false);
   const [isEditingUsername, setIsEditingUsername] = useState(false);
   const [newUsernameInput, setNewUsernameInput] = useState("");
@@ -145,6 +167,7 @@ export default function ProfilePage() {
 
   // Auth modal for guests
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [parentReportOpen, setParentReportOpen] = useState(false);
   const [showLogoutConfirm, setShowLogoutConfirm] = useState(false);
   const [isLoggingOut, setIsLoggingOut] = useState(false);
   const [premiumOpen, setPremiumOpen] = useState(false);
@@ -475,6 +498,14 @@ export default function ProfilePage() {
         )}
 
         <StudyProfilesPanel />
+
+        {/* Veli & Öğrenci Takip Merkezi (Parent-Student Hub) */}
+        <ParentStudentHub
+          onOpenReport={(child) => {
+            setSelectedChildForReport(child);
+            setParentReportOpen(true);
+          }}
+        />
 
         {/* Profile Hero Card */}
         <div 
@@ -1086,6 +1117,13 @@ export default function ProfilePage() {
           transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1); 
         }
       `}</style>
+
+      {/* Veli Rapor & Başarı Karnesi Modalı */}
+      <ParentReportModal
+        isOpen={parentReportOpen}
+        onClose={() => setParentReportOpen(false)}
+        reportData={parentReportData}
+      />
     </div>
   );
 }

@@ -753,6 +753,25 @@ export const syncUserProgress = async (user) => {
           console.log("🔥 Legacy XP migrated successfully!");
         }
       }
+
+      // --- Veli ve Çocuk Profilleri Senkronizasyonu ---
+      const currentStore = useMemolandumStore.getState();
+      if (userData.isParentAccount || (Array.isArray(userData.childrenProfiles) && userData.childrenProfiles.length > 0)) {
+        useMemolandumStore.setState({
+          isParentAccount: !!userData.isParentAccount,
+          parentEmailDigest: userData.parentEmailDigest !== false,
+          childrenProfiles: userData.childrenProfiles || currentStore.childrenProfiles || [],
+          activeChildId: userData.activeChildId || currentStore.activeChildId || (userData.childrenProfiles?.[0]?.id ?? null),
+        });
+      } else if (currentStore.isParentAccount && currentStore.childrenProfiles?.length > 0) {
+        await setDoc(userDocRef, {
+          isParentAccount: currentStore.isParentAccount,
+          parentEmailDigest: currentStore.parentEmailDigest !== false,
+          childrenProfiles: currentStore.childrenProfiles,
+          activeChildId: currentStore.activeChildId,
+          parentUpdatedAt: serverTimestamp(),
+        }, { merge: true });
+      }
     }
 
   } catch (error) {
@@ -810,4 +829,41 @@ export const deleteWordFromCloud = async (uid, wordId) => {
     console.error("Error deleting word from cloud:", e);
   }
 };
+
+/**
+ * Veli ve Öğrenci Profillerini Firestore'a senkronize eder
+ */
+export const syncParentDataToCloud = async (uid, parentData) => {
+  if (!uid || !db || !parentData) return;
+  try {
+    const userDocRef = doc(db, 'users', uid);
+    await setDoc(userDocRef, {
+      ...parentData,
+      parentUpdatedAt: serverTimestamp(),
+    }, { merge: true });
+  } catch (err) {
+    console.warn("Parent data cloud sync warning:", err?.message || err);
+  }
+};
+
+/**
+ * Çocuğun çalışma aktivitesini veli takip günlüğüne ve Firestore'a işler
+ */
+export const logParentActivityToCloud = async (uid, activityEntry, childUpdates) => {
+  if (!uid || !db) return;
+  try {
+    const userDocRef = doc(db, 'users', uid);
+    const updates = {
+      lastChildActivity: {
+        ...activityEntry,
+        loggedAt: serverTimestamp(),
+      },
+      ...(childUpdates ? { activeChildLastStudied: childUpdates } : {}),
+    };
+    await setDoc(userDocRef, updates, { merge: true });
+  } catch (err) {
+    console.warn("Child activity log cloud warning:", err?.message || err);
+  }
+};
+
 
