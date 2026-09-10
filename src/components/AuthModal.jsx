@@ -14,10 +14,10 @@ import { useMemolandumStore } from '../store/useMemolandumStore';
 import { useAnalytics } from '../hooks/useAnalytics';
 
 const PARENT_GRADE_OPTIONS = [
-  { id: "meb-1-sinif-kelimeleri", label: "🎒 1. Sınıf MEB" },
-  { id: "meb-2-sinif-kelimeleri", label: "🎒 2. Sınıf MEB" },
-  { id: "meb-3-sinif-kelimeleri", label: "🎒 3. Sınıf MEB" },
-  { id: "meb-4-sinif-kelimeleri", label: "🎒 4. Sınıf MEB" },
+  { id: "meb-1-sinif-kelimeleri", label: "🎒 1. Sınıf İngilizce" },
+  { id: "meb-2-sinif-kelimeleri", label: "🎒 2. Sınıf İngilizce" },
+  { id: "meb-3-sinif-kelimeleri", label: "🎒 3. Sınıf İngilizce" },
+  { id: "meb-4-sinif-kelimeleri", label: "🎒 4. Sınıf İngilizce" },
   { id: "ortaokul-5", label: "🎓 5. Sınıf Ortaokul" },
   { id: "genel-sinav", label: "🎯 Sınav & Genel" },
 ];
@@ -37,7 +37,7 @@ export default function AuthModal({ isOpen, onClose, initialView = 'login' }) {
   const [isParentAccountChecked, setIsParentAccountChecked] = useState(false);
   const [childNameInput, setChildNameInput] = useState('');
   const [childGradeInput, setChildGradeInput] = useState('meb-2-sinif-kelimeleri');
-  const [childGradeLabel, setChildGradeLabel] = useState('2. Sınıf MEB İngilizce');
+  const [childGradeLabel, setChildGradeLabel] = useState('2. Sınıf İngilizce');
   const [parentEmailDigestChecked, setParentEmailDigestChecked] = useState(true);
   
   const { profile, isAuthenticated, isEmailVerified } = useMemolandumStore();

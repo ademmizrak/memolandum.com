@@ -49,7 +49,7 @@ export default function HomeClient() {
   useEffect(() => {
     if (typeof window === "undefined") return;
     const hash = window.location.hash;
-    if (hash === "#basla" || hash === "#kpss" || hash === "#meb-grades") {
+    if (hash === "#basla" || hash === "#kpss" || hash === "#ilkokul-grades" || hash === "#meb-grades") {
       requestAnimationFrame(() => {
         document.getElementById(hash.slice(1))?.scrollIntoView({
           behavior: "smooth",
@@ -75,7 +75,7 @@ export default function HomeClient() {
             <span className="text-xl animate-bounce">🎒</span>
             <div>
               <span className="text-xs sm:text-sm font-black text-white">
-                2026-2027 MEB Okula Dönüş Özel:
+                2026-2027 Okula Dönüş Özel:
               </span>
               <span className="text-xs text-cyan-300 ml-1.5 hidden md:inline">
                 İlkokul 1, 2, 3 ve 4. Sınıf İngilizce Kelimeleri & Sesli Cümleleri Yayında!
@@ -83,7 +83,7 @@ export default function HomeClient() {
             </div>
           </div>
           <a
-            href="#meb-grades"
+            href="#ilkokul-grades"
             className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-300 hover:text-white bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 px-3.5 py-1.5 rounded-lg transition-all shadow-sm cursor-pointer"
           >
             <span>Sınıfını Seç & Başla</span>
@@ -108,13 +108,13 @@ export default function HomeClient() {
                 </Link>
               </div>
 
-              {/* Orta Öne Çıkan Kart: MEB Okula Dönüş & KPSS */}
+              {/* Orta Öne Çıkan Kart: Okula Dönüş & KPSS */}
               <div className="banner-coming-soon hover:scale-[1.02] transition-all duration-300">
                 <span className="coming-soon-pulse" aria-hidden />
                 <span className="coming-soon-badge !border-amber-400/60 !text-amber-200">
                   ⚡ 2026-2027 YENİ DÖNEM
                 </span>
-                <div className="coming-soon-main-title">MEB İLKOKUL</div>
+                <div className="coming-soon-main-title">İLKOKUL İNGİLİZCE</div>
                 <p className="coming-soon-sub-topics">1 · 2 · 3 · 4. SINIF İNGİLİZCE</p>
                 <p className="coming-soon-tagline">
                   Sesli Cümleler, Oyunlar ve Resimli Kelime Kartlarıyla Kalıcı Ezber
@@ -164,12 +164,12 @@ export default function HomeClient() {
           </div>
         </div>
 
-        {/* 3. MEB İlkokul & Sınav Hızlı Sınıf Seçici (#meb-grades) */}
-        <section id="meb-grades" className="mb-10 scroll-mt-24">
+        {/* 3. İlkokul & Sınav Hızlı Sınıf Seçici (#ilkokul-grades) */}
+        <section id="ilkokul-grades" className="mb-10 scroll-mt-24">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
             <div>
               <span className="text-[11px] font-mono font-bold tracking-widest uppercase text-cyan-400 bg-cyan-950/60 px-2.5 py-0.5 rounded-md border border-cyan-500/30">
-                MEB İngilizce Müfredatı
+                İlkokul İngilizce Müfredatı
               </span>
               <h2 className="text-xl sm:text-2xl font-black text-white mt-1">
                 Sınıfını Seç, Hemen Kelime Oyununa Başla
@@ -191,7 +191,7 @@ export default function HomeClient() {
                   1
                 </div>
                 <h3 className="font-bold text-white text-sm group-hover:text-cyan-300 transition-colors">
-                  1. Sınıf MEB
+                  1. Sınıf İngilizce
                 </h3>
                 <p className="text-[11px] text-slate-400 mt-1">Temel 100 Kelime (Görsel & Sesli)</p>
               </div>
@@ -210,7 +210,7 @@ export default function HomeClient() {
                   2
                 </div>
                 <h3 className="font-bold text-white text-sm group-hover:text-emerald-300 transition-colors">
-                  2. Sınıf MEB
+                  2. Sınıf İngilizce
                 </h3>
                 <p className="text-[11px] text-slate-400 mt-1">Kelimeler + 100 Sesli Cümle</p>
               </div>
@@ -229,7 +229,7 @@ export default function HomeClient() {
                   3
                 </div>
                 <h3 className="font-bold text-white text-sm group-hover:text-amber-300 transition-colors">
-                  3. Sınıf MEB
+                  3. Sınıf İngilizce
                 </h3>
                 <p className="text-[11px] text-slate-400 mt-1">Tüm Üniteler & Kalıp Cümleler</p>
               </div>
@@ -248,7 +248,7 @@ export default function HomeClient() {
                   4
                 </div>
                 <h3 className="font-bold text-white text-sm group-hover:text-purple-300 transition-colors">
-                  4. Sınıf MEB
+                  4. Sınıf İngilizce
                 </h3>
                 <p className="text-[11px] text-slate-400 mt-1">Ortaokula Hazırlık & Gramer</p>
               </div>
@@ -329,7 +329,7 @@ export default function HomeClient() {
               <BookOpen className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-base sm:text-lg font-black text-white">%100 MEB Uyumlu</div>
+              <div className="text-base sm:text-lg font-black text-white">%100 Okul Müfredatına Uygun</div>
               <div className="text-[11px] text-slate-400">1-4. Sınıf Tam Müfredat</div>
             </div>
           </div>

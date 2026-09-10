@@ -28,10 +28,10 @@ import WeakWordsModal from "../learning/WeakWordsModal";
 import { getWeakWords } from "../../lib/learning/weakWordsService";
 
 const GRADE_PRESETS = [
-  { id: "meb-1-sinif-kelimeleri", label: "🎒 1. Sınıf MEB İngilizce", path: "/learn/en-tr/meb-1-sinif-kelimeleri/" },
-  { id: "meb-2-sinif-kelimeleri", label: "🎒 2. Sınıf MEB İngilizce", path: "/learn/en-tr/meb-2-sinif-kelimeleri/" },
-  { id: "meb-3-sinif-kelimeleri", label: "🎒 3. Sınıf MEB İngilizce", path: "/learn/en-tr/meb-3-sinif-kelimeleri/" },
-  { id: "meb-4-sinif-kelimeleri", label: "🎒 4. Sınıf MEB İngilizce", path: "/learn/en-tr/meb-4-sinif-kelimeleri/" },
+  { id: "meb-1-sinif-kelimeleri", label: "🎒 1. Sınıf İngilizce", path: "/learn/en-tr/meb-1-sinif-kelimeleri/" },
+  { id: "meb-2-sinif-kelimeleri", label: "🎒 2. Sınıf İngilizce", path: "/learn/en-tr/meb-2-sinif-kelimeleri/" },
+  { id: "meb-3-sinif-kelimeleri", label: "🎒 3. Sınıf İngilizce", path: "/learn/en-tr/meb-3-sinif-kelimeleri/" },
+  { id: "meb-4-sinif-kelimeleri", label: "🎒 4. Sınıf İngilizce", path: "/learn/en-tr/meb-4-sinif-kelimeleri/" },
   { id: "ortaokul-5", label: "🎓 5. Sınıf Ortaokul", path: "/learn/en-tr/" },
   { id: "genel-sinav", label: "🎯 Sınav & Genel Hazırlık", path: "/learn/en-tr/" },
 ];
@@ -84,7 +84,7 @@ export default function ParentStudentHub({ onOpenReport }) {
     addChildProfile({
       name: newChildName.trim(),
       grade: newChildGrade,
-      gradeLabel: matchedPreset ? matchedPreset.label : "MEB İngilizce",
+      gradeLabel: matchedPreset ? matchedPreset.label : "İlkokul İngilizce",
       dailyTarget: Number(newChildDailyTarget) || 15,
     });
 
@@ -96,7 +96,7 @@ export default function ParentStudentHub({ onOpenReport }) {
     if (!activeChild) return;
     const url = getWhatsAppParentDigestUrl({
       studentName: activeChild.name,
-      curriculumName: activeChild.gradeLabel || "MEB İngilizce",
+      curriculumName: activeChild.gradeLabel || "İlkokul İngilizce",
       activitySummary: latestLog?.summary || activeChild.lastStudiedTopic || "Ders tamamlandı",
       accuracyRate: 95,
       wordsCount: latestLog?.wordsCount || activeChild.dailyTarget || 15,
@@ -132,7 +132,7 @@ export default function ParentStudentHub({ onOpenReport }) {
                 Veli Misiniz? Çocuğunuzun İngilizce İlerlemesini Takip Edin
               </h2>
               <p className="text-xs sm:text-sm text-slate-300 max-w-xl mt-1 leading-relaxed">
-                Çocuğunuz sitemizde çalıştığında anında haberdar olun, sınıfına (1, 2, 3, 4. Sınıf MEB) özel kelimeleri pekiştirmesini sağlayın ve tek tıkla resmi başarı karnesi indirin.
+                Çocuğunuz sitemizde çalıştığında anında haberdar olun, sınıfına (1, 2, 3, 4. Sınıf) özel kelimeleri pekiştirmesini sağlayın ve tek tıkla resmi başarı karnesi indirin.
               </p>
             </div>
           </div>
@@ -300,7 +300,7 @@ export default function ParentStudentHub({ onOpenReport }) {
                   />
                   <span>{child.name}</span>
                   <span className="text-[10px] opacity-70">
-                    ({child.gradeLabel?.split(" ")[0] || "MEB"})
+                    ({child.gradeLabel?.split(" ")[0] || "İlkokul"})
                   </span>
                 </button>
               );
@@ -330,7 +330,7 @@ export default function ParentStudentHub({ onOpenReport }) {
                   className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl border-2 border-amber-400 bg-slate-950 p-1 shadow-xl shadow-amber-500/10"
                 />
                 <span className="absolute -bottom-2 -right-1 px-2 py-0.5 rounded-md text-[10px] font-black uppercase tracking-wider bg-slate-900 text-amber-300 border border-amber-500/40">
-                  {activeChild.gradeLabel?.split(" ")[0] || "MEB"}
+                  {activeChild.gradeLabel?.split(" ")[0] || "İlkokul"}
                 </span>
               </div>
 
@@ -340,7 +340,7 @@ export default function ParentStudentHub({ onOpenReport }) {
                     {activeChild.name}
                   </h3>
                   <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-indigo-950/80 text-cyan-300 border border-cyan-500/40">
-                    {activeChild.gradeLabel || "MEB İngilizce"}
+                    {activeChild.gradeLabel || "İlkokul İngilizce"}
                   </span>
                 </div>
 

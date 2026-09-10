@@ -166,7 +166,7 @@ export default function JoinClassModal({ isOpen, onClose }) {
                   <span>{joinedData.currentAssignment.unitName}</span>
                 </div>
                 <div className="flex items-center justify-between text-[11px] text-slate-400 pt-1">
-                  <span>Hedef: {joinedData.currentAssignment.targetWords} MEB Kelimesi</span>
+                  <span>Hedef: {joinedData.currentAssignment.targetWords} Kelime</span>
                   <span>Bitiş: {joinedData.currentAssignment.dueDate}</span>
                 </div>
               </div>

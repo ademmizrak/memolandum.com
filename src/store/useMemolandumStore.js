@@ -563,7 +563,7 @@ export const useMemolandumStore = create(
           id: childId,
           name: childData.name || "Öğrenci",
           grade: childData.grade || "meb-2-sinif-kelimeleri",
-          gradeLabel: childData.gradeLabel || "2. Sınıf MEB İngilizce",
+          gradeLabel: childData.gradeLabel || "2. Sınıf İngilizce",
           avatar: childData.avatar || `https://api.dicebear.com/9.x/bottts/svg?seed=${seed}`,
           dailyTarget: Number(childData.dailyTarget) || 15,
           createdAt: Date.now(),

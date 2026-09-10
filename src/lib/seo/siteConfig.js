@@ -1,7 +1,7 @@
 /** Memolandum SEO / GEO — Küresel anahtar kelime mimarisi
  *
  *  Kapsam: 23 dil yolu · KPSS / akademik sözlük · Gemini Anlık Çeviri ·
- *          MEB İlkokul İngilizce (1–4. sınıf kelime + 2–4. sınıf cümle)
+ *          İlkokul İngilizce (1–4. sınıf kelime + 2–4. sınıf cümle)
  *
  *  ⚠️  TİKTOK GÜVENLİK NOTU:
  *  "Subliminal" ve "brain hacking" terimleri TikTok içerik politikasında
@@ -32,9 +32,9 @@ export const PRODUCT_COUNTS = {
   translateLanguages: 14,
   glossaryConcepts: 4000,
   glossaryCategories: 10,
-  /** MEB İlkokul İngilizce — kelime setleri (1.–4. sınıf) */
+  /** İlkokul İngilizce — kelime setleri (1.–4. sınıf) */
   mebWordGrades: 4,
-  /** MEB İlkokul İngilizce — cümle setleri (2.–4. sınıf) */
+  /** İlkokul İngilizce — cümle setleri (2.–4. sınıf) */
   mebSentenceGrades: 3,
   /** Yaklaşık kelime/cümle kartı (sınıf başına ~100) */
   mebFlashcards: 700,
@@ -74,12 +74,12 @@ export const STUDY_LANGUAGE_NAMES = {
 
 /* ── Başlık & Açıklama (Google ≤60 / ≤160 karakter hedefi) ─────────────── */
 export const DEFAULT_TITLE =
-  "Memolandum — 23 Dil · MEB İlkokul · KPSS & Anlık Çeviri";
-// ~58 karakter — brand + dil + MEB + KPSS + çeviri
+  "Memolandum — 23 Dil · İlkokul İngilizce · KPSS & Anlık Çeviri";
+// ~58 karakter — brand + dil + İlkokul + KPSS + çeviri
 
 export const DEFAULT_DESCRIPTION =
-  "23 dil yolu · MEB İlkokul İngilizce (1–4. sınıf kelime, 2–4. sınıf cümle) · 8 arcade oyun · KPSS sözlük · Gemini Anlık Çeviri. Spaced repetition — Memolandum.";
-// ~155 karakter — learn + MEB + KPSS + çeviri
+  "23 dil yolu · İlkokul İngilizce (1–4. sınıf kelime, 2–4. sınıf cümle) · 8 arcade oyun · KPSS sözlük · Gemini Anlık Çeviri. Spaced repetition — Memolandum.";
+// ~155 karakter — learn + İlkokul + KPSS + çeviri
 
 /* ── Genişletilmiş Anahtar Kelime Bankası ───────────────────────────────── */
 export const KEYWORDS = [
@@ -110,9 +110,9 @@ export const KEYWORDS = [
   "spaced repetition türkçe uygulama",
   "Anki alternatifi Türkçe",
 
-  // 🇹🇷 MEB İlkokul İngilizce
-  "MEB ilkokul İngilizce",
-  "MEB müfredat İngilizce kelimeler",
+  // 🇹🇷 İlkokul İngilizce
+  "ilkokul İngilizce",
+  "ilkokul müfredat İngilizce kelimeler",
   "1. sınıf İngilizce kelimeler",
   "2. sınıf İngilizce kelimeler",
   "3. sınıf İngilizce kelimeler",
@@ -122,12 +122,12 @@ export const KEYWORDS = [
   "4. sınıf İngilizce cümleler",
   "ilkokul İngilizce kelime kartı",
   "ilkokul İngilizce cümle ezberleme",
-  "MEB ünite İngilizce",
+  "okul ünite İngilizce",
   "çocuklar için İngilizce kelime oyunu",
   "ilkokul İngilizce oyunla öğrenme",
   "primary school English Turkey",
-  "MEB grade 1 English vocabulary",
-  "MEB grade 4 English sentences",
+  "primary grade 1 English vocabulary",
+  "primary grade 4 English sentences",
 
   // 🇹🇷 Anlık çeviri
   "anlık çeviri",
@@ -231,7 +231,7 @@ export const KEYWORDS = [
   "memolandum anlık çeviri",
   "memolandum KPSS",
   "memolandum sözlük",
-  "memolandum MEB ilkokul",
+  "memolandum ilkokul ingilizce",
   "memolandum kelime kartı",
 ];
 
@@ -300,9 +300,9 @@ export const GAME_META = {
       "KPSS ve akademik kavramları kart destesiyle çalışın. Spaced repetition destekli My Lexicon — Memolandum Sözlük.",
   },
   "word-card": {
-    title: "Kelime Kartı — MEB İlkokul İngilizce | Memolandum",
+    title: "Kelime Kartı — İlkokul İngilizce | Memolandum",
     description:
-      "Görsel ve sesli kelime/cümle kartlarıyla MEB 1–4. sınıf İngilizce çalışın. Ünite ünite müfredat · çocuk dostu seslendirme · ücretsiz Word Card.",
+      "Görsel ve sesli kelime/cümle kartlarıyla 1–4. sınıf İngilizce çalışın. Ünite ünite okul müfredatı · çocuk dostu seslendirme · ücretsiz Word Card.",
   },
 };
 
@@ -311,7 +311,7 @@ export const FAQ_ITEMS = [
   {
     question: "Memolandum nedir?",
     answer:
-      "Memolandum, kelime ezberlemeyi 8 arcade oyunla birleştiren küresel bir dil öğrenme platformudur. 23 dil yolunda (İngilizce, Almanca, Fransızca, İspanyolca, Rusça, Korece, Portekizce, Yunanca, İtalyanca, Japonca, Arapça, Çince ve EN/TR yönleri) çalışır. Milli Eğitim (MEB) İlkokul İngilizce (1–4. sınıf kelime, 2–4. sınıf cümle), KPSS & akademik sözlük (4.000 kavram), Gemini Anlık Çeviri (14 dil) ve Kelime Kasası ile spaced repetition sunar. Tüm oyunlar ücretsizdir; AI çeviri üye hesabında ilk 10 denemeden sonra Premium’dur.",
+      "Memolandum, kelime ezberlemeyi 8 arcade oyunla birleştiren küresel bir dil öğrenme platformudur. 23 dil yolunda (İngilizce, Almanca, Fransızca, İspanyolca, Rusça, Korece, Portekizce, Yunanca, İtalyanca, Japonca, Arapça, Çince ve EN/TR yönleri) çalışır. İlkokul İngilizce (1–4. sınıf kelime, 2–4. sınıf cümle), KPSS & akademik sözlük (4.000 kavram), Gemini Anlık Çeviri (14 dil) ve Kelime Kasası ile spaced repetition sunar. Tüm oyunlar ücretsizdir; AI çeviri üye hesabında ilk 10 denemeden sonra Premium’dur.",
   },
   {
     question: "Memolandum ücretsiz mi?",
@@ -346,12 +346,12 @@ export const FAQ_ITEMS = [
   {
     question: "YDS veya sınav kelimeleri var mı?",
     answer:
-      "Evet. Genel İngilizce yanında YDS/YKS kelime setleri, seviye bazlı (A1–Advanced) listeler, KPSS akademik sözlük ve Milli Eğitim Bakanlığı (MEB) İlkokul İngilizce müfredatı (1–4. sınıf kelime + 2–4. sınıf cümle) sunulur.",
+      "Evet. Genel İngilizce yanında YDS/YKS kelime setleri, seviye bazlı (A1–Advanced) listeler, KPSS akademik sözlük ve İlkokul İngilizce müfredatı (1–4. sınıf kelime + 2–4. sınıf cümle) sunulur.",
   },
   {
-    question: "MEB İlkokul İngilizce var mı?",
+    question: "İlkokul İngilizce var mı?",
     answer:
-      "Evet. Memolandum’da MEB müfredatına uyumlu İlkokul İngilizce paketleri vardır: 1.–4. sınıf kelime setleri ve 2.–4. sınıf temel cümleler (sınıf başına ~100 kart). Ünite ünite çalışılır; Kelime Kartı oyununda görsel + çocuk dostu seslendirme vardır. Başlamak için https://memolandum.com/learn/en-tr/ sayfasındaki İlkokul paketini veya doğrudan /games/word-card/ adresini kullanın.",
+      "Evet. Memolandum’da okul müfredatına uyumlu İlkokul İngilizce paketleri vardır: 1.–4. sınıf kelime setleri ve 2.–4. sınıf temel cümleler (sınıf başına ~100 kart). Ünite ünite çalışılır; Kelime Kartı oyununda görsel + çocuk dostu seslendirme vardır. Başlamak için https://memolandum.com/learn/en-tr/ sayfasındaki İlkokul paketini veya doğrudan /games/word-card/ adresini kullanın.",
   },
   {
     question: "Duolingo'ya alternatif mi?",
@@ -390,7 +390,7 @@ export const FAQ_ITEMS_EN = [
   {
     question: "What is Memolandum?",
     answer:
-      "Memolandum is a global vocabulary platform that teaches words through 8 arcade games across 23 language pathways (12 study languages with EN/TR explanation directions). It includes Turkey’s MEB primary-school English (grades 1–4 words, grades 2–4 sentences), a KPSS & academic glossary (~4,000 concepts), Gemini Instant Translation (14 targets including Ottoman Turkish), Word Vault, and spaced repetition. All games are free; AI translation is 10 free uses per member account, then Premium.",
+      "Memolandum is a global vocabulary platform that teaches words through 8 arcade games across 23 language pathways (12 study languages with EN/TR explanation directions). It includes primary-school English curriculum (grades 1–4 words, grades 2–4 sentences), a KPSS & academic glossary (~4,000 concepts), Gemini Instant Translation (14 targets including Ottoman Turkish), Word Vault, and spaced repetition. All games are free; AI translation is 10 free uses per member account, then Premium.",
   },
   {
     question: "Is Memolandum free?",
@@ -435,12 +435,12 @@ export const FAQ_ITEMS_EN = [
   {
     question: "Are there exam-focused word lists?",
     answer:
-      "Yes. Alongside general English, exam-oriented categories (YDS/YKS-style sets), KPSS academic concepts, level lists from Beginner (A1) to Advanced, and Turkey’s MEB primary-school English curriculum (grades 1–4 words + grades 2–4 sentences) are available.",
+      "Yes. Alongside general English, exam-oriented categories (YDS/YKS-style sets), KPSS academic concepts, level lists from Beginner (A1) to Advanced, and primary-school English curriculum (grades 1–4 words + grades 2–4 sentences) are available.",
   },
   {
-    question: "Does Memolandum include MEB primary-school English?",
+    question: "Does Memolandum include primary-school English?",
     answer:
-      "Yes. Memolandum offers MEB-aligned primary (ilkokul) English packs: vocabulary for grades 1–4 and core sentences for grades 2–4 (~100 cards per set), organized by unit. Word Card mode adds illustrations and child-friendly audio. Start at https://memolandum.com/learn/en-tr/ (İlkokul pack) or /games/word-card/.",
+      "Yes. Memolandum offers curriculum-aligned primary (ilkokul) English packs: vocabulary for grades 1–4 and core sentences for grades 2–4 (~100 cards per set), organized by unit. Word Card mode adds illustrations and child-friendly audio. Start at https://memolandum.com/learn/en-tr/ (İlkokul pack) or /games/word-card/.",
   },
   {
     question: "What is implicit learning in vocabulary?",

@@ -135,15 +135,15 @@ export function buildSoftwareAppJsonLd() {
       "Voice Input Translation",
       "A1–Advanced Level Word Sets",
       "YDS / YKS Exam Word Lists",
-      "MEB Primary School English (Grades 1–4 Words, 2–4 Sentences)",
+      "Primary School English (Grades 1–4 Words, 2–4 Sentences)",
       "Word Card Flashcards with Audio",
     ],
     inLanguage: ["tr", "en", "de", "fr", "es", "it", "ru", "pt", "ko", "ja", "zh", "ar", "el"],
-    educationalLevel: "Beginner to Advanced, Exam prep, KPSS, MEB Primary (İlkokul)",
+    educationalLevel: "Beginner to Advanced, Exam prep, KPSS, Primary School (İlkokul)",
     audience: {
       "@type": "Audience",
       audienceType:
-        "Language Learners, Students, Exam Candidates, KPSS Candidates, Primary School Students & Parents (MEB)",
+        "Language Learners, Students, Exam Candidates, KPSS Candidates, Primary School Students & Parents",
     },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -187,7 +187,7 @@ export function buildVideoGameJsonLd() {
       "@type": "AlignmentObject",
       alignmentType: "educationalSubject",
       targetName:
-        "Foreign Language Vocabulary, KPSS Academic Concepts, MEB Primary English (Turkey)",
+        "Foreign Language Vocabulary, KPSS Academic Concepts, Primary School English (Turkey)",
     },
   };
 }
@@ -198,9 +198,9 @@ export function buildLearningResourceJsonLd() {
     "@context": "https://schema.org",
     "@type": "Course",
     "@id": `${SITE_URL}/#course`,
-    name: "Arcade Vocabulary Learning — 23 Pathways, MEB İlkokul & KPSS Glossary",
+    name: "Arcade Vocabulary Learning — 23 Pathways, Primary English & KPSS Glossary",
     description:
-      `Learn vocabulary across ${languagePathways} language pathways using spaced repetition, active recall, and dual coding in ${arcadeGames} arcade games. Includes Turkey MEB primary-school English (grades 1–4 words, grades 2–4 sentences), KPSS & academic glossary (~${glossaryConcepts} concepts), and Gemini Instant Translation.`,
+      `Learn vocabulary across ${languagePathways} language pathways using spaced repetition, active recall, and dual coding in ${arcadeGames} arcade games. Includes primary-school English (grades 1–4 words, grades 2–4 sentences), KPSS & academic glossary (~${glossaryConcepts} concepts), and Gemini Instant Translation.`,
     provider: { "@id": `${SITE_URL}/#organization` },
     url: `${SITE_URL}/`,
     inLanguage: ["tr", "en", "de", "fr", "es", "it", "ru", "pt", "ko", "ja", "zh", "ar", "el"],
@@ -211,7 +211,7 @@ export function buildLearningResourceJsonLd() {
       "Upper-Intermediate",
       "Advanced",
       "KPSS",
-      "MEB Primary School (İlkokul)",
+      "Primary School (İlkokul)",
     ],
     teaches: [
       "English Vocabulary",
@@ -231,8 +231,8 @@ export function buildLearningResourceJsonLd() {
       "YDS Exam Words",
       "YKS Exam Words",
       "KPSS Concepts",
-      "MEB Primary English Vocabulary",
-      "MEB Primary English Sentences",
+      "Primary English Vocabulary",
+      "Primary English Sentences",
       "Instant Translation",
       "A1-B2 Level Words",
     ],
@@ -287,13 +287,13 @@ export function buildLearningResourceJsonLd() {
       },
       {
         "@type": "CourseInstance",
-        name: "Word Card — MEB Primary English Flashcards",
+        name: "Word Card — Primary English Flashcards",
         url: `${SITE_URL}/games/word-card/`,
         courseMode: "online",
       },
       {
         "@type": "CourseInstance",
-        name: "MEB İlkokul English — Grades 1–4",
+        name: "Primary English — Grades 1–4",
         url: `${SITE_URL}/learn/en-tr/`,
         courseMode: "online",
       },

@@ -111,7 +111,7 @@ export default function ParentReportModal({ isOpen, onClose, reportData }) {
             {/* Üst Küçük Başlık */}
             <div className="text-center mb-5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold tracking-widest uppercase bg-amber-500/15 border border-amber-500/40 text-amber-300 shadow-sm">
-                <Sparkles className="w-3.5 h-3.5" /> 2026-2027 MEB Müfredatına Uyumlu
+                <Sparkles className="w-3.5 h-3.5" /> 2026-2027 Okul Müfredatına Uyumlu
               </span>
               <h3 className="text-2xl sm:text-3xl font-black tracking-tight text-white mt-2 bg-clip-text text-transparent bg-gradient-to-r from-white via-amber-200 to-amber-400">
                 MEMOLANDUM AKADEMİ

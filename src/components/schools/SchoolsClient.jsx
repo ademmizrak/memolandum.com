@@ -134,7 +134,7 @@ export default function SchoolsClient() {
               </h1>
               <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
                 Sınıfınızı 30 saniyede açın, 6 haneli kodla öğrencilerinizi bürokrasisiz toplayın; 
-                MEB ünite ödevlerini atayıp akıllı tahtada oynatarak tüm sınıfın hafıza başarısını canlı izleyin.
+                okul ünite ödevlerini atayıp akıllı tahtada oynatarak tüm sınıfın hafıza başarısını canlı izleyin.
               </p>
 
               <div className="flex flex-wrap items-center justify-center gap-3 pt-4">
@@ -161,7 +161,7 @@ export default function SchoolsClient() {
                   <BookOpen className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-bold text-white">
-                  %100 MEB 1-4. Sınıf Uyumlu
+                  %100 Okul Müfredatına Uygun (1-4. Sınıf)
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
                   Okul ders kitaplarındaki tüm ünitelerin kelimeleri ve kalıp cümleleri hazır. 

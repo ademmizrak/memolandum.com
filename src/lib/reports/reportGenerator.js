@@ -63,18 +63,18 @@ export function calculateParentReportData({
   }
 
   // Seviye belirleme
-  let curriculumName = selectedChild?.gradeLabel || "MEB İlkokul İngilizce";
+  let curriculumName = selectedChild?.gradeLabel || "İlkokul İngilizce";
   const levelSlug = String(selectedChild?.grade || lastPlayedLevel || "").toLowerCase();
   if (selectedChild?.gradeLabel) {
     curriculumName = selectedChild.gradeLabel;
   } else if (levelSlug.includes("1-sinif") || levelSlug.includes("ilkokul-0")) {
-    curriculumName = "1. Sınıf MEB İngilizce";
+    curriculumName = "1. Sınıf İngilizce";
   } else if (levelSlug.includes("2-sinif") || levelSlug.includes("ilkokul-1")) {
-    curriculumName = "2. Sınıf MEB İngilizce";
+    curriculumName = "2. Sınıf İngilizce";
   } else if (levelSlug.includes("3-sinif") || levelSlug.includes("ilkokul-2")) {
-    curriculumName = "3. Sınıf MEB İngilizce";
+    curriculumName = "3. Sınıf İngilizce";
   } else if (levelSlug.includes("4-sinif") || levelSlug.includes("ilkokul-3")) {
-    curriculumName = "4. Sınıf MEB İngilizce";
+    curriculumName = "4. Sınıf İngilizce";
   } else if (levelSlug.includes("yds")) {
     curriculumName = "YDS & YÖKDİL Sınav Hazırlık";
   } else if (activeStudyProfile?.label) {
@@ -174,7 +174,7 @@ export function generateCertificateCanvas(reportData) {
   // Üst Küçük Rozet
   ctx.font = "bold 15px monospace";
   ctx.fillStyle = "#38bdf8";
-  ctx.fillText("★ 2026-2027 MEB MÜFREDATINA UYUMLU BAŞARI SERTİFİKASI ★", 600, 85);
+  ctx.fillText("★ 2026-2027 OKUL MÜFREDATINA UYUMLU BAŞARI BELGESİ ★", 600, 85);
 
   // Ana Logo / Başlık
   ctx.font = "900 44px sans-serif";
@@ -287,7 +287,7 @@ export function generateCertificateCanvas(reportData) {
 
   ctx.font = "12px sans-serif";
   ctx.fillStyle = "#64748b";
-  ctx.fillText("Resmi Sertifika No: MEMO-MEB-" + Math.floor(100000 + Math.random() * 900000), 130, 735);
+  ctx.fillText("Belge Doğrulama No: MEMO-EDU-" + Math.floor(100000 + Math.random() * 900000), 130, 735);
 
   // Altın Mühür Rozeti (Sağ Alt)
   ctx.textAlign = "right";
@@ -341,7 +341,7 @@ Detaylı gelişim karnesi ve oyunlaştırılmış İngilizce pratik için: https
  */
 export function getWhatsAppParentDigestUrl({
   studentName = "Öğrenci",
-  curriculumName = "MEB İlkokul İngilizce",
+  curriculumName = "İlkokul İngilizce",
   activitySummary = "Ders oturumu tamamlandı",
   accuracyRate = 95,
   wordsCount = 15,

@@ -34,7 +34,7 @@ const MEB_UNITS = [
   { levelId: "meb-2-sinif-kelimeleri", label: "2. Sınıf Ünite 2: Friends & Colors" },
   { levelId: "meb-2-sinif-kelimeleri", label: "2. Sınıf Ünite 3: In The Classroom" },
   { levelId: "meb-2-sinif-kelimeleri", label: "2. Sınıf Ünite 4: Numbers" },
-  { levelId: "meb-2-sinif-cumleleri", label: "2. Sınıf - 100 MEB Kalıp Cümlesi" },
+  { levelId: "meb-2-sinif-cumleleri", label: "2. Sınıf - 100 Kalıp Cümle (Sesli)" },
   { levelId: "meb-3-sinif-kelimeleri", label: "3. Sınıf Ünite 1: Greetings" },
   { levelId: "meb-3-sinif-kelimeleri", label: "3. Sınıf Ünite 2: My Family" },
   { levelId: "meb-3-sinif-kelimeleri", label: "3. Sınıf Ünite 3: People I Love" },
@@ -191,8 +191,8 @@ export default function TeacherDashboard() {
     const text = `📢 *${activeClass.className} İngilizce Ödev Duyurusu* 📢
 Sayın Velilerimiz ve Sevgili Öğrenciler,
 
-Bu haftaki İngilizce MEB kelime ödevimiz *Memolandum* üzerinde tanımlanmıştır:
-📚 *Ödev:* ${activeClass.currentAssignment?.unitName || "MEB Kelimeleri"}
+Bu haftaki İngilizce kelime ödevimiz *Memolandum* üzerinde tanımlanmıştır:
+📚 *Ödev:* ${activeClass.currentAssignment?.unitName || "Haftalık Kelimeler"}
 🎯 *Hedef:* ${activeClass.currentAssignment?.targetWords || 15} Kelime
 ⏱️ *Son Teslim:* ${activeClass.currentAssignment?.dueDate || "Pazar 20:00"}
 
@@ -268,7 +268,7 @@ Giriş: https://memolandum.com/schools/`;
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <span className="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                    {activeClass.grade || "MEB İngilizce"}
+                    {activeClass.grade || "İlkokul İngilizce"}
                   </span>
                   <span className="text-xs text-slate-400">
                     {activeClass.schoolName}
@@ -331,10 +331,10 @@ Giriş: https://memolandum.com/schools/`;
                 </div>
                 <div>
                   <div className="text-[11px] font-bold text-amber-400 uppercase tracking-wider">
-                    Sınıfın Güncel MEB Ödevi
+                    Sınıfın Güncel Ödevi
                   </div>
                   <div className="text-sm sm:text-base font-bold text-white">
-                    {activeClass.currentAssignment?.unitName || "MEB Kelimeleri"}
+                    {activeClass.currentAssignment?.unitName || "Haftalık Kelimeler"}
                   </div>
                   <div className="text-xs text-slate-400 mt-0.5">
                     Hedef: {activeClass.currentAssignment?.targetWords || 15} Kelime • Son Teslim: {activeClass.currentAssignment?.dueDate || "Pazar 20:00"}
@@ -580,7 +580,7 @@ Giriş: https://memolandum.com/schools/`;
             <div className="flex items-center justify-between pb-4 border-b border-slate-800">
               <h3 className="text-lg font-bold text-white flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-amber-400" />
-                Sınıfa MEB Ünite Ödevi Ata
+                Sınıfa Ünite Ödevi Ata
               </h3>
               <button
                 onClick={() => setShowAssignModal(false)}
@@ -593,7 +593,7 @@ Giriş: https://memolandum.com/schools/`;
             <form onSubmit={handleAssignHomework} className="mt-4 space-y-4">
               <div>
                 <label className="block text-xs font-bold text-slate-300 mb-1">
-                  MEB Ünite Seçimi:
+                  Müfredat Ünite Seçimi:
                 </label>
                 <select
                   value={selectedUnit.label}

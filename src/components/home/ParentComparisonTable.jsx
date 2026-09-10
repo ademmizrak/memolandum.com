@@ -15,11 +15,11 @@ import {
 
 const COMPARISON_ROWS = [
   {
-    feature: "MEB 1-4. Sınıf Müfredat Uyumu",
+    feature: "1-4. Sınıf Okul Müfredat Uyumu",
     desc: "Okul dersleri ve yazılı sınavlar ile birebir uyumlu ünite kelimeleri ve kalıp cümleleri.",
     memolandum: { status: "yes", text: "%100 Tam Uyumlu (1-4. Sınıf)" },
     courses: { status: "partial", text: "Genel İngilizce, okul sınavlarına tam odaklanmaz" },
-    apps: { status: "no", text: "MEB müfredatından tamamen bağımsız yabancı içerik" },
+    apps: { status: "no", text: "Okul müfredatından tamamen bağımsız yabancı içerik" },
   },
   {
     feature: "Haftalık Pedagojik Veli Karnesi",
@@ -108,7 +108,7 @@ export default function ParentComparisonTable({ onOpenReport, onOpenAuth }) {
           Çocuğunuzun İngilizce Başarısı İçin En Doğru Karar
         </h2>
         <p className="text-xs sm:text-sm text-slate-400 mt-2 leading-relaxed">
-          Aylık binlerce liralık klasik kurslar veya MEB sınavlarıyla ilgisi olmayan yabancı uygulamalar yerine; 
+          Aylık binlerce liralık klasik kurslar veya okul sınavlarıyla ilgisi olmayan yabancı uygulamalar yerine; 
           okul müfredatına tam uyumlu ve veli takipli yeni nesil eğitim ekosistemimizi karşılaştırın.
         </p>
       </div>
@@ -127,7 +127,7 @@ export default function ParentComparisonTable({ onOpenReport, onOpenAuth }) {
               Memolandum
             </span>
             <span className="hidden sm:inline-block px-2 py-0.5 rounded text-[10px] bg-amber-500/20 text-amber-300 font-mono">
-              2026-2027 MEB
+              2026-2027 Müfredat
             </span>
           </div>
           <div className="col-span-3 sm:col-span-2 p-3 sm:p-5 bg-slate-900/40 text-slate-400 flex items-center justify-center sm:justify-start text-center sm:text-left">
@@ -203,7 +203,7 @@ export default function ParentComparisonTable({ onOpenReport, onOpenAuth }) {
             )}
 
             <a
-              href="#meb-grades"
+              href="#ilkokul-grades"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-400 hover:to-amber-300 text-slate-950 font-black text-xs sm:text-sm tracking-wide shadow-lg shadow-amber-500/25 hover:scale-105 active:scale-95 transition-all cursor-pointer whitespace-nowrap"
             >
               <span>Sınıfını Seç ve Başla</span>
