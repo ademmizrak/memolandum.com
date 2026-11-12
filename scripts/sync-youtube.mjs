@@ -299,10 +299,21 @@ async function fetchPlaylistVideos(playlistId) {
 
 async function main() {
   console.log('🏁 Starting YouTube Playlist Sync for @memolandum...');
+  const outputPath = path.join(ROOT, 'public', 'data', 'youtube_videos.json');
+  let existingData = {};
+  if (fs.existsSync(outputPath)) {
+    try {
+      existingData = JSON.parse(fs.readFileSync(outputPath, 'utf8')) || {};
+    } catch {
+      existingData = {};
+    }
+  }
+
   const playlists = await discoverChannelPlaylists();
   console.log(`📋 Found ${playlists.length} playlists to sync.`);
 
   const result = {};
+  let fetchedPlaylists = 0;
 
   for (const pl of playlists) {
     console.log(`fetching videos for playlist: [${pl.category}] ${pl.name} (${pl.id})...`);
@@ -317,13 +328,21 @@ async function main() {
         order: pl.order || 999,
         videos: videos
       };
+      fetchedPlaylists++;
       console.log(`✅ Fetched ${videos.length} videos.`);
     } catch (err) {
       console.error(`❌ Error fetching playlist ${pl.name}:`, err.message);
+      if (existingData[pl.category]) {
+        result[pl.category] = existingData[pl.category];
+        console.warn(`↩️ Preserved cached playlist data for [${pl.category}].`);
+      }
     }
   }
 
-  const outputPath = path.join(ROOT, 'public', 'data', 'youtube_videos.json');
+  if (fetchedPlaylists === 0) {
+    throw new Error('Failed to fetch any playlists from YouTube API; aborting write.');
+  }
+
   fs.writeFileSync(outputPath, JSON.stringify(result, null, 2), 'utf8');
   console.log(`💾 Saved synced data to: ${outputPath}`);
 }

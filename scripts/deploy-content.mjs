@@ -186,6 +186,7 @@ async function run() {
   }
 
   let done = 0;
+  let failed = 0;
   let next = 0;
   async function worker() {
     while (next < toUpload.length) {
@@ -199,12 +200,17 @@ async function run() {
           destination: dest,
           metadata: { contentType: contentTypeFor(local), cacheControl },
         });
-        await file.makePublic();
+        try {
+          await file.makePublic();
+        } catch (aclErr) {
+          console.warn(`⚠️ makePublic uyarı (${dest}): ${aclErr.message}`);
+        }
         done++;
         if (done % 50 === 0 || done === toUpload.length) {
           console.log(`  ↑ ${done}/${toUpload.length}`);
         }
       } catch (e) {
+        failed++;
         const msg = String(e.message || e).slice(0, 180);
         console.error(`❌ ${dest}: ${msg}`);
       }
@@ -212,6 +218,9 @@ async function run() {
   }
 
   await Promise.all(Array.from({ length: Math.min(CONCURRENCY, toUpload.length) }, worker));
+  if (failed > 0) {
+    throw new Error(`${failed} dosya GCS'e yüklenemedi`);
+  }
   console.log(`\n✅ deploy:content tamam — ${done} dosya GCS'e gitti`);
   console.log(`   gs://${BUCKET_NAME}/data/ …`);
 }
