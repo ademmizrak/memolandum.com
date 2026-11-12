@@ -4439,8 +4439,8 @@
   },
   {
     "id": "fr_sent_318",
-    "word": "Tu peux marcher jusqu'à là-bas.",
-    "translation": "You can walk until there.",
+    "word": "Tu peux marcher jusque là-bas.",
+    "translation": "You can walk all the way there.",
     "len": 30,
     "tags": [
       "travel",
@@ -5881,7 +5881,7 @@
   },
   {
     "id": "fr_sent_121",
-    "word": "Avez-vous des frères ?",
+    "word": "Avez-vous des frères et sœurs ?",
     "translation": "Do you have siblings?",
     "len": 21,
     "tags": [
@@ -6315,8 +6315,8 @@
   },
   {
     "id": "fr_sent_152",
-    "word": "Ici, c'est mon ami.",
-    "translation": "Here, this is my friend.",
+    "word": "Voici mon ami.",
+    "translation": "This is my friend.",
     "len": 18,
     "tags": [
       "social",
@@ -6763,7 +6763,7 @@
   },
   {
     "id": "fr_sent_184",
-    "word": "C'est fatiguant.",
+    "word": "C'est fatigant.",
     "translation": "It is tiring.",
     "len": 14,
     "tags": [

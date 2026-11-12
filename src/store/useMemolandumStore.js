@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
-import { updateUserAvatarInFirebase, saveWordToCloud, deleteWordFromCloud } from '../lib/firebase/authService';
+import { updateUserAvatarInFirebase } from '../lib/firebase/authService';
 import {
   buildStudyProfile,
   emptyProfileStats,
@@ -22,155 +22,21 @@ import {
   pickNewerStudyContext,
   resolveResumeContext,
 } from '../lib/learning/studyContext';
-import { doc, setDoc } from 'firebase/firestore';
-import { db } from '../lib/firebase/config';
+import {
+  MEMOLANDUM_STORAGE_KEY,
+  emptyGlobal,
+  cloudSyncWord,
+  limitVaultTo50,
+  triggerNotificationUpdate,
+  triggerHaptic,
+  cloudSyncStudyContext,
+  snapshotActive,
+  hybridStorage,
+} from './storeHelpers';
+import { createParentClassroomSlice } from './slices/parentClassroomSlice';
+import { recordWordSolvedForFunnel } from '../hooks/useAnalytics';
 
-const emptyGlobal = () => ({
-  total_score: 0,
-  total_xp: 0,
-  gems: 0,
-  level: 1,
-  game_breakdown: {},
-});
-
-function cloudSyncWord(uid, wordId, wordData) {
-  if (!uid || !wordId || !wordData) return;
-  saveWordToCloud(uid, wordId, wordData).catch(() => {});
-}
-
-const limitVaultTo50 = (vault, uid) => {
-  const entries = Object.entries(vault);
-  // Genel hafızadaki sınır 50'den 5000'e çıkarıldı, böylece akademik kavramlar ve kelimeler silinmeden hafızada tutulur.
-  if (entries.length <= 5000) return vault;
-
-  // Sort by lastSeen descending (newest first)
-  entries.sort((a, b) => {
-    const aTime = Number(a[1].lastSeen) || Number(a[1].dueAt) || 0;
-    const bTime = Number(b[1].lastSeen) || Number(b[1].dueAt) || 0;
-    return bTime - aTime;
-  });
-
-  const keptEntries = entries.slice(0, 5000);
-  const removedEntries = entries.slice(5000);
-
-  const newVault = {};
-  keptEntries.forEach(([key, val]) => {
-    newVault[key] = val;
-  });
-
-  // Async delete removed entries from cloud
-  if (uid) {
-    removedEntries.forEach(([key]) => {
-      deleteWordFromCloud(uid, key).catch(() => {});
-    });
-  }
-
-  return newVault;
-};
-
-
-const triggerNotificationUpdate = (vault) => {
-  if (typeof window === "undefined") return;
-  import("../utils/localNotifications")
-    .then(({ scheduleDailySrsReminder }) => {
-      scheduleDailySrsReminder(vault);
-    })
-    .catch((err) => console.warn("Notification sync warning:", err));
-};
-
-const triggerHaptic = async (isCorrect) => {
-  if (typeof window === "undefined") return;
-  try {
-    const { Capacitor } = await import("@capacitor/core");
-    if (!Capacitor.isNativePlatform()) return;
-
-    const { Haptics, ImpactStyle, NotificationType } = await import("@capacitor/haptics");
-    if (isCorrect) {
-      await Haptics.impact({ style: ImpactStyle.Light });
-    } else {
-      await Haptics.notification({ type: NotificationType.Error });
-    }
-  } catch (e) {
-    /* ignore */
-  }
-};
-
-/** lastPlayed → Firestore profileStats (enterprise resume) */
-function cloudSyncStudyContext(uid, profileId, ctx) {
-  if (!uid || !profileId || !ctx || !db) return;
-  setDoc(
-    doc(db, 'users', uid, 'profileStats', profileId),
-    {
-      lastPlayedLang: ctx.langId,
-      lastPlayedLevel: ctx.levelId,
-      lastPlayedGame: ctx.gameId,
-      lastPlayedAt: ctx.lastPlayedAt || Date.now(),
-    },
-    { merge: true }
-  ).catch(() => {});
-}
-
-function snapshotActive(state) {
-  const id = state.activeStudyProfileId;
-  if (!id) return state.profileStatsMap || {};
-  return {
-    ...(state.profileStatsMap || {}),
-    [id]: {
-      ...emptyProfileStats(),
-      ...(state.profileStatsMap?.[id] || {}),
-      total_score: state.globalStats?.total_score || 0,
-      total_xp: state.globalStats?.total_xp || 0,
-      gems: state.globalStats?.gems || 0,
-      level: state.globalStats?.level || 1,
-      game_breakdown: state.globalStats?.game_breakdown || {},
-      lastPlayedLang: state.lastPlayedLang,
-      lastPlayedLevel: state.lastPlayedLevel,
-      lastPlayedGame: state.lastPlayedGame,
-      lastPlayedAt: state.lastPlayedAt,
-    },
-  };
-}
-
-export const MEMOLANDUM_STORAGE_KEY = "memolandum-storage";
-
-const hybridStorage = {
-  getItem: async (name) => {
-    if (typeof window === "undefined") return null;
-    try {
-      const { Preferences } = await import("@capacitor/preferences");
-      const { value } = await Preferences.get({ key: name });
-      // Preferences web'de Cap key kullanır; eski düz localStorage yedeği
-      if (value != null) return value;
-      return localStorage.getItem(name);
-    } catch {
-      return localStorage.getItem(name);
-    }
-  },
-  setItem: async (name, value) => {
-    if (typeof window === "undefined") return;
-    try {
-      const { Preferences } = await import("@capacitor/preferences");
-      await Preferences.set({ key: name, value });
-    } catch {
-      localStorage.setItem(name, value);
-    }
-  },
-  // Preferences + legacy localStorage — biri başarısız olsa diğeri yine silinir (web bozulmaz)
-  removeItem: async (name) => {
-    if (typeof window === "undefined") return;
-    try {
-      const { Preferences } = await import("@capacitor/preferences");
-      await Preferences.remove({ key: name });
-    } catch {
-      /* Preferences yok / native değil */
-    }
-    try {
-      localStorage.removeItem(name);
-    } catch {
-      /* ignore */
-    }
-  },
-};
+export { MEMOLANDUM_STORAGE_KEY } from './storeHelpers';
 
 /** Logout / hesap silme: Preferences + localStorage + bellek (hesaplar arası sızıntıyı keser). */
 export async function clearMemolandumPersistedStorage() {
@@ -200,19 +66,26 @@ export const useMemolandumStore = create(
       lastPlayedAt: 0,
       isChallengeMode: false,
       guestProgressPending: false,
+      completedLevels: 0,
+      isFirstSession: true,
+      markLevelCompleted: () => {
+        set((state) => ({
+          completedLevels: (Number(state.completedLevels) || 0) + 1,
+          isFirstSession: false,
+        }));
+        const s = get();
+        if (s.joinedClassroom?.classCode) {
+          s.syncJoinedClassroomProgress?.({ immediate: true });
+        }
+      },
 
       // Dil bazlı öğrenme profilleri (aynı hesap / cihaz)
       studyProfiles: [],
       activeStudyProfileId: null,
       profileStatsMap: {},
 
-      // Veli & Öğrenci Ekosistemi (Parent & Student Ecosystem)
-      isParentAccount: false,
-      parentEmailDigest: true,
-      childrenProfiles: [],
-      activeChildId: null,
-      parentActivityLog: [],
-      joinedClassroom: null,
+      // Veli & Öğrenci Ekosistemi + Öğretmen Sınıf Masası (Modüler Slice)
+      ...createParentClassroomSlice(set, get),
 
       isAuthenticated: false,
       isAuthLoading: false,
@@ -227,19 +100,23 @@ export const useMemolandumStore = create(
       setAuthUser: (user) => set((state) => {
         const nextUid = user ? user.uid : null;
         const uidChanged = nextUid !== state.uid;
+        const prevProfile = !uidChanged ? state.profile : null;
+        const isOAuthVerified = Array.isArray(user?.providerData)
+          && user.providerData.some((p) => p?.providerId && p.providerId !== 'password');
         return {
           uid: nextUid,
           profile: user
             ? {
-                displayName: user.displayName,
-                email: user.email,
-                photoURL: user.photoURL,
+                displayName: user.displayName || prevProfile?.displayName || null,
+                email: user.email || prevProfile?.email || null,
+                photoURL: user.photoURL || prevProfile?.photoURL || null,
+                username: user.username || prevProfile?.username || null,
               }
             : null,
           isAuthenticated: !!user,
           isAuthLoading: false,
           isGuest: !user,
-          isEmailVerified: user ? user.emailVerified || true : false,
+          isEmailVerified: user ? Boolean(user.emailVerified || isOAuthVerified) : false,
           // Çeviri kotası hesaba özel — önceki misafir/başka üye sayacı taşınmasın
           ...(uidChanged ? { translationCount: 0 } : {}),
           ...(user ? { lastAuthenticatedUid: user.uid } : {}),
@@ -399,7 +276,7 @@ export const useMemolandumStore = create(
         premiumSource: null,
         lastAuthenticatedUid: null,
         isParentAccount: false,
-        parentEmailDigest: true,
+        parentEmailDigest: false,
         childrenProfiles: [],
         activeChildId: null,
         parentActivityLog: [],
@@ -497,6 +374,24 @@ export const useMemolandumStore = create(
         const map = { ...(statsById || {}) };
         const activeStats = (id && map[id]) || emptyProfileStats();
         const state = get();
+        const localGlobal = state.globalStats || {};
+        const mergedBreakdown = { ...(localGlobal.game_breakdown || {}), ...(activeStats.game_breakdown || {}) };
+        Object.keys(mergedBreakdown).forEach((gameKey) => {
+          const localG = localGlobal.game_breakdown?.[gameKey] || {};
+          const remoteG = activeStats.game_breakdown?.[gameKey] || {};
+          mergedBreakdown[gameKey] = {
+            score: Math.max(localG.score || 0, remoteG.score || 0),
+            xp: Math.max(localG.xp || 0, remoteG.xp || 0),
+            gems: Math.max(localG.gems || 0, remoteG.gems || 0),
+          };
+        });
+        const mergedGlobal = {
+          total_score: Math.max(localGlobal.total_score || 0, activeStats.total_score || 0),
+          total_xp: Math.max(localGlobal.total_xp || 0, activeStats.total_xp || 0),
+          gems: Math.max(localGlobal.gems || 0, activeStats.gems || 0),
+          level: Math.max(localGlobal.level || 1, activeStats.level || 1),
+          game_breakdown: mergedBreakdown,
+        };
         const picked = pickNewerStudyContext(
           {
             langId: state.lastPlayedLang,
@@ -511,17 +406,21 @@ export const useMemolandumStore = create(
             lastPlayedAt: activeStats.lastPlayedAt,
           }
         );
+        if (id) {
+          map[id] = {
+            ...activeStats,
+            ...mergedGlobal,
+            lastPlayedLang: picked.langId,
+            lastPlayedLevel: picked.levelId,
+            lastPlayedGame: picked.gameId,
+            lastPlayedAt: picked.lastPlayedAt || 0,
+          };
+        }
         set({
           studyProfiles: list,
           activeStudyProfileId: id,
           profileStatsMap: map,
-          globalStats: {
-            total_score: activeStats.total_score || 0,
-            total_xp: activeStats.total_xp || 0,
-            gems: activeStats.gems || 0,
-            level: activeStats.level || 1,
-            game_breakdown: activeStats.game_breakdown || {},
-          },
+          globalStats: mergedGlobal,
           lastPlayedLang: picked.langId,
           lastPlayedLevel: picked.levelId,
           lastPlayedGame: picked.gameId,
@@ -533,196 +432,6 @@ export const useMemolandumStore = create(
         const state = get();
         return state.studyProfiles.find((p) => p.id === state.activeStudyProfileId) || null;
       },
-
-      // --- Veli & Öğrenci Yönetim Eylemleri (Parent-Student Actions) ---
-      setIsParentAccount: (isParent) => {
-        set({ isParentAccount: !!isParent });
-        const uid = get().uid;
-        if (uid) {
-          import('../lib/firebase/authService').then(({ syncParentDataToCloud }) => {
-            syncParentDataToCloud(uid, { isParentAccount: !!isParent });
-          }).catch(() => {});
-        }
-      },
-
-      setParentEmailDigest: (status) => {
-        set({ parentEmailDigest: !!status });
-        const uid = get().uid;
-        if (uid) {
-          import('../lib/firebase/authService').then(({ syncParentDataToCloud }) => {
-            syncParentDataToCloud(uid, { parentEmailDigest: !!status });
-          }).catch(() => {});
-        }
-      },
-
-      addChildProfile: (childData) => {
-        const state = get();
-        const childId = childData.id || `child_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`;
-        const seed = encodeURIComponent(childData.name || "Child");
-        const newChild = {
-          id: childId,
-          name: childData.name || "Öğrenci",
-          grade: childData.grade || "meb-2-sinif-kelimeleri",
-          gradeLabel: childData.gradeLabel || "2. Sınıf İngilizce",
-          avatar: childData.avatar || `https://api.dicebear.com/9.x/bottts/svg?seed=${seed}`,
-          dailyTarget: Number(childData.dailyTarget) || 15,
-          createdAt: Date.now(),
-          lastStudiedAt: Date.now(),
-          lastStudiedTopic: "Henüz derse başlanmadı",
-        };
-
-        const nextChildren = [...(state.childrenProfiles || []), newChild];
-        set({
-          isParentAccount: true,
-          childrenProfiles: nextChildren,
-          activeChildId: childId,
-          ...(newChild.grade ? { lastPlayedLevel: newChild.grade, lastPlayedLang: 'en-tr' } : {}),
-        });
-
-        const uid = state.uid;
-        if (uid) {
-          import('../lib/firebase/authService').then(({ syncParentDataToCloud }) => {
-            syncParentDataToCloud(uid, {
-              isParentAccount: true,
-              childrenProfiles: nextChildren,
-              activeChildId: childId,
-            });
-          }).catch(() => {});
-        }
-        return childId;
-      },
-
-      updateChildProfile: (childId, updates) => {
-        const state = get();
-        const nextChildren = (state.childrenProfiles || []).map((c) =>
-          c.id === childId ? { ...c, ...updates } : c
-        );
-        set({ childrenProfiles: nextChildren });
-
-        const uid = state.uid;
-        if (uid) {
-          import('../lib/firebase/authService').then(({ syncParentDataToCloud }) => {
-            syncParentDataToCloud(uid, { childrenProfiles: nextChildren });
-          }).catch(() => {});
-        }
-      },
-
-      removeChildProfile: (childId) => {
-        const state = get();
-        const nextChildren = (state.childrenProfiles || []).filter((c) => c.id !== childId);
-        const nextActiveId = state.activeChildId === childId
-          ? (nextChildren[0]?.id || null)
-          : state.activeChildId;
-
-        set({
-          childrenProfiles: nextChildren,
-          activeChildId: nextActiveId,
-          ...(nextChildren.length === 0 ? { isParentAccount: false } : {}),
-        });
-
-        const uid = state.uid;
-        if (uid) {
-          import('../lib/firebase/authService').then(({ syncParentDataToCloud }) => {
-            syncParentDataToCloud(uid, {
-              childrenProfiles: nextChildren,
-              activeChildId: nextActiveId,
-              isParentAccount: nextChildren.length > 0,
-            });
-          }).catch(() => {});
-        }
-      },
-
-      setActiveChild: (childId) => {
-        const state = get();
-        const child = (state.childrenProfiles || []).find((c) => c.id === childId);
-        if (!child) return;
-
-        set({
-          activeChildId: childId,
-          ...(child.grade ? { lastPlayedLevel: child.grade, lastPlayedLang: 'en-tr' } : {}),
-        });
-
-        const uid = state.uid;
-        if (uid) {
-          import('../lib/firebase/authService').then(({ syncParentDataToCloud }) => {
-            syncParentDataToCloud(uid, { activeChildId: childId });
-          }).catch(() => {});
-        }
-      },
-
-      logParentActivity: ({ type, summary, wordsCount = 1, score = 0, levelId = null } = {}) => {
-        const state = get();
-        const hasChildren = state.childrenProfiles && state.childrenProfiles.length > 0;
-        if (!state.isParentAccount && !hasChildren) return;
-
-        const activeChild = hasChildren
-          ? (state.childrenProfiles.find((c) => c.id === state.activeChildId) || state.childrenProfiles[0])
-          : null;
-        const now = Date.now();
-        const childName = activeChild?.name || state.profile?.displayName || "Öğrenci";
-        const childId = activeChild?.id || "default_student";
-
-        const prevLogs = state.parentActivityLog || [];
-        const lastLog = prevLogs[0];
-
-        // 5 dakika içinde aynı çocuğa ait aktivite varsa tek oturum olarak birleştir
-        let nextLogs;
-        if (lastLog && lastLog.childId === childId && (now - lastLog.timestamp) < 5 * 60 * 1000) {
-          const combinedCount = (lastLog.wordsCount || 0) + (Number(wordsCount) || 1);
-          const combinedScore = (lastLog.score || 0) + (Number(score) || 0);
-          const updatedLog = {
-            ...lastLog,
-            timestamp: now,
-            wordsCount: combinedCount,
-            score: combinedScore,
-            summary: summary || `${combinedCount} kelime çalışıldı`,
-          };
-          nextLogs = [updatedLog, ...prevLogs.slice(1)];
-        } else {
-          const newEntry = {
-            id: `act_${now}_${Math.random().toString(36).slice(2, 6)}`,
-            timestamp: now,
-            childId,
-            childName,
-            type: type || "words_studied",
-            summary: summary || `${wordsCount} kelime çalışıldı`,
-            wordsCount: Number(wordsCount) || 1,
-            score: Number(score) || 0,
-            levelId: levelId || state.lastPlayedLevel || null,
-          };
-          nextLogs = [newEntry, ...prevLogs].slice(0, 50);
-        }
-
-        let nextChildren = state.childrenProfiles || [];
-        if (activeChild) {
-          nextChildren = nextChildren.map((c) =>
-            c.id === activeChild.id
-              ? {
-                  ...c,
-                  lastStudiedAt: now,
-                  lastStudiedTopic: summary || c.lastStudiedTopic,
-                }
-              : c
-          );
-        }
-
-        set({
-          parentActivityLog: nextLogs,
-          childrenProfiles: nextChildren,
-        });
-
-        const uid = state.uid;
-        if (uid) {
-          import('../lib/firebase/authService').then(({ logParentActivityToCloud }) => {
-            logParentActivityToCloud(uid, nextLogs[0], activeChild ? {
-              lastStudiedAt: now,
-              lastStudiedTopic: summary || activeChild.lastStudiedTopic,
-            } : null);
-          }).catch(() => {});
-        }
-      },
-
-      setJoinedClassroom: (classroom) => set({ joinedClassroom: classroom }),
 
       addLocalProgress: (gameId, delta) => set((state) => {
         const s = parseInt(delta.score, 10) || 0;
@@ -768,8 +477,28 @@ export const useMemolandumStore = create(
       }),
 
       vocabularyVault: {},
-      setVocabularyVault: (vault) => {
-        const next = migrateVaultMap(vault || {});
+      setVocabularyVault: (vault, opts = {}) => {
+        const incoming = migrateVaultMap(vault || {});
+        if (opts?.replace) {
+          set({ vocabularyVault: incoming });
+          triggerNotificationUpdate(incoming);
+          return;
+        }
+        const current = get().vocabularyVault || {};
+        const merged = { ...current };
+        for (const [k, remoteItem] of Object.entries(incoming)) {
+          const localItem = merged[k];
+          if (!localItem) {
+            merged[k] = remoteItem;
+          } else {
+            const localTime = Number(localItem.lastSeen || localItem.updatedAt || 0);
+            const remoteTime = Number(remoteItem.lastSeen || remoteItem.updatedAt || 0);
+            if (remoteTime >= localTime) {
+              merged[k] = remoteItem;
+            }
+          }
+        }
+        const next = limitVaultTo50(merged, get().uid);
         set({ vocabularyVault: next });
         triggerNotificationUpdate(next);
       },
@@ -865,10 +594,6 @@ export const useMemolandumStore = create(
 
       /**
        * Ana öğrenme API’si — Memolandum Pulse™ (Edge-ready async)
-       * @param {object} wordObj
-       * @param {boolean} isCorrect
-       * @param {number} [responseTimeSec=5]
-       * @param {{ struggled?: boolean, language?: string, quality?: number, attempts?: number, gameId?: string }} [opts]
        */
       recordWordQuizResult: async (wordObj, isCorrect, responseTimeSec = 5, opts = {}) => {
         if (!wordObj) return;
@@ -879,11 +604,23 @@ export const useMemolandumStore = create(
 
         const attempts = opts.attempts != null ? Number(opts.attempts) : 1;
         const found = findVaultItem(state.vocabularyVault, wordObj);
+        const gameId = opts.gameId || opts.game || state.currentGame || 'quiz';
 
-        // Sadece kasada zaten varsa, ya da yanlış bilinmişse / zorlanılmışsa kasaya ekle (akademik kavramlar daima eklenir)
-        const isAcademic = wordObj.language === "academic" || opts.language === "academic";
-        const isWordCard = opts.gameId === "word-card" || opts.game === "word-card" || gameId === "word-card";
-        const shouldAddToVault = found || !isCorrect || attempts > 1 || isAcademic || isWordCard;
+        if (isCorrect) {
+          recordWordSolvedForFunnel({
+            wordId,
+            isCorrect: true,
+            gameSlug: gameId,
+            langPair: opts.language || wordObj.language || state.lastPlayedLang || '',
+            levelId: state.lastPlayedLevel || '',
+            onFinalWordSolved: () => {
+              get().markLevelCompleted?.();
+            },
+          });
+        }
+
+        // Tüm doğru/yanlış eşleşmeler Pulse tekrarına ve Kelime Kasası'na yazılır
+        const shouldAddToVault = true;
 
         const quality =
           opts.quality != null
@@ -893,8 +630,6 @@ export const useMemolandumStore = create(
                 responseTimeSec,
                 struggled: !!opts.struggled || attempts > 1,
               });
-
-        const gameId = opts.gameId || state.currentGame || 'quiz';
 
         if (shouldAddToVault) {
           const base =
@@ -923,7 +658,11 @@ export const useMemolandumStore = create(
 
           const updatedScheduled = evaluation.scheduledItem;
           const key = found?.key || wordId;
-          const newVault = { ...state.vocabularyVault, [key]: updatedScheduled };
+          const taggedScheduled =
+            state.activeChildId && !updatedScheduled?.childId
+              ? { ...updatedScheduled, childId: state.activeChildId }
+              : updatedScheduled;
+          const newVault = { ...state.vocabularyVault, [key]: taggedScheduled };
           const limitedVault = limitVaultTo50(newVault, state.uid);
 
           // Append log to rolling history (max 300 entries to protect localStorage & main thread)
@@ -939,7 +678,8 @@ export const useMemolandumStore = create(
             language: opts.language || wordObj.language || "",
             engineVersion: evaluation.engineVersion,
             isAiPowered: evaluation.isAiPowered,
-            aiFeedback: evaluation.aiFeedback
+            aiFeedback: evaluation.aiFeedback,
+            ...(state.activeChildId ? { childId: state.activeChildId } : {}),
           };
 
           const prevHistory = state.quizHistory || [];
@@ -952,13 +692,11 @@ export const useMemolandumStore = create(
           triggerNotificationUpdate(limitedVault);
           triggerHaptic(isCorrect);
           if (limitedVault[key]) {
-            cloudSyncWord(state.uid, key, updatedScheduled);
+            cloudSyncWord(state.uid, key, taggedScheduled);
           }
         } else {
-          // Kasada yok ve ilk seferde doğru bilindi -> Kasaya eklemiyoruz ama yine de geçmişe ekliyoruz + telemetri topluyoruz
           const key = wordId;
 
-          // Asenkron telemetri toplama
           processLearningAction({
             uid: state.uid,
             wordObj,
@@ -979,6 +717,7 @@ export const useMemolandumStore = create(
             attempts,
             gameId,
             language: opts.language || wordObj.language || "",
+            ...(state.activeChildId ? { childId: state.activeChildId } : {}),
           };
 
           const prevHistory = state.quizHistory || [];
@@ -1001,6 +740,11 @@ export const useMemolandumStore = create(
             levelId: stateNow.lastPlayedLevel,
           });
         }
+
+        // Öğretmen sınıf tablosu — soft childId ile roster key (oyun içi vuruşlarda debounced/coalesced)
+        if (stateNow.joinedClassroom?.classCode) {
+          stateNow.syncJoinedClassroomProgress?.({ immediate: false });
+        }
       },
 
       /** Kasa review UI: bildim / bilmedim */
@@ -1008,7 +752,6 @@ export const useMemolandumStore = create(
         const state = get();
         const item = state.vocabularyVault[wordId];
         if (!item) return;
-        const now = Date.now();
         const quality = knew ? PulseQuality.GOOD : PulseQuality.AGAIN;
 
         const evaluation = await processLearningAction({
@@ -1016,7 +759,7 @@ export const useMemolandumStore = create(
           wordObj: item,
           currentVaultItem: item,
           isCorrect: !!knew,
-          responseTimeMs: 3000, // mock response time for review
+          responseTimeMs: 3000,
           opts: {
             gameId: "vault_review",
             language: item.language || ""
@@ -1121,6 +864,8 @@ export const useMemolandumStore = create(
         lastPlayedLang: state.lastPlayedLang,
         lastPlayedGame: state.lastPlayedGame,
         lastPlayedAt: state.lastPlayedAt,
+        completedLevels: state.completedLevels,
+        isFirstSession: state.isFirstSession,
         vocabularyVault: state.vocabularyVault,
         quizHistory: state.quizHistory,
         customLevels: state.customLevels,
@@ -1149,6 +894,19 @@ export const useMemolandumStore = create(
         // Eski kalıcı özel seviye kilidini kır
         if (state) {
           state.activeCustomWords = null;
+          // Mevcut kıdemli kullanıcılar (kasasında >=10 kelime veya >100 puanı olanlar)
+          // ilk oturum mikro-setine (3 kelime) düşmesin; yeni kullanıcılar completedLevels=0 ile başlasın
+          if (state.completedLevels == null) {
+            const vaultSize = Object.keys(state.vocabularyVault || {}).length;
+            const totalScore = Number(state.globalStats?.total_score) || 0;
+            if (vaultSize >= 10 || totalScore > 100) {
+              state.completedLevels = 2;
+              state.isFirstSession = false;
+            } else {
+              state.completedLevels = 0;
+              state.isFirstSession = true;
+            }
+          }
         }
       },
     }

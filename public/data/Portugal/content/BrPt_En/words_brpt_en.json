@@ -1296,10 +1296,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_alguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_algum.mp3"
+    "audio": "brpt_alguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_alguém.mp3"
   },
   {
     "id": "pt_a1_094",
@@ -1310,10 +1308,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_ninguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_ninguém.mp3"
+    "audio": "brpt_ninguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_ninguém.mp3"
   },
   {
     "id": "pt_a1_095",
@@ -1702,10 +1698,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_difícil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_difícil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_difícil.mp3"
   },
   {
     "id": "pt_a1_123",
@@ -1716,10 +1710,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_fácil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_fácil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_fácil.mp3"
   },
   {
     "id": "pt_a1_124",
@@ -2108,10 +2100,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_fácil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_fácil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_fácil.mp3"
   },
   {
     "id": "pt_a1_152",
@@ -2318,10 +2308,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_alguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_algum.mp3"
+    "audio": "brpt_alguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_alguém.mp3"
   },
   {
     "id": "pt_a1_167",
@@ -2332,10 +2320,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_ninguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_ninguém.mp3"
+    "audio": "brpt_ninguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_ninguém.mp3"
   },
   {
     "id": "pt_a1_168",
@@ -2620,7 +2606,7 @@
   {
     "id": "pt_a1_188",
     "word": "sua",
-    "translation": "your (feminine)",
+    "translation": "your / her / his / their (feminine)",
     "len": 3,
     "tags": [
       "a1",
@@ -2718,7 +2704,7 @@
   {
     "id": "pt_a1_195",
     "word": "esses",
-    "translation": "those",
+    "translation": "these / those",
     "len": 5,
     "tags": [
       "a1",
@@ -2732,7 +2718,7 @@
   {
     "id": "pt_a1_196",
     "word": "essas",
-    "translation": "those (feminine)",
+    "translation": "these / those (feminine)",
     "len": 5,
     "tags": [
       "a1",
@@ -3361,7 +3347,7 @@
   },
   {
     "id": "pt_a1_241",
-    "word": "junto",
+    "word": "juntos",
     "translation": "together",
     "len": 5,
     "tags": [
@@ -3438,10 +3424,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_fácil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_fácil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_fácil.mp3"
   },
   {
     "id": "pt_a1_247",
@@ -3480,10 +3464,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_alguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_algum.mp3"
+    "audio": "brpt_alguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_alguém.mp3"
   },
   {
     "id": "pt_a1_250",
@@ -3494,10 +3476,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_ninguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_ninguém.mp3"
+    "audio": "brpt_ninguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_ninguém.mp3"
   },
   {
     "id": "pt_a1_251",
@@ -3670,7 +3650,7 @@
   {
     "id": "pt_a1_263",
     "word": "sua",
-    "translation": "your (fem.)",
+    "translation": "your / her / his (fem.)",
     "len": 3,
     "tags": [
       "a1",
@@ -3768,7 +3748,7 @@
   {
     "id": "pt_a1_270",
     "word": "esses",
-    "translation": "those",
+    "translation": "these / those",
     "len": 5,
     "tags": [
       "a1",
@@ -3782,7 +3762,7 @@
   {
     "id": "pt_a1_271",
     "word": "essas",
-    "translation": "those (fem.)",
+    "translation": "these / those (fem.)",
     "len": 5,
     "tags": [
       "a1",
@@ -4300,7 +4280,7 @@
   {
     "id": "pt_a1_308",
     "word": "dever",
-    "translation": "to must",
+    "translation": "must / to have to",
     "len": 5,
     "tags": [
       "a1",
@@ -6280,10 +6260,8 @@
       "a2",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_fácil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_fácil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_fácil.mp3"
   },
   {
     "id": "pt_a2_050",
@@ -6294,10 +6272,8 @@
       "a2",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_difícil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_difícil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_difícil.mp3"
   },
   {
     "id": "pt_a2_051",
@@ -6986,7 +6962,7 @@
     "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_junto.mp3"
   },
   {
-    "id": "pt_a2_0100",
+    "id": "pt_a2_100",
     "word": "atrás",
     "translation": "behind",
     "len": 5,
@@ -7324,7 +7300,7 @@
   {
     "id": "pt_a2_124",
     "word": "dever",
-    "translation": "to must",
+    "translation": "must / to have to",
     "len": 5,
     "tags": [
       "a2",
@@ -9836,10 +9812,8 @@
       "b1",
       "intermediate"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_possível.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tudo_é_possível.mp3"
+    "audio": "brpt_possível.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_possível.mp3"
   },
   {
     "id": "pt_b1_104",
@@ -13750,7 +13724,7 @@
   {
     "id": "pt_b2_183",
     "word": "vice",
-    "translation": "vice",
+    "translation": "deputy / vice-",
     "len": 4,
     "tags": [
       "b2",
@@ -14407,8 +14381,8 @@
   },
   {
     "id": "pt_c1_030",
-    "word": "equivocação",
-    "translation": "equivocation",
+    "word": "equívoco",
+    "translation": "mistake / misconception",
     "len": 11,
     "tags": [
       "c1",
@@ -15612,7 +15586,7 @@
   {
     "id": "pt_c1_116",
     "word": "apologia",
-    "translation": "apology/defense",
+    "translation": "defense / eulogy",
     "len": 8,
     "tags": [
       "c1",
@@ -16311,7 +16285,7 @@
   },
   {
     "id": "pt_c1_166",
-    "word": "decentralização",
+    "word": "descentralização",
     "translation": "decentralization",
     "len": 16,
     "tags": [
@@ -17502,7 +17476,7 @@
   {
     "id": "pt_c2_051",
     "word": "entrave",
-    "translation": "obstacle/hinderance",
+    "translation": "obstacle / hindrance",
     "len": 7,
     "tags": [
       "c2",

@@ -2,7 +2,7 @@
   {
     "id": "it_a1_01",
     "word": "il",
-    "translation": "belirli artikü (eril)",
+    "translation": "belirli tanımlık / artikel (eril)",
     "len": 2,
     "tags": [
       "a1",
@@ -114,7 +114,7 @@
   {
     "id": "it_a1_09",
     "word": "lo",
-    "translation": "belirli artikü",
+    "translation": "belirli tanımlık / artikel (eril)",
     "len": 2,
     "tags": [
       "a1",
@@ -2465,7 +2465,7 @@
   },
   {
     "id": "it_a1_177",
-    "word": "arancia",
+    "word": "arancione",
     "translation": "turuncu",
     "len": 7,
     "tags": [
@@ -2774,7 +2774,7 @@
   {
     "id": "it_a1_199",
     "word": "me",
-    "translation": "ben",
+    "translation": "beni / bana",
     "len": 2,
     "tags": [
       "a1",
@@ -2788,7 +2788,7 @@
   {
     "id": "it_a1_200",
     "word": "te",
-    "translation": "sen",
+    "translation": "seni / sana",
     "len": 2,
     "tags": [
       "a1",
@@ -4228,7 +4228,7 @@
     "audioUrl": "/data/Italy/audio/words_it/it_suonare.mp3"
   },
   {
-    "id": "d'it_a1_303",
+    "id": "it_a1_303",
     "word": "cantare",
     "translation": "şarkı söylemek",
     "len": 7,
@@ -9676,7 +9676,7 @@
   {
     "id": "it_b1_092",
     "word": "misura",
-    "translation": "önlem",
+    "translation": "ölçü / boyut / önlem",
     "len": 6,
     "tags": [
       "b1",
@@ -10138,7 +10138,7 @@
   {
     "id": "it_b1_125",
     "word": "probabile",
-    "translation": "olasılıklı",
+    "translation": "muhtemel / olası",
     "len": 9,
     "tags": [
       "b1",
@@ -11468,7 +11468,7 @@
   {
     "id": "it_b2_020",
     "word": "considerevole",
-    "translation": "önemli ölçüde",
+    "translation": "dikkate değer / önemli",
     "len": 13,
     "tags": [
       "b2",
@@ -13875,7 +13875,7 @@
   },
   {
     "id": "it_b2_192",
-    "word": "vulgarità",
+    "word": "volgarità",
     "translation": "kabalık",
     "len": 9,
     "tags": [
@@ -14296,7 +14296,7 @@
   {
     "id": "it_c1_022",
     "word": "aneddoto",
-    "translation": "anektod",
+    "translation": "anekdot",
     "len": 8,
     "tags": [
       "c1",
@@ -14324,7 +14324,7 @@
   {
     "id": "it_c1_024",
     "word": "animale",
-    "translation": "hayvansal",
+    "translation": "hayvan / hayvansal",
     "len": 7,
     "tags": [
       "c1",
@@ -14589,7 +14589,7 @@
   },
   {
     "id": "it_c1_043",
-    "word": "avvenieristico",
+    "word": "avveniristico",
     "translation": "fütüristik",
     "len": 14,
     "tags": [
@@ -14981,7 +14981,7 @@
   },
   {
     "id": "it_c1_071",
-    "word": "ceticidio",
+    "word": "cetaceicidio",
     "translation": "balina katliamı",
     "len": 9,
     "tags": [
@@ -15373,7 +15373,7 @@
   },
   {
     "id": "it_c1_099",
-    "word": "commodità",
+    "word": "comodità",
     "translation": "rahatlık",
     "len": 9,
     "tags": [
@@ -15429,8 +15429,8 @@
   },
   {
     "id": "it_c1_103",
-    "word": "complacente",
-    "translation": "hoşgörülü",
+    "word": "compiacente",
+    "translation": "hoşgörülü / yardımsever",
     "len": 11,
     "tags": [
       "c1",
@@ -15640,7 +15640,7 @@
   {
     "id": "it_c1_118",
     "word": "condiscendenza",
-    "translation": "iyilikseverlik",
+    "translation": "tenezzül / hoşgörü",
     "len": 14,
     "tags": [
       "c1",
@@ -15905,8 +15905,8 @@
   },
   {
     "id": "it_c1_137",
-    "word": "conspicuo",
-    "translation": "göze çarpan",
+    "word": "cospicuo",
+    "translation": "önemli miktarda / göze çarpan",
     "len": 9,
     "tags": [
       "c1",
@@ -16158,7 +16158,7 @@
   {
     "id": "it_c1_155",
     "word": "controindicazione",
-    "translation": "yan etki",
+    "translation": "kontrendikasyon / sakınca",
     "len": 17,
     "tags": [
       "c1",
@@ -16550,7 +16550,7 @@
   {
     "id": "it_c1_183",
     "word": "culminante",
-    "translation": "doruk noktası",
+    "translation": "doruk noktasına ulaşan / en üst",
     "len": 10,
     "tags": [
       "c1",
@@ -17712,7 +17712,7 @@
   {
     "id": "it_c2_066",
     "word": "ancestrale",
-    "translation": "ata",
+    "translation": "atalardan kalma / kadim",
     "len": 10,
     "tags": [
       "c2",
@@ -17964,7 +17964,7 @@
   {
     "id": "it_c2_084",
     "word": "antitesi",
-    "translation": "karşıt",
+    "translation": "tezat / karşıtlık",
     "len": 8,
     "tags": [
       "c2",
@@ -18132,7 +18132,7 @@
   {
     "id": "it_c2_096",
     "word": "apostrofato",
-    "translation": "eleştirilmiş",
+    "translation": "azarlanmış / sertçe hitap edilmiş",
     "len": 11,
     "tags": [
       "c2",
@@ -18369,7 +18369,7 @@
   },
   {
     "id": "it_c2_113",
-    "word": "aquisizione",
+    "word": "acquisizione",
     "translation": "edinme",
     "len": 11,
     "tags": [
@@ -18496,7 +18496,7 @@
   {
     "id": "it_c2_122",
     "word": "arguto",
-    "translation": "zekice",
+    "translation": "zeki / nüktedan",
     "len": 6,
     "tags": [
       "c2",
@@ -18552,7 +18552,7 @@
   {
     "id": "it_c2_126",
     "word": "articolazione",
-    "translation": "eklemleme",
+    "translation": "eklem / eklemleme",
     "len": 13,
     "tags": [
       "c2",
@@ -18901,7 +18901,7 @@
   },
   {
     "id": "it_c2_151",
-    "word": "atmostfera",
+    "word": "atmosfera",
     "translation": "atmosfer",
     "len": 10,
     "tags": [
@@ -19153,7 +19153,7 @@
   },
   {
     "id": "it_c2_169",
-    "word": "auditorio",
+    "word": "uditorio",
     "translation": "dinleyici kitlesi",
     "len": 9,
     "tags": [
@@ -19461,7 +19461,7 @@
   },
   {
     "id": "it_c2_191",
-    "word": "autentificare",
+    "word": "autenticare",
     "translation": "doğrulamak",
     "len": 12,
     "tags": [

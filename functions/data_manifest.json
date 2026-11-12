@@ -6112,6 +6112,32 @@
           "directionLabel": "İngilizce - Türkçe"
         }
       ]
+    },
+    {
+      "name": "Ortaokul",
+      "folder": "Tr_Eng_Ortaokul",
+      "files": [
+        {
+          "path": "Tr_Eng_Ortaokul/Ortaokul_5_Sinif_Kelimeleri.json",
+          "label": "5. Sınıf 1. Ünite (School Life) Kelimeleri",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Ortaokul/Ortaokul_6_Sinif_Kelimeleri.json",
+          "label": "6. Sınıf 1. Ünite (School Life) Kelimeleri",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Ortaokul/Ortaokul_7_Sinif_Kelimeleri.json",
+          "label": "7. Sınıf 1. ve 2. Ünite Kelimeleri",
+          "directionLabel": "İngilizce - Türkçe"
+        },
+        {
+          "path": "Tr_Eng_Ortaokul/Ortaokul_8_Sinif_Kelimeleri.json",
+          "label": "8. Sınıf 1. Ünite (School Life) Kelimeleri",
+          "directionLabel": "İngilizce - Türkçe"
+        }
+      ]
     }
   ]
 }

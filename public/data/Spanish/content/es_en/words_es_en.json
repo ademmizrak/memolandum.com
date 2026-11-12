@@ -965,7 +965,7 @@
   {
     "id": "es_a1_70",
     "word": "calor",
-    "translation": "hot",
+    "translation": "heat",
     "len": 5,
     "tags": [
       "a1",
@@ -1306,10 +1306,8 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": null
-    },
-    "audioUrl": "/data/Spanish/audio/words_es/es_fecundo.mp3"
+    "audio": "es_cuando.mp3",
+    "audioUrl": "/data/Spanish/audio/words_es/es_cuando.mp3"
   },
   {
     "id": "es_a1_95",
@@ -2356,7 +2354,7 @@
   },
   {
     "id": "es_a1_170",
-    "word": "junto",
+    "word": "juntos",
     "translation": "together",
     "len": 5,
     "tags": [
@@ -4037,7 +4035,7 @@
   },
   {
     "id": "es_a1_291",
-    "word": "porqué",
+    "word": "por qué",
     "translation": "why",
     "len": 6,
     "tags": [
@@ -4586,7 +4584,7 @@
   {
     "id": "es_a1_331",
     "word": "yo",
-    "translation": "i",
+    "translation": "I",
     "len": 2,
     "tags": [
       "a1",
@@ -5100,7 +5098,7 @@
   },
   {
     "id": "es_a1_369",
-    "word": "ningunas",
+    "word": "ninguna",
     "translation": "none",
     "len": 8,
     "tags": [
@@ -5487,7 +5485,7 @@
   {
     "id": "es_a1_397",
     "word": "deber",
-    "translation": "to must",
+    "translation": "must / to have to",
     "len": 5,
     "tags": [
       "a1",
@@ -7202,7 +7200,7 @@
   },
   {
     "id": "es_a2_120",
-    "word": "sitio",
+    "word": "sitio web",
     "translation": "website",
     "len": 5,
     "tags": [
@@ -11124,7 +11122,7 @@
   },
   {
     "id": "es_b2_003",
-    "word": "accommodar",
+    "word": "acomodar",
     "translation": "accommodate",
     "len": 10,
     "tags": [
@@ -13714,7 +13712,7 @@
   },
   {
     "id": "es_b2_190",
-    "word": "influencial",
+    "word": "influyente",
     "translation": "influential",
     "len": 11,
     "tags": [
@@ -14364,7 +14362,7 @@
   },
   {
     "id": "es_c1_037",
-    "word": "causality",
+    "word": "causalidad",
     "translation": "causality",
     "len": 9,
     "tags": [
@@ -15650,7 +15648,7 @@
   {
     "id": "es_c1_131",
     "word": "equivocidad",
-    "translation": "equivocation",
+    "translation": "equivocality / ambiguity",
     "len": 11,
     "tags": [
       "c1",
@@ -17134,7 +17132,7 @@
   {
     "id": "es_c2_039",
     "word": "apología",
-    "translation": "apology",
+    "translation": "defense / eulogy",
     "len": 8,
     "tags": [
       "c2",
@@ -17655,7 +17653,7 @@
   },
   {
     "id": "es_c2_077",
-    "word": "caústico",
+    "word": "cáustico",
     "translation": "caustic",
     "len": 8,
     "tags": [
@@ -19107,7 +19105,7 @@
   {
     "id": "es_c2_183",
     "word": "equivocidad",
-    "translation": "equivocation",
+    "translation": "equivocality / ambiguity",
     "len": 11,
     "tags": [
       "c2",

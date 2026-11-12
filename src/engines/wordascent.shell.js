@@ -510,7 +510,7 @@ export class WordAscentGame {
     // Get distractor meanings
     const otherVocab = this.vocabulary.filter(w => w.turkish !== wordObj.turkish);
     const distractorWords = [];
-    while (distractorWords.length < 2 && otherVocab.length > 0) {
+    let _tries = 0; while (distractorWords.length < 2 && otherVocab.length > 0 && _tries++ < 20) {
       const w = otherVocab[Math.floor(Math.random() * otherVocab.length)];
       if (!distractorWords.some(d => d.turkish === w.turkish)) {
         distractorWords.push(w);
@@ -679,7 +679,7 @@ export class WordAscentGame {
           const el_hud = document.getElementById('hud'); if(el_hud) el_hud.classList.add('hidden');
           const el_gameCanvas = document.getElementById('gameCanvas'); if(el_gameCanvas) el_gameCanvas.classList.add('hidden');
           const el_controls = document.querySelector('.controls-container'); if (el_controls) el_controls.classList.add('hidden');
-          window.location.href = '/';
+          window.location.href = '/games/';
         }
       };
     }

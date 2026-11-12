@@ -7,21 +7,13 @@ import { useMemolandumStore } from "../../../store/useMemolandumStore";
 import { PauseScreen, VictoryScreen } from "../shared/GameOverlays";
 import { GameHeader } from "../shared/GameHeader";
 import { SoundManager } from "../../../engines/soundManager";
+import { playWordPronunciation } from "../../../lib/pronunciation";
 import { createSessionProgressTracker } from "../../../lib/progress/applySessionProgress";
-import { findNextLevelId } from "../../../lib/learning/studyContext";
+import { findLevelContext, findNextLevelId } from "../../../lib/learning/studyContext";
 import { findVaultItem } from "../../../lib/learning/memolandumPulse";
 import { resolveWordImageUrl, resolveDataUrl } from "../../../lib/contentCdn";
-
-function getPlaylistCategory(levelId) {
-  if (!levelId) return null;
-  const idLower = levelId.toLowerCase();
-  if (idLower.includes("yds")) return "yds";
-  if (idLower.includes("ilkokul-0")) return "1sınıf";
-  if (idLower.includes("ilkokul-1") || idLower.includes("ilkokul-2")) return "2sınıf";
-  if (idLower.includes("ilkokul-3") || idLower.includes("ilkokul-4")) return "3sınıf";
-  if (idLower.includes("ilkokul-5") || idLower.includes("ilkokul-6")) return "4sınıf";
-  return null;
-}
+import { getPlaylistCategory } from "../../../lib/youtube/playlistCategory";
+import WordBoard from "../WordBoard";
 
 function findVideoForWord(wordText, playlistVideos) {
   if (!wordText || !playlistVideos) return null;
@@ -105,13 +97,28 @@ export default function WordCard({
   const [learnedWords, setLearnedWords] = useState([]);
   const [selectedUnitNo, setSelectedUnitNo] = useState(null);
   const [youtubeData, setYoutubeData] = useState(null);
+  const [boardMode, setBoardMode] = useState(() => {
+    if (typeof window !== "undefined") {
+      return new URLSearchParams(window.location.search).get("mode") === "board";
+    }
+    return false;
+  });
 
   useEffect(() => {
-    fetch(`${resolveDataUrl("youtube_videos.json")}?v=${Date.now()}`)
+    const cacheBust = `v=${Math.floor(Date.now() / 60000)}`;
+    const gcsUrl = `https://storage.googleapis.com/memolandum-33dc4.firebasestorage.app/data/youtube_videos.json?${cacheBust}`;
+    const localUrl = `${resolveDataUrl("youtube_videos.json")}?${cacheBust}`;
+    fetch(gcsUrl, { cache: "no-store" })
       .then((res) => {
-        if (!res.ok) throw new Error("JSON fetch failed");
+        if (!res.ok) throw new Error("GCS JSON fetch failed");
         return res.json();
       })
+      .catch(() =>
+        fetch(localUrl, { cache: "no-store" }).then((res) => {
+          if (!res.ok) throw new Error("Local JSON fetch failed");
+          return res.json();
+        })
+      )
       .then((data) => setYoutubeData(data))
       .catch((err) => console.warn("Failed to load youtube_videos.json:", err));
   }, []);
@@ -140,13 +147,31 @@ export default function WordCard({
     }
     let preferred = null;
     try {
-      const raw = sessionStorage.getItem(unitStorageKey(levelId));
-      if (raw != null && raw !== "") preferred = Number(raw);
+      if (typeof window !== "undefined") {
+        const q = new URLSearchParams(window.location.search).get("unit");
+        if (q != null && q !== "") preferred = Number(q);
+      }
+      if (preferred == null) {
+        const slug = findLevelContext(levelId)?.level?.slug;
+        const raw =
+          sessionStorage.getItem(unitStorageKey(levelId)) ??
+          (slug ? sessionStorage.getItem(unitStorageKey(slug)) : null);
+        if (raw != null && raw !== "") preferred = Number(raw);
+      }
     } catch {
       /* ignore */
     }
     const exists = preferred != null && units.some((u) => u.unitNo === preferred);
     setSelectedUnitNo(exists ? preferred : units[0].unitNo);
+    if (exists && preferred != null) {
+      try {
+        sessionStorage.setItem(unitStorageKey(levelId), String(preferred));
+        const slug = findLevelContext(levelId)?.level?.slug;
+        if (slug) sessionStorage.setItem(unitStorageKey(slug), String(preferred));
+      } catch {
+        /* ignore */
+      }
+    }
   }, [levelId, hasUnitLevels, units]);
 
   const unitWords = useMemo(() => {
@@ -320,31 +345,18 @@ export default function WordCard({
 
   useEffect(() => {
     setImgError(false);
-  }, [cardIndex]);
-
-  const speakTts = useCallback((text) => {
-    if (typeof window === "undefined" || !window.speechSynthesis || !text) return;
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US";
-    utterance.rate = 0.85;
-    window.speechSynthesis.speak(utterance);
-  }, []);
+  }, [cardIndex, currentWord]);
 
   const playPronunciation = useCallback(
     (wordObj) => {
       if (!isAudioEnabled || !wordObj) return;
-      const text = wordObj.english || wordObj.word || "";
-      const id = String(wordObj.sentence_id || wordObj.word_id || wordObj.id || "");
-      const audioUrl = wordObj.audioUrl || wordObj.audio_url;
-      // Ses dosyası varsa soundManager ile çal, yoksa tarayıcı TTS'e başvur
-      if (soundManagerRef.current && audioUrl) {
-        soundManagerRef.current.playWordAudio(audioUrl);
+      if (soundManagerRef.current) {
+        soundManagerRef.current.speakWord(wordObj, { langId, rate: 0.85 });
       } else {
-        speakTts(text);
+        playWordPronunciation(wordObj, { isAudioEnabled, langId, rate: 0.85 });
       }
     },
-    [isAudioEnabled, speakTts]
+    [isAudioEnabled, langId]
   );
 
   useEffect(() => {
@@ -472,6 +484,38 @@ export default function WordCard({
     }
   };
 
+  useEffect(() => {
+    const onHardwareBack = (e) => {
+      if (activeScreen === "video-review") {
+        e.preventDefault();
+        setActiveScreen("playing");
+        return;
+      }
+      if (activeScreen === "playing" && isFlipped) {
+        e.preventDefault();
+        setIsFlipped(false);
+      }
+    };
+    window.addEventListener("mm:hardware-back", onHardwareBack);
+    return () => window.removeEventListener("mm:hardware-back", onHardwareBack);
+  }, [activeScreen, isFlipped]);
+
+  if (boardMode) {
+    return (
+      <WordBoard
+        levelId={levelId}
+        langId={langId}
+        onExit={onExit}
+        onNextLevel={onNextLevel}
+        isAudioEnabled={isAudioEnabled}
+        setIsAudioEnabled={setIsAudioEnabled}
+        isFxEnabled={isFxEnabled}
+        setIsFxEnabled={setIsFxEnabled}
+        onSwitchToSingleCard={() => setBoardMode(false)}
+      />
+    );
+  }
+
   if (isLoading || (hasUnitLevels && selectedUnitNo == null) || !currentWord) {
     return (
       <div className="absolute inset-0 flex items-center justify-center bg-slate-950 z-20">
@@ -486,22 +530,34 @@ export default function WordCard({
   const playlistCategory = getPlaylistCategory(levelId);
 
   return (
-    <div className="relative w-full h-[82vh] min-h-[540px] sm:h-[780px] flex flex-col bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl">
+    <div className="relative w-full h-full max-h-full min-h-0 flex flex-col bg-slate-950 rounded-none sm:rounded-2xl overflow-hidden border-0 sm:border border-slate-800 shadow-2xl pb-[env(safe-area-inset-bottom,0px)]">
 
       <GameHeader>
         <GameHeader.Left>
-          <div className="flex items-center gap-2.5 bg-slate-900/90 px-4 py-2 rounded-2xl border border-cyan-500/20 shadow-[0_0_15px_rgba(6,182,212,0.1)]">
-            <Award className="w-5 h-5 text-cyan-400 animate-bounce" />
-            <div className="flex flex-col">
-              <span className="text-[9px] text-slate-400 font-bold uppercase tracking-wider">
-                {activeScreen === "video-review" ? "VİDEO" : "İLERLEME"}
-              </span>
-              <span className="text-cyan-400 font-mono text-xs sm:text-sm font-black leading-none mt-0.5">
-                {activeScreen === "video-review"
-                  ? `${cardIndex + 1} / ${initialDeck.length}`
-                  : `${sessionCompletedRef.current.size} / ${unitWords.length}`}
-              </span>
+          <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2.5 bg-slate-900/90 px-3 sm:px-4 py-2 rounded-2xl border border-cyan-500/20 shadow-[0_0_15px_rgba(6,182,212,0.1)]">
+              <Award className="w-5 h-5 text-cyan-400 animate-bounce" />
+              <div className="flex flex-col">
+                <span className="text-[9px] text-slate-400 font-bold uppercase tracking-wider">
+                  {activeScreen === "video-review" ? "VİDEO" : "İLERLEME"}
+                </span>
+                <span className="text-cyan-400 font-mono text-xs sm:text-sm font-black leading-none mt-0.5">
+                  {activeScreen === "video-review"
+                    ? `${cardIndex + 1} / ${initialDeck.length}`
+                    : `${sessionCompletedRef.current.size} / ${unitWords.length}`}
+                </span>
+              </div>
             </div>
+            <button
+              type="button"
+              onClick={() => setBoardMode(true)}
+              title="8'li Ahşap Kelime Panosu (Bahçe Modu)"
+              className="flex items-center gap-1.5 px-2.5 sm:px-3 py-2 rounded-2xl bg-gradient-to-b from-amber-500 to-amber-700 hover:from-amber-400 hover:to-amber-600 text-white font-black text-[10px] sm:text-xs border-2 border-amber-300 shadow-[0_3px_0_#78350f] active:translate-y-0.5 transition-all"
+            >
+              <span>🌳</span>
+              <span className="hidden sm:inline">Ahşap Pano</span>
+              <span className="sm:hidden">Pano</span>
+            </button>
           </div>
         </GameHeader.Left>
 

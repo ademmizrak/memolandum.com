@@ -387,7 +387,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_026.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_026.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_026.mp3",
+    "meaning": "It's a great day."
   },
   {
     "id": "kr_sent_027",
@@ -492,7 +493,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_033.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_033.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_033.mp3",
+    "meaning": "I'll take my time. / I'll do it slowly."
   },
   {
     "id": "kr_sent_034",
@@ -762,7 +764,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_051.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_051.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_051.mp3",
+    "romanization": "Junbidwaesseoyo."
   },
   {
     "id": "kr_sent_052",
@@ -957,7 +960,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_064.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_064.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_064.mp3",
+    "romanization": "Junbidwaesseoyo."
   },
   {
     "id": "kr_sent_065",
@@ -2985,7 +2989,7 @@
     "audioUrl": "/data/Korean/audio/sentences_ko/kr_biz_099.mp3"
   },
   {
-    "id": "kr_biz_0100",
+    "id": "kr_biz_100",
     "word": "논의해주셔서 감사합니다.",
     "latin_okunusu": "Nonuihaejusyeoseo gamsahamnida.",
     "translation": "Thank you for the discussion.",
@@ -3417,7 +3421,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_028.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_028.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_028.mp3",
+    "romanization": "Myeonghwakhan mokpyoreul se-umnida."
   },
   {
     "id": "kr_dev_029",
@@ -3687,7 +3692,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_046.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_046.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_046.mp3",
+    "romanization": "Jipjungryeogeul yujihamnida."
   },
   {
     "id": "kr_dev_047",
@@ -3867,7 +3873,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_058.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_058.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_058.mp3",
+    "romanization": "Dayangseong-eul jonjunghamnida."
   },
   {
     "id": "kr_dev_059",
@@ -4032,7 +4039,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_069.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_069.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_069.mp3",
+    "romanization": "Saeroun gisureul gaebalhamnida."
   },
   {
     "id": "kr_dev_070",
@@ -4512,7 +4520,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_001.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_001.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_001.mp3",
+    "romanization": "Gichayeogi eodiingayo?"
   },
   {
     "id": "kr_trv_002",
@@ -4977,7 +4986,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_032.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_032.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_032.mp3",
+    "romanization": "Achim siksaga pohamdoeeo innayo?"
   },
   {
     "id": "kr_trv_033",
@@ -5037,7 +5047,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_036.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_036.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_036.mp3",
+    "romanization": "Jajeongeoreul billil su innayo?"
   },
   {
     "id": "kr_trv_037",
@@ -5247,7 +5258,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_050.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_050.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_050.mp3",
+    "romanization": "Ipjangnyoga eolmaingayo?"
   },
   {
     "id": "kr_trv_051",
@@ -6192,7 +6204,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_013.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_013.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_013.mp3",
+    "romanization": "Jeoneun teoki-eseo wasseoyo."
   },
   {
     "id": "kr_soc_014",
@@ -6402,7 +6415,10 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_027.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_027.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_027.mp3",
+    "original_script": "천만에요.",
+    "romanization": "Cheonmaneyo.",
+    "meaning": "You're welcome."
   },
   {
     "id": "kr_soc_028",
@@ -6447,7 +6463,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_030.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_030.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_030.mp3",
+    "romanization": "Gikkeoiyo!"
   },
   {
     "id": "kr_soc_031",
@@ -7032,7 +7049,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_069.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_069.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_069.mp3",
+    "meaning": "What shall we do this evening?"
   },
   {
     "id": "kr_soc_070",
@@ -7437,7 +7455,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_096.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_096.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_096.mp3",
+    "romanization": "Junbidwaesseoyo."
   },
   {
     "id": "kr_soc_097",

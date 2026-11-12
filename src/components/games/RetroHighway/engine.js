@@ -1,5 +1,6 @@
 import { useMemolandumStore } from '../../../store/useMemolandumStore';
 import { playCoinSound, playCrashSound, playHyperdriveSound } from '../../../utils/retroAudio';
+import { playWordPronunciation } from '../../../lib/pronunciation';
 
 export class Star {
   reset(virtualWidth, virtualHeight) {
@@ -51,20 +52,75 @@ export class SoundManager {
     playHyperdriveSound();
   }
 
-  playWordAudio(url) {
-    if (!url) return;
+  playWordAudio(url, onFallback, onEnded) {
+    if (!url) {
+      if (typeof onFallback === 'function') onFallback();
+      return;
+    }
     try {
       if (!this.wordAudio) {
         this.wordAudio = new Audio();
         this.wordAudio.volume = 1.0;
       }
+
+      let fallbackTriggered = false;
+      const triggerFallback = (err) => {
+        if (fallbackTriggered) return;
+        fallbackTriggered = true;
+        this.wordAudio.onerror = null;
+        this.wordAudio.onplaying = null;
+        this.wordAudio.onended = null;
+        if (typeof onFallback === 'function') {
+          onFallback(err);
+        }
+      };
+
+      const timeoutId = setTimeout(() => {
+        if (this.wordAudio.readyState < 2 && !this.wordAudio.ended && !fallbackTriggered) {
+          triggerFallback('timeout');
+        }
+      }, 1500);
+
+      this.wordAudio.onerror = () => {
+        clearTimeout(timeoutId);
+        triggerFallback(this.wordAudio.error);
+      };
+
+      this.wordAudio.onplaying = () => {
+        clearTimeout(timeoutId);
+      };
+
+      this.wordAudio.onended = () => {
+        clearTimeout(timeoutId);
+        this.wordAudio.onended = null;
+        if (!fallbackTriggered && typeof onEnded === 'function') {
+          onEnded();
+        }
+      };
+
       this.wordAudio.src = url;
       this.wordAudio.load();
       this.wordAudio.currentTime = 0;
-      this.wordAudio.play().catch(e => console.warn("Audio play blocked or failed:", e));
+      const playPromise = this.wordAudio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch((e) => {
+          clearTimeout(timeoutId);
+          console.warn("Audio play failed, triggering fallback:", e?.message || e);
+          triggerFallback(e);
+        });
+      }
     } catch (e) {
-      console.error("Audio creation failed:", e);
+      console.warn("Audio playback error, triggering fallback:", e);
+      if (typeof onFallback === 'function') onFallback(e);
     }
+  }
+
+  speakWord(wordObj, options = {}) {
+    if (!wordObj) return;
+    return playWordPronunciation(wordObj, {
+      soundManager: this,
+      ...options,
+    });
   }
 }
 

@@ -1068,7 +1068,7 @@
     "level": "A1"
   },
   {
-    "id": "a1_de_en_89",
+    "id": "a1_de_en_90",
     "word": "beenden",
     "translation": "end",
     "pos": "verb",
@@ -1076,8 +1076,9 @@
       "A1",
       "Core"
     ],
-    "audioUrl": "/data/Almanca/audio/de/words/a1_de_tr_89_beginnen.mp3",
-    "level": "A1"
+    "audioUrl": null,
+    "level": "A1",
+    "audio": null
   },
   {
     "id": "a1_de_en_91",
@@ -3961,7 +3962,7 @@
   },
   {
     "id": "a1_de_en_331",
-    "word": "angst haben",
+    "word": "Angst haben",
     "translation": "to be afraid",
     "pos": "verb",
     "tags": [
@@ -6289,7 +6290,7 @@
   },
   {
     "id": "a2_de_en_125",
-    "word": "verspäten",
+    "word": "sich verspäten",
     "translation": "to be late",
     "pos": "verb",
     "tags": [
@@ -9638,7 +9639,7 @@
   {
     "id": "b2_de_en_04",
     "word": "beeinträchtigen",
-    "translation": "to affect",
+    "translation": "to impair / adversely affect",
     "pos": "verb",
     "tags": [
       "B2",
@@ -9949,7 +9950,7 @@
   },
   {
     "id": "b2_de_en_30",
-    "word": "debatieren",
+    "word": "debattieren",
     "translation": "to debate",
     "pos": "verb",
     "tags": [
@@ -10273,7 +10274,7 @@
   },
   {
     "id": "b2_de_en_57",
-    "word": "fundamentaler",
+    "word": "fundamental",
     "translation": "fundamental",
     "pos": "adjective",
     "tags": [
@@ -11221,7 +11222,7 @@
   },
   {
     "id": "b2_de_en_136",
-    "word": "das Klientel",
+    "word": "die Klientel",
     "translation": "the clientele",
     "pos": "noun",
     "tags": [
@@ -11401,8 +11402,8 @@
   },
   {
     "id": "b2_de_en_151",
-    "word": "pränatal",
-    "translation": "prenatal",
+    "word": "verbreitet",
+    "translation": "widespread",
     "pos": "adjective",
     "tags": [
       "B2",
@@ -12241,8 +12242,8 @@
   },
   {
     "id": "c1_de_en_21",
-    "word": "distanzieren",
-    "translation": "to distance",
+    "word": "sich distanzieren",
+    "translation": "to distance oneself",
     "pos": "verb",
     "tags": [
       "C1",
@@ -12673,7 +12674,7 @@
   },
   {
     "id": "c1_de_en_57",
-    "word": "fundamentaler",
+    "word": "fundamental",
     "translation": "fundamental",
     "pos": "adjective",
     "tags": [
@@ -13621,7 +13622,7 @@
   },
   {
     "id": "c1_de_en_136",
-    "word": "das Klientel",
+    "word": "die Klientel",
     "translation": "the clientele",
     "pos": "noun",
     "tags": [
@@ -13801,8 +13802,8 @@
   },
   {
     "id": "c1_de_en_151",
-    "word": "pränatal",
-    "translation": "prenatal",
+    "word": "verbreitet",
+    "translation": "widespread",
     "pos": "adjective",
     "tags": [
       "C1",
@@ -14581,8 +14582,8 @@
   },
   {
     "id": "c2_de_en_16",
-    "word": "distanzieren",
-    "translation": "to distance",
+    "word": "sich distanzieren",
+    "translation": "to distance oneself",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15049,7 +15050,7 @@
   },
   {
     "id": "c2_de_en_55",
-    "word": "fundamentaler",
+    "word": "fundamental",
     "translation": "fundamental",
     "pos": "adjective",
     "tags": [
@@ -15638,7 +15639,7 @@
   {
     "id": "c2_de_en_204",
     "word": "exponieren",
-    "translation": "to explain in detail",
+    "translation": "to expose",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15650,7 +15651,7 @@
   {
     "id": "c2_de_en_205",
     "word": "exekutieren",
-    "translation": "to implement",
+    "translation": "to execute",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15710,7 +15711,7 @@
   {
     "id": "c2_de_en_210",
     "word": "annullieren",
-    "translation": "to neutralize",
+    "translation": "to annul / cancel",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15722,7 +15723,7 @@
   {
     "id": "c2_de_en_211",
     "word": "akkreditieren",
-    "translation": "to accept",
+    "translation": "to accredit",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15770,7 +15771,7 @@
   {
     "id": "c2_de_en_215",
     "word": "mutieren",
-    "translation": "to change",
+    "translation": "to mutate",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15806,7 +15807,7 @@
   {
     "id": "c2_de_en_218",
     "word": "obstruieren",
-    "translation": "to ignore",
+    "translation": "to obstruct",
     "pos": "verb",
     "tags": [
       "C2",
@@ -16057,8 +16058,8 @@
   },
   {
     "id": "c2_de_en_239",
-    "word": "die Potent",
-    "translation": "the capacity",
+    "word": "die Potenz",
+    "translation": "the potency / power",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16130,7 +16131,7 @@
   {
     "id": "c2_de_en_245",
     "word": "die Terminisierung",
-    "translation": "the termination",
+    "translation": "the scheduling",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16400,8 +16401,9 @@
       "C2",
       "Core"
     ],
-    "audioUrl": "/data/Almanca/audio/de/words/c2_tr_de_267_proportional.mp3",
-    "level": "C2"
+    "audioUrl": null,
+    "level": "C2",
+    "audio": null
   },
   {
     "id": "c2_de_en_268",

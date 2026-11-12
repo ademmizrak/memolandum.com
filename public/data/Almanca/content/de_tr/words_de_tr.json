@@ -1076,8 +1076,9 @@
       "A1",
       "Core"
     ],
-    "audioUrl": "/data/Almanca/audio/de/words/a1_de_tr_90_beenden.mp3",
-    "level": "A1"
+    "audioUrl": null,
+    "level": "A1",
+    "audio": null
   },
   {
     "id": "a1_de_tr_91",
@@ -3959,7 +3960,7 @@
   },
   {
     "id": "a1_tr_de_331",
-    "word": "angst haben",
+    "word": "Angst haben",
     "translation": "korkmak",
     "pos": "verb",
     "tags": [
@@ -5304,7 +5305,7 @@
   {
     "id": "a2_tr_de_43",
     "word": "der Grund",
-    "translation": "sebebiyet",
+    "translation": "sebep / neden",
     "pos": "noun",
     "tags": [
       "A2",
@@ -5664,7 +5665,7 @@
   {
     "id": "a2_tr_de_73",
     "word": "noch",
-    "translation": "henüz",
+    "translation": "hâlâ",
     "pos": "adverb",
     "tags": [
       "A2",
@@ -5748,7 +5749,7 @@
   {
     "id": "a2_tr_de_80",
     "word": "wiederum",
-    "translation": "tekrar",
+    "translation": "buna karşılık / öte yandan",
     "pos": "adverb",
     "tags": [
       "A2",
@@ -5820,7 +5821,7 @@
   {
     "id": "a2_tr_de_86",
     "word": "außer",
-    "translation": "yanı sıra",
+    "translation": "hariç / dışında",
     "pos": "preposition",
     "tags": [
       "A2",
@@ -5856,7 +5857,7 @@
   {
     "id": "a2_tr_de_89",
     "word": "außerhalb",
-    "translation": "hariç",
+    "translation": "dışında",
     "pos": "preposition",
     "tags": [
       "A2",
@@ -5868,7 +5869,7 @@
   {
     "id": "a2_tr_de_90",
     "word": "innerhalb",
-    "translation": "dahil",
+    "translation": "içinde / zarfında",
     "pos": "preposition",
     "tags": [
       "A2",
@@ -5892,7 +5893,7 @@
   {
     "id": "a2_tr_de_92",
     "word": "oder",
-    "translation": "değil mi",
+    "translation": "veya / ya da",
     "pos": "conjunction",
     "tags": [
       "A2",
@@ -5952,7 +5953,7 @@
   {
     "id": "a2_tr_de_97",
     "word": "obwohl",
-    "translation": "buna rağmen",
+    "translation": "-e rağmen / olmasına rağmen",
     "pos": "conjunction",
     "tags": [
       "A2",
@@ -6060,7 +6061,7 @@
   {
     "id": "a2_tr_de_106",
     "word": "trennen",
-    "translation": "ayrırmak",
+    "translation": "ayırmak",
     "pos": "verb",
     "tags": [
       "A2",
@@ -6108,7 +6109,7 @@
   {
     "id": "a2_tr_de_110",
     "word": "begegnen",
-    "translation": "karşılamak",
+    "translation": "karşılaşmak / rastlamak",
     "pos": "verb",
     "tags": [
       "A2",
@@ -6287,7 +6288,7 @@
   },
   {
     "id": "a2_tr_de_125",
-    "word": "verspäten",
+    "word": "sich verspäten",
     "translation": "geç kalmak",
     "pos": "verb",
     "tags": [
@@ -6312,7 +6313,7 @@
   {
     "id": "a2_tr_de_127",
     "word": "unterscheiden",
-    "translation": "farklılaşmak",
+    "translation": "ayırt etmek",
     "pos": "verb",
     "tags": [
       "A2",
@@ -6696,7 +6697,7 @@
   {
     "id": "a2_tr_de_159",
     "word": "ungültig",
-    "translation": "gecersiz",
+    "translation": "geçersiz",
     "pos": "adjective",
     "tags": [
       "A2",
@@ -6732,7 +6733,7 @@
   {
     "id": "a2_tr_de_162",
     "word": "eilig",
-    "translation": "aceleci",
+    "translation": "acele / acelesi olan",
     "pos": "adjective",
     "tags": [
       "A2",
@@ -6828,7 +6829,7 @@
   {
     "id": "a2_tr_de_170",
     "word": "ängstlich",
-    "translation": "korkak",
+    "translation": "endişeli / ürkek",
     "pos": "adjective",
     "tags": [
       "A2",
@@ -6984,7 +6985,7 @@
   {
     "id": "a2_tr_de_183",
     "word": "durch",
-    "translation": "tarafından",
+    "translation": "vasıtasıyla / içinden",
     "pos": "preposition",
     "tags": [
       "A2",
@@ -6996,7 +6997,7 @@
   {
     "id": "a2_tr_de_184",
     "word": "außerhalb",
-    "translation": "haricinde",
+    "translation": "dışında",
     "pos": "preposition",
     "tags": [
       "A2",
@@ -7032,7 +7033,7 @@
   {
     "id": "a2_tr_de_187",
     "word": "jenseits",
-    "translation": "aşkın",
+    "translation": "ötesinde",
     "pos": "preposition",
     "tags": [
       "A2",
@@ -7044,7 +7045,7 @@
   {
     "id": "a2_tr_de_188",
     "word": "gegenüber",
-    "translation": "nazaran",
+    "translation": "karşısında / karşı",
     "pos": "preposition",
     "tags": [
       "A2",
@@ -8256,7 +8257,7 @@
   {
     "id": "b1_tr_de_89",
     "word": "außer",
-    "translation": "yanı sıra",
+    "translation": "hariç / dışında",
     "pos": "preposition",
     "tags": [
       "B1",
@@ -8328,7 +8329,7 @@
   {
     "id": "b1_tr_de_95",
     "word": "obwohl",
-    "translation": "buna rağmen",
+    "translation": "-e rağmen / olmasına rağmen",
     "pos": "conjunction",
     "tags": [
       "B1",
@@ -8496,7 +8497,7 @@
   {
     "id": "b1_tr_de_109",
     "word": "integrieren",
-    "translation": "uyum sağlamak",
+    "translation": "entegre etmek / bütünleştirmek",
     "pos": "verb",
     "tags": [
       "B1",
@@ -9072,7 +9073,7 @@
   {
     "id": "b1_tr_de_157",
     "word": "gesichert",
-    "translation": "güvenli",
+    "translation": "güvence altına alınmış / kesinleşmiş",
     "pos": "adjective",
     "tags": [
       "B1",
@@ -9240,7 +9241,7 @@
   {
     "id": "b1_tr_de_171",
     "word": "jenseits",
-    "translation": "aşkın",
+    "translation": "ötesinde",
     "pos": "preposition",
     "tags": [
       "B1",
@@ -9264,7 +9265,7 @@
   {
     "id": "b1_tr_de_173",
     "word": "außerhalb",
-    "translation": "haricinde",
+    "translation": "dışında",
     "pos": "preposition",
     "tags": [
       "B1",
@@ -9432,7 +9433,7 @@
   {
     "id": "b1_tr_de_187",
     "word": "entweder ... oder",
-    "translation": "gerek ... gerekse",
+    "translation": "ya ... ya da",
     "pos": "conjunction",
     "tags": [
       "B1",
@@ -9444,7 +9445,7 @@
   {
     "id": "b1_tr_de_188",
     "word": "insofern",
-    "translation": "mademki",
+    "translation": "bu bakımdan / ... ölçüde",
     "pos": "conjunction",
     "tags": [
       "B1",
@@ -9576,7 +9577,7 @@
   {
     "id": "b1_tr_de_199",
     "word": "nämlich",
-    "translation": "aslında",
+    "translation": "yani / çünkü",
     "pos": "conjunction",
     "tags": [
       "B1",
@@ -9636,7 +9637,7 @@
   {
     "id": "b2_tr_de_04",
     "word": "beeinträchtigen",
-    "translation": "etkilemek",
+    "translation": "olumsuz etkilemek / zarar vermek",
     "pos": "verb",
     "tags": [
       "B2",
@@ -9947,7 +9948,7 @@
   },
   {
     "id": "b2_tr_de_30",
-    "word": "debatieren",
+    "word": "debattieren",
     "translation": "tartışmak",
     "pos": "verb",
     "tags": [
@@ -10271,7 +10272,7 @@
   },
   {
     "id": "b2_tr_de_57",
-    "word": "fundamentaler",
+    "word": "fundamental",
     "translation": "temel",
     "pos": "adjective",
     "tags": [
@@ -10428,7 +10429,7 @@
   {
     "id": "b2_tr_de_70",
     "word": "innovativ",
-    "translation": "yaratıcı",
+    "translation": "yenilikçi",
     "pos": "adjective",
     "tags": [
       "B2",
@@ -10500,7 +10501,7 @@
   {
     "id": "b2_tr_de_76",
     "word": "zugleich",
-    "translation": "dahi",
+    "translation": "aynı zamanda",
     "pos": "adverb",
     "tags": [
       "B2",
@@ -10668,7 +10669,7 @@
   {
     "id": "b2_tr_de_90",
     "word": "jenseits",
-    "translation": "aşkın",
+    "translation": "ötesinde",
     "pos": "preposition",
     "tags": [
       "B2",
@@ -10716,7 +10717,7 @@
   {
     "id": "b2_tr_de_94",
     "word": "obgleich",
-    "translation": "buna rağmen",
+    "translation": "-e rağmen / olmasına rağmen",
     "pos": "conjunction",
     "tags": [
       "B2",
@@ -10788,7 +10789,7 @@
   {
     "id": "b2_tr_de_100",
     "word": "nämlich",
-    "translation": "aslında",
+    "translation": "yani / çünkü",
     "pos": "conjunction",
     "tags": [
       "B2",
@@ -10896,7 +10897,7 @@
   {
     "id": "b2_tr_de_109",
     "word": "konfigurieren",
-    "translation": "şekillendirmek",
+    "translation": "yapılandırmak",
     "pos": "verb",
     "tags": [
       "B2",
@@ -10932,7 +10933,7 @@
   {
     "id": "b2_tr_de_112",
     "word": "differieren",
-    "translation": "anlaşmazlığa düşmek",
+    "translation": "farklılık göstermek",
     "pos": "verb",
     "tags": [
       "B2",
@@ -10968,7 +10969,7 @@
   {
     "id": "b2_tr_de_115",
     "word": "modifizieren",
-    "translation": "zenginleştirmek",
+    "translation": "değiştirmek / uyarlamak",
     "pos": "verb",
     "tags": [
       "B2",
@@ -11076,7 +11077,7 @@
   {
     "id": "b2_tr_de_124",
     "word": "exekutieren",
-    "translation": "uygulamak (yasa)",
+    "translation": "infaz etmek / yürütmek",
     "pos": "verb",
     "tags": [
       "B2",
@@ -11112,7 +11113,7 @@
   {
     "id": "b2_tr_de_127",
     "word": "die Diskrepanz",
-    "translation": "anlaşmazlık",
+    "translation": "uyuşmazlık / tutarsızlık",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11148,7 +11149,7 @@
   {
     "id": "b2_tr_de_130",
     "word": "das Spektrum",
-    "translation": "kapsam",
+    "translation": "spektrum / yelpaze",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11219,8 +11220,8 @@
   },
   {
     "id": "b2_tr_de_136",
-    "word": "das Klientel",
-    "translation": "hedef kitle",
+    "word": "die Klientel",
+    "translation": "müşteri kitlesi",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11232,7 +11233,7 @@
   {
     "id": "b2_tr_de_137",
     "word": "die Exekutive",
-    "translation": "yönetim",
+    "translation": "yürütme (erki)",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11244,7 +11245,7 @@
   {
     "id": "b2_tr_de_138",
     "word": "die Evolution",
-    "translation": "gelişme",
+    "translation": "evrim",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11256,7 +11257,7 @@
   {
     "id": "b2_tr_de_139",
     "word": "die Kapazität",
-    "translation": "etkinlik",
+    "translation": "kapasite",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11268,7 +11269,7 @@
   {
     "id": "b2_tr_de_140",
     "word": "die Resonanz",
-    "translation": "görüş",
+    "translation": "yankı / tepki",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11280,7 +11281,7 @@
   {
     "id": "b2_tr_de_141",
     "word": "der Vorstoß",
-    "translation": "giriş",
+    "translation": "atılım / hamle",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11292,7 +11293,7 @@
   {
     "id": "b2_tr_de_142",
     "word": "die Substanz",
-    "translation": "içerik",
+    "translation": "madde / öz",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11304,7 +11305,7 @@
   {
     "id": "b2_tr_de_143",
     "word": "die Hypothese",
-    "translation": "teori",
+    "translation": "hipotez / varsayım",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11328,7 +11329,7 @@
   {
     "id": "b2_tr_de_145",
     "word": "die Frist",
-    "translation": "süre",
+    "translation": "mühlet / son teslim tarihi",
     "pos": "noun",
     "tags": [
       "B2",
@@ -11364,7 +11365,7 @@
   {
     "id": "b2_tr_de_148",
     "word": "kompakt",
-    "translation": "kapsamlı",
+    "translation": "kompakt / yoğun / toplu",
     "pos": "adjective",
     "tags": [
       "B2",
@@ -11388,7 +11389,7 @@
   {
     "id": "b2_tr_de_150",
     "word": "prägnant",
-    "translation": "belirgin",
+    "translation": "özlü / veciz",
     "pos": "adjective",
     "tags": [
       "B2",
@@ -11399,7 +11400,7 @@
   },
   {
     "id": "b2_tr_de_151",
-    "word": "pränatal",
+    "word": "verbreitet",
     "translation": "yaygın",
     "pos": "adjective",
     "tags": [
@@ -11484,7 +11485,7 @@
   {
     "id": "b2_tr_de_158",
     "word": "evident",
-    "translation": "görünür",
+    "translation": "aşikâr / apaçık",
     "pos": "adjective",
     "tags": [
       "B2",
@@ -11496,7 +11497,7 @@
   {
     "id": "b2_tr_de_159",
     "word": "dringlich",
-    "translation": "gerekli",
+    "translation": "acil / ivedi",
     "pos": "adjective",
     "tags": [
       "B2",
@@ -11508,7 +11509,7 @@
   {
     "id": "b2_tr_de_160",
     "word": "restriktiv",
-    "translation": "kısıtlı",
+    "translation": "kısıtlayıcı",
     "pos": "adjective",
     "tags": [
       "B2",
@@ -11580,7 +11581,7 @@
   {
     "id": "b2_tr_de_166",
     "word": "inwiefern",
-    "translation": "tam olarak",
+    "translation": "ne ölçüde / ne bakımdan",
     "pos": "adverb",
     "tags": [
       "B2",
@@ -11640,7 +11641,7 @@
   {
     "id": "b2_tr_de_171",
     "word": "überdies",
-    "translation": "aşkın",
+    "translation": "ayrıca / üstelik",
     "pos": "preposition",
     "tags": [
       "B2",
@@ -11652,7 +11653,7 @@
   {
     "id": "b2_tr_de_172",
     "word": "inmitten",
-    "translation": "dahilinde",
+    "translation": "ortasında",
     "pos": "preposition",
     "tags": [
       "B2",
@@ -11700,7 +11701,7 @@
   {
     "id": "b2_tr_de_176",
     "word": "wider",
-    "translation": "karşın",
+    "translation": "karşı",
     "pos": "preposition",
     "tags": [
       "B2",
@@ -11724,7 +11725,7 @@
   {
     "id": "b2_tr_de_178",
     "word": "zuzüglich",
-    "translation": "yanı sıra",
+    "translation": "artı / ek olarak",
     "pos": "preposition",
     "tags": [
       "B2",
@@ -11796,7 +11797,7 @@
   {
     "id": "b2_tr_de_184",
     "word": "obgleich",
-    "translation": "buna rağmen",
+    "translation": "-e rağmen / olmasına rağmen",
     "pos": "conjunction",
     "tags": [
       "B2",
@@ -11844,7 +11845,7 @@
   {
     "id": "b2_tr_de_188",
     "word": "sowie",
-    "translation": "hem... hem de",
+    "translation": "yanı sıra / ve",
     "pos": "conjunction",
     "tags": [
       "B2",
@@ -11868,7 +11869,7 @@
   {
     "id": "b2_tr_de_190",
     "word": "nämlich",
-    "translation": "aslında",
+    "translation": "yani / çünkü",
     "pos": "conjunction",
     "tags": [
       "B2",
@@ -11904,7 +11905,7 @@
   {
     "id": "b2_tr_de_193",
     "word": "gewissermaßen",
-    "translation": "aslında (öylesine)",
+    "translation": "bir bakıma / bir dereceye kadar",
     "pos": "conjunction",
     "tags": [
       "B2",
@@ -12000,7 +12001,7 @@
   {
     "id": "c1_tr_de_01",
     "word": "validieren",
-    "translation": "etkili kılmak",
+    "translation": "geçerli kılmak / doğrulamak",
     "pos": "verb",
     "tags": [
       "C1",
@@ -12012,7 +12013,7 @@
   {
     "id": "c1_tr_de_02",
     "word": "subventionieren",
-    "translation": "teşvik etmek (sistem)",
+    "translation": "sübvanse etmek / mali destek sağlamak",
     "pos": "verb",
     "tags": [
       "C1",
@@ -12024,7 +12025,7 @@
   {
     "id": "c1_tr_de_03",
     "word": "evozieren",
-    "translation": "göz ardı edilemez",
+    "translation": "çağrıştırmak / uyandırmak",
     "pos": "verb",
     "tags": [
       "C1",
@@ -12132,7 +12133,7 @@
   {
     "id": "c1_tr_de_12",
     "word": "evolvieren",
-    "translation": "geliştirmek",
+    "translation": "evrilmek / gelişmek",
     "pos": "verb",
     "tags": [
       "C1",
@@ -12239,8 +12240,8 @@
   },
   {
     "id": "c1_tr_de_21",
-    "word": "distanzieren",
-    "translation": "farklılaştırmak",
+    "word": "sich distanzieren",
+    "translation": "mesafe koymak / uzaklaşmak",
     "pos": "verb",
     "tags": [
       "C1",
@@ -12252,7 +12253,7 @@
   {
     "id": "c1_tr_de_22",
     "word": "instruieren",
-    "translation": "yönlendirmek",
+    "translation": "talimat vermek / bilgilendirmek",
     "pos": "verb",
     "tags": [
       "C1",
@@ -12312,7 +12313,7 @@
   {
     "id": "c1_tr_de_27",
     "word": "präsentieren",
-    "translation": "mevcut kılmak",
+    "translation": "sunmak",
     "pos": "verb",
     "tags": [
       "C1",
@@ -12324,7 +12325,7 @@
   {
     "id": "c1_tr_de_28",
     "word": "modifizieren",
-    "translation": "zenginleştirmek",
+    "translation": "değiştirmek / uyarlamak",
     "pos": "verb",
     "tags": [
       "C1",
@@ -12360,7 +12361,7 @@
   {
     "id": "c1_tr_de_31",
     "word": "die Konstitution",
-    "translation": "bağlam",
+    "translation": "anayasa / bünye / yapı",
     "pos": "noun",
     "tags": [
       "C1",
@@ -12671,7 +12672,7 @@
   },
   {
     "id": "c1_tr_de_57",
-    "word": "fundamentaler",
+    "word": "fundamental",
     "translation": "temel",
     "pos": "adjective",
     "tags": [
@@ -12828,7 +12829,7 @@
   {
     "id": "c1_tr_de_70",
     "word": "innovativ",
-    "translation": "yaratıcı",
+    "translation": "yenilikçi",
     "pos": "adjective",
     "tags": [
       "C1",
@@ -12900,7 +12901,7 @@
   {
     "id": "c1_tr_de_76",
     "word": "zugleich",
-    "translation": "dahi",
+    "translation": "aynı zamanda",
     "pos": "adverb",
     "tags": [
       "C1",
@@ -13068,7 +13069,7 @@
   {
     "id": "c1_tr_de_90",
     "word": "jenseits",
-    "translation": "aşkın",
+    "translation": "ötesinde",
     "pos": "preposition",
     "tags": [
       "C1",
@@ -13116,7 +13117,7 @@
   {
     "id": "c1_tr_de_94",
     "word": "obgleich",
-    "translation": "buna rağmen",
+    "translation": "-e rağmen / olmasına rağmen",
     "pos": "conjunction",
     "tags": [
       "C1",
@@ -13164,7 +13165,7 @@
   {
     "id": "c1_tr_de_98",
     "word": "sowie",
-    "translation": "hem... hem de",
+    "translation": "yanı sıra / ve",
     "pos": "conjunction",
     "tags": [
       "C1",
@@ -13188,7 +13189,7 @@
   {
     "id": "c1_tr_de_100",
     "word": "nämlich",
-    "translation": "aslında",
+    "translation": "yani / çünkü",
     "pos": "conjunction",
     "tags": [
       "C1",
@@ -13332,7 +13333,7 @@
   {
     "id": "c1_tr_de_112",
     "word": "differieren",
-    "translation": "anlaşmazlığa düşmek",
+    "translation": "farklılık göstermek",
     "pos": "verb",
     "tags": [
       "C1",
@@ -13476,7 +13477,7 @@
   {
     "id": "c1_tr_de_124",
     "word": "exekutieren",
-    "translation": "uygulamak (yasa)",
+    "translation": "infaz etmek / yürütmek",
     "pos": "verb",
     "tags": [
       "C1",
@@ -13512,7 +13513,7 @@
   {
     "id": "c1_tr_de_127",
     "word": "die Diskrepanz",
-    "translation": "anlaşmazlık",
+    "translation": "uyuşmazlık / tutarsızlık",
     "pos": "noun",
     "tags": [
       "C1",
@@ -13548,7 +13549,7 @@
   {
     "id": "c1_tr_de_130",
     "word": "das Spektrum",
-    "translation": "kapsam",
+    "translation": "spektrum / yelpaze",
     "pos": "noun",
     "tags": [
       "C1",
@@ -13619,8 +13620,8 @@
   },
   {
     "id": "c1_tr_de_136",
-    "word": "das Klientel",
-    "translation": "hedef kitle",
+    "word": "die Klientel",
+    "translation": "müşteri kitlesi",
     "pos": "noun",
     "tags": [
       "C1",
@@ -13632,7 +13633,7 @@
   {
     "id": "c1_tr_de_137",
     "word": "die Exekutive",
-    "translation": "yönetim",
+    "translation": "yürütme (erki)",
     "pos": "noun",
     "tags": [
       "C1",
@@ -13644,7 +13645,7 @@
   {
     "id": "c1_tr_de_138",
     "word": "die Evolution",
-    "translation": "gelişme",
+    "translation": "evrim",
     "pos": "noun",
     "tags": [
       "C1",
@@ -13680,7 +13681,7 @@
   {
     "id": "c1_tr_de_141",
     "word": "der Vorstoß",
-    "translation": "giriş",
+    "translation": "atılım / hamle",
     "pos": "noun",
     "tags": [
       "C1",
@@ -13692,7 +13693,7 @@
   {
     "id": "c1_tr_de_142",
     "word": "die Substanz",
-    "translation": "içerik",
+    "translation": "madde / öz",
     "pos": "noun",
     "tags": [
       "C1",
@@ -13704,7 +13705,7 @@
   {
     "id": "c1_tr_de_143",
     "word": "die Hypothese",
-    "translation": "teori",
+    "translation": "hipotez / varsayım",
     "pos": "noun",
     "tags": [
       "C1",
@@ -13728,7 +13729,7 @@
   {
     "id": "c1_tr_de_145",
     "word": "die Frist",
-    "translation": "süre",
+    "translation": "mühlet / son teslim tarihi",
     "pos": "noun",
     "tags": [
       "C1",
@@ -13764,7 +13765,7 @@
   {
     "id": "c1_tr_de_148",
     "word": "kompakt",
-    "translation": "kapsamlı",
+    "translation": "kompakt / yoğun / toplu",
     "pos": "adjective",
     "tags": [
       "C1",
@@ -13788,7 +13789,7 @@
   {
     "id": "c1_tr_de_150",
     "word": "prägnant",
-    "translation": "belirgin",
+    "translation": "özlü / veciz",
     "pos": "adjective",
     "tags": [
       "C1",
@@ -13799,7 +13800,7 @@
   },
   {
     "id": "c1_tr_de_151",
-    "word": "pränatal",
+    "word": "verbreitet",
     "translation": "yaygın",
     "pos": "adjective",
     "tags": [
@@ -13884,7 +13885,7 @@
   {
     "id": "c1_tr_de_158",
     "word": "evident",
-    "translation": "görünür",
+    "translation": "aşikâr / apaçık",
     "pos": "adjective",
     "tags": [
       "C1",
@@ -13908,7 +13909,7 @@
   {
     "id": "c1_tr_de_160",
     "word": "restriktiv",
-    "translation": "kısıtlı",
+    "translation": "kısıtlayıcı",
     "pos": "adjective",
     "tags": [
       "C1",
@@ -14040,7 +14041,7 @@
   {
     "id": "c1_tr_de_171",
     "word": "überdies",
-    "translation": "aşkın",
+    "translation": "ayrıca / üstelik",
     "pos": "preposition",
     "tags": [
       "C1",
@@ -14052,7 +14053,7 @@
   {
     "id": "c1_tr_de_172",
     "word": "inmitten",
-    "translation": "dahilinde",
+    "translation": "ortasında",
     "pos": "preposition",
     "tags": [
       "C1",
@@ -14100,7 +14101,7 @@
   {
     "id": "c1_tr_de_176",
     "word": "wider",
-    "translation": "karşın",
+    "translation": "karşı",
     "pos": "preposition",
     "tags": [
       "C1",
@@ -14124,7 +14125,7 @@
   {
     "id": "c1_tr_de_178",
     "word": "zuzüglich",
-    "translation": "yanı sıra",
+    "translation": "artı / ek olarak",
     "pos": "preposition",
     "tags": [
       "C1",
@@ -14196,7 +14197,7 @@
   {
     "id": "c1_tr_de_184",
     "word": "obgleich",
-    "translation": "buna rağmen",
+    "translation": "-e rağmen / olmasına rağmen",
     "pos": "conjunction",
     "tags": [
       "C1",
@@ -14244,7 +14245,7 @@
   {
     "id": "c1_tr_de_188",
     "word": "sowie",
-    "translation": "hem... hem de",
+    "translation": "yanı sıra / ve",
     "pos": "conjunction",
     "tags": [
       "C1",
@@ -14268,7 +14269,7 @@
   {
     "id": "c1_tr_de_190",
     "word": "nämlich",
-    "translation": "aslında",
+    "translation": "yani / çünkü",
     "pos": "conjunction",
     "tags": [
       "C1",
@@ -14304,7 +14305,7 @@
   {
     "id": "c1_tr_de_193",
     "word": "gewissermaßen",
-    "translation": "aslında (öylesine)",
+    "translation": "bir bakıma / bir dereceye kadar",
     "pos": "conjunction",
     "tags": [
       "C1",
@@ -14579,8 +14580,8 @@
   },
   {
     "id": "c2_tr_de_16",
-    "word": "distanzieren",
-    "translation": "ayrıştırmak",
+    "word": "sich distanzieren",
+    "translation": "mesafe koymak / uzaklaşmak",
     "pos": "verb",
     "tags": [
       "C2",
@@ -14736,7 +14737,7 @@
   {
     "id": "c2_tr_de_29",
     "word": "instruieren",
-    "translation": "yönlendirmek",
+    "translation": "talimat vermek / bilgilendirmek",
     "pos": "verb",
     "tags": [
       "C2",
@@ -14748,7 +14749,7 @@
   {
     "id": "c2_tr_de_30",
     "word": "die Konstitution",
-    "translation": "bağlam",
+    "translation": "anayasa / bünye / yapı",
     "pos": "noun",
     "tags": [
       "C2",
@@ -14964,7 +14965,7 @@
   {
     "id": "c2_tr_de_48",
     "word": "die Substanz",
-    "translation": "içerik",
+    "translation": "madde / öz",
     "pos": "noun",
     "tags": [
       "C2",
@@ -14976,7 +14977,7 @@
   {
     "id": "c2_tr_de_49",
     "word": "die Hypothese",
-    "translation": "teori",
+    "translation": "hipotez / varsayım",
     "pos": "noun",
     "tags": [
       "C2",
@@ -15047,7 +15048,7 @@
   },
   {
     "id": "c2_tr_de_55",
-    "word": "fundamentaler",
+    "word": "fundamental",
     "translation": "temel",
     "pos": "adjective",
     "tags": [
@@ -15156,7 +15157,7 @@
   {
     "id": "c2_tr_de_64",
     "word": "evident",
-    "translation": "görünür",
+    "translation": "aşikâr / apaçık",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -15228,7 +15229,7 @@
   {
     "id": "c2_tr_de_70",
     "word": "zugleich",
-    "translation": "dahi",
+    "translation": "aynı zamanda",
     "pos": "adverb",
     "tags": [
       "C2",
@@ -15384,7 +15385,7 @@
   {
     "id": "c2_tr_de_83",
     "word": "jenseits",
-    "translation": "aşkın",
+    "translation": "ötesinde",
     "pos": "preposition",
     "tags": [
       "C2",
@@ -15432,7 +15433,7 @@
   {
     "id": "c2_tr_de_87",
     "word": "obgleich",
-    "translation": "buna rağmen",
+    "translation": "-e rağmen / olmasına rağmen",
     "pos": "conjunction",
     "tags": [
       "C2",
@@ -15480,7 +15481,7 @@
   {
     "id": "c2_tr_de_91",
     "word": "sowie",
-    "translation": "hem... hem de",
+    "translation": "yanı sıra / ve",
     "pos": "conjunction",
     "tags": [
       "C2",
@@ -15504,7 +15505,7 @@
   {
     "id": "c2_tr_de_93",
     "word": "nämlich",
-    "translation": "aslında",
+    "translation": "yani / çünkü",
     "pos": "conjunction",
     "tags": [
       "C2",
@@ -15540,7 +15541,7 @@
   {
     "id": "c2_tr_de_96",
     "word": "gewissermaßen",
-    "translation": "aslında (öylesine)",
+    "translation": "bir bakıma / bir dereceye kadar",
     "pos": "conjunction",
     "tags": [
       "C2",
@@ -15624,7 +15625,7 @@
   {
     "id": "c2_tr_de_203",
     "word": "konkretisieren",
-    "translation": "belirlemek",
+    "translation": "somutlaştırmak / netleştirmek",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15636,7 +15637,7 @@
   {
     "id": "c2_tr_de_204",
     "word": "exponieren",
-    "translation": "ayrıntılı açıklamak",
+    "translation": "maruz bırakmak / sergilemek",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15648,7 +15649,7 @@
   {
     "id": "c2_tr_de_205",
     "word": "exekutieren",
-    "translation": "uygulamaya koymak",
+    "translation": "infaz etmek / yürütmek",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15708,7 +15709,7 @@
   {
     "id": "c2_tr_de_210",
     "word": "annullieren",
-    "translation": "etkisizleştirmek",
+    "translation": "iptal etmek / feshetmek",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15720,7 +15721,7 @@
   {
     "id": "c2_tr_de_211",
     "word": "akkreditieren",
-    "translation": "kabul etmek",
+    "translation": "akredite etmek / yetki vermek",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15732,7 +15733,7 @@
   {
     "id": "c2_tr_de_212",
     "word": "divergieren",
-    "translation": "anlaşmazlığa düşmek",
+    "translation": "ayrışmak / farklılaşmak",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15768,7 +15769,7 @@
   {
     "id": "c2_tr_de_215",
     "word": "mutieren",
-    "translation": "değiştirmek",
+    "translation": "mutasyona uğramak / dönüşmek",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15804,7 +15805,7 @@
   {
     "id": "c2_tr_de_218",
     "word": "obstruieren",
-    "translation": "görmezden gelmek",
+    "translation": "engellemek / kösteklemek",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15828,7 +15829,7 @@
   {
     "id": "c2_tr_de_220",
     "word": "synchronisieren",
-    "translation": "uyumlaştırmak",
+    "translation": "eşzamanlamak / senkronize etmek",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15840,7 +15841,7 @@
   {
     "id": "c2_tr_de_221",
     "word": "fokussieren",
-    "translation": "vurgulamak",
+    "translation": "odaklamak / odaklanmak",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15876,7 +15877,7 @@
   {
     "id": "c2_tr_de_224",
     "word": "perpetuieren",
-    "translation": "uygulamak (yasa)",
+    "translation": "sürekli kılmak / devam ettirmek",
     "pos": "verb",
     "tags": [
       "C2",
@@ -15900,7 +15901,7 @@
   {
     "id": "c2_tr_de_226",
     "word": "die Evidenz",
-    "translation": "gerekçe",
+    "translation": "kanıt / apaçıklık",
     "pos": "noun",
     "tags": [
       "C2",
@@ -15912,7 +15913,7 @@
   {
     "id": "c2_tr_de_227",
     "word": "die Divergenz",
-    "translation": "anlaşmazlık",
+    "translation": "ayrışma / farklılık",
     "pos": "noun",
     "tags": [
       "C2",
@@ -15924,7 +15925,7 @@
   {
     "id": "c2_tr_de_228",
     "word": "die Ambition",
-    "translation": "girişim",
+    "translation": "hırs / tutku / emel",
     "pos": "noun",
     "tags": [
       "C2",
@@ -15936,7 +15937,7 @@
   {
     "id": "c2_tr_de_229",
     "word": "die Dogmatik",
-    "translation": "yöntem",
+    "translation": "dogmatik / inanç öğretisi",
     "pos": "noun",
     "tags": [
       "C2",
@@ -15948,7 +15949,7 @@
   {
     "id": "c2_tr_de_230",
     "word": "die Dimension",
-    "translation": "kapsam",
+    "translation": "boyut",
     "pos": "noun",
     "tags": [
       "C2",
@@ -15960,7 +15961,7 @@
   {
     "id": "c2_tr_de_231",
     "word": "die Prämisse",
-    "translation": "nitelik",
+    "translation": "öncül / varsayım",
     "pos": "noun",
     "tags": [
       "C2",
@@ -15972,7 +15973,7 @@
   {
     "id": "c2_tr_de_232",
     "word": "die Interdependenz",
-    "translation": "bağlantı",
+    "translation": "karşılıklı bağımlılık",
     "pos": "noun",
     "tags": [
       "C2",
@@ -15984,7 +15985,7 @@
   {
     "id": "c2_tr_de_233",
     "word": "die Normativität",
-    "translation": "kriter",
+    "translation": "normatiflik / kural koyuculuk",
     "pos": "noun",
     "tags": [
       "C2",
@@ -15996,7 +15997,7 @@
   {
     "id": "c2_tr_de_234",
     "word": "die Syntax",
-    "translation": "çerçeve",
+    "translation": "sözdizimi",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16008,7 +16009,7 @@
   {
     "id": "c2_tr_de_235",
     "word": "die Verifikation",
-    "translation": "kanıt",
+    "translation": "doğrulama",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16020,7 +16021,7 @@
   {
     "id": "c2_tr_de_236",
     "word": "die Klientel",
-    "translation": "hedef kitle",
+    "translation": "müşteri kitlesi",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16055,8 +16056,8 @@
   },
   {
     "id": "c2_tr_de_239",
-    "word": "die Potent",
-    "translation": "kapasite",
+    "word": "die Potenz",
+    "translation": "güç / kudret",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16068,7 +16069,7 @@
   {
     "id": "c2_tr_de_240",
     "word": "die Implikation",
-    "translation": "yankı",
+    "translation": "çıkarım / içerim",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16080,7 +16081,7 @@
   {
     "id": "c2_tr_de_241",
     "word": "die Initiation",
-    "translation": "giriş",
+    "translation": "kabul töreni / başlatma",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16092,7 +16093,7 @@
   {
     "id": "c2_tr_de_242",
     "word": "die Essenz",
-    "translation": "içerik",
+    "translation": "öz / esans",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16104,7 +16105,7 @@
   {
     "id": "c2_tr_de_243",
     "word": "die Dialektik",
-    "translation": "teori",
+    "translation": "diyalektik / eytişim",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16116,7 +16117,7 @@
   {
     "id": "c2_tr_de_244",
     "word": "die Exekution",
-    "translation": "uygulama",
+    "translation": "infaz / icra",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16128,7 +16129,7 @@
   {
     "id": "c2_tr_de_245",
     "word": "die Terminisierung",
-    "translation": "süre",
+    "translation": "tarih belirleme / zamanlama",
     "pos": "noun",
     "tags": [
       "C2",
@@ -16152,7 +16153,7 @@
   {
     "id": "c2_tr_de_247",
     "word": "gravierend",
-    "translation": "önemli",
+    "translation": "vahim / ciddi / ağır",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -16164,7 +16165,7 @@
   {
     "id": "c2_tr_de_248",
     "word": "exzessiv",
-    "translation": "kapsamlı",
+    "translation": "aşırı / ölçüsüz",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -16212,7 +16213,7 @@
   {
     "id": "c2_tr_de_252",
     "word": "imperativ",
-    "translation": "gerekli",
+    "translation": "zorunlu / emredici",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -16224,7 +16225,7 @@
   {
     "id": "c2_tr_de_253",
     "word": "plausibel",
-    "translation": "ikna edici",
+    "translation": "makul / akla yatkın",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -16236,7 +16237,7 @@
   {
     "id": "c2_tr_de_254",
     "word": "kohärent",
-    "translation": "sistemli",
+    "translation": "tutarlı",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -16248,7 +16249,7 @@
   {
     "id": "c2_tr_de_255",
     "word": "marginal",
-    "translation": "yetersiz",
+    "translation": "marjinal / önemsiz / cüzi",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -16260,7 +16261,7 @@
   {
     "id": "c2_tr_de_256",
     "word": "heterogen",
-    "translation": "çeşitli",
+    "translation": "heterojen / türdeş olmayan",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -16272,7 +16273,7 @@
   {
     "id": "c2_tr_de_257",
     "word": "konstant",
-    "translation": "güvenli",
+    "translation": "sabit / sürekli",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -16284,7 +16285,7 @@
   {
     "id": "c2_tr_de_258",
     "word": "manifest",
-    "translation": "görünür",
+    "translation": "aşikâr / belirgin",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -16308,7 +16309,7 @@
   {
     "id": "c2_tr_de_260",
     "word": "obsolet",
-    "translation": "kısıtlı",
+    "translation": "eskimiş / geçerliliğini yitirmiş",
     "pos": "adjective",
     "tags": [
       "C2",
@@ -16320,7 +16321,7 @@
   {
     "id": "c2_tr_de_261",
     "word": "vorhanden",
-    "translation": "zaten",
+    "translation": "mevcut / var olan",
     "pos": "adverb",
     "tags": [
       "C2",
@@ -16344,7 +16345,7 @@
   {
     "id": "c2_tr_de_263",
     "word": "potenziell",
-    "translation": "muhtemelen",
+    "translation": "potansiyel olarak / muhtemel",
     "pos": "adverb",
     "tags": [
       "C2",
@@ -16391,15 +16392,16 @@
   },
   {
     "id": "c2_tr_de_267",
-    "word": "proportional",
+    "word": "vergleichsweise",
     "translation": "görece",
     "pos": "adverb",
     "tags": [
       "C2",
       "Core"
     ],
-    "audioUrl": "/data/Almanca/audio/de/words/c2_tr_de_267_proportional.mp3",
-    "level": "C2"
+    "audioUrl": null,
+    "level": "C2",
+    "audio": null
   },
   {
     "id": "c2_tr_de_268",
@@ -16440,7 +16442,7 @@
   {
     "id": "c2_tr_de_271",
     "word": "darüber hinaus",
-    "translation": "aşkın",
+    "translation": "bunun ötesinde / ayrıca",
     "pos": "preposition",
     "tags": [
       "C2",
@@ -16452,7 +16454,7 @@
   {
     "id": "c2_tr_de_272",
     "word": "immanent",
-    "translation": "dahilinde",
+    "translation": "içkin / doğasında var olan",
     "pos": "preposition",
     "tags": [
       "C2",
@@ -16476,7 +16478,7 @@
   {
     "id": "c2_tr_de_274",
     "word": "zufolge",
-    "translation": "istinaden",
+    "translation": "göre",
     "pos": "preposition",
     "tags": [
       "C2",
@@ -16512,7 +16514,7 @@
   {
     "id": "c2_tr_de_277",
     "word": "prädestiniert",
-    "translation": "yönelik",
+    "translation": "biçilmiş kaftan / önceden belirlenmiş",
     "pos": "preposition",
     "tags": [
       "C2",
@@ -16524,7 +16526,7 @@
   {
     "id": "c2_tr_de_278",
     "word": "ferner",
-    "translation": "yanı sıra",
+    "translation": "ayrıca / bundan başka",
     "pos": "preposition",
     "tags": [
       "C2",
@@ -16584,7 +16586,7 @@
   {
     "id": "c2_tr_de_283",
     "word": "gegebenenfalls",
-    "translation": "şayet",
+    "translation": "gerekirse / icabında",
     "pos": "conjunction",
     "tags": [
       "C2",
@@ -16596,7 +16598,7 @@
   {
     "id": "c2_tr_de_284",
     "word": "obgleich",
-    "translation": "buna rağmen",
+    "translation": "-e rağmen / olmasına rağmen",
     "pos": "conjunction",
     "tags": [
       "C2",
@@ -16668,7 +16670,7 @@
   {
     "id": "c2_tr_de_290",
     "word": "nämlich",
-    "translation": "aslında",
+    "translation": "yani / çünkü",
     "pos": "conjunction",
     "tags": [
       "C2",
@@ -16680,7 +16682,7 @@
   {
     "id": "c2_tr_de_291",
     "word": "dahingehend",
-    "translation": "diye",
+    "translation": "bu doğrultuda / şu yönde",
     "pos": "conjunction",
     "tags": [
       "C2",
@@ -16704,7 +16706,7 @@
   {
     "id": "c2_tr_de_293",
     "word": "gewissermaßen",
-    "translation": "aslında (öylesine)",
+    "translation": "bir bakıma / bir dereceye kadar",
     "pos": "conjunction",
     "tags": [
       "C2",

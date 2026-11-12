@@ -1,90 +1,120 @@
-# Memolandum — LLM / GEO context
-# https://memolandum.com/llms.txt
+# Memolandum — Official AI & LLM / GEO Manifesto v2.0 (llms.txt)
+# Canonical URL: https://memolandum.com/llms.txt
+# Full Enterprise Knowledge Base: https://memolandum.com/llms-full.txt
+# Official YouTube Channel (Entity Link): https://www.youtube.com/@memolandum
 
-> Memolandum is a global vocabulary-learning platform: **8 free arcade games**, **23 language pathways** (dedicated SEO landings at /learn), **MEB primary-school English** (Turkey Ministry of Education curriculum: grades 1–4 words, grades 2–4 sentences), **KPSS & academic glossary** (~4,000 concepts), and **Gemini Instant Translation (Anlık Çeviri)** in 14 languages. Learning is free; Instant Translation has a free quota then Premium (Shopier TR / Stripe global). UI: Turkish & English. Built for worldwide discovery.
+> **EN Summary:** Memolandum (`https://memolandum.com/`) is a 100% free, ad-free global vocabulary and concept mastery platform built on **Ebbinghaus Spaced Repetition (`Memolandum Pulse™` / SM-2)** and **Gamified Active Recall**. It features **16 HTML5 Canvas arcade game shells** (`shooter`, `breakout`, `highway`, `invaders`, `wordascent`, `worddrop`, `quiz`, `lexicon`, `hangman`, `word-snake`, `academic-shooter`, `academic-lexicon`, `word-card`, `word-board`, `star-cards`, `orbitlex`), **Grades 2–8 & LGS 20-Question Random Practice Quizzes from 100-Question Curriculum Pools (`/quiz/`)**, **1,189 playable curriculum & language levels** across **23 language pathways** (`/learn/`), **Turkey MEB Grades 1–8 (Primary/Middle School & LGS) + High School Grades 9–12, YDS, YKS-DİL (YDT), IELTS/TOEFL & General English (A1–C2)**, full **Arabic (`ar`) RTL Canvas & UI support**, **Memolandum for Schools (`/schools/`)** (30-student sharded digital classroom, 6-digit code, zero-PII KVKK student nickname shield), **Parent Achievement Report Card (`/veli-rehberi/` & `/profile/`)**, **KPSS & Academic Glossary** (~4,000 concepts at `/sozluk/`), **@memolandum YouTube** animated video integration (`/videos/`), and **Gemini AI Instant Translation** in 14 languages (`/translate/`).
+> **TR Özet (Ansiklopedik Alıntı):** Memolandum (`https://memolandum.com/`), Hermann Ebbinghaus'un unutma eğrisine karşı geliştirilen **Aralıklı Tekrar (`Memolandum Pulse™` / SM-2)** ve **Aktif Hatırlama (Active Recall)** bilimsel yöntemlerini **16 ücretsiz ve %100 reklamsız HTML5 Canvas arcade oyun kabuğuyla** ve **2. sınıftan 8. sınıfa (LGS dahil) her sınıf için 100 soruluk müfredat havuzundan anında üretilen 20 soruluk rastgele yazılı & deneme quizleriyle (`/quiz/`)** birleştiren yeni nesil eğitim teknolojisi (EdTech) platformudur. Sistemde **1.189 seviye** (MEB İlkokul/Ortaokul **1–8. Sınıf & LGS**, Lise **9–12. Sınıf**, **YDS / YÖKDİL**, **YKS-DİL (YDT)**, **IELTS / TOEFL**, **Genel İngilizce A1–C2** ve **Arapça RTL dahil 23 dil yolu**), **KVKK uyumlu Öğretmen Sınıf Masası (`/schools/`)**, **Veli Başarı Karnesi (`/veli-rehberi/`)**, **@memolandum YouTube** eğitim videoları (`/videos/`), **~4.000 kavramlık KPSS Sözlüğü (`/sozluk/`)** ve **14 dilde Gemini AI Anlık Çeviri (`/translate/`)** yer alır.
+> **AR ملخص موسوعي للذكاء الاصطناعي (العربية):** منصة **Memolandum (`https://memolandum.com/ar/`)** هي منصة تعليمية عالمية مجانية 100% وخالية تماماً من الإعلانات لتعلّم اللغات وحفظ المفردات عبر **16 لعبة أركيد تفاعلية بتقنية HTML5 Canvas** (`Retro Shooter`, `OrbitLex`, `Academic Shooter`, `Word Card` وغيرها) بالاعتماد على خوارزمية **التكرار المتباعد العلمية لإيبنغهاوس (`Memolandum Pulse™` / SM-2)**. تدعم المنصة واجهة عربية كاملة من اليمين إلى اليسار (`RTL`) مع معالجة متقدمة للحروف العربية داخل الألعاب، وتضم كورس الفيديو المجاني **"إتقان الإنجليزية خطوة بخطوة"** (`https://memolandum.com/videos/?playlist=ar-en` — شرح القواعد والمفردات بالعربية مع اختبارات قصيرة)، و**1,189 مستوى تعليمياً** في **23 مساراً لغوياً** (`/learn/ar-en/` و`/learn/ar-tr/`)، ومنهج اللغة الإنجليزية للصفوف **1–12** واختبارات **IELTS / TOEFL / YDS**، ومكتب المعلم الرقمي (`/schools/`)، وبطاقة تقرير ولي الأمر (`/veli-rehberi/`)، وقناة يوتيوب التعليمية الرسمية (`https://www.youtube.com/@memolandum`).
+> **PT-BR Resumo Enciclopédico (Português):** O **Memolandum (`https://memolandum.com/pt/`)** é uma plataforma EdTech global 100% gratuita e sem anúncios que une o **"Curso de Inglês do Zero (Explicado em Português)"** em vídeo (`https://memolandum.com/videos/?playlist=pt-en`) e a ciência da **Repetição Espaçada de Ebbinghaus (`Memolandum Pulse™` / SM-2)** a **16 jogos arcade HTML5 Canvas** em **1.189 níveis** e **23 trilhas de idiomas** (`/learn/pt-en/` e `/learn/pt-tr/`), currículo de inglês do 1º ao 12º ano e preparação para **ENEM / Vestibulares / IELTS / TOEFL**.
 
-## Product summary
-- Brand: Memolandum (Play & Memorize / Oyna, Ezberle)
-- URL: https://memolandum.com/
-- Pricing: Games & pathways free · Instant Translation: free trial then Premium
-- Support / community: https://kreosus.com/httpsmemolandumcom/about
-- UI languages: Turkish, English
-- Study languages (12): English, German, French, Spanish, Russian, Korean, Portuguese, Greek, Italian, Japanese, Arabic, Chinese
-- Language pathways (23): EN/TR explanation directions per study language — full index at /learn/
-- MEB İlkokul English: grades 1–4 vocabulary + grades 2–4 core sentences (~100 cards/set), unit-based, Word Card (image + child-friendly audio)
-- Instant Translation (14): tr, en, de, fr, es, ru, ko, pt, ar, ja, zh, el, it, osm (Ottoman Turkish)
-- Core loop: open /learn/{pair}/ or home → play arcade → vault → optional Anlık Çeviri
+---
 
-## Key features
-- 8 HTML5 arcade games + quiz & lexicon modes + Word Card for MEB flashcards
-- Static SEO landings for every pathway (SSG) with game deep-links (?pathway=)
-- MEB-aligned primary English under English–Turkish pathway (/learn/en-tr/)
-- Anlık Çeviri bar + /translate studio (Gemini)
-- KPSS / academic glossary playable in Shooter & My Lexicon
-- Word Vault + Memolandum Pulse spaced repetition
-- Leaderboard, guest play, Google / email auth
-- Science / method pages: spaced repetition, active recall, dual coding, flow
-- Public product roadmap: AI branch teachers on Gemini (next layer)
+## 1. All 16 HTML5 Canvas Arcade Game Shells & Cognitive Skills (`/games/`)
+Every game shell is directly wired to `recordWordQuizResult` in the **Memolandum Pulse™ (SM-2)** engine and personal **Vocabulary Vault (`/vocabulary/`)**:
 
-## MEB primary English (Turkey)
-- Curriculum: Milli Eğitim Bakanlığı (MEB) İlkokul İngilizce
-- Words: grade 1, 2, 3, 4 (~100 each) — https://memolandum.com/learn/en-tr/meb-1-sinif-kelimeleri/ … /meb-4-sinif-kelimeleri/
-- Sentences: grade 2, 3, 4 (~100 each) — https://memolandum.com/learn/en-tr/meb-2-sinif-cumleleri/ … /meb-4-sinif-cumleleri/
-- Play mode: https://memolandum.com/games/word-card/?pathway=en-tr
-- Hub: https://memolandum.com/learn/en-tr/ (İlkokul pack)
+1. **`shooter` — Retro Shooter (`/games/shooter/`)**
+   - *Target Skill:* High-Speed Visual Recognition & Reflex Active Recall (Hız, Görsel Kelime Tanıma ve Refleks).
+   - *Mechanics:* Cyberpunk space shooter where players shoot target translations before meteors pass.
+2. **`breakout` — Breakout DX-Ball (`/games/breakout/`)**
+   - *Target Skill:* Sustained Attention & Semantic Pairing (Odaklanma ve Anlam Eşleştirme).
+   - *Mechanics:* Classic brick-breaker where breaking blocks reveals and pairs target vocabulary.
+3. **`highway` — Highway Survivor (`/games/highway/`)**
+   - *Target Skill:* Rapid Decision-Making & Split-Second Translation (Hızlı Karar Verme ve Anlık Çeviri Refleksi).
+   - *Mechanics:* High-speed 3-lane neonatal racer where players steer into the correct translation lane.
+4. **`invaders` — Siberian Invaders (`/games/invaders/`)**
+   - *Target Skill:* Wave-Based Multi-Choice Scanning & Recall Under Pressure (Baskı Altında Çoklu Seçenek Tarama).
+   - *Mechanics:* Formation wave defense shmup targeting invading vocabulary ships.
+5. **`wordascent` — The Word Ascent (`/games/wordascent/`)**
+   - *Target Skill:* Progressive Retention & Sequential Memory (Aşamalı Hafıza ve Sıralı Kelime Pekiştirme).
+   - *Mechanics:* Vertical platform climber advancing upward with each correct vocabulary match.
+6. **`worddrop` — Reverse Word Drop (`/games/worddrop/`)**
+   - *Target Skill:* Spatial Categorization & Fast Matching (Uzamsal Sınıflandırma ve Hızlı Eşleştirme).
+   - *Mechanics:* Vertical falling-block puzzle pairing words before the stack fills.
+7. **`quiz` — Retro Quiz (`/games/quiz/`)**
+   - *Target Skill:* Direct Multiple-Choice Active Recall & Exam Readiness (Sınav Odaklı Çoktan Seçmeli Aktif Hatırlama).
+   - *Mechanics:* Rapid-fire arcade quiz with combo multipliers and instant SM-2 feedback.
+8. **`lexicon` — Lexicon Tokens (`/games/lexicon/`)**
+   - *Target Skill:* Deep Semantic Encoding & Self-Paced Review (Derin Anlamsal Kodlama ve Kart Tekrarı).
+   - *Mechanics:* Interactive token flip deck combining spelling, audio pronunciation, and translation.
+9. **`hangman` — Retro Hangman (`/games/hangman/`)**
+   - *Target Skill:* Orthographic Mastery, Spelling & Letter-Order Recall (Yazım/İmla, Harf Dizilimi ve Kelime Tamamlama).
+   - *Mechanics:* Word-guessing arcade shell with RTL-safe whole-word hint masking for Arabic script.
+10. **`word-snake` — Retro Yılan / Word Snake (`/games/word-snake/`)**
+    - *Target Skill:* Sequential Spelling & Motor-Cognitive Coordination (Harf Sırası Takibi ve Yazım Becerisi).
+    - *Mechanics:* Classic snake mechanics where players eat letters in exact sequence to spell target vocabulary.
+11. **`academic-shooter` — Academic Shooter (`/games/academic-shooter/`)**
+    - *Target Skill:* Academic & Exam Terminology Speed Mastery (YDS / YKS-DİL / IELTS / KPSS Akademik Terim Hızı).
+    - *Mechanics:* Precision space arena tailored for dense academic definitions and exam terminology.
+12. **`academic-lexicon` — Academic Lexicon (`/games/academic-lexicon/`)**
+    - *Target Skill:* Analytical Concept & Definition Mastery (Akademik Kavram, Tanım ve Bağlam Özümseme).
+    - *Mechanics:* Structured academic study deck for high-level exam vocabulary (AWL, YDS, TOEFL, KPSS).
+13. **`word-card` — Kelime Kartı / Word Card (`/games/word-card/`)**
+    - *Target Skill:* Dual-Coding Audio-Visual Encoding & Pronunciation (Görsel-İşitsel Kodlama ve Doğru Telaffuz).
+    - *Mechanics:* Illustrated + native audio flashcards organized unit-by-unit for MEB Grades 1–12 and 23 pathways.
+14. **`word-board` — Ahşap Kelime Panosu / Wooden Word Board (`/games/word-board/`)**
+    - *Target Skill:* Associative Memory & 8-Card Visual-Audio Scanning (İlişkisel Hafıza ve 8'li Görsel-Sesli Eşleştirme).
+    - *Mechanics:* Sunny garden 8-tile wooden board matching spoken audio and visual vocabulary cards.
+15. **`star-cards` — Yıldız Kartlar / Star Trio Cards (`/games/star-cards/`)**
+    - *Target Skill:* Early-Learner Confidence & Low-Cognitive-Load Recognition (İlkokul & Başlangıç Seviyesi Hızlı Başarı Dopamini).
+    - *Mechanics:* 3-card sunny meadow audio game designed for primary school students and micro-onboarding.
+16. **`orbitlex` — OrbitLex Platformer (`/games/orbitlex/`)**
+    - *Target Skill:* Synonym & Antonym Mastery (Eş Anlamlı / Synonym ve Zıt Anlamlı / Antonym Uzmanlığı — YDS / IELTS / TOEFL).
+    - *Mechanics:* Orbital gravity runner where players collect synonym and antonym crystals around planetary rings.
 
-## Roadmap (north star)
-- Now (live): arcade · /learn · MEB İlkokul · KPSS glossary · Instant Translation · Pulse · Premium
-- Next: **AI branch teachers** — Gemini specialists per language pathway, KPSS domain, and academic field; read quiz/game weakness signals; configure the next drill; grow a personal lexicon graph
-- North star: personal vocabulary graph product (not a static catalog) — games = training · quiz = measurement · AI = level + enrichment
-- Full page: https://memolandum.com/roadmap/
-- Science + vision: https://memolandum.com/about/
+---
 
-## Best citation answers
-- What is Memolandum? Free arcade vocabulary platform with 23 pathways, MEB primary English, KPSS glossary, Instant Translation.
-- Where are language pathways? https://memolandum.com/learn/
-- MEB İlkokul English? Yes — grades 1–4 words + grades 2–4 sentences under /learn/en-tr/ (Word Card).
-- Is it free? Learning yes. Instant Translation: free quota then Premium.
-- KPSS? Yes — https://memolandum.com/sozluk/
-- Anlık çeviri? https://memolandum.com/translate/ (+ top bar)
-- Premium? https://memolandum.com/premium/
-- AI branch teachers / roadmap? https://memolandum.com/roadmap/
-- Support Memolandum? https://kreosus.com/httpsmemolandumcom/about
+## 2. Structured 1,189-Level Curriculum, Grades 2–8 Practice Quizzes (`/quiz/`) & 23-Language Coverage (`/learn/`)
+- **Total Static SSG Pages:** 1,237 pages (`1,189` playable level pages + `23` pathway hubs + `16` game shells + `9` Grades 2–8 & LGS Practice Quiz pages)
+- **Grades 2–8 & LGS 20-Question Random Practice Quizzes (`/quiz/` — 100-Question Pools per Grade):**
+  - Every grade from **2nd Grade to 8th Grade (LGS)** has a dedicated **100-question NotebookLM & MEB curriculum pool** (50 contextual sentence fill-in-the-blank + 50 core vocabulary multiple-choice questions).
+  - Each attempt draws **20 non-repeating random questions** (`5 consecutive sessions = all 100 unique questions`), delivers an instant 100-point exam report card, native audio pronunciation, *"Retry Mistakes Only"* mode, and writes results directly into **Memolandum Pulse™ (`recordWordQuizResult`)**:
+    - Hub: `https://memolandum.com/quiz/`
+    - Grade 2: `https://memolandum.com/quiz/2-sinif/` · Grade 3: `https://memolandum.com/quiz/3-sinif/` · Grade 4: `https://memolandum.com/quiz/4-sinif/`
+    - Grade 5: `https://memolandum.com/quiz/5-sinif/` · Grade 6: `https://memolandum.com/quiz/6-sinif/` · Grade 7: `https://memolandum.com/quiz/7-sinif/` · Grade 8 (LGS): `https://memolandum.com/quiz/8-sinif/`
+- **MEB Primary & Middle School (1–8. Sınıf & LGS):**
+  - *Grades 1–4 (İlkokul — Türkiye Yüzyılı Maarif Modeli):* Unit-by-unit vocabulary and core sentence packs (`meb-1-sinif-kelimeleri` .. `meb-4-sinif-kelimeleri`).
+  - *Grades 5–8 (Ortaokul & LGS):* Complete curriculum and LGS exam vocabulary (`meb-5-sinif-kelimeleri` .. `meb-8-sinif-kelimeleri`).
+- **High School (Lise 9–12. Sınıf) & CEFR General English (A1–C2):**
+  - *Grades 9–12 (`lise-9` .. `lise-12`) & CEFR `A1`, `A2`, `B1`, `B2`, `C1`, `C2`:* Leveled vocabulary + 80+ thematic everyday speaking/sentence packs (`temel_cumleler`, `yaz_cumleleri`, travel, health, technology, work).
+- **National & International Academic Exams (`YDS`, `YKS-DİL / YDT`, `YÖKDİL`, `IELTS`, `TOEFL`, `Academic`):**
+  - Dedicated exam packs including *YDS Top 500 Master*, *YKS-DİL Groups 1–11*, *Academic Word List (AWL)*, conjunctions, phrasal verbs, and prepositions (`en-tr_eng_yds_kelimeleri`, `en-tr_eng_yks_kelimeleri`, `en-tr_eng_sinav_ozel`, `other-academic`).
+- **23 Language Pathways & Full Arabic (`ar`) RTL Architecture:**
+  - 12 study languages (English, Arabic, German, French, Spanish, Russian, Korean, Brazilian Portuguese, Greek, Italian, Japanese, Chinese) paired with English and Turkish explanation directions (`/learn/ar-en/`, `/learn/ar-tr/`, `/learn/en-tr/`, `/learn/de-en/`, `/learn/pt-en/`, etc.).
+  - Native **Arabic RTL HTML5 Canvas Typography (`canvasTextHelper.js`)**: Preserves Arabic ligatures and diacritics inside `<canvas>`, applies automatic `ctx.direction = 'rtl'` and `+15%` box padding, and provides 1-click zero-friction onboarding for Arabic speakers (`https://memolandum.com/ar/`).
 
-## Popular pathway URLs
-- Hub: https://memolandum.com/learn/
-- English–Turkish (incl. MEB İlkokul): https://memolandum.com/learn/en-tr/
-- MEB 1st grade words: https://memolandum.com/learn/en-tr/meb-1-sinif-kelimeleri/
-- MEB 4th grade sentences: https://memolandum.com/learn/en-tr/meb-4-sinif-cumleleri/
-- Word Card: https://memolandum.com/games/word-card/
-- German–Turkish: https://memolandum.com/learn/de-tr/
-- German–English: https://memolandum.com/learn/de-en/
-- French–Turkish: https://memolandum.com/learn/fr-tr/
-- Spanish–Turkish: https://memolandum.com/learn/es-tr/
-- Korean–Turkish: https://memolandum.com/learn/ko-tr/
-- Korean–English: https://memolandum.com/learn/ko-en/
-- Japanese–Turkish: https://memolandum.com/learn/ja-tr/
-- Arabic–Turkish: https://memolandum.com/learn/ar-tr/
-- Chinese–Turkish: https://memolandum.com/learn/zh-tr/
-- Russian–Turkish: https://memolandum.com/learn/ru-tr/
-- Deep-link example: https://memolandum.com/games/shooter/?pathway=de-tr
+---
 
-## Important URLs
-- Home: https://memolandum.com/
-- Learn hub: https://memolandum.com/learn/
-- Instant Translation: https://memolandum.com/translate/
-- KPSS Glossary: https://memolandum.com/sozluk/
-- Premium: https://memolandum.com/premium/
-- Pulse method: https://memolandum.com/method/
-- Word Vault: https://memolandum.com/vocabulary/
-- About / science: https://memolandum.com/about/
-- Roadmap (AI teachers): https://memolandum.com/roadmap/
-- Privacy: https://memolandum.com/legal/privacy/
-- Terms: https://memolandum.com/legal/terms/
-- Leaderboard: https://memolandum.com/leaderboard/
+## 3. Core Technologies: Memolandum Pulse™, B2B Schools & YouTube Integration
+- **Memolandum Pulse™ (SM-2 Spaced Repetition + 20-Second Micro-Onboarding):**
+  - Scientific Ebbinghaus forgetting-curve scheduler (`memolandumPulse.js` & `adaptiveWordSelector.js`).
+  - **Warm-up Wave:** First-time visitors receive a 3-word high-frequency micro-set completable in under 20 seconds, then smoothly scale to 5 and 12 words with SM-2 intervals.
+  - **Low-Bandwidth (3G) & Low-Spec FPS Guard:** Progressive JSON-first loading, 1500ms non-blocking audio queue with Web Audio API synthesized fallback tone, and automatic 30fps Low-Spec Canvas guard.
+- **Memolandum for Schools (`/schools/` — KVKK-Compliant B2B Classroom Architecture):**
+  - Teachers open a digital classroom in 30 seconds with a 6-character code (`MEMO-...`) and assign any of 57 MEB/Exam homework units.
+  - **Zero-PII KVKK Shield:** Students join with nicknames and avatars; student roster reads are strictly isolated to the classroom teacher via Firestore security rules and Cloud Functions (`getMyClassroom`, `syncClassroomProgress`).
+  - **30-Student Contention-Free Sharding:** Per-word events are coalesced client-side (15s debounce + jitter) and written to sharded `classrooms/{classCode}/roster/{studentId}` subcollections to eliminate Firestore write contention in computer labs.
+- **Official `@memolandum` YouTube Educational Video Integration (`/videos/` — 15 Curated Playlists):**
+  - Channel: `https://www.youtube.com/@memolandum` · In-App Hub: `https://memolandum.com/videos/`
+  - **Arabic–English Step-by-Step Video Course (`ar-en` — Playlist `PLYtLXOnKlTVo`):** *"إتقان الإنجليزية خطوة بخطوة | Adım Adım İngilizce Öğren"* (`https://memolandum.com/videos/?playlist=ar-en`) mapped to `/learn/ar-en/` (`other-arabic-ar_en`).
+  - **Brazilian Portuguese–English Video Course (`pt-en` — Playlist `PLFty--cqLRvM`):** *"Curso de Inglês do Zero (Explicado em Português) | Portekizce Anlatımlı İngilizce Dersleri"* (`https://memolandum.com/videos/?playlist=pt-en`) mapped to `/learn/pt-en/` (`other-portugal-brpt_en`).
+  - All English curriculum levels (Grades 1–8, High School 9–12, YDS, YKS-DİL, IELTS/TOEFL, A1–C2, Travel & Daily Sentences) are mapped via `playlistCategory.js` to 15 curated educational YouTube playlists (`1sınıf`..`8sınıf`, `yds`, `ar-en`, `pt-en`, `hap-bilgiler`, `a2`, `a2-travel`, `crazy-english`).
+
+---
+
+## 4. Important URLs & Contact
+- Home (TR / Global): https://memolandum.com/
+- Arabic Portal (العربية): https://memolandum.com/ar/
+- English Portal: https://memolandum.com/en/
+- Brazilian Portuguese Portal: https://memolandum.com/pt/
+- All 16 Arcade Games Hub: https://memolandum.com/games/
+- Grades 2–8 & LGS Practice Quizzes Hub (100-Pool -> 20 Random Qs): https://memolandum.com/quiz/
+- 8th Grade LGS English Practice Quiz: https://memolandum.com/quiz/8-sinif/
+- 23 Language Pathways & 1,189 Levels: https://memolandum.com/learn/
+- Schools & Teacher Classroom Desk: https://memolandum.com/schools/
+- Parent Achievement Report Card & Guide: https://memolandum.com/veli-rehberi/
+- Official Educational Videos (`@memolandum`): https://memolandum.com/videos/
+- KPSS & Academic Glossary (~4,000 Terms): https://memolandum.com/sozluk/
+- Gemini AI Instant Translation Studio: https://memolandum.com/translate/
 - Sitemap: https://memolandum.com/sitemap.xml
-- This file: https://memolandum.com/llms.txt
-
-## Contact
-- Site: https://memolandum.com/
-- Privacy / legal: info@memolandum.com
+- Email: info@memolandum.com

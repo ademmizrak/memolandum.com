@@ -1360,7 +1360,7 @@
   {
     "id": "it_sent_098",
     "word": "Andiamo!",
-    "translation": "Başlayalım!",
+    "translation": "Gidelim! / Hadi gidelim!",
     "len": 7,
     "tags": [
       "daily",
@@ -1724,7 +1724,7 @@
   {
     "id": "it_biz_024",
     "word": "Possiamo cambiare l'appuntamento?",
-    "translation": "Randevuyu erteleyebilir miyiz?",
+    "translation": "Randevuyu değiştirebilir miyiz?",
     "len": 30,
     "tags": [
       "business",
@@ -1780,7 +1780,7 @@
   {
     "id": "it_biz_028",
     "word": "Mi scuso per il ritardo.",
-    "translation": "Gecikme için lütfen özür dilerim.",
+    "translation": "Gecikme için özür dilerim.",
     "len": 22,
     "tags": [
       "business",
@@ -2816,7 +2816,7 @@
   {
     "id": "it_dev_002",
     "word": "La ripetizione è la madre dell'apprendimento.",
-    "translation": "Pratik yapmak ustalaştırır.",
+    "translation": "Tekrar, öğrenmenin anasıdır.",
     "len": 41,
     "tags": [
       "learning",
@@ -3012,7 +3012,7 @@
   {
     "id": "it_dev_016",
     "word": "Non smettere mai di imparare.",
-    "translation": "İnsan öğrenmeyi asla bırakmaz.",
+    "translation": "Öğrenmeyi asla bırakma.",
     "len": 28,
     "tags": [
       "learning",
@@ -3766,7 +3766,7 @@
     "audioUrl": "/data/Italy/audio/sentences_it/it_dev_069.mp3"
   },
   {
-    "id": "it_dev_069",
+    "id": "it_dev_070",
     "word": "Sono persistente.",
     "translation": "Azimliyim.",
     "len": 15,
@@ -5938,7 +5938,7 @@
   {
     "id": "it_soc_025",
     "word": "Scusa.",
-    "translation": "Affedersiniz.",
+    "translation": "Affedersin / Kusura bakma.",
     "len": 5,
     "tags": [
       "social",
@@ -6106,7 +6106,7 @@
   {
     "id": "it_soc_037",
     "word": "Purtroppo non posso.",
-    "translation": "Maalesef bu olmaz.",
+    "translation": "Maalesef yapamam / gelemem.",
     "len": 18,
     "tags": [
       "social",
@@ -6190,7 +6190,7 @@
   {
     "id": "it_soc_043",
     "word": "Non vedo l'ora.",
-    "translation": "Bunu bekliyorum.",
+    "translation": "Sabırsızlanıyorum / Dört gözle bekliyorum.",
     "len": 14,
     "tags": [
       "social",
@@ -6232,7 +6232,7 @@
   {
     "id": "it_soc_046",
     "word": "Mi piace molto.",
-    "translation": "Bunu harika buluyorum.",
+    "translation": "Çok hoşuma gidiyor / Çok seviyorum.",
     "len": 14,
     "tags": [
       "social",
@@ -6848,7 +6848,7 @@
   {
     "id": "it_soc_090",
     "word": "È stato bello vederti.",
-    "translation": "Seni görmek güzel.",
+    "translation": "Seni görmek güzeldi.",
     "len": 21,
     "tags": [
       "social",

@@ -1,8 +1,18 @@
 import { gameManifest } from "../config/manifest";
 import { sanitizeWordData } from "../lib/learning/levelSterilizer";
-import { selectAdaptiveWords, SESSION_WORD_TARGET } from "../lib/learning/adaptiveWordSelector";
+import {
+  selectAdaptiveWords,
+  SESSION_WORD_TARGET,
+  resolveSessionWordTarget,
+} from "../lib/learning/adaptiveWordSelector";
 import { useMemolandumStore } from "../store/useMemolandumStore";
-import { resolveLessonJsonUrls } from "../lib/contentCdn";
+import {
+  resolveLessonJsonUrls,
+  fetchLessonJsonProgressive,
+  preloadAudioAssetsNonBlocking,
+} from "../lib/contentCdn";
+import { playWordPronunciation } from "../lib/pronunciation";
+import { attachAdaptiveCanvasGuard } from "../lib/performance/canvasFpsGuard";
 import { HighwayGame } from "./highway.shell";
 import { BreakoutGame } from "./breakout.shell";
 import { InvadersGame } from "./invaders.shell";
@@ -78,27 +88,23 @@ export class EngineController {
       }
 
       // Check if user launched game with custom selected words
-      const customWords = useMemolandumStore.getState().activeCustomWords;
+      const storeState = useMemolandumStore.getState();
+      const customWords = storeState.activeCustomWords;
+      const completedLevels = storeState.completedLevels ?? 0;
+      const isFirstSession = storeState.isFirstSession ?? true;
+      const sessionTargetCount = resolveSessionWordTarget({
+        completedLevels,
+        isFirstSession,
+        defaultTarget: SESSION_WORD_TARGET,
+      });
       let wordsData = [];
 
       if (Array.isArray(customWords) && customWords.length > 0) {
         console.log(`[EngineController] 🎯 Kendi Seçtiğin Kelimeler Yükleniyor: ${customWords.length} adet kelime`);
         wordsData = sanitizeWordData(customWords);
       } else {
-        // 2. Statik verileri (JSON) çek
-        const urls = resolveLessonJsonUrls(levelConfig.path);
-        let rawData = null;
-        for (const u of urls) {
-          try {
-            const res = await fetch(u);
-            if (res.ok) {
-              rawData = await res.json();
-              break;
-            }
-          } catch (e) {
-            // try next url
-          }
-        }
+        // 2. Statik verileri (JSON) Progressive & Yerel Önbellekten (Cache API / LocalStorage) çek
+        const rawData = await fetchLessonJsonProgressive(levelConfig.path);
 
         if (!rawData) {
           throw new Error(`Veritabanından kelime çekilemedi: ${levelConfig.path}`);
@@ -106,54 +112,40 @@ export class EngineController {
 
         // Diller Arası Ortak Mekanizma (Veri Sterilizasyonu & Adaptif Seçim)
         const sterilizedData = sanitizeWordData(Array.isArray(rawData) ? rawData : (rawData.words || Object.values(rawData)));
-        const vocabularyVault = useMemolandumStore.getState().vocabularyVault || {};
+        const vocabularyVault = storeState.vocabularyVault || {};
 
         wordsData = selectAdaptiveWords(sterilizedData, vocabularyVault, {
           shuffle: true,
-          targetCount: Math.min(SESSION_WORD_TARGET, sterilizedData.length),
+          targetCount: Math.min(sessionTargetCount, sterilizedData.length),
+          completedLevels,
+          isFirstSession,
           learnedWeightScale: 0.2,
           dueBias: 0.55,
         });
       }
 
+      wordsData = wordsData.map((w) => ({
+        ...w,
+        langId: langId || w.langId || "",
+      }));
       console.log(`[EngineController] Oturum seti: ${wordsData.length} kelime yüklendi.`);
+      preloadAudioAssetsNonBlocking(wordsData, 0);
+
+      if (this.canvasElement) {
+        try {
+          const ctx2d = this.canvasElement.getContext("2d");
+          if (ctx2d) attachAdaptiveCanvasGuard(ctx2d);
+        } catch {
+          /* ignore */
+        }
+      }
       
       // Ses Çalma Fonksiyonu (Motor tetiklediğinde çalışır)
       const playAudioCallback = (word) => {
-        if (!this.audioState || typeof window === 'undefined') return;
-
-        // 1. Check if the word object has an audioUrl (MP3)
-        if (typeof word === 'object' && word.audioUrl) {
-          try {
-            const audio = new Audio(word.audioUrl);
-            audio.play().catch(e => console.warn("Audio play blocked or failed:", e));
-            return; // Exit after playing MP3
-          } catch (e) {
-            console.warn("Audio MP3 error:", e);
-          }
-        }
-
-        // 2. TTS Fallback
-        if (window.speechSynthesis) {
-          try {
-            const textToSpeak = typeof word === 'string' ? word : (word.english || word.word || "");
-            if (!textToSpeak) return;
-            const utterance = new SpeechSynthesisUtterance(textToSpeak);
-            
-            // Dil tespiti (basit yaklaşım)
-            let langCode = 'en-US';
-            if (langId.includes('almanca')) langCode = 'de-DE';
-            else if (langId.includes('fr')) langCode = 'fr-FR';
-            else if (langId.includes('sp')) langCode = 'es-ES';
-            else if (langId.includes('it')) langCode = 'it-IT';
-            else if (langId.includes('ru')) langCode = 'ru-RU';
-
-            utterance.lang = langCode;
-            window.speechSynthesis.speak(utterance);
-          } catch (e) {
-            console.warn("TTS hatası:", e);
-          }
-        }
+        playWordPronunciation(word, {
+          isAudioEnabled: this.audioState,
+          langId,
+        });
       };
 
       // 3. Oyun motorunu (Vanilla JS) yükle ve başlat

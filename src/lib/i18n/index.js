@@ -1,8 +1,10 @@
 import tr from "./messages/tr";
 import en from "./messages/en";
+import ar from "./messages/ar";
+import pt from "./messages/pt";
 import { DEFAULT_LOCALE } from "./config";
 
-const catalogs = { tr, en };
+const catalogs = { tr, en, ar, pt };
 
 export function getMessages(locale) {
   return catalogs[locale] || catalogs[DEFAULT_LOCALE];
@@ -19,8 +21,9 @@ export function translate(locale, key, vars) {
     }
     cur = cur[p];
   }
-  let str = typeof cur === "string" ? cur : key;
-  if (vars && typeof str === "string") {
+  const fallback = typeof vars === "string" ? vars : key;
+  let str = typeof cur === "string" ? cur : fallback;
+  if (vars && typeof vars === "object" && typeof str === "string") {
     for (const [k, v] of Object.entries(vars)) {
       str = str.replaceAll(`{${k}}`, String(v));
     }

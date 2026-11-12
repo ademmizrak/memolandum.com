@@ -2522,12 +2522,12 @@ function switchGameShell(shellName) {
   window.activeShell = shellName;
   localStorage.setItem('memolandum_active_shell', shellName);
 
-  const btnShooter = this.getElementById('shell-shooter');
-  const btnBreakout = this.getElementById('shell-breakout');
-  const btnWordDrop = this.getElementById('shell-worddrop');
-  const btnHighway = this.getElementById('shell-highway');
-  const btnWordAscent = this.getElementById('shell-wordascent');
-  const btnInvaders = this.getElementById('shell-invaders');
+  const btnShooter = typeof document !== 'undefined' ? document.getElementById('shell-shooter') : null;
+  const btnBreakout = typeof document !== 'undefined' ? document.getElementById('shell-breakout') : null;
+  const btnWordDrop = typeof document !== 'undefined' ? document.getElementById('shell-worddrop') : null;
+  const btnHighway = typeof document !== 'undefined' ? document.getElementById('shell-highway') : null;
+  const btnWordAscent = typeof document !== 'undefined' ? document.getElementById('shell-wordascent') : null;
+  const btnInvaders = typeof document !== 'undefined' ? document.getElementById('shell-invaders') : null;
 
   if (btnShooter && btnBreakout && btnWordDrop && btnHighway && btnWordAscent) {
     btnShooter.classList.remove('active');
@@ -2815,7 +2815,7 @@ function restartExam(mode) {
 // ----------------------------------------------------
 window.addEventListener('load', () => {
   // Setup Resume Button listener
-  const resumeBtnMain = this.getElementById('resume-btn-main');
+  const resumeBtnMain = typeof document !== 'undefined' ? document.getElementById('resume-btn-main') : null;
   if (resumeBtnMain) {
     resumeBtnMain.addEventListener('click', () => {
       const savedStage = localStorage.getItem('memolandum_saved_stage');
@@ -2863,7 +2863,7 @@ window.addEventListener('load', () => {
   }
   
   // Bind Menu Button logic once
-  this.getElementById('menu-btn').addEventListener('click', () => {
+  document.getElementById('menu-btn')?.addEventListener('click', () => {
     if (window.game) {
       cancelAnimationFrame(window.game.loopId);
       window.game.cleanup();

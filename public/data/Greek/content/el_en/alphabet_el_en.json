@@ -5,7 +5,7 @@
     "level_tag": "Level_0_Alphabet",
     "original_script": "Α",
     "romanized_script": "A",
-    "meaning": "Alpha letter; identical to the 'A' sound in Turkish",
+    "meaning": "Alpha letter; identical to the 'A' sound in English",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",
@@ -90,7 +90,7 @@
     "level_tag": "Level_0_Alphabet",
     "original_script": "Ζ",
     "romanized_script": "Z",
-    "meaning": "Zita letter; identical to the 'Z' sound in Turkish",
+    "meaning": "Zita letter; identical to the 'Z' sound in English",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",
@@ -106,7 +106,7 @@
     "language_code": "el",
     "level_tag": "Level_0_Alphabet",
     "original_script": "Η",
-    "romanized_script": "İ",
+    "romanized_script": "I",
     "meaning": "Ita letter; not to be confused with the Latin 'H', it makes an 'I' sound",
     "is_latin": false,
     "metadata": {
@@ -140,7 +140,7 @@
     "language_code": "el",
     "level_tag": "Level_0_Alphabet",
     "original_script": "Ι",
-    "romanized_script": "İ",
+    "romanized_script": "I",
     "meaning": "Yota letter; a short, flat 'I' sound",
     "is_latin": false,
     "metadata": {
@@ -158,7 +158,7 @@
     "level_tag": "Level_0_Alphabet",
     "original_script": "Κ",
     "romanized_script": "K",
-    "meaning": "Kapa letter; identical to the 'K' sound in Turkish",
+    "meaning": "Kapa letter; identical to the 'K' sound in English",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",
@@ -175,7 +175,7 @@
     "level_tag": "Level_0_Alphabet",
     "original_script": "Λ",
     "romanized_script": "L",
-    "meaning": "Lamda letter; identical to the 'L' sound in Turkish",
+    "meaning": "Lamda letter; identical to the 'L' sound in English",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",
@@ -192,7 +192,7 @@
     "level_tag": "Level_0_Alphabet",
     "original_script": "Μ",
     "romanized_script": "M",
-    "meaning": "Mi letter; identical to the 'M' sound in Turkish",
+    "meaning": "Mi letter; identical to the 'M' sound in English",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",
@@ -260,7 +260,7 @@
     "level_tag": "Level_0_Alphabet",
     "original_script": "Π",
     "romanized_script": "P",
-    "meaning": "Pi letter; the Pi symbol in mathematics, identical to the 'P' sound in Turkish",
+    "meaning": "Pi letter; the Pi symbol in mathematics, identical to the 'P' sound in English",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",
@@ -311,7 +311,7 @@
     "level_tag": "Level_0_Alphabet",
     "original_script": "Τ",
     "romanized_script": "T",
-    "meaning": "Taf letter; identical to the 'T' sound in Turkish",
+    "meaning": "Taf letter; identical to the 'T' sound in English",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",
@@ -327,7 +327,7 @@
     "language_code": "el",
     "level_tag": "Level_0_Alphabet",
     "original_script": "Υ",
-    "romanized_script": "İ",
+    "romanized_script": "I",
     "meaning": "Ipsilon letter; in Modern Greek, it usually produces an 'I' sound",
     "is_latin": false,
     "metadata": {
@@ -345,7 +345,7 @@
     "level_tag": "Level_0_Alphabet",
     "original_script": "Φ",
     "romanized_script": "F",
-    "meaning": "Fi letter; identical to the 'F' sound in Turkish",
+    "meaning": "Fi letter; identical to the 'F' sound in English",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",
@@ -413,7 +413,7 @@
     "level_tag": "Level_0_Alphabet",
     "original_script": "Ναι",
     "romanized_script": "Ne",
-    "meaning": "Yes (Though it sounds like the Turkish word 'Ne', it means 'Yes')",
+    "meaning": "Though it sounds like 'nay' or 'no', it means 'Yes'.",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",

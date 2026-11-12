@@ -44,6 +44,8 @@ export const metadata = {
     languages: {
       tr: absoluteUrl("/about"),
       en: `${SITE_URL}/about/?lang=en`,
+      ar: `${SITE_URL}/about/?lang=ar`,
+      pt: `${SITE_URL}/about/?lang=pt`,
       "x-default": absoluteUrl("/about"),
     },
   },
@@ -62,7 +64,7 @@ export const metadata = {
       },
     ],
     locale: "tr_TR",
-    alternateLocale: ["en_US"],
+    alternateLocale: ["en_US", "ar_SA", "pt_BR"],
     type: "article",
     siteName: SITE_NAME,
   },

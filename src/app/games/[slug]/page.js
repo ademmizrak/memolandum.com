@@ -19,6 +19,9 @@ export function generateStaticParams() {
     { slug: "academic-shooter" },
     { slug: "academic-lexicon" },
     { slug: "word-card" },
+    { slug: "word-board" },
+    { slug: "star-cards" },
+    { slug: "orbitlex" },
   ];
 }
 
@@ -28,9 +31,10 @@ export async function generateMetadata({ params }) {
     title: "Kelime Oyunu | Memolandum",
     description: "Memolandum arcade kelime öğrenme oyunu.",
   };
+  const cleanTitle = meta.title.replace(/\s*\|\s*Memolandum$/i, "");
   const url = absoluteUrl(`/games/${slug}/`);
   return {
-    title: meta.title,
+    title: cleanTitle,
     description: meta.description,
     alternates: { canonical: url },
     openGraph: {
@@ -45,7 +49,7 @@ export async function generateMetadata({ params }) {
 export default async function GamePage({ params }) {
   const resolvedParams = await params;
   return (
-    <Suspense fallback={<SkeletonLoader gameType={resolvedParams.slug} />}>
+    <Suspense fallback={<SkeletonLoader />}>
       <GamePageClient slug={resolvedParams.slug} />
     </Suspense>
   );

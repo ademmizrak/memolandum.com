@@ -4845,7 +4845,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_003.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_003.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_003.mp3",
+    "romanization": "Nǐ zhōumò guò de hǎo ma?"
   },
   {
     "id": "soc_004",
@@ -5181,7 +5182,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_024.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_024.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_024.mp3",
+    "romanization": "Nǐ shuō de duì."
   },
   {
     "id": "soc_025",
@@ -5901,7 +5903,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_069.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_069.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_069.mp3",
+    "romanization": "Wǒmen tán de hěn yúkuài."
   },
   {
     "id": "soc_070",
@@ -6253,7 +6256,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_091.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_091.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_091.mp3",
+    "romanization": "Wǒmen tán de hěn hǎo."
   },
   {
     "id": "soc_092",
@@ -6301,7 +6305,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_094.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_094.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_094.mp3",
+    "romanization": "Qǐng bùyào guòyú kēkè."
   },
   {
     "id": "soc_095",
@@ -6365,7 +6370,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_098.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_098.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_098.mp3",
+    "romanization": "Xièxiè nǐ de tídiǎn."
   },
   {
     "id": "soc_099",
@@ -7363,7 +7369,7 @@
     "id": "trade_061",
     "language_code": "zh",
     "level_tag": "Trade",
-    "original_script": "你需要更新您的税务文件。",
+    "original_script": "您需要更新您的税务文件。",
     "romanized_script": "Nǐ xūyào gēngxīn nín de shuìwù wénjiàn.",
     "meaning": "You need to update your tax documents.",
     "is_latin": false,
@@ -7373,7 +7379,8 @@
     "audio": {
       "default": "/audio/sentences_ch/trade_061.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/trade_061.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/trade_061.mp3",
+    "romanization": "Nín xūyào gēngxīn nín de shuìwù wénjiàn."
   },
   {
     "id": "trade_062",
@@ -9165,7 +9172,8 @@
     "audio": {
       "default": "/audio/sentences_ch/trade_173.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/trade_173.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/trade_173.mp3",
+    "romanization": "Zhè shì gěi gāoduān shìchǎng de tèbié dìngzhì."
   },
   {
     "id": "trade_174",
@@ -9829,7 +9837,7 @@
     "level_tag": "Trav",
     "original_script": "请帮我结账。",
     "romanized_script": "Qǐng bāng wǒ jiézhàng.",
-    "meaning": "Please check, please.",
+    "meaning": "The bill, please. / Please help me check out.",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"

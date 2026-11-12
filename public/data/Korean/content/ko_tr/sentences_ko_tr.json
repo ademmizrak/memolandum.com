@@ -297,7 +297,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_020.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_020.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_020.mp3",
+    "meaning": "Katılıyorum."
   },
   {
     "id": "kr_sent_021",
@@ -477,7 +478,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_032.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_032.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_032.mp3",
+    "meaning": "Yapacak bir şey yok. / Elimden bir şey gelmez."
   },
   {
     "id": "kr_sent_033",
@@ -762,7 +764,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_051.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_051.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_051.mp3",
+    "romanization": "Junbidwaesseoyo."
   },
   {
     "id": "kr_sent_052",
@@ -957,7 +960,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_064.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_064.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_064.mp3",
+    "romanization": "Junbidwaesseoyo."
   },
   {
     "id": "kr_sent_065",
@@ -1485,7 +1489,7 @@
     "audioUrl": "/data/Korean/audio/sentences_ko/kr_sent_099.mp3"
   },
   {
-    "id": "kr_sent_0100",
+    "id": "kr_sent_100",
     "word": "요리하는 걸 좋아해요.",
     "latin_okunusu": "Yorihaneun geol joahaeyo.",
     "translation": "Yemek yapmayı severim.",
@@ -2067,7 +2071,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_038.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_biz_038.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_biz_038.mp3",
+    "meaning": "İlgili belgeleriniz var mı?"
   },
   {
     "id": "kr_biz_039",
@@ -2397,7 +2402,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_060.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_biz_060.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_biz_060.mp3",
+    "meaning": "Buna karar vermek / Bunu değerlendirmek zor."
   },
   {
     "id": "kr_biz_061",
@@ -2985,7 +2991,7 @@
     "audioUrl": "/data/Korean/audio/sentences_ko/kr_biz_099.mp3"
   },
   {
-    "id": "kr_biz_0100",
+    "id": "kr_biz_100",
     "word": "논의해주셔서 감사합니다.",
     "latin_okunusu": "Nonuihaejusyeoseo gamsahamnida.",
     "translation": "Görüşme için çok teşekkürler.",
@@ -3087,7 +3093,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_006.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_006.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_006.mp3",
+    "meaning": "Bugünün hedefi nedir?"
   },
   {
     "id": "kr_dev_007",
@@ -3357,7 +3364,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_024.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_024.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_024.mp3",
+    "meaning": "Kendimi dünkü halimle kıyaslıyorum."
   },
   {
     "id": "kr_dev_025",
@@ -3417,7 +3425,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_028.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_028.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_028.mp3",
+    "romanization": "Myeonghwakhan mokpyoreul se-umnida."
   },
   {
     "id": "kr_dev_029",
@@ -3687,7 +3696,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_046.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_046.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_046.mp3",
+    "romanization": "Jipjungryeogeul yujihamnida."
   },
   {
     "id": "kr_dev_047",
@@ -3867,7 +3877,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_058.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_058.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_058.mp3",
+    "romanization": "Dayangseong-eul jonjunghamnida."
   },
   {
     "id": "kr_dev_059",
@@ -4032,7 +4043,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_069.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_069.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_dev_069.mp3",
+    "romanization": "Saeroun gisureul gaebalhamnida."
   },
   {
     "id": "kr_dev_070",
@@ -4512,7 +4524,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_001.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_001.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_001.mp3",
+    "romanization": "Gichayeogi eodiingayo?"
   },
   {
     "id": "kr_trv_002",
@@ -4842,7 +4855,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_023.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_023.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_023.mp3",
+    "meaning": "Fotoğrafımı(zı) çekebilir misiniz?"
   },
   {
     "id": "kr_trv_024",
@@ -4977,7 +4991,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_032.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_032.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_032.mp3",
+    "romanization": "Achim siksaga pohamdoeeo innayo?"
   },
   {
     "id": "kr_trv_033",
@@ -5037,7 +5052,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_036.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_036.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_036.mp3",
+    "romanization": "Jajeongeoreul billil su innayo?"
   },
   {
     "id": "kr_trv_037",
@@ -5247,7 +5263,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_050.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_050.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_trv_050.mp3",
+    "romanization": "Ipjangnyoga eolmaingayo?"
   },
   {
     "id": "kr_trv_051",
@@ -6192,7 +6209,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_013.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_013.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_013.mp3",
+    "romanization": "Jeoneun teoki-eseo wasseoyo."
   },
   {
     "id": "kr_soc_014",
@@ -6342,7 +6360,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_023.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_023.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_023.mp3",
+    "meaning": "Korece öğreniyorum."
   },
   {
     "id": "kr_soc_024",
@@ -6402,7 +6421,10 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_027.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_027.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_027.mp3",
+    "original_script": "천만에요.",
+    "romanization": "Cheonmaneyo.",
+    "meaning": "Rica ederim. / Bir şey değil."
   },
   {
     "id": "kr_soc_028",
@@ -6447,7 +6469,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_030.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_030.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_030.mp3",
+    "romanization": "Gikkeoiyo!"
   },
   {
     "id": "kr_soc_031",
@@ -6912,7 +6935,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_061.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_061.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_061.mp3",
+    "meaning": "İyi geceler!"
   },
   {
     "id": "kr_soc_062",
@@ -7437,7 +7461,8 @@
     "audio": {
       "default": "/audio/sentences_ko/kr_biz_096.mp3"
     },
-    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_096.mp3"
+    "audioUrl": "/data/Korean/audio/sentences_ko/kr_soc_096.mp3",
+    "romanization": "Junbidwaesseoyo."
   },
   {
     "id": "kr_soc_097",

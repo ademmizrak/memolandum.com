@@ -27,13 +27,50 @@ export const FIREBASE_CLI_CONFIG = path.join(
   "firebase-tools.json"
 );
 
-/** Folders temporarily renamed out of public/ during slim app build */
+/** Folders temporarily renamed out of public/ during slim app build (audio is heavy) */
 export const SLIM_HIDE = [
   { from: path.join(PUBLIC_DIR, "data"), to: path.join(PUBLIC_DIR, "_slim_skip_data") },
   { from: path.join(PUBLIC_DIR, "assets", "audio"), to: path.join(PUBLIC_DIR, "assets", "_slim_skip_audio") },
-  { from: path.join(PUBLIC_DIR, "assets", "words"), to: path.join(PUBLIC_DIR, "assets", "_slim_skip_words") },
-  { from: path.join(PUBLIC_DIR, "assets", "sentences"), to: path.join(PUBLIC_DIR, "assets", "_slim_skip_sentences") },
 ];
+
+export function copyDataJsonsToOut() {
+  const candidates = [DATA_DIR, path.join(PUBLIC_DIR, "_slim_skip_data")];
+  let count = 0;
+  const destDir = path.join(ROOT, "out", "data");
+  const seen = new Set();
+
+  for (const srcDir of candidates) {
+    if (!fs.existsSync(srcDir)) continue;
+    const allFiles = walkFiles(srcDir);
+    for (const srcFile of allFiles) {
+      if (!srcFile.endsWith(".json")) continue;
+      const rel = path.relative(srcDir, srcFile);
+      if (seen.has(rel)) continue;
+      seen.add(rel);
+
+      const target = path.join(destDir, rel);
+      const targetDir = path.dirname(target);
+      if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir, { recursive: true });
+      fs.copyFileSync(srcFile, target);
+      count++;
+    }
+  }
+  console.log(`📋 Copied ${count} JSON files to out/data`);
+  return count;
+}
+
+export function copyAssetsToOut() {
+  const outWords = path.join(ROOT, "out", "assets", "words");
+  const outSentences = path.join(ROOT, "out", "assets", "sentences");
+  if (!fs.existsSync(outWords) && fs.existsSync(WORDS_DIR)) {
+    fs.cpSync(WORDS_DIR, outWords, { recursive: true });
+    console.log(`📋 Copied assets/words to out`);
+  }
+  if (!fs.existsSync(outSentences) && fs.existsSync(SENTENCES_DIR)) {
+    fs.cpSync(SENTENCES_DIR, outSentences, { recursive: true });
+    console.log(`📋 Copied assets/sentences to out`);
+  }
+}
 
 export function fileMd5(filePath) {
   const hash = crypto.createHash("md5");

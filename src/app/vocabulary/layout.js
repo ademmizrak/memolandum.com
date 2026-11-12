@@ -17,6 +17,8 @@ export const metadata = {
     languages: {
       tr: absoluteUrl("/vocabulary"),
       en: `${SITE_URL}/vocabulary/?lang=en`,
+      ar: `${SITE_URL}/vocabulary/?lang=ar`,
+      pt: `${SITE_URL}/vocabulary/?lang=pt`,
       "x-default": absoluteUrl("/vocabulary"),
     },
   },
@@ -26,7 +28,7 @@ export const metadata = {
     url: absoluteUrl("/vocabulary"),
     images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "Memolandum Kelime Kasası" }],
     locale: "tr_TR",
-    alternateLocale: ["en_US"],
+    alternateLocale: ["en_US", "ar_SA", "pt_BR"],
     type: "website",
     siteName: SITE_NAME,
   },

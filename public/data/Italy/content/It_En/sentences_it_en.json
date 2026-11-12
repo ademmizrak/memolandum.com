@@ -646,7 +646,7 @@
   {
     "id": "it_sent_047",
     "word": "È ora di alzarsi.",
-    "translation": "It is time to wake up.",
+    "translation": "It is time to get up.",
     "len": 16,
     "tags": [
       "daily",
@@ -1360,7 +1360,7 @@
   {
     "id": "it_sent_098",
     "word": "Andiamo!",
-    "translation": "Let's start!",
+    "translation": "Let's go!",
     "len": 7,
     "tags": [
       "daily",
@@ -1400,1404 +1400,1404 @@
     "audioUrl": "/data/Italy/audio/sentences_it/it_sent_100.mp3"
   },
   {
-    "id": "it_sent_001",
-    "word": "Mi sento meglio.",
-    "translation": "I feel better.",
-    "len": 16,
+    "id": "it_biz_001",
+    "word": "Buongiorno, come posso aiutarla?",
+    "translation": "Good morning, how can I help you?",
+    "len": 32,
     "tags": [
-      "daily",
-      "health"
+      "business",
+      "communication"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_001.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_001.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_001.mp3"
   },
   {
-    "id": "it_sent_002",
-    "word": "Meglio di niente.",
-    "translation": "Better than nothing.",
-    "len": 16,
+    "id": "it_biz_002",
+    "word": "Vorrei fissare un appuntamento.",
+    "translation": "I would like to book an appointment.",
+    "len": 30,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "scheduling"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_002.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_002.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_002.mp3"
   },
   {
-    "id": "it_sent_003",
-    "word": "Devi provarci.",
-    "translation": "You have to try.",
-    "len": 13,
+    "id": "it_biz_003",
+    "word": "Le va bene lunedì?",
+    "translation": "Does Monday work for you?",
+    "len": 19,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "scheduling"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_003.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_003.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_003.mp3"
   },
   {
-    "id": "it_sent_004",
-    "word": "Possiamo farcela.",
-    "translation": "We can do it.",
-    "len": 16,
+    "id": "it_biz_004",
+    "word": "Dobbiamo rimandare la riunione.",
+    "translation": "We need to postpone the meeting.",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "meeting"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_004.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_004.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_004.mp3"
   },
   {
-    "id": "it_sent_005",
-    "word": "Dov'è la mia macchina?",
-    "translation": "Where is my car?",
-    "len": 21,
+    "id": "it_biz_005",
+    "word": "Può passarmi il signor Papadopoulos?",
+    "translation": "Can you put me through to Mr. Papadopoulos?",
+    "len": 36,
     "tags": [
-      "daily",
-      "travel"
+      "business",
+      "phone"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_005.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_005.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_005.mp3"
   },
   {
-    "id": "it_sent_006",
-    "word": "Sono stanco.",
-    "translation": "I am tired.",
-    "len": 12,
+    "id": "it_biz_006",
+    "word": "La chiamo per il progetto.",
+    "translation": "I am calling about the project.",
+    "len": 24,
     "tags": [
-      "daily",
-      "feelings"
+      "business",
+      "phone"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_006.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_006.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_006.mp3"
   },
   {
-    "id": "it_sent_007",
-    "word": "Ho fame.",
-    "translation": "I am hungry.",
-    "len": 8,
+    "id": "it_biz_007",
+    "word": "Grazie per la Sua email.",
+    "translation": "Thank you very much for your email.",
+    "len": 24,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "email"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_007.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_007.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_007.mp3"
   },
   {
-    "id": "it_sent_008",
-    "word": "Ho sete.",
-    "translation": "I am thirsty.",
-    "len": 8,
+    "id": "it_biz_008",
+    "word": "Le allego i documenti.",
+    "translation": "I am attaching the documents.",
+    "len": 21,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "email"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_008.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_008.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_008.mp3"
   },
   {
-    "id": "it_sent_009",
-    "word": "Il tempo è bello oggi.",
-    "translation": "The weather is nice today.",
-    "len": 21,
+    "id": "it_biz_009",
+    "word": "Potrebbe confermarmelo?",
+    "translation": "Could you please confirm this?",
+    "len": 24,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "email"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_009.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_009.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_009.mp3"
   },
   {
-    "id": "it_sent_010",
-    "word": "Cos'è questo?",
-    "translation": "What is this?",
-    "len": 14,
+    "id": "it_biz_010",
+    "word": "La ricontatterò presto.",
+    "translation": "I will get back to you shortly.",
+    "len": 22,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "communication"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_010.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_010.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_010.mp3"
   },
   {
-    "id": "it_sent_011",
-    "word": "Non lo so.",
-    "translation": "I don't know.",
-    "len": 10,
+    "id": "it_biz_011",
+    "word": "Qual è la situazione attuale?",
+    "translation": "What is the current status?",
+    "len": 27,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "status"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_011.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_011.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_011.mp3"
   },
   {
-    "id": "it_sent_012",
-    "word": "È meraviglioso!",
-    "translation": "It is wonderful!",
-    "len": 15,
+    "id": "it_biz_012",
+    "word": "Dobbiamo rispettare la scadenza.",
+    "translation": "We must meet the deadline.",
+    "len": 29,
     "tags": [
-      "daily",
-      "feelings"
+      "business",
+      "deadline"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_012.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_012.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_012.mp3"
   },
   {
-    "id": "it_sent_013",
-    "word": "Amo la Francia.",
-    "translation": "I love France.",
-    "len": 14,
+    "id": "it_biz_013",
+    "word": "Ha qualche suggerimento?",
+    "translation": "Do you have any suggestions?",
+    "len": 23,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "discussion"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_013.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_013.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_013.mp3"
   },
   {
-    "id": "it_sent_014",
-    "word": "Che ore sono?",
-    "translation": "What time is it?",
-    "len": 14,
+    "id": "it_biz_014",
+    "word": "Sono perfettamente d'accordo con Lei.",
+    "translation": "I completely agree with you.",
+    "len": 36,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "agreement"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_014.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_014.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_014.mp3"
   },
   {
-    "id": "it_sent_015",
-    "word": "È ora di mangiare.",
-    "translation": "It is time to eat.",
-    "len": 17,
+    "id": "it_biz_015",
+    "word": "Questo è un buon approccio.",
+    "translation": "This is a good approach.",
+    "len": 26,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "feedback"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_015.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_015.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_015.mp3"
   },
   {
-    "id": "it_sent_016",
-    "word": "Qui fa caldo.",
-    "translation": "It is hot here.",
-    "len": 13,
+    "id": "it_biz_016",
+    "word": "Abbiamo un problema con il sistema.",
+    "translation": "We have a problem with the system.",
+    "len": 34,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "issue"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_016.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_016.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_016.mp3"
   },
   {
-    "id": "it_sent_017",
-    "word": "Voglio dormire.",
-    "translation": "I want to sleep.",
-    "len": 15,
+    "id": "it_biz_017",
+    "word": "Possiamo parlarne al telefono?",
+    "translation": "Can we talk over the phone?",
+    "len": 28,
     "tags": [
-      "daily",
-      "feelings"
+      "business",
+      "call"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_017.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_017.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_017.mp3"
   },
   {
-    "id": "it_sent_018",
-    "word": "È una buona idea.",
-    "translation": "It is a good idea.",
-    "len": 17,
+    "id": "it_biz_018",
+    "word": "Il budget è limitato.",
+    "translation": "The budget is limited.",
+    "len": 20,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "finance"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_018.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_018.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_018.mp3"
   },
   {
-    "id": "it_sent_019",
-    "word": "Per niente.",
-    "translation": "Not at all.",
-    "len": 12,
+    "id": "it_biz_019",
+    "word": "Stiamo cercando una soluzione.",
+    "translation": "We are looking for a solution.",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "problem-solving"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_019.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_019.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_019.mp3"
   },
   {
-    "id": "it_sent_020",
-    "word": "D'accordo.",
-    "translation": "Agreed.",
-    "len": 10,
+    "id": "it_biz_020",
+    "word": "Per favore mi mandi l'offerta.",
+    "translation": "Please send me the offer.",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "sales"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_020.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_020.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_020.mp3"
   },
   {
-    "id": "it_sent_021",
-    "word": "Piove.",
-    "translation": "It is raining.",
-    "len": 6,
+    "id": "it_biz_021",
+    "word": "Il contratto è firmato.",
+    "translation": "The contract has been signed.",
+    "len": 21,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "legal"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_021.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_021.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_021.mp3"
   },
   {
-    "id": "it_sent_022",
-    "word": "Ho dimenticato le chiavi.",
-    "translation": "I forgot my keys.",
+    "id": "it_biz_022",
+    "word": "Quali sono i prossimi passi?",
+    "translation": "What are the next steps?",
     "len": 26,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "planning"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_022.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_022.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_022.mp3"
   },
   {
-    "id": "it_sent_023",
-    "word": "Puoi aprire la porta?",
-    "translation": "Can you open the door?",
-    "len": 21,
+    "id": "it_biz_023",
+    "word": "Sto lavorando alla presentazione.",
+    "translation": "I am working on the presentation.",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "task"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_023.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_023.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_023.mp3"
   },
   {
-    "id": "it_sent_024",
-    "word": "Fa molto caldo.",
-    "translation": "It is very hot.",
-    "len": 15,
+    "id": "it_biz_024",
+    "word": "Possiamo cambiare l'appuntamento?",
+    "translation": "Can we reschedule the appointment?",
+    "len": 30,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "scheduling"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_024.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_024.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_024.mp3"
   },
   {
-    "id": "it_sent_025",
-    "word": "Così è perfetto.",
-    "translation": "This is perfect.",
-    "len": 16,
+    "id": "it_biz_025",
+    "word": "Oggi sono in riunione tutto il giorno.",
+    "translation": "I am in meetings all day today.",
+    "len": 37,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "schedule"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_025.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_025.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_025.mp3"
   },
   {
-    "id": "it_sent_026",
-    "word": "È una bella giornata.",
-    "translation": "It is a beautiful day.",
-    "len": 21,
+    "id": "it_biz_026",
+    "word": "Ha ricevuto il mio messaggio?",
+    "translation": "Did you receive my message?",
+    "len": 27,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "communication"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_026.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_026.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_026.mp3"
   },
   {
-    "id": "it_sent_027",
-    "word": "Fuori fa freddo.",
-    "translation": "It is cold outside.",
-    "len": 16,
+    "id": "it_biz_027",
+    "word": "Sono in ferie fino a venerdì.",
+    "translation": "I am on leave until Friday.",
+    "len": 27,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "out-of-office"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_027.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_027.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_027.mp3"
   },
   {
-    "id": "it_sent_028",
-    "word": "Indossa un cappotto.",
-    "translation": "Wear a coat.",
-    "len": 20,
+    "id": "it_biz_028",
+    "word": "Mi scuso per il ritardo.",
+    "translation": "I apologize for the delay.",
+    "len": 22,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "apology"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_028.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_028.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_028.mp3"
   },
   {
-    "id": "it_sent_029",
-    "word": "Sono in ritardo.",
-    "translation": "I am late.",
-    "len": 16,
+    "id": "it_biz_029",
+    "word": "Dobbiamo ridurre i costi.",
+    "translation": "We must reduce costs.",
+    "len": 23,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "finance"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_029.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_029.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_029.mp3"
   },
   {
-    "id": "it_sent_030",
-    "word": "Fai in fretta!",
-    "translation": "Hurry up!",
-    "len": 14,
+    "id": "it_biz_030",
+    "word": "Chi è responsabile del progetto?",
+    "translation": "Who is responsible for the project?",
+    "len": 31,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "management"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_030.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_030.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_030.mp3"
   },
   {
-    "id": "it_sent_031",
-    "word": "Tornerò presto.",
-    "translation": "I will return soon.",
-    "len": 15,
+    "id": "it_biz_031",
+    "word": "Le risponderò presto.",
+    "translation": "I will respond to you soon.",
+    "len": 19,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "communication"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_031.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_031.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_031.mp3"
   },
   {
-    "id": "it_sent_032",
-    "word": "Non posso farne a meno.",
-    "translation": "I cannot do without it.",
-    "len": 23,
+    "id": "it_biz_032",
+    "word": "Qual è il numero di fattura?",
+    "translation": "What is the invoice number?",
+    "len": 26,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "finance"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_032.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_032.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_032.mp3"
   },
   {
-    "id": "it_sent_033",
-    "word": "Me la prendo comoda.",
-    "translation": "I will take it easy.",
-    "len": 20,
+    "id": "it_biz_033",
+    "word": "Abbiamo bisogno di maggiori informazioni.",
+    "translation": "We need more information.",
+    "len": 39,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "request"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_033.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_033.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_033.mp3"
   },
   {
-    "id": "it_sent_034",
-    "word": "Non essere sciocco.",
-    "translation": "Don't be silly.",
-    "len": 19,
+    "id": "it_biz_034",
+    "word": "Non è possibile.",
+    "translation": "This is not feasible.",
+    "len": 15,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "refusal"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_034.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_034.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_034.mp3"
   },
   {
-    "id": "it_sent_035",
-    "word": "Non ne ho idea.",
-    "translation": "I have no idea.",
-    "len": 15,
+    "id": "it_biz_035",
+    "word": "Sarò lieto di aiutarla.",
+    "translation": "I would be happy to help you with that.",
+    "len": 23,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "help"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_035.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_035.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_035.mp3"
   },
   {
-    "id": "it_sent_036",
-    "word": "Che succede?",
-    "translation": "What is happening?",
-    "len": 12,
+    "id": "it_biz_036",
+    "word": "Apprezziamo la Sua collaborazione.",
+    "translation": "We value your collaboration.",
+    "len": 31,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "relationship"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_036.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_036.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_036.mp3"
   },
   {
-    "id": "it_sent_037",
-    "word": "Niente di speciale.",
-    "translation": "Nothing special.",
-    "len": 18,
+    "id": "it_biz_037",
+    "word": "Possiamo iniziare la riunione?",
+    "translation": "Can we start the meeting?",
+    "len": 28,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "meeting"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_037.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_037.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_037.mp3"
   },
   {
-    "id": "it_sent_038",
-    "word": "Devo pensarci.",
-    "translation": "I need to think about it.",
-    "len": 15,
+    "id": "it_biz_038",
+    "word": "Ha dei documenti per me?",
+    "translation": "Do you have documents for me?",
+    "len": 23,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "request"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_038.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_038.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_038.mp3"
   },
   {
-    "id": "it_sent_039",
-    "word": "Che giorno è oggi?",
-    "translation": "What day is it today?",
-    "len": 18,
+    "id": "it_biz_039",
+    "word": "Le invio un invito.",
+    "translation": "I am sending you an invitation.",
+    "len": 19,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "scheduling"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_039.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_039.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_039.mp3"
   },
   {
-    "id": "it_sent_040",
-    "word": "Oggi è martedì.",
-    "translation": "Today is Tuesday.",
-    "len": 16,
+    "id": "it_biz_040",
+    "word": "Com'è la Sua agenda?",
+    "translation": "How does your schedule look?",
+    "len": 19,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "scheduling"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_040.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_040.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_040.mp3"
   },
   {
-    "id": "it_sent_041",
-    "word": "Non dimenticare le tue cose.",
-    "translation": "Do not forget your things.",
+    "id": "it_biz_041",
+    "word": "Abbiamo raggiunto l'obiettivo.",
+    "translation": "We reached the goal.",
     "len": 28,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "success"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_041.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_041.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_041.mp3"
   },
   {
-    "id": "it_sent_042",
-    "word": "Penso che pioverà.",
-    "translation": "I think it will rain.",
-    "len": 19,
+    "id": "it_biz_042",
+    "word": "È molto urgente.",
+    "translation": "It is very urgent.",
+    "len": 15,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "urgency"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_042.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_042.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_042.mp3"
   },
   {
-    "id": "it_sent_043",
-    "word": "Prendi l'ombrello.",
-    "translation": "Take your umbrella.",
-    "len": 17,
+    "id": "it_biz_043",
+    "word": "Possiamo incontrarci venerdì?",
+    "translation": "Can we meet on Friday?",
+    "len": 28,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "scheduling"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_043.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_043.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_043.mp3"
   },
   {
-    "id": "it_sent_044",
-    "word": "Tutto è sotto controllo.",
-    "translation": "Everything is under control.",
-    "len": 23,
+    "id": "it_biz_044",
+    "word": "Capisco le Sue preoccupazioni.",
+    "translation": "I understand your concerns.",
+    "len": 28,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "communication"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_044.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_044.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_044.mp3"
   },
   {
-    "id": "it_sent_045",
-    "word": "Andiamo, partiamo.",
-    "translation": "Come on, let's go.",
-    "len": 18,
+    "id": "it_biz_045",
+    "word": "Dobbiamo stabilire le priorità.",
+    "translation": "We must prioritize.",
+    "len": 28,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "planning"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_045.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_045.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_045.mp3"
   },
   {
-    "id": "it_sent_046",
-    "word": "Voglio andare a casa.",
-    "translation": "I want to go home.",
-    "len": 21,
+    "id": "it_biz_046",
+    "word": "Ha tempo per una breve discussione?",
+    "translation": "Do you have time for a brief discussion?",
+    "len": 35,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "communication"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_046.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_046.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_046.mp3"
   },
   {
-    "id": "it_sent_047",
-    "word": "È ora di alzarsi.",
-    "translation": "It is time to wake up.",
-    "len": 16,
+    "id": "it_biz_047",
+    "word": "Le invio la bozza.",
+    "translation": "I am sending you the draft.",
+    "len": 18,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "email"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_047.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_047.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_047.mp3"
   },
   {
-    "id": "it_sent_048",
-    "word": "Che bella giornata!",
-    "translation": "What a beautiful day!",
-    "len": 19,
+    "id": "it_biz_048",
+    "word": "Ci sono domande?",
+    "translation": "Are there any questions?",
+    "len": 17,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "meeting"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_048.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_048.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_048.mp3"
   },
   {
-    "id": "it_sent_049",
-    "word": "È tutto quello che voglio.",
-    "translation": "That's all I want.",
-    "len": 24,
+    "id": "it_biz_049",
+    "word": "Dobbiamo lavorare più efficientemente.",
+    "translation": "We need to work more efficiently.",
+    "len": 35,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "productivity"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_049.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_049.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_049.mp3"
   },
   {
-    "id": "it_sent_050",
-    "word": "È tutto.",
-    "translation": "That is all.",
-    "len": 9,
+    "id": "it_biz_050",
+    "word": "Come procede?",
+    "translation": "How is the progress?",
+    "len": 13,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "status"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_050.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_050.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_050.mp3"
   },
   {
-    "id": "it_sent_051",
-    "word": "Sono pronto.",
-    "translation": "I am ready.",
-    "len": 12,
+    "id": "it_biz_051",
+    "word": "Suggerisco di incontrarci.",
+    "translation": "I suggest we meet.",
+    "len": 24,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "scheduling"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_051.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_051.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_051.mp3"
   },
   {
-    "id": "it_sent_052",
-    "word": "Aspettami qui.",
-    "translation": "Wait for me here.",
-    "len": 14,
+    "id": "it_biz_052",
+    "word": "Il progetto è stato approvato.",
+    "translation": "The project was approved.",
+    "len": 28,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "management"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_052.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_052.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_052.mp3"
   },
   {
-    "id": "it_sent_053",
-    "word": "Questo è molto importante.",
-    "translation": "This is very important.",
-    "len": 25,
+    "id": "it_biz_053",
+    "word": "Per favore mi tenga aggiornato.",
+    "translation": "Please keep me informed.",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "communication"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_053.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_053.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_053.mp3"
   },
   {
-    "id": "it_sent_054",
-    "word": "Non fare rumore.",
-    "translation": "Do not make noise.",
-    "len": 16,
+    "id": "it_biz_054",
+    "word": "Ha accesso al file?",
+    "translation": "Do you have access to the file?",
+    "len": 19,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "IT"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_054.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_054.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_054.mp3"
   },
   {
-    "id": "it_sent_055",
-    "word": "Apri la finestra.",
-    "translation": "Open the window.",
-    "len": 17,
+    "id": "it_biz_055",
+    "word": "Questa è la politica aziendale.",
+    "translation": "This is our company policy.",
+    "len": 30,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "policy"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_055.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_055.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_055.mp3"
   },
   {
-    "id": "it_sent_056",
-    "word": "Chiudi la porta.",
-    "translation": "Close the door.",
-    "len": 16,
+    "id": "it_biz_056",
+    "word": "Stiamo cercando nuovi dipendenti.",
+    "translation": "We are looking for new employees.",
+    "len": 31,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "HR"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_056.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_056.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_056.mp3"
   },
   {
-    "id": "it_sent_057",
-    "word": "Accendi la luce.",
-    "translation": "Turn on the light.",
-    "len": 16,
+    "id": "it_biz_057",
+    "word": "Qual è lo scopo di questa riunione?",
+    "translation": "What is the goal of this meeting?",
+    "len": 34,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "meeting"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_057.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_057.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_057.mp3"
   },
   {
-    "id": "it_sent_058",
-    "word": "Spegni la TV.",
-    "translation": "Turn off the TV.",
-    "len": 13,
+    "id": "it_biz_058",
+    "word": "Le mando l'ordine del giorno.",
+    "translation": "I am sending you the agenda.",
+    "len": 26,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "meeting"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_058.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_058.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_058.mp3"
   },
   {
-    "id": "it_sent_059",
-    "word": "Ho bisogno di calma.",
-    "translation": "I need peace and quiet.",
-    "len": 20,
+    "id": "it_biz_059",
+    "word": "Abbiamo problemi tecnici.",
+    "translation": "We have technical issues.",
+    "len": 24,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "IT"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_059.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_059.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_059.mp3"
   },
   {
-    "id": "it_sent_060",
-    "word": "Lavoro da casa.",
-    "translation": "I work from home.",
-    "len": 15,
+    "id": "it_biz_060",
+    "word": "Non posso giudicare questo.",
+    "translation": "I cannot judge that.",
+    "len": 26,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "communication"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_060.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_060.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_060.mp3"
   },
   {
-    "id": "it_sent_061",
-    "word": "Dov'è il mio telefono?",
-    "translation": "Where is my phone?",
-    "len": 21,
+    "id": "it_biz_061",
+    "word": "Possiamo rimandare la questione?",
+    "translation": "Can we postpone the topic?",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "discussion"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_061.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_061.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_061.mp3"
   },
   {
-    "id": "it_sent_062",
-    "word": "È sul tavolo.",
-    "translation": "It is on the table.",
-    "len": 14,
+    "id": "it_biz_062",
+    "word": "Abbiamo bisogno dei verbali.",
+    "translation": "We need minutes of the meeting.",
+    "len": 27,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "meeting"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_062.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_062.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_062.mp3"
   },
   {
-    "id": "it_sent_063",
-    "word": "Ho sete di conoscenza.",
-    "translation": "I am hungry for knowledge.",
-    "len": 21,
+    "id": "it_biz_063",
+    "word": "Questo è prioritario.",
+    "translation": "This is a priority.",
+    "len": 20,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "planning"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_063.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_063.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_063.mp3"
   },
   {
-    "id": "it_sent_064",
-    "word": "Il caffè è pronto.",
-    "translation": "Coffee is ready.",
-    "len": 17,
+    "id": "it_biz_064",
+    "word": "È d'accordo con questo?",
+    "translation": "Do you agree with this?",
+    "len": 22,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "agreement"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_064.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_064.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_064.mp3"
   },
   {
-    "id": "it_sent_065",
-    "word": "È molto buono.",
-    "translation": "It is very good.",
-    "len": 14,
+    "id": "it_biz_065",
+    "word": "Ho una domanda di chiarimento.",
+    "translation": "I have a clarifying question.",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "discussion"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_065.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_065.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_065.mp3"
   },
   {
-    "id": "it_sent_066",
-    "word": "Vuoi lo zucchero?",
-    "translation": "Do you want sugar?",
-    "len": 16,
+    "id": "it_biz_066",
+    "word": "Questa è una buona opportunità.",
+    "translation": "This is a good opportunity.",
+    "len": 28,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "opportunity"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_066.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_066.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_066.mp3"
   },
   {
-    "id": "it_sent_067",
-    "word": "No, grazie.",
-    "translation": "No, thanks.",
-    "len": 11,
+    "id": "it_biz_067",
+    "word": "Dobbiamo coordinarci.",
+    "translation": "We must coordinate.",
+    "len": 21,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "collaboration"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_067.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_067.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_067.mp3"
   },
   {
-    "id": "it_sent_068",
-    "word": "Questo è abbastanza.",
-    "translation": "This is enough.",
-    "len": 20,
+    "id": "it_biz_068",
+    "word": "Grazie per la Sua pazienza.",
+    "translation": "Thank you for your patience.",
+    "len": 26,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "politeness"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_068.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_068.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_068.mp3"
   },
   {
-    "id": "it_sent_069",
-    "word": "Ho molto lavoro.",
-    "translation": "I have a lot of work.",
-    "len": 16,
+    "id": "it_biz_069",
+    "word": "Ho allegato il rapporto.",
+    "translation": "I have attached the report.",
+    "len": 22,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "email"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_069.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_069.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_069.mp3"
   },
   {
-    "id": "it_sent_070",
-    "word": "Devo sbrigarmi.",
-    "translation": "I have to hurry.",
-    "len": 15,
+    "id": "it_biz_070",
+    "word": "Abbiamo esaminato il contratto.",
+    "translation": "We reviewed the contract.",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "legal"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_070.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_070.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_070.mp3"
   },
   {
-    "id": "it_sent_071",
-    "word": "Ci vediamo più tardi.",
-    "translation": "See you later.",
-    "len": 21,
+    "id": "it_biz_071",
+    "word": "Il risultato è positivo.",
+    "translation": "The result is positive.",
+    "len": 22,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "status"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_071.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_071.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_071.mp3"
   },
   {
-    "id": "it_sent_072",
-    "word": "Buona continuazione.",
-    "translation": "Have a good day.",
+    "id": "it_biz_072",
+    "word": "Quali sono i termini?",
+    "translation": "What are the terms?",
     "len": 20,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "sales"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_072.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_072.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_072.mp3"
   },
   {
-    "id": "it_sent_073",
-    "word": "Ci vediamo domani mattina.",
-    "translation": "See you tomorrow morning.",
-    "len": 27,
+    "id": "it_biz_073",
+    "word": "Dobbiamo garantire la qualità.",
+    "translation": "We must ensure quality.",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "quality"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_073.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_073.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_073.mp3"
   },
   {
-    "id": "it_sent_074",
-    "word": "Sogni d'oro.",
-    "translation": "Sweet dreams.",
-    "len": 12,
+    "id": "it_biz_074",
+    "word": "Sostengo questa proposta.",
+    "translation": "I support this proposal.",
+    "len": 24,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "agreement"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_074.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_074.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_074.mp3"
   },
   {
-    "id": "it_sent_075",
-    "word": "Buonanotte, a domani.",
-    "translation": "Good night, see you tomorrow.",
-    "len": 21,
+    "id": "it_biz_075",
+    "word": "C'è un piano B?",
+    "translation": "Is there a Plan B?",
+    "len": 15,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "planning"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_075.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_075.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_075.mp3"
   },
   {
-    "id": "it_sent_076",
-    "word": "È una bella giornata.",
-    "translation": "It is a nice day.",
-    "len": 21,
+    "id": "it_biz_076",
+    "word": "Ho inoltrato l'email.",
+    "translation": "I forwarded the email.",
+    "len": 20,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "email"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_076.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_076.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_076.mp3"
   },
   {
-    "id": "it_sent_077",
-    "word": "Godiamocela.",
-    "translation": "Let's enjoy it.",
-    "len": 12,
+    "id": "it_biz_077",
+    "word": "Abbiamo bisogno della Sua firma.",
+    "translation": "We need your signature.",
+    "len": 31,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "legal"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_077.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_077.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_077.mp3"
   },
   {
-    "id": "it_sent_078",
-    "word": "Questa è la vita.",
-    "translation": "That's life.",
-    "len": 17,
+    "id": "it_biz_078",
+    "word": "Il team sta facendo un buon lavoro.",
+    "translation": "The team is doing a good job.",
+    "len": 33,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "team"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_078.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_078.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_078.mp3"
   },
   {
-    "id": "it_sent_079",
-    "word": "Tutto è possibile.",
-    "translation": "Everything is possible.",
-    "len": 18,
+    "id": "it_biz_079",
+    "word": "Dobbiamo pianificare le risorse.",
+    "translation": "We must plan the resources.",
+    "len": 30,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "management"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_079.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_079.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_079.mp3"
   },
   {
-    "id": "it_sent_080",
-    "word": "Non perdere la speranza.",
-    "translation": "Don't lose hope.",
-    "len": 25,
+    "id": "it_biz_080",
+    "word": "Sono soddisfatto del risultato.",
+    "translation": "I am satisfied with the result.",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "feedback"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_080.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_080.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_080.mp3"
   },
   {
-    "id": "it_sent_081",
-    "word": "Sii positivo.",
-    "translation": "Be positive.",
-    "len": 13,
+    "id": "it_biz_081",
+    "word": "Per favore mi richiami.",
+    "translation": "Please call me back.",
+    "len": 22,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "phone"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_081.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_081.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_081.mp3"
   },
   {
-    "id": "it_sent_082",
-    "word": "Tutto andrà bene.",
-    "translation": "Everything will be fine.",
-    "len": 17,
+    "id": "it_biz_082",
+    "word": "La riunione dura un'ora.",
+    "translation": "The meeting lasts one hour.",
+    "len": 23,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "meeting"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_082.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_082.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_082.mp3"
   },
   {
-    "id": "it_sent_083",
-    "word": "Conto su di te.",
-    "translation": "I count on you.",
-    "len": 15,
+    "id": "it_biz_083",
+    "word": "Dobbiamo analizzare i dati.",
+    "translation": "We must analyze the data.",
+    "len": 26,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "analysis"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_083.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_083.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_083.mp3"
   },
   {
-    "id": "it_sent_084",
-    "word": "Sei un mio amico.",
-    "translation": "You are my friend.",
-    "len": 17,
+    "id": "it_biz_084",
+    "word": "Non ho tempo per questo.",
+    "translation": "I don't have time for that.",
+    "len": 22,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "communication"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_084.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_084.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_084.mp3"
   },
   {
-    "id": "it_sent_085",
-    "word": "Siamo insieme.",
-    "translation": "We are together.",
-    "len": 14,
+    "id": "it_biz_085",
+    "word": "Possiamo confermare l'appuntamento?",
+    "translation": "Can we confirm the appointment?",
+    "len": 33,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "scheduling"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_085.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_085.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_085.mp3"
   },
   {
-    "id": "it_sent_086",
-    "word": "Questo è fantastico.",
-    "translation": "This is great.",
-    "len": 19,
+    "id": "it_biz_086",
+    "word": "Questa è una decisione importante.",
+    "translation": "This is an important decision.",
+    "len": 32,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "management"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_086.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_086.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_086.mp3"
   },
   {
-    "id": "it_sent_087",
-    "word": "Mi piace questo.",
-    "translation": "I like this.",
-    "len": 16,
+    "id": "it_biz_087",
+    "word": "Le mando i documenti per posta.",
+    "translation": "I am sending the documents by mail.",
+    "len": 30,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "email"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_087.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_087.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_087.mp3"
   },
   {
-    "id": "it_sent_088",
-    "word": "Questo è un buon inizio.",
-    "translation": "This is a good start.",
-    "len": 24,
+    "id": "it_biz_088",
+    "word": "Abbiamo superato il budget.",
+    "translation": "We went over budget.",
+    "len": 25,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "finance"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_088.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_088.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_088.mp3"
   },
   {
-    "id": "it_sent_089",
-    "word": "Continuo a imparare.",
-    "translation": "I keep learning.",
-    "len": 21,
+    "id": "it_biz_089",
+    "word": "Questo è nel nostro interesse.",
+    "translation": "This is in our interest.",
+    "len": 28,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "strategy"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_089.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_089.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_089.mp3"
   },
   {
-    "id": "it_sent_090",
-    "word": "Questa è la mia passione.",
-    "translation": "This is my passion.",
-    "len": 26,
+    "id": "it_biz_090",
+    "word": "Può aprire il file?",
+    "translation": "Can you open the file?",
+    "len": 18,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "IT"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_090.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_090.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_090.mp3"
   },
   {
-    "id": "it_sent_091",
-    "word": "Amo le sfide.",
-    "translation": "I love challenges.",
-    "len": 13,
+    "id": "it_biz_091",
+    "word": "Dobbiamo correggere l'errore.",
+    "translation": "We must correct the error.",
+    "len": 27,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "issue"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_091.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_091.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_091.mp3"
   },
   {
-    "id": "it_sent_092",
-    "word": "Non mi arrendo mai.",
-    "translation": "I never give up.",
-    "len": 19,
+    "id": "it_biz_092",
+    "word": "L'offerta è valida fino a domani.",
+    "translation": "The offer is valid until tomorrow.",
+    "len": 31,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "sales"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_092.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_092.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_092.mp3"
   },
   {
-    "id": "it_sent_093",
-    "word": "Questo è un passo importante.",
-    "translation": "This is an important step.",
-    "len": 28,
+    "id": "it_biz_093",
+    "word": "Sono grato per il Suo aiuto.",
+    "translation": "I am grateful for your help.",
+    "len": 25,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "politeness"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_093.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_093.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_093.mp3"
   },
   {
-    "id": "it_sent_094",
-    "word": "Sono orgoglioso di questo progetto.",
-    "translation": "I am proud of this project.",
-    "len": 35,
+    "id": "it_biz_094",
+    "word": "Cerchiamo l'efficienza.",
+    "translation": "We are seeking efficiency.",
+    "len": 22,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "productivity"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_094.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_094.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_094.mp3"
   },
   {
-    "id": "it_sent_095",
-    "word": "Questo è lavoro di squadra.",
-    "translation": "This is teamwork.",
-    "len": 27,
+    "id": "it_biz_095",
+    "word": "Ha dei feedback su questo?",
+    "translation": "Do you have any feedback on this?",
+    "len": 26,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "feedback"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_095.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_095.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_095.mp3"
   },
   {
-    "id": "it_sent_096",
-    "word": "Grazie a tutti voi.",
-    "translation": "Thank you all.",
-    "len": 20,
+    "id": "it_biz_096",
+    "word": "La riunione sarà online.",
+    "translation": "The meeting will take place online.",
+    "len": 24,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "meeting"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_096.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_096.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_096.mp3"
   },
   {
-    "id": "it_sent_097",
-    "word": "Continuiamo così.",
-    "translation": "Let's keep it up.",
-    "len": 17,
+    "id": "it_biz_097",
+    "word": "Le invio il link.",
+    "translation": "I am sending you the link.",
+    "len": 18,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "IT"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_097.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_097.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_097.mp3"
   },
   {
-    "id": "it_sent_098",
-    "word": "Andiamo!",
-    "translation": "Let's start!",
-    "len": 7,
+    "id": "it_biz_098",
+    "word": "Dobbiamo concentrarci.",
+    "translation": "We must focus.",
+    "len": 21,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "productivity"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_098.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_098.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_098.mp3"
   },
   {
-    "id": "it_sent_099",
-    "word": "La stanza è pulita.",
-    "translation": "The room is clean.",
-    "len": 19,
+    "id": "it_biz_099",
+    "word": "Possiamo cambiare la strategia?",
+    "translation": "Can we change the strategy?",
+    "len": 29,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "strategy"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_099.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_099.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_099.mp3"
   },
   {
-    "id": "it_sent_100",
-    "word": "Mi piace cucinare.",
-    "translation": "I like cooking.",
-    "len": 18,
+    "id": "it_biz_100",
+    "word": "Grazie per la conversazione.",
+    "translation": "Thank you for the discussion.",
+    "len": 26,
     "tags": [
-      "daily",
-      "daily"
+      "business",
+      "communication"
     ],
     "audio": {
       "default": "/audio/sentences_it/it_biz_100.mp3"
     },
-    "audioUrl": "/data/Italy/audio/sentences_it/it_sent_100.mp3"
+    "audioUrl": "/data/Italy/audio/sentences_it/it_biz_100.mp3"
   },
   {
     "id": "it_dev_001",

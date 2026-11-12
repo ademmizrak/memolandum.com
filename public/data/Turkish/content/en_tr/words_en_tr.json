@@ -379,9 +379,10 @@
   },
   {
     "id": "eng_a1_055",
-    "problem": "zaman",
     "meaning": "zaman",
-    "level_tag": "A1_Vocabulary"
+    "level_tag": "A1_Vocabulary",
+    "original_script": "time",
+    "audioUrl": "/data/Turkish/audio_en/eng_a1_055_time.mp3"
   },
   {
     "id": "eng_a1_056",
@@ -2346,7 +2347,7 @@
   {
     "id": "eng_a1_336",
     "original_script": "don't",
-    "meaning": "yapma",
+    "meaning": "yapma / -me, -ma (olumsuzluk)",
     "level_tag": "A1_Vocabulary",
     "audioUrl": "/data/Turkish/audio_en/eng_a1_336_don_t.mp3"
   },
@@ -10188,7 +10189,7 @@
     "language_code": "en",
     "level_tag": "C1_Vocabulary",
     "original_script": "acuity",
-    "meaning": "keskinlik",
+    "meaning": "keskinlik, zeka/görüş keskinliği",
     "is_latin": true,
     "metadata": {
       "script_direction": "ltr"
@@ -12000,7 +12001,7 @@
     "language_code": "en",
     "level_tag": "C1_Vocabulary",
     "original_script": "aquatic",
-    "meaning": "sulu",
+    "meaning": "su ile ilgili, suda yaşayan, sucul",
     "is_latin": true,
     "metadata": {
       "script_direction": "ltr"
@@ -12284,11 +12285,11 @@
     "audioUrl": "/data/Turkish/audio_en/eng_c1_199_arrant.mp3"
   },
   {
-    "id": "eng_c1_100",
+    "id": "eng_c1_200",
     "language_code": "en",
     "level_tag": "C1_Vocabulary",
     "original_script": "array",
-    "meaning": "sıralamak",
+    "meaning": "dizi, sıralamak",
     "is_latin": true,
     "metadata": {
       "script_direction": "ltr"
@@ -12396,7 +12397,7 @@
     "language_code": "en",
     "level_tag": "C2_Vocabulary",
     "original_script": "acarpous",
-    "meaning": "kısırlık",
+    "meaning": "kısır, meyvesiz, verimsiz",
     "is_latin": true,
     "metadata": {
       "script_direction": "ltr"
@@ -12480,7 +12481,7 @@
     "language_code": "en",
     "level_tag": "C2_Vocabulary",
     "original_script": "acuity",
-    "meaning": "keskin zekalı",
+    "meaning": "keskinlik, zeka/görüş keskinliği",
     "is_latin": true,
     "metadata": {
       "script_direction": "ltr"
@@ -13992,7 +13993,7 @@
     "language_code": "en",
     "level_tag": "C2_Vocabulary",
     "original_script": "aquatic",
-    "meaning": "sulu",
+    "meaning": "su ile ilgili, suda yaşayan, sucul",
     "is_latin": true,
     "metadata": {
       "script_direction": "ltr"
@@ -14387,6 +14388,8 @@
     "id": "eng_c2_175",
     "language_code": "en",
     "level_tag": "C2_Vocabulary",
-    "audioUrl": "/data/Turkish/audio_en/eng_c2_175_artisan.mp3"
+    "audioUrl": "/data/Turkish/audio_en/eng_c2_175_artisan.mp3",
+    "original_script": "artisan",
+    "meaning": "zanaatkar, usta"
   }
 ]

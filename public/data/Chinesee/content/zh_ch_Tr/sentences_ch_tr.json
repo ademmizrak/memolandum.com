@@ -629,7 +629,7 @@
     "level_tag": "Daily",
     "original_script": "请帮我买些水果。",
     "romanized_script": "Qǐng bāng wǒ mǎi xiē shuǐguǒ.",
-    "meaning": "Lütfen bana biraz meyve almana yardım et.",
+    "meaning": "Lütfen benim için biraz meyve al.",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -917,7 +917,7 @@
     "level_tag": "Daily",
     "original_script": "我知道了。",
     "romanized_script": "Wǒ zhīdào le.",
-    "meaning": "Biliyorum.",
+    "meaning": "Anladım / Tamam, biliyorum.",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -949,7 +949,7 @@
     "level_tag": "Daily",
     "original_script": "帮我看看这儿。",
     "romanized_script": "Bāng wǒ kàn kàn zhè'er.",
-    "meaning": "Bana bakmama yardım et.",
+    "meaning": "Benim için şuraya bir bak.",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -5861,7 +5861,7 @@
     "level_tag": "Trav",
     "original_script": "你可以帮我拍张合影吗？",
     "romanized_script": "Nǐ kěyǐ bāng wǒ pāi zhāng héyǐng ma?",
-    "meaning": "Birlikte fotoğraf çekmemize yardım edebilir misin?",
+    "meaning": "Birlikte fotoğrafımızı çekebilir misin?",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -6213,7 +6213,7 @@
     "level_tag": "Trav",
     "original_script": "请帮我指一下路。",
     "romanized_script": "Qǐng bāng wǒ zhǐ yīxià lù.",
-    "meaning": "Yolu tarif etmeme yardım eder misin?",
+    "meaning": "Bana yolu tarif eder misiniz?",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -6445,7 +6445,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_003.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_003.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_003.mp3",
+    "romanization": "Nǐ zhōumò guò de hǎo ma?"
   },
   {
     "id": "soc_004",
@@ -6781,7 +6782,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_024.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_024.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_024.mp3",
+    "romanization": "Nǐ shuō de duì."
   },
   {
     "id": "soc_025",
@@ -7501,7 +7503,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_069.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_069.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_069.mp3",
+    "romanization": "Wǒmen tán de hěn yúkuài."
   },
   {
     "id": "soc_070",
@@ -7853,7 +7856,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_091.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_091.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_091.mp3",
+    "romanization": "Wǒmen tán de hěn hǎo."
   },
   {
     "id": "soc_092",
@@ -7901,7 +7905,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_094.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_094.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_094.mp3",
+    "romanization": "Qǐng bùyào guòyú kēkè."
   },
   {
     "id": "soc_095",
@@ -7965,7 +7970,8 @@
     "audio": {
       "default": "/audio/sentences_ch/soc_098.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_098.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/soc_098.mp3",
+    "romanization": "Xièxiè nǐ de tídiǎn."
   },
   {
     "id": "soc_099",
@@ -8963,7 +8969,7 @@
     "id": "trade_061",
     "language_code": "zh",
     "level_tag": "Trade",
-    "original_script": "你需要更新您的税务文件。",
+    "original_script": "您需要更新您的税务文件。",
     "romanized_script": "Nǐ xūyào gēngxīn nín de shuìwù wénjiàn.",
     "meaning": "Vergi belgelerinizi güncellemeniz gerekiyor.",
     "is_latin": false,
@@ -8973,7 +8979,8 @@
     "audio": {
       "default": "/audio/sentences_ch/trade_061.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/trade_061.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/trade_061.mp3",
+    "romanization": "Nín xūyào gēngxīn nín de shuìwù wénjiàn."
   },
   {
     "id": "trade_062",
@@ -10165,7 +10172,7 @@
     "level_tag": "Trade",
     "original_script": "订单确认后不能随意取消。",
     "romanized_script": "Dìngdān quèrèn hòu bùnéng suíyì qǔxiāo.",
-    "meaning": "Sipariş onaylandıktan sonra iptal edilemez.",
+    "meaning": "Sipariş onaylandıktan sonra keyfi olarak iptal edilemez.",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -10765,7 +10772,8 @@
     "audio": {
       "default": "/audio/sentences_ch/trade_173.mp3"
     },
-    "audioUrl": "/data/Chinesee/audio/sentences_ch/trade_173.mp3"
+    "audioUrl": "/data/Chinesee/audio/sentences_ch/trade_173.mp3",
+    "romanization": "Zhè shì gěi gāoduān shìchǎng de tèbié dìngzhì."
   },
   {
     "id": "trade_174",

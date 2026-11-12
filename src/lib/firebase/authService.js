@@ -17,8 +17,20 @@ import {
   signInWithCredential,
   GoogleAuthProvider,
   OAuthProvider,
+  deleteUser,
 } from "firebase/auth";
-import { doc, getDoc, setDoc, deleteDoc, writeBatch, serverTimestamp } from "firebase/firestore";
+import {
+  doc,
+  getDoc,
+  setDoc,
+  deleteDoc,
+  writeBatch,
+  serverTimestamp,
+  collection,
+  query,
+  where,
+  getDocs,
+} from "firebase/firestore";
 import { httpsCallable } from "firebase/functions";
 import { auth, db, googleProvider, cloudFuncs } from "./config";
 import {
@@ -27,46 +39,49 @@ import {
 } from "../../store/useMemolandumStore";
 import { resetRevenueCatSession } from "../premium/revenueCat";
 import GlobalStateSync from "./GlobalStateSync";
+import {
+  isNativePlatform as checkNativePlatform,
+  platformGoogleSignIn,
+  platformGoogleReauthenticate,
+  signOutNativeGoogleIfAny,
+} from "../../utils/platformAuth";
 
 const REDIRECT_FLAG = "mm_auth_redirect";
 const OPEN_MODAL_FLAG = "mm_auth_open_modal";
 
-/** Mobil / iOS / PWA: popup sıkça kapanır veya auth tamamlanmaz */
+export const isNativePlatform = () => checkNativePlatform();
+
+/**
+ * Yalnızca ana ekrana eklenmiş PWA (standalone) modunda doğrudan redirect kullan.
+ * Standart mobil tarayıcılarda (iOS Safari, Android Chrome vb.) önce signInWithPopup
+ * denenir; açılır pencere engellenirse platformGoogleSignIn otomatik olarak redirect'e düşer.
+ * Bu sayede mobil tarayıcılardaki 3. parti çerez / ITP (Storage Partitioning) engeli aşılır.
+ */
 export function shouldUseGoogleRedirect() {
   if (typeof window === "undefined") return false;
-  const ua = navigator.userAgent || "";
-  if (/Android|iPhone|iPad|iPod|Mobile|webOS|BlackBerry|IEMobile|Opera Mini/i.test(ua)) {
-    return true;
-  }
+  if (isNativePlatform()) return false;
   try {
     if (window.matchMedia("(display-mode: standalone)").matches) return true;
-    if (window.navigator.standalone) return true;
+    if (window.navigator.standalone === true) return true;
   } catch {
     /* ignore */
   }
-  // Dar ekran: masaüstü gibi davranan telefonlar
-  if (window.innerWidth > 0 && window.innerWidth < 768) return true;
   return false;
 }
 
-let googleAuthInitialized = false;
-
-const initGoogleAuth = async () => {
-  if (googleAuthInitialized) return;
+export const requestAuthModalOpen = (view = "username") => {
+  if (typeof window === "undefined") return;
   try {
-    const { GoogleAuth } = await import("@codetrix-studio/capacitor-google-auth");
-    // Web OAuth client (type 3) — Android/iOS native Google Sign-In serverClientId
-    const webClientId =
-      process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID ||
-      "539033091302-qu7mf8412emdeaihhemt1qku4fvuai3n.apps.googleusercontent.com";
-    await GoogleAuth.initialize({
-      clientId: webClientId,
-      scopes: ["profile", "email"],
-      grantOfflineAccess: true,
-    });
-    googleAuthInitialized = true;
-  } catch (e) {
-    console.warn("Google Auth Native Initialization failed:", e?.message || e);
+    sessionStorage.setItem(OPEN_MODAL_FLAG, view);
+  } catch {
+    /* ignore */
+  }
+  try {
+    window.dispatchEvent(
+      new CustomEvent("mm:open-auth-modal", { detail: { view } })
+    );
+  } catch {
+    /* ignore */
   }
 };
 
@@ -76,35 +91,30 @@ export const signInWithGoogle = async () => {
       throw new Error("Firebase Auth yapılandırılmadı.");
     }
 
-    const { Capacitor } = await import("@capacitor/core");
+    const user = await platformGoogleSignIn(auth, googleProvider, {
+      shouldUseRedirect: shouldUseGoogleRedirect(),
+      onBeforeRedirect: () => {
+        try {
+          sessionStorage.setItem(REDIRECT_FLAG, "google");
+          sessionStorage.setItem(
+            "mm_auth_return",
+            `${window.location.pathname}${window.location.search}` || "/"
+          );
+        } catch {
+          /* ignore */
+        }
+      },
+    });
 
-    if (Capacitor.isNativePlatform()) {
-      await initGoogleAuth();
-      const { GoogleAuth } = await import("@codetrix-studio/capacitor-google-auth");
-      const user = await GoogleAuth.signIn();
-      const credential = GoogleAuthProvider.credential(user.authentication.idToken);
-      const result = await signInWithCredential(auth, credential);
-      await syncUserProgress(result.user);
-      return result.user;
+    if (user) {
+      useMemolandumStore.getState().setAuthUser?.(user);
+      await syncUserProgress(user).catch((e) => {
+        console.warn("Background sync warning after Google login:", e);
+      });
+      return user;
     }
 
-    if (shouldUseGoogleRedirect()) {
-      try {
-        sessionStorage.setItem(REDIRECT_FLAG, "google");
-        sessionStorage.setItem(
-          "mm_auth_return",
-          `${window.location.pathname}${window.location.search}` || "/"
-        );
-      } catch {
-        /* ignore */
-      }
-      await signInWithRedirect(auth, googleProvider);
-      return null; // sayfa Google'a yönlenir
-    }
-
-    const result = await signInWithPopup(auth, googleProvider);
-    await syncUserProgress(result.user);
-    return result.user;
+    return null;
   } catch (error) {
     console.error("Google Sign-In Error:", error);
     throw error;
@@ -133,6 +143,7 @@ export const signInWithApple = async () => {
     });
 
     const authResult = await signInWithCredential(auth, credential);
+    useMemolandumStore.getState().setAuthUser?.(authResult.user);
     await syncUserProgress(authResult.user);
     return authResult.user;
   } catch (error) {
@@ -146,6 +157,7 @@ export const signInWithApple = async () => {
  */
 export const completeGoogleRedirectIfAny = async () => {
   if (!auth) return null;
+  const hadPendingFlag = isGoogleRedirectPending();
   try {
     const result = await getRedirectResult(auth);
     try {
@@ -153,16 +165,15 @@ export const completeGoogleRedirectIfAny = async () => {
     } catch {
       /* ignore */
     }
-    if (result?.user) {
-      await syncUserProgress(result.user);
-      if (!result.user.displayName) {
-        try {
-          sessionStorage.setItem(OPEN_MODAL_FLAG, "username");
-        } catch {
-          /* ignore */
-        }
+    const resolvedUser = result?.user || (hadPendingFlag ? auth.currentUser : null);
+    if (resolvedUser) {
+      useMemolandumStore.getState().setAuthUser?.(resolvedUser);
+      await syncUserProgress(resolvedUser);
+      const currentProfile = useMemolandumStore.getState().profile;
+      if (!currentProfile?.username) {
+        requestAuthModalOpen("username");
       }
-      return result.user;
+      return resolvedUser;
     }
     return null;
   } catch (error) {
@@ -225,20 +236,23 @@ export const sendVerificationEmail = async (user = auth?.currentUser) => {
 
 export const registerWithEmail = async (email, password) => {
   try {
-    const result = await createUserWithEmailAndPassword(auth, email, password);
+    if (!auth) {
+      const err = new Error("Firebase Auth yapılandırılmadı.");
+      err.code = "auth/not-configured";
+      throw err;
+    }
+    const trimmedEmail = String(email || "").trim();
+    const result = await createUserWithEmailAndPassword(auth, trimmedEmail, password);
+    useMemolandumStore.getState().setAuthUser?.(result.user);
     
-    // E-posta doğrulama linkini güvenli şekilde gönder (ağ aksamalarında kayıt iptal olmasın)
-    try {
-      await sendVerificationEmail(result.user);
-    } catch (verifyErr) {
+    // E-posta doğrulama linkini güvenli ve arka planda gönder
+    sendVerificationEmail(result.user).catch((verifyErr) => {
       console.warn("Verification email dispatch warning:", verifyErr);
-    }
+    });
 
-    try {
-      await syncUserProgress(result.user);
-    } catch (syncErr) {
+    syncUserProgress(result.user).catch((syncErr) => {
       console.warn("User progress sync warning:", syncErr);
-    }
+    });
 
     return result.user;
   } catch (error) {
@@ -247,55 +261,96 @@ export const registerWithEmail = async (email, password) => {
   }
 };
 
+const normalizeUsernameKey = (raw) => {
+  if (!raw || typeof raw !== "string") return "";
+  return raw
+    .trim()
+    .replace(/\s+/g, " ")
+    .replace(/İ/g, "i")
+    .replace(/I/g, "i")
+    .toLowerCase()
+    .replace(/\u0307/g, "")
+    .replace(/[\/\\]+/g, "")
+    .replace(/^\.+|\.+$/g, "");
+};
+
 export const checkUsernameAvailability = async (username) => {
-  if (!username || username.trim().length < 3) return false;
+  const key = normalizeUsernameKey(username);
+  if (!key || key.length < 3) return false;
   try {
-    const usernameRef = doc(db, 'usernames', username.toLowerCase());
+    const usernameRef = doc(db, "usernames", key);
     const docSnap = await getDoc(usernameRef);
-    return !docSnap.exists();
+    if (!docSnap.exists()) return true;
+    const currentUid = auth?.currentUser?.uid;
+    if (currentUid && docSnap.data()?.uid === currentUid) return true;
+    return false;
   } catch (error) {
     console.error("Check Username Error:", error);
     return false;
   }
 };
 
-export const setUsername = async (user, username) => {
-  if (!user || !username) throw new Error("Invalid parameters");
-  
-  const lowerUsername = username.toLowerCase();
-  const isAvailable = await checkUsernameAvailability(lowerUsername);
-  
-  if (!isAvailable) {
-    throw new Error("Kullanıcı adı alınmış.");
+export const setUsername = async (user, username, avatarUrl = null) => {
+  const cleanDisplay = String(username || "").trim().replace(/\s+/g, " ");
+  const lowerUsername = normalizeUsernameKey(cleanDisplay);
+  if (!user || lowerUsername.length < 3) {
+    const err = new Error("Kullanıcı adı en az 3 karakter olmalıdır.");
+    err.code = "username/too-short";
+    throw err;
   }
-  
+
+  const usernameRef = doc(db, "usernames", lowerUsername);
+  const existingSnap = await getDoc(usernameRef);
+  if (existingSnap.exists() && existingSnap.data()?.uid !== user.uid) {
+    const err = new Error("Kullanıcı adı alınmış.");
+    err.code = "username/already-in-use";
+    throw err;
+  }
+
   try {
     const batch = writeBatch(db);
-    batch.set(doc(db, "usernames", lowerUsername), {
-      uid: user.uid,
-      createdAt: serverTimestamp(),
-    });
+    if (!existingSnap.exists()) {
+      batch.set(usernameRef, {
+        uid: user.uid,
+        createdAt: serverTimestamp(),
+      });
+    }
     batch.set(
       doc(db, "users", user.uid),
       {
-        displayName: username,
+        displayName: cleanDisplay,
         username: lowerUsername,
         email: user.email || null,
         updatedAt: serverTimestamp(),
+        ...(avatarUrl ? { photoURL: avatarUrl } : {}),
       },
       { merge: true }
     );
     batch.set(
       doc(db, "users", user.uid, "stats", "global"),
-      { displayName: username },
+      {
+        displayName: cleanDisplay,
+        ...(avatarUrl ? { photoURL: avatarUrl } : {}),
+      },
       { merge: true }
     );
     await batch.commit();
 
-    await updateProfile(user, { displayName: username });
+    const profileUpdates = { displayName: cleanDisplay };
+    if (avatarUrl) profileUpdates.photoURL = avatarUrl;
+    await updateProfile(user, profileUpdates);
 
     const store = useMemolandumStore.getState();
-    store.setAuthUser({ ...user, displayName: username });
+    store.setAuthUser({
+      ...user,
+      uid: user.uid,
+      email: user.email,
+      emailVerified: user.emailVerified,
+      providerData: user.providerData,
+      displayName: cleanDisplay,
+      username: lowerUsername,
+      photoURL: avatarUrl || user.photoURL || store.profile?.photoURL || null,
+    });
     await logAccountSecurityEvent(user.uid, "username_set", { username: lowerUsername });
 
     return true;
@@ -306,32 +361,53 @@ export const setUsername = async (user, username) => {
 };
 
 export const changeUsername = async (user, oldUsername, newUsername) => {
-  if (!user || !newUsername) throw new Error("Gerekli parametreler eksik.");
-  
-  const lowerNewUsername = newUsername.toLowerCase();
-  
-  if (oldUsername && oldUsername.toLowerCase() === lowerNewUsername) {
+  const cleanDisplay = String(newUsername || "").trim().replace(/\s+/g, " ");
+  const lowerNewUsername = normalizeUsernameKey(cleanDisplay);
+  if (!user || lowerNewUsername.length < 3) {
+    const err = new Error("Kullanıcı adı en az 3 karakter olmalıdır.");
+    err.code = "username/too-short";
+    throw err;
+  }
+
+  const lowerOldUsername = normalizeUsernameKey(
+    oldUsername || useMemolandumStore.getState().profile?.username || ""
+  );
+
+  if (lowerOldUsername && lowerOldUsername === lowerNewUsername) {
     return true;
   }
-  
-  const isAvailable = await checkUsernameAvailability(lowerNewUsername);
-  if (!isAvailable) {
-    throw new Error("Bu kullanıcı adı alınmış.");
+
+  const newUsernameRef = doc(db, "usernames", lowerNewUsername);
+  const newSnap = await getDoc(newUsernameRef);
+  if (newSnap.exists() && newSnap.data()?.uid !== user.uid) {
+    const err = new Error("Bu kullanıcı adı alınmış.");
+    err.code = "username/already-in-use";
+    throw err;
   }
-  
+
   try {
     const batch = writeBatch(db);
-    batch.set(doc(db, "usernames", lowerNewUsername), {
-      uid: user.uid,
-      updatedAt: serverTimestamp(),
-    });
-    if (oldUsername) {
-      batch.delete(doc(db, "usernames", oldUsername.toLowerCase()));
+    if (!newSnap.exists()) {
+      batch.set(newUsernameRef, {
+        uid: user.uid,
+        updatedAt: serverTimestamp(),
+      });
+    }
+    if (lowerOldUsername && lowerOldUsername !== lowerNewUsername) {
+      try {
+        const oldRef = doc(db, "usernames", lowerOldUsername);
+        const oldSnap = await getDoc(oldRef);
+        if (oldSnap.exists() && oldSnap.data()?.uid === user.uid) {
+          batch.delete(oldRef);
+        }
+      } catch {
+        /* ignore if old username doc was not in usernames collection */
+      }
     }
     batch.set(
       doc(db, "users", user.uid),
       {
-        displayName: newUsername,
+        displayName: cleanDisplay,
         username: lowerNewUsername,
         updatedAt: serverTimestamp(),
       },
@@ -339,15 +415,24 @@ export const changeUsername = async (user, oldUsername, newUsername) => {
     );
     batch.set(
       doc(db, "users", user.uid, "stats", "global"),
-      { displayName: newUsername },
+      { displayName: cleanDisplay },
       { merge: true }
     );
     await batch.commit();
 
-    await updateProfile(user, { displayName: newUsername });
+    await updateProfile(user, { displayName: cleanDisplay });
 
     const store = useMemolandumStore.getState();
-    store.setAuthUser({ ...user, displayName: newUsername });
+    store.setAuthUser({
+      ...user,
+      uid: user.uid,
+      email: user.email,
+      emailVerified: user.emailVerified,
+      providerData: user.providerData,
+      displayName: cleanDisplay,
+      username: lowerNewUsername,
+      photoURL: store.profile?.photoURL || user.photoURL || null,
+    });
     await logAccountSecurityEvent(user.uid, "username_changed", {
       username: lowerNewUsername,
     });
@@ -361,13 +446,18 @@ export const changeUsername = async (user, oldUsername, newUsername) => {
 
 export const loginWithEmail = async (email, password) => {
   try {
-    const result = await signInWithEmailAndPassword(auth, email, password);
-    try {
-      await syncUserProgress(result.user);
-      await logAccountSecurityEvent(result.user.uid, "login_email");
-    } catch (syncErr) {
-      console.warn("User progress sync warning on login:", syncErr);
+    if (!auth) {
+      const err = new Error("Firebase Auth yapılandırılmadı.");
+      err.code = "auth/not-configured";
+      throw err;
     }
+    const trimmedEmail = String(email || "").trim();
+    const result = await signInWithEmailAndPassword(auth, trimmedEmail, password);
+    useMemolandumStore.getState().setAuthUser?.(result.user);
+    await syncUserProgress(result.user).catch((syncErr) => {
+      console.warn("User progress sync warning on login:", syncErr);
+    });
+    logAccountSecurityEvent(result.user.uid, "login_email").catch(() => {});
     return result.user;
   } catch (error) {
     console.error("Email Login Error:", error);
@@ -543,6 +633,7 @@ export const userHasPasswordProvider = (user = auth?.currentUser) => {
 
 export const logoutUser = async () => {
   try {
+    await signOutNativeGoogleIfAny();
     await signOut(auth);
   } catch (error) {
     console.error("Logout Error:", error);
@@ -564,22 +655,22 @@ export const logoutUser = async () => {
 };
 
 /**
- * Privacy Policy / Play Store — hesabı ve bulut verisini kalıcı siler.
- * Önce yeniden kimlik doğrulama (5 dk kuralı), sonra Cloud Function (Admin).
+ * Privacy Policy / Play Store — hesabı, Kelime Kasası'nı, Öğretmen Masası sınıflarını ve bulut verisini kalıcı siler.
+ * Önce yeniden kimlik doğrulama (5 dk kuralı), sonra Firestore temizliği, Cloud Function (Admin) ve deleteUser.
  * @param {{ password?: string }} [opts] — e-posta/şifre hesapları için zorunlu
  */
 export const deleteUserAccount = async (opts = {}) => {
   const user = auth?.currentUser;
   if (!user) throw new Error("Oturum bulunamadı.");
-  if (!cloudFuncs) throw new Error("Cloud Functions yapılandırılmadı.");
 
+  const uid = user.uid;
   const providers = (user.providerData || []).map((p) => p.providerId);
   const isGoogle = providers.includes("google.com");
   const isPassword = providers.includes("password");
 
   try {
     if (isGoogle) {
-      await reauthenticateWithPopup(user, googleProvider);
+      await platformGoogleReauthenticate(user, googleProvider);
     } else if (isPassword) {
       if (!opts.password || !user.email) {
         const err = new Error("password-required");
@@ -589,9 +680,8 @@ export const deleteUserAccount = async (opts = {}) => {
       const cred = EmailAuthProvider.credential(user.email, opts.password);
       await reauthenticateWithCredential(user, cred);
     } else {
-      // Diğer provider: Google popup ile dene veya şifre yoksa hata
       if (googleProvider) {
-        await reauthenticateWithPopup(user, googleProvider);
+        await platformGoogleReauthenticate(user, googleProvider);
       } else {
         throw new Error("Yeniden doğrulama desteklenmiyor. info@memolandum.com");
       }
@@ -602,11 +692,67 @@ export const deleteUserAccount = async (opts = {}) => {
     throw error;
   }
 
-  const callDelete = httpsCallable(cloudFuncs, "deleteUserAccount");
-  await callDelete({});
+  // Öğretmen Masası (Teacher Desk) sınıflarını temizle
+  if (db && uid) {
+    try {
+      const classesQuery = query(collection(db, "classrooms"), where("teacherUid", "==", uid));
+      const classSnaps = await getDocs(classesQuery);
+      for (const classDoc of classSnaps.docs) {
+        try {
+          const studentsSnap = await getDocs(collection(db, "classrooms", classDoc.id, "students"));
+          const batch = writeBatch(db);
+          studentsSnap.docs.forEach((sDoc) => batch.delete(sDoc.ref));
+          batch.delete(classDoc.ref);
+          await batch.commit();
+        } catch (subErr) {
+          console.warn("Classroom cleanup warning:", subErr?.message || subErr);
+        }
+      }
+    } catch (e) {
+      console.warn("Teacher Desk cleanup skipped:", e?.message || e);
+    }
+  }
+
+  // Cloud Function ile tam hesap ve Firestore temizliği + istemci tarafı deleteUser yedeği
+  let cloudDeleted = false;
+  if (cloudFuncs) {
+    try {
+      const callDelete = httpsCallable(cloudFuncs, "deleteUserAccount");
+      await callDelete({});
+      cloudDeleted = true;
+    } catch (cloudErr) {
+      console.warn("Cloud deleteUserAccount warning, falling back to client deleteUser:", cloudErr);
+    }
+  }
+
+  if (!cloudDeleted) {
+    if (db && uid) {
+      try {
+        const userSnap = await getDoc(doc(db, "users", uid));
+        const uname = userSnap.exists() ? userSnap.data()?.username : null;
+        const vaultSnap = await getDocs(collection(db, "users", uid, "vault"));
+        const batch = writeBatch(db);
+        vaultSnap.docs.slice(0, 400).forEach((vDoc) => batch.delete(vDoc.ref));
+        if (uname) batch.delete(doc(db, "usernames", String(uname).toLowerCase()));
+        batch.delete(doc(db, "users", uid, "stats", "global"));
+        batch.delete(doc(db, "users", uid, "meta", "security"));
+        batch.delete(doc(db, "users", uid));
+        await batch.commit();
+      } catch (e) {
+        console.warn("Client Firestore cleanup warning:", e);
+      }
+    }
+    if (auth.currentUser) {
+      await deleteUser(auth.currentUser);
+    }
+  }
 
   try {
-    useMemolandumStore.getState().clearForAccountSwitch?.();
+    await signOutNativeGoogleIfAny();
+    const store = useMemolandumStore.getState();
+    store.setAuthUser(null);
+    store.clearForAccountSwitch?.();
+    resetRevenueCatSession();
     await clearMemolandumPersistedStorage();
   } catch {
     /* ignore */
@@ -702,25 +848,71 @@ export const syncUserProgress = async (user) => {
       useMemolandumStore.getState().clearGuestProgressPending();
     }
 
-    // Profil bilgisini liderlik + users kök dokümanına yaz
-    const displayName = user.displayName || store.profile?.displayName || null;
-    const photoURL = user.photoURL || store.profile?.photoURL || null;
+    // Önce kullanıcının Firestore'daki mevcut profilini (username, displayName, photoURL) oku
+    // Böylece yeni cihazdan veya tekrar giriş yapan mevcut üyelerin rumuz ve sanal avatarları ezilmez.
+    const userDocRef = doc(db, 'users', user.uid);
+    const userSnap = await getDoc(userDocRef);
+    const existingUserData = userSnap.exists() ? userSnap.data() : {};
+
+    const resolvedUsername =
+      existingUserData.username || store.profile?.username || null;
+    const resolvedDisplayName =
+      existingUserData.displayName ||
+      resolvedUsername ||
+      store.profile?.displayName ||
+      user.displayName ||
+      "Siber Kadet";
+
+    const existingPhoto = existingUserData.photoURL || store.profile?.photoURL || null;
+    const isExistingCustomPhoto =
+      existingPhoto &&
+      !existingPhoto.includes("googleusercontent.com") &&
+      !existingPhoto.includes("apple");
+    const rawPhotoURL = isExistingCustomPhoto
+      ? existingPhoto
+      : existingPhoto || user.photoURL || null;
+
     const providers = (user.providerData || []).map((p) => p.providerId);
-    if (displayName || photoURL) {
-      await setDoc(globalStatsRef, {
-        ...(displayName ? { displayName } : {}),
-        ...(photoURL ? { photoURL } : {}),
-      }, { merge: true });
-    }
+
+    // Gizlilik: Liderlik tablosunda Google/Apple harici profil fotoğraflarını ifşa etme
+    const isExternalPhoto =
+      rawPhotoURL &&
+      (rawPhotoURL.includes("googleusercontent.com") || rawPhotoURL.includes("apple"));
+    const safePublicPhotoURL = isExternalPhoto
+      ? "https://api.dicebear.com/9.x/bottts/svg?seed=Felix"
+      : rawPhotoURL || "https://api.dicebear.com/9.x/bottts/svg?seed=Felix";
+
+    // Store'u Firestore'daki gerçek rumuz ve avatarla hemen senkronla
+    useMemolandumStore.getState().setAuthUser?.({
+      ...user,
+      uid: user.uid,
+      email: user.email,
+      emailVerified: user.emailVerified,
+      providerData: user.providerData,
+      displayName: resolvedDisplayName,
+      username: resolvedUsername,
+      photoURL: isExistingCustomPhoto ? existingPhoto : safePublicPhotoURL,
+    });
+
     await setDoc(
-      doc(db, "users", user.uid),
+      globalStatsRef,
+      {
+        displayName: resolvedDisplayName,
+        photoURL: safePublicPhotoURL,
+      },
+      { merge: true }
+    );
+
+    await setDoc(
+      userDocRef,
       {
         email: user.email || null,
         emailVerified: !!user.emailVerified,
         providers,
         lastSyncedAt: serverTimestamp(),
-        ...(displayName ? { displayName } : {}),
-        ...(photoURL ? { photoURL } : {}),
+        ...(resolvedDisplayName ? { displayName: resolvedDisplayName } : {}),
+        ...(resolvedUsername ? { username: resolvedUsername } : {}),
+        ...(safePublicPhotoURL ? { photoURL: safePublicPhotoURL } : {}),
       },
       { merge: true }
     );
@@ -732,10 +924,8 @@ export const syncUserProgress = async (user) => {
 
     // --- LEGACY MIGRATION ---
     // If the user has old 'totalXp' on their users/{uid} document, migrate it to the new system
-    const userDocRef = doc(db, 'users', user.uid);
-    const userSnap = await getDoc(userDocRef);
     if (userSnap.exists()) {
-      const userData = userSnap.data();
+      const userData = existingUserData;
       if (userData.totalXp && userData.totalXp > 0) {
         const latestSnap = await getDoc(globalStatsRef);
         const latest = latestSnap.exists() ? latestSnap.data() : {};
@@ -759,17 +949,50 @@ export const syncUserProgress = async (user) => {
       if (userData.isParentAccount || (Array.isArray(userData.childrenProfiles) && userData.childrenProfiles.length > 0)) {
         useMemolandumStore.setState({
           isParentAccount: !!userData.isParentAccount,
-          parentEmailDigest: userData.parentEmailDigest !== false,
+          parentEmailDigest: !!userData.parentEmailDigest,
           childrenProfiles: userData.childrenProfiles || currentStore.childrenProfiles || [],
           activeChildId: userData.activeChildId || currentStore.activeChildId || (userData.childrenProfiles?.[0]?.id ?? null),
+          ...(Array.isArray(userData.parentActivityLog) && userData.parentActivityLog.length > 0
+            ? { parentActivityLog: userData.parentActivityLog.slice(0, 50) }
+            : {}),
         });
       } else if (currentStore.isParentAccount && currentStore.childrenProfiles?.length > 0) {
         await setDoc(userDocRef, {
           isParentAccount: currentStore.isParentAccount,
-          parentEmailDigest: currentStore.parentEmailDigest !== false,
+          parentEmailDigest: !!currentStore.parentEmailDigest,
           childrenProfiles: currentStore.childrenProfiles,
           activeChildId: currentStore.activeChildId,
+          parentActivityLog: (currentStore.parentActivityLog || []).slice(0, 50),
           parentUpdatedAt: serverTimestamp(),
+        }, { merge: true });
+      }
+
+      // --- Sınıf Katılımı (Joined Classroom) Senkronizasyonu ---
+      if (userData.joinedClassCode) {
+        if (!currentStore.joinedClassroom || currentStore.joinedClassroom.classCode !== userData.joinedClassCode) {
+          try {
+            const { fetchMyClassroom } = await import("../schools/schoolService");
+            const result = await fetchMyClassroom(userData.joinedClassCode);
+            if (result?.classroom) {
+              const ownSeat = result?.ownSeat || result?.classroom?.students?.[result?.studentId] || null;
+              useMemolandumStore.setState({
+                joinedClassroom: {
+                  ...result.classroom,
+                  studentId: result.studentId,
+                  ownSeat,
+                  studentName: ownSeat?.name || undefined,
+                  studentAvatar: ownSeat?.avatar || undefined,
+                  joinedAt: Date.now(),
+                },
+              });
+            }
+          } catch (classErr) {
+            console.warn("Joined classroom cloud fetch warning:", classErr?.message || classErr);
+          }
+        }
+      } else if (currentStore.joinedClassroom?.classCode) {
+        await setDoc(userDocRef, {
+          joinedClassCode: currentStore.joinedClassroom.classCode,
         }, { merge: true });
       }
     }
@@ -863,6 +1086,38 @@ export const logParentActivityToCloud = async (uid, activityEntry, childUpdates)
     await setDoc(userDocRef, updates, { merge: true });
   } catch (err) {
     console.warn("Child activity log cloud warning:", err?.message || err);
+  }
+};
+
+/**
+ * Öğrencinin katıldığı sınıf kodunu Firestore'a kaydeder (tüm cihazlar için kalıcılık)
+ */
+export const syncStudentClassToCloud = async (uid, classCode) => {
+  if (!uid || !db) return;
+  try {
+    const userDocRef = doc(db, 'users', uid);
+    await setDoc(userDocRef, {
+      joinedClassCode: classCode || null,
+      classUpdatedAt: serverTimestamp(),
+    }, { merge: true });
+  } catch (err) {
+    console.warn("Student class cloud sync warning:", err?.message || err);
+  }
+};
+
+/**
+ * Kullanıcıyı öğretmen olarak işaretler
+ */
+export const markUserAsTeacher = async (uid) => {
+  if (!uid || !db) return;
+  try {
+    const userDocRef = doc(db, 'users', uid);
+    await setDoc(userDocRef, {
+      isTeacher: true,
+      teacherUpdatedAt: serverTimestamp(),
+    }, { merge: true });
+  } catch (err) {
+    console.warn("Teacher flag sync warning:", err?.message || err);
   }
 };
 

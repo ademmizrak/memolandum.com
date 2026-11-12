@@ -1,4 +1,5 @@
 import { SoundManager } from './soundManager';
+import { attachAdaptiveCanvasGuard } from '../lib/performance/canvasFpsGuard';
 
 
 class Star {
@@ -375,7 +376,7 @@ export class InvadersGame {
     this.isInvadersGame = true;
     this.canvas = canvasElement || document.getElementById('gameCanvas');
     this.callbacks = callbacks;
-    this.ctx = this.canvas.getContext('2d');
+    this.ctx = attachAdaptiveCanvasGuard(this.canvas.getContext('2d'));
 
     this.vocabulary = (vocabulary || []).map(w => ({
       ...w,
@@ -641,9 +642,10 @@ export class InvadersGame {
     const otherVocab = this.vocabulary.filter(w => w.turkish !== this.activeWord.turkish);
     const distractorPool = [];
     
-    // Populate distractor words
-    while (distractorPool.length < 5 && otherVocab.length > 0) {
-      const w = otherVocab[Math.floor(Math.random() * otherVocab.length)];
+    // Populate distractor words safely (bounded for 3-word warm-up wave)
+    const shuffledOthers = [...otherVocab].sort(() => 0.5 - Math.random());
+    for (const w of shuffledOthers) {
+      if (distractorPool.length >= 5) break;
       if (!distractorPool.some(d => d.turkish === w.turkish)) {
         distractorPool.push(w);
       }
@@ -811,7 +813,7 @@ export class InvadersGame {
           const el_hud = document.getElementById('hud'); if(el_hud) el_hud.classList.add('hidden');
           const el_gameCanvas = document.getElementById('gameCanvas'); if(el_gameCanvas) el_gameCanvas.classList.add('hidden');
           const el_controls = document.querySelector('.controls-container'); if (el_controls) el_controls.classList.add('hidden');
-          window.location.href = '/';
+          window.location.href = '/games/';
           // removed
         }
       };
@@ -1298,8 +1300,8 @@ export class InvadersGame {
     this.activeFloatingTexts.push(meaningFt);
 
     // Play word pronunciation audio
-    if (this.soundManager && (this.activeWord.audioUrl || this.activeWord.audio_url)) {
-      this.soundManager.playWordAudio(this.activeWord.audioUrl || this.activeWord.audio_url);
+    if (this.soundManager && this.activeWord) {
+      this.soundManager.speakWord(this.activeWord);
     }
 
     // Commit attempt to ExamEngine

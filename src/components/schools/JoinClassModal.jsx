@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import { X, School, Sparkles, CheckCircle2, ArrowRight, BookOpen, AlertCircle } from "lucide-react";
 import { joinClassroom } from "../../lib/schools/schoolService";
+import { buildHomeworkStartHref, seedWordCardUnit } from "../../lib/schools/mebHomeworkUnits";
+import { formatSchoolLine, STUDENT_AVATAR_PRESETS } from "../../lib/schools/teacherIdentity";
 import { useMemolandumStore } from "../../store/useMemolandumStore";
 
 export default function JoinClassModal({ isOpen, onClose }) {
@@ -15,9 +17,11 @@ export default function JoinClassModal({ isOpen, onClose }) {
 
   const activeChild = childrenProfiles.find((c) => c.id === activeChildId) || childrenProfiles[0];
   const defaultStudentName = activeChild?.name || profile?.displayName || "";
+  const defaultStudentAvatar = activeChild?.avatar || STUDENT_AVATAR_PRESETS[0].emoji;
 
   const [classCodeInput, setClassCodeInput] = useState("");
   const [studentNameInput, setStudentNameInput] = useState(defaultStudentName);
+  const [studentAvatarInput, setStudentAvatarInput] = useState(defaultStudentAvatar);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [joinedData, setJoinedData] = useState(null);
@@ -28,22 +32,50 @@ export default function JoinClassModal({ isOpen, onClose }) {
     e.preventDefault();
     setError(null);
     if (!classCodeInput.trim()) {
-      setError("Lütfen öğretmeninizin verdiği 6 haneli sınıf kodunu girin.");
+      setError("Lütfen öğretmeninizin verdiği sınıf kodunu girin.");
       return;
     }
     if (!studentNameInput.trim()) {
-      setError("Lütfen öğrenci adını girin.");
+      setError("Lütfen öğrenci adını veya rumuzunu girin.");
+      return;
+    }
+    if (!uid) {
+      setError("Sınıfa katılmak için giriş yapmanız gerekir.");
       return;
     }
 
     try {
       setLoading(true);
-      const studentId = activeChild?.id || uid || `guest_${Date.now()}`;
-      const result = await joinClassroom(studentId, studentNameInput.trim(), classCodeInput.trim());
-      setJoinedClassroom(result.classroom);
-      setJoinedData(result.classroom);
+      const studentId = uid;
+      const result = await joinClassroom(studentId, studentNameInput.trim(), classCodeInput.trim(), {
+        childId: activeChild?.id || null,
+        avatar: studentAvatarInput || "🦁",
+      });
+      const ownSeat = result?.ownSeat || result?.classroom?.students?.[result?.studentId] || null;
+      const classroomPayload = {
+        ...result.classroom,
+        studentId: result.studentId,
+        ownSeat,
+        studentName: ownSeat?.name || studentNameInput.trim(),
+        studentAvatar: ownSeat?.avatar || studentAvatarInput || "🦁",
+        joinedAt: Date.now(),
+        childId: activeChild?.id || null,
+      };
+      setJoinedClassroom(classroomPayload);
+      setJoinedData(classroomPayload);
     } catch (err) {
-      setError(err?.message || "Sınıfa katılırken bir hata oluştu.");
+      const msg =
+        err?.message ||
+        err?.code ||
+        "Sınıfa katılırken bir hata oluştu.";
+      // Firebase callable HttpsError
+      const details = err?.details || err?.customData;
+      setError(
+        typeof msg === "string" && msg.length < 200
+          ? msg.replace(/^Firebase:\s*/i, "").replace(/\s*\(.*\)$/, "")
+          : "Sınıfa katılırken bir hata oluştu. Giriş yaptığınızdan ve kodun doğru olduğundan emin olun."
+      );
+      console.warn("joinClassroom", err, details);
     } finally {
       setLoading(false);
     }
@@ -51,19 +83,16 @@ export default function JoinClassModal({ isOpen, onClose }) {
 
   const handleStartHomework = () => {
     const assignment = joinedData?.currentAssignment || joinedClassroom?.currentAssignment;
-    onClose();
-    if (assignment?.levelId) {
-      window.location.href = `/learn/en-tr/${assignment.levelId}/`;
-    } else {
-      window.location.href = "/learn/en-tr/";
+    if (assignment?.levelId && assignment?.unitNo != null) {
+      seedWordCardUnit(assignment.levelId, assignment.unitNo);
     }
+    onClose();
+    window.location.href = buildHomeworkStartHref(assignment);
   };
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md animate-in fade-in duration-200">
       <div className="relative w-full max-w-md bg-slate-900 border-2 border-cyan-500/40 rounded-3xl shadow-2xl overflow-hidden text-slate-100 p-6 sm:p-7">
-        
-        {/* Kapat Butonu */}
         <button
           onClick={onClose}
           className="absolute top-4 right-4 p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors cursor-pointer"
@@ -84,7 +113,7 @@ export default function JoinClassModal({ isOpen, onClose }) {
                 Öğretmenimin Sınıfına Katıl
               </h2>
               <p className="text-xs text-slate-400 mt-1">
-                İngilizce öğretmeninizin tahtaya yazdığı veya veli grubuna ilettiği 6 haneli sınıf kodunu girin.
+                Öğretmenin verdiği sınıf kodunu girin. Gerçek ad zorunlu değil; rumuz ve avatar seçerek güvenle katılabilirsiniz.
               </p>
             </div>
 
@@ -97,16 +126,14 @@ export default function JoinClassModal({ isOpen, onClose }) {
 
             <form onSubmit={handleJoin} className="space-y-4">
               <div>
-                <label className="block text-xs font-bold text-slate-300 mb-1">
-                  6 Haneli Sınıf Kodu:
-                </label>
+                <label className="block text-xs font-bold text-slate-300 mb-1">Sınıf Kodu:</label>
                 <input
                   type="text"
-                  placeholder="Örn: M3-7X9 veya MEM-4A"
+                  placeholder="Örn: 682419 veya ATA4A"
                   value={classCodeInput}
                   onChange={(e) => setClassCodeInput(e.target.value.toUpperCase())}
                   className="w-full bg-slate-800/90 border border-slate-700 focus:border-cyan-400 text-white rounded-xl px-4 py-3 text-center text-lg font-mono font-black tracking-widest uppercase transition-colors"
-                  maxLength={10}
+                  maxLength={16}
                   required
                   autoFocus
                 />
@@ -114,16 +141,43 @@ export default function JoinClassModal({ isOpen, onClose }) {
 
               <div>
                 <label className="block text-xs font-bold text-slate-300 mb-1">
-                  Öğrenci Adı ve Soyadı:
+                  Sınıfta görünecek ad / rumuz (takma ad olabilir):
                 </label>
                 <input
                   type="text"
-                  placeholder="Örn: Kerem Yılmaz"
+                  placeholder="Örn: Kerem, K.Y., Yıldız"
                   value={studentNameInput}
                   onChange={(e) => setStudentNameInput(e.target.value)}
                   className="w-full bg-slate-800/90 border border-slate-700 focus:border-cyan-400 text-white rounded-xl px-4 py-2.5 text-sm transition-colors"
                   required
+                  maxLength={40}
                 />
+                <p className="text-[10px] text-slate-500 mt-1">
+                  Gerçek soyad zorunlu değil. Yalnızca öğretmeniniz bu rumuzu görür; diğer öğrenciler göremez.
+                </p>
+              </div>
+
+              <div>
+                <label className="block text-xs font-bold text-slate-300 mb-1.5">
+                  Öğrenci Avatarı Seçin:
+                </label>
+                <div className="grid grid-cols-6 gap-1.5">
+                  {STUDENT_AVATAR_PRESETS.map((preset) => (
+                    <button
+                      key={preset.id}
+                      type="button"
+                      onClick={() => setStudentAvatarInput(preset.emoji)}
+                      title={preset.label}
+                      className={`h-9 rounded-xl text-base border transition-all flex items-center justify-center cursor-pointer ${
+                        studentAvatarInput === preset.emoji
+                          ? "border-cyan-400 bg-cyan-500/20 scale-105 shadow-sm shadow-cyan-500/20"
+                          : "border-slate-700/80 bg-slate-800/60 hover:bg-slate-800"
+                      }`}
+                    >
+                      {preset.emoji}
+                    </button>
+                  ))}
+                </div>
               </div>
 
               <button
@@ -142,19 +196,21 @@ export default function JoinClassModal({ isOpen, onClose }) {
             </div>
 
             <div>
-              <h3 className="text-xl font-black text-white">
-                Tebrikler, Sınıftasınız!
-              </h3>
+              <h3 className="text-xl font-black text-white">Tebrikler, Sınıftasınız!</h3>
               <p className="text-xs text-slate-300 mt-1">
-                <span className="font-bold text-amber-300">{joinedData.schoolName || "Okul"}</span> bünyesindeki{" "}
-                <span className="font-bold text-cyan-300">{joinedData.className || "İngilizce"}</span> sınıfına katıldınız.
+                <span className="font-bold text-amber-300">{formatSchoolLine(joinedData)}</span>
+                {" · "}
+                <span className="font-bold text-cyan-300">{joinedData.className || "İngilizce"}</span>{" "}
+                sınıfına katıldınız.
               </p>
               <div className="mt-1 text-[11px] text-slate-400">
-                Öğretmeniniz: <span className="text-white font-semibold">{joinedData.teacherName}</span>
+                Öğretmen:{" "}
+                <span className="text-white font-semibold">
+                  {joinedData.teacherName || "Öğretmen"}
+                </span>
               </div>
             </div>
 
-            {/* Atanan Ödev Kartı */}
             {joinedData.currentAssignment && (
               <div className="p-4 rounded-2xl bg-slate-950/80 border border-amber-500/30 text-left space-y-1.5">
                 <div className="flex items-center gap-1.5 text-amber-400 text-xs font-bold font-mono uppercase">
@@ -163,7 +219,10 @@ export default function JoinClassModal({ isOpen, onClose }) {
                 </div>
                 <div className="text-sm font-bold text-white flex items-center gap-2">
                   <BookOpen className="w-4 h-4 text-cyan-400" />
-                  <span>{joinedData.currentAssignment.unitName}</span>
+                  <span>
+                    {joinedData.currentAssignment.unitName ||
+                      joinedData.currentAssignment.unitTitle}
+                  </span>
                 </div>
                 <div className="flex items-center justify-between text-[11px] text-slate-400 pt-1">
                   <span>Hedef: {joinedData.currentAssignment.targetWords} Kelime</span>
@@ -181,7 +240,6 @@ export default function JoinClassModal({ isOpen, onClose }) {
             </button>
           </div>
         )}
-
       </div>
     </div>
   );

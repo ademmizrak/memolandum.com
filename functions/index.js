@@ -21,7 +21,20 @@ exports.geminiTranslate = translate.geminiTranslate;
 const googleTranslate = require("./googleTranslate");
 exports.cloudTranslate = googleTranslate.cloudTranslate;
 
-exports.syncProgress = onCall({ region: "us-central1", enforceAppCheck: true }, async (request) => {
+// Okullar — güvenli katılım + gradebook
+const schools = require("./schools");
+exports.joinClassroom = schools.joinClassroom;
+exports.getMyClassroom = schools.getMyClassroom;
+exports.syncClassroomProgress = schools.syncClassroomProgress;
+
+// Veli & Okul İletişim Merkezi — uygulama içi ticket + yetkili Admin paneli
+const feedback = require("./feedback");
+exports.submitParentFeedback = feedback.submitParentFeedback;
+exports.getAdminFeedbackDashboard = feedback.getAdminFeedbackDashboard;
+exports.updateAdminFeedbackItem = feedback.updateAdminFeedbackItem;
+exports.getMyParentFeedbackTickets = feedback.getMyParentFeedbackTickets;
+
+exports.syncProgress = onCall({ region: "us-central1", enforceAppCheck: false }, async (request) => {
     // 1. Authenticate user
     if (!request.auth) {
         throw new HttpsError('unauthenticated', 'Kullanıcı girişi yapılmalı.');
@@ -77,7 +90,7 @@ exports.syncProgress = onCall({ region: "us-central1", enforceAppCheck: true }, 
     }
 });
 
-exports.updateScore = onCall({ region: "us-central1", enforceAppCheck: true }, async (request) => {
+exports.updateScore = onCall({ region: "us-central1", enforceAppCheck: false }, async (request) => {
     if (!request.auth) {
         throw new HttpsError('unauthenticated', 'Kullanıcı girişi yapılmalı.');
     }
@@ -284,6 +297,14 @@ exports.ssr = onRequest({ region: "us-central1" }, async (req, res) => {
   const title = `Memolandum | ${matchedFile.label} (${directionLabel}) | Oyna, Ezberle - Kelime Öğrenme Oyunu`;
   const description = `Memolandum ile retro arcade oyunları oynayarak ${matchedFile.label} (${directionLabel}) kelimelerini eğlenceli şekilde ezberleyin. Oyna, Ezberle!`;
 
+  const escapeHtml = (str) =>
+    String(str || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+
   let tableRows = "";
   rawWords.forEach((w, index) => {
     const original = w.word || w.original_script || w.english || w.en || w.osmanlica_latin || w.hanzi || w.kanji || w.character || w.character_script || w.root || "";
@@ -292,9 +313,9 @@ exports.ssr = onRequest({ region: "us-central1" }, async (req, res) => {
     tableRows += `
       <tr>
         <td>${index + 1}</td>
-        <td><strong>${original}</strong></td>
-        <td>${translation}</td>
-        <td>${w.pos || "N/A"}</td>
+        <td><strong>${escapeHtml(original)}</strong></td>
+        <td>${escapeHtml(translation)}</td>
+        <td>${escapeHtml(w.pos || "N/A")}</td>
       </tr>`;
   });
 
@@ -377,7 +398,7 @@ exports.ssr = onRequest({ region: "us-central1" }, async (req, res) => {
  * Yalnızca çağıranın kendi uid'si; son 5 dk içinde yeniden kimlik doğrulama gerekir.
  * Admin SDK ile recursiveDelete (client batch limitlerine takılmaz).
  */
-exports.deleteUserAccount = onCall({ region: "us-central1", enforceAppCheck: true }, async (request) => {
+exports.deleteUserAccount = onCall({ region: "us-central1", enforceAppCheck: false }, async (request) => {
     if (!request.auth?.uid) {
         throw new HttpsError("unauthenticated", "Hesap silmek için giriş gerekli.");
     }

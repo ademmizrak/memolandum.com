@@ -965,7 +965,7 @@
   {
     "id": "es_a1_70",
     "word": "calor",
-    "translation": "sıcak",
+    "translation": "sıcaklık",
     "len": 5,
     "tags": [
       "a1",
@@ -1306,10 +1306,8 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": null
-    },
-    "audioUrl": "/data/Spanish/audio/words_es/es_fecundo.mp3"
+    "audio": "es_cuando.mp3",
+    "audioUrl": "/data/Spanish/audio/words_es/es_cuando.mp3"
   },
   {
     "id": "es_a1_95",
@@ -2356,7 +2354,7 @@
   },
   {
     "id": "es_a1_170",
-    "word": "junto",
+    "word": "juntos",
     "translation": "birlikte",
     "len": 5,
     "tags": [
@@ -4049,7 +4047,7 @@
   },
   {
     "id": "es_a1_291",
-    "word": "crecer",
+    "word": "por qué",
     "translation": "büyümek",
     "len": 6,
     "tags": [
@@ -5141,7 +5139,7 @@
   },
   {
     "id": "es_a1_369",
-    "word": "llave",
+    "word": "ninguna",
     "translation": "anahtar",
     "len": 5,
     "tags": [
@@ -6122,7 +6120,7 @@
   {
     "id": "es_a2_039",
     "word": "tonto",
-    "translation": "aptalca",
+    "translation": "aptal / şapşal",
     "len": 5,
     "tags": [
       "a2",
@@ -7249,7 +7247,7 @@
   },
   {
     "id": "es_a2_120",
-    "word": "sitio",
+    "word": "sitio web",
     "translation": "web sitesi",
     "len": 5,
     "tags": [
@@ -11171,7 +11169,7 @@
   },
   {
     "id": "es_b2_003",
-    "word": "accommodar",
+    "word": "acomodar",
     "translation": "yerleştirmek / uyum sağlamak",
     "len": 10,
     "tags": [
@@ -13761,7 +13759,7 @@
   },
   {
     "id": "es_b2_190",
-    "word": "influencial",
+    "word": "influyente",
     "translation": "etkili",
     "len": 11,
     "tags": [
@@ -14411,7 +14409,7 @@
   },
   {
     "id": "es_c1_037",
-    "word": "causality",
+    "word": "causalidad",
     "translation": "nedensellik",
     "len": 9,
     "tags": [
@@ -14617,7 +14615,7 @@
   {
     "id": "es_c1_052",
     "word": "consecuente",
-    "translation": "sonuç olarak",
+    "translation": "tutarlı / sonucunda gelen",
     "len": 11,
     "tags": [
       "c1",
@@ -15193,7 +15191,7 @@
   {
     "id": "es_c1_094",
     "word": "diferencial",
-    "translation": "farklılık",
+    "translation": "diferansiyel / ayırt edici fark",
     "len": 11,
     "tags": [
       "c1",
@@ -16167,7 +16165,7 @@
   {
     "id": "es_c1_165",
     "word": "expulsión",
-    "translation": "sınır dışı",
+    "translation": "sınır dışı etme / ihraç",
     "len": 9,
     "tags": [
       "c1",
@@ -17141,7 +17139,7 @@
   {
     "id": "es_c2_036",
     "word": "antelación",
-    "translation": "önceden",
+    "translation": "öncelik / önceden olma",
     "len": 10,
     "tags": [
       "c2",
@@ -17702,7 +17700,7 @@
   },
   {
     "id": "es_c2_077",
-    "word": "caústico",
+    "word": "cáustico",
     "translation": "yakıcı",
     "len": 8,
     "tags": [
@@ -18074,7 +18072,7 @@
   {
     "id": "es_c2_104",
     "word": "consecuente",
-    "translation": "sonuç olarak",
+    "translation": "tutarlı / sonucunda gelen",
     "len": 11,
     "tags": [
       "c2",
@@ -18650,7 +18648,7 @@
   {
     "id": "es_c2_146",
     "word": "diferencial",
-    "translation": "farklılık",
+    "translation": "diferansiyel / ayırt edici fark",
     "len": 11,
     "tags": [
       "c2",

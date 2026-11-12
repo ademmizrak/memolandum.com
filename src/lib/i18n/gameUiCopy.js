@@ -1,0 +1,230 @@
+"use client";
+
+import { useLocale } from "./LocaleProvider";
+import { LOCALES } from "./config";
+
+const GAME_UI_DICTIONARY = {
+  tr: {
+    preparingLevel: "SEVİYE HAZIRLANIYOR...",
+    fastStartSub: "⚡ Hızlı Başlangıç · Zero-Wait",
+    systemPaused: "SYSTEM PAUSED",
+    gameOverTitle: "GAME OVER",
+    sectorClearedTitle: "SECTOR CLEARED",
+    scoreLabel: "SCORE",
+    tabControls: "KONTROL",
+    tabDictionary: "SÖZLÜK",
+    tabMiniQuiz: "MİNİ QUIZ",
+    tabReviewWords: "KELİMELERİ İNCELE",
+    tabInfoOptions: "BİLGİ & SEÇENEK",
+    tabWords: "KELİMELER",
+    resumeBtn: "DEVAM ET (P)",
+    continueBtn: "DEVAM ET",
+    restartBtn: "YENİDEN BAŞLAT",
+    tryAgainBtn: "TEKRAR DENE",
+    gameMenuBtn: "OYUN MENÜSÜ",
+    vaultBtn: "KELİME KASASINA DÖN",
+    reinforceQuizBtn: "PEKİŞTİRME QUIZ'İ (QUIZ)",
+    nextLevelBtn: "SONRAKİ SEKTÖR (LEVEL)",
+    switchGameHeading: "AYNI SEVİYEYİ BAŞKA OYUNLA DENE",
+    dictPauseHeading: "SEVİYE KELİME KARTI LİSTESİ",
+    dictGameOverHeading: "SEVİYE SÖZLÜĞÜ (KAYBETME SEBEPLERİ)",
+    dictVictoryHeading: "SEKTÖRDE USTALAŞILAN KELİMELER",
+    noWordsFound: "KELİME BULUNAMADI",
+    listenPronunciation: "Telaffuzu Dinle",
+    miniQuizDesc: "Kelimenin doğru karşılığını patlatarak kalkanını yenile veya ekstra puan kazan!",
+    miniQuizCorrect: "DOĞRU! +1 Kalkan / +50 Puan Eklendi",
+    miniQuizWrong: "YANLIŞ! Kalkan Kazanılamadı",
+    resumeWhereLeftOff: "KALDIĞIN YERDEN DEVAM ET",
+    gameNames: {
+      "star-cards": "Yıldız Kartlar",
+      "word-board": "Ahşap Kelime Panosu",
+      "word-card": "Kelime Kartı",
+      "orbitlex": "OrbitLex",
+      "shooter": "Retro Shooter",
+      "breakout": "Breakout DX-Ball",
+      "highway": "Highway Survivor",
+      "invaders": "Siberian Invaders",
+      "wordascent": "The Word Ascent",
+      "worddrop": "Reverse Word Drop",
+      "lexicon": "Lexicon Tokens",
+      "hangman": "Retro Hangman",
+      "word-snake": "Retro Yılan",
+      "quiz": "Retro Quiz",
+    },
+  },
+  pt: {
+    preparingLevel: "PREPARANDO FASE...",
+    fastStartSub: "⚡ Início Rápido · Sem Espera",
+    systemPaused: "JOGO PAUSADO",
+    gameOverTitle: "FIM DE JOGO",
+    sectorClearedTitle: "FASE CONCLUÍDA",
+    scoreLabel: "PONTOS",
+    tabControls: "CONTROLES",
+    tabDictionary: "DICIONÁRIO",
+    tabMiniQuiz: "MINI QUIZ",
+    tabReviewWords: "VER PALAVRAS",
+    tabInfoOptions: "OPÇÕES",
+    tabWords: "PALAVRAS",
+    resumeBtn: "CONTINUAR (P)",
+    continueBtn: "CONTINUAR",
+    restartBtn: "REINICIAR",
+    tryAgainBtn: "TENTAR NOVAMENTE",
+    gameMenuBtn: "MENU DE JOGOS",
+    vaultBtn: "COFRE DE PALAVRAS",
+    reinforceQuizBtn: "QUIZ DE REFORÇO",
+    nextLevelBtn: "PRÓXIMA FASE (LEVEL)",
+    switchGameHeading: "JOGUE ESTA FASE EM OUTRO MODO",
+    dictPauseHeading: "LISTA DE PALAVRAS DA FASE",
+    dictGameOverHeading: "PALAVRAS DESTA FASE",
+    dictVictoryHeading: "PALAVRAS DOMINADAS NESTA FASE",
+    noWordsFound: "NENHUMA PALAVRA ENCONTRADA",
+    listenPronunciation: "Ouvir Pronúncia",
+    miniQuizDesc: "Acerte a tradução correta para restaurar seu escudo ou ganhar pontos extras!",
+    miniQuizCorrect: "CORRETO! +1 Escudo / +50 Pontos",
+    miniQuizWrong: "ERRADO! Nenhum escudo ganho",
+    resumeWhereLeftOff: "CONTINUAR DE ONDE PAROU",
+    gameNames: {
+      "star-cards": "Cartões Estrela",
+      "word-board": "Quadro de Palavras",
+      "word-card": "Flashcards",
+      "orbitlex": "OrbitLex",
+      "shooter": "Retro Shooter",
+      "breakout": "Breakout DX-Ball",
+      "highway": "Highway Survivor",
+      "invaders": "Siberian Invaders",
+      "wordascent": "The Word Ascent",
+      "worddrop": "Reverse Word Drop",
+      "lexicon": "Lexicon Tokens",
+      "hangman": "Jogo da Forca",
+      "word-snake": "Cobrinha de Palavras",
+      "quiz": "Quiz Rápido",
+    },
+  },
+  en: {
+    preparingLevel: "PREPARING LEVEL...",
+    fastStartSub: "⚡ Instant Start · Zero-Wait",
+    systemPaused: "SYSTEM PAUSED",
+    gameOverTitle: "GAME OVER",
+    sectorClearedTitle: "SECTOR CLEARED",
+    scoreLabel: "SCORE",
+    tabControls: "CONTROLS",
+    tabDictionary: "DICTIONARY",
+    tabMiniQuiz: "MINI QUIZ",
+    tabReviewWords: "REVIEW WORDS",
+    tabInfoOptions: "OPTIONS",
+    tabWords: "WORDS",
+    resumeBtn: "RESUME (P)",
+    continueBtn: "CONTINUE",
+    restartBtn: "RESTART",
+    tryAgainBtn: "TRY AGAIN",
+    gameMenuBtn: "GAME MENU",
+    vaultBtn: "VOCABULARY VAULT",
+    reinforceQuizBtn: "PRACTICE QUIZ",
+    nextLevelBtn: "NEXT SECTOR (LEVEL)",
+    switchGameHeading: "TRY THIS LEVEL IN ANOTHER GAME",
+    dictPauseHeading: "LEVEL VOCABULARY LIST",
+    dictGameOverHeading: "LEVEL VOCABULARY REVIEW",
+    dictVictoryHeading: "WORDS MASTERED IN THIS SECTOR",
+    noWordsFound: "NO WORDS FOUND",
+    listenPronunciation: "Listen to Pronunciation",
+    miniQuizDesc: "Pick the correct meaning to restore your shield or earn bonus points!",
+    miniQuizCorrect: "CORRECT! +1 Shield / +50 Points",
+    miniQuizWrong: "WRONG! No shield earned",
+    resumeWhereLeftOff: "CONTINUE WHERE YOU LEFT OFF",
+    gameNames: {
+      "star-cards": "Star Cards",
+      "word-board": "Word Board",
+      "word-card": "Word Cards",
+      "orbitlex": "OrbitLex",
+      "shooter": "Retro Shooter",
+      "breakout": "Breakout DX-Ball",
+      "highway": "Highway Survivor",
+      "invaders": "Siberian Invaders",
+      "wordascent": "The Word Ascent",
+      "worddrop": "Reverse Word Drop",
+      "lexicon": "Lexicon Tokens",
+      "hangman": "Retro Hangman",
+      "word-snake": "Word Snake",
+      "quiz": "Retro Quiz",
+    },
+  },
+  ar: {
+    preparingLevel: "جاري تحضير المستوى...",
+    fastStartSub: "⚡ بدء سريع · بدون انتظار",
+    systemPaused: "تم إيقاف اللعبة مؤقتاً",
+    gameOverTitle: "انتهت اللعبة",
+    sectorClearedTitle: "اكتمل المستوى",
+    scoreLabel: "النقاط",
+    tabControls: "التحكم",
+    tabDictionary: "القاموس",
+    tabMiniQuiz: "اختبار سريع",
+    tabReviewWords: "مراجعة الكلمات",
+    tabInfoOptions: "الخيارات",
+    tabWords: "الكلمات",
+    resumeBtn: "متابعة (P)",
+    continueBtn: "متابعة",
+    restartBtn: "إعادة البدء",
+    tryAgainBtn: "حاول مرة أخرى",
+    gameMenuBtn: "قائمة الألعاب",
+    vaultBtn: "خزانة الكلمات",
+    reinforceQuizBtn: "اختبار تعزيزي",
+    nextLevelBtn: "المستوى التالي",
+    switchGameHeading: "جرّب هذا المستوى في لعبة أخرى",
+    dictPauseHeading: "قائمة كلمات المستوى",
+    dictGameOverHeading: "مراجعة كلمات المستوى",
+    dictVictoryHeading: "الكلمات المتقنة في هذا المستوى",
+    noWordsFound: "لم يتم العثور على كلمات",
+    listenPronunciation: "استمع للنطق",
+    miniQuizDesc: "اختر المعنى الصحيح لاستعادة درعك أو كسب نقاط إضافية!",
+    miniQuizCorrect: "صحيح! +1 درع / +50 نقطة",
+    miniQuizWrong: "خطأ! لم يتم كسب درع",
+    resumeWhereLeftOff: "أكمل من حيث توقفت",
+    gameNames: {
+      "star-cards": "بطاقات النجوم",
+      "word-board": "لوحة الكلمات",
+      "word-card": "بطاقات الكلمات",
+      "orbitlex": "OrbitLex",
+      "shooter": "Retro Shooter",
+      "breakout": "Breakout DX-Ball",
+      "highway": "Highway Survivor",
+      "invaders": "Siberian Invaders",
+      "wordascent": "The Word Ascent",
+      "worddrop": "Reverse Word Drop",
+      "lexicon": "Lexicon Tokens",
+      "hangman": "الرجل المشنوق",
+      "word-snake": "ثعبان الكلمات",
+      "quiz": "اختبار سريع",
+    },
+  },
+};
+
+/**
+ * Resolves the active UI locale ('tr' | 'pt' | 'en' | 'ar') for shared game components,
+ * honoring LocaleProvider first and falling back to course langId when appropriate.
+ */
+export function resolveGameUiLocale(contextLocale, langId = "") {
+  const lowerLang = String(langId || "").toLowerCase();
+  if (contextLocale && LOCALES.includes(contextLocale) && contextLocale !== "tr") {
+    return contextLocale;
+  }
+  if (lowerLang.includes("brpt") || lowerLang.includes("portugal") || lowerLang.startsWith("pt")) {
+    return "pt";
+  }
+  if (lowerLang.startsWith("ar-en") || lowerLang.includes("ar_en")) {
+    return "ar";
+  }
+  if (contextLocale && LOCALES.includes(contextLocale)) {
+    return contextLocale;
+  }
+  return "tr";
+}
+
+export function getGameUiCopy(locale = "tr", langId = "") {
+  const resolved = resolveGameUiLocale(locale, langId);
+  return GAME_UI_DICTIONARY[resolved] || GAME_UI_DICTIONARY.tr;
+}
+
+export function useGameUiCopy(langId = "") {
+  const { locale } = useLocale();
+  return getGameUiCopy(locale, langId);
+}

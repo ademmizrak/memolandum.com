@@ -1738,7 +1738,7 @@
   {
     "id": "fr_sent_225",
     "word": "Je te rappellerai.",
-    "translation": "Seni arayacağım.",
+    "translation": "Seni geri arayacağım.",
     "len": 17,
     "tags": [
       "work",
@@ -3810,7 +3810,7 @@
   {
     "id": "fr_sent_473",
     "word": "Prends du recul.",
-    "translation": "Geri adım at.",
+    "translation": "Olaylara uzaktan bak. / Soğukkanlılıkla değerlendir.",
     "len": 14,
     "tags": [
       "growth",
@@ -4439,7 +4439,7 @@
   },
   {
     "id": "fr_sent_318",
-    "word": "Tu peux marcher jusqu'à là-bas.",
+    "word": "Tu peux marcher jusque là-bas.",
     "translation": "Oraya kadar yürüyebilirsin.",
     "len": 30,
     "tags": [
@@ -5881,7 +5881,7 @@
   },
   {
     "id": "fr_sent_121",
-    "word": "Avez-vous des frères ?",
+    "word": "Avez-vous des frères et sœurs ?",
     "translation": "Kardeşiniz var mı?",
     "len": 21,
     "tags": [
@@ -6315,8 +6315,8 @@
   },
   {
     "id": "fr_sent_152",
-    "word": "Ici, c'est mon ami.",
-    "translation": "Burada, arkadaşım.",
+    "word": "Voici mon ami.",
+    "translation": "Bu benim arkadaşım.",
     "len": 18,
     "tags": [
       "social",
@@ -6763,7 +6763,7 @@
   },
   {
     "id": "fr_sent_184",
-    "word": "C'est fatiguant.",
+    "word": "C'est fatigant.",
     "translation": "Yorucu.",
     "len": 14,
     "tags": [

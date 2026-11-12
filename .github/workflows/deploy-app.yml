@@ -19,6 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MEMOLANDUM_SLIM_APP: "1"
+      NEXT_PUBLIC_FIREBASE_API_KEY: "AIzaSyCKo6V0QHsatNJ0_CnFArfl6HBE2SS-MRE"
+      NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: "memolandum.com"
+      NEXT_PUBLIC_FIREBASE_PROJECT_ID: "memolandum-33dc4"
+      NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: "memolandum-33dc4.firebasestorage.app"
+      NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: "539033091302"
+      NEXT_PUBLIC_FIREBASE_APP_ID: "1:539033091302:web:1e4c4763aff1da0c2bcf27"
       NEXT_PUBLIC_DATA_BASE_URL: https://storage.googleapis.com/memolandum-33dc4.firebasestorage.app/data
       NEXT_PUBLIC_ASSETS_BASE_URL: https://storage.googleapis.com/memolandum-33dc4.firebasestorage.app
     steps:

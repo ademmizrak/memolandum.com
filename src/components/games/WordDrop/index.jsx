@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { useLessonLoader } from '../../../hooks/useLessonLoader';
+import { useMemolandumStore } from '../../../store/useMemolandumStore';
 import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
 import { GameHeader } from '../shared/GameHeader';
 import { WordDropGame } from './engineCore';
@@ -32,7 +33,7 @@ export default function WordDrop({
   const canvasRef = useRef(null);
   const containerRef = useRef(null);
   const gameEngineRef = useRef(null);
-  const progressTrackerRef = useRef(createSessionProgressTracker('word_drop'));
+  const progressTrackerRef = useRef(createSessionProgressTracker('worddrop'));
 
   useEffect(() => {
     if (activeScreen === 'playing' && (parseInt(score, 10) || 0) === 0) {
@@ -62,12 +63,20 @@ export default function WordDrop({
       },
       onGameOver: (finalScore, learned) => {
         setScore(finalScore);
-        setLearnedWords(learned);
+        setLearnedWords(learned || []);
+        if (Array.isArray(learned) && learned.length > 0) {
+          const { recordWordQuizResult } = useMemolandumStore.getState();
+          learned.forEach((w) => recordWordQuizResult(w, true, 6, { language: langId, gameId: 'worddrop' }));
+        }
         setActiveScreen('gameover');
       },
       onVictory: (finalScore, learned) => {
         setScore(finalScore);
-        setLearnedWords(learned);
+        setLearnedWords(learned || []);
+        if (Array.isArray(learned) && learned.length > 0) {
+          const { recordWordQuizResult } = useMemolandumStore.getState();
+          learned.forEach((w) => recordWordQuizResult(w, true, 6, { language: langId, gameId: 'worddrop' }));
+        }
         setActiveScreen('victory');
       },
       onStateUpdate: (stateData) => {

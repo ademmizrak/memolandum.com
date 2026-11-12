@@ -1,10 +1,12 @@
 import { Star, SoundManager, WordDropObjectPool, WordDropParticle, WordDropFloatingText, TetrisPiece } from './engine';
+import { attachAdaptiveCanvasGuard } from '../../../lib/performance/canvasFpsGuard';
+import { isArabicText, prepareWordForLetterGame, ARABIC_ALPHABET } from '../../../lib/i18n/arabicTextUtils';
 
 export class WordDropGame {
   constructor(canvas, ctx, vocabulary, callbacks) {
     this.isWordDrop = true;
     this.canvas = canvas;
-    this.ctx = ctx;
+    this.ctx = attachAdaptiveCanvasGuard(ctx);
 
     this.vocabulary = vocabulary;
     this.callbacks = callbacks || {};
@@ -316,10 +318,11 @@ export class WordDropGame {
 
   getWordOfLength(L) {
     let candidates = [];
+    const cleanLen = (w) => prepareWordForLetterGame(w?.english || '').length;
     
     const padWord = (wordStr, targetLen) => {
-      let padded = wordStr.toUpperCase();
-      const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      let padded = prepareWordForLetterGame(wordStr);
+      const chars = isArabicText(padded) ? ARABIC_ALPHABET : "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       while (padded.length < targetLen) {
         padded += chars.charAt(Math.floor(Math.random() * chars.length));
       }
@@ -327,39 +330,42 @@ export class WordDropGame {
     };
 
     if (this.vocabulary && this.vocabulary.length > 0) {
-      candidates = this.vocabulary.filter(w => w.english && w.english.length === L);
+      candidates = this.vocabulary.filter(w => w.english && cleanLen(w) === L);
       if (candidates.length > 0) {
         const selected = candidates[Math.floor(Math.random() * candidates.length)];
+        const cleaned = prepareWordForLetterGame(selected.english);
         return {
-          letters: selected.english.toUpperCase(),
-          english: selected.english.toUpperCase(),
-          turkish: selected.turkish ? selected.turkish.toUpperCase() : '',
+          letters: cleaned,
+          english: cleaned,
+          turkish: selected.turkish ? (isArabicText(selected.turkish) ? selected.turkish : selected.turkish.toUpperCase()) : '',
           isFiller: false
         };
       }
     }
 
     if (this.fillers && this.fillers.length > 0) {
-      candidates = this.fillers.filter(w => w.english && w.english.length === L);
+      candidates = this.fillers.filter(w => w.english && cleanLen(w) === L);
       if (candidates.length > 0) {
         const selected = candidates[Math.floor(Math.random() * candidates.length)];
+        const cleaned = prepareWordForLetterGame(selected.english);
         return {
-          letters: selected.english.toUpperCase(),
-          english: selected.english.toUpperCase(),
-          turkish: selected.turkish ? selected.turkish.toUpperCase() : '',
+          letters: cleaned,
+          english: cleaned,
+          turkish: selected.turkish ? (isArabicText(selected.turkish) ? selected.turkish : selected.turkish.toUpperCase()) : '',
           isFiller: true
         };
       }
     }
 
     if (this.vocabulary && this.vocabulary.length > 0) {
-      candidates = this.vocabulary.filter(w => w.english && w.english.length < L);
+      candidates = this.vocabulary.filter(w => w.english && cleanLen(w) < L);
       if (candidates.length > 0) {
         const selected = candidates[Math.floor(Math.random() * candidates.length)];
+        const cleaned = prepareWordForLetterGame(selected.english);
         return {
-          letters: padWord(selected.english, L),
-          english: selected.english.toUpperCase(),
-          turkish: selected.turkish ? selected.turkish.toUpperCase() : '',
+          letters: padWord(cleaned, L),
+          english: cleaned,
+          turkish: selected.turkish ? (isArabicText(selected.turkish) ? selected.turkish : selected.turkish.toUpperCase()) : '',
           isFiller: false
         };
       }
@@ -569,8 +575,9 @@ export class WordDropGame {
           const len = seg.end - seg.start + 1;
           if (len >= 2 && !seg.hasLetters) {
             const word = this.getWordOfLength(len);
+            const isRtl = isArabicText(word.letters || word.english);
             for (let i = 0; i < len; i++) {
-              const col = seg.start + i;
+              const col = isRtl ? (seg.end - i) : (seg.start + i);
               const cellBlock = this.grid[col][r];
               if (cellBlock) {
                 cellBlock.letter = word.letters ? word.letters[i] : word.english[i];
@@ -656,8 +663,8 @@ export class WordDropGame {
 
     const vocabWords = words.filter(w => !w.isFiller);
     
-    if (vocabWords.length > 0 && vocabWords[0].audioUrl) {
-      this.soundManager.playWordAudio(vocabWords[0].audioUrl);
+    if (vocabWords.length > 0) {
+      this.soundManager.speakWord(vocabWords[0]);
     }
 
     if (englishWord && englishWord.length > 0) {

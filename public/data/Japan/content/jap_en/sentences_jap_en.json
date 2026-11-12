@@ -557,7 +557,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_biz_035_ichiba_o_chousa_suru.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_035_ichiba_o_chousa_suru.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_035_ichiba_o_chousa_suru.mp3",
+    "romanization": "Shijou o chousa suru."
   },
   {
     "id": "jap_biz_036",
@@ -1069,7 +1070,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_biz_067_kettei_o_kudaru.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_067_kettei_o_kudaru.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_067_kettei_o_kudaru.mp3",
+    "romanization": "Kettei o kudasu."
   },
   {
     "id": "jap_biz_068",
@@ -1357,7 +1359,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_biz_085_ichiba_o_kakudai_suru.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_085_ichiba_o_kakudai_suru.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_085_ichiba_o_kakudai_suru.mp3",
+    "romanization": "Shijou o kakudai suru."
   },
   {
     "id": "jap_biz_086",
@@ -3109,7 +3112,7 @@
     "level_tag": "B1_Sentence",
     "original_script": "終わります。",
     "romanized_script": "Owarimasu.",
-    "meaning": "I'm finishing.",
+    "meaning": "It ends / It will finish.",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -3597,7 +3600,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_biz_025_teian_ga_arimasu.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_025_teian_ga_arimasu.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_025_teian_ga_arimasu.mp3",
+    "romanization": "Ketsudan o kudasu."
   },
   {
     "id": "jap_grow_026",
@@ -5485,7 +5489,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_biz_043_keikaku_o_neru.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_043_keikaku_o_neru.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_043_keikaku_o_neru.mp3",
+    "romanization": "Tanoshimi desu."
   },
   {
     "id": "jap_soc_044",
@@ -7533,7 +7538,8 @@
     "audio": {
       "default": null
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_soc_171_okiiniiri_no_basho_wa_arimasu_ka.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_soc_171_okiiniiri_no_basho_wa_arimasu_ka.mp3",
+    "romanization": "O-kiniiri no basho wa arimasu ka?"
   },
   {
     "id": "jap_soc_172",
@@ -8760,7 +8766,7 @@
     "level_tag": "Contextual",
     "original_script": "お疲れ様！",
     "romanized_script": "Otsukaresama!",
-    "meaning": "Thanks (casual).",
+    "meaning": "Good job! / Thank you for your hard work!",
     "audio": {
       "default": null
     },
@@ -8859,7 +8865,7 @@
     "level_tag": "Contextual",
     "original_script": "お先に。",
     "romanized_script": "Osakini.",
-    "meaning": "After you.",
+    "meaning": "Excuse me for leaving first. / Going ahead.",
     "audio": {
       "default": null
     },
@@ -10692,7 +10698,7 @@
     "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_099_mokuhyou_o_tassei_suru.mp3"
   },
   {
-    "id": "jap_travel_099",
+    "id": "jap_travel_100",
     "language_code": "ja",
     "level_tag": "Travel",
     "original_script": "観光地図をください。",

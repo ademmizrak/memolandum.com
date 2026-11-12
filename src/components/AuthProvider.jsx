@@ -94,7 +94,10 @@ export default function AuthProvider({ children }) {
 
     (async () => {
       try {
-        await completeGoogleRedirectIfAny();
+        const redirectUser = await completeGoogleRedirectIfAny();
+        if (redirectUser) {
+          setAuthUser(redirectUser);
+        }
       } catch (e) {
         console.warn('Redirect auth tamamlanamadı:', e?.message || e);
       }
@@ -121,7 +124,7 @@ export default function AuthProvider({ children }) {
           const lastAuthenticatedUid = useMemolandumStore.getState().lastAuthenticatedUid;
           if (lastAuthenticatedUid && lastAuthenticatedUid !== user.uid) {
             (clearForAccountSwitch || resetLocalProgress)();
-            setVocabularyVault({});
+            setVocabularyVault({}, { replace: true });
             resetRevenueCatSession();
           }
 
@@ -131,10 +134,10 @@ export default function AuthProvider({ children }) {
           if (!syncInFlight) {
             syncInFlight = true;
             try {
+              // Dil profilleri: önce varsayılan profili garanti altına al ki misafir ilerlemesi profileStats'a da yazılsın
+              useMemolandumStore.getState().ensureDefaultStudyProfile?.();
               await syncUserProgress(user);
-              // Dil profilleri: yoksa oluştur, aktif olanı yükle
               const store = useMemolandumStore.getState();
-              store.ensureDefaultStudyProfile?.();
               const profiles = await ensureCloudStudyProfiles(user.uid, {
                 langPair: store.getActiveStudyProfile?.()?.langPair || 'en-tr',
                 label: store.getActiveStudyProfile?.()?.label,
@@ -187,9 +190,15 @@ export default function AuthProvider({ children }) {
             });
           }
         } else {
-          // Firebase oturumu kapandıysa: Sadece internet varsa ve kullanıcı gerçekten çıkış yaptıysa yerel oturumu bitir (verileri sıfırlamadan!)
-          if (typeof window !== "undefined" && window.navigator && window.navigator.onLine) {
+          // Firebase oturumu henüz çözümlenmediyse veya kullanıcı offline/yenileme yapıyorsa:
+          // Kullanıcı bizzat "Çıkış Yap" butonuna basmadıkça lokalde persist edilmiş oturumu asla silme!
+          const store = useMemolandumStore.getState();
+          const pending = isGoogleRedirectPending();
+          
+          if (!pending && !store.isAuthenticated) {
             setAuthUser(null);
+            resetRevenueCatSession();
+            setPremium(false, { source: "manual" });
           }
           if (unsubVault) {
             unsubVault();
@@ -199,8 +208,6 @@ export default function AuthProvider({ children }) {
             unsubPremium();
             unsubPremium = null;
           }
-          resetRevenueCatSession();
-          setPremium(false, { source: "manual" });
         }
 
         finishBoot();

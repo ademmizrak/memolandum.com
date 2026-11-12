@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "word": "coherent",
+    "translation": "tutarlı, anlaşılır, mantıklı bir şekilde birleşen",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/coherent.mp3",
+    "rank": 1
+  },
+  {
+    "id": 2,
+    "word": "considerable",
+    "translation": "önemli ölçüde, azımsanmayacak kadar çok",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/considerable.mp3",
+    "rank": 6
+  },
+  {
+    "id": 3,
+    "word": "decline",
+    "translation": "azalmak/çökmek, kibarca reddetmek / düşüş, azalma",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/decline.mp3",
+    "rank": 11
+  },
+  {
+    "id": 4,
+    "word": "deviate",
+    "translation": "(rotadan/konudan) sapmak, yönünü değiştirmek (-from ile)",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/deviate.mp3",
+    "rank": 16
+  },
+  {
+    "id": 5,
+    "word": "diverse",
+    "translation": "çeşitli, farklı, türlü türlü",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/diverse.mp3",
+    "rank": 21
+  },
+  {
+    "id": 6,
+    "word": "encounter",
+    "translation": "karşılaşmak, rastlamak / karşılaşma",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/encounter.mp3",
+    "rank": 26
+  },
+  {
+    "id": 7,
+    "word": "erode",
+    "translation": "aşınmak, aşındırmak, sarsmak/zayıflatmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/erode.mp3",
+    "rank": 31
+  },
+  {
+    "id": 8,
+    "word": "exceed",
+    "translation": "sınırı aşmak, geçmek, üstüne çıkmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/exceed.mp3",
+    "rank": 36
+  },
+  {
+    "id": 9,
+    "word": "facilitate",
+    "translation": "kolaylaştırmak, önünü açmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/facilitate.mp3",
+    "rank": 41
+  },
+  {
+    "id": 10,
+    "word": "implement",
+    "translation": "uygulamak, yürürlüğe koymak / araç, alet",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/implement.mp3",
+    "rank": 46
+  },
+  {
+    "id": 11,
+    "word": "incline",
+    "translation": "eğilimi olmak, eğmek / yokuş, eğim",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/incline.mp3",
+    "rank": 51
+  },
+  {
+    "id": 12,
+    "word": "inherent",
+    "translation": "doğuştan gelen, özünde olan, yapısında bulunan",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/inherent.mp3",
+    "rank": 56
+  },
+  {
+    "id": 13,
+    "word": "instance",
+    "translation": "örnek, vaka, durum",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/instance.mp3",
+    "rank": 61
+  },
+  {
+    "id": 14,
+    "word": "isolate",
+    "translation": "soyutlamak, tecrit etmek, ayırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/isolate.mp3",
+    "rank": 66
+  },
+  {
+    "id": 15,
+    "word": "mutual",
+    "translation": "karşılıklı, ortak",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/mutual.mp3",
+    "rank": 71
+  },
+  {
+    "id": 16,
+    "word": "odd",
+    "translation": "tuhaf, garip, alışılmadık, tek/tekil (sayı)",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/odd.mp3",
+    "rank": 76
+  },
+  {
+    "id": 17,
+    "word": "persist",
+    "translation": "ısrar etmek, inatla devam etmek (-in ile kullanılır)",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/persist.mp3",
+    "rank": 81
+  },
+  {
+    "id": 18,
+    "word": "radical",
+    "translation": "köklü, radikal, radikal görüşlü",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/radical.mp3",
+    "rank": 86
+  },
+  {
+    "id": 19,
+    "word": "refine",
+    "translation": "saflaştırmak, inceltmek, geliştirmek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/refine.mp3",
+    "rank": 91
+  },
+  {
+    "id": 20,
+    "word": "rely",
+    "translation": "güvenmek, bel bağlamak (-on ile)",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/rely.mp3",
+    "rank": 96
+  },
+  {
+    "id": 21,
+    "word": "retain",
+    "translation": "alıkoymak, tutmak, muhafaza etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/retain.mp3",
+    "rank": 101
+  },
+  {
+    "id": 22,
+    "word": "similar",
+    "translation": "benzer",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/similar.mp3",
+    "rank": 106
+  },
+  {
+    "id": 23,
+    "word": "subordinate",
+    "translation": "ikincil, ast / ast (kişi)",
+    "pos": "adjective/noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/subordinate.mp3",
+    "rank": 111
+  },
+  {
+    "id": 24,
+    "word": "supplement",
+    "translation": "takviye etmek / ek, takviye",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/supplement.mp3",
+    "rank": 116
+  },
+  {
+    "id": 25,
+    "word": "tradition",
+    "translation": "gelenek, göreneksel bilgi",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/tradition.mp3",
+    "rank": 121
+  },
+  {
+    "id": 26,
+    "word": "violate",
+    "translation": "ihlal etmek, çiğnemek, (kutsallığa) tecavüz etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/violate.mp3",
+    "rank": 126
+  },
+  {
+    "id": 27,
+    "word": "accomplice",
+    "translation": "suç ortağı",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/accomplice.mp3",
+    "rank": 131
+  },
+  {
+    "id": 28,
+    "word": "alleviate",
+    "translation": "(acı, hafifletmek, dindirmek, azaltmak)",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/alleviate.mp3",
+    "rank": 136
+  },
+  {
+    "id": 29,
+    "word": "articulate",
+    "translation": "açıkça ifade etmek, dile getirmek / akıcı, net ifade edilen",
+    "pos": "verb/adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/articulate.mp3",
+    "rank": 141
+  },
+  {
+    "id": 30,
+    "word": "breach",
+    "translation": "ihlal, gedik, yarık / ihlal etmek",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/breach.mp3",
+    "rank": 146
+  },
+  {
+    "id": 31,
+    "word": "condemn",
+    "translation": "kınamak, mahkum etmek, cezalandırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/condemn.mp3",
+    "rank": 151
+  },
+  {
+    "id": 32,
+    "word": "controversial",
+    "translation": "tartışmalı, kutuplaşmaya yol açan",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/controversial.mp3",
+    "rank": 156
+  },
+  {
+    "id": 33,
+    "word": "defect",
+    "translation": "kusur, defo / saf değiştirmek, ülkeden kaçmak (-from)",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/defect.mp3",
+    "rank": 161
+  },
+  {
+    "id": 34,
+    "word": "demolish",
+    "translation": "yıkmak, yerle bir etmek, (tezi) çürütmek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/demolish.mp3",
+    "rank": 166
+  },
+  {
+    "id": 35,
+    "word": "desolate",
+    "translation": "terk edilmiş, ıssız, kederli",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/desolate.mp3",
+    "rank": 171
+  },
+  {
+    "id": 36,
+    "word": "dignity",
+    "translation": "haysiyet, onur, ağırbaşlılık",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/dignity.mp3",
+    "rank": 176
+  },
+  {
+    "id": 37,
+    "word": "discrepancy",
+    "translation": "çelişki, tutarsızlık, uyumsuzluk",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/discrepancy.mp3",
+    "rank": 181
+  },
+  {
+    "id": 38,
+    "word": "eccentric",
+    "translation": "tuhaf, garip, alışılmadık",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/eccentric.mp3",
+    "rank": 186
+  },
+  {
+    "id": 39,
+    "word": "embody",
+    "translation": "somutlaştırmak, simgelemek, bünyesinde barındırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/embody.mp3",
+    "rank": 191
+  },
+  {
+    "id": 40,
+    "word": "endure",
+    "translation": "dayanmak, katlanmak, sürmek/devam etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/endure.mp3",
+    "rank": 196
+  },
+  {
+    "id": 41,
+    "word": "evade",
+    "translation": "(vergi, sorumluluk vb.) kaçmak, kurtulmak, sakınmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/evade.mp3",
+    "rank": 201
+  },
+  {
+    "id": 42,
+    "word": "exemplify",
+    "translation": "örneklendirmek, örnek oluşturmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/exemplify.mp3",
+    "rank": 206
+  },
+  {
+    "id": 43,
+    "word": "extinguish",
+    "translation": "söndürmek (yangın, umut vb.)",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/extinguish.mp3",
+    "rank": 211
+  },
+  {
+    "id": 44,
+    "word": "famine",
+    "translation": "kıtlık, açlık",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/famine.mp3",
+    "rank": 216
+  },
+  {
+    "id": 45,
+    "word": "hardship",
+    "translation": "zorluk, güçlük, sıkıntı, çile",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/hardship.mp3",
+    "rank": 221
+  },
+  {
+    "id": 46,
+    "word": "humble",
+    "translation": "mütevazi, alçakgönüllü, gösterişsiz",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/humble.mp3",
+    "rank": 226
+  },
+  {
+    "id": 47,
+    "word": "immune",
+    "translation": "bağışık, muaf (-to/from ile kullanılır)",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/immune.mp3",
+    "rank": 231
+  },
+  {
+    "id": 48,
+    "word": "inflict",
+    "translation": "(acı, ceza, zarar vb.) uğratmak, yaşatmak, vermek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/inflict.mp3",
+    "rank": 236
+  },
+  {
+    "id": 49,
+    "word": "insult",
+    "translation": "hakaret etmek, aşağılamak / hakaret",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/insult.mp3",
+    "rank": 241
+  },
+  {
+    "id": 50,
+    "word": "invade",
+    "translation": "istila etmek, işgal etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/invade.mp3",
+    "rank": 246
+  },
+  {
+    "id": 51,
+    "word": "juvenile",
+    "translation": "gençlik, çocuksu, çocuk mahkemesi / genç, çocuk",
+    "pos": "adjective/noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/juvenile.mp3",
+    "rank": 251
+  },
+  {
+    "id": 52,
+    "word": "lethal",
+    "translation": "ölümcül, öldürücü",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/lethal.mp3",
+    "rank": 256
+  },
+  {
+    "id": 53,
+    "word": "baffle",
+    "translation": "şaşırtmak, aklını karıştırmak, hüsrana uğratmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/baffle.mp3",
+    "rank": 261
+  },
+  {
+    "id": 54,
+    "word": "boycott",
+    "translation": "boykot etmek / boykot",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/boycott.mp3",
+    "rank": 266
+  },
+  {
+    "id": 55,
+    "word": "collaborate",
+    "translation": "iş birliği yapmak (ortak proje, bilim vb.)",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/collaborate.mp3",
+    "rank": 271
+  },
+  {
+    "id": 56,
+    "word": "compulsory",
+    "translation": "zorunlu, mecburi, yasal dayatması olan",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/compulsory.mp3",
+    "rank": 276
+  },
+  {
+    "id": 57,
+    "word": "conscientious",
+    "translation": "vicdanlı, dürüst, işini titizlikle yapan",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/conscientious.mp3",
+    "rank": 281
+  },
+  {
+    "id": 58,
+    "word": "contaminate",
+    "translation": "kirletmek, radyasyon/virüs bulaştırmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/contaminate.mp3",
+    "rank": 286
+  },
+  {
+    "id": 59,
+    "word": "counterfeit",
+    "translation": "sahte / sahte şey (para vb.) / sahtesini yapmak",
+    "pos": "adjective/noun/verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/counterfeit.mp3",
+    "rank": 291
+  },
+  {
+    "id": 60,
+    "word": "cynical",
+    "translation": "alaycı, insan iyiliğine inanmayan, sinik",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/cynical.mp3",
+    "rank": 296
+  },
+  {
+    "id": 61,
+    "word": "deceptive",
+    "translation": "aldatıcı, yanıltıcı",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/deceptive.mp3",
+    "rank": 301
+  },
+  {
+    "id": 62,
+    "word": "deficit",
+    "translation": "(bütçe, dış ticaret vb.) açığı, fire",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/deficit.mp3",
+    "rank": 306
+  },
+  {
+    "id": 63,
+    "word": "disdain",
+    "translation": "küçümseme, hor görme / küçümsemek",
+    "pos": "noun/verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/disdain.mp3",
+    "rank": 311
+  },
+  {
+    "id": 64,
+    "word": "durable",
+    "translation": "dayanıklı, uzun ömürlü, sağlam",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/durable.mp3",
+    "rank": 316
+  },
+  {
+    "id": 65,
+    "word": "ephemeral",
+    "translation": "geçici, kısa ömürlü, fani",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/ephemeral.mp3",
+    "rank": 321
+  },
+  {
+    "id": 66,
+    "word": "harness",
+    "translation": "(doğal bir gücü vb.) dizginleyip kullanmak, faydalanmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/harness.mp3",
+    "rank": 326
+  },
+  {
+    "id": 67,
+    "word": "invalidate",
+    "translation": "geçersiz kılmak, çürütmek (savı vb.)",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/invalidate.mp3",
+    "rank": 331
+  },
+  {
+    "id": 68,
+    "word": "legislation",
+    "translation": "mevzuat, kanun yapma, yasama",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/legislation.mp3",
+    "rank": 336
+  },
+  {
+    "id": 69,
+    "word": "magnitude",
+    "translation": "(deprem vb.) büyüklük, önem, boyut",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/magnitude.mp3",
+    "rank": 341
+  },
+  {
+    "id": 70,
+    "word": "massive",
+    "translation": "büyük, devasa, heybetli",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/massive.mp3",
+    "rank": 346
+  },
+  {
+    "id": 71,
+    "word": "merciful",
+    "translation": "merhametli, insaflı",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/merciful.mp3",
+    "rank": 351
+  },
+  {
+    "id": 72,
+    "word": "minute",
+    "translation": "çok küçük, ufacık, detaylı, titiz",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/minute.mp3",
+    "rank": 356
+  },
+  {
+    "id": 73,
+    "word": "monotonous",
+    "translation": "monoton, tekdüze, sıkıcı",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/monotonous.mp3",
+    "rank": 361
+  },
+  {
+    "id": 74,
+    "word": "negligible",
+    "translation": "ihmal edilebilir, göz ardı edilebilir, önemsiz",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/negligible.mp3",
+    "rank": 366
+  },
+  {
+    "id": 75,
+    "word": "nucleus",
+    "translation": "çekirdek, merkez, esas kısım",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/nucleus.mp3",
+    "rank": 371
+  },
+  {
+    "id": 76,
+    "word": "obliterate",
+    "translation": "silip yok etmek, ortadan kaldırmak, imha etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/obliterate.mp3",
+    "rank": 376
+  },
+  {
+    "id": 77,
+    "word": "obstinate",
+    "translation": "inatçı, dik kafalı, dirençli",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/obstinate.mp3",
+    "rank": 381
+  },
+  {
+    "id": 78,
+    "word": "opponent",
+    "translation": "rakip, karşı taraf, muhalif",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/opponent.mp3",
+    "rank": 386
+  },
+  {
+    "id": 79,
+    "word": "ordinary",
+    "translation": "sıradan, normal, vasat",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/ordinary.mp3",
+    "rank": 391
+  },
+  {
+    "id": 80,
+    "word": "outrageous",
+    "translation": "gaddarca, acımasız, şok edici, kabul edilemez",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/outrageous.mp3",
+    "rank": 396
+  },
+  {
+    "id": 81,
+    "word": "overstate",
+    "translation": "abartmak, mübalağa etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/overstate.mp3",
+    "rank": 401
+  },
+  {
+    "id": 82,
+    "word": "paradox",
+    "translation": "çelişki, paradoks, tezat durum",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/paradox.mp3",
+    "rank": 406
+  },
+  {
+    "id": 83,
+    "word": "pathetic",
+    "translation": "acınası, zavallı, dokunaklı",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/pathetic.mp3",
+    "rank": 411
+  },
+  {
+    "id": 84,
+    "word": "peril",
+    "translation": "büyük tehlike, risk, korku veren durum",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/peril.mp3",
+    "rank": 416
+  },
+  {
+    "id": 85,
+    "word": "pernicious",
+    "translation": "sinsi ve zararlı, öldürücü, yıkıcı",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/pernicious.mp3",
+    "rank": 421
+  },
+  {
+    "id": 86,
+    "word": "personify",
+    "translation": "somutlaştırmak, kişileştirmek, simgesi olmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/personify.mp3",
+    "rank": 426
+  },
+  {
+    "id": 87,
+    "word": "pithy",
+    "translation": "kısa ve öz, veciz, anlamlı",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/pithy.mp3",
+    "rank": 431
+  },
+  {
+    "id": 88,
+    "word": "plentiful",
+    "translation": "bol, bereketli, çok miktarda",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/plentiful.mp3",
+    "rank": 436
+  },
+  {
+    "id": 89,
+    "word": "profuse",
+    "translation": "bol, aşırı, savurgan",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/profuse.mp3",
+    "rank": 441
+  },
+  {
+    "id": 90,
+    "word": "propagate",
+    "translation": "yaymak (fikir/haber), çoğaltmak",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/propagate.mp3",
+    "rank": 446
+  },
+  {
+    "id": 91,
+    "word": "provisional",
+    "translation": "geçici, eğreti",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/provisional.mp3",
+    "rank": 451
+  },
+  {
+    "id": 92,
+    "word": "quandary",
+    "translation": "ikilem, çıkmaz, zor durum",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/quandary.mp3",
+    "rank": 456
+  },
+  {
+    "id": 93,
+    "word": "quirk",
+    "translation": "tuhaf davranış, alışılmadık özellik, tesadüf",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/quirk.mp3",
+    "rank": 461
+  },
+  {
+    "id": 94,
+    "word": "ravage",
+    "translation": "yıkıp geçmek, tahrip etmek, harap etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/ravage.mp3",
+    "rank": 466
+  },
+  {
+    "id": 95,
+    "word": "reassure",
+    "translation": "içini rahatlatmak, güvence vermek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/reassure.mp3",
+    "rank": 471
+  },
+  {
+    "id": 96,
+    "word": "receptive",
+    "translation": "anlayışlı, yeni fikirlere açık",
+    "pos": "adjective",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/receptive.mp3",
+    "rank": 476
+  },
+  {
+    "id": 97,
+    "word": "recount",
+    "translation": "anlatmak, hikaye etmek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/recount.mp3",
+    "rank": 481
+  },
+  {
+    "id": 98,
+    "word": "reflect",
+    "translation": "yansıtmak, düşünmek, (sonucu) göstermek",
+    "pos": "verb",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/reflect.mp3",
+    "rank": 486
+  },
+  {
+    "id": 99,
+    "word": "relapse",
+    "translation": "nüksetmek, eski kötü duruma dönmek",
+    "pos": "verb/noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/relapse.mp3",
+    "rank": 491
+  },
+  {
+    "id": 100,
+    "word": "remnant",
+    "translation": "kalıntı, artık, kırıntı",
+    "pos": "noun",
+    "tags": [
+      "YDS",
+      "top500"
+    ],
+    "audioUrl": "/data/Tr_Eng_YDS_kelimeleri/audio_yds/remnant.mp3",
+    "rank": 496
+  }
+]

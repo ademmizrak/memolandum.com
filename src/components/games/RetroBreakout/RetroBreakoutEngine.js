@@ -1,7 +1,10 @@
+import { attachAdaptiveCanvasGuard } from '../../../lib/performance/canvasFpsGuard';
+
 export class RetroBreakoutEngine {
   constructor(canvas, words, callbacks) {
     this.canvas = canvas;
     this.ctx = canvas.getContext('2d');
+    attachAdaptiveCanvasGuard(this.ctx);
     
     // Callbacks: onScore(points), onUpdateLives(lives), onPlayVoice(word), onGameOver(won, score), onTargetWord(trWord)
     this.callbacks = callbacks || {};
@@ -348,7 +351,7 @@ export class RetroBreakoutEngine {
             this.ball.dy = -this.ball.dy;
           }
 
-          if (this.callbacks.onPlayVoice) this.callbacks.onPlayVoice(b.text, b.isTarget, b.audioUrl);
+          if (this.callbacks.onPlayVoice) this.callbacks.onPlayVoice(b.text, b.isTarget, b.audioUrl, b.trText);
           
           if (b.isTarget) {
             this.score += 100;
@@ -372,6 +375,10 @@ export class RetroBreakoutEngine {
     
     // Victory condition or Next Phase
     if (activeTargetsLeft === 0 && this.state === 'playing') {
+      const completedWord = this.wordPhases[this.currentPhaseIndex];
+      if (completedWord && this.callbacks.onWordLearned) {
+        this.callbacks.onWordLearned(completedWord);
+      }
       this.currentPhaseIndex++;
       if (this.currentPhaseIndex < 3) {
         // Next phase

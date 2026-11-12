@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.memolandum.app",
+      "sha256_cert_fingerprints": [
+        "BF:6A:C6:CA:4A:80:41:6B:F8:D6:6A:47:F0:72:B6:AF:4A:8B:44:D0:70:E0:A8:7A:16:FB:0C:02:25:B5:30:FC",
+        "D2:1B:3A:FA:96:32:4E:C6:3A:71:57:BA:CD:A3:64:E4:62:B9:82:D7:D0:2A:D7:8A:E5:BB:54:E4:1A:37:69:6B"
+      ]
+    }
+  }
+]

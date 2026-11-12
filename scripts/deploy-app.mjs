@@ -19,11 +19,14 @@ import {
   hideForSlimBuild,
   restoreAfterSlimBuild,
   walkFiles,
+  copyDataJsonsToOut,
+  copyAssetsToOut,
 } from "./lib/deployShared.mjs";
 
 const args = new Set(process.argv.slice(2));
 const BUILD_ONLY = args.has("--build-only");
 const SKIP_BUILD = args.has("--skip-build");
+const SKIP_SMOKE = args.has("--skip-smoke");
 
 function run(cmd, cmdArgs) {
   console.log(`\n$ ${cmd} ${cmdArgs.join(" ")}`);
@@ -35,14 +38,10 @@ function stripHeavyFromOut() {
   const outDir = path.join(ROOT, "out");
   if (!fs.existsSync(outDir)) return { removed: 0 };
 
+  // Only strip heavy audio directories and skip folders
   const killDirs = [
-    path.join(outDir, "data"),
     path.join(outDir, "assets", "audio"),
-    path.join(outDir, "assets", "words"),
-    path.join(outDir, "assets", "sentences"),
     path.join(outDir, "assets", "_slim_skip_audio"),
-    path.join(outDir, "assets", "_slim_skip_words"),
-    path.join(outDir, "assets", "_slim_skip_sentences"),
     path.join(outDir, "_slim_skip_data"),
   ];
 
@@ -55,31 +54,61 @@ function stripHeavyFromOut() {
     console.log(`🧹 out temiz: ${path.relative(outDir, d)} (${n} dosya)`);
   }
 
-  // Slim app: derin sözlük kavram HTML/txt'lerini sil (SPA rewrite kullanır)
+  // Sözlük SSG: kavram index.html dosyalarını KORU (SEO & 404 önleme), yalnızca derin .txt / __next.* RSC yüklerini sil
   const sozluk = path.join(outDir, "sozluk");
   if (fs.existsSync(sozluk)) {
-    for (const cat of fs.readdirSync(sozluk, { withFileTypes: true })) {
-      if (!cat.isDirectory()) continue;
-      if (cat.name.startsWith("_")) continue; // _concept shell kalsın
-      const catDir = path.join(sozluk, cat.name);
-      for (const ent of fs.readdirSync(catDir, { withFileTypes: true })) {
-        if (!ent.isDirectory()) continue; // kategori index.html kalsın
-        const conceptDir = path.join(catDir, ent.name);
-        const n = walkFiles(conceptDir).length;
-        fs.rmSync(conceptDir, { recursive: true, force: true });
-        removed += n;
+    let sozlukRemoved = 0;
+    for (const f of walkFiles(sozluk)) {
+      const rel = path.relative(sozluk, f).replace(/\\/g, "/");
+      const parts = rel.split("/");
+      if (parts.length > 2 && (f.endsWith(".txt") || parts.some((p) => p.startsWith("__next.")))) {
+        try {
+          fs.unlinkSync(f);
+          sozlukRemoved++;
+        } catch {
+          /* ignore */
+        }
       }
     }
-    console.log("🧹 out/sozluk kavram detayları silindi (SPA)");
+    removed += sozlukRemoved;
+    console.log(`🧹 out/sozluk derin txt yükleri silindi, statik SEO index.html korundu (${sozlukRemoved} dosya)`);
   }
 
-  // Audio leftovers anywhere under out
+  // Learn SSG: derin pathway/level txt yüklerini sil (hosting bundle optimizasyonu)
+  const learn = path.join(outDir, "learn");
+  if (fs.existsSync(learn)) {
+    let learnRemoved = 0;
+    for (const f of walkFiles(learn)) {
+      const rel = path.relative(learn, f).replace(/\\/g, "/");
+      const parts = rel.split("/");
+      if (parts.length > 2 && (f.endsWith(".txt") || parts.some((p) => p.startsWith("__next.")))) {
+        try {
+          fs.unlinkSync(f);
+          learnRemoved++;
+        } catch {
+          /* ignore */
+        }
+      }
+    }
+    removed += learnRemoved;
+    console.log(`🧹 out/learn derin txt yükleri silindi (${learnRemoved} dosya)`);
+  }
+
+  // Audio leftovers anywhere under out (including out/data/**/Audio)
   for (const f of walkFiles(outDir)) {
-    if (/\.(mp3|wav|ogg)$/i.test(f)) {
-      fs.unlinkSync(f);
-      removed++;
+    if (/\.(mp3|wav|ogg)$/i.test(f) || /[\/\\]Audio[\/\\]/i.test(f)) {
+      try {
+        fs.unlinkSync(f);
+        removed++;
+      } catch {
+        /* ignore */
+      }
     }
   }
+
+  // Ensure JSON data and image assets are in out/
+  copyAssetsToOut();
+  copyDataJsonsToOut();
 
   return { removed };
 }
@@ -92,6 +121,10 @@ function countOut() {
 
 async function main() {
   console.log("=== deploy:app (slim Hosting) ===");
+  if (!SKIP_SMOKE) {
+    console.log("🔍 Faz 1–4 Pre-Deploy Regresyon ve Telemetri Testleri çalıştırılıyor...");
+    run("node", ["scripts/smoke-schools-loop.mjs", "--pre-deploy"]);
+  }
   let moved = [];
   try {
     if (!SKIP_BUILD) {
@@ -100,25 +133,28 @@ async function main() {
       process.env.NEXT_PUBLIC_DATA_BASE_URL =
         process.env.NEXT_PUBLIC_DATA_BASE_URL ||
         "https://storage.googleapis.com/memolandum-33dc4.firebasestorage.app/data";
-      process.env.NEXT_PUBLIC_ASSETS_BASE_URL =
-        process.env.NEXT_PUBLIC_ASSETS_BASE_URL ||
-        "https://storage.googleapis.com/memolandum-33dc4.firebasestorage.app";
+      process.env.NEXT_PUBLIC_ASSETS_BASE_URL = process.env.NEXT_PUBLIC_ASSETS_BASE_URL || "";
 
       run("npm", ["run", "build"]);
-      const { removed } = stripHeavyFromOut();
-      console.log(`📦 out dosya sayısı: ${countOut()} (temizlenen ~${removed})`);
     }
-
-    if (BUILD_ONLY) {
-      console.log("✅ --build-only: Hosting deploy atlandı");
-      return;
-    }
-
-    run("npx", ["-y", "firebase-tools@latest", "deploy", "--only", "hosting", "--non-interactive"]);
-    console.log("✅ deploy:app tamam");
+    const { removed } = stripHeavyFromOut();
+    console.log(`📦 out dosya sayısı: ${countOut()} (temizlenen ~${removed})`);
   } finally {
     restoreAfterSlimBuild(moved);
+    // Guarantee JSON data and image assets are in out/ after restore
+    copyAssetsToOut();
+    copyDataJsonsToOut();
   }
+
+  if (BUILD_ONLY) {
+    console.log("✅ --build-only: Hosting deploy atlandı");
+    return;
+  }
+
+  process.env.FIREBASE_HOSTING_UPLOAD_CONCURRENCY =
+    process.env.FIREBASE_HOSTING_UPLOAD_CONCURRENCY || "25";
+  run("npx", ["-y", "firebase-tools@latest", "deploy", "--only", "hosting", "--non-interactive"]);
+  console.log("✅ deploy:app tamam");
 }
 
 main().catch((e) => {

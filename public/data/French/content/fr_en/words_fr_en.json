@@ -36,10 +36,8 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_être.mp3"
-    },
-    "audioUrl": "/data/French/audio/words_fr/fr_acariâtre.mp3"
+    "audio": "fr_être.mp3",
+    "audioUrl": "/data/French/audio/words_fr/fr_être.mp3"
   },
   {
     "id": "a1_fr_en_04",
@@ -1268,9 +1266,7 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_mère.mp3"
-    },
+    "audio": "fr_mère.mp3",
     "audioUrl": "/data/French/audio/words_fr/fr_mère.mp3"
   },
   {
@@ -1282,10 +1278,8 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_père.mp3"
-    },
-    "audioUrl": "/data/French/audio/words_fr/fr_interrompre.mp3"
+    "audio": "fr_père.mp3",
+    "audioUrl": "/data/French/audio/words_fr/fr_père.mp3"
   },
   {
     "id": "a1_fr_en_93",
@@ -2248,9 +2242,7 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_fenêtre.mp3"
-    },
+    "audio": "fr_fenêtre.mp3",
     "audioUrl": "/data/French/audio/words_fr/fr_fenêtre.mp3"
   },
   {
@@ -2486,9 +2478,7 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_très.mp3"
-    },
+    "audio": "fr_très.mp3",
     "audioUrl": "/data/French/audio/words_fr/fr_très.mp3"
   },
   {
@@ -2738,10 +2728,8 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_même.mp3"
-    },
-    "audioUrl": "/data/French/audio/words_fr/fr_dilemme.mp3"
+    "audio": "fr_même.mp3",
+    "audioUrl": "/data/French/audio/words_fr/fr_même.mp3"
   },
   {
     "id": "fr_en_a1_197",
@@ -2878,9 +2866,7 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_après.mp3"
-    },
+    "audio": "fr_après.mp3",
     "audioUrl": "/data/French/audio/words_fr/fr_après.mp3"
   },
   {
@@ -2976,10 +2962,8 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_entre.mp3"
-    },
-    "audioUrl": "/data/French/audio/words_fr/fr_bien-être.mp3"
+    "audio": "fr_entre.mp3",
+    "audioUrl": "/data/French/audio/words_fr/fr_entre.mp3"
   },
   {
     "id": "a1_fr_en_214",
@@ -3998,10 +3982,8 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_santé.mp3"
-    },
-    "audioUrl": "/data/French/audio/words_fr/fr_agonisant.mp3"
+    "audio": "fr_santé.mp3",
+    "audioUrl": "/data/French/audio/words_fr/fr_santé.mp3"
   },
   {
     "id": "a1_fr_en_287",
@@ -4446,9 +4428,7 @@
       "a1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_peut-être.mp3"
-    },
+    "audio": "fr_peut-être.mp3",
     "audioUrl": "/data/French/audio/words_fr/fr_peut-être.mp3"
   },
   {
@@ -4930,7 +4910,7 @@
   {
     "id": "a1_fr_en_353",
     "word": "salle",
-    "translation": "room / living room",
+    "translation": "room / hall",
     "len": 5,
     "tags": [
       "a1",
@@ -5237,7 +5217,7 @@
   },
   {
     "id": "a1_fr_en_375",
-    "word": "boucle",
+    "word": "boucle d'oreille",
     "translation": "earring",
     "len": 6,
     "tags": [
@@ -5678,10 +5658,8 @@
       "a2",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_même.mp3"
-    },
-    "audioUrl": "/data/French/audio/words_fr/fr_dilemme.mp3"
+    "audio": "fr_même.mp3",
+    "audioUrl": "/data/French/audio/words_fr/fr_même.mp3"
   },
   {
     "id": "a2_fr_en_07",
@@ -6938,10 +6916,8 @@
       "a2",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_santé.mp3"
-    },
-    "audioUrl": "/data/French/audio/words_fr/fr_agonisant.mp3"
+    "audio": "fr_santé.mp3",
+    "audioUrl": "/data/French/audio/words_fr/fr_santé.mp3"
   },
   {
     "id": "a2_fr_en_97",
@@ -7050,9 +7026,7 @@
       "a2",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_très.mp3"
-    },
+    "audio": "fr_très.mp3",
     "audioUrl": "/data/French/audio/words_fr/fr_très.mp3"
   },
   {
@@ -7274,9 +7248,7 @@
       "a2",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_peut-être.mp3"
-    },
+    "audio": "fr_peut-être.mp3",
     "audioUrl": "/data/French/audio/words_fr/fr_peut-être.mp3"
   },
   {
@@ -7554,10 +7526,8 @@
       "a2",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_entre.mp3"
-    },
-    "audioUrl": "/data/French/audio/words_fr/fr_bien-être.mp3"
+    "audio": "fr_entre.mp3",
+    "audioUrl": "/data/French/audio/words_fr/fr_entre.mp3"
   },
   {
     "id": "a2_fr_en_141",
@@ -7652,9 +7622,7 @@
       "a2",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_après.mp3"
-    },
+    "audio": "fr_après.mp3",
     "audioUrl": "/data/French/audio/words_fr/fr_après.mp3"
   },
   {
@@ -8794,7 +8762,7 @@
   {
     "id": "b1_fr_en_29",
     "word": "supporter",
-    "translation": "to bear / support",
+    "translation": "to bear / tolerate",
     "len": 9,
     "tags": [
       "b1",
@@ -9206,10 +9174,8 @@
       "b1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_santé.mp3"
-    },
-    "audioUrl": "/data/French/audio/words_fr/fr_agonisant.mp3"
+    "audio": "fr_santé.mp3",
+    "audioUrl": "/data/French/audio/words_fr/fr_santé.mp3"
   },
   {
     "id": "b1_fr_en_59",
@@ -9542,9 +9508,7 @@
       "b1",
       "genesis"
     ],
-    "audio": {
-      "default": "/audio/words_fr/fr_problème.mp3"
-    },
+    "audio": "fr_problème.mp3",
     "audioUrl": "/data/French/audio/words_fr/fr_problème.mp3"
   },
   {
@@ -12419,7 +12383,7 @@
   },
   {
     "id": "b2_fr_en_88",
-    "word": "fictive",
+    "word": "fictif",
     "translation": "fictional",
     "len": 7,
     "tags": [
@@ -13749,7 +13713,7 @@
   },
   {
     "id": "b2_fr_en_183",
-    "word": "moquer",
+    "word": "se moquer",
     "translation": "to mock",
     "len": 6,
     "tags": [
@@ -14071,7 +14035,7 @@
   },
   {
     "id": "c1_fr_en_06",
-    "word": "abstenir",
+    "word": "s'abstenir",
     "translation": "to abstain",
     "len": 8,
     "tags": [
@@ -14478,7 +14442,7 @@
   {
     "id": "c1_fr_en_35",
     "word": "appointer",
-    "translation": "to appoint",
+    "translation": "to pay a salary / put on a retainer",
     "len": 9,
     "tags": [
       "c1",
@@ -15737,7 +15701,7 @@
   },
   {
     "id": "c1_fr_en_125",
-    "word": "centrale",
+    "word": "central",
     "translation": "central",
     "len": 8,
     "tags": [
@@ -16185,7 +16149,7 @@
   },
   {
     "id": "c1_fr_en_157",
-    "word": "cholérique",
+    "word": "colérique",
     "translation": "choleric",
     "len": 10,
     "tags": [
@@ -17551,7 +17515,7 @@
   {
     "id": "c2_fr_en_56",
     "word": "apologie",
-    "translation": "apology",
+    "translation": "apologia / defense / eulogy",
     "len": 8,
     "tags": [
       "c2",
@@ -17579,7 +17543,7 @@
   {
     "id": "c2_fr_en_58",
     "word": "appointer",
-    "translation": "to appoint",
+    "translation": "to pay a salary / put on a retainer",
     "len": 9,
     "tags": [
       "c2",
@@ -18824,7 +18788,7 @@
   },
   {
     "id": "c2_fr_en_147",
-    "word": "centrale",
+    "word": "central",
     "translation": "central",
     "len": 8,
     "tags": [
@@ -19272,7 +19236,7 @@
   },
   {
     "id": "c2_fr_en_179",
-    "word": "cholérique",
+    "word": "colérique",
     "translation": "choleric",
     "len": 10,
     "tags": [

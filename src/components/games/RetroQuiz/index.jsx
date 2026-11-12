@@ -6,6 +6,8 @@ import { useMemolandumStore } from '../../../store/useMemolandumStore';
 import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
 import { GameHeader } from '../shared/GameHeader';
 import { SoundManager } from '../../../engines/soundManager';
+import { playWordPronunciation } from '../../../lib/pronunciation';
+import { attachAdaptiveCanvasGuard } from '../../../lib/performance/canvasFpsGuard';
 import { createSessionProgressTracker } from '../../../lib/progress/applySessionProgress';
 import { Volume2, Award, Shield } from 'lucide-react';
 
@@ -131,18 +133,17 @@ export default function RetroQuiz({
   };
 
   // Play audio pronunciation of the word
-  const playPronunciation = useCallback((wordObj) => {
-    if (!isAudioEnabled || !wordObj) return;
-    if (soundManagerRef.current && wordObj.audioUrl) {
-      soundManagerRef.current.playWordAudio(wordObj.audioUrl);
-    } else if (window.speechSynthesis) {
-      window.speechSynthesis.cancel();
-      const speakText = wordObj.english;
-      const utterance = new SpeechSynthesisUtterance(speakText);
-      utterance.lang = 'en-US';
-      window.speechSynthesis.speak(utterance);
-    }
-  }, [isAudioEnabled]);
+  const playPronunciation = useCallback(
+    (wordObj) => {
+      if (!isAudioEnabled || !wordObj) return;
+      if (soundManagerRef.current) {
+        soundManagerRef.current.speakWord(wordObj, { langId });
+      } else {
+        playWordPronunciation(wordObj, { isAudioEnabled, langId });
+      }
+    },
+    [isAudioEnabled, langId]
+  );
 
   // Generate a new question
   const generateQuestion = useCallback((index, wordList) => {
@@ -151,15 +152,18 @@ export default function RetroQuiz({
     const targetWordObj = wordList[index % wordList.length];
     const targetType = Math.random() > 0.5 ? 'en-to-tr' : 'tr-to-en';
     
-    const questionText = targetType === 'en-to-tr' ? targetWordObj.english : targetWordObj.turkish;
-    const correctAnswer = targetType === 'en-to-tr' ? targetWordObj.turkish : targetWordObj.english;
-    const romanization = targetType === 'en-to-tr' ? targetWordObj.romanized : '';
+    const englishWord = targetWordObj.english || targetWordObj.word || targetWordObj.target || '';
+    const turkishWord = targetWordObj.turkish || targetWordObj.meaning || targetWordObj.translation || '';
+
+    const questionText = targetType === 'en-to-tr' ? englishWord : turkishWord;
+    const correctAnswer = targetType === 'en-to-tr' ? turkishWord : englishWord;
+    const romanization = targetType === 'en-to-tr' ? (targetWordObj.romanized || targetWordObj.romanized_script || '') : '';
     
     // Distractors
-    const otherWords = wordList.filter(w => w.english !== targetWordObj.english);
+    const otherWords = wordList.filter(w => (w.english || w.word) !== englishWord);
     const shuffledOthers = [...otherWords].sort(() => 0.5 - Math.random());
     const distractors = shuffledOthers.slice(0, 3).map(w => 
-      targetType === 'en-to-tr' ? w.turkish : w.english
+      targetType === 'en-to-tr' ? (w.turkish || w.meaning || w.translation || '') : (w.english || w.word || w.target || '')
     );
     
     // Shuffle choices
@@ -588,7 +592,7 @@ export default function RetroQuiz({
     let animId;
     const canvas = canvasRef.current;
     if (!canvas) return;
-    const ctx = canvas.getContext('2d');
+    const ctx = attachAdaptiveCanvasGuard(canvas.getContext('2d'));
 
     let lastTime = performance.now();
     const fpsInterval = 1000 / 60; // 16.67ms per frame

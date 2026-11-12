@@ -1887,7 +1887,8 @@
     "audio": {
       "default": "/audio/sentences_el/el_biz_026.mp3"
     },
-    "audioUrl": "/data/Greek/audio/sentences_el/el_biz_026.mp3"
+    "audioUrl": "/data/Greek/audio/sentences_el/el_biz_026.mp3",
+    "romanization": "Lavate to mynima mou?"
   },
   {
     "id": "el_biz_027",
@@ -1908,7 +1909,7 @@
     "id": "el_biz_028",
     "word": "Παρακαλώ συγχωρήστε την καθυστέρηση.",
     "latin_okunusu": "Parakalo synchoriste tin kathysterisi.",
-    "translation": "Please apologize for the delay.",
+    "translation": "Please excuse the delay.",
     "len": 35,
     "tags": [
       "business",
@@ -1962,7 +1963,8 @@
     "audio": {
       "default": "/audio/sentences_el/el_biz_031.mp3"
     },
-    "audioUrl": "/data/Greek/audio/sentences_el/el_biz_031.mp3"
+    "audioUrl": "/data/Greek/audio/sentences_el/el_biz_031.mp3",
+    "romanization": "Tha sas apantiso syntoma."
   },
   {
     "id": "el_biz_032",
@@ -2431,7 +2433,7 @@
   },
   {
     "id": "el_biz_063",
-    "word": "Αυτή έχει προτεραιότητα.",
+    "word": "Αυτό έχει προτεραιότητα.",
     "latin_okunusu": "Afto echei proteraiotita.",
     "translation": "This is a priority.",
     "len": 26,
@@ -3286,7 +3288,7 @@
   },
   {
     "id": "el_dev_020",
-    "word": "Η συνεχή πρόοδος είναι σημαντική.",
+    "word": "Η συνεχής πρόοδος είναι σημαντική.",
     "latin_okunusu": "I synexi proodos einai simantiki.",
     "translation": "Continuous progress is important.",
     "len": 32,
@@ -3297,7 +3299,8 @@
     "audio": {
       "default": "/audio/sentences_el/el_dev_020.mp3"
     },
-    "audioUrl": "/data/Greek/audio/sentences_el/el_dev_020.mp3"
+    "audioUrl": "/data/Greek/audio/sentences_el/el_dev_020.mp3",
+    "romanization": "I synechis proodos einai simantiki."
   },
   {
     "id": "el_dev_021",
@@ -3661,7 +3664,7 @@
   },
   {
     "id": "el_dev_045",
-    "word": "Έχω ένα ξεκάθαρο τρόπο σκέψης.",
+    "word": "Έχω έναν ξεκάθαρο τρόπο σκέψης.",
     "latin_okunusu": "Echo ena xekatharo tropo skepsis.",
     "translation": "I have a clear way of thinking.",
     "len": 31,
@@ -3672,7 +3675,8 @@
     "audio": {
       "default": "/audio/sentences_el/el_dev_045.mp3"
     },
-    "audioUrl": "/data/Greek/audio/sentences_el/el_dev_045.mp3"
+    "audioUrl": "/data/Greek/audio/sentences_el/el_dev_045.mp3",
+    "romanization": "Echo enan xekatharo tropo skepsis."
   },
   {
     "id": "el_dev_046",
@@ -3957,7 +3961,8 @@
     "audio": {
       "default": "/audio/sentences_el/el_dev_064.mp3"
     },
-    "audioUrl": "/data/Greek/audio/sentences_el/el_dev_064.mp3"
+    "audioUrl": "/data/Greek/audio/sentences_el/el_dev_064.mp3",
+    "romanization": "Parameno eveliktos."
   },
   {
     "id": "el_dev_065",
@@ -4503,7 +4508,7 @@
     "id": "el_trv_001",
     "word": "Πού είναι ο σιδηροδρομικός σταθμός;",
     "latin_okunusu": "Pou einai o sidirodromikos stathmos?",
-    "translation": "Nerede tren istasyonu?",
+    "translation": "Where is the train station?",
     "len": 34,
     "tags": [
       "travel",
@@ -4518,7 +4523,7 @@
     "id": "el_trv_002",
     "word": "Πώς θα πάω στο ξενοδοχείο;",
     "latin_okunusu": "Pos tha pao sto xenodocheio?",
-    "translation": "Nasıl gideceğim otele?",
+    "translation": "How do I get to the hotel?",
     "len": 27,
     "tags": [
       "travel",
@@ -4533,7 +4538,7 @@
     "id": "el_trv_003",
     "word": "Ένα εισιτήριο για το Βερολίνο, παρακαλώ.",
     "latin_okunusu": "Ena eisitirio gia to Verolino, parakalo.",
-    "translation": "Bir bilet Berlin'e, lütfen.",
+    "translation": "One ticket to Berlin, please.",
     "len": 40,
     "tags": [
       "travel",
@@ -4548,7 +4553,7 @@
     "id": "el_trv_004",
     "word": "Πότε φεύγει το επόμενο τρένο;",
     "latin_okunusu": "Pote fevgei to epomeno treno?",
-    "translation": "Ne zaman kalkıyor bir sonraki tren?",
+    "translation": "When does the next train leave?",
     "len": 28,
     "tags": [
       "travel",
@@ -4563,7 +4568,7 @@
     "id": "el_trv_005",
     "word": "Έχετε ένα ελεύθερο δωμάτιο;",
     "latin_okunusu": "Echete ena elefthero domatio?",
-    "translation": "Var mı bir boş odanız?",
+    "translation": "Do you have a vacant room?",
     "len": 27,
     "tags": [
       "travel",
@@ -4578,7 +4583,7 @@
     "id": "el_trv_006",
     "word": "Έχω μια κράτηση.",
     "latin_okunusu": "Echo mia kratisi.",
-    "translation": "Var benim bir rezervasyonum.",
+    "translation": "I have a reservation.",
     "len": 17,
     "tags": [
       "travel",
@@ -4593,7 +4598,7 @@
     "id": "el_trv_007",
     "word": "Πού είναι το κοντινότερο μετρό;",
     "latin_okunusu": "Pou einai to kontinotero metro?",
-    "translation": "Nerede en yakın metro?",
+    "translation": "Where is the nearest metro station?",
     "len": 30,
     "tags": [
       "travel",
@@ -4608,7 +4613,7 @@
     "id": "el_trv_008",
     "word": "Πόσο κοστίζει αυτό;",
     "latin_okunusu": "Poso kostizei afto?",
-    "translation": "Ne kadar maliyeti bunun?",
+    "translation": "How much does this cost?",
     "len": 19,
     "tags": [
       "travel",
@@ -4623,7 +4628,7 @@
     "id": "el_trv_009",
     "word": "Θέλω να κάνω check-in.",
     "latin_okunusu": "Thelo na kano check-in.",
-    "translation": "İstiyorum yapmak giriş.",
+    "translation": "I would like to check in.",
     "len": 23,
     "tags": [
       "travel",
@@ -4638,7 +4643,7 @@
     "id": "el_trv_010",
     "word": "Μπορείτε να με βοηθήσετε;",
     "latin_okunusu": "Boreite na me voithisete?",
-    "translation": "Edebilir misiniz bana yardım?",
+    "translation": "Can you help me?",
     "len": 25,
     "tags": [
       "travel",
@@ -4653,7 +4658,7 @@
     "id": "el_trv_011",
     "word": "Υπάρχει ένα εστιατόριο εδώ κοντά;",
     "latin_okunusu": "Yparchei ena estiatorio edo konta?",
-    "translation": "Var mı bir restoran burada yakın?",
+    "translation": "Is there a restaurant nearby?",
     "len": 32,
     "tags": [
       "travel",
@@ -4668,7 +4673,7 @@
     "id": "el_trv_012",
     "word": "Ψάχνω για έναν χάρτη της πόλης.",
     "latin_okunusu": "Psachno gia enan charti tis polis.",
-    "translation": "Arıyorum bir harita şehrin.",
+    "translation": "I am looking for a city map.",
     "len": 31,
     "tags": [
       "travel",
@@ -4683,7 +4688,7 @@
     "id": "el_trv_013",
     "word": "Είναι μακριά από εδώ;",
     "latin_okunusu": "Einai makria apo edo?",
-    "translation": "Uzak mı buradan?",
+    "translation": "Is it far from here?",
     "len": 21,
     "tags": [
       "travel",
@@ -4698,7 +4703,7 @@
     "id": "el_trv_014",
     "word": "Θέλω να καλέσω ένα ταξί.",
     "latin_okunusu": "Thelo na kaleso ena taxi.",
-    "translation": "İstiyorum çağırmak bir taksi.",
+    "translation": "I want to call a taxi.",
     "len": 25,
     "tags": [
       "travel",
@@ -4713,7 +4718,7 @@
     "id": "el_trv_015",
     "word": "Πότε ανοίγει το μουσείο;",
     "latin_okunusu": "Pote anoigei to mouseio?",
-    "translation": "Ne zaman açılıyor müze?",
+    "translation": "When does the museum open?",
     "len": 25,
     "tags": [
       "travel",
@@ -4728,7 +4733,7 @@
     "id": "el_trv_016",
     "word": "Πού μπορώ να αλλάξω χρήματα;",
     "latin_okunusu": "Pou boro na allaxo chrimata?",
-    "translation": "Nerede yapabilirim değiştirmek para?",
+    "translation": "Where can I exchange money?",
     "len": 28,
     "tags": [
       "travel",
@@ -4743,7 +4748,7 @@
     "id": "el_trv_017",
     "word": "Έχετε έναν χάρτη της πόλης;",
     "latin_okunusu": "Echete enan charti tis polis?",
-    "translation": "Var mı elinizde bir harita şehrin?",
+    "translation": "Do you have a city map?",
     "len": 26,
     "tags": [
       "travel",
@@ -4758,7 +4763,7 @@
     "id": "el_trv_018",
     "word": "Αυτό είναι πολύ όμορφο.",
     "latin_okunusu": "Afto einai poly omorfo.",
-    "translation": "Bu çok güzel.",
+    "translation": "This is very beautiful.",
     "len": 23,
     "tags": [
       "travel",
@@ -4773,7 +4778,7 @@
     "id": "el_trv_019",
     "word": "Ένα τραπέζι για δύο, παρακαλώ.",
     "latin_okunusu": "Ena trapezi gia dyo, parakalo.",
-    "translation": "Bir masa için iki, lütfen.",
+    "translation": "A table for two, please.",
     "len": 28,
     "tags": [
       "travel",
@@ -4788,7 +4793,7 @@
     "id": "el_trv_020",
     "word": "Το λογαριασμό, παρακαλώ.",
     "latin_okunusu": "To logariasmo, parakalo.",
-    "translation": "Hesabı, lütfen.",
+    "translation": "The bill, please.",
     "len": 24,
     "tags": [
       "travel",
@@ -4803,7 +4808,7 @@
     "id": "el_trv_021",
     "word": "Πού είναι η τουαλέτα;",
     "latin_okunusu": "Pou einai i toualeta?",
-    "translation": "Nerede tuvalet?",
+    "translation": "Where is the restroom?",
     "len": 20,
     "tags": [
       "travel",
@@ -4818,7 +4823,7 @@
     "id": "el_trv_022",
     "word": "Είμαι τουρίστας.",
     "latin_okunusu": "Eimai touristas.",
-    "translation": "Ben bir turistim.",
+    "translation": "I am a tourist.",
     "len": 16,
     "tags": [
       "travel",
@@ -4833,7 +4838,7 @@
     "id": "el_trv_023",
     "word": "Μπορείτε να βγάλετε μια φωτογραφία;",
     "latin_okunusu": "Boreite na vgalete mia fotografia?",
-    "translation": "Edebilir misiniz çekmek bir fotoğraf?",
+    "translation": "Can you take a photo?",
     "len": 33,
     "tags": [
       "travel",
@@ -4848,7 +4853,7 @@
     "id": "el_trv_024",
     "word": "Πού είναι η έξοδος;",
     "latin_okunusu": "Pou einai i exodos?",
-    "translation": "Nerede çıkış?",
+    "translation": "Where is the exit?",
     "len": 19,
     "tags": [
       "travel",
@@ -4863,7 +4868,7 @@
     "id": "el_trv_025",
     "word": "Τι μου προτείνετε;",
     "latin_okunusu": "Ti mou proteinete?",
-    "translation": "Ne bana tavsiye edersiniz?",
+    "translation": "What do you recommend?",
     "len": 18,
     "tags": [
       "travel",
@@ -4878,7 +4883,7 @@
     "id": "el_trv_026",
     "word": "Υπάρχει εισιτήριο για όλη τη μέρα;",
     "latin_okunusu": "Yparchei eisitirio gia oli ti mera?",
-    "translation": "Var mı bilet için tüm gün?",
+    "translation": "Is there an all-day ticket?",
     "len": 33,
     "tags": [
       "travel",
@@ -4893,7 +4898,7 @@
     "id": "el_trv_027",
     "word": "Χρειάζομαι ένα τσιρότο.",
     "latin_okunusu": "Chreiazomai ena tsiroto.",
-    "translation": "İhtiyacım var bir yara bandına.",
+    "translation": "I need a band-aid.",
     "len": 22,
     "tags": [
       "travel",
@@ -4908,7 +4913,7 @@
     "id": "el_trv_028",
     "word": "Καλό ταξίδι!",
     "latin_okunusu": "Kalo taxidi!",
-    "translation": "İyi yolculuklar!",
+    "translation": "Have a good trip!",
     "len": 13,
     "tags": [
       "travel",
@@ -4923,7 +4928,7 @@
     "id": "el_trv_029",
     "word": "Πώς θα πάω στο αεροδρόμιο;",
     "latin_okunusu": "Pos tha pao sto aerodromio?",
-    "translation": "Nasıl gideceğim havalimanına?",
+    "translation": "How do I get to the airport?",
     "len": 27,
     "tags": [
       "travel",
@@ -4938,7 +4943,7 @@
     "id": "el_trv_030",
     "word": "Πού είναι η στάση;",
     "latin_okunusu": "Pou einai i stasi?",
-    "translation": "Nerede durak?",
+    "translation": "Where is the bus stop?",
     "len": 18,
     "tags": [
       "travel",
@@ -4953,7 +4958,7 @@
     "id": "el_trv_031",
     "word": "Έχασα τις αποσκευές μου.",
     "latin_okunusu": "Echasa tis aposkeves mou.",
-    "translation": "Kaybettim bavullarımı.",
+    "translation": "I lost my luggage.",
     "len": 25,
     "tags": [
       "travel",
@@ -4968,7 +4973,7 @@
     "id": "el_trv_032",
     "word": "Το πρωινό περιλαμβάνεται;",
     "latin_okunusu": "To proino perilamvanetai?",
-    "translation": "Kahvaltı dahil mi?",
+    "translation": "Is breakfast included?",
     "len": 26,
     "tags": [
       "travel",
@@ -4983,7 +4988,7 @@
     "id": "el_trv_033",
     "word": "Πότε είναι το check-out;",
     "latin_okunusu": "Pote einai to check-out?",
-    "translation": "Ne zaman çıkış saati?",
+    "translation": "When is check-out?",
     "len": 23,
     "tags": [
       "travel",
@@ -4998,7 +5003,7 @@
     "id": "el_trv_034",
     "word": "Μπορείτε να μιλήσετε πιο δυνατά;",
     "latin_okunusu": "Boreite na milisete pio dynata?",
-    "translation": "Edebilir misiniz konuşmak daha yüksek sesle?",
+    "translation": "Can you speak louder?",
     "len": 33,
     "tags": [
       "travel",
@@ -5013,7 +5018,7 @@
     "id": "el_trv_035",
     "word": "Πού είναι το σούπερ μάρκετ;",
     "latin_okunusu": "Pou einai to souper market?",
-    "translation": "Nerede süpermarket?",
+    "translation": "Where is the supermarket?",
     "len": 25,
     "tags": [
       "travel",
@@ -5028,7 +5033,7 @@
     "id": "el_trv_036",
     "word": "Θέλω να νοικιάσω ποδήλατα.",
     "latin_okunusu": "Thelo na noikiaso podilata.",
-    "translation": "İstiyorum kiralamak bisikletler.",
+    "translation": "I want to rent bicycles.",
     "len": 26,
     "tags": [
       "travel",
@@ -5043,7 +5048,7 @@
     "id": "el_trv_037",
     "word": "Υπάρχει Wi-Fi εδώ;",
     "latin_okunusu": "Yparchei Wi-Fi edo?",
-    "translation": "Var mı Wi-Fi burada?",
+    "translation": "Is there Wi-Fi here?",
     "len": 18,
     "tags": [
       "travel",
@@ -5058,7 +5063,7 @@
     "id": "el_trv_038",
     "word": "Αυτό είναι ένα υπέροχο κτίριο.",
     "latin_okunusu": "Afto einai ena iperocho ktirio.",
-    "translation": "Bu bir harika bina.",
+    "translation": "This is a wonderful building.",
     "len": 29,
     "tags": [
       "travel",
@@ -5073,7 +5078,7 @@
     "id": "el_trv_039",
     "word": "Πού είναι οι πληροφορίες τουριστών;",
     "latin_okunusu": "Pou einai oi plirofories touriston?",
-    "translation": "Nerede bilgi turistler için?",
+    "translation": "Where is the tourist information?",
     "len": 35,
     "tags": [
       "travel",
@@ -5088,7 +5093,7 @@
     "id": "el_trv_040",
     "word": "Θέλω ένα δωμάτιο με θέα.",
     "latin_okunusu": "Thelo ena domatio me thea.",
-    "translation": "İstiyorum bir oda manzaralı.",
+    "translation": "I want a room with a view.",
     "len": 26,
     "tags": [
       "travel",
@@ -5103,7 +5108,7 @@
     "id": "el_trv_041",
     "word": "Πόση ώρα διαρκεί η διαδρομή;",
     "latin_okunusu": "Posi ora diarkei i diadromi?",
-    "translation": "Ne kadar sürer yolculuk?",
+    "translation": "How long does the journey take?",
     "len": 28,
     "tags": [
       "travel",
@@ -5118,7 +5123,7 @@
     "id": "el_trv_042",
     "word": "Έχετε έναν χάρτη;",
     "latin_okunusu": "Echete enan charti?",
-    "translation": "Var mı elinizde bir harita?",
+    "translation": "Do you have a map?",
     "len": 18,
     "tags": [
       "travel",
@@ -5133,7 +5138,7 @@
     "id": "el_trv_043",
     "word": "Συγγνώμη, πώς είπατε;",
     "latin_okunusu": "Syngnomi, pos eipate?",
-    "translation": "Afedersiniz, nasıl dediniz?",
+    "translation": "Excuse me, what did you say?",
     "len": 21,
     "tags": [
       "travel",
@@ -5148,7 +5153,7 @@
     "id": "el_trv_044",
     "word": "Πού είναι το φαρμακείο;",
     "latin_okunusu": "Pou einai to farmakeio?",
-    "translation": "Nerede eczane?",
+    "translation": "Where is the pharmacy?",
     "len": 22,
     "tags": [
       "travel",
@@ -5163,7 +5168,7 @@
     "id": "el_trv_045",
     "word": "Θέλω να επισκεφτώ αυτό το αξιοθέατο.",
     "latin_okunusu": "Thelo na episkefto afto to axiotheato.",
-    "translation": "İstiyorum ziyaret etmek bu turistik yeri.",
+    "translation": "I want to visit this attraction.",
     "len": 36,
     "tags": [
       "travel",
@@ -5178,7 +5183,7 @@
     "id": "el_trv_046",
     "word": "Μπορώ να πληρώσω με κάρτα;",
     "latin_okunusu": "Boro na pliroso me karta?",
-    "translation": "Yapabilir miyim ödeme kartla?",
+    "translation": "Can I pay by card?",
     "len": 27,
     "tags": [
       "travel",
@@ -5193,7 +5198,7 @@
     "id": "el_trv_047",
     "word": "Είναι ασφαλές εδώ;",
     "latin_okunusu": "Einai asfales edo?",
-    "translation": "Güvenli mi burada?",
+    "translation": "Is it safe here?",
     "len": 17,
     "tags": [
       "travel",
@@ -5208,7 +5213,7 @@
     "id": "el_trv_048",
     "word": "Πού είναι η κοντινότερη τράπεζα;",
     "latin_okunusu": "Pou einai i kontinoteri trapeza?",
-    "translation": "Nerede en yakın banka?",
+    "translation": "Where is the nearest bank?",
     "len": 31,
     "tags": [
       "travel",
@@ -5223,7 +5228,7 @@
     "id": "el_trv_049",
     "word": "Χαθήκαμε.",
     "latin_okunusu": "Chathikame.",
-    "translation": "Kaybolduk.",
+    "translation": "We are lost.",
     "len": 10,
     "tags": [
       "travel",
@@ -5238,7 +5243,7 @@
     "id": "el_trv_050",
     "word": "Ποιο είναι το κόστος εισόδου;",
     "latin_okunusu": "Poio einai to kostos eisodou?",
-    "translation": "Nedir maliyeti girişin?",
+    "translation": "What is the admission fee?",
     "len": 28,
     "tags": [
       "travel",
@@ -5253,7 +5258,7 @@
     "id": "el_trv_051",
     "word": "Μπορείτε να μου το δείξετε στον χάρτη;",
     "latin_okunusu": "Boreite na mou to deixete ston charti?",
-    "translation": "Edebilir misiniz bana onu göstermek haritada?",
+    "translation": "Can you show it to me on the map?",
     "len": 38,
     "tags": [
       "travel",
@@ -5268,7 +5273,7 @@
     "id": "el_trv_052",
     "word": "Πού είναι το πάρκινγκ;",
     "latin_okunusu": "Pou einai to parking?",
-    "translation": "Nerede otopark?",
+    "translation": "Where is the parking lot?",
     "len": 22,
     "tags": [
       "travel",
@@ -5283,7 +5288,7 @@
     "id": "el_trv_053",
     "word": "Έχω μια αλλεργία.",
     "latin_okunusu": "Echo mia allergia.",
-    "translation": "Var benim bir alerjim.",
+    "translation": "I have an allergy.",
     "len": 18,
     "tags": [
       "travel",
@@ -5298,7 +5303,7 @@
     "id": "el_trv_054",
     "word": "Πού είναι η πρεσβεία;",
     "latin_okunusu": "Pou einai i presveia?",
-    "translation": "Nerede büyükelçilik?",
+    "translation": "Where is the embassy?",
     "len": 21,
     "tags": [
       "travel",
@@ -5313,7 +5318,7 @@
     "id": "el_trv_055",
     "word": "Χρειαζόμαστε βοήθεια.",
     "latin_okunusu": "Chreiazomaste voitheia.",
-    "translation": "İhtiyacımız var yardıma.",
+    "translation": "We need help.",
     "len": 21,
     "tags": [
       "travel",
@@ -5328,7 +5333,7 @@
     "id": "el_trv_056",
     "word": "Είναι το νερό της βρύσης πόσιμο;",
     "latin_okunusu": "Einai to nero tis vrysis posimo?",
-    "translation": "Mi suyun çeşme içilebilir?",
+    "translation": "Is the tap water drinkable?",
     "len": 30,
     "tags": [
       "travel",
@@ -5343,7 +5348,7 @@
     "id": "el_trv_057",
     "word": "Ψάχνω για ένα πάρκο.",
     "latin_okunusu": "Psachno gia ena parko.",
-    "translation": "Arıyorum bir park.",
+    "translation": "I am looking for a park.",
     "len": 22,
     "tags": [
       "travel",
@@ -5358,7 +5363,7 @@
     "id": "el_trv_058",
     "word": "Πού είναι το γκισέ;",
     "latin_okunusu": "Pou einai to gkise?",
-    "translation": "Nerede gişe?",
+    "translation": "Where is the ticket counter?",
     "len": 18,
     "tags": [
       "travel",
@@ -5373,7 +5378,7 @@
     "id": "el_trv_059",
     "word": "Μπορούμε να το αναβάλουμε;",
     "latin_okunusu": "Boroume na to anavaloume?",
-    "translation": "Edebilir miyiz onu ertelemek?",
+    "translation": "Can we postpone it?",
     "len": 23,
     "tags": [
       "travel",
@@ -5388,7 +5393,7 @@
     "id": "el_trv_060",
     "word": "Υπάρχει ξενάγηση;",
     "latin_okunusu": "Yparchei xenagisi?",
-    "translation": "Var mı rehberli tur?",
+    "translation": "Is there a guided tour?",
     "len": 19,
     "tags": [
       "travel",
@@ -5403,7 +5408,7 @@
     "id": "el_trv_061",
     "word": "Μου αρέσει αυτή η πόλη.",
     "latin_okunusu": "Mou aresei afti i poli.",
-    "translation": "Seviyorum bu şehri.",
+    "translation": "I like this city.",
     "len": 23,
     "tags": [
       "travel",
@@ -5418,7 +5423,7 @@
     "id": "el_trv_062",
     "word": "Πού είναι η είσοδος;",
     "latin_okunusu": "Pou einai i eisodos?",
-    "translation": "Nerede giriş?",
+    "translation": "Where is the entrance?",
     "len": 19,
     "tags": [
       "travel",
@@ -5433,7 +5438,7 @@
     "id": "el_trv_063",
     "word": "Πώς θα πάω σε αυτό το μουσείο;",
     "latin_okunusu": "Pos tha pao se afto to mouseio?",
-    "translation": "Nasıl gideceğim bu müzeye?",
+    "translation": "How do I get to this museum?",
     "len": 31,
     "tags": [
       "travel",
@@ -5448,7 +5453,7 @@
     "id": "el_trv_064",
     "word": "Έχετε ένα χορτοφαγικό πιάτο;",
     "latin_okunusu": "Echete ena chortofagiko piato?",
-    "translation": "Var mı vejetaryen bir yemek?",
+    "translation": "Do you have a vegetarian dish?",
     "len": 29,
     "tags": [
       "travel",
@@ -5463,7 +5468,7 @@
     "id": "el_trv_065",
     "word": "Είμαι για πρώτη φορά εδώ.",
     "latin_okunusu": "Eimai gia proti fora edo.",
-    "translation": "Burada ilk defa bulunuyorum.",
+    "translation": "It is my first time here.",
     "len": 26,
     "tags": [
       "travel",
@@ -5478,7 +5483,7 @@
     "id": "el_trv_066",
     "word": "Ποια είναι η σύστασή σας;",
     "latin_okunusu": "Poia einai i systasi sas?",
-    "translation": "Nedir sizin tavsiyeniz?",
+    "translation": "What is your recommendation?",
     "len": 25,
     "tags": [
       "travel",
@@ -5493,7 +5498,7 @@
     "id": "el_trv_067",
     "word": "Πού είναι το λεωφορείο για το αεροδρόμιο;",
     "latin_okunusu": "Pou einai to leoforeio gia to aerodromio?",
-    "translation": "Nerede otobüs havalimanı için?",
+    "translation": "Where is the bus to the airport?",
     "len": 40,
     "tags": [
       "travel",
@@ -5508,7 +5513,7 @@
     "id": "el_trv_068",
     "word": "Έχασα το κινητό μου.",
     "latin_okunusu": "Echasa to kinito mou.",
-    "translation": "Kaybettim telefonumu.",
+    "translation": "I lost my mobile phone.",
     "len": 22,
     "tags": [
       "travel",
@@ -5523,7 +5528,7 @@
     "id": "el_trv_069",
     "word": "Υπάρχει κάποια έκπτωση;",
     "latin_okunusu": "Yparchei kapoia ekptosi?",
-    "translation": "Var mı herhangi bir indirim?",
+    "translation": "Is there any discount?",
     "len": 23,
     "tags": [
       "travel",
@@ -5538,7 +5543,7 @@
     "id": "el_trv_070",
     "word": "Χρειάζομαι ένα ταξί για αύριο.",
     "latin_okunusu": "Chreiazomai ena taxi gia avrio.",
-    "translation": "İhtiyacım var bir taksiye yarın için.",
+    "translation": "I need a taxi for tomorrow.",
     "len": 28,
     "tags": [
       "travel",
@@ -5553,7 +5558,7 @@
     "id": "el_trv_071",
     "word": "Πού είναι το ταξιδιωτικό γραφείο;",
     "latin_okunusu": "Pou einai to taxidiotiko grafeio?",
-    "translation": "Nerede seyahat acentesi?",
+    "translation": "Where is the travel agency?",
     "len": 31,
     "tags": [
       "travel",
@@ -5568,7 +5573,7 @@
     "id": "el_trv_072",
     "word": "Αυτό είναι πολύ νόστιμο.",
     "latin_okunusu": "Afto einai poly nostimo.",
-    "translation": "Bu çok lezzetli.",
+    "translation": "This is very delicious.",
     "len": 24,
     "tags": [
       "travel",
@@ -5583,7 +5588,7 @@
     "id": "el_trv_073",
     "word": "Υπάρχει χάρτης για την πόλη;",
     "latin_okunusu": "Yparchei chartis gia tin poli?",
-    "translation": "Var mı bir harita şehrin?",
+    "translation": "Is there a map of the city?",
     "len": 26,
     "tags": [
       "travel",
@@ -5598,7 +5603,7 @@
     "id": "el_trv_074",
     "word": "Θέλω να κλείσω εισιτήρια.",
     "latin_okunusu": "Thelo na kleiso eisitiria.",
-    "translation": "İstiyorum ayırtmak biletler.",
+    "translation": "I want to book tickets.",
     "len": 26,
     "tags": [
       "travel",
@@ -5613,7 +5618,7 @@
     "id": "el_trv_075",
     "word": "Πού είναι η είσοδος του σταθμού;",
     "latin_okunusu": "Pou einai i eisodos tou stathmou?",
-    "translation": "Nerede istasyonun girişi?",
+    "translation": "Where is the station entrance?",
     "len": 29,
     "tags": [
       "travel",
@@ -5628,7 +5633,7 @@
     "id": "el_trv_076",
     "word": "Τι ώρα είναι;",
     "latin_okunusu": "Ti ora einai?",
-    "translation": "Saat kaç?",
+    "translation": "What time is it?",
     "len": 13,
     "tags": [
       "travel",
@@ -5643,7 +5648,7 @@
     "id": "el_trv_077",
     "word": "Επιτρέπεται το κάπνισμα εδώ;",
     "latin_okunusu": "Epitrepetai to kapnisma edo?",
-    "translation": "İzin veriliyor mu sigara içmeye burada?",
+    "translation": "Is smoking allowed here?",
     "len": 28,
     "tags": [
       "travel",
@@ -5658,7 +5663,7 @@
     "id": "el_trv_078",
     "word": "Ψάχνω για ένα φθηνό ξενοδοχείο.",
     "latin_okunusu": "Psachno gia ena fthino xenodocheio.",
-    "translation": "Arıyorum bir ucuz otel.",
+    "translation": "I am looking for a cheap hotel.",
     "len": 31,
     "tags": [
       "travel",
@@ -5673,7 +5678,7 @@
     "id": "el_trv_079",
     "word": "Πού είναι το ταχυδρομείο;",
     "latin_okunusu": "Pou einai to tachydromeio?",
-    "translation": "Nerede postane?",
+    "translation": "Where is the post office?",
     "len": 23,
     "tags": [
       "travel",
@@ -5688,7 +5693,7 @@
     "id": "el_trv_080",
     "word": "Είναι δωρεάν η είσοδος;",
     "latin_okunusu": "Einai dorean i eisodos?",
-    "translation": "Ücretsiz mi giriş?",
+    "translation": "Is admission free?",
     "len": 24,
     "tags": [
       "travel",
@@ -5703,7 +5708,7 @@
     "id": "el_trv_081",
     "word": "Θέλω να μάθω περισσότερα για την πόλη.",
     "latin_okunusu": "Thelo na matho perissotera gia tin poli.",
-    "translation": "İstiyorum öğrenmek daha fazlasını şehir hakkında.",
+    "translation": "I want to learn more about the city.",
     "len": 37,
     "tags": [
       "travel",
@@ -5718,7 +5723,7 @@
     "id": "el_trv_082",
     "word": "Πού μπορώ να αγοράσω αναμνηστικά;",
     "latin_okunusu": "Pou boro na agoraso anamnistika?",
-    "translation": "Nerede yapabilirim satın almak hediyelik eşyalar?",
+    "translation": "Where can I buy souvenirs?",
     "len": 31,
     "tags": [
       "travel",
@@ -5733,7 +5738,7 @@
     "id": "el_trv_083",
     "word": "Χρειάζομαι έναν γιατρό.",
     "latin_okunusu": "Chreiazomai enan giatro.",
-    "translation": "İhtiyacım var bir doktora.",
+    "translation": "I need a doctor.",
     "len": 22,
     "tags": [
       "travel",
@@ -5748,7 +5753,7 @@
     "id": "el_trv_084",
     "word": "Πού είναι η αστυνομία;",
     "latin_okunusu": "Pou einai i astynomia?",
-    "translation": "Nerede polis?",
+    "translation": "Where is the police station?",
     "len": 22,
     "tags": [
       "travel",
@@ -5763,7 +5768,7 @@
     "id": "el_trv_085",
     "word": "Αυτή είναι μια ωραία πλατεία.",
     "latin_okunusu": "Afti einai mia oraia plateia.",
-    "translation": "Bu bir güzel meydan.",
+    "translation": "This is a nice square.",
     "len": 28,
     "tags": [
       "travel",
@@ -5778,7 +5783,7 @@
     "id": "el_trv_086",
     "word": "Πότε κλείνει το μαγαζί;",
     "latin_okunusu": "Pote kleinei to magazi?",
-    "translation": "Ne zaman kapanıyor dükkan?",
+    "translation": "When does the shop close?",
     "len": 23,
     "tags": [
       "travel",
@@ -5793,7 +5798,7 @@
     "id": "el_trv_087",
     "word": "Υπάρχουν μέσα μαζικής μεταφοράς;",
     "latin_okunusu": "Yparchoun mesa mazikis metafopas?",
-    "translation": "Var mı araçlar toplu taşıma için?",
+    "translation": "Is there public transportation?",
     "len": 30,
     "tags": [
       "travel",
@@ -5802,13 +5807,14 @@
     "audio": {
       "default": "/audio/sentences_el/el_trv_087.mp3"
     },
-    "audioUrl": "/data/Greek/audio/sentences_el/el_trv_087.mp3"
+    "audioUrl": "/data/Greek/audio/sentences_el/el_trv_087.mp3",
+    "romanization": "Yparchoun mesa mazikis metaforas?"
   },
   {
     "id": "el_trv_088",
     "word": "Θέλω να νοικιάσω ένα αυτοκίνητο.",
     "latin_okunusu": "Thelo na noikiaso ena aftokinito.",
-    "translation": "İstiyorum kiralamak bir araba.",
+    "translation": "I want to rent a car.",
     "len": 31,
     "tags": [
       "travel",
@@ -5823,7 +5829,7 @@
     "id": "el_trv_089",
     "word": "Μπορείτε να ανοίξετε την πόρτα;",
     "latin_okunusu": "Boreite na anoiksete tin porta?",
-    "translation": "Edebilir misiniz açmak kapıyı?",
+    "translation": "Can you open the door?",
     "len": 29,
     "tags": [
       "travel",
@@ -5838,7 +5844,7 @@
     "id": "el_trv_090",
     "word": "Πού είναι το θέατρο;",
     "latin_okunusu": "Pou einai to theatro?",
-    "translation": "Nerede tiyatro?",
+    "translation": "Where is the theater?",
     "len": 20,
     "tags": [
       "travel",
@@ -5853,7 +5859,7 @@
     "id": "el_trv_091",
     "word": "Το νερό είναι χλιαρό.",
     "latin_okunusu": "To nero einai chliaro.",
-    "translation": "Su ılıktır.",
+    "translation": "The water is lukewarm.",
     "len": 21,
     "tags": [
       "travel",
@@ -5868,7 +5874,7 @@
     "id": "el_trv_092",
     "word": "Υπάρχει πλατφόρμα θέασης;",
     "latin_okunusu": "Yparchei platforma theasis?",
-    "translation": "Var mı bir platform seyir için?",
+    "translation": "Is there an observation deck?",
     "len": 25,
     "tags": [
       "travel",
@@ -5883,7 +5889,7 @@
     "id": "el_trv_093",
     "word": "Έχασα το λεωφορείο.",
     "latin_okunusu": "Echasa to leoforeio.",
-    "translation": "Kaçırdım otobüsü.",
+    "translation": "I missed the bus.",
     "len": 19,
     "tags": [
       "travel",
@@ -5898,7 +5904,7 @@
     "id": "el_trv_094",
     "word": "Πού μπορώ να αγοράσω εισιτήριο;",
     "latin_okunusu": "Pou boro na agoraso eisitirio?",
-    "translation": "Nerede yapabilirim satın almak bilet?",
+    "translation": "Where can I buy a ticket?",
     "len": 28,
     "tags": [
       "travel",
@@ -5913,7 +5919,7 @@
     "id": "el_trv_095",
     "word": "Είναι μακριά με τα πόδια;",
     "latin_okunusu": "Einai makria me ta podia?",
-    "translation": "Uzak mı yaya olarak?",
+    "translation": "Is it far on foot?",
     "len": 24,
     "tags": [
       "travel",
@@ -5928,7 +5934,7 @@
     "id": "el_trv_096",
     "word": "Θέλω να δω την παλιά πόλη.",
     "latin_okunusu": "Thelo na do tin palia poli.",
-    "translation": "İstiyorum görmek eski şehri.",
+    "translation": "I want to see the old town.",
     "len": 26,
     "tags": [
       "travel",
@@ -5943,7 +5949,7 @@
     "id": "el_trv_097",
     "word": "Έχετε προτεινόμενα μέρη;",
     "latin_okunusu": "Echete proteinomena meri?",
-    "translation": "Var mı elinizde önerilen yerler?",
+    "translation": "Do you have any recommended places?",
     "len": 24,
     "tags": [
       "travel",
@@ -5958,7 +5964,7 @@
     "id": "el_trv_098",
     "word": "Πού θα βρω ένα ΑΤΜ;",
     "latin_okunusu": "Pou tha vro ena ATM?",
-    "translation": "Nerede bulacağım bir ATM?",
+    "translation": "Where can I find an ATM?",
     "len": 22,
     "tags": [
       "travel",
@@ -5973,7 +5979,7 @@
     "id": "el_trv_099",
     "word": "Ευχαριστώ για τη βοήθειά σας.",
     "latin_okunusu": "Efcharisto gia ti voitheia sas.",
-    "translation": "Teşekkürler sizin yardımınız için.",
+    "translation": "Thank you for your help.",
     "len": 28,
     "tags": [
       "travel",
@@ -5988,7 +5994,7 @@
     "id": "el_trv_100",
     "word": "Εις το επανιδείν!",
     "latin_okunusu": "Eis to epanidein!",
-    "translation": "Görüşmek üzere!",
+    "translation": "Until we meet again!",
     "len": 18,
     "tags": [
       "travel",
@@ -6357,7 +6363,8 @@
     "audio": {
       "default": "/audio/sentences_el/el_soc_024.mp3"
     },
-    "audioUrl": "/data/Greek/audio/sentences_el/el_soc_024.mp3"
+    "audioUrl": "/data/Greek/audio/sentences_el/el_soc_024.mp3",
+    "romanization": "Grapsto parakalo."
   },
   {
     "id": "el_soc_025",

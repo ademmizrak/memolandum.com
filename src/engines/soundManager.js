@@ -1,3 +1,25 @@
+import { playWordPronunciation, stopTts } from '../lib/pronunciation';
+import { triggerHaptic } from '../utils/platform';
+
+const activeSoundManagers = new Set();
+
+export function pauseAllGameAudio() {
+  stopTts();
+  activeSoundManagers.forEach((mgr) => {
+    try {
+      mgr.stop();
+    } catch {
+      /* ignore */
+    }
+  });
+}
+
+if (typeof window !== 'undefined') {
+  window.addEventListener('mm:app-background', () => {
+    pauseAllGameAudio();
+  });
+}
+
 export class SoundManager {
   constructor() {
     this.audioCtx = null;
@@ -9,10 +31,13 @@ export class SoundManager {
     this.audioPool = [];
     this.poolIndex = 0;
     
-    for (let i = 0; i < this.audioPoolSize; i++) {
-      const audio = new Audio();
-      audio.volume = 1.0;
-      this.audioPool.push(audio);
+    if (typeof window !== 'undefined' && typeof Audio !== 'undefined') {
+      for (let i = 0; i < this.audioPoolSize; i++) {
+        const audio = new Audio();
+        audio.volume = 1.0;
+        this.audioPool.push(audio);
+      }
+      activeSoundManagers.add(this);
     }
   }
 
@@ -50,6 +75,15 @@ export class SoundManager {
   }
 
   stop() {
+    if (this.audioPool && this.audioPool.length) {
+      this.audioPool.forEach((audio) => {
+        try {
+          if (!audio.paused) {
+            audio.pause();
+          }
+        } catch (e) {}
+      });
+    }
     if (this.audioCtx && this.audioCtx.state !== 'closed') {
       try {
         this.audioCtx.suspend();
@@ -57,21 +91,83 @@ export class SoundManager {
     }
   }
 
-  playWordAudio(url) {
-    if (!this.isAudioEnabled || !url) return;
+  playWordAudio(url, onFallback, onEnded) {
+    if (!this.isAudioEnabled) return;
+    if (!url) {
+      if (typeof onFallback === 'function') onFallback();
+      return;
+    }
     
     try {
-      // Use the next available Audio object from the pool
+      if (!this.audioPool || !this.audioPool.length) {
+        if (typeof onFallback === 'function') onFallback();
+        return;
+      }
+
       const audio = this.audioPool[this.poolIndex];
       this.poolIndex = (this.poolIndex + 1) % this.audioPoolSize;
       
+      let fallbackTriggered = false;
+      const triggerFallback = (err) => {
+        if (fallbackTriggered) return;
+        fallbackTriggered = true;
+        audio.onerror = null;
+        audio.onplaying = null;
+        audio.onended = null;
+        if (typeof onFallback === 'function') {
+          onFallback(err);
+        }
+      };
+
+      // Guard timeout in case network request hangs or stalls
+      const timeoutId = setTimeout(() => {
+        if (audio.readyState < 2 && !audio.ended && !fallbackTriggered) {
+          triggerFallback('timeout');
+        }
+      }, 1500);
+
+      audio.onerror = () => {
+        clearTimeout(timeoutId);
+        triggerFallback(audio.error);
+      };
+
+      audio.onplaying = () => {
+        clearTimeout(timeoutId);
+      };
+
+      audio.onended = () => {
+        clearTimeout(timeoutId);
+        audio.onended = null;
+        if (!fallbackTriggered && typeof onEnded === 'function') {
+          onEnded();
+        }
+      };
+
       audio.src = url;
       audio.load();
       audio.currentTime = 0;
-      audio.play().catch(e => console.warn("Audio play failed:", e));
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch((e) => {
+          clearTimeout(timeoutId);
+          console.warn("Audio play failed, triggering fallback:", e?.message || e);
+          triggerFallback(e);
+        });
+      }
     } catch (e) {
-      console.error("Audio playback error:", e);
+      console.warn("Audio playback error, triggering fallback:", e);
+      if (typeof onFallback === 'function') onFallback(e);
     }
+  }
+
+  speakWord(wordObj, options = {}) {
+    if (!this.isAudioEnabled || !wordObj) return;
+    this.init();
+    return playWordPronunciation(wordObj, {
+      isAudioEnabled: this.isAudioEnabled,
+      soundManager: this,
+      ...options,
+    });
   }
 
   playLaser() {
@@ -150,6 +246,7 @@ export class SoundManager {
   }
 
   playDamage() {
+    triggerHaptic('medium');
     if (this.isMuted) return;
     this.init();
     if (!this.audioCtx) return;
@@ -288,6 +385,7 @@ export class SoundManager {
   }
 
   playCoinCollect() {
+    triggerHaptic('light');
     if (this.isMuted) return;
     this.init();
     if (!this.audioCtx) return;
@@ -310,5 +408,72 @@ export class SoundManager {
     
     osc1.start(time);
     osc1.stop(time + 0.25);
+  }
+
+  /**
+   * Doğru kart seçiminde neşeli kutlama melodisi (parlak majör arpej + yıldız çınıltısı)
+   */
+  playMatch() {
+    triggerHaptic('light');
+    if (this.isMuted) return;
+    this.init();
+    if (!this.audioCtx) return;
+
+    const time = this.audioCtx.currentTime;
+    // C5 -> E5 -> G5 -> C6 neşeli kutlama arpeji
+    const notes = [523.25, 659.25, 783.99, 1046.5];
+    notes.forEach((freq, i) => {
+      const start = time + i * 0.055;
+      const osc = this.audioCtx.createOscillator();
+      const gain = this.audioCtx.createGain();
+
+      osc.type = i === notes.length - 1 ? 'sine' : 'triangle';
+      osc.frequency.setValueAtTime(freq, start);
+
+      const dur = i === notes.length - 1 ? 0.28 : 0.14;
+      gain.gain.setValueAtTime(0.18, start);
+      gain.gain.exponentialRampToValueAtTime(0.001, start + dur);
+
+      osc.connect(gain);
+      gain.connect(this.audioCtx.destination);
+
+      osc.start(start);
+      osc.stop(start + dur);
+    });
+  }
+
+  /**
+   * Yanlış kart seçiminde net ama kulak tırmalamayan olumsuz uyarı sesi ("uh-oh" iniş tonu)
+   */
+  playMismatch() {
+    triggerHaptic('medium');
+    if (this.isMuted) return;
+    this.init();
+    if (!this.audioCtx) return;
+
+    const time = this.audioCtx.currentTime;
+    const tones = [
+      { freq: 311.13, start: 0, dur: 0.13 },    // Eb4
+      { freq: 207.65, start: 0.12, dur: 0.22 }, // Ab3
+    ];
+
+    tones.forEach(({ freq, start, dur }) => {
+      const t0 = time + start;
+      const osc = this.audioCtx.createOscillator();
+      const gain = this.audioCtx.createGain();
+
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(freq, t0);
+      osc.frequency.linearRampToValueAtTime(freq * 0.92, t0 + dur);
+
+      gain.gain.setValueAtTime(0.14, t0);
+      gain.gain.exponentialRampToValueAtTime(0.001, t0 + dur);
+
+      osc.connect(gain);
+      gain.connect(this.audioCtx.destination);
+
+      osc.start(t0);
+      osc.stop(t0 + dur);
+    });
   }
 }

@@ -10,13 +10,14 @@ import PremiumCheckoutModal from "./premium/PremiumCheckoutModal";
 import { PremiumNavChip } from "./premium/PremiumVisibility";
 import { useMemolandumStore } from "../store/useMemolandumStore";
 import { peekAuthOpenModal, logoutUser } from "../lib/firebase/authService";
-import { useT } from "../lib/i18n/LocaleProvider";
+import { useLocale } from "../lib/i18n/LocaleProvider";
 import {
   FREE_TRANSLATION_QUOTA,
   GUEST_TRANSLATION_QUOTA,
   PAYMENTS_LIVE,
   PREMIUM_PRODUCT,
   remainingFreeTranslations,
+  shouldHideExternalPayments,
 } from "../lib/premium/config";
 import "./header/site-chrome.css";
 
@@ -99,6 +100,33 @@ function IconSchool(props) {
   );
 }
 
+function IconUser(props) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden {...props}>
+      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+      <circle cx="12" cy="7" r="4" />
+    </svg>
+  );
+}
+
+function IconVideo(props) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden {...props}>
+      <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5" />
+      <rect x="2" y="6" width="14" height="12" rx="2" />
+    </svg>
+  );
+}
+
+function IconCrown(props) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden {...props}>
+      <path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z" />
+      <path d="M5 21h14" />
+    </svg>
+  );
+}
+
 function goPlay() {
   const el = document.getElementById("basla");
   if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -106,12 +134,16 @@ function goPlay() {
 }
 
 export default function Header() {
-  const t = useT();
+  const { locale, t } = useLocale();
+  const isEn = locale === "en";
+  const isAr = locale === "ar";
+  const isPt = locale === "pt";
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [authModalView, setAuthModalView] = useState("login");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [premiumOpen, setPremiumOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [hideExternalPay, setHideExternalPay] = useState(false);
 
   const {
     isAuthenticated,
@@ -128,25 +160,68 @@ export default function Header() {
 
   useEffect(() => {
     setMounted(true);
+    try {
+      setHideExternalPay(shouldHideExternalPayments());
+    } catch {
+      setHideExternalPay(false);
+    }
     ensureDefaultStudyProfile?.();
   }, [ensureDefaultStudyProfile]);
 
   useEffect(() => {
-    const pending = peekAuthOpenModal();
-    if (pending === "username" || pending === "login") {
-      setAuthModalView(pending);
-      setIsAuthModalOpen(true);
-    }
+    const checkPendingModal = (customView) => {
+      const pending = customView || peekAuthOpenModal();
+      if (pending === "username" || pending === "login" || pending === "register" || pending === "verify") {
+        setAuthModalView(pending);
+        setIsAuthModalOpen(true);
+      }
+    };
+    checkPendingModal();
+    const onOpenModalEvent = (e) => {
+      const targetView = e?.detail?.view;
+      if (targetView) {
+        peekAuthOpenModal(); // clear storage flag
+        checkPendingModal(targetView);
+      } else {
+        checkPendingModal();
+      }
+    };
+    window.addEventListener("mm:open-auth-modal", onOpenModalEvent);
+    return () => {
+      window.removeEventListener("mm:open-auth-modal", onOpenModalEvent);
+    };
   }, []);
 
   useEffect(() => {
-    if (!isMobileMenuOpen) return undefined;
+    if (!isMobileMenuOpen && !isAuthModalOpen && !premiumOpen) return undefined;
     const onKey = (e) => {
-      if (e.key === "Escape") setIsMobileMenuOpen(false);
+      if (e.key === "Escape") {
+        setIsMobileMenuOpen(false);
+      }
+    };
+    const onHardwareBack = (e) => {
+      if (premiumOpen) {
+        e.preventDefault();
+        setPremiumOpen(false);
+        return;
+      }
+      if (isAuthModalOpen) {
+        e.preventDefault();
+        setIsAuthModalOpen(false);
+        return;
+      }
+      if (isMobileMenuOpen) {
+        e.preventDefault();
+        setIsMobileMenuOpen(false);
+      }
     };
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [isMobileMenuOpen]);
+    window.addEventListener("mm:hardware-back", onHardwareBack);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      window.removeEventListener("mm:hardware-back", onHardwareBack);
+    };
+  }, [isMobileMenuOpen, isAuthModalOpen, premiumOpen]);
 
   const openAuthModal = (view) => {
     setAuthModalView(view);
@@ -169,35 +244,84 @@ export default function Header() {
           <p className="mm-chrome__announce-text">
             {isPremium ? (
               <>
-                <strong className="text-amber-200">Premium aktif</strong>
-                <span className="text-slate-400"> — AI çeviri fair-use · oyunlar ücretsiz</span>
+                <strong className="text-amber-200">
+                  {isAr ? "بريميوم مفعّل" : isPt ? "Premium ativo" : isEn ? "Premium active" : "Premium aktif"}
+                </strong>
+                <span className="text-slate-400">
+                  {isAr
+                    ? " — ترجمة الذكاء الاصطناعي · الألعاب مجانية"
+                    : isPt
+                      ? " — Tradução IA · jogos gratuitos"
+                      : isEn
+                        ? " — AI translate fair-use · games are free"
+                        : " — AI çeviri fair-use · oyunlar ücretsiz"}
+                </span>
               </>
             ) : (
               <>
-                <strong className="text-emerald-300">Oyunlar ücretsiz</strong>
+                <strong className="text-emerald-300">
+                  {isAr ? "الألعاب مجانية" : isPt ? "Jogos gratuitos" : isEn ? "Games are free" : "Oyunlar ücretsiz"}
+                </strong>
                 <span className="text-slate-500"> · </span>
-                <strong className="text-cyan-300">AI çeviri</strong>
+                <strong className="text-cyan-300">
+                  {isAr ? "ترجمة الذكاء الاصطناعي" : isPt ? "Tradução IA" : isEn ? "AI translate" : "AI çeviri"}
+                </strong>
                 <span className="text-slate-400">
                   {isAuthenticated
-                    ? ` — ${left}/${FREE_TRANSLATION_QUOTA} ücretsiz`
-                    : ` — misafir ${left}/${GUEST_TRANSLATION_QUOTA}`}
+                    ? isAr
+                      ? ` — ${left}/${FREE_TRANSLATION_QUOTA} مجاناً`
+                      : isPt
+                        ? ` — ${left}/${FREE_TRANSLATION_QUOTA} grátis`
+                        : isEn
+                          ? ` — ${left}/${FREE_TRANSLATION_QUOTA} free`
+                          : ` — ${left}/${FREE_TRANSLATION_QUOTA} ücretsiz`
+                    : isAr
+                      ? ` — للضيف ${left}/${GUEST_TRANSLATION_QUOTA}`
+                      : isPt
+                        ? ` — convidado ${left}/${GUEST_TRANSLATION_QUOTA}`
+                        : isEn
+                          ? ` — guest ${left}/${GUEST_TRANSLATION_QUOTA}`
+                          : ` — misafir ${left}/${GUEST_TRANSLATION_QUOTA}`}
                 </span>
-                <span className="text-amber-200/80">
-                  {" "}
-                  · Premium {PREMIUM_PRODUCT.try.label}
-                  {!PAYMENTS_LIVE ? " (ödeme bağlanıyor)" : ""}
-                </span>
+                {!hideExternalPay && (
+                  <span className="text-amber-200/80">
+                    {" "}
+                    · Premium {isEn || isAr || isPt ? PREMIUM_PRODUCT.usd.label : PREMIUM_PRODUCT.try.label}
+                    {!PAYMENTS_LIVE
+                      ? isAr
+                        ? " (جارٍ ربط الدفع)"
+                        : isPt
+                          ? " (conectando pagamento)"
+                          : isEn
+                            ? " (checkout connecting)"
+                            : " (ödeme bağlanıyor)"
+                      : ""}
+                  </span>
+                )}
               </>
             )}
           </p>
-          {!isPremium && (
-            <button
-              type="button"
-              className="mm-chrome__announce-cta"
-              onClick={() => setPremiumOpen(true)}
-            >
-              Premium
-            </button>
+          {!hideExternalPay && (
+            <div className="flex items-center gap-1.5 shrink-0">
+              {!isPremium && (
+                <a
+                  href="https://www.shopier.com/49186522"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mm-chrome__announce-cta"
+                >
+                  👑 {t("nav.premium")}
+                </a>
+              )}
+              <a
+                href="https://kreosus.com/httpsmemolandumcom/about"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mm-chrome__announce-cta mm-chrome__announce-cta--pink"
+              >
+                💖 {t("nav.support")}
+              </a>
+            </div>
           )}
         </div>
 
@@ -206,9 +330,10 @@ export default function Header() {
             <Link href="/" className="mm-header__brand" onClick={closeMenu}>
               <MemolandumIcon size={40} />
               <div className="mm-header__brand-text">
-                <span className="mm-header__brand-name">MEMOLANDUM</span>
-                <button
-                  type="button"
+                <span className="mm-header__brand-name">MEMOLANDUM</span>{" "}
+                <span
+                  role="button"
+                  tabIndex={0}
                   className="mm-header__brand-slogan"
                   onClick={(e) => {
                     e.preventDefault();
@@ -221,66 +346,102 @@ export default function Header() {
                   }}
                 >
                   {t("brand.slogan")}
-                </button>
+                </span>
               </div>
             </Link>
 
-            <nav className="mm-header__nav" aria-label="Ana menü">
+            <nav className="mm-header__nav" aria-label={isAr ? "القائمة الرئيسية" : isPt ? "Navegação principal" : isEn ? "Main navigation" : "Ana menü"}>
               <div className="mm-header__nav-track">
-                <Link href="/#basla" className="mm-nav-link mm-nav-link--play">
+                <Link key="nav-play" href="/#basla" className="mm-nav-link mm-nav-link--play">
                   <IconPlay />
-                  <span>{t("common.playNow") || "Oyna"}</span>
+                  <span>{t("common.playNow")}</span>
                 </Link>
-                <Link href="/games/" className="mm-nav-link">
+                <Link key="nav-games" href="/games/" className="mm-nav-link">
                   <IconPlay />
-                  <span>Oyunlar</span>
+                  <span>{t("nav.games")}</span>
                 </Link>
-                <Link href="/learn/" className="mm-nav-link">
+                <Link key="nav-quiz" href="/quiz/" className="mm-nav-link text-emerald-300 hover:text-emerald-200">
+                  <IconBookOpen />
+                  <span>{isAr ? "الاختبارات" : isPt ? "Simulados" : isEn ? "Quizzes" : "Deneme Quiz"}</span>
+                </Link>
+                <Link key="nav-learn" href="/learn/" className="mm-nav-link">
                   <IconGlobe />
                   <span>{t("nav.learn")}</span>
                 </Link>
-                <Link href="/leaderboard" className="mm-nav-link">
+                <Link key="nav-videos" href="/videos/" className="mm-nav-link text-red-400 hover:text-red-300">
+                  <IconVideo />
+                  <span>{isAr ? "الفيديوهات" : isPt ? "Vídeos" : isEn ? "Videos" : "Videolar"}</span>
+                </Link>
+                <Link key="nav-leaderboard" href="/leaderboard/" className="mm-nav-link">
                   <IconStar />
                   <span>{t("nav.leaderboard")}</span>
                 </Link>
-                <Link href="/vocabulary" className="mm-nav-link">
+                <Link key="nav-vault" href="/vocabulary/" className="mm-nav-link">
                   <IconVault />
                   <span>{t("nav.vault")}</span>
                 </Link>
-                <Link href="/sozluk/" className="mm-nav-link">
+                <Link key="nav-glossary" href="/sozluk/" className="mm-nav-link">
                   <IconBookOpen />
                   <span>{t("nav.glossary")}</span>
                 </Link>
-                <Link href="/translate" className="mm-nav-link mm-nav-link--cyan">
+                <Link key="nav-translate" href="/translate/" className="mm-nav-link mm-nav-link--cyan">
                   <IconTranslate />
                   <span>{t("translate.label")}</span>
                 </Link>
-                <Link href="/schools" className="mm-nav-link text-indigo-300 hover:text-indigo-200">
+                <Link key="nav-schools" href="/schools/" className="mm-nav-link text-indigo-300 hover:text-indigo-200">
                   <IconSchool />
-                  <span>Okullar</span>
+                  <span>{t("nav.schools")}</span>
                 </Link>
-                <Link href="/about/" className="mm-nav-link" title={t("nav.science")}>
+                <Link key="nav-about" href="/about/" className="mm-nav-link" title={t("nav.science")}>
                   <IconFlask />
                   <span>{t("nav.science")}</span>
                 </Link>
-                <a
-                  href="https://kreosus.com/httpsmemolandumcom/about"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mm-nav-link mm-nav-link--pink"
-                >
-                  <IconHeart />
-                  <span>{t("nav.support")}</span>
-                </a>
+                {(!hideExternalPay || isPremium) && (
+                  <a
+                    key="nav-premium"
+                    href="https://www.shopier.com/49186522"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mm-nav-link mm-nav-link--amber"
+                  >
+                    <IconCrown />
+                    <span>{t("nav.premium")}</span>
+                  </a>
+                )}
+                {!hideExternalPay && (
+                  <a
+                    key="nav-support"
+                    href="https://kreosus.com/httpsmemolandumcom/about"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mm-nav-link mm-nav-link--pink"
+                  >
+                    <IconHeart />
+                    <span>{t("nav.support")}</span>
+                  </a>
+                )}
               </div>
             </nav>
 
             <div className="mm-header__actions">
-              <div className="mm-xp" title="Toplam XP">
+              <div
+                className="mm-xp"
+                title={
+                  isAr
+                    ? "إجمالي نقاط الخبرة (XP)"
+                    : isEn
+                      ? "Total experience points (XP)"
+                      : "Toplam deneyim puanı (XP) — jeton değildir"
+                }
+                aria-label={`${isAr ? "الإجمالي" : isEn ? "Total" : "Toplam"} ${totalXp.toLocaleString()} XP`}
+              >
                 <span className="mm-xp__bolt" aria-hidden>
                   ⚡
+                </span>{" "}
+                <span>
+                  {totalXp.toLocaleString()}{" "}
+                  <span className="mm-xp__unit">XP</span>
                 </span>
-                <span>{totalXp.toLocaleString()}</span>
               </div>
 
               {mounted && isAuthenticated && (!isEmailVerified || !profile?.displayName) && (
@@ -290,19 +451,19 @@ export default function Header() {
                   onClick={() =>
                     openAuthModal(!isEmailVerified ? "verify" : "username")
                   }
-                  title={!isEmailVerified ? "E-posta Onayı Gerekli" : "Kullanıcı Adı Belirle"}
+                  title={!isEmailVerified ? t("nav.verifyEmail") : t("nav.setName")}
                 >
                   {!isEmailVerified ? t("nav.verifyEmail") : t("nav.setName")}
                 </button>
               )}
 
-              <Link href="/profile" className="mm-profile" title={displayName}>
+              <Link href="/profile/" className="mm-profile" title={displayName}>
                 <div className="mm-profile__meta">
                   <span className="mm-profile__label">
                     {mounted && isAuthenticated ? t("nav.welcome") : t("nav.guestUser")}
-                  </span>
+                  </span>{" "}
                   <span className="mm-profile__name">{displayName}</span>
-                </div>
+                </div>{" "}
                 {profile?.photoURL ? (
                   <img
                     src={profile.photoURL}
@@ -321,25 +482,25 @@ export default function Header() {
                     className="mm-btn-ghost"
                     onClick={() => openAuthModal("login")}
                   >
-                    Giriş
-                  </button>
+                    {t("nav.login")}
+                  </button>{" "}
                   <button
                     type="button"
                     className="mm-btn-primary"
                     onClick={() => openAuthModal("register")}
                   >
-                    Üye Ol
+                    {t("nav.signup")}
                   </button>
                 </>
               )}
 
-              <PremiumNavChip onOpen={() => setPremiumOpen(true)} />
+              <PremiumNavChip onOpen={() => setPremiumOpen(true)} />{" "}
               <LocaleSwitcher compact />
 
               <button
                 type="button"
                 className={`mm-menu-toggle${isMobileMenuOpen ? " is-open" : ""}`}
-                aria-label={isMobileMenuOpen ? "Menüyü kapat" : t("nav.menuOpen")}
+                aria-label={isMobileMenuOpen ? t("nav.menuClose") : t("nav.menuOpen")}
                 aria-expanded={isMobileMenuOpen}
                 onClick={() => setIsMobileMenuOpen((v) => !v)}
               >
@@ -353,72 +514,119 @@ export default function Header() {
           <div className="mm-drawer" hidden={!isMobileMenuOpen}>
             <div className="mm-drawer__meta">
               <div className="mm-xp">
-                <span className="mm-xp__bolt">⚡</span>
+                <span className="mm-xp__bolt">⚡</span>{" "}
                 <span>{totalXp.toLocaleString()} XP</span>
-              </div>
+              </div>{" "}
               <LocaleSwitcher compact />
             </div>
 
-            <Link href="/#basla" className="mm-drawer__link" onClick={closeMenu}>
-              <IconPlay /> {t("common.playNow") || "Hemen Oyna"}
+            {mounted && !isAuthenticated && (
+              <div className="mm-drawer__guest-banner">
+                <span className="mm-drawer__guest-badge">{t("nav.guestBadge")}</span>
+                <p className="mm-drawer__guest-text">
+                  {t("nav.guestBannerText")}
+                </p>
+                <div className="mm-drawer__guest-btns">
+                  <button
+                    type="button"
+                    className="mm-btn-primary"
+                    onClick={() => {
+                      closeMenu();
+                      openAuthModal("register");
+                    }}
+                  >
+                    {t("nav.signup")}
+                  </button>{" "}
+                  <button
+                    type="button"
+                    className="mm-btn-ghost"
+                    onClick={() => {
+                      closeMenu();
+                      openAuthModal("login");
+                    }}
+                  >
+                    {t("nav.loginFull")}
+                  </button>
+                </div>
+              </div>
+            )}
+
+            <Link key="drawer-play" href="/#basla" className="mm-drawer__link" onClick={closeMenu}>
+              <IconPlay /> <span>{t("common.playNow")}</span>
             </Link>
-            <Link href="/games/" className="mm-drawer__link" onClick={closeMenu}>
-              <IconPlay /> Oyun Kabukları
+            <Link key="drawer-games" href="/games/" className="mm-drawer__link" onClick={closeMenu}>
+              <IconPlay /> <span>{t("nav.games")}</span>
             </Link>
-            <Link href="/learn/" className="mm-drawer__link" onClick={closeMenu}>
-              <IconGlobe /> {t("nav.learn")}
+            <Link key="drawer-quiz" href="/quiz/" className="mm-drawer__link text-emerald-300" onClick={closeMenu}>
+              <IconBookOpen /> <span>{isAr ? "الاختبارات التجريبية" : isPt ? "Simulados (2º–8º Ano)" : isEn ? "Practice Quizzes (2–8)" : "Deneme Quizleri (2–8. Sınıf)"}</span>
             </Link>
-            <Link href="/leaderboard" className="mm-drawer__link" onClick={closeMenu}>
-              <IconStar /> {t("nav.leaderboard")}
+            <Link key="drawer-learn" href="/learn/" className="mm-drawer__link" onClick={closeMenu}>
+              <IconGlobe /> <span>{t("nav.learn")}</span>
             </Link>
-            <Link href="/vocabulary" className="mm-drawer__link" onClick={closeMenu}>
-              <IconVault /> {t("nav.vault")}
+            <Link key="drawer-videos" href="/videos/" className="mm-drawer__link text-red-400" onClick={closeMenu}>
+              <IconVideo /> <span>{isAr ? "الفيديوهات" : isPt ? "Vídeos" : isEn ? "Videos" : "Videolar"}</span>
             </Link>
-            <Link href="/sozluk/" className="mm-drawer__link" onClick={closeMenu}>
-              <IconBookOpen /> {t("nav.glossary")}
+            <Link key="drawer-leaderboard" href="/leaderboard/" className="mm-drawer__link" onClick={closeMenu}>
+              <IconStar /> <span>{t("nav.leaderboard")}</span>
+            </Link>
+            <Link key="drawer-vault" href="/vocabulary/" className="mm-drawer__link" onClick={closeMenu}>
+              <IconVault /> <span>{t("nav.vault")}</span>
+            </Link>
+            <Link key="drawer-glossary" href="/sozluk/" className="mm-drawer__link" onClick={closeMenu}>
+              <IconBookOpen /> <span>{t("nav.glossary")}</span>
             </Link>
             <Link
-              href="/translate"
+              key="drawer-translate"
+              href="/translate/"
               className="mm-drawer__link mm-drawer__link--cyan"
               onClick={closeMenu}
             >
-              <IconTranslate /> {t("translate.label")}
+              <IconTranslate /> <span>{t("translate.label")}</span>
             </Link>
+            {(!hideExternalPay || isPremium) && (
+              <a
+                key="drawer-premium"
+                href="https://www.shopier.com/49186522"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mm-drawer__link mm-drawer__link--amber"
+                onClick={closeMenu}
+              >
+                <IconCrown /> <span>{t("nav.premium")}</span>
+              </a>
+            )}
             <Link
-              href="/premium/"
-              className="mm-drawer__link mm-drawer__link--amber"
-              onClick={closeMenu}
-            >
-              <IconStar /> Premium
-            </Link>
-            <Link
-              href="/schools"
+              key="drawer-schools"
+              href="/schools/"
               className="mm-drawer__link text-indigo-400"
               onClick={closeMenu}
             >
-              <IconSchool /> Okullar & Öğretmenler
+              <IconSchool /> <span>{t("nav.schools")}</span>
             </Link>
-            <Link href="/about/" className="mm-drawer__link" onClick={closeMenu}>
-              <IconFlask /> {t("nav.science")}
+            <Link key="drawer-about" href="/about/" className="mm-drawer__link" onClick={closeMenu}>
+              <IconFlask /> <span>{t("nav.science")}</span>
             </Link>
-            <Link href="/roadmap/" className="mm-drawer__link" onClick={closeMenu}>
-              <IconGlobe /> Roadmap
+            <Link key="drawer-roadmap" href="/roadmap/" className="mm-drawer__link" onClick={closeMenu}>
+              <IconGlobe /> <span>{t("nav.roadmap")}</span>
             </Link>
-            <Link href="/my-lexicon/" className="mm-drawer__link" onClick={closeMenu}>
-              <IconVault /> My Lexicon
+            <Link key="drawer-mylexicon" href="/my-lexicon/" className="mm-drawer__link" onClick={closeMenu}>
+              <IconVault /> <span>{t("nav.myLexicon")}</span>
             </Link>
-            <Link href="/profile" className="mm-drawer__link" onClick={closeMenu}>
-              Profil
+            <Link key="drawer-profile" href="/profile/" className="mm-drawer__link" onClick={closeMenu}>
+              <IconUser /> <span>{t("nav.profile")}</span>
             </Link>
-            <a
-              href="https://kreosus.com/httpsmemolandumcom/about"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mm-drawer__link mm-drawer__link--pink"
-              onClick={closeMenu}
-            >
-              <IconHeart /> {t("nav.support")}
-            </a>
+            {!hideExternalPay && (
+              <a
+                key="drawer-support"
+                href="https://kreosus.com/httpsmemolandumcom/about"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mm-drawer__link mm-drawer__link--pink"
+                onClick={closeMenu}
+              >
+                <IconHeart /> <span>{t("nav.support")}</span>
+              </a>
+            )}
 
             <div className="mm-drawer__actions">
               {mounted && isAuthenticated ? (
@@ -431,7 +639,7 @@ export default function Header() {
                     window.location.href = "/";
                   }}
                 >
-                  Çıkış Yap / Başka Hesap
+                  {t("nav.logoutSwitch")}
                 </button>
               ) : (
                 <>
@@ -443,8 +651,8 @@ export default function Header() {
                       openAuthModal("login");
                     }}
                   >
-                    Giriş Yap
-                  </button>
+                    {t("nav.loginFull")}
+                  </button>{" "}
                   <button
                     type="button"
                     className="mm-btn-primary"
@@ -453,7 +661,7 @@ export default function Header() {
                       openAuthModal("register");
                     }}
                   >
-                    Üye Ol
+                    {t("nav.signup")}
                   </button>
                 </>
               )}

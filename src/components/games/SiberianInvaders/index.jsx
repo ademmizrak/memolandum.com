@@ -92,7 +92,7 @@ export default function SiberianInvaders({ levelId, langId, onExit, onNextLevel,
     if (!learnedArr || learnedArr.length === 0) return;
     const { recordWordQuizResult } = useMemolandumStore.getState();
     learnedArr.forEach((w) => {
-      recordWordQuizResult(w, true, 8, { language: langId });
+      recordWordQuizResult(w, true, 8, { language: langId, gameId: 'invaders' });
     });
   }, [langId]);
 
@@ -151,7 +151,7 @@ export default function SiberianInvaders({ levelId, langId, onExit, onNextLevel,
         engineRef.current.cleanup(); // Stops requestAnimationFrame
       }
     };
-  }, [isLoading, words, onScoreChange, onShieldsChange, onLevelChange, onMasteredChange, onGemsChange, onCelebrationTextChange, onCountdownChange, onScreenChange, onWordLearned, onExit]);
+  }, [isLoading, words, onScoreChange, onShieldsChange, onLevelChange, onMasteredChange, onGemsChange, onCelebrationTextChange, onCountdownChange, onScreenChange, onWordLearned, onVictory, onExit]);
 
   // Handle Global State Sync when Game Ends (yalnızca senkronlanmamış delta)
   useEffect(() => {
@@ -161,8 +161,16 @@ export default function SiberianInvaders({ levelId, langId, onExit, onNextLevel,
       const startGems = sessionStartGemsRef.current ?? currentGems;
       const g = Math.max(0, currentGems - startGems);
       progressTrackerRef.current.commit({ score: s, gems: g });
+
+      if (activeScreen === 'gameOver' && engineRef.current?.wordsLearnedThisRun?.length > 0) {
+        const { recordWordQuizResult } = useMemolandumStore.getState();
+        engineRef.current.wordsLearnedThisRun.forEach((w) => {
+          recordWordQuizResult(w, true, 8, { language: langId, gameId: 'invaders' });
+        });
+        engineRef.current.wordsLearnedThisRun = [];
+      }
     }
-  }, [activeScreen, uiState.score, uiState.gems]);
+  }, [activeScreen, uiState.score, uiState.gems, langId]);
 
   // UI Event Triggers mapped to Engine
   const togglePause = () => {
@@ -238,7 +246,7 @@ export default function SiberianInvaders({ levelId, langId, onExit, onNextLevel,
             onRestart={handleRestart} 
             onMainMenu={() => {
               if (onExit) onExit();
-              else window.location.href = '/';
+              else window.location.href = '/games/';
             }}
             words={words}
             levelId={levelId}
@@ -265,7 +273,7 @@ export default function SiberianInvaders({ levelId, langId, onExit, onNextLevel,
             onRestart={handleRestart}
             onMainMenu={() => {
               if (onExit) onExit();
-              else window.location.href = '/';
+              else window.location.href = '/games/';
             }}
             words={words}
             levelId={levelId}
@@ -282,7 +290,7 @@ export default function SiberianInvaders({ levelId, langId, onExit, onNextLevel,
             onNextLevel={() => onNextLevel ? onNextLevel() : handleRestart()}
             onMainMenu={() => {
               if (onExit) onExit();
-              else window.location.href = '/';
+              else window.location.href = '/games/';
             }}
             words={words}
             levelId={levelId}

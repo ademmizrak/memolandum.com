@@ -16,16 +16,18 @@ const LocaleContext = createContext({
   messages: getMessages(DEFAULT_LOCALE),
 });
 
-export function LocaleProvider({ children }) {
-  const [locale, setLocaleState] = useState(DEFAULT_LOCALE);
+export function LocaleProvider({ children, initialLocale = DEFAULT_LOCALE }) {
+  const [locale, setLocaleState] = useState(
+    LOCALES.includes(initialLocale) ? initialLocale : DEFAULT_LOCALE
+  );
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    const initial = resolveInitialLocale();
+    const initial = resolveInitialLocale(initialLocale);
     setLocaleState(initial);
     persistLocale(initial);
     setReady(true);
-  }, []);
+  }, [initialLocale]);
 
   const setLocale = useCallback((next) => {
     if (!LOCALES.includes(next)) return;

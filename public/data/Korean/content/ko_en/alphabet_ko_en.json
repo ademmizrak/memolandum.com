@@ -106,7 +106,7 @@
     "language_code": "ko",
     "level_tag": "Level_0_Alphabet",
     "original_script": "ㅅ",
-    "romanized_script": "S / Ş",
+    "romanized_script": "S / SH",
     "meaning": "Letter S (Read as SH before 'i')",
     "is_latin": false,
     "metadata": {
@@ -140,8 +140,8 @@
     "language_code": "ko",
     "level_tag": "Level_0_Alphabet",
     "original_script": "ㅈ",
-    "romanized_script": "C / Ç",
-    "meaning": "Letter C/CH (Read as CH at the start, C in the middle of words)",
+    "romanized_script": "J / CH",
+    "meaning": "Letter J/CH (Read as J or CH at the start, voiced J in the middle of words)",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",
@@ -430,7 +430,7 @@
     "level_tag": "Level_0_Alphabet",
     "original_script": "오",
     "romanized_script": "O",
-    "meaning": "Come (Syllable 'o')",
+    "meaning": "Five (Syllable 'o')",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr",

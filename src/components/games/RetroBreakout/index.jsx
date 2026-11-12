@@ -1,9 +1,13 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { RetroBreakoutEngine } from './RetroBreakoutEngine';
 import { useLessonLoader } from '../../../hooks/useLessonLoader';
+import { useMemolandumStore } from '../../../store/useMemolandumStore';
 import { createSessionProgressTracker } from '../../../lib/progress/applySessionProgress';
 import { GameHeader } from '../shared/GameHeader';
 import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
+import { speakTts, stopTts, getSpeechLangCode, playWordPronunciation } from '../../../lib/pronunciation';
+import { resolveDataUrl } from '../../../lib/contentCdn';
+import { triggerHaptic } from '../../../utils/platform';
 
 export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, isAudioEnabled, setIsAudioEnabled, isFxEnabled, setIsFxEnabled }) {
   const canvasRef = useRef(null);
@@ -28,10 +32,6 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
     }
   }, [activeScreen, uiState.score]);
 
-  // Sync sound settings with global store / props if needed
-  // For breakout engine, if we had a soundManager, we would set it here.
-  // We will assume soundManager integration in the future, for now rely on callbacks.
-
   // Hooks
   const { words, isLoading, reload } = useLessonLoader(levelId, langId);
 
@@ -52,8 +52,19 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
     setUiState(p => ({ ...p, targetWord: trWord.toUpperCase() }));
   }, []);
 
-  const voiceDebounceTimer = useRef(null);
-  const voiceQueue = useRef({ targetWord: null, lastWord: null });
+  const onWordLearned = useCallback((wordObj) => {
+    if (!wordObj) return;
+    setLearnedWords((prev) => {
+      if (!prev.some((w) => (w.id || w.english) === (wordObj.id || wordObj.english))) {
+        return [...prev, wordObj];
+      }
+      return prev;
+    });
+    const recordWordQuizResult = useMemolandumStore.getState().recordWordQuizResult;
+    if (typeof recordWordQuizResult === 'function') {
+      recordWordQuizResult(wordObj, true, 6, { language: langId, gameId: 'breakout' });
+    }
+  }, [langId]);
 
   const audioPlayerRef = useRef(null);
 
@@ -63,7 +74,10 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
     }
   }, []);
 
-  const onPlayVoice = useCallback((wordText, isTarget, audioUrl) => {
+  const onPlayVoice = useCallback((wordText, isTarget, audioUrl, trText) => {
+    if (isTarget) {
+      triggerHaptic('light');
+    }
     // Play SFX if enabled
     if (isFxEnabled) {
        try {
@@ -83,30 +97,32 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
        }
     }
 
-    if (isAudioEnabled) {
-       if (audioUrl && audioPlayerRef.current) {
-          try {
-            audioPlayerRef.current.src = audioUrl;
-            audioPlayerRef.current.load();
-            audioPlayerRef.current.currentTime = 0;
-            audioPlayerRef.current.play().catch(e => console.warn("Audio play failed:", e));
-          } catch (e) {
-            console.error("Audio playback error:", e);
-          }
-       } else if ('speechSynthesis' in window) {
-         window.speechSynthesis.cancel(); // Interrupt any ongoing speech
-         const utter = new SpeechSynthesisUtterance(wordText);
-         utter.lang = 'en-US';
-         window.speechSynthesis.speak(utter);
-       }
+    if (isAudioEnabled) { playWordPronunciation({ english: wordText, turkish: trText || "", audioUrl }, { isAudioEnabled, langId }); return; }
+    if (false) {
+      const fallbackTts = () => {
+        speakTts(wordText, { lang: getSpeechLangCode(langId), rate: 0.9 });
+      };
+
+      if (audioUrl && audioPlayerRef.current) {
+        try {
+          const resolvedUrl = resolveDataUrl(audioUrl);
+          audioPlayerRef.current.onerror = () => fallbackTts();
+          audioPlayerRef.current.src = resolvedUrl;
+          audioPlayerRef.current.load();
+          audioPlayerRef.current.currentTime = 0;
+          audioPlayerRef.current.play().catch(() => fallbackTts());
+        } catch (e) {
+          fallbackTts();
+        }
+      } else {
+        fallbackTts();
+      }
     }
-  }, [isAudioEnabled, isFxEnabled]);
+  }, [isAudioEnabled, isFxEnabled, langId]);
 
   // Engine Initialization
   useEffect(() => {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel(); // Clear any pending TTS from previous games
-    }
+    stopTts();
     
     if (!canvasRef.current || isLoading || words.length === 0) return;
 
@@ -115,7 +131,8 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
       onUpdateLives,
       onGameOver,
       onPlayVoice,
-      onTargetWord
+      onTargetWord,
+      onWordLearned
     };
 
     const engine = new RetroBreakoutEngine(canvasRef.current, words, callbacks);
@@ -143,7 +160,7 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
         engineRef.current.destroy();
       }
     };
-  }, [isLoading, words, onScore, onUpdateLives, onGameOver, onPlayVoice, onTargetWord]);
+  }, [isLoading, words, onScore, onUpdateLives, onGameOver, onPlayVoice, onTargetWord, onWordLearned]);
 
   // Handle Global State Sync when Game Ends (yalnızca senkronlanmamış delta)
   useEffect(() => {
@@ -226,7 +243,7 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
             onRestart={restartGame} 
             onMainMenu={() => {
               if (onExit) onExit();
-              else window.location.href = '/';
+              else window.location.href = '/games/';
             }}
             words={words}
             levelId={levelId}
@@ -250,7 +267,7 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
             onRestart={restartGame}
             onMainMenu={() => {
               if (onExit) onExit();
-              else window.location.href = '/';
+              else window.location.href = '/games/';
             }}
             words={words}
             levelId={levelId}
@@ -267,7 +284,7 @@ export default function RetroBreakout({ levelId, langId, onExit, onNextLevel, is
             onNextLevel={onNextLevel}
             onMainMenu={() => {
               if (onExit) onExit();
-              else window.location.href = '/';
+              else window.location.href = '/games/';
             }}
             words={words}
             levelId={levelId}

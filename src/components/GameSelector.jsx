@@ -164,6 +164,66 @@ const GAMES = [
       </svg>
     )
   },
+  { 
+    id: 'orbitlex', 
+    categoryLabel: 'ORBITAL PLATFORMER', 
+    name: 'OrbitLex', 
+    desc: 'Gezegen yörüngesinde süzül, eş anlam kristallerini topla.',
+    colors: { text: 'text-indigo-400', border: 'border-indigo-400', shadow: 'shadow-[0_0_15px_rgba(99,102,241,0.4)]', bg: 'bg-indigo-500' },
+    iconSvg: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full drop-shadow-[0_0_10px_rgba(99,102,241,0.8)]">
+        <circle cx="12" cy="12" r="4" fill="rgba(99,102,241,0.2)" stroke="#818cf8" />
+        <ellipse cx="12" cy="12" rx="9" ry="3.5" stroke="#a5b4fc" strokeWidth="1.5" transform="rotate(-25 12 12)" />
+        <circle cx="18" cy="9" r="1.5" fill="#f59e0b" stroke="#f59e0b" />
+      </svg>
+    )
+  },
+  { 
+    id: 'word-card', 
+    categoryLabel: 'INTERACTIVE FLASHCARDS', 
+    name: 'Kelime Kartı', 
+    desc: 'Sesli ve interaktif ünite kartlarıyla çalış.',
+    colors: { text: 'text-teal-400', border: 'border-teal-400', shadow: 'shadow-[0_0_15px_rgba(45,212,191,0.4)]', bg: 'bg-teal-500' },
+    iconSvg: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full drop-shadow-[0_0_10px_rgba(45,212,191,0.8)]">
+        <rect x="3" y="4" width="18" height="16" rx="3" fill="rgba(45,212,191,0.2)" stroke="#2dd4bf" />
+        <path d="M7 8h10M7 12h6M7 16h8" stroke="#2dd4bf" strokeWidth="2" strokeLinecap="round" />
+      </svg>
+    )
+  },
+  { 
+    id: 'word-board', 
+    categoryLabel: 'GARDEN WORD BOARD', 
+    name: 'Ahşap Kelime Panosu', 
+    desc: 'Güneşli bahçede 8 kartlık ahşap pano üzerinde sesli kelime avı.',
+    colors: { text: 'text-green-400', border: 'border-green-400', shadow: 'shadow-[0_0_15px_rgba(34,197,94,0.4)]', bg: 'bg-green-500' },
+    iconSvg: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full drop-shadow-[0_0_10px_rgba(34,197,94,0.8)]">
+        <rect x="2" y="4" width="20" height="16" rx="3" fill="rgba(34,197,94,0.2)" stroke="#4ade80" />
+        <rect x="5" y="7" width="4" height="4" rx="1" fill="#4ade80" />
+        <rect x="10" y="7" width="4" height="4" rx="1" fill="#4ade80" />
+        <rect x="15" y="7" width="4" height="4" rx="1" fill="#4ade80" />
+        <rect x="5" y="13" width="4" height="4" rx="1" fill="#4ade80" />
+        <rect x="10" y="13" width="4" height="4" rx="1" fill="#4ade80" />
+        <rect x="15" y="13" width="4" height="4" rx="1" fill="#4ade80" />
+      </svg>
+    )
+  },
+  { 
+    id: 'star-cards', 
+    categoryLabel: 'STAR TRIO CARDS', 
+    name: 'Yıldız Kartlar', 
+    desc: 'Güneşli çayırda 3 renkli karttan doğru kelimeyi seç, yıldızları patlat.',
+    colors: { text: 'text-yellow-400', border: 'border-yellow-400', shadow: 'shadow-[0_0_15px_rgba(250,204,21,0.4)]', bg: 'bg-yellow-500' },
+    iconSvg: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full drop-shadow-[0_0_10px_rgba(250,204,21,0.8)]">
+        <rect x="2" y="8" width="6" height="10" rx="1.5" fill="rgba(250,204,21,0.25)" stroke="#facc15" />
+        <rect x="9" y="6" width="6" height="11" rx="1.5" fill="rgba(168,85,247,0.25)" stroke="#a855f7" />
+        <rect x="16" y="8" width="6" height="10" rx="1.5" fill="rgba(239,68,68,0.25)" stroke="#ef4444" />
+        <path d="M12 2l1.1 2.2L15.5 4.5l-1.75 1.7.4 2.4L12 7.5 9.85 8.6l.4-2.4L8.5 4.5l2.4-.3L12 2z" fill="#facc15" stroke="#eab308" strokeWidth="1" />
+      </svg>
+    )
+  },
 ];
 
 export default function GameSelector({ activeGameId, onSelectGame }) {

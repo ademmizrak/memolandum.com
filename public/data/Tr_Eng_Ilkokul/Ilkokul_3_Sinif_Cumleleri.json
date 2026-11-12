@@ -1,0 +1,2002 @@
+[
+  {
+    "sentence_id": "s_30001",
+    "english": "Hello, my name is David.",
+    "turkish": "Merhaba, benim adım David.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 1,
+      "unit_name": "Greeting"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "greeting"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30001.mp3",
+    "image_id": "s_30001",
+    "imageUrl": "/assets/sentences/s_30001.png"
+  },
+  {
+    "sentence_id": "s_30002",
+    "english": "How do you feel today?",
+    "turkish": "Bugün nasıl hissediyorsun?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 1,
+      "unit_name": "Greeting"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "greeting"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30002.mp3",
+    "image_id": "s_30002",
+    "imageUrl": "/assets/sentences/s_30002.png"
+  },
+  {
+    "sentence_id": "s_30003",
+    "english": "I feel very happy today.",
+    "turkish": "Bugün çok mutlu hissediyorum.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 1,
+      "unit_name": "Greeting"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "greeting"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30003.mp3",
+    "image_id": "s_30003",
+    "imageUrl": "/assets/sentences/s_30003.png"
+  },
+  {
+    "sentence_id": "s_30004",
+    "english": "How old are you?",
+    "turkish": "Kaç yaşındasın?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 1,
+      "unit_name": "Greeting"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "greeting"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30004.mp3",
+    "image_id": "s_30004",
+    "imageUrl": "/assets/sentences/s_30004.png"
+  },
+  {
+    "sentence_id": "s_30005",
+    "english": "I am eight years old.",
+    "turkish": "Ben sekiz yaşındayım.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 1,
+      "unit_name": "Greeting"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "greeting"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30005.mp3",
+    "image_id": "s_30005",
+    "imageUrl": "/assets/sentences/s_30005.png"
+  },
+  {
+    "sentence_id": "s_30006",
+    "english": "I am a primary school student.",
+    "turkish": "Ben bir ilkokul öğrencisiyim.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 1,
+      "unit_name": "Greeting"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "greeting"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30006.mp3",
+    "image_id": "s_30006",
+    "imageUrl": "/assets/sentences/s_30006.png"
+  },
+  {
+    "sentence_id": "s_30007",
+    "english": "How do you spell your name?",
+    "turkish": "Adını nasıl kodlarsın?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 1,
+      "unit_name": "Greeting"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "greeting"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30007.mp3",
+    "image_id": "s_30007",
+    "imageUrl": "/assets/sentences/s_30007.png"
+  },
+  {
+    "sentence_id": "s_30008",
+    "english": "She is my new classmate.",
+    "turkish": "O benim yeni sınıf arkadaşım.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 1,
+      "unit_name": "Greeting"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "greeting"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30008.mp3",
+    "image_id": "s_30008",
+    "imageUrl": "/assets/sentences/s_30008.png"
+  },
+  {
+    "sentence_id": "s_30009",
+    "english": "Have a good day at school!",
+    "turkish": "Okulda iyi günler dilerim!",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 1,
+      "unit_name": "Greeting"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "greeting"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30009.mp3",
+    "image_id": "s_30009",
+    "imageUrl": "/assets/sentences/s_30009.png"
+  },
+  {
+    "sentence_id": "s_30010",
+    "english": "See you later, friend!",
+    "turkish": "Sonra görüşürüz, arkadaşım!",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 1,
+      "unit_name": "Greeting"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "greeting"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30010.mp3",
+    "image_id": "s_30010",
+    "imageUrl": "/assets/sentences/s_30010.png"
+  },
+  {
+    "sentence_id": "s_30011",
+    "english": "This is my father.",
+    "turkish": "Bu benim babam.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 2,
+      "unit_name": "My Family"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_family"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30011.mp3",
+    "image_id": "s_30011",
+    "imageUrl": "/assets/sentences/s_30011.png"
+  },
+  {
+    "sentence_id": "s_30012",
+    "english": "My mother is very kind.",
+    "turkish": "Benim annem çok naziktir.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 2,
+      "unit_name": "My Family"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_family"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30012.mp3",
+    "image_id": "s_30012",
+    "imageUrl": "/assets/sentences/s_30012.png"
+  },
+  {
+    "sentence_id": "s_30013",
+    "english": "Who is this man?",
+    "turkish": "Bu adam kim?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 2,
+      "unit_name": "My Family"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_family"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30013.mp3",
+    "image_id": "s_30013",
+    "imageUrl": "/assets/sentences/s_30013.png"
+  },
+  {
+    "sentence_id": "s_30014",
+    "english": "He is my grandfather.",
+    "turkish": "O benim büyükbabam.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 2,
+      "unit_name": "My Family"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_family"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30014.mp3",
+    "image_id": "s_30014",
+    "imageUrl": "/assets/sentences/s_30014.png"
+  },
+  {
+    "sentence_id": "s_30015",
+    "english": "Is she your sister?",
+    "turkish": "O senin kız kardeşin mi?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 2,
+      "unit_name": "My Family"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_family"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30015.mp3",
+    "image_id": "s_30015",
+    "imageUrl": "/assets/sentences/s_30015.png"
+  },
+  {
+    "sentence_id": "s_30016",
+    "english": "Yes, she is my sister.",
+    "turkish": "Evet, o benim kız kardeşim.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 2,
+      "unit_name": "My Family"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_family"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30016.mp3",
+    "image_id": "s_30016",
+    "imageUrl": "/assets/sentences/s_30016.png"
+  },
+  {
+    "sentence_id": "s_30017",
+    "english": "I have one brother.",
+    "turkish": "Bir erkek kardeşim var.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 2,
+      "unit_name": "My Family"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_family"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30017.mp3",
+    "image_id": "s_30017",
+    "imageUrl": "/assets/sentences/s_30017.png"
+  },
+  {
+    "sentence_id": "s_30018",
+    "english": "My uncle lives in Istanbul.",
+    "turkish": "Benim amcam İstanbul'da yaşıyor.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 2,
+      "unit_name": "My Family"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_family"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30018.mp3",
+    "image_id": "s_30018",
+    "imageUrl": "/assets/sentences/s_30018.png"
+  },
+  {
+    "sentence_id": "s_30019",
+    "english": "I love my big family.",
+    "turkish": "Geniş ailemi seviyorum.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 2,
+      "unit_name": "My Family"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_family"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30019.mp3",
+    "image_id": "s_30019",
+    "imageUrl": "/assets/sentences/s_30019.png"
+  },
+  {
+    "sentence_id": "s_30020",
+    "english": "My aunt makes great cookies.",
+    "turkish": "Teyzem harika kurabiyeler yapar.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 2,
+      "unit_name": "My Family"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_family"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30020.mp3",
+    "image_id": "s_30020",
+    "imageUrl": "/assets/sentences/s_30020.png"
+  },
+  {
+    "sentence_id": "s_30021",
+    "english": "Can you climb a tree?",
+    "turkish": "Ağaca tırmanabilir misin?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 3,
+      "unit_name": "People I Love"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "people_i_love"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30021.mp3",
+    "image_id": "s_30021",
+    "imageUrl": "/assets/sentences/s_30021.png"
+  },
+  {
+    "sentence_id": "s_30022",
+    "english": "Yes, I can climb trees.",
+    "turkish": "Evet, ağaçlara tırmanabilirim.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 3,
+      "unit_name": "People I Love"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "people_i_love"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30022.mp3",
+    "image_id": "s_30022",
+    "imageUrl": "/assets/sentences/s_30022.png"
+  },
+  {
+    "sentence_id": "s_30023",
+    "english": "I can ride a bicycle.",
+    "turkish": "Bisiklet sürebilirim.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 3,
+      "unit_name": "People I Love"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "people_i_love"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30023.mp3",
+    "image_id": "s_30023",
+    "imageUrl": "/assets/sentences/s_30023.png"
+  },
+  {
+    "sentence_id": "s_30024",
+    "english": "He cannot drive a car.",
+    "turkish": "O araba süremez.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 3,
+      "unit_name": "People I Love"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "people_i_love"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30024.mp3",
+    "image_id": "s_30024",
+    "imageUrl": "/assets/sentences/s_30024.png"
+  },
+  {
+    "sentence_id": "s_30025",
+    "english": "She can swim very well.",
+    "turkish": "O çok iyi yüzebilir.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 3,
+      "unit_name": "People I Love"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "people_i_love"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30025.mp3",
+    "image_id": "s_30025",
+    "imageUrl": "/assets/sentences/s_30025.png"
+  },
+  {
+    "sentence_id": "s_30026",
+    "english": "A cheetah can run fast.",
+    "turkish": "Bir çita hızlı koşabilir.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 3,
+      "unit_name": "People I Love"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "people_i_love"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30026.mp3",
+    "image_id": "s_30026",
+    "imageUrl": "/assets/sentences/s_30026.png"
+  },
+  {
+    "sentence_id": "s_30027",
+    "english": "Turtles are slow animals.",
+    "turkish": "Kaplumbağalar yavaş hayvanlardır.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 3,
+      "unit_name": "People I Love"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "people_i_love"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30027.mp3",
+    "image_id": "s_30027",
+    "imageUrl": "/assets/sentences/s_30027.png"
+  },
+  {
+    "sentence_id": "s_30028",
+    "english": "My father is tall and strong.",
+    "turkish": "Babam uzun boylu ve güçlüdür.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 3,
+      "unit_name": "People I Love"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "people_i_love"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30028.mp3",
+    "image_id": "s_30028",
+    "imageUrl": "/assets/sentences/s_30028.png"
+  },
+  {
+    "sentence_id": "s_30029",
+    "english": "Let's fly a kite together!",
+    "turkish": "Hadi birlikte uçurtma uçuralım!",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 3,
+      "unit_name": "People I Love"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "people_i_love"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30029.mp3",
+    "image_id": "s_30029",
+    "imageUrl": "/assets/sentences/s_30029.png"
+  },
+  {
+    "sentence_id": "s_30030",
+    "english": "He is short, but he can jump high.",
+    "turkish": "O kısa boylu ama yükseğe zıplayabilir.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 3,
+      "unit_name": "People I Love"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "people_i_love"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30030.mp3",
+    "image_id": "s_30030",
+    "imageUrl": "/assets/sentences/s_30030.png"
+  },
+  {
+    "sentence_id": "s_30031",
+    "english": "Are you hungry?",
+    "turkish": "Aç mısın?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 4,
+      "unit_name": "Feelings"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "feelings"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30031.mp3",
+    "image_id": "s_30031",
+    "imageUrl": "/assets/sentences/s_30031.png"
+  },
+  {
+    "sentence_id": "s_30032",
+    "english": "Yes, I am hungry.",
+    "turkish": "Evet, acıktım.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 4,
+      "unit_name": "Feelings"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "feelings"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30032.mp3",
+    "image_id": "s_30032",
+    "imageUrl": "/assets/sentences/s_30032.png"
+  },
+  {
+    "sentence_id": "s_30033",
+    "english": "I am thirsty, I want water.",
+    "turkish": "Susamış durumdayım, su istiyorum.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 4,
+      "unit_name": "Feelings"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "feelings"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30033.mp3",
+    "image_id": "s_30033",
+    "imageUrl": "/assets/sentences/s_30033.png"
+  },
+  {
+    "sentence_id": "s_30034",
+    "english": "I feel tired, let's sleep.",
+    "turkish": "Yorgun hissediyorum, hadi uyuyalım.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 4,
+      "unit_name": "Feelings"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "feelings"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30034.mp3",
+    "image_id": "s_30034",
+    "imageUrl": "/assets/sentences/s_30034.png"
+  },
+  {
+    "sentence_id": "s_30035",
+    "english": "Are you feeling angry?",
+    "turkish": "Kızgın mı hissediyorsun?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 4,
+      "unit_name": "Feelings"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "feelings"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30035.mp3",
+    "image_id": "s_30035",
+    "imageUrl": "/assets/sentences/s_30035.png"
+  },
+  {
+    "sentence_id": "s_30036",
+    "english": "No, I am not angry.",
+    "turkish": "Hayır, kızgın değilim.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 4,
+      "unit_name": "Feelings"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "feelings"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30036.mp3",
+    "image_id": "s_30036",
+    "imageUrl": "/assets/sentences/s_30036.png"
+  },
+  {
+    "sentence_id": "s_30037",
+    "english": "I am energetic today!",
+    "turkish": "Bugün enerjik hissediyorum!",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 4,
+      "unit_name": "Feelings"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "feelings"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30037.mp3",
+    "image_id": "s_30037",
+    "imageUrl": "/assets/sentences/s_30037.png"
+  },
+  {
+    "sentence_id": "s_30038",
+    "english": "Why are you sad?",
+    "turkish": "Neden üzgünsün?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 4,
+      "unit_name": "Feelings"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "feelings"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30038.mp3",
+    "image_id": "s_30038",
+    "imageUrl": "/assets/sentences/s_30038.png"
+  },
+  {
+    "sentence_id": "s_30039",
+    "english": "I am cold, close the window.",
+    "turkish": "Üşüdüm, pencereyi kapat.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 4,
+      "unit_name": "Feelings"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "feelings"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30039.mp3",
+    "image_id": "s_30039",
+    "imageUrl": "/assets/sentences/s_30039.png"
+  },
+  {
+    "sentence_id": "s_30040",
+    "english": "I am hot, open the door.",
+    "turkish": "Bunaldım, kapıyı aç.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 4,
+      "unit_name": "Feelings"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "feelings"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30040.mp3",
+    "image_id": "s_30040",
+    "imageUrl": "/assets/sentences/s_30040.png"
+  },
+  {
+    "sentence_id": "s_30041",
+    "english": "How many marbles do you have?",
+    "turkish": "Kaç tane misketin var?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 5,
+      "unit_name": "Toys and Games"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "toys_and_games"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30041.mp3",
+    "image_id": "s_30041",
+    "imageUrl": "/assets/sentences/s_30041.png"
+  },
+  {
+    "sentence_id": "s_30042",
+    "english": "I have fifteen marbles.",
+    "turkish": "On beş tane misketim var.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 5,
+      "unit_name": "Toys and Games"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "toys_and_games"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30042.mp3",
+    "image_id": "s_30042",
+    "imageUrl": "/assets/sentences/s_30042.png"
+  },
+  {
+    "sentence_id": "s_30043",
+    "english": "Let's play chess!",
+    "turkish": "Hadi satranç oynayalım!",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 5,
+      "unit_name": "Toys and Games"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "toys_and_games"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30043.mp3",
+    "image_id": "s_30043",
+    "imageUrl": "/assets/sentences/s_30043.png"
+  },
+  {
+    "sentence_id": "s_30044",
+    "english": "Do you have a teddy bear?",
+    "turkish": "Bir oyuncak ayın var mı?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 5,
+      "unit_name": "Toys and Games"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "toys_and_games"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30044.mp3",
+    "image_id": "s_30044",
+    "imageUrl": "/assets/sentences/s_30044.png"
+  },
+  {
+    "sentence_id": "s_30045",
+    "english": "Yes, I have a brown teddy bear.",
+    "turkish": "Evet, kahverengi bir oyuncak ayım var.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 5,
+      "unit_name": "Toys and Games"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "toys_and_games"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30045.mp3",
+    "image_id": "s_30045",
+    "imageUrl": "/assets/sentences/s_30045.png"
+  },
+  {
+    "sentence_id": "s_30046",
+    "english": "Look at these colorful blocks.",
+    "turkish": "Bu renkli bloklara bak.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 5,
+      "unit_name": "Toys and Games"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "toys_and_games"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30046.mp3",
+    "image_id": "s_30046",
+    "imageUrl": "/assets/sentences/s_30046.png"
+  },
+  {
+    "sentence_id": "s_30047",
+    "english": "Can we play computer games?",
+    "turkish": "Bilgisayar oyunu oynayabilir miyiz?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 5,
+      "unit_name": "Toys and Games"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "toys_and_games"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30047.mp3",
+    "image_id": "s_30047",
+    "imageUrl": "/assets/sentences/s_30047.png"
+  },
+  {
+    "sentence_id": "s_30048",
+    "english": "I love solving puzzles.",
+    "turkish": "Yapboz çözmeyi çok seviyorum.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 5,
+      "unit_name": "Toys and Games"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "toys_and_games"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30048.mp3",
+    "image_id": "s_30048",
+    "imageUrl": "/assets/sentences/s_30048.png"
+  },
+  {
+    "sentence_id": "s_30049",
+    "english": "Where is my toy car?",
+    "turkish": "Oyuncak arabam nerede?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 5,
+      "unit_name": "Toys and Games"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "toys_and_games"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30049.mp3",
+    "image_id": "s_30049",
+    "imageUrl": "/assets/sentences/s_30049.png"
+  },
+  {
+    "sentence_id": "s_30050",
+    "english": "It is under the chair.",
+    "turkish": "O sandalyenin altında.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 5,
+      "unit_name": "Toys and Games"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "toys_and_games"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30050.mp3",
+    "image_id": "s_30050",
+    "imageUrl": "/assets/sentences/s_30050.png"
+  },
+  {
+    "sentence_id": "s_30051",
+    "english": "Where is your mother?",
+    "turkish": "Annen nerede?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 6,
+      "unit_name": "My House"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_house"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30051.mp3",
+    "image_id": "s_30051",
+    "imageUrl": "/assets/sentences/s_30051.png"
+  },
+  {
+    "sentence_id": "s_30052",
+    "english": "She is in the kitchen.",
+    "turkish": "O mutfakta.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 6,
+      "unit_name": "My House"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_house"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30052.mp3",
+    "image_id": "s_30052",
+    "imageUrl": "/assets/sentences/s_30052.png"
+  },
+  {
+    "sentence_id": "s_30053",
+    "english": "My brother is in the bedroom.",
+    "turkish": "Erkek kardeşim yatak odasında.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 6,
+      "unit_name": "My House"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_house"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30053.mp3",
+    "image_id": "s_30053",
+    "imageUrl": "/assets/sentences/s_30053.png"
+  },
+  {
+    "sentence_id": "s_30054",
+    "english": "The cat is in the living room.",
+    "turkish": "Kedi oturma odasında.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 6,
+      "unit_name": "My House"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_house"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30054.mp3",
+    "image_id": "s_30054",
+    "imageUrl": "/assets/sentences/s_30054.png"
+  },
+  {
+    "sentence_id": "s_30055",
+    "english": "Is dad in the garage?",
+    "turkish": "Baba garajda mı?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 6,
+      "unit_name": "My House"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_house"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30055.mp3",
+    "image_id": "s_30055",
+    "imageUrl": "/assets/sentences/s_30055.png"
+  },
+  {
+    "sentence_id": "s_30056",
+    "english": "Yes, he is fixing the car.",
+    "turkish": "Evet, arabayı tamir ediyor.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 6,
+      "unit_name": "My House"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_house"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30056.mp3",
+    "image_id": "s_30056",
+    "imageUrl": "/assets/sentences/s_30056.png"
+  },
+  {
+    "sentence_id": "s_30057",
+    "english": "There is a green sofa in the room.",
+    "turkish": "Odalarda yeşil bir koltuk var.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 6,
+      "unit_name": "My House"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_house"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30057.mp3",
+    "image_id": "s_30057",
+    "imageUrl": "/assets/sentences/s_30057.png"
+  },
+  {
+    "sentence_id": "s_30058",
+    "english": "We play in the garden.",
+    "turkish": "Bahçede oynuyoruz.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 6,
+      "unit_name": "My House"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_house"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30058.mp3",
+    "image_id": "s_30058",
+    "imageUrl": "/assets/sentences/s_30058.png"
+  },
+  {
+    "sentence_id": "s_30059",
+    "english": "Where is the shampoo?",
+    "turkish": "Şampuan nerede?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 6,
+      "unit_name": "My House"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_house"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30059.mp3",
+    "image_id": "s_30059",
+    "imageUrl": "/assets/sentences/s_30059.png"
+  },
+  {
+    "sentence_id": "s_30060",
+    "english": "It is in the bathroom.",
+    "turkish": "Banyoda.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 6,
+      "unit_name": "My House"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "my_house"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30060.mp3",
+    "image_id": "s_30060",
+    "imageUrl": "/assets/sentences/s_30060.png"
+  },
+  {
+    "sentence_id": "s_30061",
+    "english": "Where is the library?",
+    "turkish": "Kütüphane nerede?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 7,
+      "unit_name": "In My City"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "in_my_city"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30061.mp3",
+    "image_id": "s_30061",
+    "imageUrl": "/assets/sentences/s_30061.png"
+  },
+  {
+    "sentence_id": "s_30062",
+    "english": "It is near the hospital.",
+    "turkish": "Hastanenin yanında.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 7,
+      "unit_name": "In My City"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "in_my_city"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30062.mp3",
+    "image_id": "s_30062",
+    "imageUrl": "/assets/sentences/s_30062.png"
+  },
+  {
+    "sentence_id": "s_30063",
+    "english": "Let's go to the museum!",
+    "turkish": "Hadi müzeye gidelim!",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 7,
+      "unit_name": "In My City"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "in_my_city"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30063.mp3",
+    "image_id": "s_30063",
+    "imageUrl": "/assets/sentences/s_30063.png"
+  },
+  {
+    "sentence_id": "s_30064",
+    "english": "The zoo is very big.",
+    "turkish": "Hayvanat bahçesi çok büyük.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 7,
+      "unit_name": "In My City"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "in_my_city"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30064.mp3",
+    "image_id": "s_30064",
+    "imageUrl": "/assets/sentences/s_30064.png"
+  },
+  {
+    "sentence_id": "s_30065",
+    "english": "Is there a bank here?",
+    "turkish": "Burada bir banka var mı?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 7,
+      "unit_name": "In My City"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "in_my_city"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30065.mp3",
+    "image_id": "s_30065",
+    "imageUrl": "/assets/sentences/s_30065.png"
+  },
+  {
+    "sentence_id": "s_30066",
+    "english": "Yes, it is next to the post office.",
+    "turkish": "Evet, postanenin hemen yanında.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 7,
+      "unit_name": "In My City"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "in_my_city"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30066.mp3",
+    "image_id": "s_30066",
+    "imageUrl": "/assets/sentences/s_30066.png"
+  },
+  {
+    "sentence_id": "s_30067",
+    "english": "I buy fruit from the market.",
+    "turkish": "Marketten meyve satın alırım.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 7,
+      "unit_name": "In My City"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "in_my_city"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30067.mp3",
+    "image_id": "s_30067",
+    "imageUrl": "/assets/sentences/s_30067.png"
+  },
+  {
+    "sentence_id": "s_30068",
+    "english": "Children are playing in the park.",
+    "turkish": "Çocuklar parkta oynuyor.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 7,
+      "unit_name": "In My City"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "in_my_city"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30068.mp3",
+    "image_id": "s_30068",
+    "imageUrl": "/assets/sentences/s_30068.png"
+  },
+  {
+    "sentence_id": "s_30069",
+    "english": "My school is very clean.",
+    "turkish": "Benim okulum çok temizdir.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 7,
+      "unit_name": "In My City"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "in_my_city"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30069.mp3",
+    "image_id": "s_30069",
+    "imageUrl": "/assets/sentences/s_30069.png"
+  },
+  {
+    "sentence_id": "s_30070",
+    "english": "Where are you now?",
+    "turkish": "Şu an neredesin?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 7,
+      "unit_name": "In My City"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "in_my_city"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30070.mp3",
+    "image_id": "s_30070",
+    "imageUrl": "/assets/sentences/s_30070.png"
+  },
+  {
+    "sentence_id": "s_30071",
+    "english": "How do you go to school?",
+    "turkish": "Okula nasıl gidiyorsun?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 8,
+      "unit_name": "Transportation"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "transportation"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30071.mp3",
+    "image_id": "s_30071",
+    "imageUrl": "/assets/sentences/s_30071.png"
+  },
+  {
+    "sentence_id": "s_30072",
+    "english": "I go to school by bus.",
+    "turkish": "Okula otobüsle gidiyorum.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 8,
+      "unit_name": "Transportation"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "transportation"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30072.mp3",
+    "image_id": "s_30072",
+    "imageUrl": "/assets/sentences/s_30072.png"
+  },
+  {
+    "sentence_id": "s_30073",
+    "english": "Look at that fast train!",
+    "turkish": "Şu hızlı trene bak!",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 8,
+      "unit_name": "Transportation"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "transportation"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30073.mp3",
+    "image_id": "s_30073",
+    "imageUrl": "/assets/sentences/s_30073.png"
+  },
+  {
+    "sentence_id": "s_30074",
+    "english": "The plane is in the sky.",
+    "turkish": "Uçak gökyüzündedir.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 8,
+      "unit_name": "Transportation"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "transportation"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30074.mp3",
+    "image_id": "s_30074",
+    "imageUrl": "/assets/sentences/s_30074.png"
+  },
+  {
+    "sentence_id": "s_30075",
+    "english": "The ship is on the sea.",
+    "turkish": "Gemi denizin üstündedir.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 8,
+      "unit_name": "Transportation"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "transportation"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30075.mp3",
+    "image_id": "s_30075",
+    "imageUrl": "/assets/sentences/s_30075.png"
+  },
+  {
+    "sentence_id": "s_30076",
+    "english": "Where is the bicycle?",
+    "turkish": "Bisiklet nerede?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 8,
+      "unit_name": "Transportation"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "transportation"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30076.mp3",
+    "image_id": "s_30076",
+    "imageUrl": "/assets/sentences/s_30076.png"
+  },
+  {
+    "sentence_id": "s_30077",
+    "english": "It is in front of the house.",
+    "turkish": "Evin önünde.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 8,
+      "unit_name": "Transportation"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "transportation"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30077.mp3",
+    "image_id": "s_30077",
+    "imageUrl": "/assets/sentences/s_30077.png"
+  },
+  {
+    "sentence_id": "s_30078",
+    "english": "He rides a red motorcycle.",
+    "turkish": "O kırmızı bir motosiklet sürüyor.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 8,
+      "unit_name": "Transportation"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "transportation"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30078.mp3",
+    "image_id": "s_30078",
+    "imageUrl": "/assets/sentences/s_30078.png"
+  },
+  {
+    "sentence_id": "s_30079",
+    "english": "A helicopter can fly high.",
+    "turkish": "Bir helikopter yükseğe uçabilir.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 8,
+      "unit_name": "Transportation"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "transportation"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30079.mp3",
+    "image_id": "s_30079",
+    "imageUrl": "/assets/sentences/s_30079.png"
+  },
+  {
+    "sentence_id": "s_30080",
+    "english": "We travel by train in summer.",
+    "turkish": "Yazın trenle seyahat ederiz.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 8,
+      "unit_name": "Transportation"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "transportation"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30080.mp3",
+    "image_id": "s_30080",
+    "imageUrl": "/assets/sentences/s_30080.png"
+  },
+  {
+    "sentence_id": "s_30081",
+    "english": "How is the weather today?",
+    "turkish": "Bugün hava nasıl?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 9,
+      "unit_name": "Weather"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "weather"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30081.mp3",
+    "image_id": "s_30081",
+    "imageUrl": "/assets/sentences/s_30081.png"
+  },
+  {
+    "sentence_id": "s_30082",
+    "english": "It is sunny and hot today.",
+    "turkish": "Bugün hava güneşli ve sıcak.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 9,
+      "unit_name": "Weather"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "weather"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30082.mp3",
+    "image_id": "s_30082",
+    "imageUrl": "/assets/sentences/s_30082.png"
+  },
+  {
+    "sentence_id": "s_30083",
+    "english": "Take your umbrella, it is rainy.",
+    "turkish": "Şemsiyeni al, hava yağmurlu.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 9,
+      "unit_name": "Weather"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "weather"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30083.mp3",
+    "image_id": "s_30083",
+    "imageUrl": "/assets/sentences/s_30083.png"
+  },
+  {
+    "sentence_id": "s_30084",
+    "english": "It is snowy, let's play outside!",
+    "turkish": "Hava karlı, hadi dışarıda oynayalım!",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 9,
+      "unit_name": "Weather"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "weather"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30084.mp3",
+    "image_id": "s_30084",
+    "imageUrl": "/assets/sentences/s_30084.png"
+  },
+  {
+    "sentence_id": "s_30085",
+    "english": "Is it windy today?",
+    "turkish": "Bugün hava rüzgarlı mı?",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 9,
+      "unit_name": "Weather"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "weather"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30085.mp3",
+    "image_id": "s_30085",
+    "imageUrl": "/assets/sentences/s_30085.png"
+  },
+  {
+    "sentence_id": "s_30086",
+    "english": "Yes, it is very windy.",
+    "turkish": "Evet, hava çok rüzgarlı.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 9,
+      "unit_name": "Weather"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "weather"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30086.mp3",
+    "image_id": "s_30086",
+    "imageUrl": "/assets/sentences/s_30086.png"
+  },
+  {
+    "sentence_id": "s_30087",
+    "english": "Wear your jacket, it is cold.",
+    "turkish": "Ceketini giy, hava soğuk.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 9,
+      "unit_name": "Weather"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "weather"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30087.mp3",
+    "image_id": "s_30087",
+    "imageUrl": "/assets/sentences/s_30087.png"
+  },
+  {
+    "sentence_id": "s_30088",
+    "english": "The sky is cloudy.",
+    "turkish": "Gökyüzü bulutlu.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 9,
+      "unit_name": "Weather"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "weather"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30088.mp3",
+    "image_id": "s_30088",
+    "imageUrl": "/assets/sentences/s_30088.png"
+  },
+  {
+    "sentence_id": "s_30089",
+    "english": "It is warm in spring.",
+    "turkish": "Baharın hava ılık olur.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 9,
+      "unit_name": "Weather"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "weather"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30089.mp3",
+    "image_id": "s_30089",
+    "imageUrl": "/assets/sentences/s_30089.png"
+  },
+  {
+    "sentence_id": "s_30090",
+    "english": "I like sunny weather.",
+    "turkish": "Güneşli havayı severim.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 9,
+      "unit_name": "Weather"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "weather"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30090.mp3",
+    "image_id": "s_30090",
+    "imageUrl": "/assets/sentences/s_30090.png"
+  },
+  {
+    "sentence_id": "s_30091",
+    "english": "Look at those beautiful flowers!",
+    "turkish": "Şu güzel çiçeklere bak!",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 10,
+      "unit_name": "Nature"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "nature"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30091.mp3",
+    "image_id": "s_30091",
+    "imageUrl": "/assets/sentences/s_30091.png"
+  },
+  {
+    "sentence_id": "s_30092",
+    "english": "There are tall trees in the forest.",
+    "turkish": "Ormanda uzun ağaçlar var.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 10,
+      "unit_name": "Nature"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "nature"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30092.mp3",
+    "image_id": "s_30092",
+    "imageUrl": "/assets/sentences/s_30092.png"
+  },
+  {
+    "sentence_id": "s_30093",
+    "english": "The mountain is very high.",
+    "turkish": "Dağ çok yüksektir.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 10,
+      "unit_name": "Nature"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "nature"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30093.mp3",
+    "image_id": "s_30093",
+    "imageUrl": "/assets/sentences/s_30093.png"
+  },
+  {
+    "sentence_id": "s_30094",
+    "english": "Fish swim in the river.",
+    "turkish": "Balıklar nehirde yüzer.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 10,
+      "unit_name": "Nature"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "nature"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30094.mp3",
+    "image_id": "s_30094",
+    "imageUrl": "/assets/sentences/s_30094.png"
+  },
+  {
+    "sentence_id": "s_30095",
+    "english": "The ocean is deep and blue.",
+    "turkish": "Okyanus derin ve mavidir.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 10,
+      "unit_name": "Nature"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "nature"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30095.mp3",
+    "image_id": "s_30095",
+    "imageUrl": "/assets/sentences/s_30095.png"
+  },
+  {
+    "sentence_id": "s_30096",
+    "english": "Birds are flying in the sky.",
+    "turkish": "Kuşlar gökyüzünde uçuyor.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 10,
+      "unit_name": "Nature"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "nature"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30096.mp3",
+    "image_id": "s_30096",
+    "imageUrl": "/assets/sentences/s_30096.png"
+  },
+  {
+    "sentence_id": "s_30097",
+    "english": "A bee makes honey.",
+    "turkish": "Bir arı bal yapar.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 10,
+      "unit_name": "Nature"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "nature"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30097.mp3",
+    "image_id": "s_30097",
+    "imageUrl": "/assets/sentences/s_30097.png"
+  },
+  {
+    "sentence_id": "s_30098",
+    "english": "Dolphins are smart animals.",
+    "turkish": "Yunuslar akıllı hayvanlardır.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 10,
+      "unit_name": "Nature"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "nature"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30098.mp3",
+    "image_id": "s_30098",
+    "imageUrl": "/assets/sentences/s_30098.png"
+  },
+  {
+    "sentence_id": "s_30099",
+    "english": "Protect animals and nature!",
+    "turkish": "Hayvanları ve doğayı koruyun!",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 10,
+      "unit_name": "Nature"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "nature"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30099.mp3",
+    "image_id": "s_30099",
+    "imageUrl": "/assets/sentences/s_30099.png"
+  },
+  {
+    "sentence_id": "s_30100",
+    "english": "I love playing in nature.",
+    "turkish": "Doğada oynamayı seviyorum.",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grade": 3,
+      "unit_no": 10,
+      "unit_name": "Nature"
+    },
+    "tags": [
+      "meb_curriculum",
+      "grade_3",
+      "nature"
+    ],
+    "audio_url": "/data/Tr_Eng_Ilkokul/Audio/Sentences/s_30100.mp3",
+    "image_id": "s_30100",
+    "imageUrl": "/assets/sentences/s_30100.png"
+  }
+]

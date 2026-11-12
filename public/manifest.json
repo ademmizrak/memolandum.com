@@ -1,0 +1,51 @@
+{
+  "name": "Memolandum — Oyna, Ezberle | Play & Memorize",
+  "short_name": "Memolandum",
+  "description": "23 dil yolunda 8 ücretsiz arcade kelime oyunu, 1–12. sınıf İngilizce müfredatı, KPSS sözlük ve Gemini AI Anlık Çeviri.",
+  "start_url": "/#basla",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d0d1a",
+  "theme_color": "#0d0d1a",
+  "categories": ["education", "games"],
+  "icons": [
+    {
+      "src": "/icons/icon-72.webp",
+      "sizes": "72x72",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icons/icon-96.webp",
+      "sizes": "96x96",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icons/icon-128.webp",
+      "sizes": "128x128",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icons/icon-192.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-256.webp",
+      "sizes": "256x256",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icons/icon-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -23,8 +23,14 @@ import {
   FREE_TRANSLATION_QUOTA,
   GUEST_TRANSLATION_QUOTA,
   freeQuotaForUser,
+  isNativeApp,
+  shouldHideExternalPayments,
+  ANDROID_FREE_QUOTA_MESSAGE_TR,
+  ANDROID_FREE_QUOTA_MESSAGE_EN,
 } from "../lib/premium/config";
 import { incrementCloudTranslationCount } from "../lib/premium/usageService";
+import { useLocale } from "../lib/i18n/LocaleProvider";
+import { speakTts } from "../lib/pronunciation";
 
 const SILENCE_MS = 3000;
 const SPEECH_RMS = 0.02;
@@ -49,6 +55,10 @@ const TTS_LANG_MAP = {
 };
 
 export default function QuickTranslateBar({ onOpenPremium } = {}) {
+  const { locale } = useLocale();
+  const isEn = locale === "en";
+  const isAr = locale === "ar";
+  const isPt = locale === "pt";
   const [mounted, setMounted] = useState(false);
   const [inputText, setInputText] = useState("");
   const [targetLang, setTargetLang] = useState("tr");
@@ -87,11 +97,15 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
       const saved = localStorage.getItem(LANG_STORAGE_KEY);
       if (saved && TRANSLATE_LANGUAGES.some((l) => l.code === saved)) {
         setTargetLang(saved);
+      } else if (locale === "ar") {
+        setTargetLang("ar");
+      } else if (locale === "pt") {
+        setTargetLang("pt");
       }
     } catch {
       /* ignore */
     }
-  }, []);
+  }, [locale]);
 
   useEffect(() => {
     isPremiumRef.current = isPremium;
@@ -136,16 +150,34 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
     const max = freeQuotaForUser(isAuthRef.current);
     if (translationCountRef.current >= max) {
       setStatus("error");
-      setError(
-        isAuthRef.current
-          ? `Ücretsiz ${FREE_TRANSLATION_QUOTA} AI çeviri hakkınız doldu.`
-          : `Misafir hakkınız (${GUEST_TRANSLATION_QUOTA}) doldu.`
-      );
-      if (typeof onOpenPremium === "function") onOpenPremium();
+      if (isNativeApp()) {
+        setError(isEn || isAr || isPt ? ANDROID_FREE_QUOTA_MESSAGE_EN : ANDROID_FREE_QUOTA_MESSAGE_TR);
+      } else {
+        setError(
+          isAuthRef.current
+            ? isAr
+              ? `انتهت حصتك المجانية (${FREE_TRANSLATION_QUOTA}) للترجمة الفورية.`
+              : isPt
+                ? `Suas ${FREE_TRANSLATION_QUOTA} traduções gratuitas acabaram.`
+                : isEn
+                  ? `Your ${FREE_TRANSLATION_QUOTA} free AI translations are used up.`
+                  : `Ücretsiz ${FREE_TRANSLATION_QUOTA} AI çeviri hakkınız doldu.`
+            : isAr
+              ? `انتهت حصة الضيف (${GUEST_TRANSLATION_QUOTA}).`
+              : isPt
+                ? `Cota de convidado (${GUEST_TRANSLATION_QUOTA}) atingida.`
+                : isEn
+                  ? `Guest quota (${GUEST_TRANSLATION_QUOTA}) reached.`
+                  : `Misafir hakkınız (${GUEST_TRANSLATION_QUOTA}) doldu.`
+        );
+      }
+      if (!shouldHideExternalPayments() && typeof onOpenPremium === "function") {
+        onOpenPremium();
+      }
       return false;
     }
     return true;
-  }, [onOpenPremium]);
+  }, [onOpenPremium, isEn, isAr, isPt]);
 
   const runTranslation = useCallback(
     async (text) => {
@@ -322,11 +354,8 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
   };
 
   const handleSpeak = (textToSpeak) => {
-    if (!textToSpeak || typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(textToSpeak);
-    utterance.lang = TTS_LANG_MAP[targetLang] || "en-US";
-    window.speechSynthesis.speak(utterance);
+    if (!textToSpeak || typeof window === "undefined") return;
+    speakTts(textToSpeak, { lang: TTS_LANG_MAP[targetLang] || "en-US", rate: 0.9 });
   };
 
   const handleAddToVault = async () => {
@@ -365,17 +394,25 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
       <div className="mm-qtb__inner">
         <div className="mm-qtb__row">
           <div className="mm-qtb__label">
-            <Sparkles className="w-3.5 h-3.5 shrink-0" />
-            <span>Gemini Hızlı Çeviri</span>
+            <Sparkles className="w-3.5 h-3.5 shrink-0" />{" "}
+            <span>
+              {isAr
+                ? "ترجمة Gemini الفورية"
+                : isPt
+                  ? "Tradutor Rápido Gemini"
+                  : isEn
+                    ? "Gemini Quick Translate"
+                    : "Gemini Hızlı Çeviri"}
+            </span>{" "}
             <select
               value={targetLang}
               onChange={handleTargetChange}
               className="bg-slate-950 border border-slate-800 text-[11px] font-bold text-slate-200 rounded-lg px-2 py-1 focus:outline-none focus:border-cyan-500"
-              aria-label="Hedef dil"
+              aria-label={isAr ? "اللغة الهدف" : isPt ? "Idioma de destino" : isEn ? "Target language" : "Hedef dil"}
             >
               {TRANSLATE_LANGUAGES.map((l) => (
                 <option key={l.code} value={l.code}>
-                  {l.name}
+                  {isEn || isAr || isPt ? l.nameEn || l.name : l.name}
                 </option>
               ))}
             </select>
@@ -402,7 +439,15 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
                   runTranslation(inputText);
                 }
               }}
-              placeholder="Kelime veya cümle yazın..."
+              placeholder={
+                isAr
+                  ? "اكتب كلمة أو جملة..."
+                  : isPt
+                    ? "Digite uma palavra ou frase..."
+                    : isEn
+                      ? "Type a word or sentence..."
+                      : "Kelime veya cümle yazın..."
+              }
               className="mm-qtb__input placeholder-slate-500"
               style={{ pointerEvents: "auto", minWidth: 0, flex: 1 }}
             />
@@ -412,7 +457,7 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
                 type="button"
                 onClick={stopRecording}
                 className="p-1 rounded bg-red-500/20 text-red-400 animate-pulse shrink-0"
-                aria-label="Kaydı durdur"
+                aria-label={isAr ? "إيقاف التسجيل" : isPt ? "Parar gravação" : isEn ? "Stop recording" : "Kaydı durdur"}
               >
                 <Square className="w-3 h-3 fill-current" />
               </button>
@@ -421,7 +466,7 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
                 type="button"
                 onClick={startRecording}
                 className="p-1 text-slate-400 hover:text-cyan-400 transition-colors shrink-0"
-                aria-label="Sesli çeviri"
+                aria-label={isAr ? "ترجمة صوتية" : isPt ? "Tradução por voz" : isEn ? "Voice translate" : "Sesli çeviri"}
               >
                 <Mic className="w-3.5 h-3.5" />
               </button>
@@ -433,7 +478,17 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
               disabled={status === "loading" || !inputText.trim()}
               className="px-2.5 py-1 rounded-lg bg-cyan-500 text-slate-950 font-black text-xs hover:bg-cyan-400 transition-colors disabled:opacity-40 shrink-0"
             >
-              {status === "loading" ? <Loader2 className="w-3 h-3 animate-spin" /> : "Çevir"}
+              {status === "loading" ? (
+                <Loader2 className="w-3 h-3 animate-spin" />
+              ) : isAr ? (
+                "ترجم"
+              ) : isPt ? (
+                "Traduzir"
+              ) : isEn ? (
+                "Translate"
+              ) : (
+                "Çevir"
+              )}
             </button>
           </div>
 
@@ -446,7 +501,7 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
                 type="button"
                 onClick={() => handleSpeak(translation)}
                 className="text-slate-400 hover:text-cyan-400 shrink-0"
-                aria-label="Sesli oku"
+                aria-label={isAr ? "استماع" : isPt ? "Ouvir" : isEn ? "Listen" : "Sesli oku"}
               >
                 <Volume2 className="w-3.5 h-3.5" />
               </button>
@@ -454,7 +509,7 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
                 type="button"
                 onClick={handleCopy}
                 className="text-slate-400 hover:text-cyan-400 shrink-0"
-                aria-label="Kopyala"
+                aria-label={isAr ? "نسخ" : isPt ? "Copiar" : isEn ? "Copy" : "Kopyala"}
               >
                 {copied ? (
                   <Check className="w-3.5 h-3.5 text-emerald-400" />
@@ -468,10 +523,28 @@ export default function QuickTranslateBar({ onOpenPremium } = {}) {
                 className="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-bold text-[10px] hover:bg-cyan-500/30 shrink-0"
               >
                 {vaultState === "saved"
-                  ? "Eklendi"
+                  ? isAr
+                    ? "تم الحفظ"
+                    : isPt
+                      ? "Salvo"
+                      : isEn
+                        ? "Saved"
+                        : "Eklendi"
                   : vaultState === "exists"
-                    ? "Var"
-                    : "+ Kasa"}
+                    ? isAr
+                      ? "موجود"
+                      : isPt
+                        ? "No Cofre"
+                        : isEn
+                          ? "In Vault"
+                          : "Var"
+                    : isAr
+                      ? "+ الخزنة"
+                      : isPt
+                        ? "+ Cofre"
+                        : isEn
+                          ? "+ Vault"
+                          : "+ Kasa"}
               </button>
             </div>
           ) : null}

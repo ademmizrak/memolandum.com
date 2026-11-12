@@ -2920,7 +2920,7 @@
     "language_code": "ar",
     "level_tag": "A1_Diger",
     "original_script": "عظيم",
-    "romanized_script": "Aazim",
+    "romanized_script": "'Azim",
     "meaning": "Great",
     "is_latin": false,
     "metadata": {
@@ -4399,7 +4399,7 @@
     "language_code": "ar",
     "level_tag": "A1_Fiiller",
     "original_script": "لعب",
-    "romanized_script": "La'aba",
+    "romanized_script": "La'iba",
     "meaning": "He played",
     "is_latin": false,
     "level": "A1",
@@ -7739,7 +7739,7 @@
     "level_tag": "A2_Temel",
     "original_script": "قاعدة",
     "romanized_script": "Qa'ida",
-    "meaning": "Grammar",
+    "meaning": "Rule / Base",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -8890,7 +8890,7 @@
     "language_code": "ar",
     "level_tag": "A2_Temel",
     "original_script": "متسخ",
-    "romanized_script": "Mutassikh",
+    "romanized_script": "Muttasikh",
     "meaning": "Dirty",
     "is_latin": false,
     "metadata": {
@@ -9215,7 +9215,7 @@
     "level_tag": "A2_Temel",
     "original_script": "يروي",
     "romanized_script": "Yarwi",
-    "meaning": "Quenching",
+    "meaning": "To quench / He quenches",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -10798,7 +10798,7 @@
     "language_code": "ar",
     "level_tag": "B1_Intermediate",
     "original_script": "يخطط",
-    "romanized_script": "Yukhattat",
+    "romanized_script": "Yukhattit",
     "meaning": "He plans",
     "is_latin": false,
     "metadata": {
@@ -12239,7 +12239,7 @@
     "level_tag": "B1_Intermediate",
     "original_script": "خطة",
     "romanized_script": "Khitta",
-    "meaning": "Planning",
+    "meaning": "Plan",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -12994,7 +12994,7 @@
     "language_code": "ar",
     "level_tag": "B1_Intermediate",
     "original_script": "علاج",
-    "romanized_script": "I'laj",
+    "romanized_script": "'Ilaj",
     "meaning": "Treatment",
     "is_latin": false,
     "metadata": {
@@ -13516,7 +13516,7 @@
     "language_code": "ar",
     "level_tag": "B2_Upper_Intermediate",
     "original_script": "استيعاب",
-    "romanized_script": "Istia'ab",
+    "romanized_script": "Isti'ab",
     "meaning": "Comprehension",
     "is_latin": false,
     "metadata": {
@@ -14380,7 +14380,7 @@
     "language_code": "ar",
     "level_tag": "B2_Upper_Intermediate",
     "original_script": "استيعاب",
-    "romanized_script": "Istia'ab",
+    "romanized_script": "Isti'ab",
     "meaning": "Comprehension",
     "is_latin": false,
     "metadata": {
@@ -17045,7 +17045,7 @@
     "level_tag": "C1_Advanced",
     "original_script": "استراتيجية",
     "romanized_script": "Istiratijiyya",
-    "meaning": "Strategic",
+    "meaning": "Strategy",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -17890,7 +17890,7 @@
     "language_code": "ar",
     "level_tag": "C1_Advanced",
     "original_script": "يستنبط",
-    "romanized_script": "Yastinbit",
+    "romanized_script": "Yastanbit",
     "meaning": "He deduces",
     "is_latin": false,
     "metadata": {
@@ -18845,7 +18845,7 @@
     "level_tag": "C1_Advanced",
     "original_script": "إستراتيجية",
     "romanized_script": "Istiratijiyya",
-    "meaning": "Strategic",
+    "meaning": "Strategy",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -18917,7 +18917,7 @@
     "level_tag": "C1_Advanced",
     "original_script": "أكاديمية",
     "romanized_script": "Akadimiyya",
-    "meaning": "Academic",
+    "meaning": "Academy / Academic",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -18969,8 +18969,8 @@
     "id": "ar_c1_108",
     "language_code": "ar",
     "level_tag": "C1_Advanced",
-    "original_script": "معرفية",
-    "romanized_script": "Ma'rifiyya",
+    "original_script": "معرفي",
+    "romanized_script": "Ma'rifi",
     "meaning": "Cognitive",
     "is_latin": false,
     "metadata": {
@@ -18989,7 +18989,7 @@
     "level_tag": "C1_Advanced",
     "original_script": "وجودية",
     "romanized_script": "Wujudiyya",
-    "meaning": "Existential",
+    "meaning": "Existentialism / Existential",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -19348,7 +19348,7 @@
     "language_code": "ar",
     "level_tag": "C1_Advanced",
     "original_script": "علاج",
-    "romanized_script": "I'laj",
+    "romanized_script": "'Ilaj",
     "meaning": "Treatment",
     "is_latin": false,
     "metadata": {
@@ -19421,7 +19421,7 @@
     "level_tag": "C1_Advanced",
     "original_script": "جينات",
     "romanized_script": "Jinat",
-    "meaning": "Genetics",
+    "meaning": "Genes",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -19600,7 +19600,7 @@
     "language_code": "ar",
     "level_tag": "C1_Advanced",
     "original_script": "حركة",
-    "romanized_script": "Harak",
+    "romanized_script": "Haraka",
     "meaning": "Motion",
     "is_latin": false,
     "metadata": {
@@ -22083,7 +22083,7 @@
     "id": "ar_c2_081",
     "language_code": "ar",
     "level_tag": "C2_Mastery",
-    "original_script": "ممييت",
+    "original_script": "مميت",
     "romanized_script": "Mumit",
     "meaning": "Lethal/Deadly",
     "is_latin": false,
@@ -22425,7 +22425,7 @@
     "id": "ar_c2_100",
     "language_code": "ar",
     "level_tag": "C2_Mastery",
-    "original_script": "نفى",
+    "original_script": "نفي",
     "romanized_script": "Nafi",
     "meaning": "Negation",
     "is_latin": false,
@@ -22445,7 +22445,7 @@
     "level_tag": "C2_Mastery",
     "original_script": "إستراتيجية",
     "romanized_script": "Istiratijiyya",
-    "meaning": "Strategic",
+    "meaning": "Strategy",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -22517,7 +22517,7 @@
     "level_tag": "C2_Mastery",
     "original_script": "أكاديمية",
     "romanized_script": "Akadimiyya",
-    "meaning": "Academic",
+    "meaning": "Academy / Academic",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -22569,8 +22569,8 @@
     "id": "ar_c2_108",
     "language_code": "ar",
     "level_tag": "C2_Mastery",
-    "original_script": "معرفية",
-    "romanized_script": "Ma'rifiyya",
+    "original_script": "معرفي",
+    "romanized_script": "Ma'rifi",
     "meaning": "Cognitive",
     "is_latin": false,
     "metadata": {
@@ -22589,7 +22589,7 @@
     "level_tag": "C2_Mastery",
     "original_script": "وجودية",
     "romanized_script": "Wujudiyya",
-    "meaning": "Existential",
+    "meaning": "Existentialism / Existential",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -22948,7 +22948,7 @@
     "language_code": "ar",
     "level_tag": "C2_Mastery",
     "original_script": "علاج",
-    "romanized_script": "I'laj",
+    "romanized_script": "'Ilaj",
     "meaning": "Treatment",
     "is_latin": false,
     "metadata": {
@@ -23021,7 +23021,7 @@
     "level_tag": "C2_Mastery",
     "original_script": "جينات",
     "romanized_script": "Jinat",
-    "meaning": "Genetics",
+    "meaning": "Genes",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -23200,7 +23200,7 @@
     "language_code": "ar",
     "level_tag": "C2_Mastery",
     "original_script": "حركة",
-    "romanized_script": "Harak",
+    "romanized_script": "Haraka",
     "meaning": "Motion",
     "is_latin": false,
     "metadata": {

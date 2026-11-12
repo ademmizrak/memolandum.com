@@ -189,7 +189,7 @@
     "level_tag": "A1_Alphabet",
     "original_script": "ذ",
     "romanized_script": "Dhal",
-    "meaning": "Dhal (Soft th)",
+    "meaning": "Dhal (Voiced th)",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl",
@@ -655,8 +655,8 @@
       "script_direction": "rtl"
     },
     "audio": {
-      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_num_000.mp3",
-      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_000.mp3"
+      "male": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_num_000.mp3",
+      "female": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_000.mp3"
     },
     "audioUrl": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_000.mp3"
   },
@@ -672,8 +672,8 @@
       "script_direction": "rtl"
     },
     "audio": {
-      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_001.mp3",
-      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_001.mp3"
+      "male": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_num_001.mp3",
+      "female": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_001.mp3"
     },
     "audioUrl": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_001.mp3"
   },
@@ -689,8 +689,8 @@
       "script_direction": "rtl"
     },
     "audio": {
-      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_002.mp3",
-      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_002.mp3"
+      "male": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_num_002.mp3",
+      "female": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_002.mp3"
     },
     "audioUrl": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_002.mp3"
   },
@@ -706,8 +706,8 @@
       "script_direction": "rtl"
     },
     "audio": {
-      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_003.mp3",
-      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_003.mp3"
+      "male": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_num_003.mp3",
+      "female": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_003.mp3"
     },
     "audioUrl": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_003.mp3"
   },
@@ -723,8 +723,8 @@
       "script_direction": "rtl"
     },
     "audio": {
-      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_004.mp3",
-      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_004.mp3"
+      "male": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_num_004.mp3",
+      "female": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_004.mp3"
     },
     "audioUrl": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_004.mp3"
   },
@@ -740,8 +740,8 @@
       "script_direction": "rtl"
     },
     "audio": {
-      "male": "/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_alf_005.mp3",
-      "female": "/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_alf_005.mp3"
+      "male": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_male/ara_num_005.mp3",
+      "female": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_005.mp3"
     },
     "audioUrl": "/data/Arabic/audio/ar/alphabet_numbers/audio_ar_alpha_female/ara_num_005.mp3"
   }

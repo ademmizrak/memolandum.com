@@ -55,6 +55,11 @@ export const ABUSE_POLICIES = {
     guest: { max: 15, windowMs: DAY },
     user: { max: 60, windowMs: DAY },
   },
+  // Faz 4: Denial-of-Wallet koruması — istemci başına saatlik/oturumluk telemetri yazım tavanı
+  telemetry_write: {
+    guest: { max: 60, windowMs: HOUR },
+    user: { max: 120, windowMs: HOUR },
+  },
 };
 
 const BEHAVIOR_KEY = "mm_abuse_behavior_v1";

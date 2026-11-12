@@ -14,7 +14,8 @@ const ENGLISH_LEGACY_CATEGORIES = {
   'Tr_Eng_Yaz_Cumleleri': 'Yaz Cümleleri',
   'Tr_Eng_YDS_kelimeleri': 'YDS Kelimeleri',
   'Tr_Eng_YKS_Kelimeleri': 'YKS Kelimeleri',
-  'Tr_Eng_Ilkokul': 'İlkokul'
+  'Tr_Eng_Ilkokul': 'İlkokul',
+  'Tr_Eng_Ortaokul': 'Ortaokul'
 };
 
 const LANG_CODE_NAMES = {

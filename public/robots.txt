@@ -1,0 +1,122 @@
+# Memolandum — Global EdTech & AI Search / GEO Crawler Policy v2.0
+# Canonical Domain: https://memolandum.com
+# LLM Manifests: https://memolandum.com/llms.txt | https://memolandum.com/llms-full.txt
+
+User-Agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /quiz/
+Allow: /learn/
+Allow: /games/
+Allow: /videos/
+Disallow: /auth/
+Disallow: /auth/action/
+Disallow: /admin/
+Disallow: /api/private/
+Disallow: /schools/roster/
+
+# Google Search, Google Gemini Grounding & AI Overviews
+User-Agent: Googlebot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /api/private/
+Disallow: /schools/roster/
+
+User-Agent: Google-Extended
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /api/private/
+Disallow: /schools/roster/
+
+User-Agent: GoogleOther
+Allow: /
+Disallow: /admin/
+Disallow: /auth/
+
+User-Agent: Google-CloudVertexBot
+Allow: /
+Disallow: /admin/
+Disallow: /auth/
+
+# OpenAI (ChatGPT & SearchGPT)
+User-Agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /api/private/
+Disallow: /schools/roster/
+
+User-Agent: OAI-SearchBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /api/private/
+Disallow: /schools/roster/
+
+User-Agent: ChatGPT-User
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /admin/
+Disallow: /auth/
+
+# Anthropic (Claude)
+User-Agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /api/private/
+Disallow: /schools/roster/
+
+User-Agent: anthropic-ai
+Allow: /
+Disallow: /admin/
+Disallow: /auth/
+
+User-Agent: Claude-Web
+Allow: /
+Disallow: /admin/
+Disallow: /auth/
+
+# Perplexity, Apple Intelligence & Microsoft Bing / Copilot
+User-Agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+Disallow: /admin/
+Disallow: /auth/
+Disallow: /api/private/
+Disallow: /schools/roster/
+
+User-Agent: Perplexity-User
+Allow: /
+Disallow: /admin/
+Disallow: /auth/
+
+User-Agent: Applebot-Extended
+Allow: /
+Disallow: /admin/
+Disallow: /auth/
+
+User-Agent: bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /auth/
+
+Host: https://memolandum.com
+Sitemap: https://memolandum.com/sitemap.xml
+LLMs-Txt: https://memolandum.com/llms.txt
+LLMs-Full-Txt: https://memolandum.com/llms-full.txt

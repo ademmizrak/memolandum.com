@@ -32,11 +32,16 @@ import {
   GUEST_TRANSLATION_QUOTA,
   freeQuotaForUser,
   remainingFreeTranslations,
+  shouldHideExternalPayments,
+  isNativeApp,
+  ANDROID_FREE_QUOTA_MESSAGE_TR,
 } from "../../lib/premium/config";
 import {
   fetchCloudTranslationCount,
   incrementCloudTranslationCount,
 } from "../../lib/premium/usageService";
+import { speakTts, stopTts } from "../../lib/pronunciation";
+import { useAnalytics } from "../../hooks/useAnalytics";
 import Link from "next/link";
 
 const SILENCE_MS = 3000;
@@ -63,6 +68,7 @@ const TTS_LANG_MAP = {
 
 export default function TranslateStudioClient() {
   const [mounted, setMounted] = useState(false);
+  const [hideExternalPay, setHideExternalPay] = useState(false);
   const [text, setText] = useState("");
   const [targetLang, setTargetLang] = useState("tr");
   const [translation, setTranslation] = useState("");
@@ -78,6 +84,7 @@ export default function TranslateStudioClient() {
   const [isSpeaking, setIsSpeaking] = useState(false);
 
   const { addLearnedWords, vocabularyVault } = useMemolandumStore();
+  const { trackTranslation, trackVaultAdd } = useAnalytics();
   const isPremium = useMemolandumStore((state) => state.isPremium);
   const isAuthenticated = useMemolandumStore((state) => state.isAuthenticated);
   const uid = useMemolandumStore((state) => state.uid);
@@ -99,10 +106,19 @@ export default function TranslateStudioClient() {
 
   useEffect(() => {
     setMounted(true);
+    setHideExternalPay(shouldHideExternalPayments());
     try {
       const saved = localStorage.getItem(LANG_STORAGE_KEY);
       if (saved && TRANSLATE_LANGUAGES.some((l) => l.code === saved)) {
         setTargetLang(saved);
+      } else {
+        const uiLoc =
+          document?.documentElement?.lang ||
+          localStorage.getItem("memolandum-ui-locale") ||
+          "";
+        if (uiLoc === "ar" || uiLoc === "pt" || uiLoc === "en") {
+          setTargetLang(uiLoc);
+        }
       }
     } catch {
       /* ignore */
@@ -164,11 +180,15 @@ export default function TranslateStudioClient() {
     const max = freeQuotaForUser(isAuthRef.current);
     if (translationCountRef.current >= max) {
       setStatus("error");
-      setError(
-        isAuthRef.current
-          ? `Ücretsiz ${FREE_TRANSLATION_QUOTA} AI çeviri hakkınız doldu. Sınırsız kullanım için Premium'a geçin.`
-          : `Misafir hakkınız (${GUEST_TRANSLATION_QUOTA}) doldu. Üye olarak +${FREE_TRANSLATION_QUOTA} hak kazanın.`
-      );
+      if (shouldHideExternalPayments() || isNativeApp()) {
+        setError(ANDROID_FREE_QUOTA_MESSAGE_TR);
+      } else {
+        setError(
+          isAuthRef.current
+            ? `Ücretsiz ${FREE_TRANSLATION_QUOTA} AI çeviri hakkınız doldu.`
+            : `Misafir hakkınız (${GUEST_TRANSLATION_QUOTA}) doldu. Üye olarak +${FREE_TRANSLATION_QUOTA} hak kazanın.`
+        );
+      }
       return false;
     }
     return true;
@@ -210,6 +230,7 @@ export default function TranslateStudioClient() {
         setContextNotes(res.contextNotes || "");
         setNuances(res.nuances || []);
         setStatus("idle");
+        trackTranslation(`${res.sourceLang || "auto"}-${targetLang}`);
         await consumeQuota();
       } catch (err) {
         setStatus("error");
@@ -375,21 +396,21 @@ export default function TranslateStudioClient() {
   };
 
   const handleSpeak = (speechText, langCode) => {
-    if (!speechText || typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    window.speechSynthesis.cancel();
+    if (!speechText || typeof window === "undefined") return;
     if (isSpeaking) {
+      stopTts();
       setIsSpeaking(false);
       return;
     }
 
-    const utterance = new SpeechSynthesisUtterance(speechText);
     const mapped = TTS_LANG_MAP[langCode] || "en-US";
-    utterance.lang = mapped;
-    utterance.rate = 0.95;
-    utterance.onend = () => setIsSpeaking(false);
-    utterance.onerror = () => setIsSpeaking(false);
     setIsSpeaking(true);
-    window.speechSynthesis.speak(utterance);
+    speakTts(speechText, {
+      lang: mapped,
+      rate: 0.9,
+      onEnd: () => setIsSpeaking(false),
+      onError: () => setIsSpeaking(false),
+    });
   };
 
   const handleAddToVault = async () => {
@@ -411,6 +432,7 @@ export default function TranslateStudioClient() {
 
     setVaultState("saving");
     addLearnedWords([item], item.language);
+    trackVaultAdd(item.english || text.trim(), item.language || targetLang);
 
     const currentUid = uid || auth?.currentUser?.uid;
     if (currentUid) {
@@ -474,12 +496,16 @@ export default function TranslateStudioClient() {
                 <span className="px-3 py-1.5 rounded-full text-xs font-bold bg-cyan-500/10 text-cyan-300 border border-cyan-500/30">
                   ⚡ Kalan Hak: <strong className="text-white">{leftQuota}</strong> / {freeQuotaForUser(isAuthenticated)}
                 </span>
-                <Link
-                  href="/premium/"
-                  className="px-3 py-1.5 rounded-full text-xs font-extrabold bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 no-underline hover:opacity-90 transition-opacity"
-                >
-                  Premiuma Geç →
-                </Link>
+                {!hideExternalPay && (
+                  <a
+                    href="https://www.shopier.com/49186522"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3 py-1.5 rounded-full text-xs font-extrabold bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 no-underline hover:opacity-90 transition-opacity"
+                  >
+                    Premiuma Geç →
+                  </a>
+                )}
               </div>
             )}
           </div>
@@ -511,10 +537,15 @@ export default function TranslateStudioClient() {
         {status === "error" && error && (
           <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/30 text-red-400 text-xs sm:text-sm font-semibold flex items-center justify-between gap-3">
             <span>{error}</span>
-            {!isPremium && (
-              <Link href="/premium/" className="px-3 py-1 bg-red-500 text-white font-extrabold text-xs rounded-lg no-underline hover:bg-red-600">
+            {!isPremium && !hideExternalPay && (
+              <a
+                href="https://www.shopier.com/49186522"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1 bg-red-500 text-white font-extrabold text-xs rounded-lg no-underline hover:bg-red-600"
+              >
                 Yükselt
-              </Link>
+              </a>
             )}
           </div>
         )}

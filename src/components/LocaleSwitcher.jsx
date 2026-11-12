@@ -20,7 +20,7 @@ export default function LocaleSwitcher({ compact = false }) {
             key={code}
             type="button"
             onClick={() => setLocale(code)}
-            className={`min-w-[36px] px-2 py-1 rounded-md text-[11px] font-black tracking-wider transition-colors ${
+            className={`min-w-[30px] sm:min-w-[36px] px-1.5 sm:px-2 py-1 rounded-md text-[11px] font-black tracking-wider transition-colors ${
               active
                 ? "bg-cyan-500/25 text-cyan-200 border border-cyan-400/40"
                 : "text-slate-400 hover:text-white border border-transparent"

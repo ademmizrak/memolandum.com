@@ -672,7 +672,8 @@
     "audio": {
       "default": "/audio/sentences_ru/ru_biz_045.mp3"
     },
-    "audioUrl": "/data/Russian/audio/sentences_ru/ru_sent_045.mp3"
+    "audioUrl": "/data/Russian/audio/sentences_ru/ru_sent_045.mp3",
+    "romanization": "Poydyom, ukhodim."
   },
   {
     "id": "ru_sent_046",
@@ -1407,7 +1408,8 @@
     "audio": {
       "default": "/audio/sentences_ru/ru_biz_094.mp3"
     },
-    "audioUrl": "/data/Russian/audio/sentences_ru/ru_sent_094.mp3"
+    "audioUrl": "/data/Russian/audio/sentences_ru/ru_sent_094.mp3",
+    "romanization": "Ya gorzhus' etim proyektom."
   },
   {
     "id": "ru_sent_095",
@@ -1812,7 +1814,8 @@
     "audio": {
       "default": "/audio/sentences_ru/ru_biz_021.mp3"
     },
-    "audioUrl": "/data/Russian/audio/sentences_ru/ru_biz_021.mp3"
+    "audioUrl": "/data/Russian/audio/sentences_ru/ru_biz_021.mp3",
+    "romanization": "Kontrakt podpisan."
   },
   {
     "id": "ru_biz_022",
@@ -3597,7 +3600,8 @@
     "audio": {
       "default": "/audio/sentences_ru/ru_biz_040.mp3"
     },
-    "audioUrl": "/data/Russian/audio/sentences_ru/ru_dev_040.mp3"
+    "audioUrl": "/data/Russian/audio/sentences_ru/ru_dev_040.mp3",
+    "romanization": "Ya gorzhus' svoim putyom."
   },
   {
     "id": "ru_dev_041",
@@ -4182,7 +4186,8 @@
     "audio": {
       "default": "/audio/sentences_ru/ru_biz_079.mp3"
     },
-    "audioUrl": "/data/Russian/audio/sentences_ru/ru_dev_079.mp3"
+    "audioUrl": "/data/Russian/audio/sentences_ru/ru_dev_079.mp3",
+    "romanization": "Ya tvorcheski podkhozhu k resheniyam."
   },
   {
     "id": "ru_dev_080",
@@ -4692,7 +4697,8 @@
     "audio": {
       "default": "/audio/sentences_ru/ru_biz_013.mp3"
     },
-    "audioUrl": "/data/Russian/audio/sentences_ru/ru_trv_013.mp3"
+    "audioUrl": "/data/Russian/audio/sentences_ru/ru_trv_013.mp3",
+    "romanization": "Eto daleko otsyuda?"
   },
   {
     "id": "ru_trv_014",
@@ -4872,7 +4878,8 @@
     "audio": {
       "default": "/audio/sentences_ru/ru_biz_025.mp3"
     },
-    "audioUrl": "/data/Russian/audio/sentences_ru/ru_trv_025.mp3"
+    "audioUrl": "/data/Russian/audio/sentences_ru/ru_trv_025.mp3",
+    "romanization": "Chto vy porekomenduyete?"
   },
   {
     "id": "ru_trv_026",
@@ -5487,7 +5494,8 @@
     "audio": {
       "default": "/audio/sentences_ru/ru_biz_066.mp3"
     },
-    "audioUrl": "/data/Russian/audio/sentences_ru/ru_trv_066.mp3"
+    "audioUrl": "/data/Russian/audio/sentences_ru/ru_trv_066.mp3",
+    "romanization": "Chto vy porekomenduyete?"
   },
   {
     "id": "ru_trv_067",

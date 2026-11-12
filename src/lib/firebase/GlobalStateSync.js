@@ -85,14 +85,19 @@ class GlobalStateSync {
       const storeProfile = useMemolandumStore.getState().profile;
       const activeProfileId = useMemolandumStore.getState().activeStudyProfileId;
       const currentUser = auth.currentUser;
+
+      // Gizlilik: Liderlik tablosuna Google/Apple gerçek fotoğrafını ve gerçek adını sızdırma
+      const rawPhoto = storeProfile?.photoURL || currentUser?.photoURL || null;
+      const isExternalPhoto = rawPhoto && (rawPhoto.includes("googleusercontent.com") || rawPhoto.includes("apple"));
+
       payload.displayName =
+        storeProfile?.username ||
         storeProfile?.displayName ||
         currentUser?.displayName ||
         "Siber Kadet";
-      payload.photoURL =
-        storeProfile?.photoURL ||
-        currentUser?.photoURL ||
-        null;
+      payload.photoURL = isExternalPhoto
+        ? "https://api.dicebear.com/9.x/bottts/svg?seed=Felix"
+        : (rawPhoto || "https://api.dicebear.com/9.x/bottts/svg?seed=Felix");
 
       // Dinamik oyun bazlı alanları ekle (merge: true ile çalışması için nested object yapıyoruz)
       if (Object.keys(snapshot.games).length > 0) {

@@ -752,7 +752,7 @@
     "level_tag": "Contextual",
     "original_script": "お疲れ様！",
     "romanized_script": "Otsukaresama!",
-    "meaning": "Teşekkürler (Samimi).",
+    "meaning": "Eline sağlık! / Kolay gelsin!",
     "audio": {
       "default": "/audio/sentences_ja/jap_soc_269_otsukaresama.mp3"
     },
@@ -851,7 +851,7 @@
     "level_tag": "Contextual",
     "original_script": "お先に。",
     "romanized_script": "Osakini.",
-    "meaning": "Buyur, önden geç.",
+    "meaning": "Ben önden gidiyorum. / Müsaadenizle önce çıkıyorum.",
     "audio": {
       "default": "/audio/sentences_ja/jap_soc_278_osakini.mp3"
     },
@@ -2609,7 +2609,7 @@
     "level_tag": "B1_Sentence",
     "original_script": "終わります。",
     "romanized_script": "Owarimasu.",
-    "meaning": "Bitiriyorum.",
+    "meaning": "Bitiyor. / Sona eriyor.",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -3257,7 +3257,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_biz_035_ichiba_o_chousa_suru.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_035_ichiba_o_chousa_suru.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_035_ichiba_o_chousa_suru.mp3",
+    "romanization": "Shijou o chousa suru."
   },
   {
     "id": "jap_biz_036",
@@ -3769,7 +3770,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_biz_067_kettei_o_kudaru.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_067_kettei_o_kudaru.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_067_kettei_o_kudaru.mp3",
+    "romanization": "Kettei o kudasu."
   },
   {
     "id": "jap_biz_068",
@@ -4057,7 +4059,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_biz_085_ichiba_o_kakudai_suru.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_085_ichiba_o_kakudai_suru.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_085_ichiba_o_kakudai_suru.mp3",
+    "romanization": "Shijou o kakudai suru."
   },
   {
     "id": "jap_biz_086",
@@ -4697,7 +4700,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_biz_025_teian_ga_arimasu.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_025_teian_ga_arimasu.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_025_teian_ga_arimasu.mp3",
+    "romanization": "Ketsudan o kudasu."
   },
   {
     "id": "jap_grow_026",
@@ -4753,7 +4757,7 @@
     "level_tag": "Growth",
     "original_script": "平和を願う。",
     "romanized_script": "Heiwa o negau.",
-    "meaning": "Barış diler.",
+    "meaning": "Barış dile.",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -6497,7 +6501,7 @@
     "level_tag": "Travel",
     "original_script": "座席はどこですか？",
     "romanized_script": "Zaseki wa doko desu ka?",
-    "meaning": "Koltuk numaram nerede?",
+    "meaning": "Koltuğum nerede?",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -8185,7 +8189,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_biz_043_keikaku_o_neru.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_043_keikaku_o_neru.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_biz_043_keikaku_o_neru.mp3",
+    "romanization": "Tanoshimi desu."
   },
   {
     "id": "jap_soc_044",
@@ -10233,7 +10238,8 @@
     "audio": {
       "default": "/audio/sentences_ja/jap_soc_171_okiiniiri_no_basho_wa_arimasu_ka.mp3"
     },
-    "audioUrl": "/data/Japan/audio/sentences_ja/jap_soc_171_okiiniiri_no_basho_wa_arimasu_ka.mp3"
+    "audioUrl": "/data/Japan/audio/sentences_ja/jap_soc_171_okiiniiri_no_basho_wa_arimasu_ka.mp3",
+    "romanization": "O-kiniiri no basho wa arimasu ka?"
   },
   {
     "id": "jap_soc_172",
@@ -10385,7 +10391,7 @@
     "level_tag": "Social",
     "original_script": "お忙しいですか？",
     "romanized_script": "O-isogashii desu ka?",
-    "meaning": "Müsait misiniz?",
+    "meaning": "Meşgul müsünüz?",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"

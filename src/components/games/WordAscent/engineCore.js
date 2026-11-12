@@ -1,10 +1,11 @@
 import { Star, SoundManager, AscentObjectPool, AscentParticle, AscentFloatingText, Platform } from './engine';
+import { attachAdaptiveCanvasGuard } from '../../../lib/performance/canvasFpsGuard';
 
 export class WordAscentGame {
   constructor(canvas, ctx, vocabulary, callbacks) {
     this.isWordAscentGame = true;
     this.canvas = canvas;
-    this.ctx = ctx;
+    this.ctx = attachAdaptiveCanvasGuard(ctx);
     this.vocabulary = vocabulary;
     this.callbacks = callbacks || {};
 
@@ -198,11 +199,12 @@ export class WordAscentGame {
     // Pick a correct lane (0, 1, or 2)
     const correctLane = Math.floor(Math.random() * 3);
 
-    // Get distractor meanings
+    // Get distractor meanings safely (bounded for small warm-up decks)
     const otherVocab = this.vocabulary.filter(w => w.turkish !== wordObj.turkish);
     const distractorWords = [];
-    while (distractorWords.length < 2 && otherVocab.length > 0) {
-      const w = otherVocab[Math.floor(Math.random() * otherVocab.length)];
+    const shuffledOthers = [...otherVocab].sort(() => 0.5 - Math.random());
+    for (const w of shuffledOthers) {
+      if (distractorWords.length >= 2) break;
       if (!distractorWords.some(d => d.turkish === w.turkish)) {
         distractorWords.push(w);
       }
@@ -561,8 +563,8 @@ export class WordAscentGame {
 
               this.updateReactState();
               this.soundManager.playExplosion();
-              if (this.activeWord.audioUrl) {
-                  this.soundManager.playWordAudio(this.activeWord.audioUrl);
+              if (this.activeWord) {
+                  this.soundManager.speakWord(this.activeWord);
               }
 
               this.comboWords.push({ english: this.activeWord.english, turkish: this.activeWord.turkish });

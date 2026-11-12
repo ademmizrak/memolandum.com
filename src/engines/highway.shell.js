@@ -616,7 +616,7 @@ export class HighwayGame {
     // Generate distractors
     const otherVocab = this.vocabulary.filter(w => w.english !== this.activeWord.english);
     const distractorWords = [];
-    while (distractorWords.length < 3 && otherVocab.length > 0) {
+    while (distractorWords.length < Math.min(3, otherVocab.length) && otherVocab.length > 0) {
       const w = otherVocab[Math.floor(Math.random() * otherVocab.length)];
       if (!distractorWords.includes(w)) {
         distractorWords.push(w);
@@ -814,8 +814,8 @@ export class HighwayGame {
           const controls = document.querySelector('.controls-container');
           if (controls) controls.classList.add('hidden');
           
-          // Next.js React Router fallback
-          window.location.href = '/';
+          // Next.js: kabuk seçici (ana sayfa değil)
+          window.location.href = '/games/';
         }
       };
     }

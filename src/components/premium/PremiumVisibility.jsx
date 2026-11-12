@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Crown, Sparkles, BookOpen, Languages } from "lucide-react";
 import { useMemolandumStore } from "../../store/useMemolandumStore";
@@ -10,26 +10,48 @@ import {
   PAYMENTS_LIVE,
   PREMIUM_PRODUCT,
   remainingFreeTranslations,
+  shouldHideExternalPayments,
 } from "../../lib/premium/config";
 import PremiumCheckoutModal from "./PremiumCheckoutModal";
 
 /**
  * Enterprise Premium görünürlük — web + mobil.
  * Öğrenme bedava mesajını net tutar; AI çeviriyi Premium’a bağlar.
+ * Android Phase 1 (Play Billing kapalıyken): harici ödeme butonlarını gizler, mevcut Premium üyeliği gösterir.
  */
 export function PremiumNavChip({ onOpen }) {
   const isPremium = useMemolandumStore((s) => s.isPremium);
+  const [hideExternal, setHideExternal] = useState(false);
+
+  useEffect(() => {
+    setHideExternal(shouldHideExternalPayments());
+  }, []);
+
   if (isPremium) {
     return (
       <Link
         href="/premium/"
-        className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[10px] font-black tracking-wider bg-amber-500/15 text-amber-200 border border-amber-400/30 no-underline"
+        className="mm-premium-chip inline-flex items-center gap-1 px-2 py-1 rounded-md text-[10px] font-black tracking-wider bg-amber-500/15 text-amber-200 border border-amber-400/30 no-underline"
+        title="Premium durumunuz"
       >
         <Crown size={12} /> PREMIUM
       </Link>
     );
   }
-  return null;
+  if (hideExternal) {
+    return null;
+  }
+  return (
+    <a
+      href="https://www.shopier.com/49186522"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mm-premium-chip inline-flex items-center gap-1 px-2 py-1 rounded-md text-[10px] font-black tracking-wider bg-amber-500/10 text-amber-200 border border-amber-400/35 hover:bg-amber-500/20 transition-colors cursor-pointer no-underline"
+      title={`Premium · ${PREMIUM_PRODUCT.try.label}`}
+    >
+      <Crown size={12} /> PREMIUM
+    </a>
+  );
 }
 
 export function PremiumValueStrip({ onOpenPremium }) {
@@ -37,6 +59,11 @@ export function PremiumValueStrip({ onOpenPremium }) {
   const isAuthenticated = useMemolandumStore((s) => s.isAuthenticated);
   const translationCount = useMemolandumStore((s) => s.translationCount) || 0;
   const left = remainingFreeTranslations(translationCount, isAuthenticated);
+  const [hideExternal, setHideExternal] = useState(false);
+
+  useEffect(() => {
+    setHideExternal(shouldHideExternalPayments());
+  }, []);
 
   return (
     <div
@@ -74,10 +101,12 @@ export function PremiumValueStrip({ onOpenPremium }) {
                 </span>
               )}
             </p>
-            <p className="m-0 text-[10px] text-amber-200/80 mt-0.5 font-medium">
-              Daha Çok Çeviri İçin Premiuma geçin: {PREMIUM_PRODUCT.try.label}
-              {!PAYMENTS_LIVE ? " · güvenli ödeme bağlanıyor" : ""}
-            </p>
+            {!hideExternal && (
+              <p className="m-0 text-[10px] text-amber-200/80 mt-0.5 font-medium">
+                Daha Çok Çeviri İçin Premiuma geçin: {PREMIUM_PRODUCT.try.label}
+                {!PAYMENTS_LIVE ? " · güvenli ödeme bağlanıyor" : ""}
+              </p>
+            )}
           </div>
         </>
       )}

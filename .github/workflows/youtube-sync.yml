@@ -38,6 +38,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/youtube_videos.json
           git commit -m "chore(youtube): auto-sync playlist videos [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin main || true
           git push origin main || echo "No changes to push"
 
       - name: Authenticate to Google Cloud
@@ -46,5 +47,4 @@ jobs:
           credentials_json: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MEMOLANDUM_33DC4 }}
 
       - name: Deploy updated content to GCS
-        continue-on-error: true
         run: node scripts/deploy-content.mjs --only=youtube_videos.json

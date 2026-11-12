@@ -842,7 +842,7 @@
   {
     "id": "pt_sent_061",
     "word": "A chave não entra bem.",
-    "translation": "The key does not enter well.",
+    "translation": "The key does not fit well.",
     "len": 22,
     "tags": [
       "daily",
@@ -2054,7 +2054,8 @@
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_gerencie_bem_o_seu_tempo.mp3"
     },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_gerencie_bem_o_seu_tempo.mp3"
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_gerencie_bem_o_seu_tempo.mp3",
+    "translation": "Manage your time well."
   },
   {
     "id": "pt_prof_048",
@@ -3836,7 +3837,7 @@
   },
   {
     "id": "pt_learn_075",
-    "word": "O superação é minha meta.",
+    "word": "A superação é minha meta.",
     "translation": "Self-improvement is my goal.",
     "len": 26,
     "tags": [
@@ -4055,7 +4056,8 @@
     "audio": {
       "default": "/audio/sentences_BrPt/brpt_o_caminho_é_gratificante.mp3"
     },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_gratificante.mp3"
+    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_gratificante.mp3",
+    "translation": "The path is rewarding."
   },
   {
     "id": "pt_learn_091",
@@ -5390,7 +5392,7 @@
   {
     "id": "pt_trav_086",
     "word": "O povo é acolhedor.",
-    "translation": "The town is welcoming.",
+    "translation": "The people are welcoming.",
     "len": 19,
     "tags": [
       "travel",

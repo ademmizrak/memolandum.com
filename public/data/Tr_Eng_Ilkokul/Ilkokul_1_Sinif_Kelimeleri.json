@@ -1,0 +1,2802 @@
+[
+  {
+    "word_id": "w_10001",
+    "word": "a",
+    "translation": "a harfi / bir",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 1,
+          "unit_name": "Alphabets & Phonics"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "phonics",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Letter A is for learning.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10001.wav"
+  },
+  {
+    "word_id": "w_10002",
+    "word": "b",
+    "translation": "b harfi",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 1,
+          "unit_name": "Alphabets & Phonics"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "phonics",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Letter B is for learning.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10002.wav"
+  },
+  {
+    "word_id": "w_10003",
+    "word": "c",
+    "translation": "c harfi",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 1,
+          "unit_name": "Alphabets & Phonics"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "phonics",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Letter C is for learning.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10003.wav"
+  },
+  {
+    "word_id": "w_10004",
+    "word": "apple",
+    "translation": "elma",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 1,
+          "unit_name": "Alphabets & Phonics"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "food",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a apple.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10004.wav"
+  },
+  {
+    "word_id": "w_10005",
+    "word": "ball",
+    "translation": "top",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 1,
+          "unit_name": "Alphabets & Phonics"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "toys",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a ball.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10005.wav"
+  },
+  {
+    "word_id": "w_10006",
+    "word": "cat",
+    "translation": "kedi",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "animals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a cat.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10006.wav"
+  },
+  {
+    "word_id": "w_10007",
+    "word": "dog",
+    "translation": "köpek",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "animals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a dog.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10007.wav"
+  },
+  {
+    "word_id": "w_10008",
+    "word": "egg",
+    "translation": "yumurta",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 1,
+          "unit_name": "Alphabets & Phonics"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "food",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a egg.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10008.wav"
+  },
+  {
+    "word_id": "w_10009",
+    "word": "fish",
+    "translation": "balık",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "animals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a fish.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10009.wav"
+  },
+  {
+    "word_id": "w_10010",
+    "word": "girl",
+    "translation": "kız çocuk",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 1,
+          "unit_name": "Alphabets & Phonics"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "people",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a girl.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10010.wav"
+  },
+  {
+    "word_id": "w_10011",
+    "word": "hat",
+    "translation": "şapka",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 1,
+          "unit_name": "Alphabets & Phonics"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "clothes",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a hat.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10011.wav"
+  },
+  {
+    "word_id": "w_10012",
+    "word": "ice",
+    "translation": "buz",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "nature",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a ice.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10012.wav"
+  },
+  {
+    "word_id": "w_10013",
+    "word": "jam",
+    "translation": "reçel",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 1,
+          "unit_name": "Alphabets & Phonics"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "food",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a jam.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10013.wav"
+  },
+  {
+    "word_id": "w_10014",
+    "word": "kite",
+    "translation": "uçurtma",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 1,
+          "unit_name": "Alphabets & Phonics"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "toys",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a kite.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10014.wav"
+  },
+  {
+    "word_id": "w_10015",
+    "word": "lion",
+    "translation": "aslan",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "alphabet",
+      "animals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a lion.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10015.wav"
+  },
+  {
+    "word_id": "w_10016",
+    "word": "one",
+    "translation": "bir (1)",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 2,
+          "unit_name": "Numbers"
+        }
+      ]
+    },
+    "tags": [
+      "numbers",
+      "math_basic",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "I have one apples.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10016.wav"
+  },
+  {
+    "word_id": "w_10017",
+    "word": "two",
+    "translation": "iki (2)",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 2,
+          "unit_name": "Numbers"
+        }
+      ]
+    },
+    "tags": [
+      "numbers",
+      "math_basic",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "I have two apples.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10017.wav"
+  },
+  {
+    "word_id": "w_10018",
+    "word": "three",
+    "translation": "üç (3)",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 2,
+          "unit_name": "Numbers"
+        }
+      ]
+    },
+    "tags": [
+      "numbers",
+      "math_basic",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "I have three apples.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10018.wav"
+  },
+  {
+    "word_id": "w_10019",
+    "word": "four",
+    "translation": "dört (4)",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 2,
+          "unit_name": "Numbers"
+        }
+      ]
+    },
+    "tags": [
+      "numbers",
+      "math_basic",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "I have four apples.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10019.wav"
+  },
+  {
+    "word_id": "w_10020",
+    "word": "five",
+    "translation": "beş (5)",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 2,
+          "unit_name": "Numbers"
+        }
+      ]
+    },
+    "tags": [
+      "numbers",
+      "math_basic",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "I have five apples.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10020.wav"
+  },
+  {
+    "word_id": "w_10021",
+    "word": "six",
+    "translation": "altı (6)",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 2,
+          "unit_name": "Numbers"
+        }
+      ]
+    },
+    "tags": [
+      "numbers",
+      "math_basic",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "I have six apples.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10021.wav"
+  },
+  {
+    "word_id": "w_10022",
+    "word": "seven",
+    "translation": "yedi (7)",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 2,
+          "unit_name": "Numbers"
+        }
+      ]
+    },
+    "tags": [
+      "numbers",
+      "math_basic",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "I have seven apples.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10022.wav"
+  },
+  {
+    "word_id": "w_10023",
+    "word": "eight",
+    "translation": "sekiz (8)",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 2,
+          "unit_name": "Numbers"
+        }
+      ]
+    },
+    "tags": [
+      "numbers",
+      "math_basic",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "I have eight apples.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10023.wav"
+  },
+  {
+    "word_id": "w_10024",
+    "word": "nine",
+    "translation": "dokuz (9)",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 2,
+          "unit_name": "Numbers"
+        }
+      ]
+    },
+    "tags": [
+      "numbers",
+      "math_basic",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "I have nine apples.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10024.wav"
+  },
+  {
+    "word_id": "w_10025",
+    "word": "ten",
+    "translation": "on (10)",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 2,
+          "unit_name": "Numbers"
+        }
+      ]
+    },
+    "tags": [
+      "numbers",
+      "math_basic",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "I have ten apples.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10025.wav"
+  },
+  {
+    "word_id": "w_10026",
+    "word": "red",
+    "translation": "kırmızı",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 3,
+          "unit_name": "Primary Colors"
+        }
+      ]
+    },
+    "tags": [
+      "colors",
+      "visuals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "It is red.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10026.wav"
+  },
+  {
+    "word_id": "w_10027",
+    "word": "blue",
+    "translation": "mavi",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 3,
+          "unit_name": "Primary Colors"
+        }
+      ]
+    },
+    "tags": [
+      "colors",
+      "visuals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "It is blue.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10027.wav"
+  },
+  {
+    "word_id": "w_10028",
+    "word": "yellow",
+    "translation": "sarı",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 3,
+          "unit_name": "Primary Colors"
+        }
+      ]
+    },
+    "tags": [
+      "colors",
+      "visuals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "It is yellow.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10028.wav"
+  },
+  {
+    "word_id": "w_10029",
+    "word": "green",
+    "translation": "yeşil",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 3,
+          "unit_name": "Primary Colors"
+        }
+      ]
+    },
+    "tags": [
+      "colors",
+      "visuals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "It is green.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10029.wav"
+  },
+  {
+    "word_id": "w_10030",
+    "word": "orange",
+    "translation": "turuncu",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 3,
+          "unit_name": "Primary Colors"
+        }
+      ]
+    },
+    "tags": [
+      "colors",
+      "visuals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "It is orange.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10030.wav"
+  },
+  {
+    "word_id": "w_10031",
+    "word": "purple",
+    "translation": "mor",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 3,
+          "unit_name": "Primary Colors"
+        }
+      ]
+    },
+    "tags": [
+      "colors",
+      "visuals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "It is purple.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10031.wav"
+  },
+  {
+    "word_id": "w_10032",
+    "word": "pink",
+    "translation": "pembe",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 3,
+          "unit_name": "Primary Colors"
+        }
+      ]
+    },
+    "tags": [
+      "colors",
+      "visuals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "It is pink.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10032.wav"
+  },
+  {
+    "word_id": "w_10033",
+    "word": "black",
+    "translation": "siyah",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 3,
+          "unit_name": "Primary Colors"
+        }
+      ]
+    },
+    "tags": [
+      "colors",
+      "visuals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "It is black.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10033.wav"
+  },
+  {
+    "word_id": "w_10034",
+    "word": "white",
+    "translation": "beyaz",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 3,
+          "unit_name": "Primary Colors"
+        }
+      ]
+    },
+    "tags": [
+      "colors",
+      "visuals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "It is white.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10034.wav"
+  },
+  {
+    "word_id": "w_10035",
+    "word": "brown",
+    "translation": "kahverengi",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 3,
+          "unit_name": "Primary Colors"
+        }
+      ]
+    },
+    "tags": [
+      "colors",
+      "visuals",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "It is brown.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10035.wav"
+  },
+  {
+    "word_id": "w_10036",
+    "word": "hello",
+    "translation": "merhaba",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "social",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Hello! How are you?",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10036.wav"
+  },
+  {
+    "word_id": "w_10037",
+    "word": "hi",
+    "translation": "selam",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "social",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Hi! How are you?",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10037.wav"
+  },
+  {
+    "word_id": "w_10038",
+    "word": "goodbye",
+    "translation": "hoşça kal",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "social",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Goodbye, see you later!",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10038.wav"
+  },
+  {
+    "word_id": "w_10039",
+    "word": "bye",
+    "translation": "güle güle",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "social",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Bye, see you later!",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10039.wav"
+  },
+  {
+    "word_id": "w_10040",
+    "word": "good morning",
+    "translation": "günaydın",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "social",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a good morning.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10040.wav"
+  },
+  {
+    "word_id": "w_10041",
+    "word": "good night",
+    "translation": "iyi geceler",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "social",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a good night.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10041.wav"
+  },
+  {
+    "word_id": "w_10042",
+    "word": "welcome",
+    "translation": "hoş geldiniz",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "social",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a welcome.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10042.wav"
+  },
+  {
+    "word_id": "w_10043",
+    "word": "name",
+    "translation": "isim / ad",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "identity",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a name.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10043.wav"
+  },
+  {
+    "word_id": "w_10044",
+    "word": "I",
+    "translation": "ben",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "pronoun",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a I.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10044.wav"
+  },
+  {
+    "word_id": "w_10045",
+    "word": "you",
+    "translation": "sen / siz",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "pronoun",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a you.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10045.wav"
+  },
+  {
+    "word_id": "w_10046",
+    "word": "yes",
+    "translation": "evet",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "basic_words",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a yes.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10046.wav"
+  },
+  {
+    "word_id": "w_10047",
+    "word": "no",
+    "translation": "hayır",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "basic_words",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a no.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10047.wav"
+  },
+  {
+    "word_id": "w_10048",
+    "word": "please",
+    "translation": "lütfen",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "polite",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a please.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10048.wav"
+  },
+  {
+    "word_id": "w_10049",
+    "word": "thank you",
+    "translation": "teşekkür ederim",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "polite",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a thank you.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10049.wav"
+  },
+  {
+    "word_id": "w_10050",
+    "word": "friend",
+    "translation": "arkadaş",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 4,
+          "unit_name": "Basic Greetings"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "social",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a friend.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10050.wav"
+  },
+  {
+    "word_id": "w_10051",
+    "word": "bird",
+    "translation": "kuş",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "pets",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a bird.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10051.wav"
+  },
+  {
+    "word_id": "w_10052",
+    "word": "rabbit",
+    "translation": "tavşan",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "pets",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a rabbit.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10052.wav"
+  },
+  {
+    "word_id": "w_10053",
+    "word": "duck",
+    "translation": "ördek",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "farm",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a duck.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10053.wav"
+  },
+  {
+    "word_id": "w_10054",
+    "word": "frog",
+    "translation": "kurbağa",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "nature",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a frog.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10054.wav"
+  },
+  {
+    "word_id": "w_10055",
+    "word": "mouse",
+    "translation": "fare",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "pets",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a mouse.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10055.wav"
+  },
+  {
+    "word_id": "w_10056",
+    "word": "turtle",
+    "translation": "kaplumbağa",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "pets",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a turtle.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10056.wav"
+  },
+  {
+    "word_id": "w_10057",
+    "word": "bear",
+    "translation": "ayı",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "wild",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a bear.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10057.wav"
+  },
+  {
+    "word_id": "w_10058",
+    "word": "monkey",
+    "translation": "maymun",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "wild",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a monkey.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10058.wav"
+  },
+  {
+    "word_id": "w_10059",
+    "word": "bee",
+    "translation": "arı",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "insects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a bee.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10059.wav"
+  },
+  {
+    "word_id": "w_10060",
+    "word": "butterfly",
+    "translation": "kelebek",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "insects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a butterfly.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10060.wav"
+  },
+  {
+    "word_id": "w_10061",
+    "word": "cow",
+    "translation": "inek",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "farm",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a cow.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10061.wav"
+  },
+  {
+    "word_id": "w_10062",
+    "word": "horse",
+    "translation": "at",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "farm",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a horse.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10062.wav"
+  },
+  {
+    "word_id": "w_10063",
+    "word": "sheep",
+    "translation": "koyun",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "farm",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a sheep.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10063.wav"
+  },
+  {
+    "word_id": "w_10064",
+    "word": "chicken",
+    "translation": "tavuk",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "farm",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a chicken.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10064.wav"
+  },
+  {
+    "word_id": "w_10065",
+    "word": "elephant",
+    "translation": "fil",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 5,
+          "unit_name": "Animals & Pets"
+        }
+      ]
+    },
+    "tags": [
+      "animals",
+      "wild",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a elephant.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10065.wav"
+  },
+  {
+    "word_id": "w_10066",
+    "word": "book",
+    "translation": "kitap",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a book.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10066.wav"
+  },
+  {
+    "word_id": "w_10067",
+    "word": "pen",
+    "translation": "tükenmez kalem",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a pen.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10067.wav"
+  },
+  {
+    "word_id": "w_10068",
+    "word": "pencil",
+    "translation": "kurşun kalem",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a pencil.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10068.wav"
+  },
+  {
+    "word_id": "w_10069",
+    "word": "bag",
+    "translation": "çanta",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a bag.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10069.wav"
+  },
+  {
+    "word_id": "w_10070",
+    "word": "door",
+    "translation": "kapı",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a door.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10070.wav"
+  },
+  {
+    "word_id": "w_10071",
+    "word": "window",
+    "translation": "pencere",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a window.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10071.wav"
+  },
+  {
+    "word_id": "w_10072",
+    "word": "desk",
+    "translation": "sıra / çalışma masası",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a desk.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10072.wav"
+  },
+  {
+    "word_id": "w_10073",
+    "word": "chair",
+    "translation": "sandalye",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a chair.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10073.wav"
+  },
+  {
+    "word_id": "w_10074",
+    "word": "eraser",
+    "translation": "silgi",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a eraser.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10074.wav"
+  },
+  {
+    "word_id": "w_10075",
+    "word": "ruler",
+    "translation": "cetvel",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a ruler.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10075.wav"
+  },
+  {
+    "word_id": "w_10076",
+    "word": "teacher",
+    "translation": "öğretmen",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "people",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a teacher.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10076.wav"
+  },
+  {
+    "word_id": "w_10077",
+    "word": "student",
+    "translation": "öğrenci",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "people",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a student.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10077.wav"
+  },
+  {
+    "word_id": "w_10078",
+    "word": "school",
+    "translation": "okul",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "places",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a school.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10078.wav"
+  },
+  {
+    "word_id": "w_10079",
+    "word": "box",
+    "translation": "kutu",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a box.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10079.wav"
+  },
+  {
+    "word_id": "w_10080",
+    "word": "paper",
+    "translation": "kağıt",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 6,
+          "unit_name": "Classroom Objects"
+        }
+      ]
+    },
+    "tags": [
+      "classroom",
+      "objects",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a paper.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10080.wav"
+  },
+  {
+    "word_id": "w_10081",
+    "word": "listen",
+    "translation": "dinlemek",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "classroom_rules",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Please listen.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10081.wav"
+  },
+  {
+    "word_id": "w_10082",
+    "word": "look",
+    "translation": "bakmak",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "classroom_rules",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Please look.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10082.wav"
+  },
+  {
+    "word_id": "w_10083",
+    "word": "sing",
+    "translation": "şarkı söylemek",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "fun",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a sing.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10083.wav"
+  },
+  {
+    "word_id": "w_10084",
+    "word": "dance",
+    "translation": "dans etmek",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "fun",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a dance.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10084.wav"
+  },
+  {
+    "word_id": "w_10085",
+    "word": "jump",
+    "translation": "zıplamak",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "sports",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a jump.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10085.wav"
+  },
+  {
+    "word_id": "w_10086",
+    "word": "run",
+    "translation": "koşmak",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "sports",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a run.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10086.wav"
+  },
+  {
+    "word_id": "w_10087",
+    "word": "stop",
+    "translation": "durmak",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "classroom_rules",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Please stop.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10087.wav"
+  },
+  {
+    "word_id": "w_10088",
+    "word": "draw",
+    "translation": "çizmek",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "art",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a draw.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10088.wav"
+  },
+  {
+    "word_id": "w_10089",
+    "word": "color",
+    "translation": "boyamak",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "art",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a color.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10089.wav"
+  },
+  {
+    "word_id": "w_10090",
+    "word": "play",
+    "translation": "oynamak",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "fun",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a play.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10090.wav"
+  },
+  {
+    "word_id": "w_10091",
+    "word": "open",
+    "translation": "açmak",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "classroom_rules",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a open.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10091.wav"
+  },
+  {
+    "word_id": "w_10092",
+    "word": "close",
+    "translation": "kapatmak",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "classroom_rules",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a close.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10092.wav"
+  },
+  {
+    "word_id": "w_10093",
+    "word": "stand up",
+    "translation": "ayağa kalkmak",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "classroom_rules",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Please stand up.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10093.wav"
+  },
+  {
+    "word_id": "w_10094",
+    "word": "sit down",
+    "translation": "oturmak",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "classroom_rules",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "Please sit down.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10094.wav"
+  },
+  {
+    "word_id": "w_10095",
+    "word": "happy",
+    "translation": "mutlu",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "adjectives",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a happy.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10095.wav"
+  },
+  {
+    "word_id": "w_10096",
+    "word": "sad",
+    "translation": "üzgün",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "adjectives",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a sad.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10096.wav"
+  },
+  {
+    "word_id": "w_10097",
+    "word": "big",
+    "translation": "büyük",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "adjectives",
+      "concepts",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a big.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10097.wav"
+  },
+  {
+    "word_id": "w_10098",
+    "word": "small",
+    "translation": "küçük",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "adjectives",
+      "concepts",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a small.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10098.wav"
+  },
+  {
+    "word_id": "w_10099",
+    "word": "sun",
+    "translation": "güneş",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "sky",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a sun.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10099.wav"
+  },
+  {
+    "word_id": "w_10100",
+    "word": "star",
+    "translation": "yıldız",
+    "cefr_level": "Pre-A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        1
+      ],
+      "units": [
+        {
+          "grade": 1,
+          "unit_no": 7,
+          "unit_name": "Basic Actions & Concepts"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "sky",
+      "starter_essential",
+      "meb_curriculum",
+      "grade_1"
+    ],
+    "example_sentence": "This is a star.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_10100.wav"
+  }
+]

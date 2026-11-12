@@ -1,6 +1,1551 @@
 [
   {
-    "language": "zh-CN",
+    "level": "A1",
+    "words": [
+      {
+        "word_id": "cn_001",
+        "hanzi": "你好",
+        "pinyin": "nǐ hǎo",
+        "meaning": "Hello",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_001.mp3"
+        }
+      },
+      {
+        "word_id": "cn_002",
+        "hanzi": "谢谢",
+        "pinyin": "xiè xie",
+        "meaning": "Thank you",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_002.mp3"
+        }
+      },
+      {
+        "word_id": "cn_003",
+        "hanzi": "老师",
+        "pinyin": "lǎo shī",
+        "meaning": "Teacher",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_003.mp3"
+        }
+      },
+      {
+        "word_id": "cn_004",
+        "hanzi": "学生",
+        "pinyin": "xué shēng",
+        "meaning": "Student",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_004.mp3"
+        }
+      },
+      {
+        "word_id": "cn_005",
+        "hanzi": "再见",
+        "pinyin": "zài jiàn",
+        "meaning": "Goodbye",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_005.mp3"
+        }
+      },
+      {
+        "word_id": "cn_006",
+        "hanzi": "我",
+        "pinyin": "wǒ",
+        "meaning": "I / Me",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_006.mp3"
+        }
+      },
+      {
+        "word_id": "cn_007",
+        "hanzi": "你",
+        "pinyin": "nǐ",
+        "meaning": "You",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_007.mp3"
+        }
+      },
+      {
+        "word_id": "cn_008",
+        "hanzi": "他",
+        "pinyin": "tā",
+        "meaning": "He / Him",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_008.mp3"
+        }
+      },
+      {
+        "word_id": "cn_009",
+        "hanzi": "是",
+        "pinyin": "shì",
+        "meaning": "To be (am/is/are)",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_009.mp3"
+        }
+      },
+      {
+        "word_id": "cn_010",
+        "hanzi": "不",
+        "pinyin": "bù",
+        "meaning": "No / Not",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_010.mp3"
+        }
+      },
+      {
+        "word_id": "cn_011",
+        "hanzi": "一",
+        "pinyin": "yī",
+        "meaning": "One",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_011.mp3"
+        }
+      },
+      {
+        "word_id": "cn_012",
+        "hanzi": "二",
+        "pinyin": "èr",
+        "meaning": "Two",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_012.mp3"
+        }
+      },
+      {
+        "word_id": "cn_013",
+        "hanzi": "三",
+        "pinyin": "sān",
+        "meaning": "Three",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_013.mp3"
+        }
+      },
+      {
+        "word_id": "cn_014",
+        "hanzi": "四",
+        "pinyin": "sì",
+        "meaning": "Four",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_014.mp3"
+        }
+      },
+      {
+        "word_id": "cn_015",
+        "hanzi": "五",
+        "pinyin": "wǔ",
+        "meaning": "Five",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_015.mp3"
+        }
+      },
+      {
+        "word_id": "cn_016",
+        "hanzi": "六",
+        "pinyin": "liù",
+        "meaning": "Six",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_016.mp3"
+        }
+      },
+      {
+        "word_id": "cn_017",
+        "hanzi": "七",
+        "pinyin": "qī",
+        "meaning": "Seven",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_017.mp3"
+        }
+      },
+      {
+        "word_id": "cn_018",
+        "hanzi": "八",
+        "pinyin": "bā",
+        "meaning": "Eight",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_018.mp3"
+        }
+      },
+      {
+        "word_id": "cn_019",
+        "hanzi": "九",
+        "pinyin": "jiǔ",
+        "meaning": "Nine",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_019.mp3"
+        }
+      },
+      {
+        "word_id": "cn_020",
+        "hanzi": "十",
+        "pinyin": "shí",
+        "meaning": "Ten",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_020.mp3"
+        }
+      },
+      {
+        "word_id": "cn_021",
+        "hanzi": "人",
+        "pinyin": "rén",
+        "meaning": "Person / People",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_021.mp3"
+        }
+      },
+      {
+        "word_id": "cn_022",
+        "hanzi": "个",
+        "pinyin": "gè",
+        "meaning": "General measure word",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_022.mp3"
+        }
+      },
+      {
+        "word_id": "cn_023",
+        "hanzi": "这",
+        "pinyin": "zhè",
+        "meaning": "This",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_023.mp3"
+        }
+      },
+      {
+        "word_id": "cn_024",
+        "hanzi": "那",
+        "pinyin": "nà",
+        "meaning": "That",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_024.mp3"
+        }
+      },
+      {
+        "word_id": "cn_025",
+        "hanzi": "什么",
+        "pinyin": "shén me",
+        "meaning": "What",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_025.mp3"
+        }
+      },
+      {
+        "word_id": "cn_026",
+        "hanzi": "谁",
+        "pinyin": "shéi",
+        "meaning": "Who",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_026.mp3"
+        }
+      },
+      {
+        "word_id": "cn_027",
+        "hanzi": "哪儿",
+        "pinyin": "nǎr",
+        "meaning": "Where",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_027.mp3"
+        }
+      },
+      {
+        "word_id": "cn_028",
+        "hanzi": "好",
+        "pinyin": "hǎo",
+        "meaning": "Good",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_028.mp3"
+        }
+      },
+      {
+        "word_id": "cn_029",
+        "hanzi": "很",
+        "pinyin": "hěn",
+        "meaning": "Very",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_029.mp3"
+        }
+      },
+      {
+        "word_id": "cn_030",
+        "hanzi": "大",
+        "pinyin": "dà",
+        "meaning": "Big",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_030.mp3"
+        }
+      },
+      {
+        "word_id": "cn_031",
+        "hanzi": "小",
+        "pinyin": "xiǎo",
+        "meaning": "Small",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_031.mp3"
+        }
+      },
+      {
+        "word_id": "cn_032",
+        "hanzi": "多",
+        "pinyin": "duō",
+        "meaning": "Many / Much",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_032.mp3"
+        }
+      },
+      {
+        "word_id": "cn_033",
+        "hanzi": "少",
+        "pinyin": "shǎo",
+        "meaning": "Few / Little",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_033.mp3"
+        }
+      },
+      {
+        "word_id": "cn_034",
+        "hanzi": "吃",
+        "pinyin": "chī",
+        "meaning": "To eat",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_034.mp3"
+        }
+      },
+      {
+        "word_id": "cn_035",
+        "hanzi": "喝",
+        "pinyin": "hē",
+        "meaning": "To drink",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_035.mp3"
+        }
+      },
+      {
+        "word_id": "cn_036",
+        "hanzi": "去",
+        "pinyin": "qù",
+        "meaning": "To go",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_036.mp3"
+        }
+      },
+      {
+        "word_id": "cn_037",
+        "hanzi": "来",
+        "pinyin": "lái",
+        "meaning": "To come",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_037.mp3"
+        }
+      },
+      {
+        "word_id": "cn_038",
+        "hanzi": "看",
+        "pinyin": "kàn",
+        "meaning": "To look / To watch",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_038.mp3"
+        }
+      },
+      {
+        "word_id": "cn_039",
+        "hanzi": "做",
+        "pinyin": "zuò",
+        "meaning": "To do / To make",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_039.mp3"
+        }
+      },
+      {
+        "word_id": "cn_040",
+        "hanzi": "听",
+        "pinyin": "tīng",
+        "meaning": "To listen",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_040.mp3"
+        }
+      },
+      {
+        "word_id": "cn_041",
+        "hanzi": "说",
+        "pinyin": "shuō",
+        "meaning": "To speak / To say",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_041.mp3"
+        }
+      },
+      {
+        "word_id": "cn_042",
+        "hanzi": "写",
+        "pinyin": "xiě",
+        "meaning": "To write",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_042.mp3"
+        }
+      },
+      {
+        "word_id": "cn_043",
+        "hanzi": "读",
+        "pinyin": "dú",
+        "meaning": "To read",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_043.mp3"
+        }
+      },
+      {
+        "word_id": "cn_044",
+        "hanzi": "学习",
+        "pinyin": "xué xí",
+        "meaning": "To study / To learn",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_044.mp3"
+        }
+      },
+      {
+        "word_id": "cn_045",
+        "hanzi": "工作",
+        "pinyin": "gōng zuò",
+        "meaning": "To work / Job",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_045.mp3"
+        }
+      },
+      {
+        "word_id": "cn_046",
+        "hanzi": "家",
+        "pinyin": "jiā",
+        "meaning": "Home / Family",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_046.mp3"
+        }
+      },
+      {
+        "word_id": "cn_047",
+        "hanzi": "学校",
+        "pinyin": "xué xiào",
+        "meaning": "School",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_047.mp3"
+        }
+      },
+      {
+        "word_id": "cn_048",
+        "hanzi": "书",
+        "pinyin": "shū",
+        "meaning": "Book",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_048.mp3"
+        }
+      },
+      {
+        "word_id": "cn_049",
+        "hanzi": "电脑",
+        "pinyin": "diàn nǎo",
+        "meaning": "Computer",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_049.mp3"
+        }
+      },
+      {
+        "word_id": "cn_050",
+        "hanzi": "手机",
+        "pinyin": "shǒu jī",
+        "meaning": "Mobile phone",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_050.mp3"
+        }
+      },
+      {
+        "word_id": "cn_051",
+        "hanzi": "今天",
+        "pinyin": "jīn tiān",
+        "meaning": "Today",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_051.mp3"
+        }
+      },
+      {
+        "word_id": "cn_052",
+        "hanzi": "明天",
+        "pinyin": "míng tiān",
+        "meaning": "Tomorrow",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_052.mp3"
+        }
+      },
+      {
+        "word_id": "cn_053",
+        "hanzi": "昨天",
+        "pinyin": "zuó tiān",
+        "meaning": "Yesterday",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_053.mp3"
+        }
+      },
+      {
+        "word_id": "cn_054",
+        "hanzi": "现在",
+        "pinyin": "xiàn zài",
+        "meaning": "Now",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_054.mp3"
+        }
+      },
+      {
+        "word_id": "cn_055",
+        "hanzi": "点",
+        "pinyin": "diǎn",
+        "meaning": "O'clock",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_055.mp3"
+        }
+      },
+      {
+        "word_id": "cn_056",
+        "hanzi": "喜欢",
+        "pinyin": "xǐ huān",
+        "meaning": "To like",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_056.mp3"
+        }
+      },
+      {
+        "word_id": "cn_057",
+        "hanzi": "爱",
+        "pinyin": "ài",
+        "meaning": "To love / Love",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_057.mp3"
+        }
+      },
+      {
+        "word_id": "cn_058",
+        "hanzi": "想",
+        "pinyin": "xiǎng",
+        "meaning": "To want / To think",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_058.mp3"
+        }
+      },
+      {
+        "word_id": "cn_059",
+        "hanzi": "要",
+        "pinyin": "yào",
+        "meaning": "To want / To need",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_059.mp3"
+        }
+      },
+      {
+        "word_id": "cn_060",
+        "hanzi": "可以",
+        "pinyin": "kě yǐ",
+        "meaning": "Can / May",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_060.mp3"
+        }
+      },
+      {
+        "word_id": "cn_061",
+        "hanzi": "朋友",
+        "pinyin": "péng yǒu",
+        "meaning": "Friend",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_061.mp3"
+        }
+      },
+      {
+        "word_id": "cn_062",
+        "hanzi": "名字",
+        "pinyin": "míng zì",
+        "meaning": "Name",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_062.mp3"
+        }
+      },
+      {
+        "word_id": "cn_063",
+        "hanzi": "问题",
+        "pinyin": "wèn tí",
+        "meaning": "Question / Problem",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_063.mp3"
+        }
+      },
+      {
+        "word_id": "cn_064",
+        "hanzi": "答案",
+        "pinyin": "dá àn",
+        "meaning": "Answer",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_064.mp3"
+        }
+      },
+      {
+        "word_id": "cn_065",
+        "hanzi": "水",
+        "pinyin": "shuǐ",
+        "meaning": "Water",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_065.mp3"
+        }
+      },
+      {
+        "word_id": "cn_066",
+        "hanzi": "茶",
+        "pinyin": "chá",
+        "meaning": "Tea",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_066.mp3"
+        }
+      },
+      {
+        "word_id": "cn_067",
+        "hanzi": "饭",
+        "pinyin": "fàn",
+        "meaning": "Meal / Cooked rice",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_067.mp3"
+        }
+      },
+      {
+        "word_id": "cn_068",
+        "hanzi": "车",
+        "pinyin": "chē",
+        "meaning": "Car / Vehicle",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_068.mp3"
+        }
+      },
+      {
+        "word_id": "cn_069",
+        "hanzi": "年",
+        "pinyin": "nián",
+        "meaning": "Year",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_069.mp3"
+        }
+      },
+      {
+        "word_id": "cn_070",
+        "hanzi": "月",
+        "pinyin": "yuè",
+        "meaning": "Month",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_070.mp3"
+        }
+      },
+      {
+        "word_id": "cn_071",
+        "hanzi": "日",
+        "pinyin": "rì",
+        "meaning": "Day / Date",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_071.mp3"
+        }
+      },
+      {
+        "word_id": "cn_072",
+        "hanzi": "开心",
+        "pinyin": "kāi xīn",
+        "meaning": "Happy",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_072.mp3"
+        }
+      },
+      {
+        "word_id": "cn_073",
+        "hanzi": "难过",
+        "pinyin": "nán guò",
+        "meaning": "Sad",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_073.mp3"
+        }
+      },
+      {
+        "word_id": "cn_074",
+        "hanzi": "漂亮",
+        "pinyin": "piào liang",
+        "meaning": "Beautiful / Pretty",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_074.mp3"
+        }
+      },
+      {
+        "word_id": "cn_075",
+        "hanzi": "高",
+        "pinyin": "gāo",
+        "meaning": "Tall / High",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_075.mp3"
+        }
+      },
+      {
+        "word_id": "cn_076",
+        "hanzi": "有",
+        "pinyin": "yǒu",
+        "meaning": "To have",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_076.mp3"
+        }
+      },
+      {
+        "word_id": "cn_077",
+        "hanzi": "也",
+        "pinyin": "yě",
+        "meaning": "Also / Too",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_077.mp3"
+        }
+      },
+      {
+        "word_id": "cn_078",
+        "hanzi": "和",
+        "pinyin": "hé",
+        "meaning": "And",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_078.mp3"
+        }
+      },
+      {
+        "word_id": "cn_079",
+        "hanzi": "请",
+        "pinyin": "qǐng",
+        "meaning": "Please",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_079.mp3"
+        }
+      },
+      {
+        "word_id": "cn_080",
+        "hanzi": "对不起",
+        "pinyin": "duì bu qǐ",
+        "meaning": "Sorry",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th",
+            "neutral",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_080.mp3"
+        }
+      },
+      {
+        "word_id": "cn_081",
+        "hanzi": "没关系",
+        "pinyin": "méi guān xi",
+        "meaning": "It doesn't matter / No problem",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "1st",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_081.mp3"
+        }
+      },
+      {
+        "word_id": "cn_082",
+        "hanzi": "因为",
+        "pinyin": "yīn wèi",
+        "meaning": "Because",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_082.mp3"
+        }
+      },
+      {
+        "word_id": "cn_083",
+        "hanzi": "所以",
+        "pinyin": "suǒ yǐ",
+        "meaning": "Therefore / So",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_083.mp3"
+        }
+      },
+      {
+        "word_id": "cn_084",
+        "hanzi": "但是",
+        "pinyin": "dàn shì",
+        "meaning": "But",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_084.mp3"
+        }
+      },
+      {
+        "word_id": "cn_085",
+        "hanzi": "颜色",
+        "pinyin": "yán sè",
+        "meaning": "Color",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_085.mp3"
+        }
+      },
+      {
+        "word_id": "cn_086",
+        "hanzi": "红色",
+        "pinyin": "hóng sè",
+        "meaning": "Red",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_086.mp3"
+        }
+      },
+      {
+        "word_id": "cn_087",
+        "hanzi": "蓝色",
+        "pinyin": "lán sè",
+        "meaning": "Blue",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_087.mp3"
+        }
+      },
+      {
+        "word_id": "cn_088",
+        "hanzi": "白色",
+        "pinyin": "bái sè",
+        "meaning": "White",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_088.mp3"
+        }
+      },
+      {
+        "word_id": "cn_089",
+        "hanzi": "黑色",
+        "pinyin": "hēi sè",
+        "meaning": "Black",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_089.mp3"
+        }
+      },
+      {
+        "word_id": "cn_090",
+        "hanzi": "常常",
+        "pinyin": "cháng cháng",
+        "meaning": "Often",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_090.mp3"
+        }
+      },
+      {
+        "word_id": "cn_091",
+        "hanzi": "加油",
+        "pinyin": "jiā yóu",
+        "meaning": "Come on! / Keep it up!",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_091.mp3"
+        }
+      },
+      {
+        "word_id": "cn_092",
+        "hanzi": "一点点",
+        "pinyin": "yī diǎn diǎn",
+        "meaning": "A little bit",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st",
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_092.mp3"
+        }
+      },
+      {
+        "word_id": "cn_093",
+        "hanzi": "路",
+        "pinyin": "lù",
+        "meaning": "Road / Way",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_093.mp3"
+        }
+      },
+      {
+        "word_id": "cn_094",
+        "hanzi": "门",
+        "pinyin": "mén",
+        "meaning": "Door",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_094.mp3"
+        }
+      },
+      {
+        "word_id": "cn_095",
+        "hanzi": "天",
+        "pinyin": "tiān",
+        "meaning": "Sky / Day",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_095.mp3"
+        }
+      },
+      {
+        "word_id": "cn_096",
+        "hanzi": "上",
+        "pinyin": "shàng",
+        "meaning": "Up / Above",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_096.mp3"
+        }
+      },
+      {
+        "word_id": "cn_097",
+        "hanzi": "下",
+        "pinyin": "xià",
+        "meaning": "Down / Below",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_097.mp3"
+        }
+      },
+      {
+        "word_id": "cn_098",
+        "hanzi": "左",
+        "pinyin": "zuǒ",
+        "meaning": "Left",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_098.mp3"
+        }
+      },
+      {
+        "word_id": "cn_099",
+        "hanzi": "右",
+        "pinyin": "yòu",
+        "meaning": "Right",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_099.mp3"
+        }
+      },
+      {
+        "word_id": "cn_100",
+        "hanzi": "如果",
+        "pinyin": "rú guǒ",
+        "meaning": "If",
+        "metadata": {
+          "difficulty": 1,
+          "tone_pattern": [
+            "2nd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_100.mp3"
+        }
+      }
+    ]
+  },
+  {
     "level": "A1-Extended",
     "words": [
       {
@@ -1576,10 +3121,1602 @@
     ]
   },
   {
-    "language": "zh-CN",
-    "target_language": "en",
     "level": "A1-Extended",
-    "total_words": 100,
+    "words": [
+      {
+        "word_id": "cn_201",
+        "hanzi": "觉得",
+        "pinyin": "jué de",
+        "meaning": "To think / To feel",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_201.mp3"
+        }
+      },
+      {
+        "word_id": "cn_202",
+        "hanzi": "希望",
+        "pinyin": "xī wàng",
+        "meaning": "To hope / Hope",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_202.mp3"
+        }
+      },
+      {
+        "word_id": "cn_203",
+        "hanzi": "告诉",
+        "pinyin": "gào sù",
+        "meaning": "To tell",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_203.mp3"
+        }
+      },
+      {
+        "word_id": "cn_204",
+        "hanzi": "问",
+        "pinyin": "wèn",
+        "meaning": "To ask",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_204.mp3"
+        }
+      },
+      {
+        "word_id": "cn_205",
+        "hanzi": "回答",
+        "pinyin": "huí dá",
+        "meaning": "To answer / Reply",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_205.mp3"
+        }
+      },
+      {
+        "word_id": "cn_206",
+        "hanzi": "介绍",
+        "pinyin": "jiè shào",
+        "meaning": "To introduce",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_206.mp3"
+        }
+      },
+      {
+        "word_id": "cn_207",
+        "hanzi": "欢迎",
+        "pinyin": "huān yíng",
+        "meaning": "Welcome",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_207.mp3"
+        }
+      },
+      {
+        "word_id": "cn_208",
+        "hanzi": "带",
+        "pinyin": "dài",
+        "meaning": "To bring / To take",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_208.mp3"
+        }
+      },
+      {
+        "word_id": "cn_209",
+        "hanzi": "送",
+        "pinyin": "sòng",
+        "meaning": "To give (as a gift) / To send",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_209.mp3"
+        }
+      },
+      {
+        "word_id": "cn_210",
+        "hanzi": "找",
+        "pinyin": "zhǎo",
+        "meaning": "To look for",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_210.mp3"
+        }
+      },
+      {
+        "word_id": "cn_211",
+        "hanzi": "换",
+        "pinyin": "huàn",
+        "meaning": "To change / To exchange",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_211.mp3"
+        }
+      },
+      {
+        "word_id": "cn_212",
+        "hanzi": "给",
+        "pinyin": "gěi",
+        "meaning": "To give / For",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_212.mp3"
+        }
+      },
+      {
+        "word_id": "cn_213",
+        "hanzi": "往",
+        "pinyin": "wǎng",
+        "meaning": "Towards",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_213.mp3"
+        }
+      },
+      {
+        "word_id": "cn_214",
+        "hanzi": "离",
+        "pinyin": "lí",
+        "meaning": "Away from (distance)",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_214.mp3"
+        }
+      },
+      {
+        "word_id": "cn_215",
+        "hanzi": "远",
+        "pinyin": "yuǎn",
+        "meaning": "Far",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_215.mp3"
+        }
+      },
+      {
+        "word_id": "cn_216",
+        "hanzi": "近",
+        "pinyin": "jìn",
+        "meaning": "Near / Close",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_216.mp3"
+        }
+      },
+      {
+        "word_id": "cn_217",
+        "hanzi": "公共汽车",
+        "pinyin": "gōng gòng qì chē",
+        "meaning": "Bus",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "4th",
+            "4th",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_217.mp3"
+        }
+      },
+      {
+        "word_id": "cn_218",
+        "hanzi": "出租车",
+        "pinyin": "chū zū chē",
+        "meaning": "Taxi",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_218.mp3"
+        }
+      },
+      {
+        "word_id": "cn_219",
+        "hanzi": "火车站",
+        "pinyin": "huǒ chē zhàn",
+        "meaning": "Train station",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_219.mp3"
+        }
+      },
+      {
+        "word_id": "cn_220",
+        "hanzi": "机场",
+        "pinyin": "jī chǎng",
+        "meaning": "Airport",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_220.mp3"
+        }
+      },
+      {
+        "word_id": "cn_221",
+        "hanzi": "酒店",
+        "pinyin": "jiǔ diàn",
+        "meaning": "Hotel",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_221.mp3"
+        }
+      },
+      {
+        "word_id": "cn_222",
+        "hanzi": "银行",
+        "pinyin": "yín háng",
+        "meaning": "Bank",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_222.mp3"
+        }
+      },
+      {
+        "word_id": "cn_223",
+        "hanzi": "医院",
+        "pinyin": "yī yuàn",
+        "meaning": "Hospital",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_223.mp3"
+        }
+      },
+      {
+        "word_id": "cn_224",
+        "hanzi": "厕所",
+        "pinyin": "cè suǒ",
+        "meaning": "Restroom / Toilet",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_224.mp3"
+        }
+      },
+      {
+        "word_id": "cn_225",
+        "hanzi": "药",
+        "pinyin": "yào",
+        "meaning": "Medicine",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_225.mp3"
+        }
+      },
+      {
+        "word_id": "cn_226",
+        "hanzi": "疼",
+        "pinyin": "téng",
+        "meaning": "Ache / Painful",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_226.mp3"
+        }
+      },
+      {
+        "word_id": "cn_227",
+        "hanzi": "感冒",
+        "pinyin": "gǎn mào",
+        "meaning": "Cold / Flu",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_227.mp3"
+        }
+      },
+      {
+        "word_id": "cn_228",
+        "hanzi": "发烧",
+        "pinyin": "fā shāo",
+        "meaning": "Fever",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_228.mp3"
+        }
+      },
+      {
+        "word_id": "cn_229",
+        "hanzi": "咳嗽",
+        "pinyin": "ké sou",
+        "meaning": "To cough",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_229.mp3"
+        }
+      },
+      {
+        "word_id": "cn_230",
+        "hanzi": "休息",
+        "pinyin": "xiū xi",
+        "meaning": "To rest",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_230.mp3"
+        }
+      },
+      {
+        "word_id": "cn_231",
+        "hanzi": "健康",
+        "pinyin": "jiàn kāng",
+        "meaning": "Healthy / Health",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_231.mp3"
+        }
+      },
+      {
+        "word_id": "cn_232",
+        "hanzi": "运动",
+        "pinyin": "yùn dòng",
+        "meaning": "To exercise / Sports",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_232.mp3"
+        }
+      },
+      {
+        "word_id": "cn_233",
+        "hanzi": "游戏",
+        "pinyin": "yóu xì",
+        "meaning": "Game",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_233.mp3"
+        }
+      },
+      {
+        "word_id": "cn_234",
+        "hanzi": "照片",
+        "pinyin": "zhào piàn",
+        "meaning": "Photo",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_234.mp3"
+        }
+      },
+      {
+        "word_id": "cn_235",
+        "hanzi": "画",
+        "pinyin": "huà",
+        "meaning": "To draw / Painting",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_235.mp3"
+        }
+      },
+      {
+        "word_id": "cn_236",
+        "hanzi": "书法",
+        "pinyin": "shū fǎ",
+        "meaning": "Calligraphy",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_236.mp3"
+        }
+      },
+      {
+        "word_id": "cn_237",
+        "hanzi": "音乐",
+        "pinyin": "yīn yuè",
+        "meaning": "Music",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_237.mp3"
+        }
+      },
+      {
+        "word_id": "cn_238",
+        "hanzi": "舞蹈",
+        "pinyin": "wǔ dǎo",
+        "meaning": "Dance",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_238.mp3"
+        }
+      },
+      {
+        "word_id": "cn_239",
+        "hanzi": "爬山",
+        "pinyin": "pá shān",
+        "meaning": "To climb a mountain / Hiking",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_239.mp3"
+        }
+      },
+      {
+        "word_id": "cn_240",
+        "hanzi": "游泳",
+        "pinyin": "yóu yǒng",
+        "meaning": "To swim",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_240.mp3"
+        }
+      },
+      {
+        "word_id": "cn_241",
+        "hanzi": "聊天",
+        "pinyin": "liáo tiān",
+        "meaning": "To chat",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_241.mp3"
+        }
+      },
+      {
+        "word_id": "cn_242",
+        "hanzi": "笑",
+        "pinyin": "xiào",
+        "meaning": "To laugh / To smile",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_242.mp3"
+        }
+      },
+      {
+        "word_id": "cn_243",
+        "hanzi": "哭",
+        "pinyin": "kū",
+        "meaning": "To cry",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_243.mp3"
+        }
+      },
+      {
+        "word_id": "cn_244",
+        "hanzi": "生气",
+        "pinyin": "shēng qì",
+        "meaning": "Angry / To get angry",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_244.mp3"
+        }
+      },
+      {
+        "word_id": "cn_245",
+        "hanzi": "担心",
+        "pinyin": "dān xīn",
+        "meaning": "To worry",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_245.mp3"
+        }
+      },
+      {
+        "word_id": "cn_246",
+        "hanzi": "惊喜",
+        "pinyin": "jīng xǐ",
+        "meaning": "Surprise",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_246.mp3"
+        }
+      },
+      {
+        "word_id": "cn_247",
+        "hanzi": "方便",
+        "pinyin": "fāng biàn",
+        "meaning": "Convenient",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_247.mp3"
+        }
+      },
+      {
+        "word_id": "cn_248",
+        "hanzi": "麻烦",
+        "pinyin": "má fan",
+        "meaning": "Troublesome / Trouble",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_248.mp3"
+        }
+      },
+      {
+        "word_id": "cn_249",
+        "hanzi": "简单",
+        "pinyin": "jiǎn dān",
+        "meaning": "Simple",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_249.mp3"
+        }
+      },
+      {
+        "word_id": "cn_250",
+        "hanzi": "容易",
+        "pinyin": "róng yì",
+        "meaning": "Easy",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_250.mp3"
+        }
+      },
+      {
+        "word_id": "cn_251",
+        "hanzi": "特别",
+        "pinyin": "tè bié",
+        "meaning": "Special / Especially",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_251.mp3"
+        }
+      },
+      {
+        "word_id": "cn_252",
+        "hanzi": "主要",
+        "pinyin": "zhǔ yào",
+        "meaning": "Main / Primary",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_252.mp3"
+        }
+      },
+      {
+        "word_id": "cn_253",
+        "hanzi": "必须",
+        "pinyin": "bì xū",
+        "meaning": "Must",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_253.mp3"
+        }
+      },
+      {
+        "word_id": "cn_254",
+        "hanzi": "应该",
+        "pinyin": "yīng gāi",
+        "meaning": "Should",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_254.mp3"
+        }
+      },
+      {
+        "word_id": "cn_255",
+        "hanzi": "可能",
+        "pinyin": "kě néng",
+        "meaning": "Possible / Maybe",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_255.mp3"
+        }
+      },
+      {
+        "word_id": "cn_256",
+        "hanzi": "也许",
+        "pinyin": "yě xǔ",
+        "meaning": "Perhaps / Maybe",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_256.mp3"
+        }
+      },
+      {
+        "word_id": "cn_257",
+        "hanzi": "总是",
+        "pinyin": "zǒng shì",
+        "meaning": "Always",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_257.mp3"
+        }
+      },
+      {
+        "word_id": "cn_258",
+        "hanzi": "从来",
+        "pinyin": "cóng lái",
+        "meaning": "All along / Never (with negative)",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_258.mp3"
+        }
+      },
+      {
+        "word_id": "cn_259",
+        "hanzi": "有时",
+        "pinyin": "yǒu shí",
+        "meaning": "Sometimes",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_259.mp3"
+        }
+      },
+      {
+        "word_id": "cn_260",
+        "hanzi": "附近",
+        "pinyin": "fù jìn",
+        "meaning": "Nearby / Vicinity",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_260.mp3"
+        }
+      },
+      {
+        "word_id": "cn_261",
+        "hanzi": "中间",
+        "pinyin": "zhōng jiān",
+        "meaning": "Middle / Between",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_261.mp3"
+        }
+      },
+      {
+        "word_id": "cn_262",
+        "hanzi": "上面",
+        "pinyin": "shàng miàn",
+        "meaning": "Above / On top of",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_262.mp3"
+        }
+      },
+      {
+        "word_id": "cn_263",
+        "hanzi": "下面",
+        "pinyin": "xià miàn",
+        "meaning": "Below / Under",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_263.mp3"
+        }
+      },
+      {
+        "word_id": "cn_264",
+        "hanzi": "里面",
+        "pinyin": "lǐ miàn",
+        "meaning": "Inside",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_264.mp3"
+        }
+      },
+      {
+        "word_id": "cn_265",
+        "hanzi": "外面",
+        "pinyin": "wài miàn",
+        "meaning": "Outside",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_265.mp3"
+        }
+      },
+      {
+        "word_id": "cn_266",
+        "hanzi": "左边",
+        "pinyin": "zuǒ biān",
+        "meaning": "Left side",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_266.mp3"
+        }
+      },
+      {
+        "word_id": "cn_267",
+        "hanzi": "右边",
+        "pinyin": "yòu biān",
+        "meaning": "Right side",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_267.mp3"
+        }
+      },
+      {
+        "word_id": "cn_268",
+        "hanzi": "前面",
+        "pinyin": "qián miàn",
+        "meaning": "Front / In front",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_268.mp3"
+        }
+      },
+      {
+        "word_id": "cn_269",
+        "hanzi": "后面",
+        "pinyin": "hòu miàn",
+        "meaning": "Back / Behind",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_269.mp3"
+        }
+      },
+      {
+        "word_id": "cn_270",
+        "hanzi": "对面",
+        "pinyin": "duì miàn",
+        "meaning": "Opposite",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_270.mp3"
+        }
+      },
+      {
+        "word_id": "cn_271",
+        "hanzi": "报纸",
+        "pinyin": "bào zhǐ",
+        "meaning": "Newspaper",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_271.mp3"
+        }
+      },
+      {
+        "word_id": "cn_272",
+        "hanzi": "信",
+        "pinyin": "xìn",
+        "meaning": "Letter",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_272.mp3"
+        }
+      },
+      {
+        "word_id": "cn_273",
+        "hanzi": "日记",
+        "pinyin": "rì jì",
+        "meaning": "Diary",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_273.mp3"
+        }
+      },
+      {
+        "word_id": "cn_274",
+        "hanzi": "地图",
+        "pinyin": "dì tú",
+        "meaning": "Map",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_274.mp3"
+        }
+      },
+      {
+        "word_id": "cn_275",
+        "hanzi": "作业",
+        "pinyin": "zuò yè",
+        "meaning": "Homework",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_275.mp3"
+        }
+      },
+      {
+        "word_id": "cn_276",
+        "hanzi": "问题",
+        "pinyin": "wèn tí",
+        "meaning": "Question / Problem",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_276.mp3"
+        }
+      },
+      {
+        "word_id": "cn_277",
+        "hanzi": "答案",
+        "pinyin": "dá àn",
+        "meaning": "Answer",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_277.mp3"
+        }
+      },
+      {
+        "word_id": "cn_278",
+        "hanzi": "主意",
+        "pinyin": "zhǔ yi",
+        "meaning": "Idea",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_278.mp3"
+        }
+      },
+      {
+        "word_id": "cn_279",
+        "hanzi": "习惯",
+        "pinyin": "xí guàn",
+        "meaning": "Habit / To be used to",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_279.mp3"
+        }
+      },
+      {
+        "word_id": "cn_280",
+        "hanzi": "计划",
+        "pinyin": "jì huà",
+        "meaning": "Plan",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_280.mp3"
+        }
+      },
+      {
+        "word_id": "cn_281",
+        "hanzi": "机会",
+        "pinyin": "jī huì",
+        "meaning": "Opportunity",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_281.mp3"
+        }
+      },
+      {
+        "word_id": "cn_282",
+        "hanzi": "经验",
+        "pinyin": "jīng yàn",
+        "meaning": "Experience",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_282.mp3"
+        }
+      },
+      {
+        "word_id": "cn_283",
+        "hanzi": "生活",
+        "pinyin": "shēng huó",
+        "meaning": "Life",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_283.mp3"
+        }
+      },
+      {
+        "word_id": "cn_284",
+        "hanzi": "工作",
+        "pinyin": "gōng zuò",
+        "meaning": "Work / Job",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_284.mp3"
+        }
+      },
+      {
+        "word_id": "cn_285",
+        "hanzi": "老板",
+        "pinyin": "lǎo bǎn",
+        "meaning": "Boss",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_285.mp3"
+        }
+      },
+      {
+        "word_id": "cn_286",
+        "hanzi": "同事",
+        "pinyin": "tóng shì",
+        "meaning": "Colleague",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_286.mp3"
+        }
+      },
+      {
+        "word_id": "cn_287",
+        "hanzi": "会议",
+        "pinyin": "huì yì",
+        "meaning": "Meeting",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_287.mp3"
+        }
+      },
+      {
+        "word_id": "cn_288",
+        "hanzi": "老板",
+        "pinyin": "lǎo bǎn",
+        "meaning": "Boss / Manager",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_288.mp3"
+        }
+      },
+      {
+        "word_id": "cn_289",
+        "hanzi": "电脑",
+        "pinyin": "diàn nǎo",
+        "meaning": "Computer",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_289.mp3"
+        }
+      },
+      {
+        "word_id": "cn_290",
+        "hanzi": "手机",
+        "pinyin": "shǒu jī",
+        "meaning": "Mobile phone",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_290.mp3"
+        }
+      },
+      {
+        "word_id": "cn_291",
+        "hanzi": "网络",
+        "pinyin": "wǎng luò",
+        "meaning": "Internet / Network",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_291.mp3"
+        }
+      },
+      {
+        "word_id": "cn_292",
+        "hanzi": "电子邮件",
+        "pinyin": "diàn zǐ yóu jiàn",
+        "meaning": "Email",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "3rd",
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_292.mp3"
+        }
+      },
+      {
+        "word_id": "cn_293",
+        "hanzi": "网站",
+        "pinyin": "wǎng zhàn",
+        "meaning": "Website",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_293.mp3"
+        }
+      },
+      {
+        "word_id": "cn_294",
+        "hanzi": "密码",
+        "pinyin": "mì mǎ",
+        "meaning": "Password",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_294.mp3"
+        }
+      },
+      {
+        "word_id": "cn_295",
+        "hanzi": "信息",
+        "pinyin": "xìn xī",
+        "meaning": "Message / Information",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_295.mp3"
+        }
+      },
+      {
+        "word_id": "cn_296",
+        "hanzi": "新闻",
+        "pinyin": "xīn wén",
+        "meaning": "News",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "1st",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_296.mp3"
+        }
+      },
+      {
+        "word_id": "cn_297",
+        "hanzi": "故事",
+        "pinyin": "gù shi",
+        "meaning": "Story",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "neutral"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_297.mp3"
+        }
+      },
+      {
+        "word_id": "cn_298",
+        "hanzi": "文章",
+        "pinyin": "wén zhāng",
+        "meaning": "Article / Essay",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_298.mp3"
+        }
+      },
+      {
+        "word_id": "cn_299",
+        "hanzi": "文化",
+        "pinyin": "wén huà",
+        "meaning": "Culture",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_299.mp3"
+        }
+      },
+      {
+        "word_id": "cn_300",
+        "hanzi": "历史",
+        "pinyin": "lì shǐ",
+        "meaning": "History",
+        "metadata": {
+          "difficulty": 3,
+          "tone_pattern": [
+            "4th",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_300.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "level": "A1-Extended",
     "words": [
       {
         "word_id": "cn_301",
@@ -3164,16 +6301,13 @@
     ]
   },
   {
-    "language": "zh-CN",
-    "target_language": "tr",
     "level": "A2-Group1",
-    "total_words": 100,
     "words": [
       {
         "word_id": "cn_401",
         "hanzi": "觉得",
         "pinyin": "jué de",
-        "meaning": "Düşünmek/Hissetmek",
+        "meaning": "To think / To feel",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3189,7 +6323,7 @@
         "word_id": "cn_402",
         "hanzi": "希望",
         "pinyin": "xī wàng",
-        "meaning": "Ümit etmek",
+        "meaning": "To hope",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3205,7 +6339,7 @@
         "word_id": "cn_403",
         "hanzi": "改变",
         "pinyin": "gǎi biàn",
-        "meaning": "Değiştirmek",
+        "meaning": "To change",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3221,7 +6355,7 @@
         "word_id": "cn_404",
         "hanzi": "同意",
         "pinyin": "tóng yì",
-        "meaning": "Katılmak/Onaylamak",
+        "meaning": "To agree / To approve",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3237,7 +6371,7 @@
         "word_id": "cn_405",
         "hanzi": "建议",
         "pinyin": "jiàn yì",
-        "meaning": "Öneri",
+        "meaning": "Suggestion",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3269,7 +6403,7 @@
         "word_id": "cn_407",
         "hanzi": "经验",
         "pinyin": "jīng yàn",
-        "meaning": "Deneyim",
+        "meaning": "Experience",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3285,7 +6419,7 @@
         "word_id": "cn_408",
         "hanzi": "方便",
         "pinyin": "fāng biàn",
-        "meaning": "Uygun/Pratik",
+        "meaning": "Convenient",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3301,7 +6435,7 @@
         "word_id": "cn_409",
         "hanzi": "特别",
         "pinyin": "tè bié",
-        "meaning": "Özellikle",
+        "meaning": "Special / Especially",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3317,7 +6451,7 @@
         "word_id": "cn_410",
         "hanzi": "重要",
         "pinyin": "zhòng yào",
-        "meaning": "Önemli",
+        "meaning": "Important",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3333,7 +6467,7 @@
         "word_id": "cn_411",
         "hanzi": "解决",
         "pinyin": "jiě jué",
-        "meaning": "Çözmek",
+        "meaning": "To solve",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3349,7 +6483,7 @@
         "word_id": "cn_412",
         "hanzi": "成功",
         "pinyin": "chéng gōng",
-        "meaning": "Başarılı",
+        "meaning": "Success / Successful",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3365,7 +6499,7 @@
         "word_id": "cn_413",
         "hanzi": "讨论",
         "pinyin": "tǎo lùn",
-        "meaning": "Tartışmak",
+        "meaning": "To discuss",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3381,7 +6515,7 @@
         "word_id": "cn_414",
         "hanzi": "决定",
         "pinyin": "jué dìng",
-        "meaning": "Karar vermek",
+        "meaning": "To decide",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3397,7 +6531,7 @@
         "word_id": "cn_415",
         "hanzi": "支持",
         "pinyin": "zhī chí",
-        "meaning": "Desteklemek",
+        "meaning": "To support",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3413,7 +6547,7 @@
         "word_id": "cn_416",
         "hanzi": "参加",
         "pinyin": "cān jiā",
-        "meaning": "Katılmak",
+        "meaning": "To participate / To join",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3429,7 +6563,7 @@
         "word_id": "cn_417",
         "hanzi": "邀请",
         "pinyin": "yāo qǐng",
-        "meaning": "Davet etmek",
+        "meaning": "To invite",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3445,7 +6579,7 @@
         "word_id": "cn_418",
         "hanzi": "活动",
         "pinyin": "huó dòng",
-        "meaning": "Etkinlik",
+        "meaning": "Activity / Event",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3461,7 +6595,7 @@
         "word_id": "cn_419",
         "hanzi": "聚会",
         "pinyin": "jù huì",
-        "meaning": "Toplantı/Parti",
+        "meaning": "Gathering / Party",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3477,7 +6611,7 @@
         "word_id": "cn_420",
         "hanzi": "旅游",
         "pinyin": "lǚ yóu",
-        "meaning": "Seyahat",
+        "meaning": "Travel",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3493,7 +6627,7 @@
         "word_id": "cn_421",
         "hanzi": "注意",
         "pinyin": "zhù yì",
-        "meaning": "Dikkat etmek",
+        "meaning": "To pay attention",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3509,7 +6643,7 @@
         "word_id": "cn_422",
         "hanzi": "保护",
         "pinyin": "bǎo hù",
-        "meaning": "Korumak",
+        "meaning": "To protect",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3525,7 +6659,7 @@
         "word_id": "cn_423",
         "hanzi": "安全",
         "pinyin": "ān quán",
-        "meaning": "Güvenli",
+        "meaning": "Safe / Safety",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3541,7 +6675,7 @@
         "word_id": "cn_424",
         "hanzi": "危险",
         "pinyin": "wēi xiǎn",
-        "meaning": "Tehlikeli",
+        "meaning": "Dangerous / Danger",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3557,7 +6691,7 @@
         "word_id": "cn_425",
         "hanzi": "垃圾",
         "pinyin": "lā jī",
-        "meaning": "Çöp",
+        "meaning": "Trash / Garbage",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3573,7 +6707,7 @@
         "word_id": "cn_426",
         "hanzi": "环境",
         "pinyin": "huán jìng",
-        "meaning": "Çevre",
+        "meaning": "Environment",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3589,7 +6723,7 @@
         "word_id": "cn_427",
         "hanzi": "节约",
         "pinyin": "jié yuē",
-        "meaning": "Tasarruf etmek",
+        "meaning": "To save / To conserve",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3605,7 +6739,7 @@
         "word_id": "cn_428",
         "hanzi": "使用",
         "pinyin": "shǐ yòng",
-        "meaning": "Kullanmak",
+        "meaning": "To use",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3621,7 +6755,7 @@
         "word_id": "cn_429",
         "hanzi": "参观",
         "pinyin": "cān guān",
-        "meaning": "Ziyaret etmek",
+        "meaning": "To visit",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3637,7 +6771,7 @@
         "word_id": "cn_430",
         "hanzi": "假期",
         "pinyin": "jià qī",
-        "meaning": "Tatil",
+        "meaning": "Vacation / Holiday",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3653,7 +6787,7 @@
         "word_id": "cn_431",
         "hanzi": "导游",
         "pinyin": "dǎo yóu",
-        "meaning": "Rehber",
+        "meaning": "Tour guide",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3669,7 +6803,7 @@
         "word_id": "cn_432",
         "hanzi": "门票",
         "pinyin": "mén piào",
-        "meaning": "Giriş bileti",
+        "meaning": "Admission ticket",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3685,7 +6819,7 @@
         "word_id": "cn_433",
         "hanzi": "风景",
         "pinyin": "fēng jǐng",
-        "meaning": "Manzara",
+        "meaning": "Scenery / Landscape",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3701,7 +6835,7 @@
         "word_id": "cn_434",
         "hanzi": "历史",
         "pinyin": "lì shǐ",
-        "meaning": "Tarih",
+        "meaning": "History",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3717,7 +6851,7 @@
         "word_id": "cn_435",
         "hanzi": "文化",
         "pinyin": "wén huà",
-        "meaning": "Kültür",
+        "meaning": "Culture",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3733,7 +6867,7 @@
         "word_id": "cn_436",
         "hanzi": "传统",
         "pinyin": "chuán tǒng",
-        "meaning": "Geleneksel",
+        "meaning": "Tradition / Traditional",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3765,7 +6899,7 @@
         "word_id": "cn_438",
         "hanzi": "习惯",
         "pinyin": "xí guàn",
-        "meaning": "Alışkanlık",
+        "meaning": "Habit",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3781,7 +6915,7 @@
         "word_id": "cn_439",
         "hanzi": "简单",
         "pinyin": "jiǎn dān",
-        "meaning": "Basit",
+        "meaning": "Simple",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3797,7 +6931,7 @@
         "word_id": "cn_440",
         "hanzi": "复杂",
         "pinyin": "fù zá",
-        "meaning": "Karmaşık",
+        "meaning": "Complex",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3813,7 +6947,7 @@
         "word_id": "cn_441",
         "hanzi": "比较",
         "pinyin": "bǐ jiào",
-        "meaning": "Kıyaslamak",
+        "meaning": "To compare / Relatively",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3829,7 +6963,7 @@
         "word_id": "cn_442",
         "hanzi": "甚至",
         "pinyin": "shèn zhì",
-        "meaning": "Hatta",
+        "meaning": "Even (to the point of)",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3845,7 +6979,7 @@
         "word_id": "cn_443",
         "hanzi": "虽然",
         "pinyin": "suī rán",
-        "meaning": "Rağmen",
+        "meaning": "Although",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3861,7 +6995,7 @@
         "word_id": "cn_444",
         "hanzi": "但是",
         "pinyin": "dàn shì",
-        "meaning": "Ama",
+        "meaning": "But",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3877,7 +7011,7 @@
         "word_id": "cn_445",
         "hanzi": "因为",
         "pinyin": "yīn wèi",
-        "meaning": "Çünkü",
+        "meaning": "Because",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3893,7 +7027,7 @@
         "word_id": "cn_446",
         "hanzi": "所以",
         "pinyin": "suǒ yǐ",
-        "meaning": "Bu yüzden",
+        "meaning": "Therefore / So",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3909,7 +7043,7 @@
         "word_id": "cn_447",
         "hanzi": "除了",
         "pinyin": "chú le",
-        "meaning": "Dışında",
+        "meaning": "Except / Besides",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3925,7 +7059,7 @@
         "word_id": "cn_448",
         "hanzi": "反而",
         "pinyin": "fǎn ér",
-        "meaning": "Tam tersine",
+        "meaning": "On the contrary / Instead",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3941,7 +7075,7 @@
         "word_id": "cn_449",
         "hanzi": "尤其",
         "pinyin": "yóu qí",
-        "meaning": "Özellikle",
+        "meaning": "Especially / Particularly",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3957,7 +7091,7 @@
         "word_id": "cn_450",
         "hanzi": "另外",
         "pinyin": "lìng wài",
-        "meaning": "Ayrıca",
+        "meaning": "In addition / Moreover",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3973,7 +7107,7 @@
         "word_id": "cn_451",
         "hanzi": "虽然",
         "pinyin": "suī rán",
-        "meaning": "Her ne kadar",
+        "meaning": "Although / Even though",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -3989,7 +7123,7 @@
         "word_id": "cn_452",
         "hanzi": "终于",
         "pinyin": "zhōng yú",
-        "meaning": "Nihayet",
+        "meaning": "Finally",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4005,7 +7139,7 @@
         "word_id": "cn_453",
         "hanzi": "大概",
         "pinyin": "dà gài",
-        "meaning": "Yaklaşık",
+        "meaning": "Approximately / Probably",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4021,7 +7155,7 @@
         "word_id": "cn_454",
         "hanzi": "经常",
         "pinyin": "jīng cháng",
-        "meaning": "Sıklıkla",
+        "meaning": "Often / Frequently",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4037,7 +7171,7 @@
         "word_id": "cn_455",
         "hanzi": "偶尔",
         "pinyin": "ǒu ěr",
-        "meaning": "Bazen/Ara sıra",
+        "meaning": "Occasionally",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4053,7 +7187,7 @@
         "word_id": "cn_456",
         "hanzi": "立刻",
         "pinyin": "lì kè",
-        "meaning": "Hemen",
+        "meaning": "Immediately",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4069,7 +7203,7 @@
         "word_id": "cn_457",
         "hanzi": "暂时",
         "pinyin": "zàn shí",
-        "meaning": "Geçici olarak",
+        "meaning": "Temporarily",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4085,7 +7219,7 @@
         "word_id": "cn_458",
         "hanzi": "正好",
         "pinyin": "zhèng hǎo",
-        "meaning": "Tam zamanında",
+        "meaning": "Just in time / Just right",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4101,7 +7235,7 @@
         "word_id": "cn_459",
         "hanzi": "其实",
         "pinyin": "qí shí",
-        "meaning": "Aslında",
+        "meaning": "Actually / In fact",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4117,7 +7251,7 @@
         "word_id": "cn_460",
         "hanzi": "确实",
         "pinyin": "què shí",
-        "meaning": "Gerçekten",
+        "meaning": "Indeed",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4133,7 +7267,7 @@
         "word_id": "cn_461",
         "hanzi": "总是",
         "pinyin": "zǒng shì",
-        "meaning": "Her zaman",
+        "meaning": "Always",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4149,7 +7283,7 @@
         "word_id": "cn_462",
         "hanzi": "也许",
         "pinyin": "yě xǔ",
-        "meaning": "Belki",
+        "meaning": "Maybe / Perhaps",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4165,7 +7299,7 @@
         "word_id": "cn_463",
         "hanzi": "并且",
         "pinyin": "bìng qiě",
-        "meaning": "Ayrıca/Üstelik",
+        "meaning": "Moreover / Furthermore",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4181,7 +7315,7 @@
         "word_id": "cn_464",
         "hanzi": "或者",
         "pinyin": "huò zhě",
-        "meaning": "Ya da",
+        "meaning": "Or",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4197,7 +7331,7 @@
         "word_id": "cn_465",
         "hanzi": "即使",
         "pinyin": "jí shǐ",
-        "meaning": "Olsa bile",
+        "meaning": "Even if",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4213,7 +7347,7 @@
         "word_id": "cn_466",
         "hanzi": "无论",
         "pinyin": "wú lùn",
-        "meaning": "Ne olursa olsun",
+        "meaning": "No matter / Regardless of",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4229,7 +7363,7 @@
         "word_id": "cn_467",
         "hanzi": "只要",
         "pinyin": "zhǐ yào",
-        "meaning": "Yeter ki",
+        "meaning": "As long as",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4245,7 +7379,7 @@
         "word_id": "cn_468",
         "hanzi": "由于",
         "pinyin": "yóu yú",
-        "meaning": "Dolayı",
+        "meaning": "Due to / Owing to",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4261,7 +7395,7 @@
         "word_id": "cn_469",
         "hanzi": "为了",
         "pinyin": "wèi le",
-        "meaning": "İçin (amacıyla)",
+        "meaning": "In order to / For",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4277,7 +7411,7 @@
         "word_id": "cn_470",
         "hanzi": "对于",
         "pinyin": "duì yú",
-        "meaning": "İlgili olarak",
+        "meaning": "Regarding / As for",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4293,7 +7427,7 @@
         "word_id": "cn_471",
         "hanzi": "关于",
         "pinyin": "guān yú",
-        "meaning": "Hakkında",
+        "meaning": "About / Concerning",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4309,7 +7443,7 @@
         "word_id": "cn_472",
         "hanzi": "像",
         "pinyin": "xiàng",
-        "meaning": "Gibi",
+        "meaning": "Like / To resemble",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4324,7 +7458,7 @@
         "word_id": "cn_473",
         "hanzi": "一样",
         "pinyin": "yī yàng",
-        "meaning": "Aynı",
+        "meaning": "Same",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4340,7 +7474,7 @@
         "word_id": "cn_474",
         "hanzi": "仿佛",
         "pinyin": "fǎng fú",
-        "meaning": "Sanki",
+        "meaning": "As if",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4356,7 +7490,7 @@
         "word_id": "cn_475",
         "hanzi": "到底",
         "pinyin": "dào dǐ",
-        "meaning": "Nihayetinde/Sonuçta",
+        "meaning": "In the end / After all",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4372,7 +7506,7 @@
         "word_id": "cn_476",
         "hanzi": "毕竟",
         "pinyin": "bì jìng",
-        "meaning": "Sonuçta/Neticede",
+        "meaning": "After all",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4388,7 +7522,7 @@
         "word_id": "cn_477",
         "hanzi": "完全",
         "pinyin": "wán quán",
-        "meaning": "Tamamen",
+        "meaning": "Completely",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4404,7 +7538,7 @@
         "word_id": "cn_478",
         "hanzi": "十分",
         "pinyin": "shí fēn",
-        "meaning": "Çok",
+        "meaning": "Very / Extremely",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4420,7 +7554,7 @@
         "word_id": "cn_479",
         "hanzi": "几乎",
         "pinyin": "jī hū",
-        "meaning": "Neredeyse",
+        "meaning": "Almost / Nearly",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4436,7 +7570,7 @@
         "word_id": "cn_480",
         "hanzi": "简直",
         "pinyin": "jiǎn zhí",
-        "meaning": "Adeta",
+        "meaning": "Simply / Virtually",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4452,7 +7586,7 @@
         "word_id": "cn_481",
         "hanzi": "确实",
         "pinyin": "què shí",
-        "meaning": "Gerçekten",
+        "meaning": "Indeed / Truly",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4468,7 +7602,7 @@
         "word_id": "cn_482",
         "hanzi": "当然",
         "pinyin": "dāng rán",
-        "meaning": "Elbette",
+        "meaning": "Of course",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4484,7 +7618,7 @@
         "word_id": "cn_483",
         "hanzi": "也许",
         "pinyin": "yě xǔ",
-        "meaning": "Belki",
+        "meaning": "Perhaps",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4500,7 +7634,7 @@
         "word_id": "cn_484",
         "hanzi": "不管",
         "pinyin": "bù guǎn",
-        "meaning": "Ne olursa olsun",
+        "meaning": "No matter",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4516,7 +7650,7 @@
         "word_id": "cn_485",
         "hanzi": "难道",
         "pinyin": "nán dào",
-        "meaning": "Acaba?",
+        "meaning": "Could it be that...?",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4532,7 +7666,7 @@
         "word_id": "cn_486",
         "hanzi": "刚才",
         "pinyin": "gāng cái",
-        "meaning": "Az önce",
+        "meaning": "Just now",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4548,7 +7682,7 @@
         "word_id": "cn_487",
         "hanzi": "后来",
         "pinyin": "hòu lái",
-        "meaning": "Daha sonra",
+        "meaning": "Afterwards / Later",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4564,7 +7698,7 @@
         "word_id": "cn_488",
         "hanzi": "以前",
         "pinyin": "yǐ qián",
-        "meaning": "Önce",
+        "meaning": "Before / Previously",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4580,7 +7714,7 @@
         "word_id": "cn_489",
         "hanzi": "以后",
         "pinyin": "yǐ hòu",
-        "meaning": "Sonra",
+        "meaning": "After / In the future",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4596,7 +7730,7 @@
         "word_id": "cn_490",
         "hanzi": "一直",
         "pinyin": "yī zhí",
-        "meaning": "Daima",
+        "meaning": "Always / Continuously",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4612,7 +7746,7 @@
         "word_id": "cn_491",
         "hanzi": "总是",
         "pinyin": "zǒng shì",
-        "meaning": "Her zaman",
+        "meaning": "Always",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4628,7 +7762,7 @@
         "word_id": "cn_492",
         "hanzi": "终于",
         "pinyin": "zhōng yú",
-        "meaning": "Sonunda",
+        "meaning": "Finally / At last",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4644,7 +7778,7 @@
         "word_id": "cn_493",
         "hanzi": "常常",
         "pinyin": "cháng cháng",
-        "meaning": "Sıklıkla",
+        "meaning": "Often",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4660,7 +7794,7 @@
         "word_id": "cn_494",
         "hanzi": "通常",
         "pinyin": "tōng cháng",
-        "meaning": "Genellikle",
+        "meaning": "Usually",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4676,7 +7810,7 @@
         "word_id": "cn_495",
         "hanzi": "偶尔",
         "pinyin": "ǒu ěr",
-        "meaning": "Ara sıra",
+        "meaning": "Occasionally",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4692,7 +7826,7 @@
         "word_id": "cn_496",
         "hanzi": "最近",
         "pinyin": "zuì jìn",
-        "meaning": "Son zamanlarda",
+        "meaning": "Recently",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4708,7 +7842,7 @@
         "word_id": "cn_497",
         "hanzi": "马上",
         "pinyin": "mǎ shàng",
-        "meaning": "Hemen",
+        "meaning": "Right away / Immediately",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4724,7 +7858,7 @@
         "word_id": "cn_498",
         "hanzi": "刚才",
         "pinyin": "gāng cái",
-        "meaning": "Az önce",
+        "meaning": "Just now",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4740,7 +7874,7 @@
         "word_id": "cn_499",
         "hanzi": "已经",
         "pinyin": "yǐ jīng",
-        "meaning": "Zaten",
+        "meaning": "Already",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4756,7 +7890,7 @@
         "word_id": "cn_500",
         "hanzi": "正在",
         "pinyin": "zhèng zài",
-        "meaning": "Şu anda/Halihazırda",
+        "meaning": "In the process of / Currently",
         "metadata": {
           "difficulty": 5,
           "tone_pattern": [
@@ -4771,10 +7905,7 @@
     ]
   },
   {
-    "language": "zh-CN",
-    "target_language": "en",
     "level": "A2-Group2",
-    "total_words": 100,
     "words": [
       {
         "word_id": "cn_501",
@@ -6379,10 +9510,7 @@
     ]
   },
   {
-    "language": "zh-CN",
-    "target_language": "en",
     "level": "B1-Group1",
-    "total_words": 100,
     "words": [
       {
         "word_id": "cn_601",
@@ -7987,10 +11115,1612 @@
     ]
   },
   {
-    "language": "zh-CN",
-    "target_language": "en",
+    "level": "B1-Group2",
+    "words": [
+      {
+        "word_id": "cn_701",
+        "hanzi": "分析",
+        "pinyin": "fēn xī",
+        "meaning": "To analyze / Analysis",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_701.mp3"
+        }
+      },
+      {
+        "word_id": "cn_702",
+        "hanzi": "研究",
+        "pinyin": "yán jiū",
+        "meaning": "To research / Research",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_702.mp3"
+        }
+      },
+      {
+        "word_id": "cn_703",
+        "hanzi": "报告",
+        "pinyin": "bào gào",
+        "meaning": "Report",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_703.mp3"
+        }
+      },
+      {
+        "word_id": "cn_704",
+        "hanzi": "结论",
+        "pinyin": "jié lùn",
+        "meaning": "Conclusion",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_704.mp3"
+        }
+      },
+      {
+        "word_id": "cn_705",
+        "hanzi": "证明",
+        "pinyin": "zhèng míng",
+        "meaning": "To prove / Proof",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_705.mp3"
+        }
+      },
+      {
+        "word_id": "cn_706",
+        "hanzi": "解释",
+        "pinyin": "jiě shì",
+        "meaning": "To explain / Explanation",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_706.mp3"
+        }
+      },
+      {
+        "word_id": "cn_707",
+        "hanzi": "评价",
+        "pinyin": "píng jià",
+        "meaning": "To evaluate / Evaluation",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_707.mp3"
+        }
+      },
+      {
+        "word_id": "cn_708",
+        "hanzi": "目的",
+        "pinyin": "mù dì",
+        "meaning": "Purpose / Goal",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_708.mp3"
+        }
+      },
+      {
+        "word_id": "cn_709",
+        "hanzi": "影响",
+        "pinyin": "yǐng xiǎng",
+        "meaning": "Influence / To affect",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_709.mp3"
+        }
+      },
+      {
+        "word_id": "cn_710",
+        "hanzi": "态度",
+        "pinyin": "tài dù",
+        "meaning": "Attitude",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_710.mp3"
+        }
+      },
+      {
+        "word_id": "cn_711",
+        "hanzi": "能力",
+        "pinyin": "néng lì",
+        "meaning": "Ability / Capability",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_711.mp3"
+        }
+      },
+      {
+        "word_id": "cn_712",
+        "hanzi": "表现",
+        "pinyin": "biǎo xiàn",
+        "meaning": "Performance / To show",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_712.mp3"
+        }
+      },
+      {
+        "word_id": "cn_713",
+        "hanzi": "负责",
+        "pinyin": "fù zé",
+        "meaning": "To be responsible for",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_713.mp3"
+        }
+      },
+      {
+        "word_id": "cn_714",
+        "hanzi": "决定",
+        "pinyin": "jué dìng",
+        "meaning": "To decide / Decision",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_714.mp3"
+        }
+      },
+      {
+        "word_id": "cn_715",
+        "hanzi": "解决",
+        "pinyin": "jiě jué",
+        "meaning": "To solve / To resolve",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_715.mp3"
+        }
+      },
+      {
+        "word_id": "cn_716",
+        "hanzi": "讨论",
+        "pinyin": "tǎo lùn",
+        "meaning": "To discuss / Discussion",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_716.mp3"
+        }
+      },
+      {
+        "word_id": "cn_717",
+        "hanzi": "建议",
+        "pinyin": "jiàn yì",
+        "meaning": "Suggestion / To suggest",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_717.mp3"
+        }
+      },
+      {
+        "word_id": "cn_718",
+        "hanzi": "同意",
+        "pinyin": "tóng yì",
+        "meaning": "To agree",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_718.mp3"
+        }
+      },
+      {
+        "word_id": "cn_719",
+        "hanzi": "反对",
+        "pinyin": "fǎn duì",
+        "meaning": "To oppose",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_719.mp3"
+        }
+      },
+      {
+        "word_id": "cn_720",
+        "hanzi": "比较",
+        "pinyin": "bǐ jiào",
+        "meaning": "To compare",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_720.mp3"
+        }
+      },
+      {
+        "word_id": "cn_721",
+        "hanzi": "描述",
+        "pinyin": "miáo shù",
+        "meaning": "To describe / Description",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_721.mp3"
+        }
+      },
+      {
+        "word_id": "cn_722",
+        "hanzi": "总结",
+        "pinyin": "zǒng jié",
+        "meaning": "To summarize / Summary",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_722.mp3"
+        }
+      },
+      {
+        "word_id": "cn_723",
+        "hanzi": "补充",
+        "pinyin": "bǔ chōng",
+        "meaning": "To supplement / To add",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_723.mp3"
+        }
+      },
+      {
+        "word_id": "cn_724",
+        "hanzi": "增加",
+        "pinyin": "zēng jiā",
+        "meaning": "To increase",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_724.mp3"
+        }
+      },
+      {
+        "word_id": "cn_725",
+        "hanzi": "减少",
+        "pinyin": "jiǎn shǎo",
+        "meaning": "To decrease / To reduce",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_725.mp3"
+        }
+      },
+      {
+        "word_id": "cn_726",
+        "hanzi": "保持",
+        "pinyin": "bǎo chí",
+        "meaning": "To maintain / To keep",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_726.mp3"
+        }
+      },
+      {
+        "word_id": "cn_727",
+        "hanzi": "发展",
+        "pinyin": "fā zhǎn",
+        "meaning": "To develop / Development",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_727.mp3"
+        }
+      },
+      {
+        "word_id": "cn_728",
+        "hanzi": "提高",
+        "pinyin": "tí gāo",
+        "meaning": "To improve / To raise",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_728.mp3"
+        }
+      },
+      {
+        "word_id": "cn_729",
+        "hanzi": "实现",
+        "pinyin": "shí xiàn",
+        "meaning": "To achieve / To realize",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_729.mp3"
+        }
+      },
+      {
+        "word_id": "cn_730",
+        "hanzi": "组织",
+        "pinyin": "zǔ zhī",
+        "meaning": "To organize / Organization",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_730.mp3"
+        }
+      },
+      {
+        "word_id": "cn_731",
+        "hanzi": "安排",
+        "pinyin": "ān pái",
+        "meaning": "To arrange / Arrangement",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_731.mp3"
+        }
+      },
+      {
+        "word_id": "cn_732",
+        "hanzi": "检查",
+        "pinyin": "jiǎn chá",
+        "meaning": "To check / To inspect",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_732.mp3"
+        }
+      },
+      {
+        "word_id": "cn_733",
+        "hanzi": "修改",
+        "pinyin": "xiū gǎi",
+        "meaning": "To modify / To revise",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_733.mp3"
+        }
+      },
+      {
+        "word_id": "cn_734",
+        "hanzi": "保存",
+        "pinyin": "bǎo cún",
+        "meaning": "To save / To preserve",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_734.mp3"
+        }
+      },
+      {
+        "word_id": "cn_735",
+        "hanzi": "连接",
+        "pinyin": "lián jiē",
+        "meaning": "To connect / Connection",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_735.mp3"
+        }
+      },
+      {
+        "word_id": "cn_736",
+        "hanzi": "运行",
+        "pinyin": "yùn xíng",
+        "meaning": "To run / To operate",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_736.mp3"
+        }
+      },
+      {
+        "word_id": "cn_737",
+        "hanzi": "分析",
+        "pinyin": "fēn xī",
+        "meaning": "Analysis",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_737.mp3"
+        }
+      },
+      {
+        "word_id": "cn_738",
+        "hanzi": "数据",
+        "pinyin": "shù jù",
+        "meaning": "Data",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_738.mp3"
+        }
+      },
+      {
+        "word_id": "cn_739",
+        "hanzi": "模型",
+        "pinyin": "mó xíng",
+        "meaning": "Model",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_739.mp3"
+        }
+      },
+      {
+        "word_id": "cn_740",
+        "hanzi": "资源",
+        "pinyin": "zī yuán",
+        "meaning": "Resource",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_740.mp3"
+        }
+      },
+      {
+        "word_id": "cn_741",
+        "hanzi": "目标",
+        "pinyin": "mù biāo",
+        "meaning": "Goal / Target",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_741.mp3"
+        }
+      },
+      {
+        "word_id": "cn_742",
+        "hanzi": "标准",
+        "pinyin": "biāo zhǔn",
+        "meaning": "Standard",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_742.mp3"
+        }
+      },
+      {
+        "word_id": "cn_743",
+        "hanzi": "质量",
+        "pinyin": "zhì liàng",
+        "meaning": "Quality",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_743.mp3"
+        }
+      },
+      {
+        "word_id": "cn_744",
+        "hanzi": "数量",
+        "pinyin": "shù liàng",
+        "meaning": "Quantity",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_744.mp3"
+        }
+      },
+      {
+        "word_id": "cn_745",
+        "hanzi": "范围",
+        "pinyin": "fàn wéi",
+        "meaning": "Scope / Range",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_745.mp3"
+        }
+      },
+      {
+        "word_id": "cn_746",
+        "hanzi": "结构",
+        "pinyin": "jié gòu",
+        "meaning": "Structure",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_746.mp3"
+        }
+      },
+      {
+        "word_id": "cn_747",
+        "hanzi": "过程",
+        "pinyin": "guò chéng",
+        "meaning": "Process",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_747.mp3"
+        }
+      },
+      {
+        "word_id": "cn_748",
+        "hanzi": "功能",
+        "pinyin": "gōng néng",
+        "meaning": "Function",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_748.mp3"
+        }
+      },
+      {
+        "word_id": "cn_749",
+        "hanzi": "条件",
+        "pinyin": "tiáo jiàn",
+        "meaning": "Condition / Requirement",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_749.mp3"
+        }
+      },
+      {
+        "word_id": "cn_750",
+        "hanzi": "环境",
+        "pinyin": "huán jìng",
+        "meaning": "Environment",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_750.mp3"
+        }
+      },
+      {
+        "word_id": "cn_751",
+        "hanzi": "价值",
+        "pinyin": "jià zhí",
+        "meaning": "Value",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_751.mp3"
+        }
+      },
+      {
+        "word_id": "cn_752",
+        "hanzi": "机会",
+        "pinyin": "jī huì",
+        "meaning": "Opportunity",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_752.mp3"
+        }
+      },
+      {
+        "word_id": "cn_753",
+        "hanzi": "挑战",
+        "pinyin": "tiǎo zhàn",
+        "meaning": "Challenge",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_753.mp3"
+        }
+      },
+      {
+        "word_id": "cn_754",
+        "hanzi": "风险",
+        "pinyin": "fēng xiǎn",
+        "meaning": "Risk",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_754.mp3"
+        }
+      },
+      {
+        "word_id": "cn_755",
+        "hanzi": "关键",
+        "pinyin": "guān jiàn",
+        "meaning": "Key / Crucial",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_755.mp3"
+        }
+      },
+      {
+        "word_id": "cn_756",
+        "hanzi": "基本",
+        "pinyin": "jī běn",
+        "meaning": "Basic / Fundamental",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_756.mp3"
+        }
+      },
+      {
+        "word_id": "cn_757",
+        "hanzi": "主要",
+        "pinyin": "zhǔ yào",
+        "meaning": "Main / Primary",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_757.mp3"
+        }
+      },
+      {
+        "word_id": "cn_758",
+        "hanzi": "直接",
+        "pinyin": "zhí jiē",
+        "meaning": "Direct",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_758.mp3"
+        }
+      },
+      {
+        "word_id": "cn_759",
+        "hanzi": "间接",
+        "pinyin": "jiàn jiē",
+        "meaning": "Indirect",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_759.mp3"
+        }
+      },
+      {
+        "word_id": "cn_760",
+        "hanzi": "相关",
+        "pinyin": "xiāng guān",
+        "meaning": "Related / Relevant",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_760.mp3"
+        }
+      },
+      {
+        "word_id": "cn_761",
+        "hanzi": "绝对",
+        "pinyin": "jué duì",
+        "meaning": "Absolute",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_761.mp3"
+        }
+      },
+      {
+        "word_id": "cn_762",
+        "hanzi": "普通",
+        "pinyin": "pǔ tōng",
+        "meaning": "Ordinary / Common",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_762.mp3"
+        }
+      },
+      {
+        "word_id": "cn_763",
+        "hanzi": "复杂",
+        "pinyin": "fù zá",
+        "meaning": "Complex",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_763.mp3"
+        }
+      },
+      {
+        "word_id": "cn_764",
+        "hanzi": "简单",
+        "pinyin": "jiǎn dān",
+        "meaning": "Simple",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_764.mp3"
+        }
+      },
+      {
+        "word_id": "cn_765",
+        "hanzi": "容易",
+        "pinyin": "róng yì",
+        "meaning": "Easy",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_765.mp3"
+        }
+      },
+      {
+        "word_id": "cn_766",
+        "hanzi": "困难",
+        "pinyin": "kùn nán",
+        "meaning": "Difficult",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_766.mp3"
+        }
+      },
+      {
+        "word_id": "cn_767",
+        "hanzi": "积极",
+        "pinyin": "jī jí",
+        "meaning": "Positive / Active",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_767.mp3"
+        }
+      },
+      {
+        "word_id": "cn_768",
+        "hanzi": "消极",
+        "pinyin": "xiāo jí",
+        "meaning": "Negative / Passive",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_768.mp3"
+        }
+      },
+      {
+        "word_id": "cn_769",
+        "hanzi": "有效",
+        "pinyin": "yǒu xiào",
+        "meaning": "Effective / Valid",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_769.mp3"
+        }
+      },
+      {
+        "word_id": "cn_770",
+        "hanzi": "无效",
+        "pinyin": "wú xiào",
+        "meaning": "Ineffective / Invalid",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_770.mp3"
+        }
+      },
+      {
+        "word_id": "cn_771",
+        "hanzi": "快速",
+        "pinyin": "kuài sù",
+        "meaning": "Fast / Rapid",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_771.mp3"
+        }
+      },
+      {
+        "word_id": "cn_772",
+        "hanzi": "缓慢",
+        "pinyin": "huǎn màn",
+        "meaning": "Slow",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_772.mp3"
+        }
+      },
+      {
+        "word_id": "cn_773",
+        "hanzi": "准确",
+        "pinyin": "zhǔn què",
+        "meaning": "Accurate",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_773.mp3"
+        }
+      },
+      {
+        "word_id": "cn_774",
+        "hanzi": "错误",
+        "pinyin": "cuò wù",
+        "meaning": "Wrong / Error",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_774.mp3"
+        }
+      },
+      {
+        "word_id": "cn_775",
+        "hanzi": "完整",
+        "pinyin": "wán zhěng",
+        "meaning": "Complete / Intact",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_775.mp3"
+        }
+      },
+      {
+        "word_id": "cn_776",
+        "hanzi": "部分",
+        "pinyin": "bù fèn",
+        "meaning": "Part / Partial",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_776.mp3"
+        }
+      },
+      {
+        "word_id": "cn_777",
+        "hanzi": "公开",
+        "pinyin": "gōng kāi",
+        "meaning": "Public / Open",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_777.mp3"
+        }
+      },
+      {
+        "word_id": "cn_778",
+        "hanzi": "内部",
+        "pinyin": "nèi bù",
+        "meaning": "Internal / Inside",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_778.mp3"
+        }
+      },
+      {
+        "word_id": "cn_779",
+        "hanzi": "外部",
+        "pinyin": "wài bù",
+        "meaning": "External / Outside",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_779.mp3"
+        }
+      },
+      {
+        "word_id": "cn_780",
+        "hanzi": "个人",
+        "pinyin": "gè rén",
+        "meaning": "Personal / Individual",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_780.mp3"
+        }
+      },
+      {
+        "word_id": "cn_781",
+        "hanzi": "公共",
+        "pinyin": "gōng gòng",
+        "meaning": "Public",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_781.mp3"
+        }
+      },
+      {
+        "word_id": "cn_782",
+        "hanzi": "现在",
+        "pinyin": "xiàn zài",
+        "meaning": "Now / Present",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_782.mp3"
+        }
+      },
+      {
+        "word_id": "cn_783",
+        "hanzi": "过去",
+        "pinyin": "guò qù",
+        "meaning": "Past",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_783.mp3"
+        }
+      },
+      {
+        "word_id": "cn_784",
+        "hanzi": "未来",
+        "pinyin": "wèi lái",
+        "meaning": "Future",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_784.mp3"
+        }
+      },
+      {
+        "word_id": "cn_785",
+        "hanzi": "经常",
+        "pinyin": "jīng cháng",
+        "meaning": "Often / Frequently",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_785.mp3"
+        }
+      },
+      {
+        "word_id": "cn_786",
+        "hanzi": "偶尔",
+        "pinyin": "ǒu ěr",
+        "meaning": "Occasionally",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_786.mp3"
+        }
+      },
+      {
+        "word_id": "cn_787",
+        "hanzi": "始终",
+        "pinyin": "shǐ zhōng",
+        "meaning": "From beginning to end / Always",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_787.mp3"
+        }
+      },
+      {
+        "word_id": "cn_788",
+        "hanzi": "大概",
+        "pinyin": "dà gài",
+        "meaning": "Probably / Approximately",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_788.mp3"
+        }
+      },
+      {
+        "word_id": "cn_789",
+        "hanzi": "也许",
+        "pinyin": "yě xǔ",
+        "meaning": "Perhaps / Maybe",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_789.mp3"
+        }
+      },
+      {
+        "word_id": "cn_790",
+        "hanzi": "必须",
+        "pinyin": "bì xū",
+        "meaning": "Must",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "1st"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_790.mp3"
+        }
+      },
+      {
+        "word_id": "cn_791",
+        "hanzi": "能够",
+        "pinyin": "néng gòu",
+        "meaning": "To be able to / Can",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_791.mp3"
+        }
+      },
+      {
+        "word_id": "cn_792",
+        "hanzi": "愿意",
+        "pinyin": "yuàn yì",
+        "meaning": "Willing",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_792.mp3"
+        }
+      },
+      {
+        "word_id": "cn_793",
+        "hanzi": "打算",
+        "pinyin": "dǎ suàn",
+        "meaning": "To plan / To intend",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_793.mp3"
+        }
+      },
+      {
+        "word_id": "cn_794",
+        "hanzi": "希望",
+        "pinyin": "xī wàng",
+        "meaning": "To hope",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_794.mp3"
+        }
+      },
+      {
+        "word_id": "cn_795",
+        "hanzi": "注意",
+        "pinyin": "zhù yì",
+        "meaning": "To pay attention",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "4th",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_795.mp3"
+        }
+      },
+      {
+        "word_id": "cn_796",
+        "hanzi": "了解",
+        "pinyin": "liǎo jiě",
+        "meaning": "To understand / To know well",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "3rd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_796.mp3"
+        }
+      },
+      {
+        "word_id": "cn_797",
+        "hanzi": "考虑",
+        "pinyin": "kǎo lǜ",
+        "meaning": "To consider",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_797.mp3"
+        }
+      },
+      {
+        "word_id": "cn_798",
+        "hanzi": "感受",
+        "pinyin": "gǎn shòu",
+        "meaning": "To feel / Feeling",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "3rd",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_798.mp3"
+        }
+      },
+      {
+        "word_id": "cn_799",
+        "hanzi": "怀疑",
+        "pinyin": "huái yí",
+        "meaning": "To doubt / To suspect",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "2nd",
+            "2nd"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_799.mp3"
+        }
+      },
+      {
+        "word_id": "cn_800",
+        "hanzi": "相信",
+        "pinyin": "xiāng xìn",
+        "meaning": "To believe / To trust",
+        "metadata": {
+          "difficulty": 6,
+          "tone_pattern": [
+            "1st",
+            "4th"
+          ]
+        },
+        "audio": {
+          "default": "/audio/words_ch/cn_800.mp3"
+        }
+      }
+    ]
+  },
+  {
     "level": "B2-Group1",
-    "total_words": 100,
     "words": [
       {
         "word_id": "cn_801",
@@ -9614,10 +14344,7 @@
     ]
   },
   {
-    "language": "zh-CN",
-    "target_language": "en",
     "level": "B2-Group2",
-    "total_words": 100,
     "words": [
       {
         "word_id": "cn_901",
@@ -11235,10 +15962,7 @@
     ]
   },
   {
-    "language": "zh-CN",
-    "target_language": "en",
     "level": "C1-Group1",
-    "total_words": 100,
     "words": [
       {
         "word_id": "cn_1001",
@@ -12861,10 +17585,7 @@
     ]
   },
   {
-    "language": "zh-CN",
-    "target_language": "en",
     "level": "C1-Group2",
-    "total_words": 100,
     "words": [
       {
         "word_id": "cn_1101",
@@ -14658,10 +19379,7 @@
     ]
   },
   {
-    "language": "zh-CN",
-    "target_language": "en",
     "level": "C2-Group1",
-    "total_words": 100,
     "words": [
       {
         "word_id": "cn_1201",
@@ -14731,7 +19449,7 @@
         "word_id": "cn_1205",
         "hanzi": "宏大",
         "pinyin": "hóng dà",
-        "meaning": "Grandiloquent",
+        "meaning": "Grand / Magnificent / Vast",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -14779,7 +19497,7 @@
         "word_id": "cn_1208",
         "hanzi": "兼容",
         "pinyin": "jiān róng",
-        "meaning": "Eclectic",
+        "meaning": "Compatible / Inclusive",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16044,7 +20762,7 @@
         "word_id": "cn_1287",
         "hanzi": "分析",
         "pinyin": "fēn xī",
-        "meaning": "Analiz",
+        "meaning": "Analysis",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16060,7 +20778,7 @@
         "word_id": "cn_1288",
         "hanzi": "预测",
         "pinyin": "yù cè",
-        "meaning": "Tahmin",
+        "meaning": "Prediction / Forecast",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16092,7 +20810,7 @@
         "word_id": "cn_1290",
         "hanzi": "算法",
         "pinyin": "suàn fǎ",
-        "meaning": "Algoritma",
+        "meaning": "Algorithm",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16108,7 +20826,7 @@
         "word_id": "cn_1291",
         "hanzi": "逻辑",
         "pinyin": "luó jí",
-        "meaning": "Mantık",
+        "meaning": "Logic",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16124,7 +20842,7 @@
         "word_id": "cn_1292",
         "hanzi": "存储",
         "pinyin": "cún chǔ",
-        "meaning": "Depolama",
+        "meaning": "Storage",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16140,7 +20858,7 @@
         "word_id": "cn_1293",
         "hanzi": "数据库",
         "pinyin": "shù jù kù",
-        "meaning": "Veritabanı",
+        "meaning": "Database",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16157,7 +20875,7 @@
         "word_id": "cn_1294",
         "hanzi": "云计算",
         "pinyin": "yún jì suàn",
-        "meaning": "Bulut bilişim",
+        "meaning": "Cloud computing",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16174,7 +20892,7 @@
         "word_id": "cn_1295",
         "hanzi": "网络",
         "pinyin": "wǎng luò",
-        "meaning": "Ağ",
+        "meaning": "Network",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16190,7 +20908,7 @@
         "word_id": "cn_1296",
         "hanzi": "协议",
         "pinyin": "xié yì",
-        "meaning": "Protokol",
+        "meaning": "Protocol",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16206,7 +20924,7 @@
         "word_id": "cn_1297",
         "hanzi": "界面",
         "pinyin": "jiè miàn",
-        "meaning": "Arayüz",
+        "meaning": "Interface",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16222,7 +20940,7 @@
         "word_id": "cn_1298",
         "hanzi": "用户",
         "pinyin": "yòng hù",
-        "meaning": "Kullanıcı",
+        "meaning": "User",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16254,7 +20972,7 @@
         "word_id": "cn_1300",
         "hanzi": "部署",
         "pinyin": "bù shǔ",
-        "meaning": "Kurulum / Dağıtım",
+        "meaning": "Deployment",
         "metadata": {
           "difficulty": 9,
           "tone_pattern": [
@@ -16269,10 +20987,7 @@
     ]
   },
   {
-    "language": "zh-CN",
-    "target_language": "en",
     "level": "C2-Group2",
-    "total_words": 100,
     "words": [
       {
         "word_id": "cn_1301",

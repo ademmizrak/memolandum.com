@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "kpss_mat_201",
+    "title": "Mantık ve Önermeler",
+    "slug": "mantik-ve-onermeler",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Doğru ya da yanlış kesin bir hüküm bildiren ifadelerin (önermelerin) doğruluk değerlerini inceleyen alt dal.",
+    "content": "Mantık ve Önermeler kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Doğru ya da yanlış kesin bir hüküm bildiren ifadelerin (önermelerin) doğruluk değerlerini inceleyen alt dal.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Mantik"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_202",
+    "title": "Bileşik Önermeler ve Bağlaçlar",
+    "slug": "bilesik-onermeler-ve-baglaclar",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "ve (veya), veya, ya da, ise, ancak ve ancak bağlaçlarıyla oluşturulan yeni önermeler.",
+    "content": "Bileşik Önermeler ve Bağlaçlar kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"ve (veya), veya, ya da, ise, ancak ve ancak bağlaçlarıyla oluşturulan yeni önermeler.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Mantik"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_203",
+    "title": "İse Bağlacı ve Koşullu Önerme",
+    "slug": "ise-baglaci-ve-kosullu-onerme",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "p => q şeklinde yazılan ve sadece p doğru q yanlışken yanlış olan önerme çeşidi.",
+    "content": "İse Bağlacı ve Koşullu Önerme kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"p => q şeklinde yazılan ve sadece p doğru q yanlışken yanlış olan önerme çeşidi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Mantik"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_204",
+    "title": "Önermelerin Olumsuzu (Değili)",
+    "slug": "onermelerin-olumsuzu-degili",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Bir önermenin doğruluk değerinin tersine döndürülmesi (p' veya ~p simgesi).",
+    "content": "Önermelerin Olumsuzu (Değili) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bir önermenin doğruluk değerinin tersine döndürülmesi (p' veya ~p simgesi).\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Mantik"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_205",
+    "title": "Gerek ve Yeter Koşul",
+    "slug": "gerek-ve-yeter-kosul",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Matematiksel teoremlerde hipotez ve hüküm arasındaki 'gerek şart' ve 'yeter şart' ilişkileri.",
+    "content": "Gerek ve Yeter Koşul kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Matematiksel teoremlerde hipotez ve hüküm arasındaki 'gerek şart' ve 'yeter şart' ilişkileri.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Mantik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_206",
+    "title": "Çarpanlara Ayırmada Terim Ekleme Çıkarma",
+    "slug": "carpanlara-ayirmada-terim-ekleme-cikarma",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Doğrudan çarpanlarına ayrılamayan ifadelerde uygun terim ekleyip çıkararak tam kare elde etme yöntemi.",
+    "content": "Çarpanlara Ayırmada Terim Ekleme Çıkarma kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Doğrudan çarpanlarına ayrılamayan ifadelerde uygun terim ekleyip çıkararak tam kare elde etme yöntemi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Carpanlara_Ayirma"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_207",
+    "title": "İkinci Dereceden Eşitsizlikler",
+    "slug": "ikinci-dereceden-esitsizlikler",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "ax^2 + bx + c < 0 biçimindeki ifadelerin işaret tablosu yapılarak çözüm aralığının bulunması.",
+    "content": "İkinci Dereceden Eşitsizlikler kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"ax^2 + bx + c < 0 biçimindeki ifadelerin işaret tablosu yapılarak çözüm aralığının bulunması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Etsitsizlikler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_208",
+    "title": "İşaret Tablosu Oluşturma",
+    "slug": "isaret-tablosu-olusturma",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Kökleri küçükten büyüğe sıralayarak eşitsizlik sistemlerinde artı ve eksi işaretlerini yerleştirme kuralı.",
+    "content": "İşaret Tablosu Oluşturma kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kökleri küçükten büyüğe sıralayarak eşitsizlik sistemlerinde artı ve eksi işaretlerini yerleştirme kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Etsitsizlikler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_209",
+    "title": "Üçgende Benzerlik Teoremleri (A-A, K-A-K, K-K-K)",
+    "slug": "ucgende-benzerlik-teoremleri-a-a-k-a-k-k-k-k",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Üçgenlerin benzer olduğunu kanıtlayan açı-açı, kenar-açı-kenar ve kenar-kenar-kenar kuralları.",
+    "content": "Üçgende Benzerlik Teoremleri (A-A, K-A-K, K-K-K) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Üçgenlerin benzer olduğunu kanıtlayan açı-açı, kenar-açı-kenar ve kenar-kenar-kenar kuralları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Ucgenler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_210",
+    "title": "Thales Teoremi",
+    "slug": "thales-teoremi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Paralel doğruların kesenler üzerinde ayırdığı parçaların oranlı olması kuralı.",
+    "content": "Thales Teoremi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Paralel doğruların kesenler üzerinde ayırdığı parçaların oranlı olması kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Ucgenler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_211",
+    "title": "Kelebek Benzerliği",
+    "slug": "kelebek-benzerligi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Karşılıklı paralelkenar kenarlar veya kelebek kanadı şeklindeki kesişen doğrularda oluşan benzerlik.",
+    "content": "Kelebek Benzerliği kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Karşılıklı paralelkenar kenarlar veya kelebek kanadı şeklindeki kesişen doğrularda oluşan benzerlik.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Ucgenler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_212",
+    "title": "Açıortay Üzerindeki Noktanın Özelliği",
+    "slug": "aciortay-uzerindeki-noktanin-ozelligi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Açıortay üzerinden kollara indirilen dikmelerin uzunluklarının birbirine eşit olması.",
+    "content": "Açıortay Üzerindeki Noktanın Özelliği kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Açıortay üzerinden kollara indirilen dikmelerin uzunluklarının birbirine eşit olması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Ucgenler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_213",
+    "title": "Üçgende Kenarortayların Kesişim Özelliği",
+    "slug": "ucgende-kenarortaylarin-kesisim-ozelligi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Kenarortayların bir noktada kesişmesiyle oluşan alan ve uzunluk oranları.",
+    "content": "Üçgende Kenarortayların Kesişim Özelliği kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kenarortayların bir noktada kesişmesiyle oluşan alan ve uzunluk oranları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Ucgenler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_214",
+    "title": "Çevrel Çemberin Merkez Açısı",
+    "slug": "cevrel-cemberin-merkez-acisi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Üçgenin köşelerinden geçen çemberin merkezi ve açı özellikleri.",
+    "content": "Çevrel Çemberin Merkez Açısı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Üçgenin köşelerinden geçen çemberin merkezi ve açı özellikleri.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Cember_Daire"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_215",
+    "title": "İç Teğet Çemberin Merkezi",
+    "slug": "ic-teget-cemberin-merkezi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Üçgenin açıortaylarının kesişim noktası olan ve kenarlara teğet olan çemberin merkezi.",
+    "content": "İç Teğet Çemberin Merkezi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Üçgenin açıortaylarının kesişim noktası olan ve kenarlara teğet olan çemberin merkezi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Ucgenler"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_216",
+    "title": "Dörtgenlerde Alan Formülleri (Köşegenler Yardımıyla)",
+    "slug": "dortgenlerde-alan-formulleri-kosegenler-yardimiyla",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Köşegen uzunlukları ve aralarındaki açının sinüsü ile dörtgen alanı hesaplama.",
+    "content": "Dörtgenlerde Alan Formülleri (Köşegenler Yardımıyla) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Köşegen uzunlukları ve aralarındaki açının sinüsü ile dörtgen alanı hesaplama.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Dortgenler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_217",
+    "title": "Yamukta Orta Taban",
+    "slug": "yamukta-orta-taban",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Yamukta paralel kenarların orta noktalarını birleştiren ve alt-üst taban toplamının yarısı olan doğru parçası.",
+    "content": "Yamukta Orta Taban kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Yamukta paralel kenarların orta noktalarını birleştiren ve alt-üst taban toplamının yarısı olan doğru parçası.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Dortgenler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_218",
+    "title": "Çemberde Kuvvet Teoremi",
+    "slug": "cemberde-kuvvet-teoremi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Kesişen iki kirişin veya çember dışındaki kesenlerin parça uzunlukları çarpımı kuralı.",
+    "content": "Çemberde Kuvvet Teoremi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kesişen iki kirişin veya çember dışındaki kesenlerin parça uzunlukları çarpımı kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Cember_Daire"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_219",
+    "title": "Küre Dilimi ve Kesiti",
+    "slug": "kure-dilimi-ve-kesiti",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Kürenin merkezinden geçen düzlem kesitleri ve dilim hacim hesapları.",
+    "content": "Küre Dilimi ve Kesiti kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kürenin merkezinden geçen düzlem kesitleri ve dilim hacim hesapları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Kati_Cisimler"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_220",
+    "title": "Kesik Koni ve Kesik Piramit",
+    "slug": "kesik-koni-ve-kesik-piramit",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Koni veya piramidin tabana paralel bir düzlemle kesilmesi sonucu oluşan alt parça geometrisi.",
+    "content": "Kesik Koni ve Kesik Piramit kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Koni veya piramidin tabana paralel bir düzlemle kesilmesi sonucu oluşan alt parça geometrisi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Kati_Cisimler"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_221",
+    "title": "Trigonometrik İndirgeme Formülleri",
+    "slug": "trigonometrik-indirgeme-formulleri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "180 ve 360 dereceye göre açılı trigonometrik ifadelerin ilk bölgeye indirgenmesi.",
+    "content": "Trigonometrik İndirgeme Formülleri kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"180 ve 360 dereceye göre açılı trigonometrik ifadelerin ilk bölgeye indirgenmesi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Trigonometri"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_222",
+    "title": "Periyot Kavramı (Trigonometri)",
+    "slug": "periyot-kavrami-trigonometri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Sinüs ve kosinüs fonksiyonlarının 2pi, tanjant ve kotanjant fonksiyonlarının pi aralıklarla kendini tekrar etmesi.",
+    "content": "Periyot Kavramı (Trigonometri) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Sinüs ve kosinüs fonksiyonlarının 2pi, tanjant ve kotanjant fonksiyonlarının pi aralıklarla kendini tekrar etmesi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Trigonometri"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_223",
+    "title": "Ters Trigonometrik Fonksiyonlar",
+    "slug": "ters-trigonometrik-fonksiyonlar",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Arcsin, arccos ve arctan gibi trigonometrik değerlerden açı bulma fonksiyonları.",
+    "content": "Ters Trigonometrik Fonksiyonlar kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Arcsin, arccos ve arctan gibi trigonometrik değerlerden açı bulma fonksiyonları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Trigonometri"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_224",
+    "title": "Logaritmik Eşitsizlikler",
+    "slug": "logaritmik-esitsizlikler",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İçinde logaritma bulunduran ve taban durumuna göre yön değiştiren eşitsizlikler.",
+    "content": "Logaritmik Eşitsizlikler kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İçinde logaritma bulunduran ve taban durumuna göre yön değiştiren eşitsizlikler.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Logaritma"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_225",
+    "title": "Dizilerde Yakınraklık ve Iraksaklık",
+    "slug": "dizilerde-yakinraklik-ve-iraksaklik",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Bir dizinin terimlerinin sonsuzda belirli bir sayıya yaklaşması veya yaklaşmaması durumu.",
+    "content": "Dizilerde Yakınraklık ve Iraksaklık kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bir dizinin terimlerinin sonsuzda belirli bir sayıya yaklaşması veya yaklaşmaması durumu.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Diziler"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_226",
+    "title": "Limit Alınırken Belirsizlik Durumları",
+    "slug": "limit-alinirken-belirsizlik-durumlari",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "0/0 ve sonsuz/sonsuz gibi limit hesaplarında karşılaşılan belirsizlikler.",
+    "content": "Limit Alınırken Belirsizlik Durumları kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"0/0 ve sonsuz/sonsuz gibi limit hesaplarında karşılaşılan belirsizlikler.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Limit"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_227",
+    "title": "L'Hospital Kuralı",
+    "slug": "lhospital-kurali",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "0/0 veya sonsuz/sonsuz belirsizliklerinde pay ve paydanın ayrı ayrı türevinin alınarak limitin çözülmesi.",
+    "content": "L'Hospital Kuralı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"0/0 veya sonsuz/sonsuz belirsizliklerinde pay ve paydanın ayrı ayrı türevinin alınarak limitin çözülmesi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Limit"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_228",
+    "title": "Türevlenebilirlik Koşulu",
+    "slug": "turevlenebilirlik-kosulu",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Bir fonksiyonun bir noktada türevinin olabilmesi için o noktada sürekli ve kırılmasız olması kuralı.",
+    "content": "Türevlenebilirlik Koşulu kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bir fonksiyonun bir noktada türevinin olabilmesi için o noktada sürekli ve kırılmasız olması kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Turev"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_229",
+    "title": "Zincir Kuralı (Türev)",
+    "slug": "zincir-kurali-turev",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Bileşke fonksiyonların türevini alırken dış fonksiyonun türevi ile iç fonksiyonun türevinin çarpılması.",
+    "content": "Zincir Kuralı (Türev) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bileşke fonksiyonların türevini alırken dış fonksiyonun türevi ile iç fonksiyonun türevinin çarpılması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Turev"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_230",
+    "title": "İkinci Türev ve Bükeylik (Dönüm Noktası)",
+    "slug": "ikinci-turev-ve-bukeylik-donum-noktasi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Fonksiyonun konkavlık ve konvekslik yön değiştirdiği noktaları inceleyen ikinci türev testi.",
+    "content": "İkinci Türev ve Bükeylik (Dönüm Noktası) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Fonksiyonun konkavlık ve konvekslik yön değiştirdiği noktaları inceleyen ikinci türev testi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Turev"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_231",
+    "title": "Değişken Değiştirme Yöntemi (İntegral)",
+    "slug": "degisken-degistirme-yontemi-integral",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Karmaşık integralleri çözmek için uygun değişkene u diyerek türev yardımıyla basitleştirme.",
+    "content": "Değişken Değiştirme Yöntemi (İntegral) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Karmaşık integralleri çözmek için uygun değişkene u diyerek türev yardımıyla basitleştirme.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Integral"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_232",
+    "title": "Kısmi İntegrasyon",
+    "slug": "kismi-integrasyon",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Çarpım şeklinde verilen fonksiyonların integralini almak için uygulanan formül yöntemi.",
+    "content": "Kısmi İntegrasyon kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Çarpım şeklinde verilen fonksiyonların integralini almak için uygulanan formül yöntemi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Integral"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_233",
+    "title": "İki Eğri Arasında Kalan Alan",
+    "slug": "iki-egri-arasinda-kalan-alan",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İki farklı fonksiyon grafiğinin sınırları arasında kalan bölgenin integralle hesaplanması.",
+    "content": "İki Eğri Arasında Kalan Alan kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İki farklı fonksiyon grafiğinin sınırları arasında kalan bölgenin integralle hesaplanması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Integral"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_234",
+    "title": "Nokta Analitiğinde Simetri",
+    "slug": "nokta-analitiginde-simetri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Bir noktanın başka bir noktaya, eksene veya orijine göre simetri koordinatları.",
+    "content": "Nokta Analitiğinde Simetri kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bir noktanın başka bir noktaya, eksene veya orijine göre simetri koordinatları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Analitik_Geometri"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_235",
+    "title": "Doğrunun Analitiğinde Paralellik ve Diklik Şartı",
+    "slug": "dogrunun-analitiginde-paralellik-ve-diklik-sarti",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Paralel doğruların eğimlerinin eşit (m1 = m2), dik doğruların eğimleri çarpımının -1 olması kuralı.",
+    "content": "Doğrunun Analitiğinde Paralellik ve Diklik Şartı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Paralel doğruların eğimlerinin eşit (m1 = m2), dik doğruların eğimleri çarpımının -1 olması kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Analitik_Geometri"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_236",
+    "title": "Çemberin Standart Denklemi",
+    "slug": "cemberin-standart-denklemi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "(x - a)^2 + (y - b)^2 = r^2 şeklinde merkezi ve yarıçapı belli çember denklemi.",
+    "content": "Çemberin Standart Denklemi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"(x - a)^2 + (y - b)^2 = r^2 şeklinde merkezi ve yarıçapı belli çember denklemi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Analitik_Geometri"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_237",
+    "title": "Vektörlerde İç Çarpım ve Açı",
+    "slug": "vektorlerde-ic-carpim-ve-aci",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İki vektör arasındaki açının kosinüsünü skaler çarpım üzerinden bulma.",
+    "content": "Vektörlerde İç Çarpım ve Açı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İki vektör arasındaki açının kosinüsünü skaler çarpım üzerinden bulma.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Vektorler"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_238",
+    "title": "Doğrusal Bağımlılık ve Bağımsızlık",
+    "slug": "dogrusal-bagimlilik-ve-bagimsizlik",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Vektörlerin veya matris satırlarının doğrusal kombinasyon ilişkileri.",
+    "content": "Doğrusal Bağımlılık ve Bağımsızlık kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Vektörlerin veya matris satırlarının doğrusal kombinasyon ilişkileri.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Vektorler"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_239",
+    "title": "Fonksiyonlarda Simetri Eksenleri",
+    "slug": "fonksiyonlarda-simetri-eksenleri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Parabol ve diğer simetrik fonksiyonların tepe noktası eksen denklemleri.",
+    "content": "Fonksiyonlarda Simetri Eksenleri kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Parabol ve diğer simetrik fonksiyonların tepe noktası eksen denklemleri.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Fonksiyonlar"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_240",
+    "title": "Bileşke Fonksiyonun Tersi",
+    "slug": "bileske-fonksiyonun-tersi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "(f o g)^-1(x) = (g^-1 o f^-1)(x) kuralı.",
+    "content": "Bileşke Fonksiyonun Tersi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"(f o g)^-1(x) = (g^-1 o f^-1)(x) kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Fonksiyonlar"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_241",
+    "title": "Özel Tanımlı Fonksiyonlarda Limit",
+    "slug": "ozel-tanimli-fonksiyonlarda-limit",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Parçalı ve mutlak değerli fonksiyonların kritik noktalarındaki sağdan ve soldan limitleri.",
+    "content": "Özel Tanımlı Fonksiyonlarda Limit kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Parçalı ve mutlak değerli fonksiyonların kritik noktalarındaki sağdan ve soldan limitleri.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Limit"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_242",
+    "title": "Sonsuzda Limit",
+    "slug": "sonsuzda-limit",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Değişken sonsuza giderken rasyonel fonksiyonların derece karşılaştırma kuralları.",
+    "content": "Sonsuzda Limit kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Değişken sonsuza giderken rasyonel fonksiyonların derece karşılaştırma kuralları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Limit"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_243",
+    "title": "Türevde Sağdan ve Soldan Türev",
+    "slug": "turevde-sagdan-ve-soldan-turev",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Kritik noktalarda türevin var olabilmesi için sağ ve sol türevlerin eşit olması gerektiği kuralı.",
+    "content": "Türevde Sağdan ve Soldan Türev kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kritik noktalarda türevin var olabilmesi için sağ ve sol türevlerin eşit olması gerektiği kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Turev"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_244",
+    "title": "Rolle ve Ortalama Değer Teoremleri",
+    "slug": "rolle-ve-ortalama-deger-teoremleri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Sürekli ve türevlenebilir fonksiyonlarda teğet eğiminin kesene paralel olduğu noktaları inceleyen teoremler.",
+    "content": "Rolle ve Ortalama Değer Teoremleri kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Sürekli ve türevlenebilir fonksiyonlarda teğet eğiminin kesene paralel olduğu noktaları inceleyen teoremler.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Turev"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_245",
+    "title": "İntegral ile Hacim Hesabı (Dönel Cisimler)",
+    "slug": "integral-ile-hacim-hesabi-donel-cisimler",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Bir eğrinin eksen etrafında döndürülmesiyle oluşan cismin hacminin integralle hesaplanması.",
+    "content": "İntegral ile Hacim Hesabı (Dönel Cisimler) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bir eğrinin eksen etrafında döndürülmesiyle oluşan cismin hacminin integralle hesaplanması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Integral"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_246",
+    "title": "Matriste Satir İşlemleri",
+    "slug": "matriste-satir-islemleri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Matrisleri basamak biçimine getirmek için yapılan temel satır dönüşümleri.",
+    "content": "Matriste Satir İşlemleri kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Matrisleri basamak biçimine getirmek için yapılan temel satır dönüşümleri.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Matris"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_247",
+    "title": "Kramer Yöntemi",
+    "slug": "kramer-yontemi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Determinantlar yardımıyla lineer denklem sistemlerinin çözülmesi yöntemi.",
+    "content": "Kramer Yöntemi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Determinantlar yardımıyla lineer denklem sistemlerinin çözülmesi yöntemi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Matris"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_248",
+    "title": "Üçgende Alanın Vektörel İfade Edilmesi",
+    "slug": "ucgende-alanin-vektorel-ifade-edilmesi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Vektörlerin vektörel çarpımı ile üçgen alanı bulma.",
+    "content": "Üçgende Alanın Vektörel İfade Edilmesi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Vektörlerin vektörel çarpımı ile üçgen alanı bulma.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Ucgenler"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_249",
+    "title": "Çemberde Teğetler Dörtgeni",
+    "slug": "cemberde-tegetler-dortgeni",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İçindeki çembere tüm kenarları teğet olan dörtgenlerde karşılıklı kenar uzunlukları toplamı kuralı.",
+    "content": "Çemberde Teğetler Dörtgeni kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İçindeki çembere tüm kenarları teğet olan dörtgenlerde karşılıklı kenar uzunlukları toplamı kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Dortgenler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_250",
+    "title": "Çemberde Kirişler Dörtgeni",
+    "slug": "cemberde-kirisler-dortgeni",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Köşeleri çember üzerinde olan dörtgenlerde karşılıklı açılar toplamının 180 derece olması kuralı.",
+    "content": "Çemberde Kirişler Dörtgeni kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Köşeleri çember üzerinde olan dörtgenlerde karşılıklı açılar toplamının 180 derece olması kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Cember_Daire"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_251",
+    "title": "Piramitlerin Yanal Alanı",
+    "slug": "piramitlerin-yanal-alani",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Taban çevresi ile yanal yükseklik çarpımının yarısı olan piramit alan formülü.",
+    "content": "Piramitlerin Yanal Alanı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Taban çevresi ile yanal yükseklik çarpımının yarısı olan piramit alan formülü.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Kati_Cisimler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_252",
+    "title": "Düzgün Dörtyüzlü",
+    "slug": "duzgun-dortyuzlu",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Tüm yüzeyleri eşkenar üçgen olan piramit türü (tetrahedon).",
+    "content": "Düzgün Dörtyüzlü kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Tüm yüzeyleri eşkenar üçgen olan piramit türü (tetrahedon).\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Kati_Cisimler"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_253",
+    "title": "İstatistiksel Standart Sapma",
+    "slug": "istatistiksel-standart-sapma",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Verilerin aritmetik ortalamadan ne kadar uzaklaştığını gösteren yayılım ölçüsü.",
+    "content": "İstatistiksel Standart Sapma kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Verilerin aritmetik ortalamadan ne kadar uzaklaştığını gösteren yayılım ölçüsü.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Istatistik"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_254",
+    "title": "Varyans",
+    "slug": "varyans",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Standart sapmanın karesi olan, verilerin dağılımını gösteren istatistiksel değer.",
+    "content": "Varyans kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Standart sapmanın karesi olan, verilerin dağılımını gösteren istatistiksel değer.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Istatistik"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_255",
+    "title": "Kombinatörikte Yıldız Yöntemi",
+    "slug": "kombinatorikte-yildiz-yontemi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Özdeş nesnelerin farklı kişilere dağılımını hesaplamada kullanılan combinatorik yöntem.",
+    "content": "Kombinatörikte Yıldız Yöntemi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Özdeş nesnelerin farklı kişilere dağılımını hesaplamada kullanılan combinatorik yöntem.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Olasilik_Permutasyon"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_256",
+    "title": "Binom Açılımı",
+    "slug": "binom-acilimi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "(x + y)^n ifadesinin katsayılarını Pascal üçgeni ve kombinasyonla açma kuralı.",
+    "content": "Binom Açılımı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"(x + y)^n ifadesinin katsayılarını Pascal üçgeni ve kombinasyonla açma kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Olasilik_Permutasyon"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_257",
+    "title": "Binom Açılımında Genel Terim",
+    "slug": "binom-aciliminda-genel-terim",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Binom açılımında istenen herhangi bir kuvvetin katsayısını bulma formülü.",
+    "content": "Binom Açılımında Genel Terim kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Binom açılımında istenen herhangi bir kuvvetin katsayısını bulma formülü.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Olasilik_Permutasyon"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_258",
+    "title": "Modüler Aritmetikte Ters Eleman",
+    "slug": "moduler-aritmetikte-ters-eleman",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Mod m'de çarpımları 1'e denk olan sayıların eşleniği.",
+    "content": "Modüler Aritmetikte Ters Eleman kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Mod m'de çarpımları 1'e denk olan sayıların eşleniği.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Moduler_Aritmetik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_259",
+    "title": "İşlemin Etkisiz Elemanı",
+    "slug": "islemin-etkisiz-elemani",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Bir kümede işlem yapıldığında elemanın değerini değiştirmeyen özel sayı.",
+    "content": "İşlemin Etkisiz Elemanı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bir kümede işlem yapıldığında elemanın değerini değiştirmeyen özel sayı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Islem"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_260",
+    "title": "İşlemin Yutan Elemanı",
+    "slug": "islemin-yutan-elemani",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İşleme girdiğinde sonucu doğrudan sabitleyen özel eleman.",
+    "content": "İşlemin Yutan Elemanı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İşleme girdiğinde sonucu doğrudan sabitleyen özel eleman.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Islem"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_261",
+    "title": "Değişme ve Birleşme Özelliği (İşlem)",
+    "slug": "degisme-ve-birlesme-ozelligi-islem",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İşlemde elemanların yer değiştirmesinin veya gruplanmasının sonucu değiştirmemesi.",
+    "content": "Değişme ve Birleşme Özelliği (İşlem) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İşlemde elemanların yer değiştirmesinin veya gruplanmasının sonucu değiştirmemesi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Islem"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_262",
+    "title": "Kartezyen Çarpımın Eleman Sayısı",
+    "slug": "kartezyen-carpimin-eleman-sayisi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "s(AxB) = s(A) * s(B) bağıntısı.",
+    "content": "Kartezyen Çarpımın Eleman Sayısı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"s(AxB) = s(A) * s(B) bağıntısı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Kumeler"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_263",
+    "title": "Kümelerde Ayrık Küme",
+    "slug": "kumelerde-ayrik-kume",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Kesişimi boş küme olan, ortak elemanı bulunmayan kümeler.",
+    "content": "Kümelerde Ayrık Küme kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kesişimi boş küme olan, ortak elemanı bulunmayan kümeler.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Kumeler"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_264",
+    "title": "Alt Küme Sayısı",
+    "slug": "alt-kume-sayisi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "n elemanlı bir kümenin 2^n tane alt kümesi olması kuralı.",
+    "content": "Alt Küme Sayısı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"n elemanlı bir kümenin 2^n tane alt kümesi olması kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Kumeler"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_265",
+    "title": "Öz Alt Küme",
+    "slug": "oz-alt-kume",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Kendisi hariç diğer tüm alt kümeleri kapsayan yapı (2^n - 1).",
+    "content": "Öz Alt Küme kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kendisi hariç diğer tüm alt kümeleri kapsayan yapı (2^n - 1).\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Kumeler"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_266",
+    "title": "Üslü Sayılarda Eşitsizlik Kuralları",
+    "slug": "uslu-sayilarda-esitsizlik-kurallari",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Tabanın 1'den büyük veya 0 ile 1 arasında olmasına göre üslerin yön değiştirmesi.",
+    "content": "Üslü Sayılarda Eşitsizlik Kuralları kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Tabanın 1'den büyük veya 0 ile 1 arasında olmasına göre üslerin yön değiştirmesi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Uslu_Sayilar"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_267",
+    "title": "Köklü Sayılarda İç İçe Kökler",
+    "slug": "koklu-sayilarda-ic-ice-kokler",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Sonsuza giden veya sonlu olan iç içe köklerin pratik çözüm kuralları.",
+    "content": "Köklü Sayılarda İç İçe Kökler kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Sonsuza giden veya sonlu olan iç içe köklerin pratik çözüm kuralları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Koklu_Sayilar"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_268",
+    "title": "Oran Orantıda Ters Orantı Sabiti",
+    "slug": "oran-orantida-ters-oranti-sabiti",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Ters orantılı çoklukların çarpımının sabit bir k değerine eşit olması.",
+    "content": "Oran Orantıda Ters Orantı Sabiti kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Ters orantılı çoklukların çarpımının sabit bir k değerine eşit olması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Oran_Oranti"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_269",
+    "title": "Yaş Problemlerinde Orantı Sabiti",
+    "slug": "yas-problemlerinde-oranti-sabiti",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Yıllar geçse de yaşlar arasındaki farkın sabit kalması ilkesi.",
+    "content": "Yaş Problemlerinde Orantı Sabiti kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Yıllar geçse de yaşlar arasındaki farkın sabit kalması ilkesi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Problemler"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_270",
+    "title": "Hız Problemlerinde Ortalama Hız",
+    "slug": "hiz-problemlerinde-ortalama-hiz",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Toplam yolun toplam zamana bölünmesiyle bulunan ortalama hız formülü (2V1V2 / V1+V2).",
+    "content": "Hız Problemlerinde Ortalama Hız kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Toplam yolun toplam zamana bölünmesiyle bulunan ortalama hız formülü (2V1V2 / V1+V2).\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Problemler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_271",
+    "title": "İşçi Problemlerinde Birim Zaman",
+    "slug": "isci-problemlerinde-birim-zaman",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İşin tamamını 1 birim kabul ederek 1 günde yapılan iş miktarı üzerinden denklem kurma.",
+    "content": "İşçi Problemlerinde Birim Zaman kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İşin tamamını 1 birim kabul ederek 1 günde yapılan iş miktarı üzerinden denklem kurma.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Problemler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_272",
+    "title": "Karışım Problemlerinde Saf Madde Oranı",
+    "slug": "karisim-problemlerinde-saf-madde-orani",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Karışım miktarından ziyade içindeki tuz veya şeker miktarının oranlanması.",
+    "content": "Karışım Problemlerinde Saf Madde Oranı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Karışım miktarından ziyade içindeki tuz veya şeker miktarının oranlanması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Problemler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_273",
+    "title": "Basamak Analizinde Çözümleme",
+    "slug": "basamak-analizinde-cozumleme",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İki basamaklı ab sayısını 10a + b şeklinde yazarak işlem yapma.",
+    "content": "Basamak Analizinde Çözümleme kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İki basamaklı ab sayısını 10a + b şeklinde yazarak işlem yapma.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Basamak_Analizi"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_274",
+    "title": "Bölünebilme Kuralları (9 ve 11 ile Bölünme)",
+    "slug": "bolunebilme-kurallari-9-ve-11-ile-bolunme",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Rakamlar toplamının 9'un katı olması ve 11 ile blünmede sağdan artı-eksi verme kuralı.",
+    "content": "Bölünebilme Kuralları (9 ve 11 ile Bölünme) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Rakamlar toplamının 9'un katı olması ve 11 ile blünmede sağdan artı-eksi verme kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Bolunebilme"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_275",
+    "title": "EBOB - EKOK Ortak Özellikleri",
+    "slug": "ebob-ekok-ortak-ozellikleri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İki sayının çarpımının, EBOB ile EKOK'larının çarpımına eşit olması kuralı.",
+    "content": "EBOB - EKOK Ortak Özellikleri kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İki sayının çarpımının, EBOB ile EKOK'larının çarpımına eşit olması kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Ebob_Ekok"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_276",
+    "title": "Asal Bölenlerin Sayısı",
+    "slug": "asal-bolenlerin-sayisi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Bir sayının asal çarpanlarına ayrılarak pozitif bölen sayısının (PBS) hesaplanması.",
+    "content": "Asal Bölenlerin Sayısı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bir sayının asal çarpanlarına ayrılarak pozitif bölen sayısının (PBS) hesaplanması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Sayilar"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_277",
+    "title": "Tek ve Çift Sayıların Dört İşlem Kuralı",
+    "slug": "tek-ve-cift-sayilarin-dort-islem-kurali",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Tek ve çift sayıların toplam ve çarpım durumlarındaki sonuç kuralları.",
+    "content": "Tek ve Çift Sayıların Dört İşlem Kuralı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Tek ve çift sayıların toplam ve çarpım durumlarındaki sonuç kuralları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Temel_Kavramlar"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_278",
+    "title": "Pozitif ve Negatif Sayıların Kuvvetleri",
+    "slug": "pozitif-ve-negatif-sayilarin-kuvvetleri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Negatif sayıların çift kuvvetlerinin pozitif, tek kuvvetlerinin negatif olması kuralı.",
+    "content": "Pozitif ve Negatif Sayıların Kuvvetleri kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Negatif sayıların çift kuvvetlerinin pozitif, tek kuvvetlerinin negatif olması kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Temel_Kavramlar"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_279",
+    "title": "Ardışık Tek ve Çift Sayılar",
+    "slug": "ardisik-tek-ve-cift-sayilar",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Aralarındaki fark 2 olan ardışık sayı dizileri formülleri.",
+    "content": "Ardışık Tek ve Çift Sayılar kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Aralarındaki fark 2 olan ardışık sayı dizileri formülleri.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Temel_Kavramlar"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_280",
+    "title": "Sayı Doğrusu ve Aralık Kavramı",
+    "slug": "sayi-dogrusu-ve-aralik-kavrami",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Reel sayıların sayı doğrusu üzerinde geometrik olarak gösterimi.",
+    "content": "Sayı Doğrusu ve Aralık Kavramı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Reel sayıların sayı doğrusu üzerinde geometrik olarak gösterimi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Temel_Kavramlar"
+    ],
+    "level": "B1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_281",
+    "title": "Üçgende Alanın Koordinat Düzleminde Hesabı",
+    "slug": "ucgende-alanin-koordinat-duzleminde-hesabi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Köşe koordinatları bilinen üçgenin alanının determinant yardımıyla bulunması.",
+    "content": "Üçgende Alanın Koordinat Düzleminde Hesabı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Köşe koordinatları bilinen üçgenin alanının determinant yardımıyla bulunması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Analitik_Geometri"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_282",
+    "title": "Paralel Doğrular Arasındaki Uzaklık",
+    "slug": "paralel-dogrular-arasindaki-uzaklik",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Analitik düzlemde verilen iki paralel doğru arasındaki dik mesafe formülü.",
+    "content": "Paralel Doğrular Arasındaki Uzaklık kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Analitik düzlemde verilen iki paralel doğru arasındaki dik mesafe formülü.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Analitik_Geometri"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_283",
+    "title": "Çemberde Teğet Parçalarının Eşitliği",
+    "slug": "cemberde-teget-parcalarinin-esitligi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Dış noktadan çembere çizilen teğetlerin uzunluklarının eşit olması.",
+    "content": "Çemberde Teğet Parçalarının Eşitliği kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Dış noktadan çembere çizilen teğetlerin uzunluklarının eşit olması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Cember_Daire"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_284",
+    "title": "Düzgün Altıgenin Özellikleri",
+    "slug": "duzgun-altigenin-ozellikleri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İç açısı 120 derece olan ve altı adet eşkenar üçgenden oluşan düzgün çokgen.",
+    "content": "Düzgün Altıgenin Özellikleri kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İç açısı 120 derece olan ve altı adet eşkenar üçgenden oluşan düzgün çokgen.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Cokgenler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_285",
+    "title": "Üçgende Trigonometrik Alan Teoremi",
+    "slug": "ucgende-trigonometrik-alan-teoremi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İki kenar ve aradaki açının sinüsü ile alan bulma bağıntısı.",
+    "content": "Üçgende Trigonometrik Alan Teoremi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İki kenar ve aradaki açının sinüsü ile alan bulma bağıntısı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Trigonometri"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_286",
+    "title": "Kosinüs Teoremi Uygulamaları",
+    "slug": "kosinus-teoremi-uygulamalari",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Üçgende üç kenar bilindiğinde açı bulma veya iki kenar bir açı bilindiğinde üçüncü kenarı bulma.",
+    "content": "Kosinüs Teoremi Uygulamaları kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Üçgende üç kenar bilindiğinde açı bulma veya iki kenar bir açı bilindiğinde üçüncü kenarı bulma.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Trigonometri"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_287",
+    "title": "Sinüs Teoremi Uygulamaları",
+    "slug": "sinus-teoremi-uygulamalari",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Kenarların karşısındaki açının sinüsüne oranının çevrel çember çapına eşit olması.",
+    "content": "Sinüs Teoremi Uygulamaları kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kenarların karşısındaki açının sinüsüne oranının çevrel çember çapına eşit olması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Geometri",
+      "Trigonometri"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_288",
+    "title": "Logaritmanın Tabanı ve Tanım Kümesi",
+    "slug": "logaritmanin-tabani-ve-tanim-kumesi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Logaritma fonksiyonunun tanımlı olması için tabanın ve içindeki sayının 0'dan büyük ve tabanın 1'den farklı olması koşulu.",
+    "content": "Logaritmanın Tabanı ve Tanım Kümesi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Logaritma fonksiyonunun tanımlı olması için tabanın ve içindeki sayının 0'dan büyük ve tabanın 1'den farklı olması koşulu.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Logaritma"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_289",
+    "title": "Doğal Logaritma (ln x)",
+    "slug": "dogal-logaritma-ln-x",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Tabanı e sayısı (Euler sayısı) olan logaritma türü.",
+    "content": "Doğal Logaritma (ln x) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Tabanı e sayısı (Euler sayısı) olan logaritma türü.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Logaritma"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_290",
+    "title": "Aritmetik Dizide Ortanca Terim",
+    "slug": "aritmetik-dizide-ortanca-terim",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Sonlu bir aritmetik dizide baştan ve sondan eşit uzaklıktaki terimler toplamı kuralı.",
+    "content": "Aritmetik Dizide Ortanca Terim kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Sonlu bir aritmetik dizide baştan ve sondan eşit uzaklıktaki terimler toplamı kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Diziler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_291",
+    "title": "Geometrik Dizide Ortanca Terim",
+    "slug": "geometrik-dizide-ortanca-terim",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Geometrik dizide ardışık üç terimden ortadakinin karesinin kenardakilerin çarpımına eşit olması.",
+    "content": "Geometrik Dizide Ortanca Terim kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Geometrik dizide ardışık üç terimden ortadakinin karesinin kenardakilerin çarpımına eşit olması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Diziler"
+    ],
+    "level": "B2",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_292",
+    "title": "Süreklilik Kriterleri",
+    "slug": "sureklilik-kriterleri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Bir fonksiyonun soldan limitinin, sağdan limitine ve o noktadaki görüntüsüne eşit olması.",
+    "content": "Süreklilik Kriterleri kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bir fonksiyonun soldan limitinin, sağdan limitine ve o noktadaki görüntüsüne eşit olması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Limit"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_293",
+    "title": "Türev Tanımı (Limit ile Oran)",
+    "slug": "turev-tanimi-limit-ile-oran",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Türevin iki nokta arasındaki eğimin limit durumundaki değişimi olarak ifade edilmesi.",
+    "content": "Türev Tanımı (Limit ile Oran) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Türevin iki nokta arasındaki eğimin limit durumundaki değişimi olarak ifade edilmesi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Turev"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_294",
+    "title": "Trigonometrik Fonksiyonların Türevi",
+    "slug": "trigonometrik-fonksiyonlarin-turevi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Sinüs, kosinüs ve tanjant fonksiyonlarının türev kuralları.",
+    "content": "Trigonometrik Fonksiyonların Türevi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Sinüs, kosinüs ve tanjant fonksiyonlarının türev kuralları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Turev"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_295",
+    "title": "Üstel ve Logaritmik Fonksiyonların Türevi",
+    "slug": "ustel-ve-logaritmik-fonksiyonlarin-turevi",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "a^x ve ln(x) fonksiyonlarının türev alma kuralları.",
+    "content": "Üstel ve Logaritmik Fonksiyonların Türevi kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"a^x ve ln(x) fonksiyonlarının türev alma kuralları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Turev"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_296",
+    "title": "İntegralde Alan Hesaplama Sınırları",
+    "slug": "integralde-alan-hesaplama-sinirlari",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Belirli integralle x ekseni arasında kalan alanın alt ve üst sınır değerleri.",
+    "content": "İntegralde Alan Hesaplama Sınırları kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Belirli integralle x ekseni arasında kalan alanın alt ve üst sınır değerleri.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Integral"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_297",
+    "title": "Trigonometrik İntegraller",
+    "slug": "trigonometrik-integraller",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Sinüs ve kosinüs içeren ifadelerin integrallerinin alınması.",
+    "content": "Trigonometrik İntegraller kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Sinüs ve kosinüs içeren ifadelerin integrallerinin alınması.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Integral"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_298",
+    "title": "Matrislerde Tersinirlik Şartı",
+    "slug": "matrislerde-tersinirlik-sarti",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Determinantı sıfırdan farklı olan kare matrislerin tersinin bulunabilmesi kuralı.",
+    "content": "Matrislerde Tersinirlik Şartı kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Determinantı sıfırdan farklı olan kare matrislerin tersinin bulunabilmesi kuralı.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Matris"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_299",
+    "title": "Determinantın Özellikleri",
+    "slug": "determinantin-ozellikleri",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "Satır değişiminde işaret değiştirmesi ve kat sayı çarpanı kuralları.",
+    "content": "Determinantın Özellikleri kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Satır değişiminde işaret değiştirmesi ve kat sayı çarpanı kuralları.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Matris"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "kpss_mat_300",
+    "title": "Vektörel Çarpım (Cross Product)",
+    "slug": "vektorel-carpim-cross-product",
+    "category": "matematik-geometri",
+    "categoryName": "Matematik & Geometri",
+    "description": "İki vektöre de dik olan üçüncü bir vektör üreten çarpım işlemi.",
+    "content": "Vektörel Çarpım (Cross Product) kavramı, Matematik & Geometri alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İki vektöre de dik olan üçüncü bir vektör üreten çarpım işlemi.\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Matematik & Geometri disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "KPSS",
+      "Matematik",
+      "Vektorler"
+    ],
+    "level": "C1",
+    "word_alt": null
+  }
+]

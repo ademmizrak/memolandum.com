@@ -18,6 +18,8 @@ export const metadata = {
     languages: {
       tr: absoluteUrl("/translate"),
       en: `${SITE_URL}/translate/?lang=en`,
+      ar: `${SITE_URL}/translate/?lang=ar`,
+      pt: `${SITE_URL}/translate/?lang=pt`,
       "x-default": absoluteUrl("/translate"),
     },
   },
@@ -27,7 +29,7 @@ export const metadata = {
     url: absoluteUrl("/translate"),
     images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "Memolandum AI Çeviri" }],
     locale: "tr_TR",
-    alternateLocale: ["en_US"],
+    alternateLocale: ["en_US", "ar_SA", "pt_BR"],
     type: "website",
     siteName: SITE_NAME,
   },

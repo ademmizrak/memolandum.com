@@ -5,6 +5,7 @@ import { collectionGroup, query, orderBy, limit, onSnapshot, doc, getDoc } from 
 import { db } from '../../lib/firebase/config';
 import Link from 'next/link';
 import Header from '../../components/Header';
+import LeaderboardCta from '../../components/leaderboard/LeaderboardCta';
 
 export default function LeaderboardPage() {
   const [leaderboard, setLeaderboard] = useState([]);
@@ -129,6 +130,8 @@ export default function LeaderboardPage() {
           </div>
         </div>
 
+        <LeaderboardCta />
+
         <div className="gamified-banner-container flex-col !p-6 sm:!p-10 shadow-[0_0_40px_rgba(49,46,129,0.5)]" style={{ background: 'linear-gradient(135deg, #0f172a 0%, #172554 50%, #312e81 100%)' }}>
           
           <div className="banner-glow-effect" style={{ top: 'auto', bottom: '-20%', left: '30%', background: 'radial-gradient(circle, rgba(168,85,247,0.3) 0%, rgba(0,0,0,0) 70%)' }}></div>
@@ -180,8 +183,8 @@ export default function LeaderboardPage() {
                       
                       {/* Avatar & Name */}
                       <div className="flex items-center gap-4">
-                      {user.photoURL ? (
-                        <img src={user.photoURL} alt={user.displayName} className={`w-12 h-12 rounded-full border-2 ${
+                      {typeof user.photoURL === "string" && (user.photoURL.startsWith("https://") || user.photoURL.startsWith("/")) ? (
+                        <img src={user.photoURL} alt={user.displayName} referrerPolicy="no-referrer" className={`w-12 h-12 rounded-full border-2 ${
                           index === 0 ? 'border-amber-400' :
                           index < 3 ? 'border-gray-400' :
                           'border-dark-600'

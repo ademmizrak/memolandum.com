@@ -1031,7 +1031,7 @@ export class WordDropGame {
           const el_hud = document.getElementById('hud'); if(el_hud) el_hud.classList.add('hidden');
           const el_gameCanvas = document.getElementById('gameCanvas'); if(el_gameCanvas) el_gameCanvas.classList.add('hidden');
           const el_controls = document.querySelector('.controls-container'); if (el_controls) el_controls.classList.add('hidden');
-          window.location.href = '/';
+          window.location.href = '/games/';
         }
       };
     }

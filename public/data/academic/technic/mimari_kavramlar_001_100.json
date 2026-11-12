@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "arch_01",
+    "title": "Facade",
+    "slug": "facade",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Cephe: Bir binanın dış yüzeylerinden her biri, genellikle ana girişin bulunduğu ön yüz",
+    "content": "Facade kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Cephe: Bir binanın dış yüzeylerinden her biri, genellikle ana girişin bulunduğu ön yüz\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Tasarım",
+      "Dış Mekan"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_02",
+    "title": "Plan (Floor Plan)",
+    "slug": "plan-floor-plan",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kat Planı: Bir yapının belirli bir yükseklikten yatay olarak kesilerek yukarıdan kuşbakışı görünüşünün çizildiği teknik şema",
+    "content": "Plan (Floor Plan) kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kat Planı: Bir yapının belirli bir yükseklikten yatay olarak kesilerek yukarıdan kuşbakışı görünüşünün çizildiği teknik şema\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Teknik Çizim",
+      "Tasarım"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_03",
+    "title": "Section",
+    "slug": "section",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kesit: Bir binanın dikey düzlemde baştan sona kesilerek iç katların, yüksekliğin ve yapı elemanlarının gösterildiği çizim",
+    "content": "Section kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kesit: Bir binanın dikey düzlemde baştan sona kesilerek iç katların, yüksekliğin ve yapı elemanlarının gösterildiği çizim\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Teknik Çizim",
+      "Strüktür"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_04",
+    "title": "Elevation",
+    "slug": "elevation",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Görünüş: Bir binanın dış cephelerinin perspektifsiz, ölçekli olarak iki boyutlu dikey izdüşüm çizimi",
+    "content": "Elevation kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Görünüş: Bir binanın dış cephelerinin perspektifsiz, ölçekli olarak iki boyutlu dikey izdüşüm çizimi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Teknik Çizim",
+      "Cephe"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_05",
+    "title": "Axonometry",
+    "slug": "axonometry",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Axonometri: Üç boyutlu nesnelerin veya yapıların perspektif kaçış noktası olmaksızın ölçekli olarak tek çizimde gösterilmesi",
+    "content": "Axonometry kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Axonometri: Üç boyutlu nesnelerin veya yapıların perspektif kaçış noktası olmaksızın ölçekli olarak tek çizimde gösterilmesi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Görselleştirme",
+      "Geometri"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_06",
+    "title": "Perspective",
+    "slug": "perspective",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Perspektif: İnsan gözünün algısına benzer şekilde uzaklaştıkça nesnelerin küçüldüğü üç boyutlu çizim tekniği",
+    "content": "Perspective kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Perspektif: İnsan gözünün algısına benzer şekilde uzaklaştıkça nesnelerin küçüldüğü üç boyutlu çizim tekniği\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Görselleştirme",
+      "Tasarım"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_07",
+    "title": "Scale",
+    "slug": "scale",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Ölçek: Gerçek bir yapının çizim ortamında küçültülme veya büyütülme oranı",
+    "content": "Scale kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Ölçek: Gerçek bir yapının çizim ortamında küçültülme veya büyütülme oranı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Oran",
+      "Teknik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_08",
+    "title": "Proportion",
+    "slug": "proportion",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Oran / Proorsiyon: Yapı elemanlarının kendi aralarında ve bütünle olan uyumlu boyutsal ilişkisi",
+    "content": "Proportion kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Oran / Proorsiyon: Yapı elemanlarının kendi aralarında ve bütünle olan uyumlu boyutsal ilişkisi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Estetik",
+      "Kompozisyon"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_09",
+    "title": "Massing",
+    "slug": "massing",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kütle Oluşumu: Bir binanın üç boyutlu hacimlerinin, yüksekliklerinin ve formlarının genel kompozisyonu",
+    "content": "Massing kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kütle Oluşumu: Bir binanın üç boyutlu hacimlerinin, yüksekliklerinin ve formlarının genel kompozisyonu\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Tasarım",
+      "Hacim"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_10",
+    "title": "Volume",
+    "slug": "volume",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Hacim: Bir yapının kapladığı üç boyutlu boşluk veya alan miktarı",
+    "content": "Volume kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Hacim: Bir yapının kapladığı üç boyutlu boşluk veya alan miktarı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mekansal Tasarım",
+      "Geometri"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_11",
+    "title": "Spatial Sequence",
+    "slug": "spatial-sequence",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Mekansal Dizi / Sekans: Kullanıcının yapı içinde hareket ederken deneyimlediği ardışık mekanlar ve geçişler silsilesi",
+    "content": "Spatial Sequence kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Mekansal Dizi / Sekans: Kullanıcının yapı içinde hareket ederken deneyimlediği ardışık mekanlar ve geçişler silsilesi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İç Mimari",
+      "Mekan Deneyimi"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_12",
+    "title": "Circulation",
+    "slug": "circulation",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Sirkülasyon: İnsanların bir bina içinde veya çevresinde hareket etmesini sağlayan koridor, merdiven ve asansör gibi yollar",
+    "content": "Circulation kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Sirkülasyon: İnsanların bir bina içinde veya çevresinde hareket etmesini sağlayan koridor, merdiven ve asansör gibi yollar\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Planlama",
+      "İşlevsellik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_13",
+    "title": "Axis",
+    "slug": "axis",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Aks: Yapının planında düzeni, simetriyi veya hareketi organize etmek için kullanılan hayali doğrusal çizgi",
+    "content": "Axis kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Aks: Yapının planında düzeni, simetriyi veya hareketi organize etmek için kullanılan hayali doğrusal çizgi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Kompozisyon",
+      "Geometri"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_14",
+    "title": "Grid",
+    "slug": "grid",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Aks Sistemi / Izgara: Yapının kolon ve duvar yerleşimini düzenlemek için kullanılan dikey ve yatay kılavuz çizgiler ağı",
+    "content": "Grid kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Aks Sistemi / Izgara: Yapının kolon ve duvar yerleşimini düzenlemek için kullanılan dikey ve yatay kılavuz çizgiler ağı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Strüktür",
+      "Planlama"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_15",
+    "title": "Modulor",
+    "slug": "modulor",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Modulor: Le Corbusier tarafından insan vücudu ölçüleri baz alınarak geliştirilen mimari oranlama sistemi",
+    "content": "Modulor kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Modulor: Le Corbusier tarafından insan vücudu ölçüleri baz alınarak geliştirilen mimari oranlama sistemi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Teori",
+      "İnsan Ölçüsü"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_16",
+    "title": "Context",
+    "slug": "context",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Bağlam: Bir binanın inşa edildiği çevrenin tarihi, coğrafi, kültürel ve fiziksel koşullarının bütünü",
+    "content": "Context kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bağlam: Bir binanın inşa edildiği çevrenin tarihi, coğrafi, kültürel ve fiziksel koşullarının bütünü\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Kentsel Tasarım",
+      "Mimari Teori"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_17",
+    "title": "Site Plan",
+    "slug": "site-plan",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Vaziyet Planı: Yapının arsa üzerindeki konumunu, çevre yolları ve peyzajıyla birlikte gösteren üstten görünüş çizimi",
+    "content": "Site Plan kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Vaziyet Planı: Yapının arsa üzerindeki konumunu, çevre yolları ve peyzajıyla birlikte gösteren üstten görünüş çizimi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Peyzaj",
+      "Teknik Çizim"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_18",
+    "title": "Topography",
+    "slug": "topography",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Topoğrafya: Arazi yüzeyinin doğal eğimleri, çukurlukları ve yükseltilerini içeren coğrafi yapı",
+    "content": "Topography kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Topoğrafya: Arazi yüzeyinin doğal eğimleri, çukurlukları ve yükseltilerini içeren coğrafi yapı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Arazi",
+      "Coğrafya"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_19",
+    "title": "Orientation",
+    "slug": "orientation",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Yönlenme / Oryantasyon: Bir binanın güneş ışığı, hâkim rüzgar ve manzaraya göre konumlandırılma biçimi",
+    "content": "Orientation kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Yönlenme / Oryantasyon: Bir binanın güneş ışığı, hâkim rüzgar ve manzaraya göre konumlandırılma biçimi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İklimlendirme",
+      "Yerleşim"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_20",
+    "title": "Vernacular Architecture",
+    "slug": "vernacular-architecture",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Geleneksel / Yöresel Mimari: Yerel malzemelerle, bölge iklimine ve halk kültürüne uygun olarak inşa edilen yapım geleneği",
+    "content": "Vernacular Architecture kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Geleneksel / Yöresel Mimari: Yerel malzemelerle, bölge iklimine ve halk kültürüne uygun olarak inşa edilen yapım geleneği\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Tarih",
+      "Kültür"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_21",
+    "title": "Load-bearing Wall",
+    "slug": "load-bearing-wall",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Taşıyıcı Duvar: Kendi ağırlığıyla birlikte üst katların ve çatının yükünü taşıyan temel yapı duvarı",
+    "content": "Load-bearing Wall kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Taşıyıcı Duvar: Kendi ağırlığıyla birlikte üst katların ve çatının yükünü taşıyan temel yapı duvarı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Strüktür",
+      "İnşaat"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_22",
+    "title": "Partition Wall",
+    "slug": "partition-wall",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Bölme Duvar: Taşıyıcı özelliği olmayan, yalnızca iç mekanları birbirinden ayıran hafif iç duvar",
+    "content": "Partition Wall kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bölme Duvar: Taşıyıcı özelliği olmayan, yalnızca iç mekanları birbirinden ayıran hafif iç duvar\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İç Mimari",
+      "Yapı Elemanları"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_23",
+    "title": "Column",
+    "slug": "column",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kolon: Üst katların yükünü temele dikey olarak aktaran silindirik veya prizmatik taşıyıcı eleman",
+    "content": "Column kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kolon: Üst katların yükünü temele dikey olarak aktaran silindirik veya prizmatik taşıyıcı eleman\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Strüktür",
+      "Taşıyıcı Sistem"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_24",
+    "title": "Beam",
+    "slug": "beam",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kiriş: Kolonlar arasında yatay olarak uzanan ve döşeme yüklerini taşıyan ana taşıyıcı eleman",
+    "content": "Beam kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kiriş: Kolonlar arasında yatay olarak uzanan ve döşeme yüklerini taşıyan ana taşıyıcı eleman\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Strüktür",
+      "Taşıyıcı Sistem"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_25",
+    "title": "Slab (Floor Slab)",
+    "slug": "slab-floor-slab",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Döşeme: Katları oluşturan, üzerinde yürüyülen yatay betonarme veya ahşap zemin tabakası",
+    "content": "Slab (Floor Slab) kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Döşeme: Katları oluşturan, üzerinde yürüyülen yatay betonarme veya ahşap zemin tabakası\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Strüktür",
+      "Yapı Elemanları"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_26",
+    "title": "Foundation",
+    "slug": "foundation",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Temel: Yapının tüm ağırlığını güvenli bir şekilde zemin katmanına aktaran alt yapı sistemi",
+    "content": "Foundation kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Temel: Yapının tüm ağırlığını güvenli bir şekilde zemin katmanına aktaran alt yapı sistemi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İnşaat",
+      "Geoteknik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_27",
+    "title": "Cantilever",
+    "slug": "cantilever",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Konsol: Bir ucundan duvara veya kolona sabitlenmiş, diğer ucu havada serbest duran çıkma yapı elemanı",
+    "content": "Cantilever kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Konsol: Bir ucundan duvara veya kolona sabitlenmiş, diğer ucu havada serbest duran çıkma yapı elemanı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Strüktür",
+      "Mimari Form"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_28",
+    "title": "Truss",
+    "slug": "truss",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kafes Sistem: Üçgen geometrilerden oluşan, büyük açıklıkları hafif malzemeyle geçmeyi sağlayan çatı ve köprü strüktürü",
+    "content": "Truss kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kafes Sistem: Üçgen geometrilerden oluşan, büyük açıklıkları hafif malzemeyle geçmeyi sağlayan çatı ve köprü strüktürü\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Strüktür",
+      "Mühendislik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_29",
+    "title": "Arch",
+    "slug": "arch",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kemer: Kavisli taş veya tuğlaların birbirini sıkıştırarak oluşturduğu, açıklıkları geçen yapısal form",
+    "content": "Arch kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kemer: Kavisli taş veya tuğlaların birbirini sıkıştırarak oluşturduğu, açıklıkları geçen yapısal form\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Klasik Mimari",
+      "Strüktür"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_30",
+    "title": "Vault",
+    "slug": "vault",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Tonoz: Kemer formunun boyuna uzatılmasıyla oluşan tavanı ve mekânı örten kavisli yapı örtüsü",
+    "content": "Vault kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Tonoz: Kemer formunun boyuna uzatılmasıyla oluşan tavanı ve mekânı örten kavisli yapı örtüsü\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Tarih",
+      "Örtü Sistemleri"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_31",
+    "title": "Dome",
+    "slug": "dome",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kubbe: Dairesel bir taban üzerine oturan yarı küre biçimindeki çatı ve tavan örtüsü",
+    "content": "Dome kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kubbe: Dairesel bir taban üzerine oturan yarı küre biçimindeki çatı ve tavan örtüsü\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Tarih",
+      "Anıtsal Yapılar"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_32",
+    "title": "Pendentive",
+    "slug": "pendentive",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Pandantif: Kare tabanlı bir mekândan dairesel kubbeye geçişi sağlayan küçültülmüş üçgen geçiş öğesi",
+    "content": "Pendentive kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Pandantif: Kare tabanlı bir mekândan dairesel kubbeye geçişi sağlayan küçültülmüş üçgen geçiş öğesi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Bizans Mimarisi",
+      "Geometri"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_33",
+    "title": "Buttress",
+    "slug": "buttress",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Payanda: Duvarların dışarı doğru itme kuvvetini dengelemek için duvara bitişik inşa edilen destek sütunu",
+    "content": "Buttress kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Payanda: Duvarların dışarı doğru itme kuvvetini dengelemek için duvara bitişik inşa edilen destek sütunu\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Gotik Mimari",
+      "Strüktür"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_34",
+    "title": "Flying Buttress",
+    "slug": "flying-buttress",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Uçan Payanda: Gotik mimaride yüksek duvarların yükünü dışarıdaki ayaklara aktaran kemerli payanda sistemi",
+    "content": "Flying Buttress kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Uçan Payanda: Gotik mimaride yüksek duvarların yükünü dışarıdaki ayaklara aktaran kemerli payanda sistemi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Gotik Mimari",
+      "Yapı Teknolojisi"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_35",
+    "title": "Atrium",
+    "slug": "atrium",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Atriyum: Binanın merkezinde yer alan, genellikle cam tavanla örtülü çok katlı açık iç avlu",
+    "content": "Atrium kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Atriyum: Binanın merkezinde yer alan, genellikle cam tavanla örtülü çok katlı açık iç avlu\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İç Mekan",
+      "Mekansal Organizasyon"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_36",
+    "title": "Courtyard",
+    "slug": "courtyard",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Avlu: Binalarla çevrili, üstü açık iç bahçe veya boşluk alanı",
+    "content": "Courtyard kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Avlu: Binalarla çevrili, üstü açık iç bahçe veya boşluk alanı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Peyzaj",
+      "Mimari Planlama"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_37",
+    "title": "Mezzanine",
+    "slug": "mezzanine",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Asma Kat / Entresol: Ana katlar arasında yer alan, genellikle daha basık tavanlı ara kat",
+    "content": "Mezzanine kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Asma Kat / Entresol: Ana katlar arasında yer alan, genellikle daha basık tavanlı ara kat\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İç Mimari",
+      "Mekansal Tasarım"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_38",
+    "title": "Portico",
+    "slug": "portico",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Portiko / Sütunlu Giriş: Sütunlarla taşınan, genellikle binanın ana girişini koruyan üstü örtülü alan",
+    "content": "Portico kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Portiko / Sütunlu Giriş: Sütunlarla taşınan, genellikle binanın ana girişini koruyan üstü örtülü alan\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Klasik Mimari",
+      "Giriş"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_39",
+    "title": "Colonnade",
+    "slug": "colonnade",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Sütun Dizisi: Belirli bir aralıkla düzenli şekilde sıralanmış sütunların oluşturduğu geçit",
+    "content": "Colonnade kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Sütun Dizisi: Belirli bir aralıkla düzenli şekilde sıralanmış sütunların oluşturduğu geçit\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Klasik Mimari",
+      "Kompozisyon"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_40",
+    "title": "Peristyle",
+    "slug": "peristyle",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Peristil: İç avlunun etrafını çevreleyen üstü örtülü sütunlu galeri",
+    "content": "Peristyle kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Peristil: İç avlunun etrafını çevreleyen üstü örtülü sütunlu galeri\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Antik Mimari",
+      "Avlu"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_41",
+    "title": "Façadism",
+    "slug": "facadism",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Cephecilik: Tarihi bir binanın sadece dış cephesini koruyup içini tamamen yıkarak yeniden inşa etme yaklaşımı",
+    "content": "Façadism kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Cephecilik: Tarihi bir binanın sadece dış cephesini koruyup içini tamamen yıkarak yeniden inşa etme yaklaşımı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Restorasyon",
+      "Kentsel Koruma"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_42",
+    "title": "Curtain Wall",
+    "slug": "curtain-wall",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Giydirme Cephe: Binanın taşıyıcı sistemine yük bindirmeyen, genellikle alüminyum ve camdan oluşan hafif dış cephe kaplaması",
+    "content": "Curtain Wall kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Giydirme Cephe: Binanın taşıyıcı sistemine yük bindirmeyen, genellikle alüminyum ve camdan oluşan hafif dış cephe kaplaması\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Modern Mimari",
+      "Cephe Teknolojisi"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_43",
+    "title": "Cladding",
+    "slug": "cladding",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Cephe Kaplaması: Binanın dış yüzeyini hava koşullarından korumak ve estetik kazandırmak için uygulanan dış yüzey malzemesi",
+    "content": "Cladding kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Cephe Kaplaması: Binanın dış yüzeyini hava koşullarından korumak ve estetik kazandırmak için uygulanan dış yüzey malzemesi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Malzeme Bilimi",
+      "Cephe"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_44",
+    "title": "Fenestration",
+    "slug": "fenestration",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Pencere Düzeni: Bir binanın cephesindeki pencere, kapı ve boşlukların yerleşim ve oran düzeni",
+    "content": "Fenestration kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Pencere Düzeni: Bir binanın cephesindeki pencere, kapı ve boşlukların yerleşim ve oran düzeni\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Cephe Tasarımı",
+      "Işık"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_45",
+    "title": "Brise-soleil",
+    "slug": "brise-soleil",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Güneş Kırıcı: Pencerelere gelen doğrudan güneş ışığını kesmek için cepheye yerleştirilen yatay veya dikey panjur elemanları",
+    "content": "Brise-soleil kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Güneş Kırıcı: Pencerelere gelen doğrudan güneş ışığını kesmek için cepheye yerleştirilen yatay veya dikey panjur elemanları\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Sürdürülebilirlik",
+      "Cephe Elemanları"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_46",
+    "title": "Louvre",
+    "slug": "louvre",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Lover / Jaluzi: Hava sirkülasyonu sağlarken ışığı veya yağmuru engelleyen eğimli çıtalardan oluşan açıklık sistemi",
+    "content": "Louvre kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Lover / Jaluzi: Hava sirkülasyonu sağlarken ışığı veya yağmuru engelleyen eğimli çıtalardan oluşan açıklık sistemi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Cephe",
+      "Havalandırma"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_47",
+    "title": "Eaves",
+    "slug": "eaves",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Çatı Saçağı: Çatının binanın dış duvarından dışarı doğru taşan alt kenar kısmı",
+    "content": "Eaves kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Çatı Saçağı: Çatının binanın dış duvarından dışarı doğru taşan alt kenar kısmı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Çatı Sistemleri",
+      "Yapı Elemanları"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_48",
+    "title": "Parapet",
+    "slug": "parapet",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Parapet: Çatılarda, balkonlarda veya teraslarda düşmeyi önlemek için yapılan alçak duvar korkuluk",
+    "content": "Parapet kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Parapet: Çatılarda, balkonlarda veya teraslarda düşmeyi önlemek için yapılan alçak duvar korkuluk\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Güvenlik",
+      "Yapı Elemanları"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_49",
+    "title": "Skylight",
+    "slug": "skylight",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Çatı Penceresi / Işıklık: Doğal gün ışığını binanın üst katlarına almak için çatıya yerleştirilen cam pencere sistemi",
+    "content": "Skylight kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Çatı Penceresi / Işıklık: Doğal gün ışığını binanın üst katlarına almak için çatıya yerleştirilen cam pencere sistemi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Doğal Aydınlatma",
+      "Çatı"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_50",
+    "title": "Clerestory",
+    "slug": "clerestory",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Üst Pencere Sırası: Genellikle orta nefin yan neflerden yüksekte kalan kısmına açılan, mekana üstten ışık sağlayan pencereler",
+    "content": "Clerestory kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Üst Pencere Sırası: Genellikle orta nefin yan neflerden yüksekte kalan kısmına açılan, mekana üstten ışık sağlayan pencereler\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Tarih",
+      "Aydınlatma"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_51",
+    "title": "Thermal Insulation",
+    "slug": "thermal-insulation",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Isı Yalıtımı: Binanın iç ortam sıcaklığını korumak ve enerji kaybını önlemek için uygulanan yalıtım katmanları",
+    "content": "Thermal Insulation kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Isı Yalıtımı: Binanın iç ortam sıcaklığını korumak ve enerji kaybını önlemek için uygulanan yalıtım katmanları\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Enerji Verimliliği",
+      "Fizik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_52",
+    "title": "Vapor Barrier",
+    "slug": "vapor-barrier",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Buhar Kesici: Nem ve su buharının yalıtım malzemelerine nüfuz ederek yoğuşma yapmasını engelleyen membran örtü",
+    "content": "Vapor Barrier kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Buhar Kesici: Nem ve su buharının yalıtım malzemelerine nüfuz ederek yoğuşma yapmasını engelleyen membran örtü\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Yapı Fiziği",
+      "Yalıtım"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_53",
+    "title": "Thermal Bridge",
+    "slug": "thermal-bridge",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Isı Köprüsü: Yalıtımın kesintiye uğradığı noktalarda ısı kaybına ve yoğuşmaya neden olan zayıf yapısal bağlantı noktası",
+    "content": "Thermal Bridge kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Isı Köprüsü: Yalıtımın kesintiye uğradığı noktalarda ısı kaybına ve yoğuşmaya neden olan zayıf yapısal bağlantı noktası\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Yapı Fiziği",
+      "Mühendislik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_54",
+    "title": "U-Value (U-Değeri)",
+    "slug": "u-value-u-degeri",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Isı Geçirgenlik Katsayısı: Bir yapı elemanından ne kadar ısı kaçtığını gösteren performans ölçütü",
+    "content": "U-Value (U-Değeri) kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Isı Geçirgenlik Katsayısı: Bir yapı elemanından ne kadar ısı kaçtığını gösteren performans ölçütü\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Enerji",
+      "Performans"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_55",
+    "title": "Passive House (Passivhaus)",
+    "slug": "passive-house-passivhaus",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Pasif Ev: Minimum enerji harcayarak, iç ortam iklimini ek ısıtma sistemine gerek duymadan koruyan yüksek enerji verimli yapı standardı",
+    "content": "Passive House (Passivhaus) kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Pasif Ev: Minimum enerji harcayarak, iç ortam iklimini ek ısıtma sistemine gerek duymadan koruyan yüksek enerji verimli yapı standardı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Sürdürülebilirlik",
+      "Modern Standart"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_56",
+    "title": "Embodies Energy",
+    "slug": "embodies-energy",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Gömülü Enerji: Bir yapı malzemesinin çıkarılması, üretilmesi ve şantiyeye taşınması sırasında harcanan toplam enerji",
+    "content": "Embodies Energy kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Gömülü Enerji: Bir yapı malzemesinin çıkarılması, üretilmesi ve şantiyeye taşınması sırasında harcanan toplam enerji\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Ekolojik Mimari",
+      "Malzeme"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_57",
+    "title": "Life Cycle Assessment (LCA)",
+    "slug": "life-cycle-assessment-lca",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Yaşam Döngüsü Değerlendirmesi: Bir binanın veya malzemenin üretiminden yıkımına kadar çevresel etkilerinin analizi",
+    "content": "Life Cycle Assessment (LCA) kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Yaşam Döngüsü Değerlendirmesi: Bir binanın veya malzemenin üretiminden yıkımına kadar çevresel etkilerinin analizi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Sürdürülebilirlik",
+      "Analiz"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_58",
+    "title": "LEED Certification",
+    "slug": "leed-certification",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "LEED Sertifikası: Çevre dostu ve sürdürülebilir binalara verilen uluslararası yeşil bina derecelendirme belgesi",
+    "content": "LEED Certification kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"LEED Sertifikası: Çevre dostu ve sürdürülebilir binalara verilen uluslararası yeşil bina derecelendirme belgesi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Sertifikasyon",
+      "Yeşil Bina"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_59",
+    "title": "BIM (Building Information Modeling)",
+    "slug": "bim-building-information-modeling",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Yapı Bilgi Modellemesi: Binaların tüm fiziksel ve işlevsel özelliklerinin üç boyutlu dijital ortamda ortak modellendiği sistem",
+    "content": "BIM (Building Information Modeling) kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Yapı Bilgi Modellemesi: Binaların tüm fiziksel ve işlevsel özelliklerinin üç boyutlu dijital ortamda ortak modellendiği sistem\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Dijital Mimari",
+      "Teknoloji"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_60",
+    "title": "Parametric Design",
+    "slug": "parametric-design",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Parametrik Tasarım: Algoritmalar ve değişken parametreler kullanarak karmaşık formların bilgisayar ortamında üretilmesi",
+    "content": "Parametric Design kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Parametrik Tasarım: Algoritmalar ve değişken parametreler kullanarak karmaşık formların bilgisayar ortamında üretilmesi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Modern Tasarım",
+      "Hesaplamalı Mimari"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_61",
+    "title": "Brutalist Architecture",
+    "slug": "brutalist-architecture",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Brütalizm: Betonun ve hammaddelerin boyanmaksızın, ham ve kaba halleriyle sergilendiği 20. yüzyıl mimari akımı",
+    "content": "Brutalist Architecture kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Brütalizm: Betonun ve hammaddelerin boyanmaksızın, ham ve kaba halleriyle sergilendiği 20. yüzyıl mimari akımı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Akımlar",
+      "Modernizm"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_62",
+    "title": "International Style",
+    "slug": "international-style",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Uluslararası Üslup: Süslemeden arınmış, cam, çelik ve betonun ön planda olduğu 20. yüzyıl modernist mimari tarzı",
+    "content": "International Style kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Uluslararası Üslup: Süslemeden arınmış, cam, çelik ve betonun ön planda olduğu 20. yüzyıl modernist mimari tarzı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Akımlar",
+      "Tarih"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_63",
+    "title": "Deconstructivism",
+    "slug": "deconstructivism",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Dekonstrüktivizm: Parçalanmış formlar, çizgisel olmayan geometriler ve görsel karmaşa yaratan postmodern mimari akım",
+    "content": "Deconstructivism kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Dekonstrüktivizm: Parçalanmış formlar, çizgisel olmayan geometriler ve görsel karmaşa yaratan postmodern mimari akım\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Akımlar",
+      "Postmodernizm"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_64",
+    "title": "Bauhaus",
+    "slug": "bauhaus",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Bauhaus: İşlevselliğin ve endüstriyel tasarımın sanatla birleştiğini savunan öncü Alman mimarlık ve tasarım okulu",
+    "content": "Bauhaus kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Bauhaus: İşlevselliğin ve endüstriyel tasarımın sanatla birleştiğini savunan öncü Alman mimarlık ve tasarım okulu\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Tasarım Tarihi",
+      "Modernizm"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_65",
+    "title": "Art Deco",
+    "slug": "art-deco",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Art Deco: Geometrik desenlerin, lüks malzemelerin ve zikzak formların kullanıldığı 1920-30'lar dekoratif sanat akımı",
+    "content": "Art Deco kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Art Deco: Geometrik desenlerin, lüks malzemelerin ve zikzak formların kullanıldığı 1920-30'lar dekoratif sanat akımı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Sanat Tarihi",
+      "Dekoratif Mimari"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_66",
+    "title": "Classical Orders",
+    "slug": "classical-orders",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Klasik Düzenler: Antik Yunan ve Roma'da sütun başlıkları ve oranlarına göre sınıflandırılan Dor, İyon ve Korint sistemleri",
+    "content": "Classical Orders kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Klasik Düzenler: Antik Yunan ve Roma'da sütun başlıkları ve oranlarına göre sınıflandırılan Dor, İyon ve Korint sistemleri\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Antik Mimari",
+      "Klasik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_67",
+    "title": "Entasis",
+    "slug": "entasis",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Entasis: Antik sütunların optik olarak daha dik ve güçlü görünmesi için orta kısmının hafifçe şişkin tasarlanması",
+    "content": "Entasis kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Entasis: Antik sütunların optik olarak daha dik ve güçlü görünmesi için orta kısmının hafifçe şişkin tasarlanması\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Klasik Mimari",
+      "Optik İllüzyon"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_68",
+    "title": "Cornice",
+    "slug": "cornice",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Korniş: Binaların en üst duvar bitiminde çatıya geçişi sağlayan çıkıntılı ve süslemeli yatay silme kuşağı",
+    "content": "Cornice kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Korniş: Binaların en üst duvar bitiminde çatıya geçişi sağlayan çıkıntılı ve süslemeli yatay silme kuşağı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Klasik Mimari",
+      "Cephe Detayı"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_69",
+    "title": "Frieze",
+    "slug": "frieze",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Friz: Klasik entablaturde arşitrav ile korniş arasında kalan genellikle kabartmalarla süslü yatay kuşak",
+    "content": "Frieze kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Friz: Klasik entablaturde arşitrav ile korniş arasında kalan genellikle kabartmalarla süslü yatay kuşak\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Klasik Mimari",
+      "Süsleme"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_70",
+    "title": "Pediment",
+    "slug": "pediment",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Alınlık: Klasik tapınak girişlerinde çatı üçgeninin altında kalan süslemeli üçgen alan",
+    "content": "Pediment kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Alınlık: Klasik tapınak girişlerinde çatı üçgeninin altında kalan süslemeli üçgen alan\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Klasik Mimari",
+      "Cephe Formu"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_71",
+    "title": "Zoning",
+    "slug": "zoning",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "İmar Planlaması / Bölgeleme: Bir şehrin hangi bölgelerinde konut, ticaret veya sanayi yapılabileceğini belirleyen yasal imar kuralı",
+    "content": "Zoning kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"İmar Planlaması / Bölgeleme: Bir şehrin hangi bölgelerinde konut, ticaret veya sanayi yapılabileceğini belirleyen yasal imar kuralı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Kentsel Tasarım",
+      "İmar Hukuku"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_72",
+    "title": "Floor Area Ratio (FAR) / TAKS-KAKS",
+    "slug": "floor-area-ratio-far-taks-kaks",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Emsal / Kat Alanı Kat Sayısı: Bir arsada inşa edilebilecek toplam kapalı alanın arsa alanına oranını belirleyen imar katsayısı",
+    "content": "Floor Area Ratio (FAR) / TAKS-KAKS kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Emsal / Kat Alanı Kat Sayısı: Bir arsada inşa edilebilecek toplam kapalı alanın arsa alanına oranını belirleyen imar katsayısı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Kentsel Planlama",
+      "İmar"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_73",
+    "title": "Setback",
+    "slug": "setback",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Çekme Mesafesi: Bir binanın parsel sınırından veya yoldan bırakmak zorunda olduğu yasal yasal boşluk mesafesi",
+    "content": "Setback kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Çekme Mesafesi: Bir binanın parsel sınırından veya yoldan bırakmak zorunda olduğu yasal yasal boşluk mesafesi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İmar Kuralları",
+      "Yerleşim"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_74",
+    "title": "Urban Density",
+    "slug": "urban-density",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kentsel Yoğunluk: Belirli birim alandaki nüfus ve yapılaşma yoğunluğu oranı",
+    "content": "Urban Density kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kentsel Yoğunluk: Belirli birim alandaki nüfus ve yapılaşma yoğunluğu oranı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Şehircilik",
+      "Kentsel Analiz"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_75",
+    "title": "Gentrification",
+    "slug": "gentrification",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Soylulaştırma: Eski veya köhne kentsel bölgelerin yenilenerek üst gelir grubunun yerleşmesi ve mülk değerlerinin artması",
+    "content": "Gentrification kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Soylulaştırma: Eski veya köhne kentsel bölgelerin yenilenerek üst gelir grubunun yerleşmesi ve mülk değerlerinin artması\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Kentsel Sosyoloji",
+      "Şehircilik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_76",
+    "title": "Urban Sprawl",
+    "slug": "urban-sprawl",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kentsel Saçılma: Şehirlerin merkezden dışa doğru denetimsiz, az yoğunluklu ve otomobil bağımlı şekilde yayılması",
+    "content": "Urban Sprawl kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kentsel Saçılma: Şehirlerin merkezden dışa doğru denetimsiz, az yoğunluklu ve otomobil bağımlı şekilde yayılması\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Şehircilik",
+      "Çevre Sorunları"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_77",
+    "title": "Mixed-use Development",
+    "slug": "mixed-use-development",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Karma Kullanımlı Yapı: İçinde konut, ofis, alışveriş ve sosyal alanları bir arada barındıran entegre yapı projesi",
+    "content": "Mixed-use Development kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Karma Kullanımlı Yapı: İçinde konut, ofis, alışveriş ve sosyal alanları bir arada barındıran entegre yapı projesi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Planlama",
+      "Kentsel Yaşam"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_78",
+    "title": "Adaptive Reuse",
+    "slug": "adaptive-reuse",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Uyarlamalı Yeniden Kullanım: Eski bir fabrikanın veya tarihi yapının yıkılmadan farklı bir işlevle (örn. müze veya konut) yeniden hayata döndürülmesi",
+    "content": "Adaptive Reuse kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Uyarlamalı Yeniden Kullanım: Eski bir fabrikanın veya tarihi yapının yıkılmadan farklı bir işlevle (örn. müze veya konut) yeniden hayata döndürülmesi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Restorasyon",
+      "Sürdürülebilirlik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_79",
+    "title": "Master Plan",
+    "slug": "master-plan",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Nazım İmar Planı / Ana Plan: Bir kentin veya büyük bir bölgenin uzun vadeli gelişimini, ulaşımını ve kullanım kararlarını belirleyen stratejik plan",
+    "content": "Master Plan kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Nazım İmar Planı / Ana Plan: Bir kentin veya büyük bir bölgenin uzun vadeli gelişimini, ulaşımını ve kullanım kararlarını belirleyen stratejik plan\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Şehircilik",
+      "Planlama"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_80",
+    "title": "Public Realm",
+    "slug": "public-realm",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kamusal Alan: Sokaklar, meydanlar ve parklar gibi toplumun herkesin erişimine açık ortak kentsel yaşam alanları",
+    "content": "Public Realm kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kamusal Alan: Sokaklar, meydanlar ve parklar gibi toplumun herkesin erişimine açık ortak kentsel yaşam alanları\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Kentsel Tasarım",
+      "Sosyoloji"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_81",
+    "title": "Threshold",
+    "slug": "threshold",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Eşik: İç mekan ile dış mekan arasında geçiş sağlayan kapı, antre veya basamak gibi geçiş noktası",
+    "content": "Threshold kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Eşik: İç mekan ile dış mekan arasında geçiş sağlayan kapı, antre veya basamak gibi geçiş noktası\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mekansal Geçiş",
+      "Detay"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_82",
+    "title": "Niche",
+    "slug": "niche",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Niş: Duvar içine gömülü olarak tasarlanmış heykel, raf veya oturma alanı koymaya yarayan oyuk",
+    "content": "Niche kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Niş: Duvar içine gömülü olarak tasarlanmış heykel, raf veya oturma alanı koymaya yarayan oyuk\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İç Mimari",
+      "Duvar Detayı"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_83",
+    "title": "Alcove",
+    "slug": "alcove",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Alkov: Büyük bir odanın içinden kısmen ayrılmış, yatak veya oturma grubu konulan küçük girinti bölüm",
+    "content": "Alcove kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Alkov: Büyük bir odanın içinden kısmen ayrılmış, yatak veya oturma grubu konulan küçük girinti bölüm\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İç Mekan",
+      "Planlama"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_84",
+    "title": "Vestibule",
+    "slug": "vestibule",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Antre / Hol: Binanın ana giriş kapısından sonra iç mekana geçişi sağlayan rüzgarlık ve karşılama alanı",
+    "content": "Vestibule kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Antre / Hol: Binanın ana giriş kapısından sonra iç mekana geçişi sağlayan rüzgarlık ve karşılama alanı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Planlama",
+      "Giriş"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_85",
+    "title": "Foyer",
+    "slug": "foyer",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Foyer: Tiyatro, konser salonu veya kamusal binalarda etkinlik öncesi toplanma ve dinlenme salonu",
+    "content": "Foyer kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Foyer: Tiyatro, konser salonu veya kamusal binalarda etkinlik öncesi toplanma ve dinlenme salonu\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Kamusal Yapılar",
+      "İç Mekan"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_86",
+    "title": "Baluster",
+    "slug": "baluster",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Korkuluk Dikmesi / Balıskandil: Merdiven ve balkon korkuluklarını taşıyan süslemeli küçük dikme sütunlar",
+    "content": "Baluster kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Korkuluk Dikmesi / Balıskandil: Merdiven ve balkon korkuluklarını taşıyan süslemeli küçük dikme sütunlar\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Yapı Elemanları",
+      "Detay"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_87",
+    "title": "Balustrade",
+    "slug": "balustrade",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Korkuluk: Balusterlerden ve üst küpeşteden oluşan merdiven veya teras korkuluk sistemi",
+    "content": "Balustrade kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Korkuluk: Balusterlerden ve üst küpeşteden oluşan merdiven veya teras korkuluk sistemi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Yapı Elemanları",
+      "Güvenlik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_88",
+    "title": "Riser & Tread",
+    "slug": "riser-tread",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Rıht ve Basamak: Merdivenin adım basılan yatay yüzeyi (tread) ile basamaklar arası dikey yükseklik (riser)",
+    "content": "Riser & Tread kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Rıht ve Basamak: Merdivenin adım basılan yatay yüzeyi (tread) ile basamaklar arası dikey yükseklik (riser)\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Merdiven",
+      "Detay"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_89",
+    "title": "Stringer",
+    "slug": "stringer",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Merdiven Omurgası / Kirişi: Merdiven basamaklarını yanlardan taşıyan eğimli kiriş elemanı",
+    "content": "Stringer kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Merdiven Omurgası / Kirişi: Merdiven basamaklarını yanlardan taşıyan eğimli kiriş elemanı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Merdiven",
+      "Strüktür"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_90",
+    "title": "Landing",
+    "slug": "landing",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Merdiven Sahanlığı: Merdiven kollarının arasında yön değiştirmeyi sağlayan düz dinlenme platformu",
+    "content": "Landing kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Merdiven Sahanlığı: Merdiven kollarının arasında yön değiştirmeyi sağlayan düz dinlenme platformu\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Merdiven",
+      "Sirkülasyon"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_91",
+    "title": "Wainscot",
+    "slug": "wainscot",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Lambri: Duvarların alt kısmını korumak ve süslemek için kaplanan ahşap veya panel kaplama",
+    "content": "Wainscot kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Lambri: Duvarların alt kısmını korumak ve süslemek için kaplanan ahşap veya panel kaplama\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İç Mimari",
+      "Yüzey Kaplama"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_92",
+    "title": "Baseboard",
+    "slug": "baseboard",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Süpürgelik: Duvar ile zemin döşemesinin birleştiği noktayı gizleyen ve duvarı koruyan profil",
+    "content": "Baseboard kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Süpürgelik: Duvar ile zemin döşemesinin birleştiği noktayı gizleyen ve duvarı koruyan profil\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İç Mimari",
+      "Detay"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_93",
+    "title": "Casing",
+    "slug": "casing",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Pencere/Kapı Pervazı: Kapı ve pencere kasaları ile duvar arasındaki boşluğu kapatan dekoratif pervaz",
+    "content": "Casing kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Pencere/Kapı Pervazı: Kapı ve pencere kasaları ile duvar arasındaki boşluğu kapatan dekoratif pervaz\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İç Mimari",
+      "Detay"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_94",
+    "title": "Threshold Plate",
+    "slug": "threshold-plate",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Eşik Çıtası / Eşik: İç mekan odaları arasında zemin kaplamalarının birleştiği geçiş çıtası",
+    "content": "Threshold Plate kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Eşik Çıtası / Eşik: İç mekan odaları arasında zemin kaplamalarının birleştiği geçiş çıtası\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Zemin",
+      "Detay"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_95",
+    "title": "Coffered Ceiling",
+    "slug": "coffered-ceiling",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kaset Döşeme / Kaset Tavan: Tavan yüzeyinde geometrik çukurlar ve kafesler oluşturularak yapılan dekoratif tavan tasarımı",
+    "content": "Coffered Ceiling kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kaset Döşeme / Kaset Tavan: Tavan yüzeyinde geometrik çukurlar ve kafesler oluşturularak yapılan dekoratif tavan tasarımı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İç Mimari",
+      "Tavan Tasarımı"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_96",
+    "title": "Waffle Slab",
+    "slug": "waffle-slab",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Kaset Döşeme (Mühendislik): Geniş açıklıkları geçmek için alt yüzeyi ızgara şeklinde dişli bırakılan betonarme döşeme",
+    "content": "Waffle Slab kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Kaset Döşeme (Mühendislik): Geniş açıklıkları geçmek için alt yüzeyi ızgara şeklinde dişli bırakılan betonarme döşeme\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Strüktür",
+      "Mühendislik"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_97",
+    "title": "Expansion Joint",
+    "slug": "expansion-joint",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Genleşme Derzi: Büyük yapılarda sıcaklık değişimleri ve deprem nedeniyle oluşacak hareketleri sönümlemek için bırakılan boşluk",
+    "content": "Expansion Joint kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Genleşme Derzi: Büyük yapılarda sıcaklık değişimleri ve deprem nedeniyle oluşacak hareketleri sönümlemek için bırakılan boşluk\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "İnşaat",
+      "Yapısal Detay"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_98",
+    "title": "Damp-proof Course (DPC)",
+    "slug": "damp-proof-course-dpc",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Nem Yalıtımı Membranı: Temel ve duvarlarda yükselen yeraltı nemini ve suyun yukarı çıkmasını engelleyen su yalıtım katmanı",
+    "content": "Damp-proof Course (DPC) kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Nem Yalıtımı Membranı: Temel ve duvarlarda yükselen yeraltı nemini ve suyun yukarı çıkmasını engelleyen su yalıtım katmanı\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Su Yalıtımı",
+      "İnşaat"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_99",
+    "title": "Soffit",
+    "slug": "soffit",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Alt Yüzey / Saçak Altı: Merdiven, kemer, saçak veya balkonların alt yatayta kalan yüzey kaplaması",
+    "content": "Soffit kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Alt Yüzey / Saçak Altı: Merdiven, kemer, saçak veya balkonların alt yatayta kalan yüzey kaplaması\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Yapı Elemanları",
+      "Detay"
+    ],
+    "level": "C1",
+    "word_alt": null
+  },
+  {
+    "id": "arch_100",
+    "title": "Aesthetics",
+    "slug": "aesthetics",
+    "category": "mimari",
+    "categoryName": "Mimarlık",
+    "description": "Estetik: Bir binanın biçimi, oranı, malzemesi ve detaylarıyla uyandırdığı güzel duygu ve görsel denge felsefesi",
+    "content": "Aesthetics kavramı, Mimarlık alanında önemli bir teorik veya pratik yere sahiptir. Bu terim, genel olarak şu şekilde tanımlanır: \"Estetik: Bir binanın biçimi, oranı, malzemesi ve detaylarıyla uyandırdığı güzel duygu ve görsel denge felsefesi\". İlgili konu anlatımlarında, sınavlarda ve profesyonel çalışmalarda sıkça karşımıza çıkan bu kavramı öğrenmek, Mimarlık disiplinindeki hakimiyetinizi artıracaktır.",
+    "tags": [
+      "Mimari Felsefe",
+      "Tasarım"
+    ],
+    "level": "C1",
+    "word_alt": null
+  }
+]

@@ -60,6 +60,18 @@ const WordCard = dynamic(() => import('../components/games/WordCard'), {
   ssr: false,
   loading: () => <SkeletonLoader gameType="lexicon" />
 });
+const WordBoard = dynamic(() => import('../components/games/WordBoard'), {
+  ssr: false,
+  loading: () => <SkeletonLoader gameType="lexicon" />
+});
+const StarCards = dynamic(() => import('../components/games/StarCards'), {
+  ssr: false,
+  loading: () => <SkeletonLoader gameType="lexicon" />
+});
+const OrbitLex = dynamic(() => import('../components/games/OrbitLex'), {
+  ssr: false,
+  loading: () => <SkeletonLoader gameType="orbitlex" />
+});
 
 
 import { gameManifest } from "../config/manifest";
@@ -440,6 +452,40 @@ export default function GameEngineWrapper({ gameType, levelId, langId, onExit, o
     );
   }
 
+  if (gameType === 'word-board' || gameType === 'kelime-panosu') {
+    return (
+      <div className="w-full h-full absolute inset-0">
+        <WordBoard
+          levelId={levelId}
+          langId={langId}
+          onExit={onExit}
+          onNextLevel={handleNextLevel}
+          isAudioEnabled={isAudioEnabled}
+          setIsAudioEnabled={setIsAudioEnabled}
+          isFxEnabled={isFxEnabled}
+          setIsFxEnabled={setIsFxEnabled}
+        />
+      </div>
+    );
+  }
+
+  if (gameType === 'star-cards' || gameType === 'yildiz-kartlar') {
+    return (
+      <div className="w-full h-full absolute inset-0">
+        <StarCards
+          levelId={levelId}
+          langId={langId}
+          onExit={onExit}
+          onNextLevel={handleNextLevel}
+          isAudioEnabled={isAudioEnabled}
+          setIsAudioEnabled={setIsAudioEnabled}
+          isFxEnabled={isFxEnabled}
+          setIsFxEnabled={setIsFxEnabled}
+        />
+      </div>
+    );
+  }
+
   if (gameType === 'hangman') {
     return (
       <div className="w-full h-full absolute inset-0">
@@ -474,8 +520,25 @@ export default function GameEngineWrapper({ gameType, levelId, langId, onExit, o
     );
   }
 
+  if (gameType === 'orbitlex' || gameType === 'orbit-lex') {
+    return (
+      <div className="w-full h-full absolute inset-0">
+        <OrbitLex
+          levelId={levelId}
+          langId={langId}
+          onExit={onExit}
+          onNextLevel={handleNextLevel}
+          isAudioEnabled={isAudioEnabled}
+          setIsAudioEnabled={setIsAudioEnabled}
+          isFxEnabled={isFxEnabled}
+          setIsFxEnabled={setIsFxEnabled}
+        />
+      </div>
+    );
+  }
+
   return (
-    <div className="relative w-full h-[950px] flex flex-col bg-dark-900 rounded-xl overflow-hidden shadow-[0_0_15px_rgba(6,182,212,0.15)] border border-dark-800">
+    <div className="relative w-full h-full max-h-[950px] min-h-0 flex flex-col bg-dark-900 rounded-xl overflow-hidden shadow-[0_0_15px_rgba(6,182,212,0.15)] border border-dark-800">
       
       {/* Üst Kısım: Skor ve Genel Kontroller */}
       <GameHeader>
@@ -528,8 +591,8 @@ export default function GameEngineWrapper({ gameType, levelId, langId, onExit, o
             {GAME_THEMES[gameType]?.restartBtn || "RESTART"}
           </button>
           
-          <button id="pause-menu-btn" onClick={() => { if(onExit) onExit(); else window.location.href = '/'; }} className="w-full py-3 bg-dark-700 text-gray-300 font-bold font-mono rounded-lg border border-dark-600 hover:bg-dark-600 transition-colors">
-            MAIN MENU
+          <button id="pause-menu-btn" onClick={() => { if(onExit) onExit(); else window.location.href = '/games/'; }} className="w-full py-3 bg-dark-700 text-gray-300 font-bold font-mono rounded-lg border border-dark-600 hover:bg-dark-600 transition-colors">
+            OYUN MENÜSÜ
           </button>
         </div>
       </div>
@@ -551,8 +614,8 @@ export default function GameEngineWrapper({ gameType, levelId, langId, onExit, o
             {GAME_THEMES[gameType]?.rebootBtn || "RETRY"}
           </button>
           
-          <button onClick={() => { if(onExit) onExit(); else window.location.href = '/'; }} className="w-full py-3 bg-dark-700 text-gray-300 font-bold font-mono rounded-lg border border-dark-600 hover:bg-dark-600 transition-colors">
-            MAIN MENU
+          <button onClick={() => { if(onExit) onExit(); else window.location.href = '/games/'; }} className="w-full py-3 bg-dark-700 text-gray-300 font-bold font-mono rounded-lg border border-dark-600 hover:bg-dark-600 transition-colors">
+            OYUN MENÜSÜ
           </button>
         </div>
       </div>
@@ -574,8 +637,8 @@ export default function GameEngineWrapper({ gameType, levelId, langId, onExit, o
             SONRAKİ BÖLÜM
           </button>
           
-          <button onClick={() => { if(onExit) onExit(); else window.location.href = '/'; }} className="w-full py-3 bg-dark-700 text-gray-300 font-bold font-mono rounded-lg border border-dark-600 hover:bg-dark-600 transition-colors">
-            MAIN MENU
+          <button onClick={() => { if(onExit) onExit(); else window.location.href = '/games/'; }} className="w-full py-3 bg-dark-700 text-gray-300 font-bold font-mono rounded-lg border border-dark-600 hover:bg-dark-600 transition-colors">
+            OYUN MENÜSÜ
           </button>
         </div>
       </div>

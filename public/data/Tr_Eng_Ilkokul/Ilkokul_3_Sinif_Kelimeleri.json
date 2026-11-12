@@ -1,0 +1,2695 @@
+[
+  {
+    "word_id": "w_30001",
+    "word": "family",
+    "translation": "aile",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 1,
+          "unit_name": "Greeting"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I love my family.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30001.mp3"
+  },
+  {
+    "word_id": "w_30002",
+    "word": "feel",
+    "translation": "hissetmek",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 1,
+          "unit_name": "Greeting"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "verbs",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "How do you feel today?",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30002.mp3"
+  },
+  {
+    "word_id": "w_30003",
+    "word": "happy",
+    "translation": "mutlu",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 1,
+          "unit_name": "Greeting"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "adjectives",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I am very happy today.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30003.mp3"
+  },
+  {
+    "word_id": "w_30004",
+    "word": "old",
+    "translation": "yaşında / yaşlı",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 1,
+          "unit_name": "Greeting"
+        }
+      ]
+    },
+    "tags": [
+      "age",
+      "adjectives",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "How old are you?",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30004.mp3"
+  },
+  {
+    "word_id": "w_30005",
+    "word": "student",
+    "translation": "öğrenci",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 1,
+          "unit_name": "Greeting"
+        }
+      ]
+    },
+    "tags": [
+      "school",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I am a primary school student.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30005.mp3"
+  },
+  {
+    "word_id": "w_30006",
+    "word": "teacher",
+    "translation": "öğretmen",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 1,
+          "unit_name": "Greeting"
+        }
+      ]
+    },
+    "tags": [
+      "school",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My English teacher is very kind.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30006.mp3"
+  },
+  {
+    "word_id": "w_30007",
+    "word": "name",
+    "translation": "isim / ad",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 1,
+          "unit_name": "Greeting"
+        }
+      ]
+    },
+    "tags": [
+      "identity",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "What is your name?",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30007.mp3"
+  },
+  {
+    "word_id": "w_30008",
+    "word": "goodbye",
+    "translation": "hoşça kal",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 1,
+          "unit_name": "Greeting"
+        }
+      ]
+    },
+    "tags": [
+      "greetings",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Goodbye, see you tomorrow!",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30008.mp3"
+  },
+  {
+    "word_id": "w_30009",
+    "word": "friend",
+    "translation": "arkadaş",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 1,
+          "unit_name": "Greeting"
+        }
+      ]
+    },
+    "tags": [
+      "social",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "She is my best friend.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30009.mp3"
+  },
+  {
+    "word_id": "w_30010",
+    "word": "spell",
+    "translation": "harf harf söylemek / kodlamak",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 1,
+          "unit_name": "Greeting"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "alphabet",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "How do you spell your name?",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30010.mp3"
+  },
+  {
+    "word_id": "w_30011",
+    "word": "father",
+    "translation": "baba",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 2,
+          "unit_name": "My Family"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My father is a doctor.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30011.mp3"
+  },
+  {
+    "word_id": "w_30012",
+    "word": "mother",
+    "translation": "anne",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 2,
+          "unit_name": "My Family"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My mother is cooking in the kitchen.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30012.mp3"
+  },
+  {
+    "word_id": "w_30013",
+    "word": "brother",
+    "translation": "erkek kardeş",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 2,
+          "unit_name": "My Family"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I have one little brother.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30013.mp3"
+  },
+  {
+    "word_id": "w_30014",
+    "word": "sister",
+    "translation": "Kız kardeş",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 2,
+          "unit_name": "My Family"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My sister is ten years old.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30014.mp3"
+  },
+  {
+    "word_id": "w_30015",
+    "word": "grandfather",
+    "translation": "dede / büyükbaba",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 2,
+          "unit_name": "My Family"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My grandfather reads newspapers.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30015.mp3"
+  },
+  {
+    "word_id": "w_30016",
+    "word": "grandmother",
+    "translation": "nine / büyükanne",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 2,
+          "unit_name": "My Family"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My grandmother makes delicious cakes.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30016.mp3"
+  },
+  {
+    "word_id": "w_30017",
+    "word": "uncle",
+    "translation": "amca / dayı",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 2,
+          "unit_name": "My Family"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My uncle lives in Ankara.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30017.mp3"
+  },
+  {
+    "word_id": "w_30018",
+    "word": "aunt",
+    "translation": "hala / teyze",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 2,
+          "unit_name": "My Family"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My aunt is very friendly.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30018.mp3"
+  },
+  {
+    "word_id": "w_30019",
+    "word": "cousin",
+    "translation": "kuzen",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 2,
+          "unit_name": "My Family"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I play games with my cousin.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30019.mp3"
+  },
+  {
+    "word_id": "w_30020",
+    "word": "parents",
+    "translation": "anne baba / ebeveyn",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 2,
+          "unit_name": "My Family"
+        }
+      ]
+    },
+    "tags": [
+      "family",
+      "people",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My parents are at home.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30020.mp3"
+  },
+  {
+    "word_id": "w_30021",
+    "word": "climb",
+    "translation": "tırmanmak",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 3,
+          "unit_name": "People I Love"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "abilities",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Monkeys can climb trees.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30021.mp3"
+  },
+  {
+    "word_id": "w_30022",
+    "word": "ride a bike",
+    "translation": "bisiklete binmek",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 3,
+          "unit_name": "People I Love"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "sports",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I can ride a bike in the park.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30022.mp3"
+  },
+  {
+    "word_id": "w_30023",
+    "word": "swim",
+    "translation": "yüzmek",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 3,
+          "unit_name": "People I Love"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "sports",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Fish can swim in the sea.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30023.mp3"
+  },
+  {
+    "word_id": "w_30024",
+    "word": "drive a car",
+    "translation": "araba sürmek",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 3,
+          "unit_name": "People I Love"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "transport",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My father can drive a car.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30024.mp3"
+  },
+  {
+    "word_id": "w_30025",
+    "word": "fly a kite",
+    "translation": "uçurtma uçurmak",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 3,
+          "unit_name": "People I Love"
+        }
+      ]
+    },
+    "tags": [
+      "actions",
+      "fun",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Let's fly a kite today!",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30025.mp3"
+  },
+  {
+    "word_id": "w_30026",
+    "word": "fast",
+    "translation": "hızlı",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 3,
+          "unit_name": "People I Love"
+        }
+      ]
+    },
+    "tags": [
+      "adjectives",
+      "speed",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Rabbits can run fast.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30026.mp3"
+  },
+  {
+    "word_id": "w_30027",
+    "word": "slow",
+    "translation": "yavaş",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 3,
+          "unit_name": "People I Love"
+        }
+      ]
+    },
+    "tags": [
+      "adjectives",
+      "speed",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Turtles are very slow.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30027.mp3"
+  },
+  {
+    "word_id": "w_30028",
+    "word": "strong",
+    "translation": "güçlü",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 3,
+          "unit_name": "People I Love"
+        }
+      ]
+    },
+    "tags": [
+      "adjectives",
+      "body",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Elephants are strong animals.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30028.mp3"
+  },
+  {
+    "word_id": "w_30029",
+    "word": "tall",
+    "translation": "uzun boylu",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 3,
+          "unit_name": "People I Love"
+        }
+      ]
+    },
+    "tags": [
+      "adjectives",
+      "appearance",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Giraffes are very tall.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30029.mp3"
+  },
+  {
+    "word_id": "w_30030",
+    "word": "short",
+    "translation": "kısa boylu",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 3,
+          "unit_name": "People I Love"
+        }
+      ]
+    },
+    "tags": [
+      "adjectives",
+      "appearance",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My little brother is short.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30030.mp3"
+  },
+  {
+    "word_id": "w_30031",
+    "word": "hungry",
+    "translation": "aç / acıkmış",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 4,
+          "unit_name": "Feelings"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "states",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I am hungry, let's eat cake.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30031.mp3"
+  },
+  {
+    "word_id": "w_30032",
+    "word": "thirsty",
+    "translation": "susamış",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 4,
+          "unit_name": "Feelings"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "states",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I am thirsty, I want water.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30032.mp3"
+  },
+  {
+    "word_id": "w_30033",
+    "word": "tired",
+    "translation": "yorgun",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 4,
+          "unit_name": "Feelings"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "states",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I feel tired after running.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30033.mp3"
+  },
+  {
+    "word_id": "w_30034",
+    "word": "energetic",
+    "translation": "enerjik",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 4,
+          "unit_name": "Feelings"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "states",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Children are energetic today.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30034.mp3"
+  },
+  {
+    "word_id": "w_30035",
+    "word": "sad",
+    "translation": "üzgün",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 4,
+          "unit_name": "Feelings"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "states",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Don't be sad, smile!",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30035.mp3"
+  },
+  {
+    "word_id": "w_30036",
+    "word": "surprise",
+    "translation": "şaşırmış / sürpriz",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 4,
+          "unit_name": "Feelings"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "states",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I have a surprise for you.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30036.mp3"
+  },
+  {
+    "word_id": "w_30037",
+    "word": "angry",
+    "translation": "kızgın",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 4,
+          "unit_name": "Feelings"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "states",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The teacher is not angry.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30037.mp3"
+  },
+  {
+    "word_id": "w_30038",
+    "word": "bored",
+    "translation": "canı sıkılmış",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 4,
+          "unit_name": "Feelings"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "states",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I am bored, let's play games.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30038.mp3"
+  },
+  {
+    "word_id": "w_30039",
+    "word": "cold",
+    "translation": "üşümüş / soğuk",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 4,
+          "unit_name": "Feelings"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "weather",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Close the window, I am cold.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30039.mp3"
+  },
+  {
+    "word_id": "w_30040",
+    "word": "hot",
+    "translation": "bunalmış / sıcak",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 4,
+          "unit_name": "Feelings"
+        }
+      ]
+    },
+    "tags": [
+      "feelings",
+      "weather",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "It is very hot in summer.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30040.mp3"
+  },
+  {
+    "word_id": "w_30041",
+    "word": "chess",
+    "translation": "satranç",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 5,
+          "unit_name": "Toys and Games"
+        }
+      ]
+    },
+    "tags": [
+      "games",
+      "toys",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Can you play chess?",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30041.mp3"
+  },
+  {
+    "word_id": "w_30042",
+    "word": "playing cards",
+    "translation": "oyun kartları",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 5,
+          "unit_name": "Toys and Games"
+        }
+      ]
+    },
+    "tags": [
+      "games",
+      "toys",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I have colorful playing cards.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30042.mp3"
+  },
+  {
+    "word_id": "w_30043",
+    "word": "teddy bear",
+    "translation": "oyuncak ayı",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 5,
+          "unit_name": "Toys and Games"
+        }
+      ]
+    },
+    "tags": [
+      "toys",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "This brown teddy bear is cute.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30043.mp3"
+  },
+  {
+    "word_id": "w_30044",
+    "word": "blocks",
+    "translation": "oyuncak bloklar / yapım parçaları",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 5,
+          "unit_name": "Toys and Games"
+        }
+      ]
+    },
+    "tags": [
+      "toys",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I build a house with toy blocks.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30044.mp3"
+  },
+  {
+    "word_id": "w_30045",
+    "word": "marble",
+    "translation": "bilye / misket",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 5,
+          "unit_name": "Toys and Games"
+        }
+      ]
+    },
+    "tags": [
+      "toys",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I have twenty marbles.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30045.mp3"
+  },
+  {
+    "word_id": "w_30046",
+    "word": "doll",
+    "translation": "oyuncak bebek",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 5,
+          "unit_name": "Toys and Games"
+        }
+      ]
+    },
+    "tags": [
+      "toys",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My sister likes playing with dolls.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30046.mp3"
+  },
+  {
+    "word_id": "w_30047",
+    "word": "toy car",
+    "translation": "oyuncak araba",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 5,
+          "unit_name": "Toys and Games"
+        }
+      ]
+    },
+    "tags": [
+      "toys",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "This red toy car is fast.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30047.mp3"
+  },
+  {
+    "word_id": "w_30048",
+    "word": "computer game",
+    "translation": "bilgisayar oyunu",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 5,
+          "unit_name": "Toys and Games"
+        }
+      ]
+    },
+    "tags": [
+      "games",
+      "tech",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Let's play a computer game.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30048.mp3"
+  },
+  {
+    "word_id": "w_30049",
+    "word": "board game",
+    "translation": "masa oyunu",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 5,
+          "unit_name": "Toys and Games"
+        }
+      ]
+    },
+    "tags": [
+      "games",
+      "toys",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "We play board games together.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30049.mp3"
+  },
+  {
+    "word_id": "w_30050",
+    "word": "puzzle",
+    "translation": "yapboz",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 5,
+          "unit_name": "Toys and Games"
+        }
+      ]
+    },
+    "tags": [
+      "toys",
+      "games",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "This puzzle has fifty pieces.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30050.mp3"
+  },
+  {
+    "word_id": "w_30051",
+    "word": "living room",
+    "translation": "oturma odası",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 6,
+          "unit_name": "My House"
+        }
+      ]
+    },
+    "tags": [
+      "house",
+      "rooms",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "We watch TV in the living room.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30051.mp3"
+  },
+  {
+    "word_id": "w_30052",
+    "word": "kitchen",
+    "translation": "mutfak",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 6,
+          "unit_name": "My House"
+        }
+      ]
+    },
+    "tags": [
+      "house",
+      "rooms",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My mother is cooking in the kitchen.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30052.mp3"
+  },
+  {
+    "word_id": "w_30053",
+    "word": "bedroom",
+    "translation": "yatak odası",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 6,
+          "unit_name": "My House"
+        }
+      ]
+    },
+    "tags": [
+      "house",
+      "rooms",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I sleep in my bedroom.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30053.mp3"
+  },
+  {
+    "word_id": "w_30054",
+    "word": "bathroom",
+    "translation": "banyo",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 6,
+          "unit_name": "My House"
+        }
+      ]
+    },
+    "tags": [
+      "house",
+      "rooms",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Wash your hands in the bathroom.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30054.mp3"
+  },
+  {
+    "word_id": "w_30055",
+    "word": "garage",
+    "translation": "garaj",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 6,
+          "unit_name": "My House"
+        }
+      ]
+    },
+    "tags": [
+      "house",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The car is in the garage.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30055.mp3"
+  },
+  {
+    "word_id": "w_30056",
+    "word": "garden",
+    "translation": "bahçe",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 6,
+          "unit_name": "My House"
+        }
+      ]
+    },
+    "tags": [
+      "house",
+      "outdoor",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "There are beautiful flowers in the garden.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30056.mp3"
+  },
+  {
+    "word_id": "w_30057",
+    "word": "bed",
+    "translation": "yatak",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 6,
+          "unit_name": "My House"
+        }
+      ]
+    },
+    "tags": [
+      "house",
+      "furniture",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "My bed is soft and comfortable.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30057.mp3"
+  },
+  {
+    "word_id": "w_30058",
+    "word": "sofa",
+    "translation": "koltuk / kanepe",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 6,
+          "unit_name": "My House"
+        }
+      ]
+    },
+    "tags": [
+      "house",
+      "furniture",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Sit on the comfortable sofa.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30058.mp3"
+  },
+  {
+    "word_id": "w_30059",
+    "word": "shampoo",
+    "translation": "şampuan",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 6,
+          "unit_name": "My House"
+        }
+      ]
+    },
+    "tags": [
+      "house",
+      "objects",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The shampoo is in the bathroom.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30059.mp3"
+  },
+  {
+    "word_id": "w_30060",
+    "word": "kettle",
+    "translation": "su ısıtıcısı",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 6,
+          "unit_name": "My House"
+        }
+      ]
+    },
+    "tags": [
+      "house",
+      "kitchen",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The kettle is on the kitchen counter.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30060.mp3"
+  },
+  {
+    "word_id": "w_30061",
+    "word": "museum",
+    "translation": "müze",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 7,
+          "unit_name": "In My City"
+        }
+      ]
+    },
+    "tags": [
+      "city",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Let's visit the history museum.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30061.mp3"
+  },
+  {
+    "word_id": "w_30062",
+    "word": "library",
+    "translation": "kütüphane",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 7,
+          "unit_name": "In My City"
+        }
+      ]
+    },
+    "tags": [
+      "city",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I read books at the library.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30062.mp3"
+  },
+  {
+    "word_id": "w_30063",
+    "word": "zoo",
+    "translation": "hayvanat bahçesi",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 7,
+          "unit_name": "In My City"
+        }
+      ]
+    },
+    "tags": [
+      "city",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "We can see lions at the zoo.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30063.mp3"
+  },
+  {
+    "word_id": "w_30064",
+    "word": "park",
+    "translation": "park",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 7,
+          "unit_name": "In My City"
+        }
+      ]
+    },
+    "tags": [
+      "city",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Children are playing in the park.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30064.mp3"
+  },
+  {
+    "word_id": "w_30065",
+    "word": "hospital",
+    "translation": "hastane",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 7,
+          "unit_name": "In My City"
+        }
+      ]
+    },
+    "tags": [
+      "city",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The doctor works at the hospital.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30065.mp3"
+  },
+  {
+    "word_id": "w_30066",
+    "word": "bank",
+    "translation": "banka",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 7,
+          "unit_name": "In My City"
+        }
+      ]
+    },
+    "tags": [
+      "city",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The bank is near the school.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30066.mp3"
+  },
+  {
+    "word_id": "w_30067",
+    "word": "school",
+    "translation": "okul",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 7,
+          "unit_name": "In My City"
+        }
+      ]
+    },
+    "tags": [
+      "city",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I go to school every morning.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30067.mp3"
+  },
+  {
+    "word_id": "w_30068",
+    "word": "post office",
+    "translation": "postane",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 7,
+          "unit_name": "In My City"
+        }
+      ]
+    },
+    "tags": [
+      "city",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Send letters at the post office.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30068.mp3"
+  },
+  {
+    "word_id": "w_30069",
+    "word": "market",
+    "translation": "market / pazar",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 7,
+          "unit_name": "In My City"
+        }
+      ]
+    },
+    "tags": [
+      "city",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "We buy fruit from the market.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30069.mp3"
+  },
+  {
+    "word_id": "w_30070",
+    "word": "mosque",
+    "translation": "cami",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 7,
+          "unit_name": "In My City"
+        }
+      ]
+    },
+    "tags": [
+      "city",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "There is an old mosque in my city.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30070.mp3"
+  },
+  {
+    "word_id": "w_30071",
+    "word": "train",
+    "translation": "tren",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 8,
+          "unit_name": "Transportation"
+        }
+      ]
+    },
+    "tags": [
+      "transport",
+      "vehicles",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The train is fast and long.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30071.mp3"
+  },
+  {
+    "word_id": "w_30072",
+    "word": "plane",
+    "translation": "uçak",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 8,
+          "unit_name": "Transportation"
+        }
+      ]
+    },
+    "tags": [
+      "transport",
+      "vehicles",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The plane flies high in the sky.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30072.mp3"
+  },
+  {
+    "word_id": "w_30073",
+    "word": "bus",
+    "translation": "otobüs",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 8,
+          "unit_name": "Transportation"
+        }
+      ]
+    },
+    "tags": [
+      "transport",
+      "vehicles",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I go to school by bus.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30073.mp3"
+  },
+  {
+    "word_id": "w_30074",
+    "word": "ship",
+    "translation": "gemi",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 8,
+          "unit_name": "Transportation"
+        }
+      ]
+    },
+    "tags": [
+      "transport",
+      "vehicles",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The big ship is on the sea.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30074.mp3"
+  },
+  {
+    "word_id": "w_30075",
+    "word": "helicopter",
+    "translation": "helikopter",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 8,
+          "unit_name": "Transportation"
+        }
+      ]
+    },
+    "tags": [
+      "transport",
+      "vehicles",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Look at the red helicopter!",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30075.mp3"
+  },
+  {
+    "word_id": "w_30076",
+    "word": "bicycle",
+    "translation": "bisiklet",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 8,
+          "unit_name": "Transportation"
+        }
+      ]
+    },
+    "tags": [
+      "transport",
+      "vehicles",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I ride my bicycle every weekend.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30076.mp3"
+  },
+  {
+    "word_id": "w_30077",
+    "word": "boat",
+    "translation": "tekne / kayık",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 8,
+          "unit_name": "Transportation"
+        }
+      ]
+    },
+    "tags": [
+      "transport",
+      "vehicles",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The small boat is on the lake.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30077.mp3"
+  },
+  {
+    "word_id": "w_30078",
+    "word": "motorcycle",
+    "translation": "motosiklet",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 8,
+          "unit_name": "Transportation"
+        }
+      ]
+    },
+    "tags": [
+      "transport",
+      "vehicles",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Wear a helmet on a motorcycle.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30078.mp3"
+  },
+  {
+    "word_id": "w_30079",
+    "word": "car",
+    "translation": "araba",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 8,
+          "unit_name": "Transportation"
+        }
+      ]
+    },
+    "tags": [
+      "transport",
+      "vehicles",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Our car is blue.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30079.mp3"
+  },
+  {
+    "word_id": "w_30080",
+    "word": "truck",
+    "translation": "kamyon",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 8,
+          "unit_name": "Transportation"
+        }
+      ]
+    },
+    "tags": [
+      "transport",
+      "vehicles",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The big truck carries heavy boxes.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30080.mp3"
+  },
+  {
+    "word_id": "w_30081",
+    "word": "sunny",
+    "translation": "güneşli",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 9,
+          "unit_name": "Weather"
+        }
+      ]
+    },
+    "tags": [
+      "weather",
+      "nature",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "It is hot and sunny today.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30081.mp3"
+  },
+  {
+    "word_id": "w_30082",
+    "word": "rainy",
+    "translation": "yağmurlu",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 9,
+          "unit_name": "Weather"
+        }
+      ]
+    },
+    "tags": [
+      "weather",
+      "nature",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Take an umbrella on a rainy day.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30082.mp3"
+  },
+  {
+    "word_id": "w_30083",
+    "word": "snowy",
+    "translation": "karlı",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 9,
+          "unit_name": "Weather"
+        }
+      ]
+    },
+    "tags": [
+      "weather",
+      "nature",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "It is snowy, let's make a snowman!",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30083.mp3"
+  },
+  {
+    "word_id": "w_30084",
+    "word": "windy",
+    "translation": "rüzgarlı",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 9,
+          "unit_name": "Weather"
+        }
+      ]
+    },
+    "tags": [
+      "weather",
+      "nature",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Fly a kite on a windy day.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30084.mp3"
+  },
+  {
+    "word_id": "w_30085",
+    "word": "cloudy",
+    "translation": "bulutlu",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 9,
+          "unit_name": "Weather"
+        }
+      ]
+    },
+    "tags": [
+      "weather",
+      "nature",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The sky is cloudy today.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30085.mp3"
+  },
+  {
+    "word_id": "w_30086",
+    "word": "foggy",
+    "translation": "sisli",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 9,
+          "unit_name": "Weather"
+        }
+      ]
+    },
+    "tags": [
+      "weather",
+      "nature",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "It is foggy in the morning.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30086.mp3"
+  },
+  {
+    "word_id": "w_30087",
+    "word": "warm",
+    "translation": "ılık / ılık hava",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 9,
+          "unit_name": "Weather"
+        }
+      ]
+    },
+    "tags": [
+      "weather",
+      "nature",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Spring days are warm and nice.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30087.mp3"
+  },
+  {
+    "word_id": "w_30088",
+    "word": "weather",
+    "translation": "hava durumu",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 9,
+          "unit_name": "Weather"
+        }
+      ]
+    },
+    "tags": [
+      "weather",
+      "nature",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "How is the weather today?",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30088.mp3"
+  },
+  {
+    "word_id": "w_30089",
+    "word": "desert",
+    "translation": "çöl",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 9,
+          "unit_name": "Weather"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "It is hot in the desert.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30089.mp3"
+  },
+  {
+    "word_id": "w_30090",
+    "word": "north",
+    "translation": "kuzey",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 9,
+          "unit_name": "Weather"
+        }
+      ]
+    },
+    "tags": [
+      "directions",
+      "geography",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "It is cold in the north.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30090.mp3"
+  },
+  {
+    "word_id": "w_30091",
+    "word": "tree",
+    "translation": "ağaç",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 10,
+          "unit_name": "Nature"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "plants",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Birds sing in the tree.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30091.mp3"
+  },
+  {
+    "word_id": "w_30092",
+    "word": "flower",
+    "translation": "çiçek",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 10,
+          "unit_name": "Nature"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "plants",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "This pink flower smells nice.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30092.mp3"
+  },
+  {
+    "word_id": "w_30093",
+    "word": "mountain",
+    "translation": "dağ",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 10,
+          "unit_name": "Nature"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "geography",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The mountain is covered with snow.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30093.mp3"
+  },
+  {
+    "word_id": "w_30094",
+    "word": "river",
+    "translation": "nehir / ırmak",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 10,
+          "unit_name": "Nature"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "water",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Water flows in the river.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30094.mp3"
+  },
+  {
+    "word_id": "w_30095",
+    "word": "forest",
+    "translation": "orman",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 10,
+          "unit_name": "Nature"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "places",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Wild animals live in the forest.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30095.mp3"
+  },
+  {
+    "word_id": "w_30096",
+    "word": "ocean",
+    "translation": "okyanus",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 10,
+          "unit_name": "Nature"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "water",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Whales swim in the ocean.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30096.mp3"
+  },
+  {
+    "word_id": "w_30097",
+    "word": "sky",
+    "translation": "gökyüzü",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 10,
+          "unit_name": "Nature"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "sky",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The sky is blue today.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30097.mp3"
+  },
+  {
+    "word_id": "w_30098",
+    "word": "sea",
+    "translation": "deniz",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 10,
+          "unit_name": "Nature"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "water",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "I like swimming in the sea.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30098.mp3"
+  },
+  {
+    "word_id": "w_30099",
+    "word": "bee",
+    "translation": "arı",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 10,
+          "unit_name": "Nature"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "insects",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "The bee makes delicious honey.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30099.mp3"
+  },
+  {
+    "word_id": "w_30100",
+    "word": "dolphin",
+    "translation": "yunus balığı",
+    "cefr_level": "A1.2",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        3
+      ],
+      "units": [
+        {
+          "grade": 3,
+          "unit_no": 10,
+          "unit_name": "Nature"
+        }
+      ]
+    },
+    "tags": [
+      "nature",
+      "animals",
+      "meb_curriculum",
+      "grade_3"
+    ],
+    "example_sentence": "Dolphins are very friendly animals.",
+    "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30100.mp3"
+  }
+]

@@ -6,20 +6,21 @@ import {
   KEYWORDS,
   OG_IMAGE,
   absoluteUrl,
+  buildPageAlternates,
 } from "../lib/seo/siteConfig";
 
 export const metadata = {
   title: DEFAULT_TITLE,
   description: DEFAULT_DESCRIPTION,
   keywords: KEYWORDS,
-  alternates: {
-    canonical: absoluteUrl("/"),
-  },
+  alternates: buildPageAlternates("/"),
   openGraph: {
     title: DEFAULT_TITLE,
     description: DEFAULT_DESCRIPTION,
     url: absoluteUrl("/"),
     type: "website",
+    locale: "tr_TR",
+    alternateLocale: ["en_US", "ar_SA", "pt_BR"],
     images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "Memolandum" }],
   },
   twitter: {

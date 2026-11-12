@@ -2,50 +2,26 @@ import { useState, useEffect, useCallback } from 'react';
 import { useMemolandumStore } from '../store/useMemolandumStore';
 import { gameManifest } from '../config/manifest';
 import { sanitizeWordData } from '../lib/learning/levelSterilizer';
-import { selectAdaptiveWords, SESSION_WORD_TARGET } from '../lib/learning/adaptiveWordSelector';
+import {
+  selectAdaptiveWords,
+  SESSION_WORD_TARGET,
+  WARMUP_WAVE_1_TARGET,
+  resolveSessionWordTarget,
+  rankEasyMicroWords,
+} from '../lib/learning/adaptiveWordSelector';
 import { findVaultItem } from '../lib/learning/memolandumPulse';
-import { resolveDataUrl, resolveLessonJsonUrls } from '../lib/contentCdn';
+import {
+  resolveDataUrl,
+  resolveLessonJsonUrls,
+  preloadAudioAssetsNonBlocking,
+  fetchLessonJsonProgressive,
+} from '../lib/contentCdn';
+import { setActiveLevelTargetWordCount } from './useAnalytics';
 
 export { resolveDataUrl, resolveLessonJsonUrls } from '../lib/contentCdn';
 
 async function fetchLessonJson(filePath, signal) {
-  const bust = `v=${Date.now()}`;
-  const urls = resolveLessonJsonUrls(filePath);
-  let lastErr = null;
-  for (const base of urls) {
-    const url = `${base}${base.includes("?") ? "&" : "?"}${bust}`;
-    try {
-      const response = await fetch(url, { signal });
-      if (response.ok) {
-        const data = await response.json();
-        // Offline cache save
-        try {
-          localStorage.setItem(`lesson_cache_${filePath}`, JSON.stringify(data));
-        } catch (e) {
-          // ignore
-        }
-        return data;
-      }
-      lastErr = new Error(`HTTP ${response.status} for ${url}`);
-      console.warn("[useLessonLoader] JSON fetch failed, trying next…", response.status, url);
-    } catch (err) {
-      lastErr = err;
-      console.warn("[useLessonLoader] JSON fetch error, trying next…", err?.message || err);
-    }
-  }
-
-  // Offline cache fallback
-  try {
-    const cached = localStorage.getItem(`lesson_cache_${filePath}`);
-    if (cached) {
-      console.log(`[useLessonLoader] ⚡ Loaded offline cached data for ${filePath}`);
-      return JSON.parse(cached);
-    }
-  } catch (e) {
-    // ignore
-  }
-
-  throw lastErr || new Error("Veritabanından kelime çekilemedi veya JSON boş.");
+  return fetchLessonJsonProgressive(filePath, signal);
 }
 
 /**
@@ -63,8 +39,17 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
     setIsLoading(true);
     setError(null);
     try {
+      const storeState = useMemolandumStore.getState();
+      const completedLevels = storeState.completedLevels ?? 0;
+      const isFirstSession = storeState.isFirstSession ?? true;
+      const sessionTargetCount = resolveSessionWordTarget({
+        completedLevels,
+        isFirstSession,
+        defaultTarget: SESSION_WORD_TARGET,
+      });
+
       // Check for user-selected custom words
-      let activeCustomWords = useMemolandumStore.getState().activeCustomWords;
+      let activeCustomWords = storeState.activeCustomWords;
       if (!activeCustomWords || activeCustomWords.length === 0) {
         try {
           if (typeof window !== "undefined" && sessionStorage.getItem("memolandum-custom-play") === "1") {
@@ -81,7 +66,7 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
       if (Array.isArray(activeCustomWords) && activeCustomWords.length > 0) {
         console.log(`[useLessonLoader] 🎯 Özel kelimeler yükleniyor: ${activeCustomWords.length} adet kelime`);
         const sanitizedCustom = sanitizeWordData(activeCustomWords);
-        const vocabularyVault = useMemolandumStore.getState().vocabularyVault || {};
+        const vocabularyVault = storeState.vocabularyVault || {};
 
         const isWordLearned = (word) => {
           if (!word) return false;
@@ -126,18 +111,22 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
               .slice(0, remainingCount);
             selectedWords = [...selectedWords, ...backfill];
           }
-        } 
+        }
         // CASE 2: Category level play (the list has many concepts, e.g. 400 or more)
         else {
           let chosenLearned = null;
-          if (customLearned.length > 0) {
+          if (customLearned.length > 0 && sessionTargetCount > WARMUP_WAVE_1_TARGET) {
             chosenLearned = customLearned[Math.floor(Math.random() * customLearned.length)];
           }
 
-          const targetUnlearnedCount = chosenLearned ? 11 : 12;
+          const targetUnlearnedCount = chosenLearned
+            ? Math.max(1, sessionTargetCount - 1)
+            : sessionTargetCount;
           const adaptiveUnlearned = selectAdaptiveWords(customUnlearned, vocabularyVault, {
             shuffle: true,
             targetCount: Math.min(targetUnlearnedCount, customUnlearned.length),
+            completedLevels,
+            isFirstSession,
             learnedWeightScale: 0.15,
             dueBias: 0.55,
           });
@@ -149,7 +138,7 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
           }
 
           // Backfill if needed
-          const targetTotal = Math.min(12, sanitizedCustom.length);
+          const targetTotal = Math.min(sessionTargetCount, sanitizedCustom.length);
           if (selectedWords.length < targetTotal) {
             const remainingCount = targetTotal - selectedWords.length;
             const backfill = customLearned
@@ -161,16 +150,24 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
         }
 
         // Shuffle selected words for random gameplay ordering
-        const shuffled = selectedWords.sort(() => 0.5 - Math.random());
-        
+        const shuffled = selectedWords
+          .map((w) => ({
+            ...w,
+            langId: langId || w.langId || "",
+            audioUrl: w.audioUrl ? resolveDataUrl(w.audioUrl) : "",
+          }))
+          .sort(() => 0.5 - Math.random());
+
+        setActiveLevelTargetWordCount(shuffled.length);
         setWords(shuffled);
         setIsLoading(false);
+        preloadAudioAssetsNonBlocking(shuffled);
         return;
       }
 
       // Vault'u dependency yapma: doğru cevapta vault güncellenince
       // oyun ortasında "MEMOLANDUM YÜKLENİYOR" flash'ı oluşmasın.
-      const vocabularyVault = useMemolandumStore.getState().vocabularyVault || {};
+      const vocabularyVault = storeState.vocabularyVault || {};
       let fetchedWords = [];
       let levelConfig = null;
 
@@ -225,7 +222,7 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
         // 2. Fetch JSON — Hosting önce, GCS yedek (403'e karşı)
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 15000);
-        
+
         let data;
         try {
           data = await fetchLessonJson(levelConfig.path, controller.signal);
@@ -241,8 +238,8 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
             if (data.length > 0 && data[0].words && Array.isArray(data[0].words)) {
               // Structured array of level objects (nested Chinese format)
               if (levelConfig.levelCode) {
-                const targetLvl = data.find(item => item.level === levelConfig.levelCode || item.level_tag === levelConfig.levelCode);
-                rawWords = targetLvl ? targetLvl.words : [];
+                const matchingLevels = data.filter(item => item.level === levelConfig.levelCode || item.level_tag === levelConfig.levelCode);
+                rawWords = matchingLevels.flatMap(item => item.words || []);
               } else {
                 rawWords = data.flatMap(item => item.words || []);
               }
@@ -269,23 +266,23 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
                 w.category,
                 ...(Array.isArray(w.tags) ? w.tags : (w.tags ? [w.tags] : []))
               ].filter(Boolean).map(t => String(t).toLowerCase());
-              
+
               return tags.includes(targetCode);
             });
           }
 
           // 5. Sterilize level dataset
           const sterilizedRawWords = sanitizeWordData(rawWords);
-          
+
           const basePath = levelConfig.path.split('/')[0];
 
           fetchedWords = sterilizedRawWords.map(w => {
             const english = w.english;
             const turkish = w.turkish;
-            
+
             // Remove special characters, replace spaces with underscores, and trim trailing underscores
             const safeWord = (english || "").toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
-            
+
             // Resolve audio URL if defined in metadata object (like Chinese/Arabic)
             let audioUrl = "";
             if (w.audioUrl) {
@@ -326,16 +323,16 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
                   .replace(/[\u0300-\u036f]/g, "") // remove all accents
                   .replace(/[^a-z0-9_]+/g, '_')
                   .replace(/^_|_$/g, '');
-                
+
                 const isSentence = levelConfig.path.includes('sentences');
                 let folder = isSentence ? `sentences_${langCode}` : `words_${langCode}`;
-                
+
                 // Special overrides for languages with custom casing or prefixes
                 if (basePath === "Portugal") {
                   langCode = "brpt";
                   folder = isSentence ? "sentences_BrPt" : "words_BrPt";
                 }
-                
+
                 audioUrl = `/data/${basePath}/audio/${folder}/${langCode}_${cleanWord}.mp3`;
               } else {
                 let audioPrefix = "";
@@ -378,7 +375,7 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
                 if (cleanAudio.startsWith('data/')) {
                   cleanAudio = cleanAudio.slice(5);
                 }
-                
+
                 const lowerBase = basePath.toLowerCase();
                 if (!cleanAudio.toLowerCase().startsWith(lowerBase + '/')) {
                   audioUrl = `${basePath}/${cleanAudio}`;
@@ -393,6 +390,7 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
               ...w,
               english,
               turkish,
+              langId: langId || w.langId || "",
               romanized: w.romanized,
               romanized_script: w.romanized,
               audioUrl: audioUrl
@@ -411,8 +409,10 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
         return;
       }
 
-      // 6. Memolandum Pulse™ — her oturumda steril rastgele ~12 kelime
-      // Kelimenin öğrenilip öğrenilmediğini kontrol eden yardımcı fonksiyon
+      // 6. Memolandum Pulse™ + Faz 1 Micro-Onboarding ("Warm-up Wave")
+      // - Seviye 1 (completedLevels === 0): 3 kelimelik mikro-set (en kısa/kolay, 15-20 sn)
+      // - Seviye 2 (completedLevels === 1): 5 kelimelik kademeli geçiş
+      // - Seviye 3+ (completedLevels >= 2): 12 kelimelik tam SM-2 döngüsü
       const isWordLearned = (word) => {
         if (!word) return false;
         const found = findVaultItem(vocabularyVault, word);
@@ -421,11 +421,9 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
         return entry.learningProgressPct === 100 || entry.firstTryCorrect === true || (Number(entry.reps) || 0) > 0;
       };
 
-      // Seviye kelimelerini öğrenilmiş ve öğrenilmemiş olarak ikiye böl
       const levelUnlearned = fetchedWords.filter(w => !isWordLearned(w));
       const levelLearned = fetchedWords.filter(w => isWordLearned(w));
 
-      // Bu dildeki tüm global öğrenilmiş kelimeleri kasadan çek (güvenli null/undefined filtrelemesi ile)
       const globalLearned = Object.values(vocabularyVault || {}).filter(entry => {
         if (!entry) return false;
         const isSameLang = entry.language === langId;
@@ -435,28 +433,40 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
 
       let finalWords = [];
 
-      // Havuzdan 1 adet öğrenilmiş (learned) kelime seç (varsa önce seviyedekiler, yoksa global kasadakiler)
+      // İlk seviyede (Warm-up Wave 1: 3 kelime) kasadan eski kelime karıştırma; doğrudan en kolay 3 kelimeyi ver
       let chosenLearnedWord = null;
-      if (levelLearned.length > 0) {
-        chosenLearnedWord = levelLearned[Math.floor(Math.random() * levelLearned.length)];
-      } else if (globalLearned.length > 0) {
-        const randomOldEntry = globalLearned[Math.floor(Math.random() * globalLearned.length)];
-        chosenLearnedWord = {
-          id: randomOldEntry.id,
-          english: randomOldEntry.english,
-          turkish: randomOldEntry.turkish,
-          romanized: randomOldEntry.romanized || "",
-          romanized_script: randomOldEntry.romanized || "",
-          audioUrl: randomOldEntry.audioUrl || "",
-          isFromVault: true
-        };
+      if (sessionTargetCount > WARMUP_WAVE_1_TARGET) {
+        if (levelLearned.length > 0) {
+          chosenLearnedWord = levelLearned[Math.floor(Math.random() * levelLearned.length)];
+        } else if (globalLearned.length > 0) {
+          const randomOldEntry = globalLearned[Math.floor(Math.random() * globalLearned.length)];
+          chosenLearnedWord = {
+            id: randomOldEntry.id,
+            english: randomOldEntry.english,
+            turkish: randomOldEntry.turkish,
+            langId: langId || randomOldEntry.language || "",
+            romanized: randomOldEntry.romanized || "",
+            romanized_script: randomOldEntry.romanized || "",
+            audioUrl: randomOldEntry.audioUrl || "",
+            isFromVault: true
+          };
+        }
       }
 
-      // Öğrenilmemiş kelimelerden hedef sayıyı belirle (1 learned varsa 11, yoksa 12)
-      const targetUnlearnedCount = chosenLearnedWord ? 11 : 12;
-      const adaptiveUnlearned = selectAdaptiveWords(levelUnlearned, vocabularyVault, {
+      const candidateUnlearned =
+        sessionTargetCount === WARMUP_WAVE_1_TARGET
+          ? rankEasyMicroWords(levelUnlearned)
+          : levelUnlearned;
+
+      const targetUnlearnedCount = chosenLearnedWord
+        ? Math.max(1, sessionTargetCount - 1)
+        : sessionTargetCount;
+
+      const adaptiveUnlearned = selectAdaptiveWords(candidateUnlearned, vocabularyVault, {
         shuffle: true,
-        targetCount: Math.min(targetUnlearnedCount, levelUnlearned.length),
+        targetCount: Math.min(targetUnlearnedCount, candidateUnlearned.length),
+        completedLevels,
+        isFirstSession,
         learnedWeightScale: 0.15,
         dueBias: 0.55,
       });
@@ -467,8 +477,8 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
         finalWords = adaptiveUnlearned;
       }
 
-      // Eğer seviyede yeterli kelime yoksa veya havuz küçükse, 12'ye ulaşmak için backfill (öğrenilmiş kelimelerle doldurma) yapalım
-      const targetTotal = Math.min(12, fetchedWords.length);
+      // Eğer seviyede yeterli kelime yoksa veya havuz küçükse, sessionTargetCount'a ulaşmak için backfill yap
+      const targetTotal = Math.min(sessionTargetCount, fetchedWords.length);
       if (finalWords.length < targetTotal) {
         const remainingCount = targetTotal - finalWords.length;
         const availableLearned = [
@@ -479,6 +489,7 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
               id: w.id,
               english: w.english,
               turkish: w.turkish,
+              langId: langId || w.language || "",
               romanized: w.romanized || "",
               romanized_script: w.romanized || "",
               audioUrl: w.audioUrl || "",
@@ -486,22 +497,26 @@ export function useLessonLoader(levelId, langId, returnAll = false) {
             }))
         ];
 
-        // Rastgele karıştırıp gerekli adet kadarını alalım
         const shuffledLearned = availableLearned.sort(() => 0.5 - Math.random());
         const backfill = shuffledLearned.slice(0, remainingCount);
         finalWords = [...finalWords, ...backfill];
       }
 
-      // Güvenlik Bariyeri: Eğer herhangi bir sebeple liste boş kalırsa veya kelime çekilemediyse, seviyenin ilk 12 kelimesini yükle
+      // Güvenlik Bariyeri: Liste boş kalırsa seviyenin ilk sessionTargetCount kelimesini yükle
       if (finalWords.length === 0) {
         console.warn("[useLessonLoader] Kelime seçimi boş döndü, varsayılan seviye kelimeleri yükleniyor.");
-        finalWords = fetchedWords.slice(0, 12);
+        finalWords = rankEasyMicroWords(fetchedWords).slice(0, sessionTargetCount);
       }
 
-      // Tüm kelimeleri rastgele sırayla karıştırarak (shuffle) set et
       const shuffledFinalWords = finalWords.sort(() => 0.5 - Math.random());
 
+      // Aktif seviye telemetri hedef kelime sayısını güncelle (3, 5 veya 12)
+      setActiveLevelTargetWordCount(shuffledFinalWords.length);
+
+      // JSON verisi hazır olduğu milisaniyede oyun ekranını başlat
       setWords(shuffledFinalWords);
+      // Ses dosyalarını bloklamadan arka planda (idle/async) önbelleğe ısıt
+      preloadAudioAssetsNonBlocking(shuffledFinalWords);
     } catch (err) {
       console.error("Kelime yükleme hatası:", err);
       setError(err);

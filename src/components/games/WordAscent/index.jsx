@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { useLessonLoader } from '../../../hooks/useLessonLoader';
+import { useMemolandumStore } from '../../../store/useMemolandumStore';
 import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
 import { GameHeader } from '../shared/GameHeader';
 import { WordAscentGame } from './engineCore';
@@ -32,7 +33,7 @@ export default function WordAscent({
   const containerRef = useRef(null);
   const gameEngineRef = useRef(null);
   const requestRef = useRef(null);
-  const progressTrackerRef = useRef(createSessionProgressTracker('word_ascent'));
+  const progressTrackerRef = useRef(createSessionProgressTracker('wordascent'));
 
   useEffect(() => {
     if (activeScreen === 'playing' && (parseInt(score, 10) || 0) === 0) {
@@ -68,6 +69,10 @@ export default function WordAscent({
           }
           return prev;
         });
+        const recordWordQuizResult = useMemolandumStore.getState().recordWordQuizResult;
+        if (typeof recordWordQuizResult === 'function' && wordObj) {
+          recordWordQuizResult(wordObj, true, 6, { language: langId, gameId: 'wordascent' });
+        }
       },
       onStateChange: (stateData) => {
         if (stateData.state === 'paused') {

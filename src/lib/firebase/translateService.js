@@ -1,5 +1,5 @@
-import { getGenerativeModel, Schema } from "firebase/ai";
-import { ai, auth } from "./config";
+import { httpsCallable } from "firebase/functions";
+import { auth, cloudFuncs } from "./config";
 import { assertAllowed, commitAbuse, AbuseError } from "../security";
 import { useMemolandumStore } from "../../store/useMemolandumStore";
 import { createPulseEntry } from "../learning/memolandumPulse";
@@ -44,35 +44,14 @@ Kuralların:
 4) EĞİTİMCİ İPUCU (contextNotes): 1-2 cümle Türkçe — neden bu karşılık, kısa ve net.
 5) NÜANSLAR (nuances): Kilit kelime/deyimleri Türkçe anlamlarıyla ayrıştır.`;
 
-const nuanceItemSchema = Schema.object({
-  properties: {
-    phrase: Schema.string(),
-    meaning: Schema.string(),
-    note: Schema.string(),
-  },
-  optionalProperties: ["note"],
-});
-
-const responseSchema = Schema.object({
-  properties: {
-    sourceLang: Schema.string(),
-    translation: Schema.string(),
-    tone: Schema.string(),
-    contextNotes: Schema.string(),
-    nuances: Schema.array(nuanceItemSchema),
-    transcript: Schema.string(),
-  },
-  optionalProperties: ["sourceLang", "tone", "contextNotes", "nuances", "transcript"],
-});
-
 function languageLabel(code) {
   if (LANG_PROMPT_LABEL[code]) return LANG_PROMPT_LABEL[code];
   const row = TRANSLATE_LANGUAGES.find((l) => l.code === code);
   return row?.label || row?.name || code;
 }
 
-/** Firebase AI Logic + REST için canlı adaylar (ölü 1.5 / 2.0 / 2.5 yok) */
-const CANDIDATE_MODELS = ["gemini-3.5-flash", "gemini-flash-latest"];
+/** REST için canlı adaylar */
+const CANDIDATE_MODELS = ["gemini-3.8-flash", "gemini-flash-latest"];
 
 const REQUEST_TIMEOUT_MS = 28000;
 
@@ -82,22 +61,6 @@ function getGeminiKey() {
     process.env.GEMINI_API_KEY ||
     ""
   );
-}
-
-function getTranslateModel(modelName = CANDIDATE_MODELS[0]) {
-  if (!ai) {
-    throw new Error("AI servisi bağlanamadı.");
-  }
-  return getGenerativeModel(ai, {
-    model: modelName,
-    systemInstruction: DEEP_CONTEXT_TRANSLATOR_SYSTEM_INSTRUCTION,
-    generationConfig: {
-      temperature: 0.2,
-      maxOutputTokens: 4096,
-      responseMimeType: "application/json",
-      responseSchema,
-    },
-  });
 }
 
 function parseModelJson(text) {
@@ -182,36 +145,6 @@ function withTimeout(promise, ms, label = "Gemini") {
   });
 }
 
-/** Firebase AI Logic (GoogleAIBackend) — birincil yol */
-async function generateViaFirebaseAi(promptParts) {
-  if (!ai) throw new Error("Firebase AI yapılandırılmadı.");
-  let lastErr = null;
-  for (const modelName of CANDIDATE_MODELS) {
-    try {
-      const model = getTranslateModel(modelName);
-      const result = await withTimeout(
-        model.generateContent(promptParts),
-        REQUEST_TIMEOUT_MS,
-        modelName
-      );
-      const raw = extractText(result);
-      if (!raw) {
-        throw new Error("Gemini geçerli bir yanıt metni dönmedi.");
-      }
-      return raw;
-    } catch (err) {
-      lastErr = err;
-      if (isRetryableModelError(err)) continue;
-      // timeout / network → REST'e düş
-      const msg = String(err?.message || "").toLowerCase();
-      if (msg.includes("süresi aşıldı") || msg.includes("network") || msg.includes("fetch")) {
-        throw err;
-      }
-      throw err;
-    }
-  }
-  throw lastErr || new Error("Gemini AI servisinden yanıt alınamadı.");
-}
 
 /** Doğrudan Google AI REST — yedek yol */
 async function fetchGeminiDirect(promptParts, modelName = CANDIDATE_MODELS[0]) {
@@ -318,28 +251,16 @@ async function generateViaRest(promptParts) {
 async function generateWithFallback(promptParts) {
   const hasRestKey = !!getGeminiKey();
 
-  // REST önce: anlık çeviride genelde daha hızlı; key yoksa Firebase AI
   if (hasRestKey) {
     try {
       return await generateViaRest(promptParts);
     } catch (restErr) {
-      console.warn(
-        "[translate] REST başarısız, Firebase AI deneniyor:",
-        restErr?.message || restErr
-      );
+      console.warn("[translate] REST API hatası:", restErr?.message || restErr);
+      throw restErr;
     }
   }
 
-  try {
-    return await generateViaFirebaseAi(promptParts);
-  } catch (firebaseErr) {
-    if (!hasRestKey) throw firebaseErr;
-    console.warn(
-      "[translate] Firebase AI da başarısız:",
-      firebaseErr?.message || firebaseErr
-    );
-    throw firebaseErr;
-  }
+  throw new Error("Çeviri servisine şu anda ulaşılamıyor. Lütfen giriş yapın veya biraz sonra tekrar deneyin.");
 }
 
 function normalizeResult(parsed) {
@@ -362,6 +283,39 @@ function normalizeResult(parsed) {
   };
 }
 
+/**
+ * Girişli kullanıcı: kurumsal sunucu geminiTranslate Cloud Function (Firebase Secret GEMINI_API_KEY).
+ * İstemcide App Check gereksinimi olmadan Web ve Mobil (Capacitor) ortamlarında çalışır.
+ * Başarısız olursa / misafirde istemci REST API yedeğine düşülür.
+ */
+async function tryCloudGeminiTranslate(payload) {
+  if (!auth?.currentUser || !cloudFuncs) return null;
+  try {
+    const call = httpsCallable(cloudFuncs, "geminiTranslate");
+    const { data } = await call(payload);
+    if (!data) return null;
+    const normalized = normalizeResult(data);
+    if (normalized) return normalized;
+    if (data.transcript || data.translation) {
+      return {
+        translation: String(data.translation || "").trim(),
+        transcript: data.transcript ? String(data.transcript).trim() : undefined,
+        sourceLang: data.sourceLang ? String(data.sourceLang).trim() : undefined,
+        tone: data.tone ? String(data.tone).trim() : undefined,
+        contextNotes: data.contextNotes ? String(data.contextNotes).trim() : undefined,
+        nuances: Array.isArray(data.nuances) ? data.nuances : [],
+      };
+    }
+    return null;
+  } catch (err) {
+    console.warn(
+      "[translate] Cloud Function çağrısı başarısız, istemci REST yedeğine düşülüyor:",
+      err?.code || err?.message || err
+    );
+    return null;
+  }
+}
+
 export async function translateText(text, targetLangCode) {
   const isAuthenticated = !!auth?.currentUser;
   const uid = auth?.currentUser?.uid || null;
@@ -377,6 +331,18 @@ export async function translateText(text, targetLangCode) {
   if (!targetLangCode) throw new Error("Hedef dil seçin.");
 
   const target = languageLabel(targetLangCode);
+
+  const cloudResult = await tryCloudGeminiTranslate({
+    mode: "text",
+    text: trimmed,
+    targetLang: targetLangCode,
+    targetLabel: target,
+  });
+  if (cloudResult?.translation) {
+    commitAbuse(ticket);
+    return cloudResult;
+  }
+
   const promptParts = [
     {
       text: `Task: Natural, plain translation for language learners into ${target} (${targetLangCode}).
@@ -416,6 +382,25 @@ export async function translateAudioBlob(audioBlob, targetLangCode) {
   const mimeType = audioBlob.type || "audio/webm";
   const audioBase64 = await blobToBase64(audioBlob);
   const target = languageLabel(targetLangCode);
+
+  const cloudResult = await tryCloudGeminiTranslate({
+    mode: "audio",
+    audioBase64,
+    mimeType,
+    targetLang: targetLangCode,
+    targetLabel: target,
+  });
+  if (cloudResult && (cloudResult.translation || cloudResult.transcript)) {
+    commitAbuse(ticket);
+    return {
+      translation: cloudResult.translation || "",
+      transcript: cloudResult.transcript || "",
+      sourceLang: cloudResult.sourceLang,
+      tone: cloudResult.tone,
+      contextNotes: cloudResult.contextNotes,
+      nuances: cloudResult.nuances || [],
+    };
+  }
 
   const promptParts = [
     {

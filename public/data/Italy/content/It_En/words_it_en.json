@@ -2465,7 +2465,7 @@
   },
   {
     "id": "it_a1_177",
-    "word": "arancia",
+    "word": "arancione",
     "translation": "orange",
     "len": 7,
     "tags": [
@@ -4228,7 +4228,7 @@
     "audioUrl": "/data/Italy/audio/words_it/it_suonare.mp3"
   },
   {
-    "id": "d'it_a1_303",
+    "id": "it_a1_303",
     "word": "cantare",
     "translation": "to sing",
     "len": 7,
@@ -13176,7 +13176,7 @@
   {
     "id": "it_b2_142",
     "word": "stravagante",
-    "translation": "extravagant",
+    "translation": "eccentric / bizarre",
     "len": 11,
     "tags": [
       "b2",
@@ -13875,7 +13875,7 @@
   },
   {
     "id": "it_b2_192",
-    "word": "vulgarità",
+    "word": "volgarità",
     "translation": "vulgarity",
     "len": 9,
     "tags": [
@@ -14589,7 +14589,7 @@
   },
   {
     "id": "it_c1_043",
-    "word": "avvenieristico",
+    "word": "avveniristico",
     "translation": "futuristic",
     "len": 14,
     "tags": [
@@ -14981,8 +14981,8 @@
   },
   {
     "id": "it_c1_071",
-    "word": "ceticidio",
-    "translation": "ceticide",
+    "word": "cetaceicidio",
+    "translation": "whaling / cetacean slaughter",
     "len": 9,
     "tags": [
       "c1",
@@ -15373,7 +15373,7 @@
   },
   {
     "id": "it_c1_099",
-    "word": "commodità",
+    "word": "comodità",
     "translation": "convenience",
     "len": 9,
     "tags": [
@@ -15402,7 +15402,7 @@
   {
     "id": "it_c1_101",
     "word": "compiacimento",
-    "translation": "complacency",
+    "translation": "satisfaction / gratification",
     "len": 13,
     "tags": [
       "c1",
@@ -15429,8 +15429,8 @@
   },
   {
     "id": "it_c1_103",
-    "word": "complacente",
-    "translation": "complacent",
+    "word": "compiacente",
+    "translation": "obliging / indulgent",
     "len": 11,
     "tags": [
       "c1",
@@ -15905,8 +15905,8 @@
   },
   {
     "id": "it_c1_137",
-    "word": "conspicuo",
-    "translation": "conspicuous",
+    "word": "cospicuo",
+    "translation": "considerable / substantial",
     "len": 9,
     "tags": [
       "c1",
@@ -17754,7 +17754,7 @@
   {
     "id": "it_c2_069",
     "word": "anestesia",
-    "translation": "numbness",
+    "translation": "anesthesia",
     "len": 9,
     "tags": [
       "c2",
@@ -18132,7 +18132,7 @@
   {
     "id": "it_c2_096",
     "word": "apostrofato",
-    "translation": "criticized",
+    "translation": "harangued / rebuked",
     "len": 11,
     "tags": [
       "c2",
@@ -18258,7 +18258,7 @@
   {
     "id": "it_c2_105",
     "word": "applicazione",
-    "translation": "diligence",
+    "translation": "application / diligence",
     "len": 12,
     "tags": [
       "c2",
@@ -18314,7 +18314,7 @@
   {
     "id": "it_c2_109",
     "word": "approssimativo",
-    "translation": "vague",
+    "translation": "approximate / rough",
     "len": 14,
     "tags": [
       "c2",
@@ -18369,8 +18369,8 @@
   },
   {
     "id": "it_c2_113",
-    "word": "aquisizione",
-    "translation": "procurement",
+    "word": "acquisizione",
+    "translation": "acquisition / procurement",
     "len": 11,
     "tags": [
       "c2",
@@ -18384,7 +18384,7 @@
   {
     "id": "it_c2_114",
     "word": "arbitraggio",
-    "translation": "mediation",
+    "translation": "arbitration",
     "len": 11,
     "tags": [
       "c2",
@@ -18818,7 +18818,7 @@
   {
     "id": "it_c2_145",
     "word": "astinenza",
-    "translation": "sobriety",
+    "translation": "abstinence",
     "len": 9,
     "tags": [
       "c2",
@@ -18846,7 +18846,7 @@
   {
     "id": "it_c2_147",
     "word": "astronomico",
-    "translation": "colossal",
+    "translation": "astronomical",
     "len": 11,
     "tags": [
       "c2",
@@ -18901,8 +18901,8 @@
   },
   {
     "id": "it_c2_151",
-    "word": "atmostfera",
-    "translation": "ambiance",
+    "word": "atmosfera",
+    "translation": "atmosphere / ambiance",
     "len": 10,
     "tags": [
       "c2",
@@ -19056,7 +19056,7 @@
   {
     "id": "it_c2_162",
     "word": "attivismo",
-    "translation": "militancy",
+    "translation": "activism",
     "len": 9,
     "tags": [
       "c2",
@@ -19153,7 +19153,7 @@
   },
   {
     "id": "it_c2_169",
-    "word": "auditorio",
+    "word": "uditorio",
     "translation": "audience",
     "len": 9,
     "tags": [
@@ -19196,7 +19196,7 @@
   {
     "id": "it_c2_172",
     "word": "austerità",
-    "translation": "severity",
+    "translation": "austerity",
     "len": 9,
     "tags": [
       "c2",
@@ -19364,7 +19364,7 @@
   {
     "id": "it_c2_184",
     "word": "automatismo",
-    "translation": "reflex",
+    "translation": "automatism",
     "len": 11,
     "tags": [
       "c2",
@@ -19378,7 +19378,7 @@
   {
     "id": "it_c2_185",
     "word": "autonomia",
-    "translation": "sovereignty",
+    "translation": "autonomy",
     "len": 9,
     "tags": [
       "c2",
@@ -19461,7 +19461,7 @@
   },
   {
     "id": "it_c2_191",
-    "word": "autentificare",
+    "word": "autenticare",
     "translation": "to authenticate",
     "len": 12,
     "tags": [

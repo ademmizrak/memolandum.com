@@ -2,17 +2,17 @@
   "hosting": {
     "public": "out",
     "cleanUrls": true,
+    "trailingSlash": true,
     "ignore": [
       "firebase.json",
       "**/.*",
+      "!.well-known/**",
       "**/node_modules/**",
-      "data/**",
-      "**/sozluk/*/*/index.html",
       "**/sozluk/*/*/__next.*",
       "**/sozluk/*/*/*.txt",
+      "**/learn/*/*/__next.*",
+      "**/learn/*/*/*.txt",
       "assets/audio/**",
-      "assets/words/**",
-      "assets/sentences/**",
       "assets/_slim_skip_*/**",
       "_slim_skip_data/**",
       "data/**/audio*/**",
@@ -26,11 +26,84 @@
     ],
     "headers": [
       {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          },
+          {
+            "key": "Strict-Transport-Security",
+            "value": "max-age=31536000; includeSubDomains; preload"
+          },
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "Permissions-Policy",
+            "value": "camera=(), geolocation=(), payment=(self)"
+          },
+          {
+            "key": "Content-Security-Policy",
+            "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://*.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://ssl.google-analytics.com https://apis.google.com https://www.google.com https://www.gstatic.com https://*.doubleclick.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https://i.ytimg.com https://*.ytimg.com https:; media-src 'self' data: blob: https://storage.googleapis.com https://*.firebasestorage.app; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebaseapp.com https://*.cloudfunctions.net https://*.run.app https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://region1.google-analytics.com https://region1.analytics.google.com https://www.googletagmanager.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://*.g.doubleclick.net https://*.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://*.google.com https://storage.googleapis.com https://*.firebasestorage.app wss://*.firebaseio.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://*.firebaseapp.com https://accounts.google.com https://www.google.com https://td.doubleclick.net https://*.doubleclick.net; object-src 'none'; base-uri 'self';"
+          }
+        ]
+      },
+      {
+        "source": "/.well-known/assetlinks.json",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=3600"
+          }
+        ]
+      },
+      {
         "source": "/_next/static/**",
         "headers": [
           {
             "key": "Cache-Control",
             "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "/assets/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=604800, stale-while-revalidate=86400"
+          }
+        ]
+      },
+      {
+        "source": "/data/youtube_videos.json",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=60, stale-while-revalidate=60"
+          }
+        ]
+      },
+      {
+        "source": "/data/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=86400, stale-while-revalidate=3600"
           }
         ]
       },
@@ -67,15 +140,6 @@
           {
             "key": "Cache-Control",
             "value": "public, max-age=0, s-maxage=86400, must-revalidate"
-          }
-        ]
-      },
-      {
-        "source": "**",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache, no-store, must-revalidate"
           }
         ]
       }
@@ -115,16 +179,185 @@
         "source": "/learn/en-tr/ingilizce-i-lkokul-ilkokul-4-sinif-cumleleri{,/**}",
         "destination": "/learn/en-tr/meb-4-sinif-cumleleri/",
         "type": 301
+      },
+      {
+        "source": "/ar/play{,/}",
+        "destination": "/games/shooter/?pathway=ar-en&lang=ar",
+        "type": 302
+      },
+      {
+        "source": "/ar/play/shooter{,/}",
+        "destination": "/games/shooter/?pathway=ar-en&lang=ar",
+        "type": 302
+      },
+      {
+        "source": "/ar/play/retro-shooter{,/}",
+        "destination": "/games/shooter/?pathway=ar-en&lang=ar",
+        "type": 302
+      },
+      {
+        "source": "/ar/play/star-cards{,/}",
+        "destination": "/games/star-cards/?lang=en-tr_eng_ilkokul&level=meb-2-sinif-kelimeleri",
+        "type": 302
+      },
+      {
+        "source": "/ar/play/orbitlex{,/}",
+        "destination": "/games/orbitlex/?lang=ar",
+        "type": 302
+      },
+      {
+        "source": "/pt/play{,/}",
+        "destination": "/games/shooter/?pathway=pt-en&lang=pt",
+        "type": 302
+      },
+      {
+        "source": "/pt/play/shooter{,/}",
+        "destination": "/games/shooter/?pathway=pt-en&lang=pt",
+        "type": 302
+      },
+      {
+        "source": "/pt/play/retro-shooter{,/}",
+        "destination": "/games/shooter/?pathway=pt-en&lang=pt",
+        "type": 302
+      },
+      {
+        "source": "/pt/play/star-cards{,/}",
+        "destination": "/games/star-cards/?lang=en-tr_eng_ilkokul&level=meb-2-sinif-kelimeleri",
+        "type": 302
+      },
+      {
+        "source": "/pt/play/orbitlex{,/}",
+        "destination": "/games/orbitlex/?lang=pt",
+        "type": 302
+      },
+      {
+        "source": "/en/play{,/}",
+        "destination": "/games/shooter/?pathway=en-tr&lang=en",
+        "type": 302
+      },
+      {
+        "source": "/en/play/retro-shooter{,/}",
+        "destination": "/games/shooter/?pathway=en-tr&lang=en",
+        "type": 302
+      },
+      {
+        "source": "/en/play/orbitlex{,/}",
+        "destination": "/games/orbitlex/?lang=en",
+        "type": 302
+      },
+      {
+        "source": "/tr/play{,/}",
+        "destination": "/games/star-cards/?lang=en-tr_eng_ilkokul&level=meb-2-sinif-kelimeleri",
+        "type": 302
+      },
+      {
+        "source": "/tr/oyna{,/}",
+        "destination": "/games/star-cards/?lang=en-tr_eng_ilkokul&level=meb-2-sinif-kelimeleri",
+        "type": 302
+      },
+      {
+        "source": "/tr/oyna/retro-shooter{,/}",
+        "destination": "/games/shooter/?lang=en-tr_eng_ortaokul&level=meb-5-sinif-kelimeleri",
+        "type": 302
+      },
+      {
+        "source": "/oyna/retro-shooter{,/}",
+        "destination": "/games/shooter/?lang=en-tr_eng_ortaokul&level=meb-5-sinif-kelimeleri",
+        "type": 302
+      },
+      {
+        "source": "/tr/oyna/orbitlex{,/}",
+        "destination": "/games/orbitlex/",
+        "type": 302
+      },
+      {
+        "source": "/oyna/orbitlex{,/}",
+        "destination": "/games/orbitlex/",
+        "type": 302
+      },
+      {
+        "source": "/tr/oyna/kelime-karti{,/}",
+        "destination": "/games/word-card/?lang=en-tr_eng_ilkokul&level=meb-2-sinif-kelimeleri",
+        "type": 302
+      },
+      {
+        "source": "/tr/oyna/yildiz-kartlar{,/}",
+        "destination": "/games/star-cards/?lang=en-tr_eng_ilkokul&level=meb-2-sinif-kelimeleri",
+        "type": 302
+      },
+      {
+        "source": "/akilli-tahta{,/}",
+        "destination": "/schools/",
+        "type": 302
+      },
+      {
+        "source": "/play{,/}",
+        "destination": "/games/star-cards/?lang=en-tr_eng_ilkokul&level=meb-2-sinif-kelimeleri",
+        "type": 302
+      },
+      {
+        "source": "/quiz/1{,/}",
+        "destination": "/quiz/1-sinif/",
+        "type": 301
+      },
+      {
+        "source": "/quiz/2{,/}",
+        "destination": "/quiz/2-sinif/",
+        "type": 301
+      },
+      {
+        "source": "/quiz/3{,/}",
+        "destination": "/quiz/3-sinif/",
+        "type": 301
+      },
+      {
+        "source": "/quiz/4{,/}",
+        "destination": "/quiz/4-sinif/",
+        "type": 301
+      },
+      {
+        "source": "/quiz/5{,/}",
+        "destination": "/quiz/5-sinif/",
+        "type": 301
+      },
+      {
+        "source": "/quiz/6{,/}",
+        "destination": "/quiz/6-sinif/",
+        "type": 301
+      },
+      {
+        "source": "/quiz/7{,/}",
+        "destination": "/quiz/7-sinif/",
+        "type": 301
+      },
+      {
+        "source": "/quiz/8{,/}",
+        "destination": "/quiz/8-sinif/",
+        "type": 301
+      },
+      {
+        "source": "/quiz/lgs{,/}",
+        "destination": "/quiz/8-sinif/",
+        "type": 301
+      },
+      {
+        "source": "/hesap-silme{,/}",
+        "destination": "/delete-account/",
+        "type": 301
       }
     ],
     "rewrites": [
       {
-        "source": "/sozluk/*/*",
-        "destination": "/sozluk/_concept/index.html"
+        "source": "/ar/__next.ar.__PAGE__.txt",
+        "destination": "/ar/__next.ar/__PAGE__.txt"
       },
       {
-        "source": "/sozluk/*/*/**",
-        "destination": "/sozluk/_concept/index.html"
+        "source": "/pt/__next.pt.__PAGE__.txt",
+        "destination": "/pt/__next.pt/__PAGE__.txt"
+      },
+      {
+        "source": "/en/__next.en.__PAGE__.txt",
+        "destination": "/en/__next.en/__PAGE__.txt"
       },
       {
         "source": "/games/__next.games.__PAGE__.txt",

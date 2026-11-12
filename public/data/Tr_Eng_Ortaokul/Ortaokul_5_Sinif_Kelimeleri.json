@@ -1,0 +1,3102 @@
+[
+  {
+    "word_id": "w_50001",
+    "id": "w_50001",
+    "word": "Headmaster / Headmistress",
+    "english": "Headmaster / Headmistress",
+    "translation": "Okul Müdürü",
+    "turkish": "Okul Müdürü",
+    "meaning": "Okul Müdürü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The headmaster gave an opening speech on the first day.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50001.mp3"
+  },
+  {
+    "word_id": "w_50002",
+    "id": "w_50002",
+    "word": "Assistant Headmaster",
+    "english": "Assistant Headmaster",
+    "translation": "Müdür Yardımcısı",
+    "turkish": "Müdür Yardımcısı",
+    "meaning": "Müdür Yardımcısı",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "You can ask the assistant headmaster for your timetable.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50002.mp3"
+  },
+  {
+    "word_id": "w_50003",
+    "id": "w_50003",
+    "word": "Teacher",
+    "english": "Teacher",
+    "translation": "Öğretmen",
+    "turkish": "Öğretmen",
+    "meaning": "Öğretmen",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Our English teacher explains the grammar rules very well.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50003.mp3"
+  },
+  {
+    "word_id": "w_50004",
+    "id": "w_50004",
+    "word": "Student",
+    "english": "Student",
+    "translation": "Öğrenci",
+    "turkish": "Öğrenci",
+    "meaning": "Öğrenci",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Every student should arrive at school on time.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50004.mp3"
+  },
+  {
+    "word_id": "w_50005",
+    "id": "w_50005",
+    "word": "Caretaker",
+    "english": "Caretaker",
+    "translation": "Okul Görevlisi / Hizmetli",
+    "turkish": "Okul Görevlisi / Hizmetli",
+    "meaning": "Okul Görevlisi / Hizmetli",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The caretaker opened the main building doors early.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50005.mp3"
+  },
+  {
+    "word_id": "w_50006",
+    "id": "w_50006",
+    "word": "Cleaner",
+    "english": "Cleaner",
+    "translation": "Temizlik Görevlisi",
+    "turkish": "Temizlik Görevlisi",
+    "meaning": "Temizlik Görevlisi",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The cleaner keeps our school corridors tidy.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50006.mp3"
+  },
+  {
+    "word_id": "w_50007",
+    "id": "w_50007",
+    "word": "Librarian",
+    "english": "Librarian",
+    "translation": "Kütüphaneci",
+    "turkish": "Kütüphaneci",
+    "meaning": "Kütüphaneci",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The librarian helped me find a great adventure book.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50007.mp3"
+  },
+  {
+    "word_id": "w_50008",
+    "id": "w_50008",
+    "word": "School Nurse",
+    "english": "School Nurse",
+    "translation": "Okul Hemşiresi",
+    "turkish": "Okul Hemşiresi",
+    "meaning": "Okul Hemşiresi",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The school nurse gave me a bandage for my finger.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50008.mp3"
+  },
+  {
+    "word_id": "w_50009",
+    "id": "w_50009",
+    "word": "Counsellor",
+    "english": "Counsellor",
+    "translation": "Rehber Öğretmen / Psikolojik Danışman",
+    "turkish": "Rehber Öğretmen / Psikolojik Danışman",
+    "meaning": "Rehber Öğretmen / Psikolojik Danışman",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The school counsellor helps us solve study problems.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50009.mp3"
+  },
+  {
+    "word_id": "w_50010",
+    "id": "w_50010",
+    "word": "Secretary",
+    "english": "Secretary",
+    "translation": "Sekreter",
+    "turkish": "Sekreter",
+    "meaning": "Sekreter",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The secretary printed the school letters for our parents.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50010.mp3"
+  },
+  {
+    "word_id": "w_50011",
+    "id": "w_50011",
+    "word": "Coach",
+    "english": "Coach",
+    "translation": "Antrenör / Koç",
+    "turkish": "Antrenör / Koç",
+    "meaning": "Antrenör / Koç",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Our football coach trains the team every Tuesday.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50011.mp3"
+  },
+  {
+    "word_id": "w_50012",
+    "id": "w_50012",
+    "word": "Classmate",
+    "english": "Classmate",
+    "translation": "Sınıf Arkadaşı",
+    "turkish": "Sınıf Arkadaşı",
+    "meaning": "Sınıf Arkadaşı",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "I study maths with my classmate after school.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50012.mp3"
+  },
+  {
+    "word_id": "w_50013",
+    "id": "w_50013",
+    "word": "School Building",
+    "english": "School Building",
+    "translation": "Okul Binası",
+    "turkish": "Okul Binası",
+    "meaning": "Okul Binası",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Our school building has three large floors.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50013.mp3"
+  },
+  {
+    "word_id": "w_50014",
+    "id": "w_50014",
+    "word": "Classroom",
+    "english": "Classroom",
+    "translation": "Sınıf / Derslik",
+    "turkish": "Sınıf / Derslik",
+    "meaning": "Sınıf / Derslik",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We decorate our classroom with colourful science posters.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50014.mp3"
+  },
+  {
+    "word_id": "w_50015",
+    "id": "w_50015",
+    "word": "Science Lab",
+    "english": "Science Lab",
+    "translation": "Fen Laboratuvarı",
+    "turkish": "Fen Laboratuvarı",
+    "meaning": "Fen Laboratuvarı",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We do exciting experiments in the science lab.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50015.mp3"
+  },
+  {
+    "word_id": "w_50016",
+    "id": "w_50016",
+    "word": "Library",
+    "english": "Library",
+    "translation": "Kütüphane",
+    "turkish": "Kütüphane",
+    "meaning": "Kütüphane",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The school library has hundreds of interesting storybooks.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50016.mp3"
+  },
+  {
+    "word_id": "w_50017",
+    "id": "w_50017",
+    "word": "Canteen",
+    "english": "Canteen",
+    "translation": "Okul Kantini",
+    "turkish": "Okul Kantini",
+    "meaning": "Okul Kantini",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Students buy healthy sandwiches at the canteen.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50017.mp3"
+  },
+  {
+    "word_id": "w_50018",
+    "id": "w_50018",
+    "word": "Sports Field",
+    "english": "Sports Field",
+    "translation": "Spor Sahası",
+    "turkish": "Spor Sahası",
+    "meaning": "Spor Sahası",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We run and play games on the grass sports field.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50018.mp3"
+  },
+  {
+    "word_id": "w_50019",
+    "id": "w_50019",
+    "word": "Sports Hall / Gym",
+    "english": "Sports Hall / Gym",
+    "translation": "Spor Salonu",
+    "turkish": "Spor Salonu",
+    "meaning": "Spor Salonu",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We play basketball in the sports hall when it rains.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50019.mp3"
+  },
+  {
+    "word_id": "w_50020",
+    "id": "w_50020",
+    "word": "Conference Hall",
+    "english": "Conference Hall",
+    "translation": "Konferans Salonu",
+    "turkish": "Konferans Salonu",
+    "meaning": "Konferans Salonu",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The principal welcomed parents in the conference hall.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50020.mp3"
+  },
+  {
+    "word_id": "w_50021",
+    "id": "w_50021",
+    "word": "Infirmary",
+    "english": "Infirmary",
+    "translation": "Revir / Sağlık Odası",
+    "turkish": "Revir / Sağlık Odası",
+    "meaning": "Revir / Sağlık Odası",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "I rested in the infirmary because I felt dizzy.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50021.mp3"
+  },
+  {
+    "word_id": "w_50022",
+    "id": "w_50022",
+    "word": "Administration Department",
+    "english": "Administration Department",
+    "translation": "İdari Birim / Yönetim Bölümü",
+    "turkish": "İdari Birim / Yönetim Bölümü",
+    "meaning": "İdari Birim / Yönetim Bölümü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The administration department prepares student cards.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50022.mp3"
+  },
+  {
+    "word_id": "w_50023",
+    "id": "w_50023",
+    "word": "Noticeboard",
+    "english": "Noticeboard",
+    "translation": "Duyuru Panosu",
+    "turkish": "Duyuru Panosu",
+    "meaning": "Duyuru Panosu",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Look at the noticeboard for the club timetable.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50023.mp3"
+  },
+  {
+    "word_id": "w_50024",
+    "id": "w_50024",
+    "word": "Schoolyard / Courtyard",
+    "english": "Schoolyard / Courtyard",
+    "translation": "Okul Bahçesi / Avlusu",
+    "turkish": "Okul Bahçesi / Avlusu",
+    "meaning": "Okul Bahçesi / Avlusu",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Children play hide and seek in the schoolyard.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50024.mp3"
+  },
+  {
+    "word_id": "w_50025",
+    "id": "w_50025",
+    "word": "Corridor",
+    "english": "Corridor",
+    "translation": "Koridor",
+    "turkish": "Koridor",
+    "meaning": "Koridor",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Please walk quietly along the school corridor.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50025.mp3"
+  },
+  {
+    "word_id": "w_50026",
+    "id": "w_50026",
+    "word": "Gate",
+    "english": "Gate",
+    "translation": "Okul Giriş Kapısı",
+    "turkish": "Okul Giriş Kapısı",
+    "meaning": "Okul Giriş Kapısı",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Security guards stand at the main school gate.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50026.mp3"
+  },
+  {
+    "word_id": "w_50027",
+    "id": "w_50027",
+    "word": "Fountain",
+    "english": "Fountain",
+    "translation": "Okul Çeşmesi / Su Pınarı",
+    "turkish": "Okul Çeşmesi / Su Pınarı",
+    "meaning": "Okul Çeşmesi / Su Pınarı",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "I filled my water bottle at the courtyard fountain.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50027.mp3"
+  },
+  {
+    "word_id": "w_50028",
+    "id": "w_50028",
+    "word": "School Rules",
+    "english": "School Rules",
+    "translation": "Okul Kuralları",
+    "turkish": "Okul Kuralları",
+    "meaning": "Okul Kuralları",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Everyone should respect and follow school rules.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50028.mp3"
+  },
+  {
+    "word_id": "w_50029",
+    "id": "w_50029",
+    "word": "Uniform",
+    "english": "Uniform",
+    "translation": "Okul Üniforması",
+    "turkish": "Okul Üniforması",
+    "meaning": "Okul Üniforması",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Our school uniform is blue and white.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50029.mp3"
+  },
+  {
+    "word_id": "w_50030",
+    "id": "w_50030",
+    "word": "Obey",
+    "english": "Obey",
+    "translation": "Kurallara Uymak",
+    "turkish": "Kurallara Uymak",
+    "meaning": "Kurallara Uymak",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Good students always obey their teachers' guidance.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50030.mp3"
+  },
+  {
+    "word_id": "w_50031",
+    "id": "w_50031",
+    "word": "Punctual",
+    "english": "Punctual",
+    "translation": "Dakik Olmak / Zamanında Gelmek",
+    "turkish": "Dakik / Zamanında Gelen",
+    "meaning": "Dakik / Zamanında Gelen",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "It is important to be punctual for every lesson.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50031.mp3"
+  },
+  {
+    "word_id": "w_50032",
+    "id": "w_50032",
+    "word": "Responsibilities",
+    "english": "Responsibilities",
+    "translation": "Sorumluluklar",
+    "turkish": "Sorumluluklar",
+    "meaning": "Sorumluluklar",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Doing homework is one of our key responsibilities.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50032.mp3"
+  },
+  {
+    "word_id": "w_50033",
+    "id": "w_50033",
+    "word": "Respect",
+    "english": "Respect",
+    "translation": "Saygı Göstermek / Saygı",
+    "turkish": "Saygı Göstermek / Saygı",
+    "meaning": "Saygı Göstermek / Saygı",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We show respect to our teachers and peers.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50033.mp3"
+  },
+  {
+    "word_id": "w_50034",
+    "id": "w_50034",
+    "word": "Bully",
+    "english": "Bully",
+    "translation": "Zorbalık Etmek",
+    "turkish": "Zorbalık Etmek",
+    "meaning": "Zorbalık Etmek",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "You should never bully anyone at school.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50034.mp3"
+  },
+  {
+    "word_id": "w_50035",
+    "id": "w_50035",
+    "word": "Stand in line",
+    "english": "Stand in line",
+    "translation": "Sıraya Girmek",
+    "turkish": "Sıraya Girmek",
+    "meaning": "Sıraya Girmek",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Students stand in line before entering the classroom.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50035.mp3"
+  },
+  {
+    "word_id": "w_50036",
+    "id": "w_50036",
+    "word": "Chew gum",
+    "english": "Chew gum",
+    "translation": "Sakız Çiğnemek",
+    "turkish": "Sakız Çiğnemek",
+    "meaning": "Sakız Çiğnemek",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "You must not chew gum during the lesson.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50036.mp3"
+  },
+  {
+    "word_id": "w_50037",
+    "id": "w_50037",
+    "word": "Shout",
+    "english": "Shout",
+    "translation": "Bağırmak / Yüksek Sesle Konuşmak",
+    "turkish": "Bağırmak / Yüksek Sesle Konuşmak",
+    "meaning": "Bağırmak / Yüksek Sesle Konuşmak",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Do not shout inside the quiet corridors.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50037.mp3"
+  },
+  {
+    "word_id": "w_50038",
+    "id": "w_50038",
+    "word": "Fight",
+    "english": "Fight",
+    "translation": "Kavga Etmek",
+    "turkish": "Kavga Etmek",
+    "meaning": "Kavga Etmek",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Students must never fight in the school garden.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50038.mp3"
+  },
+  {
+    "word_id": "w_50039",
+    "id": "w_50039",
+    "word": "Protect",
+    "english": "Protect",
+    "translation": "Korumak / Muhafaza Etmek",
+    "turkish": "Korumak / Muhafaza Etmek",
+    "meaning": "Korumak / Muhafaza Etmek",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We should protect our school property and desks.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50039.mp3"
+  },
+  {
+    "word_id": "w_50040",
+    "id": "w_50040",
+    "word": "Raise a hand",
+    "english": "Raise a hand",
+    "translation": "El Kaldırmak",
+    "turkish": "El Kaldırmak",
+    "meaning": "El Kaldırmak",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Raise a hand before answering the question.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50040.mp3"
+  },
+  {
+    "word_id": "w_50041",
+    "id": "w_50041",
+    "word": "Throw rubbish",
+    "english": "Throw rubbish",
+    "translation": "Çöp Atmak",
+    "turkish": "Çöp Atmak",
+    "meaning": "Çöp Atmak",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Never throw rubbish on the floor.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50041.mp3"
+  },
+  {
+    "word_id": "w_50042",
+    "id": "w_50042",
+    "word": "Rubbish bin",
+    "english": "Rubbish bin",
+    "translation": "Çöp Kutusu",
+    "turkish": "Çöp Kutusu",
+    "meaning": "Çöp Kutusu",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Put empty juice boxes into the rubbish bin.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50042.mp3"
+  },
+  {
+    "word_id": "w_50043",
+    "id": "w_50043",
+    "word": "Follow instructions",
+    "english": "Follow instructions",
+    "translation": "Talimatlara Uymak",
+    "turkish": "Talimatlara Uymak",
+    "meaning": "Talimatlara Uymak",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Listen carefully and follow instructions during experiments.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50043.mp3"
+  },
+  {
+    "word_id": "w_50044",
+    "id": "w_50044",
+    "word": "Safe",
+    "english": "Safe",
+    "translation": "Güvenli / Emniyetli",
+    "turkish": "Güvenli / Emniyetli",
+    "meaning": "Güvenli / Emniyetli",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Our school environment is clean and safe.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50044.mp3"
+  },
+  {
+    "word_id": "w_50045",
+    "id": "w_50045",
+    "word": "Law",
+    "english": "Law",
+    "translation": "Yasa / Kanun",
+    "turkish": "Yasa / Kanun",
+    "meaning": "Yasa / Kanun",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Every country has laws to maintain peace.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50045.mp3"
+  },
+  {
+    "word_id": "w_50046",
+    "id": "w_50046",
+    "word": "Permission",
+    "english": "Permission",
+    "translation": "İzin",
+    "turkish": "İzin",
+    "meaning": "İzin",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Ask for permission before leaving the room.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50046.mp3"
+  },
+  {
+    "word_id": "w_50047",
+    "id": "w_50047",
+    "word": "Obligation",
+    "english": "Obligation",
+    "translation": "Zorunluluk / Yükümlülük",
+    "turkish": "Zorunluluk / Yükümlülük",
+    "meaning": "Zorunluluk / Yükümlülük",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Wearing safety goggles in the lab is an obligation.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50047.mp3"
+  },
+  {
+    "word_id": "w_50048",
+    "id": "w_50048",
+    "word": "School Club",
+    "english": "School Club",
+    "translation": "Okul Kulübü",
+    "turkish": "Okul Kulübü",
+    "meaning": "Okul Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Joining a school club helps you meet new friends.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50048.mp3"
+  },
+  {
+    "word_id": "w_50049",
+    "id": "w_50049",
+    "word": "Art Club",
+    "english": "Art Club",
+    "translation": "Sanat / Resim Kulübü",
+    "turkish": "Sanat / Resim Kulübü",
+    "meaning": "Sanat / Resim Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We paint watercolours in the art club every Friday.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50049.mp3"
+  },
+  {
+    "word_id": "w_50050",
+    "id": "w_50050",
+    "word": "Science Club",
+    "english": "Science Club",
+    "translation": "Bilim / Fen Kulübü",
+    "turkish": "Bilim / Fen Kulübü",
+    "meaning": "Bilim / Fen Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The science club built a mini volcano model.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50050.mp3"
+  },
+  {
+    "word_id": "w_50051",
+    "id": "w_50051",
+    "word": "Chess Club",
+    "english": "Chess Club",
+    "translation": "Satranç Kulübü",
+    "turkish": "Satranç Kulübü",
+    "meaning": "Satranç Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "I practice smart strategies in the chess club.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50051.mp3"
+  },
+  {
+    "word_id": "w_50052",
+    "id": "w_50052",
+    "word": "Drama Club",
+    "english": "Drama Club",
+    "translation": "Drama / Tiyatro Kulübü",
+    "turkish": "Drama / Tiyatro Kulübü",
+    "meaning": "Drama / Tiyatro Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The drama club is staging a classic play this term.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50052.mp3"
+  },
+  {
+    "word_id": "w_50053",
+    "id": "w_50053",
+    "word": "Music Club",
+    "english": "Music Club",
+    "translation": "Müzik Kulübü",
+    "turkish": "Müzik Kulübü",
+    "meaning": "Müzik Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "She plays the guitar nicely in the music club.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50053.mp3"
+  },
+  {
+    "word_id": "w_50054",
+    "id": "w_50054",
+    "word": "Maths Club",
+    "english": "Maths Club",
+    "translation": "Matematik Kulübü",
+    "turkish": "Matematik Kulübü",
+    "meaning": "Matematik Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The maths club solves brain-teaser puzzles.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50054.mp3"
+  },
+  {
+    "word_id": "w_50055",
+    "id": "w_50055",
+    "word": "Sports Club",
+    "english": "Sports Club",
+    "translation": "Spor Kulübü",
+    "turkish": "Spor Kulübü",
+    "meaning": "Spor Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The sports club organized a fun volleyball tournament.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50055.mp3"
+  },
+  {
+    "word_id": "w_50056",
+    "id": "w_50056",
+    "word": "Technology Club",
+    "english": "Technology Club",
+    "translation": "Teknoloji Kulübü",
+    "turkish": "Teknoloji Kulübü",
+    "meaning": "Teknoloji Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We learn basic coding in the technology club.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50056.mp3"
+  },
+  {
+    "word_id": "w_50057",
+    "id": "w_50057",
+    "word": "Environment Club",
+    "english": "Environment Club",
+    "translation": "Çevre Kulübü",
+    "turkish": "Çevre Kulübü",
+    "meaning": "Çevre Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The environment club planted trees around the schoolyard.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50057.mp3"
+  },
+  {
+    "word_id": "w_50058",
+    "id": "w_50058",
+    "word": "Folk Dance Club",
+    "english": "Folk Dance Club",
+    "translation": "Halk Dansları Kulübü",
+    "turkish": "Halk Dansları Kulübü",
+    "meaning": "Halk Dansları Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The folk dance club prepared a colourful show.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50058.mp3"
+  },
+  {
+    "word_id": "w_50059",
+    "id": "w_50059",
+    "word": "Literature Club",
+    "english": "Literature Club",
+    "translation": "Edebiyat Kulübü",
+    "turkish": "Edebiyat Kulübü",
+    "meaning": "Edebiyat Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We read poetry in the weekly literature club.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50059.mp3"
+  },
+  {
+    "word_id": "w_50060",
+    "id": "w_50060",
+    "word": "History Club",
+    "english": "History Club",
+    "translation": "Tarih Kulübü",
+    "turkish": "Tarih Kulübü",
+    "meaning": "Tarih Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The history club visited an ancient museum yesterday.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50060.mp3"
+  },
+  {
+    "word_id": "w_50061",
+    "id": "w_50061",
+    "word": "Debate Club",
+    "english": "Debate Club",
+    "translation": "Münazara Kulübü",
+    "turkish": "Münazara Kulübü",
+    "meaning": "Münazara Kulübü",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The debate club discusses interesting social topics.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50061.mp3"
+  },
+  {
+    "word_id": "w_50062",
+    "id": "w_50062",
+    "word": "Extracurricular Activity",
+    "english": "Extracurricular Activity",
+    "translation": "Ders Dışı Etkinlik",
+    "turkish": "Ders Dışı Etkinlik",
+    "meaning": "Ders Dışı Etkinlik",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Playing chess is a fun extracurricular activity.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50062.mp3"
+  },
+  {
+    "word_id": "w_50063",
+    "id": "w_50063",
+    "word": "Competition",
+    "english": "Competition",
+    "translation": "Yarışma",
+    "turkish": "Yarışma",
+    "meaning": "Yarışma",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Our school won first place in the quiz competition.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50063.mp3"
+  },
+  {
+    "word_id": "w_50064",
+    "id": "w_50064",
+    "word": "Art Exhibition",
+    "english": "Art Exhibition",
+    "translation": "Sanat Sergisi",
+    "turkish": "Sanat Sergisi",
+    "meaning": "Sanat Sergisi",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Students displayed their paintings in the art exhibition.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50064.mp3"
+  },
+  {
+    "word_id": "w_50065",
+    "id": "w_50065",
+    "word": "Project",
+    "english": "Project",
+    "translation": "Proje",
+    "turkish": "Proje",
+    "meaning": "Proje",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Our science project explains the solar system.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50065.mp3"
+  },
+  {
+    "word_id": "w_50066",
+    "id": "w_50066",
+    "word": "Group Work",
+    "english": "Group Work",
+    "translation": "Grup Çalışması",
+    "turkish": "Grup Çalışması",
+    "meaning": "Grup Çalışması",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Group work helps us collaborate and share ideas.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50066.mp3"
+  },
+  {
+    "word_id": "w_50067",
+    "id": "w_50067",
+    "word": "Primary School",
+    "english": "Primary School",
+    "translation": "İlkokul",
+    "turkish": "İlkokul",
+    "meaning": "İlkokul",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Children study in primary school from grades 1 to 4.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50067.mp3"
+  },
+  {
+    "word_id": "w_50068",
+    "id": "w_50068",
+    "word": "Lower Secondary School",
+    "english": "Lower Secondary School",
+    "translation": "Ortaokul",
+    "turkish": "Ortaokul",
+    "meaning": "Ortaokul",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Students start lower secondary school in grade 5.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50068.mp3"
+  },
+  {
+    "word_id": "w_50069",
+    "id": "w_50069",
+    "word": "Upper Secondary School",
+    "english": "Upper Secondary School",
+    "translation": "Lise",
+    "turkish": "Lise",
+    "meaning": "Lise",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "My older sister attends an upper secondary school.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50069.mp3"
+  },
+  {
+    "word_id": "w_50070",
+    "id": "w_50070",
+    "word": "Vocational School",
+    "english": "Vocational School",
+    "translation": "Meslek Okulu",
+    "turkish": "Meslek Okulu",
+    "meaning": "Meslek Okulu",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Vocational schools train students in practical technical skills.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50070.mp3"
+  },
+  {
+    "word_id": "w_50071",
+    "id": "w_50071",
+    "word": "International School",
+    "english": "International School",
+    "translation": "Uluslararası Okul",
+    "turkish": "Uluslararası Okul",
+    "meaning": "Uluslararası Okul",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Children from many countries study at an international school.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50071.mp3"
+  },
+  {
+    "word_id": "w_50072",
+    "id": "w_50072",
+    "word": "Boarding School",
+    "english": "Boarding School",
+    "translation": "Yatılı Okul",
+    "turkish": "Yatılı Okul",
+    "meaning": "Yatılı Okul",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Students live and study together in a boarding school.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50072.mp3"
+  },
+  {
+    "word_id": "w_50073",
+    "id": "w_50073",
+    "word": "State School / Public School",
+    "english": "State School / Public School",
+    "translation": "Devlet Okulu",
+    "turkish": "Devlet Okulu",
+    "meaning": "Devlet Okulu",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "A state school provides free education to all students.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50073.mp3"
+  },
+  {
+    "word_id": "w_50074",
+    "id": "w_50074",
+    "word": "Private School",
+    "english": "Private School",
+    "translation": "Özel Okul",
+    "turkish": "Özel Okul",
+    "meaning": "Özel Okul",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The private school offers modern computer laboratories.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50074.mp3"
+  },
+  {
+    "word_id": "w_50075",
+    "id": "w_50075",
+    "word": "Graduate",
+    "english": "Graduate",
+    "translation": "Mezun Olmak",
+    "turkish": "Mezun Olmak",
+    "meaning": "Mezun Olmak",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Students will graduate after completing all exams.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50075.mp3"
+  },
+  {
+    "word_id": "w_50076",
+    "id": "w_50076",
+    "word": "Diploma",
+    "english": "Diploma",
+    "translation": "Diploma",
+    "turkish": "Diploma",
+    "meaning": "Diploma",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "He proudly received his graduation diploma.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50076.mp3"
+  },
+  {
+    "word_id": "w_50077",
+    "id": "w_50077",
+    "word": "Qualification",
+    "english": "Qualification",
+    "translation": "Nitelik / Yeterlilik Belgesi",
+    "turkish": "Nitelik / Yeterlilik Belgesi",
+    "meaning": "Nitelik / Yeterlilik Belgesi",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "A language qualification opens doors around the world.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50077.mp3"
+  },
+  {
+    "word_id": "w_50078",
+    "id": "w_50078",
+    "word": "Register",
+    "english": "Register",
+    "translation": "Kayıt Olmak",
+    "turkish": "Kayıt Olmak",
+    "meaning": "Kayıt Olmak",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "New students must register before the semester begins.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50078.mp3"
+  },
+  {
+    "word_id": "w_50079",
+    "id": "w_50079",
+    "word": "Timetable",
+    "english": "Timetable",
+    "translation": "Ders Programı",
+    "turkish": "Ders Programı",
+    "meaning": "Ders Programı",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Check the timetable to see which classes you have today.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50079.mp3"
+  },
+  {
+    "word_id": "w_50080",
+    "id": "w_50080",
+    "word": "School Subject",
+    "english": "School Subject",
+    "translation": "Okul Dersi",
+    "turkish": "Okul Dersi",
+    "meaning": "Okul Dersi",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "My favourite school subject is science.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50080.mp3"
+  },
+  {
+    "word_id": "w_50081",
+    "id": "w_50081",
+    "word": "Routine",
+    "english": "Routine",
+    "translation": "Rutin / Günlük İşler",
+    "turkish": "Rutin / Günlük İşler",
+    "meaning": "Rutin / Günlük İşler",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Waking up early is part of my morning routine.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50081.mp3"
+  },
+  {
+    "word_id": "w_50082",
+    "id": "w_50082",
+    "word": "National Day",
+    "english": "National Day",
+    "translation": "Milli Bayram / Milli Gün",
+    "turkish": "Milli Bayram / Milli Gün",
+    "meaning": "Milli Bayram / Milli Gün",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We celebrate National Day with poetry and songs.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50082.mp3"
+  },
+  {
+    "word_id": "w_50083",
+    "id": "w_50083",
+    "word": "Celebration",
+    "english": "Celebration",
+    "translation": "Kutlama",
+    "turkish": "Kutlama",
+    "meaning": "Kutlama",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The school celebration was full of joyful performances.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50083.mp3"
+  },
+  {
+    "word_id": "w_50084",
+    "id": "w_50084",
+    "word": "Celebrate",
+    "english": "Celebrate",
+    "translation": "Kutlamak",
+    "turkish": "Kutlamak",
+    "meaning": "Kutlamak",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We celebrate our victories together with classmates.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50084.mp3"
+  },
+  {
+    "word_id": "w_50085",
+    "id": "w_50085",
+    "word": "Country",
+    "english": "Country",
+    "translation": "Ülke",
+    "turkish": "Ülke",
+    "meaning": "Ülke",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Which country would you like to visit one day?",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50085.mp3"
+  },
+  {
+    "word_id": "w_50086",
+    "id": "w_50086",
+    "word": "Flag",
+    "english": "Flag",
+    "translation": "Bayrak",
+    "turkish": "Bayrak",
+    "meaning": "Bayrak",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The national flag waves high in the courtyard.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50086.mp3"
+  },
+  {
+    "word_id": "w_50087",
+    "id": "w_50087",
+    "word": "Festival",
+    "english": "Festival",
+    "translation": "Festival / Şenlik",
+    "turkish": "Festival / Şenlik",
+    "meaning": "Festival / Şenlik",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The spring festival brings students and teachers together.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50087.mp3"
+  },
+  {
+    "word_id": "w_50088",
+    "id": "w_50088",
+    "word": "Arrange / Organise",
+    "english": "Arrange / Organise",
+    "translation": "Düzenlemek / Organize Etmek",
+    "turkish": "Düzenlemek / Organize Etmek",
+    "meaning": "Düzenlemek / Organize Etmek",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Teachers will arrange a picnic next weekend.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50088.mp3"
+  },
+  {
+    "word_id": "w_50089",
+    "id": "w_50089",
+    "word": "Solve",
+    "english": "Solve",
+    "translation": "Çözmek (Problem/Soru)",
+    "turkish": "Çözmek (Problem/Soru)",
+    "meaning": "Çözmek (Problem/Soru)",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Can you solve this tricky maths puzzle?",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50089.mp3"
+  },
+  {
+    "word_id": "w_50090",
+    "id": "w_50090",
+    "word": "Species",
+    "english": "Species",
+    "translation": "Tür / Çeşit",
+    "turkish": "Tür / Çeşit",
+    "meaning": "Tür / Çeşit",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Scientists discovered a rare bird species in the forest.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50090.mp3"
+  },
+  {
+    "word_id": "w_50091",
+    "id": "w_50091",
+    "word": "Historical",
+    "english": "Historical",
+    "translation": "Tarihi",
+    "turkish": "Tarihi",
+    "meaning": "Tarihi",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Our city has many famous historical landmarks.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50091.mp3"
+  },
+  {
+    "word_id": "w_50092",
+    "id": "w_50092",
+    "word": "Ancient",
+    "english": "Ancient",
+    "translation": "Antik / Çok Eski",
+    "turkish": "Antik / Çok Eski",
+    "meaning": "Antik / Çok Eski",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "We learned about ancient civilizations in history class.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50092.mp3"
+  },
+  {
+    "word_id": "w_50093",
+    "id": "w_50093",
+    "word": "Türkiye",
+    "english": "Türkiye",
+    "translation": "Türkiye",
+    "turkish": "Türkiye",
+    "meaning": "Türkiye",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Türkiye is a beautiful bridge between Europe and Asia.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50093.mp3"
+  },
+  {
+    "word_id": "w_50094",
+    "id": "w_50094",
+    "word": "Azerbaijan",
+    "english": "Azerbaijan",
+    "translation": "Azerbaycan",
+    "turkish": "Azerbaycan",
+    "meaning": "Azerbaycan",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Baku is the capital city of Azerbaijan.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50094.mp3"
+  },
+  {
+    "word_id": "w_50095",
+    "id": "w_50095",
+    "word": "England / The UK",
+    "english": "England / The UK",
+    "translation": "İngiltere / Birleşik Krallık",
+    "turkish": "İngiltere / Birleşik Krallık",
+    "meaning": "İngiltere / Birleşik Krallık",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "London is the capital of England and the UK.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50095.mp3"
+  },
+  {
+    "word_id": "w_50096",
+    "id": "w_50096",
+    "word": "Germany",
+    "english": "Germany",
+    "translation": "Almanya",
+    "turkish": "Almanya",
+    "meaning": "Almanya",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Berlin is the bustling capital of Germany.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50096.mp3"
+  },
+  {
+    "word_id": "w_50097",
+    "id": "w_50097",
+    "word": "France",
+    "english": "France",
+    "translation": "Fransa",
+    "turkish": "Fransa",
+    "meaning": "Fransa",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "The Eiffel Tower is located in Paris, France.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50097.mp3"
+  },
+  {
+    "word_id": "w_50098",
+    "id": "w_50098",
+    "word": "Italy",
+    "english": "Italy",
+    "translation": "İtalya",
+    "turkish": "İtalya",
+    "meaning": "İtalya",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Rome is famous for its rich history in Italy.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50098.mp3"
+  },
+  {
+    "word_id": "w_50099",
+    "id": "w_50099",
+    "word": "Spain",
+    "english": "Spain",
+    "translation": "İspanya",
+    "turkish": "İspanya",
+    "meaning": "İspanya",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Madrid and Barcelona are prominent cities in Spain.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50099.mp3"
+  },
+  {
+    "word_id": "w_50100",
+    "id": "w_50100",
+    "word": "Japan",
+    "english": "Japan",
+    "translation": "Japonya",
+    "turkish": "Japonya",
+    "meaning": "Japonya",
+    "cefr_level": "A1",
+    "curriculum": {
+      "system": "MEB",
+      "grades": [
+        5
+      ],
+      "units": [
+        {
+          "grade": 5,
+          "unit_no": 1,
+          "unit_name": "School Life"
+        }
+      ]
+    },
+    "tags": [
+      "school_life",
+      "meb_curriculum",
+      "grade_5",
+      "unit_1"
+    ],
+    "example_sentence": "Tokyo is the vibrant capital city of Japan.",
+    "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_50100.mp3"
+  }
+]

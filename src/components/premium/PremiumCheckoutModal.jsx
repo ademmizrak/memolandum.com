@@ -8,6 +8,8 @@ import {
   PAYMENTS_LIVE,
   PREMIUM_FAIR_USE_MONTHLY,
   PREMIUM_PRODUCT,
+  shouldHideExternalPayments,
+  isNativeApp,
 } from "../../lib/premium/config";
 import {
   restorePremiumPurchases,
@@ -27,11 +29,16 @@ export default function PremiumCheckoutModal({ open, onClose, preferredProvider 
   const [notifyEmail, setNotifyEmail] = useState("");
   const [notified, setNotified] = useState(false);
   const [isNative, setIsNative] = useState(false);
+  const [hideExternalPay, setHideExternalPay] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
+    setHideExternalPay(shouldHideExternalPayments());
+    if (isNativeApp()) {
+      setIsNative(true);
+    }
     isNativeIapPlatform().then((v) => {
-      if (!cancelled) setIsNative(!!v);
+      if (!cancelled) setIsNative(!!v || isNativeApp());
     });
     return () => {
       cancelled = true;
@@ -50,8 +57,8 @@ export default function PremiumCheckoutModal({ open, onClose, preferredProvider 
 
   const startPay = async (provider) => {
     setError("");
-    const p = provider || preferredProvider || PREMIUM_PRODUCT.try.provider || "shopier";
-    if (!auth?.currentUser && !isAuthenticated) {
+    const p = isNative ? "native" : provider || preferredProvider || PREMIUM_PRODUCT.try.provider || "shopier";
+    if (isNative && !auth?.currentUser && !isAuthenticated) {
       setShowAuth(true);
       return;
     }
@@ -78,8 +85,8 @@ export default function PremiumCheckoutModal({ open, onClose, preferredProvider 
       setError(
         msg ||
           (isNative
-            ? "Mağaza satın alma başlatılamadı."
-            : "Ödeme oturumu açılamadı. Shopier API anahtarları Functions ortamına eklenince Satın al çalışır.")
+            ? "Google Play satın alma işlemi başlatılamadı."
+            : "Ödeme oturumu açılamadı. Lütfen tekrar deneyin.")
       );
     }
   };
@@ -114,19 +121,6 @@ export default function PremiumCheckoutModal({ open, onClose, preferredProvider 
     e.preventDefault();
     const mail = (notifyEmail || auth?.currentUser?.email || "").trim();
     if (!mail) return;
-    try {
-      const key = "mm_premium_notify";
-      const prev = JSON.parse(localStorage.getItem(key) || "[]");
-      if (!prev.includes(mail)) {
-        localStorage.setItem(key, JSON.stringify([...prev, mail].slice(-50)));
-      }
-      // Operasyonel: mailto ile info@’a da düşer
-      window.location.href = `mailto:info@memolandum.com?subject=${encodeURIComponent(
-        "Premium / Shopier haberdar et"
-      )}&body=${encodeURIComponent(`Premium açılınca haber verin.\nE-posta: ${mail}\n`)}`;
-    } catch {
-      /* ignore */
-    }
     setNotified(true);
   };
 
@@ -147,23 +141,26 @@ export default function PremiumCheckoutModal({ open, onClose, preferredProvider 
               </div>
 
               <p className="pm-desc">
-                Arcade oyunlar ve tüm seviyeler <strong>herkese ücretsizdir</strong>. Gemini AI
+                Arcade oyunlar ve 23 dil yolu <strong>herkese ücretsizdir</strong>. Gemini AI
                 çeviri API maliyeti taşıdığı için üye hesabına özel ilk{" "}
                 <strong>{FREE_TRANSLATION_QUOTA} çeviri ücretsiz</strong>; sonrası Premium.
               </p>
 
-              <div className="pm-price-row">
-                <div className="pm-price-card">
-                  <span className="pm-flag">🇹🇷 Türkiye</span>
-                  <strong>{PREMIUM_PRODUCT.try.label}</strong>
-                  <span className="pm-was">{PREMIUM_PRODUCT.try.compareAt}</span>
+              {!isNative && (
+                <div className="pm-price-row">
+                  <div className="pm-price-card">
+                    <span className="pm-flag">🇹🇷 Türkiye · Shopier</span>
+                    <strong>{PREMIUM_PRODUCT.try.label}</strong>
+                    <span className="pm-was">{PREMIUM_PRODUCT.try.compareAt}</span>
+                  </div>
+                  <div className="pm-price-card">
+                    <span className="pm-flag">🌍 Global · Stripe</span>
+                    <strong>{PREMIUM_PRODUCT.usd.label}</strong>
+                    <span className="pm-was">{PREMIUM_PRODUCT.usd.compareAt}</span>
+                  </div>
                 </div>
-                <div className="pm-price-card">
-                  <span className="pm-flag">🌍 Global</span>
-                  <strong>{PREMIUM_PRODUCT.usd.label}</strong>
-                  <span className="pm-was">{PREMIUM_PRODUCT.usd.compareAt}</span>
-                </div>
-              </div>
+              )}
+
               <p className="pm-fair">
                 Fair use ≈ {PREMIUM_FAIR_USE_MONTHLY} AI çeviri / ay · kötüye kullanım hız limitleriyle
                 engellenir
@@ -188,55 +185,85 @@ export default function PremiumCheckoutModal({ open, onClose, preferredProvider 
                     </>
                   ) : (
                     <>
-                      Kart bilgisi sitemizde yok. Türkiye’de <strong>Shopier</strong>, dünyada{" "}
+                      Kart bilgisi sitemizde tutulmaz. Türkiye’de <strong>Shopier</strong>, dünyada{" "}
                       <strong>Stripe</strong> güvenli ödeme sayfasına yönlendirilirsiniz.
                     </>
                   )}
                 </span>
               </div>
 
-              {!isNative && !PAYMENTS_LIVE && (
-                <div className="pm-pending">
-                  Shopier API anahtarları bağlanınca tahsilat canlıya geçer. Fiyatlar ve Satın al
-                  akışı hazır.
-                </div>
-              )}
-
               <div className="pm-actions">
                 {isNative ? (
                   <>
-                    <button
-                      type="button"
-                      className="pm-btn pm-btn-tr"
-                      disabled={isPremium}
-                      onClick={() => startPay("native")}
-                    >
-                      {isPremium
-                        ? "Zaten Premium’sunuz"
-                        : "App Store / Play ile abone ol"}
-                    </button>
+                    {!hideExternalPay && (
+                      <button
+                        type="button"
+                        className="pm-btn pm-btn-tr"
+                        disabled={isPremium}
+                        onClick={() => startPay("native")}
+                      >
+                        {isPremium
+                          ? "Zaten Premium’sunuz"
+                          : "Google Play ile abone ol"}
+                      </button>
+                    )}
                     <button type="button" className="pm-btn pm-btn-global" onClick={startRestore}>
                       Satın alımları geri yükle
+                    </button>
+                    <button type="button" className="pm-btn pm-btn-tr" onClick={close}>
+                      Ücretsiz Öğrenmeye Devam Et
                     </button>
                   </>
                 ) : (
                   <>
-                    <button type="button" className="pm-btn pm-btn-tr" onClick={() => startPay("shopier")}>
-                      🇹🇷 Satın al · {PREMIUM_PRODUCT.try.label}
-                    </button>
-                    <button type="button" className="pm-btn pm-btn-global" onClick={() => startPay("stripe")}>
-                      🌍 Buy · {PREMIUM_PRODUCT.usd.label}
-                    </button>
-                    {!PAYMENTS_LIVE && (
-                      <button type="button" className="pm-link" onClick={() => setStep("waitlist")}>
-                        <Bell size={14} className="inline mr-1" /> Açılınca e-posta ile haber ver
+                    <a
+                      href="https://www.shopier.com/49186522"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="pm-btn pm-btn-tr"
+                      onClick={() => {
+                        try {
+                          trackPremiumStart("shopier");
+                        } catch {}
+                      }}
+                    >
+                      🇹🇷 Satın al (Shopier) · {PREMIUM_PRODUCT.try.label}
+                    </a>
+                    <a
+                      href="https://www.shopier.com/49186522"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="pm-btn pm-btn-global"
+                      onClick={() => {
+                        try {
+                          trackPremiumStart("stripe");
+                        } catch {}
+                      }}
+                    >
+                      🌍 Buy (Shopier) · {PREMIUM_PRODUCT.usd.label}
+                    </a>
+                    <a
+                      href="https://kreosus.com/httpsmemolandumcom/about"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="pm-btn pm-btn-kreosus"
+                    >
+                      💖 Kreosus ile Destek & İşbirliği ↗
+                    </a>
+                    {!isAuthenticated && (
+                      <button
+                        type="button"
+                        className="pm-link"
+                        onClick={() => setShowAuth(true)}
+                      >
+                        Üye hesabınızla eşleştirmek için giriş yapın →
                       </button>
                     )}
                   </>
                 )}
               </div>
               <p className="pm-legal">
-                <a href="/legal/terms/">Koşullar</a> · <a href="/legal/privacy/">Gizlilik</a>
+                <a href="/premium/" onClick={close}>Premium Sayfası</a> · <a href="/legal/terms/">Koşullar</a> · <a href="/legal/privacy/">Gizlilik</a>
               </p>
             </div>
           )}
@@ -474,6 +501,17 @@ export default function PremiumCheckoutModal({ open, onClose, preferredProvider 
         .pm-btn-global {
           background: linear-gradient(90deg, #1d4ed8, #2563eb);
           color: #eff6ff;
+        }
+        .pm-btn-kreosus {
+          background: rgba(236, 72, 153, 0.16);
+          border: 1px solid rgba(244, 114, 182, 0.45);
+          color: #fbcfe8;
+          text-decoration: none;
+          box-sizing: border-box;
+        }
+        .pm-btn-kreosus:hover {
+          background: rgba(236, 72, 153, 0.28);
+          color: #fff;
         }
         .pm-legal {
           text-align: center;

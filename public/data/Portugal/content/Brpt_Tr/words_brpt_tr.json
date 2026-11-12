@@ -2,7 +2,7 @@
   {
     "id": "pt_a1_001",
     "word": "o",
-    "translation": "o",
+    "translation": "belirli tanımlık (eril) / onu",
     "len": 1,
     "tags": [
       "a1",
@@ -16,7 +16,7 @@
   {
     "id": "pt_a1_002",
     "word": "a",
-    "translation": "o",
+    "translation": "belirli tanımlık (dişil) / onu",
     "len": 1,
     "tags": [
       "a1",
@@ -100,7 +100,7 @@
   {
     "id": "pt_a1_008",
     "word": "ter",
-    "translation": "sahip",
+    "translation": "sahip olmak",
     "len": 3,
     "tags": [
       "a1",
@@ -170,7 +170,7 @@
   {
     "id": "pt_a1_013",
     "word": "esse",
-    "translation": "o",
+    "translation": "bu / şu",
     "len": 4,
     "tags": [
       "a1",
@@ -898,7 +898,7 @@
   {
     "id": "pt_a1_065",
     "word": "ajudar",
-    "translation": "yardım",
+    "translation": "yardım etmek",
     "len": 6,
     "tags": [
       "a1",
@@ -1094,7 +1094,7 @@
   {
     "id": "pt_a1_079",
     "word": "estudar",
-    "translation": "çalışmak",
+    "translation": "ders çalışmak / okumak",
     "len": 7,
     "tags": [
       "a1",
@@ -1296,10 +1296,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_alguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_algum.mp3"
+    "audio": "brpt_alguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_alguém.mp3"
   },
   {
     "id": "pt_a1_094",
@@ -1310,10 +1308,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_ninguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_ninguém.mp3"
+    "audio": "brpt_ninguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_ninguém.mp3"
   },
   {
     "id": "pt_a1_095",
@@ -1388,7 +1384,7 @@
   {
     "id": "pt_a1_100",
     "word": "então",
-    "translation": "sonra",
+    "translation": "o zaman / öyleyse",
     "len": 5,
     "tags": [
       "a1",
@@ -1472,7 +1468,7 @@
   {
     "id": "pt_a1_106",
     "word": "moço",
-    "translation": "genç",
+    "translation": "genç adam / delikanlı",
     "len": 4,
     "tags": [
       "a1",
@@ -1486,7 +1482,7 @@
   {
     "id": "pt_a1_107",
     "word": "moça",
-    "translation": "kadın",
+    "translation": "genç kadın / genç kız",
     "len": 4,
     "tags": [
       "a1",
@@ -1626,7 +1622,7 @@
   {
     "id": "pt_a1_117",
     "word": "estudar",
-    "translation": "çalışmak",
+    "translation": "ders çalışmak / okumak",
     "len": 7,
     "tags": [
       "a1",
@@ -1702,10 +1698,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_difícil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_difícil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_difícil.mp3"
   },
   {
     "id": "pt_a1_123",
@@ -1716,10 +1710,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_fácil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_fácil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_fácil.mp3"
   },
   {
     "id": "pt_a1_124",
@@ -2032,7 +2024,7 @@
   {
     "id": "pt_a1_146",
     "word": "calor",
-    "translation": "sıcak",
+    "translation": "sıcaklık",
     "len": 5,
     "tags": [
       "a1",
@@ -2108,10 +2100,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_fácil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_fácil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_fácil.mp3"
   },
   {
     "id": "pt_a1_152",
@@ -2318,10 +2308,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_alguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_algum.mp3"
+    "audio": "brpt_alguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_alguém.mp3"
   },
   {
     "id": "pt_a1_167",
@@ -2332,10 +2320,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_ninguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_ninguém.mp3"
+    "audio": "brpt_ninguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_ninguém.mp3"
   },
   {
     "id": "pt_a1_168",
@@ -3180,7 +3166,7 @@
   {
     "id": "pt_a1_228",
     "word": "estudar",
-    "translation": "çalışmak",
+    "translation": "ders çalışmak / okumak",
     "len": 7,
     "tags": [
       "a1",
@@ -3361,7 +3347,7 @@
   },
   {
     "id": "pt_a1_241",
-    "word": "junto",
+    "word": "juntos",
     "translation": "birlikte",
     "len": 5,
     "tags": [
@@ -3438,10 +3424,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_fácil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_fácil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_fácil.mp3"
   },
   {
     "id": "pt_a1_247",
@@ -3480,10 +3464,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_alguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_algum.mp3"
+    "audio": "brpt_alguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_alguém.mp3"
   },
   {
     "id": "pt_a1_250",
@@ -3494,10 +3476,8 @@
       "a1",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_ninguém.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_ninguém.mp3"
+    "audio": "brpt_ninguém.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_ninguém.mp3"
   },
   {
     "id": "pt_a1_251",
@@ -4174,7 +4154,7 @@
   {
     "id": "pt_a1_299",
     "word": "dever",
-    "translation": "borçlu",
+    "translation": "borçlu olmak / zorunda olmak",
     "len": 5,
     "tags": [
       "a1",
@@ -4300,7 +4280,7 @@
   {
     "id": "pt_a1_308",
     "word": "dever",
-    "translation": "zorunda",
+    "translation": "zorunda olmak / -meli",
     "len": 5,
     "tags": [
       "a1",
@@ -4440,7 +4420,7 @@
   {
     "id": "pt_a1_318",
     "word": "precisar",
-    "translation": "gerek",
+    "translation": "ihtiyaç duymak / gerekmek",
     "len": 8,
     "tags": [
       "a1",
@@ -4454,7 +4434,7 @@
   {
     "id": "pt_a1_319",
     "word": "ajudar",
-    "translation": "yardım",
+    "translation": "yardım etmek",
     "len": 6,
     "tags": [
       "a1",
@@ -4468,7 +4448,7 @@
   {
     "id": "pt_a1_320",
     "word": "deixar",
-    "translation": "izin",
+    "translation": "izin vermek / bırakmak",
     "len": 6,
     "tags": [
       "a1",
@@ -5700,7 +5680,7 @@
   {
     "id": "pt_a2_008",
     "word": "ajudar",
-    "translation": "yardım",
+    "translation": "yardım etmek",
     "len": 6,
     "tags": [
       "a2",
@@ -5952,7 +5932,7 @@
   {
     "id": "pt_a2_026",
     "word": "viajar",
-    "translation": "seyahat",
+    "translation": "seyahat etmek",
     "len": 6,
     "tags": [
       "a2",
@@ -6092,7 +6072,7 @@
   {
     "id": "pt_a2_036",
     "word": "aceitar",
-    "translation": "kabul",
+    "translation": "kabul etmek",
     "len": 7,
     "tags": [
       "a2",
@@ -6134,7 +6114,7 @@
   {
     "id": "pt_a2_039",
     "word": "entregar",
-    "translation": "teslim",
+    "translation": "teslim etmek",
     "len": 8,
     "tags": [
       "a2",
@@ -6280,10 +6260,8 @@
       "a2",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_fácil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_fácil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_fácil.mp3"
   },
   {
     "id": "pt_a2_050",
@@ -6294,10 +6272,8 @@
       "a2",
       "core"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_difícil.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_o_caminho_é_difícil.mp3"
+    "audio": "brpt_difícil.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_difícil.mp3"
   },
   {
     "id": "pt_a2_051",
@@ -6986,9 +6962,9 @@
     "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_junto.mp3"
   },
   {
-    "id": "pt_a2_0100",
+    "id": "pt_a2_100",
     "word": "atrás",
-    "translation": "arkasında",
+    "translation": "arkasında / geride",
     "len": 5,
     "tags": [
       "a2",
@@ -8864,7 +8840,7 @@
   {
     "id": "pt_b1_034",
     "word": "interessar",
-    "translation": "ilgilenmek",
+    "translation": "ilgisini çekmek / ilgilendirmek",
     "len": 10,
     "tags": [
       "b1",
@@ -9836,10 +9812,8 @@
       "b1",
       "intermediate"
     ],
-    "audio": {
-      "default": "/audio/words_BrPt/brpt_possível.mp3"
-    },
-    "audioUrl": "/data/Portugal/audio/sentences_BrPt/brpt_tudo_é_possível.mp3"
+    "audio": "brpt_possível.mp3",
+    "audioUrl": "/data/Portugal/audio/words_brpt/brpt_possível.mp3"
   },
   {
     "id": "pt_b1_104",
@@ -11186,7 +11160,7 @@
     "audioUrl": "/data/Portugal/audio/words_BrPt/brpt_organização.mp3"
   },
   {
-    "id": "pt_b1_120",
+    "id": "pt_b1_200",
     "word": "origem",
     "translation": "köken",
     "len": 6,
@@ -11664,7 +11638,7 @@
   {
     "id": "pt_b2_034",
     "word": "considerável",
-    "translation": "önemli ölçüde/dikkate değer",
+    "translation": "önemli / dikkate değer",
     "len": 12,
     "tags": [
       "b2",
@@ -13400,7 +13374,7 @@
   {
     "id": "pt_b2_158",
     "word": "substancial",
-    "translation": "önemli ölçüde/esaslı",
+    "translation": "önemli / esaslı / büyük ölçüde",
     "len": 11,
     "tags": [
       "b2",
@@ -14407,8 +14381,8 @@
   },
   {
     "id": "pt_c1_030",
-    "word": "equivocação",
-    "translation": "yanıltma/belirsizlik",
+    "word": "equívoco",
+    "translation": "yanılgı / yanlış anlaşılma",
     "len": 11,
     "tags": [
       "c1",
@@ -15276,7 +15250,7 @@
   {
     "id": "pt_c1_092",
     "word": "subjetividade",
-    "translation": "öznelik",
+    "translation": "öznellik",
     "len": 13,
     "tags": [
       "c1",
@@ -15570,7 +15544,7 @@
   {
     "id": "pt_c1_113",
     "word": "antinomia",
-    "translation": "çelişki/antinom",
+    "translation": "çelişki / antinomi",
     "len": 9,
     "tags": [
       "c1",
@@ -16102,7 +16076,7 @@
   {
     "id": "pt_c1_151",
     "word": "consequente",
-    "translation": "sonuçsal",
+    "translation": "tutarlı / sonucunda gelen",
     "len": 11,
     "tags": [
       "c1",
@@ -16311,7 +16285,7 @@
   },
   {
     "id": "pt_c1_166",
-    "word": "decentralização",
+    "word": "descentralização",
     "translation": "yerinden yönetim",
     "len": 16,
     "tags": [
@@ -18622,7 +18596,7 @@
   {
     "id": "pt_c2_131",
     "word": "opulência",
-    "translation": "görgüsüzlük/zenginlik",
+    "translation": "ihtişam / bolluk / zenginlik",
     "len": 9,
     "tags": [
       "c2",
@@ -19168,7 +19142,7 @@
   {
     "id": "pt_c2_170",
     "word": "rancor",
-    "translation": "kin/haset",
+    "translation": "kin / hınç",
     "len": 6,
     "tags": [
       "c2",

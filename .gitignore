@@ -52,3 +52,12 @@ google-key.json
 serviceAccountKey.json
 *.json.key
 secrets/
+*.keystore
+*.jks
+**/keystore.properties
+keystore.properties
+shopier.txt
+scratch/
+*.aab
+*.apk
+-

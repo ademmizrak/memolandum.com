@@ -1,0 +1,3511 @@
+{
+  "grade": 7,
+  "slug": "7-sinif",
+  "title": "7. Sınıf İngilizce 1. Yazılı Deneme Quizi",
+  "subtitle": "Ortaokul (School Life, Education & Classroom) 100 Soruluk Havuz",
+  "badge": "Ortaokul · 7. Sınıf",
+  "poolSize": 100,
+  "defaultTestSize": 20,
+  "questions": [
+    {
+      "id": "q_g7_001",
+      "number": 1,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70001",
+      "english": "A drama play",
+      "turkish": "Tiyatro oyunu",
+      "exampleSentence": "Our school drama club will stage a drama play next Friday.",
+      "blankedSentence": "Our school drama club will stage _______ next Friday.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70001.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Our school drama club will stage _______ next Friday.",
+      "helperText": "İpucu (Anlamı): Tiyatro oyunu",
+      "correctAnswer": "A drama play",
+      "distractors": [
+        "A congratulation",
+        "First",
+        "To break a record"
+      ],
+      "englishDistractors": [
+        "A congratulation",
+        "First",
+        "To break a record"
+      ],
+      "turkishDistractors": [
+        "Tebrik / Kutlama",
+        "Birinci / İlk",
+        "Rekor kırmak"
+      ]
+    },
+    {
+      "id": "q_g7_002",
+      "number": 2,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70002",
+      "english": "A drawing",
+      "turkish": "Çizim / Resim",
+      "exampleSentence": "She created a colourful drawing of our school garden.",
+      "blankedSentence": "She created a colourful _______ of our school garden.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70002.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "A drawing",
+      "helperText": "Örnek: \"She created a colourful drawing of our school garden.\"",
+      "correctAnswer": "Çizim / Resim",
+      "distractors": [
+        "Yetenekli",
+        "Yenmek / Galip gelmek",
+        "29 Ekim Cumhuriyet Bayramı"
+      ],
+      "englishDistractors": [
+        "Talented",
+        "To beat",
+        "29 October Republic Day"
+      ],
+      "turkishDistractors": [
+        "Yetenekli",
+        "Yenmek / Galip gelmek",
+        "29 Ekim Cumhuriyet Bayramı"
+      ]
+    },
+    {
+      "id": "q_g7_003",
+      "number": 3,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70003",
+      "english": "Football (Soccer)",
+      "turkish": "Futbol",
+      "exampleSentence": "We play football on the school field every afternoon.",
+      "blankedSentence": "We play _______ on the school field every afternoon.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70003.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "We play _______ on the school field every afternoon.",
+      "helperText": "İpucu (Anlamı): Futbol",
+      "correctAnswer": "Football (Soccer)",
+      "distractors": [
+        "A prize",
+        "Fascinating",
+        "Timetable"
+      ],
+      "englishDistractors": [
+        "A prize",
+        "Fascinating",
+        "Timetable"
+      ],
+      "turkishDistractors": [
+        "Ödül",
+        "Büyüleyici / Çok etkileyici",
+        "Ders programı"
+      ]
+    },
+    {
+      "id": "q_g7_004",
+      "number": 4,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70004",
+      "english": "An exhibition",
+      "turkish": "Sergi",
+      "exampleSentence": "Students displayed their science models at the annual exhibition.",
+      "blankedSentence": "Students displayed their science models at the annual _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70004.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Sergi",
+      "helperText": "Örnek: \"Students displayed their science models at the annual _______.\"",
+      "correctAnswer": "An exhibition",
+      "distractors": [
+        "To blow (up)",
+        "15 July Democracy and National Unity Day",
+        "Present Progressive Tense"
+      ],
+      "englishDistractors": [
+        "To blow (up)",
+        "15 July Democracy and National Unity Day",
+        "Present Progressive Tense"
+      ],
+      "turkishDistractors": [
+        "Üflemek / Balon şişirmek",
+        "15 Temmuz Demokrasi ve Milli Birlik Günü",
+        "Şimdiki Zaman"
+      ]
+    },
+    {
+      "id": "q_g7_005",
+      "number": 5,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70005",
+      "english": "A congratulation",
+      "turkish": "Tebrik / Kutlama",
+      "exampleSentence": "The teacher sent a warm congratulation to the quiz winner.",
+      "blankedSentence": "The teacher sent a warm _______ to the quiz winner.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70005.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The teacher sent a warm _______ to the quiz winner.",
+      "helperText": "İpucu (Anlamı): Tebrik / Kutlama",
+      "correctAnswer": "A congratulation",
+      "distractors": [
+        "Extra-curricular activity",
+        "Must (rule/obligation)",
+        "A screen"
+      ],
+      "englishDistractors": [
+        "Extra-curricular activity",
+        "Must (rule/obligation)",
+        "A screen"
+      ],
+      "turkishDistractors": [
+        "Okul kulüp / Müfredat dışı etkinlik",
+        "-malı / -meli (Zorunluluk/Kural)",
+        "Ekran"
+      ]
+    },
+    {
+      "id": "q_g7_006",
+      "number": 6,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70006",
+      "english": "To act",
+      "turkish": "Rol yapmak / Oynamak",
+      "exampleSentence": "Ali loves to act in front of an enthusiastic audience.",
+      "blankedSentence": "Ali loves _______ in front of an enthusiastic audience.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70006.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "To act",
+      "helperText": "Örnek: \"Ali loves to act in front of an enthusiastic audience.\"",
+      "correctAnswer": "Rol yapmak / Oynamak",
+      "distractors": [
+        "Kurban Bayramı",
+        "Uygulama",
+        "Elektrik"
+      ],
+      "englishDistractors": [
+        "Festival of Sacrifice (Eid al-Adha)",
+        "An app (application)",
+        "Electricity"
+      ],
+      "turkishDistractors": [
+        "Kurban Bayramı",
+        "Uygulama",
+        "Elektrik"
+      ]
+    },
+    {
+      "id": "q_g7_007",
+      "number": 7,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70007",
+      "english": "To attend",
+      "turkish": "Katılmak",
+      "exampleSentence": "All seventh graders must attend the morning seminar.",
+      "blankedSentence": "All seventh graders must _______ the morning seminar.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70007.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "All seventh graders must _______ the morning seminar.",
+      "helperText": "İpucu (Anlamı): Katılmak",
+      "correctAnswer": "To attend",
+      "distractors": [
+        "Simple Present Tense",
+        "A tool",
+        "A cross"
+      ],
+      "englishDistractors": [
+        "Simple Present Tense",
+        "A tool",
+        "A cross"
+      ],
+      "turkishDistractors": [
+        "Geniş Zaman",
+        "Araç / Gereç",
+        "Çarpı işareti"
+      ]
+    },
+    {
+      "id": "q_g7_008",
+      "number": 8,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70008",
+      "english": "To be keen (on)",
+      "turkish": "Bir şeye düşkün / meraklı olmak",
+      "exampleSentence": "Zeynep is keen on learning foreign languages and coding.",
+      "blankedSentence": "Zeynep is keen _______ learning foreign languages and coding.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70008.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Bir şeye düşkün / meraklı olmak",
+      "helperText": "Örnek: \"Zeynep is keen _______ learning foreign languages and coding.\"",
+      "correctAnswer": "To be keen (on)",
+      "distractors": [
+        "A printer",
+        "To connect",
+        "Understanding"
+      ],
+      "englishDistractors": [
+        "A printer",
+        "To connect",
+        "Understanding"
+      ],
+      "turkishDistractors": [
+        "Yazıcı",
+        "Bağlanmak",
+        "Anlayış / Kavrama"
+      ]
+    },
+    {
+      "id": "q_g7_009",
+      "number": 9,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70009",
+      "english": "Fun",
+      "turkish": "Eğlenceli",
+      "exampleSentence": "Language learning games make vocabulary practice really fun.",
+      "blankedSentence": "Language learning games make vocabulary practice really _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70009.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Language learning games make vocabulary practice really _______.",
+      "helperText": "İpucu (Anlamı): Eğlenceli",
+      "correctAnswer": "Fun",
+      "distractors": [
+        "An error",
+        "A memory",
+        "To pronounce"
+      ],
+      "englishDistractors": [
+        "An error",
+        "A memory",
+        "To pronounce"
+      ],
+      "turkishDistractors": [
+        "Hata",
+        "Hafıza / Anı",
+        "Telaffuz etmek"
+      ]
+    },
+    {
+      "id": "q_g7_010",
+      "number": 10,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70010",
+      "english": "Religious",
+      "turkish": "Dini",
+      "exampleSentence": "We celebrate both national and religious festivals joyfully.",
+      "blankedSentence": "We celebrate both national and _______ festivals joyfully.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70010.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "Religious",
+      "helperText": "Örnek: \"We celebrate both national and religious festivals joyfully.\"",
+      "correctAnswer": "Dini",
+      "distractors": [
+        "Daire / Çember",
+        "Daire içine almak",
+        "Sayma sayıları (500-1000)"
+      ],
+      "englishDistractors": [
+        "A circle",
+        "To circle",
+        "Cardinal numbers (500-1000)"
+      ],
+      "turkishDistractors": [
+        "Daire / Çember",
+        "Daire içine almak",
+        "Sayma sayıları (500-1000)"
+      ]
+    },
+    {
+      "id": "q_g7_011",
+      "number": 11,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70011",
+      "english": "Casual (clothes)",
+      "turkish": "Gündelik / Günlük (kıyafetler)",
+      "exampleSentence": "Students wore casual clothes on the charity day.",
+      "blankedSentence": "Students wore _______ on the charity day.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70011.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Students wore _______ on the charity day.",
+      "helperText": "İpucu (Anlamı): Gündelik / Günlük (kıyafetler)",
+      "correctAnswer": "Casual (clothes)",
+      "distractors": [
+        "A degree",
+        "To play a critical role",
+        "Throw in the towel"
+      ],
+      "englishDistractors": [
+        "A degree",
+        "To play a critical role",
+        "Throw in the towel"
+      ],
+      "turkishDistractors": [
+        "Derece",
+        "Kritik bir rol oynamak",
+        "Pes etmek / Pes bayrağı çekmek"
+      ]
+    },
+    {
+      "id": "q_g7_012",
+      "number": 12,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70012",
+      "english": "Talented",
+      "turkish": "Yetenekli",
+      "exampleSentence": "Our school has many talented musicians and young athletes.",
+      "blankedSentence": "Our school has many _______ musicians and young athletes.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70012.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Yetenekli",
+      "helperText": "Örnek: \"Our school has many _______ musicians and young athletes.\"",
+      "correctAnswer": "Talented",
+      "distractors": [
+        "To present",
+        "Will (for help)",
+        "An exhibition"
+      ],
+      "englishDistractors": [
+        "To present",
+        "Will (for help)",
+        "An exhibition"
+      ],
+      "turkishDistractors": [
+        "Sunmak / Sunum yapmak",
+        "Gelecek zaman eki (Yardım teklifi)",
+        "Sergi"
+      ]
+    },
+    {
+      "id": "q_g7_013",
+      "number": 13,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70013",
+      "english": "An ability",
+      "turkish": "Yetenek / Beceri",
+      "exampleSentence": "Solving complex puzzles requires sharp problem-solving ability.",
+      "blankedSentence": "Solving complex puzzles requires sharp problem-solving _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70013.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Solving complex puzzles requires sharp problem-solving _______.",
+      "helperText": "İpucu (Anlamı): Yetenek / Beceri",
+      "correctAnswer": "An ability",
+      "distractors": [
+        "Confusing",
+        "Schedule",
+        "Casual (clothes)"
+      ],
+      "englishDistractors": [
+        "Confusing",
+        "Schedule",
+        "Casual (clothes)"
+      ],
+      "turkishDistractors": [
+        "Kafa karıştırıcı / Karmaşık",
+        "Plan / Zaman çizelgesi",
+        "Gündelik / Günlük (kıyafetler)"
+      ]
+    },
+    {
+      "id": "q_g7_014",
+      "number": 14,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70014",
+      "english": "An audience",
+      "turkish": "Seyirci / Dinleyici kitlesi",
+      "exampleSentence": "The audience applauded loudly at the end of the choir concert.",
+      "blankedSentence": "The _______ applauded loudly at the end of the choir concert.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70014.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "An audience",
+      "helperText": "Örnek: \"The audience applauded loudly at the end of the choir concert.\"",
+      "correctAnswer": "Seyirci / Dinleyici kitlesi",
+      "distractors": [
+        "Elinden gelenin en iyisini yapmak",
+        "Katılmak",
+        "Ödül"
+      ],
+      "englishDistractors": [
+        "Do your best",
+        "To attend",
+        "A prize"
+      ],
+      "turkishDistractors": [
+        "Elinden gelenin en iyisini yapmak",
+        "Katılmak",
+        "Ödül"
+      ]
+    },
+    {
+      "id": "q_g7_015",
+      "number": 15,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70015",
+      "english": "A competition",
+      "turkish": "Yarışma",
+      "exampleSentence": "Our class entered the inter-school robotic coding competition.",
+      "blankedSentence": "Our class entered the inter-school robotic coding _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70015.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Our class entered the inter-school robotic coding _______.",
+      "helperText": "İpucu (Anlamı): Yarışma",
+      "correctAnswer": "A competition",
+      "distractors": [
+        "Football (Soccer)",
+        "An audience",
+        "To blow (up)"
+      ],
+      "englishDistractors": [
+        "Football (Soccer)",
+        "An audience",
+        "To blow (up)"
+      ],
+      "turkishDistractors": [
+        "Futbol",
+        "Seyirci / Dinleyici kitlesi",
+        "Üflemek / Balon şişirmek"
+      ]
+    },
+    {
+      "id": "q_g7_016",
+      "number": 16,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70016",
+      "english": "First",
+      "turkish": "Birinci / İlk",
+      "exampleSentence": "She finished first in the hundred-metre school race.",
+      "blankedSentence": "She finished _______ in the hundred-metre school race.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70016.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Birinci / İlk",
+      "helperText": "Örnek: \"She finished _______ in the hundred-metre school race.\"",
+      "correctAnswer": "First",
+      "distractors": [
+        "Religious",
+        "A choice",
+        "Extra-curricular activity"
+      ],
+      "englishDistractors": [
+        "Religious",
+        "A choice",
+        "Extra-curricular activity"
+      ],
+      "turkishDistractors": [
+        "Dini",
+        "Seçim / Tercih",
+        "Okul kulüp / Müfredat dışı etkinlik"
+      ]
+    },
+    {
+      "id": "q_g7_017",
+      "number": 17,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70017",
+      "english": "An organization",
+      "turkish": "Organizasyon / Düzenleme",
+      "exampleSentence": "The sports tournament was an impressive school organization.",
+      "blankedSentence": "The sports tournament was an impressive school _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70017.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The sports tournament was an impressive school _______.",
+      "helperText": "İpucu (Anlamı): Organizasyon / Düzenleme",
+      "correctAnswer": "An organization",
+      "distractors": [
+        "A winner",
+        "Fair",
+        "Festival of Sacrifice (Eid al-Adha)"
+      ],
+      "englishDistractors": [
+        "A winner",
+        "Fair",
+        "Festival of Sacrifice (Eid al-Adha)"
+      ],
+      "turkishDistractors": [
+        "Kazanan / Birinci",
+        "Adil / Dürüst",
+        "Kurban Bayramı"
+      ]
+    },
+    {
+      "id": "q_g7_018",
+      "number": 18,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70018",
+      "english": "A winner",
+      "turkish": "Kazanan / Birinci",
+      "exampleSentence": "The principal congratulated the winner of the essay contest.",
+      "blankedSentence": "The principal congratulated the _______ of the essay contest.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70018.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "A winner",
+      "helperText": "Örnek: \"The principal congratulated the winner of the essay contest.\"",
+      "correctAnswer": "Kazanan / Birinci",
+      "distractors": [
+        "Yarışmak",
+        "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+        "Geniş Zaman"
+      ],
+      "englishDistractors": [
+        "To race",
+        "19 May Commemoration of Atatürk, Youth and Sports Day",
+        "Simple Present Tense"
+      ],
+      "turkishDistractors": [
+        "Yarışmak",
+        "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+        "Geniş Zaman"
+      ]
+    },
+    {
+      "id": "q_g7_019",
+      "number": 19,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70019",
+      "english": "A prize",
+      "turkish": "Ödül",
+      "exampleSentence": "The top team received a shining golden trophy as a prize.",
+      "blankedSentence": "The top team received a shining golden trophy as _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70019.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The top team received a shining golden trophy as _______.",
+      "helperText": "İpucu (Anlamı): Ödül",
+      "correctAnswer": "A prize",
+      "distractors": [
+        "Last",
+        "Line leader",
+        "A printer"
+      ],
+      "englishDistractors": [
+        "Last",
+        "Line leader",
+        "A printer"
+      ],
+      "turkishDistractors": [
+        "Sonuncu / Son",
+        "Sıra lideri",
+        "Yazıcı"
+      ]
+    },
+    {
+      "id": "q_g7_020",
+      "number": 20,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70020",
+      "english": "A finish",
+      "turkish": "Bitiş",
+      "exampleSentence": "He ran faster as he approached the race finish line.",
+      "blankedSentence": "He ran faster as he approached the race _______ line.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70020.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Bitiş",
+      "helperText": "Örnek: \"He ran faster as he approached the race _______ line.\"",
+      "correctAnswer": "A finish",
+      "distractors": [
+        "Eid al-Fitr (Eid al-Ramadan)",
+        "Performance assignment",
+        "An error"
+      ],
+      "englishDistractors": [
+        "Eid al-Fitr (Eid al-Ramadan)",
+        "Performance assignment",
+        "An error"
+      ],
+      "turkishDistractors": [
+        "Ramazan Bayramı",
+        "Performans ödevi",
+        "Hata"
+      ]
+    },
+    {
+      "id": "q_g7_021",
+      "number": 21,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70021",
+      "english": "A start",
+      "turkish": "Başlangıç",
+      "exampleSentence": "September marks the exciting start of the new academic term.",
+      "blankedSentence": "September marks the exciting _______ of the new academic term.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70021.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "September marks the exciting _______ of the new academic term.",
+      "helperText": "İpucu (Anlamı): Başlangıç",
+      "correctAnswer": "A start",
+      "distractors": [
+        "Adverbs of frequency",
+        "A tablet",
+        "A circle"
+      ],
+      "englishDistractors": [
+        "Adverbs of frequency",
+        "A tablet",
+        "A circle"
+      ],
+      "turkishDistractors": [
+        "Sıklık zarfları (always, rarely vb.)",
+        "Tablet",
+        "Daire / Çember"
+      ]
+    },
+    {
+      "id": "q_g7_022",
+      "number": 22,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70022",
+      "english": "A choice",
+      "turkish": "Seçim / Tercih",
+      "exampleSentence": "Joining the art club was a wonderful choice for her.",
+      "blankedSentence": "Joining the art club was a wonderful _______ for her.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70022.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "A choice",
+      "helperText": "Örnek: \"Joining the art club was a wonderful choice for her.\"",
+      "correctAnswer": "Seçim / Tercih",
+      "distractors": [
+        "Dizüstü bilgisayar",
+        "Harici bellek / USB bellek",
+        "Derece"
+      ],
+      "englishDistractors": [
+        "A laptop",
+        "External memory",
+        "A degree"
+      ],
+      "turkishDistractors": [
+        "Dizüstü bilgisayar",
+        "Harici bellek / USB bellek",
+        "Derece"
+      ]
+    },
+    {
+      "id": "q_g7_023",
+      "number": 23,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70023",
+      "english": "To beat",
+      "turkish": "Yenmek / Galip gelmek",
+      "exampleSentence": "Our basketball team worked together to beat the rivals.",
+      "blankedSentence": "Our basketball team worked together _______ the rivals.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70023.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Our basketball team worked together _______ the rivals.",
+      "helperText": "İpucu (Anlamı): Yenmek / Galip gelmek",
+      "correctAnswer": "To beat",
+      "distractors": [
+        "A code",
+        "A discussion",
+        "To present"
+      ],
+      "englishDistractors": [
+        "A code",
+        "A discussion",
+        "To present"
+      ],
+      "turkishDistractors": [
+        "Kod / Şifre",
+        "Tartışma",
+        "Sunmak / Sunum yapmak"
+      ]
+    },
+    {
+      "id": "q_g7_024",
+      "number": 24,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70024",
+      "english": "To celebrate",
+      "turkish": "Kutlamak",
+      "exampleSentence": "We gathered to celebrate our high exam scores together.",
+      "blankedSentence": "We gathered _______ our high exam scores together.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70024.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Kutlamak",
+      "helperText": "Örnek: \"We gathered _______ our high exam scores together.\"",
+      "correctAnswer": "To celebrate",
+      "distractors": [
+        "Digital",
+        "Household",
+        "Confusing"
+      ],
+      "englishDistractors": [
+        "Digital",
+        "Household",
+        "Confusing"
+      ],
+      "turkishDistractors": [
+        "Dijital / Sayısal",
+        "Ev halkı / Ev içi",
+        "Kafa karıştırıcı / Karmaşık"
+      ]
+    },
+    {
+      "id": "q_g7_025",
+      "number": 25,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70025",
+      "english": "To race",
+      "turkish": "Yarışmak",
+      "exampleSentence": "Students were eager to race across the sports track.",
+      "blankedSentence": "Students were eager _______ across the sports track.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70025.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Students were eager _______ across the sports track.",
+      "helperText": "İpucu (Anlamı): Yarışmak",
+      "correctAnswer": "To race",
+      "distractors": [
+        "A context",
+        "To be bad at",
+        "Do your best"
+      ],
+      "englishDistractors": [
+        "A context",
+        "To be bad at",
+        "Do your best"
+      ],
+      "turkishDistractors": [
+        "Bağlam / Metin çevresi",
+        "Bir konuda kötü olmak",
+        "Elinden gelenin en iyisini yapmak"
+      ]
+    },
+    {
+      "id": "q_g7_026",
+      "number": 26,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70026",
+      "english": "To blow (up)",
+      "turkish": "Üflemek / Balon şişirmek",
+      "exampleSentence": "We helped blow up colourful balloons to decorate the hall.",
+      "blankedSentence": "We helped _______ colourful balloons to decorate the hall.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70026.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "To blow (up)",
+      "helperText": "Örnek: \"We helped blow up colourful balloons to decorate the hall.\"",
+      "correctAnswer": "Üflemek / Balon şişirmek",
+      "distractors": [
+        "Başarmak",
+        "Düzeltmek / Onarmak",
+        "Futbol"
+      ],
+      "englishDistractors": [
+        "To succeed",
+        "To fix",
+        "Football (Soccer)"
+      ],
+      "turkishDistractors": [
+        "Başarmak",
+        "Düzeltmek / Onarmak",
+        "Futbol"
+      ]
+    },
+    {
+      "id": "q_g7_027",
+      "number": 27,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70027",
+      "english": "To break a record",
+      "turkish": "Rekor kırmak",
+      "exampleSentence": "The young swimmer trained hard to break a national record.",
+      "blankedSentence": "The young swimmer trained hard to _______ a national record.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70027.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The young swimmer trained hard to _______ a national record.",
+      "helperText": "İpucu (Anlamı): Rekor kırmak",
+      "correctAnswer": "To break a record",
+      "distractors": [
+        "Sure",
+        "Double-check",
+        "Religious"
+      ],
+      "englishDistractors": [
+        "Sure",
+        "Double-check",
+        "Religious"
+      ],
+      "turkishDistractors": [
+        "Emin / Elbette",
+        "Tekrar kontrol etmek",
+        "Dini"
+      ]
+    },
+    {
+      "id": "q_g7_028",
+      "number": 28,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70028",
+      "english": "Excellent",
+      "turkish": "Mükemmel / Harika",
+      "exampleSentence": "Your English pronunciation during the presentation was excellent.",
+      "blankedSentence": "Your English pronunciation during the presentation was _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70028.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Mükemmel / Harika",
+      "helperText": "Örnek: \"Your English pronunciation during the presentation was _______.\"",
+      "correctAnswer": "Excellent",
+      "distractors": [
+        "No cutting corners",
+        "To act",
+        "An organization"
+      ],
+      "englishDistractors": [
+        "No cutting corners",
+        "To act",
+        "An organization"
+      ],
+      "turkishDistractors": [
+        "Kolaya kaçmamak / Kestirmeden gitmemek",
+        "Rol yapmak / Oynamak",
+        "Organizasyon / Düzenleme"
+      ]
+    },
+    {
+      "id": "q_g7_029",
+      "number": 29,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70029",
+      "english": "Fair",
+      "turkish": "Adil / Dürüst",
+      "exampleSentence": "A good referee always makes fair decisions during a game.",
+      "blankedSentence": "A good referee always makes _______ decisions during a game.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70029.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "A good referee always makes _______ decisions during a game.",
+      "helperText": "İpucu (Anlamı): Adil / Dürüst",
+      "correctAnswer": "Fair",
+      "distractors": [
+        "A drawing",
+        "An ability",
+        "To celebrate"
+      ],
+      "englishDistractors": [
+        "A drawing",
+        "An ability",
+        "To celebrate"
+      ],
+      "turkishDistractors": [
+        "Çizim / Resim",
+        "Yetenek / Beceri",
+        "Kutlamak"
+      ]
+    },
+    {
+      "id": "q_g7_030",
+      "number": 30,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70030",
+      "english": "Fascinating",
+      "turkish": "Büyüleyici / Çok etkileyici",
+      "exampleSentence": "Our science teacher shared fascinating facts about outer space.",
+      "blankedSentence": "Our science teacher shared _______ facts about outer space.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70030.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "Fascinating",
+      "helperText": "Örnek: \"Our science teacher shared fascinating facts about outer space.\"",
+      "correctAnswer": "Büyüleyici / Çok etkileyici",
+      "distractors": [
+        "Eğlenceli",
+        "Bitiş",
+        "Sonuncu / Son"
+      ],
+      "englishDistractors": [
+        "Fun",
+        "A finish",
+        "Last"
+      ],
+      "turkishDistractors": [
+        "Eğlenceli",
+        "Bitiş",
+        "Sonuncu / Son"
+      ]
+    },
+    {
+      "id": "q_g7_031",
+      "number": 31,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70031",
+      "english": "Fortunately",
+      "turkish": "Neyse ki / Şans eseri",
+      "exampleSentence": "Fortunately, the rain stopped right before our outdoor match.",
+      "blankedSentence": "_______, the rain stopped right before our outdoor match.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70031.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "_______, the rain stopped right before our outdoor match.",
+      "helperText": "İpucu (Anlamı): Neyse ki / Şans eseri",
+      "correctAnswer": "Fortunately",
+      "distractors": [
+        "First",
+        "To break a record",
+        "Eid al-Fitr (Eid al-Ramadan)"
+      ],
+      "englishDistractors": [
+        "First",
+        "To break a record",
+        "Eid al-Fitr (Eid al-Ramadan)"
+      ],
+      "turkishDistractors": [
+        "Birinci / İlk",
+        "Rekor kırmak",
+        "Ramazan Bayramı"
+      ]
+    },
+    {
+      "id": "q_g7_032",
+      "number": 32,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70032",
+      "english": "Last",
+      "turkish": "Sonuncu / Son",
+      "exampleSentence": "This is the last lesson of our busy school timetable.",
+      "blankedSentence": "This is the _______ lesson of our busy school timetable.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70032.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Sonuncu / Son",
+      "helperText": "Örnek: \"This is the _______ lesson of our busy school timetable.\"",
+      "correctAnswer": "Last",
+      "distractors": [
+        "To beat",
+        "23 April National Sovereignty and Children's Day",
+        "Adverbs of frequency"
+      ],
+      "englishDistractors": [
+        "To beat",
+        "23 April National Sovereignty and Children's Day",
+        "Adverbs of frequency"
+      ],
+      "turkishDistractors": [
+        "Yenmek / Galip gelmek",
+        "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı",
+        "Sıklık zarfları (always, rarely vb.)"
+      ]
+    },
+    {
+      "id": "q_g7_033",
+      "number": 33,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70033",
+      "english": "Extra-curricular activity",
+      "turkish": "Okul kulüp / Müfredat dışı etkinlik",
+      "exampleSentence": "Playing chess is my favourite extra-curricular activity.",
+      "blankedSentence": "Playing chess is my favourite _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70033.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Playing chess is my favourite _______.",
+      "helperText": "İpucu (Anlamı): Okul kulüp / Müfredat dışı etkinlik",
+      "correctAnswer": "Extra-curricular activity",
+      "distractors": [
+        "Fascinating",
+        "Non-uniform day",
+        "A laptop"
+      ],
+      "englishDistractors": [
+        "Fascinating",
+        "Non-uniform day",
+        "A laptop"
+      ],
+      "turkishDistractors": [
+        "Büyüleyici / Çok etkileyici",
+        "Serbest kıyafet günü",
+        "Dizüstü bilgisayar"
+      ]
+    },
+    {
+      "id": "q_g7_034",
+      "number": 34,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70034",
+      "english": "29 October Republic Day",
+      "turkish": "29 Ekim Cumhuriyet Bayramı",
+      "exampleSentence": "We proudly celebrate 29 October Republic Day with flags and poems.",
+      "blankedSentence": "We proudly celebrate _______ with flags and poems.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70034.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "29 October Republic Day",
+      "helperText": "Örnek: \"We proudly celebrate 29 October Republic Day with flags and poems.\"",
+      "correctAnswer": "29 Ekim Cumhuriyet Bayramı",
+      "distractors": [
+        "30 Ağustos Zafer Bayramı",
+        "Ses vurgusu / Tonlama",
+        "Kod / Şifre"
+      ],
+      "englishDistractors": [
+        "30 August Victory Day",
+        "Intonation",
+        "A code"
+      ],
+      "turkishDistractors": [
+        "30 Ağustos Zafer Bayramı",
+        "Ses vurgusu / Tonlama",
+        "Kod / Şifre"
+      ]
+    },
+    {
+      "id": "q_g7_035",
+      "number": 35,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70035",
+      "english": "23 April National Sovereignty and Children's Day",
+      "turkish": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı",
+      "exampleSentence": "Children perform folk dances on 23 April National Sovereignty Day.",
+      "blankedSentence": "Children perform folk dances on 23 _______ National Sovereignty Day.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70035.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Children perform folk dances on 23 _______ National Sovereignty Day.",
+      "helperText": "İpucu (Anlamı): 23 Nisan Ulusal Egemenlik ve Çocuk Bayramı",
+      "correctAnswer": "23 April National Sovereignty and Children's Day",
+      "distractors": [
+        "Can't (prohibition)",
+        "A speaker",
+        "Digital"
+      ],
+      "englishDistractors": [
+        "Can't (prohibition)",
+        "A speaker",
+        "Digital"
+      ],
+      "turkishDistractors": [
+        "Yapamaz (Yasaklama)",
+        "Hoparlör",
+        "Dijital / Sayısal"
+      ]
+    },
+    {
+      "id": "q_g7_036",
+      "number": 36,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70036",
+      "english": "19 May Commemoration of Atatürk, Youth and Sports Day",
+      "turkish": "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+      "exampleSentence": "Youth across the nation celebrate 19 May with athletic shows.",
+      "blankedSentence": "Youth across the nation celebrate 19 _______ with athletic shows.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70036.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+      "helperText": "Örnek: \"Youth across the nation celebrate 19 _______ with athletic shows.\"",
+      "correctAnswer": "19 May Commemoration of Atatürk, Youth and Sports Day",
+      "distractors": [
+        "A mobile device",
+        "A virus",
+        "A context"
+      ],
+      "englishDistractors": [
+        "A mobile device",
+        "A virus",
+        "A context"
+      ],
+      "turkishDistractors": [
+        "Taşınabilir / Mobil cihaz",
+        "Virüs",
+        "Bağlam / Metin çevresi"
+      ]
+    },
+    {
+      "id": "q_g7_037",
+      "number": 37,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70037",
+      "english": "15 July Democracy and National Unity Day",
+      "turkish": "15 Temmuz Demokrasi ve Milli Birlik Günü",
+      "exampleSentence": "We commemorate 15 July Democracy Day with respect.",
+      "blankedSentence": "We commemorate 15 _______ Democracy Day with respect.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70037.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "We commemorate 15 _______ Democracy Day with respect.",
+      "helperText": "İpucu (Anlamı): 15 Temmuz Demokrasi ve Milli Birlik Günü",
+      "correctAnswer": "15 July Democracy and National Unity Day",
+      "distractors": [
+        "A website",
+        "A decision",
+        "To succeed"
+      ],
+      "englishDistractors": [
+        "A website",
+        "A decision",
+        "To succeed"
+      ],
+      "turkishDistractors": [
+        "Web sitesi",
+        "Karar",
+        "Başarmak"
+      ]
+    },
+    {
+      "id": "q_g7_038",
+      "number": 38,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70038",
+      "english": "30 August Victory Day",
+      "turkish": "30 Ağustos Zafer Bayramı",
+      "exampleSentence": "A grand military parade takes place on 30 August Victory Day.",
+      "blankedSentence": "A grand military parade takes place on _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70038.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "30 August Victory Day",
+      "helperText": "Örnek: \"A grand military parade takes place on 30 August Victory Day.\"",
+      "correctAnswer": "30 Ağustos Zafer Bayramı",
+      "distractors": [
+        "Yazdırmak / Çıktı almak",
+        "Canlı yayın / Veri akışı",
+        "Emin / Elbette"
+      ],
+      "englishDistractors": [
+        "To print",
+        "Streaming",
+        "Sure"
+      ],
+      "turkishDistractors": [
+        "Yazdırmak / Çıktı almak",
+        "Canlı yayın / Veri akışı",
+        "Emin / Elbette"
+      ]
+    },
+    {
+      "id": "q_g7_039",
+      "number": 39,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70039",
+      "english": "Eid al-Fitr (Eid al-Ramadan)",
+      "turkish": "Ramazan Bayramı",
+      "exampleSentence": "Families visit relatives and share traditional sweets during Eid al-Fitr.",
+      "blankedSentence": "Families visit relatives and share traditional sweets during _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70039.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Families visit relatives and share traditional sweets during _______.",
+      "helperText": "İpucu (Anlamı): Ramazan Bayramı",
+      "correctAnswer": "Eid al-Fitr (Eid al-Ramadan)",
+      "distractors": [
+        "A speech",
+        "To be good at",
+        "No cutting corners"
+      ],
+      "englishDistractors": [
+        "A speech",
+        "To be good at",
+        "No cutting corners"
+      ],
+      "turkishDistractors": [
+        "Konuşma / Nutuk",
+        "Bir konuda iyi olmak",
+        "Kolaya kaçmamak / Kestirmeden gitmemek"
+      ]
+    },
+    {
+      "id": "q_g7_040",
+      "number": 40,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70040",
+      "english": "Festival of Sacrifice (Eid al-Adha)",
+      "turkish": "Kurban Bayramı",
+      "exampleSentence": "People share food and show charity during the Festival of Sacrifice.",
+      "blankedSentence": "People share food and show charity during the _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70040.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Kurban Bayramı",
+      "helperText": "Örnek: \"People share food and show charity during the _______.\"",
+      "correctAnswer": "Festival of Sacrifice (Eid al-Adha)",
+      "distractors": [
+        "To express",
+        "Ordinal numbers (50-100)",
+        "A drawing"
+      ],
+      "englishDistractors": [
+        "To express",
+        "Ordinal numbers (50-100)",
+        "A drawing"
+      ],
+      "turkishDistractors": [
+        "İfade etmek",
+        "Sıra sayıları (50th-100th)",
+        "Çizim / Resim"
+      ]
+    },
+    {
+      "id": "q_g7_041",
+      "number": 41,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70041",
+      "english": "Timetable",
+      "turkish": "Ders programı",
+      "exampleSentence": "Check the weekly timetable to prepare the right school books.",
+      "blankedSentence": "Check the weekly _______ to prepare the right school books.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70041.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Check the weekly _______ to prepare the right school books.",
+      "helperText": "İpucu (Anlamı): Ders programı",
+      "correctAnswer": "Timetable",
+      "distractors": [
+        "Correctly",
+        "Slow down",
+        "Fun"
+      ],
+      "englishDistractors": [
+        "Correctly",
+        "Slow down",
+        "Fun"
+      ],
+      "turkishDistractors": [
+        "Doğru bir şekilde",
+        "Yavaşlamak",
+        "Eğlenceli"
+      ]
+    },
+    {
+      "id": "q_g7_042",
+      "number": 42,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70042",
+      "english": "Non-uniform day",
+      "turkish": "Serbest kıyafet günü",
+      "exampleSentence": "Students are excited to wear their casual sweaters on non-uniform day.",
+      "blankedSentence": "Students are excited to wear their casual sweaters on _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70042.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "Non-uniform day",
+      "helperText": "Örnek: \"Students are excited to wear their casual sweaters on non-uniform day.\"",
+      "correctAnswer": "Serbest kıyafet günü",
+      "distractors": [
+        "Onay soruları (don't you?, aren't they?)",
+        "Tebrik / Kutlama",
+        "Birinci / İlk"
+      ],
+      "englishDistractors": [
+        "Question tags",
+        "A congratulation",
+        "First"
+      ],
+      "turkishDistractors": [
+        "Onay soruları (don't you?, aren't they?)",
+        "Tebrik / Kutlama",
+        "Birinci / İlk"
+      ]
+    },
+    {
+      "id": "q_g7_043",
+      "number": 43,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70043",
+      "english": "Line leader",
+      "turkish": "Sıra lideri",
+      "exampleSentence": "The line leader guides classmates quietly into the assembly hall.",
+      "blankedSentence": "The _______ guides classmates quietly into the assembly hall.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70043.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The _______ guides classmates quietly into the assembly hall.",
+      "helperText": "İpucu (Anlamı): Sıra lideri",
+      "correctAnswer": "Line leader",
+      "distractors": [
+        "A drama play",
+        "Talented",
+        "To beat"
+      ],
+      "englishDistractors": [
+        "A drama play",
+        "Talented",
+        "To beat"
+      ],
+      "turkishDistractors": [
+        "Tiyatro oyunu",
+        "Yetenekli",
+        "Yenmek / Galip gelmek"
+      ]
+    },
+    {
+      "id": "q_g7_044",
+      "number": 44,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70044",
+      "english": "Must (rule/obligation)",
+      "turkish": "-malı / -meli (Zorunluluk/Kural)",
+      "exampleSentence": "You must listen to the teacher attentively during the lesson.",
+      "blankedSentence": "You _______ listen to the teacher attentively during the lesson.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70044.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "-malı / -meli (Zorunluluk/Kural)",
+      "helperText": "Örnek: \"You _______ listen to the teacher attentively during the lesson.\"",
+      "correctAnswer": "Must (rule/obligation)",
+      "distractors": [
+        "To be keen (on)",
+        "A prize",
+        "Fascinating"
+      ],
+      "englishDistractors": [
+        "To be keen (on)",
+        "A prize",
+        "Fascinating"
+      ],
+      "turkishDistractors": [
+        "Bir şeye düşkün / meraklı olmak",
+        "Ödül",
+        "Büyüleyici / Çok etkileyici"
+      ]
+    },
+    {
+      "id": "q_g7_045",
+      "number": 45,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70045",
+      "english": "Can't (prohibition)",
+      "turkish": "Yapamaz (Yasaklama)",
+      "exampleSentence": "Students can't use mobile phones during classroom exams.",
+      "blankedSentence": "Students _______ use mobile phones during classroom exams.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70045.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Students _______ use mobile phones during classroom exams.",
+      "helperText": "İpucu (Anlamı): Yapamaz (Yasaklama)",
+      "correctAnswer": "Can't (prohibition)",
+      "distractors": [
+        "A competition",
+        "To blow (up)",
+        "15 July Democracy and National Unity Day"
+      ],
+      "englishDistractors": [
+        "A competition",
+        "To blow (up)",
+        "15 July Democracy and National Unity Day"
+      ],
+      "turkishDistractors": [
+        "Yarışma",
+        "Üflemek / Balon şişirmek",
+        "15 Temmuz Demokrasi ve Milli Birlik Günü"
+      ]
+    },
+    {
+      "id": "q_g7_046",
+      "number": 46,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70046",
+      "english": "Adverbs of frequency",
+      "turkish": "Sıklık zarfları (always, rarely vb.)",
+      "exampleSentence": "Words like always, usually, and rarely are adverbs of frequency.",
+      "blankedSentence": "Words like always, usually, and rarely are _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70046.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "Adverbs of frequency",
+      "helperText": "Örnek: \"Words like always, usually, and rarely are adverbs of frequency.\"",
+      "correctAnswer": "Sıklık zarfları (always, rarely vb.)",
+      "distractors": [
+        "Seçim / Tercih",
+        "Okul kulüp / Müfredat dışı etkinlik",
+        "-malı / -meli (Zorunluluk/Kural)"
+      ],
+      "englishDistractors": [
+        "A choice",
+        "Extra-curricular activity",
+        "Must (rule/obligation)"
+      ],
+      "turkishDistractors": [
+        "Seçim / Tercih",
+        "Okul kulüp / Müfredat dışı etkinlik",
+        "-malı / -meli (Zorunluluk/Kural)"
+      ]
+    },
+    {
+      "id": "q_g7_047",
+      "number": 47,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70047",
+      "english": "Simple Present Tense",
+      "turkish": "Geniş Zaman",
+      "exampleSentence": "We use the Simple Present Tense to describe our daily routines.",
+      "blankedSentence": "We use the _______ to describe our daily routines.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70047.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "We use the _______ to describe our daily routines.",
+      "helperText": "İpucu (Anlamı): Geniş Zaman",
+      "correctAnswer": "Simple Present Tense",
+      "distractors": [
+        "Fair",
+        "Festival of Sacrifice (Eid al-Adha)",
+        "A mobile device"
+      ],
+      "englishDistractors": [
+        "Fair",
+        "Festival of Sacrifice (Eid al-Adha)",
+        "A mobile device"
+      ],
+      "turkishDistractors": [
+        "Adil / Dürüst",
+        "Kurban Bayramı",
+        "Taşınabilir / Mobil cihaz"
+      ]
+    },
+    {
+      "id": "q_g7_048",
+      "number": 48,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70048",
+      "english": "Present Progressive Tense",
+      "turkish": "Şimdiki Zaman",
+      "exampleSentence": "The Present Progressive Tense expresses actions happening right now.",
+      "blankedSentence": "The _______ expresses actions happening right now.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70048.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Şimdiki Zaman",
+      "helperText": "Örnek: \"The _______ expresses actions happening right now.\"",
+      "correctAnswer": "Present Progressive Tense",
+      "distractors": [
+        "19 May Commemoration of Atatürk, Youth and Sports Day",
+        "Simple Present Tense",
+        "A website"
+      ],
+      "englishDistractors": [
+        "19 May Commemoration of Atatürk, Youth and Sports Day",
+        "Simple Present Tense",
+        "A website"
+      ],
+      "turkishDistractors": [
+        "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+        "Geniş Zaman",
+        "Web sitesi"
+      ]
+    },
+    {
+      "id": "q_g7_049",
+      "number": 49,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70049",
+      "english": "Intonation",
+      "turkish": "Ses vurgusu / Tonlama",
+      "exampleSentence": "Proper intonation makes your spoken English sound natural and clear.",
+      "blankedSentence": "Proper _______ makes your spoken English sound natural and clear.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70049.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Proper _______ makes your spoken English sound natural and clear.",
+      "helperText": "İpucu (Anlamı): Ses vurgusu / Tonlama",
+      "correctAnswer": "Intonation",
+      "distractors": [
+        "Line leader",
+        "A screen",
+        "To print"
+      ],
+      "englishDistractors": [
+        "Line leader",
+        "A screen",
+        "To print"
+      ],
+      "turkishDistractors": [
+        "Sıra lideri",
+        "Ekran",
+        "Yazdırmak / Çıktı almak"
+      ]
+    },
+    {
+      "id": "q_g7_050",
+      "number": 50,
+      "grade": 7,
+      "unitNo": 1,
+      "unitName": "School Life & Education",
+      "cefr": "A2",
+      "wordId": "w_70050",
+      "english": "Performance assignment",
+      "turkish": "Performans ödevi",
+      "exampleSentence": "We researched historical inventions for our term performance assignment.",
+      "blankedSentence": "We researched historical inventions for our term _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70050.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "Performance assignment",
+      "helperText": "Örnek: \"We researched historical inventions for our term performance assignment.\"",
+      "correctAnswer": "Performans ödevi",
+      "distractors": [
+        "Uygulama",
+        "Elektrik",
+        "Konuşma / Nutuk"
+      ],
+      "englishDistractors": [
+        "An app (application)",
+        "Electricity",
+        "A speech"
+      ],
+      "turkishDistractors": [
+        "Uygulama",
+        "Elektrik",
+        "Konuşma / Nutuk"
+      ]
+    },
+    {
+      "id": "q_g7_051",
+      "number": 51,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70051",
+      "english": "An app (application)",
+      "turkish": "Uygulama",
+      "exampleSentence": "This vocabulary app helps me revise fifty English words a day.",
+      "blankedSentence": "This vocabulary _______ helps me revise fifty English words a day.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70051.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "This vocabulary _______ helps me revise fifty English words a day.",
+      "helperText": "İpucu (Anlamı): Uygulama",
+      "correctAnswer": "An app (application)",
+      "distractors": [
+        "To be keen (on)",
+        "A prize",
+        "Fascinating"
+      ],
+      "englishDistractors": [
+        "To be keen (on)",
+        "A prize",
+        "Fascinating"
+      ],
+      "turkishDistractors": [
+        "Bir şeye düşkün / meraklı olmak",
+        "Ödül",
+        "Büyüleyici / Çok etkileyici"
+      ]
+    },
+    {
+      "id": "q_g7_052",
+      "number": 52,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70052",
+      "english": "A mobile device",
+      "turkish": "Taşınabilir / Mobil cihaz",
+      "exampleSentence": "You can connect your mobile device to the school's smart projector.",
+      "blankedSentence": "You can connect your _______ to the school's smart projector.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70052.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Taşınabilir / Mobil cihaz",
+      "helperText": "Örnek: \"You can connect your _______ to the school's smart projector.\"",
+      "correctAnswer": "A mobile device",
+      "distractors": [
+        "A competition",
+        "To blow (up)",
+        "15 July Democracy and National Unity Day"
+      ],
+      "englishDistractors": [
+        "A competition",
+        "To blow (up)",
+        "15 July Democracy and National Unity Day"
+      ],
+      "turkishDistractors": [
+        "Yarışma",
+        "Üflemek / Balon şişirmek",
+        "15 Temmuz Demokrasi ve Milli Birlik Günü"
+      ]
+    },
+    {
+      "id": "q_g7_053",
+      "number": 53,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70053",
+      "english": "A laptop",
+      "turkish": "Dizüstü bilgisayar",
+      "exampleSentence": "He carries a lightweight laptop for his digital assignments.",
+      "blankedSentence": "He carries a lightweight _______ for his digital assignments.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70053.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "He carries a lightweight _______ for his digital assignments.",
+      "helperText": "İpucu (Anlamı): Dizüstü bilgisayar",
+      "correctAnswer": "A laptop",
+      "distractors": [
+        "A choice",
+        "Extra-curricular activity",
+        "Must (rule/obligation)"
+      ],
+      "englishDistractors": [
+        "A choice",
+        "Extra-curricular activity",
+        "Must (rule/obligation)"
+      ],
+      "turkishDistractors": [
+        "Seçim / Tercih",
+        "Okul kulüp / Müfredat dışı etkinlik",
+        "-malı / -meli (Zorunluluk/Kural)"
+      ]
+    },
+    {
+      "id": "q_g7_054",
+      "number": 54,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70054",
+      "english": "A printer",
+      "turkish": "Yazıcı",
+      "exampleSentence": "The secretary used the printer to produce the project handouts.",
+      "blankedSentence": "The secretary used the _______ to produce the project handouts.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70054.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "A printer",
+      "helperText": "Örnek: \"The secretary used the printer to produce the project handouts.\"",
+      "correctAnswer": "Yazıcı",
+      "distractors": [
+        "Adil / Dürüst",
+        "Kurban Bayramı",
+        "Uygulama"
+      ],
+      "englishDistractors": [
+        "Fair",
+        "Festival of Sacrifice (Eid al-Adha)",
+        "An app (application)"
+      ],
+      "turkishDistractors": [
+        "Adil / Dürüst",
+        "Kurban Bayramı",
+        "Uygulama"
+      ]
+    },
+    {
+      "id": "q_g7_055",
+      "number": 55,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70055",
+      "english": "A screen",
+      "turkish": "Ekran",
+      "exampleSentence": "Look at the interactive screen to see the grammatical table.",
+      "blankedSentence": "Look at the interactive _______ to see the grammatical table.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70055.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Look at the interactive _______ to see the grammatical table.",
+      "helperText": "İpucu (Anlamı): Ekran",
+      "correctAnswer": "A screen",
+      "distractors": [
+        "19 May Commemoration of Atatürk, Youth and Sports Day",
+        "Simple Present Tense",
+        "A website"
+      ],
+      "englishDistractors": [
+        "19 May Commemoration of Atatürk, Youth and Sports Day",
+        "Simple Present Tense",
+        "A website"
+      ],
+      "turkishDistractors": [
+        "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+        "Geniş Zaman",
+        "Web sitesi"
+      ]
+    },
+    {
+      "id": "q_g7_056",
+      "number": 56,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70056",
+      "english": "A speaker",
+      "turkish": "Hoparlör",
+      "exampleSentence": "The teacher turned on the speaker so everyone could hear the audio.",
+      "blankedSentence": "The teacher turned on the _______ so everyone could hear the audio.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70056.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Hoparlör",
+      "helperText": "Örnek: \"The teacher turned on the _______ so everyone could hear the audio.\"",
+      "correctAnswer": "A speaker",
+      "distractors": [
+        "Line leader",
+        "A printer",
+        "To print"
+      ],
+      "englishDistractors": [
+        "Line leader",
+        "A printer",
+        "To print"
+      ],
+      "turkishDistractors": [
+        "Sıra lideri",
+        "Yazıcı",
+        "Yazdırmak / Çıktı almak"
+      ]
+    },
+    {
+      "id": "q_g7_057",
+      "number": 57,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70057",
+      "english": "A tablet",
+      "turkish": "Tablet",
+      "exampleSentence": "We read interactive digital storybooks on our classroom tablet.",
+      "blankedSentence": "We read interactive digital storybooks on our classroom _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70057.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "We read interactive digital storybooks on our classroom _______.",
+      "helperText": "İpucu (Anlamı): Tablet",
+      "correctAnswer": "A tablet",
+      "distractors": [
+        "Performance assignment",
+        "Electricity",
+        "A speech"
+      ],
+      "englishDistractors": [
+        "Performance assignment",
+        "Electricity",
+        "A speech"
+      ],
+      "turkishDistractors": [
+        "Performans ödevi",
+        "Elektrik",
+        "Konuşma / Nutuk"
+      ]
+    },
+    {
+      "id": "q_g7_058",
+      "number": 58,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70058",
+      "english": "A tool",
+      "turkish": "Araç / Gereç",
+      "exampleSentence": "The internet is a powerful learning tool when used wisely.",
+      "blankedSentence": "The internet is a powerful learning _______ when used wisely.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70058.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "A tool",
+      "helperText": "Örnek: \"The internet is a powerful learning tool when used wisely.\"",
+      "correctAnswer": "Araç / Gereç",
+      "distractors": [
+        "Tablet",
+        "Çarpı işareti",
+        "İfade etmek"
+      ],
+      "englishDistractors": [
+        "A tablet",
+        "A cross",
+        "To express"
+      ],
+      "turkishDistractors": [
+        "Tablet",
+        "Çarpı işareti",
+        "İfade etmek"
+      ]
+    },
+    {
+      "id": "q_g7_059",
+      "number": 59,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70059",
+      "english": "A website",
+      "turkish": "Web sitesi",
+      "exampleSentence": "Memolandum is an educational website designed for fun language learning.",
+      "blankedSentence": "Memolandum is an educational _______ designed for fun language learning.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70059.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Memolandum is an educational _______ designed for fun language learning.",
+      "helperText": "İpucu (Anlamı): Web sitesi",
+      "correctAnswer": "A website",
+      "distractors": [
+        "To connect",
+        "Understanding",
+        "Correctly"
+      ],
+      "englishDistractors": [
+        "To connect",
+        "Understanding",
+        "Correctly"
+      ],
+      "turkishDistractors": [
+        "Bağlanmak",
+        "Anlayış / Kavrama",
+        "Doğru bir şekilde"
+      ]
+    },
+    {
+      "id": "q_g7_060",
+      "number": 60,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70060",
+      "english": "A code",
+      "turkish": "Kod / Şifre",
+      "exampleSentence": "In technology class, seventh graders write Python code.",
+      "blankedSentence": "In technology class, seventh graders write Python _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70060.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Kod / Şifre",
+      "helperText": "Örnek: \"In technology class, seventh graders write Python _______.\"",
+      "correctAnswer": "A code",
+      "distractors": [
+        "A memory",
+        "To pronounce",
+        "Question tags"
+      ],
+      "englishDistractors": [
+        "A memory",
+        "To pronounce",
+        "Question tags"
+      ],
+      "turkishDistractors": [
+        "Hafıza / Anı",
+        "Telaffuz etmek",
+        "Onay soruları (don't you?, aren't they?)"
+      ]
+    },
+    {
+      "id": "q_g7_061",
+      "number": 61,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70061",
+      "english": "An error",
+      "turkish": "Hata",
+      "exampleSentence": "Learning from a grammar error helps you become a better speaker.",
+      "blankedSentence": "Learning from a grammar _______ helps you become a better speaker.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70061.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Learning from a grammar _______ helps you become a better speaker.",
+      "helperText": "İpucu (Anlamı): Hata",
+      "correctAnswer": "An error",
+      "distractors": [
+        "To circle",
+        "Cardinal numbers (500-1000)",
+        "A drama play"
+      ],
+      "englishDistractors": [
+        "To circle",
+        "Cardinal numbers (500-1000)",
+        "A drama play"
+      ],
+      "turkishDistractors": [
+        "Daire içine almak",
+        "Sayma sayıları (500-1000)",
+        "Tiyatro oyunu"
+      ]
+    },
+    {
+      "id": "q_g7_062",
+      "number": 62,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70062",
+      "english": "Electricity",
+      "turkish": "Elektrik",
+      "exampleSentence": "Solar panels generate clean electricity for our modern school.",
+      "blankedSentence": "Solar panels generate clean _______ for our modern school.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70062.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "Electricity",
+      "helperText": "Örnek: \"Solar panels generate clean electricity for our modern school.\"",
+      "correctAnswer": "Elektrik",
+      "distractors": [
+        "Kritik bir rol oynamak",
+        "Pes etmek / Pes bayrağı çekmek",
+        "Bir şeye düşkün / meraklı olmak"
+      ],
+      "englishDistractors": [
+        "To play a critical role",
+        "Throw in the towel",
+        "To be keen (on)"
+      ],
+      "turkishDistractors": [
+        "Kritik bir rol oynamak",
+        "Pes etmek / Pes bayrağı çekmek",
+        "Bir şeye düşkün / meraklı olmak"
+      ]
+    },
+    {
+      "id": "q_g7_063",
+      "number": 63,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70063",
+      "english": "A virus",
+      "turkish": "Virüs",
+      "exampleSentence": "Keep your computer protected against any malicious digital virus.",
+      "blankedSentence": "Keep your computer protected against any malicious digital _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70063.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Keep your computer protected against any malicious digital _______.",
+      "helperText": "İpucu (Anlamı): Virüs",
+      "correctAnswer": "A virus",
+      "distractors": [
+        "Will (for help)",
+        "An exhibition",
+        "A competition"
+      ],
+      "englishDistractors": [
+        "Will (for help)",
+        "An exhibition",
+        "A competition"
+      ],
+      "turkishDistractors": [
+        "Gelecek zaman eki (Yardım teklifi)",
+        "Sergi",
+        "Yarışma"
+      ]
+    },
+    {
+      "id": "q_g7_064",
+      "number": 64,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70064",
+      "english": "External memory",
+      "turkish": "Harici bellek / USB bellek",
+      "exampleSentence": "I backed up my multimedia presentation on an external memory stick.",
+      "blankedSentence": "I backed up my multimedia presentation on an _______ stick.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70064.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Harici bellek / USB bellek",
+      "helperText": "Örnek: \"I backed up my multimedia presentation on an _______ stick.\"",
+      "correctAnswer": "External memory",
+      "distractors": [
+        "Schedule",
+        "Casual (clothes)",
+        "A choice"
+      ],
+      "englishDistractors": [
+        "Schedule",
+        "Casual (clothes)",
+        "A choice"
+      ],
+      "turkishDistractors": [
+        "Plan / Zaman çizelgesi",
+        "Gündelik / Günlük (kıyafetler)",
+        "Seçim / Tercih"
+      ]
+    },
+    {
+      "id": "q_g7_065",
+      "number": 65,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70065",
+      "english": "To connect",
+      "turkish": "Bağlanmak",
+      "exampleSentence": "Our tablets connect quickly to the secure school Wi-Fi network.",
+      "blankedSentence": "Our tablets _______ quickly to the secure school Wi-Fi network.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70065.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Our tablets _______ quickly to the secure school Wi-Fi network.",
+      "helperText": "İpucu (Anlamı): Bağlanmak",
+      "correctAnswer": "To connect",
+      "distractors": [
+        "To attend",
+        "A winner",
+        "Fair"
+      ],
+      "englishDistractors": [
+        "To attend",
+        "A winner",
+        "Fair"
+      ],
+      "turkishDistractors": [
+        "Katılmak",
+        "Kazanan / Birinci",
+        "Adil / Dürüst"
+      ]
+    },
+    {
+      "id": "q_g7_066",
+      "number": 66,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70066",
+      "english": "To print",
+      "turkish": "Yazdırmak / Çıktı almak",
+      "exampleSentence": "Please print two copies of the reading worksheet.",
+      "blankedSentence": "Please _______ two copies of the reading worksheet.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70066.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "To print",
+      "helperText": "Örnek: \"Please print two copies of the reading worksheet.\"",
+      "correctAnswer": "Yazdırmak / Çıktı almak",
+      "distractors": [
+        "Seyirci / Dinleyici kitlesi",
+        "Yarışmak",
+        "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı"
+      ],
+      "englishDistractors": [
+        "An audience",
+        "To race",
+        "19 May Commemoration of Atatürk, Youth and Sports Day"
+      ],
+      "turkishDistractors": [
+        "Seyirci / Dinleyici kitlesi",
+        "Yarışmak",
+        "19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı"
+      ]
+    },
+    {
+      "id": "q_g7_067",
+      "number": 67,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70067",
+      "english": "Digital",
+      "turkish": "Dijital / Sayısal",
+      "exampleSentence": "Digital flashcards make reviewing vocabulary much more effective.",
+      "blankedSentence": "_______ flashcards make reviewing vocabulary much more effective.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70067.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "_______ flashcards make reviewing vocabulary much more effective.",
+      "helperText": "İpucu (Anlamı): Dijital / Sayısal",
+      "correctAnswer": "Digital",
+      "distractors": [
+        "A start",
+        "Last",
+        "Line leader"
+      ],
+      "englishDistractors": [
+        "A start",
+        "Last",
+        "Line leader"
+      ],
+      "turkishDistractors": [
+        "Başlangıç",
+        "Sonuncu / Son",
+        "Sıra lideri"
+      ]
+    },
+    {
+      "id": "q_g7_068",
+      "number": 68,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70068",
+      "english": "A circle",
+      "turkish": "Daire / Çember",
+      "exampleSentence": "Draw a neat circle around the correct multiple-choice option.",
+      "blankedSentence": "Draw a neat _______ around the correct multiple-choice option.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70068.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Daire / Çember",
+      "helperText": "Örnek: \"Draw a neat _______ around the correct multiple-choice option.\"",
+      "correctAnswer": "A circle",
+      "distractors": [
+        "Excellent",
+        "Eid al-Fitr (Eid al-Ramadan)",
+        "Performance assignment"
+      ],
+      "englishDistractors": [
+        "Excellent",
+        "Eid al-Fitr (Eid al-Ramadan)",
+        "Performance assignment"
+      ],
+      "turkishDistractors": [
+        "Mükemmel / Harika",
+        "Ramazan Bayramı",
+        "Performans ödevi"
+      ]
+    },
+    {
+      "id": "q_g7_069",
+      "number": 69,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70069",
+      "english": "A cross",
+      "turkish": "Çarpı işareti",
+      "exampleSentence": "Put a cross next to the statements that are not true.",
+      "blankedSentence": "Put _______ next to the statements that are not true.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70069.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Put _______ next to the statements that are not true.",
+      "helperText": "İpucu (Anlamı): Çarpı işareti",
+      "correctAnswer": "A cross",
+      "distractors": [
+        "23 April National Sovereignty and Children's Day",
+        "Adverbs of frequency",
+        "A tablet"
+      ],
+      "englishDistractors": [
+        "23 April National Sovereignty and Children's Day",
+        "Adverbs of frequency",
+        "A tablet"
+      ],
+      "turkishDistractors": [
+        "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı",
+        "Sıklık zarfları (always, rarely vb.)",
+        "Tablet"
+      ]
+    },
+    {
+      "id": "q_g7_070",
+      "number": 70,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70070",
+      "english": "A decision",
+      "turkish": "Karar",
+      "exampleSentence": "Choosing your study schedule is an important personal decision.",
+      "blankedSentence": "Choosing your study schedule is an important personal _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70070.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "A decision",
+      "helperText": "Örnek: \"Choosing your study schedule is an important personal decision.\"",
+      "correctAnswer": "Karar",
+      "distractors": [
+        "Serbest kıyafet günü",
+        "Dizüstü bilgisayar",
+        "Harici bellek / USB bellek"
+      ],
+      "englishDistractors": [
+        "Non-uniform day",
+        "A laptop",
+        "External memory"
+      ],
+      "turkishDistractors": [
+        "Serbest kıyafet günü",
+        "Dizüstü bilgisayar",
+        "Harici bellek / USB bellek"
+      ]
+    },
+    {
+      "id": "q_g7_071",
+      "number": 71,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70071",
+      "english": "A discussion",
+      "turkish": "Tartışma",
+      "exampleSentence": "Our English class had an engaging discussion about online safety.",
+      "blankedSentence": "Our English class had an engaging _______ about online safety.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70071.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Our English class had an engaging _______ about online safety.",
+      "helperText": "İpucu (Anlamı): Tartışma",
+      "correctAnswer": "A discussion",
+      "distractors": [
+        "Intonation",
+        "A code",
+        "A memory"
+      ],
+      "englishDistractors": [
+        "Intonation",
+        "A code",
+        "A memory"
+      ],
+      "turkishDistractors": [
+        "Ses vurgusu / Tonlama",
+        "Kod / Şifre",
+        "Hafıza / Anı"
+      ]
+    },
+    {
+      "id": "q_g7_072",
+      "number": 72,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70072",
+      "english": "A memory",
+      "turkish": "Hafıza / Anı",
+      "exampleSentence": "Playing educational games strengthens your long-term memory.",
+      "blankedSentence": "Playing educational games strengthens your long-term _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70072.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Hafıza / Anı",
+      "helperText": "Örnek: \"Playing educational games strengthens your long-term _______.\"",
+      "correctAnswer": "A memory",
+      "distractors": [
+        "A speaker",
+        "Digital",
+        "To circle"
+      ],
+      "englishDistractors": [
+        "A speaker",
+        "Digital",
+        "To circle"
+      ],
+      "turkishDistractors": [
+        "Hoparlör",
+        "Dijital / Sayısal",
+        "Daire içine almak"
+      ]
+    },
+    {
+      "id": "q_g7_073",
+      "number": 73,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70073",
+      "english": "A speech",
+      "turkish": "Konuşma / Nutuk",
+      "exampleSentence": "The headmaster delivered an inspiring speech at graduation.",
+      "blankedSentence": "The headmaster delivered an inspiring _______ at graduation.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70073.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The headmaster delivered an inspiring _______ at graduation.",
+      "helperText": "İpucu (Anlamı): Konuşma / Nutuk",
+      "correctAnswer": "A speech",
+      "distractors": [
+        "A virus",
+        "A degree",
+        "To play a critical role"
+      ],
+      "englishDistractors": [
+        "A virus",
+        "A degree",
+        "To play a critical role"
+      ],
+      "turkishDistractors": [
+        "Virüs",
+        "Derece",
+        "Kritik bir rol oynamak"
+      ]
+    },
+    {
+      "id": "q_g7_074",
+      "number": 74,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70074",
+      "english": "A context",
+      "turkish": "Bağlam / Metin çevresi",
+      "exampleSentence": "Always try to guess the meaning of new words in their context.",
+      "blankedSentence": "Always try to guess the meaning of new words in their _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70074.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "A context",
+      "helperText": "Örnek: \"Always try to guess the meaning of new words in their context.\"",
+      "correctAnswer": "Bağlam / Metin çevresi",
+      "distractors": [
+        "Karar",
+        "Sunmak / Sunum yapmak",
+        "Gelecek zaman eki (Yardım teklifi)"
+      ],
+      "englishDistractors": [
+        "A decision",
+        "To present",
+        "Will (for help)"
+      ],
+      "turkishDistractors": [
+        "Karar",
+        "Sunmak / Sunum yapmak",
+        "Gelecek zaman eki (Yardım teklifi)"
+      ]
+    },
+    {
+      "id": "q_g7_075",
+      "number": 75,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70075",
+      "english": "A degree",
+      "turkish": "Derece",
+      "exampleSentence": "The classroom thermometer shows twenty-two degrees Celsius.",
+      "blankedSentence": "The classroom thermometer shows twenty-two _______ Celsius.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70075.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The classroom thermometer shows twenty-two _______ Celsius.",
+      "helperText": "İpucu (Anlamı): Derece",
+      "correctAnswer": "A degree",
+      "distractors": [
+        "Household",
+        "Confusing",
+        "Schedule"
+      ],
+      "englishDistractors": [
+        "Household",
+        "Confusing",
+        "Schedule"
+      ],
+      "turkishDistractors": [
+        "Ev halkı / Ev içi",
+        "Kafa karıştırıcı / Karmaşık",
+        "Plan / Zaman çizelgesi"
+      ]
+    },
+    {
+      "id": "q_g7_076",
+      "number": 76,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70076",
+      "english": "Understanding",
+      "turkish": "Anlayış / Kavrama",
+      "exampleSentence": "Reading authentic articles improves your reading understanding.",
+      "blankedSentence": "Reading authentic articles improves your reading _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70076.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Anlayış / Kavrama",
+      "helperText": "Örnek: \"Reading authentic articles improves your reading _______.\"",
+      "correctAnswer": "Understanding",
+      "distractors": [
+        "To be bad at",
+        "Do your best",
+        "To attend"
+      ],
+      "englishDistractors": [
+        "To be bad at",
+        "Do your best",
+        "To attend"
+      ],
+      "turkishDistractors": [
+        "Bir konuda kötü olmak",
+        "Elinden gelenin en iyisini yapmak",
+        "Katılmak"
+      ]
+    },
+    {
+      "id": "q_g7_077",
+      "number": 77,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70077",
+      "english": "Streaming",
+      "turkish": "Canlı yayın / Veri akışı",
+      "exampleSentence": "The teacher showed a live streaming video of the space station.",
+      "blankedSentence": "The teacher showed a live _______ video of the space station.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70077.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The teacher showed a live _______ video of the space station.",
+      "helperText": "İpucu (Anlamı): Canlı yayın / Veri akışı",
+      "correctAnswer": "Streaming",
+      "distractors": [
+        "To fix",
+        "Football (Soccer)",
+        "An audience"
+      ],
+      "englishDistractors": [
+        "To fix",
+        "Football (Soccer)",
+        "An audience"
+      ],
+      "turkishDistractors": [
+        "Düzeltmek / Onarmak",
+        "Futbol",
+        "Seyirci / Dinleyici kitlesi"
+      ]
+    },
+    {
+      "id": "q_g7_078",
+      "number": 78,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70078",
+      "english": "Household",
+      "turkish": "Ev halkı / Ev içi",
+      "exampleSentence": "Every member of the household shares the daily chores.",
+      "blankedSentence": "Every member of the _______ shares the daily chores.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70078.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "Household",
+      "helperText": "Örnek: \"Every member of the household shares the daily chores.\"",
+      "correctAnswer": "Ev halkı / Ev içi",
+      "distractors": [
+        "Tekrar kontrol etmek",
+        "Dini",
+        "Başlangıç"
+      ],
+      "englishDistractors": [
+        "Double-check",
+        "Religious",
+        "A start"
+      ],
+      "turkishDistractors": [
+        "Tekrar kontrol etmek",
+        "Dini",
+        "Başlangıç"
+      ]
+    },
+    {
+      "id": "q_g7_079",
+      "number": 79,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70079",
+      "english": "To circle",
+      "turkish": "Daire içine almak",
+      "exampleSentence": "Please circle all the irregular verbs in this short story.",
+      "blankedSentence": "Please _______ all the irregular verbs in this short story.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70079.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Please _______ all the irregular verbs in this short story.",
+      "helperText": "İpucu (Anlamı): Daire içine almak",
+      "correctAnswer": "To circle",
+      "distractors": [
+        "To act",
+        "An organization",
+        "Excellent"
+      ],
+      "englishDistractors": [
+        "To act",
+        "An organization",
+        "Excellent"
+      ],
+      "turkishDistractors": [
+        "Rol yapmak / Oynamak",
+        "Organizasyon / Düzenleme",
+        "Mükemmel / Harika"
+      ]
+    },
+    {
+      "id": "q_g7_080",
+      "number": 80,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70080",
+      "english": "To express",
+      "turkish": "İfade etmek",
+      "exampleSentence": "Learning English gives you the power to express your ideas globally.",
+      "blankedSentence": "Learning English gives you the power _______ your ideas globally.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70080.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "İfade etmek",
+      "helperText": "Örnek: \"Learning English gives you the power _______ your ideas globally.\"",
+      "correctAnswer": "To express",
+      "distractors": [
+        "An ability",
+        "To celebrate",
+        "23 April National Sovereignty and Children's Day"
+      ],
+      "englishDistractors": [
+        "An ability",
+        "To celebrate",
+        "23 April National Sovereignty and Children's Day"
+      ],
+      "turkishDistractors": [
+        "Yetenek / Beceri",
+        "Kutlamak",
+        "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı"
+      ]
+    },
+    {
+      "id": "q_g7_081",
+      "number": 81,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70081",
+      "english": "To succeed",
+      "turkish": "Başarmak",
+      "exampleSentence": "If you study consistently, you will surely succeed in school.",
+      "blankedSentence": "If you study consistently, you will surely _______ in school.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70081.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "If you study consistently, you will surely _______ in school.",
+      "helperText": "İpucu (Anlamı): Başarmak",
+      "correctAnswer": "To succeed",
+      "distractors": [
+        "A finish",
+        "Fortunately",
+        "Non-uniform day"
+      ],
+      "englishDistractors": [
+        "A finish",
+        "Fortunately",
+        "Non-uniform day"
+      ],
+      "turkishDistractors": [
+        "Bitiş",
+        "Neyse ki / Şans eseri",
+        "Serbest kıyafet günü"
+      ]
+    },
+    {
+      "id": "q_g7_082",
+      "number": 82,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70082",
+      "english": "To present",
+      "turkish": "Sunmak / Sunum yapmak",
+      "exampleSentence": "Our team will present the geography findings tomorrow.",
+      "blankedSentence": "Our team will _______ the geography findings tomorrow.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70082.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "To present",
+      "helperText": "Örnek: \"Our team will present the geography findings tomorrow.\"",
+      "correctAnswer": "Sunmak / Sunum yapmak",
+      "distractors": [
+        "Rekor kırmak",
+        "30 Ağustos Zafer Bayramı",
+        "Ses vurgusu / Tonlama"
+      ],
+      "englishDistractors": [
+        "To break a record",
+        "30 August Victory Day",
+        "Intonation"
+      ],
+      "turkishDistractors": [
+        "Rekor kırmak",
+        "30 Ağustos Zafer Bayramı",
+        "Ses vurgusu / Tonlama"
+      ]
+    },
+    {
+      "id": "q_g7_083",
+      "number": 83,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70083",
+      "english": "To pronounce",
+      "turkish": "Telaffuz etmek",
+      "exampleSentence": "Listen carefully to the audio to pronounce English sounds accurately.",
+      "blankedSentence": "Listen carefully to the audio _______ English sounds accurately.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70083.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Listen carefully to the audio _______ English sounds accurately.",
+      "helperText": "İpucu (Anlamı): Telaffuz etmek",
+      "correctAnswer": "To pronounce",
+      "distractors": [
+        "29 October Republic Day",
+        "Can't (prohibition)",
+        "A speaker"
+      ],
+      "englishDistractors": [
+        "29 October Republic Day",
+        "Can't (prohibition)",
+        "A speaker"
+      ],
+      "turkishDistractors": [
+        "29 Ekim Cumhuriyet Bayramı",
+        "Yapamaz (Yasaklama)",
+        "Hoparlör"
+      ]
+    },
+    {
+      "id": "q_g7_084",
+      "number": 84,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70084",
+      "english": "To be good at",
+      "turkish": "Bir konuda iyi olmak",
+      "exampleSentence": "Mert is good at solving difficult algebraic equations.",
+      "blankedSentence": "Mert is _______ at solving difficult algebraic equations.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70084.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Bir konuda iyi olmak",
+      "helperText": "Örnek: \"Mert is _______ at solving difficult algebraic equations.\"",
+      "correctAnswer": "To be good at",
+      "distractors": [
+        "Timetable",
+        "A mobile device",
+        "A virus"
+      ],
+      "englishDistractors": [
+        "Timetable",
+        "A mobile device",
+        "A virus"
+      ],
+      "turkishDistractors": [
+        "Ders programı",
+        "Taşınabilir / Mobil cihaz",
+        "Virüs"
+      ]
+    },
+    {
+      "id": "q_g7_085",
+      "number": 85,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70085",
+      "english": "To be bad at",
+      "turkish": "Bir konuda kötü olmak",
+      "exampleSentence": "Nobody is born bad at languages; regular practice always helps.",
+      "blankedSentence": "Nobody is born _______ at languages; regular practice always helps.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70085.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Nobody is born _______ at languages; regular practice always helps.",
+      "helperText": "İpucu (Anlamı): Bir konuda kötü olmak",
+      "correctAnswer": "To be bad at",
+      "distractors": [
+        "Present Progressive Tense",
+        "A website",
+        "A decision"
+      ],
+      "englishDistractors": [
+        "Present Progressive Tense",
+        "A website",
+        "A decision"
+      ],
+      "turkishDistractors": [
+        "Şimdiki Zaman",
+        "Web sitesi",
+        "Karar"
+      ]
+    },
+    {
+      "id": "q_g7_086",
+      "number": 86,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70086",
+      "english": "To play a critical role",
+      "turkish": "Kritik bir rol oynamak",
+      "exampleSentence": "Daily reading plays a critical role in vocabulary acquisition.",
+      "blankedSentence": "Daily reading _______ in vocabulary acquisition.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70086.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "To play a critical role",
+      "helperText": "Örnek: \"Daily reading plays a critical role in vocabulary acquisition.\"",
+      "correctAnswer": "Kritik bir rol oynamak",
+      "distractors": [
+        "Ekran",
+        "Yazdırmak / Çıktı almak",
+        "Canlı yayın / Veri akışı"
+      ],
+      "englishDistractors": [
+        "A screen",
+        "To print",
+        "Streaming"
+      ],
+      "turkishDistractors": [
+        "Ekran",
+        "Yazdırmak / Çıktı almak",
+        "Canlı yayın / Veri akışı"
+      ]
+    },
+    {
+      "id": "q_g7_087",
+      "number": 87,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70087",
+      "english": "Correctly",
+      "turkish": "Doğru bir şekilde",
+      "exampleSentence": "She answered all ten challenge questions correctly.",
+      "blankedSentence": "She answered all ten challenge questions _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70087.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "She answered all ten challenge questions _______.",
+      "helperText": "İpucu (Anlamı): Doğru bir şekilde",
+      "correctAnswer": "Correctly",
+      "distractors": [
+        "Electricity",
+        "A speech",
+        "To be good at"
+      ],
+      "englishDistractors": [
+        "Electricity",
+        "A speech",
+        "To be good at"
+      ],
+      "turkishDistractors": [
+        "Elektrik",
+        "Konuşma / Nutuk",
+        "Bir konuda iyi olmak"
+      ]
+    },
+    {
+      "id": "q_g7_088",
+      "number": 88,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70088",
+      "english": "Sure",
+      "turkish": "Emin / Elbette",
+      "exampleSentence": "I am sure you will do great on your upcoming English test.",
+      "blankedSentence": "I am _______ you will do great on your upcoming English test.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70088.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Emin / Elbette",
+      "helperText": "Örnek: \"I am _______ you will do great on your upcoming English test.\"",
+      "correctAnswer": "Sure",
+      "distractors": [
+        "A cross",
+        "To express",
+        "To fix"
+      ],
+      "englishDistractors": [
+        "A cross",
+        "To express",
+        "To fix"
+      ],
+      "turkishDistractors": [
+        "Çarpı işareti",
+        "İfade etmek",
+        "Düzeltmek / Onarmak"
+      ]
+    },
+    {
+      "id": "q_g7_089",
+      "number": 89,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70089",
+      "english": "Confusing",
+      "turkish": "Kafa karıştırıcı / Karmaşık",
+      "exampleSentence": "The math riddle seemed confusing at first, but we figured it out.",
+      "blankedSentence": "The math riddle seemed _______ at first, but we figured it out.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70089.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The math riddle seemed _______ at first, but we figured it out.",
+      "helperText": "İpucu (Anlamı): Kafa karıştırıcı / Karmaşık",
+      "correctAnswer": "Confusing",
+      "distractors": [
+        "Understanding",
+        "Correctly",
+        "Double-check"
+      ],
+      "englishDistractors": [
+        "Understanding",
+        "Correctly",
+        "Double-check"
+      ],
+      "turkishDistractors": [
+        "Anlayış / Kavrama",
+        "Doğru bir şekilde",
+        "Tekrar kontrol etmek"
+      ]
+    },
+    {
+      "id": "q_g7_090",
+      "number": 90,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70090",
+      "english": "Cardinal numbers (500-1000)",
+      "turkish": "Sayma sayıları (500-1000)",
+      "exampleSentence": "Seventh grade students practice reading cardinal numbers up to one thousand.",
+      "blankedSentence": "Seventh grade students practice reading _______ up to one thousand.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70090.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "Cardinal numbers (500-1000)",
+      "helperText": "Örnek: \"Seventh grade students practice reading cardinal numbers up to one thousand.\"",
+      "correctAnswer": "Sayma sayıları (500-1000)",
+      "distractors": [
+        "Telaffuz etmek",
+        "Kolaya kaçmamak / Kestirmeden gitmemek",
+        "Rol yapmak / Oynamak"
+      ],
+      "englishDistractors": [
+        "To pronounce",
+        "No cutting corners",
+        "To act"
+      ],
+      "turkishDistractors": [
+        "Telaffuz etmek",
+        "Kolaya kaçmamak / Kestirmeden gitmemek",
+        "Rol yapmak / Oynamak"
+      ]
+    },
+    {
+      "id": "q_g7_091",
+      "number": 91,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70091",
+      "english": "Ordinal numbers (50-100)",
+      "turkish": "Sıra sayıları (50th-100th)",
+      "exampleSentence": "We learned ordinal numbers such as fiftieth and hundredth in class.",
+      "blankedSentence": "We learned _______ such as fiftieth and hundredth in class.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70091.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "We learned _______ such as fiftieth and hundredth in class.",
+      "helperText": "İpucu (Anlamı): Sıra sayıları (50th-100th)",
+      "correctAnswer": "Ordinal numbers (50-100)",
+      "distractors": [
+        "Cardinal numbers (500-1000)",
+        "A drawing",
+        "An ability"
+      ],
+      "englishDistractors": [
+        "Cardinal numbers (500-1000)",
+        "A drawing",
+        "An ability"
+      ],
+      "turkishDistractors": [
+        "Sayma sayıları (500-1000)",
+        "Çizim / Resim",
+        "Yetenek / Beceri"
+      ]
+    },
+    {
+      "id": "q_g7_092",
+      "number": 92,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70092",
+      "english": "To fix",
+      "turkish": "Düzeltmek / Onarmak",
+      "exampleSentence": "The technician arrived to fix the malfunctioning printer.",
+      "blankedSentence": "The technician arrived _______ the malfunctioning printer.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70092.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Düzeltmek / Onarmak",
+      "helperText": "Örnek: \"The technician arrived _______ the malfunctioning printer.\"",
+      "correctAnswer": "To fix",
+      "distractors": [
+        "Slow down",
+        "Fun",
+        "A finish"
+      ],
+      "englishDistractors": [
+        "Slow down",
+        "Fun",
+        "A finish"
+      ],
+      "turkishDistractors": [
+        "Yavaşlamak",
+        "Eğlenceli",
+        "Bitiş"
+      ]
+    },
+    {
+      "id": "q_g7_093",
+      "number": 93,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70093",
+      "english": "Will (for help)",
+      "turkish": "Gelecek zaman eki (Yardım teklifi)",
+      "exampleSentence": "Don't worry about those heavy books; I will carry them for you.",
+      "blankedSentence": "Don't worry about those heavy books; I _______ carry them for you.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70093.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Don't worry about those heavy books; I _______ carry them for you.",
+      "helperText": "İpucu (Anlamı): Gelecek zaman eki (Yardım teklifi)",
+      "correctAnswer": "Will (for help)",
+      "distractors": [
+        "A congratulation",
+        "First",
+        "To break a record"
+      ],
+      "englishDistractors": [
+        "A congratulation",
+        "First",
+        "To break a record"
+      ],
+      "turkishDistractors": [
+        "Tebrik / Kutlama",
+        "Birinci / İlk",
+        "Rekor kırmak"
+      ]
+    },
+    {
+      "id": "q_g7_094",
+      "number": 94,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70094",
+      "english": "Question tags",
+      "turkish": "Onay soruları (don't you?, aren't they?)",
+      "exampleSentence": "You like playing arcade vocabulary games, don't you?",
+      "blankedSentence": "You like playing arcade vocabulary games, _______? (Question tags)",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70094.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "Question tags",
+      "helperText": "Örnek: \"You like playing arcade vocabulary games, don't you?\"",
+      "correctAnswer": "Onay soruları (don't you?, aren't they?)",
+      "distractors": [
+        "Yetenekli",
+        "Yenmek / Galip gelmek",
+        "29 Ekim Cumhuriyet Bayramı"
+      ],
+      "englishDistractors": [
+        "Talented",
+        "To beat",
+        "29 October Republic Day"
+      ],
+      "turkishDistractors": [
+        "Yetenekli",
+        "Yenmek / Galip gelmek",
+        "29 Ekim Cumhuriyet Bayramı"
+      ]
+    },
+    {
+      "id": "q_g7_095",
+      "number": 95,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70095",
+      "english": "No cutting corners",
+      "turkish": "Kolaya kaçmamak / Kestirmeden gitmemek",
+      "exampleSentence": "Real success takes dedication and hard work, no cutting corners.",
+      "blankedSentence": "Real success takes dedication and hard work, _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70095.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Real success takes dedication and hard work, _______.",
+      "helperText": "İpucu (Anlamı): Kolaya kaçmamak / Kestirmeden gitmemek",
+      "correctAnswer": "No cutting corners",
+      "distractors": [
+        "A prize",
+        "Fascinating",
+        "Timetable"
+      ],
+      "englishDistractors": [
+        "A prize",
+        "Fascinating",
+        "Timetable"
+      ],
+      "turkishDistractors": [
+        "Ödül",
+        "Büyüleyici / Çok etkileyici",
+        "Ders programı"
+      ]
+    },
+    {
+      "id": "q_g7_096",
+      "number": 96,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70096",
+      "english": "Do your best",
+      "turkish": "Elinden gelenin en iyisini yapmak",
+      "exampleSentence": "Always do your best and stay confident during your presentations.",
+      "blankedSentence": "Always _______ and stay confident during your presentations.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70096.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Elinden gelenin en iyisini yapmak",
+      "helperText": "Örnek: \"Always _______ and stay confident during your presentations.\"",
+      "correctAnswer": "Do your best",
+      "distractors": [
+        "To blow (up)",
+        "15 July Democracy and National Unity Day",
+        "Present Progressive Tense"
+      ],
+      "englishDistractors": [
+        "To blow (up)",
+        "15 July Democracy and National Unity Day",
+        "Present Progressive Tense"
+      ],
+      "turkishDistractors": [
+        "Üflemek / Balon şişirmek",
+        "15 Temmuz Demokrasi ve Milli Birlik Günü",
+        "Şimdiki Zaman"
+      ]
+    },
+    {
+      "id": "q_g7_097",
+      "number": 97,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70097",
+      "english": "Throw in the towel",
+      "turkish": "Pes etmek / Pes bayrağı çekmek",
+      "exampleSentence": "Never throw in the towel when faced with a difficult challenge.",
+      "blankedSentence": "Never _______ when faced with a difficult challenge.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70097.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Never _______ when faced with a difficult challenge.",
+      "helperText": "İpucu (Anlamı): Pes etmek / Pes bayrağı çekmek",
+      "correctAnswer": "Throw in the towel",
+      "distractors": [
+        "Extra-curricular activity",
+        "Must (rule/obligation)",
+        "A screen"
+      ],
+      "englishDistractors": [
+        "Extra-curricular activity",
+        "Must (rule/obligation)",
+        "A screen"
+      ],
+      "turkishDistractors": [
+        "Okul kulüp / Müfredat dışı etkinlik",
+        "-malı / -meli (Zorunluluk/Kural)",
+        "Ekran"
+      ]
+    },
+    {
+      "id": "q_g7_098",
+      "number": 98,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70098",
+      "english": "Slow down",
+      "turkish": "Yavaşlamak",
+      "exampleSentence": "Slow down and read the exam questions carefully before answering.",
+      "blankedSentence": "_______ and read the exam questions carefully before answering.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70098.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "Slow down",
+      "helperText": "Örnek: \"Slow down and read the exam questions carefully before answering.\"",
+      "correctAnswer": "Yavaşlamak",
+      "distractors": [
+        "Kurban Bayramı",
+        "Uygulama",
+        "Elektrik"
+      ],
+      "englishDistractors": [
+        "Festival of Sacrifice (Eid al-Adha)",
+        "An app (application)",
+        "Electricity"
+      ],
+      "turkishDistractors": [
+        "Kurban Bayramı",
+        "Uygulama",
+        "Elektrik"
+      ]
+    },
+    {
+      "id": "q_g7_099",
+      "number": 99,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70099",
+      "english": "Double-check",
+      "turkish": "Tekrar kontrol etmek",
+      "exampleSentence": "Always double-check your answers before submitting your quiz.",
+      "blankedSentence": "Always _______ your answers before submitting your quiz.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70099.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Always _______ your answers before submitting your quiz.",
+      "helperText": "İpucu (Anlamı): Tekrar kontrol etmek",
+      "correctAnswer": "Double-check",
+      "distractors": [
+        "Simple Present Tense",
+        "A tool",
+        "A cross"
+      ],
+      "englishDistractors": [
+        "Simple Present Tense",
+        "A tool",
+        "A cross"
+      ],
+      "turkishDistractors": [
+        "Geniş Zaman",
+        "Araç / Gereç",
+        "Çarpı işareti"
+      ]
+    },
+    {
+      "id": "q_g7_100",
+      "number": 100,
+      "grade": 7,
+      "unitNo": 2,
+      "unitName": "Classroom Life & Learning",
+      "cefr": "A2",
+      "wordId": "w_70100",
+      "english": "Schedule",
+      "turkish": "Plan / Zaman çizelgesi",
+      "exampleSentence": "A balanced daily study schedule leaves plenty of time for hobbies.",
+      "blankedSentence": "A balanced daily study _______ leaves plenty of time for hobbies.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ortaokul/Audio/w_70100.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "Plan / Zaman çizelgesi",
+      "helperText": "Örnek: \"A balanced daily study _______ leaves plenty of time for hobbies.\"",
+      "correctAnswer": "Schedule",
+      "distractors": [
+        "A printer",
+        "To connect",
+        "Understanding"
+      ],
+      "englishDistractors": [
+        "A printer",
+        "To connect",
+        "Understanding"
+      ],
+      "turkishDistractors": [
+        "Yazıcı",
+        "Bağlanmak",
+        "Anlayış / Kavrama"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
  * SM-2 aralıklı tekrar algoritmasında (Memolandum Pulse™) gecikmiş kelimeleri tespit eder.
  */
 
-import { migrateVaultItem, isDue, schedulePulse, PulseQuality } from "./memolandumPulse";
+import { migrateVaultItem, isDue, schedulePulse, PulseQuality } from "./memolandumPulse.js";
 
 /**
  * Kasadaki ve son çözülen testlerdeki zorlanılan/yanlış kelimeleri listeler.
@@ -14,16 +14,25 @@ import { migrateVaultItem, isDue, schedulePulse, PulseQuality } from "./memoland
  * @param {Object} [options]
  * @param {string} [options.filterLang] - Belirli bir dil filtresi (örn: 'en-tr')
  * @param {number} [options.limit=100]
+ * @param {string} [options.childId] - Aktif çocuk profili (soft isolation)
  */
 export function getWeakWords(vocabularyVault = {}, quizHistory = [], options = {}) {
   const now = Date.now();
   const limit = options.limit || 100;
   const filterLang = options.filterLang || "all";
+  const childId = options.childId || null;
+
+  const belongs = (item) => {
+    if (!childId) return true;
+    if (!item || item.childId == null || item.childId === "") return true;
+    return String(item.childId) === String(childId);
+  };
 
   const weakMap = new Map();
 
   // 1. Kasadaki SM-2 verilerini tara
   Object.values(vocabularyVault).forEach((rawItem) => {
+    if (!belongs(rawItem)) return;
     const item = migrateVaultItem(rawItem, now);
     if (!item || !item.id) return;
 
@@ -58,6 +67,7 @@ export function getWeakWords(vocabularyVault = {}, quizHistory = [], options = {
 
   // 2. Son soru geçmişindeki (quizHistory) yanlışları tara (kasada henüz yer almasa bile)
   (quizHistory || []).forEach((hist) => {
+    if (!belongs(hist)) return;
     if (!hist.isCorrect && hist.english) {
       const id = hist.wordId || hist.english.toLowerCase();
       if (!weakMap.has(id)) {
@@ -83,6 +93,49 @@ export function getWeakWords(vocabularyVault = {}, quizHistory = [], options = {
   const sorted = Array.from(weakMap.values()).sort((a, b) => b.weakScore - a.weakScore);
 
   return sorted.slice(0, limit);
+}
+
+/**
+ * Kasada vadesi gelmiş kelime sayısı (SM-2 isDue).
+ */
+export function countDueWords(vocabularyVault = {}, options = {}) {
+  const now = Date.now();
+  const childId = options.childId || null;
+  let n = 0;
+  for (const raw of Object.values(vocabularyVault || {})) {
+    if (childId) {
+      if (raw?.childId != null && raw.childId !== "" && String(raw.childId) !== String(childId)) {
+        continue;
+      }
+    }
+    const item = migrateVaultItem(raw, now);
+    if (item && isDue(item, now)) n += 1;
+  }
+  return n;
+}
+
+/**
+ * Bugün çalışılan benzersiz kelime sayısı (quizHistory timestamp).
+ */
+export function countTodayStudiedWords(quizHistory = [], options = {}) {
+  const childId = options.childId || null;
+  const start = new Date();
+  start.setHours(0, 0, 0, 0);
+  const startMs = start.getTime();
+  const seen = new Set();
+  for (const h of quizHistory || []) {
+    const time = Number(h?.timestamp) || 0;
+    if (time < startMs) continue;
+    if (childId) {
+      if (h.childId != null && h.childId !== "" && String(h.childId) !== String(childId)) {
+        continue;
+      }
+    }
+    const key = h.wordId || String(h.english || "").toLowerCase();
+    if (!key) continue;
+    seen.add(key);
+  }
+  return seen.size;
 }
 
 /**

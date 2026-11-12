@@ -22,7 +22,7 @@
     "level_tag": "Business",
     "original_script": "تشرفنا بالعمل معكم.",
     "romanized_script": "Tasharafna bil-'amal ma'akum.",
-    "meaning": "I look forward to working with you.",
+    "meaning": "We are honored to work with you.",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -175,7 +175,7 @@
     "level_tag": "Business",
     "original_script": "لقد تأكدت من البريد الإلكتروني.",
     "romanized_script": "Laqad ta'akkadtu min al-bareed al-iliktroni.",
-    "meaning": "I have confirmed the email.",
+    "meaning": "I have checked the email.",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -269,7 +269,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_biz_016.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_biz_016.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_biz_016.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_biz_016.mp3",
+    "romanization": "Sa'aqum bil-tansiq."
   },
   {
     "id": "ar_biz_017",
@@ -4117,7 +4118,7 @@
     "id": "ar_hajj_043",
     "language_code": "ar",
     "level_tag": "Hajj",
-    "original_script": "هذه الدواء لوالدتي.",
+    "original_script": "هذا الدواء لوالدتي.",
     "romanized_script": "Hatha al-dawa' li-walidati.",
     "meaning": "This medicine is for my mother.",
     "is_latin": false,
@@ -4321,7 +4322,7 @@
     "id": "ar_hajj_055",
     "language_code": "ar",
     "level_tag": "Hajj",
-    "original_script": "هل هناك مكان لشحن الملابس؟",
+    "original_script": "هل هناك مكان لغسل الملابس؟",
     "romanized_script": "Hal hunaka makan li-shahn al-malabis?",
     "meaning": "Is there a place for laundry?",
     "is_latin": false,
@@ -4332,7 +4333,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_hajj_055.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_hajj_055.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_hajj_055.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_hajj_055.mp3",
+    "romanization": "Hal hunaka makan li-ghasl al-malabis?"
   },
   {
     "id": "ar_hajj_056",
@@ -5437,7 +5439,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_grow_020.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_020.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_020.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_020.mp3",
+    "romanization": "Thiq bi-hadsik."
   },
   {
     "id": "ar_grow_021",
@@ -6032,7 +6035,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_grow_055.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_055.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_055.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_055.mp3",
+    "romanization": "Ursum al-mustaqbal."
   },
   {
     "id": "ar_grow_056",
@@ -6049,7 +6053,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_grow_056.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_056.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_056.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_056.mp3",
+    "romanization": "'Abbir 'an nafsik."
   },
   {
     "id": "ar_grow_057",
@@ -6355,7 +6360,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_grow_074.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_074.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_074.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_074.mp3",
+    "romanization": "Thiq bi-hadsik."
   },
   {
     "id": "ar_grow_075",
@@ -6593,7 +6599,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_grow_088.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_088.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_088.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_grow_088.mp3",
+    "romanization": "Ahibba nafsak."
   },
   {
     "id": "ar_grow_089",
@@ -8888,7 +8895,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_trv_023.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_trv_023.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_trv_023.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_trv_023.mp3",
+    "romanization": "Uridu kharitah lil-madinah."
   },
   {
     "id": "ar_trv_024",
@@ -9880,7 +9888,7 @@
     "id": "ar_trv_082",
     "language_code": "ar",
     "level_tag": "Travel",
-    "original_script": "هذه هي جواز سفري.",
+    "original_script": "هذا هو جواز سفري.",
     "romanized_script": "Hathihi hiya jawaz safari.",
     "meaning": "This is my passport.",
     "is_latin": false,
@@ -9891,7 +9899,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_trv_082.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_trv_082.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_trv_082.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_trv_082.mp3",
+    "romanization": "Hatha huwa jawaz safari."
   },
   {
     "id": "ar_trv_083",
@@ -10435,7 +10444,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_extra_014.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_extra_014.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_extra_014.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_extra_014.mp3",
+    "romanization": "Mata satasil al-hafilah al-qadimah?"
   },
   {
     "id": "ar_extra_015",
@@ -10662,7 +10672,7 @@
     "id": "ar_extra_028",
     "language_code": "ar",
     "level_tag": "Daily",
-    "original_script": "أين هو أقرب صيدلية؟",
+    "original_script": "أين أقرب صيدلية؟",
     "romanized_script": "Ayna huwa aqrab saydaliyah?",
     "meaning": "Where is the nearest pharmacy?",
     "is_latin": false,
@@ -10673,7 +10683,8 @@
       "male": "/audio/ar/audio_ar_sentences/audio_ar_sentences_male/ar_extra_028.mp3",
       "female": "/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_extra_028.mp3"
     },
-    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_extra_028.mp3"
+    "audioUrl": "/data/Arabic/audio/ar/audio_ar_sentences/audio_ar_sentences_female/ar_extra_028.mp3",
+    "romanization": "Ayna aqrab saydaliyah?"
   },
   {
     "id": "ar_extra_029",

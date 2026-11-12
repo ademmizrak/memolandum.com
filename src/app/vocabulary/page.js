@@ -307,6 +307,25 @@ export default function VocabularyPage() {
   const [reviewWords, setReviewWords] = useState([]);
   const [weakWordsModalOpen, setWeakWordsModalOpen] = useState(false);
 
+  useEffect(() => {
+    try {
+      const tab = new URLSearchParams(window.location.search).get("tab");
+      if (
+        tab === "due" ||
+        tab === "weak" ||
+        tab === "learned" ||
+        tab === "added" ||
+        tab === "mastered" ||
+        tab === "all"
+      ) {
+        setSourceTab(tab);
+        setMainTab("vault");
+      }
+    } catch {
+      /* ignore */
+    }
+  }, []);
+
   // Multi-select & Custom Level Creation State
   const createCustomLevel = useMemolandumStore((s) => s.createCustomLevel);
   const [selectedWordIds, setSelectedWordIds] = useState([]);

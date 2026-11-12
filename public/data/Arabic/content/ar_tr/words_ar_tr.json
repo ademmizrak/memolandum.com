@@ -2758,7 +2758,7 @@
     "language_code": "ar",
     "level_tag": "A1_Diger",
     "original_script": "عظيم",
-    "romanized_script": "Aazim",
+    "romanized_script": "'Azim",
     "meaning": "Harika / Büyük",
     "is_latin": false,
     "metadata": {
@@ -4142,7 +4142,7 @@
     "language_code": "ar",
     "level_tag": "A1_Fiiller",
     "original_script": "لعب",
-    "romanized_script": "La'aba",
+    "romanized_script": "La'iba",
     "meaning": "Oynadı",
     "is_latin": false,
     "audio": {
@@ -7276,7 +7276,7 @@
     "level_tag": "A2_Temel",
     "original_script": "قاعدة",
     "romanized_script": "Qa'ida",
-    "meaning": "Dilbilgisi",
+    "meaning": "Kural / Kaide",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -8363,7 +8363,7 @@
     "language_code": "ar",
     "level_tag": "A2_Temel",
     "original_script": "متسخ",
-    "romanized_script": "Mutassikh",
+    "romanized_script": "Muttasikh",
     "meaning": "Kirli",
     "is_latin": false,
     "metadata": {
@@ -8670,7 +8670,7 @@
     "level_tag": "A2_Temel",
     "original_script": "يروي",
     "romanized_script": "Yarwi",
-    "meaning": "Susamışlığı gidermek",
+    "meaning": "Susuzluğu gidermek",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -10165,7 +10165,7 @@
     "language_code": "ar",
     "level_tag": "B1_Intermediate",
     "original_script": "يخطط",
-    "romanized_script": "Yukhattat",
+    "romanized_script": "Yukhattit",
     "meaning": "Planlıyor",
     "is_latin": false,
     "metadata": {
@@ -11526,7 +11526,7 @@
     "level_tag": "B1_Intermediate",
     "original_script": "خطة",
     "romanized_script": "Khitta",
-    "meaning": "Planlama",
+    "meaning": "Plan",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -12239,7 +12239,7 @@
     "language_code": "ar",
     "level_tag": "B1_Intermediate",
     "original_script": "علاج",
-    "romanized_script": "I'laj",
+    "romanized_script": "'Ilaj",
     "meaning": "Tedavi",
     "is_latin": false,
     "metadata": {
@@ -12732,7 +12732,7 @@
     "language_code": "ar",
     "level_tag": "B2_Upper_Intermediate",
     "original_script": "استيعاب",
-    "romanized_script": "Istia'ab",
+    "romanized_script": "Isti'ab",
     "meaning": "Kavrama/Anlama",
     "is_latin": false,
     "metadata": {
@@ -13548,7 +13548,7 @@
     "language_code": "ar",
     "level_tag": "B2_Upper_Intermediate",
     "original_script": "استيعاب",
-    "romanized_script": "Istia'ab",
+    "romanized_script": "Isti'ab",
     "meaning": "Kavrama/Anlama",
     "is_latin": false,
     "metadata": {
@@ -16065,7 +16065,7 @@
     "level_tag": "C1_Advanced",
     "original_script": "استراتيجية",
     "romanized_script": "Istiratijiyya",
-    "meaning": "Stratejik",
+    "meaning": "Strateji",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -16863,7 +16863,7 @@
     "language_code": "ar",
     "level_tag": "C1_Advanced",
     "original_script": "يستنبط",
-    "romanized_script": "Yastinbit",
+    "romanized_script": "Yastanbit",
     "meaning": "Türetiyor",
     "is_latin": false,
     "metadata": {
@@ -17765,7 +17765,7 @@
     "level_tag": "C1_Advanced",
     "original_script": "إستراتيجية",
     "romanized_script": "Istiratijiyya",
-    "meaning": "Stratejik",
+    "meaning": "Strateji",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -17833,7 +17833,7 @@
     "level_tag": "C1_Advanced",
     "original_script": "أكاديمية",
     "romanized_script": "Akadimiyya",
-    "meaning": "Akademik",
+    "meaning": "Akademi / Akademik",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -17882,8 +17882,8 @@
     "id": "ar_c1_108",
     "language_code": "ar",
     "level_tag": "C1_Advanced",
-    "original_script": "معرفية",
-    "romanized_script": "Ma'rifiyya",
+    "original_script": "معرفي",
+    "romanized_script": "Ma'rifi",
     "meaning": "Bilişsel",
     "is_latin": false,
     "metadata": {
@@ -17901,7 +17901,7 @@
     "level_tag": "C1_Advanced",
     "original_script": "وجودية",
     "romanized_script": "Wujudiyya",
-    "meaning": "Varoluşsal",
+    "meaning": "Varoluşçuluk / Varoluşsal",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -18240,7 +18240,7 @@
     "language_code": "ar",
     "level_tag": "C1_Advanced",
     "original_script": "علاج",
-    "romanized_script": "I'laj",
+    "romanized_script": "'Ilaj",
     "meaning": "Tedavi",
     "is_latin": false,
     "metadata": {
@@ -18309,7 +18309,7 @@
     "level_tag": "C1_Advanced",
     "original_script": "جينات",
     "romanized_script": "Jinat",
-    "meaning": "Genetik",
+    "meaning": "Genler",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -18478,7 +18478,7 @@
     "language_code": "ar",
     "level_tag": "C1_Advanced",
     "original_script": "حركة",
-    "romanized_script": "Harak",
+    "romanized_script": "Haraka",
     "meaning": "Hareket",
     "is_latin": false,
     "metadata": {
@@ -20823,7 +20823,7 @@
     "id": "ar_c2_081",
     "language_code": "ar",
     "level_tag": "C2_Mastery",
-    "original_script": "ممييت",
+    "original_script": "مميت",
     "romanized_script": "Mumit",
     "meaning": "Öldürücü/Ölümcül",
     "is_latin": false,
@@ -21146,7 +21146,7 @@
     "id": "ar_c2_100",
     "language_code": "ar",
     "level_tag": "C2_Mastery",
-    "original_script": "نفى",
+    "original_script": "نفي",
     "romanized_script": "Nafi",
     "meaning": "Olumsuzlama/İnkar",
     "is_latin": false,
@@ -21165,7 +21165,7 @@
     "level_tag": "C2_Mastery",
     "original_script": "إستراتيجية",
     "romanized_script": "Istiratijiyya",
-    "meaning": "Stratejik",
+    "meaning": "Strateji",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -21233,7 +21233,7 @@
     "level_tag": "C2_Mastery",
     "original_script": "أكاديمية",
     "romanized_script": "Akadimiyya",
-    "meaning": "Akademik",
+    "meaning": "Akademi / Akademik",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -21282,8 +21282,8 @@
     "id": "ar_c2_108",
     "language_code": "ar",
     "level_tag": "C2_Mastery",
-    "original_script": "معرفية",
-    "romanized_script": "Ma'rifiyya",
+    "original_script": "معرفي",
+    "romanized_script": "Ma'rifi",
     "meaning": "Bilişsel",
     "is_latin": false,
     "metadata": {
@@ -21301,7 +21301,7 @@
     "level_tag": "C2_Mastery",
     "original_script": "وجودية",
     "romanized_script": "Wujudiyya",
-    "meaning": "Varoluşsal",
+    "meaning": "Varoluşçuluk / Varoluşsal",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -21640,7 +21640,7 @@
     "language_code": "ar",
     "level_tag": "C2_Mastery",
     "original_script": "علاج",
-    "romanized_script": "I'laj",
+    "romanized_script": "'Ilaj",
     "meaning": "Tedavi",
     "is_latin": false,
     "metadata": {
@@ -21709,7 +21709,7 @@
     "level_tag": "C2_Mastery",
     "original_script": "جينات",
     "romanized_script": "Jinat",
-    "meaning": "Genetik",
+    "meaning": "Genler",
     "is_latin": false,
     "metadata": {
       "script_direction": "rtl"
@@ -21878,7 +21878,7 @@
     "language_code": "ar",
     "level_tag": "C2_Mastery",
     "original_script": "حركة",
-    "romanized_script": "Harak",
+    "romanized_script": "Haraka",
     "meaning": "Hareket",
     "is_latin": false,
     "metadata": {

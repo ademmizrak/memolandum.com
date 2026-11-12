@@ -19,6 +19,7 @@ import {
   PAYMENTS_LIVE,
   PREMIUM_PRODUCT,
   remainingFreeTranslations,
+  shouldHideExternalPayments,
 } from "../../lib/premium/config";
 import PremiumCheckoutModal from "../../components/premium/PremiumCheckoutModal";
 import { RetroLineChart } from "../../components/ui/charts/RetroLineChart";
@@ -26,7 +27,9 @@ import { RetroBarChart } from "../../components/ui/charts/RetroBarChart";
 import { RetroRadialChart } from "../../components/ui/charts/RetroRadialChart";
 import ParentReportModal from "../../components/profile/ParentReportModal";
 import ParentStudentHub from "../../components/profile/ParentStudentHub";
+import TeacherDashboard from "../../components/schools/TeacherDashboard";
 import { calculateParentReportData } from "../../lib/reports/reportGenerator";
+import { subscribeTeacherClassrooms } from "../../lib/schools/schoolService";
 
 const PRESET_AVATARS = [
   "https://api.dicebear.com/9.x/bottts/svg?seed=Felix",
@@ -38,6 +41,24 @@ const PRESET_AVATARS = [
   "https://api.dicebear.com/9.x/bottts/svg?seed=Jack",
   "https://api.dicebear.com/9.x/bottts/svg?seed=Sasha"
 ];
+
+const NICK_ADJECTIVES = [
+  "Kozmik", "Siber", "Piksel", "Hizli", "Gizemli", 
+  "Cesur", "Parlak", "Super", "Mega", "Yildiz", 
+  "Astro", "Turbo", "Kuantum", "Matrix", "Kripto"
+];
+const NICK_NOUNS = [
+  "Kadet", "Avci", "Kasif", "Kedi", "Sampiyon", 
+  "Yolcu", "Dahi", "Usta", "Kaptan", "Kahraman", 
+  "Ninja", "Kurt", "Pilot", "Savasci", "Gezgin"
+];
+
+const generateRandomNickname = () => {
+  const adj = NICK_ADJECTIVES[Math.floor(Math.random() * NICK_ADJECTIVES.length)];
+  const noun = NICK_NOUNS[Math.floor(Math.random() * NICK_NOUNS.length)];
+  const num = Math.floor(Math.random() * 90) + 10;
+  return `${adj}_${noun}_${num}`;
+};
 
 const DICEBEAR_STYLES = [
   { id: "bottts", name: "Robotlar 🤖" },
@@ -72,6 +93,8 @@ export default function ProfilePage() {
     return Object.values(vocabularyVault);
   }, [vocabularyVault]);
 
+  const [teacherClasses, setTeacherClasses] = useState([]);
+
   const stageCounts = React.useMemo(() => {
     let firstTry = 0;
     let p100 = 0;
@@ -80,6 +103,7 @@ export default function ProfilePage() {
     let p25 = 0;
 
     allWords.forEach((w) => {
+      if (!w || typeof w !== "object") return;
       if (w.firstTryCorrect === true) {
         firstTry++;
       } else if (w.learningProgressPct === 100) {
@@ -117,7 +141,12 @@ export default function ProfilePage() {
     }
 
     quizHistory.forEach((h) => {
-      const dStr = new Date(h.timestamp || Date.now()).toISOString().split("T")[0];
+      if (!h || typeof h !== "object") return;
+      const rawTime = h.timestamp?.seconds ? h.timestamp.seconds * 1000 : Number(h.timestamp);
+      if (!rawTime || isNaN(rawTime)) return;
+      const d = new Date(rawTime);
+      if (isNaN(d.getTime())) return;
+      const dStr = d.toISOString().split("T")[0];
       if (daysMap[dStr]) {
         if (h.isCorrect) daysMap[dStr].correct++;
         else daysMap[dStr].wrong++;
@@ -130,7 +159,9 @@ export default function ProfilePage() {
   const vaultStrengthStats = React.useMemo(() => {
     const s = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
     allWords.forEach((w) => {
-      s[w.strength || 1] = (s[w.strength || 1] || 0) + 1;
+      if (!w || typeof w !== "object") return;
+      const str = Math.min(5, Math.max(1, parseInt(w.strength, 10) || 1));
+      s[str] = (s[str] || 0) + 1;
     });
     return s;
   }, [allWords]);
@@ -138,7 +169,12 @@ export default function ProfilePage() {
   const [globalStats, setGlobalStats] = useState(null);
   const [selectedChildForReport, setSelectedChildForReport] = useState(null);
 
-  const currentSelectedChild = selectedChildForReport || childrenProfiles.find((c) => c.id === activeChildId) || childrenProfiles[0] || null;
+  const currentSelectedChild =
+    selectedChildForReport ||
+    (Array.isArray(childrenProfiles)
+      ? childrenProfiles.find((c) => c && c.id === activeChildId) || childrenProfiles[0]
+      : null) ||
+    null;
 
   const parentReportData = React.useMemo(() => {
     return calculateParentReportData({
@@ -168,6 +204,7 @@ export default function ProfilePage() {
   // Auth modal for guests
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [parentReportOpen, setParentReportOpen] = useState(false);
+  const [parentReportTab, setParentReportTab] = useState("report");
   const [showLogoutConfirm, setShowLogoutConfirm] = useState(false);
   const [isLoggingOut, setIsLoggingOut] = useState(false);
   const [premiumOpen, setPremiumOpen] = useState(false);
@@ -178,6 +215,33 @@ export default function ProfilePage() {
   const [deleteAck, setDeleteAck] = useState(false);
   const [isDeletingAccount, setIsDeletingAccount] = useState(false);
   const [deleteError, setDeleteError] = useState("");
+
+  useEffect(() => {
+    if (!showDeleteConfirm && !showLogoutConfirm && !premiumOpen && !isAuthModalOpen) return undefined;
+    const onHardwareBack = (e) => {
+      if (showDeleteConfirm) {
+        e.preventDefault();
+        setShowDeleteConfirm(false);
+        return;
+      }
+      if (showLogoutConfirm) {
+        e.preventDefault();
+        setShowLogoutConfirm(false);
+        return;
+      }
+      if (premiumOpen) {
+        e.preventDefault();
+        setPremiumOpen(false);
+        return;
+      }
+      if (isAuthModalOpen) {
+        e.preventDefault();
+        setIsAuthModalOpen(false);
+      }
+    };
+    window.addEventListener("mm:hardware-back", onHardwareBack);
+    return () => window.removeEventListener("mm:hardware-back", onHardwareBack);
+  }, [showDeleteConfirm, showLogoutConfirm, premiumOpen, isAuthModalOpen]);
 
   // Şifre yönetimi
   const [currentPassword, setCurrentPassword] = useState("");
@@ -310,12 +374,28 @@ export default function ProfilePage() {
 
   useEffect(() => {
     setMounted(true);
-    // Load theme color from localStorage
-    const savedTheme = localStorage.getItem("memolandum_theme_color");
-    if (savedTheme && THEME_COLORS.some(t => t.id === savedTheme)) {
-      setThemeColor(savedTheme);
+    try {
+      // Load theme color from localStorage
+      const savedTheme = localStorage.getItem("memolandum_theme_color");
+      if (savedTheme && THEME_COLORS.some(t => t.id === savedTheme)) {
+        setThemeColor(savedTheme);
+      }
+    } catch {
+      /* ignore */
     }
   }, []);
+
+  // Subscribe to teacher classrooms for authenticated user
+  useEffect(() => {
+    if (!mounted || !isAuthenticated || !uid) {
+      setTeacherClasses([]);
+      return undefined;
+    }
+    const unsub = subscribeTeacherClassrooms(uid, (classes) => {
+      setTeacherClasses(Array.isArray(classes) ? classes : []);
+    });
+    return () => unsub();
+  }, [mounted, isAuthenticated, uid]);
 
   // Update dynamic avatar url preview when style/seed changes
   useEffect(() => {
@@ -499,10 +579,54 @@ export default function ProfilePage() {
 
         <StudyProfilesPanel />
 
+        {/* Öğretmen Masası & Sınıflarım (Teacher Desk) */}
+        <div className="p-6 sm:p-8 rounded-3xl border-2 border-cyan-500/30 bg-gradient-to-br from-slate-900 via-indigo-950/30 to-slate-950 shadow-xl space-y-6">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
+            <div className="flex items-center gap-3.5">
+              <div className="w-12 h-12 rounded-2xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-2xl shadow-md">
+                🦉
+              </div>
+              <div>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-xs font-bold text-cyan-300 uppercase tracking-wider">
+                    Öğretmen Masası
+                  </span>
+                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                    {teacherClasses.length > 0 ? `${teacherClasses.length} Sınıf Yönetiliyor` : "Sınıf & Okul Masası"}
+                  </span>
+                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-cyan-500/15 text-cyan-300 border border-cyan-500/30">
+                    🔒 %100 Mahrem
+                  </span>
+                </div>
+                <h3 className="text-lg sm:text-xl font-black text-white mt-0.5">
+                  Sınıf, Sınav Notları ve Öğretmen Fikir Defteri
+                </h3>
+                <p className="text-xs text-slate-400 mt-0.5">
+                  Okul ve sınıflarınızı doğrudan profilinizden yönetin; sınav puanlarını girin ve kişisel pedagojik notlarınızı güvenle saklayın.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <a
+                href="/schools?tab=dashboard"
+                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs shadow-md shadow-cyan-600/25 transition-all cursor-pointer whitespace-nowrap"
+              >
+                <span>Tam Ekranda Aç</span>
+                <span className="text-sm">↗</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Entegre Canlı Öğretmen Masası */}
+          <TeacherDashboard onRequestAuth={() => setIsAuthModalOpen(true)} />
+        </div>
+
         {/* Veli & Öğrenci Takip Merkezi (Parent-Student Hub) */}
         <ParentStudentHub
-          onOpenReport={(child) => {
+          onOpenReport={(child, tab = "report") => {
             setSelectedChildForReport(child);
+            setParentReportTab(tab || "report");
             setParentReportOpen(true);
           }}
         />
@@ -529,7 +653,7 @@ export default function ProfilePage() {
                 className="w-28 h-28 rounded-full border-3 flex items-center justify-center text-4xl font-bold bg-indigo-950/80 shadow-lg text-white"
                 style={{ borderColor: activeTheme.primary, boxShadow: `0 0 20px ${activeTheme.primary}66` }}
               >
-                {(profile?.displayName || 'M')[0].toUpperCase()}
+                {(profile?.displayName?.trim() || profile?.email?.trim() || 'M')[0]?.toUpperCase() || 'M'}
               </div>
             )}
             <div className="absolute -bottom-1 -right-1 bg-gray-900 border border-gray-700 px-2 py-0.5 rounded-md text-[10px] font-black text-gray-400 uppercase tracking-widest shadow-md">
@@ -545,9 +669,17 @@ export default function ProfilePage() {
                     type="text" 
                     value={newUsernameInput}
                     onChange={(e) => setNewUsernameInput(e.target.value.replace(/[^a-zA-Z0-9_ çÇğĞıİöÖşŞüÜ.-]/g, ''))}
-                    className="bg-gray-800/80 border border-gray-700 text-white rounded-lg px-3 py-1.5 focus:outline-none focus:border-cyan-500 font-bold w-full"
-                    placeholder="Yeni İsim"
+                    className="bg-gray-800/80 border border-gray-700 text-white rounded-lg px-3 py-1.5 focus:outline-none focus:border-cyan-500 font-bold w-full text-sm"
+                    placeholder="Yeni Rumuz"
                   />
+                  <button
+                    type="button"
+                    onClick={() => setNewUsernameInput(generateRandomNickname())}
+                    className="bg-gray-800 hover:bg-gray-700 text-cyan-400 border border-gray-700 px-2.5 py-1.5 rounded-lg text-xs font-bold transition-colors whitespace-nowrap"
+                    title="Rastgele Rumuz Öner"
+                  >
+                    🎲 Öner
+                  </button>
                   <button 
                     onClick={handleSaveUsername} 
                     disabled={isSavingUsername} 
@@ -578,7 +710,13 @@ export default function ProfilePage() {
                 </button>
               </div>
             )}
-            <p className="text-gray-400 font-mono text-sm">{profile?.email || "Yerel Kayıt (Misafir Oturumu)"}</p>
+            <div className="flex items-center gap-2 flex-wrap justify-center md:justify-start">
+              <p className="text-gray-400 font-mono text-sm">{profile?.email || "Yerel Kayıt (Misafir Oturumu)"}</p>
+              <span className="text-[11px] font-semibold text-cyan-400/90 bg-cyan-500/10 border border-cyan-500/30 px-2 py-0.5 rounded-full flex items-center gap-1">
+                <span>🛡️</span>
+                <span>Gizli Oyun Kimliği</span>
+              </span>
+            </div>
             
             {/* Rank display */}
             <div className="mt-3 flex items-center gap-2 bg-gray-900/60 border border-gray-800/80 px-3 py-1 rounded-full text-xs">
@@ -907,13 +1045,13 @@ export default function ProfilePage() {
           </section>
         )}
 
-        {/* Premium — öğrenme bedava, AI çeviri ücretli */}
+        {/* Premium — öğrenme bedava, AI çeviri */}
         <section className="profile-section border border-amber-500/20 mt-4">
           <h2 className="!text-amber-200/90 !text-sm">Premium · AI çeviri</h2>
           <p className="text-slate-400 text-sm mb-3 leading-relaxed">
-            <strong className="text-emerald-300/90">Tüm Oyunlar & Seviyeler Ücretsiz</strong>.
+            <strong className="text-emerald-300/90">Tüm Oyunlar & 23 Dil Yolu Ücretsiz</strong>.
             Gemini AI çeviri API maliyetli olduğu için üye hesabına özel ilk{" "}
-            <strong>{FREE_TRANSLATION_QUOTA}</strong> çeviri ücretsiz; sonrası Premium.
+            <strong>{FREE_TRANSLATION_QUOTA}</strong> çeviri ücretsiz sunulmaktadır.
           </p>
           {isPremium ? (
             <p className="text-amber-200 text-sm font-bold m-0">⭐ Premium aktif — AI çeviri fair-use kotanız açık.</p>
@@ -924,97 +1062,149 @@ export default function ProfilePage() {
                 <strong className="text-cyan-300">
                   {remainingFreeTranslations(translationCount, isAuthenticated)}/{FREE_TRANSLATION_QUOTA}
                 </strong>
-                {" · "}
-                {PREMIUM_PRODUCT.try.label} / {PREMIUM_PRODUCT.usd.label}
-                {!PAYMENTS_LIVE && " · Shopier bağlantısı bekleniyor"}
+                {!shouldHideExternalPayments()
+                  ? ` · ${PREMIUM_PRODUCT.try.label} / ${PREMIUM_PRODUCT.usd.label}`
+                  : " · Tüm kelime oyunları ve 23 dil yolu ücretsizdir."}
               </p>
-              <button
-                type="button"
-                onClick={() => setPremiumOpen(true)}
-                className="px-4 py-2 rounded-lg text-sm font-black bg-amber-500/20 text-amber-100 border border-amber-400/40 hover:bg-amber-500/30"
-              >
-                Premium’u incele
-              </button>
+              {!shouldHideExternalPayments() && (
+                <div className="flex flex-wrap items-center gap-3">
+                  <a
+                    href="https://www.shopier.com/49186522"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-lg text-sm font-black bg-amber-500/20 text-amber-100 border border-amber-400/40 hover:bg-amber-500/30 no-underline cursor-pointer"
+                  >
+                    👑 Premium’a Geç (Shopier)
+                  </a>
+                  <a
+                    href="https://kreosus.com/httpsmemolandumcom/about"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-lg text-sm font-black bg-pink-500/15 text-pink-200 border border-pink-400/35 hover:bg-pink-500/25 no-underline"
+                  >
+                    💖 Kreosus Destek
+                  </a>
+                </div>
+              )}
             </>
           )}
         </section>
 
-        {/* Hesap silme — Privacy Policy / Play Store */}
+        {/* Hesap silme — Privacy Policy / Play Store Mandatory Flow */}
         {isAuthenticated && (
-          <section className="profile-section border border-red-500/10 mt-4">
-            <h2 className="!text-red-300/80 !text-sm">Tehlikeli bölge</h2>
-            <p className="text-slate-500 text-sm mb-4 leading-relaxed">
-              Hesabınızı kalıcı silmek; kelime kasası, XP, dil profilleri, liderlik kaydı ve
-              giriş bilginizi buluttan kaldırır. Bu işlem geri alınamaz.{" "}
+          <section id="delete-account" className="profile-section border border-red-500/25 bg-red-950/15 mt-4">
+            <h2 className="!text-red-300 !text-sm flex items-center gap-2">
+              <span>🗑️</span> Hesap ve Veri Silme (Google Play & KVKK)
+            </h2>
+            <p className="text-slate-400 text-sm mb-4 leading-relaxed">
+              Hesabınızı silmek; tüm oyun ilerlemenizi (XP, skorlar),{" "}
+              <strong className="text-slate-200">Kelime Kasası (Word Vault)</strong> kayıtlarınızı,{" "}
+              <strong className="text-slate-200">Öğretmen Masası (Teacher Desk)</strong> sınıflarınızı,
+              veli/öğrenci profillerinizi ve kişisel verilerinizi kalıcı olarak siler. Bu işlem geri alınamaz.{" "}
+              <a href="/delete-account/" className="text-cyan-400 hover:text-cyan-300 underline mr-2">
+                Web Hesap Silme Sayfası
+              </a>
               <a href="/legal/privacy/" className="text-cyan-500/80 hover:text-cyan-400 underline">
                 Gizlilik Politikası
               </a>
             </p>
-            {!showDeleteConfirm ? (
-              <button
-                type="button"
-                onClick={() => {
-                  setShowDeleteConfirm(true);
-                  setDeleteError("");
-                  setDeleteAck(false);
-                  setDeletePassword("");
-                }}
-                className="text-xs text-red-400/80 hover:text-red-300 underline underline-offset-4 transition-colors"
-              >
-                Hesabımı kalıcı olarak sil…
-              </button>
-            ) : (
-              <div className="rounded-xl border border-red-500/30 bg-red-950/40 p-4 space-y-3">
-                <label className="flex items-start gap-2 text-sm text-red-100/90 cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={deleteAck}
-                    onChange={(e) => setDeleteAck(e.target.checked)}
-                    className="mt-1"
-                  />
-                  <span>
-                    Anlıyorum: tüm bulut verim ve hesabım silinecek; bu geri alınamaz.
-                  </span>
-                </label>
-                {needsPasswordForDelete() && (
-                  <input
-                    type="password"
-                    autoComplete="current-password"
-                    placeholder="Hesap şifreniz"
-                    value={deletePassword}
-                    onChange={(e) => setDeletePassword(e.target.value)}
-                    className="w-full rounded-lg bg-slate-900 border border-white/10 px-3 py-2 text-sm text-white"
-                  />
-                )}
-                {!needsPasswordForDelete() && (
-                  <p className="text-xs text-slate-400">
-                    Google hesabı kullanıyorsanız onay penceresi açılacak (yeniden doğrulama).
-                  </p>
-                )}
-                {deleteError && (
-                  <p className="text-xs text-red-300">{deleteError}</p>
-                )}
-                <div className="flex flex-wrap gap-2">
-                  <button
-                    type="button"
-                    onClick={() => setShowDeleteConfirm(false)}
-                    disabled={isDeletingAccount}
-                    className="px-3 py-2 rounded-lg text-sm font-bold bg-slate-700 text-white hover:bg-slate-600 disabled:opacity-50"
-                  >
-                    Vazgeç
-                  </button>
-                  <button
-                    type="button"
-                    disabled={isDeletingAccount || !deleteAck}
-                    onClick={handleDeleteAccount}
-                    className="px-3 py-2 rounded-lg text-sm font-bold bg-red-600 text-white hover:bg-red-500 disabled:opacity-40"
-                  >
-                    {isDeletingAccount ? "Siliniyor…" : "Evet, hesabımı sil"}
-                  </button>
-                </div>
-              </div>
-            )}
+            <button
+              type="button"
+              onClick={() => {
+                setShowDeleteConfirm(true);
+                setDeleteError("");
+                setDeleteAck(false);
+                setDeletePassword("");
+              }}
+              className="px-5 py-2.5 rounded-xl text-xs sm:text-sm font-black bg-red-600/20 hover:bg-red-600/30 text-red-200 border border-red-500/40 transition-all cursor-pointer"
+            >
+              Hesabımı ve Verilerimi Sil
+            </button>
           </section>
+        )}
+
+        {/* Hesabımı ve Verilerimi Sil Onay Modalı */}
+        {showDeleteConfirm && (
+          <div
+            className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="delete-account-modal-title"
+          >
+            <div className="w-full max-w-md rounded-2xl border border-red-500/40 bg-slate-900 p-6 shadow-2xl space-y-4">
+              <div className="flex items-start justify-between gap-3">
+                <h3 id="delete-account-modal-title" className="text-lg font-black text-red-300 m-0">
+                  Hesabımı ve Verilerimi Sil
+                </h3>
+                <button
+                  type="button"
+                  onClick={() => setShowDeleteConfirm(false)}
+                  disabled={isDeletingAccount}
+                  className="text-slate-400 hover:text-white text-sm px-2"
+                >
+                  ✕
+                </button>
+              </div>
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed m-0">
+                Bu işlemi onayladığınızda aşağıdaki tüm verileriniz <strong>kalıcı olarak silinecektir</strong>:
+              </p>
+              <ul className="text-xs text-slate-300 space-y-1.5 pl-4 m-0 list-disc">
+                <li>Tüm oyun ilerlemeniz, XP, elmas ve liderlik tablosu kayıtlarınız</li>
+                <li><strong>Kelime Kasası (Word Vault)</strong> ve My Lexicon özel kelimeleriniz</li>
+                <li><strong>Öğretmen Masası (Teacher Desk)</strong> sınıflarınız ve öğrenci kayıtlarınız</li>
+                <li>Kişisel hesap bilgileriniz ve Firebase kimlik doğrulama kaydınız</li>
+              </ul>
+              <label className="flex items-start gap-2.5 text-xs sm:text-sm text-red-100/90 cursor-pointer pt-1">
+                <input
+                  type="checkbox"
+                  checked={deleteAck}
+                  onChange={(e) => setDeleteAck(e.target.checked)}
+                  className="mt-1"
+                />
+                <span>
+                  Anlıyorum: tüm ilerlemem, Kelime Kasası, Öğretmen Masası sınıflarım ve kişisel verilerim kalıcı olarak silinecek; bu işlem geri alınamaz.
+                </span>
+              </label>
+              {needsPasswordForDelete() && (
+                <input
+                  type="password"
+                  autoComplete="current-password"
+                  placeholder="Hesap şifreniz"
+                  value={deletePassword}
+                  onChange={(e) => setDeletePassword(e.target.value)}
+                  className="w-full rounded-lg bg-slate-950 border border-white/15 px-3 py-2.5 text-sm text-white"
+                />
+              )}
+              {!needsPasswordForDelete() && (
+                <p className="text-xs text-slate-400 m-0">
+                  Google hesabı kullanıyorsanız güvenlik için yeniden doğrulama istenecektir.
+                </p>
+              )}
+              {deleteError && (
+                <p className="text-xs text-red-300 bg-red-500/10 border border-red-500/30 rounded-lg px-3 py-2 m-0">
+                  {deleteError}
+                </p>
+              )}
+              <div className="flex flex-wrap justify-end gap-2 pt-2">
+                <button
+                  type="button"
+                  onClick={() => setShowDeleteConfirm(false)}
+                  disabled={isDeletingAccount}
+                  className="px-4 py-2.5 rounded-xl text-xs font-bold bg-slate-800 text-slate-200 hover:bg-slate-700 disabled:opacity-50"
+                >
+                  Vazgeç
+                </button>
+                <button
+                  type="button"
+                  disabled={isDeletingAccount || !deleteAck}
+                  onClick={handleDeleteAccount}
+                  className="px-4 py-2.5 rounded-xl text-xs font-black bg-red-600 text-white hover:bg-red-500 disabled:opacity-40"
+                >
+                  {isDeletingAccount ? "Siliniyor…" : "Hesabımı ve Verilerimi Kalıcı Olarak Sil"}
+                </button>
+              </div>
+            </div>
+          </div>
         )}
 
         <p className="text-center text-xs text-slate-600 mt-8 mb-2">
@@ -1024,6 +1214,10 @@ export default function ProfilePage() {
           <span className="text-slate-700">·</span>
           <a href="/legal/terms/" className="text-slate-500 hover:text-cyan-400 mx-2">
             Koşullar
+          </a>
+          <span className="text-slate-700">·</span>
+          <a href="/delete-account/" className="text-slate-500 hover:text-red-400 mx-2">
+            Hesap Silme
           </a>
           <span className="text-slate-700">·</span>
           <a href="/legal/" className="text-slate-500 hover:text-cyan-400 mx-2">
@@ -1123,6 +1317,7 @@ export default function ProfilePage() {
         isOpen={parentReportOpen}
         onClose={() => setParentReportOpen(false)}
         reportData={parentReportData}
+        initialTab={parentReportTab}
       />
     </div>
   );

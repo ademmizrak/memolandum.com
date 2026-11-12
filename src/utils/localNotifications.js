@@ -194,7 +194,7 @@ export const scheduleDailySrsReminder = async (vocabularyVault) => {
 
       // Sekme arka plandaysa veya kullanıcı sayfadayken vadesi gelen kelime hatırlatması
       const title = "Memolandum Tekrar Zamanı! 🧠";
-      const body = `Kasanızda tekrar edilmeyi bekleyen ${dueCount} kelime var. Hadi serin bozulmasın!`;
+      const body = `Kasanızda tekrar edilmeyi bekleyen ${dueCount} kelime var. Hadi hafızanı tazele!`;
 
       // Sayfa görünürlüğü değiştiğinde (sekmeden ayrıldığında) veya hemen göster
       const fire = () => {

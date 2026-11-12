@@ -1,10 +1,11 @@
 import { Star, SoundManager, HighwayObjectPool, HighwayParticle, HighwayFloatingText, HighwayGem, TrafficCar } from './engine';
+import { attachAdaptiveCanvasGuard } from '../../../lib/performance/canvasFpsGuard';
 
 export class HighwayGame {
   constructor(canvas, ctx, vocabulary, callbacks) {
     this.isHighwayGame = true;
     this.canvas = canvas;
-    this.ctx = ctx;
+    this.ctx = attachAdaptiveCanvasGuard(ctx);
     this.vocabulary = vocabulary;
     
     // React Callbacks
@@ -436,8 +437,8 @@ export class HighwayGame {
     this.soundManager.playGemTick();
     
     // Play target word pronunciation
-    if (this.activeWord && this.activeWord.audioUrl) {
-      this.soundManager.playWordAudio(this.activeWord.audioUrl);
+    if (this.activeWord) {
+      this.soundManager.speakWord(this.activeWord);
     }
     
     for (let i = 0; i < 20; i++) {

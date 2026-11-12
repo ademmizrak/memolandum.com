@@ -1,9 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../Header";
 import TeacherDashboard from "./TeacherDashboard";
+import TeacherTrustGuide from "./TeacherTrustGuide";
 import JoinClassModal from "./JoinClassModal";
+import AuthModal from "../AuthModal";
 import { submitB2BLead } from "../../lib/schools/schoolService";
 import { TURKEY_PROVINCES, getDistrictsForProvince } from "../../lib/schools/turkeyLocations";
 import {
@@ -23,9 +25,44 @@ import {
   Brain,
 } from "lucide-react";
 
-export default function SchoolsClient() {
-  const [activeTab, setActiveTab] = useState("overview"); // 'overview', 'dashboard', 'join'
+export default function SchoolsClient({ initialTab = "overview" }) {
+  const [activeTab, setActiveTab] = useState(initialTab); // 'overview', 'dashboard', 'guide'
   const [joinModalOpen, setJoinModalOpen] = useState(false);
+  const [authOpen, setAuthOpen] = useState(false);
+
+  // Sync tab with URL query parameter (?tab=dashboard, ?tab=guide, or ?tab=overview)
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const tabParam = params.get("tab");
+      if (tabParam === "dashboard" || tabParam === "teacher") {
+        setActiveTab("dashboard");
+      } else if (tabParam === "guide" || tabParam === "rehber" || tabParam === "security") {
+        setActiveTab("guide");
+      } else if (tabParam === "overview") {
+        setActiveTab("overview");
+      }
+    } catch {
+      // ignore query parsing errors
+    }
+  }, []);
+
+  const handleTabChange = (newTab) => {
+    setActiveTab(newTab);
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      if (window.history?.replaceState) {
+        try {
+          const url = new URL(window.location.href);
+          url.searchParams.set("tab", newTab);
+          window.history.replaceState({}, "", url.toString());
+        } catch {
+          // ignore
+        }
+      }
+    }
+  };
 
   // B2B Lead Form State
   const [province, setProvince] = useState("İstanbul");
@@ -79,9 +116,9 @@ export default function SchoolsClient() {
         
         {/* Üst Sekmeler (Görünüm Seçici) */}
         <div className="flex items-center justify-center gap-2 mb-8 sm:mb-12">
-          <div className="p-1.5 rounded-2xl bg-slate-900 border border-slate-800 flex items-center gap-1 shadow-xl">
+          <div className="p-1.5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-wrap items-center justify-center gap-1 shadow-xl">
             <button
-              onClick={() => setActiveTab("overview")}
+              onClick={() => handleTabChange("overview")}
               className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 activeTab === "overview"
                   ? "bg-cyan-600 text-white shadow-md shadow-cyan-600/25"
@@ -93,7 +130,7 @@ export default function SchoolsClient() {
             </button>
 
             <button
-              onClick={() => setActiveTab("dashboard")}
+              onClick={() => handleTabChange("dashboard")}
               className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 activeTab === "dashboard"
                   ? "bg-cyan-600 text-white shadow-md shadow-cyan-600/25"
@@ -102,6 +139,18 @@ export default function SchoolsClient() {
             >
               <Users className="w-4 h-4" />
               <span>Öğretmen & Sınıf Paneli</span>
+            </button>
+
+            <button
+              onClick={() => handleTabChange("guide")}
+              className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+                activeTab === "guide"
+                  ? "bg-emerald-600 text-white shadow-md shadow-emerald-600/25"
+                  : "text-emerald-300 bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30"
+              }`}
+            >
+              <ShieldCheck className="w-4 h-4" />
+              <span>Öğretmen Güvencesi & Rehber</span>
             </button>
 
             <button
@@ -115,7 +164,17 @@ export default function SchoolsClient() {
         </div>
 
         {/* 1. Görünüm: Öğretmen Dashboard'u */}
-        {activeTab === "dashboard" && <TeacherDashboard />}
+        {activeTab === "dashboard" && (
+          <TeacherDashboard
+            onRequestAuth={() => setAuthOpen(true)}
+            onOpenGuide={() => handleTabChange("guide")}
+          />
+        )}
+
+        {/* 1.5. Görünüm: Öğretmen Güvenlik, Mahremiyet ve Kullanım Rehberi */}
+        {activeTab === "guide" && (
+          <TeacherTrustGuide onOpenDashboard={() => handleTabChange("dashboard")} />
+        )}
 
         {/* 2. Görünüm: B2B Okullar İçin Tanıtım & Teklif Alma */}
         {activeTab === "overview" && (
@@ -133,23 +192,30 @@ export default function SchoolsClient() {
                 </span>
               </h1>
               <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-                Sınıfınızı 30 saniyede açın, 6 haneli kodla öğrencilerinizi bürokrasisiz toplayın; 
-                okul ünite ödevlerini atayıp akıllı tahtada oynatarak tüm sınıfın hafıza başarısını canlı izleyin.
+                Evden veya okuldan sınıf açın: rumuz ve avatar yeterli, gerçek ad zorunlu değil.
+                6 haneli kodla öğrencileri toplayın, ünite ödevi atayıp ilerlemeyi izleyin.
               </p>
 
               <div className="flex flex-wrap items-center justify-center gap-3 pt-4">
-                <a
-                  href="#b2b-form"
+                <button
+                  onClick={() => handleTabChange("dashboard")}
                   className="px-6 py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-teal-400 hover:from-cyan-400 hover:to-teal-300 text-slate-950 font-black text-sm tracking-wide shadow-lg shadow-cyan-500/25 hover:scale-105 transition-all cursor-pointer"
                 >
-                  Okulunuz İçin Teklif Alın
-                </a>
-                <button
-                  onClick={() => setActiveTab("dashboard")}
-                  className="px-6 py-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-white font-bold text-sm border border-slate-700 transition-all cursor-pointer"
-                >
-                  Öğretmen Panelini İncele
+                  Ücretsiz Öğretmen Masasını Aç
                 </button>
+                <button
+                  onClick={() => handleTabChange("guide")}
+                  className="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-300 font-bold text-sm border border-emerald-500/40 transition-all cursor-pointer"
+                >
+                  <ShieldCheck className="w-4 h-4 text-emerald-400" />
+                  <span>Öğretmen Güvenlik & Kullanım Rehberi</span>
+                </button>
+                <a
+                  href="#b2b-form"
+                  className="px-5 py-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-white font-bold text-sm border border-slate-700 transition-all cursor-pointer"
+                >
+                  Okulunuz İçin Kurumsal Teklif Alın
+                </a>
               </div>
             </div>
 
@@ -161,7 +227,7 @@ export default function SchoolsClient() {
                   <BookOpen className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-bold text-white">
-                  %100 Okul Müfredatına Uygun (1-4. Sınıf)
+                  %100 Okul Müfredatına Uygun (1–12. Sınıf, LGS & YDS)
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
                   Okul ders kitaplarındaki tüm ünitelerin kelimeleri ve kalıp cümleleri hazır. 
@@ -187,11 +253,11 @@ export default function SchoolsClient() {
                   <Award className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-bold text-white">
-                  Zümre & Veli Raporları
+                  Sınıf Listesi & Ödev Takibi
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
-                  Kimin ödevi bitirdiğini, hangi kelimelerde zorlanıldığını gösteren canlı zümre raporları 
-                  ve veli WhatsApp gruplarına tek tıkla gönderilebilen başarı bildirimleri.
+                  Kim ödeve başladı, kim tamamladı — sınıf tablosunda görünür. WhatsApp ile veli
+                  duyurusu paylaşabilirsiniz. Detaylı zümre ısı haritası sonraki sürümde.
                 </p>
               </div>
 
@@ -211,7 +277,8 @@ export default function SchoolsClient() {
                     Okulunuz / Kolejiniz İçin Demo & Teklif İsteyin
                   </h2>
                   <p className="text-xs sm:text-sm text-slate-400 mt-1">
-                    Özel okul zümre başkanları ve yöneticileri için avantajlı toplu lisans (50-500+ öğrenci) paketlerimiz hakkında bilgi alın.
+                    Özel okul zümreleri ve yöneticileri için toplu lisans (50–500+ öğrenci) teklifi.
+                    Ücretsiz öğretmen masası için yukarıdaki paneli kullanın — orada gerçek ad zorunlu değil.
                   </p>
                 </div>
 
@@ -286,16 +353,19 @@ export default function SchoolsClient() {
 
                     <div>
                       <label className="block text-xs font-bold text-slate-300 mb-1">
-                        Yetkili / Öğretmen Adı:
+                        Yetkili iletişim adı:
                       </label>
                       <input
                         type="text"
-                        placeholder="Adınız ve Soyadınız"
+                        placeholder="Teklif için iletişim adı (kurumsal)"
                         value={contactName}
                         onChange={(e) => setContactName(e.target.value)}
                         className="w-full bg-slate-800/80 border border-slate-700 text-white rounded-xl px-4 py-2.5 text-xs sm:text-sm focus:border-cyan-400 focus:outline-none"
                         required
                       />
+                      <p className="text-[10px] text-slate-500 mt-1">
+                        Bu form kurumsal satış içindir; öğretmen paneli ayrı ve gizlilik önceliklidir.
+                      </p>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -402,6 +472,11 @@ export default function SchoolsClient() {
       <JoinClassModal
         isOpen={joinModalOpen}
         onClose={() => setJoinModalOpen(false)}
+      />
+      <AuthModal
+        isOpen={authOpen}
+        onClose={() => setAuthOpen(false)}
+        initialView="login"
       />
     </div>
   );

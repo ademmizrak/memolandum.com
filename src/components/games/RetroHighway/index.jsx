@@ -69,20 +69,16 @@ export default function RetroHighway({
           }
           return prev;
         });
+        const { recordWordQuizResult } = useMemolandumStore.getState();
+        if (typeof recordWordQuizResult === 'function' && wordObj) {
+          recordWordQuizResult(wordObj, true, 8, { language: langId, gameId: 'highway' });
+        }
       },
       onStateChange: (stateData) => {
         setActiveScreen(stateData.state);
         setShields(stateData.shields);
         setLearnedCount(stateData.processedCount);
         setTotalWords(stateData.totalWords);
-
-        // On victory, save learned words to Vocabulary Vault
-        if (stateData.state === 'victory' && stateData.learnedWords?.length > 0) {
-          const { recordWordQuizResult } = useMemolandumStore.getState();
-          stateData.learnedWords.forEach((w) => {
-            recordWordQuizResult(w, true, 8, { language: langId });
-          });
-        }
       }
     });
 

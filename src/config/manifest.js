@@ -933,7 +933,7 @@ export const gameManifest = {
             },
             {
               "id": "en-tr_eng_yaz_cumleleri-1",
-              "name": "en tr summer vacation",
+              "name": "Yaz Tatili Kelime & Cümleleri (Summer Vacation)",
               "path": "Tr_Eng_Yaz_Cumleleri/en_tr_summer_vacation.json",
               "slug": "ingilizce-yaz-cumleleri-en-tr-summer-vacation"
             }
@@ -1107,6 +1107,38 @@ export const gameManifest = {
             }
           ],
           "sentenceLevels": []
+        },
+        {
+          "id": "en-tr_eng_ortaokul",
+          "name": "Ortaokul",
+          "folder": "Tr_Eng_Ortaokul",
+          "levels": [
+            {
+              "id": "en-tr_eng_ortaokul-0",
+              "name": "5. Sınıf 1. Ünite (School Life) Kelimeleri",
+              "path": "Tr_Eng_Ortaokul/Ortaokul_5_Sinif_Kelimeleri.json",
+              "slug": "meb-5-sinif-kelimeleri"
+            },
+            {
+              "id": "en-tr_eng_ortaokul-1",
+              "name": "6. Sınıf 1. Ünite (School Life) Kelimeleri",
+              "path": "Tr_Eng_Ortaokul/Ortaokul_6_Sinif_Kelimeleri.json",
+              "slug": "meb-6-sinif-kelimeleri"
+            },
+            {
+              "id": "en-tr_eng_ortaokul-2",
+              "name": "7. Sınıf 1. ve 2. Ünite Kelimeleri",
+              "path": "Tr_Eng_Ortaokul/Ortaokul_7_Sinif_Kelimeleri.json",
+              "slug": "meb-7-sinif-kelimeleri"
+            },
+            {
+              "id": "en-tr_eng_ortaokul-3",
+              "name": "8. Sınıf 1. Ünite (School Life) Kelimeleri",
+              "path": "Tr_Eng_Ortaokul/Ortaokul_8_Sinif_Kelimeleri.json",
+              "slug": "meb-8-sinif-kelimeleri"
+            }
+          ],
+          "sentenceLevels": []
         }
       ]
     },
@@ -1122,25 +1154,25 @@ export const gameManifest = {
             {
               "id": "other-academic-0",
               "name": "astronomi uzay havaciligi 001 100 kavram",
-              "path": "academic/astronomi_uzay_havaciligi_001_100_kavram.json",
+              "path": "academic/technic/astronomi_uzay_havaciligi_001_100_kavram.json",
               "slug": "diger-academic-astronomi-uzay-havaciligi-001-100-kavram"
             },
             {
               "id": "other-academic-1",
               "name": "astronomi uzay havaciligi 100-200 kavram",
-              "path": "academic/astronomi_uzay_havaciligi_100-200_kavram.json",
+              "path": "academic/technic/astronomi_uzay_havaciligi_100-200_kavram.json",
               "slug": "diger-academic-astronomi-uzay-havaciligi-100-200-kavram"
             },
             {
               "id": "other-academic-2",
               "name": "astronomi uzay havaciligi 201 300 kavram",
-              "path": "academic/astronomi_uzay_havaciligi_201_300_kavram.json",
+              "path": "academic/technic/astronomi_uzay_havaciligi_201_300_kavram.json",
               "slug": "diger-academic-astronomi-uzay-havaciligi-201-300-kavram"
             },
             {
               "id": "other-academic-3",
               "name": "astronomi uzay havaciligi 301 400 kavram",
-              "path": "academic/astronomi_uzay_havaciligi_301_400_kavram.json",
+              "path": "academic/technic/astronomi_uzay_havaciligi_301_400_kavram.json",
               "slug": "diger-academic-astronomi-uzay-havaciligi-301-400-kavram"
             },
             {
@@ -1152,217 +1184,217 @@ export const gameManifest = {
             {
               "id": "other-academic-5",
               "name": "hukuk fakultesi 001 100 kavram",
-              "path": "academic/hukuk_fakultesi_001_100_kavram.json",
+              "path": "academic/technic/hukuk_fakultesi_001_100_kavram.json",
               "slug": "diger-academic-hukuk-fakultesi-001-100-kavram"
             },
             {
               "id": "other-academic-6",
               "name": "hukuk fakultesi 101 200 kavram",
-              "path": "academic/hukuk_fakultesi_101_200_kavram.json",
+              "path": "academic/technic/hukuk_fakultesi_101_200_kavram.json",
               "slug": "diger-academic-hukuk-fakultesi-101-200-kavram"
             },
             {
               "id": "other-academic-7",
               "name": "hukuk fakultesi 201 300 kavram",
-              "path": "academic/hukuk_fakultesi_201_300_kavram.json",
+              "path": "academic/technic/hukuk_fakultesi_201_300_kavram.json",
               "slug": "diger-academic-hukuk-fakultesi-201-300-kavram"
             },
             {
               "id": "other-academic-8",
               "name": "hukuk fakultesi 301 400 kavram",
-              "path": "academic/hukuk_fakultesi_301_400_kavram.json",
+              "path": "academic/technic/hukuk_fakultesi_301_400_kavram.json",
               "slug": "diger-academic-hukuk-fakultesi-301-400-kavram"
             },
             {
               "id": "other-academic-9",
               "name": "KPSS Cografya 001 100",
-              "path": "academic/KPSS_Cografya_001_100.json",
+              "path": "academic/kpss_sinav/KPSS_Cografya_001_100.json",
               "slug": "diger-academic-kpss-cografya-001-100"
             },
             {
               "id": "other-academic-10",
               "name": "KPSS Cografya 101 200",
-              "path": "academic/KPSS_Cografya_101_200.json",
+              "path": "academic/kpss_sinav/KPSS_Cografya_101_200.json",
               "slug": "diger-academic-kpss-cografya-101-200"
             },
             {
               "id": "other-academic-11",
               "name": "KPSS Cografya 201 300",
-              "path": "academic/KPSS_Cografya_201_300.json",
+              "path": "academic/kpss_sinav/KPSS_Cografya_201_300.json",
               "slug": "diger-academic-kpss-cografya-201-300"
             },
             {
               "id": "other-academic-12",
               "name": "KPSS Cografya 301 400",
-              "path": "academic/KPSS_Cografya_301_400.json",
+              "path": "academic/kpss_sinav/KPSS_Cografya_301_400.json",
               "slug": "diger-academic-kpss-cografya-301-400"
             },
             {
               "id": "other-academic-13",
               "name": "KPSS Genel Kultur 001 100",
-              "path": "academic/KPSS_Genel_Kultur_001_100.json",
+              "path": "academic/kpss_sinav/KPSS_Genel_Kultur_001_100.json",
               "slug": "diger-academic-kpss-genel-kultur-001-100"
             },
             {
               "id": "other-academic-14",
               "name": "KPSS Genel Kultur 101 200",
-              "path": "academic/KPSS_Genel_Kultur_101_200.json",
+              "path": "academic/kpss_sinav/KPSS_Genel_Kultur_101_200.json",
               "slug": "diger-academic-kpss-genel-kultur-101-200"
             },
             {
               "id": "other-academic-15",
               "name": "KPSS Genel Kultur 201 300",
-              "path": "academic/KPSS_Genel_Kultur_201_300.json",
+              "path": "academic/kpss_sinav/KPSS_Genel_Kultur_201_300.json",
               "slug": "diger-academic-kpss-genel-kultur-201-300"
             },
             {
               "id": "other-academic-16",
               "name": "KPSS Genel Kultur 301 400",
-              "path": "academic/KPSS_Genel_Kultur_301_400.json",
+              "path": "academic/kpss_sinav/KPSS_Genel_Kultur_301_400.json",
               "slug": "diger-academic-kpss-genel-kultur-301-400"
             },
             {
               "id": "other-academic-17",
               "name": "KPSS Matematik Geometri 001 100",
-              "path": "academic/KPSS_Matematik_Geometri_001_100.json",
+              "path": "academic/kpss_sinav/KPSS_Matematik_Geometri_001_100.json",
               "slug": "diger-academic-kpss-matematik-geometri-001-100"
             },
             {
               "id": "other-academic-18",
               "name": "KPSS Matematik Geometri 101 200",
-              "path": "academic/KPSS_Matematik_Geometri_101_200.json",
+              "path": "academic/kpss_sinav/KPSS_Matematik_Geometri_101_200.json",
               "slug": "diger-academic-kpss-matematik-geometri-101-200"
             },
             {
               "id": "other-academic-19",
               "name": "KPSS Matematik Geometri 201 300",
-              "path": "academic/KPSS_Matematik_Geometri_201_300.json",
+              "path": "academic/kpss_sinav/KPSS_Matematik_Geometri_201_300.json",
               "slug": "diger-academic-kpss-matematik-geometri-201-300"
             },
             {
               "id": "other-academic-20",
               "name": "KPSS Matematik Geometri 301 400",
-              "path": "academic/KPSS_Matematik_Geometri_301_400.json",
+              "path": "academic/kpss_sinav/KPSS_Matematik_Geometri_301_400.json",
               "slug": "diger-academic-kpss-matematik-geometri-301-400"
             },
             {
               "id": "other-academic-21",
               "name": "KPSS Tarih 001 100",
-              "path": "academic/KPSS_Tarih_001_100.json",
+              "path": "academic/kpss_sinav/KPSS_Tarih_001_100.json",
               "slug": "diger-academic-kpss-tarih-001-100"
             },
             {
               "id": "other-academic-22",
               "name": "KPSS Tarih 101 200",
-              "path": "academic/KPSS_Tarih_101_200.json",
+              "path": "academic/kpss_sinav/KPSS_Tarih_101_200.json",
               "slug": "diger-academic-kpss-tarih-101-200"
             },
             {
               "id": "other-academic-23",
               "name": "KPSS Tarih 201 300",
-              "path": "academic/KPSS_Tarih_201_300.json",
+              "path": "academic/kpss_sinav/KPSS_Tarih_201_300.json",
               "slug": "diger-academic-kpss-tarih-201-300"
             },
             {
               "id": "other-academic-24",
               "name": "KPSS Tarih 301 400",
-              "path": "academic/KPSS_Tarih_301_400.json",
+              "path": "academic/kpss_sinav/KPSS_Tarih_301_400.json",
               "slug": "diger-academic-kpss-tarih-301-400"
             },
             {
               "id": "other-academic-25",
               "name": "KPSS Turkce 001 100",
-              "path": "academic/KPSS_Turkce_001_100.json",
+              "path": "academic/kpss_sinav/KPSS_Turkce_001_100.json",
               "slug": "diger-academic-kpss-turkce-001-100"
             },
             {
               "id": "other-academic-26",
               "name": "KPSS Turkce 101 200",
-              "path": "academic/KPSS_Turkce_101_200.json",
+              "path": "academic/kpss_sinav/KPSS_Turkce_101_200.json",
               "slug": "diger-academic-kpss-turkce-101-200"
             },
             {
               "id": "other-academic-27",
               "name": "KPSS Turkce 201 300",
-              "path": "academic/KPSS_Turkce_201_300.json",
+              "path": "academic/kpss_sinav/KPSS_Turkce_201_300.json",
               "slug": "diger-academic-kpss-turkce-201-300"
             },
             {
               "id": "other-academic-28",
               "name": "KPSS Turkce 301 400",
-              "path": "academic/KPSS_Turkce_301_400.json",
+              "path": "academic/kpss_sinav/KPSS_Turkce_301_400.json",
               "slug": "diger-academic-kpss-turkce-301-400"
             },
             {
               "id": "other-academic-29",
               "name": "KPSS Vatandaslik 001 100",
-              "path": "academic/KPSS_Vatandaslik_001_100.json",
+              "path": "academic/kpss_sinav/KPSS_Vatandaslik_001_100.json",
               "slug": "diger-academic-kpss-vatandaslik-001-100"
             },
             {
               "id": "other-academic-30",
               "name": "KPSS Vatandaslik 101 200",
-              "path": "academic/KPSS_Vatandaslik_101_200.json",
+              "path": "academic/kpss_sinav/KPSS_Vatandaslik_101_200.json",
               "slug": "diger-academic-kpss-vatandaslik-101-200"
             },
             {
               "id": "other-academic-31",
               "name": "KPSS Vatandaslik 201 300",
-              "path": "academic/KPSS_Vatandaslik_201_300.json",
+              "path": "academic/kpss_sinav/KPSS_Vatandaslik_201_300.json",
               "slug": "diger-academic-kpss-vatandaslik-201-300"
             },
             {
               "id": "other-academic-32",
               "name": "KPSS Vatandaslik 301 400",
-              "path": "academic/KPSS_Vatandaslik_301_400.json",
+              "path": "academic/kpss_sinav/KPSS_Vatandaslik_301_400.json",
               "slug": "diger-academic-kpss-vatandaslik-301-400"
             },
             {
               "id": "other-academic-33",
               "name": "mimari kavramlar 001 100",
-              "path": "academic/mimari_kavramlar_001_100.json",
+              "path": "academic/technic/mimari_kavramlar_001_100.json",
               "slug": "diger-academic-mimari-kavramlar-001-100"
             },
             {
               "id": "other-academic-34",
               "name": "mimari kavramlar 101 200",
-              "path": "academic/mimari_kavramlar_101_200.json",
+              "path": "academic/technic/mimari_kavramlar_101_200.json",
               "slug": "diger-academic-mimari-kavramlar-101-200"
             },
             {
               "id": "other-academic-35",
               "name": "mimari kavramlar 201 300",
-              "path": "academic/mimari_kavramlar_201_300.json",
+              "path": "academic/technic/mimari_kavramlar_201_300.json",
               "slug": "diger-academic-mimari-kavramlar-201-300"
             },
             {
               "id": "other-academic-36",
               "name": "mimari kavramlar 301 400",
-              "path": "academic/mimari_kavramlar_301_400.json",
+              "path": "academic/technic/mimari_kavramlar_301_400.json",
               "slug": "diger-academic-mimari-kavramlar-301-400"
             },
             {
               "id": "other-academic-37",
               "name": "tip fakultesi 001 100 kavram",
-              "path": "academic/tip_fakultesi_001_100_kavram.json",
+              "path": "academic/technic/tip_fakultesi_001_100_kavram.json",
               "slug": "diger-academic-tip-fakultesi-001-100-kavram"
             },
             {
               "id": "other-academic-38",
               "name": "tip fakultesi 101 200 kavram",
-              "path": "academic/tip_fakultesi_101_200_kavram.json",
+              "path": "academic/technic/tip_fakultesi_101_200_kavram.json",
               "slug": "diger-academic-tip-fakultesi-101-200-kavram"
             },
             {
               "id": "other-academic-39",
               "name": "tip fakultesi 201 300 kavram",
-              "path": "academic/tip_fakultesi_201_300_kavram.json",
+              "path": "academic/technic/tip_fakultesi_201_300_kavram.json",
               "slug": "diger-academic-tip-fakultesi-201-300-kavram"
             },
             {
               "id": "other-academic-40",
               "name": "tip fakultesi 301 400 kavram",
-              "path": "academic/tip_fakultesi_301_400_kavram.json",
+              "path": "academic/technic/tip_fakultesi_301_400_kavram.json",
               "slug": "diger-academic-tip-fakultesi-301-400-kavram"
             }
           ]
@@ -1456,7 +1488,7 @@ export const gameManifest = {
             },
             {
               "id": "other-almanca-de_en-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Almanca/content/de_en/sentences_de_en.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -1464,7 +1496,7 @@ export const gameManifest = {
             },
             {
               "id": "other-almanca-de_en-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Almanca/content/de_en/sentences_de_en.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -2329,7 +2361,7 @@ export const gameManifest = {
             },
             {
               "id": "other-almanca-de_tr-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Almanca/content/de_tr/sentences_de_tr.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -2337,7 +2369,7 @@ export const gameManifest = {
             },
             {
               "id": "other-almanca-de_tr-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Almanca/content/de_tr/sentences_de_tr.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -2713,7 +2745,7 @@ export const gameManifest = {
             },
             {
               "id": "other-arabic-ar_en-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Arabic/content/ar_en/sentences_ar_en.json",
               "levelCode": "Growth",
               "type": "sentences",
@@ -2937,7 +2969,7 @@ export const gameManifest = {
             },
             {
               "id": "other-arabic-ar_tr-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Arabic/content/ar_tr/sentences_ar_tr.json",
               "levelCode": "Growth",
               "type": "sentences",
@@ -2975,6 +3007,14 @@ export const gameManifest = {
           "folder": "Chinesee",
           "levels": [
             {
+              "id": "other-chinesee-zh_ch_en-words-a1",
+              "name": "A1 Kelimeleri",
+              "path": "Chinesee/content/zh_ch_en/words_ch_en.json",
+              "levelCode": "A1",
+              "type": "words",
+              "slug": "diger-cince-i-ngilizce-words-a1"
+            },
+            {
               "id": "other-chinesee-zh_ch_en-words-a1-extended",
               "name": "A1-Extended Kelimeleri",
               "path": "Chinesee/content/zh_ch_en/words_ch_en.json",
@@ -3005,6 +3045,14 @@ export const gameManifest = {
               "levelCode": "B1-Group1",
               "type": "words",
               "slug": "diger-cince-i-ngilizce-words-b1-group1"
+            },
+            {
+              "id": "other-chinesee-zh_ch_en-words-b1-group2",
+              "name": "B1-Group2 Kelimeleri",
+              "path": "Chinesee/content/zh_ch_en/words_ch_en.json",
+              "levelCode": "B1-Group2",
+              "type": "words",
+              "slug": "diger-cince-i-ngilizce-words-b1-group2"
             },
             {
               "id": "other-chinesee-zh_ch_en-words-b2-group1",
@@ -3356,7 +3404,7 @@ export const gameManifest = {
             },
             {
               "id": "other-french-fr_en-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "French/content/fr_en/sentences_fr_en.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -3525,7 +3573,7 @@ export const gameManifest = {
             },
             {
               "id": "other-french-fr_tr-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "French/content/fr_tr/sentences_fr_tr.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -4013,7 +4061,7 @@ export const gameManifest = {
             },
             {
               "id": "other-greek-el_en-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Greek/content/el_en/sentences_el_en.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -4021,7 +4069,7 @@ export const gameManifest = {
             },
             {
               "id": "other-greek-el_en-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Greek/content/el_en/sentences_el_en.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -4573,7 +4621,7 @@ export const gameManifest = {
             },
             {
               "id": "other-greek-el_tr-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Greek/content/el_tr/sentences_el_tr.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -4581,7 +4629,7 @@ export const gameManifest = {
             },
             {
               "id": "other-greek-el_tr-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Greek/content/el_tr/sentences_el_tr.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -4814,7 +4862,7 @@ export const gameManifest = {
             },
             {
               "id": "other-italy-it_en-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Italy/content/It_En/sentences_it_en.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -4822,7 +4870,7 @@ export const gameManifest = {
             },
             {
               "id": "other-italy-it_en-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Italy/content/It_En/sentences_it_en.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -5407,7 +5455,7 @@ export const gameManifest = {
             },
             {
               "id": "other-italy-it_tr-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Italy/content/It_Tr/sentences_it_tr.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -5415,7 +5463,7 @@ export const gameManifest = {
             },
             {
               "id": "other-italy-it_tr-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Italy/content/It_Tr/sentences_it_tr.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -5558,17 +5606,17 @@ export const gameManifest = {
           "levels": [
             {
               "id": "other-japan-jap_en-alphabet",
-              "name": "Alfabe / Harfler",
+              "name": "Alfabe / Hiragana (Harfler)",
               "path": "Japan/content/jap_en/alphabet_hiragana_jap_en.json",
               "type": "alphabet",
               "slug": "diger-japonca-i-ngilizce-alphabet"
             },
             {
-              "id": "other-japan-jap_en-alphabet",
-              "name": "Alfabe / Harfler",
+              "id": "other-japan-jap_en-alphabet-katakana",
+              "name": "Alfabe / Katakana (Harfler)",
               "path": "Japan/content/jap_en/alphabet_katakana_jap_en.json",
               "type": "alphabet",
-              "slug": "diger-japonca-i-ngilizce-alphabet"
+              "slug": "diger-japonca-i-ngilizce-alphabet-er-japan-jap-en-alphabet"
             },
             {
               "id": "other-japan-jap_en-words-a1_vocabulary",
@@ -5638,7 +5686,7 @@ export const gameManifest = {
             },
             {
               "id": "other-japan-jap_en-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Japan/content/jap_en/sentences_jap_en.json",
               "levelCode": "Growth",
               "type": "sentences",
@@ -5677,17 +5725,17 @@ export const gameManifest = {
           "levels": [
             {
               "id": "other-japan-jap_tr-alphabet",
-              "name": "Alfabe / Harfler",
+              "name": "Alfabe / Hiragana (Harfler)",
               "path": "Japan/content/jap_Tr/alphabet_hiragana_jap_Tr.json",
               "type": "alphabet",
               "slug": "diger-japonca-turkce-alphabet"
             },
             {
-              "id": "other-japan-jap_tr-alphabet",
-              "name": "Alfabe / Harfler",
+              "id": "other-japan-jap_tr-alphabet-katakana",
+              "name": "Alfabe / Katakana (Harfler)",
               "path": "Japan/content/jap_Tr/alphabet_katakana_jap_Tr.json",
               "type": "alphabet",
-              "slug": "diger-japonca-turkce-alphabet"
+              "slug": "diger-japonca-turkce-alphabet-er-japan-jap-tr-alphabet"
             },
             {
               "id": "other-japan-jap_tr-words-a1_vocabulary",
@@ -5765,7 +5813,7 @@ export const gameManifest = {
             },
             {
               "id": "other-japan-jap_tr-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Japan/content/jap_Tr/sentences_ja_tr.json",
               "levelCode": "Growth",
               "type": "sentences",
@@ -6229,7 +6277,7 @@ export const gameManifest = {
             },
             {
               "id": "other-korean-ko_en-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Korean/content/ko_en/sentences_ko_en.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -6237,7 +6285,7 @@ export const gameManifest = {
             },
             {
               "id": "other-korean-ko_en-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Korean/content/ko_en/sentences_ko_en.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -6813,7 +6861,7 @@ export const gameManifest = {
             },
             {
               "id": "other-korean-ko_tr-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Korean/content/ko_tr/sentences_ko_tr.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -6821,7 +6869,7 @@ export const gameManifest = {
             },
             {
               "id": "other-korean-ko_tr-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Korean/content/ko_tr/sentences_ko_tr.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -7171,7 +7219,7 @@ export const gameManifest = {
             },
             {
               "id": "other-portugal-brpt_en-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Portugal/content/BrPt_En/sentences_brpt_en.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -7179,7 +7227,7 @@ export const gameManifest = {
             },
             {
               "id": "other-portugal-brpt_en-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Portugal/content/BrPt_En/sentences_brpt_en.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -7548,7 +7596,7 @@ export const gameManifest = {
             },
             {
               "id": "other-portugal-brpt_tr-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Portugal/content/Brpt_Tr/sentences_brpt_tr.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -7556,7 +7604,7 @@ export const gameManifest = {
             },
             {
               "id": "other-portugal-brpt_tr-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Portugal/content/Brpt_Tr/sentences_brpt_tr.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -8140,7 +8188,7 @@ export const gameManifest = {
             },
             {
               "id": "other-russian-ru_en-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Russian/content/ru_en/sentences_ru_en.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -8148,7 +8196,7 @@ export const gameManifest = {
             },
             {
               "id": "other-russian-ru_en-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Russian/content/ru_en/sentences_ru_en.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -8700,7 +8748,7 @@ export const gameManifest = {
             },
             {
               "id": "other-russian-ru_tr-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Russian/content/ru_tr/sentences_ru_tr.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -8708,7 +8756,7 @@ export const gameManifest = {
             },
             {
               "id": "other-russian-ru_tr-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Russian/content/ru_tr/sentences_ru_tr.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -9021,7 +9069,7 @@ export const gameManifest = {
             },
             {
               "id": "other-spanish-es_en-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Spanish/content/es_en/sentences_es_en.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -9029,7 +9077,7 @@ export const gameManifest = {
             },
             {
               "id": "other-spanish-es_en-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Spanish/content/es_en/sentences_es_en.json",
               "levelCode": "growth",
               "type": "sentences",
@@ -9374,7 +9422,7 @@ export const gameManifest = {
             },
             {
               "id": "other-spanish-es_tr-sentences-learning",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🧠 Öğrenme & Eğitim Cümleleri",
               "path": "Spanish/content/es_tr/sentences_es_tr.json",
               "levelCode": "learning",
               "type": "sentences",
@@ -9382,7 +9430,7 @@ export const gameManifest = {
             },
             {
               "id": "other-spanish-es_tr-sentences-growth",
-              "name": "🧠 Öğrenme & Gelişim Cümleleri",
+              "name": "🌱 Kişisel Gelişim Cümleleri",
               "path": "Spanish/content/es_tr/sentences_es_tr.json",
               "levelCode": "growth",
               "type": "sentences",

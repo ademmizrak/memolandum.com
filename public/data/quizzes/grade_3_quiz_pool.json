@@ -1,0 +1,3511 @@
+{
+  "grade": 3,
+  "slug": "3-sinif",
+  "title": "3. Sınıf İngilizce Deneme Quizi",
+  "subtitle": "Tüm Üniteler Kelime & Cümle Değerlendirme Testi",
+  "badge": "İlkokul · 3. Sınıf",
+  "poolSize": 100,
+  "defaultTestSize": 20,
+  "questions": [
+    {
+      "id": "q_g3_001",
+      "number": 1,
+      "grade": 3,
+      "unitNo": 1,
+      "unitName": "Greeting",
+      "cefr": "A1.2",
+      "wordId": "w_30001",
+      "english": "family",
+      "turkish": "aile",
+      "exampleSentence": "I love my family.",
+      "blankedSentence": "I love my _______.",
+      "sentenceTr": "Geniş ailemi seviyorum.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30001.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I love my _______.",
+      "helperText": "İpucu (Anlamı): aile",
+      "correctAnswer": "family",
+      "distractors": [
+        "student",
+        "grandmother",
+        "slow"
+      ],
+      "englishDistractors": [
+        "student",
+        "grandmother",
+        "slow"
+      ],
+      "turkishDistractors": [
+        "öğrenci",
+        "nine / büyükanne",
+        "yavaş"
+      ]
+    },
+    {
+      "id": "q_g3_002",
+      "number": 2,
+      "grade": 3,
+      "unitNo": 1,
+      "unitName": "Greeting",
+      "cefr": "A1.2",
+      "wordId": "w_30002",
+      "english": "feel",
+      "turkish": "hissetmek",
+      "exampleSentence": "How do you feel today?",
+      "blankedSentence": "How do you _______ today?",
+      "sentenceTr": "Bugün nasıl hissediyorsun?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30002.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "feel",
+      "helperText": "Örnek: \"How do you feel today?\"",
+      "correctAnswer": "hissetmek",
+      "distractors": [
+        "anne",
+        "yüzmek",
+        "enerjik"
+      ],
+      "englishDistractors": [
+        "mother",
+        "swim",
+        "energetic"
+      ],
+      "turkishDistractors": [
+        "anne",
+        "yüzmek",
+        "enerjik"
+      ]
+    },
+    {
+      "id": "q_g3_003",
+      "number": 3,
+      "grade": 3,
+      "unitNo": 1,
+      "unitName": "Greeting",
+      "cefr": "A1.2",
+      "wordId": "w_30003",
+      "english": "happy",
+      "turkish": "mutlu",
+      "exampleSentence": "I am very happy today.",
+      "blankedSentence": "I am very _______ today.",
+      "sentenceTr": "Bugün çok mutlu hissediyorum.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30003.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I am very _______ today.",
+      "helperText": "İpucu (Anlamı): mutlu",
+      "correctAnswer": "happy",
+      "distractors": [
+        "cousin",
+        "short",
+        "chess"
+      ],
+      "englishDistractors": [
+        "cousin",
+        "short",
+        "chess"
+      ],
+      "turkishDistractors": [
+        "kuzen",
+        "kısa boylu",
+        "satranç"
+      ]
+    },
+    {
+      "id": "q_g3_004",
+      "number": 4,
+      "grade": 3,
+      "unitNo": 1,
+      "unitName": "Greeting",
+      "cefr": "A1.2",
+      "wordId": "w_30004",
+      "english": "old",
+      "turkish": "yaşında / yaşlı",
+      "exampleSentence": "How old are you?",
+      "blankedSentence": "How _______ are you?",
+      "sentenceTr": "Kaç yaşındasın?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30004.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "yaşında / yaşlı",
+      "helperText": "Örnek: \"How _______ are you?\"",
+      "correctAnswer": "old",
+      "distractors": [
+        "fast",
+        "angry",
+        "computer game"
+      ],
+      "englishDistractors": [
+        "fast",
+        "angry",
+        "computer game"
+      ],
+      "turkishDistractors": [
+        "hızlı",
+        "kızgın",
+        "bilgisayar oyunu"
+      ]
+    },
+    {
+      "id": "q_g3_005",
+      "number": 5,
+      "grade": 3,
+      "unitNo": 1,
+      "unitName": "Greeting",
+      "cefr": "A1.2",
+      "wordId": "w_30005",
+      "english": "student",
+      "turkish": "öğrenci",
+      "exampleSentence": "I am a primary school student.",
+      "blankedSentence": "I am a primary school _______.",
+      "sentenceTr": "Ben bir ilkokul öğrencisiyim.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30005.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I am a primary school _______.",
+      "helperText": "İpucu (Anlamı): öğrenci",
+      "correctAnswer": "student",
+      "distractors": [
+        "tired",
+        "blocks",
+        "garage"
+      ],
+      "englishDistractors": [
+        "tired",
+        "blocks",
+        "garage"
+      ],
+      "turkishDistractors": [
+        "yorgun",
+        "oyuncak bloklar / yapım parçaları",
+        "garaj"
+      ]
+    },
+    {
+      "id": "q_g3_006",
+      "number": 6,
+      "grade": 3,
+      "unitNo": 1,
+      "unitName": "Greeting",
+      "cefr": "A1.2",
+      "wordId": "w_30006",
+      "english": "teacher",
+      "turkish": "öğretmen",
+      "exampleSentence": "My English teacher is very kind.",
+      "blankedSentence": "My English _______ is very kind.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30006.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "teacher",
+      "helperText": "Örnek: \"My English teacher is very kind.\"",
+      "correctAnswer": "öğretmen",
+      "distractors": [
+        "bunalmış / sıcak",
+        "oturma odası",
+        "kütüphane"
+      ],
+      "englishDistractors": [
+        "hot",
+        "living room",
+        "library"
+      ],
+      "turkishDistractors": [
+        "bunalmış / sıcak",
+        "oturma odası",
+        "kütüphane"
+      ]
+    },
+    {
+      "id": "q_g3_007",
+      "number": 7,
+      "grade": 3,
+      "unitNo": 1,
+      "unitName": "Greeting",
+      "cefr": "A1.2",
+      "wordId": "w_30007",
+      "english": "name",
+      "turkish": "isim / ad",
+      "exampleSentence": "What is your name?",
+      "blankedSentence": "What is your _______?",
+      "sentenceTr": "Merhaba, benim adım David.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30007.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "What is your _______?",
+      "helperText": "İpucu (Anlamı): isim / ad",
+      "correctAnswer": "name",
+      "distractors": [
+        "toy car",
+        "sofa",
+        "market"
+      ],
+      "englishDistractors": [
+        "toy car",
+        "sofa",
+        "market"
+      ],
+      "turkishDistractors": [
+        "oyuncak araba",
+        "koltuk / kanepe",
+        "market / pazar"
+      ]
+    },
+    {
+      "id": "q_g3_008",
+      "number": 8,
+      "grade": 3,
+      "unitNo": 1,
+      "unitName": "Greeting",
+      "cefr": "A1.2",
+      "wordId": "w_30008",
+      "english": "goodbye",
+      "turkish": "hoşça kal",
+      "exampleSentence": "Goodbye, see you tomorrow!",
+      "blankedSentence": "_______, see you tomorrow!",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30008.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "hoşça kal",
+      "helperText": "Örnek: \"_______, see you tomorrow!\"",
+      "correctAnswer": "goodbye",
+      "distractors": [
+        "bathroom",
+        "hospital",
+        "bicycle"
+      ],
+      "englishDistractors": [
+        "bathroom",
+        "hospital",
+        "bicycle"
+      ],
+      "turkishDistractors": [
+        "banyo",
+        "hastane",
+        "bisiklet"
+      ]
+    },
+    {
+      "id": "q_g3_009",
+      "number": 9,
+      "grade": 3,
+      "unitNo": 1,
+      "unitName": "Greeting",
+      "cefr": "A1.2",
+      "wordId": "w_30009",
+      "english": "friend",
+      "turkish": "arkadaş",
+      "exampleSentence": "She is my best friend.",
+      "blankedSentence": "She is my best _______.",
+      "sentenceTr": "Sonra görüşürüz, arkadaşım!",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30009.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "She is my best _______.",
+      "helperText": "İpucu (Anlamı): arkadaş",
+      "correctAnswer": "friend",
+      "distractors": [
+        "museum",
+        "plane",
+        "snowy"
+      ],
+      "englishDistractors": [
+        "museum",
+        "plane",
+        "snowy"
+      ],
+      "turkishDistractors": [
+        "müze",
+        "uçak",
+        "karlı"
+      ]
+    },
+    {
+      "id": "q_g3_010",
+      "number": 10,
+      "grade": 3,
+      "unitNo": 1,
+      "unitName": "Greeting",
+      "cefr": "A1.2",
+      "wordId": "w_30010",
+      "english": "spell",
+      "turkish": "harf harf söylemek / kodlamak",
+      "exampleSentence": "How do you spell your name?",
+      "blankedSentence": "How do you _______ your name?",
+      "sentenceTr": "Adını nasıl kodlarsın?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30010.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "spell",
+      "helperText": "Örnek: \"How do you spell your name?\"",
+      "correctAnswer": "harf harf söylemek / kodlamak",
+      "distractors": [
+        "postane",
+        "araba",
+        "kuzey"
+      ],
+      "englishDistractors": [
+        "post office",
+        "car",
+        "north"
+      ],
+      "turkishDistractors": [
+        "postane",
+        "araba",
+        "kuzey"
+      ]
+    },
+    {
+      "id": "q_g3_011",
+      "number": 11,
+      "grade": 3,
+      "unitNo": 2,
+      "unitName": "My Family",
+      "cefr": "A1.2",
+      "wordId": "w_30011",
+      "english": "father",
+      "turkish": "baba",
+      "exampleSentence": "My father is a doctor.",
+      "blankedSentence": "My _______ is a doctor.",
+      "sentenceTr": "Bu benim babam.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30011.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "My _______ is a doctor.",
+      "helperText": "İpucu (Anlamı): baba",
+      "correctAnswer": "father",
+      "distractors": [
+        "helicopter",
+        "foggy",
+        "sky"
+      ],
+      "englishDistractors": [
+        "helicopter",
+        "foggy",
+        "sky"
+      ],
+      "turkishDistractors": [
+        "helikopter",
+        "sisli",
+        "gökyüzü"
+      ]
+    },
+    {
+      "id": "q_g3_012",
+      "number": 12,
+      "grade": 3,
+      "unitNo": 2,
+      "unitName": "My Family",
+      "cefr": "A1.2",
+      "wordId": "w_30012",
+      "english": "mother",
+      "turkish": "anne",
+      "exampleSentence": "My mother is cooking in the kitchen.",
+      "blankedSentence": "My _______ is cooking in the kitchen.",
+      "sentenceTr": "Benim annem çok naziktir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30012.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "anne",
+      "helperText": "Örnek: \"My _______ is cooking in the kitchen.\"",
+      "correctAnswer": "mother",
+      "distractors": [
+        "rainy",
+        "mountain",
+        "grandfather"
+      ],
+      "englishDistractors": [
+        "rainy",
+        "mountain",
+        "grandfather"
+      ],
+      "turkishDistractors": [
+        "yağmurlu",
+        "dağ",
+        "dede / büyükbaba"
+      ]
+    },
+    {
+      "id": "q_g3_013",
+      "number": 13,
+      "grade": 3,
+      "unitNo": 2,
+      "unitName": "My Family",
+      "cefr": "A1.2",
+      "wordId": "w_30013",
+      "english": "brother",
+      "turkish": "erkek kardeş",
+      "exampleSentence": "I have one little brother.",
+      "blankedSentence": "I have one little _______.",
+      "sentenceTr": "Bir erkek kardeşim var.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30013.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I have one little _______.",
+      "helperText": "İpucu (Anlamı): erkek kardeş",
+      "correctAnswer": "brother",
+      "distractors": [
+        "desert",
+        "dolphin",
+        "feel"
+      ],
+      "englishDistractors": [
+        "desert",
+        "dolphin",
+        "feel"
+      ],
+      "turkishDistractors": [
+        "çöl",
+        "yunus balığı",
+        "hissetmek"
+      ]
+    },
+    {
+      "id": "q_g3_014",
+      "number": 14,
+      "grade": 3,
+      "unitNo": 2,
+      "unitName": "My Family",
+      "cefr": "A1.2",
+      "wordId": "w_30014",
+      "english": "sister",
+      "turkish": "Kız kardeş",
+      "exampleSentence": "My sister is ten years old.",
+      "blankedSentence": "My _______ is ten years old.",
+      "sentenceTr": "O senin kız kardeşin mi?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30014.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "sister",
+      "helperText": "Örnek: \"My sister is ten years old.\"",
+      "correctAnswer": "Kız kardeş",
+      "distractors": [
+        "okyanus",
+        "hala / teyze",
+        "arkadaş"
+      ],
+      "englishDistractors": [
+        "ocean",
+        "aunt",
+        "friend"
+      ],
+      "turkishDistractors": [
+        "okyanus",
+        "hala / teyze",
+        "arkadaş"
+      ]
+    },
+    {
+      "id": "q_g3_015",
+      "number": 15,
+      "grade": 3,
+      "unitNo": 2,
+      "unitName": "My Family",
+      "cefr": "A1.2",
+      "wordId": "w_30015",
+      "english": "grandfather",
+      "turkish": "dede / büyükbaba",
+      "exampleSentence": "My grandfather reads newspapers.",
+      "blankedSentence": "My _______ reads newspapers.",
+      "sentenceTr": "O benim büyükbabam.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30015.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "My _______ reads newspapers.",
+      "helperText": "İpucu (Anlamı): dede / büyükbaba",
+      "correctAnswer": "grandfather",
+      "distractors": [
+        "brother",
+        "student",
+        "fast"
+      ],
+      "englishDistractors": [
+        "brother",
+        "student",
+        "fast"
+      ],
+      "turkishDistractors": [
+        "erkek kardeş",
+        "öğrenci",
+        "hızlı"
+      ]
+    },
+    {
+      "id": "q_g3_016",
+      "number": 16,
+      "grade": 3,
+      "unitNo": 2,
+      "unitName": "My Family",
+      "cefr": "A1.2",
+      "wordId": "w_30016",
+      "english": "grandmother",
+      "turkish": "nine / büyükanne",
+      "exampleSentence": "My grandmother makes delicious cakes.",
+      "blankedSentence": "My _______ makes delicious cakes.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30016.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "nine / büyükanne",
+      "helperText": "Örnek: \"My _______ makes delicious cakes.\"",
+      "correctAnswer": "grandmother",
+      "distractors": [
+        "family",
+        "ride a bike",
+        "tired"
+      ],
+      "englishDistractors": [
+        "family",
+        "ride a bike",
+        "tired"
+      ],
+      "turkishDistractors": [
+        "aile",
+        "bisiklete binmek",
+        "yorgun"
+      ]
+    },
+    {
+      "id": "q_g3_017",
+      "number": 17,
+      "grade": 3,
+      "unitNo": 2,
+      "unitName": "My Family",
+      "cefr": "A1.2",
+      "wordId": "w_30017",
+      "english": "uncle",
+      "turkish": "amca / dayı",
+      "exampleSentence": "My uncle lives in Ankara.",
+      "blankedSentence": "My _______ lives in Ankara.",
+      "sentenceTr": "Benim amcam İstanbul'da yaşıyor.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30017.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "My _______ lives in Ankara.",
+      "helperText": "İpucu (Anlamı): amca / dayı",
+      "correctAnswer": "uncle",
+      "distractors": [
+        "goodbye",
+        "tall",
+        "hot"
+      ],
+      "englishDistractors": [
+        "goodbye",
+        "tall",
+        "hot"
+      ],
+      "turkishDistractors": [
+        "hoşça kal",
+        "uzun boylu",
+        "bunalmış / sıcak"
+      ]
+    },
+    {
+      "id": "q_g3_018",
+      "number": 18,
+      "grade": 3,
+      "unitNo": 2,
+      "unitName": "My Family",
+      "cefr": "A1.2",
+      "wordId": "w_30018",
+      "english": "aunt",
+      "turkish": "hala / teyze",
+      "exampleSentence": "My aunt is very friendly.",
+      "blankedSentence": "My _______ is very friendly.",
+      "sentenceTr": "Teyzem harika kurabiyeler yapar.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30018.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "aunt",
+      "helperText": "Örnek: \"My aunt is very friendly.\"",
+      "correctAnswer": "hala / teyze",
+      "distractors": [
+        "uçurtma uçurmak",
+        "şaşırmış / sürpriz",
+        "oyuncak araba"
+      ],
+      "englishDistractors": [
+        "fly a kite",
+        "surprise",
+        "toy car"
+      ],
+      "turkishDistractors": [
+        "uçurtma uçurmak",
+        "şaşırmış / sürpriz",
+        "oyuncak araba"
+      ]
+    },
+    {
+      "id": "q_g3_019",
+      "number": 19,
+      "grade": 3,
+      "unitNo": 2,
+      "unitName": "My Family",
+      "cefr": "A1.2",
+      "wordId": "w_30019",
+      "english": "cousin",
+      "turkish": "kuzen",
+      "exampleSentence": "I play games with my cousin.",
+      "blankedSentence": "I play games with my _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30019.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I play games with my _______.",
+      "helperText": "İpucu (Anlamı): kuzen",
+      "correctAnswer": "cousin",
+      "distractors": [
+        "thirsty",
+        "teddy bear",
+        "bathroom"
+      ],
+      "englishDistractors": [
+        "thirsty",
+        "teddy bear",
+        "bathroom"
+      ],
+      "turkishDistractors": [
+        "susamış",
+        "oyuncak ayı",
+        "banyo"
+      ]
+    },
+    {
+      "id": "q_g3_020",
+      "number": 20,
+      "grade": 3,
+      "unitNo": 2,
+      "unitName": "My Family",
+      "cefr": "A1.2",
+      "wordId": "w_30020",
+      "english": "parents",
+      "turkish": "anne baba / ebeveyn",
+      "exampleSentence": "My parents are at home.",
+      "blankedSentence": "My _______ are at home.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30020.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "anne baba / ebeveyn",
+      "helperText": "Örnek: \"My _______ are at home.\"",
+      "correctAnswer": "parents",
+      "distractors": [
+        "cold",
+        "puzzle",
+        "museum"
+      ],
+      "englishDistractors": [
+        "cold",
+        "puzzle",
+        "museum"
+      ],
+      "turkishDistractors": [
+        "üşümüş / soğuk",
+        "yapboz",
+        "müze"
+      ]
+    },
+    {
+      "id": "q_g3_021",
+      "number": 21,
+      "grade": 3,
+      "unitNo": 3,
+      "unitName": "People I Love",
+      "cefr": "A1.2",
+      "wordId": "w_30021",
+      "english": "climb",
+      "turkish": "tırmanmak",
+      "exampleSentence": "Monkeys can climb trees.",
+      "blankedSentence": "Monkeys can _______ trees.",
+      "sentenceTr": "Ağaca tırmanabilir misin?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30021.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Monkeys can _______ trees.",
+      "helperText": "İpucu (Anlamı): tırmanmak",
+      "correctAnswer": "climb",
+      "distractors": [
+        "doll",
+        "bed",
+        "post office"
+      ],
+      "englishDistractors": [
+        "doll",
+        "bed",
+        "post office"
+      ],
+      "turkishDistractors": [
+        "oyuncak bebek",
+        "yatak",
+        "postane"
+      ]
+    },
+    {
+      "id": "q_g3_022",
+      "number": 22,
+      "grade": 3,
+      "unitNo": 3,
+      "unitName": "People I Love",
+      "cefr": "A1.2",
+      "wordId": "w_30022",
+      "english": "ride a bike",
+      "turkish": "bisiklete binmek",
+      "exampleSentence": "I can ride a bike in the park.",
+      "blankedSentence": "I can _______ in the park.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30022.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "ride a bike",
+      "helperText": "Örnek: \"I can ride a bike in the park.\"",
+      "correctAnswer": "bisiklete binmek",
+      "distractors": [
+        "yatak odası",
+        "park",
+        "helikopter"
+      ],
+      "englishDistractors": [
+        "bedroom",
+        "park",
+        "helicopter"
+      ],
+      "turkishDistractors": [
+        "yatak odası",
+        "park",
+        "helikopter"
+      ]
+    },
+    {
+      "id": "q_g3_023",
+      "number": 23,
+      "grade": 3,
+      "unitNo": 3,
+      "unitName": "People I Love",
+      "cefr": "A1.2",
+      "wordId": "w_30023",
+      "english": "swim",
+      "turkish": "yüzmek",
+      "exampleSentence": "Fish can swim in the sea.",
+      "blankedSentence": "Fish can _______ in the sea.",
+      "sentenceTr": "O çok iyi yüzebilir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30023.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Fish can _______ in the sea.",
+      "helperText": "İpucu (Anlamı): yüzmek",
+      "correctAnswer": "swim",
+      "distractors": [
+        "kettle",
+        "train",
+        "rainy"
+      ],
+      "englishDistractors": [
+        "kettle",
+        "train",
+        "rainy"
+      ],
+      "turkishDistractors": [
+        "su ısıtıcısı",
+        "tren",
+        "yağmurlu"
+      ]
+    },
+    {
+      "id": "q_g3_024",
+      "number": 24,
+      "grade": 3,
+      "unitNo": 3,
+      "unitName": "People I Love",
+      "cefr": "A1.2",
+      "wordId": "w_30024",
+      "english": "drive a car",
+      "turkish": "araba sürmek",
+      "exampleSentence": "My father can drive a car.",
+      "blankedSentence": "My father can _______.",
+      "sentenceTr": "O araba süremez.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30024.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "araba sürmek",
+      "helperText": "Örnek: \"My father can _______.\"",
+      "correctAnswer": "drive a car",
+      "distractors": [
+        "school",
+        "motorcycle",
+        "desert"
+      ],
+      "englishDistractors": [
+        "school",
+        "motorcycle",
+        "desert"
+      ],
+      "turkishDistractors": [
+        "okul",
+        "motosiklet",
+        "çöl"
+      ]
+    },
+    {
+      "id": "q_g3_025",
+      "number": 25,
+      "grade": 3,
+      "unitNo": 3,
+      "unitName": "People I Love",
+      "cefr": "A1.2",
+      "wordId": "w_30025",
+      "english": "fly a kite",
+      "turkish": "uçurtma uçurmak",
+      "exampleSentence": "Let's fly a kite today!",
+      "blankedSentence": "Let's _______ today!",
+      "sentenceTr": "Hadi birlikte uçurtma uçuralım!",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30025.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Let's _______ today!",
+      "helperText": "İpucu (Anlamı): uçurtma uçurmak",
+      "correctAnswer": "fly a kite",
+      "distractors": [
+        "ship",
+        "cloudy",
+        "ocean"
+      ],
+      "englishDistractors": [
+        "ship",
+        "cloudy",
+        "ocean"
+      ],
+      "turkishDistractors": [
+        "gemi",
+        "bulutlu",
+        "okyanus"
+      ]
+    },
+    {
+      "id": "q_g3_026",
+      "number": 26,
+      "grade": 3,
+      "unitNo": 3,
+      "unitName": "People I Love",
+      "cefr": "A1.2",
+      "wordId": "w_30026",
+      "english": "fast",
+      "turkish": "hızlı",
+      "exampleSentence": "Rabbits can run fast.",
+      "blankedSentence": "Rabbits can run _______.",
+      "sentenceTr": "Bir çita hızlı koşabilir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30026.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "fast",
+      "helperText": "Örnek: \"Rabbits can run fast.\"",
+      "correctAnswer": "hızlı",
+      "distractors": [
+        "güneşli",
+        "çiçek",
+        "yüzmek"
+      ],
+      "englishDistractors": [
+        "sunny",
+        "flower",
+        "swim"
+      ],
+      "turkishDistractors": [
+        "güneşli",
+        "çiçek",
+        "yüzmek"
+      ]
+    },
+    {
+      "id": "q_g3_027",
+      "number": 27,
+      "grade": 3,
+      "unitNo": 3,
+      "unitName": "People I Love",
+      "cefr": "A1.2",
+      "wordId": "w_30027",
+      "english": "slow",
+      "turkish": "yavaş",
+      "exampleSentence": "Turtles are very slow.",
+      "blankedSentence": "Turtles are very _______.",
+      "sentenceTr": "Kaplumbağalar yavaş hayvanlardır.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30027.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Turtles are very _______.",
+      "helperText": "İpucu (Anlamı): yavaş",
+      "correctAnswer": "slow",
+      "distractors": [
+        "weather",
+        "bee",
+        "family"
+      ],
+      "englishDistractors": [
+        "weather",
+        "bee",
+        "family"
+      ],
+      "turkishDistractors": [
+        "hava durumu",
+        "arı",
+        "aile"
+      ]
+    },
+    {
+      "id": "q_g3_028",
+      "number": 28,
+      "grade": 3,
+      "unitNo": 3,
+      "unitName": "People I Love",
+      "cefr": "A1.2",
+      "wordId": "w_30028",
+      "english": "strong",
+      "turkish": "güçlü",
+      "exampleSentence": "Elephants are strong animals.",
+      "blankedSentence": "Elephants are _______ animals.",
+      "sentenceTr": "Babam uzun boylu ve güçlüdür.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30028.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "güçlü",
+      "helperText": "Örnek: \"Elephants are _______ animals.\"",
+      "correctAnswer": "strong",
+      "distractors": [
+        "forest",
+        "fast",
+        "goodbye"
+      ],
+      "englishDistractors": [
+        "forest",
+        "fast",
+        "goodbye"
+      ],
+      "turkishDistractors": [
+        "orman",
+        "hızlı",
+        "hoşça kal"
+      ]
+    },
+    {
+      "id": "q_g3_029",
+      "number": 29,
+      "grade": 3,
+      "unitNo": 3,
+      "unitName": "People I Love",
+      "cefr": "A1.2",
+      "wordId": "w_30029",
+      "english": "tall",
+      "turkish": "uzun boylu",
+      "exampleSentence": "Giraffes are very tall.",
+      "blankedSentence": "Giraffes are very _______.",
+      "sentenceTr": "Babam uzun boylu ve güçlüdür.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30029.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Giraffes are very _______.",
+      "helperText": "İpucu (Anlamı): uzun boylu",
+      "correctAnswer": "tall",
+      "distractors": [
+        "ride a bike",
+        "old",
+        "grandfather"
+      ],
+      "englishDistractors": [
+        "ride a bike",
+        "old",
+        "grandfather"
+      ],
+      "turkishDistractors": [
+        "bisiklete binmek",
+        "yaşında / yaşlı",
+        "dede / büyükbaba"
+      ]
+    },
+    {
+      "id": "q_g3_030",
+      "number": 30,
+      "grade": 3,
+      "unitNo": 3,
+      "unitName": "People I Love",
+      "cefr": "A1.2",
+      "wordId": "w_30030",
+      "english": "short",
+      "turkish": "kısa boylu",
+      "exampleSentence": "My little brother is short.",
+      "blankedSentence": "My little brother is _______.",
+      "sentenceTr": "O kısa boylu ama yükseğe zıplayabilir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30030.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "short",
+      "helperText": "Örnek: \"My little brother is short.\"",
+      "correctAnswer": "kısa boylu",
+      "distractors": [
+        "uzun boylu",
+        "baba",
+        "susamış"
+      ],
+      "englishDistractors": [
+        "tall",
+        "father",
+        "thirsty"
+      ],
+      "turkishDistractors": [
+        "uzun boylu",
+        "baba",
+        "susamış"
+      ]
+    },
+    {
+      "id": "q_g3_031",
+      "number": 31,
+      "grade": 3,
+      "unitNo": 4,
+      "unitName": "Feelings",
+      "cefr": "A1.2",
+      "wordId": "w_30031",
+      "english": "hungry",
+      "turkish": "aç / acıkmış",
+      "exampleSentence": "I am hungry, let's eat cake.",
+      "blankedSentence": "I am _______, let's eat cake.",
+      "sentenceTr": "Aç mısın?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30031.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I am _______, let's eat cake.",
+      "helperText": "İpucu (Anlamı): aç / acıkmış",
+      "correctAnswer": "hungry",
+      "distractors": [
+        "name",
+        "aunt",
+        "tall"
+      ],
+      "englishDistractors": [
+        "name",
+        "aunt",
+        "tall"
+      ],
+      "turkishDistractors": [
+        "isim / ad",
+        "hala / teyze",
+        "uzun boylu"
+      ]
+    },
+    {
+      "id": "q_g3_032",
+      "number": 32,
+      "grade": 3,
+      "unitNo": 4,
+      "unitName": "Feelings",
+      "cefr": "A1.2",
+      "wordId": "w_30032",
+      "english": "thirsty",
+      "turkish": "susamış",
+      "exampleSentence": "I am thirsty, I want water.",
+      "blankedSentence": "I am _______, I want water.",
+      "sentenceTr": "Susamış durumdayım, su istiyorum.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30032.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "susamış",
+      "helperText": "Örnek: \"I am _______, I want water.\"",
+      "correctAnswer": "thirsty",
+      "distractors": [
+        "sister",
+        "fly a kite",
+        "doll"
+      ],
+      "englishDistractors": [
+        "sister",
+        "fly a kite",
+        "doll"
+      ],
+      "turkishDistractors": [
+        "Kız kardeş",
+        "uçurtma uçurmak",
+        "oyuncak bebek"
+      ]
+    },
+    {
+      "id": "q_g3_033",
+      "number": 33,
+      "grade": 3,
+      "unitNo": 4,
+      "unitName": "Feelings",
+      "cefr": "A1.2",
+      "wordId": "w_30033",
+      "english": "tired",
+      "turkish": "yorgun",
+      "exampleSentence": "I feel tired after running.",
+      "blankedSentence": "I feel _______ after running.",
+      "sentenceTr": "Yorgun hissediyorum, hadi uyuyalım.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30033.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I feel _______ after running.",
+      "helperText": "İpucu (Anlamı): yorgun",
+      "correctAnswer": "tired",
+      "distractors": [
+        "climb",
+        "playing cards",
+        "bedroom"
+      ],
+      "englishDistractors": [
+        "climb",
+        "playing cards",
+        "bedroom"
+      ],
+      "turkishDistractors": [
+        "tırmanmak",
+        "oyun kartları",
+        "yatak odası"
+      ]
+    },
+    {
+      "id": "q_g3_034",
+      "number": 34,
+      "grade": 3,
+      "unitNo": 4,
+      "unitName": "Feelings",
+      "cefr": "A1.2",
+      "wordId": "w_30034",
+      "english": "energetic",
+      "turkish": "enerjik",
+      "exampleSentence": "Children are energetic today.",
+      "blankedSentence": "Children are _______ today.",
+      "sentenceTr": "Bugün enerjik hissediyorum!",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30034.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "energetic",
+      "helperText": "Örnek: \"Children are energetic today.\"",
+      "correctAnswer": "enerjik",
+      "distractors": [
+        "güçlü",
+        "masa oyunu",
+        "su ısıtıcısı"
+      ],
+      "englishDistractors": [
+        "strong",
+        "board game",
+        "kettle"
+      ],
+      "turkishDistractors": [
+        "güçlü",
+        "masa oyunu",
+        "su ısıtıcısı"
+      ]
+    },
+    {
+      "id": "q_g3_035",
+      "number": 35,
+      "grade": 3,
+      "unitNo": 4,
+      "unitName": "Feelings",
+      "cefr": "A1.2",
+      "wordId": "w_30035",
+      "english": "sad",
+      "turkish": "üzgün",
+      "exampleSentence": "Don't be sad, smile!",
+      "blankedSentence": "Don't be _______, smile!",
+      "sentenceTr": "Neden üzgünsün?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30035.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Don't be _______, smile!",
+      "helperText": "İpucu (Anlamı): üzgün",
+      "correctAnswer": "sad",
+      "distractors": [
+        "marble",
+        "garden",
+        "school"
+      ],
+      "englishDistractors": [
+        "marble",
+        "garden",
+        "school"
+      ],
+      "turkishDistractors": [
+        "bilye / misket",
+        "bahçe",
+        "okul"
+      ]
+    },
+    {
+      "id": "q_g3_036",
+      "number": 36,
+      "grade": 3,
+      "unitNo": 4,
+      "unitName": "Feelings",
+      "cefr": "A1.2",
+      "wordId": "w_30036",
+      "english": "surprise",
+      "turkish": "şaşırmış / sürpriz",
+      "exampleSentence": "I have a surprise for you.",
+      "blankedSentence": "I have a _______ for you.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30036.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "şaşırmış / sürpriz",
+      "helperText": "Örnek: \"I have a _______ for you.\"",
+      "correctAnswer": "surprise",
+      "distractors": [
+        "kitchen",
+        "zoo",
+        "ship"
+      ],
+      "englishDistractors": [
+        "kitchen",
+        "zoo",
+        "ship"
+      ],
+      "turkishDistractors": [
+        "mutfak",
+        "hayvanat bahçesi",
+        "gemi"
+      ]
+    },
+    {
+      "id": "q_g3_037",
+      "number": 37,
+      "grade": 3,
+      "unitNo": 4,
+      "unitName": "Feelings",
+      "cefr": "A1.2",
+      "wordId": "w_30037",
+      "english": "angry",
+      "turkish": "kızgın",
+      "exampleSentence": "The teacher is not angry.",
+      "blankedSentence": "The teacher is not _______.",
+      "sentenceTr": "Kızgın mı hissediyorsun?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30037.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The teacher is not _______.",
+      "helperText": "İpucu (Anlamı): kızgın",
+      "correctAnswer": "angry",
+      "distractors": [
+        "shampoo",
+        "mosque",
+        "sunny"
+      ],
+      "englishDistractors": [
+        "shampoo",
+        "mosque",
+        "sunny"
+      ],
+      "turkishDistractors": [
+        "şampuan",
+        "cami",
+        "güneşli"
+      ]
+    },
+    {
+      "id": "q_g3_038",
+      "number": 38,
+      "grade": 3,
+      "unitNo": 4,
+      "unitName": "Feelings",
+      "cefr": "A1.2",
+      "wordId": "w_30038",
+      "english": "bored",
+      "turkish": "canı sıkılmış",
+      "exampleSentence": "I am bored, let's play games.",
+      "blankedSentence": "I am _______, let's play games.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30038.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "bored",
+      "helperText": "Örnek: \"I am bored, let's play games.\"",
+      "correctAnswer": "canı sıkılmış",
+      "distractors": [
+        "banka",
+        "tekne / kayık",
+        "hava durumu"
+      ],
+      "englishDistractors": [
+        "bank",
+        "boat",
+        "weather"
+      ],
+      "turkishDistractors": [
+        "banka",
+        "tekne / kayık",
+        "hava durumu"
+      ]
+    },
+    {
+      "id": "q_g3_039",
+      "number": 39,
+      "grade": 3,
+      "unitNo": 4,
+      "unitName": "Feelings",
+      "cefr": "A1.2",
+      "wordId": "w_30039",
+      "english": "cold",
+      "turkish": "üşümüş / soğuk",
+      "exampleSentence": "Close the window, I am cold.",
+      "blankedSentence": "Close the window, I am _______.",
+      "sentenceTr": "Üşüdüm, pencereyi kapat.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30039.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Close the window, I am _______.",
+      "helperText": "İpucu (Anlamı): üşümüş / soğuk",
+      "correctAnswer": "cold",
+      "distractors": [
+        "bus",
+        "windy",
+        "forest"
+      ],
+      "englishDistractors": [
+        "bus",
+        "windy",
+        "forest"
+      ],
+      "turkishDistractors": [
+        "otobüs",
+        "rüzgarlı",
+        "orman"
+      ]
+    },
+    {
+      "id": "q_g3_040",
+      "number": 40,
+      "grade": 3,
+      "unitNo": 4,
+      "unitName": "Feelings",
+      "cefr": "A1.2",
+      "wordId": "w_30040",
+      "english": "hot",
+      "turkish": "bunalmış / sıcak",
+      "exampleSentence": "It is very hot in summer.",
+      "blankedSentence": "It is very _______ in summer.",
+      "sentenceTr": "Bunaldım, kapıyı aç.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30040.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "bunalmış / sıcak",
+      "helperText": "Örnek: \"It is very _______ in summer.\"",
+      "correctAnswer": "hot",
+      "distractors": [
+        "truck",
+        "tree",
+        "thirsty"
+      ],
+      "englishDistractors": [
+        "truck",
+        "tree",
+        "thirsty"
+      ],
+      "turkishDistractors": [
+        "kamyon",
+        "ağaç",
+        "susamış"
+      ]
+    },
+    {
+      "id": "q_g3_041",
+      "number": 41,
+      "grade": 3,
+      "unitNo": 5,
+      "unitName": "Toys and Games",
+      "cefr": "A1.2",
+      "wordId": "w_30041",
+      "english": "chess",
+      "turkish": "satranç",
+      "exampleSentence": "Can you play chess?",
+      "blankedSentence": "Can you play _______?",
+      "sentenceTr": "Hadi satranç oynayalım!",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30041.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Can you play _______?",
+      "helperText": "İpucu (Anlamı): satranç",
+      "correctAnswer": "chess",
+      "distractors": [
+        "warm",
+        "sea",
+        "puzzle"
+      ],
+      "englishDistractors": [
+        "warm",
+        "sea",
+        "puzzle"
+      ],
+      "turkishDistractors": [
+        "ılık / ılık hava",
+        "deniz",
+        "yapboz"
+      ]
+    },
+    {
+      "id": "q_g3_042",
+      "number": 42,
+      "grade": 3,
+      "unitNo": 5,
+      "unitName": "Toys and Games",
+      "cefr": "A1.2",
+      "wordId": "w_30042",
+      "english": "playing cards",
+      "turkish": "oyun kartları",
+      "exampleSentence": "I have colorful playing cards.",
+      "blankedSentence": "I have colorful _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30042.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "playing cards",
+      "helperText": "Örnek: \"I have colorful playing cards.\"",
+      "correctAnswer": "oyun kartları",
+      "distractors": [
+        "nehir / ırmak",
+        "oyuncak bebek",
+        "isim / ad"
+      ],
+      "englishDistractors": [
+        "river",
+        "doll",
+        "name"
+      ],
+      "turkishDistractors": [
+        "nehir / ırmak",
+        "oyuncak bebek",
+        "isim / ad"
+      ]
+    },
+    {
+      "id": "q_g3_043",
+      "number": 43,
+      "grade": 3,
+      "unitNo": 5,
+      "unitName": "Toys and Games",
+      "cefr": "A1.2",
+      "wordId": "w_30043",
+      "english": "teddy bear",
+      "turkish": "oyuncak ayı",
+      "exampleSentence": "This brown teddy bear is cute.",
+      "blankedSentence": "This brown _______ is cute.",
+      "sentenceTr": "Bir oyuncak ayın var mı?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30043.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "This brown _______ is cute.",
+      "helperText": "İpucu (Anlamı): oyuncak ayı",
+      "correctAnswer": "teddy bear",
+      "distractors": [
+        "chess",
+        "happy",
+        "sister"
+      ],
+      "englishDistractors": [
+        "chess",
+        "happy",
+        "sister"
+      ],
+      "turkishDistractors": [
+        "satranç",
+        "mutlu",
+        "Kız kardeş"
+      ]
+    },
+    {
+      "id": "q_g3_044",
+      "number": 44,
+      "grade": 3,
+      "unitNo": 5,
+      "unitName": "Toys and Games",
+      "cefr": "A1.2",
+      "wordId": "w_30044",
+      "english": "blocks",
+      "turkish": "oyuncak bloklar / yapım parçaları",
+      "exampleSentence": "I build a house with toy blocks.",
+      "blankedSentence": "I build a house with toy _______.",
+      "sentenceTr": "Bu renkli bloklara bak.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30044.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "oyuncak bloklar / yapım parçaları",
+      "helperText": "Örnek: \"I build a house with toy _______.\"",
+      "correctAnswer": "blocks",
+      "distractors": [
+        "board game",
+        "spell",
+        "climb"
+      ],
+      "englishDistractors": [
+        "board game",
+        "spell",
+        "climb"
+      ],
+      "turkishDistractors": [
+        "masa oyunu",
+        "harf harf söylemek / kodlamak",
+        "tırmanmak"
+      ]
+    },
+    {
+      "id": "q_g3_045",
+      "number": 45,
+      "grade": 3,
+      "unitNo": 5,
+      "unitName": "Toys and Games",
+      "cefr": "A1.2",
+      "wordId": "w_30045",
+      "english": "marble",
+      "turkish": "bilye / misket",
+      "exampleSentence": "I have twenty marbles.",
+      "blankedSentence": "I have twenty _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30045.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I have twenty _______.",
+      "helperText": "İpucu (Anlamı): bilye / misket",
+      "correctAnswer": "marble",
+      "distractors": [
+        "teacher",
+        "uncle",
+        "strong"
+      ],
+      "englishDistractors": [
+        "teacher",
+        "uncle",
+        "strong"
+      ],
+      "turkishDistractors": [
+        "öğretmen",
+        "amca / dayı",
+        "güçlü"
+      ]
+    },
+    {
+      "id": "q_g3_046",
+      "number": 46,
+      "grade": 3,
+      "unitNo": 5,
+      "unitName": "Toys and Games",
+      "cefr": "A1.2",
+      "wordId": "w_30046",
+      "english": "doll",
+      "turkish": "oyuncak bebek",
+      "exampleSentence": "My sister likes playing with dolls.",
+      "blankedSentence": "My sister likes playing with _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30046.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "doll",
+      "helperText": "Örnek: \"My sister likes playing with dolls.\"",
+      "correctAnswer": "oyuncak bebek",
+      "distractors": [
+        "erkek kardeş",
+        "araba sürmek",
+        "üzgün"
+      ],
+      "englishDistractors": [
+        "brother",
+        "drive a car",
+        "sad"
+      ],
+      "turkishDistractors": [
+        "erkek kardeş",
+        "araba sürmek",
+        "üzgün"
+      ]
+    },
+    {
+      "id": "q_g3_047",
+      "number": 47,
+      "grade": 3,
+      "unitNo": 5,
+      "unitName": "Toys and Games",
+      "cefr": "A1.2",
+      "wordId": "w_30047",
+      "english": "toy car",
+      "turkish": "oyuncak araba",
+      "exampleSentence": "This red toy car is fast.",
+      "blankedSentence": "This red _______ is fast.",
+      "sentenceTr": "Oyuncak arabam nerede?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30047.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "This red _______ is fast.",
+      "helperText": "İpucu (Anlamı): oyuncak araba",
+      "correctAnswer": "toy car",
+      "distractors": [
+        "parents",
+        "hungry",
+        "kitchen"
+      ],
+      "englishDistractors": [
+        "parents",
+        "hungry",
+        "kitchen"
+      ],
+      "turkishDistractors": [
+        "anne baba / ebeveyn",
+        "aç / acıkmış",
+        "mutfak"
+      ]
+    },
+    {
+      "id": "q_g3_048",
+      "number": 48,
+      "grade": 3,
+      "unitNo": 5,
+      "unitName": "Toys and Games",
+      "cefr": "A1.2",
+      "wordId": "w_30048",
+      "english": "computer game",
+      "turkish": "bilgisayar oyunu",
+      "exampleSentence": "Let's play a computer game.",
+      "blankedSentence": "Let's play a _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30048.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "bilgisayar oyunu",
+      "helperText": "Örnek: \"Let's play a _______.\"",
+      "correctAnswer": "computer game",
+      "distractors": [
+        "slow",
+        "bored",
+        "shampoo"
+      ],
+      "englishDistractors": [
+        "slow",
+        "bored",
+        "shampoo"
+      ],
+      "turkishDistractors": [
+        "yavaş",
+        "canı sıkılmış",
+        "şampuan"
+      ]
+    },
+    {
+      "id": "q_g3_049",
+      "number": 49,
+      "grade": 3,
+      "unitNo": 5,
+      "unitName": "Toys and Games",
+      "cefr": "A1.2",
+      "wordId": "w_30049",
+      "english": "board game",
+      "turkish": "masa oyunu",
+      "exampleSentence": "We play board games together.",
+      "blankedSentence": "We play _______ together.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30049.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "We play _______ together.",
+      "helperText": "İpucu (Anlamı): masa oyunu",
+      "correctAnswer": "board game",
+      "distractors": [
+        "energetic",
+        "garage",
+        "bank"
+      ],
+      "englishDistractors": [
+        "energetic",
+        "garage",
+        "bank"
+      ],
+      "turkishDistractors": [
+        "enerjik",
+        "garaj",
+        "banka"
+      ]
+    },
+    {
+      "id": "q_g3_050",
+      "number": 50,
+      "grade": 3,
+      "unitNo": 5,
+      "unitName": "Toys and Games",
+      "cefr": "A1.2",
+      "wordId": "w_30050",
+      "english": "puzzle",
+      "turkish": "yapboz",
+      "exampleSentence": "This puzzle has fifty pieces.",
+      "blankedSentence": "This _______ has fifty pieces.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30050.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "puzzle",
+      "helperText": "Örnek: \"This puzzle has fifty pieces.\"",
+      "correctAnswer": "yapboz",
+      "distractors": [
+        "oturma odası",
+        "kütüphane",
+        "otobüs"
+      ],
+      "englishDistractors": [
+        "living room",
+        "library",
+        "bus"
+      ],
+      "turkishDistractors": [
+        "oturma odası",
+        "kütüphane",
+        "otobüs"
+      ]
+    },
+    {
+      "id": "q_g3_051",
+      "number": 51,
+      "grade": 3,
+      "unitNo": 6,
+      "unitName": "My House",
+      "cefr": "A1.2",
+      "wordId": "w_30051",
+      "english": "living room",
+      "turkish": "oturma odası",
+      "exampleSentence": "We watch TV in the living room.",
+      "blankedSentence": "We watch TV in the _______.",
+      "sentenceTr": "Kedi oturma odasında.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30051.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "We watch TV in the _______.",
+      "helperText": "İpucu (Anlamı): oturma odası",
+      "correctAnswer": "living room",
+      "distractors": [
+        "computer game",
+        "market",
+        "truck"
+      ],
+      "englishDistractors": [
+        "computer game",
+        "market",
+        "truck"
+      ],
+      "turkishDistractors": [
+        "bilgisayar oyunu",
+        "market / pazar",
+        "kamyon"
+      ]
+    },
+    {
+      "id": "q_g3_052",
+      "number": 52,
+      "grade": 3,
+      "unitNo": 6,
+      "unitName": "My House",
+      "cefr": "A1.2",
+      "wordId": "w_30052",
+      "english": "kitchen",
+      "turkish": "mutfak",
+      "exampleSentence": "My mother is cooking in the kitchen.",
+      "blankedSentence": "My mother is cooking in the _______.",
+      "sentenceTr": "O mutfakta.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30052.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "mutfak",
+      "helperText": "Örnek: \"My mother is cooking in the _______.\"",
+      "correctAnswer": "kitchen",
+      "distractors": [
+        "hospital",
+        "bicycle",
+        "warm"
+      ],
+      "englishDistractors": [
+        "hospital",
+        "bicycle",
+        "warm"
+      ],
+      "turkishDistractors": [
+        "hastane",
+        "bisiklet",
+        "ılık / ılık hava"
+      ]
+    },
+    {
+      "id": "q_g3_053",
+      "number": 53,
+      "grade": 3,
+      "unitNo": 6,
+      "unitName": "My House",
+      "cefr": "A1.2",
+      "wordId": "w_30053",
+      "english": "bedroom",
+      "turkish": "yatak odası",
+      "exampleSentence": "I sleep in my bedroom.",
+      "blankedSentence": "I sleep in my _______.",
+      "sentenceTr": "Erkek kardeşim yatak odasında.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30053.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I sleep in my _______.",
+      "helperText": "İpucu (Anlamı): yatak odası",
+      "correctAnswer": "bedroom",
+      "distractors": [
+        "plane",
+        "snowy",
+        "river"
+      ],
+      "englishDistractors": [
+        "plane",
+        "snowy",
+        "river"
+      ],
+      "turkishDistractors": [
+        "uçak",
+        "karlı",
+        "nehir / ırmak"
+      ]
+    },
+    {
+      "id": "q_g3_054",
+      "number": 54,
+      "grade": 3,
+      "unitNo": 6,
+      "unitName": "My House",
+      "cefr": "A1.2",
+      "wordId": "w_30054",
+      "english": "bathroom",
+      "turkish": "banyo",
+      "exampleSentence": "Wash your hands in the bathroom.",
+      "blankedSentence": "Wash your hands in the _______.",
+      "sentenceTr": "Banyoda.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30054.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "bathroom",
+      "helperText": "Örnek: \"Wash your hands in the bathroom.\"",
+      "correctAnswer": "banyo",
+      "distractors": [
+        "araba",
+        "kuzey",
+        "oturma odası"
+      ],
+      "englishDistractors": [
+        "car",
+        "north",
+        "living room"
+      ],
+      "turkishDistractors": [
+        "araba",
+        "kuzey",
+        "oturma odası"
+      ]
+    },
+    {
+      "id": "q_g3_055",
+      "number": 55,
+      "grade": 3,
+      "unitNo": 6,
+      "unitName": "My House",
+      "cefr": "A1.2",
+      "wordId": "w_30055",
+      "english": "garage",
+      "turkish": "garaj",
+      "exampleSentence": "The car is in the garage.",
+      "blankedSentence": "The car is in the _______.",
+      "sentenceTr": "Baba garajda mı?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30055.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The car is in the _______.",
+      "helperText": "İpucu (Anlamı): garaj",
+      "correctAnswer": "garage",
+      "distractors": [
+        "foggy",
+        "sky",
+        "shampoo"
+      ],
+      "englishDistractors": [
+        "foggy",
+        "sky",
+        "shampoo"
+      ],
+      "turkishDistractors": [
+        "sisli",
+        "gökyüzü",
+        "şampuan"
+      ]
+    },
+    {
+      "id": "q_g3_056",
+      "number": 56,
+      "grade": 3,
+      "unitNo": 6,
+      "unitName": "My House",
+      "cefr": "A1.2",
+      "wordId": "w_30056",
+      "english": "garden",
+      "turkish": "bahçe",
+      "exampleSentence": "There are beautiful flowers in the garden.",
+      "blankedSentence": "There are beautiful flowers in the _______.",
+      "sentenceTr": "Bahçede oynuyoruz.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30056.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "bahçe",
+      "helperText": "Örnek: \"There are beautiful flowers in the _______.\"",
+      "correctAnswer": "garden",
+      "distractors": [
+        "mountain",
+        "bathroom",
+        "teacher"
+      ],
+      "englishDistractors": [
+        "mountain",
+        "bathroom",
+        "teacher"
+      ],
+      "turkishDistractors": [
+        "dağ",
+        "banyo",
+        "öğretmen"
+      ]
+    },
+    {
+      "id": "q_g3_057",
+      "number": 57,
+      "grade": 3,
+      "unitNo": 6,
+      "unitName": "My House",
+      "cefr": "A1.2",
+      "wordId": "w_30057",
+      "english": "bed",
+      "turkish": "yatak",
+      "exampleSentence": "My bed is soft and comfortable.",
+      "blankedSentence": "My _______ is soft and comfortable.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30057.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "My _______ is soft and comfortable.",
+      "helperText": "İpucu (Anlamı): yatak",
+      "correctAnswer": "bed",
+      "distractors": [
+        "dolphin",
+        "feel",
+        "brother"
+      ],
+      "englishDistractors": [
+        "dolphin",
+        "feel",
+        "brother"
+      ],
+      "turkishDistractors": [
+        "yunus balığı",
+        "hissetmek",
+        "erkek kardeş"
+      ]
+    },
+    {
+      "id": "q_g3_058",
+      "number": 58,
+      "grade": 3,
+      "unitNo": 6,
+      "unitName": "My House",
+      "cefr": "A1.2",
+      "wordId": "w_30058",
+      "english": "sofa",
+      "turkish": "koltuk / kanepe",
+      "exampleSentence": "Sit on the comfortable sofa.",
+      "blankedSentence": "Sit on the comfortable _______.",
+      "sentenceTr": "Odalarda yeşil bir koltuk var.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30058.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "sofa",
+      "helperText": "Örnek: \"Sit on the comfortable sofa.\"",
+      "correctAnswer": "koltuk / kanepe",
+      "distractors": [
+        "yatak",
+        "arkadaş",
+        "anne baba / ebeveyn"
+      ],
+      "englishDistractors": [
+        "bed",
+        "friend",
+        "parents"
+      ],
+      "turkishDistractors": [
+        "yatak",
+        "arkadaş",
+        "anne baba / ebeveyn"
+      ]
+    },
+    {
+      "id": "q_g3_059",
+      "number": 59,
+      "grade": 3,
+      "unitNo": 6,
+      "unitName": "My House",
+      "cefr": "A1.2",
+      "wordId": "w_30059",
+      "english": "shampoo",
+      "turkish": "şampuan",
+      "exampleSentence": "The shampoo is in the bathroom.",
+      "blankedSentence": "The _______ is in the bathroom.",
+      "sentenceTr": "Şampuan nerede?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30059.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The _______ is in the bathroom.",
+      "helperText": "İpucu (Anlamı): şampuan",
+      "correctAnswer": "shampoo",
+      "distractors": [
+        "student",
+        "grandmother",
+        "slow"
+      ],
+      "englishDistractors": [
+        "student",
+        "grandmother",
+        "slow"
+      ],
+      "turkishDistractors": [
+        "öğrenci",
+        "nine / büyükanne",
+        "yavaş"
+      ]
+    },
+    {
+      "id": "q_g3_060",
+      "number": 60,
+      "grade": 3,
+      "unitNo": 6,
+      "unitName": "My House",
+      "cefr": "A1.2",
+      "wordId": "w_30060",
+      "english": "kettle",
+      "turkish": "su ısıtıcısı",
+      "exampleSentence": "The kettle is on the kitchen counter.",
+      "blankedSentence": "The _______ is on the kitchen counter.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30060.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "su ısıtıcısı",
+      "helperText": "Örnek: \"The _______ is on the kitchen counter.\"",
+      "correctAnswer": "kettle",
+      "distractors": [
+        "mother",
+        "swim",
+        "energetic"
+      ],
+      "englishDistractors": [
+        "mother",
+        "swim",
+        "energetic"
+      ],
+      "turkishDistractors": [
+        "anne",
+        "yüzmek",
+        "enerjik"
+      ]
+    },
+    {
+      "id": "q_g3_061",
+      "number": 61,
+      "grade": 3,
+      "unitNo": 7,
+      "unitName": "In My City",
+      "cefr": "A1.2",
+      "wordId": "w_30061",
+      "english": "museum",
+      "turkish": "müze",
+      "exampleSentence": "Let's visit the history museum.",
+      "blankedSentence": "Let's visit the history _______.",
+      "sentenceTr": "Hadi müzeye gidelim!",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30061.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Let's visit the history _______.",
+      "helperText": "İpucu (Anlamı): müze",
+      "correctAnswer": "museum",
+      "distractors": [
+        "cousin",
+        "short",
+        "chess"
+      ],
+      "englishDistractors": [
+        "cousin",
+        "short",
+        "chess"
+      ],
+      "turkishDistractors": [
+        "kuzen",
+        "kısa boylu",
+        "satranç"
+      ]
+    },
+    {
+      "id": "q_g3_062",
+      "number": 62,
+      "grade": 3,
+      "unitNo": 7,
+      "unitName": "In My City",
+      "cefr": "A1.2",
+      "wordId": "w_30062",
+      "english": "library",
+      "turkish": "kütüphane",
+      "exampleSentence": "I read books at the library.",
+      "blankedSentence": "I read books at the _______.",
+      "sentenceTr": "Kütüphane nerede?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30062.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "library",
+      "helperText": "Örnek: \"I read books at the library.\"",
+      "correctAnswer": "kütüphane",
+      "distractors": [
+        "hızlı",
+        "kızgın",
+        "bilgisayar oyunu"
+      ],
+      "englishDistractors": [
+        "fast",
+        "angry",
+        "computer game"
+      ],
+      "turkishDistractors": [
+        "hızlı",
+        "kızgın",
+        "bilgisayar oyunu"
+      ]
+    },
+    {
+      "id": "q_g3_063",
+      "number": 63,
+      "grade": 3,
+      "unitNo": 7,
+      "unitName": "In My City",
+      "cefr": "A1.2",
+      "wordId": "w_30063",
+      "english": "zoo",
+      "turkish": "hayvanat bahçesi",
+      "exampleSentence": "We can see lions at the zoo.",
+      "blankedSentence": "We can see lions at the _______.",
+      "sentenceTr": "Hayvanat bahçesi çok büyük.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30063.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "We can see lions at the _______.",
+      "helperText": "İpucu (Anlamı): hayvanat bahçesi",
+      "correctAnswer": "zoo",
+      "distractors": [
+        "tired",
+        "blocks",
+        "garage"
+      ],
+      "englishDistractors": [
+        "tired",
+        "blocks",
+        "garage"
+      ],
+      "turkishDistractors": [
+        "yorgun",
+        "oyuncak bloklar / yapım parçaları",
+        "garaj"
+      ]
+    },
+    {
+      "id": "q_g3_064",
+      "number": 64,
+      "grade": 3,
+      "unitNo": 7,
+      "unitName": "In My City",
+      "cefr": "A1.2",
+      "wordId": "w_30064",
+      "english": "park",
+      "turkish": "park",
+      "exampleSentence": "Children are playing in the park.",
+      "blankedSentence": "Children are playing in the _______.",
+      "sentenceTr": "Çocuklar parkta oynuyor.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30064.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "park",
+      "helperText": "Örnek: \"Children are playing in the _______.\"",
+      "correctAnswer": "park",
+      "distractors": [
+        "hot",
+        "living room",
+        "plane"
+      ],
+      "englishDistractors": [
+        "hot",
+        "living room",
+        "plane"
+      ],
+      "turkishDistractors": [
+        "bunalmış / sıcak",
+        "oturma odası",
+        "uçak"
+      ]
+    },
+    {
+      "id": "q_g3_065",
+      "number": 65,
+      "grade": 3,
+      "unitNo": 7,
+      "unitName": "In My City",
+      "cefr": "A1.2",
+      "wordId": "w_30065",
+      "english": "hospital",
+      "turkish": "hastane",
+      "exampleSentence": "The doctor works at the hospital.",
+      "blankedSentence": "The doctor works at the _______.",
+      "sentenceTr": "Hastanenin yanında.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30065.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The doctor works at the _______.",
+      "helperText": "İpucu (Anlamı): hastane",
+      "correctAnswer": "hospital",
+      "distractors": [
+        "toy car",
+        "sofa",
+        "car"
+      ],
+      "englishDistractors": [
+        "toy car",
+        "sofa",
+        "car"
+      ],
+      "turkishDistractors": [
+        "oyuncak araba",
+        "koltuk / kanepe",
+        "araba"
+      ]
+    },
+    {
+      "id": "q_g3_066",
+      "number": 66,
+      "grade": 3,
+      "unitNo": 7,
+      "unitName": "In My City",
+      "cefr": "A1.2",
+      "wordId": "w_30066",
+      "english": "bank",
+      "turkish": "banka",
+      "exampleSentence": "The bank is near the school.",
+      "blankedSentence": "The _______ is near the school.",
+      "sentenceTr": "Burada bir banka var mı?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30066.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "bank",
+      "helperText": "Örnek: \"The bank is near the school.\"",
+      "correctAnswer": "banka",
+      "distractors": [
+        "banyo",
+        "helikopter",
+        "sisli"
+      ],
+      "englishDistractors": [
+        "bathroom",
+        "helicopter",
+        "foggy"
+      ],
+      "turkishDistractors": [
+        "banyo",
+        "helikopter",
+        "sisli"
+      ]
+    },
+    {
+      "id": "q_g3_067",
+      "number": 67,
+      "grade": 3,
+      "unitNo": 7,
+      "unitName": "In My City",
+      "cefr": "A1.2",
+      "wordId": "w_30067",
+      "english": "school",
+      "turkish": "okul",
+      "exampleSentence": "I go to school every morning.",
+      "blankedSentence": "I go to _______ every morning.",
+      "sentenceTr": "Ben bir ilkokul öğrencisiyim.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30067.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I go to _______ every morning.",
+      "helperText": "İpucu (Anlamı): okul",
+      "correctAnswer": "school",
+      "distractors": [
+        "train",
+        "rainy",
+        "mountain"
+      ],
+      "englishDistractors": [
+        "train",
+        "rainy",
+        "mountain"
+      ],
+      "turkishDistractors": [
+        "tren",
+        "yağmurlu",
+        "dağ"
+      ]
+    },
+    {
+      "id": "q_g3_068",
+      "number": 68,
+      "grade": 3,
+      "unitNo": 7,
+      "unitName": "In My City",
+      "cefr": "A1.2",
+      "wordId": "w_30068",
+      "english": "post office",
+      "turkish": "postane",
+      "exampleSentence": "Send letters at the post office.",
+      "blankedSentence": "Send letters at the _______.",
+      "sentenceTr": "Evet, postanenin hemen yanında.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30068.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "postane",
+      "helperText": "Örnek: \"Send letters at the _______.\"",
+      "correctAnswer": "post office",
+      "distractors": [
+        "motorcycle",
+        "desert",
+        "dolphin"
+      ],
+      "englishDistractors": [
+        "motorcycle",
+        "desert",
+        "dolphin"
+      ],
+      "turkishDistractors": [
+        "motosiklet",
+        "çöl",
+        "yunus balığı"
+      ]
+    },
+    {
+      "id": "q_g3_069",
+      "number": 69,
+      "grade": 3,
+      "unitNo": 7,
+      "unitName": "In My City",
+      "cefr": "A1.2",
+      "wordId": "w_30069",
+      "english": "market",
+      "turkish": "market / pazar",
+      "exampleSentence": "We buy fruit from the market.",
+      "blankedSentence": "We buy fruit from the _______.",
+      "sentenceTr": "Marketten meyve satın alırım.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30069.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "We buy fruit from the _______.",
+      "helperText": "İpucu (Anlamı): market / pazar",
+      "correctAnswer": "market",
+      "distractors": [
+        "cloudy",
+        "ocean",
+        "school"
+      ],
+      "englishDistractors": [
+        "cloudy",
+        "ocean",
+        "school"
+      ],
+      "turkishDistractors": [
+        "bulutlu",
+        "okyanus",
+        "okul"
+      ]
+    },
+    {
+      "id": "q_g3_070",
+      "number": 70,
+      "grade": 3,
+      "unitNo": 7,
+      "unitName": "In My City",
+      "cefr": "A1.2",
+      "wordId": "w_30070",
+      "english": "mosque",
+      "turkish": "cami",
+      "exampleSentence": "There is an old mosque in my city.",
+      "blankedSentence": "There is an old _______ in my city.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30070.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "mosque",
+      "helperText": "Örnek: \"There is an old mosque in my city.\"",
+      "correctAnswer": "cami",
+      "distractors": [
+        "çiçek",
+        "hayvanat bahçesi",
+        "öğrenci"
+      ],
+      "englishDistractors": [
+        "flower",
+        "zoo",
+        "student"
+      ],
+      "turkishDistractors": [
+        "çiçek",
+        "hayvanat bahçesi",
+        "öğrenci"
+      ]
+    },
+    {
+      "id": "q_g3_071",
+      "number": 71,
+      "grade": 3,
+      "unitNo": 8,
+      "unitName": "Transportation",
+      "cefr": "A1.2",
+      "wordId": "w_30071",
+      "english": "train",
+      "turkish": "tren",
+      "exampleSentence": "The train is fast and long.",
+      "blankedSentence": "The _______ is fast and long.",
+      "sentenceTr": "Şu hızlı trene bak!",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30071.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The _______ is fast and long.",
+      "helperText": "İpucu (Anlamı): tren",
+      "correctAnswer": "train",
+      "distractors": [
+        "bee",
+        "family",
+        "mother"
+      ],
+      "englishDistractors": [
+        "bee",
+        "family",
+        "mother"
+      ],
+      "turkishDistractors": [
+        "arı",
+        "aile",
+        "anne"
+      ]
+    },
+    {
+      "id": "q_g3_072",
+      "number": 72,
+      "grade": 3,
+      "unitNo": 8,
+      "unitName": "Transportation",
+      "cefr": "A1.2",
+      "wordId": "w_30072",
+      "english": "plane",
+      "turkish": "uçak",
+      "exampleSentence": "The plane flies high in the sky.",
+      "blankedSentence": "The _______ flies high in the sky.",
+      "sentenceTr": "Uçak gökyüzündedir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30072.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "uçak",
+      "helperText": "Örnek: \"The _______ flies high in the sky.\"",
+      "correctAnswer": "plane",
+      "distractors": [
+        "boat",
+        "goodbye",
+        "cousin"
+      ],
+      "englishDistractors": [
+        "boat",
+        "goodbye",
+        "cousin"
+      ],
+      "turkishDistractors": [
+        "tekne / kayık",
+        "hoşça kal",
+        "kuzen"
+      ]
+    },
+    {
+      "id": "q_g3_073",
+      "number": 73,
+      "grade": 3,
+      "unitNo": 8,
+      "unitName": "Transportation",
+      "cefr": "A1.2",
+      "wordId": "w_30073",
+      "english": "bus",
+      "turkish": "otobüs",
+      "exampleSentence": "I go to school by bus.",
+      "blankedSentence": "I go to school by _______.",
+      "sentenceTr": "Okula otobüsle gidiyorum.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30073.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "I go to school by _______.",
+      "helperText": "İpucu (Anlamı): otobüs",
+      "correctAnswer": "bus",
+      "distractors": [
+        "old",
+        "grandfather",
+        "fast"
+      ],
+      "englishDistractors": [
+        "old",
+        "grandfather",
+        "fast"
+      ],
+      "turkishDistractors": [
+        "yaşında / yaşlı",
+        "dede / büyükbaba",
+        "hızlı"
+      ]
+    },
+    {
+      "id": "q_g3_074",
+      "number": 74,
+      "grade": 3,
+      "unitNo": 8,
+      "unitName": "Transportation",
+      "cefr": "A1.2",
+      "wordId": "w_30074",
+      "english": "ship",
+      "turkish": "gemi",
+      "exampleSentence": "The big ship is on the sea.",
+      "blankedSentence": "The big _______ is on the sea.",
+      "sentenceTr": "Gemi denizin üstündedir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30074.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "ship",
+      "helperText": "Örnek: \"The big ship is on the sea.\"",
+      "correctAnswer": "gemi",
+      "distractors": [
+        "baba",
+        "bisiklete binmek",
+        "yorgun"
+      ],
+      "englishDistractors": [
+        "father",
+        "ride a bike",
+        "tired"
+      ],
+      "turkishDistractors": [
+        "baba",
+        "bisiklete binmek",
+        "yorgun"
+      ]
+    },
+    {
+      "id": "q_g3_075",
+      "number": 75,
+      "grade": 3,
+      "unitNo": 8,
+      "unitName": "Transportation",
+      "cefr": "A1.2",
+      "wordId": "w_30075",
+      "english": "helicopter",
+      "turkish": "helikopter",
+      "exampleSentence": "Look at the red helicopter!",
+      "blankedSentence": "Look at the red _______!",
+      "sentenceTr": "Bir helikopter yükseğe uçabilir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30075.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Look at the red _______!",
+      "helperText": "İpucu (Anlamı): helikopter",
+      "correctAnswer": "helicopter",
+      "distractors": [
+        "aunt",
+        "tall",
+        "hot"
+      ],
+      "englishDistractors": [
+        "aunt",
+        "tall",
+        "hot"
+      ],
+      "turkishDistractors": [
+        "hala / teyze",
+        "uzun boylu",
+        "bunalmış / sıcak"
+      ]
+    },
+    {
+      "id": "q_g3_076",
+      "number": 76,
+      "grade": 3,
+      "unitNo": 8,
+      "unitName": "Transportation",
+      "cefr": "A1.2",
+      "wordId": "w_30076",
+      "english": "bicycle",
+      "turkish": "bisiklet",
+      "exampleSentence": "I ride my bicycle every weekend.",
+      "blankedSentence": "I ride my _______ every weekend.",
+      "sentenceTr": "Bisiklet sürebilirim.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30076.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "bisiklet",
+      "helperText": "Örnek: \"I ride my _______ every weekend.\"",
+      "correctAnswer": "bicycle",
+      "distractors": [
+        "fly a kite",
+        "surprise",
+        "toy car"
+      ],
+      "englishDistractors": [
+        "fly a kite",
+        "surprise",
+        "toy car"
+      ],
+      "turkishDistractors": [
+        "uçurtma uçurmak",
+        "şaşırmış / sürpriz",
+        "oyuncak araba"
+      ]
+    },
+    {
+      "id": "q_g3_077",
+      "number": 77,
+      "grade": 3,
+      "unitNo": 8,
+      "unitName": "Transportation",
+      "cefr": "A1.2",
+      "wordId": "w_30077",
+      "english": "boat",
+      "turkish": "tekne / kayık",
+      "exampleSentence": "The small boat is on the lake.",
+      "blankedSentence": "The small _______ is on the lake.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30077.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The small _______ is on the lake.",
+      "helperText": "İpucu (Anlamı): tekne / kayık",
+      "correctAnswer": "boat",
+      "distractors": [
+        "thirsty",
+        "teddy bear",
+        "bathroom"
+      ],
+      "englishDistractors": [
+        "thirsty",
+        "teddy bear",
+        "bathroom"
+      ],
+      "turkishDistractors": [
+        "susamış",
+        "oyuncak ayı",
+        "banyo"
+      ]
+    },
+    {
+      "id": "q_g3_078",
+      "number": 78,
+      "grade": 3,
+      "unitNo": 8,
+      "unitName": "Transportation",
+      "cefr": "A1.2",
+      "wordId": "w_30078",
+      "english": "motorcycle",
+      "turkish": "motosiklet",
+      "exampleSentence": "Wear a helmet on a motorcycle.",
+      "blankedSentence": "Wear a helmet on a _______.",
+      "sentenceTr": "O kırmızı bir motosiklet sürüyor.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30078.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "motorcycle",
+      "helperText": "Örnek: \"Wear a helmet on a motorcycle.\"",
+      "correctAnswer": "motosiklet",
+      "distractors": [
+        "üşümüş / soğuk",
+        "yapboz",
+        "müze"
+      ],
+      "englishDistractors": [
+        "cold",
+        "puzzle",
+        "museum"
+      ],
+      "turkishDistractors": [
+        "üşümüş / soğuk",
+        "yapboz",
+        "müze"
+      ]
+    },
+    {
+      "id": "q_g3_079",
+      "number": 79,
+      "grade": 3,
+      "unitNo": 8,
+      "unitName": "Transportation",
+      "cefr": "A1.2",
+      "wordId": "w_30079",
+      "english": "car",
+      "turkish": "araba",
+      "exampleSentence": "Our car is blue.",
+      "blankedSentence": "Our _______ is blue.",
+      "sentenceTr": "O araba süremez.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30079.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Our _______ is blue.",
+      "helperText": "İpucu (Anlamı): araba",
+      "correctAnswer": "car",
+      "distractors": [
+        "doll",
+        "bed",
+        "post office"
+      ],
+      "englishDistractors": [
+        "doll",
+        "bed",
+        "post office"
+      ],
+      "turkishDistractors": [
+        "oyuncak bebek",
+        "yatak",
+        "postane"
+      ]
+    },
+    {
+      "id": "q_g3_080",
+      "number": 80,
+      "grade": 3,
+      "unitNo": 8,
+      "unitName": "Transportation",
+      "cefr": "A1.2",
+      "wordId": "w_30080",
+      "english": "truck",
+      "turkish": "kamyon",
+      "exampleSentence": "The big truck carries heavy boxes.",
+      "blankedSentence": "The big _______ carries heavy boxes.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30080.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "kamyon",
+      "helperText": "Örnek: \"The big _______ carries heavy boxes.\"",
+      "correctAnswer": "truck",
+      "distractors": [
+        "bedroom",
+        "park",
+        "cloudy"
+      ],
+      "englishDistractors": [
+        "bedroom",
+        "park",
+        "cloudy"
+      ],
+      "turkishDistractors": [
+        "yatak odası",
+        "park",
+        "bulutlu"
+      ]
+    },
+    {
+      "id": "q_g3_081",
+      "number": 81,
+      "grade": 3,
+      "unitNo": 9,
+      "unitName": "Weather",
+      "cefr": "A1.2",
+      "wordId": "w_30081",
+      "english": "sunny",
+      "turkish": "güneşli",
+      "exampleSentence": "It is hot and sunny today.",
+      "blankedSentence": "It is hot and _______ today.",
+      "sentenceTr": "Bugün hava güneşli ve sıcak.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30081.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "It is hot and _______ today.",
+      "helperText": "İpucu (Anlamı): güneşli",
+      "correctAnswer": "sunny",
+      "distractors": [
+        "kettle",
+        "train",
+        "flower"
+      ],
+      "englishDistractors": [
+        "kettle",
+        "train",
+        "flower"
+      ],
+      "turkishDistractors": [
+        "su ısıtıcısı",
+        "tren",
+        "çiçek"
+      ]
+    },
+    {
+      "id": "q_g3_082",
+      "number": 82,
+      "grade": 3,
+      "unitNo": 9,
+      "unitName": "Weather",
+      "cefr": "A1.2",
+      "wordId": "w_30082",
+      "english": "rainy",
+      "turkish": "yağmurlu",
+      "exampleSentence": "Take an umbrella on a rainy day.",
+      "blankedSentence": "Take an umbrella on a _______ day.",
+      "sentenceTr": "Şemsiyeni al, hava yağmurlu.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30082.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "rainy",
+      "helperText": "Örnek: \"Take an umbrella on a rainy day.\"",
+      "correctAnswer": "yağmurlu",
+      "distractors": [
+        "okul",
+        "motosiklet",
+        "arı"
+      ],
+      "englishDistractors": [
+        "school",
+        "motorcycle",
+        "bee"
+      ],
+      "turkishDistractors": [
+        "okul",
+        "motosiklet",
+        "arı"
+      ]
+    },
+    {
+      "id": "q_g3_083",
+      "number": 83,
+      "grade": 3,
+      "unitNo": 9,
+      "unitName": "Weather",
+      "cefr": "A1.2",
+      "wordId": "w_30083",
+      "english": "snowy",
+      "turkish": "karlı",
+      "exampleSentence": "It is snowy, let's make a snowman!",
+      "blankedSentence": "It is _______, let's make a snowman!",
+      "sentenceTr": "Hava karlı, hadi dışarıda oynayalım!",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30083.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "It is _______, let's make a snowman!",
+      "helperText": "İpucu (Anlamı): karlı",
+      "correctAnswer": "snowy",
+      "distractors": [
+        "ship",
+        "forest",
+        "warm"
+      ],
+      "englishDistractors": [
+        "ship",
+        "forest",
+        "warm"
+      ],
+      "turkishDistractors": [
+        "gemi",
+        "orman",
+        "ılık / ılık hava"
+      ]
+    },
+    {
+      "id": "q_g3_084",
+      "number": 84,
+      "grade": 3,
+      "unitNo": 9,
+      "unitName": "Weather",
+      "cefr": "A1.2",
+      "wordId": "w_30084",
+      "english": "windy",
+      "turkish": "rüzgarlı",
+      "exampleSentence": "Fly a kite on a windy day.",
+      "blankedSentence": "Fly a kite on a _______ day.",
+      "sentenceTr": "Bugün hava rüzgarlı mı?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30084.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "rüzgarlı",
+      "helperText": "Örnek: \"Fly a kite on a _______ day.\"",
+      "correctAnswer": "windy",
+      "distractors": [
+        "tree",
+        "rainy",
+        "old"
+      ],
+      "englishDistractors": [
+        "tree",
+        "rainy",
+        "old"
+      ],
+      "turkishDistractors": [
+        "ağaç",
+        "yağmurlu",
+        "yaşında / yaşlı"
+      ]
+    },
+    {
+      "id": "q_g3_085",
+      "number": 85,
+      "grade": 3,
+      "unitNo": 9,
+      "unitName": "Weather",
+      "cefr": "A1.2",
+      "wordId": "w_30085",
+      "english": "cloudy",
+      "turkish": "bulutlu",
+      "exampleSentence": "The sky is cloudy today.",
+      "blankedSentence": "The sky is _______ today.",
+      "sentenceTr": "Gökyüzü bulutlu.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30085.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The sky is _______ today.",
+      "helperText": "İpucu (Anlamı): bulutlu",
+      "correctAnswer": "cloudy",
+      "distractors": [
+        "sea",
+        "north",
+        "father"
+      ],
+      "englishDistractors": [
+        "sea",
+        "north",
+        "father"
+      ],
+      "turkishDistractors": [
+        "deniz",
+        "kuzey",
+        "baba"
+      ]
+    },
+    {
+      "id": "q_g3_086",
+      "number": 86,
+      "grade": 3,
+      "unitNo": 9,
+      "unitName": "Weather",
+      "cefr": "A1.2",
+      "wordId": "w_30086",
+      "english": "foggy",
+      "turkish": "sisli",
+      "exampleSentence": "It is foggy in the morning.",
+      "blankedSentence": "It is _______ in the morning.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30086.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "foggy",
+      "helperText": "Örnek: \"It is foggy in the morning.\"",
+      "correctAnswer": "sisli",
+      "distractors": [
+        "bulutlu",
+        "isim / ad",
+        "hala / teyze"
+      ],
+      "englishDistractors": [
+        "cloudy",
+        "name",
+        "aunt"
+      ],
+      "turkishDistractors": [
+        "bulutlu",
+        "isim / ad",
+        "hala / teyze"
+      ]
+    },
+    {
+      "id": "q_g3_087",
+      "number": 87,
+      "grade": 3,
+      "unitNo": 9,
+      "unitName": "Weather",
+      "cefr": "A1.2",
+      "wordId": "w_30087",
+      "english": "warm",
+      "turkish": "ılık / ılık hava",
+      "exampleSentence": "Spring days are warm and nice.",
+      "blankedSentence": "Spring days are _______ and nice.",
+      "sentenceTr": "Baharın hava ılık olur.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30087.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Spring days are _______ and nice.",
+      "helperText": "İpucu (Anlamı): ılık / ılık hava",
+      "correctAnswer": "warm",
+      "distractors": [
+        "happy",
+        "sister",
+        "fly a kite"
+      ],
+      "englishDistractors": [
+        "happy",
+        "sister",
+        "fly a kite"
+      ],
+      "turkishDistractors": [
+        "mutlu",
+        "Kız kardeş",
+        "uçurtma uçurmak"
+      ]
+    },
+    {
+      "id": "q_g3_088",
+      "number": 88,
+      "grade": 3,
+      "unitNo": 9,
+      "unitName": "Weather",
+      "cefr": "A1.2",
+      "wordId": "w_30088",
+      "english": "weather",
+      "turkish": "hava durumu",
+      "exampleSentence": "How is the weather today?",
+      "blankedSentence": "How is the _______ today?",
+      "sentenceTr": "Bugün hava nasıl?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30088.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "hava durumu",
+      "helperText": "Örnek: \"How is the _______ today?\"",
+      "correctAnswer": "weather",
+      "distractors": [
+        "spell",
+        "climb",
+        "thirsty"
+      ],
+      "englishDistractors": [
+        "spell",
+        "climb",
+        "thirsty"
+      ],
+      "turkishDistractors": [
+        "harf harf söylemek / kodlamak",
+        "tırmanmak",
+        "susamış"
+      ]
+    },
+    {
+      "id": "q_g3_089",
+      "number": 89,
+      "grade": 3,
+      "unitNo": 9,
+      "unitName": "Weather",
+      "cefr": "A1.2",
+      "wordId": "w_30089",
+      "english": "desert",
+      "turkish": "çöl",
+      "exampleSentence": "It is hot in the desert.",
+      "blankedSentence": "It is hot in the _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30089.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "It is hot in the _______.",
+      "helperText": "İpucu (Anlamı): çöl",
+      "correctAnswer": "desert",
+      "distractors": [
+        "uncle",
+        "strong",
+        "cold"
+      ],
+      "englishDistractors": [
+        "uncle",
+        "strong",
+        "cold"
+      ],
+      "turkishDistractors": [
+        "amca / dayı",
+        "güçlü",
+        "üşümüş / soğuk"
+      ]
+    },
+    {
+      "id": "q_g3_090",
+      "number": 90,
+      "grade": 3,
+      "unitNo": 9,
+      "unitName": "Weather",
+      "cefr": "A1.2",
+      "wordId": "w_30090",
+      "english": "north",
+      "turkish": "kuzey",
+      "exampleSentence": "It is cold in the north.",
+      "blankedSentence": "It is cold in the _______.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30090.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "north",
+      "helperText": "Örnek: \"It is cold in the north.\"",
+      "correctAnswer": "kuzey",
+      "distractors": [
+        "araba sürmek",
+        "üzgün",
+        "oyuncak bebek"
+      ],
+      "englishDistractors": [
+        "drive a car",
+        "sad",
+        "doll"
+      ],
+      "turkishDistractors": [
+        "araba sürmek",
+        "üzgün",
+        "oyuncak bebek"
+      ]
+    },
+    {
+      "id": "q_g3_091",
+      "number": 91,
+      "grade": 3,
+      "unitNo": 10,
+      "unitName": "Nature",
+      "cefr": "A1.2",
+      "wordId": "w_30091",
+      "english": "tree",
+      "turkish": "ağaç",
+      "exampleSentence": "Birds sing in the tree.",
+      "blankedSentence": "Birds sing in the _______.",
+      "sentenceTr": "Ağaca tırmanabilir misin?",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30091.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Birds sing in the _______.",
+      "helperText": "İpucu (Anlamı): ağaç",
+      "correctAnswer": "tree",
+      "distractors": [
+        "hungry",
+        "playing cards",
+        "bedroom"
+      ],
+      "englishDistractors": [
+        "hungry",
+        "playing cards",
+        "bedroom"
+      ],
+      "turkishDistractors": [
+        "aç / acıkmış",
+        "oyun kartları",
+        "yatak odası"
+      ]
+    },
+    {
+      "id": "q_g3_092",
+      "number": 92,
+      "grade": 3,
+      "unitNo": 10,
+      "unitName": "Nature",
+      "cefr": "A1.2",
+      "wordId": "w_30092",
+      "english": "flower",
+      "turkish": "çiçek",
+      "exampleSentence": "This pink flower smells nice.",
+      "blankedSentence": "This pink _______ smells nice.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30092.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "çiçek",
+      "helperText": "Örnek: \"This pink _______ smells nice.\"",
+      "correctAnswer": "flower",
+      "distractors": [
+        "bored",
+        "board game",
+        "kettle"
+      ],
+      "englishDistractors": [
+        "bored",
+        "board game",
+        "kettle"
+      ],
+      "turkishDistractors": [
+        "canı sıkılmış",
+        "masa oyunu",
+        "su ısıtıcısı"
+      ]
+    },
+    {
+      "id": "q_g3_093",
+      "number": 93,
+      "grade": 3,
+      "unitNo": 10,
+      "unitName": "Nature",
+      "cefr": "A1.2",
+      "wordId": "w_30093",
+      "english": "mountain",
+      "turkish": "dağ",
+      "exampleSentence": "The mountain is covered with snow.",
+      "blankedSentence": "The _______ is covered with snow.",
+      "sentenceTr": "Dağ çok yüksektir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30093.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The _______ is covered with snow.",
+      "helperText": "İpucu (Anlamı): dağ",
+      "correctAnswer": "mountain",
+      "distractors": [
+        "marble",
+        "garden",
+        "school"
+      ],
+      "englishDistractors": [
+        "marble",
+        "garden",
+        "school"
+      ],
+      "turkishDistractors": [
+        "bilye / misket",
+        "bahçe",
+        "okul"
+      ]
+    },
+    {
+      "id": "q_g3_094",
+      "number": 94,
+      "grade": 3,
+      "unitNo": 10,
+      "unitName": "Nature",
+      "cefr": "A1.2",
+      "wordId": "w_30094",
+      "english": "river",
+      "turkish": "nehir / ırmak",
+      "exampleSentence": "Water flows in the river.",
+      "blankedSentence": "Water flows in the _______.",
+      "sentenceTr": "Balıklar nehirde yüzer.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30094.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "river",
+      "helperText": "Örnek: \"Water flows in the river.\"",
+      "correctAnswer": "nehir / ırmak",
+      "distractors": [
+        "mutfak",
+        "hayvanat bahçesi",
+        "gemi"
+      ],
+      "englishDistractors": [
+        "kitchen",
+        "zoo",
+        "ship"
+      ],
+      "turkishDistractors": [
+        "mutfak",
+        "hayvanat bahçesi",
+        "gemi"
+      ]
+    },
+    {
+      "id": "q_g3_095",
+      "number": 95,
+      "grade": 3,
+      "unitNo": 10,
+      "unitName": "Nature",
+      "cefr": "A1.2",
+      "wordId": "w_30095",
+      "english": "forest",
+      "turkish": "orman",
+      "exampleSentence": "Wild animals live in the forest.",
+      "blankedSentence": "Wild animals live in the _______.",
+      "sentenceTr": "Ormanda uzun ağaçlar var.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30095.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "Wild animals live in the _______.",
+      "helperText": "İpucu (Anlamı): orman",
+      "correctAnswer": "forest",
+      "distractors": [
+        "shampoo",
+        "mosque",
+        "sunny"
+      ],
+      "englishDistractors": [
+        "shampoo",
+        "mosque",
+        "sunny"
+      ],
+      "turkishDistractors": [
+        "şampuan",
+        "cami",
+        "güneşli"
+      ]
+    },
+    {
+      "id": "q_g3_096",
+      "number": 96,
+      "grade": 3,
+      "unitNo": 10,
+      "unitName": "Nature",
+      "cefr": "A1.2",
+      "wordId": "w_30096",
+      "english": "ocean",
+      "turkish": "okyanus",
+      "exampleSentence": "Whales swim in the ocean.",
+      "blankedSentence": "Whales swim in the _______.",
+      "sentenceTr": "Okyanus derin ve mavidir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30096.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "okyanus",
+      "helperText": "Örnek: \"Whales swim in the _______.\"",
+      "correctAnswer": "ocean",
+      "distractors": [
+        "bank",
+        "boat",
+        "weather"
+      ],
+      "englishDistractors": [
+        "bank",
+        "boat",
+        "weather"
+      ],
+      "turkishDistractors": [
+        "banka",
+        "tekne / kayık",
+        "hava durumu"
+      ]
+    },
+    {
+      "id": "q_g3_097",
+      "number": 97,
+      "grade": 3,
+      "unitNo": 10,
+      "unitName": "Nature",
+      "cefr": "A1.2",
+      "wordId": "w_30097",
+      "english": "sky",
+      "turkish": "gökyüzü",
+      "exampleSentence": "The sky is blue today.",
+      "blankedSentence": "The _______ is blue today.",
+      "sentenceTr": "Uçak gökyüzündedir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30097.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The _______ is blue today.",
+      "helperText": "İpucu (Anlamı): gökyüzü",
+      "correctAnswer": "sky",
+      "distractors": [
+        "bus",
+        "windy",
+        "forest"
+      ],
+      "englishDistractors": [
+        "bus",
+        "windy",
+        "forest"
+      ],
+      "turkishDistractors": [
+        "otobüs",
+        "rüzgarlı",
+        "orman"
+      ]
+    },
+    {
+      "id": "q_g3_098",
+      "number": 98,
+      "grade": 3,
+      "unitNo": 10,
+      "unitName": "Nature",
+      "cefr": "A1.2",
+      "wordId": "w_30098",
+      "english": "sea",
+      "turkish": "deniz",
+      "exampleSentence": "I like swimming in the sea.",
+      "blankedSentence": "I like swimming in the _______.",
+      "sentenceTr": "Gemi denizin üstündedir.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30098.mp3",
+      "questionType": "en_to_tr",
+      "promptTr": "Verilen İngilizce kelime veya ifadenin Türkçe anlamı hangisidir?",
+      "questionText": "sea",
+      "helperText": "Örnek: \"I like swimming in the sea.\"",
+      "correctAnswer": "deniz",
+      "distractors": [
+        "kamyon",
+        "ağaç",
+        "mutlu"
+      ],
+      "englishDistractors": [
+        "truck",
+        "tree",
+        "happy"
+      ],
+      "turkishDistractors": [
+        "kamyon",
+        "ağaç",
+        "mutlu"
+      ]
+    },
+    {
+      "id": "q_g3_099",
+      "number": 99,
+      "grade": 3,
+      "unitNo": 10,
+      "unitName": "Nature",
+      "cefr": "A1.2",
+      "wordId": "w_30099",
+      "english": "bee",
+      "turkish": "arı",
+      "exampleSentence": "The bee makes delicious honey.",
+      "blankedSentence": "The _______ makes delicious honey.",
+      "sentenceTr": "Bir arı bal yapar.",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30099.mp3",
+      "questionType": "context_blank",
+      "promptTr": "Cümlede boş bırakılan yere anlamca en uygun kelime hangisidir?",
+      "questionText": "The _______ makes delicious honey.",
+      "helperText": "İpucu (Anlamı): arı",
+      "correctAnswer": "bee",
+      "distractors": [
+        "warm",
+        "sea",
+        "spell"
+      ],
+      "englishDistractors": [
+        "warm",
+        "sea",
+        "spell"
+      ],
+      "turkishDistractors": [
+        "ılık / ılık hava",
+        "deniz",
+        "harf harf söylemek / kodlamak"
+      ]
+    },
+    {
+      "id": "q_g3_100",
+      "number": 100,
+      "grade": 3,
+      "unitNo": 10,
+      "unitName": "Nature",
+      "cefr": "A1.2",
+      "wordId": "w_30100",
+      "english": "dolphin",
+      "turkish": "yunus balığı",
+      "exampleSentence": "Dolphins are very friendly animals.",
+      "blankedSentence": "_______ are very friendly animals.",
+      "sentenceTr": "",
+      "audioUrl": "/data/Tr_Eng_Ilkokul/Audio/w_30100.mp3",
+      "questionType": "tr_to_en",
+      "promptTr": "Verilen Türkçe anlamın İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "questionText": "yunus balığı",
+      "helperText": "Örnek: \"_______ are very friendly animals.\"",
+      "correctAnswer": "dolphin",
+      "distractors": [
+        "river",
+        "teacher",
+        "uncle"
+      ],
+      "englishDistractors": [
+        "river",
+        "teacher",
+        "uncle"
+      ],
+      "turkishDistractors": [
+        "nehir / ırmak",
+        "öğretmen",
+        "amca / dayı"
+      ]
+    }
+  ]
+}

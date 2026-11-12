@@ -2,36 +2,22 @@
 
 import React from 'react';
 import { useMemolandumStore } from '../../../store/useMemolandumStore';
+import { containsRtlScript } from '../../../lib/i18n/canvasTextHelper';
 
 /**
- * GameHeader - Universal responsive HUD for all games
- * 
- * Usage:
- * <GameHeader>
- *   <GameHeader.Left>
- *     <GameHeader.Shields max={3} current={2} />
- *     <GameHeader.Stage value={1} max={10} />
- *   </GameHeader.Left>
- *   
- *   <GameHeader.Right>
- *     <GameHeader.Score value={1500} />
- *     <GameHeader.Gems value={100} />
- *     <GameHeader.Controls 
- *       isFxEnabled={isFxEnabled} 
- *       onFxToggle={onFxToggle}
- *       isAudioEnabled={isAudioEnabled}
- *       onAudioToggle={onAudioToggle}
- *       onPause={onPause}
- *     />
- *   </GameHeader.Right>
- * </GameHeader>
+ * GameHeader - Universal responsive BiDi (LTR/RTL) HUD for all games
+ *
+ * Faz 3 Optimizations:
+ * - Automatic RTL progress/shield bar orientation (`rtl:flex-row-reverse`)
+ * - Back/Exit arrow icon automatically flips in RTL mode (`rtl:scale-x-[-1]`)
+ * - Western Arabic numerals (`0-9`) with `dir="ltr"` and `tabular-nums` on all counters, timers, and scores
  */
 
 export function GameHeader({ children }) {
   return (
     <div className="w-full max-w-[800px] mx-auto z-50 flex flex-col font-mono pointer-events-auto select-none">
       {/* Memolandum Brand Strip */}
-      <div 
+      <div
         className="w-full bg-slate-950/90 border-x border-t border-white/10 px-3 sm:px-4 flex justify-between items-center rounded-t-lg sm:rounded-t-xl text-[9px] sm:text-[10px] uppercase font-bold tracking-[0.25em] text-slate-400"
         style={{
           paddingTop: 'calc(0.4rem + env(safe-area-inset-top, 0px))',
@@ -39,20 +25,30 @@ export function GameHeader({ children }) {
         }}
       >
         <div className="flex items-center gap-1.5">
-          <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse shadow-[0_0_8px_#22d3ee]"></span>
-          <a href="/" className="text-white font-black cursor-pointer hover:text-cyan-300 transition-colors duration-200" title="Ana Sayfaya Dön">
-            MEMOLANDUM
+          <a
+            href="/"
+            className="inline-flex items-center gap-1 text-white font-black cursor-pointer hover:text-cyan-300 transition-colors duration-200"
+            title="Ana Sayfaya Dön"
+          >
+            <span
+              aria-hidden="true"
+              className="inline-block text-cyan-400 transition-transform rtl:scale-x-[-1]"
+            >
+              ←
+            </span>
+            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse shadow-[0_0_8px_#22d3ee]"></span>
+            <span>MEMOLANDUM</span>
           </a>
           <span className="text-slate-500 font-medium hidden sm:inline">|</span>
           <span className="text-cyan-400 font-semibold hidden sm:inline">ENTERPRISE SYSTEM</span>
         </div>
-        <div className="text-slate-500 text-[8px] sm:text-[9px] tracking-[0.15em] font-medium">
+        <div dir="ltr" className="text-slate-500 text-[8px] sm:text-[9px] tracking-[0.15em] font-medium tabular-nums">
           SECURE PROTOCOL v3.0
         </div>
       </div>
-      
+
       {/* Main Game Header */}
-      <div 
+      <div
         className="w-full bg-gradient-to-b from-slate-900/95 to-slate-900/60 border-x border-b border-white/10 px-1.5 py-1.5 sm:px-4 sm:py-3 flex flex-row items-center justify-between gap-1.5 shadow-lg rounded-b-lg sm:rounded-b-xl overflow-hidden"
         style={{
           paddingLeft: 'calc(0.5rem + env(safe-area-inset-left, 0px))',
@@ -89,10 +85,10 @@ GameHeader.Shields = function GameHeaderShields({ max = 3, current = 0, customId
       <span className="text-xs sm:text-xl drop-shadow-[0_0_8px_#38bdf8] animate-pulse">🛡️</span>
       <div className="flex flex-col">
         <span className="text-[8px] sm:text-[9px] text-slate-400 font-black tracking-wider hidden sm:block">SHIELD</span>
-        <div id={customId} className="flex gap-0.5 sm:gap-1 mt-0 sm:mt-0.5">
+        <div id={customId} className="flex gap-0.5 sm:gap-1 mt-0 sm:mt-0.5 rtl:flex-row-reverse">
           {Array.from({ length: max }).map((_, i) => (
-            <div 
-              key={i} 
+            <div
+              key={i}
               className={`shield-cell h-1.5 w-2.5 sm:h-2.5 sm:w-6 rounded-sm transition-all duration-300 ${
                 i < current ? 'bg-cyan-400 shadow-[0_0_8px_#22d3ee]' : 'bg-slate-700/50'
               }`}
@@ -114,7 +110,7 @@ GameHeader.Stage = function GameHeaderStage({ value, max, label = "STAGE", icon 
         <span className="text-xs sm:text-lg drop-shadow-[0_0_8px_#34d399]">⭐</span>
         <div className="flex flex-col">
           <span className="text-[8px] sm:text-[9px] text-emerald-400 font-black tracking-wider hidden sm:block">KASA SEVİYESİ</span>
-          <span className="text-[10px] sm:text-xs font-black text-emerald-200 leading-none mt-0 sm:mt-0.5 tracking-wider uppercase">
+          <span dir="ltr" className="text-[10px] sm:text-xs font-black text-emerald-200 leading-none mt-0 sm:mt-0.5 tracking-wider uppercase tabular-nums">
             ÖZEL SEVİYE ({activeCustomWords.length})
           </span>
         </div>
@@ -127,7 +123,11 @@ GameHeader.Stage = function GameHeaderStage({ value, max, label = "STAGE", icon 
       <span className="text-xs sm:text-xl drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">{icon}</span>
       <div className="flex flex-col">
         <span id={customIdValues.labelId} className="text-[8px] sm:text-[9px] text-slate-400 font-black tracking-wider hidden sm:block">{label}</span>
-        <span id={customIdValues.valueId} className="text-[10px] sm:text-base font-bold text-cyan-400 leading-none mt-0 sm:mt-0.5">
+        <span
+          id={customIdValues.valueId}
+          dir="ltr"
+          className="text-[10px] sm:text-base font-bold text-cyan-400 leading-none mt-0 sm:mt-0.5 tabular-nums"
+        >
           {value !== undefined ? String(value).padStart(2, '0') : ''}{max && <span className="text-slate-500 text-[10px] sm:text-xs">/{max}</span>}
         </span>
       </div>
@@ -136,11 +136,20 @@ GameHeader.Stage = function GameHeaderStage({ value, max, label = "STAGE", icon 
 };
 
 GameHeader.Score = function GameHeaderScore({ value, label = "SCORE", customIdValues = {} }) {
+  const formattedScore =
+    value !== undefined && value !== null
+      ? Number(value).toLocaleString('en-US')
+      : '0';
+
   return (
     <div className="flex flex-col items-end sm:items-center bg-slate-800/80 sm:bg-transparent border border-white/10 sm:border-none rounded-lg px-1 py-0.5 sm:p-0">
       <span id={customIdValues.labelId} className="text-[8px] sm:text-[9px] text-green-500 font-black tracking-widest hidden sm:block">{label}</span>
-      <span id={customIdValues.valueId} className="text-xs sm:text-xl font-black text-green-400 drop-shadow-[0_0_8px_rgba(74,222,128,0.5)] leading-none mt-0 sm:mt-0.5">
-        {value !== undefined ? value.toLocaleString() : '0'}
+      <span
+        id={customIdValues.valueId}
+        dir="ltr"
+        className="text-xs sm:text-xl font-black text-green-400 drop-shadow-[0_0_8px_rgba(74,222,128,0.5)] leading-none mt-0 sm:mt-0.5 tabular-nums"
+      >
+        {formattedScore}
       </span>
     </div>
   );
@@ -152,8 +161,11 @@ GameHeader.Gems = function GameHeaderGems({ value, label = "GEMS", icon = "💎"
       <span className="text-xs sm:text-lg">{icon}</span>
       <div className="flex flex-col">
         <span className="text-[8px] sm:text-[9px] text-slate-400 font-black tracking-wider hidden sm:block">{label}</span>
-        <span className="text-[10px] sm:text-base font-bold text-sky-400 drop-shadow-[0_0_8px_rgba(56,189,248,0.5)] leading-none mt-0 sm:mt-0.5">
-          {value || '0'}
+        <span
+          dir="ltr"
+          className="text-[10px] sm:text-base font-bold text-sky-400 drop-shadow-[0_0_8px_rgba(56,189,248,0.5)] leading-none mt-0 sm:mt-0.5 tabular-nums"
+        >
+          {value !== undefined && value !== null ? Number(value).toLocaleString('en-US') : '0'}
         </span>
       </div>
     </div>
@@ -161,11 +173,17 @@ GameHeader.Gems = function GameHeaderGems({ value, label = "GEMS", icon = "💎"
 };
 
 GameHeader.TargetWord = function GameHeaderTargetWord({ value, label = "HEDEF" }) {
+  const isRtlTarget = containsRtlScript(value);
   return (
-    <div className="flex items-center gap-1 sm:gap-2 bg-pink-900/40 border border-pink-500/50 rounded-lg px-1 py-0.5 sm:px-4 sm:py-1.5 shadow-[0_0_15px_rgba(236,72,153,0.2)] min-w-0 max-w-[85px] sm:max-w-none">
+    <div className="flex items-center gap-1 sm:gap-2 bg-pink-900/40 border border-pink-500/50 rounded-lg px-1 py-0.5 sm:px-4 sm:px-3 sm:py-1.5 shadow-[0_0_15px_rgba(236,72,153,0.2)] min-w-0 max-w-[95px] sm:max-w-none">
       <div className="flex flex-col items-center min-w-0 w-full">
         <span className="text-[8px] sm:text-[9px] text-pink-400 font-black tracking-wider hidden sm:block">{label}</span>
-        <span className="text-[10px] sm:text-lg font-bold text-white drop-shadow-[0_0_5px_#fff] leading-none mt-0 sm:mt-0.5 truncate w-full text-center">
+        <span
+          dir={isRtlTarget ? "rtl" : "ltr"}
+          className={`text-[10px] sm:text-lg font-bold text-white drop-shadow-[0_0_5px_#fff] leading-snug mt-0 sm:mt-0.5 truncate w-full text-center ${
+            isRtlTarget ? 'py-0.5 font-sans' : ''
+          }`}
+        >
           {value}
         </span>
       </div>
@@ -173,16 +191,16 @@ GameHeader.TargetWord = function GameHeaderTargetWord({ value, label = "HEDEF" }
   );
 };
 
-GameHeader.Controls = function GameHeaderControls({ 
-  isFxEnabled, onFxToggle, 
-  isAudioEnabled, onAudioToggle, 
+GameHeader.Controls = function GameHeaderControls({
+  isFxEnabled, onFxToggle,
+  isAudioEnabled, onAudioToggle,
   onPause, pauseId = "hudPauseBtn"
 }) {
   return (
     <div className="flex items-center gap-1 sm:gap-2">
 
       {onFxToggle && (
-        <button 
+        <button
           className={`flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 rounded-lg border transition-all ${isFxEnabled ? 'bg-slate-700 border-white/20 text-white' : 'bg-slate-800 border-white/5 text-slate-500'}`}
           onClick={onFxToggle}
           title="SFX"
@@ -190,9 +208,9 @@ GameHeader.Controls = function GameHeaderControls({
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5 sm:w-4 sm:h-4"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
         </button>
       )}
-      
+
       {onAudioToggle && (
-        <button 
+        <button
           className={`flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 rounded-lg border transition-all ${isAudioEnabled ? 'bg-slate-700 border-white/20 text-white' : 'bg-slate-800 border-white/5 text-slate-500'}`}
           onClick={onAudioToggle}
           title="Voice"
@@ -202,9 +220,9 @@ GameHeader.Controls = function GameHeaderControls({
       )}
 
       {onPause && (
-        <button 
+        <button
           id={pauseId}
-          className="flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 rounded-lg bg-slate-800 border border-white/10 text-slate-300 hover:bg-rose-500/20 hover:border-rose-500 hover:text-rose-400 hover:shadow-[0_0_10px_rgba(244,63,94,0.3)] transition-all ml-0.5 sm:ml-2"
+          className="flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 rounded-lg bg-slate-800 border border-white/10 text-slate-300 hover:bg-rose-500/20 hover:border-rose-500 hover:text-rose-400 hover:shadow-[0_0_10px_rgba(244,63,94,0.3)] transition-all ms-0.5 sm:ms-2"
           onClick={onPause}
           title="Pause"
         >

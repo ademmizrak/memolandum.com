@@ -1,9 +1,25 @@
+import { playWordPronunciation } from '../../../lib/pronunciation';
+import {
+  attachAdaptiveCanvasGuard,
+  createCanvasFpsMonitor,
+  getAdaptiveDevicePixelRatio,
+  isLowSpecDeviceActive,
+  scaleParticleCount,
+} from '../../../lib/performance/canvasFpsGuard';
+import {
+  containsRtlScript,
+  drawLocalizedText,
+  formatRtlSafeHint,
+} from '../../../lib/i18n/canvasTextHelper';
+
 // ----------------------------------------------------
 // iOS Safari Zoom & Rubber-Banding Prevention
 // ----------------------------------------------------
-document.addEventListener('gesturestart', function(e) {
-  e.preventDefault();
-}, { passive: false });
+if (typeof document !== 'undefined') {
+  document.addEventListener('gesturestart', function(e) {
+    e.preventDefault();
+  }, { passive: false });
+}
 
 document.addEventListener('gesturechange', function(e) {
   e.preventDefault();
@@ -84,17 +100,79 @@ class SoundManager {
     this.isAudioEnabled = enabled;
   }
 
-  playWordAudio(url) {
-    if (!this.isAudioEnabled || !url) return;
+  playWordAudio(url, onFallback, onEnded) {
+    if (!this.isAudioEnabled) return;
+    if (!url) {
+      if (typeof onFallback === 'function') onFallback();
+      return;
+    }
     
     try {
+      if (!this.wordAudio) {
+        if (typeof onFallback === 'function') onFallback();
+        return;
+      }
+
+      let fallbackTriggered = false;
+      const triggerFallback = (err) => {
+        if (fallbackTriggered) return;
+        fallbackTriggered = true;
+        this.wordAudio.onerror = null;
+        this.wordAudio.onplaying = null;
+        this.wordAudio.onended = null;
+        if (typeof onFallback === 'function') {
+          onFallback(err);
+        }
+      };
+
+      const timeoutId = setTimeout(() => {
+        if (this.wordAudio.readyState < 2 && !this.wordAudio.ended && !fallbackTriggered) {
+          triggerFallback('timeout');
+        }
+      }, 1500);
+
+      this.wordAudio.onerror = () => {
+        clearTimeout(timeoutId);
+        triggerFallback(this.wordAudio.error);
+      };
+
+      this.wordAudio.onplaying = () => {
+        clearTimeout(timeoutId);
+      };
+
+      this.wordAudio.onended = () => {
+        clearTimeout(timeoutId);
+        this.wordAudio.onended = null;
+        if (!fallbackTriggered && typeof onEnded === 'function') {
+          onEnded();
+        }
+      };
+
       this.wordAudio.src = url;
       this.wordAudio.load();
       this.wordAudio.currentTime = 0;
-      this.wordAudio.play().catch(e => console.warn("Audio play failed:", e));
+      const playPromise = this.wordAudio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch((e) => {
+          clearTimeout(timeoutId);
+          console.warn("Audio play failed, triggering fallback:", e?.message || e);
+          triggerFallback(e);
+        });
+      }
     } catch (e) {
-      console.error("Audio playback error:", e);
+      console.warn("Audio playback error, triggering fallback:", e);
+      if (typeof onFallback === 'function') onFallback(e);
     }
+  }
+
+  speakWord(wordObj, options = {}) {
+    if (!this.isAudioEnabled || !wordObj) return;
+    this.init();
+    return playWordPronunciation(wordObj, {
+      isAudioEnabled: this.isAudioEnabled,
+      soundManager: this,
+      ...options,
+    });
   }
 
   init() {
@@ -515,11 +593,14 @@ class Meteor {
   getTurkishHint() {
     if (!this.word || !this.word.turkish) return "";
     const tr = this.word.turkish;
+    const isRtl = containsRtlScript(tr);
     if (this.hp === 3) {
-      // 0 hits taken: completely hidden
+      // 0 hits taken: completely hidden (keep RTL ligatures safe without char-by-char spaces)
+      if (isRtl) return "• • •";
       return tr.split('').map(char => (char === ' ' ? ' ' : '_')).join(' ');
     } else if (this.hp === 2) {
       // 1 hit taken: reveal first 1/3 of characters
+      if (isRtl) return formatRtlSafeHint(tr, 0.34);
       const revealCount = Math.max(1, Math.floor(tr.length / 3));
       return tr.split('').map((char, index) => {
         if (char === ' ') return ' ';
@@ -527,6 +608,7 @@ class Meteor {
       }).join(' ');
     } else if (this.hp === 1) {
       // 2 hits taken: reveal 2/3 of characters
+      if (isRtl) return formatRtlSafeHint(tr, 0.67);
       const revealCount = Math.max(2, Math.floor(tr.length * 2 / 3));
       return tr.split('').map((char, index) => {
         if (char === ' ') return ' ';
@@ -567,27 +649,27 @@ class Meteor {
       ctx.fillStyle = '#ff0055';
       ctx.font = '900 11px "Orbitron", sans-serif';
       ctx.textAlign = 'left';
-      ctx.fillText("SECTOR BOSS", roundedX + 10, roundedY + 26);
+      drawLocalizedText(ctx, "SECTOR BOSS", roundedX + 10, roundedY + 26);
       
-      // Render English Word
+      // Render Target Word
       ctx.fillStyle = '#ffffff';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
       if (this.word.romanized_script) {
         ctx.font = 'bold 22px Arial, sans-serif';
-        ctx.fillText(this.word.english, roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 - 5);
+        drawLocalizedText(ctx, this.word.english, roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 - 5);
         ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
         ctx.font = 'bold 24px Arial, sans-serif';
-        ctx.fillText(this.word.romanized_script, roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 + 18);
+        drawLocalizedText(ctx, this.word.romanized_script, roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 + 18);
       } else {
         ctx.font = 'bold 22px Arial, sans-serif';
-        ctx.fillText(this.word.english, roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 + 5);
+        drawLocalizedText(ctx, this.word.english, roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 + 5);
       }
 
-      // Render Turkish Hint
+      // Render Hint (RTL-safe for Arabic script)
       ctx.fillStyle = '#ffea00';
       ctx.font = 'bold 15px "Orbitron", sans-serif';
-      ctx.fillText(this.getTurkishHint(), roundedX + roundedWidth / 2, roundedY + roundedHeight - 20);
+      drawLocalizedText(ctx, this.getTurkishHint(), roundedX + roundedWidth / 2, roundedY + roundedHeight - 20);
     } else {
       // Render regular meteor
       ctx.strokeStyle = isPlayZone ? '#ff0055' : 'rgba(255, 0, 85, 0.35)';
@@ -601,13 +683,14 @@ class Meteor {
       ctx.fill();
       ctx.stroke();
 
-      // English text rendering
+      // Target text rendering (Faz 3: 0px letterSpacing for RTL script to preserve Arabic ligatures)
+      const isRtlWord = containsRtlScript(this.word.english);
       ctx.fillStyle = isPlayZone ? '#ffffff' : 'rgba(255, 255, 255, 0.4)';
       ctx.shadowBlur = 0;
       ctx.font = isPlayZone ? 'bold 17px Arial, sans-serif' : '16px Arial, sans-serif';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
-      ctx.letterSpacing = '1px';
+      ctx.letterSpacing = isRtlWord ? '0px' : '1px';
       
       let lines = [];
       let isRomanized = false;
@@ -629,14 +712,14 @@ class Meteor {
 
       if (lines.length > 1) {
         ctx.font = isPlayZone ? `bold ${18 + 6}px Arial, sans-serif` : `bold ${16 + 6}px Arial, sans-serif`;
-        ctx.fillText(lines[0], roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 - 12);
+        drawLocalizedText(ctx, lines[0], roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 - 12);
         
         ctx.fillStyle = isRomanized ? (isPlayZone ? 'rgba(255, 255, 255, 0.9)' : 'rgba(255, 255, 255, 0.5)') : (isPlayZone ? '#ffffff' : 'rgba(255, 255, 255, 0.4)');
         ctx.font = isRomanized ? (isPlayZone ? 'bold 22px Arial, sans-serif' : '18px Arial, sans-serif') : (isPlayZone ? 'bold 18px Arial, sans-serif' : '16px Arial, sans-serif');
-        ctx.fillText(lines[1], roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 + 13);
+        drawLocalizedText(ctx, lines[1], roundedX + roundedWidth / 2, roundedY + roundedHeight / 2 + 13);
       } else {
         ctx.font = isPlayZone ? 'bold 18px Arial, sans-serif' : '16px Arial, sans-serif';
-        ctx.fillText(lines[0], roundedX + roundedWidth / 2, roundedY + roundedHeight / 2);
+        drawLocalizedText(ctx, lines[0], roundedX + roundedWidth / 2, roundedY + roundedHeight / 2);
       }
     }
     
@@ -918,16 +1001,18 @@ export class ShooterGame {
         meteor.word = word;
         meteor.speed = speed;
         meteor.isBoss = isBoss;
+        const hasRtl = containsRtlScript(word?.english) || containsRtlScript(word?.turkish);
+        const rtlScale = hasRtl ? 1.15 : 1.0;
         if (isBoss) {
           meteor.hp = 3;
           meteor.maxHp = 3;
-          meteor.width = 300; // Giant Boss size
-          meteor.height = 100;
+          meteor.width = Math.round(300 * (hasRtl ? 1.08 : 1.0)); // Giant Boss size
+          meteor.height = Math.round(100 * rtlScale);
         } else {
           meteor.hp = 1;
           meteor.maxHp = 1;
-          meteor.width = Math.max(160, word.english.length * 14 + 30);
-          meteor.height = 42;
+          meteor.width = Math.round(Math.max(160, (word?.english?.length || 6) * 14 + 30) * (hasRtl ? 1.15 : 1.0));
+          meteor.height = Math.round(42 * rtlScale);
         }
         meteor.active = true;
       }
@@ -985,8 +1070,22 @@ export class ShooterGame {
     this.activeGems = [];
     this.stars = [];
     
-    // Setup starfield
-    for (let i = 0; i < 60; i++) {
+    // Setup starfield (Low-Spec cihazlarda %70 azaltılmış yıldız sayısı)
+    this.isLowSpecDevice = isLowSpecDeviceActive();
+    attachAdaptiveCanvasGuard(this.ctx);
+    this.fpsMonitor = createCanvasFpsMonitor({
+      sampleSize: 60,
+      fpsThreshold: 35,
+      onLowSpec: () => {
+        this.isLowSpecDevice = true;
+        if (Array.isArray(this.stars) && this.stars.length > 18) {
+          this.stars = this.stars.slice(0, 18);
+        }
+        this.resize();
+      },
+    });
+    const initialStarCount = scaleParticleCount(60, this.isLowSpecDevice);
+    for (let i = 0; i < initialStarCount; i++) {
       const star = new Star();
       star.reset(this.virtualWidth, this.virtualHeight);
       // Distribute stars randomly across screen height on start
@@ -1204,7 +1303,7 @@ export class ShooterGame {
         
         this.confirmQuitTimeoutId = setTimeout(() => {
           this.confirmQuitActive = false;
-          pauseMenuBtn.textContent = 'MAIN MENU';
+          pauseMenuBtn.textContent = 'OYUN MENÜSÜ';
           pauseMenuBtn.classList.remove('btn-magenta');
           pauseMenuBtn.classList.add('btn-cyan');
         }, 3000);
@@ -1214,7 +1313,7 @@ export class ShooterGame {
         this.confirmQuitActive = false;
         
         // Revert styles immediately so they are reset for next pause
-        pauseMenuBtn.textContent = 'MAIN MENU';
+        pauseMenuBtn.textContent = 'OYUN MENÜSÜ';
         pauseMenuBtn.classList.remove('btn-magenta');
         pauseMenuBtn.classList.add('btn-cyan');
         
@@ -1334,13 +1433,14 @@ export class ShooterGame {
   }
 
   resize() {
+    if (!this.canvas || !this.canvas.parentElement) return;
     const rect = this.canvas.parentElement.getBoundingClientRect();
-    const dpr = window.devicePixelRatio || 1;
+    const dpr = getAdaptiveDevicePixelRatio(this.isLowSpecDevice);
 
-
-    // Apply scale based on DPR for retina screens
-    this.canvas.width = rect.width * dpr;
-    this.canvas.height = rect.height * dpr;
+    // Apply scale based on adaptive DPR (max 1.5 mobile, 1.0 on low-spec)
+    this.canvas.width = Math.max(1, Math.floor(rect.width * dpr));
+    this.canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+    this.ctx.setTransform(1, 0, 0, 1, 0, 0);
     this.ctx.scale(dpr, dpr);
 
     // Determine logical resolution scales relative to parent container sizing
@@ -1523,7 +1623,8 @@ export class ShooterGame {
   }
 
   spawnExplosion(x, y, color) {
-    for (let i = 0; i < 18; i++) {
+    const count = scaleParticleCount(18, this.isLowSpecDevice);
+    for (let i = 0; i < count; i++) {
       const particle = this.particlePool.acquire(x, y, color);
       this.activeParticles.push(particle);
     }
@@ -1586,6 +1687,9 @@ export class ShooterGame {
   gameLoop(currentTime) {
     // Handle RequestAnimationFrame cycling
     this.loopId = requestAnimationFrame((time) => this.gameLoop(time));
+    if (this.fpsMonitor) {
+      this.fpsMonitor.tick(currentTime);
+    }
 
     if (!this.lastTime) this.lastTime = Math.max(0, currentTime - 16.6); // guard against large time steps on start
     let dt = (currentTime - this.lastTime) / 1000;
@@ -1640,11 +1744,12 @@ export class ShooterGame {
     // Shake the camera
     this.screenShake = 12;
 
-    // Spawn 80 confetti particles radiating from the center of the virtual canvas
+    // Spawn confetti particles (scaled down by 70% on Low-Spec devices)
     const colors = ['#00f0ff', '#ff0055', '#ffea00', '#39ff14'];
     const cx = this.virtualWidth / 2;
     const cy = this.virtualHeight / 2 - 50;
-    for (let i = 0; i < 80; i++) {
+    const confettiCount = scaleParticleCount(80, this.isLowSpecDevice);
+    for (let i = 0; i < confettiCount; i++) {
       const randColor = colors[Math.floor(Math.random() * colors.length)];
       const particle = this.particlePool.acquire(cx, cy, randColor, true); // true = isConfetti
       this.activeParticles.push(particle);
@@ -2125,8 +2230,8 @@ export class ShooterGame {
             this.hitPauseUntil = performance.now() + 50; 
           } else {
             this.soundManager.playExplosion();
-            if (meteor.word && meteor.word.audioUrl) {
-              this.soundManager.playWordAudio(meteor.word.audioUrl);
+            if (meteor.word) {
+              this.soundManager.speakWord(meteor.word);
             }
 
             if (meteor.isBoss) {
@@ -2339,9 +2444,12 @@ export class ShooterGame {
       this.ctx.shadowColor = '#39ff14';
       this.ctx.shadowBlur = 12 * scale;
       
-      // Bounding dimensions of the card
-      const W = 340;
-      const H = 90;
+      // Bounding dimensions of the card (+15% height & padding when rendering RTL/Arabic script)
+      const isRtlFlash =
+        containsRtlScript(this.flashMessage.turkish) ||
+        containsRtlScript(this.flashMessage.english);
+      const W = isRtlFlash ? Math.round(340 * 1.15) : 340;
+      const H = isRtlFlash ? Math.round(90 * 1.15) : 90;
       
       // Tapered trapezoid dimensions for Star Wars 3D depth tilt
       const topW = W * scale * 0.78;
@@ -2358,7 +2466,7 @@ export class ShooterGame {
       this.ctx.closePath();
       this.ctx.fill();
 
-      // Render neon-green Turkish translation text with scale
+      // Render neon-green translation text with scale
       this.ctx.fillStyle = '#39ff14';
       this.ctx.shadowColor = '#39ff14';
       this.ctx.shadowBlur = 14 * scale;
@@ -2366,15 +2474,21 @@ export class ShooterGame {
       this.ctx.font = `900 ${turkishSize}px "Orbitron", sans-serif`;
       this.ctx.textAlign = 'center';
       this.ctx.textBaseline = 'middle';
-      this.ctx.fillText(this.flashMessage.turkish, cx, cy - 8 * scale);
+      drawLocalizedText(this.ctx, this.flashMessage.turkish, cx, cy - 8 * scale);
 
-      // Render matching English reference below with scale
+      // Render matching target reference below with scale
       this.ctx.fillStyle = '#ffffff';
       this.ctx.shadowBlur = 0;
       const englishSize = Math.max(10, Math.round(13 * scale));
       this.ctx.font = `500 ${englishSize}px "Space Grotesk", sans-serif`;
-      this.ctx.letterSpacing = `${2 * scale}px`;
-      this.ctx.fillText(`MATCHED: ${this.flashMessage.english}`, cx, cy + 22 * scale);
+      const isRtlEnglish = containsRtlScript(this.flashMessage.english);
+      this.ctx.letterSpacing = isRtlEnglish ? '0px' : `${2 * scale}px`;
+      drawLocalizedText(
+        this.ctx,
+        isRtlEnglish ? `✓ ${this.flashMessage.english}` : `MATCHED: ${this.flashMessage.english}`,
+        cx,
+        cy + 22 * scale
+      );
 
       this.ctx.restore();
     }
@@ -2496,7 +2610,7 @@ export class ShooterGame {
         this.confirmQuitActive = false;
         const pauseMenuBtn = this.getElementById('pause-menu-btn');
         if (pauseMenuBtn) {
-          pauseMenuBtn.textContent = 'MAIN MENU';
+          pauseMenuBtn.textContent = 'OYUN MENÜSÜ';
           pauseMenuBtn.classList.remove('btn-magenta');
           pauseMenuBtn.classList.add('btn-cyan');
         }

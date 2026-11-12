@@ -4,699 +4,899 @@
     "type": "Sebep-Sonuç",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_accordingly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_accordingly.mp3",
+    "meaning": "Buna göre, dolayısıyla (Sebep-Sonuç)",
+    "turkish": "Buna göre, dolayısıyla (Sebep-Sonuç)"
   },
   {
     "word": "All in all",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_all_in_all.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_all_in_all.mp3",
+    "meaning": "Sonuç olarak, genel olarak (Paralellik)",
+    "turkish": "Sonuç olarak, genel olarak (Paralellik)"
   },
   {
     "word": "Basically",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_basically.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_basically.mp3",
+    "meaning": "Temelde, esasen (Paralellik)",
+    "turkish": "Temelde, esasen (Paralellik)"
   },
   {
     "word": "Briefly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_briefly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_briefly.mp3",
+    "meaning": "Kısaca, özetle (Paralellik)",
+    "turkish": "Kısaca, özetle (Paralellik)"
   },
   {
     "word": "By contrast",
     "type": "Zıtlık",
     "structure": "Zarf",
     "flow": "Red",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_by_contrast.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_by_contrast.mp3",
+    "meaning": "Buna karşılık, aksine (Zıtlık)",
+    "turkish": "Buna karşılık, aksine (Zıtlık)"
   },
   {
     "word": "By the same token",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_by_the_same_token.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_by_the_same_token.mp3",
+    "meaning": "Aynı sebeple, benzer şekilde (Paralellik)",
+    "turkish": "Aynı sebeple, benzer şekilde (Paralellik)"
   },
   {
     "word": "Concomitantly",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_concomitantly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_concomitantly.mp3",
+    "meaning": "Eş zamanlı olarak, beraberinde (Zaman)",
+    "turkish": "Eş zamanlı olarak, beraberinde (Zaman)"
   },
   {
     "word": "Currently",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_currently.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_currently.mp3",
+    "meaning": "Şu anda, halihazırda (Zaman)",
+    "turkish": "Şu anda, halihazırda (Zaman)"
   },
   {
     "word": "Definitely",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_definitely.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_definitely.mp3",
+    "meaning": "Kesinlikle, şüphesiz (Paralellik)",
+    "turkish": "Kesinlikle, şüphesiz (Paralellik)"
   },
   {
     "word": "Earlier",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_earlier.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_earlier.mp3",
+    "meaning": "Daha önce, önceden (Zaman)",
+    "turkish": "Daha önce, önceden (Zaman)"
   },
   {
     "word": "Firstly",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_firstly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_firstly.mp3",
+    "meaning": "İlk olarak, öncelikle (Zaman)",
+    "turkish": "İlk olarak, öncelikle (Zaman)"
   },
   {
     "word": "For one thing",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_for_one_thing.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_for_one_thing.mp3",
+    "meaning": "Her şeyden önce, birincisi (Paralellik)",
+    "turkish": "Her şeyden önce, birincisi (Paralellik)"
   },
   {
     "word": "For the most part",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_for_the_most_part.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_for_the_most_part.mp3",
+    "meaning": "Çoğunlukla, büyük ölçüde (Paralellik)",
+    "turkish": "Çoğunlukla, büyük ölçüde (Paralellik)"
   },
   {
     "word": "Frankly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_frankly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_frankly.mp3",
+    "meaning": "Açıkçası, doğrusu (Paralellik)",
+    "turkish": "Açıkçası, doğrusu (Paralellik)"
   },
   {
     "word": "Further",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_further.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_further.mp3",
+    "meaning": "Ayrıca, daha ileri (Paralellik)",
+    "turkish": "Ayrıca, daha ileri (Paralellik)"
   },
   {
     "word": "Generally",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_generally.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_generally.mp3",
+    "meaning": "Genellikle, genel olarak (Paralellik)",
+    "turkish": "Genellikle, genel olarak (Paralellik)"
   },
   {
     "word": "Hopefully",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_hopefully.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_hopefully.mp3",
+    "meaning": "Umarım, inşallah (Paralellik)",
+    "turkish": "Umarım, inşallah (Paralellik)"
   },
   {
     "word": "Ideally",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_ideally.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_ideally.mp3",
+    "meaning": "İdeal olarak (Paralellik)",
+    "turkish": "İdeal olarak (Paralellik)"
   },
   {
     "word": "In brief",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_brief.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_brief.mp3",
+    "meaning": "Kısaca, özetle (Paralellik)",
+    "turkish": "Kısaca, özetle (Paralellik)"
   },
   {
     "word": "In conclusion",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_conclusion.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_conclusion.mp3",
+    "meaning": "Sonuç olarak (Paralellik)",
+    "turkish": "Sonuç olarak (Paralellik)"
   },
   {
     "word": "In general",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_general.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_general.mp3",
+    "meaning": "Genel olarak, genelde (Paralellik)",
+    "turkish": "Genel olarak, genelde (Paralellik)"
   },
   {
     "word": "In summary",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_summary.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_summary.mp3",
+    "meaning": "Özetle, özet olarak (Paralellik)",
+    "turkish": "Özetle, özet olarak (Paralellik)"
   },
   {
     "word": "Interestingly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_interestingly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_interestingly.mp3",
+    "meaning": "İlginç bir şekilde (Paralellik)",
+    "turkish": "İlginç bir şekilde (Paralellik)"
   },
   {
     "word": "Lastly",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_lastly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_lastly.mp3",
+    "meaning": "Son olarak (Zaman)",
+    "turkish": "Son olarak (Zaman)"
   },
   {
     "word": "Later",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_later.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_later.mp3",
+    "meaning": "Daha sonra (Zaman)",
+    "turkish": "Daha sonra (Zaman)"
   },
   {
     "word": "Mainly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_mainly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_mainly.mp3",
+    "meaning": "Başlıca, çoğunlukla (Paralellik)",
+    "turkish": "Başlıca, çoğunlukla (Paralellik)"
   },
   {
     "word": "More specifically",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_more_specifically.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_more_specifically.mp3",
+    "meaning": "Daha özel olarak, daha açıkçası (Paralellik)",
+    "turkish": "Daha özel olarak, daha açıkçası (Paralellik)"
   },
   {
     "word": "Naturally",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_naturally.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_naturally.mp3",
+    "meaning": "Doğal olarak, elbette (Paralellik)",
+    "turkish": "Doğal olarak, elbette (Paralellik)"
   },
   {
     "word": "Necessarily",
     "type": "Sebep-Sonuç",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_necessarily.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_necessarily.mp3",
+    "meaning": "Zorunlu olarak, ille de (Sebep-Sonuç)",
+    "turkish": "Zorunlu olarak, ille de (Sebep-Sonuç)"
   },
   {
     "word": "Occasionally",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_occasionally.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_occasionally.mp3",
+    "meaning": "Ara sıra, bazen (Zaman)",
+    "turkish": "Ara sıra, bazen (Zaman)"
   },
   {
     "word": "Perhaps",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_perhaps.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_perhaps.mp3",
+    "meaning": "Belki, muhtemelen (Paralellik)",
+    "turkish": "Belki, muhtemelen (Paralellik)"
   },
   {
     "word": "Potentially",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_potentially.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_potentially.mp3",
+    "meaning": "Potansiyel olarak, olası bir şekilde (Paralellik)",
+    "turkish": "Potansiyel olarak, olası bir şekilde (Paralellik)"
   },
   {
     "word": "Presumably",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_presumably.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_presumably.mp3",
+    "meaning": "Muhtemelen, tahminen (Paralellik)",
+    "turkish": "Muhtemelen, tahminen (Paralellik)"
   },
   {
     "word": "Primarily",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_primarily.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_primarily.mp3",
+    "meaning": "Öncelikle, başlıca (Paralellik)",
+    "turkish": "Öncelikle, başlıca (Paralellik)"
   },
   {
     "word": "Principally",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_principally.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_principally.mp3",
+    "meaning": "Başlıca, esas olarak (Paralellik)",
+    "turkish": "Başlıca, esas olarak (Paralellik)"
   },
   {
     "word": "Purportedly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_purportedly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_purportedly.mp3",
+    "meaning": "İddiaya göre, sözde (Paralellik)",
+    "turkish": "İddiaya göre, sözde (Paralellik)"
   },
   {
     "word": "Recently",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_recently.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_recently.mp3",
+    "meaning": "Son zamanlarda, geçenlerde (Zaman)",
+    "turkish": "Son zamanlarda, geçenlerde (Zaman)"
   },
   {
     "word": "Relatively",
     "type": "Zıtlık",
     "structure": "Zarf",
     "flow": "Red",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_relatively.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_relatively.mp3",
+    "meaning": "Nispeten, görece (Zıtlık)",
+    "turkish": "Nispeten, görece (Zıtlık)"
   },
   {
     "word": "Respectively",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_162_respectively.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Baglaclar/audio_connectors/conn_162_respectively.mp3",
+    "meaning": "Sırasıyla (Paralellik)",
+    "turkish": "Sırasıyla (Paralellik)"
   },
   {
     "word": "Roughly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_thoroughly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_thoroughly.mp3",
+    "meaning": "Kabaca, yaklaşık olarak (Paralellik)",
+    "turkish": "Kabaca, yaklaşık olarak (Paralellik)"
   },
   {
     "word": "Seemingly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_seemingly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_seemingly.mp3",
+    "meaning": "Görünüşe göre, zahiren (Paralellik)",
+    "turkish": "Görünüşe göre, zahiren (Paralellik)"
   },
   {
     "word": "Seldom",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_seldom.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_seldom.mp3",
+    "meaning": "Nadiren, pek seyrek (Zaman)",
+    "turkish": "Nadiren, pek seyrek (Zaman)"
   },
   {
     "word": "Significantly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_significantly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_significantly.mp3",
+    "meaning": "Önemli ölçüde, belirgin şekilde (Paralellik)",
+    "turkish": "Önemli ölçüde, belirgin şekilde (Paralellik)"
   },
   {
     "word": "Simultaneously",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_simultaneously.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_simultaneously.mp3",
+    "meaning": "Eş zamanlı olarak, aynı anda (Zaman)",
+    "turkish": "Eş zamanlı olarak, aynı anda (Zaman)"
   },
   {
     "word": "Specifically",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_specifically.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_specifically.mp3",
+    "meaning": "Özellikle, spesifik olarak (Paralellik)",
+    "turkish": "Özellikle, spesifik olarak (Paralellik)"
   },
   {
     "word": "Strictly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_strictly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_strictly.mp3",
+    "meaning": "Kesinlikle, sıkı bir şekilde (Paralellik)",
+    "turkish": "Kesinlikle, sıkı bir şekilde (Paralellik)"
   },
   {
     "word": "Substantially",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_substantially.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_substantially.mp3",
+    "meaning": "Önemli ölçüde, büyük oranda (Paralellik)",
+    "turkish": "Önemli ölçüde, büyük oranda (Paralellik)"
   },
   {
     "word": "Sufficiently",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_sufficiently.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_sufficiently.mp3",
+    "meaning": "Yeterince, yeterli derecede (Paralellik)",
+    "turkish": "Yeterince, yeterli derecede (Paralellik)"
   },
   {
     "word": "Supposedly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_supposedly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_supposedly.mp3",
+    "meaning": "Sözde, güya, sanıldığına göre (Paralellik)",
+    "turkish": "Sözde, güya, sanıldığına göre (Paralellik)"
   },
   {
     "word": "Surely",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_surely.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_surely.mp3",
+    "meaning": "Elbette, şüphesiz (Paralellik)",
+    "turkish": "Elbette, şüphesiz (Paralellik)"
   },
   {
     "word": "Technically",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_technically.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_technically.mp3",
+    "meaning": "Teknik olarak (Paralellik)",
+    "turkish": "Teknik olarak (Paralellik)"
   },
   {
     "word": "Temporarily",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_temporarily.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_temporarily.mp3",
+    "meaning": "Geçici olarak (Zaman)",
+    "turkish": "Geçici olarak (Zaman)"
   },
   {
     "word": "Theoretically",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_theoretically.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_theoretically.mp3",
+    "meaning": "Teorik olarak, kuramsal açıdan (Paralellik)",
+    "turkish": "Teorik olarak, kuramsal açıdan (Paralellik)"
   },
   {
     "word": "Thereafter",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_thereafter.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_thereafter.mp3",
+    "meaning": "Ondan sonra, akabinde (Zaman)",
+    "turkish": "Ondan sonra, akabinde (Zaman)"
   },
   {
     "word": "Thereby",
     "type": "Sebep-Sonuç",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_thereby.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_thereby.mp3",
+    "meaning": "Böylelikle, bu sayede (Sebep-Sonuç)",
+    "turkish": "Böylelikle, bu sayede (Sebep-Sonuç)"
   },
   {
     "word": "Thoroughly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_thoroughly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_thoroughly.mp3",
+    "meaning": "Tamamen, tepeden tırnağa, iyice (Paralellik)",
+    "turkish": "Tamamen, tepeden tırnağa, iyice (Paralellik)"
   },
   {
     "word": "To some extent",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_to_some_extent.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_to_some_extent.mp3",
+    "meaning": "Bir dereceye kadar, kısmen (Paralellik)",
+    "turkish": "Bir dereceye kadar, kısmen (Paralellik)"
   },
   {
     "word": "Traditionally",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_traditionally.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_traditionally.mp3",
+    "meaning": "Geleneksel olarak (Zaman)",
+    "turkish": "Geleneksel olarak (Zaman)"
   },
   {
     "word": "Typically",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_typically.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_typically.mp3",
+    "meaning": "Tipik olarak, genellikle (Paralellik)",
+    "turkish": "Tipik olarak, genellikle (Paralellik)"
   },
   {
     "word": "Undoubtedly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_undoubtedly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_undoubtedly.mp3",
+    "meaning": "Şüphesiz, kuşkusuz (Paralellik)",
+    "turkish": "Şüphesiz, kuşkusuz (Paralellik)"
   },
   {
     "word": "Unfortunately",
     "type": "Zıtlık",
     "structure": "Zarf",
     "flow": "Red",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_unfortunately.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_unfortunately.mp3",
+    "meaning": "Maalesef, ne yazık ki (Zıtlık)",
+    "turkish": "Maalesef, ne yazık ki (Zıtlık)"
   },
   {
     "word": "Uniquely",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_uniquely.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_uniquely.mp3",
+    "meaning": "Benzersiz bir şekilde (Paralellik)",
+    "turkish": "Benzersiz bir şekilde (Paralellik)"
   },
   {
     "word": "Universally",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_universally.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_universally.mp3",
+    "meaning": "Evrensel olarak, herkesçe (Paralellik)",
+    "turkish": "Evrensel olarak, herkesçe (Paralellik)"
   },
   {
     "word": "Usually",
     "type": "Zaman",
     "structure": "Zarf",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_usually.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_usually.mp3",
+    "meaning": "Genellikle, çoğunlukla (Zaman)",
+    "turkish": "Genellikle, çoğunlukla (Zaman)"
   },
   {
     "word": "Virtually",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_virtually.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_virtually.mp3",
+    "meaning": "Neredeyse, hemen hemen (Paralellik)",
+    "turkish": "Neredeyse, hemen hemen (Paralellik)"
   },
   {
     "word": "Visibly",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_visibly.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_visibly.mp3",
+    "meaning": "Gözle görülür biçimde (Paralellik)",
+    "turkish": "Gözle görülür biçimde (Paralellik)"
   },
   {
     "word": "Widely",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_widely.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_widely.mp3",
+    "meaning": "Yaygın olarak, geniş çapta (Paralellik)",
+    "turkish": "Yaygın olarak, geniş çapta (Paralellik)"
   },
   {
     "word": "Wisely",
     "type": "Paralellik",
     "structure": "Zarf",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_wisely.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_wisely.mp3",
+    "meaning": "Akıllıca, bilgece (Paralellik)",
+    "turkish": "Akıllıca, bilgece (Paralellik)"
   },
   {
     "word": "With respect to",
     "type": "Paralellik",
     "structure": "İsim alır",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_with_respect_to.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_with_respect_to.mp3",
+    "meaning": "İle ilgili olarak, açısından (Paralellik)",
+    "turkish": "İle ilgili olarak, açısından (Paralellik)"
   },
   {
     "word": "Within",
     "type": "Zaman/Yer",
     "structure": "İsim alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_within.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_within.mp3",
+    "meaning": "İçinde, dahilinde (Zaman/Yer)",
+    "turkish": "İçinde, dahilinde (Zaman/Yer)"
   },
   {
     "word": "Without",
     "type": "Koşul",
     "structure": "İsim alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_without.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_without.mp3",
+    "meaning": "Olmadan, -sız / -siz (Koşul)",
+    "turkish": "Olmadan, -sız / -siz (Koşul)"
   },
   {
     "word": "As well as",
     "type": "Paralellik",
     "structure": "Cümle/İsim",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_well_as.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_well_as.mp3",
+    "meaning": "Yanı sıra, hem de (Paralellik)",
+    "turkish": "Yanı sıra, hem de (Paralellik)"
   },
   {
     "word": "Both ... and",
     "type": "Paralellik",
     "structure": "İsim alır",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_both_..._and.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_both_..._and.mp3",
+    "meaning": "Hem ... hem de (Paralellik)",
+    "turkish": "Hem ... hem de (Paralellik)"
   },
   {
     "word": "Not only ... but also",
     "type": "Paralellik",
     "structure": "Cümle/İsim",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_not_only_..._but_also.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_not_only_..._but_also.mp3",
+    "meaning": "Sadece ... değil, aynı zamanda (Paralellik)",
+    "turkish": "Sadece ... değil, aynı zamanda (Paralellik)"
   },
   {
     "word": "Either ... or",
     "type": "Koşul",
     "structure": "İsim alır",
     "flow": "Yellow",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_either_..._or.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_either_..._or.mp3",
+    "meaning": "Ya ... ya da (Koşul)",
+    "turkish": "Ya ... ya da (Koşul)"
   },
   {
     "word": "As for",
     "type": "Paralellik",
     "structure": "İsim alır",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_for.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_for.mp3",
+    "meaning": "-e gelince (Paralellik)",
+    "turkish": "-e gelince (Paralellik)"
   },
   {
     "word": "As to",
     "type": "Paralellik",
     "structure": "İsim alır",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_so_as_to.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_so_as_to.mp3",
+    "meaning": "-e gelince, hakkında (Paralellik)",
+    "turkish": "-e gelince, hakkında (Paralellik)"
   },
   {
     "word": "In terms of",
     "type": "Paralellik",
     "structure": "İsim alır",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_terms_of.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_terms_of.mp3",
+    "meaning": "Açısından, bakımından (Paralellik)",
+    "turkish": "Açısından, bakımından (Paralellik)"
   },
   {
     "word": "With regard to",
     "type": "Paralellik",
     "structure": "İsim alır",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_with_regard_to.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_with_regard_to.mp3",
+    "meaning": "İle ilgili olarak, hususunda (Paralellik)",
+    "turkish": "İle ilgili olarak, hususunda (Paralellik)"
   },
   {
     "word": "In respect of",
     "type": "Paralellik",
     "structure": "İsim alır",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_respect_of.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_respect_of.mp3",
+    "meaning": "Açısından, ile ilgili olarak (Paralellik)",
+    "turkish": "Açısından, ile ilgili olarak (Paralellik)"
   },
   {
     "word": "By means of",
     "type": "Sebep-Sonuç",
     "structure": "İsim alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_by_means_of.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_by_means_of.mp3",
+    "meaning": "Aracılığıyla, vasıtasıyla (Sebep-Sonuç)",
+    "turkish": "Aracılığıyla, vasıtasıyla (Sebep-Sonuç)"
   },
   {
     "word": "In line with",
     "type": "Paralellik",
     "structure": "İsim alır",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_line_with.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_line_with.mp3",
+    "meaning": "Doğrultusunda, uygun olarak (Paralellik)",
+    "turkish": "Doğrultusunda, uygun olarak (Paralellik)"
   },
   {
     "word": "So as to",
     "type": "Amaç",
     "structure": "Fiil alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_so_as_to.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_so_as_to.mp3",
+    "meaning": "-mek için, amacıyla (Amaç)",
+    "turkish": "-mek için, amacıyla (Amaç)"
   },
   {
     "word": "In view of",
     "type": "Sebep-Sonuç",
     "structure": "İsim alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_view_of.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_view_of.mp3",
+    "meaning": "Göz önüne alındığında, -den dolayı (Sebep-Sonuç)",
+    "turkish": "Göz önüne alındığında, -den dolayı (Sebep-Sonuç)"
   },
   {
     "word": "Owing to",
     "type": "Sebep-Sonuç",
     "structure": "İsim alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_owing_to.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_owing_to.mp3",
+    "meaning": "-den dolayı, nedeniyle (Sebep-Sonuç)",
+    "turkish": "-den dolayı, nedeniyle (Sebep-Sonuç)"
   },
   {
     "word": "As regards",
     "type": "Paralellik",
     "structure": "İsim alır",
     "flow": "Green",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_regards.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_regards.mp3",
+    "meaning": "İle ilgili olarak, hususunda (Paralellik)",
+    "turkish": "İle ilgili olarak, hususunda (Paralellik)"
   },
   {
     "word": "In light of",
     "type": "Sebep-Sonuç",
     "structure": "İsim alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_light_of.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_in_light_of.mp3",
+    "meaning": "Işığında, göz önüne alındığında (Sebep-Sonuç)",
+    "turkish": "Işığında, göz önüne alındığında (Sebep-Sonuç)"
   },
   {
     "word": "So that",
     "type": "Amaç",
     "structure": "Cümle alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_so_that.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_so_that.mp3",
+    "meaning": "-sın diye, böylece (Amaç)",
+    "turkish": "-sın diye, böylece (Amaç)"
   },
   {
     "word": "Lest",
     "type": "Amaç",
     "structure": "Cümle alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_lest.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_lest.mp3",
+    "meaning": "... olmasın diye, korkusuyla (Amaç)",
+    "turkish": "... olmasın diye, korkusuyla (Amaç)"
   },
   {
     "word": "As soon as",
     "type": "Zaman",
     "structure": "Cümle alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_soon_as.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_as_soon_as.mp3",
+    "meaning": "-ır -maz, olur olmaz (Zaman)",
+    "turkish": "-ır -maz, olur olmaz (Zaman)"
   },
   {
     "word": "Even if",
     "type": "Zıtlık",
     "structure": "Cümle alır",
     "flow": "Red",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_even_if.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_even_if.mp3",
+    "meaning": "... olsa bile (Zıtlık)",
+    "turkish": "... olsa bile (Zıtlık)"
   },
   {
     "word": "Provided that",
     "type": "Koşul",
     "structure": "Cümle alır",
     "flow": "Yellow",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_provided_that.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_provided_that.mp3",
+    "meaning": "... şartıyla, koşuluyla (Koşul)",
+    "turkish": "... şartıyla, koşuluyla (Koşul)"
   },
   {
     "word": "Insofar as",
     "type": "Sebep-Sonuç",
     "structure": "Cümle alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_insofar_as.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_insofar_as.mp3",
+    "meaning": "-dığı ölçüde, kadarıyla (Sebep-Sonuç)",
+    "turkish": "-dığı ölçüde, kadarıyla (Sebep-Sonuç)"
   },
   {
     "word": "Notwithstanding",
     "type": "Zıtlık",
     "structure": "İsim alır",
     "flow": "Red",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_notwithstanding.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_notwithstanding.mp3",
+    "meaning": "-e rağmen, bununla birlikte (Zıtlık)",
+    "turkish": "-e rağmen, bununla birlikte (Zıtlık)"
   },
   {
     "word": "Whether or not",
     "type": "Koşul",
     "structure": "Cümle alır",
     "flow": "Yellow",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_whether_or_not.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_whether_or_not.mp3",
+    "meaning": "Olsa da olmasa da, olup olmadığı (Koşul)",
+    "turkish": "Olsa da olmasa da, olup olmadığı (Koşul)"
   },
   {
     "word": "Provided",
     "type": "Koşul",
     "structure": "Cümle alır",
     "flow": "Yellow",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_provided.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_provided.mp3",
+    "meaning": "... şartıyla, koşuluyla (Koşul)",
+    "turkish": "... şartıyla, koşuluyla (Koşul)"
   },
   {
     "word": "Supposing that",
     "type": "Koşul",
     "structure": "Cümle alır",
     "flow": "Yellow",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_supposing_that.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_supposing_that.mp3",
+    "meaning": "Farz edelim ki, tut ki (Koşul)",
+    "turkish": "Farz edelim ki, tut ki (Koşul)"
   },
   {
     "word": "Inasmuch as",
     "type": "Sebep-Sonuç",
     "structure": "Cümle alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_inasmuch_as.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_inasmuch_as.mp3",
+    "meaning": "-dığı için, mademki (Sebep-Sonuç)",
+    "turkish": "-dığı için, mademki (Sebep-Sonuç)"
   },
   {
     "word": "As",
     "type": "Sebep-Sonuç",
     "structure": "Cümle alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Collocations/audio_connectors/col_228_link_ideas.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/Collocations/audio_connectors/col_228_link_ideas.mp3",
+    "meaning": "-dığı için, -iken, gibi (Sebep-Sonuç)",
+    "turkish": "-dığı için, -iken, gibi (Sebep-Sonuç)"
   },
   {
     "word": "Since",
     "type": "Sebep-Sonuç",
     "structure": "Cümle alır",
     "flow": "Stop",
-    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_since.mp3"
+    "audioUrl": "/data/Tr_Eng_Sinav_Ozel/baglaclar_ozel/audio_connectors/undefined_since.mp3",
+    "meaning": "-dığı için, -den beri (Sebep-Sonuç)",
+    "turkish": "-dığı için, -den beri (Sebep-Sonuç)"
   }
 ]

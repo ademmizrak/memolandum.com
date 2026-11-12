@@ -1,0 +1,76 @@
+/* OrbitLex Cyberpunk Neon Arcade Theme */
+.orbit-lex {
+  --color-bg: #070b14;
+  --color-surface: #0f172a;
+  --color-surface-2: #1e293b;
+  --color-fg: #f1f5f9;
+  --color-muted: #94a3b8;
+  --color-subtle: #64748b;
+  --color-border: rgba(34, 211, 238, 0.16);
+  --color-border-strong: rgba(34, 211, 238, 0.35);
+  --color-accent: #06b6d4;
+  --color-accent-fg: #020617;
+  --color-core: #38bdf8;
+  --color-danger: #f43f5e;
+  --color-good: #10b981;
+  --color-neon-cyan: #22d3ee;
+  --color-neon-gold: #facc15;
+  --color-neon-rose: #f43f5e;
+  --color-neon-purple: #c084fc;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+.orbit-lex .bg-bg { background-color: var(--color-bg); }
+.orbit-lex .bg-surface { background-color: var(--color-surface); }
+.orbit-lex .bg-surface-2 { background-color: var(--color-surface-2); }
+.orbit-lex .bg-surface\/90 { background-color: rgba(15, 23, 42, 0.92); }
+.orbit-lex .bg-surface\/70 { background-color: rgba(15, 23, 42, 0.72); }
+.orbit-lex .bg-surface\/50 { background-color: rgba(15, 23, 42, 0.55); }
+.orbit-lex .bg-surface\/40 { background-color: rgba(15, 23, 42, 0.42); }
+.orbit-lex .bg-surface\/30 { background-color: rgba(15, 23, 42, 0.3); }
+.orbit-lex .text-fg { color: var(--color-fg); }
+.orbit-lex .text-muted { color: var(--color-muted); }
+.orbit-lex .text-subtle { color: var(--color-subtle); }
+.orbit-lex .border-border { border-color: var(--color-border); }
+.orbit-lex .border-border-strong { border-color: var(--color-border-strong); }
+.orbit-lex .border-border\/60 { border-color: rgba(34, 211, 238, 0.18); }
+.orbit-lex .border-border\/40 { border-color: rgba(34, 211, 238, 0.1); }
+.orbit-lex .bg-core\/35 { background-color: rgba(56, 189, 248, 0.35); }
+.orbit-lex .text-core { color: var(--color-core); }
+.orbit-lex .text-danger { color: var(--color-danger); }
+.orbit-lex .text-good { color: var(--color-good); }
+.orbit-lex .bg-good\/20 { background-color: rgba(16, 185, 129, 0.2); }
+.orbit-lex .bg-accent { background-color: var(--color-accent); }
+.orbit-lex .text-accent-fg { color: var(--color-accent-fg); }
+.orbit-lex .font-display { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+/* Neon Glows */
+.orbit-lex .glow-cyan {
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.3), inset 0 0 10px rgba(34, 211, 238, 0.1);
+}
+.orbit-lex .glow-gold {
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.3), inset 0 0 10px rgba(250, 204, 21, 0.1);
+}
+.orbit-lex .glow-rose {
+  box-shadow: 0 0 20px rgba(244, 63, 94, 0.3), inset 0 0 10px rgba(244, 63, 94, 0.1);
+}
+.orbit-lex .glow-emerald {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.3), inset 0 0 10px rgba(16, 185, 129, 0.1);
+}
+.orbit-lex .glow-purple {
+  box-shadow: 0 0 20px rgba(192, 132, 252, 0.3), inset 0 0 10px rgba(192, 132, 252, 0.1);
+}
+
+.orbit-lex .text-glow-cyan {
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.6);
+}
+.orbit-lex .text-glow-gold {
+  text-shadow: 0 0 10px rgba(250, 204, 21, 0.6);
+}
+.orbit-lex .text-glow-rose {
+  text-shadow: 0 0 10px rgba(244, 63, 94, 0.6);
+}
+.orbit-lex .text-glow-emerald {
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.6);
+}

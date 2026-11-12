@@ -3,9 +3,16 @@ import { ShooterGame } from './RetroShooterEngine';
 import { useLessonLoader } from '../../../hooks/useLessonLoader';
 import { useMemolandumStore } from '../../../store/useMemolandumStore';
 import { createSessionProgressTracker } from '../../../lib/progress/applySessionProgress';
-import { PauseScreen, GameOverScreen, VictoryScreen } from '../shared/GameOverlays';
+import { PauseScreen, GameOverScreen, VictoryScreen, TextlessOnboardingHint } from '../shared/GameOverlays';
 import { GameHeader } from '../shared/GameHeader';
+import SkeletonLoader from '../../SkeletonLoader';
 import { getLevelProgress } from '../../../lib/learning/studyContext';
+import { preloadAudioAssetsNonBlocking } from '../../../lib/contentCdn';
+import {
+  fireCanvasReadyAnalytics,
+  fireGuaranteedLevelEnd,
+  recordWordSolvedForFunnel,
+} from '../../../hooks/useAnalytics';
 
 export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isAudioEnabled, setIsAudioEnabled, isFxEnabled, setIsFxEnabled }) {
   const canvasRef = useRef(null);
@@ -89,17 +96,44 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
   }, []);
 
   const onWordLearned = useCallback((wordHtml) => {
-    setLearnedWords(prev => [...prev, wordHtml]);
-  }, []);
+    setLearnedWords(prev => {
+      const next = [...prev, wordHtml];
+      // Yavaş ağlarda sıradaki 2 kelimenin sesini arka planda (lazy prefetch) indir
+      preloadAudioAssetsNonBlocking(words, next.length);
+      return next;
+    });
+    const plainWord = String(wordHtml || '').replace(/<[^>]*>/g, '').trim();
+    recordWordSolvedForFunnel({
+      wordId: plainWord || `shooter_word_${Date.now()}`,
+      isCorrect: true,
+      gameSlug: 'shooter',
+      langPair: langId || '',
+      levelId: levelId || '',
+      onFinalWordSolved: () => {
+        useMemolandumStore.getState().markLevelCompleted?.();
+      },
+    });
+  }, [langId, levelId, words]);
 
   // When engine fires wordsLearnedThisRun, add them to the Vocabulary Vault
+  // and immediately fire guaranteed level_end before celebration / summary animations
   const onVictory = useCallback((learnedArr) => {
+    fireGuaranteedLevelEnd({
+      gameSlug: 'shooter',
+      score: Math.max(100, (learnedArr?.length || 3) * 100),
+      langPair: langId || '',
+      levelId: levelId || '',
+      triggerReason: 'shooter_on_victory',
+      onLevelCompletedCallback: () => {
+        useMemolandumStore.getState().markLevelCompleted?.();
+      },
+    });
     if (!learnedArr || learnedArr.length === 0) return;
     const { recordWordQuizResult } = useMemolandumStore.getState();
     learnedArr.forEach((w) => {
-      recordWordQuizResult(w, true, 8, { language: langId });
+      recordWordQuizResult(w, true, 8, { language: langId, gameId: 'shooter' });
     });
-  }, [langId]);
+  }, [langId, levelId]);
 
   // Engine Initialization
   useEffect(() => {
@@ -134,6 +168,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
     }
     
     engine.startGame();
+    fireCanvasReadyAnalytics('shooter', langId || '', levelId || '');
 
     // Resize observer
     const resizeObserver = new ResizeObserver((entries) => {
@@ -158,7 +193,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
         engineRef.current.cleanup(); // Stops requestAnimationFrame
       }
     };
-  }, [isLoading, words, onScoreChange, onShieldsChange, onLevelChange, onMasteredChange, onGemsChange, onCelebrationTextChange, onCountdownChange, onScreenChange, onWordLearned, onExit]);
+  }, [isLoading, words, onScoreChange, onShieldsChange, onLevelChange, onMasteredChange, onGemsChange, onCelebrationTextChange, onCountdownChange, onScreenChange, onWordLearned, onVictory, onExit]);
 
   // Handle Global State Sync when Game Ends (yalnızca senkronlanmamış delta)
   useEffect(() => {
@@ -168,8 +203,16 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
       const startGems = sessionStartGemsRef.current ?? currentGems;
       const g = Math.max(0, currentGems - startGems);
       progressTrackerRef.current.commit({ score: s, gems: g });
+
+      if (activeScreen === 'gameOver' && engineRef.current?.wordsLearnedThisRun?.length > 0) {
+        const { recordWordQuizResult } = useMemolandumStore.getState();
+        engineRef.current.wordsLearnedThisRun.forEach((w) => {
+          recordWordQuizResult(w, true, 8, { language: langId, gameId: 'shooter' });
+        });
+        engineRef.current.wordsLearnedThisRun = [];
+      }
     }
-  }, [activeScreen, uiState.score, uiState.gems]);
+  }, [activeScreen, uiState.score, uiState.gems, langId]);
 
   // UI Event Triggers mapped to Engine
   const togglePause = () => {
@@ -201,7 +244,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
   };
 
   if (isLoading) {
-    return <div className="flex items-center justify-center h-full w-full text-cyan-400">Loading System...</div>;
+    return <SkeletonLoader gameType="shooter" />;
   }
 
   return (
@@ -210,6 +253,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
       {/* Game Canvas */}
       <div className="absolute inset-0 w-full h-full" onPointerDown={() => engineRef.current?.soundManager.warmUp()}>
         <canvas ref={canvasRef} className="w-full h-full block" />
+        {activeScreen === 'playing' && <TextlessOnboardingHint positionClass="bottom-20 right-8" />}
       </div>
 
       {/* UI Layer */}
@@ -245,7 +289,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
             onRestart={handleRestart} 
             onMainMenu={() => {
               if (onExit) onExit();
-              else window.location.href = '/';
+              else window.location.href = '/games/';
             }}
             words={words}
             levelId={levelId}
@@ -272,7 +316,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
             onRestart={handleRestart}
             onMainMenu={() => {
               if (onExit) onExit();
-              else window.location.href = '/';
+              else window.location.href = '/games/';
             }}
             words={words}
             levelId={levelId}
@@ -289,7 +333,7 @@ export default function RetroShooter({ levelId, langId, onExit, onNextLevel, isA
             onNextLevel={() => onNextLevel ? onNextLevel() : handleRestart()}
             onMainMenu={() => {
               if (onExit) onExit();
-              else window.location.href = '/';
+              else window.location.href = '/games/';
             }}
             words={words}
             levelId={levelId}

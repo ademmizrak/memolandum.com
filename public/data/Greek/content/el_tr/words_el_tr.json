@@ -1508,7 +1508,7 @@
     "language_code": "el",
     "level_tag": "A1_Vocabulary",
     "original_script": "Μπορώ",
-    "romanized_script": "Bporo",
+    "romanized_script": "Boro",
     "meaning": "Ebilmek (-ebilmek)",
     "is_latin": false,
     "metadata": {
@@ -2085,7 +2085,7 @@
     "level_tag": "A1_Vocabulary",
     "original_script": "Μουσείο",
     "romanized_script": "Mousio",
-    "meaning": "Müzeye",
+    "meaning": "Müze",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -2451,7 +2451,7 @@
     "id": "gre_a1_154",
     "language_code": "el",
     "level_tag": "A1_Vocabulary",
-    "original_script": "Αρκέτα",
+    "original_script": "Αρκετά",
     "romanized_script": "Arketa",
     "meaning": "Yeterli / Oldukça",
     "is_latin": false,
@@ -2516,7 +2516,7 @@
     "language_code": "el",
     "level_tag": "A1_Vocabulary",
     "original_script": "Συνήθως",
-    "romanized_script": "Sinthos",
+    "romanized_script": "Sinithos",
     "meaning": "Genellikle",
     "is_latin": false,
     "metadata": {
@@ -3029,7 +3029,7 @@
     "level_tag": "A1_Vocabulary",
     "original_script": "Ψάχνω",
     "romanized_script": "Psahno",
-    "meaning": "Arasındaki (Bir şeyi aramak)",
+    "meaning": "Aramak (Bir şeyi aramak)",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -4819,8 +4819,8 @@
     "id": "gre_a1_302",
     "language_code": "el",
     "level_tag": "A1_Vocabulary",
-    "original_script": "Καλέ",
-    "romanized_script": "Kale",
+    "original_script": "Καλό",
+    "romanized_script": "Kalo",
     "meaning": "Güzel / İyi (Sıfat/Nötr)",
     "is_latin": false,
     "metadata": {
@@ -6421,7 +6421,7 @@
     "level_tag": "A2_Vocabulary",
     "original_script": "Προσπαθώ",
     "romanized_script": "Prospatho",
-    "meaning": "Denelemek / Çabalamak",
+    "meaning": "Denemek / Çabalamak",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -7972,7 +7972,7 @@
     "language_code": "el",
     "level_tag": "A2_Vocabulary",
     "original_script": "Αποχαιρετώ",
-    "romanized_script": "Apohahereto",
+    "romanized_script": "Apohereto",
     "meaning": "Veda etmek",
     "is_latin": false,
     "metadata": {
@@ -8068,7 +8068,7 @@
     "language_code": "el",
     "level_tag": "A2_Vocabulary",
     "original_script": "Ο επισκέπτης",
-    "romanized_script": "O viskeptis",
+    "romanized_script": "O episkeptis",
     "meaning": "Ziyaretçi / Misafir",
     "is_latin": false,
     "metadata": {
@@ -8820,7 +8820,7 @@
     "language_code": "el",
     "level_tag": "A2_Vocabulary",
     "original_script": "Η πολυκατοικία",
-    "romanized_script": "I topikatoikia",
+    "romanized_script": "I polikatoikia",
     "meaning": "Apartman binaları / Blok",
     "is_latin": false,
     "metadata": {
@@ -9139,7 +9139,7 @@
     "id": "gre_a2_172",
     "language_code": "el",
     "level_tag": "A2_Vocabulary",
-    "original_script": "Ξενbackground",
+    "original_script": "Ξεναγώ",
     "romanized_script": "Xenago",
     "meaning": "Rehberlik etmek / Gezdirmek",
     "is_latin": false,
@@ -9443,7 +9443,7 @@
     "id": "gre_a2_191",
     "language_code": "el",
     "level_tag": "A2_Vocabulary",
-    "original_script": "Θραπεύω",
+    "original_script": "Θεραπεύω",
     "romanized_script": "Therapevo",
     "meaning": "Tedavi etmek / İyileştirmek",
     "is_latin": false,
@@ -10309,7 +10309,7 @@
     "level_tag": "B1_Vocabulary",
     "original_script": "Η απόδειξη",
     "romanized_script": "I apodixi",
-    "meaning": "Kanıt / Delil (A2'de fiş anlamı da var)",
+    "meaning": "Makbuz / Dekont",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -10692,7 +10692,7 @@
     "language_code": "el",
     "level_tag": "B1_Vocabulary",
     "original_script": "Καταναλώνω",
-    "romanized_script": "Katalanono",
+    "romanized_script": "Katanalono",
     "meaning": "Tüketmek",
     "is_latin": false,
     "metadata": {
@@ -10788,7 +10788,7 @@
     "language_code": "el",
     "level_tag": "B1_Vocabulary",
     "original_script": "Η παραίτηση",
-    "romanized_script": "IHook paraitisi",
+    "romanized_script": "I paraitisi",
     "meaning": "İstifa",
     "is_latin": false,
     "metadata": {
@@ -10884,7 +10884,7 @@
     "language_code": "el",
     "level_tag": "B1_Vocabulary",
     "original_script": "Επαγγελματίας",
-    "romanized_script": "Epγγελμαtias",
+    "romanized_script": "Epangelmatias",
     "meaning": "Profesyonel / Meslek erbabı",
     "is_latin": false,
     "metadata": {
@@ -11205,7 +11205,7 @@
     "level_tag": "B1_Vocabulary",
     "original_script": "Η καταστροφή",
     "romanized_script": "I katastrofi",
-    "meaning": "Yıkım / Felaket / Mahvola",
+    "meaning": "Yıkım / Felaket / Mahvolma",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -12436,7 +12436,7 @@
     "language_code": "el",
     "level_tag": "B1_Vocabulary",
     "original_script": "Υπομονετικός",
-    "romanized_script": "Ipomondikos",
+    "romanized_script": "Ipomonetikos",
     "meaning": "Sabırlı",
     "is_latin": false,
     "metadata": {
@@ -12453,7 +12453,7 @@
     "level_tag": "B1_Vocabulary",
     "original_script": "Ανεκτικός",
     "romanized_script": "Anektikos",
-    "meaning": "Hoşgörülü / Müsamahakar (B1_1'e ek olarak toplumsal bağlam)",
+    "meaning": "Hoşgörülü / Toleranslı",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -12597,7 +12597,7 @@
     "level_tag": "B1_Vocabulary",
     "original_script": "Η παγκοσμιοποίηση",
     "romanized_script": "I pagkosmiopiisi",
-    "meaning": "Küreselleşme (Giriş düzeyi kavramı)",
+    "meaning": "Girişimcilik",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -13076,7 +13076,7 @@
     "language_code": "el",
     "level_tag": "B2_Vocabulary",
     "original_script": "Η διευκρίνιση",
-    "romanized_script": "I diekrinisi",
+    "romanized_script": "I diefkrinisi",
     "meaning": "Netleştirme / Açıklık getirme",
     "is_latin": false,
     "metadata": {
@@ -13284,7 +13284,7 @@
     "language_code": "el",
     "level_tag": "B2_Vocabulary",
     "original_script": "Διευκρινίζω",
-    "romanized_script": "Diekrinizo",
+    "romanized_script": "Diefkrinizo",
     "meaning": "Açıklığa kavuşturmak / Netleştirmek",
     "is_latin": false,
     "metadata": {
@@ -14021,7 +14021,7 @@
     "level_tag": "B2_Vocabulary",
     "original_script": "Η τήρηση",
     "romanized_script": "I tirisi",
-    "meaning": "Riyet etme / Gözetme",
+    "meaning": "Riayet etme / Gözetme",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -14068,7 +14068,7 @@
     "language_code": "el",
     "level_tag": "B2_Vocabulary",
     "original_script": "Η δικαιοσύνη",
-    "romanized_script": "I dikesini",
+    "romanized_script": "I dikeosini",
     "meaning": "Adalet",
     "is_latin": false,
     "metadata": {
@@ -15252,7 +15252,7 @@
     "language_code": "el",
     "level_tag": "B2_Vocabulary",
     "original_script": "Η ύφεση",
-    "romanized_script": "I ufesi",
+    "romanized_script": "I ifesi",
     "meaning": "Resesyon / Ekonomik durgunluk",
     "is_latin": false,
     "metadata": {
@@ -15269,7 +15269,7 @@
     "level_tag": "B2_Vocabulary",
     "original_script": "Η ανάπτυξη",
     "romanized_script": "I anaptixi",
-    "meaning": "Kalkınma / İlerleme (B1'e ek olarak makroekonomik büyüme)",
+    "meaning": "Büyüme / Kalkınma",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -16964,7 +16964,7 @@
     "language_code": "el",
     "level_tag": "C1_Vocabulary",
     "original_script": "Συμμορφώνομαι",
-    "romanized_script": "Simformonome",
+    "romanized_script": "Simmorfonome",
     "meaning": "Kurallara riayet etmek / Boyun eğmek / Uymak",
     "is_latin": false,
     "metadata": {
@@ -17092,7 +17092,7 @@
     "language_code": "el",
     "level_tag": "C1_Vocabulary",
     "original_script": "Εκμεταλλεύομαι",
-    "romanized_script": "Ekmetallveome",
+    "romanized_script": "Ekmetallevome",
     "meaning": "Değerlendirmek / Fırsata çevirmek / Sömürmek",
     "is_latin": false,
     "metadata": {
@@ -17124,7 +17124,7 @@
     "language_code": "el",
     "level_tag": "C1_Vocabulary",
     "original_script": "Η συμμόρφωση",
-    "romanized_script": "I simformosi",
+    "romanized_script": "I simmorfosi",
     "meaning": "Uyum sağlama / Kurallara itaat",
     "is_latin": false,
     "metadata": {
@@ -17763,8 +17763,8 @@
     "id": "gre_c1_111",
     "language_code": "el",
     "level_tag": "C1_Vocabulary",
-    "original_script": "Η φθινοπώριση / φθοροποίηση",
-    "romanized_script": "I fthinopiisi",
+    "original_script": "Η φθορά",
+    "romanized_script": "I fthora",
     "meaning": "Yozlaşma / Dejenerasyon / Bozulma",
     "is_latin": false,
     "metadata": {
@@ -17812,7 +17812,7 @@
     "language_code": "el",
     "level_tag": "C1_Vocabulary",
     "original_script": "Ανεπανόρθωτος",
-    "romanized_script": "Anepnorthotos",
+    "romanized_script": "Anepanorthotos",
     "meaning": "Telafi edilemez / Geri döndürülemez",
     "is_latin": false,
     "metadata": {
@@ -18725,7 +18725,7 @@
     "level_tag": "C1_Vocabulary",
     "original_script": "Η ανεκτικότητα",
     "romanized_script": "I anektikotita",
-    "meaning": "Müsamaha / Fikirsel tolerans (C1 üst düzey kullanımı)",
+    "meaning": "Refah / Esenlik / Gönenç",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -20229,7 +20229,7 @@
     "level_tag": "C2_Vocabulary",
     "original_script": "Υποδαυλίζω",
     "romanized_script": "Ypodavlizo",
-    "meaning": "Körüklemek / Fitne ateşini yakmak / Kışkırtıcılık yapmak (C1 üstü seviye)",
+    "meaning": "Sağduyu / Basiret / Aklıselim",
     "is_latin": false,
     "metadata": {
       "script_direction": "ltr"
@@ -20627,8 +20627,8 @@
     "id": "gre_c2_090",
     "language_code": "el",
     "level_tag": "C2_Vocabulary",
-    "original_script": "Ο βουρισμός",
-    "romanized_script": "O vourismos",
+    "original_script": "Ο βουλουνταρισμός",
+    "romanized_script": "O voulountarismos",
     "meaning": "Voluntarizm / İradenin her şeyin önünde olduğunu savunan akım",
     "is_latin": false,
     "metadata": {
@@ -20883,7 +20883,7 @@
     "id": "gre_c2_106",
     "language_code": "el",
     "level_tag": "C2_Vocabulary",
-    "original_script": "Σfετερίζομαι",
+    "original_script": "Σφετερίζομαι",
     "romanized_script": "Sfeterizome",
     "meaning": "Gasp etmek / Hak iddia edip üstüne konmak",
     "is_latin": false,
@@ -20931,7 +20931,7 @@
     "id": "gre_c2_109",
     "language_code": "el",
     "level_tag": "C2_Vocabulary",
-    "original_script": "Ο σfετερισμός",
+    "original_script": "Ο σφετερισμός",
     "romanized_script": "O sfeterismos",
     "meaning": "Gasp / Usulsüz mülk edinme",
     "is_latin": false,
@@ -20963,8 +20963,8 @@
     "id": "gre_c2_111",
     "language_code": "el",
     "level_tag": "C2_Vocabulary",
-    "original_script": "Η fθίση / fθοροποίηση",
-    "romanized_script": "I fthinopiisi",
+    "original_script": "Η φθίση / Η φθορά",
+    "romanized_script": "I fthisi / I fthora",
     "meaning": "Yozlaşma / Dejenerasyon / Bozulma",
     "is_latin": false,
     "metadata": {
@@ -21012,7 +21012,7 @@
     "language_code": "el",
     "level_tag": "C2_Vocabulary",
     "original_script": "Ανεπανόρθωτος",
-    "romanized_script": "Anepnorthotos",
+    "romanized_script": "Anepanorthotos",
     "meaning": "Telafi edilemez / Geri döndürülemez",
     "is_latin": false,
     "metadata": {

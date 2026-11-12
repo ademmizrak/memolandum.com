@@ -7,8 +7,16 @@ service cloud.firestore {
       
       // Nested stats collection for Unified Global Progress
       match /stats/global {
-        allow read: if true; // Public read for Leaderboard Collection Group queries
-        allow write: if request.auth != null && request.auth.uid == userId;
+        allow get: if true;
+        allow list: if request.query.limit != null && request.query.limit <= 50; // Denial-of-Wallet protection for Leaderboard Collection Group queries
+        allow create, update: if request.auth != null
+          && request.auth.uid == userId
+          && request.resource.data.keys().size() <= 24
+          && (!('total_xp' in request.resource.data) || (request.resource.data.total_xp is number && request.resource.data.total_xp >= 0 && request.resource.data.total_xp <= 50000000))
+          && (!('total_score' in request.resource.data) || (request.resource.data.total_score is number && request.resource.data.total_score >= 0 && request.resource.data.total_score <= 500000000))
+          && (!('displayName' in request.resource.data) || request.resource.data.displayName == null || (request.resource.data.displayName is string && request.resource.data.displayName.size() <= 80))
+          && (!('photoURL' in request.resource.data) || request.resource.data.photoURL == null || (request.resource.data.photoURL is string && request.resource.data.photoURL.size() <= 500 && (request.resource.data.photoURL.matches('^https://.*') || request.resource.data.photoURL.matches('^/.*'))));
+        allow delete: if request.auth != null && request.auth.uid == userId;
       }
 
       // Kelime Kasası — yalnızca hesabın sahibi; boyutu sınırlı tut
@@ -27,7 +35,9 @@ service cloud.firestore {
       // Telemetry Logs — 3.0 AI-Ready (Google for Startups data flywheel)
       match /telemetry/{logId} {
         allow read: if request.auth != null && request.auth.uid == userId;
-        allow create: if request.auth != null && request.auth.uid == userId;
+        allow create: if request.auth != null
+          && request.auth.uid == userId
+          && request.resource.data.keys().size() <= 25;
         allow update, delete: if false; // telemetry logs are append-only/immutable
       }
 
@@ -76,15 +86,31 @@ service cloud.firestore {
       }
     }
     match /usernames/{username} {
-      allow read: if true;
-      allow create: if request.auth != null && !exists(/databases/$(database)/documents/usernames/$(username));
+      allow get: if true;
+      allow list: if request.query.limit != null && request.query.limit <= 20;
+      allow create: if request.auth != null
+        && username.size() >= 3
+        && username.size() <= 40
+        && request.resource.data.uid == request.auth.uid
+        && !exists(/databases/$(database)/documents/usernames/$(username));
+      allow update: if request.auth != null
+        && resource.data.uid == request.auth.uid
+        && request.resource.data.uid == request.auth.uid;
       allow delete: if request.auth != null && request.auth.uid == resource.data.uid;
     }
     match /leaderboard/{userId} {
-      allow read: if true;
-      allow update: if request.auth != null && request.auth.uid == userId 
-                    && request.resource.data.high_score >= resource.data.high_score;
-      allow create: if request.auth != null && request.auth.uid == userId;
+      allow get: if true;
+      allow list: if request.query.limit != null && request.query.limit <= 50;
+      allow update: if request.auth != null
+        && request.auth.uid == userId
+        && request.resource.data.high_score is number
+        && request.resource.data.high_score >= resource.data.high_score
+        && request.resource.data.high_score <= 500000000;
+      allow create: if request.auth != null
+        && request.auth.uid == userId
+        && request.resource.data.high_score is number
+        && request.resource.data.high_score >= 0
+        && request.resource.data.high_score <= 500000000;
       // Hesap silme (Privacy / Play Store) — yalnızca kendi kaydı
       allow delete: if request.auth != null && request.auth.uid == userId;
     }
@@ -94,22 +120,112 @@ service cloud.firestore {
       allow read, write: if false;
     }
 
-    // Explicitly allow collection group query for 'stats'
+    // Explicitly allow collection group query for 'stats/global' with Denial-of-Wallet limit
     match /{path=**}/stats/{statId} {
-      allow read: if true;
+      allow get: if true;
+      allow list: if request.query.limit != null && request.query.limit <= 50;
     }
 
-    // Memolandum for Schools (Öğretmen, Sınıf ve B2B Lisans Kuralları)
+    // Memolandum for Schools — classrooms/{classCode}
+    // get: yalnız öğretmen (veya create collision için null). Üye tam doc okuyamaz —
+    // roster/skorlar getMyClassroom / joinClassroom CF ile kısıtlı döner.
+    // Skor yazımı: yalnız Admin (CF). İstemci öğrenci skor güncelleyemez.
+    // teacherNotes/{studentId}: yalnız öğretmen
     match /classrooms/{classCode} {
-      allow read: if true;
-      allow create: if request.auth != null;
-      allow update: if true;
-      allow delete: if request.auth != null && resource.data.teacherUid == request.auth.uid;
+      function isSignedIn() {
+        return request.auth != null;
+      }
+      function isTeacher() {
+        return isSignedIn() && resource.data.teacherUid == request.auth.uid;
+      }
+      function isTeacherCreate() {
+        return isSignedIn() && request.resource.data.teacherUid == request.auth.uid;
+      }
+      function teacherUidUnchanged() {
+        return request.resource.data.teacherUid == resource.data.teacherUid;
+      }
+      function immutableClassMeta() {
+        return request.resource.data.classCode == resource.data.classCode
+          && (!('createdAt' in resource.data) || request.resource.data.createdAt == resource.data.createdAt);
+      }
+
+      allow get: if isTeacher();
+      allow list: if isSignedIn() && resource.data.teacherUid == request.auth.uid;
+
+      allow create: if isTeacherCreate()
+        && request.resource.data.keys().hasAll([
+          'classCode', 'teacherUid', 'className', 'grade', 'students', 'studentsCount'
+        ])
+        && request.resource.data.classCode is string
+        && request.resource.data.classCode.size() >= 3
+        && request.resource.data.classCode.size() <= 20
+        && request.resource.data.teacherName is string
+        && request.resource.data.teacherName.size() <= 100
+        && request.resource.data.schoolName is string
+        && request.resource.data.schoolName.size() <= 140
+        && request.resource.data.studentsCount == 0
+        && request.resource.data.students.keys().size() == 0
+        && (
+          !('memberIds' in request.resource.data)
+          || (
+            request.resource.data.memberIds is list
+            && request.resource.data.memberIds.size() == 0
+          )
+        );
+
+      // İstemci güncelleme: yalnız öğretmen (ödev, meta, sınav notları). Join/progress → CF Admin.
+      allow update: if isTeacher() && teacherUidUnchanged() && immutableClassMeta();
+
+      allow delete: if isTeacher();
+
+      match /teacherNotes/{studentId} {
+        function ownsClassroom() {
+          return request.auth != null
+            && get(/databases/$(database)/documents/classrooms/$(classCode)).data.teacherUid
+              == request.auth.uid;
+        }
+        allow read: if ownsClassroom();
+        allow create, update: if ownsClassroom()
+          && request.resource.data.keys().hasAll(['text', 'teacherUid', 'studentId'])
+          && request.resource.data.teacherUid == request.auth.uid
+          && request.resource.data.studentId == studentId
+          && request.resource.data.text is string
+          && request.resource.data.text.size() <= 5000;
+        allow delete: if ownsClassroom();
+      }
+
+      // Sharded öğrenci ilerleme alt-koleksiyonu (30+ öğrencili sınıflarda 1 write/sec contention önleme)
+      // Yalnızca sınıf öğretmeni okuyabilir; yazma yalnızca Admin SDK (syncClassroomProgress CF) üzerinden yapılır.
+      match /roster/{studentId} {
+        function ownsClassroomRoster() {
+          return request.auth != null
+            && get(/databases/$(database)/documents/classrooms/$(classCode)).data.teacherUid
+              == request.auth.uid;
+        }
+        allow read: if ownsClassroomRoster();
+        allow write: if false;
+      }
     }
 
     match /b2bLeads/{leadId} {
-      allow create: if request.resource.data.keys().hasAll(['schoolName', 'contactName']);
+      allow create: if request.resource.data.keys().hasAll(['schoolName', 'contactName'])
+        && request.resource.data.keys().size() <= 12
+        && request.resource.data.schoolName is string
+        && request.resource.data.schoolName.size() <= 160
+        && request.resource.data.contactName is string
+        && request.resource.data.contactName.size() <= 120;
       allow read, update, delete: if false;
+    }
+
+    // Veli & Okul İletişim Talepleri — yalnızca Cloud Functions (Admin SDK) erişebilir
+    match /parentFeedback/{ticketId} {
+      allow read, write: if false;
+    }
+
+    // Yönetici rolleri — yalnızca Admin SDK yazabilir
+    match /admins/{adminUid} {
+      allow read: if request.auth != null && request.auth.uid == adminUid;
+      allow write: if false;
     }
   }
 }

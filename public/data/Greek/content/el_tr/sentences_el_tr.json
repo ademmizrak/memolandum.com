@@ -468,7 +468,7 @@
     "id": "el_sent_032",
     "word": "Δεν μπορώ να το αποφύγω.",
     "latin_okunusu": "Den boro na to apofygo.",
-    "translation": "Onsuz yapamam.",
+    "translation": "Bundan kaçınamam.",
     "len": 24,
     "tags": [
       "daily",
@@ -1458,7 +1458,7 @@
     "id": "el_sent_098",
     "word": "Φύγαμε!",
     "latin_okunusu": "Fygame!",
-    "translation": "Başlayalım!",
+    "translation": "Hadi gidelim!",
     "len": 7,
     "tags": [
       "daily",
@@ -1908,7 +1908,7 @@
     "id": "el_biz_028",
     "word": "Παρακαλώ συγχωρήστε την καθυστέρηση.",
     "latin_okunusu": "Parakalo synchoriste tin kathysterisi.",
-    "translation": "Gecikme için lütfen özür dilerim.",
+    "translation": "Gecikme için lütfen kusura bakmayın.",
     "len": 35,
     "tags": [
       "business",
@@ -2985,7 +2985,7 @@
     "audioUrl": "/data/Greek/audio/sentences_el/el_biz_099.mp3"
   },
   {
-    "id": "el_biz_0100",
+    "id": "el_biz_100",
     "word": "Σας ευχαριστώ για τη συζήτηση.",
     "latin_okunusu": "Sas efcharisto gia ti syzitisi.",
     "translation": "Görüşme için çok teşekkürler.",
@@ -3286,7 +3286,7 @@
   },
   {
     "id": "el_dev_020",
-    "word": "Η συνεχή πρόοδος είναι σημαντική.",
+    "word": "Η συνεχής πρόοδος είναι σημαντική.",
     "latin_okunusu": "I synexi proodos einai simantiki.",
     "translation": "İstikrarlı ilerleme önemlidir.",
     "len": 32,
@@ -3297,7 +3297,8 @@
     "audio": {
       "default": "/audio/sentences_el/el_dev_020.mp3"
     },
-    "audioUrl": "/data/Greek/audio/sentences_el/el_dev_020.mp3"
+    "audioUrl": "/data/Greek/audio/sentences_el/el_dev_020.mp3",
+    "romanization": "I synechis proodos einai simantiki."
   },
   {
     "id": "el_dev_021",
@@ -3661,7 +3662,7 @@
   },
   {
     "id": "el_dev_045",
-    "word": "Έχω ένα ξεκάθαρο τρόπο σκέψης.",
+    "word": "Έχω έναν ξεκάθαρο τρόπο σκέψης.",
     "latin_okunusu": "Echo ena xekatharo tropo skepsis.",
     "translation": "Net bir zihniyetim var.",
     "len": 31,
@@ -3672,7 +3673,8 @@
     "audio": {
       "default": "/audio/sentences_el/el_dev_045.mp3"
     },
-    "audioUrl": "/data/Greek/audio/sentences_el/el_dev_045.mp3"
+    "audioUrl": "/data/Greek/audio/sentences_el/el_dev_045.mp3",
+    "romanization": "Echo enan xekatharo tropo skepsis."
   },
   {
     "id": "el_dev_046",
@@ -4833,7 +4835,7 @@
     "id": "el_trv_023",
     "word": "Μπορείτε να βγάλετε μια φωτογραφία;",
     "latin_okunusu": "Boreite na vgalete mia fotografia?",
-    "translation": "Bunu fotoğraflayabilir misiniz?",
+    "translation": "Bir fotoğraf çekebilir misiniz?",
     "len": 33,
     "tags": [
       "travel",
@@ -5133,7 +5135,7 @@
     "id": "el_trv_043",
     "word": "Συγγνώμη, πώς είπατε;",
     "latin_okunusu": "Syngnomi, pos eipate?",
-    "translation": "Affedersiniz, efendim?",
+    "translation": "Affedersiniz, ne dediniz?",
     "len": 21,
     "tags": [
       "travel",
@@ -5802,7 +5804,8 @@
     "audio": {
       "default": "/audio/sentences_el/el_trv_087.mp3"
     },
-    "audioUrl": "/data/Greek/audio/sentences_el/el_trv_087.mp3"
+    "audioUrl": "/data/Greek/audio/sentences_el/el_trv_087.mp3",
+    "romanization": "Yparchoun mesa mazikis metaforas?"
   },
   {
     "id": "el_trv_088",
@@ -6633,7 +6636,7 @@
     "id": "el_soc_043",
     "word": "Ανυπομονώ.",
     "latin_okunusu": "Anypomono.",
-    "translation": "Bunu bekliyorum.",
+    "translation": "Sabırsızlanıyorum. / Dört gözle bekliyorum.",
     "len": 12,
     "tags": [
       "social",
@@ -6678,7 +6681,7 @@
     "id": "el_soc_046",
     "word": "Μου αρέσει πολύ.",
     "latin_okunusu": "Mou aresei poly.",
-    "translation": "Bunu harika buluyorum.",
+    "translation": "Çok hoşuma gidiyor.",
     "len": 16,
     "tags": [
       "social",
@@ -7338,7 +7341,7 @@
     "id": "el_soc_090",
     "word": "Χάρηκα που σε είδα.",
     "latin_okunusu": "Charika pou se eida.",
-    "translation": "Seni görmek güzel.",
+    "translation": "Seni gördüğüme sevindim.",
     "len": 19,
     "tags": [
       "social",
@@ -7458,7 +7461,7 @@
     "id": "el_soc_098",
     "word": "Αυτό είναι καινούργιο για μένα.",
     "latin_okunusu": "Afto einai kainourgio gia mena.",
-    "translation": "Bu bana yeni geldi.",
+    "translation": "Bu benim için yeni bir şey.",
     "len": 29,
     "tags": [
       "social",
